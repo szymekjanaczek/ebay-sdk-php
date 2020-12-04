@@ -21,9 +21,9 @@ class ItemRatingDetailArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ItemRatingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemRatingDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemRatingDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ItemRatingDetails',
         ],
     ];

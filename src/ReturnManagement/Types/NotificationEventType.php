@@ -29,57 +29,57 @@ class NotificationEventType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'NotificationEventName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NotificationEventName',
         ],
-        'RecipientUserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RecipientUserID'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecipientUserID',
         ],
-        'ExternalUserData' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExternalUserData'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExternalUserData',
         ],
-        'ReturnId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnId'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
-        'CreationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'CreationDate'          => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CreationDate',
         ],
-        'OtherPartyId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OtherPartyId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OtherPartyId',
         ],
-        'OtherPartyRole' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OtherPartyRole'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OtherPartyRole',
         ],
-        'ReturnStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnStatus'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnStatus',
         ],
-        'ReturnGlobalId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnGlobalId'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnGlobalId',
         ],
     ];

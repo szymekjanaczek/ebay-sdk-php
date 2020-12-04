@@ -21,9 +21,9 @@ class GetConsolidationJobStatusResponse extends \DTS\eBaySDK\BusinessPoliciesMan
      */
     private static $propertyTypes = [
         'Job' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Job',
         ],
     ];

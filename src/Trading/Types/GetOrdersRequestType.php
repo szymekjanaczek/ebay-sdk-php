@@ -31,76 +31,76 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OrderIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderIDArray'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderIDArray',
         ],
-        'CreateTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'CreateTimeFrom'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CreateTimeFrom',
         ],
-        'CreateTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'CreateTimeTo'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CreateTimeTo',
         ],
-        'OrderRole' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderRole'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderRole',
         ],
-        'OrderStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderStatus'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderStatus',
         ],
-        'ListingType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ListingType'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingType',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'           => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'ModTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModTimeFrom'          => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModTimeTo'            => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'NumberOfDays' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NumberOfDays'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NumberOfDays',
         ],
         'IncludeFinalValueFee' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeFinalValueFee',
         ],
-        'SortingOrder' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SortingOrder'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SortingOrder',
         ],
     ];

@@ -22,22 +22,22 @@ class EscalateToCustomerSupportRequest extends \DTS\eBaySDK\ResolutionCaseManage
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
-            'repeatable' => false,
-            'attribute' => false,
+        'caseId'           => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseId',
         ],
         'escalationReason' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'escalationReason',
         ],
-        'comments' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
     ];

@@ -27,52 +27,52 @@ class GetItemTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaginationResult'               => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'HasMoreTransactions' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HasMoreTransactions'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HasMoreTransactions',
         ],
-        'TransactionsPerPage' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionsPerPage'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionsPerPage',
         ],
-        'PageNumber' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PageNumber'                     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
         'ReturnedTransactionCountActual' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnedTransactionCountActual',
         ],
-        'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Item'                           => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Item',
         ],
-        'TransactionArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionArray'               => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionArray',
         ],
-        'PayPalPreferred' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'PayPalPreferred'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PayPalPreferred',
         ],
     ];

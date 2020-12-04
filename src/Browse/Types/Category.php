@@ -21,9 +21,9 @@ class Category extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
     ];

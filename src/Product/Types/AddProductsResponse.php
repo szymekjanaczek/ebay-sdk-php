@@ -22,15 +22,15 @@ class AddProductsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
      */
     private static $propertyTypes = [
         'addProductResponse' => [
-            'type' => 'DTS\eBaySDK\Product\Types\AddProductResponse',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\AddProductResponse',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'addProductResponse',
         ],
-        'clientBatchId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'clientBatchId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'clientBatchId',
         ],
     ];

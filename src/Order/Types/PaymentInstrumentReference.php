@@ -21,9 +21,9 @@ class PaymentInstrumentReference extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'lastFourDigitForCreditCard' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastFourDigitForCreditCard',
         ],
     ];

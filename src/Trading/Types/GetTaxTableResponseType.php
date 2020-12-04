@@ -22,15 +22,15 @@ class GetTaxTableResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespons
      */
     private static $propertyTypes = [
         'LastUpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LastUpdateTime',
         ],
-        'TaxTable' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TaxTableType',
-            'repeatable' => false,
-            'attribute' => false,
+        'TaxTable'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\TaxTableType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxTable',
         ],
     ];

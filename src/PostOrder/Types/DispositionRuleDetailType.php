@@ -22,22 +22,22 @@ class DispositionRuleDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ruleId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ruleId'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleId',
         ],
-        'ruleName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ruleName'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleName',
         ],
         'ruleTemplate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleTemplate',
         ],
     ];

@@ -22,15 +22,15 @@ class Items extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'commonDescriptions' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\CommonDescriptions',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Browse\Types\CommonDescriptions',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'commonDescriptions',
         ],
-        'items' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Item',
-            'repeatable' => true,
-            'attribute' => false,
+        'items'              => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\Item',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'items',
         ],
     ];

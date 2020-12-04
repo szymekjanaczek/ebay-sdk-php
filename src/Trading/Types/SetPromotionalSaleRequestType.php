@@ -21,16 +21,16 @@ class SetPromotionalSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Action' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Action'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Action',
         ],
         'PromotionalSaleDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotionalSaleType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\PromotionalSaleType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleDetails',
         ],
     ];

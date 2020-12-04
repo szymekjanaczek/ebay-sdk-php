@@ -22,15 +22,15 @@ class DateRange extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'dateFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateFrom',
         ],
-        'dateTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateTo'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateTo',
         ],
     ];

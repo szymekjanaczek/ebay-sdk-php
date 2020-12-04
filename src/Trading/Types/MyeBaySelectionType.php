@@ -27,52 +27,52 @@ class MyeBaySelectionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Include' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Include'                     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Include',
         ],
-        'IncludeItemCount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeItemCount'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeItemCount',
         ],
         'IncludeFavoriteSearcheCount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeFavoriteSearcheCount',
         ],
-        'IncludeFavoriteSellerCount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeFavoriteSellerCount'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeFavoriteSellerCount',
         ],
-        'Sort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Sort'                        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Sort',
         ],
-        'MaxResults' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxResults'                  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxResults',
         ],
-        'UserDefinedListName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UserDefinedListName'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UserDefinedListName',
         ],
-        'IncludeListContents' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeListContents'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeListContents',
         ],
     ];

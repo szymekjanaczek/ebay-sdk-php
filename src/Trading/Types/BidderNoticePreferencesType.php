@@ -21,9 +21,9 @@ class BidderNoticePreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'UnsuccessfulBidderNoticeIncludeMyItems' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UnsuccessfulBidderNoticeIncludeMyItems',
         ],
     ];

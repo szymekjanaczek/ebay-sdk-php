@@ -21,9 +21,9 @@ class GetCustomListDetailResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'listDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listDetail',
         ],
     ];

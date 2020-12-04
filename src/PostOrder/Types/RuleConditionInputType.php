@@ -24,34 +24,34 @@ class RuleConditionInputType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dataList' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
-            'repeatable' => true,
-            'attribute' => false,
+        'dataList'      => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dataList',
         ],
-        'dataRange' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataRange'     => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataRange',
         ],
-        'isEbayPlus' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'isEbayPlus'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isEbayPlus',
         ],
         'storeCategory' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'storeCategory',
         ],
-        'storeId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'storeId'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'storeId',
         ],
     ];

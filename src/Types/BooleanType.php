@@ -14,9 +14,9 @@ class BooleanType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'value' => [
-            'type' => 'boolean',
+            'type'       => 'boolean',
             'repeatable' => false,
-            'attribute' => false,
+            'attribute'  => false,
         ],
     ];
 

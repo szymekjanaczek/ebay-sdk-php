@@ -23,21 +23,21 @@ class ShippingFulfillmentPagedCollection extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'fulfillments' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'fulfillments',
         ],
-        'total' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'total'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'total',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'     => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

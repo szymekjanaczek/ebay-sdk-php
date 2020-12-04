@@ -24,27 +24,27 @@ class ExternalPaymentMethod extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'paymentMethodName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentMethodName',
         ],
         'paymentMethodType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentMethodType',
         ],
-        'primary' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'primary'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'primary',
         ],
-        'verified' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'verified'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'verified',
         ],
     ];

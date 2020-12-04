@@ -22,15 +22,15 @@ class Region extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'regionName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'regionName',
         ],
         'regionType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'regionType',
         ],
     ];

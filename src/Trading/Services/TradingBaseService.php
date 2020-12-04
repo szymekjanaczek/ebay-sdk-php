@@ -62,22 +62,22 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Trading\Services\TradingService::API_VERSION,
-                'required' => true,
-            ],
-            'authorization' => [
-                'valid' => ['string'],
-            ],
-            'authToken' => [
-                'valid' => ['string'],
-            ],
-            'siteId' => [
-                'valid' => ['int', 'string'],
-                'required' => true,
-            ],
-        ];
+                'apiVersion'    => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\Trading\Services\TradingService::API_VERSION,
+                    'required' => true,
+                ],
+                'authorization' => [
+                    'valid' => ['string'],
+                ],
+                'authToken'     => [
+                    'valid' => ['string'],
+                ],
+                'siteId'        => [
+                    'valid'    => ['int', 'string'],
+                    'required' => true,
+                ],
+            ];
     }
 
     /**
@@ -129,16 +129,16 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
     protected function getEbayHeaders($operationName)
     {
         $credentials = $this->getConfig('credentials');
-        $appId = $credentials->getAppId();
-        $certId = $credentials->getCertId();
-        $devId = $credentials->getDevId();
+        $appId       = $credentials->getAppId();
+        $certId      = $credentials->getCertId();
+        $devId       = $credentials->getDevId();
 
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_API_VERSION] = $this->getConfig('apiVersion');
+        $headers[self::HDR_API_VERSION]    = $this->getConfig('apiVersion');
         $headers[self::HDR_OPERATION_NAME] = $operationName;
-        $headers[self::HDR_SITE_ID] = $this->getConfig('siteId');
+        $headers[self::HDR_SITE_ID]        = $this->getConfig('siteId');
 
         // Add optional headers.
         if ($appId) {

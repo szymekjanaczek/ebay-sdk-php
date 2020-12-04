@@ -27,52 +27,52 @@ class PropertyMetadata extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'propertyName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'propertyName'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'propertyName',
         ],
-        'alternatePropertyName' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'alternatePropertyName'   => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'alternatePropertyName',
         ],
-        'dataType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataType'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataType',
         ],
         'typeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\TypeSpecificInformation',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\TypeSpecificInformation',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'typeSpecificInformation',
         ],
-        'multiValued' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'multiValued'             => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'multiValued',
         ],
-        'canonicalName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'canonicalName'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'canonicalName',
         ],
-        'propertyTags' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Tag',
-            'repeatable' => true,
-            'attribute' => false,
+        'propertyTags'            => [
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\Tag',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'propertyTags',
         ],
-        'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'description'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
     ];

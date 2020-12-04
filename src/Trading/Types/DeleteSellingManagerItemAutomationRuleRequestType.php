@@ -22,22 +22,22 @@ class DeleteSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Tra
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'DeleteAutomatedRelistingRule' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeleteAutomatedRelistingRule'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeleteAutomatedRelistingRule',
         ],
         'DeleteAutomatedSecondChanceOfferRule' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeleteAutomatedSecondChanceOfferRule',
         ],
     ];

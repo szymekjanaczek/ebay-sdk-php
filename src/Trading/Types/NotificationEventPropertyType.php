@@ -23,21 +23,21 @@ class NotificationEventPropertyType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'EventType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EventType',
         ],
-        'Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Name'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'Value' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Value'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Value',
         ],
     ];

@@ -27,52 +27,52 @@ class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Address' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AddressType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Address'                      => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AddressType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Address',
         ],
-        'Fax' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Fax'                          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Fax',
         ],
-        'Email' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Email'                        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Email',
         ],
         'AdditionalContactInformation' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AdditionalContactInformation',
         ],
-        'TradeRegistrationNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TradeRegistrationNumber'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TradeRegistrationNumber',
         ],
-        'LegalInvoice' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'LegalInvoice'                 => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LegalInvoice',
         ],
-        'TermsAndConditions' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TermsAndConditions'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TermsAndConditions',
         ],
-        'VATDetails' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\VATDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'VATDetails'                   => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\VATDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VATDetails',
         ],
     ];

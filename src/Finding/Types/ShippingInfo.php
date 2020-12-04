@@ -26,46 +26,46 @@ class ShippingInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'shippingServiceCost' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingServiceCost'     => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceCost',
         ],
-        'shippingType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingType'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingType',
         ],
-        'shipToLocations' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'shipToLocations'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'shipToLocations',
         ],
-        'expeditedShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'expeditedShipping'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'expeditedShipping',
         ],
         'oneDayShippingAvailable' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'oneDayShippingAvailable',
         ],
-        'handlingTime' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'handlingTime'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'handlingTime',
         ],
-        'intermediatedShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'intermediatedShipping'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'intermediatedShipping',
         ],
     ];

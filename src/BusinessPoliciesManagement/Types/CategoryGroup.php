@@ -23,21 +23,21 @@ class CategoryGroup extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'default' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'default',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'ETRS' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ETRS'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ETRS',
         ],
     ];

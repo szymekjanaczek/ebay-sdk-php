@@ -23,28 +23,28 @@ class GetProductSearchValuesResponse extends \DTS\eBaySDK\ProductMetadata\Types\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'metadataVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'metadataVersion'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'metadataVersion',
         ],
-        'propertyValues' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyValue',
-            'repeatable' => true,
-            'attribute' => false,
+        'propertyValues'     => [
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\PropertyValue',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'propertyValues',
         ],
         'propertyValuesTree' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'propertyValuesTree',
         ],
-        'treeFormat' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'treeFormat'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'treeFormat',
         ],
     ];

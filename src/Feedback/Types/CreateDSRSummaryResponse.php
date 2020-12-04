@@ -21,9 +21,9 @@ class CreateDSRSummaryResponse extends \DTS\eBaySDK\Feedback\Types\BaseServiceRe
      */
     private static $propertyTypes = [
         'jobId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jobId',
         ],
     ];

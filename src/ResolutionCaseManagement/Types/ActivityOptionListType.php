@@ -30,70 +30,70 @@ class ActivityOptionListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'offerOtherSolution' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'offerOtherSolution'            => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offerOtherSolution',
         ],
-        'provideTrackingInfo' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'provideTrackingInfo'           => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'provideTrackingInfo',
         ],
-        'issueFullRefund' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'issueFullRefund'               => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'issueFullRefund',
         ],
-        'issuePartialRefund' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'issuePartialRefund'            => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'issuePartialRefund',
         ],
-        'provideShippingInfo' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'provideShippingInfo'           => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'provideShippingInfo',
         ],
-        'requestBuyerToReturn' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'requestBuyerToReturn'          => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'requestBuyerToReturn',
         ],
         'provideShippingOrTrackingInfo' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingOrTrackingInfoOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingOrTrackingInfoOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'provideShippingOrTrackingInfo',
         ],
-        'provideRefundInfo' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'provideRefundInfo'             => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'provideRefundInfo',
         ],
-        'contactCustomerSupport' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'contactCustomerSupport'        => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'contactCustomerSupport',
         ],
-        'escalateToCustomerSupport' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'escalateToCustomerSupport'     => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'escalateToCustomerSupport',
         ],
-        'appealToCustomerSupport' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'appealToCustomerSupport'       => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'appealToCustomerSupport',
         ],
     ];

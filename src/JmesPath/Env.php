@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -39,7 +40,7 @@ final class Env
      * Returns data from the input array that matches a JMESPath expression.
      *
      * @param string $expression JMESPath expression to evaluate
-     * @param mixed  $data       JSON-like data to search
+     * @param mixed $data JSON-like data to search
      *
      * @return mixed|null Returns the matching data or null
      */
@@ -61,9 +62,12 @@ final class Env
     public static function createRuntime()
     {
         switch ($compileDir = getenv(self::COMPILE_DIR)) {
-            case false: return new AstRuntime();
-            case 'on': return new CompilerRuntime();
-            default: return new CompilerRuntime($compileDir);
+            case false:
+                return new AstRuntime();
+            case 'on':
+                return new CompilerRuntime();
+            default:
+                return new CompilerRuntime($compileDir);
         }
     }
 
@@ -75,7 +79,7 @@ final class Env
      */
     public static function cleanCompileDir()
     {
-        $total = 0;
+        $total      = 0;
         $compileDir = getenv(self::COMPILE_DIR) ?: sys_get_temp_dir();
         foreach (glob("{$compileDir}/jmespath_*.php") as $file) {
             $total++;

@@ -22,15 +22,15 @@ class IssueFullRefundResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Type
      */
     private static $propertyTypes = [
         'fullRefundStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fullRefundStatus',
         ],
-        'refundDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundDate'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundDate',
         ],
     ];

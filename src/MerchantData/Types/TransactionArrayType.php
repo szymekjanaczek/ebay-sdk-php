@@ -21,9 +21,9 @@ class TransactionArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Transaction' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\TransactionType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Transaction',
         ],
     ];

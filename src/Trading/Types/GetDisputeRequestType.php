@@ -21,9 +21,9 @@ class GetDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      */
     private static $propertyTypes = [
         'DisputeID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisputeID',
         ],
     ];

@@ -29,57 +29,57 @@ class SellerPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'AlwaysUseThisPaymentAddress' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AlwaysUseThisPaymentAddress',
         ],
-        'DisplayPayNowButton' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DisplayPayNowButton'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisplayPayNowButton',
         ],
-        'PayPalPreferred' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'PayPalPreferred'             => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PayPalPreferred',
         ],
-        'DefaultPayPalEmailAddress' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DefaultPayPalEmailAddress'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DefaultPayPalEmailAddress',
         ],
-        'PayPalAlwaysOn' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'PayPalAlwaysOn'              => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PayPalAlwaysOn',
         ],
-        'SellerPaymentAddress' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerPaymentAddress'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AddressType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerPaymentAddress',
         ],
-        'UPSRateOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UPSRateOption'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UPSRateOption',
         ],
-        'FedExRateOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FedExRateOption'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FedExRateOption',
         ],
-        'USPSRateOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'USPSRateOption'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'USPSRateOption',
         ],
     ];

@@ -21,9 +21,9 @@ class AddItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTy
      */
     private static $propertyTypes = [
         'AddItemResponseContainer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AddItemResponseContainerType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\AddItemResponseContainerType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'AddItemResponseContainer',
         ],
     ];

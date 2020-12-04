@@ -22,15 +22,15 @@ class ProductByCompatibilityRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'applicationPropertyFilter' => [
-            'type' => 'DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'applicationPropertyFilter',
         ],
-        'productSearch' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductRequest',
-            'repeatable' => false,
-            'attribute' => false,
+        'productSearch'             => [
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductRequest',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productSearch',
         ],
     ];

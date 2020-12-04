@@ -29,64 +29,64 @@ class CreateReportTask extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'campaignIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'campaignIds'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'campaignIds',
         ],
-        'dateFrom' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateFrom'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateFrom',
         ],
-        'dateTo' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateTo'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateTo',
         ],
-        'dimensions' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Dimension',
-            'repeatable' => true,
-            'attribute' => false,
+        'dimensions'          => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Dimension',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dimensions',
         ],
         'inventoryReferences' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryReference',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\InventoryReference',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'inventoryReferences',
         ],
-        'listingIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'listingIds'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'listingIds',
         ],
-        'marketplaceId' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'       => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'metricKeys' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'metricKeys'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'metricKeys',
         ],
-        'reportFormat' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportFormat'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportFormat',
         ],
-        'reportType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportType'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportType',
         ],
     ];

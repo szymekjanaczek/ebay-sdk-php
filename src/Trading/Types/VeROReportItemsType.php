@@ -21,9 +21,9 @@ class VeROReportItemsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ReportItem' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VeROReportItemType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\VeROReportItemType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ReportItem',
         ],
     ];

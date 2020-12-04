@@ -22,22 +22,22 @@ class Definition extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dataType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataType'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataType',
         ],
-        'key' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'key'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'key',
         ],
         'localizedName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'localizedName',
         ],
     ];

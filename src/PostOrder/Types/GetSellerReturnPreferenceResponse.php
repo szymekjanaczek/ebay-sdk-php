@@ -24,27 +24,27 @@ class GetSellerReturnPreferenceResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'advanceRulesEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'advanceRulesEnabled',
         ],
-        'basicRules' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailType',
-            'repeatable' => true,
-            'attribute' => false,
+        'basicRules'          => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleDetailType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'basicRules',
         ],
-        'RMARequired' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'RMARequired'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RMARequired',
         ],
-        'versionId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'versionId'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'versionId',
         ],
     ];

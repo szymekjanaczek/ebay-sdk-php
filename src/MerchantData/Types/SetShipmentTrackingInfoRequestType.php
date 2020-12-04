@@ -24,34 +24,34 @@ class SetShipmentTrackingInfoRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OrderID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderID',
         ],
         'OrderLineItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
-        'Shipment' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Shipment'        => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ShipmentType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Shipment',
         ],
-        'IsShipped' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IsShipped'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IsShipped',
         ],
-        'IsPaid' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IsPaid'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IsPaid',
         ],
     ];

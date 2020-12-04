@@ -22,15 +22,15 @@ class InventoryFeesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'Fee' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\FeeType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Fee'    => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\FeeType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Fee',
         ],
     ];

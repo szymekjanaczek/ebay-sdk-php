@@ -22,15 +22,15 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'default' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'default',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
     ];

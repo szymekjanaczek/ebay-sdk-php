@@ -22,15 +22,15 @@ class VoluntaryRefundResult extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'refundSource' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundSource',
         ],
         'refundStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundStatus',
         ],
     ];

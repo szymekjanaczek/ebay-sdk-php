@@ -22,22 +22,22 @@ class StartDownloadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseSe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'downloadJobType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'downloadJobType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'downloadJobType',
         ],
-        'UUID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UUID'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UUID',
         ],
         'downloadRequestFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'downloadRequestFilter',
         ],
     ];

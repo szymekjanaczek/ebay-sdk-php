@@ -26,46 +26,46 @@ class SellingManagerFolderDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderID'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
         'ParentFolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ParentFolderID',
         ],
-        'FolderLevel' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderLevel'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderLevel',
         ],
-        'FolderName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderName'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderName',
         ],
-        'FolderComment' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderComment'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderComment',
         ],
-        'ChildFolder' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ChildFolder'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ChildFolder',
         ],
-        'CreationTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'CreationTime'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CreationTime',
         ],
     ];

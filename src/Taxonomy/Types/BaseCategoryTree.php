@@ -21,16 +21,16 @@ class BaseCategoryTree extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryTreeId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
         'categoryTreeVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeVersion',
         ],
     ];

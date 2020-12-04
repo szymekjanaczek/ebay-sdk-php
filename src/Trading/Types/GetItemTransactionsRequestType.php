@@ -30,70 +30,70 @@ class GetItemTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'ModTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModTimeFrom'            => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModTimeTo'              => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'TransactionID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionID'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'IncludeFinalValueFee' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeFinalValueFee'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeFinalValueFee',
         ],
         'IncludeContainingOrder' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeContainingOrder',
         ],
-        'Platform' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Platform'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Platform',
         ],
-        'NumberOfDays' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NumberOfDays'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NumberOfDays',
         ],
-        'IncludeVariations' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeVariations'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeVariations',
         ],
-        'OrderLineItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderLineItemID'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
     ];

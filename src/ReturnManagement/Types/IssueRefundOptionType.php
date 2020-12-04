@@ -21,9 +21,9 @@ class IssueRefundOptionType extends \DTS\eBaySDK\ReturnManagement\Types\BaseActi
      */
     private static $propertyTypes = [
         'daysToRefundBuyer' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'daysToRefundBuyer',
         ],
     ];

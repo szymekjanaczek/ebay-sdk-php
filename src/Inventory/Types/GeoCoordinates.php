@@ -21,16 +21,16 @@ class GeoCoordinates extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'latitude' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'latitude'  => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'latitude',
         ],
         'longitude' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'longitude',
         ],
     ];

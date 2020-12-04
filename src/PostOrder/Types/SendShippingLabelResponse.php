@@ -21,9 +21,9 @@ class SendShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'labelURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'labelURL',
         ],
     ];

@@ -21,9 +21,9 @@ class GetCancelDetailResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'cancelDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CancelDetail',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\CancelDetail',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelDetail',
         ],
     ];

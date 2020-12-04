@@ -23,28 +23,28 @@ class RecoupmentPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'EnforcedOnListingSite' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'EnforcedOnListingSite'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EnforcedOnListingSite',
         ],
         'EnforcedOnRegistrationSite' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EnforcedOnRegistrationSite',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'                 => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

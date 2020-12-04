@@ -28,58 +28,58 @@ class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TimeZoneID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TimeZoneID'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TimeZoneID',
         ],
-        'Hours1Days' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Hours1Days'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Hours1Days',
         ],
         'Hours1AnyTime' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Hours1AnyTime',
         ],
-        'Hours1From' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Hours1From'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Hours1From',
         ],
-        'Hours1To' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Hours1To'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Hours1To',
         ],
-        'Hours2Days' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Hours2Days'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Hours2Days',
         ],
         'Hours2AnyTime' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Hours2AnyTime',
         ],
-        'Hours2From' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Hours2From'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Hours2From',
         ],
-        'Hours2To' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Hours2To'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Hours2To',
         ],
     ];

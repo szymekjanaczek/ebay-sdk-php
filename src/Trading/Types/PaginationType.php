@@ -22,15 +22,15 @@ class PaginationType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'EntriesPerPage' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EntriesPerPage',
         ],
-        'PageNumber' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PageNumber'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
     ];

@@ -21,9 +21,9 @@ class FeedbackCommentArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'StoredCommentText' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'StoredCommentText',
         ],
     ];

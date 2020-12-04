@@ -29,64 +29,64 @@ class InternationalShippingServiceOptionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingInsuranceCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingInsuranceCost'         => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingInsuranceCost',
         ],
-        'ShippingServiceName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServiceName'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceName',
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceAdditionalCost',
         ],
-        'ShippingServiceCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServiceCost'           => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceCost',
         ],
-        'ShippingServicePriority' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServicePriority'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServicePriority',
         ],
-        'ShipsTo' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ShipsTo'                       => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ShipsTo',
         ],
-        'EstimatedDeliveryMinTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EstimatedDeliveryMinTime'      => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EstimatedDeliveryMinTime',
         ],
-        'EstimatedDeliveryMaxTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EstimatedDeliveryMaxTime'      => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EstimatedDeliveryMaxTime',
         ],
-        'ImportCharge' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ImportCharge'                  => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ImportCharge',
         ],
-        'ShippingServiceCutOffTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServiceCutOffTime'     => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceCutOffTime',
         ],
     ];

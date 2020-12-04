@@ -28,58 +28,58 @@ class StoreFontType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'NameFace' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'NameFace'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NameFace',
         ],
-        'NameSize' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'NameSize'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NameSize',
         ],
-        'NameColor' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'NameColor'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NameColor',
         ],
-        'TitleFace' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TitleFace'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TitleFace',
         ],
-        'TitleSize' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TitleSize'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TitleSize',
         ],
         'TitleColor' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TitleColor',
         ],
-        'DescFace' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DescFace'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DescFace',
         ],
-        'DescSize' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DescSize'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DescSize',
         ],
-        'DescColor' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DescColor'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DescColor',
         ],
     ];

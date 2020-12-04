@@ -23,21 +23,21 @@ class VariationProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ISBN' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ISBN',
         ],
-        'UPC' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UPC'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UPC',
         ],
-        'EAN' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EAN'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EAN',
         ],
     ];

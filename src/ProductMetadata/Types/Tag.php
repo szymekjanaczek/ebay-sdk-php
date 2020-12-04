@@ -23,28 +23,28 @@ class Tag extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'dataType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataType'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataType',
         ],
-        'value' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'value'       => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
         'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
     ];

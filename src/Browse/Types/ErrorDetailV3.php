@@ -28,58 +28,58 @@ class ErrorDetailV3 extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'category' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'category'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'category',
         ],
-        'domain' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'domain'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'domain',
         ],
-        'errorId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'errorId'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorId',
         ],
-        'inputRefIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'inputRefIds'  => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'inputRefIds',
         ],
-        'longMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'longMessage'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'longMessage',
         ],
-        'message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'message'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'message',
         ],
         'outputRefIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'outputRefIds',
         ],
-        'parameters' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ErrorParameterV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'parameters'   => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\ErrorParameterV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'parameters',
         ],
-        'subdomain' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'subdomain'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'subdomain',
         ],
     ];

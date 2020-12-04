@@ -22,22 +22,22 @@ class SetStoreCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TaskID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'TaskID'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaskID',
         ],
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
         'CustomCategory' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CustomCategory',
         ],
     ];

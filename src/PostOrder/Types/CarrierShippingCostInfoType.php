@@ -21,16 +21,16 @@ class CarrierShippingCostInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrier' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'carrier'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrier',
         ],
         'shippingCost' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
     ];

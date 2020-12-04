@@ -21,9 +21,9 @@ class ErrorMessage extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'error' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Error',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Error',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'error',
         ],
     ];

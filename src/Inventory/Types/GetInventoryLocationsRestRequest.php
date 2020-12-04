@@ -21,16 +21,16 @@ class GetInventoryLocationsRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'limit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
         'offset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
     ];

@@ -21,9 +21,9 @@ class Tax extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'amount',
         ],
     ];

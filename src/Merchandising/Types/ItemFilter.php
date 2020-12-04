@@ -23,28 +23,28 @@ class ItemFilter extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'paramName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paramName'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paramName',
         ],
         'paramValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paramValue',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'value' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'value'      => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

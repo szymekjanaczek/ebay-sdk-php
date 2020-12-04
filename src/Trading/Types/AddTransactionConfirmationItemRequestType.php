@@ -27,52 +27,52 @@ class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Typ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'RecipientUserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RecipientUserID'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecipientUserID',
         ],
         'VerifyEligibilityOnly' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VerifyEligibilityOnly',
         ],
-        'RecipientPostalCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RecipientPostalCode'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecipientPostalCode',
         ],
         'RecipientRelationType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecipientRelationType',
         ],
-        'NegotiatedPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'NegotiatedPrice'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NegotiatedPrice',
         ],
-        'ListingDuration' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ListingDuration'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingDuration',
         ],
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'Comments' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Comments'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Comments',
         ],
     ];

@@ -25,33 +25,33 @@ class ShippingCarrierDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ShippingCarrierID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingCarrierID',
         ],
-        'Description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Description'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'ShippingCarrier' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingCarrier'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingCarrier',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'        => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

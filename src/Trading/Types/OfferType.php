@@ -33,88 +33,88 @@ class OfferType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Action' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Action'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Action',
         ],
-        'Currency' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Currency'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Currency',
         ],
-        'MaxBid' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxBid'              => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxBid',
         ],
-        'Quantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Quantity'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Quantity',
         ],
         'SecondChanceEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SecondChanceEnabled',
         ],
-        'SiteCurrency' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SiteCurrency'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SiteCurrency',
         ],
-        'TimeBid' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'TimeBid'             => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TimeBid',
         ],
-        'HighestBid' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'HighestBid'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HighestBid',
         ],
-        'ConvertedPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ConvertedPrice'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ConvertedPrice',
         ],
-        'User' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'User'                => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\UserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'User',
         ],
-        'UserConsent' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'UserConsent'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UserConsent',
         ],
-        'Message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Message'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Message',
         ],
-        'BestOfferID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BestOfferID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOfferID',
         ],
-        'MyMaxBid' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MyMaxBid'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MyMaxBid',
         ],
     ];

@@ -25,33 +25,33 @@ class ComplianceViolation extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'complianceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'complianceType',
         ],
-        'listingId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingId',
         ],
-        'sku' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sku'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sku',
         ],
-        'offerId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offerId'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offerId',
         ],
-        'violations' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\ComplianceDetail',
-            'repeatable' => true,
-            'attribute' => false,
+        'violations'     => [
+            'type'        => 'DTS\eBaySDK\Compliance\Types\ComplianceDetail',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'violations',
         ],
     ];

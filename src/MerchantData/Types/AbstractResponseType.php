@@ -34,94 +34,94 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Timestamp' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'Timestamp'                  => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Timestamp',
         ],
-        'Ack' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Ack'                        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Ack',
         ],
-        'CorrelationID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CorrelationID'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CorrelationID',
         ],
-        'Errors' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ErrorType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Errors'                     => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ErrorType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Errors',
         ],
-        'Message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Message'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Message',
         ],
-        'Version' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Version'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Version',
         ],
-        'Build' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Build'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Build',
         ],
-        'NotificationEventName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'NotificationEventName'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NotificationEventName',
         ],
         'DuplicateInvocationDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\DuplicateInvocationDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\DuplicateInvocationDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DuplicateInvocationDetails',
         ],
-        'RecipientUserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RecipientUserID'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecipientUserID',
         ],
-        'EIASToken' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EIASToken'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EIASToken',
         ],
-        'NotificationSignature' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'NotificationSignature'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NotificationSignature',
         ],
-        'HardExpirationWarning' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'HardExpirationWarning'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HardExpirationWarning',
         ],
-        'BotBlock' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\BotBlockResponseType',
-            'repeatable' => false,
-            'attribute' => false,
+        'BotBlock'                   => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\BotBlockResponseType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BotBlock',
         ],
-        'ExternalUserData' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExternalUserData'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExternalUserData',
         ],
     ];

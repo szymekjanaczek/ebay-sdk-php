@@ -21,9 +21,9 @@ class GetGuestCheckoutSessionRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'checkoutSessionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'checkoutSessionId',
         ],
     ];

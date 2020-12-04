@@ -26,39 +26,39 @@ class CreateCampaignRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'campaignCriterion' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\CampaignCriterion',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\CampaignCriterion',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'campaignCriterion',
         ],
-        'campaignName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'campaignName'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'campaignName',
         ],
-        'endDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'endDate'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'endDate',
         ],
-        'fundingStrategy' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\FundingStrategy',
-            'repeatable' => false,
-            'attribute' => false,
+        'fundingStrategy'   => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\FundingStrategy',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fundingStrategy',
         ],
-        'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'startDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'startDate'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'startDate',
         ],
     ];

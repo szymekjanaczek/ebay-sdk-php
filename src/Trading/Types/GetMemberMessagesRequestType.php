@@ -28,58 +28,58 @@ class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'MailMessageType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MailMessageType'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MailMessageType',
         ],
-        'MessageStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageStatus'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageStatus',
         ],
-        'DisplayToPublic' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'DisplayToPublic'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisplayToPublic',
         ],
         'StartCreationTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartCreationTime',
         ],
-        'EndCreationTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndCreationTime'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndCreationTime',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'MemberMessageID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MemberMessageID'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MemberMessageID',
         ],
-        'SenderID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SenderID'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SenderID',
         ],
     ];

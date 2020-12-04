@@ -21,16 +21,16 @@ class TotalRefundAmountType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'actualRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'actualRefundAmount'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'actualRefundAmount',
         ],
         'estimatedRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'estimatedRefundAmount',
         ],
     ];

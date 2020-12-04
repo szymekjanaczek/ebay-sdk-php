@@ -21,16 +21,16 @@ class AspectValue extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'localizedValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'localizedValue'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'localizedValue',
         ],
         'valueConstraints' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\ValueConstraint',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Taxonomy\Types\ValueConstraint',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'valueConstraints',
         ],
     ];

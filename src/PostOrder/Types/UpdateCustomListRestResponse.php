@@ -28,22 +28,22 @@ class UpdateCustomListRestResponse extends \DTS\eBaySDK\PostOrder\Types\ModifyCu
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'error' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Error',
-            'repeatable' => true,
-            'attribute' => false,
+        'error'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Error',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'error',
         ],
-        'errors' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'errors'   => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'errors',
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

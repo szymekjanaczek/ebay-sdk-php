@@ -22,22 +22,22 @@ class FeeSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'fees' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Fee',
-            'repeatable' => true,
-            'attribute' => false,
+        'fees'          => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Fee',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'fees',
         ],
         'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'      => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

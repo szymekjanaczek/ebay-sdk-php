@@ -21,16 +21,16 @@ class AddItemRequestContainerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Item'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Item',
         ],
         'MessageID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageID',
         ],
     ];

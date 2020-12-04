@@ -21,9 +21,9 @@ class InventoryItem extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'inventoryReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceId',
         ],
     ];

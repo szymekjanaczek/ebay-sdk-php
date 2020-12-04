@@ -22,22 +22,22 @@ class ReviseMyMessagesFoldersRequestType extends \DTS\eBaySDK\Trading\Types\Abst
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Operation' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Operation'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Operation',
         ],
-        'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => true,
-            'attribute' => false,
+        'FolderID'   => [
+            'type'        => 'integer',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
         'FolderName' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'FolderName',
         ],
     ];

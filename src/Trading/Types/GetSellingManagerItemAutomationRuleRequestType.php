@@ -21,9 +21,9 @@ class GetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Tradin
      */
     private static $propertyTypes = [
         'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
     ];

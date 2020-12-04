@@ -27,52 +27,52 @@ class ShipPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MeasurementUnit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MeasurementUnit'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MeasurementUnit',
         ],
-        'PackageDepth' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PackageDepth'      => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PackageDepth',
         ],
-        'PackageLength' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PackageLength'     => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PackageLength',
         ],
-        'PackageWidth' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PackageWidth'      => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PackageWidth',
         ],
         'ShippingIrregular' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingIrregular',
         ],
-        'ShippingPackage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingPackage'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingPackage',
         ],
-        'WeightMajor' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'WeightMajor'       => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WeightMajor',
         ],
-        'WeightMinor' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'WeightMinor'       => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WeightMinor',
         ],
     ];

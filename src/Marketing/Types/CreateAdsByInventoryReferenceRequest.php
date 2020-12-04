@@ -22,22 +22,22 @@ class CreateAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'bidPercentage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'bidPercentage'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bidPercentage',
         ],
-        'inventoryReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'inventoryReferenceId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceType',
         ],
     ];

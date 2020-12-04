@@ -24,34 +24,34 @@ class GetReturnRuleHistoryRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'limit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'ruleId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ruleId'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleId',
         ],
         'trigger_date_range_from' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trigger_date_range_from',
         ],
-        'trigger_date_range_to' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'trigger_date_range_to'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trigger_date_range_to',
         ],
     ];

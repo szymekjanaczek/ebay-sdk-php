@@ -21,9 +21,9 @@ class CreateDSRSummaryByTransactionRequest extends \DTS\eBaySDK\Feedback\Types\B
      */
     private static $propertyTypes = [
         'transactionKey' => [
-            'type' => 'DTS\eBaySDK\Feedback\Types\TransactionKey',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Feedback\Types\TransactionKey',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'transactionKey',
         ],
     ];

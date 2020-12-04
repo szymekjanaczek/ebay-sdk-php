@@ -21,9 +21,9 @@ class CloneCampaignRestRequest extends \DTS\eBaySDK\Marketing\Types\CloneCampaig
      */
     private static $propertyTypes = [
         'campaign_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'campaign_id',
         ],
     ];

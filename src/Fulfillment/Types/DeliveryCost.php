@@ -23,28 +23,28 @@ class DeliveryCost extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'importCharges' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'importCharges'             => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'importCharges',
         ],
-        'shippingCost' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCost'              => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
         'shippingIntermediationFee' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingIntermediationFee',
         ],
-        'discountAmount' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'discountAmount'            => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'discountAmount',
         ],
     ];

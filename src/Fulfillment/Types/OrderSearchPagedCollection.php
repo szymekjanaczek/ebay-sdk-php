@@ -27,52 +27,52 @@ class OrderSearchPagedCollection extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'href' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'href'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'href',
         ],
-        'limit' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'next' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'next'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'next',
         ],
-        'offset' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'orders' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Order',
-            'repeatable' => true,
-            'attribute' => false,
+        'orders'   => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Order',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'orders',
         ],
-        'prev' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'prev'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'total' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'total'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'total',
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

@@ -44,154 +44,154 @@ class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Sender' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Sender'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Sender',
         ],
-        'RecipientUserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RecipientUserID'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecipientUserID',
         ],
-        'SendToName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SendToName'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SendToName',
         ],
-        'Subject' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Subject'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Subject',
         ],
-        'MessageID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageID',
         ],
         'ExternalMessageID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExternalMessageID',
         ],
-        'ContentType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ContentType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ContentType',
         ],
-        'Text' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Text'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Text',
         ],
-        'Flagged' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Flagged'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Flagged',
         ],
-        'Read' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Read'              => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Read',
         ],
-        'CreationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'CreationDate'      => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CreationDate',
         ],
-        'ReceiveDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReceiveDate'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReceiveDate',
         ],
-        'ExpirationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExpirationDate'    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExpirationDate',
         ],
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'ResponseDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ResponseDetails'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ResponseDetails',
         ],
-        'Folder' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Folder'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Folder',
         ],
-        'Content' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Content'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Content',
         ],
-        'MessageType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageType',
         ],
-        'ListingStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ListingStatus'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingStatus',
         ],
-        'QuestionType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'QuestionType'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuestionType',
         ],
-        'Replied' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Replied'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Replied',
         ],
-        'HighPriority' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HighPriority'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HighPriority',
         ],
-        'ItemEndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemEndTime'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemEndTime',
         ],
-        'ItemTitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemTitle'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemTitle',
         ],
-        'MessageMedia' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
-            'repeatable' => true,
-            'attribute' => false,
+        'MessageMedia'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'MessageMedia',
         ],
     ];

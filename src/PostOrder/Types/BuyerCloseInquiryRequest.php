@@ -22,15 +22,15 @@ class BuyerCloseInquiryRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'closeReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'closeReason',
         ],
-        'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
     ];

@@ -23,21 +23,21 @@ class FindBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseR
      */
     private static $propertyTypes = [
         'bundleDetailSelector' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleDetailSelector',
         ],
-        'findAllByStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'findAllByStatus'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'findAllByStatus',
         ],
-        'bundleFilter' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'bundleFilter'         => [
+            'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'bundleFilter',
         ],
     ];

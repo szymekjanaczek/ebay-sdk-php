@@ -21,16 +21,16 @@ class ListDataType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'id'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'id',
         ],
         'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
     ];

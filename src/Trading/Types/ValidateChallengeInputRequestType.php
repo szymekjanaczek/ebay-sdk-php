@@ -23,21 +23,21 @@ class ValidateChallengeInputRequestType extends \DTS\eBaySDK\Trading\Types\Abstr
      */
     private static $propertyTypes = [
         'ChallengeToken' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ChallengeToken',
         ],
-        'UserInput' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UserInput'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UserInput',
         ],
         'KeepTokenValid' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'KeepTokenValid',
         ],
     ];

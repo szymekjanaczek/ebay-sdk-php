@@ -21,9 +21,9 @@ class ErrorParameter extends \DTS\eBaySDK\Types\StringType
      */
     private static $propertyTypes = [
         'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'name',
         ],
     ];

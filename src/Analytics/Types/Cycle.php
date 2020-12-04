@@ -22,22 +22,22 @@ class Cycle extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'cycleType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cycleType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cycleType',
         ],
-        'evaluationDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'evaluationDate'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'evaluationDate',
         ],
         'evaluationMonth' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'evaluationMonth',
         ],
     ];

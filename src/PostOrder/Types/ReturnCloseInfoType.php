@@ -23,21 +23,21 @@ class ReturnCloseInfoType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'buyerCloseComment' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerCloseComment',
         ],
-        'buyerCloseReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyerCloseReason'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerCloseReason',
         ],
         'returnCloseReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnCloseReason',
         ],
     ];

@@ -25,40 +25,40 @@ class ListingStartPriceDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Description'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'ListingType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ListingType'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingType',
         ],
-        'StartPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartPrice'              => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartPrice',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'              => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
         'MinBuyItNowPricePercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MinBuyItNowPricePercent',
         ],
     ];

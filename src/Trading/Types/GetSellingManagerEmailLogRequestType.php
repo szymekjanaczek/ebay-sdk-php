@@ -24,34 +24,34 @@ class GetSellingManagerEmailLogRequestType extends \DTS\eBaySDK\Trading\Types\Ab
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'TransactionID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionID'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'OrderID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderID',
         ],
-        'EmailDateRange' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
-            'repeatable' => false,
-            'attribute' => false,
+        'EmailDateRange'  => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EmailDateRange',
         ],
         'OrderLineItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
     ];

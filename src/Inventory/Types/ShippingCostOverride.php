@@ -25,33 +25,33 @@ class ShippingCostOverride extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'additionalShippingCost' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'additionalShippingCost',
         ],
-        'priority' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'priority'               => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priority',
         ],
-        'shippingCost' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCost'           => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'shippingServiceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingServiceType'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceType',
         ],
-        'surcharge' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'surcharge'              => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'surcharge',
         ],
     ];

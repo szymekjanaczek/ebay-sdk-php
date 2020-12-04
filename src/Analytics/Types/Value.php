@@ -22,15 +22,15 @@ class Value extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'applicable' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'applicable',
         ],
-        'value' => [
-            'type' => 'any',
-            'repeatable' => false,
-            'attribute' => false,
+        'value'      => [
+            'type'        => 'any',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

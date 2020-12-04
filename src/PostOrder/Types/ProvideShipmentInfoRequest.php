@@ -22,15 +22,15 @@ class ProvideShipmentInfoRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'shippingCarrierName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCarrierName',
         ],
-        'trackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'trackingNumber'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
     ];

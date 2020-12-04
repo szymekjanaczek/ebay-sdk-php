@@ -21,16 +21,16 @@ class TransactionVolume extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'firstOrderDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'firstOrderDate'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'firstOrderDate',
         ],
         'transactionSnapshots' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TransactionSnapshot',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\TransactionSnapshot',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionSnapshots',
         ],
     ];

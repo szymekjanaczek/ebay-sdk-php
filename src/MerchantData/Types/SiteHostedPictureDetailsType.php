@@ -27,52 +27,52 @@ class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PictureName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PictureName'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureName',
         ],
-        'PictureSet' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PictureSet'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureSet',
         ],
-        'PictureFormat' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PictureFormat'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureFormat',
         ],
-        'FullURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FullURL'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FullURL',
         ],
-        'BaseURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BaseURL'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BaseURL',
         ],
-        'PictureSetMember' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PictureSetMemberType',
-            'repeatable' => true,
-            'attribute' => false,
+        'PictureSetMember'   => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\PictureSetMemberType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'PictureSetMember',
         ],
         'ExternalPictureURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExternalPictureURL',
         ],
-        'UseByDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UseByDate'          => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UseByDate',
         ],
     ];

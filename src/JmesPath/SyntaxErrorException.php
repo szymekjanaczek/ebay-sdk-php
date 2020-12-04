@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -29,14 +30,15 @@ class SyntaxErrorException extends \InvalidArgumentException
 {
     /**
      * @param string $expectedTypesOrMessage Expected array of tokens or message
-     * @param array  $token                  Current token
-     * @param string $expression             Expression input
+     * @param array $token Current token
+     * @param string $expression Expression input
      */
     public function __construct(
         $expectedTypesOrMessage,
         array $token,
         $expression
-    ) {
+    )
+    {
         $message = "Syntax error at character {$token['pos']}\n"
             . $expression . "\n" . str_repeat(' ', $token['pos']) . "^\n";
         $message .= !is_array($expectedTypesOrMessage)

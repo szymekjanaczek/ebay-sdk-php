@@ -21,16 +21,16 @@ class TimeDuration extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'unit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'unit'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'unit',
         ],
         'value' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

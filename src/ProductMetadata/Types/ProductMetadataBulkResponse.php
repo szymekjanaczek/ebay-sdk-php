@@ -21,9 +21,9 @@ class ProductMetadataBulkResponse extends \DTS\eBaySDK\ProductMetadata\Types\Bas
      */
     private static $propertyTypes = [
         'productMetadataResponse' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataResponse',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataResponse',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'productMetadataResponse',
         ],
     ];

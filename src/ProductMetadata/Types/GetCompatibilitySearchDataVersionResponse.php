@@ -22,15 +22,15 @@ class GetCompatibilitySearchDataVersionResponse extends \DTS\eBaySDK\ProductMeta
      */
     private static $propertyTypes = [
         'namesDetails' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'namesDetails',
         ],
         'valueDetails' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'valueDetails',
         ],
     ];

@@ -23,28 +23,28 @@ class StoreCustomCategoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Name'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'Order' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Order'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Order',
         ],
         'ChildCategory' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ChildCategory',
         ],
     ];

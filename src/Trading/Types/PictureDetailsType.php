@@ -29,64 +29,64 @@ class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'GalleryURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'GalleryURL'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GalleryURL',
         ],
-        'GalleryType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'GalleryType'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GalleryType',
         ],
-        'PhotoDisplay' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PhotoDisplay'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PhotoDisplay',
         ],
-        'PictureURL' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'PictureURL'             => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'PictureURL',
         ],
-        'PictureSource' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PictureSource'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureSource',
         ],
-        'GalleryDuration' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'GalleryDuration'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GalleryDuration',
         ],
-        'GalleryStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'GalleryStatus'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GalleryStatus',
         ],
-        'GalleryErrorInfo' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'GalleryErrorInfo'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GalleryErrorInfo',
         ],
-        'ExternalPictureURL' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ExternalPictureURL'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ExternalPictureURL',
         ],
         'ExtendedPictureDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExtendedPictureDetails',
         ],
     ];

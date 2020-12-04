@@ -22,15 +22,15 @@ class AutomotivePartsCompatibilityPolicyResponse extends \DTS\eBaySDK\Types\Base
      */
     private static $propertyTypes = [
         'automotivePartsCompatibilityPolicies' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'automotivePartsCompatibilityPolicies',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'                             => [
+            'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

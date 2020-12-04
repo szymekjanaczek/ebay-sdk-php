@@ -21,16 +21,16 @@ class PaginatedItemArrayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemArray'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemArray',
         ],
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
     ];

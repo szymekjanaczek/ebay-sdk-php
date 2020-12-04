@@ -21,9 +21,9 @@ class UpdatePaymentInformation extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'creditCard' => [
-            'type' => 'DTS\eBaySDK\Order\Types\CreditCard',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Order\Types\CreditCard',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creditCard',
         ],
     ];

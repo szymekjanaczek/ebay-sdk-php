@@ -21,16 +21,16 @@ class SetPromotionalSaleResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
         'PromotionalSaleID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleID',
         ],
     ];

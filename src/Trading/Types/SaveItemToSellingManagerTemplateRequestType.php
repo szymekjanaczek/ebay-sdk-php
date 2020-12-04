@@ -22,22 +22,22 @@ class SaveItemToSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\T
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'ProductID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProductID'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductID',
         ],
         'TemplateName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TemplateName',
         ],
     ];

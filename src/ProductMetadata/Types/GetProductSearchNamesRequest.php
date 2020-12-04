@@ -22,15 +22,15 @@ class GetProductSearchNamesRequest extends \DTS\eBaySDK\ProductMetadata\Types\Ba
      */
     private static $propertyTypes = [
         'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'dataset' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'dataset'    => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dataset',
         ],
     ];

@@ -23,28 +23,28 @@ class CategoryDistribution extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryId'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'categoryName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryName'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryName',
         ],
-        'matchCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'matchCount'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'matchCount',
         ],
         'refinementHref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refinementHref',
         ],
     ];

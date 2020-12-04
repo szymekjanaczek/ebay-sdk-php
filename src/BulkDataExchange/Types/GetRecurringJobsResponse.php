@@ -21,9 +21,9 @@ class GetRecurringJobsResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseS
      */
     private static $propertyTypes = [
         'recurringJobDetail' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'recurringJobDetail',
         ],
     ];

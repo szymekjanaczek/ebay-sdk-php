@@ -21,9 +21,9 @@ class GetSellingManagerEmailLogResponseType extends \DTS\eBaySDK\Trading\Types\A
      */
     private static $propertyTypes = [
         'EmailLog' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'EmailLog',
         ],
     ];

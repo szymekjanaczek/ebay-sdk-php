@@ -21,9 +21,9 @@ class GetRecurringJobExecutionStatusRequest extends \DTS\eBaySDK\BulkDataExchang
      */
     private static $propertyTypes = [
         'recurringJobId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'recurringJobId',
         ],
     ];

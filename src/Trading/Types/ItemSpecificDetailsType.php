@@ -26,39 +26,39 @@ class ItemSpecificDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'MaxItemSpecificsPerItem' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxItemSpecificsPerItem',
         ],
-        'MaxValuesPerName' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxValuesPerName'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxValuesPerName',
         ],
-        'MaxCharactersPerValue' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxCharactersPerValue'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxCharactersPerValue',
         ],
-        'MaxCharactersPerName' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxCharactersPerName'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxCharactersPerName',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'              => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

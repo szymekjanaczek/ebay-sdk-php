@@ -21,16 +21,16 @@ class DeliveryEstimateMetaInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'key' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'key'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'key',
         ],
         'value' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

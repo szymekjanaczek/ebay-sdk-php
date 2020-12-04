@@ -21,9 +21,9 @@ class GetDispositionRuleTemplatesResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ruleTemplates' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleTemplateDetailType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleTemplateDetailType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ruleTemplates',
         ],
     ];

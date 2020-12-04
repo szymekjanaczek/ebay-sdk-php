@@ -22,15 +22,15 @@ class ASQPreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ResetDefaultSubjects' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ResetDefaultSubjects',
         ],
-        'Subject' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'Subject'              => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Subject',
         ],
     ];

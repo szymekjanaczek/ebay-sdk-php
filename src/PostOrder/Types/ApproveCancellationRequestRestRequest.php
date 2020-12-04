@@ -21,9 +21,9 @@ class ApproveCancellationRequestRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'cancelId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelId',
         ],
     ];

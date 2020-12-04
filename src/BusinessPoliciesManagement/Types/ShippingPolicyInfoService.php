@@ -30,70 +30,70 @@ class ShippingPolicyInfoService extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'shipToLocation' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'shipToLocation'                => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'shipToLocation',
         ],
-        'shippingService' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingService'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingService',
         ],
-        'sortOrderId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'sortOrderId'                   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sortOrderId',
         ],
-        'freeShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'freeShipping'                  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'freeShipping',
         ],
-        'codFee' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'codFee'                        => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'codFee',
         ],
-        'fastShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'fastShipping'                  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fastShipping',
         ],
         'shippingServiceAdditionalCost' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceAdditionalCost',
         ],
-        'shippingServiceCost' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingServiceCost'           => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceCost',
         ],
-        'shippingSurcharge' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingSurcharge'             => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingSurcharge',
         ],
-        'buyerResponsibleForShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyerResponsibleForShipping'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerResponsibleForShipping',
         ],
-        'buyerResponsibleForPickup' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyerResponsibleForPickup'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerResponsibleForPickup',
         ],
     ];

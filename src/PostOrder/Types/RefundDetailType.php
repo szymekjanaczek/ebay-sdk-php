@@ -22,15 +22,15 @@ class RefundDetailType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'itemizedRefundDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ItemizedRefundDetailType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ItemizedRefundDetailType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemizedRefundDetail',
         ],
-        'totalAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'totalAmount'          => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'totalAmount',
         ],
     ];

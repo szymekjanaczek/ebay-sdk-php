@@ -30,70 +30,70 @@ class FindProductsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'IncludeSelector' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeSelector'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeSelector',
         ],
         'AvailableItemsOnly' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AvailableItemsOnly',
         ],
-        'DomainName' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'DomainName'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DomainName',
         ],
-        'ProductID' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProductID'          => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductID',
         ],
-        'QueryKeywords' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'QueryKeywords'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QueryKeywords',
         ],
-        'ProductSort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProductSort'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductSort',
         ],
-        'SortOrder' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SortOrder'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SortOrder',
         ],
-        'MaxEntries' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxEntries'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxEntries',
         ],
-        'PageNumber' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PageNumber'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
-        'CategoryID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
         'HideDuplicateItems' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HideDuplicateItems',
         ],
     ];

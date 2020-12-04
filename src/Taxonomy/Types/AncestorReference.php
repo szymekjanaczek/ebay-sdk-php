@@ -23,28 +23,28 @@ class AncestorReference extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryId'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'categoryName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryName'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryName',
         ],
         'categorySubtreeNodeHref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categorySubtreeNodeHref',
         ],
-        'categoryTreeNodeLevel' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeNodeLevel'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeNodeLevel',
         ],
     ];

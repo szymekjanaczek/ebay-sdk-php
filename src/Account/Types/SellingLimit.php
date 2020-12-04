@@ -21,16 +21,16 @@ class SellingLimit extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'amount' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'amount'   => [
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'amount',
         ],
         'quantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'quantity',
         ],
     ];

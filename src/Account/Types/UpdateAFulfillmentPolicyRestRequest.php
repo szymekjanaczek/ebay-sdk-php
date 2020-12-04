@@ -21,9 +21,9 @@ class UpdateAFulfillmentPolicyRestRequest extends \DTS\eBaySDK\Account\Types\Ful
      */
     private static $propertyTypes = [
         'fulfillmentPolicyId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fulfillmentPolicyId',
         ],
     ];

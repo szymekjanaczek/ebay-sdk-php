@@ -22,15 +22,15 @@ class Header extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'dimensionKeys' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Definition',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Analytics\Types\Definition',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dimensionKeys',
         ],
-        'metrics' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Definition',
-            'repeatable' => true,
-            'attribute' => false,
+        'metrics'       => [
+            'type'        => 'DTS\eBaySDK\Analytics\Types\Definition',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'metrics',
         ],
     ];

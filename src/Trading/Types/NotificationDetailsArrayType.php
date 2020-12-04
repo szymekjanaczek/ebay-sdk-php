@@ -21,9 +21,9 @@ class NotificationDetailsArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'NotificationDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\NotificationDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'NotificationDetails',
         ],
     ];

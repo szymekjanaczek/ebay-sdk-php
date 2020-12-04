@@ -27,52 +27,52 @@ class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'VeROReasonCodeID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'VeROReasonCodeID'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VeROReasonCodeID',
         ],
-        'MessageToSeller' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageToSeller'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageToSeller',
         ],
         'CopyEmailToRightsOwner' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CopyEmailToRightsOwner',
         ],
-        'Region' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'Region'                 => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Region',
         ],
-        'Country' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'Country'                => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Country',
         ],
-        'Patent' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Patent'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Patent',
         ],
-        'DetailedMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailedMessage'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailedMessage',
         ],
     ];

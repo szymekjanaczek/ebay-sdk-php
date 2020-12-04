@@ -21,16 +21,16 @@ class StoreThemeArrayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Theme' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Theme'                   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreThemeType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Theme',
         ],
         'GenericColorSchemeArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GenericColorSchemeArray',
         ],
     ];

@@ -22,15 +22,15 @@ class Compatibility extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'compatibleProducts' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\CompatibleProduct',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Inventory\Types\CompatibleProduct',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'compatibleProducts',
         ],
-        'sku' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sku'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sku',
         ],
     ];

@@ -74,7 +74,7 @@ class CredentialsProvider
         }
 
         return function () use ($providers) {
-            $provider = array_shift($providers);
+            $provider    = array_shift($providers);
             $credentials = $provider();
 
             while (($provider = array_shift($providers))
@@ -95,9 +95,9 @@ class CredentialsProvider
     public static function env()
     {
         return function () {
-            $appId = getenv(self::ENV_APP_ID);
+            $appId  = getenv(self::ENV_APP_ID);
             $certId = getenv(self::ENV_CERT_ID);
-            $devId = getenv(self::ENV_DEV_ID);
+            $devId  = getenv(self::ENV_DEV_ID);
 
             if ($appId && $certId && $devId) {
                 return new Credentials($appId, $certId, $devId);
@@ -126,7 +126,7 @@ class CredentialsProvider
     public static function ini($profile = null, $filename = null)
     {
         $filename = $filename ?: (self::getHomeDir() . '/.ebay_sdk/credentials');
-        $profile = $profile ?: (getenv(self::ENV_PROFILE) ?: 'default');
+        $profile  = $profile ?: (getenv(self::ENV_PROFILE) ?: 'default');
 
         return function () use ($filename, $profile) {
             if (!is_readable($filename)) {
@@ -166,7 +166,7 @@ class CredentialsProvider
         }
 
         $homeDrive = getenv('HOMEDRIVE');
-        $homePath = getenv('HOMEPATH');
+        $homePath  = getenv('HOMEPATH');
 
         return ($homeDrive && $homePath) ? $homeDrive . $homePath : null;
     }

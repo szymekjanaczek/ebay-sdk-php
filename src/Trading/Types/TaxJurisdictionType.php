@@ -25,40 +25,40 @@ class TaxJurisdictionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'JurisdictionID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'JurisdictionID'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'JurisdictionID',
         ],
-        'SalesTaxPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'SalesTaxPercent'       => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SalesTaxPercent',
         ],
         'ShippingIncludedInTax' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingIncludedInTax',
         ],
-        'JurisdictionName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'JurisdictionName'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'JurisdictionName',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'            => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

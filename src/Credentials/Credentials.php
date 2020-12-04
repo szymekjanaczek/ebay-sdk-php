@@ -30,9 +30,9 @@ class Credentials implements \DTS\eBaySDK\Credentials\CredentialsInterface
      */
     public function __construct($appId, $certId, $devId)
     {
-        $this->appId = trim($appId);
+        $this->appId  = trim($appId);
         $this->certId = trim($certId);
-        $this->devId = trim($devId);
+        $this->devId  = trim($devId);
     }
 
     /**

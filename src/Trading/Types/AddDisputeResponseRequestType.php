@@ -25,40 +25,40 @@ class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DisputeID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DisputeID'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisputeID',
         ],
-        'MessageText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageText'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageText',
         ],
-        'DisputeActivity' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DisputeActivity'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisputeActivity',
         ],
         'ShippingCarrierUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingCarrierUsed',
         ],
         'ShipmentTrackNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShipmentTrackNumber',
         ],
-        'ShippingTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingTime'        => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingTime',
         ],
     ];

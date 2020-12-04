@@ -22,22 +22,22 @@ class BotBlockResponseType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BotBlockToken' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BotBlockToken'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BotBlockToken',
         ],
-        'BotBlockUrl' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BotBlockUrl'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BotBlockUrl',
         ],
         'BotBlockAudioUrl' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BotBlockAudioUrl',
         ],
     ];

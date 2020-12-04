@@ -21,16 +21,16 @@ class CreateDSRSummaryByPeriodRequest extends \DTS\eBaySDK\Feedback\Types\BaseSe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dateRange' => [
-            'type' => 'DTS\eBaySDK\Feedback\Types\DateRange',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateRange'          => [
+            'type'        => 'DTS\eBaySDK\Feedback\Types\DateRange',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateRange',
         ],
         'dateRangeEventType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateRangeEventType',
         ],
     ];

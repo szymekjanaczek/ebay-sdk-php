@@ -21,9 +21,9 @@ class Buyer extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'username' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'username',
         ],
     ];

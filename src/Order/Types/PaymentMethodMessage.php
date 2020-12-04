@@ -21,16 +21,16 @@ class PaymentMethodMessage extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'legalMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'legalMessage'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legalMessage',
         ],
         'requiredForUserConfirmation' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'requiredForUserConfirmation',
         ],
     ];

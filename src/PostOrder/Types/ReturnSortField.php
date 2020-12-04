@@ -23,21 +23,21 @@ class ReturnSortField extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ascending' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ascending',
         ],
         'enumValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'enumValue',
         ],
-        'field' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'field'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'field',
         ],
     ];

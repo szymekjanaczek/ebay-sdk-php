@@ -22,15 +22,15 @@ class Dimension extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'annotationKeys' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'annotationKeys',
         ],
-        'dimensionKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dimensionKey'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dimensionKey',
         ],
     ];

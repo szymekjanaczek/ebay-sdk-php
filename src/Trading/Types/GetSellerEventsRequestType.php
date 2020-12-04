@@ -30,70 +30,70 @@ class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'UserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UserID'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UserID',
         ],
-        'StartTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTimeFrom'             => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTimeFrom',
         ],
-        'StartTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTimeTo'               => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTimeTo',
         ],
-        'EndTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTimeFrom'               => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTimeFrom',
         ],
-        'EndTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTimeTo'                 => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTimeTo',
         ],
-        'ModTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModTimeFrom'               => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModTimeTo'                 => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'NewItemFilter' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'NewItemFilter'             => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NewItemFilter',
         ],
-        'IncludeWatchCount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeWatchCount'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeWatchCount',
         ],
         'IncludeVariationSpecifics' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeVariationSpecifics',
         ],
-        'HideVariations' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HideVariations'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HideVariations',
         ],
     ];

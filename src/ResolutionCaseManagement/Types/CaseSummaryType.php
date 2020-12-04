@@ -29,64 +29,64 @@ class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
-            'repeatable' => false,
-            'attribute' => false,
+        'caseId'           => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseId',
         ],
-        'user' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'user'             => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'user',
         ],
-        'otherParty' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'otherParty'       => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'otherParty',
         ],
-        'status' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType',
-            'repeatable' => false,
-            'attribute' => false,
+        'status'           => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'status',
         ],
-        'item' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'item'             => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'item',
         ],
-        'caseQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'caseQuantity'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseQuantity',
         ],
-        'caseAmount' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'caseAmount'       => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseAmount',
         ],
-        'respondByDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'respondByDate'    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'respondByDate',
         ],
-        'creationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationDate'     => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
         'lastModifiedDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastModifiedDate',
         ],
     ];

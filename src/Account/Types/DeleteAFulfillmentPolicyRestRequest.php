@@ -21,9 +21,9 @@ class DeleteAFulfillmentPolicyRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'fulfillmentPolicyId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fulfillmentPolicyId',
         ],
     ];

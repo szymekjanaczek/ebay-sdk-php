@@ -23,28 +23,28 @@ class Correction extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectValues' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\CorrectionAspectValues',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspectValues'     => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\CorrectionAspectValues',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectValues',
         ],
-        'correctionCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'correctionCode'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'correctionCode',
         ],
         'productAttribute' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\CorrectionProductAttribute',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Catalog\Types\CorrectionProductAttribute',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productAttribute',
         ],
-        'reason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reason'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reason',
         ],
     ];

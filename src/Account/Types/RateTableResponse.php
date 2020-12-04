@@ -21,9 +21,9 @@ class RateTableResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'rateTables' => [
-            'type' => 'DTS\eBaySDK\Account\Types\RateTable',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\RateTable',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'rateTables',
         ],
     ];

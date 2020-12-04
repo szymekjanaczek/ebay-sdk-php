@@ -21,9 +21,9 @@ class VerifyAddItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractR
      */
     private static $propertyTypes = [
         'Item' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Item',
         ],
     ];

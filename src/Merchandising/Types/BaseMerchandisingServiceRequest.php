@@ -22,15 +22,15 @@ class BaseMerchandisingServiceRequest extends \DTS\eBaySDK\Merchandising\Types\B
      */
     private static $propertyTypes = [
         'maxResults' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxResults',
         ],
-        'affiliate' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\Affiliate',
-            'repeatable' => false,
-            'attribute' => false,
+        'affiliate'  => [
+            'type'        => 'DTS\eBaySDK\Merchandising\Types\Affiliate',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'affiliate',
         ],
     ];

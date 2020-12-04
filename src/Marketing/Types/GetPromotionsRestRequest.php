@@ -25,40 +25,40 @@ class GetPromotionsRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'limit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'marketplace_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplace_id'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplace_id',
         ],
-        'offset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
         'promotion_status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotion_status',
         ],
-        'q' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'q'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'q',
         ],
-        'sort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sort'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sort',
         ],
     ];

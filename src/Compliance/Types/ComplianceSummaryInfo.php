@@ -23,21 +23,21 @@ class ComplianceSummaryInfo extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'complianceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'complianceType',
         ],
-        'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'listingCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingCount'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingCount',
         ],
     ];

@@ -21,9 +21,9 @@ class FindProductsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceRespons
      */
     private static $propertyTypes = [
         'productSearchResult' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductResponse',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductResponse',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'productSearchResult',
         ],
     ];

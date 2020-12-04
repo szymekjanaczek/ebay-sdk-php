@@ -22,15 +22,15 @@ class AddMemberMessagesAAQToBidderResponseContainerType extends \DTS\eBaySDK\Typ
      */
     private static $propertyTypes = [
         'CorrelationID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CorrelationID',
         ],
-        'Ack' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Ack'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Ack',
         ],
     ];

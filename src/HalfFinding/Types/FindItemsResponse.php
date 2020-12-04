@@ -22,15 +22,15 @@ class FindItemsResponse extends \DTS\eBaySDK\HalfFinding\Types\BaseResponse
      */
     private static $propertyTypes = [
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\PaginationOutputType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\PaginationOutputType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
-        'product' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType',
-            'repeatable' => false,
-            'attribute' => false,
+        'product'          => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'product',
         ],
     ];

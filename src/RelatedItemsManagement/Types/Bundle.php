@@ -28,58 +28,58 @@ class Bundle extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'bundleID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'bundleID'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleID',
         ],
-        'bundleName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'bundleName'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleName',
         ],
-        'primarySKU' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'primarySKU'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'primarySKU',
         ],
-        'scheduledStartTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'scheduledStartTime'  => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'scheduledStartTime',
         ],
-        'scheduledEndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'scheduledEndTime'    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'scheduledEndTime',
         ],
         'relatedProductGroup' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'relatedProductGroup',
         ],
-        'bundleStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'bundleStatus'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleStatus',
         ],
-        'isoCurrencyCode' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'isoCurrencyCode'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isoCurrencyCode',
         ],
-        'site' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'site'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'site',
         ],
     ];

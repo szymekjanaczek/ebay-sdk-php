@@ -22,22 +22,22 @@ class ListingStructurePolicy extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'categoryTreeId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
         'variationsSupported' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'variationsSupported',
         ],
     ];

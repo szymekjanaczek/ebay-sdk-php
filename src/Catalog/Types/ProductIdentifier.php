@@ -22,15 +22,15 @@ class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'constraint' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'constraint',
         ],
-        'values' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'values'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'values',
         ],
     ];

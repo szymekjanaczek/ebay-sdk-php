@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -46,8 +47,8 @@ class FnDispatcher
     }
 
     /**
-     * @param string $fn   Function name.
-     * @param array  $args Function arguments.
+     * @param string $fn Function name.
+     * @param array $args Function arguments.
      *
      * @return mixed
      */
@@ -129,14 +130,14 @@ class FnDispatcher
     private function fn_keys(array $args)
     {
         $this->validate('keys', $args, [['object']]);
-        return array_keys((array) Utils::toArray($args[0]));
+        return array_keys((array)Utils::toArray($args[0]));
     }
 
     private function fn_length(array $args)
     {
         $this->validate('length', $args, [['string', 'array', 'object']]);
         $arg = Utils::toArray($args[0]);
-        return is_string($arg) ? strlen($arg) : count((array) $arg);
+        return is_string($arg) ? strlen($arg) : count((array)$arg);
     }
 
     private function fn_max(array $args)
@@ -152,7 +153,7 @@ class FnDispatcher
     {
         $this->validate('max_by', $args, [['array'], ['expression']]);
         $expr = $this->wrapExpression('max_by:1', $args[1], ['number', 'string']);
-        $fn = function ($carry, $item, $index) use ($expr) {
+        $fn   = function ($carry, $item, $index) use ($expr) {
             return $index
                 ? ($expr($carry) >= $expr($item) ? $carry : $item)
                 : $item;
@@ -173,8 +174,8 @@ class FnDispatcher
     {
         $this->validate('min_by', $args, [['array'], ['expression']]);
         $expr = $this->wrapExpression('min_by:1', $args[1], ['number', 'string']);
-        $i = -1;
-        $fn = function ($a, $b) use ($expr, &$i) {
+        $i    = -1;
+        $fn   = function ($a, $b) use ($expr, &$i) {
             return ++$i ? ($expr($a) <= $expr($b) ? $a : $b) : $b;
         };
         return $this->reduce('min_by:1', Utils::toArray($args[0]), ['any'], $fn);
@@ -215,7 +216,7 @@ class FnDispatcher
     private function fn_sort_by(array $args)
     {
         $this->validate('sort_by', $args, [['array'], ['expression']]);
-        $expr = $args[1];
+        $expr  = $args[1];
         $valid = ['string', 'number'];
         return Utils::stableSort(
             Utils::toArray($args[0]),
@@ -251,7 +252,7 @@ class FnDispatcher
             && !($v instanceof \JsonSerializable)
             && method_exists($v, '__toString')
         ) {
-            return (string) $v;
+            return (string)$v;
         } elseif (Utils::isArray($v)) {
             $v = Utils::toArray($v);
         }
@@ -263,11 +264,11 @@ class FnDispatcher
     {
         $this->validateArity('to_number', count($args), 1);
         $value = $args[0];
-        $type = Utils::type($value);
+        $type  = Utils::type($value);
         if ($type == 'number') {
             return $value;
         } elseif ($type == 'string' && is_numeric($value)) {
-            return strpos($value, '.') ? (float) $value : (int) $value;
+            return strpos($value, '.') ? (float)$value : (int)$value;
         } else {
             return null;
         }
@@ -276,7 +277,7 @@ class FnDispatcher
     private function fn_values(array $args)
     {
         $this->validate('values', $args, [['array', 'object']]);
-        return array_values((array) Utils::toArray($args[0]));
+        return array_values((array)Utils::toArray($args[0]));
     }
 
     private function fn_merge(array $args)
@@ -360,10 +361,10 @@ class FnDispatcher
      * Validates value A and B, ensures they both are correctly typed, and of
      * the same type.
      *
-     * @param string   $from   String of function:argument_position
-     * @param array    $types  Array of valid value types.
-     * @param mixed    $a      Value A
-     * @param mixed    $b      Value B
+     * @param string $from String of function:argument_position
+     * @param array $types Array of valid value types.
+     * @param mixed $a Value A
+     * @param mixed $b Value B
      */
     private function validateSeq($from, array $types, $a, $b)
     {
@@ -387,9 +388,9 @@ class FnDispatcher
     /**
      * Reduces and validates an array of values to a single value using a fn.
      *
-     * @param string   $from   String of function:argument_position
-     * @param array    $values Values to reduce.
-     * @param array    $types  Array of valid value types.
+     * @param string $from String of function:argument_position
+     * @param array $values Values to reduce.
+     * @param array $types Array of valid value types.
      * @param callable $reduce Reduce function that accepts ($carry, $item).
      *
      * @return mixed
@@ -411,9 +412,9 @@ class FnDispatcher
     /**
      * Validates the return values of expressions as they are applied.
      *
-     * @param string   $from  Function name : position
-     * @param callable $expr  Expression function to validate.
-     * @param array    $types Array of acceptable return type values.
+     * @param string $from Function name : position
+     * @param callable $expr Expression function to validate.
+     * @param array $types Array of acceptable return type values.
      *
      * @return callable Returns a wrapped function
      */
@@ -428,9 +429,9 @@ class FnDispatcher
         };
     }
 
-    /** @internal Pass function name validation off to runtime
-     * @param $name
+    /** @param $name
      * @param $args
+     * @internal Pass function name validation off to runtime
      */
     public function __call($name, $args)
     {

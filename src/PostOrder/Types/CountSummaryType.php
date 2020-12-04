@@ -22,15 +22,15 @@ class CountSummaryType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'count',
         ],
-        'type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'type'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'type',
         ],
     ];

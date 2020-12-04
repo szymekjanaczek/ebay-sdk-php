@@ -18,18 +18,18 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'GetOrders' => [
-            'method' => 'GET',
-            'resource' => 'order',
+        'GetOrders'                  => [
+            'method'        => 'GET',
+            'resource'      => 'order',
             'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetOrdersRestResponse',
-            'params' => [
-                'filter' => [
+            'params'        => [
+                'filter'   => [
                     'valid' => ['string'],
                 ],
-                'limit' => [
+                'limit'    => [
                     'valid' => ['string'],
                 ],
-                'offset' => [
+                'offset'   => [
                     'valid' => ['string'],
                 ],
                 'orderIds' => [
@@ -37,50 +37,50 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
                 ],
             ],
         ],
-        'GetAnOrder' => [
-            'method' => 'GET',
-            'resource' => 'order/{orderId}',
+        'GetAnOrder'                 => [
+            'method'        => 'GET',
+            'resource'      => 'order/{orderId}',
             'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestResponse',
-            'params' => [
+            'params'        => [
                 'orderId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
         'CreateAShippingFulfillment' => [
-            'method' => 'POST',
-            'resource' => 'order/{orderId}/shipping_fulfillment',
+            'method'        => 'POST',
+            'resource'      => 'order/{orderId}/shipping_fulfillment',
             'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse',
-            'params' => [
+            'params'        => [
                 'orderId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetShippingFulfillments' => [
-            'method' => 'GET',
-            'resource' => 'order/{orderId}/shipping_fulfillment',
+        'GetShippingFulfillments'    => [
+            'method'        => 'GET',
+            'resource'      => 'order/{orderId}/shipping_fulfillment',
             'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse',
-            'params' => [
+            'params'        => [
                 'orderId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAShippingFulfillment' => [
-            'method' => 'GET',
-            'resource' => 'order/{orderId}/shipping_fulfillment/{fulfillmentId}',
+        'GetAShippingFulfillment'    => [
+            'method'        => 'GET',
+            'resource'      => 'order/{orderId}/shipping_fulfillment/{fulfillmentId}',
             'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestResponse',
-            'params' => [
+            'params'        => [
                 'fulfillmentId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
-                'orderId' => [
-                    'valid' => ['string'],
+                'orderId'       => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],

@@ -23,28 +23,28 @@ class ServiceDefinition extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'superscript' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'superscript'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'superscript',
         ],
         'maxDeliveryServiceDefinition' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxDeliveryServiceDefinition',
         ],
         'minDeliveryServiceDefinition' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minDeliveryServiceDefinition',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
     ];

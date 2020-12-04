@@ -37,112 +37,112 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'RefundOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RefundOption'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RefundOption',
         ],
-        'Refund' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Refund'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Refund',
         ],
-        'ReturnsWithinOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnsWithinOption'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnsWithinOption',
         ],
-        'ReturnsWithin' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnsWithin'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnsWithin',
         ],
-        'ReturnsAcceptedOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnsAcceptedOption'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnsAcceptedOption',
         ],
-        'ReturnsAccepted' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnsAccepted'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnsAccepted',
         ],
-        'Description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Description'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'WarrantyOfferedOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyOfferedOption'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyOfferedOption',
         ],
-        'WarrantyOffered' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyOffered'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyOffered',
         ],
-        'WarrantyTypeOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyTypeOption'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyTypeOption',
         ],
-        'WarrantyType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyType'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyType',
         ],
-        'WarrantyDurationOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyDurationOption'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyDurationOption',
         ],
-        'WarrantyDuration' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyDuration'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyDuration',
         ],
         'ShippingCostPaidByOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingCostPaidByOption',
         ],
-        'ShippingCostPaidBy' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingCostPaidBy'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingCostPaidBy',
         ],
-        'RestockingFeeValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RestockingFeeValue'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RestockingFeeValue',
         ],
         'RestockingFeeValueOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RestockingFeeValueOption',
         ],
-        'ExtendedHolidayReturns' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExtendedHolidayReturns'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExtendedHolidayReturns',
         ],
     ];

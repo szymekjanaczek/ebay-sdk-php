@@ -22,15 +22,15 @@ class GetAShippingFulfillmentRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'fulfillmentId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fulfillmentId',
         ],
-        'orderId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'orderId'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'orderId',
         ],
     ];

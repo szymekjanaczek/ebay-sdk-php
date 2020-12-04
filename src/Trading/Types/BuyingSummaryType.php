@@ -26,46 +26,46 @@ class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BiddingCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'BiddingCount'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BiddingCount',
         ],
-        'WinningCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'WinningCount'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WinningCount',
         ],
-        'TotalWinningCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'TotalWinningCost'  => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalWinningCost',
         ],
-        'WonCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'WonCount'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WonCount',
         ],
-        'TotalWonCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'TotalWonCost'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalWonCost',
         ],
         'WonDurationInDays' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WonDurationInDays',
         ],
-        'BestOfferCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'BestOfferCount'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOfferCount',
         ],
     ];

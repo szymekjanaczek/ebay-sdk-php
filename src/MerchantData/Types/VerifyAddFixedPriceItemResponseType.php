@@ -26,46 +26,46 @@ class VerifyAddFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'SKU' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SKU'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'Fees' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\FeesType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Fees'                   => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\FeesType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Fees',
         ],
-        'CategoryID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'Category2ID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Category2ID'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Category2ID',
         ],
-        'DiscountReason' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'DiscountReason'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DiscountReason',
         ],
         'ListingRecommendations' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingRecommendations',
         ],
     ];

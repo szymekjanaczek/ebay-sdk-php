@@ -22,22 +22,22 @@ class ProductResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'products' => [
-            'type' => 'DTS\eBaySDK\Product\Types\Product',
-            'repeatable' => true,
-            'attribute' => false,
+        'products'         => [
+            'type'        => 'DTS\eBaySDK\Product\Types\Product',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'products',
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationOutput',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\PaginationOutput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
-        'invocationId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'invocationId'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'invocationId',
         ],
     ];

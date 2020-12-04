@@ -21,9 +21,9 @@ class CreateOrReplaceInventoryItemRestRequest extends \DTS\eBaySDK\Inventory\Typ
      */
     private static $propertyTypes = [
         'sku' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sku',
         ],
     ];

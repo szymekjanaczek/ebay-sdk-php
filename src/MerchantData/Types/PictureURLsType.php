@@ -21,16 +21,16 @@ class PictureURLsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eBayPictureURL' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'eBayPictureURL'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'eBayPictureURL',
         ],
         'ExternalPictureURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExternalPictureURL',
         ],
     ];

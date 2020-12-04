@@ -25,40 +25,40 @@ class AspectConstraint extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectDataType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspectDataType'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectDataType',
         ],
         'aspectEnabledForVariations' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectEnabledForVariations',
         ],
-        'aspectFormat' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspectFormat'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectFormat',
         ],
-        'aspectMode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspectMode'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectMode',
         ],
-        'aspectRequired' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspectRequired'             => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectRequired',
         ],
-        'itemToAspectCardinality' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemToAspectCardinality'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemToAspectCardinality',
         ],
     ];

@@ -21,16 +21,16 @@ class NumericTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'unitOfMeasurement' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'unitOfMeasurement'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'unitOfMeasurement',
         ],
         'maximumValueAllowed' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maximumValueAllowed',
         ],
     ];

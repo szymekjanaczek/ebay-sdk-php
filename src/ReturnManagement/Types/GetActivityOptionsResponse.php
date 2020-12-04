@@ -21,9 +21,9 @@ class GetActivityOptionsResponse extends \DTS\eBaySDK\ReturnManagement\Types\Bas
      */
     private static $propertyTypes = [
         'activityOptions' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'activityOptions',
         ],
     ];

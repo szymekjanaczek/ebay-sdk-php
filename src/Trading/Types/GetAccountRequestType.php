@@ -31,69 +31,69 @@ class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      */
     private static $propertyTypes = [
         'AccountHistorySelection' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AccountHistorySelection',
         ],
-        'InvoiceDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'InvoiceDate'             => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InvoiceDate',
         ],
-        'BeginDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'BeginDate'               => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BeginDate',
         ],
-        'EndDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndDate'                 => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndDate',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'              => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'ExcludeBalance' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExcludeBalance'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExcludeBalance',
         ],
-        'ExcludeSummary' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExcludeSummary'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExcludeSummary',
         ],
-        'IncludeConversionRate' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeConversionRate'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeConversionRate',
         ],
-        'AccountEntrySortType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'AccountEntrySortType'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AccountEntrySortType',
         ],
-        'Currency' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Currency'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Currency',
         ],
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
     ];

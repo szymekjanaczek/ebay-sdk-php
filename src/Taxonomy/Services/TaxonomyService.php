@@ -19,68 +19,68 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
      */
     protected static $operations = [
         'GetADefaultCategoryTreeId' => [
-            'method' => 'GET',
-            'resource' => 'get_default_category_tree_id',
+            'method'        => 'GET',
+            'resource'      => 'get_default_category_tree_id',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestResponse',
-            'params' => [
+            'params'        => [
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetACategoryTree' => [
-            'method' => 'GET',
-            'resource' => 'category_tree/{category_tree_id}',
+        'GetACategoryTree'          => [
+            'method'        => 'GET',
+            'resource'      => 'category_tree/{category_tree_id}',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestResponse',
-            'params' => [
+            'params'        => [
                 'category_tree_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetACategorySubtree' => [
-            'method' => 'GET',
-            'resource' => 'category_tree/{category_tree_id}/get_category_subtree',
+        'GetACategorySubtree'       => [
+            'method'        => 'GET',
+            'resource'      => 'category_tree/{category_tree_id}/get_category_subtree',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestResponse',
-            'params' => [
-                'category_id' => [
-                    'valid' => ['string'],
+            'params'        => [
+                'category_id'      => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
                 'category_tree_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetSuggestedCategories' => [
-            'method' => 'GET',
-            'resource' => 'category_tree/{category_tree_id}/get_category_suggestions',
+        'GetSuggestedCategories'    => [
+            'method'        => 'GET',
+            'resource'      => 'category_tree/{category_tree_id}/get_category_suggestions',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestResponse',
-            'params' => [
+            'params'        => [
                 'category_tree_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
-                'q' => [
-                    'valid' => ['string'],
+                'q'                => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
         'GetItemAspectsForCategory' => [
-            'method' => 'GET',
-            'resource' => 'category_tree/{category_tree_id}/get_item_aspects_for_category',
+            'method'        => 'GET',
+            'resource'      => 'category_tree/{category_tree_id}/get_item_aspects_for_category',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse',
-            'params' => [
-                'category_id' => [
-                    'valid' => ['string'],
+            'params'        => [
+                'category_id'      => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
                 'category_tree_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],

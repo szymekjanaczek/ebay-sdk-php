@@ -26,46 +26,46 @@ class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CategoryArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryArray'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\CategoryArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryArray',
         ],
-        'CategoryCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryCount'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryCount',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'           => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
-        'CategoryVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryVersion'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryVersion',
         ],
-        'ReservePriceAllowed' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReservePriceAllowed'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReservePriceAllowed',
         ],
-        'MinimumReservePrice' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'MinimumReservePrice'  => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MinimumReservePrice',
         ],
         'ReduceReserveAllowed' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReduceReserveAllowed',
         ],
     ];

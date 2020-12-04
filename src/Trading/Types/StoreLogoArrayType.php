@@ -21,9 +21,9 @@ class StoreLogoArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Logo' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreLogoType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreLogoType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Logo',
         ],
     ];

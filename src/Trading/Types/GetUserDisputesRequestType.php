@@ -25,33 +25,33 @@ class GetUserDisputesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
      */
     private static $propertyTypes = [
         'DisputeFilterType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisputeFilterType',
         ],
-        'DisputeSortType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DisputeSortType'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisputeSortType',
         ],
-        'ModTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModTimeFrom'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModTimeTo'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
     ];

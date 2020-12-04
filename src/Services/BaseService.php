@@ -53,11 +53,12 @@ abstract class BaseService
         $productionUrl,
         $sandboxUrl,
         array $config
-    ) {
-        $this->resolver = new ConfigurationResolver(static::getConfigDefinitions());
-        $this->config = $this->resolver->resolve($config);
+    )
+    {
+        $this->resolver      = new ConfigurationResolver(static::getConfigDefinitions());
+        $this->config        = $this->resolver->resolve($config);
         $this->productionUrl = $productionUrl;
-        $this->sandboxUrl = $sandboxUrl;
+        $this->sandboxUrl    = $sandboxUrl;
     }
 
     /**
@@ -68,34 +69,34 @@ abstract class BaseService
     public static function getConfigDefinitions()
     {
         return [
-            'profile' => [
+            'profile'          => [
                 'valid' => ['string'],
-                'fn' => 'DTS\eBaySDK\applyProfile',
+                'fn'    => 'DTS\eBaySDK\applyProfile',
             ],
             'compressResponse' => [
-                'valid' => ['bool'],
+                'valid'   => ['bool'],
                 'default' => false,
             ],
-            'credentials' => [
-                'valid' => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
-                'fn' => 'DTS\eBaySDK\applyCredentials',
+            'credentials'      => [
+                'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
+                'fn'      => 'DTS\eBaySDK\applyCredentials',
                 'default' => [CredentialsProvider::class, 'defaultProvider'],
             ],
-            'debug' => [
-                'valid' => ['bool', 'array'],
-                'fn' => 'DTS\eBaySDK\applyDebug',
+            'debug'            => [
+                'valid'   => ['bool', 'array'],
+                'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false,
             ],
-            'httpHandler' => [
-                'valid' => ['callable'],
+            'httpHandler'      => [
+                'valid'   => ['callable'],
                 'default' => 'DTS\eBaySDK\defaultHttpHandler',
             ],
-            'httpOptions' => [
-                'valid' => ['array'],
+            'httpOptions'      => [
+                'valid'   => ['array'],
                 'default' => [],
             ],
-            'sandbox' => [
-                'valid' => ['bool'],
+            'sandbox'          => [
+                'valid'   => ['bool'],
                 'default' => false,
             ],
         ];
@@ -152,10 +153,10 @@ abstract class BaseService
      */
     protected function callOperationAsync($name, \DTS\eBaySDK\Types\BaseType $request, $responseClass)
     {
-        $url = $this->getUrl();
-        $body = $this->buildRequestBody($request);
-        $headers = $this->buildRequestHeaders($name, $request, $body);
-        $debug = $this->getConfig('debug');
+        $url         = $this->getUrl();
+        $body        = $this->buildRequestBody($request);
+        $headers     = $this->buildRequestHeaders($name, $request, $body);
+        $debug       = $this->getConfig('debug');
         $httpHandler = $this->getConfig('httpHandler');
         $httpOptions = $this->getConfig('httpOptions');
 
@@ -329,7 +330,7 @@ abstract class BaseService
          */
         if (strpos($response, 'application/xop+xml') === false) {
             return [$response, [
-                'data' => null,
+                'data'     => null,
                 'mimeType' => null,
             ]];
         } else {
@@ -347,7 +348,7 @@ abstract class BaseService
     private function extractXmlAndAttachment($response)
     {
         $attachment = [
-            'data' => null,
+            'data'     => null,
             'mimeType' => null,
         ];
 
@@ -355,17 +356,17 @@ abstract class BaseService
         $boundary = substr($response, 0, $matches[0][1]);
 
         $xmlStartPos = strpos($response, '<?xml ');
-        $xmlEndPos = strpos($response, $boundary, $xmlStartPos) - 2;
-        $xml = substr($response, $xmlStartPos, $xmlEndPos - $xmlStartPos);
+        $xmlEndPos   = strpos($response, $boundary, $xmlStartPos) - 2;
+        $xml         = substr($response, $xmlStartPos, $xmlEndPos - $xmlStartPos);
 
         preg_match('/\r\n\r\n/', $response, $matches, PREG_OFFSET_CAPTURE, $xmlEndPos);
         $attachmentStartPos = $matches[0][1] + 4;
-        $attachmentEndPos = strpos($response, $boundary, $attachmentStartPos) - 2;
+        $attachmentEndPos   = strpos($response, $boundary, $attachmentStartPos) - 2;
         $attachment['data'] = substr($response, $attachmentStartPos, $attachmentEndPos - $attachmentStartPos);
 
         $mimeTypeStartPos = strpos($response, 'Content-Type: ', $xmlEndPos) + 14;
         preg_match('/\r\n/', $response, $matches, PREG_OFFSET_CAPTURE, $mimeTypeStartPos);
-        $mimeTypeEndPos = $matches[0][1];
+        $mimeTypeEndPos         = $matches[0][1];
         $attachment['mimeType'] = substr($response, $mimeTypeStartPos, $mimeTypeEndPos - $mimeTypeStartPos);
 
         return [$xml, $attachment];
@@ -384,9 +385,9 @@ abstract class BaseService
      * Sends a debug string of the request details.
      *
      * @param string $url API endpoint.
-     * @param array  $headers Associative array of HTTP headers.
+     * @param array $headers Associative array of HTTP headers.
      * @param string $body The XML body of the POST request.
-      */
+     */
     private function debugRequest($url, array $headers, $body)
     {
         $str = $url . PHP_EOL;
@@ -405,7 +406,7 @@ abstract class BaseService
      * Sends a debug string of the response details.
      *
      * @param string $body The XML body of the response.
-      */
+     */
     private function debugResponse($body)
     {
         $this->debug($body);

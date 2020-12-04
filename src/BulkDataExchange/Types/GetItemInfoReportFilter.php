@@ -27,52 +27,52 @@ class GetItemInfoReportFilter extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'jobAction' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType',
-            'repeatable' => false,
-            'attribute' => false,
+        'jobAction'            => [
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jobAction',
         ],
-        'filterType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'filterType'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'filterType',
         ],
-        'includeAttributes' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'includeAttributes'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'includeAttributes',
         ],
-        'includeDescription' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'includeDescription'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'includeDescription',
         ],
-        'reportDateFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportDateFrom'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportDateFrom',
         ],
-        'reportDateTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportDateTo'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportDateTo',
         ],
-        'timeFrame' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'timeFrame'            => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'timeFrame',
         ],
         'changedFieldSelector' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'changedFieldSelector',
         ],
     ];

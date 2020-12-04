@@ -21,16 +21,16 @@ class LookbackPeriod extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'lifetime' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'lifetime'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lifetime',
         ],
         'timeDuration' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'timeDuration',
         ],
     ];

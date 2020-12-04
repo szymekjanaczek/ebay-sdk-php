@@ -29,64 +29,64 @@ class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DeliveryURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeliveryURL'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeliveryURL',
         ],
-        'ReferenceID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReferenceID'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReferenceID',
         ],
-        'ExpirationTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExpirationTime'  => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExpirationTime',
         ],
-        'Type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Type'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Type',
         ],
-        'Retries' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Retries'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Retries',
         ],
-        'DeliveryStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeliveryStatus'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeliveryStatus',
         ],
-        'NextRetryTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'NextRetryTime'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NextRetryTime',
         ],
-        'DeliveryTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeliveryTime'    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeliveryTime',
         ],
-        'ErrorMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ErrorMessage'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ErrorMessage',
         ],
         'DeliveryURLName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeliveryURLName',
         ],
     ];

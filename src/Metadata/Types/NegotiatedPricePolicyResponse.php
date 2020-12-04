@@ -22,15 +22,15 @@ class NegotiatedPricePolicyResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'negotiatedPricePolicies' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicy',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicy',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'negotiatedPricePolicies',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'                => [
+            'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

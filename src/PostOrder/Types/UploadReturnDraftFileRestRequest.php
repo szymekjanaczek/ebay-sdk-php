@@ -21,9 +21,9 @@ class UploadReturnDraftFileRestRequest extends \DTS\eBaySDK\PostOrder\Types\Uplo
      */
     private static $propertyTypes = [
         'draftId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'draftId',
         ],
     ];

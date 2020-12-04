@@ -22,15 +22,15 @@ class BrandMPNType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Brand' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Brand',
         ],
-        'MPN' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MPN'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MPN',
         ],
     ];

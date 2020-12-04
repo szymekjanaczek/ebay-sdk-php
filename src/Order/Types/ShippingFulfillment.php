@@ -28,58 +28,58 @@ class ShippingFulfillment extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'actualDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'actualDeliveryDate'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'actualDeliveryDate',
         ],
-        'lineItemReferences' => [
-            'type' => 'DTS\eBaySDK\Order\Types\LineItemReference',
-            'repeatable' => true,
-            'attribute' => false,
+        'lineItemReferences'       => [
+            'type'        => 'DTS\eBaySDK\Order\Types\LineItemReference',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'lineItemReferences',
         ],
         'maxEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxEstimatedDeliveryDate',
         ],
         'minEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'shipmentTrackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shipmentTrackingNumber'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipmentTrackingNumber',
         ],
-        'shipmentTrackingUrl' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shipmentTrackingUrl'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipmentTrackingUrl',
         ],
-        'shippedDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippedDate'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippedDate',
         ],
-        'shippingCarrierCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCarrierCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingServiceCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingServiceCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceCode',
         ],
     ];

@@ -24,27 +24,27 @@ class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      */
     private static $propertyTypes = [
         'ItemTransactionIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemTransactionIDArray',
         ],
-        'OrderIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderIDArray'           => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderIDArray',
         ],
-        'Platform' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Platform'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Platform',
         ],
-        'IncludeFinalValueFees' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeFinalValueFees'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeFinalValueFees',
         ],
     ];

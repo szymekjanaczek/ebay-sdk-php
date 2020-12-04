@@ -23,28 +23,28 @@ class ReturnMetadataType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dataType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataType'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataType',
         ],
-        'isArray' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'isArray'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isArray',
         ],
         'siteMetadataKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'siteMetadataKey',
         ],
-        'values' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'values'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'values',
         ],
     ];

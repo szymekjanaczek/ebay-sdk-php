@@ -22,22 +22,22 @@ class CharitySellerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CharitySellerStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharitySellerStatus'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharitySellerStatus',
         ],
-        'CharityAffiliation' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CharityAffiliationType',
-            'repeatable' => true,
-            'attribute' => false,
+        'CharityAffiliation'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\CharityAffiliationType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'CharityAffiliation',
         ],
         'TermsAndConditionsAccepted' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TermsAndConditionsAccepted',
         ],
     ];

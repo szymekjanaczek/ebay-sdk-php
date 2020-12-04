@@ -29,64 +29,64 @@ class InventoryLocationFull extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'location' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\LocationDetails',
-            'repeatable' => false,
-            'attribute' => false,
+        'location'                      => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\LocationDetails',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'location',
         ],
         'locationAdditionalInformation' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'locationAdditionalInformation',
         ],
-        'locationInstructions' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'locationInstructions'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'locationInstructions',
         ],
-        'locationTypes' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'locationTypes'                 => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'locationTypes',
         ],
-        'locationWebUrl' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'locationWebUrl'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'locationWebUrl',
         ],
-        'merchantLocationStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'merchantLocationStatus'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'merchantLocationStatus',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'                          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'operatingHours' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\OperatingHours',
-            'repeatable' => true,
-            'attribute' => false,
+        'operatingHours'                => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\OperatingHours',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'operatingHours',
         ],
-        'phone' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'phone'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'phone',
         ],
-        'specialHours' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\SpecialHours',
-            'repeatable' => true,
-            'attribute' => false,
+        'specialHours'                  => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\SpecialHours',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'specialHours',
         ],
     ];

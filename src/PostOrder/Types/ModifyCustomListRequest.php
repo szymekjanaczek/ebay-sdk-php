@@ -23,21 +23,21 @@ class ModifyCustomListRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'customListDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'customListDetail',
         ],
-        'forceDelete' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'forceDelete'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'forceDelete',
         ],
-        'operation' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListModificationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'operation'        => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\CustomListModificationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'operation',
         ],
     ];

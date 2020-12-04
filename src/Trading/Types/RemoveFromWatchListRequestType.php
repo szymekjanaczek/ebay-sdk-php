@@ -22,22 +22,22 @@ class RemoveFromWatchListRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ItemID'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
         'RemoveAllItems' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RemoveAllItems',
         ],
-        'VariationKey' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationKeyType',
-            'repeatable' => true,
-            'attribute' => false,
+        'VariationKey'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\VariationKeyType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'VariationKey',
         ],
     ];

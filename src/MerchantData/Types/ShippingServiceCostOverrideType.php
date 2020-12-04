@@ -24,34 +24,34 @@ class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingServicePriority' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServicePriority'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServicePriority',
         ],
-        'ShippingServiceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServiceType'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceType',
         ],
-        'ShippingServiceCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServiceCost'           => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceCost',
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceAdditionalCost',
         ],
-        'ShippingSurcharge' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingSurcharge'             => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingSurcharge',
         ],
     ];

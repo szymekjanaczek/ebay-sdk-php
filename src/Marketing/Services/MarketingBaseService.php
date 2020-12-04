@@ -11,7 +11,7 @@ class MarketingBaseService extends \DTS\eBaySDK\Services\BaseRestService
      * @var array $endPoints The API endpoints.
      */
     protected static $endPoints = [
-        'sandbox' => 'https://api.sandbox.ebay.com/sell/marketing',
+        'sandbox'    => 'https://api.sandbox.ebay.com/sell/marketing',
         'production' => 'https://api.ebay.com/sell/marketing',
     ];
 
@@ -43,19 +43,19 @@ class MarketingBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Marketing\Services\MarketingService::API_VERSION,
-                'required' => true,
-            ],
-            'authorization' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-            'marketplaceId' => [
-                'valid' => ['string'],
-            ],
-        ];
+                'apiVersion'    => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\Marketing\Services\MarketingService::API_VERSION,
+                    'required' => true,
+                ],
+                'authorization' => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+                'marketplaceId' => [
+                    'valid' => ['string'],
+                ],
+            ];
     }
 
     /**

@@ -24,34 +24,34 @@ class ReportMetadata extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dimensionMetadata' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DimensionMetadata',
-            'repeatable' => true,
-            'attribute' => false,
+        'dimensionMetadata'              => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\DimensionMetadata',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dimensionMetadata',
         ],
         'maxNumberOfDimensionsToRequest' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxNumberOfDimensionsToRequest',
         ],
-        'maxNumberOfMetricsToRequest' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxNumberOfMetricsToRequest'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxNumberOfMetricsToRequest',
         ],
-        'metricMetadata' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\MetricMetadata',
-            'repeatable' => true,
-            'attribute' => false,
+        'metricMetadata'                 => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\MetricMetadata',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'metricMetadata',
         ],
-        'reportType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportType'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportType',
         ],
     ];

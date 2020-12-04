@@ -21,9 +21,9 @@ class QuantityType extends \DTS\eBaySDK\Types\DecimalType
      */
     private static $propertyTypes = [
         'unit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'unit',
         ],
     ];

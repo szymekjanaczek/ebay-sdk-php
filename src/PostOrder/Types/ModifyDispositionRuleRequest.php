@@ -23,28 +23,28 @@ class ModifyDispositionRuleRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'operation' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleModificationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'operation'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleModificationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'operation',
         ],
         'priorityList' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\PriorityListType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\PriorityListType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priorityList',
         ],
-        'ruleDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailInputType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ruleDetail'   => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleDetailInputType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleDetail',
         ],
-        'versionId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'versionId'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'versionId',
         ],
     ];

@@ -21,9 +21,9 @@ class RefundArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Refund' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\RefundType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\RefundType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Refund',
         ],
     ];

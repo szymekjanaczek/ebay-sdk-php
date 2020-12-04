@@ -22,15 +22,15 @@ class LineItemProperties extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'buyerProtection' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerProtection',
         ],
-        'fromBestOffer' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'fromBestOffer'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fromBestOffer',
         ],
     ];

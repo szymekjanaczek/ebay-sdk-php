@@ -22,15 +22,15 @@ class PublishByInventoryItemGroupRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'inventoryItemGroupKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryItemGroupKey',
         ],
-        'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
     ];

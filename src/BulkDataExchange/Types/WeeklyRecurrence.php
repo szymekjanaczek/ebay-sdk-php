@@ -22,15 +22,15 @@ class WeeklyRecurrence extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'dayOfWeek' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dayOfWeek',
         ],
         'timeOfDay' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'timeOfDay',
         ],
     ];

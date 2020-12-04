@@ -21,9 +21,9 @@ class GetSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Tr
      */
     private static $propertyTypes = [
         'SaleTemplateID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
     ];

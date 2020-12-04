@@ -21,9 +21,9 @@ class CreateCustomListRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'customListDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'customListDetail',
         ],
     ];

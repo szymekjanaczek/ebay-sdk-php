@@ -27,52 +27,52 @@ class SearchRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'offset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'limit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'fieldgroups' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fieldgroups'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fieldgroups',
         ],
         'aspect_filter' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspect_filter',
         ],
-        'category_ids' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'category_ids'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'category_ids',
         ],
-        'mpn' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'mpn'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'mpn',
         ],
-        'gtin' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'gtin'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'gtin',
         ],
-        'q' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'q'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'q',
         ],
     ];

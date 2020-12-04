@@ -21,9 +21,9 @@ class ItemCompatibilityListType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Compatibility' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ItemCompatibilityType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Shopping\Types\ItemCompatibilityType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Compatibility',
         ],
     ];

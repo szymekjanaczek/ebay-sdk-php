@@ -21,16 +21,16 @@ class GetAdFormatLeadsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'AdFormatLead' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AdFormatLeadType',
-            'repeatable' => true,
-            'attribute' => false,
+        'AdFormatLead'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AdFormatLeadType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'AdFormatLead',
         ],
         'AdFormatLeadCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AdFormatLeadCount',
         ],
     ];

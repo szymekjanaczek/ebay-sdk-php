@@ -23,28 +23,28 @@ class ProvideShippingInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\T
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
-            'repeatable' => false,
-            'attribute' => false,
+        'caseId'      => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseId',
         ],
         'carrierUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
         'shippedDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippedDate',
         ],
-        'comments' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
     ];

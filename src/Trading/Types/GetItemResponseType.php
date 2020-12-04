@@ -21,9 +21,9 @@ class GetItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTyp
      */
     private static $propertyTypes = [
         'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Item',
         ],
     ];

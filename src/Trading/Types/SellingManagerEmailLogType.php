@@ -23,28 +23,28 @@ class SellingManagerEmailLogType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'EmailType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EmailType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EmailType',
         ],
         'CustomEmailName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CustomEmailName',
         ],
-        'EmailState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EmailState'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EmailState',
         ],
-        'EventTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EventTime'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EventTime',
         ],
     ];

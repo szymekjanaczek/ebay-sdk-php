@@ -21,9 +21,9 @@ class GetCompatibilitySearchValuesRequest extends \DTS\eBaySDK\ProductMetadata\T
      */
     private static $propertyTypes = [
         'propertyName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'propertyName',
         ],
     ];

@@ -21,9 +21,9 @@ class UpdatePaymentInfoRestRequest extends \DTS\eBaySDK\Order\Types\UpdatePaymen
      */
     private static $propertyTypes = [
         'checkoutSessionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'checkoutSessionId',
         ],
     ];

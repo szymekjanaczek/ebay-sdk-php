@@ -21,9 +21,9 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'RMARequired' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RMARequired',
         ],
     ];

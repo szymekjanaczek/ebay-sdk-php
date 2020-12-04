@@ -21,9 +21,9 @@ class AdReferences extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ads' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\AdReference',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\AdReference',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ads',
         ],
     ];

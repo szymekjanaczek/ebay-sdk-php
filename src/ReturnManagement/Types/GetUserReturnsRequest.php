@@ -27,52 +27,52 @@ class GetUserReturnsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ItemFilterType',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemFilter'              => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ItemFilterType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'orderId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'orderId'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'orderId',
         ],
         'creationDateRangeFilter' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDateRangeFilter',
         ],
-        'ReturnStatusFilter' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnStatusFilter'      => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnStatusFilter',
         ],
-        'otherUserFilter' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\UserFilterType',
-            'repeatable' => false,
-            'attribute' => false,
+        'otherUserFilter'         => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\UserFilterType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'otherUserFilter',
         ],
-        'paginationInput' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\PaginationInput',
-            'repeatable' => false,
-            'attribute' => false,
+        'paginationInput'         => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\PaginationInput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationInput',
         ],
-        'sortType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sortType'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sortType',
         ],
-        'sortOrderType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sortOrderType'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sortOrderType',
         ],
     ];

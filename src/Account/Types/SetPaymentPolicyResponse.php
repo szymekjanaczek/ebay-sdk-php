@@ -30,70 +30,70 @@ class SetPaymentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryTypes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryTypes'       => [
+            'type'        => 'DTS\eBaySDK\Account\Types\CategoryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryTypes',
         ],
-        'deposit' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Deposit',
-            'repeatable' => false,
-            'attribute' => false,
+        'deposit'             => [
+            'type'        => 'DTS\eBaySDK\Account\Types\Deposit',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'deposit',
         ],
-        'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'description'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'fullPaymentDueIn' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
-            'repeatable' => false,
-            'attribute' => false,
+        'fullPaymentDueIn'    => [
+            'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fullPaymentDueIn',
         ],
-        'immediatePay' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'immediatePay'        => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'immediatePay',
         ],
-        'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
         'paymentInstructions' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentInstructions',
         ],
-        'paymentMethods' => [
-            'type' => 'DTS\eBaySDK\Account\Types\PaymentMethod',
-            'repeatable' => true,
-            'attribute' => false,
+        'paymentMethods'      => [
+            'type'        => 'DTS\eBaySDK\Account\Types\PaymentMethod',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'paymentMethods',
         ],
-        'paymentPolicyId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentPolicyId'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentPolicyId',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'            => [
+            'type'        => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

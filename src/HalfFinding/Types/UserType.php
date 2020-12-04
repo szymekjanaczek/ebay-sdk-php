@@ -22,22 +22,22 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'userID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'userID'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'userID',
         ],
-        'feedbackScore' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'feedbackScore'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'feedbackScore',
         ],
         'positiveFeedbackPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'positiveFeedbackPercent',
         ],
     ];

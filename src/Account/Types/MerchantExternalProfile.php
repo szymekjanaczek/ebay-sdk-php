@@ -29,57 +29,57 @@ class MerchantExternalProfile extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'acceptedPaymentMethods' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'acceptedPaymentMethods',
         ],
-        'accountCreationDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'accountCreationDate'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'accountCreationDate',
         ],
-        'billingPaymentMethods' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
-            'repeatable' => false,
-            'attribute' => false,
+        'billingPaymentMethods'  => [
+            'type'        => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'billingPaymentMethods',
         ],
-        'inventorySizing' => [
-            'type' => 'DTS\eBaySDK\Account\Types\InventorySizing',
-            'repeatable' => false,
-            'attribute' => false,
+        'inventorySizing'        => [
+            'type'        => 'DTS\eBaySDK\Account\Types\InventorySizing',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventorySizing',
         ],
-        'merchantCategoryCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'merchantCategoryCode'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'merchantCategoryCode',
         ],
-        'primaryCurrency' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'primaryCurrency'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'primaryCurrency',
         ],
-        'returnSnapshots' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ReturnSnapshot',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnSnapshots'        => [
+            'type'        => 'DTS\eBaySDK\Account\Types\ReturnSnapshot',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnSnapshots',
         ],
-        'sicCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sicCode'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sicCode',
         ],
-        'transactionVolume' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TransactionVolume',
-            'repeatable' => false,
-            'attribute' => false,
+        'transactionVolume'      => [
+            'type'        => 'DTS\eBaySDK\Account\Types\TransactionVolume',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionVolume',
         ],
     ];

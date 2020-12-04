@@ -21,9 +21,9 @@ class AbortJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceReq
      */
     private static $propertyTypes = [
         'jobId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jobId',
         ],
     ];

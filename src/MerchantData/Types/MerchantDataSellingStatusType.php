@@ -21,9 +21,9 @@ class MerchantDataSellingStatusType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'QuantitySold' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuantitySold',
         ],
     ];

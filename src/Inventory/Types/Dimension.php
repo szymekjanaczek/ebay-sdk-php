@@ -24,27 +24,27 @@ class Dimension extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'height' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'height',
         ],
         'length' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'length',
         ],
-        'unit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'unit'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'unit',
         ],
-        'width' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'width'  => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'width',
         ],
     ];

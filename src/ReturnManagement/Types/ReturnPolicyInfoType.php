@@ -21,16 +21,16 @@ class ReturnPolicyInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'optedForRMA' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'optedForRMA'                   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'optedForRMA',
         ],
         'optedForMultipleReturnAddress' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'optedForMultipleReturnAddress',
         ],
     ];

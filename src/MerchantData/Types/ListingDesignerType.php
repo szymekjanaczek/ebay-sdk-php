@@ -22,22 +22,22 @@ class ListingDesignerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'LayoutID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'LayoutID'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LayoutID',
         ],
         'OptimalPictureSize' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OptimalPictureSize',
         ],
-        'ThemeID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ThemeID'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ThemeID',
         ],
     ];

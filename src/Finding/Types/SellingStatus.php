@@ -24,34 +24,34 @@ class SellingStatus extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'currentPrice' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'currentPrice'          => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'currentPrice',
         ],
         'convertedCurrentPrice' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Finding\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'convertedCurrentPrice',
         ],
-        'bidCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'bidCount'              => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bidCount',
         ],
-        'sellingState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sellingState'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellingState',
         ],
-        'timeLeft' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'timeLeft'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'timeLeft',
         ],
     ];

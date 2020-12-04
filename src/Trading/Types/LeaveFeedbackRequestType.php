@@ -28,58 +28,58 @@ class LeaveFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'CommentText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CommentText'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CommentText',
         ],
-        'CommentType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CommentType'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CommentType',
         ],
-        'TransactionID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionID'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'TargetUser' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TargetUser'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TargetUser',
         ],
         'SellerItemRatingDetailArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemRatingDetailArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemRatingDetailArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerItemRatingDetailArray',
         ],
-        'OrderLineItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderLineItemID'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
-        'ItemArrivedWithinEDDType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemArrivedWithinEDDType'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemArrivedWithinEDDType',
         ],
-        'ItemDeliveredWithinEDD' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemDeliveredWithinEDD'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemDeliveredWithinEDD',
         ],
     ];

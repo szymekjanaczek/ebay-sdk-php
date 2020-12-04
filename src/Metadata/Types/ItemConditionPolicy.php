@@ -23,28 +23,28 @@ class ItemConditionPolicy extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryId'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'categoryTreeId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeId'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
         'itemConditionRequired' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemConditionRequired',
         ],
-        'itemConditions' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ItemCondition',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemConditions'        => [
+            'type'        => 'DTS\eBaySDK\Metadata\Types\ItemCondition',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemConditions',
         ],
     ];

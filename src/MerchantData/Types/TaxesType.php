@@ -22,15 +22,15 @@ class TaxesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'TotalTaxAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalTaxAmount',
         ],
-        'TaxDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'TaxDetails'     => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\TaxDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'TaxDetails',
         ],
     ];

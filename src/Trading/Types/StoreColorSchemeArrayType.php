@@ -21,9 +21,9 @@ class StoreColorSchemeArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ColorScheme' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ColorScheme',
         ],
     ];

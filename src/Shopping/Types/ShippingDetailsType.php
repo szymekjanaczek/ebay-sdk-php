@@ -30,70 +30,70 @@ class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'InsuranceCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceCost'                      => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceCost',
         ],
-        'InsuranceOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceOption'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceOption',
         ],
         'InternationalShippingServiceOption' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'InternationalShippingServiceOption',
         ],
-        'SalesTax' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\SalesTaxType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SalesTax'                           => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\SalesTaxType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SalesTax',
         ],
-        'ShippingRateErrorMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingRateErrorMessage'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingRateErrorMessage',
         ],
-        'ShippingServiceOption' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ShippingServiceOptionType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ShippingServiceOption'              => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\ShippingServiceOptionType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceOption',
         ],
-        'TaxTable' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\TaxTableType',
-            'repeatable' => false,
-            'attribute' => false,
+        'TaxTable'                           => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\TaxTableType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxTable',
         ],
-        'InternationalInsuranceCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InternationalInsuranceCost'         => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InternationalInsuranceCost',
         ],
-        'InternationalInsuranceOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InternationalInsuranceOption'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InternationalInsuranceOption',
         ],
-        'CODCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CODCost'                            => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CODCost',
         ],
-        'ExcludeShipToLocation' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ExcludeShipToLocation'              => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ExcludeShipToLocation',
         ],
     ];

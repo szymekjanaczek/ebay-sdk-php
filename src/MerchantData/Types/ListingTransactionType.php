@@ -27,52 +27,52 @@ class ListingTransactionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TransactionTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionTime'           => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionTime',
         ],
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'ItemTitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemTitle'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemTitle',
         ],
-        'SerialNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SerialNumber'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SerialNumber',
         ],
-        'Memo' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Memo'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Memo',
         ],
         'GlobalCategoryDescription' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GlobalCategoryDescription',
         ],
-        'SiteDescription' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SiteDescription'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SiteDescription',
         ],
-        'FeeAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeeAmount'                 => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeeAmount',
         ],
     ];

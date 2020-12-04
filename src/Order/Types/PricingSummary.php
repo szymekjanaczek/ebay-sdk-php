@@ -27,52 +27,52 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'adjustment' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Adjustment',
-            'repeatable' => false,
-            'attribute' => false,
+        'adjustment'       => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Adjustment',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'adjustment',
         ],
-        'deliveryCost' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'deliveryCost'     => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'deliveryCost',
         ],
         'deliveryDiscount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'deliveryDiscount',
         ],
-        'fee' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'fee'              => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fee',
         ],
-        'priceDiscount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'priceDiscount'    => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priceDiscount',
         ],
-        'priceSubtotal' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'priceSubtotal'    => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priceSubtotal',
         ],
-        'tax' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'tax'              => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'tax',
         ],
-        'total' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'total'            => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'total',
         ],
     ];

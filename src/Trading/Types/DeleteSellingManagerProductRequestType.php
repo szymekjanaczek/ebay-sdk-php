@@ -21,9 +21,9 @@ class DeleteSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\
      */
     private static $propertyTypes = [
         'ProductID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductID',
         ],
     ];

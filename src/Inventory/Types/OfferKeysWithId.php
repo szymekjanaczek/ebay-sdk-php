@@ -21,9 +21,9 @@ class OfferKeysWithId extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'offers' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\OfferKeyWithId',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Inventory\Types\OfferKeyWithId',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'offers',
         ],
     ];

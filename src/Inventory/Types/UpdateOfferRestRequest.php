@@ -21,9 +21,9 @@ class UpdateOfferRestRequest extends \DTS\eBaySDK\Inventory\Types\EbayOfferDetai
      */
     private static $propertyTypes = [
         'offerId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offerId',
         ],
     ];

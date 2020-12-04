@@ -21,9 +21,9 @@ class StartDownloadJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseS
      */
     private static $propertyTypes = [
         'jobId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jobId',
         ],
     ];

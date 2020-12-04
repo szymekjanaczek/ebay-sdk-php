@@ -21,9 +21,9 @@ class BulkDeleteAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseT
      */
     private static $propertyTypes = [
         'responses' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceResponse',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceResponse',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'responses',
         ],
     ];

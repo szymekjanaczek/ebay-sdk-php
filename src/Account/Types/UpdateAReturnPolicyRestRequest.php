@@ -21,9 +21,9 @@ class UpdateAReturnPolicyRestRequest extends \DTS\eBaySDK\Account\Types\ReturnPo
      */
     private static $propertyTypes = [
         'return_policy_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'return_policy_id',
         ],
     ];

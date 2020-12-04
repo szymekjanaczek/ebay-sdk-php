@@ -21,16 +21,16 @@ class BuyerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingAddress' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingAddress'    => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AddressType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingAddress',
         ],
         'BuyerTaxIdentifier' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxIdentifierType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\TaxIdentifierType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'BuyerTaxIdentifier',
         ],
     ];

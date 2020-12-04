@@ -22,22 +22,22 @@ class GiftDetails extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'message'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'message',
         ],
         'recipientEmail' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'recipientEmail',
         ],
-        'senderName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'senderName'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'senderName',
         ],
     ];

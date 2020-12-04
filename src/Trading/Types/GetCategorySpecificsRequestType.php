@@ -28,58 +28,58 @@ class GetCategorySpecificsRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'CategoryID'                => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'LastUpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'LastUpdateTime'            => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LastUpdateTime',
         ],
-        'MaxNames' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxNames'                  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxNames',
         ],
-        'MaxValuesPerName' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxValuesPerName'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxValuesPerName',
         ],
-        'Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Name'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'CategorySpecific' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'CategorySpecific'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'CategorySpecific',
         ],
-        'ExcludeRelationships' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExcludeRelationships'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExcludeRelationships',
         ],
-        'IncludeConfidence' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeConfidence'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeConfidence',
         ],
         'CategorySpecificsFileInfo' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategorySpecificsFileInfo',
         ],
     ];

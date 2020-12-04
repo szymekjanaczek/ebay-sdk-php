@@ -24,34 +24,34 @@ class ReturnAddress extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'address' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Address',
-            'repeatable' => false,
-            'attribute' => false,
+        'address'   => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Address',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'address',
         ],
-        'editable' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'editable'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'editable',
         ],
         'firstName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'firstName',
         ],
-        'lastName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'lastName'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastName',
         ],
-        'RMA' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RMA'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RMA',
         ],
     ];

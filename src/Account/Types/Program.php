@@ -21,9 +21,9 @@ class Program extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'programType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'programType',
         ],
     ];

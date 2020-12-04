@@ -27,45 +27,45 @@ class CampaignPagedCollection extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'campaigns' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Campaign',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Campaign',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'campaigns',
         ],
-        'href' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'href'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'href',
         ],
-        'limit' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'next' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'next'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'next',
         ],
-        'offset' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'prev' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'prev'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'total' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'total'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'total',
         ],
     ];

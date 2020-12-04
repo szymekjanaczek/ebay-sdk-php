@@ -22,15 +22,15 @@ class CommonDescriptions extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'itemIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemIds'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemIds',
         ],
     ];

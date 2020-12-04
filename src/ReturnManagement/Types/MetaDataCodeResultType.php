@@ -22,15 +22,15 @@ class MetaDataCodeResultType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'codeName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'codeName',
         ],
-        'value' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'value'    => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

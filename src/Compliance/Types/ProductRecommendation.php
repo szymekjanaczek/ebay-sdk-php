@@ -21,9 +21,9 @@ class ProductRecommendation extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'epid' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'epid',
         ],
     ];

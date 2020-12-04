@@ -26,46 +26,46 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'RefundStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RefundStatus'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RefundStatus',
         ],
-        'RefundType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RefundType'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RefundType',
         ],
-        'RefundTo' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
-            'repeatable' => false,
-            'attribute' => false,
+        'RefundTo'          => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RefundTo',
         ],
-        'RefundTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'RefundTime'        => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RefundTime',
         ],
-        'RefundAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'RefundAmount'      => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RefundAmount',
         ],
-        'ReferenceID' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReferenceID'       => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReferenceID',
         ],
         'FeeOrCreditAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeeOrCreditAmount',
         ],
     ];

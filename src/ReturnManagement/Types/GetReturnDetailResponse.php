@@ -22,15 +22,15 @@ class GetReturnDetailResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseRe
      */
     private static $propertyTypes = [
         'ReturnSummary' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnSummary',
         ],
-        'ReturnDetail' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnDetail'  => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnDetail',
         ],
     ];

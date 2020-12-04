@@ -21,16 +21,16 @@ class AddMemberMessageAAQToPartnerRequestType extends \DTS\eBaySDK\Trading\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
         'MemberMessage' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MemberMessage',
         ],
     ];

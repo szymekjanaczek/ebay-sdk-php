@@ -21,9 +21,9 @@ class SalesTaxes extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'salesTaxes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\SalesTax',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\SalesTax',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'salesTaxes',
         ],
     ];

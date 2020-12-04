@@ -22,15 +22,15 @@ class Refinement extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'aspectDistributions' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\AspectDistribution',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Catalog\Types\AspectDistribution',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectDistributions',
         ],
-        'dominantCategoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dominantCategoryId'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dominantCategoryId',
         ],
     ];

@@ -21,9 +21,9 @@ class GetActivityOptionsRequest extends \DTS\eBaySDK\ReturnManagement\Types\Base
      */
     private static $propertyTypes = [
         'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
     ];

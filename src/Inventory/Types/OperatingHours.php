@@ -22,15 +22,15 @@ class OperatingHours extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'dayOfWeekEnum' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dayOfWeekEnum',
         ],
-        'intervals' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Interval',
-            'repeatable' => true,
-            'attribute' => false,
+        'intervals'     => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Interval',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'intervals',
         ],
     ];

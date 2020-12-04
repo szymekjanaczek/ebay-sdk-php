@@ -22,15 +22,15 @@ class MonthlyRecurrence extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'dayOfMonth' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dayOfMonth',
         ],
-        'timeOfDay' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'timeOfDay'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'timeOfDay',
         ],
     ];

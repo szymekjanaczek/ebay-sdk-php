@@ -28,51 +28,51 @@ class ItemReturnTerms extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'extendedHolidayReturnsOffered' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'extendedHolidayReturnsOffered',
         ],
-        'refundMethod' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundMethod'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundMethod',
         ],
-        'restockingFeePercentage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'restockingFeePercentage'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'restockingFeePercentage',
         ],
-        'returnInstructions' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnInstructions'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnInstructions',
         ],
-        'returnMethod' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnMethod'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnMethod',
         ],
-        'returnPeriod' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\TimeDuration',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnPeriod'                  => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\TimeDuration',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnPeriod',
         ],
-        'returnsAccepted' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnsAccepted'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnsAccepted',
         ],
-        'returnShippingCostPayer' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnShippingCostPayer'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnShippingCostPayer',
         ],
     ];

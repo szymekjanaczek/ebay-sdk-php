@@ -22,15 +22,15 @@ class RuleTemplateDetailType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'actionDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'actionDetail',
         ],
-        'condition' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
-            'repeatable' => true,
-            'attribute' => false,
+        'condition'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'condition',
         ],
     ];

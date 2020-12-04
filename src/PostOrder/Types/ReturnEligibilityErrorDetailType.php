@@ -21,9 +21,9 @@ class ReturnEligibilityErrorDetailType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'eligibilityError' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityErrorType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\EligibilityErrorType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eligibilityError',
         ],
     ];

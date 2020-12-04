@@ -29,64 +29,64 @@ class CatalogProductType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DomainName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DomainName'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DomainName',
         ],
-        'DetailsURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailsURL'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailsURL',
         ],
         'DisplayStockPhotos' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisplayStockPhotos',
         ],
-        'ProductID' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ProductID'          => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ProductID',
         ],
-        'ItemCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemCount'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemCount',
         ],
-        'ItemSpecifics' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemSpecifics'      => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemSpecifics',
         ],
-        'ReviewCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReviewCount'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReviewCount',
         ],
-        'StockPhotoURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StockPhotoURL'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StockPhotoURL',
         ],
-        'Title' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Title'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Title',
         ],
-        'ProductState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProductState'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductState',
         ],
     ];

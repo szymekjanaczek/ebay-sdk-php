@@ -27,16 +27,16 @@ class GetAllSellerProfilesRestResponse extends \DTS\eBaySDK\Analytics\Types\Find
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'errors'   => [
+            'type'        => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'errors',
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

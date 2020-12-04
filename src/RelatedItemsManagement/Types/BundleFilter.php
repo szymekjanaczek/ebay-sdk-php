@@ -22,15 +22,15 @@ class BundleFilter extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'primarySKU' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'primarySKU',
         ],
-        'bundleID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'bundleID'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleID',
         ],
     ];

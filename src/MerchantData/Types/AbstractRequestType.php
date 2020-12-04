@@ -30,70 +30,70 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DetailLevel' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'DetailLevel'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DetailLevel',
         ],
-        'ErrorLanguage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ErrorLanguage'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ErrorLanguage',
         ],
-        'MessageID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageID'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageID',
         ],
-        'Version' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Version'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Version',
         ],
-        'EndUserIP' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndUserIP'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndUserIP',
         ],
         'RequesterCredentials' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\XMLRequesterCredentialsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\XMLRequesterCredentialsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RequesterCredentials',
         ],
-        'ErrorHandling' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ErrorHandling'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ErrorHandling',
         ],
-        'InvocationID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InvocationID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InvocationID',
         ],
-        'OutputSelector' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'OutputSelector'       => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'OutputSelector',
         ],
-        'WarningLevel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarningLevel'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarningLevel',
         ],
-        'BotBlock' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\BotBlockRequestType',
-            'repeatable' => false,
-            'attribute' => false,
+        'BotBlock'             => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\BotBlockRequestType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BotBlock',
         ],
     ];

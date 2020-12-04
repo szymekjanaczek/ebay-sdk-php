@@ -21,9 +21,9 @@ class GalleryInfoContainer extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'galleryURL' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\GalleryURL',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Finding\Types\GalleryURL',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'galleryURL',
         ],
     ];

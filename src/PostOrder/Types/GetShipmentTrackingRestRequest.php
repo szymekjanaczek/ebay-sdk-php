@@ -22,22 +22,22 @@ class GetShipmentTrackingRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrier_used' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'carrier_used'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrier_used',
         ],
-        'returnId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnId'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnId',
         ],
         'tracking_number' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'tracking_number',
         ],
     ];

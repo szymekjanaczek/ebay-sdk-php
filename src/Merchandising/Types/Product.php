@@ -27,52 +27,52 @@ class Product extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productId' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\ProductId',
-            'repeatable' => false,
-            'attribute' => false,
+        'productId'     => [
+            'type'        => 'DTS\eBaySDK\Merchandising\Types\ProductId',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productId',
         ],
-        'title' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'title'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'title',
         ],
-        'productURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'productURL'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productURL',
         ],
-        'catalogName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'catalogName'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'catalogName',
         ],
-        'imageURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'imageURL'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'imageURL',
         ],
-        'reviewCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'reviewCount'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reviewCount',
         ],
         'priceRangeMin' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priceRangeMin',
         ],
         'priceRangeMax' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priceRangeMax',
         ],
     ];

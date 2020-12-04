@@ -21,9 +21,9 @@ class AmountType extends \DTS\eBaySDK\Types\DoubleType
      */
     private static $propertyTypes = [
         'currencyID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'currencyID',
         ],
     ];

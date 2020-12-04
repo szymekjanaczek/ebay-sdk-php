@@ -21,9 +21,9 @@ class GetMostWatchedItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMe
      */
     private static $propertyTypes = [
         'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
     ];

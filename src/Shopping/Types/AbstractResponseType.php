@@ -25,40 +25,40 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Timestamp' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'Timestamp'     => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Timestamp',
         ],
-        'Ack' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Ack'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Ack',
         ],
-        'Errors' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ErrorType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Errors'        => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\ErrorType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Errors',
         ],
-        'Build' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Build'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Build',
         ],
-        'Version' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Version'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Version',
         ],
         'CorrelationID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CorrelationID',
         ],
     ];

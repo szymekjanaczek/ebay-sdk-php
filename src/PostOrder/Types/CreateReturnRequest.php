@@ -21,16 +21,16 @@ class CreateReturnRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'draftId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'draftId'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'draftId',
         ],
         'returnRequest' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnRequestType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnRequestType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnRequest',
         ],
     ];

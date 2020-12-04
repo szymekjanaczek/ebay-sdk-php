@@ -26,46 +26,46 @@ class GetSellerListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaginationResult'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'HasMoreItems' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HasMoreItems'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HasMoreItems',
         ],
-        'ItemArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemArray'               => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemArray',
         ],
-        'ItemsPerPage' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemsPerPage'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemsPerPage',
         ],
-        'PageNumber' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PageNumber'              => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
         'ReturnedItemCountActual' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnedItemCountActual',
         ],
-        'Seller' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Seller'                  => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\UserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Seller',
         ],
     ];

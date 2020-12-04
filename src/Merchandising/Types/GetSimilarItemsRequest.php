@@ -27,52 +27,52 @@ class GetSimilarItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMercha
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemId'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryId'        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
         'categoryIdExclude' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryIdExclude',
         ],
-        'listingType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingType',
         ],
-        'endTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'endTimeTo'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'endTimeTo',
         ],
-        'endTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'endTimeFrom'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'endTimeFrom',
         ],
-        'maxPrice' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxPrice'          => [
+            'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxPrice',
         ],
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\ItemFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemFilter'        => [
+            'type'        => 'DTS\eBaySDK\Merchandising\Types\ItemFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
     ];

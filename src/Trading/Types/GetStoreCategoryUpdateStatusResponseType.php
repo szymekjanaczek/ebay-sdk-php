@@ -21,9 +21,9 @@ class GetStoreCategoryUpdateStatusResponseType extends \DTS\eBaySDK\Trading\Type
      */
     private static $propertyTypes = [
         'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
     ];

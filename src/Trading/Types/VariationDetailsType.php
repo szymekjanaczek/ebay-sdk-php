@@ -24,34 +24,34 @@ class VariationDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MaxVariationsPerItem' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxVariationsPerItem'                  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxVariationsPerItem',
         ],
-        'MaxNamesPerVariationSpecificsSet' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxNamesPerVariationSpecificsSet'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxNamesPerVariationSpecificsSet',
         ],
         'MaxValuesPerVariationSpecificsSetName' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxValuesPerVariationSpecificsSetName',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'                            => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

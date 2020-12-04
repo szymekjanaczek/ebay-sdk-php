@@ -49,9 +49,9 @@ abstract class BaseRestService
      */
     public function __construct(array $config)
     {
-        $this->resolver = new ConfigurationResolver(static::getConfigDefinitions());
+        $this->resolver    = new ConfigurationResolver(static::getConfigDefinitions());
         $this->uriResolver = new UriResolver();
-        $this->config = $this->resolver->resolve($config);
+        $this->config      = $this->resolver->resolve($config);
     }
 
     /**
@@ -63,32 +63,32 @@ abstract class BaseRestService
     {
         return [
             'compressResponse' => [
-                'valid' => ['bool'],
+                'valid'   => ['bool'],
                 'default' => false,
             ],
-            'debug' => [
-                'valid' => ['bool', 'array'],
-                'fn' => 'DTS\eBaySDK\applyDebug',
+            'debug'            => [
+                'valid'   => ['bool', 'array'],
+                'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false,
             ],
-            'httpHandler' => [
-                'valid' => ['callable'],
+            'httpHandler'      => [
+                'valid'   => ['callable'],
                 'default' => 'DTS\eBaySDK\defaultHttpHandler',
             ],
-            'httpOptions' => [
-                'valid' => ['array'],
+            'httpOptions'      => [
+                'valid'   => ['array'],
                 'default' => [
                     'http_errors' => false,
                 ],
             ],
-            'requestLanguage' => [
+            'requestLanguage'  => [
                 'valid' => ['string'],
             ],
             'responseLanguage' => [
                 'valid' => ['string'],
             ],
-            'sandbox' => [
-                'valid' => ['bool'],
+            'sandbox'          => [
+                'valid'   => ['bool'],
                 'default' => false,
             ],
         ];
@@ -136,29 +136,29 @@ abstract class BaseRestService
     {
         $operation = static::$operations[$name];
 
-        $paramValues = [];
+        $paramValues   = [];
         $requestValues = [];
 
         if ($request) {
-            $requestArray = $request->toArray();
-            $paramValues = array_intersect_key($requestArray, $operation['params']);
+            $requestArray  = $request->toArray();
+            $paramValues   = array_intersect_key($requestArray, $operation['params']);
             $requestValues = array_diff_key($requestArray, $operation['params']);
         }
 
-        $url = $this->uriResolver->resolve(
+        $url           = $this->uriResolver->resolve(
             $this->getUrl(),
             $this->getConfig('apiVersion'),
             $operation['resource'],
             $operation['params'],
             $paramValues
         );
-        $method = $operation['method'];
-        $body = $this->buildRequestBody($requestValues);
-        $headers = $this->buildRequestHeaders($body);
+        $method        = $operation['method'];
+        $body          = $this->buildRequestBody($requestValues);
+        $headers       = $this->buildRequestHeaders($body);
         $responseClass = $operation['responseClass'];
-        $debug = $this->getConfig('debug');
-        $httpHandler = $this->getConfig('httpHandler');
-        $httpOptions = $this->getConfig('httpOptions');
+        $debug         = $this->getConfig('debug');
+        $httpHandler   = $this->getConfig('httpHandler');
+        $httpOptions   = $this->getConfig('httpOptions');
 
         if ($debug !== false) {
             $this->debugRequest($url, $headers, $body);
@@ -220,8 +220,8 @@ abstract class BaseRestService
     {
         $headers = $this->getEbayHeaders();
 
-        $headers['Accept'] = 'application/json';
-        $headers['Content-Type'] = 'application/json';
+        $headers['Accept']         = 'application/json';
+        $headers['Content-Type']   = 'application/json';
         $headers['Content-Length'] = strlen($body);
 
         // Add optional headers.
@@ -253,7 +253,7 @@ abstract class BaseRestService
      * @param string $url API endpoint.
      * @param array $headers Associative array of HTTP headers.
      * @param string $body The JSON body of the request.
-      */
+     */
     private function debugRequest($url, array $headers, $body)
     {
         $str = $url . PHP_EOL;
@@ -272,7 +272,7 @@ abstract class BaseRestService
      * Sends a debug string of the response details.
      *
      * @param string $body The JSON body of the response.
-      */
+     */
     private function debugResponse($body)
     {
         $this->debug($body);

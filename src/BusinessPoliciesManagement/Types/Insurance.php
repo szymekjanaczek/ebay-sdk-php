@@ -23,28 +23,28 @@ class Insurance extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'domesticInsuranceFee' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'domesticInsuranceFee'    => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'domesticInsuranceFee',
         ],
         'domesticInsuranceOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'domesticInsuranceOption',
         ],
-        'intlInsuranceOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'intlInsuranceOption'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'intlInsuranceOption',
         ],
-        'intlInsuranceFee' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'intlInsuranceFee'        => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'intlInsuranceFee',
         ],
     ];

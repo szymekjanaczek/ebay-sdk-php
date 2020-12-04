@@ -22,15 +22,15 @@ class CategoryMappingType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'oldID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'oldID',
         ],
-        'id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+        'id'    => [
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'id',
         ],
     ];

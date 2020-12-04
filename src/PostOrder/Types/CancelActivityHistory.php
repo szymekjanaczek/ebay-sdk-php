@@ -25,40 +25,40 @@ class CancelActivityHistory extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'actionDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'actionDate'        => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'actionDate',
         ],
-        'activityParty' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'activityParty'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'activityParty',
         ],
-        'activityType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'activityType'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'activityType',
         ],
-        'cancelStateFrom' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelStateFrom'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelStateFrom',
         ],
-        'cancelStateTo' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelStateTo'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelStateTo',
         ],
         'cancelStatetateTo' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelStatetateTo',
         ],
     ];

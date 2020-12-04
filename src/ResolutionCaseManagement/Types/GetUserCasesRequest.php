@@ -25,40 +25,40 @@ class GetUserCasesRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\Ba
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemFilterType',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemFilter'              => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemFilterType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
         'creationDateRangeFilter' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDateRangeFilter',
         ],
-        'caseTypeFilter' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType',
-            'repeatable' => false,
-            'attribute' => false,
+        'caseTypeFilter'          => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseTypeFilter',
         ],
-        'caseStatusFilter' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType',
-            'repeatable' => false,
-            'attribute' => false,
+        'caseStatusFilter'        => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseStatusFilter',
         ],
-        'paginationInput' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationInput',
-            'repeatable' => false,
-            'attribute' => false,
+        'paginationInput'         => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationInput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationInput',
         ],
-        'sortOrder' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sortOrder'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sortOrder',
         ],
     ];

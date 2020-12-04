@@ -21,9 +21,9 @@ class DistanceType extends \DTS\eBaySDK\Types\DoubleType
      */
     private static $propertyTypes = [
         'unit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'unit',
         ],
     ];

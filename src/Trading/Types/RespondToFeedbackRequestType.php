@@ -26,46 +26,46 @@ class RespondToFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FeedbackID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeedbackID'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackID',
         ],
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'TransactionID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionID'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'TargetUserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TargetUserID'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TargetUserID',
         ],
-        'ResponseType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ResponseType'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ResponseType',
         ],
-        'ResponseText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ResponseText'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ResponseText',
         ],
         'OrderLineItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
     ];

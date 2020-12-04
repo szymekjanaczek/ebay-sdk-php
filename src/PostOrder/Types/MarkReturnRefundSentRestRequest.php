@@ -21,9 +21,9 @@ class MarkReturnRefundSentRestRequest extends \DTS\eBaySDK\PostOrder\Types\MarkR
      */
     private static $propertyTypes = [
         'returnId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnId',
         ],
     ];

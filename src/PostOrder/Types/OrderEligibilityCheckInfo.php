@@ -21,9 +21,9 @@ class OrderEligibilityCheckInfo extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'legacyOrderId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legacyOrderId',
         ],
     ];

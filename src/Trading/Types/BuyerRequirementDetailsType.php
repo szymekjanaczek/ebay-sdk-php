@@ -27,52 +27,52 @@ class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShipToRegistrationCountry' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShipToRegistrationCountry'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShipToRegistrationCountry',
         ],
-        'ZeroFeedbackScore' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ZeroFeedbackScore'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ZeroFeedbackScore',
         ],
-        'MinimumFeedbackScore' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MinimumFeedbackScore'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MinimumFeedbackScore',
         ],
-        'MaximumItemRequirements' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaximumItemRequirements'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaximumItemRequirements',
         ],
-        'LinkedPayPalAccount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'LinkedPayPalAccount'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LinkedPayPalAccount',
         ],
-        'VerifiedUserRequirements' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'VerifiedUserRequirements'     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VerifiedUserRequirements',
         ],
         'MaximumUnpaidItemStrikesInfo' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaximumUnpaidItemStrikesInfo',
         ],
         'MaximumBuyerPolicyViolations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaximumBuyerPolicyViolations',
         ],
     ];

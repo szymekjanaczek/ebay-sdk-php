@@ -21,16 +21,16 @@ class SendReturnShippingLabelRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'return_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'return_id'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'return_id',
         ],
         'to_email_address' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'to_email_address',
         ],
     ];

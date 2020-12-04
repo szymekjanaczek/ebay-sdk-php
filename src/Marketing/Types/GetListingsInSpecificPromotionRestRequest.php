@@ -25,33 +25,33 @@ class GetListingsInSpecificPromotionRestRequest extends \DTS\eBaySDK\Types\BaseT
      */
     private static $propertyTypes = [
         'promotion_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotion_id',
         ],
-        'limit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'q' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'q'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'q',
         ],
-        'sort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sort'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sort',
         ],
     ];

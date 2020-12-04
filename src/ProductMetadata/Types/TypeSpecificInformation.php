@@ -23,28 +23,28 @@ class TypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'uriTypeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation',
-            'repeatable' => false,
-            'attribute' => false,
+        'uriTypeSpecificInformation'     => [
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'uriTypeSpecificInformation',
         ],
         'numericTypeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'numericTypeSpecificInformation',
         ],
-        'mediaTypeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation',
-            'repeatable' => false,
-            'attribute' => false,
+        'mediaTypeSpecificInformation'   => [
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'mediaTypeSpecificInformation',
         ],
-        'stringTypeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation',
-            'repeatable' => false,
-            'attribute' => false,
+        'stringTypeSpecificInformation'  => [
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'stringTypeSpecificInformation',
         ],
     ];

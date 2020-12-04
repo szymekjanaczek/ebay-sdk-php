@@ -21,16 +21,16 @@ class GetASpecificSellerProfileRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'cycle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cycle'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cycle',
         ],
         'program' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'program',
         ],
     ];

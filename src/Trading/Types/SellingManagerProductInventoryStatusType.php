@@ -25,40 +25,40 @@ class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'QuantityScheduled' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'QuantityScheduled'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuantityScheduled',
         ],
-        'QuantityActive' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'QuantityActive'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuantityActive',
         ],
-        'QuantitySold' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'QuantitySold'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuantitySold',
         ],
-        'QuantityUnsold' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'QuantityUnsold'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuantityUnsold',
         ],
-        'SuccessPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'SuccessPercent'      => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SuccessPercent',
         ],
         'AverageSellingPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AverageSellingPrice',
         ],
     ];

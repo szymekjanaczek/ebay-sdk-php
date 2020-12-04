@@ -21,16 +21,16 @@ class ClaimHistoryResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'history' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ClaimHistoryEventModel',
-            'repeatable' => true,
-            'attribute' => false,
+        'history'                 => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ClaimHistoryEventModel',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'history',
         ],
         'shipmentTrackingDetails' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentTrackingDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ShipmentTrackingDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipmentTrackingDetails',
         ],
     ];

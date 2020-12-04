@@ -25,40 +25,40 @@ class ErrorType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShortMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShortMessage'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShortMessage',
         ],
-        'LongMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'LongMessage'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LongMessage',
         ],
-        'ErrorCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ErrorCode'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ErrorCode',
         ],
-        'SeverityCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SeverityCode'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SeverityCode',
         ],
-        'ErrorParameters' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ErrorParameterType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ErrorParameters'     => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\ErrorParameterType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ErrorParameters',
         ],
         'ErrorClassification' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ErrorClassification',
         ],
     ];

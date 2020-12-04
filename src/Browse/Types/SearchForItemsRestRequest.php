@@ -30,63 +30,63 @@ class SearchForItemsRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'aspect_filter' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspect_filter',
         ],
-        'category_ids' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'category_ids'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'category_ids',
         ],
-        'epid' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'epid'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'fieldgroups' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fieldgroups'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fieldgroups',
         ],
-        'filter' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'filter'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'filter',
         ],
-        'gtin' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'gtin'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'gtin',
         ],
-        'limit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'q' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'q'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'q',
         ],
-        'sort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sort'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sort',
         ],
     ];

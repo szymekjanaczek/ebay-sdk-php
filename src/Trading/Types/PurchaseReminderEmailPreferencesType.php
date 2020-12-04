@@ -21,9 +21,9 @@ class PurchaseReminderEmailPreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'PurchaseReminderEmailPreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PurchaseReminderEmailPreferences',
         ],
     ];

@@ -25,40 +25,40 @@ class UpdateTrackingRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'newCarrierEnum' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'newCarrierEnum'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'newCarrierEnum',
         ],
-        'newCarrierName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'newCarrierName'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'newCarrierName',
         ],
-        'newTrackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'newTrackingNumber'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'newTrackingNumber',
         ],
-        'usedCarrierEnum' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'usedCarrierEnum'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'usedCarrierEnum',
         ],
-        'usedCarrierName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'usedCarrierName'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'usedCarrierName',
         ],
         'usedTrackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'usedTrackingNumber',
         ],
     ];

@@ -22,15 +22,15 @@ class GetSuggestedCategoriesRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'category_tree_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'category_tree_id',
         ],
-        'q' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'q'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'q',
         ],
     ];

@@ -22,22 +22,22 @@ class StoreCustomListingHeaderLinkType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'LinkID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'LinkID'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LinkID',
         ],
-        'Order' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Order'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Order',
         ],
         'LinkType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LinkType',
         ],
     ];

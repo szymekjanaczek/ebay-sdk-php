@@ -22,15 +22,15 @@ class Media extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'mediaIdentifier' => [
-            'type' => 'DTS\eBaySDK\Product\Types\MediaIdentifier',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\MediaIdentifier',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'mediaIdentifier',
         ],
-        'mediaType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'mediaType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'mediaType',
         ],
     ];

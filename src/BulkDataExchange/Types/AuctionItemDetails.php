@@ -21,16 +21,16 @@ class AuctionItemDetails extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'includeBidCount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'includeBidCount'        => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'includeBidCount',
         ],
         'includeReservePriceMet' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'includeReservePriceMet',
         ],
     ];

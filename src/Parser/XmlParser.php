@@ -153,13 +153,13 @@ class XmlParser
      */
     private function getPhpMeta($elementName, array $attributes)
     {
-        $meta = new \stdClass();
+        $meta               = new \stdClass();
         $meta->propertyName = '';
-        $meta->phpType = '';
-        $meta->repeatable = false;
-        $meta->attribute = false;
-        $meta->elementName = '';
-        $meta->strData = '';
+        $meta->phpType      = '';
+        $meta->repeatable   = false;
+        $meta->attribute    = false;
+        $meta->elementName  = '';
+        $meta->strData      = '';
 
         if (!$this->metaStack->isEmpty()) {
             $parentObject = $this->getParentObject();
@@ -186,7 +186,7 @@ class XmlParser
                 // This could happen if the SDK is out of date with what eBay return.
                 // It could also happen if eBay return elements that are not mentioned in any WSDL.
                 if ($attributeMeta) {
-                    $attributeMeta->strData = $value;
+                    $attributeMeta->strData                          = $value;
                     $meta->phpObject->{$attributeMeta->propertyName} = $this->getValueToAssignToProperty($attributeMeta);
                 }
             }

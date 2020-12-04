@@ -21,9 +21,9 @@ class SetStoreCustomPageRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      */
     private static $propertyTypes = [
         'CustomPage' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomPageType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreCustomPageType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CustomPage',
         ],
     ];

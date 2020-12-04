@@ -21,16 +21,16 @@ class PickupOptionsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PickupMethod' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PickupMethod'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickupMethod',
         ],
         'PickupPriority' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickupPriority',
         ],
     ];

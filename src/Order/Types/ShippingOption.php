@@ -27,52 +27,52 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'baseDeliveryCost' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'baseDeliveryCost'         => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'baseDeliveryCost',
         ],
-        'deliveryDiscount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'deliveryDiscount'         => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'deliveryDiscount',
         ],
         'maxEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxEstimatedDeliveryDate',
         ],
         'minEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'selected' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'selected'                 => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'selected',
         ],
-        'shippingCarrierCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCarrierCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingOptionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingOptionId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingOptionId',
         ],
-        'shippingServiceCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingServiceCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceCode',
         ],
     ];

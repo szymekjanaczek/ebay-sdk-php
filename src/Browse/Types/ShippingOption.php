@@ -32,75 +32,75 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'additionalShippingCostPerUnit' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'additionalShippingCostPerUnit',
         ],
-        'cutOffDateUsedForEstimate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cutOffDateUsedForEstimate'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cutOffDateUsedForEstimate',
         ],
-        'maxEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxEstimatedDeliveryDate'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxEstimatedDeliveryDate',
         ],
-        'minEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'minEstimatedDeliveryDate'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'quantityUsedForEstimate' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'quantityUsedForEstimate'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'quantityUsedForEstimate',
         ],
-        'shippingCarrierCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCarrierCode'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingCost' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCost'                  => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'shippingCostType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCostType'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCostType',
         ],
-        'shippingServiceCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingServiceCode'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceCode',
         ],
         'shipToLocationUsedForEstimate' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ShipToLocation',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Browse\Types\ShipToLocation',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipToLocationUsedForEstimate',
         ],
-        'trademarkSymbol' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'trademarkSymbol'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trademarkSymbol',
         ],
-        'type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'type'                          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'type',
         ],
     ];

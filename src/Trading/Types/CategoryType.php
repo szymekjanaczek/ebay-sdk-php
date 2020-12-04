@@ -33,88 +33,88 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BestOfferEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'BestOfferEnabled'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOfferEnabled',
         ],
-        'AutoPayEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'AutoPayEnabled'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AutoPayEnabled',
         ],
-        'B2BVATEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'B2BVATEnabled'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'B2BVATEnabled',
         ],
-        'CategoryID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'CategoryLevel' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryLevel'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryLevel',
         ],
-        'CategoryName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryName'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryName',
         ],
-        'CategoryParentID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'CategoryParentID'   => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'CategoryParentID',
         ],
         'CategoryParentName' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'CategoryParentName',
         ],
-        'Expired' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Expired'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Expired',
         ],
-        'LeafCategory' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'LeafCategory'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LeafCategory',
         ],
-        'Virtual' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Virtual'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Virtual',
         ],
-        'ORPA' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ORPA'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ORPA',
         ],
-        'ORRA' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ORRA'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ORRA',
         ],
-        'LSD' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'LSD'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LSD',
         ],
     ];

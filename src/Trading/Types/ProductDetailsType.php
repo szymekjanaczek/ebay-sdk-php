@@ -21,9 +21,9 @@ class ProductDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ProductIdentifierUnavailableText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductIdentifierUnavailableText',
         ],
     ];

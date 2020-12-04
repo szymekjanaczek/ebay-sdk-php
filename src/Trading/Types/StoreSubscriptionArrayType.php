@@ -21,9 +21,9 @@ class StoreSubscriptionArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Subscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreSubscriptionType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreSubscriptionType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Subscription',
         ],
     ];

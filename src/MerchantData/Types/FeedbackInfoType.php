@@ -23,21 +23,21 @@ class FeedbackInfoType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'CommentText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CommentText',
         ],
         'CommentType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CommentType',
         ],
-        'TargetUser' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TargetUser'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TargetUser',
         ],
     ];

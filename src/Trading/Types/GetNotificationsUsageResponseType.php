@@ -24,34 +24,34 @@ class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'StartTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTime'                => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTime'                  => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTime',
         ],
         'NotificationDetailsArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NotificationDetailsArray',
         ],
-        'MarkUpMarkDownHistory' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MarkUpMarkDownHistory'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MarkUpMarkDownHistory',
         ],
-        'NotificationStatistics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationStatisticsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'NotificationStatistics'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\NotificationStatisticsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NotificationStatistics',
         ],
     ];

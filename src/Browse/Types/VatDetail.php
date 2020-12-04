@@ -22,15 +22,15 @@ class VatDetail extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'issuingCountry' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'issuingCountry',
         ],
-        'vatId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'vatId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'vatId',
         ],
     ];

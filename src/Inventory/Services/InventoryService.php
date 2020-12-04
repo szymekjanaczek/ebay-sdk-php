@@ -18,52 +18,52 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'BulkUpdatePriceAndQuantity' => [
-            'method' => 'POST',
-            'resource' => 'bulk_update_price_quantity',
+        'BulkUpdatePriceAndQuantity'          => [
+            'method'        => 'POST',
+            'resource'      => 'bulk_update_price_quantity',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\BulkUpdatePriceAndQuantityRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'CreateOrReplaceInventoryItem' => [
-            'method' => 'PUT',
-            'resource' => 'inventory_item/{sku}',
+        'CreateOrReplaceInventoryItem'        => [
+            'method'        => 'PUT',
+            'resource'      => 'inventory_item/{sku}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemRestResponse',
-            'params' => [
+            'params'        => [
                 'sku' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'DeleteInventoryItem' => [
-            'method' => 'DELETE',
-            'resource' => 'inventory_item/{sku}',
+        'DeleteInventoryItem'                 => [
+            'method'        => 'DELETE',
+            'resource'      => 'inventory_item/{sku}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteInventoryItemRestResponse',
-            'params' => [
+            'params'        => [
                 'sku' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetInventoryItem' => [
-            'method' => 'GET',
-            'resource' => 'inventory_item/{sku}',
+        'GetInventoryItem'                    => [
+            'method'        => 'GET',
+            'resource'      => 'inventory_item/{sku}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryItemRestResponse',
-            'params' => [
+            'params'        => [
                 'sku' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetInventoryItems' => [
-            'method' => 'GET',
-            'resource' => 'inventory_item',
+        'GetInventoryItems'                   => [
+            'method'        => 'GET',
+            'resource'      => 'inventory_item',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryItemsRestResponse',
-            'params' => [
-                'limit' => [
+            'params'        => [
+                'limit'  => [
                     'valid' => ['string'],
                 ],
                 'offset' => [
@@ -71,107 +71,107 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'CreateOrReplaceInventoryItemGroup' => [
-            'method' => 'PUT',
-            'resource' => 'inventory_item_group/{inventoryItemGroupKey}',
+        'CreateOrReplaceInventoryItemGroup'   => [
+            'method'        => 'PUT',
+            'resource'      => 'inventory_item_group/{inventoryItemGroupKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemGroupRestResponse',
-            'params' => [
+            'params'        => [
                 'inventoryItemGroupKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'DeleteInventoryItemGroup' => [
-            'method' => 'DELETE',
-            'resource' => 'inventory_item_group/{inventoryItemGroupKey}',
+        'DeleteInventoryItemGroup'            => [
+            'method'        => 'DELETE',
+            'resource'      => 'inventory_item_group/{inventoryItemGroupKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteInventoryItemGroupRestResponse',
-            'params' => [
+            'params'        => [
                 'inventoryItemGroupKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetInventoryItemGroup' => [
-            'method' => 'GET',
-            'resource' => 'inventory_item_group/{inventoryItemGroupKey}',
+        'GetInventoryItemGroup'               => [
+            'method'        => 'GET',
+            'resource'      => 'inventory_item_group/{inventoryItemGroupKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryItemGroupRestResponse',
-            'params' => [
+            'params'        => [
                 'inventoryItemGroupKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'BulkMigrateListings' => [
-            'method' => 'POST',
-            'resource' => 'bulk_migrate_listing',
+        'BulkMigrateListings'                 => [
+            'method'        => 'POST',
+            'resource'      => 'bulk_migrate_listing',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'CreateInventoryLocation' => [
-            'method' => 'POST',
-            'resource' => 'location/{merchantLocationKey}',
+        'CreateInventoryLocation'             => [
+            'method'        => 'POST',
+            'resource'      => 'location/{merchantLocationKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateInventoryLocationRestResponse',
-            'params' => [
+            'params'        => [
                 'merchantLocationKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'DeleteInventoryLocation' => [
-            'method' => 'DELETE',
-            'resource' => 'location/{merchantLocationKey}',
+        'DeleteInventoryLocation'             => [
+            'method'        => 'DELETE',
+            'resource'      => 'location/{merchantLocationKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteInventoryLocationRestResponse',
-            'params' => [
+            'params'        => [
                 'merchantLocationKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'DisableInventoryLocation' => [
-            'method' => 'POST',
-            'resource' => 'location/{merchantLocationKey}/disable',
+        'DisableInventoryLocation'            => [
+            'method'        => 'POST',
+            'resource'      => 'location/{merchantLocationKey}/disable',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DisableInventoryLocationRestResponse',
-            'params' => [
+            'params'        => [
                 'merchantLocationKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'EnableInventoryLocation' => [
-            'method' => 'POST',
-            'resource' => 'location/{merchantLocationKey}/enable',
+        'EnableInventoryLocation'             => [
+            'method'        => 'POST',
+            'resource'      => 'location/{merchantLocationKey}/enable',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\EnableInventoryLocationRestResponse',
-            'params' => [
+            'params'        => [
                 'merchantLocationKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetInventoryLocation' => [
-            'method' => 'GET',
-            'resource' => 'location/{merchantLocationKey}',
+        'GetInventoryLocation'                => [
+            'method'        => 'GET',
+            'resource'      => 'location/{merchantLocationKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryLocationRestResponse',
-            'params' => [
+            'params'        => [
                 'merchantLocationKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetInventoryLocations' => [
-            'method' => 'GET',
-            'resource' => 'location',
+        'GetInventoryLocations'               => [
+            'method'        => 'GET',
+            'resource'      => 'location',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryLocationsRestResponse',
-            'params' => [
-                'limit' => [
+            'params'        => [
+                'limit'  => [
                     'valid' => ['string'],
                 ],
                 'offset' => [
@@ -179,147 +179,147 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'UpdateInventoryLocation' => [
-            'method' => 'POST',
-            'resource' => 'location/{merchantLocationKey}/update_location_details',
+        'UpdateInventoryLocation'             => [
+            'method'        => 'POST',
+            'resource'      => 'location/{merchantLocationKey}/update_location_details',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\UpdateInventoryLocationRestResponse',
-            'params' => [
+            'params'        => [
                 'merchantLocationKey' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'CreateOffer' => [
-            'method' => 'POST',
-            'resource' => 'offer',
+        'CreateOffer'                         => [
+            'method'        => 'POST',
+            'resource'      => 'offer',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateOfferRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'DeleteOffer' => [
-            'method' => 'DELETE',
-            'resource' => 'offer/{offerId}',
+        'DeleteOffer'                         => [
+            'method'        => 'DELETE',
+            'resource'      => 'offer/{offerId}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteOfferRestResponse',
-            'params' => [
+            'params'        => [
                 'offerId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetListingFees' => [
-            'method' => 'POST',
-            'resource' => 'offer/get_listing_fees',
+        'GetListingFees'                      => [
+            'method'        => 'POST',
+            'resource'      => 'offer/get_listing_fees',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetListingFeesRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'GetOffer' => [
-            'method' => 'GET',
-            'resource' => 'offer/{offerId}',
+        'GetOffer'                            => [
+            'method'        => 'GET',
+            'resource'      => 'offer/{offerId}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetOfferRestResponse',
-            'params' => [
+            'params'        => [
                 'offerId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetOffers' => [
-            'method' => 'GET',
-            'resource' => 'offer',
+        'GetOffers'                           => [
+            'method'        => 'GET',
+            'resource'      => 'offer',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetOffersRestResponse',
-            'params' => [
-                'format' => [
+            'params'        => [
+                'format'         => [
                     'valid' => ['string'],
                 ],
-                'limit' => [
+                'limit'          => [
                     'valid' => ['string'],
                 ],
                 'marketplace_id' => [
                     'valid' => ['string'],
                 ],
-                'offset' => [
+                'offset'         => [
                     'valid' => ['string'],
                 ],
-                'sku' => [
-                    'valid' => ['string'],
+                'sku'            => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'PublishOffer' => [
-            'method' => 'POST',
-            'resource' => 'offer/{offerId}/publish',
+        'PublishOffer'                        => [
+            'method'        => 'POST',
+            'resource'      => 'offer/{offerId}/publish',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\PublishOfferRestResponse',
-            'params' => [
+            'params'        => [
                 'offerId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'WithdrawOffer' => [
-            'method' => 'POST',
-            'resource' => 'offer/{offerId}/withdraw',
+        'WithdrawOffer'                       => [
+            'method'        => 'POST',
+            'resource'      => 'offer/{offerId}/withdraw',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\WithdrawOfferRestResponse',
-            'params' => [
+            'params'        => [
                 'offerId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'UpdateOffer' => [
-            'method' => 'PUT',
-            'resource' => 'offer/{offerId}',
+        'UpdateOffer'                         => [
+            'method'        => 'PUT',
+            'resource'      => 'offer/{offerId}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\UpdateOfferRestResponse',
-            'params' => [
+            'params'        => [
                 'offerId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
         'CreateOrReplaceProductCompatibility' => [
-            'method' => 'PUT',
-            'resource' => 'inventory_item/{sku}/product_compatibility',
+            'method'        => 'PUT',
+            'resource'      => 'inventory_item/{sku}/product_compatibility',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateOrReplaceProductCompatibilityRestResponse',
-            'params' => [
+            'params'        => [
                 'sku' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'DeleteProductCompatibility' => [
-            'method' => 'DELETE',
-            'resource' => 'inventory_item/{sku}/product_compatibility',
+        'DeleteProductCompatibility'          => [
+            'method'        => 'DELETE',
+            'resource'      => 'inventory_item/{sku}/product_compatibility',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteProductCompatibilityRestResponse',
-            'params' => [
+            'params'        => [
                 'sku' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetProductCompatibility' => [
-            'method' => 'GET',
-            'resource' => 'inventory_item/{sku}/product_compatibility',
+        'GetProductCompatibility'             => [
+            'method'        => 'GET',
+            'resource'      => 'inventory_item/{sku}/product_compatibility',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetProductCompatibilityRestResponse',
-            'params' => [
+            'params'        => [
                 'sku' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'PublishOfferByInventoryItemGroup' => [
-            'method' => 'POST',
-            'resource' => 'offer/publish_by_inventory_item_group',
+        'PublishOfferByInventoryItemGroup'    => [
+            'method'        => 'POST',
+            'resource'      => 'offer/publish_by_inventory_item_group',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
     ];

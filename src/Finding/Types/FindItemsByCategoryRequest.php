@@ -23,28 +23,28 @@ class FindItemsByCategoryRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingS
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryId'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemFilter'     => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\ItemFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'aspectFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'aspectFilter'   => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\AspectFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectFilter',
         ],
         'outputSelector' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'outputSelector',
         ],
     ];

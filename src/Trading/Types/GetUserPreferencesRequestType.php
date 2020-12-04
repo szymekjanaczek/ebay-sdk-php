@@ -39,124 +39,124 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShowBidderNoticePreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowBidderNoticePreferences'                     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowBidderNoticePreferences',
         ],
-        'ShowCombinedPaymentPreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowCombinedPaymentPreferences'                  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowCombinedPaymentPreferences',
         ],
-        'ShowSellerPaymentPreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowSellerPaymentPreferences'                    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowSellerPaymentPreferences',
         ],
-        'ShowEndOfAuctionEmailPreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowEndOfAuctionEmailPreferences'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowEndOfAuctionEmailPreferences',
         ],
-        'ShowSellerFavoriteItemPreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowSellerFavoriteItemPreferences'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowSellerFavoriteItemPreferences',
         ],
-        'ShowEmailShipmentTrackingNumberPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowEmailShipmentTrackingNumberPreference'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowEmailShipmentTrackingNumberPreference',
         ],
-        'ShowRequiredShipPhoneNumberPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowRequiredShipPhoneNumberPreference'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowRequiredShipPhoneNumberPreference',
         ],
-        'ShowSellerExcludeShipToLocationPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowSellerExcludeShipToLocationPreference'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowSellerExcludeShipToLocationPreference',
         ],
-        'ShowUnpaidItemAssistancePreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowUnpaidItemAssistancePreference'              => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowUnpaidItemAssistancePreference',
         ],
-        'ShowPurchaseReminderEmailPreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowPurchaseReminderEmailPreferences'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowPurchaseReminderEmailPreferences',
         ],
-        'ShowUnpaidItemAssistanceExclusionList' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowUnpaidItemAssistanceExclusionList'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowUnpaidItemAssistanceExclusionList',
         ],
-        'ShowSellerProfilePreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowSellerProfilePreferences'                    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowSellerProfilePreferences',
         ],
-        'ShowSellerReturnPreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowSellerReturnPreferences'                     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowSellerReturnPreferences',
         ],
-        'ShowGlobalShippingProgramPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowGlobalShippingProgramPreference'             => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowGlobalShippingProgramPreference',
         ],
-        'ShowDispatchCutoffTimePreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowDispatchCutoffTimePreferences'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowDispatchCutoffTimePreferences',
         ],
-        'ShowGlobalShippingProgramListingPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowGlobalShippingProgramListingPreference'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowGlobalShippingProgramListingPreference',
         ],
         'ShowOverrideGSPServiceWithIntlServicePreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowOverrideGSPServiceWithIntlServicePreference',
         ],
-        'ShowPickupDropoffPreferences' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowPickupDropoffPreferences'                    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowPickupDropoffPreferences',
         ],
-        'ShowOutOfStockControlPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShowOutOfStockControlPreference'                 => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShowOutOfStockControlPreference',
         ],
-        'ShoweBayPLUSPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShoweBayPLUSPreference'                          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShoweBayPLUSPreference',
         ],
     ];

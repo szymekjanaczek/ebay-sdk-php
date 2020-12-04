@@ -21,9 +21,9 @@ class RequiredSellerActionArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'RequiredSellerAction' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'RequiredSellerAction',
         ],
     ];

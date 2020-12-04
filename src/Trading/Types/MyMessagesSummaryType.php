@@ -25,40 +25,40 @@ class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FolderSummary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
-            'repeatable' => true,
-            'attribute' => false,
+        'FolderSummary'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'FolderSummary',
         ],
-        'NewMessageCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NewMessageCount'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NewMessageCount',
         ],
-        'FlaggedMessageCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FlaggedMessageCount'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FlaggedMessageCount',
         ],
-        'TotalMessageCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'TotalMessageCount'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalMessageCount',
         ],
-        'NewHighPriorityCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NewHighPriorityCount'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NewHighPriorityCount',
         ],
         'TotalHighPriorityCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalHighPriorityCount',
         ],
     ];

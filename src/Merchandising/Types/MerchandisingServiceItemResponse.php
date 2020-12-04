@@ -21,9 +21,9 @@ class MerchandisingServiceItemResponse extends \DTS\eBaySDK\Merchandising\Types\
      */
     private static $propertyTypes = [
         'itemRecommendations' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\ItemRecommendations',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Merchandising\Types\ItemRecommendations',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemRecommendations',
         ],
     ];

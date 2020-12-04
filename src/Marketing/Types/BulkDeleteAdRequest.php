@@ -21,9 +21,9 @@ class BulkDeleteAdRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'requests' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DeleteAdRequest',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\DeleteAdRequest',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'requests',
         ],
     ];

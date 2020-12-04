@@ -27,52 +27,52 @@ class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CharityID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityID'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityID',
         ],
-        'CharityName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityName'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityName',
         ],
-        'Query' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Query'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Query',
         ],
-        'CharityRegion' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityRegion'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityRegion',
         ],
-        'CharityDomain' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityDomain'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityDomain',
         ],
         'IncludeDescription' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeDescription',
         ],
-        'MatchType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MatchType'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MatchType',
         ],
-        'Featured' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Featured'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Featured',
         ],
     ];

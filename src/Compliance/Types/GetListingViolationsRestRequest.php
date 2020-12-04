@@ -23,28 +23,28 @@ class GetListingViolationsRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'limit' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'listing_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listing_id'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listing_id',
         ],
-        'offset' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
         'compliance_type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'compliance_type',
         ],
     ];

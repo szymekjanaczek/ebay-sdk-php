@@ -21,9 +21,9 @@ class UpdateShippingOptionRestRequest extends \DTS\eBaySDK\Order\Types\UpdateShi
      */
     private static $propertyTypes = [
         'checkoutSessionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'checkoutSessionId',
         ],
     ];

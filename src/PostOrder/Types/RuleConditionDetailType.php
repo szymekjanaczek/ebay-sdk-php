@@ -25,40 +25,40 @@ class RuleConditionDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dataList' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ConditionListDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataList'      => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ConditionListDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataList',
         ],
-        'isChecked' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'isChecked'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isChecked',
         ],
-        'isEbayPlus' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'isEbayPlus'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isEbayPlus',
         ],
-        'isInvalid' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'isInvalid'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isInvalid',
         ],
         'storeCategory' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'storeCategory',
         ],
-        'storeId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'storeId'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'storeId',
         ],
     ];

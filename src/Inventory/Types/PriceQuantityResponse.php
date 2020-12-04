@@ -24,34 +24,34 @@ class PriceQuantityResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'errors'     => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'errors',
         ],
-        'offerId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offerId'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offerId',
         ],
-        'sku' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sku'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sku',
         ],
         'statusCode' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'statusCode',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'   => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

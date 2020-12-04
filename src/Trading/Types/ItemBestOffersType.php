@@ -22,22 +22,22 @@ class ItemBestOffersType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Role' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Role'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Role',
         ],
         'BestOfferArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\BestOfferArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOfferArray',
         ],
-        'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Item'           => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Item',
         ],
     ];

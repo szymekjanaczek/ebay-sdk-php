@@ -21,9 +21,9 @@ class GetStoreCategoryResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'categories' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\StoreCategoryType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\StoreCategoryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categories',
         ],
     ];

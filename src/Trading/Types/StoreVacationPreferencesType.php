@@ -25,40 +25,40 @@ class StoreVacationPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OnVacation' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'OnVacation'                    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OnVacation',
         ],
-        'ReturnDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnDate'                    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnDate',
         ],
-        'MessageItem' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageItem'                   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageItem',
         ],
-        'MessageStore' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageStore'                  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageStore',
         ],
         'DisplayMessageStoreCustomText' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisplayMessageStoreCustomText',
         ],
-        'MessageStoreCustomText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageStoreCustomText'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageStoreCustomText',
         ],
     ];

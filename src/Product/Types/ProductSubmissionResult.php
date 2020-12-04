@@ -22,15 +22,15 @@ class ProductSubmissionResult extends \DTS\eBaySDK\Product\Types\BaseServiceResp
      */
     private static $propertyTypes = [
         'productSubmission' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmission',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductSubmission',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productSubmission',
         ],
-        'status' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionStatus',
-            'repeatable' => false,
-            'attribute' => false,
+        'status'            => [
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductSubmissionStatus',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'status',
         ],
     ];

@@ -45,8 +45,8 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
      */
     public function __construct($class, $property, $expectedType)
     {
-        $this->class = $class;
-        $this->property = $property;
+        $this->class        = $class;
+        $this->property     = $property;
         $this->expectedType = $expectedType;
     }
 
@@ -165,7 +165,7 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
             $actualType = get_class($value);
         }
 
-        $valid = explode('|', $this->expectedType);
+        $valid   = explode('|', $this->expectedType);
         $isValid = false;
         foreach ($valid as $check) {
             if ($check !== 'any' && \DTS\eBaySDK\checkPropertyType($check)) {

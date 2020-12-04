@@ -25,40 +25,40 @@ class Report extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'endDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'endDate'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'endDate',
         ],
-        'header' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Header',
-            'repeatable' => false,
-            'attribute' => false,
+        'header'          => [
+            'type'        => 'DTS\eBaySDK\Analytics\Types\Header',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'header',
         ],
         'lastUpdatedDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastUpdatedDate',
         ],
-        'records' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Record',
-            'repeatable' => true,
-            'attribute' => false,
+        'records'         => [
+            'type'        => 'DTS\eBaySDK\Analytics\Types\Record',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'records',
         ],
-        'startDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'startDate'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'startDate',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'        => [
+            'type'        => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

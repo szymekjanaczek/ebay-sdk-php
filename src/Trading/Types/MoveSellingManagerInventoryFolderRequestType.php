@@ -21,16 +21,16 @@ class MoveSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderID'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
         'NewParentFolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NewParentFolderID',
         ],
     ];

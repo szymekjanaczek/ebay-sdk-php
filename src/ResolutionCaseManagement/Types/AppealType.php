@@ -25,40 +25,40 @@ class AppealType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'decision' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'decision'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decision',
         ],
-        'decisionReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'decisionReason'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decisionReason',
         ],
         'decisionReasonDetail' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decisionReasonDetail',
         ],
-        'decisionDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'decisionDate'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decisionDate',
         ],
-        'creationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationDate'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+        'id'                   => [
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'id',
         ],
     ];

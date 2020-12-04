@@ -26,46 +26,46 @@ class Offers extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'href' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'href'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'href',
         ],
-        'limit' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'next' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'next'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'next',
         ],
         'offers' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'offers',
         ],
-        'prev' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'prev'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'size' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'size'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'size',
         ],
-        'total' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'total'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'total',
         ],
     ];

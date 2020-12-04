@@ -21,9 +21,9 @@ class UpdateGuestLineItemShippingAddressRestRequest extends \DTS\eBaySDK\Order\T
      */
     private static $propertyTypes = [
         'checkoutSessionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'checkoutSessionId',
         ],
     ];

@@ -14,9 +14,9 @@ class DecimalType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'value' => [
-            'type' => 'integer|double',
+            'type'       => 'integer|double',
             'repeatable' => false,
-            'attribute' => false,
+            'attribute'  => false,
         ],
     ];
 

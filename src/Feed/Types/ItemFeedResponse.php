@@ -21,9 +21,9 @@ class ItemFeedResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'itemFeeds' => [
-            'type' => 'DTS\eBaySDK\Feed\Types\ItemFeed',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Feed\Types\ItemFeed',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemFeeds',
         ],
     ];

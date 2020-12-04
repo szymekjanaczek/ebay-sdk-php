@@ -26,39 +26,39 @@ class CancelRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'cancelCompletedDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelCompletedDate',
         ],
-        'cancelInitiator' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelInitiator'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelInitiator',
         ],
-        'cancelReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelReason'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelReason',
         ],
         'cancelRequestedDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelRequestedDate',
         ],
-        'cancelRequestId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelRequestId'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelRequestId',
         ],
-        'cancelRequestState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelRequestState'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelRequestState',
         ],
     ];

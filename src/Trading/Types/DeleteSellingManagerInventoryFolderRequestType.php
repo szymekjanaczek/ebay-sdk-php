@@ -21,9 +21,9 @@ class DeleteSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Tradin
      */
     private static $propertyTypes = [
         'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
     ];

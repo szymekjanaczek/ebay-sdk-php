@@ -25,40 +25,40 @@ class ProductMetadataAspect extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectHelpText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspectHelpText'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectHelpText',
         ],
-        'constraint' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
-            'repeatable' => false,
-            'attribute' => false,
+        'constraint'                  => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'constraint',
         ],
-        'droppable' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'droppable'                   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'droppable',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'                        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'values' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectValue',
-            'repeatable' => true,
-            'attribute' => false,
+        'values'                      => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ProductAspectValue',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'values',
         ],
         'valuesAssociatedWithProduct' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'valuesAssociatedWithProduct',
         ],
     ];

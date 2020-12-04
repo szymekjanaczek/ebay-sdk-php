@@ -23,21 +23,21 @@ class AverageRatingDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'RatingDetail' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RatingDetail',
         ],
-        'Rating' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'Rating'       => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Rating',
         ],
-        'RatingCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'RatingCount'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RatingCount',
         ],
     ];

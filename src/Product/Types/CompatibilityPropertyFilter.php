@@ -23,21 +23,21 @@ class CompatibilityPropertyFilter extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'propertyFilter' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'propertyFilter',
         ],
-        'AAIA' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'AAIA'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AAIA',
         ],
-        'HSNTSN' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'HSNTSN'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HSNTSN',
         ],
     ];

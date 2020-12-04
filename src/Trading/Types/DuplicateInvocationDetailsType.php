@@ -23,21 +23,21 @@ class DuplicateInvocationDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'DuplicateInvocationID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DuplicateInvocationID',
         ],
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'InvocationTrackingID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InvocationTrackingID'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InvocationTrackingID',
         ],
     ];

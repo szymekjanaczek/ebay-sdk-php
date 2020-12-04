@@ -21,16 +21,16 @@ class CharityAffiliationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+        'id'   => [
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'id',
         ],
         'type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'type',
         ],
     ];

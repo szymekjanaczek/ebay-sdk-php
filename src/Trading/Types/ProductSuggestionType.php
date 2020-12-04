@@ -23,28 +23,28 @@ class ProductSuggestionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Title' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Title'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Title',
         ],
-        'EPID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EPID'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EPID',
         ],
-        'StockPhoto' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StockPhoto'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StockPhoto',
         ],
         'Recommended' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Recommended',
         ],
     ];

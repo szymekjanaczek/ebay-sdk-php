@@ -21,9 +21,9 @@ class BulkDeleteAdResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'responses' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DeleteAdResponse',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\DeleteAdResponse',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'responses',
         ],
     ];

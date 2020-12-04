@@ -25,40 +25,40 @@ class FindItemsAdvancedRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSer
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'keywords' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'keywords'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'keywords',
         ],
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryId'        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemFilter'        => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\ItemFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'aspectFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'aspectFilter'      => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\AspectFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectFilter',
         ],
-        'outputSelector' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'outputSelector'    => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'outputSelector',
         ],
         'descriptionSearch' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'descriptionSearch',
         ],
     ];

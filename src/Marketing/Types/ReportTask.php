@@ -39,124 +39,124 @@ class ReportTask extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'campaignIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'campaignIds'                      => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'campaignIds',
         ],
-        'dateFrom' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateFrom'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateFrom',
         ],
-        'dateTo' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateTo'                           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateTo',
         ],
-        'dimensions' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Dimension',
-            'repeatable' => true,
-            'attribute' => false,
+        'dimensions'                       => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Dimension',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dimensions',
         ],
-        'inventoryReferences' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryReference',
-            'repeatable' => true,
-            'attribute' => false,
+        'inventoryReferences'              => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\InventoryReference',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'inventoryReferences',
         ],
-        'listingIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'listingIds'                       => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'listingIds',
         ],
-        'marketplaceId' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'                    => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'metricKeys' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'metricKeys'                       => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'metricKeys',
         ],
-        'reportExpirationDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportExpirationDate'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportExpirationDate',
         ],
-        'reportFormat' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportFormat'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportFormat',
         ],
-        'reportHref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportHref'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportHref',
         ],
-        'reportId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportId'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportId',
         ],
-        'reportName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportName'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportName',
         ],
-        'reportTaskCompletionDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportTaskCompletionDate'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportTaskCompletionDate',
         ],
-        'reportTaskCreationDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportTaskCreationDate'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportTaskCreationDate',
         ],
         'reportTaskExpectedCompletionDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportTaskExpectedCompletionDate',
         ],
-        'reportTaskId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportTaskId'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportTaskId',
         ],
-        'reportTaskStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportTaskStatus'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportTaskStatus',
         ],
-        'reportTaskStatusMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportTaskStatusMessage'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportTaskStatusMessage',
         ],
-        'reportType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reportType'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reportType',
         ],
     ];

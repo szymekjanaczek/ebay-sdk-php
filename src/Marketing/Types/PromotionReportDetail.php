@@ -34,94 +34,94 @@ class PromotionReportDetail extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'averageItemDiscount' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'averageItemDiscount'  => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'averageItemDiscount',
         ],
-        'averageItemRevenue' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'averageItemRevenue'   => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'averageItemRevenue',
         ],
         'averageOrderDiscount' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'averageOrderDiscount',
         ],
-        'averageOrderRevenue' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'averageOrderRevenue'  => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'averageOrderRevenue',
         ],
-        'averageOrderSize' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'averageOrderSize'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'averageOrderSize',
         ],
-        'baseSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'baseSale'             => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'baseSale',
         ],
-        'itemsSoldQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemsSoldQuantity'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemsSoldQuantity',
         ],
-        'numberOfOrdersSold' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'numberOfOrdersSold'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'numberOfOrdersSold',
         ],
-        'percentageSalesLift' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'percentageSalesLift'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'percentageSalesLift',
         ],
-        'promotionHref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'promotionHref'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionHref',
         ],
-        'promotionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'promotionId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionId',
         ],
-        'promotionReportId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'promotionReportId'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionReportId',
         ],
-        'promotionSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'promotionSale'        => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionSale',
         ],
-        'totalDiscount' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'totalDiscount'        => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'totalDiscount',
         ],
-        'totalSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'totalSale'            => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'totalSale',
         ],
     ];

@@ -22,15 +22,15 @@ class VariationSpecificPictureSetType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'VariationSpecificValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VariationSpecificValue',
         ],
-        'PictureURL' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'PictureURL'             => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'PictureURL',
         ],
     ];

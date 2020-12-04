@@ -22,15 +22,15 @@ class ReturnUserType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'userId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'userId',
         ],
-        'role' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'role'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'role',
         ],
     ];

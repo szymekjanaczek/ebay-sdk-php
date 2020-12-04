@@ -21,9 +21,9 @@ class MoneyMovementRef extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'idref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'idref',
         ],
     ];

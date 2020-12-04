@@ -23,21 +23,21 @@ class ProductStatus extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'excludeForeBaySelling' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'excludeForeBaySelling',
         ],
         'excludeForeBayReviews' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'excludeForeBayReviews',
         ],
         'excludeForHalfSelling' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'excludeForHalfSelling',
         ],
     ];

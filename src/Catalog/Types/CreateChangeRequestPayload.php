@@ -24,34 +24,34 @@ class CreateChangeRequestPayload extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'changeRequestType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'changeRequestType'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'changeRequestType',
         ],
         'reasonForChangeRequest' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reasonForChangeRequest',
         ],
-        'referenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'referenceId'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'referenceId',
         ],
-        'referenceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'referenceType'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'referenceType',
         ],
-        'suggestedProduct' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\SuggestedProduct',
-            'repeatable' => false,
-            'attribute' => false,
+        'suggestedProduct'       => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\SuggestedProduct',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'suggestedProduct',
         ],
     ];

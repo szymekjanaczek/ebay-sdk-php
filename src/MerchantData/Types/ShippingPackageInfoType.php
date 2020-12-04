@@ -26,46 +26,46 @@ class ShippingPackageInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'StoreID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreID'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreID',
         ],
-        'ShippingTrackingEvent' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingTrackingEvent'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingTrackingEvent',
         ],
         'ScheduledDeliveryTimeMin' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ScheduledDeliveryTimeMin',
         ],
         'ScheduledDeliveryTimeMax' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ScheduledDeliveryTimeMax',
         ],
-        'ActualDeliveryTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ActualDeliveryTime'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ActualDeliveryTime',
         ],
         'EstimatedDeliveryTimeMin' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EstimatedDeliveryTimeMin',
         ],
         'EstimatedDeliveryTimeMax' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EstimatedDeliveryTimeMax',
         ],
     ];

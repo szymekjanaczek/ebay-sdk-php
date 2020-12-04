@@ -40,15 +40,15 @@ class FileTransferBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\FileTransfer\Services\FileTransferService::API_VERSION,
-            ],
-            'authToken' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-        ];
+                'apiVersion' => [
+                    'valid'   => ['string'],
+                    'default' => \DTS\eBaySDK\FileTransfer\Services\FileTransferService::API_VERSION,
+                ],
+                'authToken'  => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+            ];
     }
 
     /**
@@ -85,7 +85,7 @@ class FileTransferBaseService extends \DTS\eBaySDK\Services\BaseService
             }
 
             if (!isset($request->fileAttachment->Size)) {
-                $attachment = $request->attachment();
+                $attachment                    = $request->attachment();
                 $request->fileAttachment->Size = strlen($attachment['data']);
             }
         }
@@ -105,7 +105,7 @@ class FileTransferBaseService extends \DTS\eBaySDK\Services\BaseService
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_AUTH_TOKEN] = $this->getConfig('authToken');
+        $headers[self::HDR_AUTH_TOKEN]     = $this->getConfig('authToken');
         $headers[self::HDR_OPERATION_NAME] = $operationName;
 
         // Add optional headers.

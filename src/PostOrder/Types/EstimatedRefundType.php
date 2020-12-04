@@ -24,34 +24,34 @@ class EstimatedRefundType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'estimatedAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'estimatedAmount'         => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'estimatedAmount',
         ],
-        'maxAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxAmount'               => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxAmount',
         ],
-        'minAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'minAmount'               => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minAmount',
         ],
-        'refundFeeType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundFeeType'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundFeeType',
         ],
         'restockingFeePercentage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'restockingFeePercentage',
         ],
     ];

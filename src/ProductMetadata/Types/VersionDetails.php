@@ -21,16 +21,16 @@ class VersionDetails extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'version' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'version'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'version',
         ],
         'updateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'updateTime',
         ],
     ];

@@ -25,40 +25,40 @@ class GetStoreOptionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BasicThemeArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'BasicThemeArray'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreThemeArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BasicThemeArray',
         ],
         'AdvancedThemeArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreThemeArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AdvancedThemeArray',
         ],
-        'LogoArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreLogoArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'LogoArray'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreLogoArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LogoArray',
         ],
-        'SubscriptionArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SubscriptionArray'  => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SubscriptionArray',
         ],
-        'MaxCategories' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxCategories'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxCategories',
         ],
-        'MaxCategoryLevels' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxCategoryLevels'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxCategoryLevels',
         ],
     ];

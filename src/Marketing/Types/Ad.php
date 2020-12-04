@@ -24,34 +24,34 @@ class Ad extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'adId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'adId'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'adId',
         ],
-        'bidPercentage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'bidPercentage'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bidPercentage',
         ],
-        'inventoryReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'inventoryReferenceId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceType',
         ],
-        'listingId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingId'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingId',
         ],
     ];

@@ -21,9 +21,9 @@ class Campaigns extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'campaigns' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Campaign',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Campaign',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'campaigns',
         ],
     ];

@@ -24,34 +24,34 @@ class CreateInquiryRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'claimQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'claimQuantity'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'claimQuantity',
         ],
-        'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'       => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
         'desiredOutcome' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'desiredOutcome',
         ],
-        'itemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'transactionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'transactionId'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionId',
         ],
     ];

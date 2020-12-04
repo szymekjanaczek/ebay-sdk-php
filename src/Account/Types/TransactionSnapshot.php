@@ -25,33 +25,33 @@ class TransactionSnapshot extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'calendarWindowAggregatedMetrics' => [
-            'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'calendarWindowAggregatedMetrics',
         ],
-        'lookbackPeriod' => [
-            'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
-            'repeatable' => false,
-            'attribute' => false,
+        'lookbackPeriod'                  => [
+            'type'        => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lookbackPeriod',
         ],
-        'rollingWindowAggregatedMetrics' => [
-            'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
-            'repeatable' => false,
-            'attribute' => false,
+        'rollingWindowAggregatedMetrics'  => [
+            'type'        => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rollingWindowAggregatedMetrics',
         ],
-        'soldInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'soldInventoryValue'              => [
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'soldInventoryValue',
         ],
-        'soldQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'soldQuantity'                    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'soldQuantity',
         ],
     ];

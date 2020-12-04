@@ -21,9 +21,9 @@ class ProvideInquiryRefundInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\S
      */
     private static $propertyTypes = [
         'inquiryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiryId',
         ],
     ];

@@ -21,9 +21,9 @@ class GetMetadataResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'metadata' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnMetadataType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnMetadataType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'metadata',
         ],
     ];

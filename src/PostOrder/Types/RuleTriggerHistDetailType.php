@@ -22,22 +22,22 @@ class RuleTriggerHistDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemId'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemId',
         ],
         'returnDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Java:XMLGregorianCalendar',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Java:XMLGregorianCalendar',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnDate',
         ],
-        'returnId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnId'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnId',
         ],
     ];

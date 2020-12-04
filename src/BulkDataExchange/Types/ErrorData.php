@@ -27,52 +27,52 @@ class ErrorData extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errorId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'errorId'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorId',
         ],
-        'domain' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'domain'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'domain',
         ],
-        'severity' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'severity'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'severity',
         ],
-        'category' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'category'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'category',
         ],
-        'message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'message'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'message',
         ],
-        'subdomain' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'subdomain'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'subdomain',
         ],
         'exceptionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'exceptionId',
         ],
-        'parameter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\ErrorParameter',
-            'repeatable' => true,
-            'attribute' => false,
+        'parameter'   => [
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\ErrorParameter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'parameter',
         ],
     ];

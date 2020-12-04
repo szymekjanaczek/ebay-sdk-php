@@ -27,52 +27,52 @@ class CheckoutSessionResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'acceptedPaymentMethods' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethod',
-            'repeatable' => true,
-            'attribute' => false,
+        'acceptedPaymentMethods'    => [
+            'type'        => 'DTS\eBaySDK\Order\Types\PaymentMethod',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'acceptedPaymentMethods',
         ],
-        'checkoutSessionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'checkoutSessionId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'checkoutSessionId',
         ],
-        'expirationDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'expirationDate'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'expirationDate',
         ],
-        'lineItems' => [
-            'type' => 'DTS\eBaySDK\Order\Types\LineItem',
-            'repeatable' => true,
-            'attribute' => false,
+        'lineItems'                 => [
+            'type'        => 'DTS\eBaySDK\Order\Types\LineItem',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'lineItems',
         ],
-        'pricingSummary' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
-            'repeatable' => false,
-            'attribute' => false,
+        'pricingSummary'            => [
+            'type'        => 'DTS\eBaySDK\Order\Types\PricingSummary',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'pricingSummary',
         ],
         'providedPaymentInstrument' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'providedPaymentInstrument',
         ],
-        'shippingAddress' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingAddress'           => [
+            'type'        => 'DTS\eBaySDK\Order\Types\ShippingAddress',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingAddress',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'                  => [
+            'type'        => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

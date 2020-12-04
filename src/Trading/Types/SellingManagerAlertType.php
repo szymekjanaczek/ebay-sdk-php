@@ -27,52 +27,52 @@ class SellingManagerAlertType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'AlertType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'AlertType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AlertType',
         ],
-        'SoldAlert' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SoldAlert'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SoldAlert',
         ],
-        'InventoryAlert' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InventoryAlert'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InventoryAlert',
         ],
         'AutomationAlert' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AutomationAlert',
         ],
-        'PaisaPayAlert' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaisaPayAlert'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaisaPayAlert',
         ],
-        'GeneralAlert' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'GeneralAlert'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GeneralAlert',
         ],
-        'DurationInDays' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'DurationInDays'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DurationInDays',
         ],
-        'Count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Count'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Count',
         ],
     ];

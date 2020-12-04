@@ -28,58 +28,58 @@ class JobProfile extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'jobId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'jobId'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jobId',
         ],
-        'jobType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'jobType'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jobType',
         ],
-        'jobStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'jobStatus'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jobStatus',
         ],
-        'creationTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationTime'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationTime',
         ],
-        'completionTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'completionTime'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'completionTime',
         ],
-        'errorCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'errorCount'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorCount',
         ],
-        'percentComplete' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'percentComplete'      => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'percentComplete',
         ],
-        'fileReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileReferenceId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileReferenceId',
         ],
         'inputFileReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inputFileReferenceId',
         ],
     ];

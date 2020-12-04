@@ -22,15 +22,15 @@ class FlatRateInsuranceRangeCostType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'FlatRateInsuranceRange' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FlatRateInsuranceRange',
         ],
-        'InsuranceCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceCost'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceCost',
         ],
     ];

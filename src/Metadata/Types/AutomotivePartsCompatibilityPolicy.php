@@ -24,34 +24,34 @@ class AutomotivePartsCompatibilityPolicy extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryId'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'categoryTreeId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeId'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
-        'compatibilityBasedOn' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'compatibilityBasedOn'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'compatibilityBasedOn',
         ],
-        'compatibleVehicleTypes' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'compatibleVehicleTypes'        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'compatibleVehicleTypes',
         ],
         'maxNumberOfCompatibleVehicles' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxNumberOfCompatibleVehicles',
         ],
     ];

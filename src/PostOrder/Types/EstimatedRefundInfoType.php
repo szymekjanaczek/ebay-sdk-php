@@ -22,22 +22,22 @@ class EstimatedRefundInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'buyerTotalAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyerTotalAmount'      => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerTotalAmount',
         ],
         'estimatedRefundDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'estimatedRefundDetail',
         ],
-        'sellerTotalAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'sellerTotalAmount'     => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellerTotalAmount',
         ],
     ];

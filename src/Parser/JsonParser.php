@@ -24,7 +24,7 @@ class JsonParser
             if ($propertyMeta) {
                 $value = self::removeNull($value);
                 if (!is_null($value)) {
-                    $actualValue = self::determineActualValueToAssign($propertyMeta, $value);
+                    $actualValue                           = self::determineActualValueToAssign($propertyMeta, $value);
                     $object->{$propertyMeta->propertyName} = $actualValue;
                 }
             }

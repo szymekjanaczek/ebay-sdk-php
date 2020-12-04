@@ -21,9 +21,9 @@ class GetDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
      */
     private static $propertyTypes = [
         'Dispute' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DisputeType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\DisputeType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Dispute',
         ],
     ];

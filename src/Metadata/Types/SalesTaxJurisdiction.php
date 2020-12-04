@@ -21,9 +21,9 @@ class SalesTaxJurisdiction extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'salesTaxJurisdictionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'salesTaxJurisdictionId',
         ],
     ];

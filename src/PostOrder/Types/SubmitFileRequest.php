@@ -21,9 +21,9 @@ class SubmitFileRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'filePurpose' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'filePurpose',
         ],
     ];

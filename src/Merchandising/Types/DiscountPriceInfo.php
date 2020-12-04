@@ -24,27 +24,27 @@ class DiscountPriceInfo extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'originalRetailPrice' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'originalRetailPrice',
         ],
-        'pricingTreatment' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'pricingTreatment'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'pricingTreatment',
         ],
-        'soldOnEbay' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'soldOnEbay'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'soldOnEbay',
         ],
-        'soldOffEbay' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'soldOffEbay'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'soldOffEbay',
         ],
     ];

@@ -26,46 +26,46 @@ class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'activity' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'activity'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'activity',
         ],
-        'attributes' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType',
-            'repeatable' => false,
-            'attribute' => false,
+        'attributes'   => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'attributes',
         ],
-        'author' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'author'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'author',
         ],
         'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'fromState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fromState'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fromState',
         ],
-        'notes' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'notes'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'notes',
         ],
-        'toState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'toState'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'toState',
         ],
     ];

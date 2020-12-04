@@ -25,40 +25,40 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'trackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'trackingNumber'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
-        'carrierUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'carrierUsed'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'deliveryStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'deliveryStatus'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'deliveryStatus',
         ],
-        'deliveryDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'deliveryDate'    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'deliveryDate',
         ],
-        'shippingCost' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCost'    => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
         'shippingAddress' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingAddress',
         ],
     ];

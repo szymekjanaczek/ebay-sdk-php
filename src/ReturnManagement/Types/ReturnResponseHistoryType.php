@@ -23,28 +23,28 @@ class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'note' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'note'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'note',
         ],
-        'author' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'author'         => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'author',
         ],
         'activityDetail' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'activityDetail',
         ],
-        'creationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationDate'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
     ];

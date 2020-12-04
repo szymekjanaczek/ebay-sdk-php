@@ -21,16 +21,16 @@ class PaymentMethodBrand extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'logoImage' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Image',
-            'repeatable' => false,
-            'attribute' => false,
+        'logoImage'              => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Image',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'logoImage',
         ],
         'paymentMethodBrandType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentMethodBrandType',
         ],
     ];

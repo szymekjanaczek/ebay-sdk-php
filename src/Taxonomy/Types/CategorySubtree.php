@@ -23,21 +23,21 @@ class CategorySubtree extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'categorySubtreeNode' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categorySubtreeNode',
         ],
-        'categoryTreeId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
         'categoryTreeVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeVersion',
         ],
     ];

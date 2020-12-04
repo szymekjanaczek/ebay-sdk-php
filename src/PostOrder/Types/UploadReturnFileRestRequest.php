@@ -21,9 +21,9 @@ class UploadReturnFileRestRequest extends \DTS\eBaySDK\PostOrder\Types\UploadFil
      */
     private static $propertyTypes = [
         'returnId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnId',
         ],
     ];

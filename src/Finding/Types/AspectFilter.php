@@ -21,16 +21,16 @@ class AspectFilter extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspectName'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectName',
         ],
         'aspectValueName' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectValueName',
         ],
     ];

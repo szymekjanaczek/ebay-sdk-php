@@ -13,9 +13,9 @@ class Data extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'xopInclude' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\XopInclude',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\FileTransfer\Types\XopInclude',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'xop:Include',
         ],
     ];

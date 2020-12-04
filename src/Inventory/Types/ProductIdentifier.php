@@ -22,22 +22,22 @@ class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'epid' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'epid'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'gtin' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'gtin'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'gtin',
         ],
         'ktype' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ktype',
         ],
     ];

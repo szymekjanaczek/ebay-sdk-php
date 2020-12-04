@@ -23,21 +23,21 @@ class GetItemFeedRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'category_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'category_id',
         ],
-        'date' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'date'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'date',
         ],
-        'feed_type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'feed_type'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'feed_type',
         ],
     ];

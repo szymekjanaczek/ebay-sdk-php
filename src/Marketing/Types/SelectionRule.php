@@ -25,40 +25,40 @@ class SelectionRule extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'brands' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'brands'              => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'brands',
         ],
-        'categoryIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryIds'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryIds',
         ],
-        'categoryScope' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryScope'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryScope',
         ],
         'listingConditionIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'listingConditionIds',
         ],
-        'maxPrice' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxPrice'            => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxPrice',
         ],
-        'minPrice' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'minPrice'            => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minPrice',
         ],
     ];

@@ -21,9 +21,9 @@ class ModifyNameArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ModifyName' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ModifyNameType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ModifyNameType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ModifyName',
         ],
     ];

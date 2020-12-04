@@ -26,46 +26,46 @@ class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Imposition' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Imposition'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Imposition',
         ],
-        'TaxDescription' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TaxDescription'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxDescription',
         ],
-        'TaxAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'TaxAmount'           => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxAmount',
         ],
         'TaxOnSubtotalAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxOnSubtotalAmount',
         ],
         'TaxOnShippingAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxOnShippingAmount',
         ],
         'TaxOnHandlingAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxOnHandlingAmount',
         ],
-        'TaxCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TaxCode'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxCode',
         ],
     ];

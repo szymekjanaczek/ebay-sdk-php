@@ -26,46 +26,46 @@ class MemberMessageExchangeType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Item'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Item',
         ],
-        'Question' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Question'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Question',
         ],
-        'Response' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'Response'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Response',
         ],
-        'MessageStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageStatus'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageStatus',
         ],
-        'CreationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'CreationDate'     => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CreationDate',
         ],
         'LastModifiedDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LastModifiedDate',
         ],
-        'MessageMedia' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
-            'repeatable' => true,
-            'attribute' => false,
+        'MessageMedia'     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'MessageMedia',
         ],
     ];

@@ -21,9 +21,9 @@ class GetPaymentPoliciesByMarketplaceRestRequest extends \DTS\eBaySDK\Types\Base
      */
     private static $propertyTypes = [
         'marketplace_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplace_id',
         ],
     ];

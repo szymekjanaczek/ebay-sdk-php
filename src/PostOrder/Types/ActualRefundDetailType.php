@@ -23,28 +23,28 @@ class ActualRefundDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'actualRefund' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+        'actualRefund'         => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'actualRefund',
         ],
         'refundInitiationType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundInitiationType',
         ],
-        'refundIssuedDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundIssuedDate'     => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundIssuedDate',
         ],
-        'refundStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundStatus'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundStatus',
         ],
     ];

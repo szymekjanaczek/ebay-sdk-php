@@ -22,22 +22,22 @@ class EndItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'EndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTime'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTime',
         ],
         'CorrelationID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CorrelationID',
         ],
-        'Errors' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Errors'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ErrorType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Errors',
         ],
     ];

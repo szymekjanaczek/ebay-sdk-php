@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -35,9 +36,9 @@ class DebugRuntime
     public function __construct(callable $runtime, $output = null)
     {
         $this->runtime = $runtime;
-        $this->out = $output ?: STDOUT;
-        $this->lexer = new Lexer();
-        $this->parser = new Parser($this->lexer);
+        $this->out     = $output ?: STDOUT;
+        $this->lexer   = new Lexer();
+        $this->parser  = new Parser($this->lexer);
     }
 
     public function __invoke($expression, $data)
@@ -98,7 +99,7 @@ class DebugRuntime
     private function dumpAst($expression)
     {
         $parser = new Parser();
-        $ast = $parser->parse($expression);
+        $ast    = $parser->parse($expression);
         fwrite($this->out, "AST\n========\n\n");
         fwrite($this->out, json_encode($ast, JSON_PRETTY_PRINT) . "\n");
     }
@@ -106,10 +107,10 @@ class DebugRuntime
     private function dumpCompiledCode($expression)
     {
         fwrite($this->out, "Code\n========\n\n");
-        $dir = sys_get_temp_dir();
-        $hash = md5($expression);
+        $dir          = sys_get_temp_dir();
+        $hash         = md5($expression);
         $functionName = "jmespath_{$hash}";
-        $filename = "{$dir}/{$functionName}.php";
+        $filename     = "{$dir}/{$functionName}.php";
         fwrite($this->out, "File: {$filename}\n\n");
         fprintf($this->out, file_get_contents($filename));
     }
@@ -121,8 +122,8 @@ class DebugRuntime
         $this->dumpAst($expression);
         fprintf($this->out, "\nData\n====\n\n%s\n\n", json_encode($data, JSON_PRETTY_PRINT));
         $startTime = microtime(true);
-        $result = $debugFn();
-        $total = microtime(true) - $startTime;
+        $result    = $debugFn();
+        $total     = microtime(true) - $startTime;
         fprintf($this->out, "\nResult\n======\n\n%s\n\n", json_encode($result, JSON_PRETTY_PRINT));
         fwrite($this->out, "Time\n====\n\n");
         fprintf($this->out, "Total time:     %f ms\n\n", $total);

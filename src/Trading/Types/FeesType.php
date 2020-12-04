@@ -21,9 +21,9 @@ class FeesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Fee' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeeType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\FeeType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Fee',
         ],
     ];

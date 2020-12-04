@@ -23,28 +23,28 @@ class PlaceOfferResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SellingStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingStatus'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingStatus',
         ],
-        'TransactionID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionID'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'BestOffer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferType',
-            'repeatable' => false,
-            'attribute' => false,
+        'BestOffer'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\BestOfferType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOffer',
         ],
         'OrderLineItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
     ];

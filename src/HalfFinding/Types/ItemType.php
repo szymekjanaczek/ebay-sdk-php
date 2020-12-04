@@ -32,82 +32,82 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemID'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemID',
         ],
-        'itemURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemURL'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemURL',
         ],
-        'quantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'quantity'              => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'quantity',
         ],
-        'seller' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\UserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'seller'                => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\UserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'seller',
         ],
-        'price' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'price'                 => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'price',
         ],
-        'rentalPrice' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\RentalAmount',
-            'repeatable' => true,
-            'attribute' => false,
+        'rentalPrice'           => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\RentalAmount',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'rentalPrice',
         ],
-        'shippingService' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ShippingServiceOptionsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'shippingService'       => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\ShippingServiceOptionsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'shippingService',
         ],
-        'itemLocation' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemLocation'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemLocation',
         ],
         'excludedShippingAreas' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'excludedShippingAreas',
         ],
-        'condition' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'condition'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'condition',
         ],
-        'comments' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
-        'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'description'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'storefront' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\StorefrontType',
-            'repeatable' => false,
-            'attribute' => false,
+        'storefront'            => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\StorefrontType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'storefront',
         ],
     ];

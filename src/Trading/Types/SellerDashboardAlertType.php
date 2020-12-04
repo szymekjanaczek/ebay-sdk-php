@@ -22,15 +22,15 @@ class SellerDashboardAlertType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Severity' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Severity',
         ],
-        'Text' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Text'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Text',
         ],
     ];

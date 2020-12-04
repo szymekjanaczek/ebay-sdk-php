@@ -21,9 +21,9 @@ class ConsolidateShippingProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesM
      */
     private static $propertyTypes = [
         'Job' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Job',
         ],
     ];

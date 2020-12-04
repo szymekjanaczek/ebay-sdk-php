@@ -21,9 +21,9 @@ class CategoryGroups extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'categoryGroup' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryGroup',
         ],
     ];

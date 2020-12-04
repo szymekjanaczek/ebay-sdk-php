@@ -28,58 +28,58 @@ class BillingAddress extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'addressLine1' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'addressLine1'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'addressLine1',
         ],
-        'addressLine2' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'addressLine2'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'addressLine2',
         ],
-        'city' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'city'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'city',
         ],
-        'country' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'country'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'country',
         ],
-        'county' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'county'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'county',
         ],
-        'firstName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'firstName'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'firstName',
         ],
-        'lastName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'lastName'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastName',
         ],
-        'postalCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'postalCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'postalCode',
         ],
         'stateOrProvince' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'stateOrProvince',
         ],
     ];

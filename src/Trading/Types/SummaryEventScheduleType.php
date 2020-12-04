@@ -22,22 +22,22 @@ class SummaryEventScheduleType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'EventType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EventType'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EventType',
         ],
         'SummaryPeriod' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SummaryPeriod',
         ],
-        'Frequency' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Frequency'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Frequency',
         ],
     ];

@@ -24,34 +24,34 @@ class BundleStatus extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'bundleName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'bundleName'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleName',
         ],
-        'primarySKU' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'primarySKU'   => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'primarySKU',
         ],
-        'bundleID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'bundleID'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleID',
         ],
-        'ack' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ack'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ack',
         ],
         'errorMessage' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\ErrorMessage',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\ErrorMessage',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorMessage',
         ],
     ];

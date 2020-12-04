@@ -21,9 +21,9 @@ class CancelReturnRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\CloseR
      */
     private static $propertyTypes = [
         'returnId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnId',
         ],
     ];

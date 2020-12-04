@@ -25,40 +25,40 @@ class PickupMethodSelectedType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PickupMethod' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PickupMethod'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickupMethod',
         ],
-        'PickupStoreID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PickupStoreID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickupStoreID',
         ],
-        'PickupStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PickupStatus'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickupStatus',
         ],
-        'MerchantPickupCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MerchantPickupCode'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MerchantPickupCode',
         ],
         'PickupFulfillmentTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickupFulfillmentTime',
         ],
-        'PickupLocationUUID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PickupLocationUUID'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickupLocationUUID',
         ],
     ];

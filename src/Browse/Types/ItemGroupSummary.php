@@ -26,39 +26,39 @@ class ItemGroupSummary extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'itemGroupAdditionalImages' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Image',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Browse\Types\Image',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemGroupAdditionalImages',
         ],
-        'itemGroupHref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemGroupHref'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemGroupHref',
         ],
-        'itemGroupId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemGroupId'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemGroupId',
         ],
-        'itemGroupImage' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Image',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemGroupImage'            => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\Image',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemGroupImage',
         ],
-        'itemGroupTitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemGroupTitle'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemGroupTitle',
         ],
-        'itemGroupType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemGroupType'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemGroupType',
         ],
     ];

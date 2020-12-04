@@ -21,16 +21,16 @@ class MaximumUnpaidItemStrikesDurationDetailsType extends \DTS\eBaySDK\Types\Bas
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Period' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Period'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Period',
         ],
         'Description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Description',
         ],
     ];

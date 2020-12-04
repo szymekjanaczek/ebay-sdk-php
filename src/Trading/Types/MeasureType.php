@@ -21,16 +21,16 @@ class MeasureType extends \DTS\eBaySDK\Types\DecimalType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'unit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+        'unit'              => [
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'unit',
         ],
         'measurementSystem' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'measurementSystem',
         ],
     ];

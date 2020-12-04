@@ -21,16 +21,16 @@ class CreateASalesTaxTableRestRequest extends \DTS\eBaySDK\Account\Types\SalesTa
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'countryCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'countryCode'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'countryCode',
         ],
         'jurisdictionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jurisdictionId',
         ],
     ];

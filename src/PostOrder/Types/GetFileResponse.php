@@ -21,9 +21,9 @@ class GetFileResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'files' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnFileType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnFileType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'files',
         ],
     ];

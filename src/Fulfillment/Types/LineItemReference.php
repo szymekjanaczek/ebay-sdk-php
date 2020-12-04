@@ -22,15 +22,15 @@ class LineItemReference extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'lineItemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lineItemId',
         ],
-        'quantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'quantity'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'quantity',
         ],
     ];

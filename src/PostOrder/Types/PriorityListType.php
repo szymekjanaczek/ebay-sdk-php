@@ -21,9 +21,9 @@ class PriorityListType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ruleId' => [
-            'type' => 'integer',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ruleId',
         ],
     ];

@@ -19,41 +19,41 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
      */
     protected static $operations = [
         'GetASpecificSellerProfile' => [
-            'method' => 'GET',
-            'resource' => 'seller_standards_profile/{program}/{cycle}',
+            'method'        => 'GET',
+            'resource'      => 'seller_standards_profile/{program}/{cycle}',
             'responseClass' => '\DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestResponse',
-            'params' => [
-                'cycle' => [
-                    'valid' => ['string'],
+            'params'        => [
+                'cycle'   => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
                 'program' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAllSellerProfiles' => [
-            'method' => 'GET',
-            'resource' => 'seller_standards_profile',
+        'GetAllSellerProfiles'      => [
+            'method'        => 'GET',
+            'resource'      => 'seller_standards_profile',
             'responseClass' => '\DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'GetTrafficReport' => [
-            'method' => 'GET',
-            'resource' => 'traffic_report',
+        'GetTrafficReport'          => [
+            'method'        => 'GET',
+            'resource'      => 'traffic_report',
             'responseClass' => '\DTS\eBaySDK\Analytics\Types\GetTrafficReportRestResponse',
-            'params' => [
+            'params'        => [
                 'dimension' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
-                'filter' => [
+                'filter'    => [
                     'valid' => ['string'],
                 ],
-                'metric' => [
-                    'valid' => ['string'],
+                'metric'    => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],

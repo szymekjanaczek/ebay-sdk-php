@@ -21,9 +21,9 @@ class GetStoreResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTy
      */
     private static $propertyTypes = [
         'Store' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Store',
         ],
     ];

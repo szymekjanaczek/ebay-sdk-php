@@ -21,9 +21,9 @@ class SetItemAsReceivedRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseR
      */
     private static $propertyTypes = [
         'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
     ];

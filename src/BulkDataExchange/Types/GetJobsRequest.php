@@ -24,27 +24,27 @@ class GetJobsRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequ
      */
     private static $propertyTypes = [
         'creationTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationTimeFrom',
         ],
-        'creationTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationTimeTo'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationTimeTo',
         ],
-        'jobType' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'jobType'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'jobType',
         ],
-        'jobStatus' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'jobStatus'        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'jobStatus',
         ],
     ];

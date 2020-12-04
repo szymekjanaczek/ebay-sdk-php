@@ -22,22 +22,22 @@ class ReturnItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'transactionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'transactionId'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionId',
         ],
         'returnQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnQuantity',
         ],
     ];

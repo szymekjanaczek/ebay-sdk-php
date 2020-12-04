@@ -22,15 +22,15 @@ class GetClientAlertsAuthTokenResponseType extends \DTS\eBaySDK\Trading\Types\Ab
      */
     private static $propertyTypes = [
         'ClientAlertsAuthToken' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ClientAlertsAuthToken',
         ],
-        'HardExpirationTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'HardExpirationTime'    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HardExpirationTime',
         ],
     ];

@@ -24,34 +24,34 @@ class CategoryTreeNode extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'category' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\Category',
-            'repeatable' => false,
-            'attribute' => false,
+        'category'                   => [
+            'type'        => 'DTS\eBaySDK\Taxonomy\Types\Category',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'category',
         ],
-        'categoryTreeNodeLevel' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeNodeLevel'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeNodeLevel',
         ],
-        'childCategoryTreeNodes' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
-            'repeatable' => true,
-            'attribute' => false,
+        'childCategoryTreeNodes'     => [
+            'type'        => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'childCategoryTreeNodes',
         ],
-        'leafCategoryTreeNode' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'leafCategoryTreeNode'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'leafCategoryTreeNode',
         ],
         'parentCategoryTreeNodeHref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'parentCategoryTreeNodeHref',
         ],
     ];

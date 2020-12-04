@@ -30,70 +30,70 @@ class SearchCancellationsRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'buyer_login_name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyer_login_name'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyer_login_name',
         ],
-        'cancel_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancel_id'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancel_id',
         ],
         'creation_date_range_from' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creation_date_range_from',
         ],
-        'creation_date_range_to' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'creation_date_range_to'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creation_date_range_to',
         ],
-        'item_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'item_id'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'item_id',
         ],
-        'legacy_order_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'legacy_order_id'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legacy_order_id',
         ],
-        'limit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'seller_login_name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'seller_login_name'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'seller_login_name',
         ],
-        'sort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sort'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sort',
         ],
-        'transaction_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'transaction_id'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transaction_id',
         ],
     ];

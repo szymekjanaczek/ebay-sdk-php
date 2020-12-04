@@ -11,7 +11,7 @@ class FeedBaseService extends \DTS\eBaySDK\Services\BaseRestService
      * @var array $endPoints The API endpoints.
      */
     protected static $endPoints = [
-        'sandbox' => 'https://api.sandbox.ebay.com/buy/feed',
+        'sandbox'    => 'https://api.sandbox.ebay.com/buy/feed',
         'production' => 'https://api.ebay.com/buy/feed',
     ];
 
@@ -43,19 +43,19 @@ class FeedBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Feed\Services\FeedService::API_VERSION,
-                'required' => true,
-            ],
-            'authorization' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-            'marketplaceId' => [
-                'valid' => ['string'],
-            ],
-        ];
+                'apiVersion'    => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\Feed\Services\FeedService::API_VERSION,
+                    'required' => true,
+                ],
+                'authorization' => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+                'marketplaceId' => [
+                    'valid' => ['string'],
+                ],
+            ];
     }
 
     /**

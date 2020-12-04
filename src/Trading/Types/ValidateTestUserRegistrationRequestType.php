@@ -25,40 +25,40 @@ class ValidateTestUserRegistrationRequestType extends \DTS\eBaySDK\Trading\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FeedbackScore' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeedbackScore'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackScore',
         ],
         'RegistrationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RegistrationDate',
         ],
-        'SubscribeSA' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SubscribeSA'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SubscribeSA',
         ],
-        'SubscribeSAPro' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SubscribeSAPro'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SubscribeSAPro',
         ],
-        'SubscribeSM' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SubscribeSM'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SubscribeSM',
         ],
-        'SubscribeSMPro' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SubscribeSMPro'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SubscribeSMPro',
         ],
     ];

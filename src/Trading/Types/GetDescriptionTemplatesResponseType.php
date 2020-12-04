@@ -26,39 +26,39 @@ class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\Abs
      */
     private static $propertyTypes = [
         'DescriptionTemplate' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DescriptionTemplateType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\DescriptionTemplateType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DescriptionTemplate',
         ],
-        'LayoutTotal' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'LayoutTotal'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LayoutTotal',
         ],
-        'ObsoleteLayoutID' => [
-            'type' => 'integer',
-            'repeatable' => true,
-            'attribute' => false,
+        'ObsoleteLayoutID'    => [
+            'type'        => 'integer',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ObsoleteLayoutID',
         ],
-        'ObsoleteThemeID' => [
-            'type' => 'integer',
-            'repeatable' => true,
-            'attribute' => false,
+        'ObsoleteThemeID'     => [
+            'type'        => 'integer',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ObsoleteThemeID',
         ],
-        'ThemeGroup' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ThemeGroupType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ThemeGroup'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ThemeGroupType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ThemeGroup',
         ],
-        'ThemeTotal' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ThemeTotal'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ThemeTotal',
         ],
     ];

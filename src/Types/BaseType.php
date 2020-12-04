@@ -63,7 +63,7 @@ class BaseType implements JmesPathableObjectInterface
         $this->setValues(__CLASS__, $values);
 
         $this->attachment = [
-            'data' => null,
+            'data'     => null,
             'mimeType' => null,
         ];
     }
@@ -158,17 +158,17 @@ class BaseType implements JmesPathableObjectInterface
     {
         $class = get_class($this);
         if (array_key_exists($elementName, self::$properties[$class])) {
-            $info = self::$properties[$class][$elementName];
+            $info    = self::$properties[$class][$elementName];
             $nameKey = $info['attribute'] ? 'attributeName' : 'elementName';
             if (array_key_exists($nameKey, $info)) {
                 if ($info[$nameKey] === $elementName) {
-                    $meta = new \stdClass();
+                    $meta               = new \stdClass();
                     $meta->propertyName = $elementName;
-                    $meta->phpType = $info['type'];
-                    $meta->repeatable = $info['repeatable'];
-                    $meta->attribute = $info['attribute'];
-                    $meta->elementName = $info[$nameKey];
-                    $meta->strData = '';
+                    $meta->phpType      = $info['type'];
+                    $meta->repeatable   = $info['repeatable'];
+                    $meta->attribute    = $info['attribute'];
+                    $meta->elementName  = $info[$nameKey];
+                    $meta->strData      = '';
 
                     return $meta;
                 }
@@ -190,10 +190,10 @@ class BaseType implements JmesPathableObjectInterface
     {
         if ($data !== null) {
             if (is_array($data)) {
-                $this->attachment['data'] = array_key_exists('data', $data) ? $data['data'] : null;
+                $this->attachment['data']     = array_key_exists('data', $data) ? $data['data'] : null;
                 $this->attachment['mimeType'] = array_key_exists('mimeType', $data) ? $data['mimeType'] : 'application/octet-stream';
             } else {
-                $this->attachment['data'] = $data;
+                $this->attachment['data']     = $data;
                 $this->attachment['mimeType'] = $mimeType;
             }
         }
@@ -266,7 +266,7 @@ class BaseType implements JmesPathableObjectInterface
      * Assign multiple values to an object.
      *
      * @param string $class The name of the class the properties belong to.
-     * @param array $values. Associative array of property names and their values.
+     * @param array $values . Associative array of property names and their values.
      *
      * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
      * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the property.
@@ -303,7 +303,7 @@ class BaseType implements JmesPathableObjectInterface
      *
      * @param string $class The name of the class the properties belong to.
      * @param string $name The property name.
-     * @param mixed $value. The value to assign to the property.
+     * @param mixed $value . The value to assign to the property.
      *
      * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
      * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the property.
@@ -371,7 +371,7 @@ class BaseType implements JmesPathableObjectInterface
      *
      * @param string $class The name of the class the properties belong to.
      * @param string $name The property name.
-     * @param mixed $value. The value to assign to the property.
+     * @param mixed $value . The value to assign to the property.
      *
      * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If trying to assign a non array type to an repeatable property.
      */
@@ -480,10 +480,10 @@ class BaseType implements JmesPathableObjectInterface
      */
     private static function ensurePropertyType($class, $name, $value)
     {
-        $isValid = false;
-        $info = self::propertyInfo($class, $name);
+        $isValid    = false;
+        $info       = self::propertyInfo($class, $name);
         $actualType = self::getActualType($value);
-        $valid = explode('|', $info['type']);
+        $valid      = explode('|', $info['type']);
 
         foreach ($valid as $check) {
             if ($check !== 'any' && \DTS\eBaySDK\checkPropertyType($check)) {

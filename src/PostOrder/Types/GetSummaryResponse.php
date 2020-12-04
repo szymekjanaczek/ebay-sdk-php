@@ -23,28 +23,28 @@ class GetSummaryResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'countSummary' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CountSummaryType',
-            'repeatable' => true,
-            'attribute' => false,
+        'countSummary'     => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\CountSummaryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'countSummary',
         ],
-        'members' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
-            'repeatable' => true,
-            'attribute' => false,
+        'members'          => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'members',
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
-        'total' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'total'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'total',
         ],
     ];

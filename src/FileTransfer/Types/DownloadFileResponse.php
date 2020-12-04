@@ -21,9 +21,9 @@ class DownloadFileResponse extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceRe
      */
     private static $propertyTypes = [
         'fileAttachment' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\FileAttachment',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\FileTransfer\Types\FileAttachment',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileAttachment',
         ],
     ];

@@ -24,27 +24,27 @@ class GetProductSubmissionsRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'productSubmissionFilter' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionFilter',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductSubmissionFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'productSubmissionFilter',
         ],
-        'outputSelector' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'outputSelector'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'outputSelector',
         ],
-        'paginationInput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationInput',
-            'repeatable' => false,
-            'attribute' => false,
+        'paginationInput'         => [
+            'type'        => 'DTS\eBaySDK\Product\Types\PaginationInput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationInput',
         ],
-        'sortOption' => [
-            'type' => 'DTS\eBaySDK\Product\Types\SortOption',
-            'repeatable' => true,
-            'attribute' => false,
+        'sortOption'              => [
+            'type'        => 'DTS\eBaySDK\Product\Types\SortOption',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'sortOption',
         ],
     ];

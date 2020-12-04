@@ -28,51 +28,51 @@ class NonProfitAddressType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'AddressLine1' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AddressLine1',
         ],
         'AddressLine2' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AddressLine2',
         ],
-        'City' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'City'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'City',
         ],
-        'State' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'State'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'State',
         ],
-        'ZipCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ZipCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ZipCode',
         ],
-        'Latitude' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Latitude'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Latitude',
         ],
-        'Longitude' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Longitude'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Longitude',
         ],
-        'AddressType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'AddressType'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AddressType',
         ],
     ];

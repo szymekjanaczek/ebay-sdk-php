@@ -23,21 +23,21 @@ class ProductSubmissionStatus extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'productSubmissionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productSubmissionId',
         ],
-        'statusCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'statusCode'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'statusCode',
         ],
-        'ePID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ePID'                => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ePID',
         ],
     ];

@@ -21,9 +21,9 @@ class SuspendRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\Bas
      */
     private static $propertyTypes = [
         'recurringJobId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'recurringJobId',
         ],
     ];

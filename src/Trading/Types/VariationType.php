@@ -34,94 +34,94 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SKU' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SKU'                                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'StartPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartPrice'                           => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartPrice',
         ],
-        'Quantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Quantity'                             => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Quantity',
         ],
-        'VariationSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
-            'repeatable' => true,
-            'attribute' => false,
+        'VariationSpecifics'                   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'VariationSpecifics',
         ],
-        'UnitsAvailable' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'UnitsAvailable'                       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UnitsAvailable',
         ],
-        'UnitCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'UnitCost'                             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UnitCost',
         ],
-        'SellingStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingStatus'                        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingStatus',
         ],
-        'VariationTitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'VariationTitle'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VariationTitle',
         ],
-        'VariationViewItemURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'VariationViewItemURL'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VariationViewItemURL',
         ],
-        'Delete' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Delete'                               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Delete',
         ],
         'SellingManagerProductInventoryStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerProductInventoryStatus',
         ],
-        'WatchCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'WatchCount'                           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WatchCount',
         ],
-        'PrivateNotes' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PrivateNotes'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PrivateNotes',
         ],
-        'DiscountPriceInfo' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DiscountPriceInfoType',
-            'repeatable' => false,
-            'attribute' => false,
+        'DiscountPriceInfo'                    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\DiscountPriceInfoType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DiscountPriceInfo',
         ],
-        'VariationProductListingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'VariationProductListingDetails'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VariationProductListingDetails',
         ],
     ];

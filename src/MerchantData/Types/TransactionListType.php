@@ -21,16 +21,16 @@ class TransactionListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FeeDescription' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeeDescription'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeeDescription',
         ],
         'ListingTransaction' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingTransactionType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ListingTransactionType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ListingTransaction',
         ],
     ];

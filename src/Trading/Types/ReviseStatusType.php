@@ -24,34 +24,34 @@ class ReviseStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemRevised' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemRevised'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemRevised',
         ],
-        'BuyItNowAdded' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'BuyItNowAdded'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BuyItNowAdded',
         ],
         'BuyItNowLowered' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BuyItNowLowered',
         ],
-        'ReserveLowered' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReserveLowered'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReserveLowered',
         ],
-        'ReserveRemoved' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReserveRemoved'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReserveRemoved',
         ],
     ];

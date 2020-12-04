@@ -21,16 +21,16 @@ class StringTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'managedValue' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'managedValue'             => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'managedValue',
         ],
         'maximumCharactersAllowed' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maximumCharactersAllowed',
         ],
     ];

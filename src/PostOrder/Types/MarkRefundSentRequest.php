@@ -22,22 +22,22 @@ class MarkRefundSentRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'comments' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
         'partialRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'partialRefundAmount',
         ],
-        'refundDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundDetail'        => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundDetail',
         ],
     ];

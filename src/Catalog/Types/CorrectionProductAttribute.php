@@ -23,21 +23,21 @@ class CorrectionProductAttribute extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'attributeName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'attributeName',
         ],
-        'newValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'newValue'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'newValue',
         ],
-        'value' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'value'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

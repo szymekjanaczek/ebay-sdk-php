@@ -25,40 +25,40 @@ class GetShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrier' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'carrier'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrier',
         ],
-        'labelContent' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'labelContent'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'labelContent',
         ],
-        'labelCost' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'labelCost'        => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'labelCost',
         ],
         'labelPrintStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'labelPrintStatus',
         ],
-        'labelURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'labelURL'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'labelURL',
         ],
-        'trackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'trackingNumber'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
     ];

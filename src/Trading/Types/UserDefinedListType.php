@@ -25,40 +25,40 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Name'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'ItemCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemCount'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemCount',
         ],
         'FavoriteSellerCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FavoriteSellerCount',
         ],
-        'ItemArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemArray'           => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemArray',
         ],
-        'FavoriteSearches' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FavoriteSearches'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FavoriteSearches',
         ],
-        'FavoriteSellers' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FavoriteSellers'     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FavoriteSellers',
         ],
     ];

@@ -21,9 +21,9 @@ class StoreOwnerExtendedListingDurationsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Duration' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Duration',
         ],
     ];

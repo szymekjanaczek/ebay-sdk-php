@@ -24,27 +24,27 @@ class ShippingOptionSummary extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'maxEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxEstimatedDeliveryDate',
         ],
         'minEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'shippingCost' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCost'             => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'shippingCostType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCostType'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCostType',
         ],
     ];

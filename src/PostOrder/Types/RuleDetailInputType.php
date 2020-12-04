@@ -23,21 +23,21 @@ class RuleDetailInputType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'actionDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionInputType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleActionInputType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'actionDetail',
         ],
-        'condition' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionInputType',
-            'repeatable' => true,
-            'attribute' => false,
+        'condition'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleConditionInputType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'condition',
         ],
-        'priority' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'priority'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priority',
         ],
     ];

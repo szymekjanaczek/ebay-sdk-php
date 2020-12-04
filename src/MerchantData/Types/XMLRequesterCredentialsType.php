@@ -22,22 +22,22 @@ class XMLRequesterCredentialsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Username' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Username'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Username',
         ],
-        'Password' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Password'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Password',
         ],
         'eBayAuthToken' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eBayAuthToken',
         ],
     ];

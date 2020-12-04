@@ -23,28 +23,28 @@ class OrderRefund extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'amount' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'amount'            => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'refundDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundDate'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundDate',
         ],
         'refundReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundReferenceId',
         ],
-        'refundStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundStatus'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundStatus',
         ],
     ];

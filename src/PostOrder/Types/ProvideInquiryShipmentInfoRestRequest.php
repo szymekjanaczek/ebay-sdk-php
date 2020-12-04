@@ -21,9 +21,9 @@ class ProvideInquiryShipmentInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types
      */
     private static $propertyTypes = [
         'inquiryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiryId',
         ],
     ];

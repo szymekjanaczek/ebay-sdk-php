@@ -22,15 +22,15 @@ class StockPhotoURL extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'thumbnail' => [
-            'type' => 'DTS\eBaySDK\Product\Types\URIValue',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\URIValue',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'thumbnail',
         ],
-        'standard' => [
-            'type' => 'DTS\eBaySDK\Product\Types\URIValue',
-            'repeatable' => false,
-            'attribute' => false,
+        'standard'  => [
+            'type'        => 'DTS\eBaySDK\Product\Types\URIValue',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'standard',
         ],
     ];

@@ -21,9 +21,9 @@ class CaseTypeFilterType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'caseType' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'caseType',
         ],
     ];

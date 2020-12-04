@@ -29,64 +29,64 @@ class BestOfferType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BestOfferID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BestOfferID'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOfferID',
         ],
-        'ExpirationTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExpirationTime'    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExpirationTime',
         ],
-        'Buyer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Buyer'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\UserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Buyer',
         ],
-        'Price' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Price'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Price',
         ],
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'Quantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Quantity'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Quantity',
         ],
-        'BuyerMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BuyerMessage'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BuyerMessage',
         ],
-        'SellerMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerMessage'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerMessage',
         ],
         'BestOfferCodeType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOfferCodeType',
         ],
-        'CallStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CallStatus'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CallStatus',
         ],
     ];

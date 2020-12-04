@@ -22,15 +22,15 @@ class GetCompatibilitySearchNamesResponse extends \DTS\eBaySDK\ProductMetadata\T
      */
     private static $propertyTypes = [
         'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
         'properties' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Properties',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\Properties',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'properties',
         ],
     ];

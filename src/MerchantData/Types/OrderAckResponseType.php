@@ -21,9 +21,9 @@ class OrderAckResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractRespo
      */
     private static $propertyTypes = [
         'OrderLineItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
     ];

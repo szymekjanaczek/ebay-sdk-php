@@ -26,39 +26,39 @@ class PaymentInfo extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'acceptedPaymentMethod' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'acceptedPaymentMethod',
         ],
-        'immediatePay' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'immediatePay'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'immediatePay',
         ],
-        'paymentInstructions' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentInstructions'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentInstructions',
         ],
-        'paypalEmailAddress' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paypalEmailAddress'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paypalEmailAddress',
         ],
-        'depositDetails' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\DepositDetails',
-            'repeatable' => false,
-            'attribute' => false,
+        'depositDetails'        => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\DepositDetails',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'depositDetails',
         ],
-        'daysToFullPayment' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'daysToFullPayment'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'daysToFullPayment',
         ],
     ];

@@ -21,16 +21,16 @@ class RelistFixedPriceItemRequestType extends \DTS\eBaySDK\MerchantData\Types\Ab
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Item' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Item'         => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Item',
         ],
         'DeletedField' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DeletedField',
         ],
     ];

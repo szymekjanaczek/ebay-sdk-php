@@ -18,83 +18,83 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'GetSalesTaxJurisdictions' => [
-            'method' => 'GET',
-            'resource' => 'country/{countryCode}/sales_tax_jurisdiction',
+        'GetSalesTaxJurisdictions'             => [
+            'method'        => 'GET',
+            'resource'      => 'country/{countryCode}/sales_tax_jurisdiction',
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetSalesTaxJurisdictionsRestResponse',
-            'params' => [
+            'params'        => [
                 'countryCode' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
         'GetPoliciesForAutoPartsCompatibility' => [
-            'method' => 'GET',
-            'resource' => 'marketplace/{marketplace_id}/get_automotive_parts_compatibility_policies',
+            'method'        => 'GET',
+            'resource'      => 'marketplace/{marketplace_id}/get_automotive_parts_compatibility_policies',
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestResponse',
-            'params' => [
-                'filter' => [
+            'params'        => [
+                'filter'         => [
                     'valid' => ['string'],
                 ],
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetPoliciesForItemCondition' => [
-            'method' => 'GET',
-            'resource' => 'marketplace/{marketplace_id}/get_item_condition_policies',
+        'GetPoliciesForItemCondition'          => [
+            'method'        => 'GET',
+            'resource'      => 'marketplace/{marketplace_id}/get_item_condition_policies',
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestResponse',
-            'params' => [
-                'filter' => [
+            'params'        => [
+                'filter'         => [
                     'valid' => ['string'],
                 ],
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetPoliciesForListingStructures' => [
-            'method' => 'GET',
-            'resource' => 'marketplace/{marketplace_id}/get_listing_structure_policies',
+        'GetPoliciesForListingStructures'      => [
+            'method'        => 'GET',
+            'resource'      => 'marketplace/{marketplace_id}/get_listing_structure_policies',
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestResponse',
-            'params' => [
-                'filter' => [
+            'params'        => [
+                'filter'         => [
                     'valid' => ['string'],
                 ],
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetPoliciesForNegotiatedPrice' => [
-            'method' => 'GET',
-            'resource' => 'marketplace/{marketplace_id}/get_negotiated_price_policies',
+        'GetPoliciesForNegotiatedPrice'        => [
+            'method'        => 'GET',
+            'resource'      => 'marketplace/{marketplace_id}/get_negotiated_price_policies',
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestResponse',
-            'params' => [
-                'filter' => [
+            'params'        => [
+                'filter'         => [
                     'valid' => ['string'],
                 ],
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetPoliciesForReturns' => [
-            'method' => 'GET',
-            'resource' => 'marketplace/{marketplace_id}/get_return_policies',
+        'GetPoliciesForReturns'                => [
+            'method'        => 'GET',
+            'resource'      => 'marketplace/{marketplace_id}/get_return_policies',
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestResponse',
-            'params' => [
-                'filter' => [
+            'params'        => [
+                'filter'         => [
                     'valid' => ['string'],
                 ],
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],

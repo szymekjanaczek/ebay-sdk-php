@@ -21,16 +21,16 @@ class GetProductSubmissionsResponse extends \DTS\eBaySDK\Product\Types\BaseServi
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationOutput',
-            'repeatable' => false,
-            'attribute' => false,
+        'paginationOutput'          => [
+            'type'        => 'DTS\eBaySDK\Product\Types\PaginationOutput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
         'productSubmissionResponse' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionResult',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductSubmissionResult',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'productSubmissionResponse',
         ],
     ];

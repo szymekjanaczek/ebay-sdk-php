@@ -28,58 +28,58 @@ class DeliveryEstimate extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'maxDelivery' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxDelivery'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxDelivery',
         ],
-        'minDelivery' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'minDelivery'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minDelivery',
         ],
-        'maxDeliveryDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxDeliveryDate'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxDeliveryDate',
         ],
-        'minDeliveryDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'minDeliveryDate'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minDeliveryDate',
         ],
-        'minConfidence' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'minConfidence'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minConfidence',
         ],
-        'maxConfidence' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxConfidence'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxConfidence',
         ],
         'estimateTreatment' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'estimateTreatment',
         ],
         'maxActualDelivery' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxActualDelivery',
         ],
         'minActualDelivery' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minActualDelivery',
         ],
     ];

@@ -21,9 +21,9 @@ class EscalateReturnRestRequest extends \DTS\eBaySDK\PostOrder\Types\EscalateReq
      */
     private static $propertyTypes = [
         'returnId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnId',
         ],
     ];

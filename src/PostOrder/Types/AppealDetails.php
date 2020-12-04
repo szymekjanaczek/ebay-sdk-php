@@ -26,39 +26,39 @@ class AppealDetails extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'appealCloseReasonEnum' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'appealCloseReasonEnum',
         ],
-        'appealDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'appealDate'            => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'appealDate',
         ],
-        'appealReasonCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'appealReasonCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'appealReasonCode',
         ],
-        'appealStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'appealStatus'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'appealStatus',
         ],
-        'appealStatusEnum' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'appealStatusEnum'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'appealStatusEnum',
         ],
-        'eligibleForAppeal' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'eligibleForAppeal'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eligibleForAppeal',
         ],
     ];

@@ -27,52 +27,52 @@ class Address extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'street1' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'street1'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'street1',
         ],
-        'street2' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'street2'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'street2',
         ],
-        'city' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'city'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'city',
         ],
-        'county' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'county'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'county',
         ],
         'stateOrProvince' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'stateOrProvince',
         ],
-        'country' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'country'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'country',
         ],
-        'postalCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'postalCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'postalCode',
         ],
     ];

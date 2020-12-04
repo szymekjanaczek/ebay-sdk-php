@@ -25,40 +25,40 @@ class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SaleTemplateID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'SaleTemplateID'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
-        'ProductID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProductID'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductID',
         ],
         'SaleTemplateName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SaleTemplateName',
         ],
-        'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Item'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Item',
         ],
-        'DeletedField' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'DeletedField'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DeletedField',
         ],
-        'VerifyOnly' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'VerifyOnly'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VerifyOnly',
         ],
     ];

@@ -21,16 +21,16 @@ class MetricMetadata extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dataType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataType'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataType',
         ],
         'metricKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'metricKey',
         ],
     ];

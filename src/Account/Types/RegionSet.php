@@ -22,15 +22,15 @@ class RegionSet extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'regionExcluded' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Region',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\Region',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'regionExcluded',
         ],
         'regionIncluded' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Region',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\Region',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'regionIncluded',
         ],
     ];

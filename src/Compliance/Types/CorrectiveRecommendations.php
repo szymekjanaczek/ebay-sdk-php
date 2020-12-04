@@ -21,9 +21,9 @@ class CorrectiveRecommendations extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'productRecommendation' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\ProductRecommendation',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Compliance\Types\ProductRecommendation',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productRecommendation',
         ],
     ];

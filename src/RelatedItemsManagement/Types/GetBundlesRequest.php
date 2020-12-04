@@ -21,9 +21,9 @@ class GetBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRe
      */
     private static $propertyTypes = [
         'bundleID' => [
-            'type' => 'integer',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'bundleID',
         ],
     ];

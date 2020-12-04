@@ -21,9 +21,9 @@ class GetDealsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandising
      */
     private static $propertyTypes = [
         'keywords' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'keywords',
         ],
     ];

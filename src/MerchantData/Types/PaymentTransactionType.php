@@ -27,52 +27,52 @@ class PaymentTransactionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaymentStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentStatus'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentStatus',
         ],
-        'Payer' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Payer'              => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Payer',
         ],
-        'Payee' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Payee'              => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Payee',
         ],
-        'PaymentTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentTime'        => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentTime',
         ],
-        'PaymentAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentAmount'      => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentAmount',
         ],
-        'ReferenceID' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReferenceID'        => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReferenceID',
         ],
-        'FeeOrCreditAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeeOrCreditAmount'  => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeeOrCreditAmount',
         ],
         'PaymentReferenceID' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'PaymentReferenceID',
         ],
     ];

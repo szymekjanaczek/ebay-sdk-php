@@ -23,28 +23,28 @@ class TicketListingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'EventTitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EventTitle'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EventTitle',
         ],
-        'Venue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Venue'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Venue',
         ],
         'PrintedDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PrintedDate',
         ],
         'PrintedTime' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PrintedTime',
         ],
     ];

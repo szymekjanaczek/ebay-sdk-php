@@ -24,34 +24,34 @@ class SummaryReportResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'baseSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'baseSale'            => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'baseSale',
         ],
-        'lastUpdated' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'lastUpdated'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastUpdated',
         ],
         'percentageSalesLift' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'percentageSalesLift',
         ],
-        'promotionSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'promotionSale'       => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionSale',
         ],
-        'totalSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'totalSale'           => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'totalSale',
         ],
     ];

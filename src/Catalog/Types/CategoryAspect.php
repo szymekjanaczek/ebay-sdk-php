@@ -24,27 +24,27 @@ class CategoryAspect extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'aspectHelpText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectHelpText',
         ],
-        'constraint' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
-            'repeatable' => true,
-            'attribute' => false,
+        'constraint'     => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'constraint',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'values' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\CategoryAspectValue',
-            'repeatable' => true,
-            'attribute' => false,
+        'values'         => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\CategoryAspectValue',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'values',
         ],
     ];

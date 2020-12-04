@@ -21,9 +21,9 @@ class SendInquiryMessageRestRequest extends \DTS\eBaySDK\PostOrder\Types\SendMes
      */
     private static $propertyTypes = [
         'inquiryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiryId',
         ],
     ];

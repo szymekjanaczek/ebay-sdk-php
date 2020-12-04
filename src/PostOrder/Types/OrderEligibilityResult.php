@@ -24,34 +24,34 @@ class OrderEligibilityResult extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eligible' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'eligible'              => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eligible',
         ],
-        'eligibleCancelReason' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'eligibleCancelReason'  => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'eligibleCancelReason',
         ],
-        'failureReason' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'failureReason'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'failureReason',
         ],
         'itemEligibilityResult' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ItemEligibilityResult',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ItemEligibilityResult',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemEligibilityResult',
         ],
-        'legacyOrderId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'legacyOrderId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legacyOrderId',
         ],
     ];

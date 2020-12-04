@@ -23,21 +23,21 @@ class RuleCriteria extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'excludeInventoryItems' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'excludeInventoryItems',
         ],
-        'excludeListingIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'excludeListingIds'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'excludeListingIds',
         ],
-        'selectionRules' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
-            'repeatable' => true,
-            'attribute' => false,
+        'selectionRules'        => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'selectionRules',
         ],
     ];

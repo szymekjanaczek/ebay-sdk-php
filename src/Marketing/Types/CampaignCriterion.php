@@ -23,21 +23,21 @@ class CampaignCriterion extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'autoSelectFutureInventory' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'autoSelectFutureInventory',
         ],
-        'criterionType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'criterionType'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'criterionType',
         ],
-        'selectionRules' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
-            'repeatable' => true,
-            'attribute' => false,
+        'selectionRules'            => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'selectionRules',
         ],
     ];

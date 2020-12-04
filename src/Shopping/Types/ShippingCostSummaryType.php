@@ -28,58 +28,58 @@ class ShippingCostSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingServiceName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServiceName'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceName',
         ],
-        'ShippingServiceCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServiceCost'       => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceCost',
         ],
-        'InsuranceCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceCost'             => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceCost',
         ],
-        'ShippingType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingType'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingType',
         ],
-        'LocalPickup' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'LocalPickup'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LocalPickup',
         ],
-        'InsuranceOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceOption'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceOption',
         ],
         'ListedShippingServiceCost' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListedShippingServiceCost',
         ],
-        'ImportCharge' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ImportCharge'              => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ImportCharge',
         ],
-        'LogisticPlanType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'LogisticPlanType'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LogisticPlanType',
         ],
     ];

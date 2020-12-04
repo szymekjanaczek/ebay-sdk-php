@@ -21,9 +21,9 @@ class StorePreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'VacationPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VacationPreferences',
         ],
     ];

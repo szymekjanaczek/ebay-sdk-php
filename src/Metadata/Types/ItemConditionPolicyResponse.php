@@ -22,15 +22,15 @@ class ItemConditionPolicyResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'itemConditionPolicies' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ItemConditionPolicy',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Metadata\Types\ItemConditionPolicy',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemConditionPolicies',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'              => [
+            'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

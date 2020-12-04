@@ -22,22 +22,22 @@ class GetItemByLegacyIdRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'legacy_item_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'legacy_item_id'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legacy_item_id',
         ],
-        'legacy_variation_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'legacy_variation_id'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legacy_variation_id',
         ],
         'legacy_variation_sku' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legacy_variation_sku',
         ],
     ];

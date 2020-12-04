@@ -31,76 +31,76 @@ class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MessageType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageType',
         ],
-        'QuestionType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'QuestionType'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuestionType',
         ],
         'EmailCopyToSender' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EmailCopyToSender',
         ],
-        'DisplayToPublic' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'DisplayToPublic'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisplayToPublic',
         ],
-        'SenderID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SenderID'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SenderID',
         ],
-        'SenderEmail' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SenderEmail'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SenderEmail',
         ],
-        'RecipientID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'RecipientID'       => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'RecipientID',
         ],
-        'Subject' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Subject'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Subject',
         ],
-        'Body' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Body'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Body',
         ],
-        'MessageID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageID',
         ],
-        'ParentMessageID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ParentMessageID'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ParentMessageID',
         ],
-        'MessageMedia' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
-            'repeatable' => true,
-            'attribute' => false,
+        'MessageMedia'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'MessageMedia',
         ],
     ];

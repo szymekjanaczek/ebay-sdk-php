@@ -27,45 +27,45 @@ class FreightShipping extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'originPickupLocationType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'originPickupLocationType',
         ],
-        'originPickupInside' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'originPickupInside'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'originPickupInside',
         ],
-        'packagingHelpRequired' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'packagingHelpRequired'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'packagingHelpRequired',
         ],
-        'commodityType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'commodityType'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'commodityType',
         ],
-        'freightShippingClass' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'freightShippingClass'     => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'freightShippingClass',
         ],
-        'destPickupLocationType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'destPickupLocationType'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'destPickupLocationType',
         ],
-        'destPickupInside' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'destPickupInside'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'destPickupInside',
         ],
     ];

@@ -11,7 +11,7 @@ class OrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
      * @var array $endPoints The API endpoints.
      */
     protected static $endPoints = [
-        'sandbox' => 'https://api.sandbox.ebay.com/buy/order',
+        'sandbox'    => 'https://api.sandbox.ebay.com/buy/order',
         'production' => 'https://apix.ebay.com/buy/order',
     ];
 
@@ -48,22 +48,22 @@ class OrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Order\Services\OrderService::API_VERSION,
-                'required' => true,
-            ],
-            'authorization' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-            'marketplaceId' => [
-                'valid' => ['string'],
-            ],
-            'riskCorrelationId' => [
-                'valid' => ['string'],
-            ],
-        ];
+                'apiVersion'        => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\Order\Services\OrderService::API_VERSION,
+                    'required' => true,
+                ],
+                'authorization'     => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+                'marketplaceId'     => [
+                    'valid' => ['string'],
+                ],
+                'riskCorrelationId' => [
+                    'valid' => ['string'],
+                ],
+            ];
     }
 
     /**
@@ -84,7 +84,7 @@ class OrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
         }
 
         if ($this->getConfig('riskCorrelationId')) {
-            $headers[self::HDR_END_USER_CTX ] = 'deviceId=' . $this->getConfig('riskCorrelationId');
+            $headers[self::HDR_END_USER_CTX] = 'deviceId=' . $this->getConfig('riskCorrelationId');
         }
 
         return $headers;

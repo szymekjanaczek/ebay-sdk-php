@@ -21,16 +21,16 @@ class CategoryAspectValue extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'value' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'value'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
         'valueConstraints' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ValueConstraint',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ValueConstraint',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'valueConstraints',
         ],
     ];

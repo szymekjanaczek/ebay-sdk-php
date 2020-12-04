@@ -26,46 +26,46 @@ class MigrateListingResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'errors'                => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'errors',
         ],
         'inventoryItemGroupKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryItemGroupKey',
         ],
-        'inventoryItems' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\InventoryItemListing',
-            'repeatable' => true,
-            'attribute' => false,
+        'inventoryItems'        => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\InventoryItemListing',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'inventoryItems',
         ],
-        'listingId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingId'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingId',
         ],
-        'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'statusCode' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'statusCode'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'statusCode',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'              => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

@@ -21,9 +21,9 @@ class DecideReturnResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'refundStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundStatus',
         ],
     ];

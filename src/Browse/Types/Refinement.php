@@ -24,34 +24,34 @@ class Refinement extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectDistributions' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\AspectDistribution',
-            'repeatable' => true,
-            'attribute' => false,
+        'aspectDistributions'       => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\AspectDistribution',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectDistributions',
         ],
         'buyingOptionDistributions' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\BuyingOptionDistribution',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Browse\Types\BuyingOptionDistribution',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'buyingOptionDistributions',
         ],
-        'categoryDistributions' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\CategoryDistribution',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryDistributions'     => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\CategoryDistribution',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryDistributions',
         ],
-        'conditionDistributions' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ConditionDistribution',
-            'repeatable' => true,
-            'attribute' => false,
+        'conditionDistributions'    => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\ConditionDistribution',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'conditionDistributions',
         ],
-        'dominantCategoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dominantCategoryId'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dominantCategoryId',
         ],
     ];

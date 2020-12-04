@@ -22,15 +22,15 @@ class DisputeFilterCountType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'DisputeFilterType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisputeFilterType',
         ],
-        'TotalAvailable' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'TotalAvailable'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalAvailable',
         ],
     ];

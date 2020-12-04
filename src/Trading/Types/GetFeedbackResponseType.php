@@ -26,46 +26,46 @@ class GetFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespons
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FeedbackDetailArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeedbackDetailArray'     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackDetailArray',
         ],
         'FeedbackDetailItemTotal' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackDetailItemTotal',
         ],
-        'FeedbackSummary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackSummaryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeedbackSummary'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\FeedbackSummaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackSummary',
         ],
-        'FeedbackScore' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeedbackScore'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackScore',
         ],
-        'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaginationResult'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'EntriesPerPage' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'EntriesPerPage'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EntriesPerPage',
         ],
-        'PageNumber' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PageNumber'              => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
     ];

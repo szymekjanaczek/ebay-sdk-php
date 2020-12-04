@@ -21,16 +21,16 @@ class SellerPaymentProfileType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaymentProfileID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentProfileID'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentProfileID',
         ],
         'PaymentProfileName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentProfileName',
         ],
     ];

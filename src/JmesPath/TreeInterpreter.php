@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -110,7 +111,7 @@ class TreeInterpreter
                 }
 
                 $collected = [];
-                foreach ((array) Utils::toArray($left) as $val) {
+                foreach ((array)Utils::toArray($left) as $val) {
                     $result = $this->dispatch($node['children'][1], $val);
                     if ($result !== null) {
                         $collected[] = $result;
@@ -197,7 +198,7 @@ class TreeInterpreter
                 return $collected;
 
             case 'comparator':
-                $left = $this->dispatch($node['children'][0], $value);
+                $left  = $this->dispatch($node['children'][0], $value);
                 $right = $this->dispatch($node['children'][1], $value);
                 if ($node['value'] == '==') {
                     return Utils::isEqual($left, $right);
@@ -207,7 +208,7 @@ class TreeInterpreter
                     return self::relativeCmp($left, $right, $node['value']);
                 }
 
-                // no break
+            // no break
             case 'condition':
                 return Utils::isTruthy($this->dispatch($node['children'][0], $value))
                     ? $this->dispatch($node['children'][1], $value)
@@ -253,11 +254,16 @@ class TreeInterpreter
         }
 
         switch ($cmp) {
-            case '>': return $left > $right;
-            case '>=': return $left >= $right;
-            case '<': return $left < $right;
-            case '<=': return $left <= $right;
-            default: throw new \RuntimeException("Invalid comparison: $cmp");
+            case '>':
+                return $left > $right;
+            case '>=':
+                return $left >= $right;
+            case '<':
+                return $left < $right;
+            case '<=':
+                return $left <= $right;
+            default:
+                throw new \RuntimeException("Invalid comparison: $cmp");
         }
     }
 }

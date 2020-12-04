@@ -23,28 +23,28 @@ class SellingManagerProductType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SellingManagerProductDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingManagerProductDetails'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerProductDetails',
         ],
-        'SellingManagerTemplateDetailsArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingManagerTemplateDetailsArray'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerTemplateDetailsArray',
         ],
         'SellingManagerProductInventoryStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerProductInventoryStatus',
         ],
-        'SellingManagerProductSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingManagerProductSpecifics'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerProductSpecifics',
         ],
     ];

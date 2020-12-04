@@ -22,15 +22,15 @@ class AvailableOptionType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'actionType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'actionType',
         ],
-        'actionURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'actionURL'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'actionURL',
         ],
     ];

@@ -21,9 +21,9 @@ class DigitalGoodInfoType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'DigitalDelivery' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DigitalDelivery',
         ],
     ];

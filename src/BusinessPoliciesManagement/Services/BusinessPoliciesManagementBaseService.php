@@ -45,19 +45,19 @@ class BusinessPoliciesManagementBaseService extends \DTS\eBaySDK\Services\BaseSe
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService::API_VERSION,
-            ],
-            'authToken' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-            'globalId' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-        ];
+                'apiVersion' => [
+                    'valid'   => ['string'],
+                    'default' => \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService::API_VERSION,
+                ],
+                'authToken'  => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+                'globalId'   => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+            ];
     }
 
     /**
@@ -72,8 +72,8 @@ class BusinessPoliciesManagementBaseService extends \DTS\eBaySDK\Services\BaseSe
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_AUTH_TOKEN] = $this->getConfig('authToken');
-        $headers[self::HDR_GLOBAL_ID] = $this->getConfig('globalId');
+        $headers[self::HDR_AUTH_TOKEN]     = $this->getConfig('authToken');
+        $headers[self::HDR_GLOBAL_ID]      = $this->getConfig('globalId');
         $headers[self::HDR_OPERATION_NAME] = $operationName;
 
         // Add optional headers.

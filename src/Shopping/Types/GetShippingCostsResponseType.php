@@ -22,22 +22,22 @@ class GetShippingCostsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingDetails' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ShippingDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingDetails'      => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\ShippingDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingDetails',
         ],
-        'ShippingCostSummary' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingCostSummary'  => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingCostSummary',
         ],
         'PickUpInStoreDetails' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\PickUpInStoreDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Shopping\Types\PickUpInStoreDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickUpInStoreDetails',
         ],
     ];

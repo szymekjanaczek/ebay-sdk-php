@@ -30,70 +30,70 @@ class SellerLegalInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'email' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'email'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'email',
         ],
-        'fax' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fax'                        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fax',
         ],
-        'imprint' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'imprint'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'imprint',
         ],
-        'legalContactFirstName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'legalContactFirstName'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legalContactFirstName',
         ],
-        'legalContactLastName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'legalContactLastName'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legalContactLastName',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'phone' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'phone'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'phone',
         ],
-        'registrationNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'registrationNumber'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'registrationNumber',
         ],
         'sellerProvidedLegalAddress' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\LegalAddress',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Browse\Types\LegalAddress',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellerProvidedLegalAddress',
         ],
-        'termsOfService' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'termsOfService'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'termsOfService',
         ],
-        'vatDetails' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\VatDetail',
-            'repeatable' => true,
-            'attribute' => false,
+        'vatDetails'                 => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\VatDetail',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'vatDetails',
         ],
     ];

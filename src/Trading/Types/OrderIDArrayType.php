@@ -21,9 +21,9 @@ class OrderIDArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'OrderID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'OrderID',
         ],
     ];

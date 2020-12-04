@@ -26,46 +26,46 @@ class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PromotionalSaleID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalSaleID'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleID',
         ],
-        'Action' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Action'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Action',
         ],
         'PromotionalSaleItemIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleItemIDArray',
         ],
-        'StoreCategoryID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreCategoryID'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreCategoryID',
         ],
-        'CategoryID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'                 => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'AllFixedPriceItems' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'AllFixedPriceItems'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AllFixedPriceItems',
         ],
-        'AllAuctionItems' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'AllAuctionItems'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AllAuctionItems',
         ],
     ];

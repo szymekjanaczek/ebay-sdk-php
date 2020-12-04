@@ -24,27 +24,27 @@ class ShippingStep extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'shippingCarrierCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
         'shippingServiceCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceCode',
         ],
-        'shipTo' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Contact',
-            'repeatable' => false,
-            'attribute' => false,
+        'shipTo'              => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Contact',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipTo',
         ],
-        'shipToReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shipToReferenceId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipToReferenceId',
         ],
     ];

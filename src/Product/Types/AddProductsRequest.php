@@ -22,15 +22,15 @@ class AddProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
      */
     private static $propertyTypes = [
         'addProductRequest' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmission',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductSubmission',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'addProductRequest',
         ],
-        'clientBatchId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'clientBatchId'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'clientBatchId',
         ],
     ];

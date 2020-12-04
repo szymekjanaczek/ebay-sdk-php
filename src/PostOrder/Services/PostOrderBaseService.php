@@ -11,7 +11,7 @@ class PostOrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
      * @var array $endPoints The API endpoints.
      */
     protected static $endPoints = [
-        'sandbox' => 'https://api.sandbox.ebay.com/post-order',
+        'sandbox'    => 'https://api.sandbox.ebay.com/post-order',
         'production' => 'https://api.ebay.com/post-order',
     ];
 
@@ -43,19 +43,19 @@ class PostOrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\PostOrder\Services\PostOrderService::API_VERSION,
-                'required' => true,
-            ],
-            'authToken' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-            'marketplaceId' => [
-                'valid' => ['string'],
-            ],
-        ];
+                'apiVersion'    => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\PostOrder\Services\PostOrderService::API_VERSION,
+                    'required' => true,
+                ],
+                'authToken'     => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+                'marketplaceId' => [
+                    'valid' => ['string'],
+                ],
+            ];
     }
 
     /**

@@ -21,9 +21,9 @@ class BaseFindingServiceRequest extends \DTS\eBaySDK\Finding\Types\BestMatchFind
      */
     private static $propertyTypes = [
         'sortOrder' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sortOrder',
         ],
     ];

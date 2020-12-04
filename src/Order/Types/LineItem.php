@@ -29,64 +29,64 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'image' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Image',
-            'repeatable' => false,
-            'attribute' => false,
+        'image'                 => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Image',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'image',
         ],
-        'itemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemId'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'lineItemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'lineItemId'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lineItemId',
         ],
         'lineItemPaymentStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lineItemPaymentStatus',
         ],
-        'lineItemStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'lineItemStatus'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lineItemStatus',
         ],
-        'netPrice' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'netPrice'              => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'netPrice',
         ],
-        'quantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'quantity'              => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'quantity',
         ],
-        'seller' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Seller',
-            'repeatable' => false,
-            'attribute' => false,
+        'seller'                => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Seller',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'seller',
         ],
-        'shippingDetail' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ShippingDetail',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingDetail'        => [
+            'type'        => 'DTS\eBaySDK\Order\Types\ShippingDetail',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingDetail',
         ],
-        'title' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'title'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'title',
         ],
     ];

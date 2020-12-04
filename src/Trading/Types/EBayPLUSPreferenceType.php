@@ -22,22 +22,22 @@ class EBayPLUSPreferenceType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Country' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Country'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Country',
         ],
-        'OptInStatus' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'OptInStatus'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OptInStatus',
         ],
         'ListingPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingPreference',
         ],
     ];

@@ -25,33 +25,33 @@ class GetNotificationPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\
      */
     private static $propertyTypes = [
         'ApplicationDeliveryPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ApplicationDeliveryPreferences',
         ],
-        'DeliveryURLName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeliveryURLName'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeliveryURLName',
         ],
-        'UserDeliveryPreferenceArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationEnableArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'UserDeliveryPreferenceArray'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\NotificationEnableArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UserDeliveryPreferenceArray',
         ],
-        'UserData' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationUserDataType',
-            'repeatable' => false,
-            'attribute' => false,
+        'UserData'                       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\NotificationUserDataType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UserData',
         ],
-        'EventProperty' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationEventPropertyType',
-            'repeatable' => true,
-            'attribute' => false,
+        'EventProperty'                  => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\NotificationEventPropertyType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'EventProperty',
         ],
     ];

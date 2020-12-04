@@ -21,9 +21,9 @@ class ShipmentLineItemType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'LineItem' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\LineItemType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\LineItemType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'LineItem',
         ],
     ];

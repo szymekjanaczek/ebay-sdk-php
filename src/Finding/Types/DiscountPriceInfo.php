@@ -24,34 +24,34 @@ class DiscountPriceInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'originalRetailPrice' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'originalRetailPrice'            => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'originalRetailPrice',
         ],
         'minimumAdvertisedPriceExposure' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minimumAdvertisedPriceExposure',
         ],
-        'pricingTreatment' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'pricingTreatment'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'pricingTreatment',
         ],
-        'soldOnEbay' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'soldOnEbay'                     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'soldOnEbay',
         ],
-        'soldOffEbay' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'soldOffEbay'                    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'soldOffEbay',
         ],
     ];

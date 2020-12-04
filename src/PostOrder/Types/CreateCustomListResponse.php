@@ -21,9 +21,9 @@ class CreateCustomListResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'listId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listId',
         ],
     ];

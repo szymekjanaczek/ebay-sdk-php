@@ -22,22 +22,22 @@ class GetSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'paymentProfileList' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentProfileList'      => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentProfileList',
         ],
         'returnPolicyProfileList' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnPolicyProfileList',
         ],
-        'shippingPolicyProfile' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingPolicyProfile'   => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingPolicyProfile',
         ],
     ];

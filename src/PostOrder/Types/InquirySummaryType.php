@@ -29,64 +29,64 @@ class InquirySummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'buyer' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyer'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyer',
         ],
-        'claimAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'claimAmount'       => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'claimAmount',
         ],
-        'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationDate'      => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'inquiryId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'inquiryId'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiryId',
         ],
         'inquiryStatusEnum' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiryStatusEnum',
         ],
-        'itemId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemId'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'lastModifiedDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'lastModifiedDate'  => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastModifiedDate',
         ],
-        'respondByDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'respondByDate'     => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'respondByDate',
         ],
-        'seller' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'seller'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'seller',
         ],
-        'transactionId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'transactionId'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionId',
         ],
     ];

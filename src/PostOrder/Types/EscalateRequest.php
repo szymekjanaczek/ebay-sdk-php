@@ -22,15 +22,15 @@ class EscalateRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
-        'reason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reason'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reason',
         ],
     ];

@@ -21,9 +21,9 @@ class MyMessagesMessageIDArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'MessageID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'MessageID',
         ],
     ];

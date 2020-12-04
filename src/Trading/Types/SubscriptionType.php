@@ -23,21 +23,21 @@ class SubscriptionType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'EIASToken' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EIASToken',
         ],
-        'SiteID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SiteID'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SiteID',
         ],
-        'Active' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Active'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Active',
         ],
     ];

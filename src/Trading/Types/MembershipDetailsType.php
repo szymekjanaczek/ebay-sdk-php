@@ -21,9 +21,9 @@ class MembershipDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Program' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MembershipDetailType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\MembershipDetailType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Program',
         ],
     ];

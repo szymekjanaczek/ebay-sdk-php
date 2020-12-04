@@ -24,27 +24,27 @@ class UploadFileRequest extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceReque
      */
     private static $propertyTypes = [
         'taskReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'taskReferenceId',
         ],
         'fileReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileReferenceId',
         ],
-        'fileFormat' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileFormat'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileFormat',
         ],
-        'fileAttachment' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\FileAttachment',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileAttachment'  => [
+            'type'        => 'DTS\eBaySDK\FileTransfer\Types\FileAttachment',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileAttachment',
         ],
     ];

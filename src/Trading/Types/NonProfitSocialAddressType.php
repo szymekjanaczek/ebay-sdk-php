@@ -22,15 +22,15 @@ class NonProfitSocialAddressType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'SocialAddressType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SocialAddressType',
         ],
-        'SocialAddressId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SocialAddressId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SocialAddressId',
         ],
     ];

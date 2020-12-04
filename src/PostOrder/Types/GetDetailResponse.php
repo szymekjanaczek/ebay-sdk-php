@@ -21,16 +21,16 @@ class GetDetailResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'detail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+        'detail'  => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'detail',
         ],
         'summary' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'summary',
         ],
     ];

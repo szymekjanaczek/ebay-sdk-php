@@ -22,22 +22,22 @@ class EnumerationDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'code' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'code'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'code',
         ],
         'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'content' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'content'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'content',
         ],
     ];

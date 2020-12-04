@@ -27,52 +27,52 @@ class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ScheduledList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ScheduledList'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ScheduledList',
         ],
-        'ActiveList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ActiveList'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ActiveList',
         ],
-        'SoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SoldList'              => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SoldList',
         ],
-        'UnsoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'UnsoldList'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UnsoldList',
         ],
-        'DeletedFromSoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeletedFromSoldList'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeletedFromSoldList',
         ],
         'DeletedFromUnsoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeletedFromUnsoldList',
         ],
-        'SellingSummary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingSummary'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingSummary',
         ],
-        'HideVariations' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HideVariations'        => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HideVariations',
         ],
     ];

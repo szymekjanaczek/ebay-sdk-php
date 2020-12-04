@@ -21,9 +21,9 @@ class BulkCreateAdsByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Types\B
      */
     private static $propertyTypes = [
         'campaign_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'campaign_id',
         ],
     ];

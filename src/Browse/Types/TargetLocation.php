@@ -22,15 +22,15 @@ class TargetLocation extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'unitOfMeasure' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'unitOfMeasure',
         ],
-        'value' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'value'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

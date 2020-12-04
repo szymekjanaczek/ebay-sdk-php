@@ -22,15 +22,15 @@ class Interval extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'close' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'close',
         ],
-        'open' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'open'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'open',
         ],
     ];

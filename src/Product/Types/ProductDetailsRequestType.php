@@ -23,28 +23,28 @@ class ProductDetailsRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productIdentifier' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
-            'repeatable' => false,
-            'attribute' => false,
+        'productIdentifier'   => [
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productIdentifier',
         ],
         'datasetPropertyName' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'datasetPropertyName',
         ],
-        'dataset' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'dataset'             => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dataset',
         ],
         'productStatusFilter' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductStatus',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productStatusFilter',
         ],
     ];

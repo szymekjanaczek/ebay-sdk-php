@@ -24,27 +24,27 @@ class Seller extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'feedbackPercentage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'feedbackPercentage',
         ],
-        'feedbackScore' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'feedbackScore'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'feedbackScore',
         ],
-        'sellerAccountType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sellerAccountType'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellerAccountType',
         ],
-        'username' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'username'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'username',
         ],
     ];

@@ -21,16 +21,16 @@ class GetVeROReasonCodeDetailsRequestType extends \DTS\eBaySDK\Trading\Types\Abs
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ReasonCodeID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReasonCodeID'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReasonCodeID',
         ],
         'ReturnAllSites' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnAllSites',
         ],
     ];

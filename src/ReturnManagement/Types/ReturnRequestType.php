@@ -22,22 +22,22 @@ class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'returnItem' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnItemType',
-            'repeatable' => true,
-            'attribute' => false,
+        'returnItem'   => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnItemType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'returnItem',
         ],
         'returnReason' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnReason',
         ],
-        'comments' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
     ];

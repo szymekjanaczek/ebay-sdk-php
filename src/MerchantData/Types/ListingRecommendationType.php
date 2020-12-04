@@ -26,46 +26,46 @@ class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Type'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Type',
         ],
-        'Group' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Group'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Group',
         ],
         'FieldName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FieldName',
         ],
-        'Code' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Code'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Code',
         ],
-        'Value' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'Value'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Value',
         ],
-        'Message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Message'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Message',
         ],
-        'Metadata' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MetadataType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Metadata'  => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MetadataType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Metadata',
         ],
     ];

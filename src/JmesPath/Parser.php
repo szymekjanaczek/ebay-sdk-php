@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 use DTS\eBaySDK\JmesPath\Lexer as T;
@@ -44,44 +45,44 @@ class Parser
     ];
 
     private static $bp = [
-        T::T_EOF => 0,
+        T::T_EOF               => 0,
         T::T_QUOTED_IDENTIFIER => 0,
-        T::T_IDENTIFIER => 0,
-        T::T_RBRACKET => 0,
-        T::T_RPAREN => 0,
-        T::T_COMMA => 0,
-        T::T_RBRACE => 0,
-        T::T_NUMBER => 0,
-        T::T_CURRENT => 0,
-        T::T_EXPREF => 0,
-        T::T_COLON => 0,
-        T::T_PIPE => 1,
-        T::T_OR => 2,
-        T::T_AND => 3,
-        T::T_COMPARATOR => 5,
-        T::T_FLATTEN => 9,
-        T::T_STAR => 20,
-        T::T_FILTER => 21,
-        T::T_DOT => 40,
-        T::T_NOT => 45,
-        T::T_LBRACE => 50,
-        T::T_LBRACKET => 55,
-        T::T_LPAREN => 60,
+        T::T_IDENTIFIER        => 0,
+        T::T_RBRACKET          => 0,
+        T::T_RPAREN            => 0,
+        T::T_COMMA             => 0,
+        T::T_RBRACE            => 0,
+        T::T_NUMBER            => 0,
+        T::T_CURRENT           => 0,
+        T::T_EXPREF            => 0,
+        T::T_COLON             => 0,
+        T::T_PIPE              => 1,
+        T::T_OR                => 2,
+        T::T_AND               => 3,
+        T::T_COMPARATOR        => 5,
+        T::T_FLATTEN           => 9,
+        T::T_STAR              => 20,
+        T::T_FILTER            => 21,
+        T::T_DOT               => 40,
+        T::T_NOT               => 45,
+        T::T_LBRACE            => 50,
+        T::T_LBRACKET          => 55,
+        T::T_LPAREN            => 60,
     ];
 
     /** @var array Acceptable tokens after a dot token */
     private static $afterDot = [
-        T::T_IDENTIFIER => true,
+        T::T_IDENTIFIER        => true,
         // foo.bar
         T::T_QUOTED_IDENTIFIER => true,
         // foo."bar"
-        T::T_STAR => true,
+        T::T_STAR              => true,
         // foo.*
-        T::T_LBRACE => true,
+        T::T_LBRACE            => true,
         // foo[1]
-        T::T_LBRACKET => true,
+        T::T_LBRACKET          => true,
         // foo{a: 0}
-        T::T_FILTER => true,
+        T::T_FILTER            => true,
         // foo.[?bar==10]
     ];
 
@@ -104,8 +105,8 @@ class Parser
     public function parse($expression)
     {
         $this->expression = $expression;
-        $this->tokens = $this->lexer->tokenize($expression);
-        $this->tpos = -1;
+        $this->tokens     = $this->lexer->tokenize($expression);
+        $this->tpos       = -1;
         $this->next();
         $result = $this->expr();
 
@@ -119,7 +120,7 @@ class Parser
     /**
      * Parses an expression while rbp < lbp.
      *
-     * @param int   $rbp  Right bound precedence
+     * @param int $rbp Right bound precedence
      *
      * @return array
      */
@@ -138,7 +139,7 @@ class Parser
         $token = $this->token;
         $this->next();
         return [
-            'type' => 'field',
+            'type'  => 'field',
             'value' => $token['value'],
         ];
     }
@@ -149,7 +150,7 @@ class Parser
         $this->next();
         $this->assertNotToken(T::T_LPAREN);
         return [
-            'type' => 'field',
+            'type'  => 'field',
             'value' => $token['value'],
         ];
     }
@@ -165,7 +166,7 @@ class Parser
         $token = $this->token;
         $this->next();
         return [
-            'type' => 'literal',
+            'type'  => 'literal',
             'value' => $token['value'],
         ];
     }
@@ -174,7 +175,7 @@ class Parser
     {
         $this->next();
         return [
-            'type' => T::T_EXPREF,
+            'type'     => T::T_EXPREF,
             'children' => [$this->expr(self::$bp[T::T_EXPREF])],
         ];
     }
@@ -183,7 +184,7 @@ class Parser
     {
         $this->next();
         return [
-            'type' => T::T_NOT,
+            'type'     => T::T_NOT,
             'children' => [$this->expr(self::$bp[T::T_NOT])],
         ];
     }
@@ -203,7 +204,7 @@ class Parser
     {
         static $validKeys = [
             T::T_QUOTED_IDENTIFIER => true,
-            T::T_IDENTIFIER => true,
+            T::T_IDENTIFIER        => true,
         ];
         $this->next($validKeys);
         $pairs = [];
@@ -217,8 +218,8 @@ class Parser
 
         $this->next();
 
-        return[
-            'type' => 'multi_select_hash',
+        return [
+            'type'     => 'multi_select_hash',
             'children' => $pairs,
         ];
     }
@@ -255,15 +256,15 @@ class Parser
     {
         static $nextTypes = [
             T::T_NUMBER => true,
-            T::T_COLON => true,
-            T::T_STAR => true,
+            T::T_COLON  => true,
+            T::T_STAR   => true,
         ];
         $this->next($nextTypes);
         switch ($this->token['type']) {
             case T::T_NUMBER:
             case T::T_COLON:
                 return [
-                    'type' => 'subexpression',
+                    'type'     => 'subexpression',
                     'children' => [$left, $this->parseArrayIndexExpression()],
                 ];
             default:
@@ -276,11 +277,11 @@ class Parser
         $this->next();
 
         return [
-            'type' => 'projection',
-            'from' => 'array',
+            'type'     => 'projection',
+            'from'     => 'array',
             'children' => [
                 [
-                    'type' => T::T_FLATTEN,
+                    'type'     => T::T_FLATTEN,
                     'children' => [$left],
                 ],
                 $this->parseProjection(self::$bp[T::T_FLATTEN]),
@@ -297,7 +298,7 @@ class Parser
         }
 
         return [
-            'type' => 'subexpression',
+            'type'     => 'subexpression',
             'children' => [$left, $this->parseDot(self::$bp[T::T_DOT])],
         ];
     }
@@ -306,7 +307,7 @@ class Parser
     {
         $this->next();
         return [
-            'type' => T::T_OR,
+            'type'     => T::T_OR,
             'children' => [$left, $this->expr(self::$bp[T::T_OR])],
         ];
     }
@@ -315,7 +316,7 @@ class Parser
     {
         $this->next();
         return [
-            'type' => T::T_AND,
+            'type'     => T::T_AND,
             'children' => [$left, $this->expr(self::$bp[T::T_AND])],
         ];
     }
@@ -324,7 +325,7 @@ class Parser
     {
         $this->next();
         return [
-            'type' => T::T_PIPE,
+            'type'     => T::T_PIPE,
             'children' => [$left, $this->expr(self::$bp[T::T_PIPE])],
         ];
     }
@@ -344,8 +345,8 @@ class Parser
         $this->next();
 
         return [
-            'type' => 'function',
-            'value' => $left['value'],
+            'type'     => 'function',
+            'value'    => $left['value'],
             'children' => $args,
         ];
     }
@@ -362,12 +363,12 @@ class Parser
         $rhs = $this->parseProjection(self::$bp[T::T_FILTER]);
 
         return [
-            'type' => 'projection',
-            'from' => 'array',
+            'type'     => 'projection',
+            'from'     => 'array',
             'children' => [
                 $left ?: self::$currentNode,
                 [
-                    'type' => 'condition',
+                    'type'     => 'condition',
                     'children' => [$expression, $rhs],
                 ],
             ],
@@ -380,8 +381,8 @@ class Parser
         $this->next();
 
         return [
-            'type' => T::T_COMPARATOR,
-            'value' => $token['value'],
+            'type'     => T::T_COMPARATOR,
+            'value'    => $token['value'],
             'children' => [$left, $this->expr(self::$bp[T::T_COMPARATOR])],
         ];
     }
@@ -421,8 +422,8 @@ class Parser
         $this->next();
 
         return [
-            'type' => 'key_val_pair',
-            'value' => $key,
+            'type'     => 'key_val_pair',
+            'value'    => $key,
             'children' => [$this->expr()],
         ];
     }
@@ -432,8 +433,8 @@ class Parser
         $this->next();
 
         return [
-            'type' => 'projection',
-            'from' => 'object',
+            'type'     => 'projection',
+            'from'     => 'object',
             'children' => [
                 $left ?: self::$currentNode,
                 $this->parseProjection(self::$bp[T::T_STAR]),
@@ -450,8 +451,8 @@ class Parser
         $this->next();
 
         return [
-            'type' => 'projection',
-            'from' => 'array',
+            'type'     => 'projection',
+            'from'     => 'array',
             'children' => [
                 $left ?: self::$currentNode,
                 $this->parseProjection(self::$bp[T::T_STAR]),
@@ -465,13 +466,13 @@ class Parser
     private function parseArrayIndexExpression()
     {
         static $matchNext = [
-            T::T_NUMBER => true,
-            T::T_COLON => true,
+            T::T_NUMBER   => true,
+            T::T_COLON    => true,
             T::T_RBRACKET => true,
         ];
 
-        $pos = 0;
-        $parts = [null, null, null];
+        $pos      = 0;
+        $parts    = [null, null, null];
         $expected = $matchNext;
 
         do {
@@ -480,8 +481,8 @@ class Parser
                 $expected = $matchNext;
             } elseif ($this->token['type'] == T::T_NUMBER) {
                 $parts[$pos] = $this->token['value'];
-                $expected = [
-                    T::T_COLON => true,
+                $expected    = [
+                    T::T_COLON    => true,
                     T::T_RBRACKET => true,
                 ];
             }
@@ -494,7 +495,7 @@ class Parser
         if ($pos === 0) {
             // No colons were found so this is a simple index extraction
             return [
-                'type' => 'index',
+                'type'  => 'index',
                 'value' => $parts[0],
             ];
         }
@@ -505,11 +506,11 @@ class Parser
 
         // Sliced array from start (e.g., [2:])
         return [
-            'type' => 'projection',
-            'from' => 'array',
+            'type'     => 'projection',
+            'from'     => 'array',
             'children' => [
                 [
-                    'type' => 'slice',
+                    'type'  => 'slice',
                     'value' => $parts,
                 ],
                 $this->parseProjection(self::$bp[T::T_STAR]),
@@ -531,7 +532,7 @@ class Parser
         $this->next();
 
         return [
-            'type' => 'multi_select_list',
+            'type'     => 'multi_select_list',
             'children' => $nodes,
         ];
     }
@@ -569,15 +570,15 @@ class Parser
     }
 
     /**
-     * @internal Handles undefined tokens without paying the cost of validation
      * @param $method
      * @param $args
+     * @internal Handles undefined tokens without paying the cost of validation
      */
     public function __call($method, $args)
     {
         $prefix = substr($method, 0, 4);
         if ($prefix == 'nud_' || $prefix == 'led_') {
-            $token = substr($method, 4);
+            $token   = substr($method, 4);
             $message = "Unexpected \"$token\" token ($method). Expected one of"
                 . " the following tokens: "
                 . implode(', ', array_map(function ($i) {

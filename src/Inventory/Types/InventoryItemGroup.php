@@ -27,52 +27,52 @@ class InventoryItemGroup extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspects' => [
-            'type' => 'any',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspects'               => [
+            'type'        => 'any',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'description'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'imageUrls' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'imageUrls'             => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'imageUrls',
         ],
         'inventoryItemGroupKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryItemGroupKey',
         ],
-        'subtitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'subtitle'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'subtitle',
         ],
-        'title' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'title'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'title',
         ],
-        'variantSKUs' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'variantSKUs'           => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'variantSKUs',
         ],
-        'variesBy' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\VariesBy',
-            'repeatable' => false,
-            'attribute' => false,
+        'variesBy'              => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\VariesBy',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'variesBy',
         ],
     ];

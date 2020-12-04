@@ -26,46 +26,46 @@ class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OriginalRetailPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'OriginalRetailPrice'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OriginalRetailPrice',
         ],
-        'MinimumAdvertisedPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MinimumAdvertisedPrice'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MinimumAdvertisedPrice',
         ],
         'MinimumAdvertisedPriceExposure' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MinimumAdvertisedPriceExposure',
         ],
-        'PricingTreatment' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PricingTreatment'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PricingTreatment',
         ],
-        'SoldOneBay' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SoldOneBay'                     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SoldOneBay',
         ],
-        'SoldOffeBay' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SoldOffeBay'                    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SoldOffeBay',
         ],
-        'MadeForOutletComparisonPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MadeForOutletComparisonPrice'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MadeForOutletComparisonPrice',
         ],
     ];

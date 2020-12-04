@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -32,15 +33,15 @@ class TreeCompiler
     private $vars;
 
     /**
-     * @param array  $ast    AST to compile.
+     * @param array $ast AST to compile.
      * @param string $fnName The name of the function to generate.
-     * @param string $expr   Expression being compiled.
+     * @param string $expr Expression being compiled.
      *
      * @return string
      */
     public function visit(array $ast, $fnName, $expr)
     {
-        $this->vars = [];
+        $this->vars   = [];
         $this->source = $this->indentation = '';
         $this->write("<?php\n")
             ->write('use DTS\\eBaySDK\\JmesPath\\TreeInterpreter as Ti;')
@@ -49,11 +50,11 @@ class TreeCompiler
             ->write('')
             ->write('function %s(Ti $interpreter, $value) {', $fnName)
             ->indent()
-                ->dispatch($ast)
-                ->write('')
-                ->write('return $value;')
+            ->dispatch($ast)
+            ->write('')
+            ->write('return $value;')
             ->outdent()
-        ->write('}');
+            ->write('}');
 
         return $this->source;
     }
@@ -129,10 +130,10 @@ class TreeCompiler
             ->write('%s = $value;', $a)
             ->dispatch($node['children'][0])
             ->write('if (!Utils::isTruthy($value)) {')
-                ->indent()
-                ->write('$value = %s;', $a)
-                ->dispatch($node['children'][1])
-                ->outdent()
+            ->indent()
+            ->write('$value = %s;', $a)
+            ->dispatch($node['children'][1])
+            ->outdent()
             ->write('}');
     }
 
@@ -143,10 +144,10 @@ class TreeCompiler
             ->write('%s = $value;', $a)
             ->dispatch($node['children'][0])
             ->write('if (Utils::isTruthy($value)) {')
-                ->indent()
-                ->write('$value = %s;', $a)
-                ->dispatch($node['children'][1])
-                ->outdent()
+            ->indent()
+            ->write('$value = %s;', $a)
+            ->dispatch($node['children'][1])
+            ->outdent()
             ->write('}');
     }
 
@@ -164,9 +165,9 @@ class TreeCompiler
         return $this
             ->dispatch($node['children'][0])
             ->write('if ($value !== null) {')
-                ->indent()
-                ->dispatch($node['children'][1])
-                ->outdent()
+            ->indent()
+            ->dispatch($node['children'][1])
+            ->outdent()
             ->write('}');
     }
 
@@ -175,17 +176,17 @@ class TreeCompiler
         $arr = '$value[' . var_export($node['value'], true) . ']';
         $obj = '$value->{' . var_export($node['value'], true) . '}';
         $this->write('if (is_array($value) || $value instanceof \\ArrayAccess) {')
-                ->indent()
-                ->write('$value = isset(%s) ? %s : null;', $arr, $arr)
-                ->outdent()
+            ->indent()
+            ->write('$value = isset(%s) ? %s : null;', $arr, $arr)
+            ->outdent()
             ->write('} elseif ($value instanceof \\stdClass || $value instanceof DTS\\eBaySDK\\JmesPath\\JmesPathableObjectInterface) {')
-                ->indent()
-                ->write('$value = isset(%s) ? %s : null;', $obj, $obj)
-                ->outdent()
+            ->indent()
+            ->write('$value = isset(%s) ? %s : null;', $obj, $obj)
+            ->outdent()
             ->write("} else {")
-                ->indent()
-                ->write('$value = null;')
-                ->outdent()
+            ->indent()
+            ->write('$value = null;')
+            ->outdent()
             ->write("}");
 
         return $this;
@@ -197,7 +198,7 @@ class TreeCompiler
             $check = '$value[' . $node['value'] . ']';
             return $this->write(
                 '$value = (is_array($value) || $value instanceof \\ArrayAccess)'
-                    . ' && isset(%s) ? %s : null;',
+                . ' && isset(%s) ? %s : null;',
                 $check,
                 $check
             );
@@ -206,14 +207,14 @@ class TreeCompiler
         $a = $this->makeVar('count');
         return $this
             ->write('if (is_array($value) || ($value instanceof \\ArrayAccess && $value instanceof \\Countable)) {')
-                ->indent()
-                ->write('%s = count($value) + %s;', $a, $node['value'])
-                ->write('$value = isset($value[%s]) ? $value[%s] : null;', $a, $a)
-                ->outdent()
+            ->indent()
+            ->write('%s = count($value) + %s;', $a, $node['value'])
+            ->write('$value = isset($value[%s]) ? $value[%s] : null;', $a, $a)
+            ->outdent()
             ->write('} else {')
-                ->indent()
-                ->write('$value = null;')
-                ->outdent()
+            ->indent()
+            ->write('$value = null;')
+            ->outdent()
             ->write('}');
     }
 
@@ -237,7 +238,7 @@ class TreeCompiler
     private function visit_multi_select_hash(array $node)
     {
         $listVal = $this->makeVar('list');
-        $value = $this->makeVar('prev');
+        $value   = $this->makeVar('prev');
         $this->write('if ($value !== null) {')
             ->indent()
             ->write('%s = [];', $listVal)
@@ -268,7 +269,7 @@ class TreeCompiler
     private function visit_function(array $node)
     {
         $value = $this->makeVar('val');
-        $args = $this->makeVar('args');
+        $args  = $this->makeVar('args');
         $this->write('%s = $value;', $value)
             ->write('%s = [];', $args);
 
@@ -309,40 +310,40 @@ class TreeCompiler
             ->indent()
             ->write('return $interpreter->visit(%s, $value);', $child)
             ->outdent()
-        ->write('};');
+            ->write('};');
     }
 
     private function visit_flatten(array $node)
     {
         $this->dispatch($node['children'][0]);
         $merged = $this->makeVar('merged');
-        $val = $this->makeVar('val');
+        $val    = $this->makeVar('val');
 
         $this
             ->write('// Visiting merge node')
             ->write('if (!Utils::isArray($value)) {')
-                ->indent()
-                ->write('$value = null;')
-                ->outdent()
+            ->indent()
+            ->write('$value = null;')
+            ->outdent()
             ->write('} else {')
-                ->indent()
-                ->write('%s = [];', $merged)
-                ->write('foreach ($value as %s) {', $val)
-                    ->indent()
-                    ->write('%s = Utils::toArray(%s);', $val, $val)
-                    ->write('if (is_array(%s) && isset(%s[0])) {', $val, $val)
-                        ->indent()
-                        ->write('%s = array_merge(%s, %s);', $merged, $merged, $val)
-                        ->outdent()
-                    ->write('} elseif (%s !== []) {', $val)
-                        ->indent()
-                        ->write('%s[] = %s;', $merged, $val)
-                        ->outdent()
-                    ->write('}')
-                    ->outdent()
-                ->write('}')
-                ->write('$value = %s;', $merged)
-                ->outdent()
+            ->indent()
+            ->write('%s = [];', $merged)
+            ->write('foreach ($value as %s) {', $val)
+            ->indent()
+            ->write('%s = Utils::toArray(%s);', $val, $val)
+            ->write('if (is_array(%s) && isset(%s[0])) {', $val, $val)
+            ->indent()
+            ->write('%s = array_merge(%s, %s);', $merged, $merged, $val)
+            ->outdent()
+            ->write('} elseif (%s !== []) {', $val)
+            ->indent()
+            ->write('%s[] = %s;', $merged, $val)
+            ->outdent()
+            ->write('}')
+            ->outdent()
+            ->write('}')
+            ->write('$value = %s;', $merged)
+            ->outdent()
             ->write('}');
 
         return $this;
@@ -350,7 +351,7 @@ class TreeCompiler
 
     private function visit_projection(array $node)
     {
-        $val = $this->makeVar('val');
+        $val       = $this->makeVar('val');
         $collected = $this->makeVar('collected');
         $this->write('// Visiting projection node')
             ->dispatch($node['children'][0])
@@ -368,19 +369,19 @@ class TreeCompiler
             ->indent()
             ->write('%s = [];', $collected)
             ->write('foreach ((array) Utils::toArray($value) as %s) {', $val)
-                ->indent()
-                ->write('$value = %s;', $val)
-                ->dispatch($node['children'][1])
-                ->write('if ($value !== null) {')
-                    ->indent()
-                    ->write('%s[] = $value;', $collected)
-                    ->outdent()
-                ->write('}')
-                ->outdent()
+            ->indent()
+            ->write('$value = %s;', $val)
+            ->dispatch($node['children'][1])
+            ->write('if ($value !== null) {')
+            ->indent()
+            ->write('%s[] = $value;', $collected)
+            ->outdent()
+            ->write('}')
+            ->outdent()
             ->write('}')
             ->write('$value = %s;', $collected)
             ->outdent()
-        ->write('}');
+            ->write('}');
 
         return $this;
     }
@@ -394,22 +395,22 @@ class TreeCompiler
             ->dispatch($node['children'][0])
             ->write('// Checking result of condition node')
             ->write('if (Utils::isTruthy($value)) {')
-                ->indent()
-                ->write('$value = %s;', $value)
-                ->dispatch($node['children'][1])
-                ->outdent()
+            ->indent()
+            ->write('$value = %s;', $value)
+            ->dispatch($node['children'][1])
+            ->outdent()
             ->write('} else {')
-                ->indent()
-                ->write('$value = null;')
-                ->outdent()
+            ->indent()
+            ->write('$value = null;')
+            ->outdent()
             ->write('}');
     }
 
     private function visit_comparator(array $node)
     {
         $value = $this->makeVar('val');
-        $a = $this->makeVar('left');
-        $b = $this->makeVar('right');
+        $a     = $this->makeVar('left');
+        $b     = $this->makeVar('right');
 
         $this
             ->write('// Visiting comparator node')
@@ -440,9 +441,9 @@ class TreeCompiler
         return $this;
     }
 
-    /** @internal
-     * @param $method
+    /** @param $method
      * @param $args
+     * @internal
      */
     public function __call($method, $args)
     {

@@ -29,64 +29,64 @@ class SellerRoleMetricsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PositiveFeedbackLeftCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PositiveFeedbackLeftCount'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PositiveFeedbackLeftCount',
         ],
-        'NegativeFeedbackLeftCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NegativeFeedbackLeftCount'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NegativeFeedbackLeftCount',
         ],
-        'NeutralFeedbackLeftCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NeutralFeedbackLeftCount'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NeutralFeedbackLeftCount',
         ],
-        'FeedbackLeftPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeedbackLeftPercent'           => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackLeftPercent',
         ],
-        'RepeatBuyerCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'RepeatBuyerCount'              => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RepeatBuyerCount',
         ],
-        'RepeatBuyerPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'RepeatBuyerPercent'            => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RepeatBuyerPercent',
         ],
-        'UniqueBuyerCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'UniqueBuyerCount'              => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UniqueBuyerCount',
         ],
-        'TransactionPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionPercent'            => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionPercent',
         ],
-        'CrossBorderTransactionCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CrossBorderTransactionCount'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CrossBorderTransactionCount',
         ],
         'CrossBorderTransactionPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CrossBorderTransactionPercent',
         ],
     ];

@@ -26,46 +26,46 @@ class Payment extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'amount' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'amount'             => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'paymentDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentDate'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentDate',
         ],
-        'paymentHolds' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\PaymentHold',
-            'repeatable' => true,
-            'attribute' => false,
+        'paymentHolds'       => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\PaymentHold',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'paymentHolds',
         ],
-        'paymentMethod' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentMethod'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentMethod',
         ],
-        'paymentMode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentMode'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentMode',
         ],
         'paymentReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentReferenceId',
         ],
-        'paymentStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentStatus'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentStatus',
         ],
     ];

@@ -21,9 +21,9 @@ class ReportMetadatas extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'reportMetadata' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\ReportMetadata',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\ReportMetadata',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'reportMetadata',
         ],
     ];

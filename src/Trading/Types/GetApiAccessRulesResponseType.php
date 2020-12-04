@@ -21,9 +21,9 @@ class GetApiAccessRulesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractR
      */
     private static $propertyTypes = [
         'ApiAccessRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ApiAccessRuleType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ApiAccessRuleType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ApiAccessRule',
         ],
     ];

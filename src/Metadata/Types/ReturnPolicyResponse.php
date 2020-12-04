@@ -22,15 +22,15 @@ class ReturnPolicyResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'returnPolicies' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\Sel:ReturnsPolicy',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Metadata\Types\Sel:ReturnsPolicy',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'returnPolicies',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'       => [
+            'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

@@ -22,22 +22,22 @@ class SetSellerProfileRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Ty
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'paymentProfile' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentProfile'        => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentProfile',
         ],
-        'returnPolicyProfile' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnPolicyProfile'   => [
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnPolicyProfile',
         ],
         'shippingPolicyProfile' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingPolicyProfile',
         ],
     ];

@@ -21,16 +21,16 @@ class BundleStatusMap extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'bundleID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'bundleID'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleID',
         ],
         'bundleStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bundleStatus',
         ],
     ];

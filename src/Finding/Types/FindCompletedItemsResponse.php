@@ -22,22 +22,22 @@ class FindCompletedItemsResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingS
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogramContainer',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryHistogramContainer'  => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\CategoryHistogramContainer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryHistogramContainer',
         ],
-        'aspectHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspectHistogramContainer'    => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspectHistogramContainer',
         ],
         'conditionHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ConditionHistogramContainer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Finding\Types\ConditionHistogramContainer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'conditionHistogramContainer',
         ],
     ];

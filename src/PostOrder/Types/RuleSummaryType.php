@@ -25,40 +25,40 @@ class RuleSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'count'             => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'count',
         ],
-        'countInTestMode' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'countInTestMode'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'countInTestMode',
         ],
-        'invalidAction' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+        'invalidAction'     => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'invalidAction',
         ],
         'invalidConditions' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'invalidConditions',
         ],
-        'lastModifiedDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'lastModifiedDate'  => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastModifiedDate',
         ],
-        'priority' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'priority'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priority',
         ],
     ];

@@ -21,9 +21,9 @@ class DailyRecurrence extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'timeOfDay' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'timeOfDay',
         ],
     ];

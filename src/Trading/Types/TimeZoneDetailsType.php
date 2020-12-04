@@ -27,52 +27,52 @@ class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TimeZoneID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TimeZoneID'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TimeZoneID',
         ],
-        'StandardLabel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StandardLabel'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StandardLabel',
         ],
-        'StandardOffset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StandardOffset'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StandardOffset',
         ],
-        'DaylightSavingsLabel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DaylightSavingsLabel'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DaylightSavingsLabel',
         ],
-        'DaylightSavingsOffset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DaylightSavingsOffset'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DaylightSavingsOffset',
         ],
         'DaylightSavingsInEffect' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DaylightSavingsInEffect',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'              => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

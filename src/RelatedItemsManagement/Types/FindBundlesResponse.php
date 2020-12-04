@@ -21,9 +21,9 @@ class FindBundlesResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\Base
      */
     private static $propertyTypes = [
         'bundle' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\Bundle',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\Bundle',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'bundle',
         ],
     ];

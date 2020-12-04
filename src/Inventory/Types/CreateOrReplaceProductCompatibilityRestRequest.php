@@ -21,9 +21,9 @@ class CreateOrReplaceProductCompatibilityRestRequest extends \DTS\eBaySDK\Invent
      */
     private static $propertyTypes = [
         'sku' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sku',
         ],
     ];

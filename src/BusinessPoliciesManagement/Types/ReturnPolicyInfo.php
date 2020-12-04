@@ -29,64 +29,64 @@ class ReturnPolicyInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'description'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'refundOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundOption'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundOption',
         ],
         'shippingCostPaidByOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCostPaidByOption',
         ],
-        'returnsWithinOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnsWithinOption'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnsWithinOption',
         ],
-        'returnsAcceptedOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnsAcceptedOption'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnsAcceptedOption',
         ],
-        'warrantyOfferedOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'warrantyOfferedOption'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'warrantyOfferedOption',
         ],
-        'warrantyTypeOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'warrantyTypeOption'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'warrantyTypeOption',
         ],
-        'warrantyDurationOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'warrantyDurationOption'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'warrantyDurationOption',
         ],
-        'restockingFeeValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'restockingFeeValue'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'restockingFeeValue',
         ],
-        'holidayReturns' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'holidayReturns'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'holidayReturns',
         ],
     ];

@@ -24,27 +24,27 @@ class Amount extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'convertedFromCurrency' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'convertedFromCurrency',
         ],
-        'convertedFromValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'convertedFromValue'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'convertedFromValue',
         ],
-        'currency' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'currency'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'currency',
         ],
-        'value' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'value'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

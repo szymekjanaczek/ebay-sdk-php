@@ -21,9 +21,9 @@ class GetUserResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTyp
      */
     private static $propertyTypes = [
         'User' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\UserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'User',
         ],
     ];

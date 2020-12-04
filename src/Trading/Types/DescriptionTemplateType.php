@@ -25,40 +25,40 @@ class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'GroupID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'GroupID'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GroupID',
         ],
-        'ID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ID'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ID',
         ],
-        'ImageURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ImageURL'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ImageURL',
         ],
-        'Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Name'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Name',
         ],
         'TemplateXML' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TemplateXML',
         ],
-        'Type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Type'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Type',
         ],
     ];

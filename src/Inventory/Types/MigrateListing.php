@@ -21,9 +21,9 @@ class MigrateListing extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'listingId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingId',
         ],
     ];

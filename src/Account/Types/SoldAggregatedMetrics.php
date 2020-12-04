@@ -25,33 +25,33 @@ class SoldAggregatedMetrics extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'maxSoldInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxSoldInventoryValue',
         ],
-        'maxSoldQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxSoldQuantity'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxSoldQuantity',
         ],
         'minSoldInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minSoldInventoryValue',
         ],
-        'minSoldQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'minSoldQuantity'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minSoldQuantity',
         ],
-        'period' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
-            'repeatable' => false,
-            'attribute' => false,
+        'period'                => [
+            'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'period',
         ],
     ];

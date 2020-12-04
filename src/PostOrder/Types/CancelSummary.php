@@ -35,100 +35,100 @@ class CancelSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'buyerResponseDueDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyerResponseDueDate'  => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerResponseDueDate',
         ],
-        'cancelCloseDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelCloseDate'       => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelCloseDate',
         ],
-        'cancelCloseReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelCloseReason'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelCloseReason',
         ],
-        'cancelId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelId'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelId',
         ],
-        'cancelReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelReason'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelReason',
         ],
-        'cancelRequestDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelRequestDate'     => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelRequestDate',
         ],
-        'legacyOrderId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'legacyOrderId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'legacyOrderId',
         ],
-        'lineItems' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem',
-            'repeatable' => true,
-            'attribute' => false,
+        'lineItems'             => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'lineItems',
         ],
-        'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'paymentStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentStatus'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentStatus',
         ],
-        'requestorType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'requestorType'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'requestorType',
         ],
-        'requestRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'requestRefundAmount'   => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'requestRefundAmount',
         ],
         'sellerResponseDueDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellerResponseDueDate',
         ],
-        'shipmentDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'shipmentDate'          => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipmentDate',
         ],
-        'cancelState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelState'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelState',
         ],
-        'cancelStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelStatus'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelStatus',
         ],
     ];

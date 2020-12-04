@@ -22,15 +22,15 @@ class PaginatedTransactionArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'TransactionArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionArray',
         ],
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
     ];

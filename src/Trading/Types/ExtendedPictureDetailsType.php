@@ -21,9 +21,9 @@ class ExtendedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'PictureURLs' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PictureURLsType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\PictureURLsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'PictureURLs',
         ],
     ];

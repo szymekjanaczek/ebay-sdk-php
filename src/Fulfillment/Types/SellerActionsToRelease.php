@@ -21,9 +21,9 @@ class SellerActionsToRelease extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'sellerActionToRelease' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellerActionToRelease',
         ],
     ];

@@ -24,34 +24,34 @@ class SellingManagerTemplateDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SaleTemplateID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SaleTemplateID'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
-        'SaleTemplateName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SaleTemplateName'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SaleTemplateName',
         ],
-        'SuccessPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'SuccessPercent'               => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SuccessPercent',
         ],
         'SellingManagerProductDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerProductDetails',
         ],
-        'Template' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Template'                     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Template',
         ],
     ];

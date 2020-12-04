@@ -22,22 +22,22 @@ class ConditionListDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'all' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
-            'repeatable' => true,
-            'attribute' => false,
+        'all'        => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'all',
         ],
         'isMultiple' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isMultiple',
         ],
-        'selected' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
-            'repeatable' => true,
-            'attribute' => false,
+        'selected'   => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'selected',
         ],
     ];

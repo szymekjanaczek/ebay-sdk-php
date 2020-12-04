@@ -24,34 +24,34 @@ class GetCategoryFeaturesRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'LevelLimit' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'LevelLimit'             => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LevelLimit',
         ],
-        'ViewAllNodes' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ViewAllNodes'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ViewAllNodes',
         ],
-        'FeatureID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'FeatureID'              => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'FeatureID',
         ],
         'AllFeaturesForCategory' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AllFeaturesForCategory',
         ],
     ];

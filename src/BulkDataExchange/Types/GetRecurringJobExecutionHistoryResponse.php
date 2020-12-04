@@ -21,9 +21,9 @@ class GetRecurringJobExecutionHistoryResponse extends \DTS\eBaySDK\BulkDataExcha
      */
     private static $propertyTypes = [
         'jobProfile' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\JobProfile',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\JobProfile',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'jobProfile',
         ],
     ];

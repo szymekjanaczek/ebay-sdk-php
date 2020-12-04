@@ -19,27 +19,27 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
      */
     protected static $operations = [
         'GetListingViolationsSummary' => [
-            'method' => 'GET',
-            'resource' => 'listing_violation_summary',
+            'method'        => 'GET',
+            'resource'      => 'listing_violation_summary',
             'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse',
-            'params' => [
+            'params'        => [
                 'compliance_type' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'GetListingViolations' => [
-            'method' => 'GET',
-            'resource' => 'listing_violation',
+        'GetListingViolations'        => [
+            'method'        => 'GET',
+            'resource'      => 'listing_violation',
             'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse',
-            'params' => [
-                'limit' => [
+            'params'        => [
+                'limit'           => [
                     'valid' => ['integer'],
                 ],
-                'listing_id' => [
+                'listing_id'      => [
                     'valid' => ['string'],
                 ],
-                'offset' => [
+                'offset'          => [
                     'valid' => ['integer'],
                 ],
                 'compliance_type' => [

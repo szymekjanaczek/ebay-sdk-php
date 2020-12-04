@@ -11,7 +11,7 @@ class AccountBaseService extends \DTS\eBaySDK\Services\BaseRestService
      * @var array $endPoints The API endpoints.
      */
     protected static $endPoints = [
-        'sandbox' => 'https://api.sandbox.ebay.com/sell/account',
+        'sandbox'    => 'https://api.sandbox.ebay.com/sell/account',
         'production' => 'https://api.ebay.com/sell/account',
     ];
 
@@ -43,19 +43,19 @@ class AccountBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Account\Services\AccountService::API_VERSION,
-                'required' => true,
-            ],
-            'authorization' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-            'marketplaceId' => [
-                'valid' => ['string'],
-            ],
-        ];
+                'apiVersion'    => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\Account\Services\AccountService::API_VERSION,
+                    'required' => true,
+                ],
+                'authorization' => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+                'marketplaceId' => [
+                    'valid' => ['string'],
+                ],
+            ];
     }
 
     /**

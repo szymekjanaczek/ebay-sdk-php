@@ -21,9 +21,9 @@ class ShippingServiceCostOverrideListType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ShippingServiceCostOverride' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceCostOverride',
         ],
     ];

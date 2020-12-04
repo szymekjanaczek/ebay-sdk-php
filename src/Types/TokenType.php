@@ -14,9 +14,9 @@ class TokenType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'value' => [
-            'type' => 'string',
+            'type'       => 'string',
             'repeatable' => false,
-            'attribute' => false,
+            'attribute'  => false,
         ],
     ];
 

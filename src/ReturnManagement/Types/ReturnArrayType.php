@@ -21,9 +21,9 @@ class ReturnArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ReturnSummary' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ReturnSummary',
         ],
     ];

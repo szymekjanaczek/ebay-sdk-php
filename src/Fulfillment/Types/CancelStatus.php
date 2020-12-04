@@ -22,22 +22,22 @@ class CancelStatus extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'cancelledDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelledDate'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelledDate',
         ],
         'cancelRequests' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\CancelRequest',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\CancelRequest',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'cancelRequests',
         ],
-        'cancelState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cancelState'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelState',
         ],
     ];

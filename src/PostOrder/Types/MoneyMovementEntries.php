@@ -21,9 +21,9 @@ class MoneyMovementEntries extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'moneyMovementEntryList' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementEntry',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementEntry',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'moneyMovementEntryList',
         ],
     ];

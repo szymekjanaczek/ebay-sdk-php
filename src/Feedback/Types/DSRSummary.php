@@ -27,52 +27,52 @@ class DSRSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DSRType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DSRType'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DSRType',
         ],
-        'DSRAverage' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'DSRAverage'       => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DSRAverage',
         ],
         'totalRatingCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'totalRatingCount',
         ],
-        'rating1Count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'rating1Count'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rating1Count',
         ],
-        'rating2Count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'rating2Count'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rating2Count',
         ],
-        'rating3Count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'rating3Count'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rating3Count',
         ],
-        'rating4Count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'rating4Count'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rating4Count',
         ],
-        'rating5Count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'rating5Count'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rating5Count',
         ],
     ];

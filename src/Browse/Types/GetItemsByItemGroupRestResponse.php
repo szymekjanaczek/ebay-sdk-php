@@ -27,16 +27,16 @@ class GetItemsByItemGroupRestResponse extends \DTS\eBaySDK\Browse\Types\Items
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'errors'   => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'errors',
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

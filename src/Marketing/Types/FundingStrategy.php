@@ -22,15 +22,15 @@ class FundingStrategy extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'bidPercentage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bidPercentage',
         ],
-        'fundingModel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fundingModel'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fundingModel',
         ],
     ];

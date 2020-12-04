@@ -26,46 +26,46 @@ class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Sort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Sort'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Sort',
         ],
-        'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderID'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'SortOrder' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SortOrder'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SortOrder',
         ],
-        'Search' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Search'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Search',
         ],
         'StoreCategoryID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreCategoryID',
         ],
-        'Filter' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'Filter'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Filter',
         ],
     ];

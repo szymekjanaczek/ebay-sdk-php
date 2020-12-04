@@ -22,15 +22,15 @@ class ListingStructurePolicyResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'listingStructurePolicies' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ListingStructurePolicy',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Metadata\Types\ListingStructurePolicy',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'listingStructurePolicies',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'                 => [
+            'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

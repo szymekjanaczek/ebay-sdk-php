@@ -26,39 +26,39 @@ class UnpaidItemAssistancePreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'DelayBeforeOpeningDispute' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DelayBeforeOpeningDispute',
         ],
-        'OptInStatus' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'OptInStatus'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OptInStatus',
         ],
-        'AutoRelist' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'AutoRelist'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AutoRelist',
         ],
-        'RemoveAllExcludedUsers' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'RemoveAllExcludedUsers'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RemoveAllExcludedUsers',
         ],
-        'ExcludedUser' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ExcludedUser'              => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ExcludedUser',
         ],
-        'AutoOptDonationRefund' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'AutoOptDonationRefund'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AutoOptDonationRefund',
         ],
     ];

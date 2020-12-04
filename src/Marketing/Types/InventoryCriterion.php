@@ -24,27 +24,27 @@ class InventoryCriterion extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'inventoryCriterionType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryCriterionType',
         ],
-        'inventoryItems' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
-            'repeatable' => true,
-            'attribute' => false,
+        'inventoryItems'         => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'inventoryItems',
         ],
-        'listingIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'listingIds'             => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'listingIds',
         ],
-        'ruleCriteria' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\RuleCriteria',
-            'repeatable' => false,
-            'attribute' => false,
+        'ruleCriteria'           => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\RuleCriteria',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleCriteria',
         ],
     ];

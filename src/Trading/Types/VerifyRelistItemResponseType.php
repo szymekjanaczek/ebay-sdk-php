@@ -26,46 +26,46 @@ class VerifyRelistItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Fees'                   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\FeesType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Fees',
         ],
-        'StartTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTime'              => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTime'                => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'DiscountReason' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'DiscountReason'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DiscountReason',
         ],
-        'ProductSuggestions' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductSuggestionsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProductSuggestions'     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ProductSuggestionsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductSuggestions',
         ],
         'ListingRecommendations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingRecommendations',
         ],
     ];

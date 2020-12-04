@@ -21,16 +21,16 @@ class EscalateInquiryRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'         => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
         'escalationReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'escalationReason',
         ],
     ];

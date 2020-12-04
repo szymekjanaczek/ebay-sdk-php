@@ -21,16 +21,16 @@ class SellerReverseDisputeRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DisputeID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DisputeID'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisputeID',
         ],
         'DisputeResolutionReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisputeResolutionReason',
         ],
     ];

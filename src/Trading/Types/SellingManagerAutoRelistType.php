@@ -26,46 +26,46 @@ class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Type'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Type',
         ],
-        'RelistCondition' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RelistCondition'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RelistCondition',
         ],
-        'RelistAfterDays' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'RelistAfterDays'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RelistAfterDays',
         ],
-        'RelistAfterHours' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'RelistAfterHours'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RelistAfterHours',
         ],
         'RelistAtSpecificTimeOfDay' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RelistAtSpecificTimeOfDay',
         ],
-        'BestOfferDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'BestOfferDetails'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\BestOfferDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOfferDetails',
         ],
         'ListingHoldInventoryLevel' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingHoldInventoryLevel',
         ],
     ];

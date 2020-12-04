@@ -21,16 +21,16 @@ class ProductSubmissionFilter extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'filterName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'filterName'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'filterName',
         ],
         'filterValue' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'filterValue',
         ],
     ];

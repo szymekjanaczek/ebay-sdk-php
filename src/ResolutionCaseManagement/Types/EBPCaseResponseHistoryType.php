@@ -25,40 +25,40 @@ class EBPCaseResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'note' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'note'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'note',
         ],
-        'author' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'author'         => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'author',
         ],
-        'activity' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'activity'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'activity',
         ],
         'activityDetail' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'activityDetail',
         ],
-        'creationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationDate'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'attributes' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ResponseHistoryAttributesType',
-            'repeatable' => false,
-            'attribute' => false,
+        'attributes'     => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ResponseHistoryAttributesType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'attributes',
         ],
     ];

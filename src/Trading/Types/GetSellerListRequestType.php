@@ -33,88 +33,88 @@ class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'UserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UserID'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UserID',
         ],
-        'MotorsDealerUsers' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserIDArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MotorsDealerUsers'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\UserIDArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MotorsDealerUsers',
         ],
-        'EndTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTimeFrom'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTimeFrom',
         ],
-        'EndTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTimeTo'           => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTimeTo',
         ],
-        'Sort' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Sort'                => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Sort',
         ],
-        'StartTimeFrom' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTimeFrom'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTimeFrom',
         ],
-        'StartTimeTo' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTimeTo'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTimeTo',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'GranularityLevel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'GranularityLevel'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GranularityLevel',
         ],
-        'SKUArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SKUArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SKUArray'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SKUArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SKUArray',
         ],
-        'IncludeWatchCount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeWatchCount'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeWatchCount',
         ],
         'AdminEndedItemsOnly' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AdminEndedItemsOnly',
         ],
-        'CategoryID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'IncludeVariations' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'IncludeVariations'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeVariations',
         ],
     ];

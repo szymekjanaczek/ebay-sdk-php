@@ -21,9 +21,9 @@ class ReviseInventoryStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
      */
     private static $propertyTypes = [
         'InventoryStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\InventoryStatusType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\InventoryStatusType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'InventoryStatus',
         ],
     ];

@@ -26,46 +26,46 @@ class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SaleTemplateID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'SaleTemplateID'               => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
-        'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Fees'                         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\FeesType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Fees',
         ],
-        'CategoryID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'Category2ID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Category2ID'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Category2ID',
         ],
-        'VerifyOnly' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'VerifyOnly'                   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VerifyOnly',
         ],
-        'SaleTemplateName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SaleTemplateName'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SaleTemplateName',
         ],
         'SellingManagerProductDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerProductDetails',
         ],
     ];

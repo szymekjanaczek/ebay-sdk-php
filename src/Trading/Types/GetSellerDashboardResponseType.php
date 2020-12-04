@@ -26,46 +26,46 @@ class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SearchStanding' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SearchStandingDashboardType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SearchStanding'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SearchStandingDashboardType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SearchStanding',
         ],
         'SellerFeeDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerFeeDiscount',
         ],
         'PowerSellerStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PowerSellerDashboardType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\PowerSellerDashboardType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PowerSellerStatus',
         ],
-        'PolicyCompliance' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PolicyCompliance'  => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PolicyCompliance',
         ],
         'BuyerSatisfaction' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BuyerSatisfaction',
         ],
-        'SellerAccount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerAccountDashboardType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerAccount'     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellerAccountDashboardType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerAccount',
         ],
-        'Performance' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PerformanceDashboardType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Performance'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PerformanceDashboardType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Performance',
         ],
     ];

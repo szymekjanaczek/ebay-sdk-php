@@ -29,64 +29,64 @@ class ItemPromotion extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'description'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'discountRules' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountRule',
-            'repeatable' => true,
-            'attribute' => false,
+        'discountRules'      => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\DiscountRule',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'discountRules',
         ],
-        'endDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'endDate'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'endDate',
         ],
         'inventoryCriterion' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryCriterion',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\InventoryCriterion',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryCriterion',
         ],
-        'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'priority' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'priority'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'priority',
         ],
-        'promotionImageUrl' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'promotionImageUrl'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionImageUrl',
         ],
-        'promotionStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'promotionStatus'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionStatus',
         ],
-        'startDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'startDate'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'startDate',
         ],
     ];

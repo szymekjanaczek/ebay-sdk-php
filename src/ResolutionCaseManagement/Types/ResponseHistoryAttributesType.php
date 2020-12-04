@@ -23,28 +23,28 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'appealRef' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef',
-            'repeatable' => false,
-            'attribute' => false,
+        'appealRef'          => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'appealRef',
         ],
-        'moneyMovementRef' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef',
-            'repeatable' => false,
-            'attribute' => false,
+        'moneyMovementRef'   => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'moneyMovementRef',
         ],
-        'onholdReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'onholdReason'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'onholdReason',
         ],
         'onholdReasonDetail' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'onholdReasonDetail',
         ],
     ];

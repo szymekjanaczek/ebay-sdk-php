@@ -28,58 +28,58 @@ class StoreCustomPageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Name'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'PageID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PageID'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PageID',
         ],
-        'URLPath' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'URLPath'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'URLPath',
         ],
-        'URL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'URL'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'URL',
         ],
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'Content' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Content'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Content',
         ],
-        'LeftNav' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'LeftNav'        => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LeftNav',
         ],
         'PreviewEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PreviewEnabled',
         ],
-        'Order' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Order'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Order',
         ],
     ];

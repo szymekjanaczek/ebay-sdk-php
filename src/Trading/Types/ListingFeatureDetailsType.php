@@ -29,64 +29,64 @@ class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BoldTitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BoldTitle'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BoldTitle',
         ],
-        'Border' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Border'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Border',
         ],
-        'Highlight' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Highlight'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Highlight',
         ],
-        'GiftIcon' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'GiftIcon'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GiftIcon',
         ],
         'HomePageFeatured' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HomePageFeatured',
         ],
-        'FeaturedFirst' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeaturedFirst'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeaturedFirst',
         ],
-        'FeaturedPlus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeaturedPlus'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeaturedPlus',
         ],
-        'ProPack' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProPack'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProPack',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'       => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

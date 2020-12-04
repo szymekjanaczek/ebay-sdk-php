@@ -21,9 +21,9 @@ class MediaIdentifier extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'url' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'url',
         ],
     ];

@@ -21,16 +21,16 @@ class ShippingInsuranceType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'InsuranceOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceOption'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceOption',
         ],
         'FlatRateInsuranceRangeCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'FlatRateInsuranceRangeCost',
         ],
     ];

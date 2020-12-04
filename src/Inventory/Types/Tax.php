@@ -22,22 +22,22 @@ class Tax extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'applyTax' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'applyTax'              => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'applyTax',
         ],
         'thirdPartyTaxCategory' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'thirdPartyTaxCategory',
         ],
-        'vatPercentage' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'vatPercentage'         => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'vatPercentage',
         ],
     ];

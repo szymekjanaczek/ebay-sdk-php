@@ -21,9 +21,9 @@ class FindSellerStandardsProfilesResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'standardsProfiles' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\StandardsProfile',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Analytics\Types\StandardsProfile',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'standardsProfiles',
         ],
     ];

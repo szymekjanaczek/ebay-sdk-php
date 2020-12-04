@@ -21,9 +21,9 @@ class SKUArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'SKU' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'SKU',
         ],
     ];

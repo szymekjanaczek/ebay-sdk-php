@@ -21,9 +21,9 @@ class Notes extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'noteDetails' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'noteDetails',
         ],
     ];

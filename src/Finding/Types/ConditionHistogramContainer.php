@@ -21,9 +21,9 @@ class ConditionHistogramContainer extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'conditionHistogram' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ConditionHistogram',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Finding\Types\ConditionHistogram',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'conditionHistogram',
         ],
     ];

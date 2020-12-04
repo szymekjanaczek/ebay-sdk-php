@@ -22,15 +22,15 @@ class DeliveryDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Recipient' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Recipient',
         ],
-        'Sender' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Sender'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Sender',
         ],
     ];

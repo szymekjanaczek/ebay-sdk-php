@@ -21,9 +21,9 @@ class DomainHistogramType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Domain' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\HistogramEntryType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Shopping\Types\HistogramEntryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Domain',
         ],
     ];

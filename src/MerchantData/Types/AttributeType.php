@@ -22,22 +22,22 @@ class AttributeType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Value' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ValType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Value'          => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ValType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Value',
         ],
-        'attributeID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => true,
+        'attributeID'    => [
+            'type'          => 'integer',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'attributeID',
         ],
         'attributeLabel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'attributeLabel',
         ],
     ];

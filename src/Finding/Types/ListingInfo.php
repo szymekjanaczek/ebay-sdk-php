@@ -27,52 +27,52 @@ class ListingInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'bestOfferEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'bestOfferEnabled'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'bestOfferEnabled',
         ],
-        'buyItNowAvailable' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyItNowAvailable'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyItNowAvailable',
         ],
-        'buyItNowPrice' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyItNowPrice'          => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyItNowPrice',
         ],
         'convertedBuyItNowPrice' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Finding\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'convertedBuyItNowPrice',
         ],
-        'startTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'startTime'              => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'startTime',
         ],
-        'endTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'endTime'                => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'endTime',
         ],
-        'listingType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingType'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingType',
         ],
-        'gift' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'gift'                   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'gift',
         ],
     ];

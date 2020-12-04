@@ -21,9 +21,9 @@ class EscalateResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseId',
         ],
     ];

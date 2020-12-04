@@ -32,75 +32,75 @@ class NotificationEventType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'NotificationEventName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NotificationEventName',
         ],
-        'RecipientUserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RecipientUserID'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecipientUserID',
         ],
-        'ExternalUserData' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExternalUserData'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExternalUserData',
         ],
-        'CaseId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CaseId'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CaseId',
         ],
-        'CaseType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CaseType'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CaseType',
         ],
-        'ItemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemId'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemId',
         ],
-        'TransactionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionId',
         ],
-        'CreationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'CreationDate'          => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CreationDate',
         ],
-        'OtherPartyId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OtherPartyId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OtherPartyId',
         ],
-        'OtherPartyRole' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OtherPartyRole'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OtherPartyRole',
         ],
-        'CaseStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CaseStatus'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CaseStatus',
         ],
-        'CaseGlobalId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CaseGlobalId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CaseGlobalId',
         ],
     ];

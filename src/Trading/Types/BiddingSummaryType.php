@@ -26,46 +26,46 @@ class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SummaryDays' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'SummaryDays'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SummaryDays',
         ],
-        'TotalBids' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'TotalBids'              => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalBids',
         ],
-        'BidActivityWithSeller' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'BidActivityWithSeller'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BidActivityWithSeller',
         ],
-        'BidsToUniqueSellers' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'BidsToUniqueSellers'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BidsToUniqueSellers',
         ],
         'BidsToUniqueCategories' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BidsToUniqueCategories',
         ],
-        'BidRetractions' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'BidRetractions'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BidRetractions',
         ],
-        'ItemBidDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemBidDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ItemBidDetails'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemBidDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ItemBidDetails',
         ],
     ];

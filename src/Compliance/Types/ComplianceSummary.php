@@ -21,9 +21,9 @@ class ComplianceSummary extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'violationSummaries' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\ComplianceSummaryInfo',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Compliance\Types\ComplianceSummaryInfo',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'violationSummaries',
         ],
     ];

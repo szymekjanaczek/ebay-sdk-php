@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -35,10 +36,11 @@ class AstRuntime
     public function __construct(
         Parser $parser = null,
         callable $fnDispatcher = null
-    ) {
-        $fnDispatcher = $fnDispatcher ?: FnDispatcher::getInstance();
+    )
+    {
+        $fnDispatcher      = $fnDispatcher ?: FnDispatcher::getInstance();
         $this->interpreter = new TreeInterpreter($fnDispatcher);
-        $this->parser = $parser ?: new Parser();
+        $this->parser      = $parser ?: new Parser();
     }
 
     /**
@@ -46,7 +48,7 @@ class AstRuntime
      * expression.
      *
      * @param string $expression JMESPath expression to evaluate
-     * @param mixed  $data       Data to search. This data should be data that
+     * @param mixed $data Data to search. This data should be data that
      *                           is similar to data returned from json_decode
      *                           using associative arrays rather than objects.
      *
@@ -57,7 +59,7 @@ class AstRuntime
         if (!isset($this->cache[$expression])) {
             // Clear the AST cache when it hits 1024 entries
             if (++$this->cachedCount > 1024) {
-                $this->cache = [];
+                $this->cache       = [];
                 $this->cachedCount = 0;
             }
             $this->cache[$expression] = $this->parser->parse($expression);

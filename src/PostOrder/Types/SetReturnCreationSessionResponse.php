@@ -21,9 +21,9 @@ class SetReturnCreationSessionResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'draftId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'draftId',
         ],
     ];

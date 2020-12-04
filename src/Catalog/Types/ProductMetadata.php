@@ -23,21 +23,21 @@ class ProductMetadata extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'aspects' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductMetadataAspect',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ProductMetadataAspect',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'brand' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
-            'repeatable' => false,
-            'attribute' => false,
+        'brand'   => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'mpn' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
-            'repeatable' => false,
-            'attribute' => false,
+        'mpn'     => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'mpn',
         ],
     ];

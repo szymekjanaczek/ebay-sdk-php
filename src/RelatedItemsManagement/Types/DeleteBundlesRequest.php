@@ -21,9 +21,9 @@ class DeleteBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\Bas
      */
     private static $propertyTypes = [
         'bundleID' => [
-            'type' => 'integer',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'bundleID',
         ],
     ];

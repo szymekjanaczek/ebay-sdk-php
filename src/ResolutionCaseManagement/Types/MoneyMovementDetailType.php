@@ -29,64 +29,64 @@ class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'type'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'type',
         ],
-        'fromParty' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'fromParty'           => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fromParty',
         ],
-        'toParty' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'toParty'             => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'toParty',
         ],
-        'amount' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'amount'              => [
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'paymentMethod' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentMethod'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentMethod',
         ],
         'paypalTransactionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paypalTransactionId',
         ],
-        'status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'status'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'status',
         ],
-        'transactionDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'transactionDate'     => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionDate',
         ],
-        'id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+        'id'                  => [
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'id',
         ],
-        'parentId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+        'parentId'            => [
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'parentId',
         ],
     ];

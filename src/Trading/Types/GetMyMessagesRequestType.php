@@ -26,46 +26,46 @@ class GetMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MessageIDs' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MessageIDs'                     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MessageIDs',
         ],
-        'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderID'                       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
-        'StartTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTime'                      => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTime'                        => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'ExternalMessageIDs' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExternalMessageIDs'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExternalMessageIDs',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'                     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
         'IncludeHighPriorityMessageOnly' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IncludeHighPriorityMessageOnly',
         ],
     ];

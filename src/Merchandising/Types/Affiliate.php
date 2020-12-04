@@ -23,21 +23,21 @@ class Affiliate extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'trackingId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trackingId',
         ],
-        'networkId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'networkId'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'networkId',
         ],
-        'customId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'customId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'customId',
         ],
     ];

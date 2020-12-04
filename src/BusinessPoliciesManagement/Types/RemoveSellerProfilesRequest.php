@@ -21,9 +21,9 @@ class RemoveSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagemen
      */
     private static $propertyTypes = [
         'profileIds' => [
-            'type' => 'integer',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'profileIds',
         ],
     ];

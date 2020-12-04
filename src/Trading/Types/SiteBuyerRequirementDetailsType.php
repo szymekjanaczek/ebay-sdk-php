@@ -28,58 +28,58 @@ class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'LinkedPayPalAccount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'LinkedPayPalAccount'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LinkedPayPalAccount',
         ],
         'MaximumBuyerPolicyViolations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaximumBuyerPolicyViolations',
         ],
-        'MaximumItemRequirements' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaximumItemRequirements'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaximumItemRequirements',
         ],
         'MaximumUnpaidItemStrikesInfo' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaximumUnpaidItemStrikesInfo',
         ],
-        'MinimumFeedbackScore' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MinimumFeedbackScore'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MinimumFeedbackScore',
         ],
-        'ShipToRegistrationCountry' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShipToRegistrationCountry'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShipToRegistrationCountry',
         ],
-        'VerifiedUserRequirements' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'VerifiedUserRequirements'     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VerifiedUserRequirements',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'                   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

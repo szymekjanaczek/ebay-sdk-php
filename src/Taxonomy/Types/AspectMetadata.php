@@ -21,9 +21,9 @@ class AspectMetadata extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'aspects' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\Aspect',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Taxonomy\Types\Aspect',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspects',
         ],
     ];

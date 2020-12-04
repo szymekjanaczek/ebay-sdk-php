@@ -22,22 +22,22 @@ class BaseFindingServiceResponse extends \DTS\eBaySDK\Finding\Types\BaseServiceR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'searchResult' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\SearchResult',
-            'repeatable' => false,
-            'attribute' => false,
+        'searchResult'     => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\SearchResult',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'searchResult',
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\PaginationOutput',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Finding\Types\PaginationOutput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
-        'itemSearchURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemSearchURL'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemSearchURL',
         ],
     ];

@@ -21,9 +21,9 @@ class SuggestedBidValueType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'BidValue' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'BidValue',
         ],
     ];

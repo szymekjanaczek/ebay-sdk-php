@@ -26,46 +26,46 @@ class Product extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productIdentifier' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
-            'repeatable' => false,
-            'attribute' => false,
+        'productIdentifier'  => [
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productIdentifier',
         ],
-        'stockPhotoURL' => [
-            'type' => 'DTS\eBaySDK\Product\Types\StockPhotoURL',
-            'repeatable' => false,
-            'attribute' => false,
+        'stockPhotoURL'      => [
+            'type'        => 'DTS\eBaySDK\Product\Types\StockPhotoURL',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'stockPhotoURL',
         ],
-        'productDetails' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
-            'repeatable' => true,
-            'attribute' => false,
+        'productDetails'     => [
+            'type'        => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'productDetails',
         ],
-        'productStatus' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
-            'repeatable' => false,
-            'attribute' => false,
+        'productStatus'      => [
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductStatus',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productStatus',
         ],
         'compatibilityCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'compatibilityCount',
         ],
-        'type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'type'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'type',
         ],
-        'notes' => [
-            'type' => 'DTS\eBaySDK\Product\Types\Notes',
-            'repeatable' => false,
-            'attribute' => false,
+        'notes'              => [
+            'type'        => 'DTS\eBaySDK\Product\Types\Notes',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'notes',
         ],
     ];

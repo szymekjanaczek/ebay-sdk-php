@@ -35,100 +35,100 @@ class SendInvoiceRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestT
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'TransactionID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionID'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'OrderID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderID'                             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderID',
         ],
         'InternationalShippingServiceOptions' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\InternationalShippingServiceOptionsType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\InternationalShippingServiceOptionsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'InternationalShippingServiceOptions',
         ],
-        'ShippingServiceOptions' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ShippingServiceOptions'              => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceOptions',
         ],
-        'SalesTax' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SalesTaxType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SalesTax'                            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SalesTaxType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SalesTax',
         ],
-        'InsuranceOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceOption'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceOption',
         ],
-        'InsuranceFee' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceFee'                        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceFee',
         ],
-        'PaymentMethods' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'PaymentMethods'                      => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'PaymentMethods',
         ],
-        'PayPalEmailAddress' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PayPalEmailAddress'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PayPalEmailAddress',
         ],
-        'CheckoutInstructions' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CheckoutInstructions'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CheckoutInstructions',
         ],
-        'EmailCopyToSeller' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'EmailCopyToSeller'                   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EmailCopyToSeller',
         ],
-        'CODCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CODCost'                             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CODCost',
         ],
-        'SKU' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SKU'                                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'OrderLineItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OrderLineItemID'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
-        'AdjustmentAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'AdjustmentAmount'                    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AdjustmentAmount',
         ],
     ];

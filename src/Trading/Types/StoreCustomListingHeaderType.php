@@ -25,40 +25,40 @@ class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DisplayType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DisplayType'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DisplayType',
         ],
-        'Logo' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Logo'                     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Logo',
         ],
-        'SearchBox' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SearchBox'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SearchBox',
         ],
-        'LinkToInclude' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType',
-            'repeatable' => true,
-            'attribute' => false,
+        'LinkToInclude'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'LinkToInclude',
         ],
-        'AddToFavoriteStores' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'AddToFavoriteStores'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AddToFavoriteStores',
         ],
         'SignUpForStoreNewsletter' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SignUpForStoreNewsletter',
         ],
     ];

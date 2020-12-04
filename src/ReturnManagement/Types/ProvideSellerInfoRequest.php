@@ -22,22 +22,22 @@ class ProvideSellerInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnId'                       => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
         'returnMerchandiseAuthorization' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnMerchandiseAuthorization',
         ],
-        'returnAddress' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Address',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnAddress'                  => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\Address',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnAddress',
         ],
     ];

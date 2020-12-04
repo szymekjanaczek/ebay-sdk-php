@@ -21,9 +21,9 @@ class SaveItemToSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\
      */
     private static $propertyTypes = [
         'TemplateID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TemplateID',
         ],
     ];

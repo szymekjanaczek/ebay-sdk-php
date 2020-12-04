@@ -25,33 +25,33 @@ class ProcessResolution extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'conflictingProducts' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ConflictingProduct',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ConflictingProduct',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'conflictingProducts',
         ],
-        'corrections' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\Correction',
-            'repeatable' => true,
-            'attribute' => false,
+        'corrections'         => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\Correction',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'corrections',
         ],
-        'epid' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'epid'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'productHref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'productHref'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productHref',
         ],
-        'violations' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\Violation',
-            'repeatable' => true,
-            'attribute' => false,
+        'violations'          => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\Violation',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'violations',
         ],
     ];

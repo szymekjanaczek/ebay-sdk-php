@@ -21,9 +21,9 @@ class ShippingPolicyProfileList extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ShippingPolicyProfile' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ShippingPolicyProfile',
         ],
     ];

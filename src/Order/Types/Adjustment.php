@@ -22,15 +22,15 @@ class Adjustment extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'label' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'label'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'label',
         ],
     ];

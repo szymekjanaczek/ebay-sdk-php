@@ -21,9 +21,9 @@ class CloseCaseRestRequest extends \DTS\eBaySDK\PostOrder\Types\BuyerCloseCaseRe
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseId',
         ],
     ];

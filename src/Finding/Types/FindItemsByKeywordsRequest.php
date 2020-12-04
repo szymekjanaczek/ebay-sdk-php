@@ -23,28 +23,28 @@ class FindItemsByKeywordsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingS
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'keywords' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'keywords'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'keywords',
         ],
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemFilter'     => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\ItemFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'aspectFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'aspectFilter'   => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\AspectFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectFilter',
         ],
         'outputSelector' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'outputSelector',
         ],
     ];

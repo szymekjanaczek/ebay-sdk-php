@@ -22,15 +22,15 @@ class SellingPrivileges extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'sellerRegistrationCompleted' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellerRegistrationCompleted',
         ],
-        'sellingLimit' => [
-            'type' => 'DTS\eBaySDK\Account\Types\SellingLimit',
-            'repeatable' => false,
-            'attribute' => false,
+        'sellingLimit'                => [
+            'type'        => 'DTS\eBaySDK\Account\Types\SellingLimit',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellingLimit',
         ],
     ];

@@ -21,16 +21,16 @@ class GetPoliciesForAutoPartsCompatibilityRestRequest extends \DTS\eBaySDK\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'filter' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'filter'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'filter',
         ],
         'marketplace_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplace_id',
         ],
     ];

@@ -22,22 +22,22 @@ class DiscountRule extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'discountBenefit' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountBenefit',
-            'repeatable' => false,
-            'attribute' => false,
+        'discountBenefit'       => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\DiscountBenefit',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'discountBenefit',
         ],
         'discountSpecification' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountSpecification',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\DiscountSpecification',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'discountSpecification',
         ],
-        'ruleOrder' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ruleOrder'             => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleOrder',
         ],
     ];

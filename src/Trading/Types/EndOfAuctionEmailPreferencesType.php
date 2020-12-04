@@ -25,40 +25,40 @@ class EndOfAuctionEmailPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TemplateText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TemplateText'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TemplateText',
         ],
-        'LogoURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'LogoURL'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LogoURL',
         ],
-        'LogoType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'LogoType'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LogoType',
         ],
         'EmailCustomized' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EmailCustomized',
         ],
-        'TextCustomized' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'TextCustomized'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TextCustomized',
         ],
-        'LogoCustomized' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'LogoCustomized'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LogoCustomized',
         ],
     ];

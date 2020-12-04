@@ -22,15 +22,15 @@ class ReturnAddressType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'address' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Address',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Address',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'address',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
     ];

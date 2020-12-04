@@ -23,28 +23,28 @@ class Promotion extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'discount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'discount'      => [
+            'type'        => 'DTS\eBaySDK\Order\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'discount',
         ],
-        'message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'message'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'message',
         ],
         'promotionCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionCode',
         ],
         'promotionType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotionType',
         ],
     ];

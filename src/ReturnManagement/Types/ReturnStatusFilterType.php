@@ -21,9 +21,9 @@ class ReturnStatusFilterType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ReturnStatus' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ReturnStatus',
         ],
     ];

@@ -29,64 +29,64 @@ class SearchInquiriesRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'fieldgroups' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fieldgroups'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fieldgroups',
         ],
         'inquiry_creation_date_range_from' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiry_creation_date_range_from',
         ],
-        'inquiry_creation_date_range_to' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'inquiry_creation_date_range_to'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiry_creation_date_range_to',
         ],
-        'inquiry_status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'inquiry_status'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiry_status',
         ],
-        'item_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'item_id'                          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'item_id',
         ],
-        'limit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'limit'                            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offset'                           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'order_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'order_id'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'order_id',
         ],
-        'sort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'sort'                             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sort',
         ],
-        'transaction_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'transaction_id'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transaction_id',
         ],
     ];

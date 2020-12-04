@@ -21,16 +21,16 @@ class DeleteAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'inventoryReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'inventoryReferenceId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceType',
         ],
     ];

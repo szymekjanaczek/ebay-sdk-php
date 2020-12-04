@@ -21,9 +21,9 @@ class LeaveFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      */
     private static $propertyTypes = [
         'FeedbackID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackID',
         ],
     ];

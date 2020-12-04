@@ -21,16 +21,16 @@ class RemoveFromWatchListResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'WatchListCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'WatchListCount'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WatchListCount',
         ],
         'WatchListMaximum' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WatchListMaximum',
         ],
     ];

@@ -21,16 +21,16 @@ class PaymentInstrument extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'brand' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
-            'repeatable' => false,
-            'attribute' => false,
+        'brand'             => [
+            'type'        => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'brand',
         ],
         'paymentMethodType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentMethodType',
         ],
     ];

@@ -23,21 +23,21 @@ class StoreLogoType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'LogoID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LogoID',
         ],
-        'Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Name'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'URL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'URL'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'URL',
         ],
     ];

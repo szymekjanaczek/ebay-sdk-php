@@ -22,15 +22,15 @@ class FileAttachment extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Size' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Size',
         ],
         'Data' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\Data',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\FileTransfer\Types\Data',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Data',
         ],
     ];

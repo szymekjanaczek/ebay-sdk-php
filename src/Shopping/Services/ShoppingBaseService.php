@@ -65,24 +65,24 @@ class ShoppingBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'affiliateUserId' => [
-                'valid' => ['string'],
-            ],
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Shopping\Services\ShoppingService::API_VERSION,
-                'required' => true,
-            ],
-            'siteId' => [
-                'valid' => ['int', 'string'],
-            ],
-            'trackingId' => [
-                'valid' => ['string'],
-            ],
-            'trackingPartnerCode' => [
-                'valid' => ['string'],
-            ],
-        ];
+                'affiliateUserId'     => [
+                    'valid' => ['string'],
+                ],
+                'apiVersion'          => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\Shopping\Services\ShoppingService::API_VERSION,
+                    'required' => true,
+                ],
+                'siteId'              => [
+                    'valid' => ['int', 'string'],
+                ],
+                'trackingId'          => [
+                    'valid' => ['string'],
+                ],
+                'trackingPartnerCode' => [
+                    'valid' => ['string'],
+                ],
+            ];
     }
 
     /**
@@ -97,8 +97,8 @@ class ShoppingBaseService extends \DTS\eBaySDK\Services\BaseService
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_API_VERSION] = $this->getConfig('apiVersion');
-        $headers[self::HDR_APP_ID] = $this->getConfig('credentials')->getAppId();
+        $headers[self::HDR_API_VERSION]    = $this->getConfig('apiVersion');
+        $headers[self::HDR_APP_ID]         = $this->getConfig('credentials')->getAppId();
         $headers[self::HDR_OPERATION_NAME] = $operationName;
         $headers[self::HDR_REQUEST_FORMAT] = 'XML';
 

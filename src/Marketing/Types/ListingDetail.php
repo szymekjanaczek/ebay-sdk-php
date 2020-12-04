@@ -30,70 +30,70 @@ class ListingDetail extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'currentPrice' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'currentPrice'           => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'currentPrice',
         ],
-        'freeShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'freeShipping'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'freeShipping',
         ],
-        'inventoryReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'inventoryReferenceId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceType',
         ],
-        'listingCategoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingCategoryId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingCategoryId',
         ],
-        'listingCondition' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingCondition'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingCondition',
         ],
-        'listingConditionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingConditionId'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingConditionId',
         ],
-        'listingId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listingId'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listingId',
         ],
-        'quantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'quantity'               => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'quantity',
         ],
-        'storeCategoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'storeCategoryId'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'storeCategoryId',
         ],
-        'title' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'title'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'title',
         ],
     ];

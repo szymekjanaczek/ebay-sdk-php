@@ -32,82 +32,82 @@ class Error extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errorId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'errorId'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorId',
         ],
-        'domain' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'domain'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'domain',
         ],
-        'subdomain' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'subdomain'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'subdomain',
         ],
-        'severity' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'severity'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'severity',
         ],
-        'category' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'category'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'category',
         ],
-        'message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'message'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'message',
         ],
-        'parameter' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorParameter',
-            'repeatable' => true,
-            'attribute' => false,
+        'parameter'      => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ErrorParameter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'parameter',
         ],
-        'longMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'longMessage'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'longMessage',
         ],
         'httpStatusCode' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'httpStatusCode',
         ],
-        'errorName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'errorName'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorName',
         ],
-        'resolution' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'resolution'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'resolution',
         ],
-        'organization' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'organization'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'organization',
         ],
-        'errorGroups' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'errorGroups'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorGroups',
         ],
     ];

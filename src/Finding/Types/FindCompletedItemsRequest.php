@@ -25,40 +25,40 @@ class FindCompletedItemsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'keywords' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'keywords'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'keywords',
         ],
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryId'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemFilter'     => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\ItemFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'aspectFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'aspectFilter'   => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\AspectFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectFilter',
         ],
         'outputSelector' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'outputSelector',
         ],
-        'productId' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ProductId',
-            'repeatable' => false,
-            'attribute' => false,
+        'productId'      => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\ProductId',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productId',
         ],
     ];

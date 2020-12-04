@@ -23,21 +23,21 @@ class UpdateCampaignIdentificationRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'campaignName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'campaignName',
         ],
-        'endDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'endDate'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'endDate',
         ],
-        'startDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'startDate'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'startDate',
         ],
     ];

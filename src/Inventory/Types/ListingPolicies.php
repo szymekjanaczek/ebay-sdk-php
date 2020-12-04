@@ -23,28 +23,28 @@ class ListingPolicies extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'fulfillmentPolicyId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fulfillmentPolicyId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fulfillmentPolicyId',
         ],
-        'paymentPolicyId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentPolicyId'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentPolicyId',
         ],
-        'returnPolicyId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnPolicyId'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnPolicyId',
         ],
         'shippingCostOverrides' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ShippingCostOverride',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Inventory\Types\ShippingCostOverride',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'shippingCostOverrides',
         ],
     ];

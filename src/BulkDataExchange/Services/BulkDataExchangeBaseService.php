@@ -40,15 +40,15 @@ class BulkDataExchangeBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService::API_VERSION,
-            ],
-            'authToken' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-        ];
+                'apiVersion' => [
+                    'valid'   => ['string'],
+                    'default' => \DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService::API_VERSION,
+                ],
+                'authToken'  => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+            ];
     }
 
     /**
@@ -63,7 +63,7 @@ class BulkDataExchangeBaseService extends \DTS\eBaySDK\Services\BaseService
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_AUTH_TOKEN] = $this->getConfig('authToken');
+        $headers[self::HDR_AUTH_TOKEN]     = $this->getConfig('authToken');
         $headers[self::HDR_OPERATION_NAME] = $operationName;
 
         // Add optional headers.

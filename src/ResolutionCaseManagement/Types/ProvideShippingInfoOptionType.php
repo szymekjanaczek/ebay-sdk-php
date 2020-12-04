@@ -22,15 +22,15 @@ class ProvideShippingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagemen
      */
     private static $propertyTypes = [
         'shippedDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippedDate',
         ],
         'carrierUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
     ];

@@ -23,21 +23,21 @@ class Properties extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'metadataVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'metadataVersion',
         ],
-        'propertyName' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Property',
-            'repeatable' => true,
-            'attribute' => false,
+        'propertyName'    => [
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\Property',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'propertyName',
         ],
-        'dataset' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataset'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataset',
         ],
     ];

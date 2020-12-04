@@ -23,28 +23,28 @@ class CreateReturnResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'detail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\GetDetailResponse',
-            'repeatable' => false,
-            'attribute' => false,
+        'detail'            => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\GetDetailResponse',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'detail',
         ],
         'eligibilityResult' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eligibilityResult',
         ],
-        'returnId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnId',
         ],
-        'summary' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'summary'           => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'summary',
         ],
     ];

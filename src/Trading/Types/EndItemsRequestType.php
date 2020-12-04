@@ -21,9 +21,9 @@ class EndItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
      */
     private static $propertyTypes = [
         'EndItemRequestContainer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EndItemRequestContainerType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\EndItemRequestContainerType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'EndItemRequestContainer',
         ],
     ];

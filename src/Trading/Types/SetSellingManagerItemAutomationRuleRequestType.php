@@ -22,22 +22,22 @@ class SetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Tradin
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'AutomatedRelistingRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
-            'repeatable' => false,
-            'attribute' => false,
+        'AutomatedRelistingRule'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AutomatedRelistingRule',
         ],
         'AutomatedSecondChanceOfferRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AutomatedSecondChanceOfferRule',
         ],
     ];

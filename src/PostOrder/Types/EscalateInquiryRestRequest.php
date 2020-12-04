@@ -21,9 +21,9 @@ class EscalateInquiryRestRequest extends \DTS\eBaySDK\PostOrder\Types\EscalateIn
      */
     private static $propertyTypes = [
         'inquiryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inquiryId',
         ],
     ];

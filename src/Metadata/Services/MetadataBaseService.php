@@ -11,7 +11,7 @@ class MetadataBaseService extends \DTS\eBaySDK\Services\BaseRestService
      * @var array $endPoints The API endpoints.
      */
     protected static $endPoints = [
-        'sandbox' => 'https://api.sandbox.ebay.com/sell/metadata',
+        'sandbox'    => 'https://api.sandbox.ebay.com/sell/metadata',
         'production' => 'https://api.ebay.com/sell/metadata',
     ];
 
@@ -43,19 +43,19 @@ class MetadataBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Metadata\Services\MetadataService::API_VERSION,
-                'required' => true,
-            ],
-            'authorization' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-            'marketplaceId' => [
-                'valid' => ['string'],
-            ],
-        ];
+                'apiVersion'    => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\Metadata\Services\MetadataService::API_VERSION,
+                    'required' => true,
+                ],
+                'authorization' => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+                'marketplaceId' => [
+                    'valid' => ['string'],
+                ],
+            ];
     }
 
     /**

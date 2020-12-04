@@ -24,34 +24,34 @@ class NotificationStatisticsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DeliveredCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeliveredCount'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeliveredCount',
         ],
-        'QueuedNewCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'QueuedNewCount'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QueuedNewCount',
         ],
         'QueuedPendingCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QueuedPendingCount',
         ],
-        'ExpiredCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExpiredCount'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExpiredCount',
         ],
-        'ErrorCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ErrorCount'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ErrorCount',
         ],
     ];

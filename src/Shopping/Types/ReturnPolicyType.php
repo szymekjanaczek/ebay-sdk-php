@@ -30,70 +30,70 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Refund' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Refund'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Refund',
         ],
-        'ReturnsWithin' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnsWithin'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnsWithin',
         ],
-        'ReturnsAccepted' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnsAccepted'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnsAccepted',
         ],
-        'Description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Description'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'WarrantyOffered' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyOffered'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyOffered',
         ],
-        'WarrantyType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyType'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyType',
         ],
-        'WarrantyDuration' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'WarrantyDuration'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WarrantyDuration',
         ],
-        'EAN' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EAN'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EAN',
         ],
-        'ShippingCostPaidBy' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingCostPaidBy'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingCostPaidBy',
         ],
-        'RestockingFeeValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RestockingFeeValue'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RestockingFeeValue',
         ],
         'RestockingFeeValueOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RestockingFeeValueOption',
         ],
     ];

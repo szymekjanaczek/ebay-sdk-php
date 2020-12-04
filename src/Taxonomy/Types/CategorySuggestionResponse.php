@@ -23,21 +23,21 @@ class CategorySuggestionResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'categorySuggestions' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\CategorySuggestion',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Taxonomy\Types\CategorySuggestion',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categorySuggestions',
         ],
-        'categoryTreeId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeId'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
         'categoryTreeVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeVersion',
         ],
     ];

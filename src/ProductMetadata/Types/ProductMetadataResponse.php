@@ -21,16 +21,16 @@ class ProductMetadataResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productMetadata' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadata',
-            'repeatable' => false,
-            'attribute' => false,
+        'productMetadata'    => [
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadata',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productMetadata',
         ],
         'requestInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'requestInformation',
         ],
     ];

@@ -31,76 +31,76 @@ class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Refund' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RefundDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Refund'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\RefundDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Refund',
         ],
-        'ReturnsWithin' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ReturnsWithin'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ReturnsWithin',
         ],
-        'ReturnsAccepted' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ReturnsAccepted'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ReturnsAccepted',
         ],
-        'Description' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Description'        => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'WarrantyOffered' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'WarrantyOffered'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'WarrantyOffered',
         ],
-        'WarrantyType' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'WarrantyType'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'WarrantyType',
         ],
-        'WarrantyDuration' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'WarrantyDuration'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'WarrantyDuration',
         ],
-        'EAN' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'EAN'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EAN',
         ],
         'ShippingCostPaidBy' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ShippingCostPaidBy',
         ],
         'RestockingFeeValue' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'RestockingFeeValue',
         ],
-        'DetailVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DetailVersion'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
     ];

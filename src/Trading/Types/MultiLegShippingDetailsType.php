@@ -21,9 +21,9 @@ class MultiLegShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'SellerShipmentToLogisticsProvider' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MultiLegShipmentType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\MultiLegShipmentType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerShipmentToLogisticsProvider',
         ],
     ];

@@ -22,22 +22,22 @@ class GetSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\T
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderID'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
-        'MaxDepth' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxDepth'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxDepth',
         ],
         'FullRecursion' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FullRecursion',
         ],
     ];

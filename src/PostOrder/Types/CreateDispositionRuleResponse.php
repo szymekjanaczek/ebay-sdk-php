@@ -21,9 +21,9 @@ class CreateDispositionRuleResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ruleId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleId',
         ],
     ];

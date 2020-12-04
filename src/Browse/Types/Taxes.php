@@ -24,34 +24,34 @@ class Taxes extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'includedInPrice' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'includedInPrice'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'includedInPrice',
         ],
         'shippingAndHandlingTaxed' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingAndHandlingTaxed',
         ],
-        'taxJurisdiction' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\TaxJurisdiction',
-            'repeatable' => false,
-            'attribute' => false,
+        'taxJurisdiction'          => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\TaxJurisdiction',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'taxJurisdiction',
         ],
-        'taxPercentage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'taxPercentage'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'taxPercentage',
         ],
-        'taxType' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\TaxType',
-            'repeatable' => false,
-            'attribute' => false,
+        'taxType'                  => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\TaxType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'taxType',
         ],
     ];

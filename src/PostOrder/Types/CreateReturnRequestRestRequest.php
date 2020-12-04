@@ -21,9 +21,9 @@ class CreateReturnRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\Create
      */
     private static $propertyTypes = [
         'fieldgroups' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fieldgroups',
         ],
     ];

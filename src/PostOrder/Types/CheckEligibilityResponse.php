@@ -21,9 +21,9 @@ class CheckEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'eligibilityResultPerItem' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eligibilityResultPerItem',
         ],
     ];

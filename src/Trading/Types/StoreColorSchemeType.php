@@ -24,27 +24,27 @@ class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ColorSchemeID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ColorSchemeID',
         ],
-        'Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Name'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'Color' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreColorType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Color'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreColorType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Color',
         ],
-        'Font' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreFontType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Font'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\StoreFontType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Font',
         ],
     ];

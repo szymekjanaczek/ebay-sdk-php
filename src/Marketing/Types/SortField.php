@@ -22,15 +22,15 @@ class SortField extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ascending' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ascending',
         ],
-        'field' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'field'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'field',
         ],
     ];

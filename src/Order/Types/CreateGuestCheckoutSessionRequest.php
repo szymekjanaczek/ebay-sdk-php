@@ -25,40 +25,40 @@ class CreateGuestCheckoutSessionRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'contactEmail' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'contactEmail'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'contactEmail',
         ],
         'contactFirstName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'contactFirstName',
         ],
-        'contactLastName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'contactLastName'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'contactLastName',
         ],
-        'creditCard' => [
-            'type' => 'DTS\eBaySDK\Order\Types\CreditCard',
-            'repeatable' => false,
-            'attribute' => false,
+        'creditCard'       => [
+            'type'        => 'DTS\eBaySDK\Order\Types\CreditCard',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creditCard',
         ],
-        'lineItemInputs' => [
-            'type' => 'DTS\eBaySDK\Order\Types\LineItemInput',
-            'repeatable' => true,
-            'attribute' => false,
+        'lineItemInputs'   => [
+            'type'        => 'DTS\eBaySDK\Order\Types\LineItemInput',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'lineItemInputs',
         ],
-        'shippingAddress' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingAddress'  => [
+            'type'        => 'DTS\eBaySDK\Order\Types\ShippingAddress',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingAddress',
         ],
     ];

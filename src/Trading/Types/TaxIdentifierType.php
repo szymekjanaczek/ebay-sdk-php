@@ -22,22 +22,22 @@ class TaxIdentifierType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Type'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Type',
         ],
-        'ID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ID'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ID',
         ],
         'Attribute' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TaxIdentifierAttributeType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\TaxIdentifierAttributeType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Attribute',
         ],
     ];

@@ -21,9 +21,9 @@ class FindProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
      */
     private static $propertyTypes = [
         'productSearch' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductRequest',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductRequest',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'productSearch',
         ],
     ];

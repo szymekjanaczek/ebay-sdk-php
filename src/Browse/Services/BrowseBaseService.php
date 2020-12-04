@@ -11,7 +11,7 @@ class BrowseBaseService extends \DTS\eBaySDK\Services\BaseRestService
      * @var array $endPoints The API endpoints.
      */
     protected static $endPoints = [
-        'sandbox' => 'https://api.sandbox.ebay.com/buy/browse',
+        'sandbox'    => 'https://api.sandbox.ebay.com/buy/browse',
         'production' => 'https://api.ebay.com/buy/browse',
     ];
 
@@ -48,28 +48,28 @@ class BrowseBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'affiliateCampaignId' => [
-                'valid' => ['string'],
-            ],
-            'affiliateReferenceId' => [
-                'valid' => ['string'],
-            ],
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Browse\Services\BrowseService::API_VERSION,
-                'required' => true,
-            ],
-            'authorization' => [
-                'valid' => ['string'],
-                'required' => true,
-            ],
-            'contextualLocation' => [
-                'valid' => ['string'],
-            ],
-            'marketplaceId' => [
-                'valid' => ['string'],
-            ],
-        ];
+                'affiliateCampaignId'  => [
+                    'valid' => ['string'],
+                ],
+                'affiliateReferenceId' => [
+                    'valid' => ['string'],
+                ],
+                'apiVersion'           => [
+                    'valid'    => ['string'],
+                    'default'  => \DTS\eBaySDK\Browse\Services\BrowseService::API_VERSION,
+                    'required' => true,
+                ],
+                'authorization'        => [
+                    'valid'    => ['string'],
+                    'required' => true,
+                ],
+                'contextualLocation'   => [
+                    'valid' => ['string'],
+                ],
+                'marketplaceId'        => [
+                    'valid' => ['string'],
+                ],
+            ];
     }
 
     /**
@@ -91,16 +91,16 @@ class BrowseBaseService extends \DTS\eBaySDK\Services\BaseRestService
 
         $endUserCTX = [];
         if ($this->getConfig('affiliateCampaignId')) {
-            $endUserCTX[ ] = 'affiliateCampaignId=' . $this->getConfig('affiliateCampaignId');
+            $endUserCTX[] = 'affiliateCampaignId=' . $this->getConfig('affiliateCampaignId');
         }
         if ($this->getConfig('affiliateReferenceId')) {
-            $endUserCTX[ ] = 'affiliateReferenceId=' . $this->getConfig('affiliateReferenceId');
+            $endUserCTX[] = 'affiliateReferenceId=' . $this->getConfig('affiliateReferenceId');
         }
         if ($this->getConfig('contextualLocation')) {
-            $endUserCTX[ ] = 'contextualLocation=' . $this->getConfig('contextualLocation');
+            $endUserCTX[] = 'contextualLocation=' . $this->getConfig('contextualLocation');
         }
         if (count($endUserCTX)) {
-            $headers[self::HDR_END_USER_CTX ] = implode(',', $endUserCTX);
+            $headers[self::HDR_END_USER_CTX] = implode(',', $endUserCTX);
         }
 
         return $headers;

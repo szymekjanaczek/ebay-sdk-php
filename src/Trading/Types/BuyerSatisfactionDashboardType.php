@@ -22,15 +22,15 @@ class BuyerSatisfactionDashboardType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'Alert' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerDashboardAlertType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Alert'  => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellerDashboardAlertType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Alert',
         ],
     ];

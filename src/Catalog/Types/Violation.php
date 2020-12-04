@@ -23,28 +23,28 @@ class Violation extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectsValues' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ViolationAspectValues',
-            'repeatable' => true,
-            'attribute' => false,
+        'aspectsValues'    => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ViolationAspectValues',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectsValues',
         ],
         'productAttribute' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ViolationProductAttribute',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Catalog\Types\ViolationProductAttribute',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productAttribute',
         ],
-        'reason' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'reason'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reason',
         ],
-        'violationCode' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'violationCode'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'violationCode',
         ],
     ];

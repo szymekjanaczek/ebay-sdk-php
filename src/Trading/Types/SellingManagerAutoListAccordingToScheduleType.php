@@ -26,46 +26,46 @@ class SellingManagerAutoListAccordingToScheduleType extends \DTS\eBaySDK\Types\B
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DayOfWeek' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'DayOfWeek'                 => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DayOfWeek',
         ],
-        'ListingPeriodInWeeks' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ListingPeriodInWeeks'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingPeriodInWeeks',
         ],
-        'ListAtSpecificTimeOfDay' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ListAtSpecificTimeOfDay'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListAtSpecificTimeOfDay',
         ],
-        'StartTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTime'                 => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTime'                   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'MaxActiveItemCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxActiveItemCount'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxActiveItemCount',
         ],
         'ListingHoldInventoryLevel' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingHoldInventoryLevel',
         ],
     ];

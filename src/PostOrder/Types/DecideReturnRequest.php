@@ -23,28 +23,28 @@ class DecideReturnRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'            => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
-        'decision' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'decision'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decision',
         ],
         'partialRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'partialRefundAmount',
         ],
-        'RMANumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RMANumber'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RMANumber',
         ],
     ];

@@ -27,52 +27,52 @@ class MyMessagesFolderSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderID'               => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
-        'FolderName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderName'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderName',
         ],
-        'NewAlertCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NewAlertCount'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NewAlertCount',
         ],
-        'NewMessageCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NewMessageCount'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NewMessageCount',
         ],
-        'TotalAlertCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'TotalAlertCount'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalAlertCount',
         ],
-        'TotalMessageCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'TotalMessageCount'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalMessageCount',
         ],
-        'NewHighPriorityCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'NewHighPriorityCount'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NewHighPriorityCount',
         ],
         'TotalHighPriorityCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalHighPriorityCount',
         ],
     ];

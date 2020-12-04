@@ -22,15 +22,15 @@ class CancelSortField extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ascending' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ascending',
         ],
         'enumValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'enumValue',
         ],
     ];

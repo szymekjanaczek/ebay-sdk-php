@@ -28,58 +28,58 @@ class CaseStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'INRStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'INRStatus'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'INRStatus',
         ],
-        'SNADStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SNADStatus'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SNADStatus',
         ],
-        'EBPINRStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EBPINRStatus'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EBPINRStatus',
         ],
-        'EBPSNADStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EBPSNADStatus'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EBPSNADStatus',
         ],
-        'UPIStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UPIStatus'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UPIStatus',
         ],
         'cancelTransactionStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelTransactionStatus',
         ],
-        'returnStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnStatus'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnStatus',
         ],
-        'PaypalINRStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaypalINRStatus'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaypalINRStatus',
         ],
-        'PaypalSNADStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaypalSNADStatus'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaypalSNADStatus',
         ],
     ];

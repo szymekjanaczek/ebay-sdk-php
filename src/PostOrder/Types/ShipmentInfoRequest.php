@@ -26,39 +26,39 @@ class ShipmentInfoRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'proofOfShipmentUploaded' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'proofOfShipmentUploaded',
         ],
-        'sellerComments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
-            'repeatable' => false,
-            'attribute' => false,
+        'sellerComments'          => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellerComments',
         ],
-        'shippedWithTracking' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippedWithTracking'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippedWithTracking',
         ],
-        'shippingCarrierName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCarrierName'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCarrierName',
         ],
-        'shippingDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingDate'            => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingDate',
         ],
-        'trackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'trackingNumber'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
     ];

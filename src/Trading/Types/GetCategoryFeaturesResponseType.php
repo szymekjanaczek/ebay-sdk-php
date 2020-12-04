@@ -24,34 +24,34 @@ class GetCategoryFeaturesResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryVersion'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryVersion',
         ],
-        'UpdateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'UpdateTime'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
-        'Category' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CategoryFeatureType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Category'           => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\CategoryFeatureType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Category',
         ],
-        'SiteDefaults' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SiteDefaultsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SiteDefaults'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SiteDefaultsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SiteDefaults',
         ],
         'FeatureDefinitions' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeatureDefinitionsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\FeatureDefinitionsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeatureDefinitions',
         ],
     ];

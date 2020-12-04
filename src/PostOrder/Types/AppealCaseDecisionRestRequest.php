@@ -21,9 +21,9 @@ class AppealCaseDecisionRestRequest extends \DTS\eBaySDK\PostOrder\Types\AppealR
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseId',
         ],
     ];

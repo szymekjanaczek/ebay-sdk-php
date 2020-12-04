@@ -21,16 +21,16 @@ class Aspect extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'localizedName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'localizedName'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'localizedName',
         ],
         'localizedValues' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'localizedValues',
         ],
     ];

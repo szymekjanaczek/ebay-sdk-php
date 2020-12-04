@@ -27,52 +27,52 @@ class GetSellingManagerSoldListingsRequestType extends \DTS\eBaySDK\Trading\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Search' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Search'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Search',
         ],
         'StoreCategoryID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreCategoryID',
         ],
-        'Filter' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'Filter'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Filter',
         ],
-        'Archived' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Archived'        => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Archived',
         ],
-        'Sort' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Sort'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Sort',
         ],
-        'SortOrder' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SortOrder'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SortOrder',
         ],
-        'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Pagination'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'SaleDateRange' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SaleDateRange'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SaleDateRange',
         ],
     ];

@@ -27,45 +27,45 @@ class CreditCard extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'accountHolderName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'accountHolderName',
         ],
-        'billingAddress' => [
-            'type' => 'DTS\eBaySDK\Order\Types\BillingAddress',
-            'repeatable' => false,
-            'attribute' => false,
+        'billingAddress'    => [
+            'type'        => 'DTS\eBaySDK\Order\Types\BillingAddress',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'billingAddress',
         ],
-        'brand' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'brand'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'cardNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cardNumber'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cardNumber',
         ],
-        'cvvNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'cvvNumber'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cvvNumber',
         ],
-        'expireMonth' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'expireMonth'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'expireMonth',
         ],
-        'expireYear' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'expireYear'        => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'expireYear',
         ],
     ];

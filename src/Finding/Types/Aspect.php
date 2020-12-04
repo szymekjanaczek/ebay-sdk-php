@@ -22,15 +22,15 @@ class Aspect extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'valueHistogram' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectValueHistogram',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Finding\Types\AspectValueHistogram',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'valueHistogram',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+        'name'           => [
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'name',
         ],
     ];

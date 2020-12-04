@@ -21,9 +21,9 @@ class GetOrderTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstra
      */
     private static $propertyTypes = [
         'OrderArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OrderArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\OrderArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OrderArray',
         ],
     ];

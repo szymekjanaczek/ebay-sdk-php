@@ -22,22 +22,22 @@ class IssueRefundRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnId'     => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
         'refundDetail' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\RefundDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\RefundDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundDetail',
         ],
-        'comments' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
     ];

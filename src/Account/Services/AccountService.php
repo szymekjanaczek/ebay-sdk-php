@@ -18,294 +18,294 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'CreateAFulfillmentPolicy' => [
-            'method' => 'POST',
-            'resource' => 'fulfillment_policy',
+        'CreateAFulfillmentPolicy'            => [
+            'method'        => 'POST',
+            'resource'      => 'fulfillment_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'DeleteAFulfillmentPolicy' => [
-            'method' => 'DELETE',
-            'resource' => 'fulfillment_policy/{fulfillmentPolicyId}',
+        'DeleteAFulfillmentPolicy'            => [
+            'method'        => 'DELETE',
+            'resource'      => 'fulfillment_policy/{fulfillmentPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestResponse',
-            'params' => [
+            'params'        => [
                 'fulfillmentPolicyId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
         'GetFulfillmentPoliciesByMarketplace' => [
-            'method' => 'GET',
-            'resource' => 'fulfillment_policy',
+            'method'        => 'GET',
+            'resource'      => 'fulfillment_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestResponse',
-            'params' => [
+            'params'        => [
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAFulfillmentPolicyByID' => [
-            'method' => 'GET',
-            'resource' => 'fulfillment_policy/{fulfillmentPolicyId}',
+        'GetAFulfillmentPolicyByID'           => [
+            'method'        => 'GET',
+            'resource'      => 'fulfillment_policy/{fulfillmentPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse',
-            'params' => [
+            'params'        => [
                 'fulfillmentPolicyId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAFulfillmentPolicyByName' => [
-            'method' => 'GET',
-            'resource' => 'fulfillment_policy/get_by_policy_name',
+        'GetAFulfillmentPolicyByName'         => [
+            'method'        => 'GET',
+            'resource'      => 'fulfillment_policy/get_by_policy_name',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestResponse',
-            'params' => [
+            'params'        => [
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
-                'name' => [
-                    'valid' => ['string'],
+                'name'           => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'UpdateAFulfillmentPolicy' => [
-            'method' => 'PUT',
-            'resource' => 'fulfillment_policy/{fulfillmentPolicyId}',
+        'UpdateAFulfillmentPolicy'            => [
+            'method'        => 'PUT',
+            'resource'      => 'fulfillment_policy/{fulfillmentPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse',
-            'params' => [
+            'params'        => [
                 'fulfillmentPolicyId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'CreateAPaymentPolicy' => [
-            'method' => 'POST',
-            'resource' => 'payment_policy',
+        'CreateAPaymentPolicy'                => [
+            'method'        => 'POST',
+            'resource'      => 'payment_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'DeleteAPaymentPolicy' => [
-            'method' => 'DELETE',
-            'resource' => 'payment_policy/{payment_policy_id}',
+        'DeleteAPaymentPolicy'                => [
+            'method'        => 'DELETE',
+            'resource'      => 'payment_policy/{payment_policy_id}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestResponse',
-            'params' => [
+            'params'        => [
                 'payment_policy_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetPaymentPoliciesByMarketplace' => [
-            'method' => 'GET',
-            'resource' => 'payment_policy',
+        'GetPaymentPoliciesByMarketplace'     => [
+            'method'        => 'GET',
+            'resource'      => 'payment_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestResponse',
-            'params' => [
+            'params'        => [
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAPaymentPolicyByID' => [
-            'method' => 'GET',
-            'resource' => 'payment_policy/{paymentPolicyId}',
+        'GetAPaymentPolicyByID'               => [
+            'method'        => 'GET',
+            'resource'      => 'payment_policy/{paymentPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestResponse',
-            'params' => [
+            'params'        => [
                 'paymentPolicyId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAPaymentPolicyByName' => [
-            'method' => 'GET',
-            'resource' => 'payment_policy/get_by_policy_name',
+        'GetAPaymentPolicyByName'             => [
+            'method'        => 'GET',
+            'resource'      => 'payment_policy/get_by_policy_name',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse',
-            'params' => [
+            'params'        => [
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
-                'name' => [
-                    'valid' => ['string'],
+                'name'           => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'UpdateAPaymentPolicy' => [
-            'method' => 'PUT',
-            'resource' => 'payment_policy/{payment_policy_id}',
+        'UpdateAPaymentPolicy'                => [
+            'method'        => 'PUT',
+            'resource'      => 'payment_policy/{payment_policy_id}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestResponse',
-            'params' => [
+            'params'        => [
                 'payment_policy_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAccountPrivileges' => [
-            'method' => 'GET',
-            'resource' => 'privilege',
+        'GetAccountPrivileges'                => [
+            'method'        => 'GET',
+            'resource'      => 'privilege',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'GetOptedInPrograms' => [
-            'method' => 'GET',
-            'resource' => 'program/get_opted_in_programs',
+        'GetOptedInPrograms'                  => [
+            'method'        => 'GET',
+            'resource'      => 'program/get_opted_in_programs',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetOptedInProgramsRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'OptInToProgram' => [
-            'method' => 'POST',
-            'resource' => 'program/opt_in',
+        'OptInToProgram'                      => [
+            'method'        => 'POST',
+            'resource'      => 'program/opt_in',
             'responseClass' => '\DTS\eBaySDK\Account\Types\OptInToProgramRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'OptOutOfProgram' => [
-            'method' => 'POST',
-            'resource' => 'program/opt_out',
+        'OptOutOfProgram'                     => [
+            'method'        => 'POST',
+            'resource'      => 'program/opt_out',
             'responseClass' => '\DTS\eBaySDK\Account\Types\OptOutOfProgramRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'GetShippingRateTables' => [
-            'method' => 'POST',
-            'resource' => 'rate_table',
+        'GetShippingRateTables'               => [
+            'method'        => 'POST',
+            'resource'      => 'rate_table',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestResponse',
-            'params' => [
+            'params'        => [
                 'country_code' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'CreateAReturnPolicy' => [
-            'method' => 'POST',
-            'resource' => 'return_policy',
+        'CreateAReturnPolicy'                 => [
+            'method'        => 'POST',
+            'resource'      => 'return_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestResponse',
-            'params' => [
+            'params'        => [
             ],
         ],
-        'DeleteAReturnPolicy' => [
-            'method' => 'DELETE',
-            'resource' => 'return_policy/{return_policy_id}',
+        'DeleteAReturnPolicy'                 => [
+            'method'        => 'DELETE',
+            'resource'      => 'return_policy/{return_policy_id}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestResponse',
-            'params' => [
+            'params'        => [
                 'return_policy_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetReturnPoliciesByMarketplace' => [
-            'method' => 'GET',
-            'resource' => 'return_policy',
+        'GetReturnPoliciesByMarketplace'      => [
+            'method'        => 'GET',
+            'resource'      => 'return_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestResponse',
-            'params' => [
+            'params'        => [
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAReturnPolicyByID' => [
-            'method' => 'GET',
-            'resource' => 'return_policy/{returnPolicyId}',
+        'GetAReturnPolicyByID'                => [
+            'method'        => 'GET',
+            'resource'      => 'return_policy/{returnPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestResponse',
-            'params' => [
+            'params'        => [
                 'returnPolicyId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAReturnPolicyByName' => [
-            'method' => 'GET',
-            'resource' => 'return_policy/get_by_policy_name',
+        'GetAReturnPolicyByName'              => [
+            'method'        => 'GET',
+            'resource'      => 'return_policy/get_by_policy_name',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse',
-            'params' => [
+            'params'        => [
                 'marketplace_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
-                'name' => [
-                    'valid' => ['string'],
+                'name'           => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'UpdateAReturnPolicy' => [
-            'method' => 'PUT',
-            'resource' => 'return_policy/{return_policy_id}',
+        'UpdateAReturnPolicy'                 => [
+            'method'        => 'PUT',
+            'resource'      => 'return_policy/{return_policy_id}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestResponse',
-            'params' => [
+            'params'        => [
                 'return_policy_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'CreateASalesTaxTable' => [
-            'method' => 'PUT',
-            'resource' => 'sales_tax/{countryCode}/{jurisdictionId}',
+        'CreateASalesTaxTable'                => [
+            'method'        => 'PUT',
+            'resource'      => 'sales_tax/{countryCode}/{jurisdictionId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestResponse',
-            'params' => [
-                'countryCode' => [
-                    'valid' => ['string'],
+            'params'        => [
+                'countryCode'    => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
                 'jurisdictionId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'DeleteASalesTaxTable' => [
-            'method' => 'DELETE',
-            'resource' => 'sales_tax/{countryCode}/{jurisdictionId}',
+        'DeleteASalesTaxTable'                => [
+            'method'        => 'DELETE',
+            'resource'      => 'sales_tax/{countryCode}/{jurisdictionId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse',
-            'params' => [
-                'countryCode' => [
-                    'valid' => ['string'],
+            'params'        => [
+                'countryCode'    => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
                 'jurisdictionId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetASalesTaxTable' => [
-            'method' => 'GET',
-            'resource' => 'sales_tax/{countryCode}/{jurisdictionId}',
+        'GetASalesTaxTable'                   => [
+            'method'        => 'GET',
+            'resource'      => 'sales_tax/{countryCode}/{jurisdictionId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetASalesTaxTableRestResponse',
-            'params' => [
-                'countryCode' => [
-                    'valid' => ['string'],
+            'params'        => [
+                'countryCode'    => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
                 'jurisdictionId' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetAllSalesTaxTables' => [
-            'method' => 'GET',
-            'resource' => 'sales_tax',
+        'GetAllSalesTaxTables'                => [
+            'method'        => 'GET',
+            'resource'      => 'sales_tax',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestResponse',
-            'params' => [
+            'params'        => [
                 'country_code' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],

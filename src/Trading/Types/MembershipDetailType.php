@@ -23,21 +23,21 @@ class MembershipDetailType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ProgramName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProgramName',
         ],
-        'Site' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Site'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Site',
         ],
-        'ExpiryDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExpiryDate'  => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExpiryDate',
         ],
     ];

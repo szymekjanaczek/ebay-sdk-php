@@ -21,9 +21,9 @@ class OfferKeyWithId extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'offerId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offerId',
         ],
     ];

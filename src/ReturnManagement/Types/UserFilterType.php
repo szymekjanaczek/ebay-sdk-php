@@ -22,22 +22,22 @@ class UserFilterType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'userId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'userId'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'userId',
         ],
         'userLoginName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'userLoginName',
         ],
-        'role' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'role'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'role',
         ],
     ];

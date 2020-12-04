@@ -19,20 +19,20 @@ class FeedService extends \DTS\eBaySDK\Feed\Services\FeedBaseService
      */
     protected static $operations = [
         'GetItemFeed' => [
-            'method' => 'GET',
-            'resource' => 'item_summary',
+            'method'        => 'GET',
+            'resource'      => 'item_summary',
             'responseClass' => '\DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse',
-            'params' => [
+            'params'        => [
                 'category_id' => [
-                    'valid' => ['string'],
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
-                'date' => [
-                    'valid' => ['string'],
+                'date'        => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
-                'feed_type' => [
-                    'valid' => ['string'],
+                'feed_type'   => [
+                    'valid'    => ['string'],
                     'required' => true,
                 ],
             ],

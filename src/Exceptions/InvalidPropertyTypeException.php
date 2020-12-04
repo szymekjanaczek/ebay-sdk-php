@@ -11,7 +11,7 @@ class InvalidPropertyTypeException extends \LogicException
      * @param string $property The property name.
      * @param string $expectedType The excpected type of the value..
      * @param string $actualType The actual type of the value.
-     * @param int $code|0
+     * @param int $code |0
      * @param \Exception
      */
     public function __construct($property, $expectedType, $actualType, $code = 0, \Exception $previous = null)

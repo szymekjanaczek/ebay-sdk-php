@@ -23,28 +23,28 @@ class VariationsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Variation' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Variation'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\VariationType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Variation',
         ],
-        'Pictures' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PicturesType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Pictures'              => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PicturesType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Pictures',
         ],
         'VariationSpecificsSet' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VariationSpecificsSet',
         ],
-        'ModifyNameList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ModifyNameArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ModifyNameList'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ModifyNameArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ModifyNameList',
         ],
     ];

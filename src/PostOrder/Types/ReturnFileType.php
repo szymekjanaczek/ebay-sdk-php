@@ -27,52 +27,52 @@ class ReturnFileType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationDate'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'fileData' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileData'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileData',
         ],
-        'fileFormat' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileFormat'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileFormat',
         ],
-        'fileId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileId',
         ],
-        'filePurpose' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'filePurpose'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'filePurpose',
         ],
-        'fileStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileStatus'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileStatus',
         ],
         'resizedFileData' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'resizedFileData',
         ],
-        'submitter' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'submitter'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'submitter',
         ],
     ];

@@ -21,9 +21,9 @@ class FeesSummaryResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'feeSummaries' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\FeeSummary',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Inventory\Types\FeeSummary',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'feeSummaries',
         ],
     ];

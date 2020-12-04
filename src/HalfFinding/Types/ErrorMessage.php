@@ -21,9 +21,9 @@ class ErrorMessage extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'error' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ErrorData',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\ErrorData',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'error',
         ],
     ];

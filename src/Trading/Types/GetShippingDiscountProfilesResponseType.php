@@ -26,46 +26,46 @@ class GetShippingDiscountProfilesResponseType extends \DTS\eBaySDK\Trading\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CurrencyID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CurrencyID'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CurrencyID',
         ],
-        'FlatShippingDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FlatShippingDiscountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FlatShippingDiscount'               => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\FlatShippingDiscountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FlatShippingDiscount',
         ],
-        'CalculatedShippingDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CalculatedShippingDiscount'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CalculatedShippingDiscount',
         ],
-        'PromotionalShippingDiscount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalShippingDiscount'        => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalShippingDiscount',
         ],
-        'CalculatedHandlingDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CalculatedHandlingDiscount'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CalculatedHandlingDiscount',
         ],
         'PromotionalShippingDiscountDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalShippingDiscountDetails',
         ],
-        'CombinedDuration' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CombinedDuration'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CombinedDuration',
         ],
     ];

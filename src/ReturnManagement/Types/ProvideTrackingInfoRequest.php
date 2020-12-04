@@ -23,28 +23,28 @@ class ProvideTrackingInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\Bas
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnId'       => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
         'trackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
-        'carrierUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'carrierUsed'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'comments' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'comments'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'comments',
         ],
     ];

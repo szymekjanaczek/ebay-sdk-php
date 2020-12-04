@@ -21,9 +21,9 @@ class BulkAdResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'responses' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\AdResponse',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\AdResponse',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'responses',
         ],
     ];

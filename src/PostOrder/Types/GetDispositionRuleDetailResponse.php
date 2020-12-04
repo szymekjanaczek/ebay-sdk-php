@@ -22,15 +22,15 @@ class GetDispositionRuleDetailResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ruleDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleDetailType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleDetail',
         ],
-        'versionId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'versionId'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'versionId',
         ],
     ];

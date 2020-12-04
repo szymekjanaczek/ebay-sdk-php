@@ -21,16 +21,16 @@ class RecipientAccountReference extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'referenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'referenceId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'referenceId',
         ],
         'referenceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'referenceType',
         ],
     ];

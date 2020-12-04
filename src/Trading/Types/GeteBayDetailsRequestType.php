@@ -21,9 +21,9 @@ class GeteBayDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReque
      */
     private static $propertyTypes = [
         'DetailName' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DetailName',
         ],
     ];

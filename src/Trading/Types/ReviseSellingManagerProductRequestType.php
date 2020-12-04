@@ -23,28 +23,28 @@ class ReviseSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SellingManagerProductDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingManagerProductDetails'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerProductDetails',
         ],
-        'SellingManagerFolderDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingManagerFolderDetails'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerFolderDetails',
         ],
-        'DeletedField' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'DeletedField'                   => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DeletedField',
         ],
         'SellingManagerProductSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerProductSpecifics',
         ],
     ];

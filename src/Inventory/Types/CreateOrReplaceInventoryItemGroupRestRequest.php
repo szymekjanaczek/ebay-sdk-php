@@ -21,9 +21,9 @@ class CreateOrReplaceInventoryItemGroupRestRequest extends \DTS\eBaySDK\Inventor
      */
     private static $propertyTypes = [
         'inventoryItemGroupKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryItemGroupKey',
         ],
     ];

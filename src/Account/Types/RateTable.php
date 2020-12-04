@@ -24,27 +24,27 @@ class RateTable extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'countryCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'countryCode',
         ],
-        'locality' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'locality'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'locality',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
         'rateTableId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rateTableId',
         ],
     ];

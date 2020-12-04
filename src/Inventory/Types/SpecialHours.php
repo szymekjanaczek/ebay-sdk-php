@@ -21,16 +21,16 @@ class SpecialHours extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'date' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'date'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'date',
         ],
         'intervals' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Interval',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Interval',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'intervals',
         ],
     ];

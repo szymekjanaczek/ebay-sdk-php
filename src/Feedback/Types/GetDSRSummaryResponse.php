@@ -21,16 +21,16 @@ class GetDSRSummaryResponse extends \DTS\eBaySDK\Feedback\Types\BaseServiceRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DSRSummary' => [
-            'type' => 'DTS\eBaySDK\Feedback\Types\DSRSummary',
-            'repeatable' => true,
-            'attribute' => false,
+        'DSRSummary'            => [
+            'type'        => 'DTS\eBaySDK\Feedback\Types\DSRSummary',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'DSRSummary',
         ],
         'totalTransactionCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'totalTransactionCount',
         ],
     ];

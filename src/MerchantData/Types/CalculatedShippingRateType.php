@@ -30,70 +30,70 @@ class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OriginatingPostalCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'OriginatingPostalCode'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'OriginatingPostalCode',
         ],
-        'MeasurementUnit' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MeasurementUnit'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MeasurementUnit',
         ],
-        'PackageDepth' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PackageDepth'                        => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PackageDepth',
         ],
-        'PackageLength' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PackageLength'                       => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PackageLength',
         ],
-        'PackageWidth' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PackageWidth'                        => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PackageWidth',
         ],
-        'PackagingHandlingCosts' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PackagingHandlingCosts'              => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PackagingHandlingCosts',
         ],
-        'ShippingIrregular' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingIrregular'                   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingIrregular',
         ],
-        'ShippingPackage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingPackage'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingPackage',
         ],
-        'WeightMajor' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'WeightMajor'                         => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WeightMajor',
         ],
-        'WeightMinor' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'WeightMinor'                         => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WeightMinor',
         ],
         'InternationalPackagingHandlingCosts' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InternationalPackagingHandlingCosts',
         ],
     ];

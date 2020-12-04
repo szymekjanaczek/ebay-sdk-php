@@ -22,22 +22,22 @@ class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'brands' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'brands'                    => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'brands',
         ],
-        'paymentMethodType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'paymentMethodType'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paymentMethodType',
         ],
         'recipientAccountReference' => [
-            'type' => 'DTS\eBaySDK\Account\Types\RecipientAccountReference',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\RecipientAccountReference',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'recipientAccountReference',
         ],
     ];

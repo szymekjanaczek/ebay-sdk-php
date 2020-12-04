@@ -28,58 +28,58 @@ class PromotionalSaleType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PromotionalSaleID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalSaleID'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleID',
         ],
-        'PromotionalSaleName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalSaleName'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleName',
         ],
         'PromotionalSaleItemIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleItemIDArray',
         ],
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'                     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'DiscountType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DiscountType'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DiscountType',
         ],
-        'DiscountValue' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'DiscountValue'              => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DiscountValue',
         ],
-        'PromotionalSaleStartTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalSaleStartTime'   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleStartTime',
         ],
-        'PromotionalSaleEndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalSaleEndTime'     => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleEndTime',
         ],
-        'PromotionalSaleType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalSaleType'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalSaleType',
         ],
     ];

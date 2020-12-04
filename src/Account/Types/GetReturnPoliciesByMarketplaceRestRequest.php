@@ -21,9 +21,9 @@ class GetReturnPoliciesByMarketplaceRestRequest extends \DTS\eBaySDK\Types\BaseT
      */
     private static $propertyTypes = [
         'marketplace_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplace_id',
         ],
     ];

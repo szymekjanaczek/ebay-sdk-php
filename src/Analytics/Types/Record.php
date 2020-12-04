@@ -22,15 +22,15 @@ class Record extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'dimensionValues' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Value',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Analytics\Types\Value',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dimensionValues',
         ],
-        'metricValues' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Value',
-            'repeatable' => true,
-            'attribute' => false,
+        'metricValues'    => [
+            'type'        => 'DTS\eBaySDK\Analytics\Types\Value',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'metricValues',
         ],
     ];

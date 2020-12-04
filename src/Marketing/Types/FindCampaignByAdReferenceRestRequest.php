@@ -22,22 +22,22 @@ class FindCampaignByAdReferenceRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'inventory_reference_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'inventory_reference_id'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventory_reference_id',
         ],
         'inventory_reference_type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventory_reference_type',
         ],
-        'listing_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'listing_id'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'listing_id',
         ],
     ];

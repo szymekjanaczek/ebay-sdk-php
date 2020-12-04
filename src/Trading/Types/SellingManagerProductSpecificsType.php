@@ -23,21 +23,21 @@ class SellingManagerProductSpecificsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'PrimaryCategoryID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PrimaryCategoryID',
         ],
-        'Variations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Variations'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\VariationsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Variations',
         ],
-        'ItemSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemSpecifics'     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemSpecifics',
         ],
     ];

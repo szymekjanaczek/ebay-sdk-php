@@ -21,9 +21,9 @@ class BulkPriceQuantity extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'requests' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\PriceQuantity',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Inventory\Types\PriceQuantity',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'requests',
         ],
     ];

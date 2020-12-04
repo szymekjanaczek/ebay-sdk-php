@@ -26,46 +26,46 @@ class ScanDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eventCity' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'eventCity'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eventCity',
         ],
-        'eventCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'eventCode'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eventCode',
         ],
-        'eventDesc' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'eventDesc'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eventDesc',
         ],
-        'eventPostalCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'eventPostalCode'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eventPostalCode',
         ],
         'eventStateOrProvince' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eventStateOrProvince',
         ],
-        'eventStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'eventStatus'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eventStatus',
         ],
-        'eventTime' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'eventTime'            => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eventTime',
         ],
     ];

@@ -22,15 +22,15 @@ class DeleteReturnDraftFileRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'draftId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'draftId',
         ],
-        'fileId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileId'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileId',
         ],
     ];

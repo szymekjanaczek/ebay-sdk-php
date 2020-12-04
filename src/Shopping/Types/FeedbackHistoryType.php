@@ -29,64 +29,64 @@ class FeedbackHistoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BidRetractionFeedbackPeriods' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
-            'repeatable' => true,
-            'attribute' => false,
+        'BidRetractionFeedbackPeriods'          => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'BidRetractionFeedbackPeriods',
         ],
-        'NegativeFeedbackPeriods' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
-            'repeatable' => true,
-            'attribute' => false,
+        'NegativeFeedbackPeriods'               => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'NegativeFeedbackPeriods',
         ],
-        'NeutralFeedbackPeriods' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
-            'repeatable' => true,
-            'attribute' => false,
+        'NeutralFeedbackPeriods'                => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'NeutralFeedbackPeriods',
         ],
-        'PositiveFeedbackPeriods' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
-            'repeatable' => true,
-            'attribute' => false,
+        'PositiveFeedbackPeriods'               => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'PositiveFeedbackPeriods',
         ],
-        'TotalFeedbackPeriods' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
-            'repeatable' => true,
-            'attribute' => false,
+        'TotalFeedbackPeriods'                  => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'TotalFeedbackPeriods',
         ],
-        'UniqueNegativeFeedbackCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'UniqueNegativeFeedbackCount'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UniqueNegativeFeedbackCount',
         ],
-        'UniquePositiveFeedbackCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'UniquePositiveFeedbackCount'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UniquePositiveFeedbackCount',
         ],
-        'AverageRatingDetails' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AverageRatingDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'AverageRatingDetails'                  => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\AverageRatingDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'AverageRatingDetails',
         ],
         'NeutralCommentCountFromSuspendedUsers' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'NeutralCommentCountFromSuspendedUsers',
         ],
-        'UniqueNeutralFeedbackCount' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'UniqueNeutralFeedbackCount'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UniqueNeutralFeedbackCount',
         ],
     ];

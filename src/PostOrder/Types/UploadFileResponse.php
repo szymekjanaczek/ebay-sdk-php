@@ -22,15 +22,15 @@ class UploadFileResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'compressedFileData' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'compressedFileData',
         ],
-        'fileId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fileId'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fileId',
         ],
     ];

@@ -21,9 +21,9 @@ class RecoupmentPolicyConsentType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Site' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Site',
         ],
     ];

@@ -21,9 +21,9 @@ class BulkUpdateAdBidsByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Type
      */
     private static $propertyTypes = [
         'campaign_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'campaign_id',
         ],
     ];

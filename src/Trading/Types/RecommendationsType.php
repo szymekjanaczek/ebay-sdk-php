@@ -22,22 +22,22 @@ class RecommendationsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CategoryID'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
         'NameRecommendation' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameRecommendationType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\NameRecommendationType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'NameRecommendation',
         ],
-        'Updated' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Updated'            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Updated',
         ],
     ];

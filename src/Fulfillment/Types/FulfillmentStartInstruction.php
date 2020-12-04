@@ -25,40 +25,40 @@ class FulfillmentStartInstruction extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ebaySupportedFulfillment' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ebaySupportedFulfillment'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ebaySupportedFulfillment',
         ],
-        'finalDestinationAddress' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Address',
-            'repeatable' => false,
-            'attribute' => false,
+        'finalDestinationAddress'     => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Address',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'finalDestinationAddress',
         ],
         'fulfillmentInstructionsType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fulfillmentInstructionsType',
         ],
-        'maxEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxEstimatedDeliveryDate'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxEstimatedDeliveryDate',
         ],
-        'minEstimatedDeliveryDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'minEstimatedDeliveryDate'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'shippingStep' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\ShippingStep',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingStep'                => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\ShippingStep',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingStep',
         ],
     ];

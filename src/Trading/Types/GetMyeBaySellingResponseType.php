@@ -27,52 +27,52 @@ class GetMyeBaySellingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SellingSummary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingSummaryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingSummary'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SellingSummaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingSummary',
         ],
-        'ScheduledList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ScheduledList'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ScheduledList',
         ],
-        'ActiveList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ActiveList'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ActiveList',
         ],
-        'SoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SoldList'              => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SoldList',
         ],
-        'UnsoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'UnsoldList'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UnsoldList',
         ],
-        'Summary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Summary'               => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Summary',
         ],
-        'DeletedFromSoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeletedFromSoldList'   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeletedFromSoldList',
         ],
         'DeletedFromUnsoldList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeletedFromUnsoldList',
         ],
     ];

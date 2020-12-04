@@ -22,22 +22,22 @@ class DimensionMetadata extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dataType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dataType'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dataType',
         ],
-        'dimensionKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dimensionKey'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dimensionKey',
         ],
         'dimensionKeyAnnotations' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DimensionKeyAnnotation',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\DimensionKeyAnnotation',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'dimensionKeyAnnotations',
         ],
     ];

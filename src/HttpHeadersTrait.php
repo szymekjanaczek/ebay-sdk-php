@@ -128,14 +128,14 @@ trait HttpHeadersTrait
                 $value = [$value];
             }
 
-            $value = $this->trimHeaderValues($value);
+            $value      = $this->trimHeaderValues($value);
             $normalized = strtolower($header);
             if (isset($this->headerNames[$normalized])) {
-                $header = $this->headerNames[$normalized];
+                $header                 = $this->headerNames[$normalized];
                 $this->headers[$header] = array_merge($this->headers[$header], $value);
             } else {
                 $this->headerNames[$normalized] = $header;
-                $this->headers[$header] = $value;
+                $this->headers[$header]         = $value;
             }
         }
     }

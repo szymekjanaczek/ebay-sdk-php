@@ -25,40 +25,40 @@ class EstimatedAvailability extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'availabilityThreshold' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'availabilityThreshold'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'availabilityThreshold',
         ],
-        'availabilityThresholdType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'availabilityThresholdType'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'availabilityThresholdType',
         ],
-        'deliveryOptions' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'deliveryOptions'             => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'deliveryOptions',
         ],
         'estimatedAvailabilityStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'estimatedAvailabilityStatus',
         ],
-        'estimatedAvailableQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'estimatedAvailableQuantity'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'estimatedAvailableQuantity',
         ],
-        'estimatedSoldQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'estimatedSoldQuantity'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'estimatedSoldQuantity',
         ],
     ];

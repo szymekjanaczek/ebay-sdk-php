@@ -25,40 +25,40 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemId'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'itemTitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'itemTitle'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'itemTitle',
         ],
         'transactionPrice' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionPrice',
         ],
-        'transactionDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'transactionDate'  => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionDate',
         ],
-        'globalId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'globalId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'globalId',
         ],
-        'transactionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'transactionId'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'transactionId',
         ],
     ];

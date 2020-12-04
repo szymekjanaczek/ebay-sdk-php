@@ -31,69 +31,69 @@ class CaseDetails extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'buyerFinalAcceptResolution' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerFinalAcceptResolution',
         ],
-        'buyerInitExpectResolution' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'buyerInitExpectResolution'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'buyerInitExpectResolution',
         ],
-        'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationDate'               => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'escalationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'escalationDate'             => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'escalationDate',
         ],
-        'expirationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'expirationDate'             => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'expirationDate',
         ],
-        'lastBuyerRespDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'lastBuyerRespDate'          => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastBuyerRespDate',
         ],
-        'lastSellerRespDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'lastSellerRespDate'         => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastSellerRespDate',
         ],
-        'paypalPaid' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'paypalPaid'                 => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paypalPaid',
         ],
-        'refundAmounts' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundAmounts',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundAmounts'              => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RefundAmounts',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundAmounts',
         ],
-        'refundDeadlineDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundDeadlineDate'         => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundDeadlineDate',
         ],
-        'refundType' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundType',
-            'repeatable' => false,
-            'attribute' => false,
+        'refundType'                 => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RefundType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundType',
         ],
     ];

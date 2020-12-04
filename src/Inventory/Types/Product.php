@@ -30,70 +30,70 @@ class Product extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspects' => [
-            'type' => 'any',
-            'repeatable' => false,
-            'attribute' => false,
+        'aspects'     => [
+            'type'        => 'any',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'brand' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'brand'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'brand',
         ],
         'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'ean' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ean'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ean',
         ],
-        'imageUrls' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'imageUrls'   => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'imageUrls',
         ],
-        'isbn' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'isbn'        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'isbn',
         ],
-        'mpn' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'mpn'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'mpn',
         ],
-        'subtitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'subtitle'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'subtitle',
         ],
-        'title' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'title'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'title',
         ],
-        'upc' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'upc'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'upc',
         ],
-        'epid' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'epid'        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'epid',
         ],
     ];

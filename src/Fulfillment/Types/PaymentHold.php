@@ -25,40 +25,40 @@ class PaymentHold extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'expectedReleaseDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'expectedReleaseDate'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'expectedReleaseDate',
         ],
-        'holdAmount' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'holdAmount'             => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'holdAmount',
         ],
-        'holdReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'holdReason'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'holdReason',
         ],
-        'holdState' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'holdState'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'holdState',
         ],
-        'releaseDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'releaseDate'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'releaseDate',
         ],
         'sellerActionsToRelease' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\SellerActionsToRelease',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\SellerActionsToRelease',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'sellerActionsToRelease',
         ],
     ];

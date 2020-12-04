@@ -25,40 +25,40 @@ class RespondToBestOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'BestOfferID' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'BestOfferID'          => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'BestOfferID',
         ],
-        'Action' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Action'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Action',
         ],
-        'SellerResponse' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerResponse'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerResponse',
         ],
-        'CounterOfferPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CounterOfferPrice'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CounterOfferPrice',
         ],
         'CounterOfferQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CounterOfferQuantity',
         ],
     ];

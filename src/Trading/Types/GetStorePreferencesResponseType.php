@@ -21,9 +21,9 @@ class GetStorePreferencesResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
      */
     private static $propertyTypes = [
         'StorePreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StorePreferencesType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\StorePreferencesType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StorePreferences',
         ],
     ];

@@ -22,15 +22,15 @@ class ReviseInventoryStatusResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
      */
     private static $propertyTypes = [
         'InventoryStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\InventoryStatusType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\InventoryStatusType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'InventoryStatus',
         ],
-        'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\InventoryFeesType',
-            'repeatable' => true,
-            'attribute' => false,
+        'Fees'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\InventoryFeesType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Fees',
         ],
     ];

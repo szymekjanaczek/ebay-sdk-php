@@ -26,46 +26,46 @@ class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\Trading\Types\Abs
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PictureName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PictureName'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureName',
         ],
         'PictureSystemVersion' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureSystemVersion',
         ],
-        'PictureSet' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PictureSet'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureSet',
         ],
-        'PictureData' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\Base64BinaryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PictureData'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\Base64BinaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureData',
         ],
-        'PictureUploadPolicy' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PictureUploadPolicy'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PictureUploadPolicy',
         ],
-        'ExternalPictureURL' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ExternalPictureURL'   => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ExternalPictureURL',
         ],
-        'ExtensionInDays' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExtensionInDays'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExtensionInDays',
         ],
     ];

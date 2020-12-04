@@ -33,88 +33,88 @@ class SuggestedProduct extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'additionalImageUrls' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'additionalImageUrls'        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'additionalImageUrls',
         ],
-        'aspects' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\Aspect',
-            'repeatable' => true,
-            'attribute' => false,
+        'aspects'                    => [
+            'type'        => 'DTS\eBaySDK\Catalog\Types\Aspect',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'brand' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'brand'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'description'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
-        'ean' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ean'                        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ean',
         ],
-        'epid' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'epid'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'imageUrl' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'imageUrl'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'imageUrl',
         ],
-        'isbn' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'isbn'                       => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'isbn',
         ],
-        'mpn' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'mpn'                        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'mpn',
         ],
         'otherApplicableCategoryIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'otherApplicableCategoryIds',
         ],
-        'primaryCategoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'primaryCategoryId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'primaryCategoryId',
         ],
-        'title' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'title'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'title',
         ],
-        'upc' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'upc'                        => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'upc',
         ],
-        'version' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'version'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'version',
         ],
     ];

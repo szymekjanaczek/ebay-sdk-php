@@ -21,9 +21,9 @@ class CreateBundlesResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\Ba
      */
     private static $propertyTypes = [
         'bundleStatus' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'bundleStatus',
         ],
     ];

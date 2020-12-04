@@ -22,15 +22,15 @@ class AspectFilter extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'filters' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\FilterField',
-            'repeatable' => true,
-            'attribute' => false,
+        'filters'    => [
+            'type'        => 'DTS\eBaySDK\Browse\Types\FilterField',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'filters',
         ],
     ];

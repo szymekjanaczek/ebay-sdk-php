@@ -21,9 +21,9 @@ class ListingDurationReferenceType extends \DTS\eBaySDK\Types\IntegerType
      */
     private static $propertyTypes = [
         'type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'type',
         ],
     ];

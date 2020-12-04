@@ -27,52 +27,52 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrierUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'carrierUsed'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'escalateReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'escalateReason'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'escalateReason',
         ],
-        'moneyMovementRef' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementRef',
-            'repeatable' => false,
-            'attribute' => false,
+        'moneyMovementRef'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementRef',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'moneyMovementRef',
         ],
         'partialRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'partialRefundAmount',
         ],
-        'RMA' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RMA'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RMA',
         ],
         'sellerReturnAddress' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sellerReturnAddress',
         ],
-        'toEmailAddress' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'toEmailAddress'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'toEmailAddress',
         ],
-        'trackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'trackingNumber'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
     ];

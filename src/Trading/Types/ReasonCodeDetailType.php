@@ -22,22 +22,22 @@ class ReasonCodeDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BriefText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BriefText'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BriefText',
         ],
         'DetailedText' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DetailedText',
         ],
-        'codeID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => true,
+        'codeID'       => [
+            'type'          => 'integer',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'codeID',
         ],
     ];

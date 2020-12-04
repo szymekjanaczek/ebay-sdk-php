@@ -21,9 +21,9 @@ class CreateInventoryLocationRestRequest extends \DTS\eBaySDK\Inventory\Types\In
      */
     private static $propertyTypes = [
         'merchantLocationKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'merchantLocationKey',
         ],
     ];

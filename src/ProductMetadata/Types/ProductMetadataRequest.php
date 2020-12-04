@@ -23,28 +23,28 @@ class ProductMetadataRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryId'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'includeManagedValues' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'includeManagedValues'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'includeManagedValues',
         ],
         'includeGroupPropertiesOnly' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'includeGroupPropertiesOnly',
         ],
-        'groupType' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'groupType'                  => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'groupType',
         ],
     ];

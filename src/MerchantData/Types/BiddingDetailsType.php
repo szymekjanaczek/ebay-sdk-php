@@ -25,33 +25,33 @@ class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ConvertedMaxBid' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ConvertedMaxBid',
         ],
-        'MaxBid' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MaxBid'          => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MaxBid',
         ],
-        'QuantityBid' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'QuantityBid'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuantityBid',
         ],
-        'QuantityWon' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'QuantityWon'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuantityWon',
         ],
-        'Winning' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Winning'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Winning',
         ],
     ];

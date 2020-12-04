@@ -21,9 +21,9 @@ class SellerFeeDiscountDashboardType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Percent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Percent',
         ],
     ];

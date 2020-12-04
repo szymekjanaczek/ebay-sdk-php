@@ -24,34 +24,34 @@ class RangeValue extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'end' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'end'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'end',
         ],
-        'exclusiveEnd' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'exclusiveEnd'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'exclusiveEnd',
         ],
         'exclusiveStart' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'exclusiveStart',
         ],
-        'range' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'range'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'range',
         ],
-        'start' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'start'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'start',
         ],
     ];

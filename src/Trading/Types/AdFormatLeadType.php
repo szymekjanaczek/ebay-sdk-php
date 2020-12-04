@@ -38,111 +38,111 @@ class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'AdditionalInformation' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AdditionalInformation',
         ],
-        'Address' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Address'               => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AddressType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Address',
         ],
-        'BestTimeToCall' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BestTimeToCall'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestTimeToCall',
         ],
-        'Email' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Email'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Email',
         ],
-        'SubmittedTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'SubmittedTime'         => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SubmittedTime',
         ],
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'ItemTitle' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemTitle'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemTitle',
         ],
-        'UserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UserID'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UserID',
         ],
-        'MemberMessage' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MemberMessage'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MemberMessage',
         ],
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'ExternalEmail' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ExternalEmail'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ExternalEmail',
         ],
-        'PurchaseTimeFrame' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PurchaseTimeFrame'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PurchaseTimeFrame',
         ],
-        'TradeInYear' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TradeInYear'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TradeInYear',
         ],
-        'TradeInMake' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TradeInMake'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TradeInMake',
         ],
-        'TradeInModel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TradeInModel'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TradeInModel',
         ],
-        'FinancingAnswer' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'FinancingAnswer'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FinancingAnswer',
         ],
-        'Answer1' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Answer1'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Answer1',
         ],
-        'Answer2' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Answer2'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Answer2',
         ],
     ];

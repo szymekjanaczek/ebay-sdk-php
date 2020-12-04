@@ -24,27 +24,27 @@ class InventorySizing extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'currentAvailableQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'currentAvailableQuantity',
         ],
-        'currentInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'currentInventoryValue'    => [
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'currentInventoryValue',
         ],
-        'inventorySnapshots' => [
-            'type' => 'DTS\eBaySDK\Account\Types\InventorySnapshot',
-            'repeatable' => false,
-            'attribute' => false,
+        'inventorySnapshots'       => [
+            'type'        => 'DTS\eBaySDK\Account\Types\InventorySnapshot',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventorySnapshots',
         ],
-        'primarySalesCategory' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'primarySalesCategory'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'primarySalesCategory',
         ],
     ];

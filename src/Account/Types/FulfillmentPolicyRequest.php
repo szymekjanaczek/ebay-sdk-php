@@ -30,70 +30,70 @@ class FulfillmentPolicyRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryTypes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryTypes'   => [
+            'type'        => 'DTS\eBaySDK\Account\Types\CategoryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryTypes',
         ],
-        'description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'description'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'description',
         ],
         'freightShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'freightShipping',
         ],
-        'globalShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'globalShipping'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'globalShipping',
         ],
-        'handlingTime' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
-            'repeatable' => false,
-            'attribute' => false,
+        'handlingTime'    => [
+            'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'handlingTime',
         ],
-        'localPickup' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'localPickup'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'localPickup',
         ],
-        'marketplaceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'marketplaceId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
-        'pickupDropOff' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'pickupDropOff'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'pickupDropOff',
         ],
         'shippingOptions' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ShippingOption',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\ShippingOption',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'shippingOptions',
         ],
         'shipToLocations' => [
-            'type' => 'DTS\eBaySDK\Account\Types\RegionSet',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\RegionSet',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipToLocations',
         ],
     ];

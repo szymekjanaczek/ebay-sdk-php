@@ -21,9 +21,9 @@ class IntegratedMerchantCreditCardInfoType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'SupportedSite' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'SupportedSite',
         ],
     ];

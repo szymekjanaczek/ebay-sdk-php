@@ -24,34 +24,34 @@ class StoreCategoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryId'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
         'categoryName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryName',
         ],
-        'isLeaf' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'isLeaf'       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isLeaf',
         ],
-        'isPseudo' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'isPseudo'     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'isPseudo',
         ],
-        'storeId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'storeId'      => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'storeId',
         ],
     ];

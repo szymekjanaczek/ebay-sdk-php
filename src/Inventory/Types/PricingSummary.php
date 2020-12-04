@@ -24,34 +24,34 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'minimumAdvertisedPrice' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'minimumAdvertisedPrice'         => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minimumAdvertisedPrice',
         ],
         'originallySoldForRetailPriceOn' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'originallySoldForRetailPriceOn',
         ],
-        'originalRetailPrice' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'originalRetailPrice'            => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'originalRetailPrice',
         ],
-        'price' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'price'                          => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'price',
         ],
-        'pricingVisibility' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'pricingVisibility'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'pricingVisibility',
         ],
     ];

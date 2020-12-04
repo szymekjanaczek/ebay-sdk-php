@@ -32,82 +32,82 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eBayPaymentStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'eBayPaymentStatus'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eBayPaymentStatus',
         ],
-        'CheckoutStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CheckoutStatus'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CheckoutStatus',
         ],
-        'LastTimeModified' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'LastTimeModified'                    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LastTimeModified',
         ],
-        'PaymentMethodUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentMethodUsed'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentMethodUsed',
         ],
-        'CompleteStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CompleteStatus'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CompleteStatus',
         ],
-        'BuyerSelectedShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'BuyerSelectedShipping'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BuyerSelectedShipping',
         ],
-        'PaymentHoldStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentHoldStatus'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentHoldStatus',
         ],
         'IntegratedMerchantCreditCardEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IntegratedMerchantCreditCardEnabled',
         ],
-        'InquiryStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InquiryStatus'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InquiryStatus',
         ],
-        'ReturnStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnStatus'                        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnStatus',
         ],
-        'PaymentInstrument' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentInstrument'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentInstrument',
         ],
-        'DigitalStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DigitalStatus'                       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DigitalStatus',
         ],
-        'CancelStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CancelStatus'                        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CancelStatus',
         ],
     ];

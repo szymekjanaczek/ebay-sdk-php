@@ -21,16 +21,16 @@ class GetItemShippingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingDetails'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingDetails',
         ],
         'PickUpInStoreDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PickUpInStoreDetails',
         ],
     ];

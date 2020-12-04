@@ -29,64 +29,64 @@ class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ProductName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProductName'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductName',
         ],
-        'ProductID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProductID'         => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProductID',
         ],
-        'CustomLabel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CustomLabel'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CustomLabel',
         ],
         'QuantityAvailable' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QuantityAvailable',
         ],
-        'UnitCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'UnitCost'          => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UnitCost',
         ],
-        'FolderID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'FolderID'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FolderID',
         ],
-        'RestockAlert' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'RestockAlert'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RestockAlert',
         ],
-        'RestockThreshold' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'RestockThreshold'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RestockThreshold',
         ],
-        'VendorInfo' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellingManagerVendorDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'VendorInfo'        => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\SellingManagerVendorDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VendorInfo',
         ],
-        'Note' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Note'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Note',
         ],
     ];

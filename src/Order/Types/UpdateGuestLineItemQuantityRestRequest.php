@@ -21,9 +21,9 @@ class UpdateGuestLineItemQuantityRestRequest extends \DTS\eBaySDK\Order\Types\Up
      */
     private static $propertyTypes = [
         'checkoutSessionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'checkoutSessionId',
         ],
     ];

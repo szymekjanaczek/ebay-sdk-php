@@ -21,9 +21,9 @@ class AdIds extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'adIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'adIds',
         ],
     ];

@@ -26,46 +26,46 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'costType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'costType'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'costType',
         ],
-        'insuranceFee' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'insuranceFee'        => [
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'insuranceFee',
         ],
-        'insuranceOffered' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'insuranceOffered'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'insuranceOffered',
         ],
-        'optionType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'optionType'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'optionType',
         ],
         'packageHandlingCost' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'packageHandlingCost',
         ],
-        'rateTableId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'rateTableId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rateTableId',
         ],
-        'shippingServices' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ShippingService',
-            'repeatable' => true,
-            'attribute' => false,
+        'shippingServices'    => [
+            'type'        => 'DTS\eBaySDK\Account\Types\ShippingService',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'shippingServices',
         ],
     ];

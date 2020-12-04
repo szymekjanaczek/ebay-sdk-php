@@ -24,34 +24,34 @@ class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Offer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OfferType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Offer'                    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\OfferType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Offer',
         ],
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'BlockOnWarning' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'BlockOnWarning'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BlockOnWarning',
         ],
         'AffiliateTrackingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AffiliateTrackingDetails',
         ],
-        'VariationSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
-            'repeatable' => false,
-            'attribute' => false,
+        'VariationSpecifics'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VariationSpecifics',
         ],
     ];

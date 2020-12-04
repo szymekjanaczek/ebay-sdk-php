@@ -21,16 +21,16 @@ class ValueConstraint extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'applicableForAspectName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'applicableForAspectName'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'applicableForAspectName',
         ],
         'applicableForAspectValues' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'applicableForAspectValues',
         ],
     ];

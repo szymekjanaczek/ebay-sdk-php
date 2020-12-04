@@ -21,9 +21,9 @@ class GetProductSearchValuesRequest extends \DTS\eBaySDK\ProductMetadata\Types\G
      */
     private static $propertyTypes = [
         'propertyName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'propertyName',
         ],
     ];

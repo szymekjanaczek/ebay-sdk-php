@@ -25,40 +25,40 @@ class FindItemsIneBayStoresRequest extends \DTS\eBaySDK\Finding\Types\BaseFindin
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'keywords' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'keywords'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'keywords',
         ],
-        'storeName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'storeName'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'storeName',
         ],
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemFilter'     => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\ItemFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
         'outputSelector' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'outputSelector',
         ],
-        'aspectFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'aspectFilter'   => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\AspectFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectFilter',
         ],
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'categoryId'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
     ];

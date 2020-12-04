@@ -21,9 +21,9 @@ class BulkCreateAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseT
      */
     private static $propertyTypes = [
         'responses' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceResponse',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceResponse',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'responses',
         ],
     ];

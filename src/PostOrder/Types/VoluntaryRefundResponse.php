@@ -21,9 +21,9 @@ class VoluntaryRefundResponse extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'refundResult' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\VoluntaryRefundResult',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\VoluntaryRefundResult',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refundResult',
         ],
     ];

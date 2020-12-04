@@ -23,28 +23,28 @@ class ProductSubmission extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'invocationId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'invocationId'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'invocationId',
         ],
-        'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryId'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
         'productPropertyValue' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'productPropertyValue',
         ],
-        'media' => [
-            'type' => 'DTS\eBaySDK\Product\Types\Media',
-            'repeatable' => true,
-            'attribute' => false,
+        'media'                => [
+            'type'        => 'DTS\eBaySDK\Product\Types\Media',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'media',
         ],
     ];

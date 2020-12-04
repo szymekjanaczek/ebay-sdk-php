@@ -22,22 +22,22 @@ class SellerProfileResponseStatus extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'profileId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'profileId'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'profileId',
         ],
-        'ack' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ack'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ack',
         ],
         'errorMessage' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorMessage',
         ],
     ];

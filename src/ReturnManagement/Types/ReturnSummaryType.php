@@ -27,52 +27,52 @@ class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnId'         => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
-        'ReturnType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReturnType'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReturnType',
         ],
-        'otherParty' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'otherParty'       => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'otherParty',
         ],
-        'returnRequest' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnRequest'    => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnRequest',
         ],
-        'status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'status'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'status',
         ],
-        'responseDue' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnResponseDueType',
-            'repeatable' => false,
-            'attribute' => false,
+        'responseDue'      => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnResponseDueType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'responseDue',
         ],
-        'creationDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'creationDate'     => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'creationDate',
         ],
         'lastModifiedDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lastModifiedDate',
         ],
     ];

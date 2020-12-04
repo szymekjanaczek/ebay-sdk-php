@@ -27,45 +27,45 @@ class InventorySnapshot extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'cumulativeInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cumulativeInventoryValue',
         ],
-        'cumulativeQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'cumulativeQuantity'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cumulativeQuantity',
         ],
-        'lookbackPeriod' => [
-            'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
-            'repeatable' => false,
-            'attribute' => false,
+        'lookbackPeriod'           => [
+            'type'        => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lookbackPeriod',
         ],
-        'maxAvailableQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxAvailableQuantity'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxAvailableQuantity',
         ],
-        'maxInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxInventoryValue'        => [
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxInventoryValue',
         ],
-        'minAvailableQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'minAvailableQuantity'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minAvailableQuantity',
         ],
-        'minInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'minInventoryValue'        => [
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minInventoryValue',
         ],
     ];

@@ -21,9 +21,9 @@ class SupportedSellerProfilesType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'SupportedSellerProfile' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SupportedSellerProfileType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\SupportedSellerProfileType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'SupportedSellerProfile',
         ],
     ];

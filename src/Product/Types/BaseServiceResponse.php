@@ -23,28 +23,28 @@ class BaseServiceResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ack' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ack'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ack',
         ],
         'errorMessage' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ErrorMessage',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ErrorMessage',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'errorMessage',
         ],
-        'version' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'version'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'version',
         ],
-        'timestamp' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'timestamp'    => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'timestamp',
         ],
     ];

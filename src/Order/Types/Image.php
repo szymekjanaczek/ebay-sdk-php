@@ -22,22 +22,22 @@ class Image extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'height' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'height'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'height',
         ],
         'imageUrl' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'imageUrl',
         ],
-        'width' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'width'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'width',
         ],
     ];

@@ -53,208 +53,208 @@ class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'GlobalShipping' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'GlobalShipping'                           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GlobalShipping',
         ],
-        'CalculatedShippingRate' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingRateType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CalculatedShippingRate'                   => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingRateType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CalculatedShippingRate',
         ],
-        'ChangePaymentInstructions' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'ChangePaymentInstructions'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ChangePaymentInstructions',
         ],
-        'InsuranceFee' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceFee'                             => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceFee',
         ],
-        'InsuranceOption' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceOption'                          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceOption',
         ],
-        'InsuranceWanted' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceWanted'                          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceWanted',
         ],
-        'PaymentEdited' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentEdited'                            => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentEdited',
         ],
-        'PaymentInstructions' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentInstructions'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentInstructions',
         ],
-        'SalesTax' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SalesTaxType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SalesTax'                                 => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\SalesTaxType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SalesTax',
         ],
-        'ShippingRateErrorMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingRateErrorMessage'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingRateErrorMessage',
         ],
-        'ShippingRateType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingRateType'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingRateType',
         ],
-        'ShippingServiceOptions' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ShippingServiceOptions'                   => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceOptions',
         ],
-        'InternationalShippingServiceOption' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\InternationalShippingServiceOptionsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'InternationalShippingServiceOption'       => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\InternationalShippingServiceOptionsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'InternationalShippingServiceOption',
         ],
-        'ShippingType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingType'                             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingType',
         ],
-        'SellingManagerSalesRecordNumber' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellingManagerSalesRecordNumber'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellingManagerSalesRecordNumber',
         ],
-        'TaxTable' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxTableType',
-            'repeatable' => false,
-            'attribute' => false,
+        'TaxTable'                                 => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\TaxTableType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaxTable',
         ],
-        'ShippingServiceUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingServiceUsed'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingServiceUsed',
         ],
-        'DefaultShippingCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'DefaultShippingCost'                      => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DefaultShippingCost',
         ],
-        'InsuranceDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InsuranceDetails'                         => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InsuranceDetails',
         ],
-        'InternationalInsuranceDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InternationalInsuranceDetails'            => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InternationalInsuranceDetails',
         ],
-        'ShippingDiscountProfileID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingDiscountProfileID'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingDiscountProfileID',
         ],
-        'FlatShippingDiscount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FlatShippingDiscount'                     => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FlatShippingDiscount',
         ],
-        'CalculatedShippingDiscount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CalculatedShippingDiscount'               => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CalculatedShippingDiscount',
         ],
-        'PromotionalShippingDiscount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalShippingDiscount'              => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalShippingDiscount',
         ],
-        'InternationalShippingDiscountProfileID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'InternationalShippingDiscountProfileID'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InternationalShippingDiscountProfileID',
         ],
-        'InternationalFlatShippingDiscount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InternationalFlatShippingDiscount'        => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InternationalFlatShippingDiscount',
         ],
-        'InternationalCalculatedShippingDiscount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'InternationalCalculatedShippingDiscount'  => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InternationalCalculatedShippingDiscount',
         ],
         'InternationalPromotionalShippingDiscount' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'InternationalPromotionalShippingDiscount',
         ],
-        'PromotionalShippingDiscountDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PromotionalShippingDiscountDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PromotionalShippingDiscountDetails'       => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\PromotionalShippingDiscountDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PromotionalShippingDiscountDetails',
         ],
-        'CODCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CODCost'                                  => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CODCost',
         ],
-        'ExcludeShipToLocation' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'ExcludeShipToLocation'                    => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ExcludeShipToLocation',
         ],
-        'SellerExcludeShipToLocationsPreference' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerExcludeShipToLocationsPreference'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerExcludeShipToLocationsPreference',
         ],
-        'ShipmentTrackingDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType',
-            'repeatable' => true,
-            'attribute' => false,
+        'ShipmentTrackingDetails'                  => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'ShipmentTrackingDetails',
         ],
-        'RateTableDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\RateTableDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'RateTableDetails'                         => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\RateTableDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RateTableDetails',
         ],
     ];

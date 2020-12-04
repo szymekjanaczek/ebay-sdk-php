@@ -21,9 +21,9 @@ class UserIdentityType extends \DTS\eBaySDK\Types\StringType
      */
     private static $propertyTypes = [
         'type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'type',
         ],
     ];

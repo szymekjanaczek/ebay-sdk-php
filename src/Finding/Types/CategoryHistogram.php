@@ -21,16 +21,16 @@ class CategoryHistogram extends \DTS\eBaySDK\Finding\Types\Category
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'count'                  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'count',
         ],
         'childCategoryHistogram' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogram',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Finding\Types\CategoryHistogram',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'childCategoryHistogram',
         ],
     ];

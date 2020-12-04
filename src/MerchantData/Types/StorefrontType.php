@@ -25,40 +25,40 @@ class StorefrontType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'StoreCategoryID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreCategoryID'    => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreCategoryID',
         ],
-        'StoreCategory2ID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreCategory2ID'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreCategory2ID',
         ],
-        'StoreCategoryName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreCategoryName'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreCategoryName',
         ],
         'StoreCategory2Name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreCategory2Name',
         ],
-        'StoreURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreURL'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreURL',
         ],
-        'StoreName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreName'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreName',
         ],
     ];

@@ -23,21 +23,21 @@ class GetTrafficReportRestRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'dimension' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dimension',
         ],
-        'filter' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'filter'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'filter',
         ],
-        'metric' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'metric'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'metric',
         ],
     ];

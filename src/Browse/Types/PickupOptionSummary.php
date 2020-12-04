@@ -21,9 +21,9 @@ class PickupOptionSummary extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'pickupLocationType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'pickupLocationType',
         ],
     ];

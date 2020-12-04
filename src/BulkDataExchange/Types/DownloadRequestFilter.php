@@ -25,40 +25,40 @@ class DownloadRequestFilter extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'feeSettlementReportFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\FeeSettlementReportFilter',
-            'repeatable' => false,
-            'attribute' => false,
+        'feeSettlementReportFilter'   => [
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\FeeSettlementReportFilter',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'feeSettlementReportFilter',
         ],
-        'siteFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\SiteFilter',
-            'repeatable' => false,
-            'attribute' => false,
+        'siteFilter'                  => [
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\SiteFilter',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'siteFilter',
         ],
         'activeInventoryReportFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'activeInventoryReportFilter',
         ],
-        'dateFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DateFilter',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateFilter'                  => [
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\DateFilter',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateFilter',
         ],
-        'soldReportFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter',
-            'repeatable' => false,
-            'attribute' => false,
+        'soldReportFilter'            => [
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'soldReportFilter',
         ],
-        'orderReportFilter' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\OrderReportFilter',
-            'repeatable' => false,
-            'attribute' => false,
+        'orderReportFilter'           => [
+            'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\OrderReportFilter',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'orderReportFilter',
         ],
     ];

@@ -21,16 +21,16 @@ class ShipToLocation extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'country' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'country'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'country',
         ],
         'postalCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'postalCode',
         ],
     ];

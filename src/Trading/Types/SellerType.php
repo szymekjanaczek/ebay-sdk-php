@@ -46,166 +46,166 @@ class SellerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaisaPayStatus' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaisaPayStatus'                   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaisaPayStatus',
         ],
-        'AllowPaymentEdit' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'AllowPaymentEdit'                 => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AllowPaymentEdit',
         ],
-        'BillingCurrency' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'BillingCurrency'                  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BillingCurrency',
         ],
-        'CheckoutEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'CheckoutEnabled'                  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CheckoutEnabled',
         ],
-        'CIPBankAccountStored' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'CIPBankAccountStored'             => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CIPBankAccountStored',
         ],
-        'GoodStanding' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'GoodStanding'                     => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'GoodStanding',
         ],
-        'QualifiesForB2BVAT' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'QualifiesForB2BVAT'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QualifiesForB2BVAT',
         ],
-        'SellerLevel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerLevel'                      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerLevel',
         ],
-        'SellerPaymentAddress' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerPaymentAddress'             => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AddressType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerPaymentAddress',
         ],
-        'SchedulingInfo' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SchedulingInfoType',
-            'repeatable' => false,
-            'attribute' => false,
+        'SchedulingInfo'                   => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\SchedulingInfoType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SchedulingInfo',
         ],
-        'StoreOwner' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreOwner'                       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreOwner',
         ],
-        'StoreURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreURL'                         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreURL',
         ],
-        'SellerBusinessType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerBusinessType'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerBusinessType',
         ],
-        'RegisteredBusinessSeller' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'RegisteredBusinessSeller'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RegisteredBusinessSeller',
         ],
-        'StoreSite' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'StoreSite'                        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StoreSite',
         ],
-        'PaymentMethod' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaymentMethod'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaymentMethod',
         ],
-        'CharityRegistered' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityRegistered'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityRegistered',
         ],
-        'SafePaymentExempt' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'SafePaymentExempt'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SafePaymentExempt',
         ],
-        'PaisaPayEscrowEMIStatus' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaisaPayEscrowEMIStatus'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaisaPayEscrowEMIStatus',
         ],
-        'CharityAffiliationDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityAffiliationDetails'        => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityAffiliationDetails',
         ],
-        'TransactionPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'TransactionPercent'               => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TransactionPercent',
         ],
         'IntegratedMerchantCreditCardInfo' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'IntegratedMerchantCreditCardInfo',
         ],
-        'FeatureEligibility' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeatureEligibilityType',
-            'repeatable' => false,
-            'attribute' => false,
+        'FeatureEligibility'               => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\FeatureEligibilityType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeatureEligibility',
         ],
-        'TopRatedSeller' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'TopRatedSeller'                   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TopRatedSeller',
         ],
-        'TopRatedSellerDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'TopRatedSellerDetails'            => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TopRatedSellerDetails',
         ],
-        'RecoupmentPolicyConsent' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType',
-            'repeatable' => false,
-            'attribute' => false,
+        'RecoupmentPolicyConsent'          => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecoupmentPolicyConsent',
         ],
-        'DomesticRateTable' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'DomesticRateTable'                => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DomesticRateTable',
         ],
     ];

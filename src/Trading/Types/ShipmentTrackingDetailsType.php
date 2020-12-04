@@ -22,22 +22,22 @@ class ShipmentTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingCarrierUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShippingCarrierUsed'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShippingCarrierUsed',
         ],
         'ShipmentTrackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShipmentTrackingNumber',
         ],
-        'ShipmentLineItem' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShipmentLineItemType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ShipmentLineItem'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\ShipmentLineItemType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ShipmentLineItem',
         ],
     ];

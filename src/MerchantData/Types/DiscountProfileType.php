@@ -26,46 +26,46 @@ class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DiscountProfileID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DiscountProfileID'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DiscountProfileID',
         ],
-        'DiscountProfileName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DiscountProfileName'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DiscountProfileName',
         ],
-        'EachAdditionalAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'EachAdditionalAmount'     => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EachAdditionalAmount',
         ],
-        'EachAdditionalAmountOff' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'EachAdditionalAmountOff'  => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EachAdditionalAmountOff',
         ],
         'EachAdditionalPercentOff' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EachAdditionalPercentOff',
         ],
-        'WeightOff' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
-            'repeatable' => false,
-            'attribute' => false,
+        'WeightOff'                => [
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'WeightOff',
         ],
-        'MappedDiscountProfileID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'MappedDiscountProfileID'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MappedDiscountProfileID',
         ],
     ];

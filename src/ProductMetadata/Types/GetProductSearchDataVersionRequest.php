@@ -21,9 +21,9 @@ class GetProductSearchDataVersionRequest extends \DTS\eBaySDK\ProductMetadata\Ty
      */
     private static $propertyTypes = [
         'categoryId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryId',
         ],
     ];

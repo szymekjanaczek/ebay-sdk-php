@@ -21,9 +21,9 @@ class GetProductDetailsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceRe
      */
     private static $propertyTypes = [
         'product' => [
-            'type' => 'DTS\eBaySDK\Product\Types\Product',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\Product',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'product',
         ],
     ];

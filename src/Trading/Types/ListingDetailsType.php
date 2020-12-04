@@ -40,130 +40,130 @@ class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Adult' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'Adult'                       => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Adult',
         ],
-        'BindingAuction' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'BindingAuction'              => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BindingAuction',
         ],
-        'CheckoutEnabled' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'CheckoutEnabled'             => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CheckoutEnabled',
         ],
-        'ConvertedBuyItNowPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ConvertedBuyItNowPrice'      => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ConvertedBuyItNowPrice',
         ],
-        'ConvertedStartPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ConvertedStartPrice'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ConvertedStartPrice',
         ],
-        'ConvertedReservePrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ConvertedReservePrice'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ConvertedReservePrice',
         ],
-        'HasReservePrice' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HasReservePrice'             => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HasReservePrice',
         ],
-        'RelistedItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'RelistedItemID'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RelistedItemID',
         ],
-        'SecondChanceOriginalItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SecondChanceOriginalItemID'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SecondChanceOriginalItemID',
         ],
-        'StartTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'StartTime'                   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndTime'                     => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'ViewItemURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ViewItemURL'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ViewItemURL',
         ],
-        'HasUnansweredQuestions' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HasUnansweredQuestions'      => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HasUnansweredQuestions',
         ],
-        'HasPublicMessages' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HasPublicMessages'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HasPublicMessages',
         ],
-        'BuyItNowAvailable' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'BuyItNowAvailable'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BuyItNowAvailable',
         ],
-        'MinimumBestOfferPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'MinimumBestOfferPrice'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'MinimumBestOfferPrice',
         ],
-        'LocalListingDistance' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'LocalListingDistance'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LocalListingDistance',
         ],
-        'TCROriginalItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'TCROriginalItemID'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TCROriginalItemID',
         ],
         'ViewItemURLForNaturalSearch' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ViewItemURLForNaturalSearch',
         ],
-        'BestOfferAutoAcceptPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'BestOfferAutoAcceptPrice'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BestOfferAutoAcceptPrice',
         ],
-        'EndingReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'EndingReason'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'EndingReason',
         ],
     ];

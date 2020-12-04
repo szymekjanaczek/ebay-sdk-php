@@ -26,46 +26,46 @@ class GetVeROReportStatusResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
-            'repeatable' => false,
-            'attribute' => false,
+        'PaginationResult'       => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'HasMoreItems' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'HasMoreItems'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'HasMoreItems',
         ],
-        'ItemsPerPage' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemsPerPage'           => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemsPerPage',
         ],
-        'PageNumber' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'PageNumber'             => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
-        'VeROReportPacketID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'VeROReportPacketID'     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VeROReportPacketID',
         ],
         'VeROReportPacketStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VeROReportPacketStatus',
         ],
-        'ReportedItemDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType',
-            'repeatable' => false,
-            'attribute' => false,
+        'ReportedItemDetails'    => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ReportedItemDetails',
         ],
     ];

@@ -21,9 +21,9 @@ class UpdateCampaignIDentificationRestRequest extends \DTS\eBaySDK\Marketing\Typ
      */
     private static $propertyTypes = [
         'campaign_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'campaign_id',
         ],
     ];

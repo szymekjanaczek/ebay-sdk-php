@@ -21,16 +21,16 @@ class UnitInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'UnitType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'UnitType'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UnitType',
         ],
         'UnitQuantity' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'UnitQuantity',
         ],
     ];

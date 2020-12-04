@@ -22,22 +22,22 @@ class FindCancelResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'cancellations' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CancelSummary',
-            'repeatable' => true,
-            'attribute' => false,
+        'cancellations'    => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\CancelSummary',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'cancellations',
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
-        'total' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'total'            => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'total',
         ],
     ];

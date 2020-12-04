@@ -24,34 +24,34 @@ class ComplianceDetail extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'reasonCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'reasonCode'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'reasonCode',
         ],
-        'message' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'message'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'message',
         ],
-        'variation' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\VariationDetails',
-            'repeatable' => false,
-            'attribute' => false,
+        'variation'                 => [
+            'type'        => 'DTS\eBaySDK\Compliance\Types\VariationDetails',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'variation',
         ],
-        'violationData' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\NameValueList',
-            'repeatable' => true,
-            'attribute' => false,
+        'violationData'             => [
+            'type'        => 'DTS\eBaySDK\Compliance\Types\NameValueList',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'violationData',
         ],
         'correctiveRecommendations' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\CorrectiveRecommendations',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Compliance\Types\CorrectiveRecommendations',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'correctiveRecommendations',
         ],
     ];

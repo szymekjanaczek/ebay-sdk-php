@@ -25,33 +25,33 @@ class ActionDeadlines extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'daysForBuyerToProvideProofOfShipment' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'daysForBuyerToProvideProofOfShipment',
         ],
-        'daysToExpireWithoutResponse' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'daysToExpireWithoutResponse'          => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'daysToExpireWithoutResponse',
         ],
-        'daysToExpireWithResponse' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'daysToExpireWithResponse'             => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'daysToExpireWithResponse',
         ],
-        'daysToReturnItem' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'daysToReturnItem'                     => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'daysToReturnItem',
         ],
-        'maxDaysToFileClaim' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxDaysToFileClaim'                   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxDaysToFileClaim',
         ],
     ];

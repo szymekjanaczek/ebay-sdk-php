@@ -23,28 +23,28 @@ class PurchaseOrderSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'purchaseOrderHref' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'purchaseOrderHref'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'purchaseOrderHref',
         ],
-        'purchaseOrderId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'purchaseOrderId'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'purchaseOrderId',
         ],
         'purchaseOrderPaymentStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'purchaseOrderPaymentStatus',
         ],
-        'warnings' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'warnings'                   => [
+            'type'        => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'warnings',
         ],
     ];

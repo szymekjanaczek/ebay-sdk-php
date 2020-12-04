@@ -22,15 +22,15 @@ class AdReference extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'adId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'adId',
         ],
         'href' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'href',
         ],
     ];

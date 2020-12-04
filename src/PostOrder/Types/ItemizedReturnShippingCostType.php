@@ -21,16 +21,16 @@ class ItemizedReturnShippingCostType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'amount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'amount'                 => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'amount',
         ],
         'returnShippingCostType' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnShippingCostType',
         ],
     ];

@@ -25,40 +25,40 @@ class CreateDSRSummaryByShippingDetailRequest extends \DTS\eBaySDK\Feedback\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dateRange' => [
-            'type' => 'DTS\eBaySDK\Feedback\Types\DateRange',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateRange'               => [
+            'type'        => 'DTS\eBaySDK\Feedback\Types\DateRange',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateRange',
         ],
-        'dateRangeEventType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'dateRangeEventType'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'dateRangeEventType',
         ],
-        'shippingCostType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCostType'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCostType',
         ],
         'shippingDestinationType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingDestinationType',
         ],
-        'shipToCountry' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'shipToCountry'           => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'shipToCountry',
         ],
-        'shippingService' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'shippingService'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'shippingService',
         ],
     ];

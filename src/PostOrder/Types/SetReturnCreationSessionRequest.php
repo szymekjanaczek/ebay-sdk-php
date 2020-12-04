@@ -21,9 +21,9 @@ class SetReturnCreationSessionRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'returnRequest' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnRequestType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnRequestType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnRequest',
         ],
     ];

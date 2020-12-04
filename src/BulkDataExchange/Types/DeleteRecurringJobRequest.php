@@ -21,9 +21,9 @@ class DeleteRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\Base
      */
     private static $propertyTypes = [
         'recurringJobId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'recurringJobId',
         ],
     ];

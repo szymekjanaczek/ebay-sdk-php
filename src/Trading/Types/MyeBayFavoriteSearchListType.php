@@ -22,15 +22,15 @@ class MyeBayFavoriteSearchListType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'TotalAvailable' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TotalAvailable',
         ],
         'FavoriteSearch' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'FavoriteSearch',
         ],
     ];

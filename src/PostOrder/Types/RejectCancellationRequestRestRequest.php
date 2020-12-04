@@ -21,9 +21,9 @@ class RejectCancellationRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\
      */
     private static $propertyTypes = [
         'cancelId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cancelId',
         ],
     ];

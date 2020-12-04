@@ -21,16 +21,16 @@ class SellingManagerVendorDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'VendorName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'VendorName'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VendorName',
         ],
         'VendorContactInfo' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'VendorContactInfo',
         ],
     ];

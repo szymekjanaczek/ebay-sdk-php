@@ -21,9 +21,9 @@ class CreateDispositionRuleRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'ruleDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailInputType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleDetailInputType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ruleDetail',
         ],
     ];

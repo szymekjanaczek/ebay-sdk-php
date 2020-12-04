@@ -21,16 +21,16 @@ class FindCompatibilitiesBySpecificationResponse extends \DTS\eBaySDK\Product\Ty
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationOutput',
-            'repeatable' => false,
-            'attribute' => false,
+        'paginationOutput'     => [
+            'type'        => 'DTS\eBaySDK\Product\Types\PaginationOutput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
         'compatibilityDetails' => [
-            'type' => 'DTS\eBaySDK\Product\Types\CompatibilityDetails',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\CompatibilityDetails',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'compatibilityDetails',
         ],
     ];

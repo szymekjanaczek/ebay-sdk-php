@@ -29,64 +29,64 @@ class Metric extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'level' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'level'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'level',
         ],
-        'lookbackEndDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'lookbackEndDate'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lookbackEndDate',
         ],
-        'lookbackStartDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'lookbackStartDate'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lookbackStartDate',
         ],
-        'metricKey' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'metricKey'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'metricKey',
         ],
-        'name' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'name'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'name',
         ],
         'thresholdLowerBound' => [
-            'type' => 'any',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'any',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'thresholdLowerBound',
         ],
-        'thresholdMetaData' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'thresholdMetaData'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'thresholdMetaData',
         ],
         'thresholdUpperBound' => [
-            'type' => 'any',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'any',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'thresholdUpperBound',
         ],
-        'type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'type'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'type',
         ],
-        'value' => [
-            'type' => 'any',
-            'repeatable' => false,
-            'attribute' => false,
+        'value'               => [
+            'type'        => 'any',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

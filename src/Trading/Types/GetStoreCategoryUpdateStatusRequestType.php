@@ -21,9 +21,9 @@ class GetStoreCategoryUpdateStatusRequestType extends \DTS\eBaySDK\Trading\Types
      */
     private static $propertyTypes = [
         'TaskID' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'TaskID',
         ],
     ];

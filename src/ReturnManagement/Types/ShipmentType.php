@@ -28,58 +28,58 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'shipmentStatus' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shipmentStatus'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipmentStatus',
         ],
-        'trackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'trackingNumber'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
-        'carrierUsed' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'carrierUsed'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'deliveryDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'deliveryDate'                   => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'deliveryDate',
         ],
-        'shippingCost' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCost'                   => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'shippingAddress' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Address',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingAddress'                => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\Address',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingAddress',
         ],
         'returnMerchandiseAuthorization' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnMerchandiseAuthorization',
         ],
-        'minEstDeliveryDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'minEstDeliveryDate'             => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'minEstDeliveryDate',
         ],
-        'maxEstDeliveryDate' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'maxEstDeliveryDate'             => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'maxEstDeliveryDate',
         ],
     ];

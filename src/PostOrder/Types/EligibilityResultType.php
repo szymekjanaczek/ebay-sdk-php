@@ -26,46 +26,46 @@ class EligibilityResultType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'caseId'                 => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseId',
         ],
         'eligibilityErrorDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'eligibilityErrorDetail',
         ],
-        'eligibilityStatus' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\StatusType',
-            'repeatable' => false,
-            'attribute' => false,
+        'eligibilityStatus'      => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\StatusType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eligibilityStatus',
         ],
-        'eligibleStartDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'eligibleStartDate'      => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'eligibleStartDate',
         ],
-        'returnCreationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnCreationDate'     => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnCreationDate',
         ],
-        'returnDeadline' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnDeadline'         => [
+            'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnDeadline',
         ],
-        'returnId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnId'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnId',
         ],
     ];

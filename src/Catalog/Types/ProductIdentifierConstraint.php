@@ -21,16 +21,16 @@ class ProductIdentifierConstraint extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'mode' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'mode'     => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'mode',
         ],
         'required' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'required',
         ],
     ];

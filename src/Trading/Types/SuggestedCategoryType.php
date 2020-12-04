@@ -21,16 +21,16 @@ class SuggestedCategoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Category' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CategoryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Category'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\CategoryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Category',
         ],
         'PercentItemFound' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'PercentItemFound',
         ],
     ];

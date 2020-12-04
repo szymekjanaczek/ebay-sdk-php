@@ -23,21 +23,21 @@ class DeliveryURLDetailType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'DeliveryURLName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeliveryURLName',
         ],
-        'DeliveryURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'DeliveryURL'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DeliveryURL',
         ],
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
     ];

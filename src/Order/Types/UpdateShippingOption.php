@@ -21,16 +21,16 @@ class UpdateShippingOption extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'lineItemId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'lineItemId'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lineItemId',
         ],
         'shippingOptionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingOptionId',
         ],
     ];

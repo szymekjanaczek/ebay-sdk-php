@@ -27,52 +27,52 @@ class CharityType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CharityID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityID'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityID',
         ],
-        'CharityName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityName'     => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityName',
         ],
-        'CharityNumber' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityNumber'   => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityNumber',
         ],
         'DonationPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DonationPercent',
         ],
-        'Mission' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Mission'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Mission',
         ],
-        'LogoURL' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'LogoURL'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'LogoURL',
         ],
-        'CharityListing' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'CharityListing'  => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'CharityListing',
         ],
-        'Status' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Status'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Status',
         ],
     ];

@@ -22,15 +22,15 @@ class DateTime extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'formattedValue' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'formattedValue',
         ],
-        'value' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'value'          => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'value',
         ],
     ];

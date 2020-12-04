@@ -22,15 +22,15 @@ class GroupProperty extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'propertyName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'propertyName',
         ],
-        'tag' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Tag',
-            'repeatable' => true,
-            'attribute' => false,
+        'tag'          => [
+            'type'        => 'DTS\eBaySDK\ProductMetadata\Types\Tag',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'tag',
         ],
     ];

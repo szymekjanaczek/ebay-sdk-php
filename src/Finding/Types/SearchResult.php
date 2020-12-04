@@ -21,16 +21,16 @@ class SearchResult extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'item' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\SearchItem',
-            'repeatable' => true,
-            'attribute' => false,
+        'item'  => [
+            'type'        => 'DTS\eBaySDK\Finding\Types\SearchItem',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'item',
         ],
         'count' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'integer',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'count',
         ],
     ];

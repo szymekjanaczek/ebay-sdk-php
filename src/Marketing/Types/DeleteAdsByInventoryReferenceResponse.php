@@ -24,34 +24,34 @@ class DeleteAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'adIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'adIds'                  => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'adIds',
         ],
-        'errors' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
-            'repeatable' => true,
-            'attribute' => false,
+        'errors'                 => [
+            'type'        => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'errors',
         ],
-        'inventoryReferenceId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'inventoryReferenceId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'inventoryReferenceType',
         ],
-        'statusCode' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'statusCode'             => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'statusCode',
         ],
     ];

@@ -25,40 +25,40 @@ class StandardsProfile extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'cycle' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Cycle',
-            'repeatable' => false,
-            'attribute' => false,
+        'cycle'            => [
+            'type'        => 'DTS\eBaySDK\Analytics\Types\Cycle',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'cycle',
         ],
-        'defaultProgram' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'defaultProgram'   => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'defaultProgram',
         ],
         'evaluationReason' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'evaluationReason',
         ],
-        'metrics' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Metric',
-            'repeatable' => true,
-            'attribute' => false,
+        'metrics'          => [
+            'type'        => 'DTS\eBaySDK\Analytics\Types\Metric',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'metrics',
         ],
-        'program' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'program'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'program',
         ],
-        'standardsLevel' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'standardsLevel'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'standardsLevel',
         ],
     ];

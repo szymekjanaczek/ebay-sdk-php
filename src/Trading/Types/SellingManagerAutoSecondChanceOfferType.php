@@ -25,33 +25,33 @@ class SellingManagerAutoSecondChanceOfferType extends \DTS\eBaySDK\Types\BaseTyp
      */
     private static $propertyTypes = [
         'SecondChanceOfferCondition' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SecondChanceOfferCondition',
         ],
-        'Amount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'Amount'                     => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Amount',
         ],
-        'ProfitPercent' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'ProfitPercent'              => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ProfitPercent',
         ],
-        'Duration' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Duration'                   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Duration',
         ],
-        'ListingHoldInventoryLevel' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'ListingHoldInventoryLevel'  => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ListingHoldInventoryLevel',
         ],
     ];

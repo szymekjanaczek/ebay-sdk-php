@@ -23,28 +23,28 @@ class Text extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'content' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'content'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'content',
         ],
-        'language' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'language'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'language',
         ],
-        'translatedFromContent' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'translatedFromContent'  => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'translatedFromContent',
         ],
         'translatedFromLanguage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'translatedFromLanguage',
         ],
     ];

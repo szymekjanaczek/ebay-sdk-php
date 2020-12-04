@@ -24,34 +24,34 @@ class FeatureEligibilityType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'QualifiesForBuyItNow' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'QualifiesForBuyItNow'                 => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QualifiesForBuyItNow',
         ],
-        'QualifiesForBuyItNowMultiple' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'QualifiesForBuyItNowMultiple'         => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QualifiesForBuyItNowMultiple',
         ],
         'QualifiedForFixedPriceOneDayDuration' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QualifiedForFixedPriceOneDayDuration',
         ],
-        'QualifiesForVariations' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'QualifiesForVariations'               => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QualifiesForVariations',
         ],
-        'QualifiedForAuctionOneDayDuration' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'QualifiedForAuctionOneDayDuration'    => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'QualifiedForAuctionOneDayDuration',
         ],
     ];

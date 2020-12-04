@@ -24,27 +24,27 @@ class CategoryTree extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'applicableMarketplaceIds' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'applicableMarketplaceIds',
         ],
-        'categoryTreeId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeId'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
-        'categoryTreeVersion' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'categoryTreeVersion'      => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'categoryTreeVersion',
         ],
-        'rootCategoryNode' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
-            'repeatable' => false,
-            'attribute' => false,
+        'rootCategoryNode'         => [
+            'type'        => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'rootCategoryNode',
         ],
     ];

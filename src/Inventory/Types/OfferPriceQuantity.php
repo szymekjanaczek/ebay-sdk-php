@@ -23,21 +23,21 @@ class OfferPriceQuantity extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'availableQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'availableQuantity',
         ],
-        'offerId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'offerId'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'offerId',
         ],
-        'price' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+        'price'             => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'price',
         ],
     ];

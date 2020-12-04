@@ -21,9 +21,9 @@ class RemoveProfileRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types
      */
     private static $propertyTypes = [
         'profileId' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'profileId',
         ],
     ];

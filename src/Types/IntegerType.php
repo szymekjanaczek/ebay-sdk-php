@@ -14,9 +14,9 @@ class IntegerType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'value' => [
-            'type' => 'integer',
+            'type'       => 'integer',
             'repeatable' => false,
-            'attribute' => false,
+            'attribute'  => false,
         ],
     ];
 

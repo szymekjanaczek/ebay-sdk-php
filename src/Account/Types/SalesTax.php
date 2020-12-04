@@ -23,28 +23,28 @@ class SalesTax extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'countryCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'countryCode'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'countryCode',
         ],
-        'salesTaxJurisdictionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'salesTaxJurisdictionId'   => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'salesTaxJurisdictionId',
         ],
-        'salesTaxPercentage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'salesTaxPercentage'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'salesTaxPercentage',
         ],
         'shippingAndHandlingTaxed' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingAndHandlingTaxed',
         ],
     ];

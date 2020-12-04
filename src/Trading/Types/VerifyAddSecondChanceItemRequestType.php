@@ -25,33 +25,33 @@ class VerifyAddSecondChanceItemRequestType extends \DTS\eBaySDK\Trading\Types\Ab
      */
     private static $propertyTypes = [
         'RecipientBidderUserID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RecipientBidderUserID',
         ],
-        'BuyItNowPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'repeatable' => false,
-            'attribute' => false,
+        'BuyItNowPrice'         => [
+            'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'BuyItNowPrice',
         ],
-        'Duration' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'Duration'              => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Duration',
         ],
-        'ItemID' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'ItemID'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'SellerMessage' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'SellerMessage'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SellerMessage',
         ],
     ];

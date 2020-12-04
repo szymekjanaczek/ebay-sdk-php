@@ -22,15 +22,15 @@ class VariesBy extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'aspectsImageVariesBy' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'aspectsImageVariesBy',
         ],
-        'specifications' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Specification',
-            'repeatable' => true,
-            'attribute' => false,
+        'specifications'       => [
+            'type'        => 'DTS\eBaySDK\Inventory\Types\Specification',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'specifications',
         ],
     ];

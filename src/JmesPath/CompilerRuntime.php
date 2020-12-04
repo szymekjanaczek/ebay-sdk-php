@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -46,15 +47,15 @@ class CompilerRuntime
      */
     public function __construct($dir = null, Parser $parser = null)
     {
-        $this->parser = $parser ?: new Parser();
+        $this->parser   = $parser ?: new Parser();
         $this->compiler = new TreeCompiler();
-        $dir = $dir ?: sys_get_temp_dir();
+        $dir            = $dir ?: sys_get_temp_dir();
 
         if (!is_dir($dir) && !mkdir($dir, 0755, true)) {
             throw new \RuntimeException("Unable to create cache directory: $dir");
         }
 
-        $this->cacheDir = realpath($dir);
+        $this->cacheDir    = realpath($dir);
         $this->interpreter = new TreeInterpreter();
     }
 
@@ -63,7 +64,7 @@ class CompilerRuntime
      * expression.
      *
      * @param string $expression JMESPath expression to evaluate
-     * @param mixed  $data       Data to search. This data should be data that
+     * @param mixed $data Data to search. This data should be data that
      *                           is similar to data returned from json_decode
      *                           using associative arrays rather than objects.
      *

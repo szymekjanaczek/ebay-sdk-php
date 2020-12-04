@@ -22,15 +22,15 @@ class ItemRatingDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'RatingDetail' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'RatingDetail',
         ],
-        'Rating' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'Rating'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'Rating',
         ],
     ];

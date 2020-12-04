@@ -21,9 +21,9 @@ class BaseRequest extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'extension' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ExtensionType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ExtensionType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'extension',
         ],
     ];

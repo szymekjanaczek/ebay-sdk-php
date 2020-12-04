@@ -21,9 +21,9 @@ class StartUploadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServ
      */
     private static $propertyTypes = [
         'jobId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'jobId',
         ],
     ];

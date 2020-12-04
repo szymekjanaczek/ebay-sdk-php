@@ -11,11 +11,11 @@ class UriResolver
      * @var array Map of type to function that confirms type.
      */
     private static $typeMap = [
-        'array' => 'is_array',
-        'bool' => 'is_bool',
+        'array'    => 'is_array',
+        'bool'     => 'is_bool',
         'callable' => 'is_callable',
-        'int' => 'is_int',
-        'string' => 'is_string',
+        'int'      => 'is_int',
+        'string'   => 'is_string',
     ];
 
     public function __construct()
@@ -84,7 +84,7 @@ class UriResolver
         }
 
         $expected = implode('|', $valid);
-        $msg = sprintf(
+        $msg      = sprintf(
             'Invalid uri parameter value provided for "%s". Expected %s, but got %s',
             $name,
             $expected,

@@ -21,9 +21,9 @@ class FindProductsByCompatibilityRequest extends \DTS\eBaySDK\Product\Types\Base
      */
     private static $propertyTypes = [
         'productByCompatibilitySearch' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'productByCompatibilitySearch',
         ],
     ];

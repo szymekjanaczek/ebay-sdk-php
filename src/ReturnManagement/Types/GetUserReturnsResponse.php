@@ -21,16 +21,16 @@ class GetUserReturnsResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'returns' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
-            'repeatable' => true,
-            'attribute' => false,
+        'returns'          => [
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'returns',
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\PaginationOutput',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\ReturnManagement\Types\PaginationOutput',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
     ];

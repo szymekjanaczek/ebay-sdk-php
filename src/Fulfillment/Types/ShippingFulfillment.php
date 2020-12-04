@@ -25,40 +25,40 @@ class ShippingFulfillment extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'fulfillmentId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'fulfillmentId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fulfillmentId',
         ],
-        'lineItems' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemReference',
-            'repeatable' => true,
-            'attribute' => false,
+        'lineItems'              => [
+            'type'        => 'DTS\eBaySDK\Fulfillment\Types\LineItemReference',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'lineItems',
         ],
         'shipmentTrackingNumber' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shipmentTrackingNumber',
         ],
-        'shippedDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippedDate'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippedDate',
         ],
-        'shippingCarrierCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingCarrierCode'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingServiceCode' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'shippingServiceCode'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'shippingServiceCode',
         ],
     ];

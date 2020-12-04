@@ -20,16 +20,17 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 class Utils
 {
     public static $typeMap = [
         'boolean' => 'boolean',
-        'string' => 'string',
-        'NULL' => 'null',
-        'double' => 'number',
-        'float' => 'number',
+        'string'  => 'string',
+        'NULL'    => 'null',
+        'double'  => 'number',
+        'float'   => 'number',
         'integer' => 'number',
     ];
 
@@ -45,11 +46,11 @@ class Utils
         if (!$value) {
             return $value === 0 || $value === '0';
         } elseif ($value instanceof \stdClass) {
-            return (bool) get_object_vars($value);
+            return (bool)get_object_vars($value);
         } elseif ($value instanceof JmesPathableArrayInterface) {
             return Utils::isTruthy(iterator_to_array($value));
         } elseif ($value instanceof JmesPathableObjectInterface) {
-            return (bool) $value->toArray();
+            return (bool)$value->toArray();
         } else {
             return true;
         }
@@ -156,9 +157,9 @@ class Utils
         if ($a === $b) {
             return true;
         } elseif ($a instanceof \stdClass) {
-            return self::isEqual((array) $a, $b);
+            return self::isEqual((array)$a, $b);
         } elseif ($b instanceof \stdClass) {
-            return self::isEqual($a, (array) $b);
+            return self::isEqual($a, (array)$b);
         } elseif ($a instanceof JmesPathableArrayInterface) {
             return Utils::isEqual(iterator_to_array($a), $b);
         } elseif ($b instanceof JmesPathableArrayInterface) {
@@ -177,7 +178,7 @@ class Utils
      * a simple Schwartzian transform that uses array index positions as tie
      * breakers.
      *
-     * @param array    $data   List or map of data to sort
+     * @param array $data List or map of data to sort
      * @param callable $sortFn Callable used to sort values
      *
      * @return array Returns the sorted array
@@ -204,9 +205,9 @@ class Utils
      * Creates a Python-style slice of a string or array.
      *
      * @param array|string $value Value to slice
-     * @param int|null     $start Starting position
-     * @param int|null     $stop  Stop position
-     * @param int          $step  Step (1, 2, -1, -2, etc.)
+     * @param int|null $start Starting position
+     * @param int|null $stop Stop position
+     * @param int $step Step (1, 2, -1, -2, etc.)
      *
      * @return array|string
      * @throws \InvalidArgumentException
@@ -260,7 +261,7 @@ class Utils
     private static function sliceIndices($subject, $start, $stop, $step)
     {
         $type = gettype($subject);
-        $len = $type == 'string' ? strlen($subject) : count($subject);
+        $len  = $type == 'string' ? strlen($subject) : count($subject);
         list($start, $stop, $step) = self::adjustSlice($len, $start, $stop, $step);
 
         $result = [];

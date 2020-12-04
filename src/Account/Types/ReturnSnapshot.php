@@ -22,22 +22,22 @@ class ReturnSnapshot extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'lookbackPeriod' => [
-            'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
-            'repeatable' => false,
-            'attribute' => false,
+        'lookbackPeriod'         => [
+            'type'        => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'lookbackPeriod',
         ],
         'returnedInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Account\Types\Amount',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnedInventoryValue',
         ],
-        'returnedQuantity' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'returnedQuantity'       => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'returnedQuantity',
         ],
     ];

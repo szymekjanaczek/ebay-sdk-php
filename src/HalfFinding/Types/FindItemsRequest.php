@@ -23,28 +23,28 @@ class FindItemsRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productID' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
-            'repeatable' => false,
-            'attribute' => false,
+        'productID'       => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'productID',
         ],
         'paginationInput' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\PaginationInputType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\PaginationInputType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'paginationInput',
         ],
-        'itemFilter' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ItemFilter',
-            'repeatable' => true,
-            'attribute' => false,
+        'itemFilter'      => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\ItemFilter',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'sortBy' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\SortByType',
-            'repeatable' => false,
-            'attribute' => false,
+        'sortBy'          => [
+            'type'        => 'DTS\eBaySDK\HalfFinding\Types\SortByType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'sortBy',
         ],
     ];

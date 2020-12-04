@@ -22,22 +22,22 @@ class GetUserProfileResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'User' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\SimpleUserType',
-            'repeatable' => false,
-            'attribute' => false,
+        'User'            => [
+            'type'        => 'DTS\eBaySDK\Shopping\Types\SimpleUserType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'User',
         ],
         'FeedbackHistory' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackHistoryType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Shopping\Types\FeedbackHistoryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'FeedbackHistory',
         ],
         'FeedbackDetails' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackDetailType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Shopping\Types\FeedbackDetailType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'FeedbackDetails',
         ],
     ];

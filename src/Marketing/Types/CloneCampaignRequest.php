@@ -23,28 +23,28 @@ class CloneCampaignRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'campaignName' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'campaignName'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'campaignName',
         ],
-        'endDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'endDate'         => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'endDate',
         ],
         'fundingStrategy' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\FundingStrategy',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Marketing\Types\FundingStrategy',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'fundingStrategy',
         ],
-        'startDate' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'startDate'       => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'startDate',
         ],
     ];

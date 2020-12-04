@@ -21,9 +21,9 @@ class GetReturnMetadataRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseR
      */
     private static $propertyTypes = [
         'metadataEntryCode' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'metadataEntryCode',
         ],
     ];

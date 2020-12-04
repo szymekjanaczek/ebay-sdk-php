@@ -21,9 +21,9 @@ class UpdateItemPromotionRestRequest extends \DTS\eBaySDK\Marketing\Types\ItemPr
      */
     private static $propertyTypes = [
         'promotion_id' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'promotion_id',
         ],
     ];

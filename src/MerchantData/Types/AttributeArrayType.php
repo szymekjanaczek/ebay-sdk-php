@@ -21,9 +21,9 @@ class AttributeArrayType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Attribute' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AttributeType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\AttributeType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Attribute',
         ],
     ];

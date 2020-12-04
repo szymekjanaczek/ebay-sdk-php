@@ -21,9 +21,9 @@ class ListingRecommendationsType extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'Recommendation' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationType',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'Recommendation',
         ],
     ];

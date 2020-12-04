@@ -22,15 +22,15 @@ class ItemCondition extends \DTS\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'conditionDescription' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'conditionDescription',
         ],
-        'conditionId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'conditionId'          => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'conditionId',
         ],
     ];

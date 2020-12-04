@@ -21,9 +21,9 @@ class ProvidesReturnAddressRestRequest extends \DTS\eBaySDK\PostOrder\Types\Retu
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'caseId',
         ],
     ];

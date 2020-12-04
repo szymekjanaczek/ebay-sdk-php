@@ -21,9 +21,9 @@ class UpdateReturnDraftRestRequest extends \DTS\eBaySDK\PostOrder\Types\SetRetur
      */
     private static $propertyTypes = [
         'draftId' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'draftId',
         ],
     ];
