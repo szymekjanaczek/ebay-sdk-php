@@ -27,26 +27,26 @@ class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ColorSchemeID'
+            'elementName' => 'ColorSchemeID',
         ],
         'Name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'Color' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreColorType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Color'
+            'elementName' => 'Color',
         ],
         'Font' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreFontType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Font'
-        ]
+            'elementName' => 'Font',
+        ],
     ];
 
     /**

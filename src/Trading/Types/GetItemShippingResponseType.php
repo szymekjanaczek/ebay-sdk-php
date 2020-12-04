@@ -25,14 +25,14 @@ class GetItemShippingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingDetails'
+            'elementName' => 'ShippingDetails',
         ],
         'PickUpInStoreDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickUpInStoreDetails'
-        ]
+            'elementName' => 'PickUpInStoreDetails',
+        ],
     ];
 
     /**

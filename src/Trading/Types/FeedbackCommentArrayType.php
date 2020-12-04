@@ -24,8 +24,8 @@ class FeedbackCommentArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'StoredCommentText'
-        ]
+            'elementName' => 'StoredCommentText',
+        ],
     ];
 
     /**

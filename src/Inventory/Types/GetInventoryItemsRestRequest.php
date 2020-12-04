@@ -25,14 +25,14 @@ class GetInventoryItemsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
-        ]
+            'elementName' => 'offset',
+        ],
     ];
 
     /**

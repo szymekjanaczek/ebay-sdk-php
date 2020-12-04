@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class INEscrowWorkflowTimelineCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DEFAULT = 'Default';
-    const C_WORKFLOWA = 'WorkflowA';
-    const C_WORKFLOWB = 'WorkflowB';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DEFAULT = 'Default';
+    public const C_WORKFLOWA = 'WorkflowA';
+    public const C_WORKFLOWB = 'WorkflowB';
 }

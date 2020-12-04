@@ -26,20 +26,20 @@ class GetReportTasksRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'report_task_statuses' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'report_task_statuses'
-        ]
+            'elementName' => 'report_task_statuses',
+        ],
     ];
 
     /**

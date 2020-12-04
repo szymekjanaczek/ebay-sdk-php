@@ -27,26 +27,26 @@ class GetSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\T
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'profileType'
+            'elementName' => 'profileType',
         ],
         'profileId' => [
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'profileId'
+            'elementName' => 'profileId',
         ],
         'profileName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'profileName'
+            'elementName' => 'profileName',
         ],
         'includeDetails' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeDetails'
-        ]
+            'elementName' => 'includeDetails',
+        ],
     ];
 
     /**

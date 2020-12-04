@@ -25,14 +25,14 @@ class EligibilityResponseError extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'id'
+            'elementName' => 'id',
         ],
         'severity' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'severity'
-        ]
+            'elementName' => 'severity',
+        ],
     ];
 
     /**

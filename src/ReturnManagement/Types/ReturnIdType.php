@@ -24,8 +24,8 @@ class ReturnIdType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'id'
-        ]
+            'elementName' => 'id',
+        ],
     ];
 
     /**

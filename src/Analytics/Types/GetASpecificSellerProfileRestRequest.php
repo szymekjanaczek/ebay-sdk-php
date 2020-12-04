@@ -25,14 +25,14 @@ class GetASpecificSellerProfileRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cycle'
+            'elementName' => 'cycle',
         ],
         'program' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'program'
-        ]
+            'elementName' => 'program',
+        ],
     ];
 
     /**

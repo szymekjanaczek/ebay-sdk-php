@@ -27,26 +27,26 @@ class CategorySuggestion extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Taxonomy\Types\Category',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category'
+            'elementName' => 'category',
         ],
         'categoryTreeNodeAncestors' => [
             'type' => 'DTS\eBaySDK\Taxonomy\Types\AncestorReference',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryTreeNodeAncestors'
+            'elementName' => 'categoryTreeNodeAncestors',
         ],
         'categoryTreeNodeLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeNodeLevel'
+            'elementName' => 'categoryTreeNodeLevel',
         ],
         'relevancy' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'relevancy'
-        ]
+            'elementName' => 'relevancy',
+        ],
     ];
 
     /**

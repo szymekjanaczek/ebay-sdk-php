@@ -24,8 +24,8 @@ class CreateOrReplaceInventoryItemRestRequest extends \DTS\eBaySDK\Inventory\Typ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
-        ]
+            'elementName' => 'sku',
+        ],
     ];
 
     /**

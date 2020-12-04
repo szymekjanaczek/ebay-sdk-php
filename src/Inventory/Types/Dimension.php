@@ -27,26 +27,26 @@ class Dimension extends \DTS\eBaySDK\Types\BaseType
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'height'
+            'elementName' => 'height',
         ],
         'length' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'length'
+            'elementName' => 'length',
         ],
         'unit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'unit'
+            'elementName' => 'unit',
         ],
         'width' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'width'
-        ]
+            'elementName' => 'width',
+        ],
     ];
 
     /**

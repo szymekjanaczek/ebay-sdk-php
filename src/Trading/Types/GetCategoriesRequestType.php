@@ -27,26 +27,26 @@ class GetCategoriesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategorySiteID'
+            'elementName' => 'CategorySiteID',
         ],
         'CategoryParent' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CategoryParent'
+            'elementName' => 'CategoryParent',
         ],
         'LevelLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LevelLimit'
+            'elementName' => 'LevelLimit',
         ],
         'ViewAllNodes' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ViewAllNodes'
-        ]
+            'elementName' => 'ViewAllNodes',
+        ],
     ];
 
     /**

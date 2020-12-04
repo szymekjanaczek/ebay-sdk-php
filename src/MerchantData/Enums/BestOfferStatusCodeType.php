@@ -12,16 +12,16 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class BestOfferStatusCodeType
 {
-    const C_ACCEPTED = 'Accepted';
-    const C_ACTIVE = 'Active';
-    const C_ADMIN_ENDED = 'AdminEnded';
-    const C_ALL = 'All';
-    const C_COUNTERED = 'Countered';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DECLINED = 'Declined';
-    const C_EXPIRED = 'Expired';
-    const C_PENDING = 'Pending';
-    const C_PENDING_BUYER_CONFIRMATION = 'PendingBuyerConfirmation';
-    const C_PENDING_BUYER_PAYMENT = 'PendingBuyerPayment';
-    const C_RETRACTED = 'Retracted';
+    public const C_ACCEPTED = 'Accepted';
+    public const C_ACTIVE = 'Active';
+    public const C_ADMIN_ENDED = 'AdminEnded';
+    public const C_ALL = 'All';
+    public const C_COUNTERED = 'Countered';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DECLINED = 'Declined';
+    public const C_EXPIRED = 'Expired';
+    public const C_PENDING = 'Pending';
+    public const C_PENDING_BUYER_CONFIRMATION = 'PendingBuyerConfirmation';
+    public const C_PENDING_BUYER_PAYMENT = 'PendingBuyerPayment';
+    public const C_RETRACTED = 'Retracted';
 }

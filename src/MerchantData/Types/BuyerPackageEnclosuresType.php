@@ -24,8 +24,8 @@ class BuyerPackageEnclosuresType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'BuyerPackageEnclosure'
-        ]
+            'elementName' => 'BuyerPackageEnclosure',
+        ],
     ];
 
     /**

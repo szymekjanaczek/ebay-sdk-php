@@ -24,8 +24,8 @@ class AddFixedPriceItemRequestType extends \DTS\eBaySDK\MerchantData\Types\Abstr
             'type' => 'DTS\eBaySDK\MerchantData\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

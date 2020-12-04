@@ -26,20 +26,20 @@ class VariationsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Shopping\Types\VariationType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Variation'
+            'elementName' => 'Variation',
         ],
         'Pictures' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\PicturesType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Pictures'
+            'elementName' => 'Pictures',
         ],
         'VariationSpecificsSet' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecificsSet'
-        ]
+            'elementName' => 'VariationSpecificsSet',
+        ],
     ];
 
     /**

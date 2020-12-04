@@ -25,14 +25,14 @@ class DeliveryEstimateMetaInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'key'
+            'elementName' => 'key',
         ],
         'value' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

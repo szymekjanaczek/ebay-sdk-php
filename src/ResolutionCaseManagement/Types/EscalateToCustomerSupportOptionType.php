@@ -24,8 +24,8 @@ class EscalateToCustomerSupportOptionType extends \DTS\eBaySDK\ResolutionCaseMan
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'customerSupportResponseTimeInHours'
-        ]
+            'elementName' => 'customerSupportResponseTimeInHours',
+        ],
     ];
 
     /**

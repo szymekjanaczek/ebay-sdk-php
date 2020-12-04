@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class MoneyMovementStatusEnum
 {
-    const C_FAILED = 'FAILED';
-    const C_PENDING = 'PENDING';
-    const C_REQUESTED = 'REQUESTED';
-    const C_SUCCESS = 'SUCCESS';
-    const C_UNKNOWN = 'UNKNOWN';
+    public const C_FAILED = 'FAILED';
+    public const C_PENDING = 'PENDING';
+    public const C_REQUESTED = 'REQUESTED';
+    public const C_SUCCESS = 'SUCCESS';
+    public const C_UNKNOWN = 'UNKNOWN';
 }

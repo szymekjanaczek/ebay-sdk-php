@@ -29,38 +29,38 @@ class ValidateTestUserRegistrationRequestType extends \DTS\eBaySDK\Trading\Types
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackScore'
+            'elementName' => 'FeedbackScore',
         ],
         'RegistrationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RegistrationDate'
+            'elementName' => 'RegistrationDate',
         ],
         'SubscribeSA' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SubscribeSA'
+            'elementName' => 'SubscribeSA',
         ],
         'SubscribeSAPro' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SubscribeSAPro'
+            'elementName' => 'SubscribeSAPro',
         ],
         'SubscribeSM' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SubscribeSM'
+            'elementName' => 'SubscribeSM',
         ],
         'SubscribeSMPro' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SubscribeSMPro'
-        ]
+            'elementName' => 'SubscribeSMPro',
+        ],
     ];
 
     /**

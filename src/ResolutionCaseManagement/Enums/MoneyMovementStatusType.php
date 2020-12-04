@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class MoneyMovementStatusType
 {
-    const C_CANCELLED = 'CANCELLED';
-    const C_COMPLETED = 'COMPLETED';
-    const C_SUCCESS = 'SUCCESS';
+    public const C_CANCELLED = 'CANCELLED';
+    public const C_COMPLETED = 'COMPLETED';
+    public const C_SUCCESS = 'SUCCESS';
 }

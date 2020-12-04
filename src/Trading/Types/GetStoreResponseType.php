@@ -24,8 +24,8 @@ class GetStoreResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTy
             'type' => 'DTS\eBaySDK\Trading\Types\StoreType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Store'
-        ]
+            'elementName' => 'Store',
+        ],
     ];
 
     /**

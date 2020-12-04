@@ -12,13 +12,13 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class ReturnSortEnum
 {
-    const C_ACTUAL_AMOUNT = 'ACTUAL_AMOUNT';
-    const C_BUYER_LOGIN_NAME = 'BUYER_LOGIN_NAME';
-    const C_ESTIMATED_AMOUNT = 'ESTIMATED_AMOUNT';
-    const C_FILING_DATE = 'FILING_DATE';
-    const C_REASON = 'REASON';
-    const C_REFUND_DUE_DATE = 'REFUND_DUE_DATE';
-    const C_RETURN_ID = 'RETURN_ID';
-    const C_STATUS = 'STATUS';
-    const C_UNKNOWN = 'UNKNOWN';
+    public const C_ACTUAL_AMOUNT = 'ACTUAL_AMOUNT';
+    public const C_BUYER_LOGIN_NAME = 'BUYER_LOGIN_NAME';
+    public const C_ESTIMATED_AMOUNT = 'ESTIMATED_AMOUNT';
+    public const C_FILING_DATE = 'FILING_DATE';
+    public const C_REASON = 'REASON';
+    public const C_REFUND_DUE_DATE = 'REFUND_DUE_DATE';
+    public const C_RETURN_ID = 'RETURN_ID';
+    public const C_STATUS = 'STATUS';
+    public const C_UNKNOWN = 'UNKNOWN';
 }

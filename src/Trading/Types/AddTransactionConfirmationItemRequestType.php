@@ -31,50 +31,50 @@ class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Typ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RecipientUserID'
+            'elementName' => 'RecipientUserID',
         ],
         'VerifyEligibilityOnly' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VerifyEligibilityOnly'
+            'elementName' => 'VerifyEligibilityOnly',
         ],
         'RecipientPostalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RecipientPostalCode'
+            'elementName' => 'RecipientPostalCode',
         ],
         'RecipientRelationType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RecipientRelationType'
+            'elementName' => 'RecipientRelationType',
         ],
         'NegotiatedPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NegotiatedPrice'
+            'elementName' => 'NegotiatedPrice',
         ],
         'ListingDuration' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingDuration'
+            'elementName' => 'ListingDuration',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'Comments' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Comments'
-        ]
+            'elementName' => 'Comments',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class ValidateChallengeInputResponseType extends \DTS\eBaySDK\Trading\Types\Abst
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ValidToken'
-        ]
+            'elementName' => 'ValidToken',
+        ],
     ];
 
     /**

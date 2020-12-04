@@ -29,38 +29,38 @@ class GetAllCampaignsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_name'
+            'elementName' => 'campaign_name',
         ],
         'campaign_status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_status'
+            'elementName' => 'campaign_status',
         ],
         'end_date_range' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'end_date_range'
+            'elementName' => 'end_date_range',
         ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'start_date_range' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'start_date_range'
-        ]
+            'elementName' => 'start_date_range',
+        ],
     ];
 
     /**

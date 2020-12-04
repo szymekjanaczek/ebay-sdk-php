@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class FeedbackTypeCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FEEDBACK_LEFT = 'FeedbackLeft';
-    const C_FEEDBACK_RECEIVED = 'FeedbackReceived';
-    const C_FEEDBACK_RECEIVED_AS_BUYER = 'FeedbackReceivedAsBuyer';
-    const C_FEEDBACK_RECEIVED_AS_SELLER = 'FeedbackReceivedAsSeller';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FEEDBACK_LEFT = 'FeedbackLeft';
+    public const C_FEEDBACK_RECEIVED = 'FeedbackReceived';
+    public const C_FEEDBACK_RECEIVED_AS_BUYER = 'FeedbackReceivedAsBuyer';
+    public const C_FEEDBACK_RECEIVED_AS_SELLER = 'FeedbackReceivedAsSeller';
 }

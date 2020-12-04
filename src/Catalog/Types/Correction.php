@@ -27,26 +27,26 @@ class Correction extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Catalog\Types\CorrectionAspectValues',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectValues'
+            'elementName' => 'aspectValues',
         ],
         'correctionCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'correctionCode'
+            'elementName' => 'correctionCode',
         ],
         'productAttribute' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\CorrectionProductAttribute',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productAttribute'
+            'elementName' => 'productAttribute',
         ],
         'reason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reason'
-        ]
+            'elementName' => 'reason',
+        ],
     ];
 
     /**

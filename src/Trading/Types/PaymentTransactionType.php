@@ -31,50 +31,50 @@ class PaymentTransactionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentStatus'
+            'elementName' => 'PaymentStatus',
         ],
         'Payer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UserIdentityType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Payer'
+            'elementName' => 'Payer',
         ],
         'Payee' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UserIdentityType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Payee'
+            'elementName' => 'Payee',
         ],
         'PaymentTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentTime'
+            'elementName' => 'PaymentTime',
         ],
         'PaymentAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentAmount'
+            'elementName' => 'PaymentAmount',
         ],
         'ReferenceID' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionReferenceType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReferenceID'
+            'elementName' => 'ReferenceID',
         ],
         'FeeOrCreditAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeeOrCreditAmount'
+            'elementName' => 'FeeOrCreditAmount',
         ],
         'PaymentReferenceID' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionReferenceType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PaymentReferenceID'
-        ]
+            'elementName' => 'PaymentReferenceID',
+        ],
     ];
 
     /**

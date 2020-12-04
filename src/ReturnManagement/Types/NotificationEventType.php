@@ -32,56 +32,56 @@ class NotificationEventType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NotificationEventName'
+            'elementName' => 'NotificationEventName',
         ],
         'RecipientUserID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RecipientUserID'
+            'elementName' => 'RecipientUserID',
         ],
         'ExternalUserData' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalUserData'
+            'elementName' => 'ExternalUserData',
         ],
         'ReturnId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnId'
+            'elementName' => 'ReturnId',
         ],
         'CreationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreationDate'
+            'elementName' => 'CreationDate',
         ],
         'OtherPartyId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OtherPartyId'
+            'elementName' => 'OtherPartyId',
         ],
         'OtherPartyRole' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OtherPartyRole'
+            'elementName' => 'OtherPartyRole',
         ],
         'ReturnStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnStatus'
+            'elementName' => 'ReturnStatus',
         ],
         'ReturnGlobalId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnGlobalId'
-        ]
+            'elementName' => 'ReturnGlobalId',
+        ],
     ];
 
     /**

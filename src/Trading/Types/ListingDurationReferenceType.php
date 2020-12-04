@@ -24,8 +24,8 @@ class ListingDurationReferenceType extends \DTS\eBaySDK\Types\IntegerType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'type'
-        ]
+            'attributeName' => 'type',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class FindItemsByCategoryResponse extends \DTS\eBaySDK\Finding\Types\BaseFinding
             'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryHistogramContainer'
+            'elementName' => 'categoryHistogramContainer',
         ],
         'aspectHistogramContainer' => [
             'type' => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectHistogramContainer'
+            'elementName' => 'aspectHistogramContainer',
         ],
         'conditionHistogramContainer' => [
             'type' => 'DTS\eBaySDK\Finding\Types\ConditionHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'conditionHistogramContainer'
-        ]
+            'elementName' => 'conditionHistogramContainer',
+        ],
     ];
 
     /**

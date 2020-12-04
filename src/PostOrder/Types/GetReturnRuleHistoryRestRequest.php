@@ -28,32 +28,32 @@ class GetReturnRuleHistoryRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'ruleId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ruleId'
+            'elementName' => 'ruleId',
         ],
         'trigger_date_range_from' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trigger_date_range_from'
+            'elementName' => 'trigger_date_range_from',
         ],
         'trigger_date_range_to' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trigger_date_range_to'
-        ]
+            'elementName' => 'trigger_date_range_to',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class MarkUpMarkDownEventType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Type'
+            'elementName' => 'Type',
         ],
         'Time' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Time'
+            'elementName' => 'Time',
         ],
         'Reason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Reason'
-        ]
+            'elementName' => 'Reason',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class MaximumUnpaidItemStrikesCountDetailsType extends \DTS\eBaySDK\Types\BaseTy
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Count'
-        ]
+            'elementName' => 'Count',
+        ],
     ];
 
     /**

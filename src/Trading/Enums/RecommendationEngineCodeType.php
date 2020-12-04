@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class RecommendationEngineCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_ITEM_SPECIFICS = 'ItemSpecifics';
-    const C_LISTING_ANALYZER = 'ListingAnalyzer';
-    const C_PRODUCT_PRICING = 'ProductPricing';
-    const C_SIFFTAS = 'SIFFTAS';
-    const C_SUGGESTED_ATTRIBUTES = 'SuggestedAttributes';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_ITEM_SPECIFICS = 'ItemSpecifics';
+    public const C_LISTING_ANALYZER = 'ListingAnalyzer';
+    public const C_PRODUCT_PRICING = 'ProductPricing';
+    public const C_SIFFTAS = 'SIFFTAS';
+    public const C_SUGGESTED_ATTRIBUTES = 'SuggestedAttributes';
 }

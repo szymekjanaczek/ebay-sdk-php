@@ -26,20 +26,20 @@ class ReturnSortField extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ascending'
+            'elementName' => 'ascending',
         ],
         'enumValue' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'enumValue'
+            'elementName' => 'enumValue',
         ],
         'field' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'field'
-        ]
+            'elementName' => 'field',
+        ],
     ];
 
     /**

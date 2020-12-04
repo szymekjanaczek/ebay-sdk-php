@@ -24,8 +24,8 @@ class RefundInformationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\RefundTransactionInfoType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Refund'
-        ]
+            'elementName' => 'Refund',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class ReasonCodeDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BriefText'
+            'elementName' => 'BriefText',
         ],
         'DetailedText' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailedText'
+            'elementName' => 'DetailedText',
         ],
         'codeID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'codeID'
-        ]
+            'attributeName' => 'codeID',
+        ],
     ];
 
     /**

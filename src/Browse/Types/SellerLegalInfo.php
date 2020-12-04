@@ -34,68 +34,68 @@ class SellerLegalInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'email'
+            'elementName' => 'email',
         ],
         'fax' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fax'
+            'elementName' => 'fax',
         ],
         'imprint' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'imprint'
+            'elementName' => 'imprint',
         ],
         'legalContactFirstName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legalContactFirstName'
+            'elementName' => 'legalContactFirstName',
         ],
         'legalContactLastName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legalContactLastName'
+            'elementName' => 'legalContactLastName',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'phone' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'phone'
+            'elementName' => 'phone',
         ],
         'registrationNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'registrationNumber'
+            'elementName' => 'registrationNumber',
         ],
         'sellerProvidedLegalAddress' => [
             'type' => 'DTS\eBaySDK\Browse\Types\LegalAddress',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerProvidedLegalAddress'
+            'elementName' => 'sellerProvidedLegalAddress',
         ],
         'termsOfService' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'termsOfService'
+            'elementName' => 'termsOfService',
         ],
         'vatDetails' => [
             'type' => 'DTS\eBaySDK\Browse\Types\VatDetail',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'vatDetails'
-        ]
+            'elementName' => 'vatDetails',
+        ],
     ];
 
     /**

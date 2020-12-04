@@ -26,20 +26,20 @@ class Aspect extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Taxonomy\Types\AspectConstraint',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectConstraint'
+            'elementName' => 'aspectConstraint',
         ],
         'aspectValues' => [
             'type' => 'DTS\eBaySDK\Taxonomy\Types\AspectValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectValues'
+            'elementName' => 'aspectValues',
         ],
         'localizedAspectName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'localizedAspectName'
-        ]
+            'elementName' => 'localizedAspectName',
+        ],
     ];
 
     /**

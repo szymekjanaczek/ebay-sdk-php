@@ -26,20 +26,20 @@ class BotBlockResponseType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BotBlockToken'
+            'elementName' => 'BotBlockToken',
         ],
         'BotBlockUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BotBlockUrl'
+            'elementName' => 'BotBlockUrl',
         ],
         'BotBlockAudioUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BotBlockAudioUrl'
-        ]
+            'elementName' => 'BotBlockAudioUrl',
+        ],
     ];
 
     /**

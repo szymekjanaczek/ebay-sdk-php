@@ -24,8 +24,8 @@ class IssueFullRefundOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Ty
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'daysToRefundBuyer'
-        ]
+            'elementName' => 'daysToRefundBuyer',
+        ],
     ];
 
     /**

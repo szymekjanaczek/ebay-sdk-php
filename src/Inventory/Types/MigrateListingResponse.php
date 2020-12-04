@@ -30,44 +30,44 @@ class MigrateListingResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'inventoryItemGroupKey' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryItemGroupKey'
+            'elementName' => 'inventoryItemGroupKey',
         ],
         'inventoryItems' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\InventoryItemListing',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'inventoryItems'
+            'elementName' => 'inventoryItems',
         ],
         'listingId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingId'
+            'elementName' => 'listingId',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'statusCode' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'statusCode'
+            'elementName' => 'statusCode',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

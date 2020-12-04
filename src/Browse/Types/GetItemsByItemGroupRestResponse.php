@@ -10,8 +10,8 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
 
 /**
  *
@@ -31,14 +31,14 @@ class GetItemsByItemGroupRestResponse extends \DTS\eBaySDK\Browse\Types\Items
             'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

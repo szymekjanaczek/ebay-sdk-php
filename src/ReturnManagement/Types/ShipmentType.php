@@ -32,56 +32,56 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipmentStatus'
+            'elementName' => 'shipmentStatus',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
+            'elementName' => 'trackingNumber',
         ],
         'carrierUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierUsed'
+            'elementName' => 'carrierUsed',
         ],
         'deliveryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryDate'
+            'elementName' => 'deliveryDate',
         ],
         'shippingCost' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCost'
+            'elementName' => 'shippingCost',
         ],
         'shippingAddress' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingAddress'
+            'elementName' => 'shippingAddress',
         ],
         'returnMerchandiseAuthorization' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnMerchandiseAuthorization'
+            'elementName' => 'returnMerchandiseAuthorization',
         ],
         'minEstDeliveryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minEstDeliveryDate'
+            'elementName' => 'minEstDeliveryDate',
         ],
         'maxEstDeliveryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxEstDeliveryDate'
-        ]
+            'elementName' => 'maxEstDeliveryDate',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class PaymentMethodBrand extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\Image',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'logoImage'
+            'elementName' => 'logoImage',
         ],
         'paymentMethodBrandType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMethodBrandType'
-        ]
+            'elementName' => 'paymentMethodBrandType',
+        ],
     ];
 
     /**

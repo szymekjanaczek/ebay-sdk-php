@@ -26,20 +26,20 @@ class DigitalDeliverySelectedType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryMethod'
+            'elementName' => 'DeliveryMethod',
         ],
         'DeliveryStatus' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\DeliveryStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryStatus'
+            'elementName' => 'DeliveryStatus',
         ],
         'DeliveryDetails' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\DeliveryDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryDetails'
-        ]
+            'elementName' => 'DeliveryDetails',
+        ],
     ];
 
     /**

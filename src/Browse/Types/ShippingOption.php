@@ -35,74 +35,74 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'additionalShippingCostPerUnit'
+            'elementName' => 'additionalShippingCostPerUnit',
         ],
         'cutOffDateUsedForEstimate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cutOffDateUsedForEstimate'
+            'elementName' => 'cutOffDateUsedForEstimate',
         ],
         'maxEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxEstimatedDeliveryDate'
+            'elementName' => 'maxEstimatedDeliveryDate',
         ],
         'minEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minEstimatedDeliveryDate'
+            'elementName' => 'minEstimatedDeliveryDate',
         ],
         'quantityUsedForEstimate' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantityUsedForEstimate'
+            'elementName' => 'quantityUsedForEstimate',
         ],
         'shippingCarrierCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCarrierCode'
+            'elementName' => 'shippingCarrierCode',
         ],
         'shippingCost' => [
             'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCost'
+            'elementName' => 'shippingCost',
         ],
         'shippingCostType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCostType'
+            'elementName' => 'shippingCostType',
         ],
         'shippingServiceCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingServiceCode'
+            'elementName' => 'shippingServiceCode',
         ],
         'shipToLocationUsedForEstimate' => [
             'type' => 'DTS\eBaySDK\Browse\Types\ShipToLocation',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipToLocationUsedForEstimate'
+            'elementName' => 'shipToLocationUsedForEstimate',
         ],
         'trademarkSymbol' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trademarkSymbol'
+            'elementName' => 'trademarkSymbol',
         ],
         'type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
-        ]
+            'elementName' => 'type',
+        ],
     ];
 
     /**

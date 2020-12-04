@@ -26,20 +26,20 @@ class AddItemFromSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateID'
+            'elementName' => 'SaleTemplateID',
         ],
         'ScheduleTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ScheduleTime'
+            'elementName' => 'ScheduleTime',
         ],
         'Item' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

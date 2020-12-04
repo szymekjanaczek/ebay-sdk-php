@@ -25,14 +25,14 @@ class MaximumUnpaidItemStrikesDurationDetailsType extends \DTS\eBaySDK\Types\Bas
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Period'
+            'elementName' => 'Period',
         ],
         'Description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
-        ]
+            'elementName' => 'Description',
+        ],
     ];
 
     /**

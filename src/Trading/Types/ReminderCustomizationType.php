@@ -25,14 +25,14 @@ class ReminderCustomizationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DurationInDays'
+            'elementName' => 'DurationInDays',
         ],
         'Include' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Include'
-        ]
+            'elementName' => 'Include',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class GetUserProfileResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractRes
             'type' => 'DTS\eBaySDK\Shopping\Types\SimpleUserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'User'
+            'elementName' => 'User',
         ],
         'FeedbackHistory' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackHistoryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackHistory'
+            'elementName' => 'FeedbackHistory',
         ],
         'FeedbackDetails' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FeedbackDetails'
-        ]
+            'elementName' => 'FeedbackDetails',
+        ],
     ];
 
     /**

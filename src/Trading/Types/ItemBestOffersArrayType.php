@@ -24,8 +24,8 @@ class ItemBestOffersArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\ItemBestOffersType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ItemBestOffers'
-        ]
+            'elementName' => 'ItemBestOffers',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class UpdateShippingOption extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemId'
+            'elementName' => 'lineItemId',
         ],
         'shippingOptionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingOptionId'
-        ]
+            'elementName' => 'shippingOptionId',
+        ],
     ];
 
     /**

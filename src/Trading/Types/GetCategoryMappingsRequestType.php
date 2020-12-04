@@ -24,8 +24,8 @@ class GetCategoryMappingsRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryVersion'
-        ]
+            'elementName' => 'CategoryVersion',
+        ],
     ];
 
     /**

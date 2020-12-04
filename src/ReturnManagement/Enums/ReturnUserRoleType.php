@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 
 class ReturnUserRoleType
 {
-    const C_BUYER = 'BUYER';
-    const C_EBAY = 'EBAY';
-    const C_OTHER = 'OTHER';
-    const C_SELLER = 'SELLER';
-    const C_SYSTEM = 'SYSTEM';
+    public const C_BUYER = 'BUYER';
+    public const C_EBAY = 'EBAY';
+    public const C_OTHER = 'OTHER';
+    public const C_SELLER = 'SELLER';
+    public const C_SYSTEM = 'SYSTEM';
 }

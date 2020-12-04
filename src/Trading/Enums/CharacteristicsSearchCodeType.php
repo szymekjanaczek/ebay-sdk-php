@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class CharacteristicsSearchCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_MULTI = 'Multi';
-    const C_SINGLE = 'Single';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_MULTI = 'Multi';
+    public const C_SINGLE = 'Single';
 }

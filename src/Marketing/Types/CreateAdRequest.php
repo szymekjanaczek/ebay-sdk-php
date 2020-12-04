@@ -25,14 +25,14 @@ class CreateAdRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bidPercentage'
+            'elementName' => 'bidPercentage',
         ],
         'listingId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingId'
-        ]
+            'elementName' => 'listingId',
+        ],
     ];
 
     /**

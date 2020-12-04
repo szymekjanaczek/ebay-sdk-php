@@ -25,14 +25,14 @@ class AdReference extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'adId'
+            'elementName' => 'adId',
         ],
         'href' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'href'
-        ]
+            'elementName' => 'href',
+        ],
     ];
 
     /**

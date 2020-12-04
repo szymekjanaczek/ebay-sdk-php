@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 /**
@@ -19,7 +20,7 @@ class ConfigurationResolver
         'bool' => 'is_bool',
         'callable' => 'is_callable',
         'int' => 'is_int',
-        'string' => 'is_string'
+        'string' => 'is_string',
     ];
 
     /**

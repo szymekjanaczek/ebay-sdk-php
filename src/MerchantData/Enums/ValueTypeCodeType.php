@@ -12,23 +12,23 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class ValueTypeCodeType
 {
-    const C_CEDULA = 'CEDULA';
-    const C_CNPJ = 'CNPJ';
-    const C_CODICE_FISCALE = 'CodiceFiscale';
-    const C_CPF_TAXID = 'CPFTaxID';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DATE = 'Date';
-    const C_DECIMAL = 'Decimal';
-    const C_DNI = 'DNI';
-    const C_DRIVER_LICENSE = 'DriverLicense';
-    const C_EAN = 'EAN';
-    const C_ISBN = 'ISBN';
-    const C_NIE = 'NIE';
-    const C_NIF = 'NIF';
-    const C_NIT = 'NIT';
-    const C_NUMERIC = 'Numeric';
-    const C_RUSSIAN_PASSPORT = 'RussianPassport';
-    const C_TEXT = 'Text';
-    const C_TURKEYID = 'TurkeyID';
-    const C_UPC = 'UPC';
+    public const C_CEDULA = 'CEDULA';
+    public const C_CNPJ = 'CNPJ';
+    public const C_CODICE_FISCALE = 'CodiceFiscale';
+    public const C_CPF_TAXID = 'CPFTaxID';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DATE = 'Date';
+    public const C_DECIMAL = 'Decimal';
+    public const C_DNI = 'DNI';
+    public const C_DRIVER_LICENSE = 'DriverLicense';
+    public const C_EAN = 'EAN';
+    public const C_ISBN = 'ISBN';
+    public const C_NIE = 'NIE';
+    public const C_NIF = 'NIF';
+    public const C_NIT = 'NIT';
+    public const C_NUMERIC = 'Numeric';
+    public const C_RUSSIAN_PASSPORT = 'RussianPassport';
+    public const C_TEXT = 'Text';
+    public const C_TURKEYID = 'TurkeyID';
+    public const C_UPC = 'UPC';
 }

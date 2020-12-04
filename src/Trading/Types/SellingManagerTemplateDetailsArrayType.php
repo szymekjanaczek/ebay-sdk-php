@@ -24,8 +24,8 @@ class SellingManagerTemplateDetailsArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SellingManagerTemplateDetails'
-        ]
+            'elementName' => 'SellingManagerTemplateDetails',
+        ],
     ];
 
     /**

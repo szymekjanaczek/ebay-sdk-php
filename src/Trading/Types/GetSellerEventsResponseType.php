@@ -25,14 +25,14 @@ class GetSellerEventsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TimeTo'
+            'elementName' => 'TimeTo',
         ],
         'ItemArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemArray'
-        ]
+            'elementName' => 'ItemArray',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class GetRelatedCategoryItemsRequest extends \DTS\eBaySDK\Merchandising\Types\Ba
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'itemFilter' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemFilter'
-        ]
+            'elementName' => 'itemFilter',
+        ],
     ];
 
     /**

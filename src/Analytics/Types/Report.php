@@ -29,38 +29,38 @@ class Report extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endDate'
+            'elementName' => 'endDate',
         ],
         'header' => [
             'type' => 'DTS\eBaySDK\Analytics\Types\Header',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'header'
+            'elementName' => 'header',
         ],
         'lastUpdatedDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastUpdatedDate'
+            'elementName' => 'lastUpdatedDate',
         ],
         'records' => [
             'type' => 'DTS\eBaySDK\Analytics\Types\Record',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'records'
+            'elementName' => 'records',
         ],
         'startDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startDate'
+            'elementName' => 'startDate',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

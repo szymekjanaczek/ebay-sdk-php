@@ -26,20 +26,20 @@ class CampaignCriterion extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'autoSelectFutureInventory'
+            'elementName' => 'autoSelectFutureInventory',
         ],
         'criterionType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'criterionType'
+            'elementName' => 'criterionType',
         ],
         'selectionRules' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'selectionRules'
-        ]
+            'elementName' => 'selectionRules',
+        ],
     ];
 
     /**

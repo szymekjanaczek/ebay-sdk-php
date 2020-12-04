@@ -25,14 +25,14 @@ class SuggestedCategoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Category'
+            'elementName' => 'Category',
         ],
         'PercentItemFound' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PercentItemFound'
-        ]
+            'elementName' => 'PercentItemFound',
+        ],
     ];
 
     /**

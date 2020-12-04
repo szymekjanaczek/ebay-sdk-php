@@ -25,14 +25,14 @@ class WarrantyTypeDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WarrantyTypeOption'
+            'elementName' => 'WarrantyTypeOption',
         ],
         'Description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
-        ]
+            'elementName' => 'Description',
+        ],
     ];
 
     /**

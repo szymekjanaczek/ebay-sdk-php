@@ -26,20 +26,20 @@ class ListingDesignerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LayoutID'
+            'elementName' => 'LayoutID',
         ],
         'OptimalPictureSize' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OptimalPictureSize'
+            'elementName' => 'OptimalPictureSize',
         ],
         'ThemeID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ThemeID'
-        ]
+            'elementName' => 'ThemeID',
+        ],
     ];
 
     /**

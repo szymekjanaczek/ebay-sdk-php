@@ -25,14 +25,14 @@ class PaginationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EntriesPerPage'
+            'elementName' => 'EntriesPerPage',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
-        ]
+            'elementName' => 'PageNumber',
+        ],
     ];
 
     /**

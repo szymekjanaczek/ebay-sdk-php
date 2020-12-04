@@ -24,8 +24,8 @@ class ListingRecommendationsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Recommendation'
-        ]
+            'elementName' => 'Recommendation',
+        ],
     ];
 
     /**

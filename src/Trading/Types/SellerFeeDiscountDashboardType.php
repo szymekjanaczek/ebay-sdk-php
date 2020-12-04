@@ -24,8 +24,8 @@ class SellerFeeDiscountDashboardType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Percent'
-        ]
+            'elementName' => 'Percent',
+        ],
     ];
 
     /**

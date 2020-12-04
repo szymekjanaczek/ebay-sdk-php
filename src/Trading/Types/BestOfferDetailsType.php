@@ -27,26 +27,26 @@ class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferCount'
+            'elementName' => 'BestOfferCount',
         ],
         'BestOfferEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferEnabled'
+            'elementName' => 'BestOfferEnabled',
         ],
         'BestOffer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOffer'
+            'elementName' => 'BestOffer',
         ],
         'BestOfferStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferStatus'
-        ]
+            'elementName' => 'BestOfferStatus',
+        ],
     ];
 
     /**

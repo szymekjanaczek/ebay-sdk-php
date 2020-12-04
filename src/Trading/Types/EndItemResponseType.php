@@ -24,8 +24,8 @@ class EndItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTyp
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
-        ]
+            'elementName' => 'EndTime',
+        ],
     ];
 
     /**

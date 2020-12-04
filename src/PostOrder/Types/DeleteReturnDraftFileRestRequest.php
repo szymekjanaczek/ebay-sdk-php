@@ -25,14 +25,14 @@ class DeleteReturnDraftFileRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'draftId'
+            'elementName' => 'draftId',
         ],
         'fileId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileId'
-        ]
+            'elementName' => 'fileId',
+        ],
     ];
 
     /**

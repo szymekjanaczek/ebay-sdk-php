@@ -25,14 +25,14 @@ class StoreThemeArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Theme'
+            'elementName' => 'Theme',
         ],
         'GenericColorSchemeArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GenericColorSchemeArray'
-        ]
+            'elementName' => 'GenericColorSchemeArray',
+        ],
     ];
 
     /**

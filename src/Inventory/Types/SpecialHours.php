@@ -25,14 +25,14 @@ class SpecialHours extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'date'
+            'elementName' => 'date',
         ],
         'intervals' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Interval',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'intervals'
-        ]
+            'elementName' => 'intervals',
+        ],
     ];
 
     /**

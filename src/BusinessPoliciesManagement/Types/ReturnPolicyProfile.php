@@ -24,8 +24,8 @@ class ReturnPolicyProfile extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyInfo',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPolicyInfo'
-        ]
+            'elementName' => 'returnPolicyInfo',
+        ],
     ];
 
     /**

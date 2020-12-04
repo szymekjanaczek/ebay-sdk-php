@@ -29,38 +29,38 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
+            'elementName' => 'trackingNumber',
         ],
         'carrierUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierUsed'
+            'elementName' => 'carrierUsed',
         ],
         'deliveryStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryStatus'
+            'elementName' => 'deliveryStatus',
         ],
         'deliveryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryDate'
+            'elementName' => 'deliveryDate',
         ],
         'shippingCost' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCost'
+            'elementName' => 'shippingCost',
         ],
         'shippingAddress' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingAddress'
-        ]
+            'elementName' => 'shippingAddress',
+        ],
     ];
 
     /**

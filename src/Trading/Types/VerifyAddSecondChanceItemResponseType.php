@@ -25,14 +25,14 @@ class VerifyAddSecondChanceItemResponseType extends \DTS\eBaySDK\Trading\Types\A
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTime'
+            'elementName' => 'StartTime',
         ],
         'EndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
-        ]
+            'elementName' => 'EndTime',
+        ],
     ];
 
     /**

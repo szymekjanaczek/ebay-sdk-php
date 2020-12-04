@@ -27,26 +27,26 @@ class InventorySizing extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'currentAvailableQuantity'
+            'elementName' => 'currentAvailableQuantity',
         ],
         'currentInventoryValue' => [
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'currentInventoryValue'
+            'elementName' => 'currentInventoryValue',
         ],
         'inventorySnapshots' => [
             'type' => 'DTS\eBaySDK\Account\Types\InventorySnapshot',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventorySnapshots'
+            'elementName' => 'inventorySnapshots',
         ],
         'primarySalesCategory' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'primarySalesCategory'
-        ]
+            'elementName' => 'primarySalesCategory',
+        ],
     ];
 
     /**

@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class ShippingFeatureCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DELIVERY_CONFIRMATION = 'DeliveryConfirmation';
-    const C_NOT_DEFINED = 'NotDefined';
-    const C_OTHER = 'Other';
-    const C_SATURDAY_DELIVERY = 'SaturdayDelivery';
-    const C_SIGNATURE_CONFIRMATION = 'SignatureConfirmation';
-    const C_STEALTH_POSTAGE = 'StealthPostage';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DELIVERY_CONFIRMATION = 'DeliveryConfirmation';
+    public const C_NOT_DEFINED = 'NotDefined';
+    public const C_OTHER = 'Other';
+    public const C_SATURDAY_DELIVERY = 'SaturdayDelivery';
+    public const C_SIGNATURE_CONFIRMATION = 'SignatureConfirmation';
+    public const C_STEALTH_POSTAGE = 'StealthPostage';
 }

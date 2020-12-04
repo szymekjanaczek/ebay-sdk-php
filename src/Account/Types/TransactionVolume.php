@@ -25,14 +25,14 @@ class TransactionVolume extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'firstOrderDate'
+            'elementName' => 'firstOrderDate',
         ],
         'transactionSnapshots' => [
             'type' => 'DTS\eBaySDK\Account\Types\TransactionSnapshot',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionSnapshots'
-        ]
+            'elementName' => 'transactionSnapshots',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class UpdateBundleStatusResponse extends \DTS\eBaySDK\RelatedItemsManagement\Typ
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'bundleStatus'
-        ]
+            'elementName' => 'bundleStatus',
+        ],
     ];
 
     /**

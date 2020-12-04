@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Credentials;
 
 /**
@@ -10,10 +11,10 @@ namespace DTS\eBaySDK\Credentials;
  */
 class CredentialsProvider
 {
-    const ENV_APP_ID = 'EBAY_SDK_APP_ID';
-    const ENV_CERT_ID = 'EBAY_SDK_CERT_ID';
-    const ENV_DEV_ID = 'EBAY_SDK_DEV_ID';
-    const ENV_PROFILE = 'EBAY_SDK_PROFILE';
+    public const ENV_APP_ID = 'EBAY_SDK_APP_ID';
+    public const ENV_CERT_ID = 'EBAY_SDK_CERT_ID';
+    public const ENV_DEV_ID = 'EBAY_SDK_DEV_ID';
+    public const ENV_PROFILE = 'EBAY_SDK_PROFILE';
 
     /**
      * Create a default credentials provider that first checks for environment
@@ -103,7 +104,7 @@ class CredentialsProvider
             } else {
                 return new \InvalidArgumentException(
                     'Could not find environment variable '
-                    . 'credentials in '. self::ENV_APP_ID . '/'
+                    . 'credentials in ' . self::ENV_APP_ID . '/'
                     . self::ENV_CERT_ID . '/'
                     . self::ENV_DEV_ID
                 );

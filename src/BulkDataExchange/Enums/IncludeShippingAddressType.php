@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\BulkDataExchange\Enums;
 
 class IncludeShippingAddressType
 {
-    const C_ALWAYS = 'Always';
-    const C_CHECKOUT_COMPLETE = 'CheckoutComplete';
+    public const C_ALWAYS = 'Always';
+    public const C_CHECKOUT_COMPLETE = 'CheckoutComplete';
 }

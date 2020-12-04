@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Inventory\Enums;
 
 class StatusEnum
 {
-    const C_DISABLED = 'DISABLED';
-    const C_ENABLED = 'ENABLED';
+    public const C_DISABLED = 'DISABLED';
+    public const C_ENABLED = 'ENABLED';
 }

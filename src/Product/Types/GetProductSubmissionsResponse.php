@@ -25,14 +25,14 @@ class GetProductSubmissionsResponse extends \DTS\eBaySDK\Product\Types\BaseServi
             'type' => 'DTS\eBaySDK\Product\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
+            'elementName' => 'paginationOutput',
         ],
         'productSubmissionResponse' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionResult',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productSubmissionResponse'
-        ]
+            'elementName' => 'productSubmissionResponse',
+        ],
     ];
 
     /**

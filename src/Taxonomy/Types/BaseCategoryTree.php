@@ -25,14 +25,14 @@ class BaseCategoryTree extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeId'
+            'elementName' => 'categoryTreeId',
         ],
         'categoryTreeVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeVersion'
-        ]
+            'elementName' => 'categoryTreeVersion',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class IssueRefundRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
+            'elementName' => 'comments',
         ],
         'refundDetail' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundDetail'
-        ]
+            'elementName' => 'refundDetail',
+        ],
     ];
 
     /**

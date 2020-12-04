@@ -28,32 +28,32 @@ class CancelDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CancelReason'
+            'elementName' => 'CancelReason',
         ],
         'CancelReasonDetails' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CancelReasonDetails'
+            'elementName' => 'CancelReasonDetails',
         ],
         'CancelIntiator' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CancelIntiator'
+            'elementName' => 'CancelIntiator',
         ],
         'CancelIntiationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CancelIntiationDate'
+            'elementName' => 'CancelIntiationDate',
         ],
         'CancelCompleteDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CancelCompleteDate'
-        ]
+            'elementName' => 'CancelCompleteDate',
+        ],
     ];
 
     /**

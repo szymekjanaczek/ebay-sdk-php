@@ -25,14 +25,14 @@ class ItemCompatibilityListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\ItemCompatibilityType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Compatibility'
+            'elementName' => 'Compatibility',
         ],
         'ReplaceAll' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReplaceAll'
-        ]
+            'elementName' => 'ReplaceAll',
+        ],
     ];
 
     /**

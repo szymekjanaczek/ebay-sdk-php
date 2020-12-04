@@ -25,14 +25,14 @@ class DownloadFileRequest extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceReq
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'taskReferenceId'
+            'elementName' => 'taskReferenceId',
         ],
         'fileReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileReferenceId'
-        ]
+            'elementName' => 'fileReferenceId',
+        ],
     ];
 
     /**

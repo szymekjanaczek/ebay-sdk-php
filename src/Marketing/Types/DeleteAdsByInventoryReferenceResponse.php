@@ -28,32 +28,32 @@ class DeleteAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'adIds'
+            'elementName' => 'adIds',
         ],
         'errors' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'inventoryReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceId'
+            'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceType'
+            'elementName' => 'inventoryReferenceType',
         ],
         'statusCode' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'statusCode'
-        ]
+            'elementName' => 'statusCode',
+        ],
     ];
 
     /**

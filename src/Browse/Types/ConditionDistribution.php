@@ -27,26 +27,26 @@ class ConditionDistribution extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'condition'
+            'elementName' => 'condition',
         ],
         'conditionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'conditionId'
+            'elementName' => 'conditionId',
         ],
         'matchCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'matchCount'
+            'elementName' => 'matchCount',
         ],
         'refinementHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refinementHref'
-        ]
+            'elementName' => 'refinementHref',
+        ],
     ];
 
     /**

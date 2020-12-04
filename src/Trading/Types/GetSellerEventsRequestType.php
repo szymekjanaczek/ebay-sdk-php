@@ -34,68 +34,68 @@ class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'StartTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTimeFrom'
+            'elementName' => 'StartTimeFrom',
         ],
         'StartTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTimeTo'
+            'elementName' => 'StartTimeTo',
         ],
         'EndTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTimeFrom'
+            'elementName' => 'EndTimeFrom',
         ],
         'EndTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTimeTo'
+            'elementName' => 'EndTimeTo',
         ],
         'ModTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ModTimeFrom'
+            'elementName' => 'ModTimeFrom',
         ],
         'ModTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ModTimeTo'
+            'elementName' => 'ModTimeTo',
         ],
         'NewItemFilter' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewItemFilter'
+            'elementName' => 'NewItemFilter',
         ],
         'IncludeWatchCount' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeWatchCount'
+            'elementName' => 'IncludeWatchCount',
         ],
         'IncludeVariationSpecifics' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeVariationSpecifics'
+            'elementName' => 'IncludeVariationSpecifics',
         ],
         'HideVariations' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HideVariations'
-        ]
+            'elementName' => 'HideVariations',
+        ],
     ];
 
     /**

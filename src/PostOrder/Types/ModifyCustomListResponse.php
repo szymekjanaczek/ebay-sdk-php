@@ -25,14 +25,14 @@ class ModifyCustomListResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listId'
+            'elementName' => 'listId',
         ],
         'ruleAffected' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleSummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ruleAffected'
-        ]
+            'elementName' => 'ruleAffected',
+        ],
     ];
 
     /**

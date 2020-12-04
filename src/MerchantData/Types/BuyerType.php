@@ -25,14 +25,14 @@ class BuyerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingAddress'
+            'elementName' => 'ShippingAddress',
         ],
         'BuyerTaxIdentifier' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\TaxIdentifierType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'BuyerTaxIdentifier'
-        ]
+            'elementName' => 'BuyerTaxIdentifier',
+        ],
     ];
 
     /**

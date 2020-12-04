@@ -45,134 +45,134 @@ class ItemFeed extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ageGroup'
+            'elementName' => 'ageGroup',
         ],
         'brand' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'brand'
+            'elementName' => 'brand',
         ],
         'category' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category'
+            'elementName' => 'category',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'color' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'color'
+            'elementName' => 'color',
         ],
         'condition' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'condition'
+            'elementName' => 'condition',
         ],
         'conditionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'conditionId'
+            'elementName' => 'conditionId',
         ],
         'gender' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'gender'
+            'elementName' => 'gender',
         ],
         'gtin' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'gtin'
+            'elementName' => 'gtin',
         ],
         'imageUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'imageUrl'
+            'elementName' => 'imageUrl',
         ],
         'itemEndDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemEndDate'
+            'elementName' => 'itemEndDate',
         ],
         'itemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'material' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'material'
+            'elementName' => 'material',
         ],
         'mpn' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'mpn'
+            'elementName' => 'mpn',
         ],
         'priceCurrency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priceCurrency'
+            'elementName' => 'priceCurrency',
         ],
         'priceValue' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priceValue'
+            'elementName' => 'priceValue',
         ],
         'sellerFeedbackPercentage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerFeedbackPercentage'
+            'elementName' => 'sellerFeedbackPercentage',
         ],
         'sellerFeedbackScore' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerFeedbackScore'
+            'elementName' => 'sellerFeedbackScore',
         ],
         'sellerUsername' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerUsername'
+            'elementName' => 'sellerUsername',
         ],
         'size' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'size'
+            'elementName' => 'size',
         ],
         'sizeType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sizeType'
+            'elementName' => 'sizeType',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
-        ]
+            'elementName' => 'title',
+        ],
     ];
 
     /**

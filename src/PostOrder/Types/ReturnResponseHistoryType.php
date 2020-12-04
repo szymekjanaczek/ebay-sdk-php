@@ -30,44 +30,44 @@ class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'activity'
+            'elementName' => 'activity',
         ],
         'attributes' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'attributes'
+            'elementName' => 'attributes',
         ],
         'author' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'author'
+            'elementName' => 'author',
         ],
         'creationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'fromState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fromState'
+            'elementName' => 'fromState',
         ],
         'notes' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'notes'
+            'elementName' => 'notes',
         ],
         'toState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'toState'
-        ]
+            'elementName' => 'toState',
+        ],
     ];
 
     /**

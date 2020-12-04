@@ -28,32 +28,32 @@ class SetShipmentTrackingInfoRequestType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderID'
+            'elementName' => 'OrderID',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
+            'elementName' => 'OrderLineItemID',
         ],
         'Shipment' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Shipment'
+            'elementName' => 'Shipment',
         ],
         'IsShipped' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IsShipped'
+            'elementName' => 'IsShipped',
         ],
         'IsPaid' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IsPaid'
-        ]
+            'elementName' => 'IsPaid',
+        ],
     ];
 
     /**

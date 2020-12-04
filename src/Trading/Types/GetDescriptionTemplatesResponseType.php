@@ -29,38 +29,38 @@ class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\Abs
             'type' => 'DTS\eBaySDK\Trading\Types\DescriptionTemplateType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DescriptionTemplate'
+            'elementName' => 'DescriptionTemplate',
         ],
         'LayoutTotal' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LayoutTotal'
+            'elementName' => 'LayoutTotal',
         ],
         'ObsoleteLayoutID' => [
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ObsoleteLayoutID'
+            'elementName' => 'ObsoleteLayoutID',
         ],
         'ObsoleteThemeID' => [
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ObsoleteThemeID'
+            'elementName' => 'ObsoleteThemeID',
         ],
         'ThemeGroup' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ThemeGroupType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ThemeGroup'
+            'elementName' => 'ThemeGroup',
         ],
         'ThemeTotal' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ThemeTotal'
-        ]
+            'elementName' => 'ThemeTotal',
+        ],
     ];
 
     /**

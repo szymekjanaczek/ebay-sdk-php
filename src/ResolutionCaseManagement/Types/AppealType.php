@@ -29,38 +29,38 @@ class AppealType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'decision'
+            'elementName' => 'decision',
         ],
         'decisionReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'decisionReason'
+            'elementName' => 'decisionReason',
         ],
         'decisionReasonDetail' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'decisionReasonDetail'
+            'elementName' => 'decisionReasonDetail',
         ],
         'decisionDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'decisionDate'
+            'elementName' => 'decisionDate',
         ],
         'creationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'id'
-        ]
+            'attributeName' => 'id',
+        ],
     ];
 
     /**

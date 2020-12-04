@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class DisputeCreditEligibilityCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_ELIGIBLE = 'Eligible';
-    const C_IN_ELIGIBLE = 'InEligible';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_ELIGIBLE = 'Eligible';
+    public const C_IN_ELIGIBLE = 'InEligible';
 }

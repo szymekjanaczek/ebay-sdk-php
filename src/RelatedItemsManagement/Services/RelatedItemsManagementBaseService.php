@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\RelatedItemsManagement\Services;
 
 /**
@@ -9,22 +10,22 @@ class RelatedItemsManagementBaseService extends \DTS\eBaySDK\Services\BaseServic
     /**
      * HTTP header constant. The API version your application supports.
      */
-    const HDR_API_VERSION = 'X-EBAY-SOA-SERVICE-VERSION';
+    public const HDR_API_VERSION = 'X-EBAY-SOA-SERVICE-VERSION';
 
     /**
      * HTTP header constant. The Authentication Token that is used to validate the caller has permission to access the eBay servers.
      */
-    const HDR_AUTH_TOKEN = 'X-EBAY-SOA-SECURITY-TOKEN';
+    public const HDR_AUTH_TOKEN = 'X-EBAY-SOA-SECURITY-TOKEN';
 
     /**
      * HTTP header constant. The global ID of the eBay site the request is for.
      */
-    const HDR_GLOBAL_ID = 'X-EBAY-SOA-GLOBAL-ID';
+    public const HDR_GLOBAL_ID = 'X-EBAY-SOA-GLOBAL-ID';
 
     /**
      * HTTP header constant. The name of the operation you are calling.
      */
-    const HDR_OPERATION_NAME = 'X-EBAY-SOA-OPERATION-NAME';
+    public const HDR_OPERATION_NAME = 'X-EBAY-SOA-OPERATION-NAME';
 
     /**
      * @param array $config Optional configuration option values.
@@ -46,15 +47,15 @@ class RelatedItemsManagementBaseService extends \DTS\eBaySDK\Services\BaseServic
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementService::API_VERSION
+                'default' => \DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementService::API_VERSION,
             ],
             'authToken' => [
                 'valid' => ['string'],
-                'required' => true
+                'required' => true,
             ],
             'globalId' => [
-                'valid' => ['string']
-            ]
+                'valid' => ['string'],
+            ],
         ];
     }
 

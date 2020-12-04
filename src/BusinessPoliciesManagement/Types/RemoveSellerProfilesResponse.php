@@ -24,8 +24,8 @@ class RemoveSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManageme
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'sellerProfileResponseStatus'
-        ]
+            'elementName' => 'sellerProfileResponseStatus',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class ShippingInsuranceType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuranceOption'
+            'elementName' => 'InsuranceOption',
         ],
         'FlatRateInsuranceRangeCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FlatRateInsuranceRangeCost'
-        ]
+            'elementName' => 'FlatRateInsuranceRangeCost',
+        ],
     ];
 
     /**

@@ -28,32 +28,32 @@ class ItemBidDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'BidCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidCount'
+            'elementName' => 'BidCount',
         ],
         'SellerID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerID'
+            'elementName' => 'SellerID',
         ],
         'LastBidTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastBidTime'
-        ]
+            'elementName' => 'LastBidTime',
+        ],
     ];
 
     /**

@@ -30,44 +30,44 @@ class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BiddingCount'
+            'elementName' => 'BiddingCount',
         ],
         'WinningCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WinningCount'
+            'elementName' => 'WinningCount',
         ],
         'TotalWinningCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalWinningCost'
+            'elementName' => 'TotalWinningCost',
         ],
         'WonCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WonCount'
+            'elementName' => 'WonCount',
         ],
         'TotalWonCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalWonCost'
+            'elementName' => 'TotalWonCost',
         ],
         'WonDurationInDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WonDurationInDays'
+            'elementName' => 'WonDurationInDays',
         ],
         'BestOfferCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferCount'
-        ]
+            'elementName' => 'BestOfferCount',
+        ],
     ];
 
     /**

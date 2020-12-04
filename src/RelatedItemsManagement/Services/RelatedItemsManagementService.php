@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Services;
 
 class RelatedItemsManagementService extends \DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementBaseService
 {
-    const API_VERSION = '1.0.0';
+    public const API_VERSION = '1.0.0';
 
     /**
      * @param array $config Configuration option values.

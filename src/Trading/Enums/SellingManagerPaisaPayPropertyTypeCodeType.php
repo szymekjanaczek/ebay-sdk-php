@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SellingManagerPaisaPayPropertyTypeCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_PAISA_PAY_AWAITING_SHIPMENT = 'PaisaPayAwaitingShipment';
-    const C_PAISA_PAY_PENDING_RECEIVED = 'PaisaPayPendingReceived';
-    const C_PAISA_PAY_REFUND_INITIATED = 'PaisaPayRefundInitiated';
-    const C_PAISA_PAY_TIME_EXTENSION_REQUESTED = 'PaisaPayTimeExtensionRequested';
-    const C_PAISA_PAY_TIME_EXTENSION_REQUEST_DECLINED = 'PaisaPayTimeExtensionRequestDeclined';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_PAISA_PAY_AWAITING_SHIPMENT = 'PaisaPayAwaitingShipment';
+    public const C_PAISA_PAY_PENDING_RECEIVED = 'PaisaPayPendingReceived';
+    public const C_PAISA_PAY_REFUND_INITIATED = 'PaisaPayRefundInitiated';
+    public const C_PAISA_PAY_TIME_EXTENSION_REQUESTED = 'PaisaPayTimeExtensionRequested';
+    public const C_PAISA_PAY_TIME_EXTENSION_REQUEST_DECLINED = 'PaisaPayTimeExtensionRequestDeclined';
 }

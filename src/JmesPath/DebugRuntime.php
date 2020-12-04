@@ -85,7 +85,9 @@ class DebugRuntime
         foreach ($tokens as $t) {
             fprintf(
                 $this->out,
-                "%3d  %-13s  %s\n", $t['pos'], $t['type'],
+                "%3d  %-13s  %s\n",
+                $t['pos'],
+                $t['type'],
                 json_encode($t['value'])
             );
         }

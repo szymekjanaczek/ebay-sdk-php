@@ -25,14 +25,14 @@ class PaginationInput extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pageNumber'
+            'elementName' => 'pageNumber',
         ],
         'entriesPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'entriesPerPage'
-        ]
+            'elementName' => 'entriesPerPage',
+        ],
     ];
 
     /**

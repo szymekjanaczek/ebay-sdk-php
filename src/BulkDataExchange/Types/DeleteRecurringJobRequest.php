@@ -24,8 +24,8 @@ class DeleteRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\Base
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recurringJobId'
-        ]
+            'elementName' => 'recurringJobId',
+        ],
     ];
 
     /**

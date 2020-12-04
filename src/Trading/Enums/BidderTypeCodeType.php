@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class BidderTypeCodeType
 {
-    const C_ALL_BIDDER = 'AllBidder';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_HIGH_BIDDER = 'HighBidder';
+    public const C_ALL_BIDDER = 'AllBidder';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_HIGH_BIDDER = 'HighBidder';
 }

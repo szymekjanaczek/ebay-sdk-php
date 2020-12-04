@@ -29,38 +29,38 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'ItemCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemCount'
+            'elementName' => 'ItemCount',
         ],
         'FavoriteSellerCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FavoriteSellerCount'
+            'elementName' => 'FavoriteSellerCount',
         ],
         'ItemArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemArray'
+            'elementName' => 'ItemArray',
         ],
         'FavoriteSearches' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FavoriteSearches'
+            'elementName' => 'FavoriteSearches',
         ],
         'FavoriteSellers' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FavoriteSellers'
-        ]
+            'elementName' => 'FavoriteSellers',
+        ],
     ];
 
     /**

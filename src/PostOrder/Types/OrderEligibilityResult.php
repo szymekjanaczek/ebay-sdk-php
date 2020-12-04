@@ -28,32 +28,32 @@ class OrderEligibilityResult extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eligible'
+            'elementName' => 'eligible',
         ],
         'eligibleCancelReason' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'eligibleCancelReason'
+            'elementName' => 'eligibleCancelReason',
         ],
         'failureReason' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'failureReason'
+            'elementName' => 'failureReason',
         ],
         'itemEligibilityResult' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ItemEligibilityResult',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemEligibilityResult'
+            'elementName' => 'itemEligibilityResult',
         ],
         'legacyOrderId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacyOrderId'
-        ]
+            'elementName' => 'legacyOrderId',
+        ],
     ];
 
     /**

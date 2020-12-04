@@ -34,68 +34,68 @@ class FindProductsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReques
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeSelector'
+            'elementName' => 'IncludeSelector',
         ],
         'AvailableItemsOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AvailableItemsOnly'
+            'elementName' => 'AvailableItemsOnly',
         ],
         'DomainName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DomainName'
+            'elementName' => 'DomainName',
         ],
         'ProductID' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductID'
+            'elementName' => 'ProductID',
         ],
         'QueryKeywords' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QueryKeywords'
+            'elementName' => 'QueryKeywords',
         ],
         'ProductSort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductSort'
+            'elementName' => 'ProductSort',
         ],
         'SortOrder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SortOrder'
+            'elementName' => 'SortOrder',
         ],
         'MaxEntries' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxEntries'
+            'elementName' => 'MaxEntries',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
+            'elementName' => 'PageNumber',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'HideDuplicateItems' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HideDuplicateItems'
-        ]
+            'elementName' => 'HideDuplicateItems',
+        ],
     ];
 
     /**

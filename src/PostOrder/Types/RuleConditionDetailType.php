@@ -29,38 +29,38 @@ class RuleConditionDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ConditionListDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataList'
+            'elementName' => 'dataList',
         ],
         'isChecked' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isChecked'
+            'elementName' => 'isChecked',
         ],
         'isEbayPlus' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isEbayPlus'
+            'elementName' => 'isEbayPlus',
         ],
         'isInvalid' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isInvalid'
+            'elementName' => 'isInvalid',
         ],
         'storeCategory' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storeCategory'
+            'elementName' => 'storeCategory',
         ],
         'storeId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storeId'
-        ]
+            'elementName' => 'storeId',
+        ],
     ];
 
     /**

@@ -28,32 +28,32 @@ class GetCategoryFeaturesResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryVersion'
+            'elementName' => 'CategoryVersion',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
+            'elementName' => 'UpdateTime',
         ],
         'Category' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryFeatureType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Category'
+            'elementName' => 'Category',
         ],
         'SiteDefaults' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SiteDefaultsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SiteDefaults'
+            'elementName' => 'SiteDefaults',
         ],
         'FeatureDefinitions' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeatureDefinitionsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeatureDefinitions'
-        ]
+            'elementName' => 'FeatureDefinitions',
+        ],
     ];
 
     /**

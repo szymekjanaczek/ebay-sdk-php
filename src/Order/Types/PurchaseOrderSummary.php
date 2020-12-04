@@ -27,26 +27,26 @@ class PurchaseOrderSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderHref'
+            'elementName' => 'purchaseOrderHref',
         ],
         'purchaseOrderId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderId'
+            'elementName' => 'purchaseOrderId',
         ],
         'purchaseOrderPaymentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderPaymentStatus'
+            'elementName' => 'purchaseOrderPaymentStatus',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

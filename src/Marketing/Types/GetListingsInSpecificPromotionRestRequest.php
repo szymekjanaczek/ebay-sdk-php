@@ -28,32 +28,32 @@ class GetListingsInSpecificPromotionRestRequest extends \DTS\eBaySDK\Types\BaseT
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotion_id'
+            'elementName' => 'promotion_id',
         ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'q' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'q'
+            'elementName' => 'q',
         ],
         'sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sort'
-        ]
+            'elementName' => 'sort',
+        ],
     ];
 
     /**

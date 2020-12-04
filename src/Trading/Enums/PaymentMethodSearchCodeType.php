@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class PaymentMethodSearchCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_PAISA_PAY = 'PaisaPay';
-    const C_PAISA_PAY_ESCROWEMI = 'PaisaPayEscrowEMI';
-    const C_PAY_PAL = 'PayPal';
-    const C_PAY_PAL_OR_PAISA_PAY = 'PayPalOrPaisaPay';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_PAISA_PAY = 'PaisaPay';
+    public const C_PAISA_PAY_ESCROWEMI = 'PaisaPayEscrowEMI';
+    public const C_PAY_PAL = 'PayPal';
+    public const C_PAY_PAL_OR_PAISA_PAY = 'PayPalOrPaisaPay';
 }

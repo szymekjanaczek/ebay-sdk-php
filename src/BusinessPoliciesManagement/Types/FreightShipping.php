@@ -30,44 +30,44 @@ class FreightShipping extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'originPickupLocationType'
+            'elementName' => 'originPickupLocationType',
         ],
         'originPickupInside' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'originPickupInside'
+            'elementName' => 'originPickupInside',
         ],
         'packagingHelpRequired' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'packagingHelpRequired'
+            'elementName' => 'packagingHelpRequired',
         ],
         'commodityType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'commodityType'
+            'elementName' => 'commodityType',
         ],
         'freightShippingClass' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'freightShippingClass'
+            'elementName' => 'freightShippingClass',
         ],
         'destPickupLocationType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'destPickupLocationType'
+            'elementName' => 'destPickupLocationType',
         ],
         'destPickupInside' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'destPickupInside'
-        ]
+            'elementName' => 'destPickupInside',
+        ],
     ];
 
     /**

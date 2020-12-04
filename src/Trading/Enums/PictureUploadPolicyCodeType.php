@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class PictureUploadPolicyCodeType
 {
-    const C_ADD = 'Add';
-    const C_CLEAR_AND_ADD = 'ClearAndAdd';
-    const C_CUSTOM_CODE = 'CustomCode';
+    public const C_ADD = 'Add';
+    public const C_CLEAR_AND_ADD = 'ClearAndAdd';
+    public const C_CUSTOM_CODE = 'CustomCode';
 }

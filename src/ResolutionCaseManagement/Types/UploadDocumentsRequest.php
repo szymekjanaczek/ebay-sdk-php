@@ -26,20 +26,20 @@ class UploadDocumentsRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'proofType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'proofType'
+            'elementName' => 'proofType',
         ],
         'document' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentInfoType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'document'
-        ]
+            'elementName' => 'document',
+        ],
     ];
 
     /**

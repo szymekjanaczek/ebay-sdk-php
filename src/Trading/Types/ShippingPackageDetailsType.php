@@ -30,44 +30,44 @@ class ShippingPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackageID'
+            'elementName' => 'PackageID',
         ],
         'Description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
+            'elementName' => 'Description',
         ],
         'ShippingPackage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingPackage'
+            'elementName' => 'ShippingPackage',
         ],
         'DefaultValue' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DefaultValue'
+            'elementName' => 'DefaultValue',
         ],
         'DimensionsSupported' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DimensionsSupported'
+            'elementName' => 'DimensionsSupported',
         ],
         'DetailVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailVersion'
+            'elementName' => 'DetailVersion',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
-        ]
+            'elementName' => 'UpdateTime',
+        ],
     ];
 
     /**

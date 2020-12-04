@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
@@ -15,8 +16,8 @@ class XopInclude extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'href'
-        ]
+            'attributeName' => 'href',
+        ],
     ];
 
     /**

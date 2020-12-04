@@ -24,8 +24,8 @@ class ActiveInventoryReportResponseType extends \DTS\eBaySDK\MerchantData\Types\
             'type' => 'DTS\eBaySDK\MerchantData\Types\SKUDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SKUDetails'
-        ]
+            'elementName' => 'SKUDetails',
+        ],
     ];
 
     /**

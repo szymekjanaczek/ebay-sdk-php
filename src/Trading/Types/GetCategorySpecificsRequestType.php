@@ -32,56 +32,56 @@ class GetCategorySpecificsRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'LastUpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastUpdateTime'
+            'elementName' => 'LastUpdateTime',
         ],
         'MaxNames' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxNames'
+            'elementName' => 'MaxNames',
         ],
         'MaxValuesPerName' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxValuesPerName'
+            'elementName' => 'MaxValuesPerName',
         ],
         'Name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'CategorySpecific' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CategorySpecific'
+            'elementName' => 'CategorySpecific',
         ],
         'ExcludeRelationships' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExcludeRelationships'
+            'elementName' => 'ExcludeRelationships',
         ],
         'IncludeConfidence' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeConfidence'
+            'elementName' => 'IncludeConfidence',
         ],
         'CategorySpecificsFileInfo' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategorySpecificsFileInfo'
-        ]
+            'elementName' => 'CategorySpecificsFileInfo',
+        ],
     ];
 
     /**

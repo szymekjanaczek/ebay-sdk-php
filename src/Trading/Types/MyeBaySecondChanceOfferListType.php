@@ -25,14 +25,14 @@ class MyeBaySecondChanceOfferListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalAvailable'
+            'elementName' => 'TotalAvailable',
         ],
         'SecondChanceOffer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SecondChanceOffer'
-        ]
+            'elementName' => 'SecondChanceOffer',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class BulkCreateAdRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\CreateAdRequest',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'requests'
-        ]
+            'elementName' => 'requests',
+        ],
     ];
 
     /**

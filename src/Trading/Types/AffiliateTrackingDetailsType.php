@@ -27,26 +27,26 @@ class AffiliateTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TrackingID'
+            'elementName' => 'TrackingID',
         ],
         'TrackingPartnerCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TrackingPartnerCode'
+            'elementName' => 'TrackingPartnerCode',
         ],
         'ApplicationDeviceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ApplicationDeviceType'
+            'elementName' => 'ApplicationDeviceType',
         ],
         'AffiliateUserID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AffiliateUserID'
-        ]
+            'elementName' => 'AffiliateUserID',
+        ],
     ];
 
     /**

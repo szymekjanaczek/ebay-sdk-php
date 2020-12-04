@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Merchandising\Services;
 
 class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\MerchandisingBaseService
 {
-    const API_VERSION = '1.5.0';
+    public const API_VERSION = '1.5.0';
 
     /**
      * @param array $config Configuration option values.

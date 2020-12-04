@@ -25,14 +25,14 @@ class GetAdFormatLeadsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
             'type' => 'DTS\eBaySDK\Trading\Types\AdFormatLeadType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AdFormatLead'
+            'elementName' => 'AdFormatLead',
         ],
         'AdFormatLeadCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AdFormatLeadCount'
-        ]
+            'elementName' => 'AdFormatLeadCount',
+        ],
     ];
 
     /**

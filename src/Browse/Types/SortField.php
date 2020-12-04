@@ -25,14 +25,14 @@ class SortField extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ascending'
+            'elementName' => 'ascending',
         ],
         'field' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'field'
-        ]
+            'elementName' => 'field',
+        ],
     ];
 
     /**

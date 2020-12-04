@@ -28,32 +28,32 @@ class LineItemType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Quantity'
+            'elementName' => 'Quantity',
         ],
         'CountryOfOrigin' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CountryOfOrigin'
+            'elementName' => 'CountryOfOrigin',
         ],
         'Description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
+            'elementName' => 'Description',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
-        ]
+            'elementName' => 'TransactionID',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class VeROReportItemsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\VeROReportItemType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ReportItem'
-        ]
+            'elementName' => 'ReportItem',
+        ],
     ];
 
     /**

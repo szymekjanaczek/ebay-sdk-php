@@ -26,20 +26,20 @@ class Cycle extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cycleType'
+            'elementName' => 'cycleType',
         ],
         'evaluationDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'evaluationDate'
+            'elementName' => 'evaluationDate',
         ],
         'evaluationMonth' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'evaluationMonth'
-        ]
+            'elementName' => 'evaluationMonth',
+        ],
     ];
 
     /**

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 /**
@@ -24,7 +25,7 @@ class Debugger
         '/^(X-EBAY-API-APP-NAME:.*)?$/im' => 'X-EBAY-API-APP-NAME: APP-NAME',
         '/^(X-EBAY-API-CERT-NAME:.*)?$/im' => 'X-EBAY-API-CERT-NAME: CERT-NAME',
         '/^(X-EBAY-API-DEV-NAME:.*)?$/im' => 'X-EBAY-API-DEV-NAME: DEV-NAME ',
-        '/<eBayAuthToken>.*<\/eBayAuthToken>/i' => '<eBayAuthToken>EBAY-AUTH-TOKEN</eBayAuthToken>'
+        '/<eBayAuthToken>.*<\/eBayAuthToken>/i' => '<eBayAuthToken>EBAY-AUTH-TOKEN</eBayAuthToken>',
     ];
 
     /**
@@ -34,10 +35,10 @@ class Debugger
     {
         $this->config = $config + [
             'logfn' => function ($msg) {
-                echo $msg.PHP_EOL;
+                echo $msg . PHP_EOL;
             },
             'scrub_credentials' => true,
-            'scrub_strings' => []
+            'scrub_strings' => [],
         ];
 
         $this->config['scrub_strings'] += self::$credentialsStrings;

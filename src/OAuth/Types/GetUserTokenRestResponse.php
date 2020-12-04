@@ -1,8 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\OAuth\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
 
 /**
  *
@@ -15,7 +16,7 @@ use DTS\eBaySDK\HttpHeadersTrait;
  * @property string $error_description
  * @property string $error_uri
  */
-class GetUserTokenRestResponse  extends \DTS\eBaySDK\Types\BaseType
+class GetUserTokenRestResponse extends \DTS\eBaySDK\Types\BaseType
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,50 +29,50 @@ class GetUserTokenRestResponse  extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'access_token'
+            'elementName' => 'access_token',
         ],
         'token_type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'token_type'
+            'elementName' => 'token_type',
         ],
         'expires_in' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'expires_in'
+            'elementName' => 'expires_in',
         ],
         'refresh_token' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refresh_token'
+            'elementName' => 'refresh_token',
         ],
         'refresh_token_expires_in' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refresh_token_expires_in'
+            'elementName' => 'refresh_token_expires_in',
         ],
         'error' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'error'
+            'elementName' => 'error',
         ],
         'error_description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'error_description'
+            'elementName' => 'error_description',
         ],
         'error_uri' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'error_uri'
-        ]
+            'elementName' => 'error_uri',
+        ],
     ];
 
     /**

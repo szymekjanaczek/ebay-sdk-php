@@ -27,26 +27,26 @@ class PaginationOutput extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pageNumber'
+            'elementName' => 'pageNumber',
         ],
         'entriesPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'entriesPerPage'
+            'elementName' => 'entriesPerPage',
         ],
         'totalPages' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalPages'
+            'elementName' => 'totalPages',
         ],
         'totalEntries' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalEntries'
-        ]
+            'elementName' => 'totalEntries',
+        ],
     ];
 
     /**

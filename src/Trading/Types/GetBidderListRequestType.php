@@ -28,32 +28,32 @@ class GetBidderListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ActiveItemsOnly'
+            'elementName' => 'ActiveItemsOnly',
         ],
         'EndTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTimeFrom'
+            'elementName' => 'EndTimeFrom',
         ],
         'EndTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTimeTo'
+            'elementName' => 'EndTimeTo',
         ],
         'UserID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'GranularityLevel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GranularityLevel'
-        ]
+            'elementName' => 'GranularityLevel',
+        ],
     ];
 
     /**

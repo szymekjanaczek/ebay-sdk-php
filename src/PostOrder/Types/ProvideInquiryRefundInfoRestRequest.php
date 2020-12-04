@@ -24,8 +24,8 @@ class ProvideInquiryRefundInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\S
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryId'
-        ]
+            'elementName' => 'inquiryId',
+        ],
     ];
 
     /**

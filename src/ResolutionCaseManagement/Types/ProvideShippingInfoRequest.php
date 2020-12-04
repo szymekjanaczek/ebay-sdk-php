@@ -27,26 +27,26 @@ class ProvideShippingInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\T
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'carrierUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierUsed'
+            'elementName' => 'carrierUsed',
         ],
         'shippedDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippedDate'
+            'elementName' => 'shippedDate',
         ],
         'comments' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
-        ]
+            'elementName' => 'comments',
+        ],
     ];
 
     /**

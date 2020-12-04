@@ -24,8 +24,8 @@ class ProvidesReturnAddressRestRequest extends \DTS\eBaySDK\PostOrder\Types\Retu
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
-        ]
+            'elementName' => 'caseId',
+        ],
     ];
 
     /**

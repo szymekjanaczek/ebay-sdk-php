@@ -25,14 +25,14 @@ class PublishResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingId'
+            'elementName' => 'listingId',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

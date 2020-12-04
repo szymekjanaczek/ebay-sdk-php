@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class DepositTypeCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FAST_DEPOSIT = 'FastDeposit';
-    const C_NONE = 'None';
-    const C_OTHER_METHOD = 'OtherMethod';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FAST_DEPOSIT = 'FastDeposit';
+    public const C_NONE = 'None';
+    public const C_OTHER_METHOD = 'OtherMethod';
 }

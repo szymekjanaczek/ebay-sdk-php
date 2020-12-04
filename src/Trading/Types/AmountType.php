@@ -24,8 +24,8 @@ class AmountType extends \DTS\eBaySDK\Types\DoubleType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'currencyID'
-        ]
+            'attributeName' => 'currencyID',
+        ],
     ];
 
     /**

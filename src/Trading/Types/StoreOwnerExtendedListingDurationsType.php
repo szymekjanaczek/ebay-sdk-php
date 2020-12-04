@@ -24,8 +24,8 @@ class StoreOwnerExtendedListingDurationsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Duration'
-        ]
+            'elementName' => 'Duration',
+        ],
     ];
 
     /**

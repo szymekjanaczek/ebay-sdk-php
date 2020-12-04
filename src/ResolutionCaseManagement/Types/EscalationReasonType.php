@@ -27,26 +27,26 @@ class EscalationReasonType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerINRReason'
+            'elementName' => 'sellerINRReason',
         ],
         'sellerSNADReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerSNADReason'
+            'elementName' => 'sellerSNADReason',
         ],
         'buyerINRReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerINRReason'
+            'elementName' => 'buyerINRReason',
         ],
         'buyerSNADReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerSNADReason'
-        ]
+            'elementName' => 'buyerSNADReason',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GetPromotionalSaleDetailsResponseType extends \DTS\eBaySDK\Trading\Types\A
             'type' => 'DTS\eBaySDK\Trading\Types\PromotionalSaleArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PromotionalSaleDetails'
-        ]
+            'elementName' => 'PromotionalSaleDetails',
+        ],
     ];
 
     /**

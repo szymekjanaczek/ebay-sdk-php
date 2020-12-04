@@ -30,44 +30,44 @@ class PagedComplianceViolationCollection extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'href' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'href'
+            'elementName' => 'href',
         ],
         'total' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
+            'elementName' => 'total',
         ],
         'next' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'next'
+            'elementName' => 'next',
         ],
         'prev' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'prev'
+            'elementName' => 'prev',
         ],
         'limit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'listingViolations' => [
             'type' => 'DTS\eBaySDK\Compliance\Types\ComplianceViolation',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'listingViolations'
-        ]
+            'elementName' => 'listingViolations',
+        ],
     ];
 
     /**

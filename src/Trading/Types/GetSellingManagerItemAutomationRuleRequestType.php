@@ -24,8 +24,8 @@ class GetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Tradin
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
-        ]
+            'elementName' => 'ItemID',
+        ],
     ];
 
     /**

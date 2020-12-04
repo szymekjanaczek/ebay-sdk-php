@@ -25,14 +25,14 @@ class StockPhotoURL extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\URIValue',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'thumbnail'
+            'elementName' => 'thumbnail',
         ],
         'standard' => [
             'type' => 'DTS\eBaySDK\Product\Types\URIValue',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'standard'
-        ]
+            'elementName' => 'standard',
+        ],
     ];
 
     /**

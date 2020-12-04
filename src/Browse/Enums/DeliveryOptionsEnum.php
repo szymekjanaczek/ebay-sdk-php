@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Browse\Enums;
 
 class DeliveryOptionsEnum
 {
-    const C_DIGITAL_DELIVERY = 'DIGITAL_DELIVERY';
-    const C_IN_STORE_PICKUP = 'IN_STORE_PICKUP';
-    const C_PICKUP_DROP_OFF = 'PICKUP_DROP_OFF';
-    const C_SELLER_ARRANGED_LOCAL_PICKUP = 'SELLER_ARRANGED_LOCAL_PICKUP';
-    const C_SHIP_TO_HOME = 'SHIP_TO_HOME';
+    public const C_DIGITAL_DELIVERY = 'DIGITAL_DELIVERY';
+    public const C_IN_STORE_PICKUP = 'IN_STORE_PICKUP';
+    public const C_PICKUP_DROP_OFF = 'PICKUP_DROP_OFF';
+    public const C_SELLER_ARRANGED_LOCAL_PICKUP = 'SELLER_ARRANGED_LOCAL_PICKUP';
+    public const C_SHIP_TO_HOME = 'SHIP_TO_HOME';
 }

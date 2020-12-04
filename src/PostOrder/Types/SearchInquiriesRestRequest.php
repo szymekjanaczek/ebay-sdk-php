@@ -33,62 +33,62 @@ class SearchInquiriesRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fieldgroups'
+            'elementName' => 'fieldgroups',
         ],
         'inquiry_creation_date_range_from' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiry_creation_date_range_from'
+            'elementName' => 'inquiry_creation_date_range_from',
         ],
         'inquiry_creation_date_range_to' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiry_creation_date_range_to'
+            'elementName' => 'inquiry_creation_date_range_to',
         ],
         'inquiry_status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiry_status'
+            'elementName' => 'inquiry_status',
         ],
         'item_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'item_id'
+            'elementName' => 'item_id',
         ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'order_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'order_id'
+            'elementName' => 'order_id',
         ],
         'sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sort'
+            'elementName' => 'sort',
         ],
         'transaction_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transaction_id'
-        ]
+            'elementName' => 'transaction_id',
+        ],
     ];
 
     /**

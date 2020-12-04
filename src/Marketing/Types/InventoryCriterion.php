@@ -27,26 +27,26 @@ class InventoryCriterion extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryCriterionType'
+            'elementName' => 'inventoryCriterionType',
         ],
         'inventoryItems' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'inventoryItems'
+            'elementName' => 'inventoryItems',
         ],
         'listingIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'listingIds'
+            'elementName' => 'listingIds',
         ],
         'ruleCriteria' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\RuleCriteria',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ruleCriteria'
-        ]
+            'elementName' => 'ruleCriteria',
+        ],
     ];
 
     /**

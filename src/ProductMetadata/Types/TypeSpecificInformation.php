@@ -27,26 +27,26 @@ class TypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'uriTypeSpecificInformation'
+            'elementName' => 'uriTypeSpecificInformation',
         ],
         'numericTypeSpecificInformation' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'numericTypeSpecificInformation'
+            'elementName' => 'numericTypeSpecificInformation',
         ],
         'mediaTypeSpecificInformation' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'mediaTypeSpecificInformation'
+            'elementName' => 'mediaTypeSpecificInformation',
         ],
         'stringTypeSpecificInformation' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'stringTypeSpecificInformation'
-        ]
+            'elementName' => 'stringTypeSpecificInformation',
+        ],
     ];
 
     /**

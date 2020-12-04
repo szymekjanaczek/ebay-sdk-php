@@ -24,8 +24,8 @@ class GetBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRe
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'bundleID'
-        ]
+            'elementName' => 'bundleID',
+        ],
     ];
 
     /**

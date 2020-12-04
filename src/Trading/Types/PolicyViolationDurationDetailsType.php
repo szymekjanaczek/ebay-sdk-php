@@ -25,14 +25,14 @@ class PolicyViolationDurationDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Period'
+            'elementName' => 'Period',
         ],
         'Description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
-        ]
+            'elementName' => 'Description',
+        ],
     ];
 
     /**

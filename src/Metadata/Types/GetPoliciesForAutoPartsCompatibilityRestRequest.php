@@ -25,14 +25,14 @@ class GetPoliciesForAutoPartsCompatibilityRestRequest extends \DTS\eBaySDK\Types
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'filter'
+            'elementName' => 'filter',
         ],
         'marketplace_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplace_id'
-        ]
+            'elementName' => 'marketplace_id',
+        ],
     ];
 
     /**

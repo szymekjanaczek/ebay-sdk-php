@@ -24,8 +24,8 @@ class ConfirmIdentityRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SessionID'
-        ]
+            'elementName' => 'SessionID',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class MeasureType extends \DTS\eBaySDK\Types\DecimalType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'unit'
+            'attributeName' => 'unit',
         ],
         'measurementSystem' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'measurementSystem'
-        ]
+            'attributeName' => 'measurementSystem',
+        ],
     ];
 
     /**

@@ -27,26 +27,26 @@ class StoreCustomCategoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'Name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'Order' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Order'
+            'elementName' => 'Order',
         ],
         'ChildCategory' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ChildCategory'
-        ]
+            'elementName' => 'ChildCategory',
+        ],
     ];
 
     /**

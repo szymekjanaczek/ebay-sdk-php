@@ -25,14 +25,14 @@ class SellingManagerVendorDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VendorName'
+            'elementName' => 'VendorName',
         ],
         'VendorContactInfo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VendorContactInfo'
-        ]
+            'elementName' => 'VendorContactInfo',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class AppealCaseDecisionRestRequest extends \DTS\eBaySDK\PostOrder\Types\AppealR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
-        ]
+            'elementName' => 'caseId',
+        ],
     ];
 
     /**

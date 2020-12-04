@@ -24,8 +24,8 @@ class GetEBPCaseDetailRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Type
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
-        ]
+            'elementName' => 'caseId',
+        ],
     ];
 
     /**

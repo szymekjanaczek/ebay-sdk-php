@@ -25,14 +25,14 @@ class LocationDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'address'
+            'elementName' => 'address',
         ],
         'geoCoordinates' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\GeoCoordinates',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'geoCoordinates'
-        ]
+            'elementName' => 'geoCoordinates',
+        ],
     ];
 
     /**

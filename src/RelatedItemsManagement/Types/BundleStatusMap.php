@@ -25,14 +25,14 @@ class BundleStatusMap extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleID'
+            'elementName' => 'bundleID',
         ],
         'bundleStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleStatus'
-        ]
+            'elementName' => 'bundleStatus',
+        ],
     ];
 
     /**

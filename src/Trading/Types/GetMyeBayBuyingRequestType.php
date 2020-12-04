@@ -36,80 +36,80 @@ class GetMyeBayBuyingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WatchList'
+            'elementName' => 'WatchList',
         ],
         'BidList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidList'
+            'elementName' => 'BidList',
         ],
         'BestOfferList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferList'
+            'elementName' => 'BestOfferList',
         ],
         'WonList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WonList'
+            'elementName' => 'WonList',
         ],
         'LostList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LostList'
+            'elementName' => 'LostList',
         ],
         'FavoriteSearches' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySelectionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FavoriteSearches'
+            'elementName' => 'FavoriteSearches',
         ],
         'FavoriteSellers' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySelectionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FavoriteSellers'
+            'elementName' => 'FavoriteSellers',
         ],
         'SecondChanceOffer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySelectionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SecondChanceOffer'
+            'elementName' => 'SecondChanceOffer',
         ],
         'DeletedFromWonList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeletedFromWonList'
+            'elementName' => 'DeletedFromWonList',
         ],
         'DeletedFromLostList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeletedFromLostList'
+            'elementName' => 'DeletedFromLostList',
         ],
         'BuyingSummary' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyingSummary'
+            'elementName' => 'BuyingSummary',
         ],
         'UserDefinedLists' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySelectionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserDefinedLists'
+            'elementName' => 'UserDefinedLists',
         ],
         'HideVariations' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HideVariations'
-        ]
+            'elementName' => 'HideVariations',
+        ],
     ];
 
     /**

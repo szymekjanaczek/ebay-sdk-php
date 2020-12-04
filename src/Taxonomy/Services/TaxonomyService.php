@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Taxonomy\Services;
 
 class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
 {
-    const API_VERSION = 'v1_beta';
+    public const API_VERSION = 'v1_beta';
 
     /**
      * @property array $operations Associative array of operations provided by the service.
@@ -25,9 +25,9 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
             'params' => [
                 'marketplace_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetACategoryTree' => [
             'method' => 'GET',
@@ -36,9 +36,9 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
             'params' => [
                 'category_tree_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetACategorySubtree' => [
             'method' => 'GET',
@@ -47,13 +47,13 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
             'params' => [
                 'category_id' => [
                     'valid' => ['string'],
-                    'required' => true
+                    'required' => true,
                 ],
                 'category_tree_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetSuggestedCategories' => [
             'method' => 'GET',
@@ -62,13 +62,13 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
             'params' => [
                 'category_tree_id' => [
                     'valid' => ['string'],
-                    'required' => true
+                    'required' => true,
                 ],
                 'q' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetItemAspectsForCategory' => [
             'method' => 'GET',
@@ -77,14 +77,14 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
             'params' => [
                 'category_id' => [
                     'valid' => ['string'],
-                    'required' => true
+                    'required' => true,
                 ],
                 'category_tree_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
-        ]
+                    'required' => true,
+                ],
+            ],
+        ],
     ];
 
     /**

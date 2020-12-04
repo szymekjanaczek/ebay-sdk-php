@@ -27,26 +27,26 @@ class VariationsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\VariationType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Variation'
+            'elementName' => 'Variation',
         ],
         'Pictures' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\PicturesType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Pictures'
+            'elementName' => 'Pictures',
         ],
         'VariationSpecificsSet' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecificsSet'
+            'elementName' => 'VariationSpecificsSet',
         ],
         'ModifyNameList' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ModifyNameArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ModifyNameList'
-        ]
+            'elementName' => 'ModifyNameList',
+        ],
     ];
 
     /**

@@ -31,50 +31,50 @@ class GetSimilarItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMercha
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'categoryIdExclude' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryIdExclude'
+            'elementName' => 'categoryIdExclude',
         ],
         'listingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingType'
+            'elementName' => 'listingType',
         ],
         'endTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endTimeTo'
+            'elementName' => 'endTimeTo',
         ],
         'endTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endTimeFrom'
+            'elementName' => 'endTimeFrom',
         ],
         'maxPrice' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxPrice'
+            'elementName' => 'maxPrice',
         ],
         'itemFilter' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemFilter'
-        ]
+            'elementName' => 'itemFilter',
+        ],
     ];
 
     /**

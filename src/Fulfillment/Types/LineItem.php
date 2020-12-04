@@ -43,122 +43,122 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\AppliedPromotion',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'appliedPromotions'
+            'elementName' => 'appliedPromotions',
         ],
         'deliveryCost' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\DeliveryCost',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryCost'
+            'elementName' => 'deliveryCost',
         ],
         'discountedLineItemCost' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountedLineItemCost'
+            'elementName' => 'discountedLineItemCost',
         ],
         'giftDetails' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\GiftDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'giftDetails'
+            'elementName' => 'giftDetails',
         ],
         'legacyItemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacyItemId'
+            'elementName' => 'legacyItemId',
         ],
         'legacyVariationId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacyVariationId'
+            'elementName' => 'legacyVariationId',
         ],
         'lineItemCost' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemCost'
+            'elementName' => 'lineItemCost',
         ],
         'lineItemFulfillmentInstructions' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemFulfillmentInstructions'
+            'elementName' => 'lineItemFulfillmentInstructions',
         ],
         'lineItemFulfillmentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemFulfillmentStatus'
+            'elementName' => 'lineItemFulfillmentStatus',
         ],
         'lineItemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemId'
+            'elementName' => 'lineItemId',
         ],
         'listingMarketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingMarketplaceId'
+            'elementName' => 'listingMarketplaceId',
         ],
         'properties' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemProperties',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'properties'
+            'elementName' => 'properties',
         ],
         'purchaseMarketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseMarketplaceId'
+            'elementName' => 'purchaseMarketplaceId',
         ],
         'quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantity'
+            'elementName' => 'quantity',
         ],
         'refunds' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemRefund',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'refunds'
+            'elementName' => 'refunds',
         ],
         'sku' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
+            'elementName' => 'sku',
         ],
         'soldFormat' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'soldFormat'
+            'elementName' => 'soldFormat',
         ],
         'taxes' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Tax',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'taxes'
+            'elementName' => 'taxes',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
+            'elementName' => 'title',
         ],
         'total' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
-        ]
+            'elementName' => 'total',
+        ],
     ];
 
     /**

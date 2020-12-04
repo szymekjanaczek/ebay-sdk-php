@@ -25,14 +25,14 @@ class TimeDuration extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'unit'
+            'elementName' => 'unit',
         ],
         'value' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

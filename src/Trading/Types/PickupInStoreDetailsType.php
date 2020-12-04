@@ -25,14 +25,14 @@ class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupInStore'
+            'elementName' => 'EligibleForPickupInStore',
         ],
         'EligibleForPickupDropOff' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
-        ]
+            'elementName' => 'EligibleForPickupDropOff',
+        ],
     ];
 
     /**

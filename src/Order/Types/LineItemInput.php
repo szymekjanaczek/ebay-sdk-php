@@ -25,14 +25,14 @@ class LineItemInput extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantity'
-        ]
+            'elementName' => 'quantity',
+        ],
     ];
 
     /**

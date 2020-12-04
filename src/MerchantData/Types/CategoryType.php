@@ -37,86 +37,86 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferEnabled'
+            'elementName' => 'BestOfferEnabled',
         ],
         'AutoPayEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AutoPayEnabled'
+            'elementName' => 'AutoPayEnabled',
         ],
         'B2BVATEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'B2BVATEnabled'
+            'elementName' => 'B2BVATEnabled',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'CategoryLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryLevel'
+            'elementName' => 'CategoryLevel',
         ],
         'CategoryName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryName'
+            'elementName' => 'CategoryName',
         ],
         'CategoryParentID' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CategoryParentID'
+            'elementName' => 'CategoryParentID',
         ],
         'CategoryParentName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CategoryParentName'
+            'elementName' => 'CategoryParentName',
         ],
         'Expired' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Expired'
+            'elementName' => 'Expired',
         ],
         'LeafCategory' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LeafCategory'
+            'elementName' => 'LeafCategory',
         ],
         'Virtual' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Virtual'
+            'elementName' => 'Virtual',
         ],
         'ORPA' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ORPA'
+            'elementName' => 'ORPA',
         ],
         'ORRA' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ORRA'
+            'elementName' => 'ORRA',
         ],
         'LSD' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LSD'
-        ]
+            'elementName' => 'LSD',
+        ],
     ];
 
     /**

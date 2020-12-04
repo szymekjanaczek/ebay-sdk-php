@@ -25,14 +25,14 @@ class ItemPolicyViolationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PolicyID'
+            'elementName' => 'PolicyID',
         ],
         'PolicyText' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PolicyText'
-        ]
+            'elementName' => 'PolicyText',
+        ],
     ];
 
     /**

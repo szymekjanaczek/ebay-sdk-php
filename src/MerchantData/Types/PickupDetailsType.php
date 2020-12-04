@@ -24,8 +24,8 @@ class PickupDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\PickupOptionsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PickupOptions'
-        ]
+            'elementName' => 'PickupOptions',
+        ],
     ];
 
     /**

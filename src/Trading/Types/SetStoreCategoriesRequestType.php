@@ -27,26 +27,26 @@ class SetStoreCategoriesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Action'
+            'elementName' => 'Action',
         ],
         'ItemDestinationCategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemDestinationCategoryID'
+            'elementName' => 'ItemDestinationCategoryID',
         ],
         'DestinationParentCategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DestinationParentCategoryID'
+            'elementName' => 'DestinationParentCategoryID',
         ],
         'StoreCategories' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategories'
-        ]
+            'elementName' => 'StoreCategories',
+        ],
     ];
 
     /**

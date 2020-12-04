@@ -24,8 +24,8 @@ class CategoryGroups extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryGroup'
-        ]
+            'elementName' => 'categoryGroup',
+        ],
     ];
 
     /**

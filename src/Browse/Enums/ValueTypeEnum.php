@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Browse\Enums;
 
 class ValueTypeEnum
 {
-    const C_STRING = 'STRING';
-    const C_STRING_ARRAY = 'STRING_ARRAY';
+    public const C_STRING = 'STRING';
+    public const C_STRING_ARRAY = 'STRING_ARRAY';
 }

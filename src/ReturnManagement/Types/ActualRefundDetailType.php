@@ -26,20 +26,20 @@ class ActualRefundDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\RefundDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actualRefund'
+            'elementName' => 'actualRefund',
         ],
         'refundStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundStatus'
+            'elementName' => 'refundStatus',
         ],
         'refundDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundDate'
-        ]
+            'elementName' => 'refundDate',
+        ],
     ];
 
     /**

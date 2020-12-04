@@ -27,26 +27,26 @@ class Text extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'content'
+            'elementName' => 'content',
         ],
         'language' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'language'
+            'elementName' => 'language',
         ],
         'translatedFromContent' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'translatedFromContent'
+            'elementName' => 'translatedFromContent',
         ],
         'translatedFromLanguage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'translatedFromLanguage'
-        ]
+            'elementName' => 'translatedFromLanguage',
+        ],
     ];
 
     /**

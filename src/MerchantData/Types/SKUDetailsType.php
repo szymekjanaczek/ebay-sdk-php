@@ -30,44 +30,44 @@ class SKUDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'Price' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Price'
+            'elementName' => 'Price',
         ],
         'Quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Quantity'
+            'elementName' => 'Quantity',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'BidCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidCount'
+            'elementName' => 'BidCount',
         ],
         'ReserveMet' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReserveMet'
+            'elementName' => 'ReserveMet',
         ],
         'Variations' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MerchantDataVariationsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Variations'
-        ]
+            'elementName' => 'Variations',
+        ],
     ];
 
     /**

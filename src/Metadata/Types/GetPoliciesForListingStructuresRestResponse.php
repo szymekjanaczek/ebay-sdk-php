@@ -10,8 +10,8 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
 
 /**
  *
@@ -31,14 +31,14 @@ class GetPoliciesForListingStructuresRestResponse extends \DTS\eBaySDK\Metadata\
             'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

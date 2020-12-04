@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Marketing\Enums;
 
 class FundingModelEnum
 {
-    const C_COST_PER_SALE = 'COST_PER_SALE';
+    public const C_COST_PER_SALE = 'COST_PER_SALE';
 }

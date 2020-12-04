@@ -33,62 +33,62 @@ class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductName'
+            'elementName' => 'ProductName',
         ],
         'ProductID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductID'
+            'elementName' => 'ProductID',
         ],
         'CustomLabel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CustomLabel'
+            'elementName' => 'CustomLabel',
         ],
         'QuantityAvailable' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantityAvailable'
+            'elementName' => 'QuantityAvailable',
         ],
         'UnitCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnitCost'
+            'elementName' => 'UnitCost',
         ],
         'FolderID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'RestockAlert' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RestockAlert'
+            'elementName' => 'RestockAlert',
         ],
         'RestockThreshold' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RestockThreshold'
+            'elementName' => 'RestockThreshold',
         ],
         'VendorInfo' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VendorInfo'
+            'elementName' => 'VendorInfo',
         ],
         'Note' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Note'
-        ]
+            'elementName' => 'Note',
+        ],
     ];
 
     /**

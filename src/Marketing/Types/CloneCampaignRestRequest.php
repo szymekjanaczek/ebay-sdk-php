@@ -24,8 +24,8 @@ class CloneCampaignRestRequest extends \DTS\eBaySDK\Marketing\Types\CloneCampaig
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_id'
-        ]
+            'elementName' => 'campaign_id',
+        ],
     ];
 
     /**

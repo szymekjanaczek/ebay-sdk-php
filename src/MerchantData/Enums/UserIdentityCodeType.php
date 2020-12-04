@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class UserIdentityCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_E_BAY_PARTNER = 'eBayPartner';
-    const C_E_BAY_USER = 'eBayUser';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_E_BAY_PARTNER = 'eBayPartner';
+    public const C_E_BAY_USER = 'eBayUser';
 }

@@ -24,8 +24,8 @@ class DeleteInventoryItemRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
-        ]
+            'elementName' => 'sku',
+        ],
     ];
 
     /**

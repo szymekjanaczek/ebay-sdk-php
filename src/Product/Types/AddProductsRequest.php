@@ -25,14 +25,14 @@ class AddProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
             'type' => 'DTS\eBaySDK\Product\Types\ProductSubmission',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'addProductRequest'
+            'elementName' => 'addProductRequest',
         ],
         'clientBatchId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'clientBatchId'
-        ]
+            'elementName' => 'clientBatchId',
+        ],
     ];
 
     /**

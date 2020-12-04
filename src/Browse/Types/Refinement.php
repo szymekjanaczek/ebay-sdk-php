@@ -28,32 +28,32 @@ class Refinement extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Browse\Types\AspectDistribution',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectDistributions'
+            'elementName' => 'aspectDistributions',
         ],
         'buyingOptionDistributions' => [
             'type' => 'DTS\eBaySDK\Browse\Types\BuyingOptionDistribution',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'buyingOptionDistributions'
+            'elementName' => 'buyingOptionDistributions',
         ],
         'categoryDistributions' => [
             'type' => 'DTS\eBaySDK\Browse\Types\CategoryDistribution',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryDistributions'
+            'elementName' => 'categoryDistributions',
         ],
         'conditionDistributions' => [
             'type' => 'DTS\eBaySDK\Browse\Types\ConditionDistribution',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'conditionDistributions'
+            'elementName' => 'conditionDistributions',
         ],
         'dominantCategoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dominantCategoryId'
-        ]
+            'elementName' => 'dominantCategoryId',
+        ],
     ];
 
     /**

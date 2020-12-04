@@ -27,26 +27,26 @@ class ConvertedAmount extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'convertedFromCurrency'
+            'elementName' => 'convertedFromCurrency',
         ],
         'convertedFromValue' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'convertedFromValue'
+            'elementName' => 'convertedFromValue',
         ],
         'currency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'currency'
+            'elementName' => 'currency',
         ],
         'value' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

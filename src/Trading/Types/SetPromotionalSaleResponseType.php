@@ -25,14 +25,14 @@ class SetPromotionalSaleResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'PromotionalSaleID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PromotionalSaleID'
-        ]
+            'elementName' => 'PromotionalSaleID',
+        ],
     ];
 
     /**

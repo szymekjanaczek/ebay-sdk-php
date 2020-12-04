@@ -27,26 +27,26 @@ class OrderRefund extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'refundDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundDate'
+            'elementName' => 'refundDate',
         ],
         'refundReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundReferenceId'
+            'elementName' => 'refundReferenceId',
         ],
         'refundStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundStatus'
-        ]
+            'elementName' => 'refundStatus',
+        ],
     ];
 
     /**

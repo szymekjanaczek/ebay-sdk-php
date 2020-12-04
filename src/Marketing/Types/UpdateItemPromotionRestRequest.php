@@ -24,8 +24,8 @@ class UpdateItemPromotionRestRequest extends \DTS\eBaySDK\Marketing\Types\ItemPr
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotion_id'
-        ]
+            'elementName' => 'promotion_id',
+        ],
     ];
 
     /**

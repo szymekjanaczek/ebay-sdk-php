@@ -35,74 +35,74 @@ class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\RefundDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Refund'
+            'elementName' => 'Refund',
         ],
         'ReturnsWithin' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ReturnsWithin'
+            'elementName' => 'ReturnsWithin',
         ],
         'ReturnsAccepted' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ReturnsAccepted'
+            'elementName' => 'ReturnsAccepted',
         ],
         'Description' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
+            'elementName' => 'Description',
         ],
         'WarrantyOffered' => [
             'type' => 'DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'WarrantyOffered'
+            'elementName' => 'WarrantyOffered',
         ],
         'WarrantyType' => [
             'type' => 'DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'WarrantyType'
+            'elementName' => 'WarrantyType',
         ],
         'WarrantyDuration' => [
             'type' => 'DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'WarrantyDuration'
+            'elementName' => 'WarrantyDuration',
         ],
         'EAN' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EAN'
+            'elementName' => 'EAN',
         ],
         'ShippingCostPaidBy' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingCostPaidBy'
+            'elementName' => 'ShippingCostPaidBy',
         ],
         'RestockingFeeValue' => [
             'type' => 'DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'RestockingFeeValue'
+            'elementName' => 'RestockingFeeValue',
         ],
         'DetailVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailVersion'
+            'elementName' => 'DetailVersion',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
-        ]
+            'elementName' => 'UpdateTime',
+        ],
     ];
 
     /**

@@ -31,50 +31,50 @@ class InventoryItemGroup extends \DTS\eBaySDK\Types\BaseType
             'type' => 'any',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspects'
+            'elementName' => 'aspects',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'imageUrls' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'imageUrls'
+            'elementName' => 'imageUrls',
         ],
         'inventoryItemGroupKey' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryItemGroupKey'
+            'elementName' => 'inventoryItemGroupKey',
         ],
         'subtitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'subtitle'
+            'elementName' => 'subtitle',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
+            'elementName' => 'title',
         ],
         'variantSKUs' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'variantSKUs'
+            'elementName' => 'variantSKUs',
         ],
         'variesBy' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\VariesBy',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'variesBy'
-        ]
+            'elementName' => 'variesBy',
+        ],
     ];
 
     /**

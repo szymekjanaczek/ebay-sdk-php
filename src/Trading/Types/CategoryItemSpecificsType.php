@@ -25,14 +25,14 @@ class CategoryItemSpecificsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'ItemSpecifics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemSpecifics'
-        ]
+            'elementName' => 'ItemSpecifics',
+        ],
     ];
 
     /**

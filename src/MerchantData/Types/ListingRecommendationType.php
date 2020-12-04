@@ -30,44 +30,44 @@ class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Type'
+            'elementName' => 'Type',
         ],
         'Group' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Group'
+            'elementName' => 'Group',
         ],
         'FieldName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FieldName'
+            'elementName' => 'FieldName',
         ],
         'Code' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Code'
+            'elementName' => 'Code',
         ],
         'Value' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Value'
+            'elementName' => 'Value',
         ],
         'Message' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Message'
+            'elementName' => 'Message',
         ],
         'Metadata' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MetadataType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Metadata'
-        ]
+            'elementName' => 'Metadata',
+        ],
     ];
 
     /**

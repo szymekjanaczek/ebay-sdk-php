@@ -24,8 +24,8 @@ class StoreSubscriptionArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\StoreSubscriptionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Subscription'
-        ]
+            'elementName' => 'Subscription',
+        ],
     ];
 
     /**

@@ -28,32 +28,32 @@ class ComplianceDetail extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reasonCode'
+            'elementName' => 'reasonCode',
         ],
         'message' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'message'
+            'elementName' => 'message',
         ],
         'variation' => [
             'type' => 'DTS\eBaySDK\Compliance\Types\VariationDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'variation'
+            'elementName' => 'variation',
         ],
         'violationData' => [
             'type' => 'DTS\eBaySDK\Compliance\Types\NameValueList',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'violationData'
+            'elementName' => 'violationData',
         ],
         'correctiveRecommendations' => [
             'type' => 'DTS\eBaySDK\Compliance\Types\CorrectiveRecommendations',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'correctiveRecommendations'
-        ]
+            'elementName' => 'correctiveRecommendations',
+        ],
     ];
 
     /**

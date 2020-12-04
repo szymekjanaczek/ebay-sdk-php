@@ -29,38 +29,38 @@ class RuleSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'count'
+            'elementName' => 'count',
         ],
         'countInTestMode' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'countInTestMode'
+            'elementName' => 'countInTestMode',
         ],
         'invalidAction' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'invalidAction'
+            'elementName' => 'invalidAction',
         ],
         'invalidConditions' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'invalidConditions'
+            'elementName' => 'invalidConditions',
         ],
         'lastModifiedDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastModifiedDate'
+            'elementName' => 'lastModifiedDate',
         ],
         'priority' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priority'
-        ]
+            'elementName' => 'priority',
+        ],
     ];
 
     /**

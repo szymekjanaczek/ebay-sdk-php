@@ -25,14 +25,14 @@ class IssueFullRefundRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'comments' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
-        ]
+            'elementName' => 'comments',
+        ],
     ];
 
     /**

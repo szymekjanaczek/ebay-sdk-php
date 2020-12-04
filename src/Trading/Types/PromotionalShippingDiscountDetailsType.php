@@ -27,26 +27,26 @@ class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DiscountName'
+            'elementName' => 'DiscountName',
         ],
         'ShippingCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingCost'
+            'elementName' => 'ShippingCost',
         ],
         'OrderAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderAmount'
+            'elementName' => 'OrderAmount',
         ],
         'ItemCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemCount'
-        ]
+            'elementName' => 'ItemCount',
+        ],
     ];
 
     /**

@@ -30,44 +30,44 @@ class InventoryItems extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'href'
+            'elementName' => 'href',
         ],
         'inventoryItems' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\InventoryItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'inventoryItems'
+            'elementName' => 'inventoryItems',
         ],
         'limit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'next' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'next'
+            'elementName' => 'next',
         ],
         'prev' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'prev'
+            'elementName' => 'prev',
         ],
         'size' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'size'
+            'elementName' => 'size',
         ],
         'total' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
-        ]
+            'elementName' => 'total',
+        ],
     ];
 
     /**

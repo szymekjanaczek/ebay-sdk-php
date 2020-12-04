@@ -24,8 +24,8 @@ class MemberMessageExchangeArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'MemberMessageExchange'
-        ]
+            'elementName' => 'MemberMessageExchange',
+        ],
     ];
 
     /**

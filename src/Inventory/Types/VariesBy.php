@@ -25,14 +25,14 @@ class VariesBy extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectsImageVariesBy'
+            'elementName' => 'aspectsImageVariesBy',
         ],
         'specifications' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Specification',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'specifications'
-        ]
+            'elementName' => 'specifications',
+        ],
     ];
 
     /**

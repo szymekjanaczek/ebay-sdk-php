@@ -24,8 +24,8 @@ class GetSessionIDResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespon
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SessionID'
-        ]
+            'elementName' => 'SessionID',
+        ],
     ];
 
     /**

@@ -31,50 +31,50 @@ class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityID'
+            'elementName' => 'CharityID',
         ],
         'CharityName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityName'
+            'elementName' => 'CharityName',
         ],
         'Query' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Query'
+            'elementName' => 'Query',
         ],
         'CharityRegion' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityRegion'
+            'elementName' => 'CharityRegion',
         ],
         'CharityDomain' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityDomain'
+            'elementName' => 'CharityDomain',
         ],
         'IncludeDescription' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeDescription'
+            'elementName' => 'IncludeDescription',
         ],
         'MatchType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MatchType'
+            'elementName' => 'MatchType',
         ],
         'Featured' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Featured'
-        ]
+            'elementName' => 'Featured',
+        ],
     ];
 
     /**

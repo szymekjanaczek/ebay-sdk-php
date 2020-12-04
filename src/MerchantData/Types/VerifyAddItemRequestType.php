@@ -24,8 +24,8 @@ class VerifyAddItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractR
             'type' => 'DTS\eBaySDK\MerchantData\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

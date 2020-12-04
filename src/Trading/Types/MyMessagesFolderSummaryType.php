@@ -31,50 +31,50 @@ class MyMessagesFolderSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'FolderName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderName'
+            'elementName' => 'FolderName',
         ],
         'NewAlertCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewAlertCount'
+            'elementName' => 'NewAlertCount',
         ],
         'NewMessageCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewMessageCount'
+            'elementName' => 'NewMessageCount',
         ],
         'TotalAlertCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalAlertCount'
+            'elementName' => 'TotalAlertCount',
         ],
         'TotalMessageCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalMessageCount'
+            'elementName' => 'TotalMessageCount',
         ],
         'NewHighPriorityCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewHighPriorityCount'
+            'elementName' => 'NewHighPriorityCount',
         ],
         'TotalHighPriorityCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalHighPriorityCount'
-        ]
+            'elementName' => 'TotalHighPriorityCount',
+        ],
     ];
 
     /**

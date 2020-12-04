@@ -30,44 +30,44 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'CategoryLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryLevel'
+            'elementName' => 'CategoryLevel',
         ],
         'CategoryName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryName'
+            'elementName' => 'CategoryName',
         ],
         'CategoryParentID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryParentID'
+            'elementName' => 'CategoryParentID',
         ],
         'CategoryNamePath' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryNamePath'
+            'elementName' => 'CategoryNamePath',
         ],
         'CategoryIDPath' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryIDPath'
+            'elementName' => 'CategoryIDPath',
         ],
         'LeafCategory' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LeafCategory'
-        ]
+            'elementName' => 'LeafCategory',
+        ],
     ];
 
     /**

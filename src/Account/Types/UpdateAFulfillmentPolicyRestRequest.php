@@ -24,8 +24,8 @@ class UpdateAFulfillmentPolicyRestRequest extends \DTS\eBaySDK\Account\Types\Ful
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fulfillmentPolicyId'
-        ]
+            'elementName' => 'fulfillmentPolicyId',
+        ],
     ];
 
     /**

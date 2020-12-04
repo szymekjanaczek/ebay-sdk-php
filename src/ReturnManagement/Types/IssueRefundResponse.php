@@ -24,8 +24,8 @@ class IssueRefundResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseRespon
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundStatus'
-        ]
+            'elementName' => 'RefundStatus',
+        ],
     ];
 
     /**

@@ -29,38 +29,38 @@ class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FolderSummary'
+            'elementName' => 'FolderSummary',
         ],
         'NewMessageCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewMessageCount'
+            'elementName' => 'NewMessageCount',
         ],
         'FlaggedMessageCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FlaggedMessageCount'
+            'elementName' => 'FlaggedMessageCount',
         ],
         'TotalMessageCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalMessageCount'
+            'elementName' => 'TotalMessageCount',
         ],
         'NewHighPriorityCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewHighPriorityCount'
+            'elementName' => 'NewHighPriorityCount',
         ],
         'TotalHighPriorityCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalHighPriorityCount'
-        ]
+            'elementName' => 'TotalHighPriorityCount',
+        ],
     ];
 
     /**

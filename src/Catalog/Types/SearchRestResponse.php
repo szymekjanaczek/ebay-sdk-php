@@ -10,8 +10,8 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
 
 /**
  *
@@ -31,14 +31,14 @@ class SearchRestResponse extends \DTS\eBaySDK\Catalog\Types\ProductSearchRespons
             'type' => 'DTS\eBaySDK\Catalog\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

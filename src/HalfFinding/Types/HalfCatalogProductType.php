@@ -34,68 +34,68 @@ class HalfCatalogProductType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
+            'elementName' => 'title',
         ],
         'detailsURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'detailsURL'
+            'elementName' => 'detailsURL',
         ],
         'stockPhotoURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'stockPhotoURL'
+            'elementName' => 'stockPhotoURL',
         ],
         'productID' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productID'
+            'elementName' => 'productID',
         ],
         'categoryName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryName'
+            'elementName' => 'categoryName',
         ],
         'itemSpecifics' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemSpecifics'
+            'elementName' => 'itemSpecifics',
         ],
         'item' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\ItemType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'item'
+            'elementName' => 'item',
         ],
         'listPrice' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listPrice'
+            'elementName' => 'listPrice',
         ],
         'reviewCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reviewCount'
+            'elementName' => 'reviewCount',
         ],
         'BestFixedPrice' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestFixedPrice'
+            'elementName' => 'BestFixedPrice',
         ],
         'BestRentalPrice' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestRentalPrice'
-        ]
+            'elementName' => 'BestRentalPrice',
+        ],
     ];
 
     /**

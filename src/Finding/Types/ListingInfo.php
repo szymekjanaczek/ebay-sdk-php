@@ -31,50 +31,50 @@ class ListingInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bestOfferEnabled'
+            'elementName' => 'bestOfferEnabled',
         ],
         'buyItNowAvailable' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyItNowAvailable'
+            'elementName' => 'buyItNowAvailable',
         ],
         'buyItNowPrice' => [
             'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyItNowPrice'
+            'elementName' => 'buyItNowPrice',
         ],
         'convertedBuyItNowPrice' => [
             'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'convertedBuyItNowPrice'
+            'elementName' => 'convertedBuyItNowPrice',
         ],
         'startTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startTime'
+            'elementName' => 'startTime',
         ],
         'endTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endTime'
+            'elementName' => 'endTime',
         ],
         'listingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingType'
+            'elementName' => 'listingType',
         ],
         'gift' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'gift'
-        ]
+            'elementName' => 'gift',
+        ],
     ];
 
     /**

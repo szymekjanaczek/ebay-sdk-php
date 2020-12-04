@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class DeliveryMethodCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_EMAIL = 'Email';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_EMAIL = 'Email';
 }

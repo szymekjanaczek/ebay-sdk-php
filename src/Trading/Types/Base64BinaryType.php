@@ -24,8 +24,8 @@ class Base64BinaryType extends \DTS\eBaySDK\Types\Base64BinaryType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'contentType'
-        ]
+            'attributeName' => 'contentType',
+        ],
     ];
 
     /**

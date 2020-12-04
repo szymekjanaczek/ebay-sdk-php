@@ -31,50 +31,50 @@ class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureName'
+            'elementName' => 'PictureName',
         ],
         'PictureSet' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureSet'
+            'elementName' => 'PictureSet',
         ],
         'PictureFormat' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureFormat'
+            'elementName' => 'PictureFormat',
         ],
         'FullURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FullURL'
+            'elementName' => 'FullURL',
         ],
         'BaseURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BaseURL'
+            'elementName' => 'BaseURL',
         ],
         'PictureSetMember' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PictureSetMemberType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PictureSetMember'
+            'elementName' => 'PictureSetMember',
         ],
         'ExternalPictureURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalPictureURL'
+            'elementName' => 'ExternalPictureURL',
         ],
         'UseByDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UseByDate'
-        ]
+            'elementName' => 'UseByDate',
+        ],
     ];
 
     /**

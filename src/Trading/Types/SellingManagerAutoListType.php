@@ -26,20 +26,20 @@ class SellingManagerAutoListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SourceSaleTemplateID'
+            'elementName' => 'SourceSaleTemplateID',
         ],
         'KeepMinActive' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'KeepMinActive'
+            'elementName' => 'KeepMinActive',
         ],
         'ListAccordingToSchedule' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListAccordingToSchedule'
-        ]
+            'elementName' => 'ListAccordingToSchedule',
+        ],
     ];
 
     /**

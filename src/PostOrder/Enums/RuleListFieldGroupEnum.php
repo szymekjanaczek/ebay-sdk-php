@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class RuleListFieldGroupEnum
 {
-    const C_FULL = 'FULL';
-    const C_NONE = 'NONE';
-    const C_SUMMARY = 'SUMMARY';
+    public const C_FULL = 'FULL';
+    public const C_NONE = 'NONE';
+    public const C_SUMMARY = 'SUMMARY';
 }

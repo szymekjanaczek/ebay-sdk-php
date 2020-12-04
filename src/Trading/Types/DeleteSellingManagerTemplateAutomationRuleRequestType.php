@@ -27,26 +27,26 @@ class DeleteSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateID'
+            'elementName' => 'SaleTemplateID',
         ],
         'DeleteAutomatedListingRule' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeleteAutomatedListingRule'
+            'elementName' => 'DeleteAutomatedListingRule',
         ],
         'DeleteAutomatedRelistingRule' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeleteAutomatedRelistingRule'
+            'elementName' => 'DeleteAutomatedRelistingRule',
         ],
         'DeleteAutomatedSecondChanceOfferRule' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeleteAutomatedSecondChanceOfferRule'
-        ]
+            'elementName' => 'DeleteAutomatedSecondChanceOfferRule',
+        ],
     ];
 
     /**

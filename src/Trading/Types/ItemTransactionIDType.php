@@ -27,26 +27,26 @@ class ItemTransactionIDType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
+            'elementName' => 'TransactionID',
         ],
         'SKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
-        ]
+            'elementName' => 'OrderLineItemID',
+        ],
     ];
 
     /**

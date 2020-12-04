@@ -26,20 +26,20 @@ class RuleDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actionDetail'
+            'elementName' => 'actionDetail',
         ],
         'condition' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'condition'
+            'elementName' => 'condition',
         ],
         'ruleSummary' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ruleSummary'
-        ]
+            'elementName' => 'ruleSummary',
+        ],
     ];
 
     /**

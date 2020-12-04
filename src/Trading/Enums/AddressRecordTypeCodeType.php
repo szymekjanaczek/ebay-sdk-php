@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class AddressRecordTypeCodeType
 {
-    const C_BUSINESS = 'Business';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_RESIDENTIAL = 'Residential';
+    public const C_BUSINESS = 'Business';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_RESIDENTIAL = 'Residential';
 }

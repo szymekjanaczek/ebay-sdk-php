@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class DescriptionReviseModeCodeType
 {
-    const C_APPEND = 'Append';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_PREPEND = 'Prepend';
-    const C_REPLACE = 'Replace';
+    public const C_APPEND = 'Append';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_PREPEND = 'Prepend';
+    public const C_REPLACE = 'Replace';
 }

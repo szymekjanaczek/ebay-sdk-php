@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Marketing\Enums;
 
 class CategoryScopeEnum
 {
-    const C_MARKETPLACE = 'MARKETPLACE';
-    const C_STORE = 'STORE';
+    public const C_MARKETPLACE = 'MARKETPLACE';
+    public const C_STORE = 'STORE';
 }

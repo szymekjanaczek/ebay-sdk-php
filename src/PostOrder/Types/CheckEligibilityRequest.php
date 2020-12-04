@@ -28,32 +28,32 @@ class CheckEligibilityRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'checkTypes'
+            'elementName' => 'checkTypes',
         ],
         'itemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'reason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reason'
+            'elementName' => 'reason',
         ],
         'returnQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnQuantity'
+            'elementName' => 'returnQuantity',
         ],
         'transactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionId'
-        ]
+            'elementName' => 'transactionId',
+        ],
     ];
 
     /**

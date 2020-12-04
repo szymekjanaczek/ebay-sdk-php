@@ -25,14 +25,14 @@ class ConditionValuesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\ConditionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Condition'
+            'elementName' => 'Condition',
         ],
         'ConditionHelpURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ConditionHelpURL'
-        ]
+            'elementName' => 'ConditionHelpURL',
+        ],
     ];
 
     /**

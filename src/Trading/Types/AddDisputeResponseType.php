@@ -24,8 +24,8 @@ class AddDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeID'
-        ]
+            'elementName' => 'DisputeID',
+        ],
     ];
 
     /**

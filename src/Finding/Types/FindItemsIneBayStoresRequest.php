@@ -29,38 +29,38 @@ class FindItemsIneBayStoresRequest extends \DTS\eBaySDK\Finding\Types\BaseFindin
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'keywords'
+            'elementName' => 'keywords',
         ],
         'storeName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storeName'
+            'elementName' => 'storeName',
         ],
         'itemFilter' => [
             'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemFilter'
+            'elementName' => 'itemFilter',
         ],
         'outputSelector' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'outputSelector'
+            'elementName' => 'outputSelector',
         ],
         'aspectFilter' => [
             'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectFilter'
+            'elementName' => 'aspectFilter',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryId'
-        ]
+            'elementName' => 'categoryId',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class BulkUpdateAdBidsByInventoryReferenceRestRequest extends \DTS\eBaySDK\Marke
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_id'
-        ]
+            'elementName' => 'campaign_id',
+        ],
     ];
 
     /**

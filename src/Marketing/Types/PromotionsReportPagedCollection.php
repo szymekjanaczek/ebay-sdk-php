@@ -30,44 +30,44 @@ class PromotionsReportPagedCollection extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'href'
+            'elementName' => 'href',
         ],
         'limit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'next' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'next'
+            'elementName' => 'next',
         ],
         'offset' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'prev' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'prev'
+            'elementName' => 'prev',
         ],
         'promotionReports' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\PromotionReportDetail',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'promotionReports'
+            'elementName' => 'promotionReports',
         ],
         'total' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
-        ]
+            'elementName' => 'total',
+        ],
     ];
 
     /**

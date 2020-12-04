@@ -24,8 +24,8 @@ class BulkDeleteAdResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\DeleteAdResponse',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'responses'
-        ]
+            'elementName' => 'responses',
+        ],
     ];
 
     /**

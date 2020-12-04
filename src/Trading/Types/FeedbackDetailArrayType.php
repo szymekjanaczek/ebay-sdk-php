@@ -24,8 +24,8 @@ class FeedbackDetailArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FeedbackDetail'
-        ]
+            'elementName' => 'FeedbackDetail',
+        ],
     ];
 
     /**

@@ -32,56 +32,56 @@ class CaseStatusType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'INRStatus'
+            'elementName' => 'INRStatus',
         ],
         'SNADStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SNADStatus'
+            'elementName' => 'SNADStatus',
         ],
         'EBPINRStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EBPINRStatus'
+            'elementName' => 'EBPINRStatus',
         ],
         'EBPSNADStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EBPSNADStatus'
+            'elementName' => 'EBPSNADStatus',
         ],
         'UPIStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UPIStatus'
+            'elementName' => 'UPIStatus',
         ],
         'cancelTransactionStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelTransactionStatus'
+            'elementName' => 'cancelTransactionStatus',
         ],
         'returnStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnStatus'
+            'elementName' => 'returnStatus',
         ],
         'PaypalINRStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaypalINRStatus'
+            'elementName' => 'PaypalINRStatus',
         ],
         'PaypalSNADStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaypalSNADStatus'
-        ]
+            'elementName' => 'PaypalSNADStatus',
+        ],
     ];
 
     /**

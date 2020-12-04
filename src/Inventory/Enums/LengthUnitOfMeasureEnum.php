@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Inventory\Enums;
 
 class LengthUnitOfMeasureEnum
 {
-    const C_CENTIMETER = 'CENTIMETER';
-    const C_FEET = 'FEET';
-    const C_INCH = 'INCH';
-    const C_METER = 'METER';
+    public const C_CENTIMETER = 'CENTIMETER';
+    public const C_FEET = 'FEET';
+    public const C_INCH = 'INCH';
+    public const C_METER = 'METER';
 }

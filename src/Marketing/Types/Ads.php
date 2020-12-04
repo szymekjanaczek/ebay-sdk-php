@@ -24,8 +24,8 @@ class Ads extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\Ad',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ads'
-        ]
+            'elementName' => 'ads',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class VerifyAddFixedPriceItemRequestType extends \DTS\eBaySDK\Trading\Types\Abst
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

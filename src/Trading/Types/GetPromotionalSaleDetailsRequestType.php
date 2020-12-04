@@ -25,14 +25,14 @@ class GetPromotionalSaleDetailsRequestType extends \DTS\eBaySDK\Trading\Types\Ab
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PromotionalSaleID'
+            'elementName' => 'PromotionalSaleID',
         ],
         'PromotionalSaleStatus' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PromotionalSaleStatus'
-        ]
+            'elementName' => 'PromotionalSaleStatus',
+        ],
     ];
 
     /**

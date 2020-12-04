@@ -30,44 +30,44 @@ class Payment extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'paymentDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentDate'
+            'elementName' => 'paymentDate',
         ],
         'paymentHolds' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\PaymentHold',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'paymentHolds'
+            'elementName' => 'paymentHolds',
         ],
         'paymentMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMethod'
+            'elementName' => 'paymentMethod',
         ],
         'paymentMode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMode'
+            'elementName' => 'paymentMode',
         ],
         'paymentReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentReferenceId'
+            'elementName' => 'paymentReferenceId',
         ],
         'paymentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentStatus'
-        ]
+            'elementName' => 'paymentStatus',
+        ],
     ];
 
     /**

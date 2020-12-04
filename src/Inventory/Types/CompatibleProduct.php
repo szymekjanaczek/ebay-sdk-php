@@ -26,20 +26,20 @@ class CompatibleProduct extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'notes'
+            'elementName' => 'notes',
         ],
         'productFamilyProperties' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ProductFamilyProperties',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productFamilyProperties'
+            'elementName' => 'productFamilyProperties',
         ],
         'productIdentifier' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productIdentifier'
-        ]
+            'elementName' => 'productIdentifier',
+        ],
     ];
 
     /**

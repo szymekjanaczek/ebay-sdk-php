@@ -26,20 +26,20 @@ class MembershipDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProgramName'
+            'elementName' => 'ProgramName',
         ],
         'Site' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Site'
+            'elementName' => 'Site',
         ],
         'ExpiryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExpiryDate'
-        ]
+            'elementName' => 'ExpiryDate',
+        ],
     ];
 
     /**

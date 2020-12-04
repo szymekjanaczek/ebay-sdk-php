@@ -1,10 +1,11 @@
 <?php
+
 namespace DTS\eBaySDK\Types;
 
-use \DTS\eBaySDK\Types;
-use \DTS\eBaySDK\Exceptions;
-use \DTS\eBaySDK\JmesPath\Env;
-use \DTS\eBaySDK\JmesPath\JmesPathableObjectInterface;
+use DTS\eBaySDK\Exceptions;
+use DTS\eBaySDK\JmesPath\Env;
+use DTS\eBaySDK\JmesPath\JmesPathableObjectInterface;
+use DTS\eBaySDK\Types;
 
 /**
  * Base class for all API objects.
@@ -61,7 +62,10 @@ class BaseType implements JmesPathableObjectInterface
 
         $this->setValues(__CLASS__, $values);
 
-        $this->attachment = ['data' => null, 'mimeType' => null];
+        $this->attachment = [
+            'data' => null,
+            'mimeType' => null,
+        ];
     }
 
     /**
@@ -542,7 +546,7 @@ class BaseType implements JmesPathableObjectInterface
     {
         return [
             array_diff_key($values, $properties),
-            array_intersect_key($values, $properties)
+            array_intersect_key($values, $properties),
         ];
     }
 

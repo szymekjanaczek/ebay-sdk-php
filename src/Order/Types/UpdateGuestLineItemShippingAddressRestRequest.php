@@ -24,8 +24,8 @@ class UpdateGuestLineItemShippingAddressRestRequest extends \DTS\eBaySDK\Order\T
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'checkoutSessionId'
-        ]
+            'elementName' => 'checkoutSessionId',
+        ],
     ];
 
     /**

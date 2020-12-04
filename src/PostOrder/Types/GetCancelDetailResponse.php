@@ -24,8 +24,8 @@ class GetCancelDetailResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\CancelDetail',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelDetail'
-        ]
+            'elementName' => 'cancelDetail',
+        ],
     ];
 
     /**

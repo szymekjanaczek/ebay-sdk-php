@@ -31,50 +31,50 @@ class GetFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestT
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'FeedbackID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackID'
+            'elementName' => 'FeedbackID',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
+            'elementName' => 'TransactionID',
         ],
         'CommentType' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CommentType'
+            'elementName' => 'CommentType',
         ],
         'FeedbackType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackType'
+            'elementName' => 'FeedbackType',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
-        ]
+            'elementName' => 'OrderLineItemID',
+        ],
     ];
 
     /**

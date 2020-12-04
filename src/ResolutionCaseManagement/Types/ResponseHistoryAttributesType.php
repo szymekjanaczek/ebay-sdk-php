@@ -27,26 +27,26 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'appealRef'
+            'elementName' => 'appealRef',
         ],
         'moneyMovementRef' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'moneyMovementRef'
+            'elementName' => 'moneyMovementRef',
         ],
         'onholdReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'onholdReason'
+            'elementName' => 'onholdReason',
         ],
         'onholdReasonDetail' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'onholdReasonDetail'
-        ]
+            'elementName' => 'onholdReasonDetail',
+        ],
     ];
 
     /**

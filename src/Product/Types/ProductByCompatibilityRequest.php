@@ -25,14 +25,14 @@ class ProductByCompatibilityRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'applicationPropertyFilter'
+            'elementName' => 'applicationPropertyFilter',
         ],
         'productSearch' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductRequest',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productSearch'
-        ]
+            'elementName' => 'productSearch',
+        ],
     ];
 
     /**

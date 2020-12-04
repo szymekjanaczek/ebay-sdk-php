@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class ReturnCaseStatusType
 {
-    const C_CLOSED = 'CLOSED';
-    const C_CLOSED_FVFCREDIT_STRIKE = 'CLOSED_FVFCREDIT_STRIKE';
-    const C_CS_CLOSED = 'CS_CLOSED';
-    const C_EXPIRED = 'EXPIRED';
-    const C_MY_RESPONSE_DUE = 'MY_RESPONSE_DUE';
-    const C_OTHER = 'OTHER';
-    const C_OTHER_PARTY_RESPONSE_DUE = 'OTHER_PARTY_RESPONSE_DUE';
+    public const C_CLOSED = 'CLOSED';
+    public const C_CLOSED_FVFCREDIT_STRIKE = 'CLOSED_FVFCREDIT_STRIKE';
+    public const C_CS_CLOSED = 'CS_CLOSED';
+    public const C_EXPIRED = 'EXPIRED';
+    public const C_MY_RESPONSE_DUE = 'MY_RESPONSE_DUE';
+    public const C_OTHER = 'OTHER';
+    public const C_OTHER_PARTY_RESPONSE_DUE = 'OTHER_PARTY_RESPONSE_DUE';
 }

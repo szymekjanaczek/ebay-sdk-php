@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class TrackingStatusEnum
 {
-    const C_CANCELLED = 'CANCELLED';
-    const C_CREATED = 'CREATED';
-    const C_DELIVERED = 'DELIVERED';
-    const C_IN_TRANSIT = 'IN_TRANSIT';
-    const C_UNKNOWN = 'UNKNOWN';
+    public const C_CANCELLED = 'CANCELLED';
+    public const C_CREATED = 'CREATED';
+    public const C_DELIVERED = 'DELIVERED';
+    public const C_IN_TRANSIT = 'IN_TRANSIT';
+    public const C_UNKNOWN = 'UNKNOWN';
 }

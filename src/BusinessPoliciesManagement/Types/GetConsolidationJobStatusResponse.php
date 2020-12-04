@@ -24,8 +24,8 @@ class GetConsolidationJobStatusResponse extends \DTS\eBaySDK\BusinessPoliciesMan
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Job'
-        ]
+            'elementName' => 'Job',
+        ],
     ];
 
     /**

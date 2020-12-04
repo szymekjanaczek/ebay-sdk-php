@@ -25,14 +25,14 @@ class SellerReverseDisputeRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeID'
+            'elementName' => 'DisputeID',
         ],
         'DisputeResolutionReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeResolutionReason'
-        ]
+            'elementName' => 'DisputeResolutionReason',
+        ],
     ];
 
     /**

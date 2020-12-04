@@ -27,26 +27,26 @@ class URLDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'URLType'
+            'elementName' => 'URLType',
         ],
         'URL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'URL'
+            'elementName' => 'URL',
         ],
         'DetailVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailVersion'
+            'elementName' => 'DetailVersion',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
-        ]
+            'elementName' => 'UpdateTime',
+        ],
     ];
 
     /**

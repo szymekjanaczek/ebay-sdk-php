@@ -28,32 +28,32 @@ class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTime'
+            'elementName' => 'StartTime',
         ],
         'EndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
+            'elementName' => 'EndTime',
         ],
         'NotificationDetailsArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NotificationDetailsArray'
+            'elementName' => 'NotificationDetailsArray',
         ],
         'MarkUpMarkDownHistory' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MarkUpMarkDownHistory'
+            'elementName' => 'MarkUpMarkDownHistory',
         ],
         'NotificationStatistics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NotificationStatisticsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NotificationStatistics'
-        ]
+            'elementName' => 'NotificationStatistics',
+        ],
     ];
 
     /**

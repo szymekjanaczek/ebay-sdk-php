@@ -25,14 +25,14 @@ class PowerSellerDashboardType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Level'
+            'elementName' => 'Level',
         ],
         'Alert' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellerDashboardAlertType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Alert'
-        ]
+            'elementName' => 'Alert',
+        ],
     ];
 
     /**

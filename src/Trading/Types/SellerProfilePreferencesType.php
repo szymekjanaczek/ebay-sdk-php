@@ -25,14 +25,14 @@ class SellerProfilePreferencesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerProfileOptedIn'
+            'elementName' => 'SellerProfileOptedIn',
         ],
         'SupportedSellerProfiles' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SupportedSellerProfiles'
-        ]
+            'elementName' => 'SupportedSellerProfiles',
+        ],
     ];
 
     /**

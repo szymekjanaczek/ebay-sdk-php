@@ -24,8 +24,8 @@ class MarkUpMarkDownHistoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\MarkUpMarkDownEventType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'MarkUpMarkDownEvent'
-        ]
+            'elementName' => 'MarkUpMarkDownEvent',
+        ],
     ];
 
     /**

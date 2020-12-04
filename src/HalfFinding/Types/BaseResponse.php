@@ -28,32 +28,32 @@ class BaseResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ack'
+            'elementName' => 'ack',
         ],
         'errorMessage' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorMessage'
+            'elementName' => 'errorMessage',
         ],
         'version' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'version'
+            'elementName' => 'version',
         ],
         'timestamp' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'timestamp'
+            'elementName' => 'timestamp',
         ],
         'extension' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\ExtensionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'extension'
-        ]
+            'elementName' => 'extension',
+        ],
     ];
 
     /**

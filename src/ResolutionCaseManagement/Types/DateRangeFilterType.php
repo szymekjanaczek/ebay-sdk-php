@@ -25,14 +25,14 @@ class DateRangeFilterType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fromDate'
+            'elementName' => 'fromDate',
         ],
         'toDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'toDate'
-        ]
+            'elementName' => 'toDate',
+        ],
     ];
 
     /**

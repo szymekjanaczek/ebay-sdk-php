@@ -24,8 +24,8 @@ class GetHistogramsRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
-        ]
+            'elementName' => 'categoryId',
+        ],
     ];
 
     /**

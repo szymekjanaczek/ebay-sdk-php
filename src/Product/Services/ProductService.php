@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Product\Services;
 
 class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
 {
-    const API_VERSION = '1.4.0';
+    public const API_VERSION = '1.4.0';
 
     /**
      * @param array $config Configuration option values.

@@ -26,20 +26,20 @@ class ProductStatus extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'excludeForeBaySelling'
+            'elementName' => 'excludeForeBaySelling',
         ],
         'excludeForeBayReviews' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'excludeForeBayReviews'
+            'elementName' => 'excludeForeBayReviews',
         ],
         'excludeForHalfSelling' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'excludeForHalfSelling'
-        ]
+            'elementName' => 'excludeForHalfSelling',
+        ],
     ];
 
     /**

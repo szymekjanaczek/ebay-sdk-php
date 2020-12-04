@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 use GuzzleHttp\Client;
@@ -20,13 +21,13 @@ class HttpHandler
      */
     private static $validOptions = [
         'connect_timeout' => true,
-        'curl'            => true,
-        'debug'           => true,
-        'delay'           => true,
-        'http_errors'     => true,
-        'proxy'           => true,
-        'timeout'         => true,
-        'verify'          => true
+        'curl' => true,
+        'debug' => true,
+        'delay' => true,
+        'http_errors' => true,
+        'proxy' => true,
+        'timeout' => true,
+        'verify' => true,
     ];
 
     /**

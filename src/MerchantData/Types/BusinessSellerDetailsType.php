@@ -31,50 +31,50 @@ class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Address'
+            'elementName' => 'Address',
         ],
         'Fax' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Fax'
+            'elementName' => 'Fax',
         ],
         'Email' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Email'
+            'elementName' => 'Email',
         ],
         'AdditionalContactInformation' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AdditionalContactInformation'
+            'elementName' => 'AdditionalContactInformation',
         ],
         'TradeRegistrationNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TradeRegistrationNumber'
+            'elementName' => 'TradeRegistrationNumber',
         ],
         'LegalInvoice' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LegalInvoice'
+            'elementName' => 'LegalInvoice',
         ],
         'TermsAndConditions' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TermsAndConditions'
+            'elementName' => 'TermsAndConditions',
         ],
         'VATDetails' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\VATDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VATDetails'
-        ]
+            'elementName' => 'VATDetails',
+        ],
     ];
 
     /**

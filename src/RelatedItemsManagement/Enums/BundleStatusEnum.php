@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Enums;
 
 class BundleStatusEnum
 {
-    const C_ACTIVE = 'Active';
-    const C_DISABLED = 'Disabled';
-    const C_ENDED = 'Ended';
-    const C_SCHEDULED = 'Scheduled';
+    public const C_ACTIVE = 'Active';
+    public const C_DISABLED = 'Disabled';
+    public const C_ENDED = 'Ended';
+    public const C_SCHEDULED = 'Scheduled';
 }

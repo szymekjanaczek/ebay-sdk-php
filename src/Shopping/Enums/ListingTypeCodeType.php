@@ -12,17 +12,17 @@ namespace DTS\eBaySDK\Shopping\Enums;
 
 class ListingTypeCodeType
 {
-    const C_AD_TYPE = 'AdType';
-    const C_AUCTION = 'Auction';
-    const C_CHINESE = 'Chinese';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DUTCH = 'Dutch';
-    const C_EXPRESS = 'Express';
-    const C_FIXED_PRICE_ITEM = 'FixedPriceItem';
-    const C_HALF = 'Half';
-    const C_LEAD_GENERATION = 'LeadGeneration';
-    const C_LIVE = 'Live';
-    const C_PERSONAL_OFFER = 'PersonalOffer';
-    const C_STORES_FIXED_PRICE = 'StoresFixedPrice';
-    const C_UNKNOWN = 'Unknown';
+    public const C_AD_TYPE = 'AdType';
+    public const C_AUCTION = 'Auction';
+    public const C_CHINESE = 'Chinese';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DUTCH = 'Dutch';
+    public const C_EXPRESS = 'Express';
+    public const C_FIXED_PRICE_ITEM = 'FixedPriceItem';
+    public const C_HALF = 'Half';
+    public const C_LEAD_GENERATION = 'LeadGeneration';
+    public const C_LIVE = 'Live';
+    public const C_PERSONAL_OFFER = 'PersonalOffer';
+    public const C_STORES_FIXED_PRICE = 'StoresFixedPrice';
+    public const C_UNKNOWN = 'Unknown';
 }

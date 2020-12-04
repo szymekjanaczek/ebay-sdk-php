@@ -25,14 +25,14 @@ class CharityAffiliationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'id'
+            'attributeName' => 'id',
         ],
         'type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'type'
-        ]
+            'attributeName' => 'type',
+        ],
     ];
 
     /**

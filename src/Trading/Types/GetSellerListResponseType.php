@@ -30,44 +30,44 @@ class GetSellerListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
+            'elementName' => 'PaginationResult',
         ],
         'HasMoreItems' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasMoreItems'
+            'elementName' => 'HasMoreItems',
         ],
         'ItemArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemArray'
+            'elementName' => 'ItemArray',
         ],
         'ItemsPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemsPerPage'
+            'elementName' => 'ItemsPerPage',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
+            'elementName' => 'PageNumber',
         ],
         'ReturnedItemCountActual' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnedItemCountActual'
+            'elementName' => 'ReturnedItemCountActual',
         ],
         'Seller' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Seller'
-        ]
+            'elementName' => 'Seller',
+        ],
     ];
 
     /**

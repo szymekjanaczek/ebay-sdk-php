@@ -43,122 +43,122 @@ class ShippingPolicyInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingPolicyName'
+            'elementName' => 'shippingPolicyName',
         ],
         'domesticShippingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domesticShippingType'
+            'elementName' => 'domesticShippingType',
         ],
         'intlShippingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'intlShippingType'
+            'elementName' => 'intlShippingType',
         ],
         'dispatchTimeMax' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dispatchTimeMax'
+            'elementName' => 'dispatchTimeMax',
         ],
         'dispatchTimeReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dispatchTimeReason'
+            'elementName' => 'dispatchTimeReason',
         ],
         'shippingOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingOption'
+            'elementName' => 'shippingOption',
         ],
         'excludeShipToLocation' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'excludeShipToLocation'
+            'elementName' => 'excludeShipToLocation',
         ],
         'shippingProfileDiscountInfo' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingProfileDiscountInfo'
+            'elementName' => 'shippingProfileDiscountInfo',
         ],
         'freightShipping' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'freightShipping'
+            'elementName' => 'freightShipping',
         ],
         'shipToLocations' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shipToLocations'
+            'elementName' => 'shipToLocations',
         ],
         'domesticShippingPolicyInfoService' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'domesticShippingPolicyInfoService'
+            'elementName' => 'domesticShippingPolicyInfoService',
         ],
         'intlShippingPolicyInfoService' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'intlShippingPolicyInfoService'
+            'elementName' => 'intlShippingPolicyInfoService',
         ],
         'insurance' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'insurance'
+            'elementName' => 'insurance',
         ],
         'intlRateTable' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'intlRateTable'
+            'elementName' => 'intlRateTable',
         ],
         'domesticRateTable' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domesticRateTable'
+            'elementName' => 'domesticRateTable',
         ],
         'packagingHandlingCosts' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'packagingHandlingCosts'
+            'elementName' => 'packagingHandlingCosts',
         ],
         'internationalPackagingHandlingCosts' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'internationalPackagingHandlingCosts'
+            'elementName' => 'internationalPackagingHandlingCosts',
         ],
         'shippingPolicyCurrency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingPolicyCurrency'
+            'elementName' => 'shippingPolicyCurrency',
         ],
         'GlobalShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GlobalShipping'
+            'elementName' => 'GlobalShipping',
         ],
         'EligibleForPickupDropOff' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
-        ]
+            'elementName' => 'EligibleForPickupDropOff',
+        ],
     ];
 
     /**

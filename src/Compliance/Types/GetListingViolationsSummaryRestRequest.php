@@ -24,8 +24,8 @@ class GetListingViolationsSummaryRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'compliance_type'
-        ]
+            'elementName' => 'compliance_type',
+        ],
     ];
 
     /**

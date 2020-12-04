@@ -27,26 +27,26 @@ class SellingManagerProductType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductDetails'
+            'elementName' => 'SellingManagerProductDetails',
         ],
         'SellingManagerTemplateDetailsArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerTemplateDetailsArray'
+            'elementName' => 'SellingManagerTemplateDetailsArray',
         ],
         'SellingManagerProductInventoryStatus' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductInventoryStatus'
+            'elementName' => 'SellingManagerProductInventoryStatus',
         ],
         'SellingManagerProductSpecifics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductSpecifics'
-        ]
+            'elementName' => 'SellingManagerProductSpecifics',
+        ],
     ];
 
     /**

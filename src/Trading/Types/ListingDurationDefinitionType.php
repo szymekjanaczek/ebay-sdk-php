@@ -25,14 +25,14 @@ class ListingDurationDefinitionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Duration'
+            'elementName' => 'Duration',
         ],
         'durationSetID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'durationSetID'
-        ]
+            'attributeName' => 'durationSetID',
+        ],
     ];
 
     /**

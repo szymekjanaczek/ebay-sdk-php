@@ -30,44 +30,44 @@ class SetUserNotesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'Action' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Action'
+            'elementName' => 'Action',
         ],
         'NoteText' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NoteText'
+            'elementName' => 'NoteText',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
+            'elementName' => 'TransactionID',
         ],
         'VariationSpecifics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecifics'
+            'elementName' => 'VariationSpecifics',
         ],
         'SKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
-        ]
+            'elementName' => 'OrderLineItemID',
+        ],
     ];
 
     /**

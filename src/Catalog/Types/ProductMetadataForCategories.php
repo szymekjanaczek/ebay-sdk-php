@@ -26,20 +26,20 @@ class ProductMetadataForCategories extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Catalog\Types\CategoryAspect',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspects'
+            'elementName' => 'aspects',
         ],
         'brand' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'brand'
+            'elementName' => 'brand',
         ],
         'mpn' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'mpn'
-        ]
+            'elementName' => 'mpn',
+        ],
     ];
 
     /**

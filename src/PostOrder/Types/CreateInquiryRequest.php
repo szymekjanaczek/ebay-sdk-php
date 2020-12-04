@@ -28,32 +28,32 @@ class CreateInquiryRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'claimQuantity'
+            'elementName' => 'claimQuantity',
         ],
         'comments' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
+            'elementName' => 'comments',
         ],
         'desiredOutcome' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'desiredOutcome'
+            'elementName' => 'desiredOutcome',
         ],
         'itemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'transactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionId'
-        ]
+            'elementName' => 'transactionId',
+        ],
     ];
 
     /**

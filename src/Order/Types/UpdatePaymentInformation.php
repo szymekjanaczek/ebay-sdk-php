@@ -24,8 +24,8 @@ class UpdatePaymentInformation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\CreditCard',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creditCard'
-        ]
+            'elementName' => 'creditCard',
+        ],
     ];
 
     /**

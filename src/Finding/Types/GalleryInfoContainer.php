@@ -24,8 +24,8 @@ class GalleryInfoContainer extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Finding\Types\GalleryURL',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'galleryURL'
-        ]
+            'elementName' => 'galleryURL',
+        ],
     ];
 
     /**

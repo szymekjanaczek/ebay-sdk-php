@@ -27,26 +27,26 @@ class GetCategoryInfoResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractRe
             'type' => 'DTS\eBaySDK\Shopping\Types\CategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryArray'
+            'elementName' => 'CategoryArray',
         ],
         'CategoryCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryCount'
+            'elementName' => 'CategoryCount',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
+            'elementName' => 'UpdateTime',
         ],
         'CategoryVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryVersion'
-        ]
+            'elementName' => 'CategoryVersion',
+        ],
     ];
 
     /**

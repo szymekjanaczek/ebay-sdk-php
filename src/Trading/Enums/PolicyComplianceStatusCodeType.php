@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class PolicyComplianceStatusCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FAILING = 'Failing';
-    const C_FAIR = 'Fair';
-    const C_GOOD = 'Good';
-    const C_POOR = 'Poor';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FAILING = 'Failing';
+    public const C_FAIR = 'Fair';
+    public const C_GOOD = 'Good';
+    public const C_POOR = 'Poor';
 }

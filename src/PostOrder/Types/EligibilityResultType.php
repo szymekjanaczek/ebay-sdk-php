@@ -30,44 +30,44 @@ class EligibilityResultType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'eligibilityErrorDetail' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'eligibilityErrorDetail'
+            'elementName' => 'eligibilityErrorDetail',
         ],
         'eligibilityStatus' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\StatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eligibilityStatus'
+            'elementName' => 'eligibilityStatus',
         ],
         'eligibleStartDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eligibleStartDate'
+            'elementName' => 'eligibleStartDate',
         ],
         'returnCreationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnCreationDate'
+            'elementName' => 'returnCreationDate',
         ],
         'returnDeadline' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnDeadline'
+            'elementName' => 'returnDeadline',
         ],
         'returnId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

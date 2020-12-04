@@ -25,14 +25,14 @@ class AddToItemDescriptionRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'Description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
-        ]
+            'elementName' => 'Description',
+        ],
     ];
 
     /**

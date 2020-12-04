@@ -24,8 +24,8 @@ class UploadReturnDraftFileRestRequest extends \DTS\eBaySDK\PostOrder\Types\Uplo
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'draftId'
-        ]
+            'elementName' => 'draftId',
+        ],
     ];
 
     /**

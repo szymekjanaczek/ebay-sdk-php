@@ -10,8 +10,8 @@
 
 namespace DTS\eBaySDK\Taxonomy\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
 
 /**
  *
@@ -31,14 +31,14 @@ class GetADefaultCategoryTreeIdRestResponse extends \DTS\eBaySDK\Taxonomy\Types\
             'type' => 'DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

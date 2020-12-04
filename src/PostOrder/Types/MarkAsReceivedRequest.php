@@ -24,8 +24,8 @@ class MarkAsReceivedRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
-        ]
+            'elementName' => 'comments',
+        ],
     ];
 
     /**

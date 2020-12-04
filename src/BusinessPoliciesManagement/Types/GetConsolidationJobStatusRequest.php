@@ -24,8 +24,8 @@ class GetConsolidationJobStatusRequest extends \DTS\eBaySDK\BusinessPoliciesMana
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'JobId'
-        ]
+            'elementName' => 'JobId',
+        ],
     ];
 
     /**

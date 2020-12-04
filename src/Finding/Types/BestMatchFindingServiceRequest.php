@@ -26,20 +26,20 @@ class BestMatchFindingServiceRequest extends \DTS\eBaySDK\Finding\Types\BaseServ
             'type' => 'DTS\eBaySDK\Finding\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
+            'elementName' => 'paginationInput',
         ],
         'buyerPostalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerPostalCode'
+            'elementName' => 'buyerPostalCode',
         ],
         'affiliate' => [
             'type' => 'DTS\eBaySDK\Finding\Types\Affiliate',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'affiliate'
-        ]
+            'elementName' => 'affiliate',
+        ],
     ];
 
     /**

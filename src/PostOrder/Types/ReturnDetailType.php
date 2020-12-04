@@ -39,98 +39,98 @@ class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerAddress'
+            'elementName' => 'buyerAddress',
         ],
         'buyerLoginName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerLoginName'
+            'elementName' => 'buyerLoginName',
         ],
         'closeInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnCloseInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'closeInfo'
+            'elementName' => 'closeInfo',
         ],
         'dispositionRuleDetail' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DispositionRuleDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dispositionRuleDetail'
+            'elementName' => 'dispositionRuleDetail',
         ],
         'files' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnFileType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'files'
+            'elementName' => 'files',
         ],
         'holdInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnHoldInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdInfo'
+            'elementName' => 'holdInfo',
         ],
         'itemDetail' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ItemDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemDetail'
+            'elementName' => 'itemDetail',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'moneyMovementInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'moneyMovementInfo'
+            'elementName' => 'moneyMovementInfo',
         ],
         'refundInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RefundInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundInfo'
+            'elementName' => 'refundInfo',
         ],
         'replacementShipmentInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'replacementShipmentInfo'
+            'elementName' => 'replacementShipmentInfo',
         ],
         'responseHistory' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnResponseHistoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'responseHistory'
+            'elementName' => 'responseHistory',
         ],
         'returnShipmentInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnShipmentInfo'
+            'elementName' => 'returnShipmentInfo',
         ],
         'RMANumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RMANumber'
+            'elementName' => 'RMANumber',
         ],
         'sellerAddress' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerAddress'
+            'elementName' => 'sellerAddress',
         ],
         'sellerLoginName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerLoginName'
-        ]
+            'elementName' => 'sellerLoginName',
+        ],
     ];
 
     /**

@@ -31,50 +31,50 @@ class SearchRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'fieldgroups' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fieldgroups'
+            'elementName' => 'fieldgroups',
         ],
         'aspect_filter' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspect_filter'
+            'elementName' => 'aspect_filter',
         ],
         'category_ids' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category_ids'
+            'elementName' => 'category_ids',
         ],
         'mpn' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'mpn'
+            'elementName' => 'mpn',
         ],
         'gtin' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'gtin'
+            'elementName' => 'gtin',
         ],
         'q' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'q'
-        ]
+            'elementName' => 'q',
+        ],
     ];
 
     /**

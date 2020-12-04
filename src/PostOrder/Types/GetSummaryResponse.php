@@ -27,26 +27,26 @@ class GetSummaryResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\CountSummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'countSummary'
+            'elementName' => 'countSummary',
         ],
         'members' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'members'
+            'elementName' => 'members',
         ],
         'paginationOutput' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
+            'elementName' => 'paginationOutput',
         ],
         'total' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
-        ]
+            'elementName' => 'total',
+        ],
     ];
 
     /**

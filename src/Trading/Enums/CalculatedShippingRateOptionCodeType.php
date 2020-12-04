@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class CalculatedShippingRateOptionCodeType
 {
-    const C_COMBINED_ITEM_WEIGHT = 'CombinedItemWeight';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_INDIVIDUAL_ITEM_WEIGHT = 'IndividualItemWeight';
+    public const C_COMBINED_ITEM_WEIGHT = 'CombinedItemWeight';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_INDIVIDUAL_ITEM_WEIGHT = 'IndividualItemWeight';
 }

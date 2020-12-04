@@ -25,14 +25,14 @@ class EndFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Types\Abst
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
+            'elementName' => 'EndTime',
         ],
         'SKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
-        ]
+            'elementName' => 'SKU',
+        ],
     ];
 
     /**

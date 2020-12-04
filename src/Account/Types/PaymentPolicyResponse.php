@@ -30,44 +30,44 @@ class PaymentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'href'
+            'elementName' => 'href',
         ],
         'limit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'next' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'next'
+            'elementName' => 'next',
         ],
         'offset' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'paymentPolicies' => [
             'type' => 'DTS\eBaySDK\Account\Types\PaymentPolicy',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'paymentPolicies'
+            'elementName' => 'paymentPolicies',
         ],
         'prev' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'prev'
+            'elementName' => 'prev',
         ],
         'total' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
-        ]
+            'elementName' => 'total',
+        ],
     ];
 
     /**

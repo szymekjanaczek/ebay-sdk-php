@@ -24,8 +24,8 @@ class OrderIDArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'OrderID'
-        ]
+            'elementName' => 'OrderID',
+        ],
     ];
 
     /**

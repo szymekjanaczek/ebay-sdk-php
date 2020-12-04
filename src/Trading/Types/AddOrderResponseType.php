@@ -25,14 +25,14 @@ class AddOrderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTy
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderID'
+            'elementName' => 'OrderID',
         ],
         'CreatedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreatedTime'
-        ]
+            'elementName' => 'CreatedTime',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class ValueConstraint extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'applicableForLocalizedAspectName'
+            'elementName' => 'applicableForLocalizedAspectName',
         ],
         'applicableForLocalizedAspectValues' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'applicableForLocalizedAspectValues'
-        ]
+            'elementName' => 'applicableForLocalizedAspectValues',
+        ],
     ];
 
     /**

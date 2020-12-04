@@ -37,86 +37,86 @@ class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'MotorsDealerUsers' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UserIDArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MotorsDealerUsers'
+            'elementName' => 'MotorsDealerUsers',
         ],
         'EndTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTimeFrom'
+            'elementName' => 'EndTimeFrom',
         ],
         'EndTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTimeTo'
+            'elementName' => 'EndTimeTo',
         ],
         'Sort' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Sort'
+            'elementName' => 'Sort',
         ],
         'StartTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTimeFrom'
+            'elementName' => 'StartTimeFrom',
         ],
         'StartTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTimeTo'
+            'elementName' => 'StartTimeTo',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'GranularityLevel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GranularityLevel'
+            'elementName' => 'GranularityLevel',
         ],
         'SKUArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SKUArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKUArray'
+            'elementName' => 'SKUArray',
         ],
         'IncludeWatchCount' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeWatchCount'
+            'elementName' => 'IncludeWatchCount',
         ],
         'AdminEndedItemsOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AdminEndedItemsOnly'
+            'elementName' => 'AdminEndedItemsOnly',
         ],
         'CategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'IncludeVariations' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeVariations'
-        ]
+            'elementName' => 'IncludeVariations',
+        ],
     ];
 
     /**

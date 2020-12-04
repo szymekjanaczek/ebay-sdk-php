@@ -25,14 +25,14 @@ class RuleTemplateDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actionDetail'
+            'elementName' => 'actionDetail',
         ],
         'condition' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'condition'
-        ]
+            'elementName' => 'condition',
+        ],
     ];
 
     /**

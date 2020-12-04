@@ -26,20 +26,20 @@ class GetChallengeTokenResponseType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ChallengeToken'
+            'elementName' => 'ChallengeToken',
         ],
         'ImageChallengeURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ImageChallengeURL'
+            'elementName' => 'ImageChallengeURL',
         ],
         'AudioChallengeURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AudioChallengeURL'
-        ]
+            'elementName' => 'AudioChallengeURL',
+        ],
     ];
 
     /**

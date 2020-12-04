@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\FileTransfer\Services;
 
 class FileTransferService extends \DTS\eBaySDK\FileTransfer\Services\FileTransferBaseService
 {
-    const API_VERSION = '1.1.0';
+    public const API_VERSION = '1.1.0';
 
     /**
      * @param array $config Configuration option values.

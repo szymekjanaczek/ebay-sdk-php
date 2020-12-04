@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class FileStatusEnum
 {
-    const C_CREATED = 'CREATED';
-    const C_DELETED = 'DELETED';
-    const C_PUBLISHED = 'PUBLISHED';
-    const C_UNKNOWN = 'UNKNOWN';
+    public const C_CREATED = 'CREATED';
+    public const C_DELETED = 'DELETED';
+    public const C_PUBLISHED = 'PUBLISHED';
+    public const C_UNKNOWN = 'UNKNOWN';
 }

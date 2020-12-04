@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\OAuth\Types;
 
 /**
@@ -17,20 +18,20 @@ class GetAppTokenRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'grant_type'
+            'elementName' => 'grant_type',
         ],
         'redirect_uri' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'redirect_uri'
+            'elementName' => 'redirect_uri',
         ],
         'scope' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'scope'
-        ]
+            'elementName' => 'scope',
+        ],
     ];
 
     /**

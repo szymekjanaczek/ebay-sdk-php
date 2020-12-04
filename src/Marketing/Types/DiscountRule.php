@@ -26,20 +26,20 @@ class DiscountRule extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\DiscountBenefit',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountBenefit'
+            'elementName' => 'discountBenefit',
         ],
         'discountSpecification' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\DiscountSpecification',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountSpecification'
+            'elementName' => 'discountSpecification',
         ],
         'ruleOrder' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ruleOrder'
-        ]
+            'elementName' => 'ruleOrder',
+        ],
     ];
 
     /**

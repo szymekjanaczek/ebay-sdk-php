@@ -25,14 +25,14 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'default'
+            'elementName' => 'default',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
-        ]
+            'elementName' => 'name',
+        ],
     ];
 
     /**

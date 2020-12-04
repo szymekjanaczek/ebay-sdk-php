@@ -25,14 +25,14 @@ class BaseMerchandisingServiceRequest extends \DTS\eBaySDK\Merchandising\Types\B
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxResults'
+            'elementName' => 'maxResults',
         ],
         'affiliate' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\Affiliate',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'affiliate'
-        ]
+            'elementName' => 'affiliate',
+        ],
     ];
 
     /**

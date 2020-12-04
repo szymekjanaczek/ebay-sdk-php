@@ -24,8 +24,8 @@ class CharityAffiliationDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\CharityAffiliationDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CharityAffiliationDetail'
-        ]
+            'elementName' => 'CharityAffiliationDetail',
+        ],
     ];
 
     /**

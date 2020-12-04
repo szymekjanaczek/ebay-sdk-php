@@ -27,26 +27,26 @@ class RelatedProductGroup extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProduct',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'relatedProduct'
+            'elementName' => 'relatedProduct',
         ],
         'groupName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'groupName'
+            'elementName' => 'groupName',
         ],
         'rank' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rank'
+            'elementName' => 'rank',
         ],
         'singleRelatedSKUPurchaseOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'singleRelatedSKUPurchaseOnly'
-        ]
+            'elementName' => 'singleRelatedSKUPurchaseOnly',
+        ],
     ];
 
     /**

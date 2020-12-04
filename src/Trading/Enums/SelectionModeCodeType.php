@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SelectionModeCodeType
 {
-    const C_AUTOMATIC = 'Automatic';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FREE_TEXT = 'FreeText';
-    const C_MANUAL = 'Manual';
-    const C_PREFILLED = 'Prefilled';
-    const C_SELECTION_ONLY = 'SelectionOnly';
+    public const C_AUTOMATIC = 'Automatic';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FREE_TEXT = 'FreeText';
+    public const C_MANUAL = 'Manual';
+    public const C_PREFILLED = 'Prefilled';
+    public const C_SELECTION_ONLY = 'SelectionOnly';
 }

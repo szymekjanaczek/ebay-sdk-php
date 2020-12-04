@@ -25,14 +25,14 @@ class ExtendedContactDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\ContactHoursDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ContactHoursDetails'
+            'elementName' => 'ContactHoursDetails',
         ],
         'ClassifiedAdContactByEmailEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ClassifiedAdContactByEmailEnabled'
-        ]
+            'elementName' => 'ClassifiedAdContactByEmailEnabled',
+        ],
     ];
 
     /**

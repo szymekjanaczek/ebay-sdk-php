@@ -27,26 +27,26 @@ class GetProductSubmissionsRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productSubmissionFilter'
+            'elementName' => 'productSubmissionFilter',
         ],
         'outputSelector' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'outputSelector'
+            'elementName' => 'outputSelector',
         ],
         'paginationInput' => [
             'type' => 'DTS\eBaySDK\Product\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
+            'elementName' => 'paginationInput',
         ],
         'sortOption' => [
             'type' => 'DTS\eBaySDK\Product\Types\SortOption',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'sortOption'
-        ]
+            'elementName' => 'sortOption',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class TaxesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalTaxAmount'
+            'elementName' => 'TotalTaxAmount',
         ],
         'TaxDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TaxDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'TaxDetails'
-        ]
+            'elementName' => 'TaxDetails',
+        ],
     ];
 
     /**

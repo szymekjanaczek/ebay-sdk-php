@@ -31,50 +31,50 @@ class RecurringJobDetail extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recurringJobId'
+            'elementName' => 'recurringJobId',
         ],
         'creationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationTime'
+            'elementName' => 'creationTime',
         ],
         'frequencyInMinutes' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'frequencyInMinutes'
+            'elementName' => 'frequencyInMinutes',
         ],
         'downloadJobType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'downloadJobType'
+            'elementName' => 'downloadJobType',
         ],
         'jobStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobStatus'
+            'elementName' => 'jobStatus',
         ],
         'monthlyRecurrence' => [
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'monthlyRecurrence'
+            'elementName' => 'monthlyRecurrence',
         ],
         'weeklyRecurrence' => [
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'weeklyRecurrence'
+            'elementName' => 'weeklyRecurrence',
         ],
         'dailyRecurrence' => [
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dailyRecurrence'
-        ]
+            'elementName' => 'dailyRecurrence',
+        ],
     ];
 
     /**

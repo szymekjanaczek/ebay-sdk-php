@@ -24,8 +24,8 @@ class GetDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'type' => 'DTS\eBaySDK\Trading\Types\DisputeType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Dispute'
-        ]
+            'elementName' => 'Dispute',
+        ],
     ];
 
     /**

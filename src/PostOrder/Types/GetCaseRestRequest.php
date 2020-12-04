@@ -24,8 +24,8 @@ class GetCaseRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
-        ]
+            'elementName' => 'caseId',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class TargetLocation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'unitOfMeasure'
+            'elementName' => 'unitOfMeasure',
         ],
         'value' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

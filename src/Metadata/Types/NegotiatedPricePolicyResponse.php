@@ -25,14 +25,14 @@ class NegotiatedPricePolicyResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicy',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'negotiatedPricePolicies'
+            'elementName' => 'negotiatedPricePolicies',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

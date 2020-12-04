@@ -25,14 +25,14 @@ class TaxJurisdiction extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Browse\Types\Region',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'region'
+            'elementName' => 'region',
         ],
         'taxJurisdictionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'taxJurisdictionId'
-        ]
+            'elementName' => 'taxJurisdictionId',
+        ],
     ];
 
     /**

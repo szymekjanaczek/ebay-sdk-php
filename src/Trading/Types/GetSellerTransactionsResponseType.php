@@ -31,50 +31,50 @@ class GetSellerTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
+            'elementName' => 'PaginationResult',
         ],
         'HasMoreTransactions' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasMoreTransactions'
+            'elementName' => 'HasMoreTransactions',
         ],
         'TransactionsPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionsPerPage'
+            'elementName' => 'TransactionsPerPage',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
+            'elementName' => 'PageNumber',
         ],
         'ReturnedTransactionCountActual' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnedTransactionCountActual'
+            'elementName' => 'ReturnedTransactionCountActual',
         ],
         'Seller' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Seller'
+            'elementName' => 'Seller',
         ],
         'TransactionArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionArray'
+            'elementName' => 'TransactionArray',
         ],
         'PayPalPreferred' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalPreferred'
-        ]
+            'elementName' => 'PayPalPreferred',
+        ],
     ];
 
     /**

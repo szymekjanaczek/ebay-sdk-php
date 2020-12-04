@@ -30,44 +30,44 @@ class SellingManagerAutoListAccordingToScheduleType extends \DTS\eBaySDK\Types\B
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DayOfWeek'
+            'elementName' => 'DayOfWeek',
         ],
         'ListingPeriodInWeeks' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingPeriodInWeeks'
+            'elementName' => 'ListingPeriodInWeeks',
         ],
         'ListAtSpecificTimeOfDay' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListAtSpecificTimeOfDay'
+            'elementName' => 'ListAtSpecificTimeOfDay',
         ],
         'StartTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTime'
+            'elementName' => 'StartTime',
         ],
         'EndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
+            'elementName' => 'EndTime',
         ],
         'MaxActiveItemCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxActiveItemCount'
+            'elementName' => 'MaxActiveItemCount',
         ],
         'ListingHoldInventoryLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingHoldInventoryLevel'
-        ]
+            'elementName' => 'ListingHoldInventoryLevel',
+        ],
     ];
 
     /**

@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class ReturnMetadataKeyEnum
 {
-    const C_ESCALATE_REASONS = 'ESCALATE_REASONS';
-    const C_RETURN_REASONS = 'RETURN_REASONS';
+    public const C_ESCALATE_REASONS = 'ESCALATE_REASONS';
+    public const C_RETURN_REASONS = 'RETURN_REASONS';
 }

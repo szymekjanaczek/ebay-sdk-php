@@ -24,8 +24,8 @@ class StartDownloadJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseS
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobId'
-        ]
+            'elementName' => 'jobId',
+        ],
     ];
 
     /**

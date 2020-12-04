@@ -24,8 +24,8 @@ class StoreCustomPageArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomPageType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CustomPage'
-        ]
+            'elementName' => 'CustomPage',
+        ],
     ];
 
     /**

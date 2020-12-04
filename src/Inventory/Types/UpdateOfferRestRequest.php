@@ -24,8 +24,8 @@ class UpdateOfferRestRequest extends \DTS\eBaySDK\Inventory\Types\EbayOfferDetai
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offerId'
-        ]
+            'elementName' => 'offerId',
+        ],
     ];
 
     /**

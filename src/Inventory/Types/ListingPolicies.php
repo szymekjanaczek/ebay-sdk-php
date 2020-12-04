@@ -27,26 +27,26 @@ class ListingPolicies extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fulfillmentPolicyId'
+            'elementName' => 'fulfillmentPolicyId',
         ],
         'paymentPolicyId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentPolicyId'
+            'elementName' => 'paymentPolicyId',
         ],
         'returnPolicyId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPolicyId'
+            'elementName' => 'returnPolicyId',
         ],
         'shippingCostOverrides' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ShippingCostOverride',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shippingCostOverrides'
-        ]
+            'elementName' => 'shippingCostOverrides',
+        ],
     ];
 
     /**

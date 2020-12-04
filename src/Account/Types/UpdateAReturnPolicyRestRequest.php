@@ -24,8 +24,8 @@ class UpdateAReturnPolicyRestRequest extends \DTS\eBaySDK\Account\Types\ReturnPo
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'return_policy_id'
-        ]
+            'elementName' => 'return_policy_id',
+        ],
     ];
 
     /**

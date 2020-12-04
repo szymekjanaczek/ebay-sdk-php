@@ -24,8 +24,8 @@ class GetFileResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnFileType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'files'
-        ]
+            'elementName' => 'files',
+        ],
     ];
 
     /**

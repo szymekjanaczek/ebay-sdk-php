@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 /**
@@ -14,7 +15,7 @@ trait HttpHeadersTrait
     /**
      * @var array Associative array of lowercase version of header names.
      */
-    private $headerNames  = [];
+    private $headerNames = [];
 
     /**
      * Retrieves all header values.

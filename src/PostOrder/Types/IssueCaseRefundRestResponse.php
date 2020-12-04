@@ -10,8 +10,8 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
 
 /**
  *
@@ -32,20 +32,20 @@ class IssueCaseRefundRestResponse extends \DTS\eBaySDK\PostOrder\Types\Voluntary
             'type' => 'DTS\eBaySDK\PostOrder\Types\Error',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'error'
+            'elementName' => 'error',
         ],
         'errors' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

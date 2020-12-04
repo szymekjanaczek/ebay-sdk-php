@@ -26,20 +26,20 @@ class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'brands'
+            'elementName' => 'brands',
         ],
         'paymentMethodType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMethodType'
+            'elementName' => 'paymentMethodType',
         ],
         'recipientAccountReference' => [
             'type' => 'DTS\eBaySDK\Account\Types\RecipientAccountReference',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recipientAccountReference'
-        ]
+            'elementName' => 'recipientAccountReference',
+        ],
     ];
 
     /**

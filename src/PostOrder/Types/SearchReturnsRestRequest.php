@@ -32,56 +32,56 @@ class SearchReturnsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creation_date_range_from'
+            'elementName' => 'creation_date_range_from',
         ],
         'creation_date_range_to' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creation_date_range_to'
+            'elementName' => 'creation_date_range_to',
         ],
         'item_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'item_id'
+            'elementName' => 'item_id',
         ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'return_state' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'return_state'
+            'elementName' => 'return_state',
         ],
         'sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sort'
+            'elementName' => 'sort',
         ],
         'states' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'states'
+            'elementName' => 'states',
         ],
         'transaction_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transaction_id'
-        ]
+            'elementName' => 'transaction_id',
+        ],
     ];
 
     /**

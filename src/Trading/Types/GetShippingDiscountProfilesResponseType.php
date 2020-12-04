@@ -30,44 +30,44 @@ class GetShippingDiscountProfilesResponseType extends \DTS\eBaySDK\Trading\Types
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CurrencyID'
+            'elementName' => 'CurrencyID',
         ],
         'FlatShippingDiscount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FlatShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FlatShippingDiscount'
+            'elementName' => 'FlatShippingDiscount',
         ],
         'CalculatedShippingDiscount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CalculatedShippingDiscount'
+            'elementName' => 'CalculatedShippingDiscount',
         ],
         'PromotionalShippingDiscount' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PromotionalShippingDiscount'
+            'elementName' => 'PromotionalShippingDiscount',
         ],
         'CalculatedHandlingDiscount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CalculatedHandlingDiscount'
+            'elementName' => 'CalculatedHandlingDiscount',
         ],
         'PromotionalShippingDiscountDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PromotionalShippingDiscountDetails'
+            'elementName' => 'PromotionalShippingDiscountDetails',
         ],
         'CombinedDuration' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CombinedDuration'
-        ]
+            'elementName' => 'CombinedDuration',
+        ],
     ];
 
     /**

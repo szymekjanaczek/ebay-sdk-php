@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SellingManagerAlertTypeCodeType
 {
-    const C_AUTOMATION = 'Automation';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_GENERAL = 'General';
-    const C_INVENTORY = 'Inventory';
-    const C_PAISA_PAY = 'PaisaPay';
-    const C_SOLD = 'Sold';
+    public const C_AUTOMATION = 'Automation';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_GENERAL = 'General';
+    public const C_INVENTORY = 'Inventory';
+    public const C_PAISA_PAY = 'PaisaPay';
+    public const C_SOLD = 'Sold';
 }

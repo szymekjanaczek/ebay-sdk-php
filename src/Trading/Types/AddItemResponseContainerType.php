@@ -34,68 +34,68 @@ class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'StartTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTime'
+            'elementName' => 'StartTime',
         ],
         'EndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
+            'elementName' => 'EndTime',
         ],
         'Fees' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Fees'
+            'elementName' => 'Fees',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'Category2ID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Category2ID'
+            'elementName' => 'Category2ID',
         ],
         'CorrelationID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CorrelationID'
+            'elementName' => 'CorrelationID',
         ],
         'Errors' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Errors'
+            'elementName' => 'Errors',
         ],
         'Message' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Message'
+            'elementName' => 'Message',
         ],
         'DiscountReason' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DiscountReason'
+            'elementName' => 'DiscountReason',
         ],
         'ListingRecommendations' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingRecommendations'
-        ]
+            'elementName' => 'ListingRecommendations',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class ProvideReturnShipmentInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
-        ]
+            'elementName' => 'caseId',
+        ],
     ];
 
     /**

@@ -28,32 +28,32 @@ class ComplianceViolation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'complianceType'
+            'elementName' => 'complianceType',
         ],
         'listingId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingId'
+            'elementName' => 'listingId',
         ],
         'sku' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
+            'elementName' => 'sku',
         ],
         'offerId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offerId'
+            'elementName' => 'offerId',
         ],
         'violations' => [
             'type' => 'DTS\eBaySDK\Compliance\Types\ComplianceDetail',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'violations'
-        ]
+            'elementName' => 'violations',
+        ],
     ];
 
     /**

@@ -34,68 +34,68 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RequesterCredentials'
+            'elementName' => 'RequesterCredentials',
         ],
         'DetailLevel' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DetailLevel'
+            'elementName' => 'DetailLevel',
         ],
         'ErrorLanguage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ErrorLanguage'
+            'elementName' => 'ErrorLanguage',
         ],
         'MessageID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageID'
+            'elementName' => 'MessageID',
         ],
         'Version' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Version'
+            'elementName' => 'Version',
         ],
         'EndUserIP' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndUserIP'
+            'elementName' => 'EndUserIP',
         ],
         'ErrorHandling' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ErrorHandling'
+            'elementName' => 'ErrorHandling',
         ],
         'InvocationID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InvocationID'
+            'elementName' => 'InvocationID',
         ],
         'OutputSelector' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'OutputSelector'
+            'elementName' => 'OutputSelector',
         ],
         'WarningLevel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WarningLevel'
+            'elementName' => 'WarningLevel',
         ],
         'BotBlock' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BotBlockRequestType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BotBlock'
-        ]
+            'elementName' => 'BotBlock',
+        ],
     ];
 
     /**

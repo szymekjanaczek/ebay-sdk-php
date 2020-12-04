@@ -31,50 +31,50 @@ class SellingManagerAlertType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AlertType'
+            'elementName' => 'AlertType',
         ],
         'SoldAlert' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SoldAlert'
+            'elementName' => 'SoldAlert',
         ],
         'InventoryAlert' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InventoryAlert'
+            'elementName' => 'InventoryAlert',
         ],
         'AutomationAlert' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AutomationAlert'
+            'elementName' => 'AutomationAlert',
         ],
         'PaisaPayAlert' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaisaPayAlert'
+            'elementName' => 'PaisaPayAlert',
         ],
         'GeneralAlert' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GeneralAlert'
+            'elementName' => 'GeneralAlert',
         ],
         'DurationInDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DurationInDays'
+            'elementName' => 'DurationInDays',
         ],
         'Count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Count'
-        ]
+            'elementName' => 'Count',
+        ],
     ];
 
     /**

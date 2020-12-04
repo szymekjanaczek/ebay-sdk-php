@@ -24,8 +24,8 @@ class CreateDispositionRuleRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailInputType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ruleDetail'
-        ]
+            'elementName' => 'ruleDetail',
+        ],
     ];
 
     /**

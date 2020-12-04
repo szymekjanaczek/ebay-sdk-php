@@ -34,68 +34,68 @@ class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OriginatingPostalCode'
+            'elementName' => 'OriginatingPostalCode',
         ],
         'MeasurementUnit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MeasurementUnit'
+            'elementName' => 'MeasurementUnit',
         ],
         'PackageDepth' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackageDepth'
+            'elementName' => 'PackageDepth',
         ],
         'PackageLength' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackageLength'
+            'elementName' => 'PackageLength',
         ],
         'PackageWidth' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackageWidth'
+            'elementName' => 'PackageWidth',
         ],
         'PackagingHandlingCosts' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackagingHandlingCosts'
+            'elementName' => 'PackagingHandlingCosts',
         ],
         'ShippingIrregular' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingIrregular'
+            'elementName' => 'ShippingIrregular',
         ],
         'ShippingPackage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingPackage'
+            'elementName' => 'ShippingPackage',
         ],
         'WeightMajor' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WeightMajor'
+            'elementName' => 'WeightMajor',
         ],
         'WeightMinor' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WeightMinor'
+            'elementName' => 'WeightMinor',
         ],
         'InternationalPackagingHandlingCosts' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InternationalPackagingHandlingCosts'
-        ]
+            'elementName' => 'InternationalPackagingHandlingCosts',
+        ],
     ];
 
     /**

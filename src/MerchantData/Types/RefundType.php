@@ -28,32 +28,32 @@ class RefundType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundFromSeller'
+            'elementName' => 'RefundFromSeller',
         ],
         'TotalRefundToBuyer' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalRefundToBuyer'
+            'elementName' => 'TotalRefundToBuyer',
         ],
         'RefundTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundTime'
+            'elementName' => 'RefundTime',
         ],
         'RefundID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundID'
+            'elementName' => 'RefundID',
         ],
         'RefundAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundAmount'
-        ]
+            'elementName' => 'RefundAmount',
+        ],
     ];
 
     /**

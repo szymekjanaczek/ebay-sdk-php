@@ -24,8 +24,8 @@ class CancelReturnRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\CloseR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

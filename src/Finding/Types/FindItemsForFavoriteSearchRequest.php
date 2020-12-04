@@ -24,8 +24,8 @@ class FindItemsForFavoriteSearchRequest extends \DTS\eBaySDK\Finding\Types\BaseS
             'type' => 'DTS\eBaySDK\Finding\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
-        ]
+            'elementName' => 'paginationInput',
+        ],
     ];
 
     /**

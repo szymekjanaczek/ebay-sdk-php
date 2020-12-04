@@ -25,14 +25,14 @@ class HistogramEntryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'Count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Count'
-        ]
+            'elementName' => 'Count',
+        ],
     ];
 
     /**

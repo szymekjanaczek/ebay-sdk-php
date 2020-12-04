@@ -28,32 +28,32 @@ class SummaryReportResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'baseSale'
+            'elementName' => 'baseSale',
         ],
         'lastUpdated' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastUpdated'
+            'elementName' => 'lastUpdated',
         ],
         'percentageSalesLift' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'percentageSalesLift'
+            'elementName' => 'percentageSalesLift',
         ],
         'promotionSale' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionSale'
+            'elementName' => 'promotionSale',
         ],
         'totalSale' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalSale'
-        ]
+            'elementName' => 'totalSale',
+        ],
     ];
 
     /**

@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Marketing\Enums;
 
 class ReportFormatEnum
 {
-    const C_TSV_GZIP = 'TSV_GZIP';
+    public const C_TSV_GZIP = 'TSV_GZIP';
 }

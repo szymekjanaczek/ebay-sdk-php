@@ -26,20 +26,20 @@ class ReturnItemType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'transactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionId'
+            'elementName' => 'transactionId',
         ],
         'returnQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnQuantity'
-        ]
+            'elementName' => 'returnQuantity',
+        ],
     ];
 
     /**

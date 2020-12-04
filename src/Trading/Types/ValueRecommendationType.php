@@ -25,14 +25,14 @@ class ValueRecommendationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Value'
+            'elementName' => 'Value',
         ],
         'ValidationRules' => [
             'type' => 'DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ValidationRules'
-        ]
+            'elementName' => 'ValidationRules',
+        ],
     ];
 
     /**

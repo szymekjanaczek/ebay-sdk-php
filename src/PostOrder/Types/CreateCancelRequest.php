@@ -27,26 +27,26 @@ class CreateCancelRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerPaid'
+            'elementName' => 'buyerPaid',
         ],
         'buyerPaidDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerPaidDate'
+            'elementName' => 'buyerPaidDate',
         ],
         'cancelReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelReason'
+            'elementName' => 'cancelReason',
         ],
         'legacyOrderId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacyOrderId'
-        ]
+            'elementName' => 'legacyOrderId',
+        ],
     ];
 
     /**

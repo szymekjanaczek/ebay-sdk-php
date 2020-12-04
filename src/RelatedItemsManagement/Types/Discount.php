@@ -26,20 +26,20 @@ class Discount extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountAmount'
+            'elementName' => 'discountAmount',
         ],
         'discountType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountType'
+            'elementName' => 'discountType',
         ],
         'discountPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountPercent'
-        ]
+            'elementName' => 'discountPercent',
+        ],
     ];
 
     /**

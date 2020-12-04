@@ -26,20 +26,20 @@ class FeeSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\Fee',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'fees'
+            'elementName' => 'fees',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

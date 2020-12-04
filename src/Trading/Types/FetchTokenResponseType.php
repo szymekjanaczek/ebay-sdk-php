@@ -26,20 +26,20 @@ class FetchTokenResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayAuthToken'
+            'elementName' => 'eBayAuthToken',
         ],
         'HardExpirationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HardExpirationTime'
+            'elementName' => 'HardExpirationTime',
         ],
         'RESTToken' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RESTToken'
-        ]
+            'elementName' => 'RESTToken',
+        ],
     ];
 
     /**

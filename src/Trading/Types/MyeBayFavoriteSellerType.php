@@ -25,14 +25,14 @@ class MyeBayFavoriteSellerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'StoreName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreName'
-        ]
+            'elementName' => 'StoreName',
+        ],
     ];
 
     /**

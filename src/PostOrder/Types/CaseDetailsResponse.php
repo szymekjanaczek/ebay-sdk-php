@@ -52,176 +52,176 @@ class CaseDetailsResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ActionDeadlines',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actionDeadlines'
+            'elementName' => 'actionDeadlines',
         ],
         'appealDetails' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\AppealDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'appealDetails'
+            'elementName' => 'appealDetails',
         ],
         'buyerClosureReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerClosureReason'
+            'elementName' => 'buyerClosureReason',
         ],
         'buyerProtectedProgramLink' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerProtectedProgramLink'
+            'elementName' => 'buyerProtectedProgramLink',
         ],
         'caseDetails' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\CaseDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseDetails'
+            'elementName' => 'caseDetails',
         ],
         'caseHistoryDetails' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseHistoryDetails'
+            'elementName' => 'caseHistoryDetails',
         ],
         'caseId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'caseQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseQuantity'
+            'elementName' => 'caseQuantity',
         ],
         'caseType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseType'
+            'elementName' => 'caseType',
         ],
         'claimAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'claimAmount'
+            'elementName' => 'claimAmount',
         ],
         'creationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'escalatedBy' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'escalatedBy'
+            'elementName' => 'escalatedBy',
         ],
         'escalateReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'escalateReason'
+            'elementName' => 'escalateReason',
         ],
         'eventTicketsLink' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eventTicketsLink'
+            'elementName' => 'eventTicketsLink',
         ],
         'extTransactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'extTransactionId'
+            'elementName' => 'extTransactionId',
         ],
         'fsnadDaysToAddTrackingAfterShippingItem' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fsnadDaysToAddTrackingAfterShippingItem'
+            'elementName' => 'fsnadDaysToAddTrackingAfterShippingItem',
         ],
         'fsnadShipToSellerByDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fsnadShipToSellerByDate'
+            'elementName' => 'fsnadShipToSellerByDate',
         ],
         'initiator' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'initiator'
+            'elementName' => 'initiator',
         ],
         'itemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'lastModifiedDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastModifiedDate'
+            'elementName' => 'lastModifiedDate',
         ],
         'payForItemLink' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'payForItemLink'
+            'elementName' => 'payForItemLink',
         ],
         'priceSignatureConfirmationAmount' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priceSignatureConfirmationAmount'
+            'elementName' => 'priceSignatureConfirmationAmount',
         ],
         'recalledItemLink' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recalledItemLink'
+            'elementName' => 'recalledItemLink',
         ],
         'returnDetails' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddress',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnDetails'
+            'elementName' => 'returnDetails',
         ],
         'returnId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
+            'elementName' => 'returnId',
         ],
         'sellerClosureReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerClosureReason'
+            'elementName' => 'sellerClosureReason',
         ],
         'shippingFee' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingFee'
+            'elementName' => 'shippingFee',
         ],
         'status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'status'
+            'elementName' => 'status',
         ],
         'transactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionId'
-        ]
+            'elementName' => 'transactionId',
+        ],
     ];
 
     /**

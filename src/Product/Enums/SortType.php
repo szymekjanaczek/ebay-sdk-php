@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Product\Enums;
 
 class SortType
 {
-    const C_BY_PRODUCT_SUBMISSION_ID = 'ByProductSubmissionId';
+    public const C_BY_PRODUCT_SUBMISSION_ID = 'ByProductSubmissionId';
 }

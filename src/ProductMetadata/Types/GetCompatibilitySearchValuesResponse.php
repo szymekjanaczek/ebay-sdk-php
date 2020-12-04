@@ -27,26 +27,26 @@ class GetCompatibilitySearchValuesResponse extends \DTS\eBaySDK\ProductMetadata\
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'metadataVersion'
+            'elementName' => 'metadataVersion',
         ],
         'propertyValues' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'propertyValues'
+            'elementName' => 'propertyValues',
         ],
         'propertyValuesTree' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'propertyValuesTree'
+            'elementName' => 'propertyValuesTree',
         ],
         'treeFormat' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'treeFormat'
-        ]
+            'elementName' => 'treeFormat',
+        ],
     ];
 
     /**

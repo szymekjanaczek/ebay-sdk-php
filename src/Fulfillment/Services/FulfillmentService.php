@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Fulfillment\Services;
 
 class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBaseService
 {
-    const API_VERSION = 'v1';
+    public const API_VERSION = 'v1';
 
     /**
      * @property array $operations Associative array of operations provided by the service.
@@ -24,18 +24,18 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
             'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetOrdersRestResponse',
             'params' => [
                 'filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'limit' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'offset' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'orderIds' => [
-                    'valid' => ['string']
-                ]
-            ]
+                    'valid' => ['string'],
+                ],
+            ],
         ],
         'GetAnOrder' => [
             'method' => 'GET',
@@ -44,9 +44,9 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
             'params' => [
                 'orderId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'CreateAShippingFulfillment' => [
             'method' => 'POST',
@@ -55,9 +55,9 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
             'params' => [
                 'orderId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetShippingFulfillments' => [
             'method' => 'GET',
@@ -66,9 +66,9 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
             'params' => [
                 'orderId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetAShippingFulfillment' => [
             'method' => 'GET',
@@ -77,14 +77,14 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
             'params' => [
                 'fulfillmentId' => [
                     'valid' => ['string'],
-                    'required' => true
+                    'required' => true,
                 ],
                 'orderId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
-        ]
+                    'required' => true,
+                ],
+            ],
+        ],
     ];
 
     /**

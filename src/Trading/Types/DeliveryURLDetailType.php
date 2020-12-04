@@ -26,20 +26,20 @@ class DeliveryURLDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryURLName'
+            'elementName' => 'DeliveryURLName',
         ],
         'DeliveryURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryURL'
+            'elementName' => 'DeliveryURL',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
-        ]
+            'elementName' => 'Status',
+        ],
     ];
 
     /**

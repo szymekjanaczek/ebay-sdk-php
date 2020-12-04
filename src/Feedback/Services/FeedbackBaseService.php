@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Feedback\Services;
 
 /**
@@ -9,17 +10,17 @@ class FeedbackBaseService extends \DTS\eBaySDK\Services\BaseService
     /**
      * HTTP header constant. The API version your application supports.
      */
-    const HDR_API_VERSION = 'X-EBAY-SOA-SERVICE-VERSION';
+    public const HDR_API_VERSION = 'X-EBAY-SOA-SERVICE-VERSION';
 
     /**
      * HTTP header constant. The Authentication Token that is used to validate the caller has permission to access the eBay servers.
      */
-    const HDR_AUTH_TOKEN = 'X-EBAY-SOA-SECURITY-TOKEN';
+    public const HDR_AUTH_TOKEN = 'X-EBAY-SOA-SECURITY-TOKEN';
 
     /**
      * HTTP header constant. The name of the operation you are calling.
      */
-    const HDR_OPERATION_NAME = 'X-EBAY-SOA-OPERATION-NAME';
+    public const HDR_OPERATION_NAME = 'X-EBAY-SOA-OPERATION-NAME';
 
     /**
      * @param array $config Optional configuration option values.
@@ -41,12 +42,12 @@ class FeedbackBaseService extends \DTS\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Feedback\Services\FeedbackService::API_VERSION
+                'default' => \DTS\eBaySDK\Feedback\Services\FeedbackService::API_VERSION,
             ],
             'authToken' => [
                 'valid' => ['string'],
-                'required' => true
-            ]
+                'required' => true,
+            ],
         ];
     }
 

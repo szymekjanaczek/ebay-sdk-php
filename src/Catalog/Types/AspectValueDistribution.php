@@ -26,20 +26,20 @@ class AspectValueDistribution extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'localizedAspectValue'
+            'elementName' => 'localizedAspectValue',
         ],
         'matchCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'matchCount'
+            'elementName' => 'matchCount',
         ],
         'refinementHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refinementHref'
-        ]
+            'elementName' => 'refinementHref',
+        ],
     ];
 
     /**

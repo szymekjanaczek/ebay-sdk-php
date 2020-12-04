@@ -24,8 +24,8 @@ class SaveItemToSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TemplateID'
-        ]
+            'elementName' => 'TemplateID',
+        ],
     ];
 
     /**

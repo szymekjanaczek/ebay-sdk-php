@@ -27,26 +27,26 @@ class Tag extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'dataType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataType'
+            'elementName' => 'dataType',
         ],
         'value' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'value'
+            'elementName' => 'value',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
-        ]
+            'elementName' => 'description',
+        ],
     ];
 
     /**

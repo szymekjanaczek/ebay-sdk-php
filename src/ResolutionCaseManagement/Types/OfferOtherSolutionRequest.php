@@ -25,14 +25,14 @@ class OfferOtherSolutionRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Ty
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'messageToBuyer' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'messageToBuyer'
-        ]
+            'elementName' => 'messageToBuyer',
+        ],
     ];
 
     /**

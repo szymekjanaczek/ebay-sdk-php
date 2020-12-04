@@ -24,8 +24,8 @@ class QuantityInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinimumRemnantSet'
-        ]
+            'elementName' => 'MinimumRemnantSet',
+        ],
     ];
 
     /**

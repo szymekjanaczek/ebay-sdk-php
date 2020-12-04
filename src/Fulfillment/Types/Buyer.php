@@ -24,8 +24,8 @@ class Buyer extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'username'
-        ]
+            'elementName' => 'username',
+        ],
     ];
 
     /**

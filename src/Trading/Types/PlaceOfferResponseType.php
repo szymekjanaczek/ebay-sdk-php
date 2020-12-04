@@ -27,26 +27,26 @@ class PlaceOfferResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingStatus'
+            'elementName' => 'SellingStatus',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
+            'elementName' => 'TransactionID',
         ],
         'BestOffer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BestOfferType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOffer'
+            'elementName' => 'BestOffer',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
-        ]
+            'elementName' => 'OrderLineItemID',
+        ],
     ];
 
     /**

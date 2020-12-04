@@ -30,44 +30,44 @@ class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DiscountProfileID'
+            'elementName' => 'DiscountProfileID',
         ],
         'DiscountProfileName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DiscountProfileName'
+            'elementName' => 'DiscountProfileName',
         ],
         'EachAdditionalAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EachAdditionalAmount'
+            'elementName' => 'EachAdditionalAmount',
         ],
         'EachAdditionalAmountOff' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EachAdditionalAmountOff'
+            'elementName' => 'EachAdditionalAmountOff',
         ],
         'EachAdditionalPercentOff' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EachAdditionalPercentOff'
+            'elementName' => 'EachAdditionalPercentOff',
         ],
         'WeightOff' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WeightOff'
+            'elementName' => 'WeightOff',
         ],
         'MappedDiscountProfileID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MappedDiscountProfileID'
-        ]
+            'elementName' => 'MappedDiscountProfileID',
+        ],
     ];
 
     /**

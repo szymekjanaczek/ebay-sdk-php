@@ -31,50 +31,50 @@ class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseTyp
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingService'
+            'elementName' => 'ShippingService',
         ],
         'ShippingServiceCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCost'
+            'elementName' => 'ShippingServiceCost',
         ],
         'ShippingServiceAdditionalCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceAdditionalCost'
+            'elementName' => 'ShippingServiceAdditionalCost',
         ],
         'ShippingServicePriority' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServicePriority'
+            'elementName' => 'ShippingServicePriority',
         ],
         'ShipToLocation' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShipToLocation'
+            'elementName' => 'ShipToLocation',
         ],
         'ShippingInsuranceCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingInsuranceCost'
+            'elementName' => 'ShippingInsuranceCost',
         ],
         'ImportCharge' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ImportCharge'
+            'elementName' => 'ImportCharge',
         ],
         'ShippingServiceCutOffTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCutOffTime'
-        ]
+            'elementName' => 'ShippingServiceCutOffTime',
+        ],
     ];
 
     /**

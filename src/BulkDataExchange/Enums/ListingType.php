@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\BulkDataExchange\Enums;
 
 class ListingType
 {
-    const C_HALF = 'Half';
+    public const C_HALF = 'Half';
 }

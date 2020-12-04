@@ -26,20 +26,20 @@ class GetShippingCostsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractR
             'type' => 'DTS\eBaySDK\Shopping\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingDetails'
+            'elementName' => 'ShippingDetails',
         ],
         'ShippingCostSummary' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingCostSummary'
+            'elementName' => 'ShippingCostSummary',
         ],
         'PickUpInStoreDetails' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\PickUpInStoreDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickUpInStoreDetails'
-        ]
+            'elementName' => 'PickUpInStoreDetails',
+        ],
     ];
 
     /**

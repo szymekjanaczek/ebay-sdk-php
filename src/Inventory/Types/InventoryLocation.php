@@ -30,44 +30,44 @@ class InventoryLocation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'locationAdditionalInformation'
+            'elementName' => 'locationAdditionalInformation',
         ],
         'locationInstructions' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'locationInstructions'
+            'elementName' => 'locationInstructions',
         ],
         'locationWebUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'locationWebUrl'
+            'elementName' => 'locationWebUrl',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'operatingHours' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\OperatingHours',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'operatingHours'
+            'elementName' => 'operatingHours',
         ],
         'phone' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'phone'
+            'elementName' => 'phone',
         ],
         'specialHours' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\SpecialHours',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'specialHours'
-        ]
+            'elementName' => 'specialHours',
+        ],
     ];
 
     /**

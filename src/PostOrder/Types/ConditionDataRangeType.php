@@ -24,8 +24,8 @@ class ConditionDataRangeType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Mrk:Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
-        ]
+            'elementName' => 'amount',
+        ],
     ];
 
     /**

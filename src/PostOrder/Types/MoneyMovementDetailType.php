@@ -30,44 +30,44 @@ class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actualAmount'
+            'elementName' => 'actualAmount',
         ],
         'creationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'externalPaymentId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'externalPaymentId'
+            'elementName' => 'externalPaymentId',
         ],
         'moneyMovementType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'moneyMovementType'
+            'elementName' => 'moneyMovementType',
         ],
         'paymentProvider' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentProvider'
+            'elementName' => 'paymentProvider',
         ],
         'requestedAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'requestedAmount'
+            'elementName' => 'requestedAmount',
         ],
         'status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'status'
-        ]
+            'elementName' => 'status',
+        ],
     ];
 
     /**

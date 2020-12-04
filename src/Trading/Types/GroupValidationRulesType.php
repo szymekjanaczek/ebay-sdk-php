@@ -24,8 +24,8 @@ class GroupValidationRulesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinRequired'
-        ]
+            'elementName' => 'MinRequired',
+        ],
     ];
 
     /**

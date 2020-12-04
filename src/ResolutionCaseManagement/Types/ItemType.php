@@ -29,38 +29,38 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'itemTitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemTitle'
+            'elementName' => 'itemTitle',
         ],
         'transactionPrice' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionPrice'
+            'elementName' => 'transactionPrice',
         ],
         'transactionDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionDate'
+            'elementName' => 'transactionDate',
         ],
         'globalId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'globalId'
+            'elementName' => 'globalId',
         ],
         'transactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionId'
-        ]
+            'elementName' => 'transactionId',
+        ],
     ];
 
     /**

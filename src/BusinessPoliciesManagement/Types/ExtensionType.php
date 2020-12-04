@@ -27,26 +27,26 @@ class ExtensionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'id'
+            'elementName' => 'id',
         ],
         'version' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'version'
+            'elementName' => 'version',
         ],
         'contentType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'contentType'
+            'elementName' => 'contentType',
         ],
         'value' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

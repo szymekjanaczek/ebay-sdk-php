@@ -27,26 +27,26 @@ class CustomSecurityHeaderType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayAuthToken'
+            'elementName' => 'eBayAuthToken',
         ],
         'HardExpirationWarning' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HardExpirationWarning'
+            'elementName' => 'HardExpirationWarning',
         ],
         'Credentials' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UserIdPasswordType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Credentials'
+            'elementName' => 'Credentials',
         ],
         'NotificationSignature' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NotificationSignature'
-        ]
+            'elementName' => 'NotificationSignature',
+        ],
     ];
 
     /**

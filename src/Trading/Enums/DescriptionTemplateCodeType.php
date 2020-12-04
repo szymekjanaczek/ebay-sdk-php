@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class DescriptionTemplateCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_LAYOUT = 'Layout';
-    const C_THEME = 'Theme';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_LAYOUT = 'Layout';
+    public const C_THEME = 'Theme';
 }

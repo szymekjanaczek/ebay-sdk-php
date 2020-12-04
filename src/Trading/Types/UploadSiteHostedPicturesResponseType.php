@@ -25,14 +25,14 @@ class UploadSiteHostedPicturesResponseType extends \DTS\eBaySDK\Trading\Types\Ab
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureSystemVersion'
+            'elementName' => 'PictureSystemVersion',
         ],
         'SiteHostedPictureDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SiteHostedPictureDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SiteHostedPictureDetails'
-        ]
+            'elementName' => 'SiteHostedPictureDetails',
+        ],
     ];
 
     /**

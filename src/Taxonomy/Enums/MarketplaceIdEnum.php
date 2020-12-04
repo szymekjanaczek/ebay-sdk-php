@@ -12,25 +12,25 @@ namespace DTS\eBaySDK\Taxonomy\Enums;
 
 class MarketplaceIdEnum
 {
-    const C_EBAY_AT = 'EBAY_AT';
-    const C_EBAY_AU = 'EBAY_AU';
-    const C_EBAY_BE = 'EBAY_BE';
-    const C_EBAY_CA = 'EBAY_CA';
-    const C_EBAY_CH = 'EBAY_CH';
-    const C_EBAY_DE = 'EBAY_DE';
-    const C_EBAY_ES = 'EBAY_ES';
-    const C_EBAY_FR = 'EBAY_FR';
-    const C_EBAY_GB = 'EBAY_GB';
-    const C_EBAY_HK = 'EBAY_HK';
-    const C_EBAY_IE = 'EBAY_IE';
-    const C_EBAY_IN = 'EBAY_IN';
-    const C_EBAY_IT = 'EBAY_IT';
-    const C_EBAY_MOTORS_US = 'EBAY_MOTORS_US';
-    const C_EBAY_MY = 'EBAY_MY';
-    const C_EBAY_NL = 'EBAY_NL';
-    const C_EBAY_PH = 'EBAY_PH';
-    const C_EBAY_PL = 'EBAY_PL';
-    const C_EBAY_RU = 'EBAY_RU';
-    const C_EBAY_SG = 'EBAY_SG';
-    const C_EBAY_US = 'EBAY_US';
+    public const C_EBAY_AT = 'EBAY_AT';
+    public const C_EBAY_AU = 'EBAY_AU';
+    public const C_EBAY_BE = 'EBAY_BE';
+    public const C_EBAY_CA = 'EBAY_CA';
+    public const C_EBAY_CH = 'EBAY_CH';
+    public const C_EBAY_DE = 'EBAY_DE';
+    public const C_EBAY_ES = 'EBAY_ES';
+    public const C_EBAY_FR = 'EBAY_FR';
+    public const C_EBAY_GB = 'EBAY_GB';
+    public const C_EBAY_HK = 'EBAY_HK';
+    public const C_EBAY_IE = 'EBAY_IE';
+    public const C_EBAY_IN = 'EBAY_IN';
+    public const C_EBAY_IT = 'EBAY_IT';
+    public const C_EBAY_MOTORS_US = 'EBAY_MOTORS_US';
+    public const C_EBAY_MY = 'EBAY_MY';
+    public const C_EBAY_NL = 'EBAY_NL';
+    public const C_EBAY_PH = 'EBAY_PH';
+    public const C_EBAY_PL = 'EBAY_PL';
+    public const C_EBAY_RU = 'EBAY_RU';
+    public const C_EBAY_SG = 'EBAY_SG';
+    public const C_EBAY_US = 'EBAY_US';
 }

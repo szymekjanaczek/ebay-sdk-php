@@ -41,110 +41,110 @@ class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'ListingNPEmailNotifPref' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingNPEmailNotifPref'
+            'elementName' => 'ListingNPEmailNotifPref',
         ],
         'ListingNPEmail' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingNPEmail'
+            'elementName' => 'ListingNPEmail',
         ],
         'ListingNPContactName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingNPContactName'
+            'elementName' => 'ListingNPContactName',
         ],
         'Mission' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Mission'
+            'elementName' => 'Mission',
         ],
         'LogoURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogoURL'
+            'elementName' => 'LogoURL',
         ],
         'CharityRegion' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityRegion'
+            'elementName' => 'CharityRegion',
         ],
         'CharityDomain' => [
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CharityDomain'
+            'elementName' => 'CharityDomain',
         ],
         'LogoURLSelling' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogoURLSelling'
+            'elementName' => 'LogoURLSelling',
         ],
         'DisplayLogoSelling' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisplayLogoSelling'
+            'elementName' => 'DisplayLogoSelling',
         ],
         'Description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
+            'elementName' => 'Description',
         ],
         'ExternalID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalID'
+            'elementName' => 'ExternalID',
         ],
         'PopularityIndex' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PopularityIndex'
+            'elementName' => 'PopularityIndex',
         ],
         'EIN' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EIN'
+            'elementName' => 'EIN',
         ],
         'NonProfitSecondName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NonProfitSecondName'
+            'elementName' => 'NonProfitSecondName',
         ],
         'NonProfitAddress' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NonProfitAddressType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NonProfitAddress'
+            'elementName' => 'NonProfitAddress',
         ],
         'NonProfitSocialAddress' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NonProfitSocialAddress'
+            'elementName' => 'NonProfitSocialAddress',
         ],
         'id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'id'
-        ]
+            'attributeName' => 'id',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class FetchTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SecretID'
+            'elementName' => 'SecretID',
         ],
         'SessionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SessionID'
-        ]
+            'elementName' => 'SessionID',
+        ],
     ];
 
     /**

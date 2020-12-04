@@ -50,164 +50,164 @@ class SellerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaisaPayStatus'
+            'elementName' => 'PaisaPayStatus',
         ],
         'AllowPaymentEdit' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AllowPaymentEdit'
+            'elementName' => 'AllowPaymentEdit',
         ],
         'BillingCurrency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BillingCurrency'
+            'elementName' => 'BillingCurrency',
         ],
         'CheckoutEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CheckoutEnabled'
+            'elementName' => 'CheckoutEnabled',
         ],
         'CIPBankAccountStored' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CIPBankAccountStored'
+            'elementName' => 'CIPBankAccountStored',
         ],
         'GoodStanding' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GoodStanding'
+            'elementName' => 'GoodStanding',
         ],
         'QualifiesForB2BVAT' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QualifiesForB2BVAT'
+            'elementName' => 'QualifiesForB2BVAT',
         ],
         'SellerLevel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerLevel'
+            'elementName' => 'SellerLevel',
         ],
         'SellerPaymentAddress' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerPaymentAddress'
+            'elementName' => 'SellerPaymentAddress',
         ],
         'SchedulingInfo' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\SchedulingInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SchedulingInfo'
+            'elementName' => 'SchedulingInfo',
         ],
         'StoreOwner' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreOwner'
+            'elementName' => 'StoreOwner',
         ],
         'StoreURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreURL'
+            'elementName' => 'StoreURL',
         ],
         'SellerBusinessType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerBusinessType'
+            'elementName' => 'SellerBusinessType',
         ],
         'RegisteredBusinessSeller' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RegisteredBusinessSeller'
+            'elementName' => 'RegisteredBusinessSeller',
         ],
         'StoreSite' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreSite'
+            'elementName' => 'StoreSite',
         ],
         'PaymentMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentMethod'
+            'elementName' => 'PaymentMethod',
         ],
         'CharityRegistered' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityRegistered'
+            'elementName' => 'CharityRegistered',
         ],
         'SafePaymentExempt' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SafePaymentExempt'
+            'elementName' => 'SafePaymentExempt',
         ],
         'PaisaPayEscrowEMIStatus' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaisaPayEscrowEMIStatus'
+            'elementName' => 'PaisaPayEscrowEMIStatus',
         ],
         'CharityAffiliationDetails' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\CharityAffiliationDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityAffiliationDetails'
+            'elementName' => 'CharityAffiliationDetails',
         ],
         'TransactionPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionPercent'
+            'elementName' => 'TransactionPercent',
         ],
         'IntegratedMerchantCreditCardInfo' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IntegratedMerchantCreditCardInfo'
+            'elementName' => 'IntegratedMerchantCreditCardInfo',
         ],
         'FeatureEligibility' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\FeatureEligibilityType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeatureEligibility'
+            'elementName' => 'FeatureEligibility',
         ],
         'TopRatedSeller' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TopRatedSeller'
+            'elementName' => 'TopRatedSeller',
         ],
         'TopRatedSellerDetails' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\TopRatedSellerDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TopRatedSellerDetails'
+            'elementName' => 'TopRatedSellerDetails',
         ],
         'RecoupmentPolicyConsent' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\RecoupmentPolicyConsentType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RecoupmentPolicyConsent'
+            'elementName' => 'RecoupmentPolicyConsent',
         ],
         'DomesticRateTable' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DomesticRateTable'
-        ]
+            'elementName' => 'DomesticRateTable',
+        ],
     ];
 
     /**

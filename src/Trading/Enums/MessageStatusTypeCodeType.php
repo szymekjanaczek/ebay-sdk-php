@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class MessageStatusTypeCodeType
 {
-    const C_ANSWERED = 'Answered';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_UNANSWERED = 'Unanswered';
+    public const C_ANSWERED = 'Answered';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_UNANSWERED = 'Unanswered';
 }

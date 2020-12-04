@@ -25,14 +25,14 @@ class VariationKeyType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'VariationSpecifics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecifics'
-        ]
+            'elementName' => 'VariationSpecifics',
+        ],
     ];
 
     /**

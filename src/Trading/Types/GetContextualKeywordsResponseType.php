@@ -24,8 +24,8 @@ class GetContextualKeywordsResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'type' => 'DTS\eBaySDK\Trading\Types\ContextSearchAssetType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ContextSearchAsset'
-        ]
+            'elementName' => 'ContextSearchAsset',
+        ],
     ];
 
     /**

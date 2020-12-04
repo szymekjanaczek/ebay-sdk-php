@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class TransactionPlatformCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_EXPRESS = 'Express';
-    const C_E_BAY = 'eBay';
-    const C_HALF = 'Half';
-    const C_SHOPPING = 'Shopping';
-    const C_WORLD_OF_GOOD = 'WorldOfGood';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_EXPRESS = 'Express';
+    public const C_E_BAY = 'eBay';
+    public const C_HALF = 'Half';
+    public const C_SHOPPING = 'Shopping';
+    public const C_WORLD_OF_GOOD = 'WorldOfGood';
 }

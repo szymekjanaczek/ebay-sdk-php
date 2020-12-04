@@ -25,14 +25,14 @@ class ProductIdentifiersType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\GroupValidationRulesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ValidationRules'
+            'elementName' => 'ValidationRules',
         ],
         'NameRecommendation' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameRecommendationType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NameRecommendation'
-        ]
+            'elementName' => 'NameRecommendation',
+        ],
     ];
 
     /**

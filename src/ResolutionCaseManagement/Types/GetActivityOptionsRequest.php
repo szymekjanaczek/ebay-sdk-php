@@ -24,8 +24,8 @@ class GetActivityOptionsRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Ty
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
-        ]
+            'elementName' => 'caseId',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class GiftDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'message'
+            'elementName' => 'message',
         ],
         'recipientEmail' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recipientEmail'
+            'elementName' => 'recipientEmail',
         ],
         'senderName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'senderName'
-        ]
+            'elementName' => 'senderName',
+        ],
     ];
 
     /**

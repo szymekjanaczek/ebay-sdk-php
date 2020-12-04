@@ -26,20 +26,20 @@ class EscalationEligibilityInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eligible'
+            'elementName' => 'eligible',
         ],
         'endTime' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endTime'
+            'elementName' => 'endTime',
         ],
         'startTime' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startTime'
-        ]
+            'elementName' => 'startTime',
+        ],
     ];
 
     /**

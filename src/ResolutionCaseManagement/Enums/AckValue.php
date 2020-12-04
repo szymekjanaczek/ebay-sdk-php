@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class AckValue
 {
-    const C_FAILURE = 'Failure';
-    const C_PARTIAL_FAILURE = 'PartialFailure';
-    const C_SUCCESS = 'Success';
-    const C_WARNING = 'Warning';
+    public const C_FAILURE = 'Failure';
+    public const C_PARTIAL_FAILURE = 'PartialFailure';
+    public const C_SUCCESS = 'Success';
+    public const C_WARNING = 'Warning';
 }

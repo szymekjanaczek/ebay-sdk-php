@@ -27,26 +27,26 @@ class GetItemShippingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'QuantitySold' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantitySold'
+            'elementName' => 'QuantitySold',
         ],
         'DestinationPostalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DestinationPostalCode'
+            'elementName' => 'DestinationPostalCode',
         ],
         'DestinationCountryCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DestinationCountryCode'
-        ]
+            'elementName' => 'DestinationCountryCode',
+        ],
     ];
 
     /**

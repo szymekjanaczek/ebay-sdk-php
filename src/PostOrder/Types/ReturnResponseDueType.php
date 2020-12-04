@@ -25,14 +25,14 @@ class ReturnResponseDueType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'activityDue'
+            'elementName' => 'activityDue',
         ],
         'respondByDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'respondByDate'
-        ]
+            'elementName' => 'respondByDate',
+        ],
     ];
 
     /**

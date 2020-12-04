@@ -27,26 +27,26 @@ class ThemeGroupType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GroupID'
+            'elementName' => 'GroupID',
         ],
         'GroupName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GroupName'
+            'elementName' => 'GroupName',
         ],
         'ThemeID' => [
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ThemeID'
+            'elementName' => 'ThemeID',
         ],
         'ThemeTotal' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ThemeTotal'
-        ]
+            'elementName' => 'ThemeTotal',
+        ],
     ];
 
     /**

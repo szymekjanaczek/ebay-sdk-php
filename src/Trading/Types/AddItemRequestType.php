@@ -24,8 +24,8 @@ class AddItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

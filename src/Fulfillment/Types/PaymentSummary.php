@@ -26,20 +26,20 @@ class PaymentSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Payment',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'payments'
+            'elementName' => 'payments',
         ],
         'refunds' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\OrderRefund',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'refunds'
+            'elementName' => 'refunds',
         ],
         'totalDueSeller' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalDueSeller'
-        ]
+            'elementName' => 'totalDueSeller',
+        ],
     ];
 
     /**

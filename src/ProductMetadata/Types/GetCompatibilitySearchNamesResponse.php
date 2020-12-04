@@ -25,14 +25,14 @@ class GetCompatibilitySearchNamesResponse extends \DTS\eBaySDK\ProductMetadata\T
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'properties' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\Properties',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'properties'
-        ]
+            'elementName' => 'properties',
+        ],
     ];
 
     /**

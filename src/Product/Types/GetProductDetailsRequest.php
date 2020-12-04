@@ -24,8 +24,8 @@ class GetProductDetailsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceReq
             'type' => 'DTS\eBaySDK\Product\Types\ProductDetailsRequestType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productDetailsRequest'
-        ]
+            'elementName' => 'productDetailsRequest',
+        ],
     ];
 
     /**

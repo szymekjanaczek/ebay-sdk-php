@@ -27,26 +27,26 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentTrackingType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'allShipmentTrackings'
+            'elementName' => 'allShipmentTrackings',
         ],
         'payee' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'payee'
+            'elementName' => 'payee',
         ],
         'shipmentTracking' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentTrackingType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipmentTracking'
+            'elementName' => 'shipmentTracking',
         ],
         'shippingLabelCost' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingLabelCost'
-        ]
+            'elementName' => 'shippingLabelCost',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class UploadDocumentInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'content' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'content'
-        ]
+            'elementName' => 'content',
+        ],
     ];
 
     /**

@@ -31,50 +31,50 @@ class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'VeROReasonCodeID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VeROReasonCodeID'
+            'elementName' => 'VeROReasonCodeID',
         ],
         'MessageToSeller' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageToSeller'
+            'elementName' => 'MessageToSeller',
         ],
         'CopyEmailToRightsOwner' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CopyEmailToRightsOwner'
+            'elementName' => 'CopyEmailToRightsOwner',
         ],
         'Region' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Region'
+            'elementName' => 'Region',
         ],
         'Country' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Country'
+            'elementName' => 'Country',
         ],
         'Patent' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Patent'
+            'elementName' => 'Patent',
         ],
         'DetailedMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailedMessage'
-        ]
+            'elementName' => 'DetailedMessage',
+        ],
     ];
 
     /**

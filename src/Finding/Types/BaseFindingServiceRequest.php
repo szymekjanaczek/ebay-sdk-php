@@ -24,8 +24,8 @@ class BaseFindingServiceRequest extends \DTS\eBaySDK\Finding\Types\BestMatchFind
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortOrder'
-        ]
+            'elementName' => 'sortOrder',
+        ],
     ];
 
     /**

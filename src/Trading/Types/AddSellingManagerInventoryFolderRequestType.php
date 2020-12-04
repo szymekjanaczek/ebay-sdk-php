@@ -26,20 +26,20 @@ class AddSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\T
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderName'
+            'elementName' => 'FolderName',
         ],
         'ParentFolderID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ParentFolderID'
+            'elementName' => 'ParentFolderID',
         ],
         'Comment' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Comment'
-        ]
+            'elementName' => 'Comment',
+        ],
     ];
 
     /**

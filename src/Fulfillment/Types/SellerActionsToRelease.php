@@ -24,8 +24,8 @@ class SellerActionsToRelease extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerActionToRelease'
-        ]
+            'elementName' => 'sellerActionToRelease',
+        ],
     ];
 
     /**

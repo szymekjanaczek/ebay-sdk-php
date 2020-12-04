@@ -25,14 +25,14 @@ class GetPoliciesForItemConditionRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'filter'
+            'elementName' => 'filter',
         ],
         'marketplace_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplace_id'
-        ]
+            'elementName' => 'marketplace_id',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GetReturnMetadataRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseR
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'metadataEntryCode'
-        ]
+            'elementName' => 'metadataEntryCode',
+        ],
     ];
 
     /**

@@ -36,80 +36,80 @@ class SetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'DTS\eBaySDK\Trading\Types\BidderNoticePreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidderNoticePreferences'
+            'elementName' => 'BidderNoticePreferences',
         ],
         'CombinedPaymentPreferences' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CombinedPaymentPreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CombinedPaymentPreferences'
+            'elementName' => 'CombinedPaymentPreferences',
         ],
         'SellerPaymentPreferences' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellerPaymentPreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerPaymentPreferences'
+            'elementName' => 'SellerPaymentPreferences',
         ],
         'SellerFavoriteItemPreferences' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerFavoriteItemPreferences'
+            'elementName' => 'SellerFavoriteItemPreferences',
         ],
         'EndOfAuctionEmailPreferences' => [
             'type' => 'DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndOfAuctionEmailPreferences'
+            'elementName' => 'EndOfAuctionEmailPreferences',
         ],
         'EmailShipmentTrackingNumberPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EmailShipmentTrackingNumberPreference'
+            'elementName' => 'EmailShipmentTrackingNumberPreference',
         ],
         'RequiredShipPhoneNumberPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RequiredShipPhoneNumberPreference'
+            'elementName' => 'RequiredShipPhoneNumberPreference',
         ],
         'UnpaidItemAssistancePreferences' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnpaidItemAssistancePreferences'
+            'elementName' => 'UnpaidItemAssistancePreferences',
         ],
         'PurchaseReminderEmailPreferences' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PurchaseReminderEmailPreferences'
+            'elementName' => 'PurchaseReminderEmailPreferences',
         ],
         'DispatchCutoffTimePreference' => [
             'type' => 'DTS\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DispatchCutoffTimePreference'
+            'elementName' => 'DispatchCutoffTimePreference',
         ],
         'GlobalShippingProgramListingPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GlobalShippingProgramListingPreference'
+            'elementName' => 'GlobalShippingProgramListingPreference',
         ],
         'OverrideGSPserviceWithIntlService' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OverrideGSPserviceWithIntlService'
+            'elementName' => 'OverrideGSPserviceWithIntlService',
         ],
         'OutOfStockControlPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OutOfStockControlPreference'
-        ]
+            'elementName' => 'OutOfStockControlPreference',
+        ],
     ];
 
     /**

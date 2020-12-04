@@ -25,14 +25,14 @@ class LineItemReference extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemId'
+            'elementName' => 'lineItemId',
         ],
         'quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantity'
-        ]
+            'elementName' => 'quantity',
+        ],
     ];
 
     /**

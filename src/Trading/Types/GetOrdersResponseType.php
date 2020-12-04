@@ -29,38 +29,38 @@ class GetOrdersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseT
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
+            'elementName' => 'PaginationResult',
         ],
         'HasMoreOrders' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasMoreOrders'
+            'elementName' => 'HasMoreOrders',
         ],
         'OrderArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\OrderArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderArray'
+            'elementName' => 'OrderArray',
         ],
         'OrdersPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrdersPerPage'
+            'elementName' => 'OrdersPerPage',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
+            'elementName' => 'PageNumber',
         ],
         'ReturnedOrderCountActual' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnedOrderCountActual'
-        ]
+            'elementName' => 'ReturnedOrderCountActual',
+        ],
     ];
 
     /**

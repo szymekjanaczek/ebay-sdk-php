@@ -27,26 +27,26 @@ class DisputeMessageType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageID'
+            'elementName' => 'MessageID',
         ],
         'MessageSource' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageSource'
+            'elementName' => 'MessageSource',
         ],
         'MessageCreationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageCreationTime'
+            'elementName' => 'MessageCreationTime',
         ],
         'MessageText' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageText'
-        ]
+            'elementName' => 'MessageText',
+        ],
     ];
 
     /**

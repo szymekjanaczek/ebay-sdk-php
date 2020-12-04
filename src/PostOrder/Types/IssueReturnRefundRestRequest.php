@@ -24,8 +24,8 @@ class IssueReturnRefundRestRequest extends \DTS\eBaySDK\PostOrder\Types\IssueRef
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

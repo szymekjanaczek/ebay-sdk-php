@@ -24,8 +24,8 @@ class MarkReturnRefundSentRestRequest extends \DTS\eBaySDK\PostOrder\Types\MarkR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class SetSellingManagerFeedbackOptionsRequestType extends \DTS\eBaySDK\Trading\T
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AutomatedLeaveFeedbackEvent'
+            'elementName' => 'AutomatedLeaveFeedbackEvent',
         ],
         'StoredComments' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackCommentArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoredComments'
-        ]
+            'elementName' => 'StoredComments',
+        ],
     ];
 
     /**

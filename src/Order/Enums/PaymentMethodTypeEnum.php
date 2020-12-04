@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Order\Enums;
 
 class PaymentMethodTypeEnum
 {
-    const C_CREDIT_CARD = 'CREDIT_CARD';
+    public const C_CREDIT_CARD = 'CREDIT_CARD';
 }

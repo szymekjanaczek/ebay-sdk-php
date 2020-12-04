@@ -32,56 +32,56 @@ class ShippingFulfillment extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actualDeliveryDate'
+            'elementName' => 'actualDeliveryDate',
         ],
         'lineItemReferences' => [
             'type' => 'DTS\eBaySDK\Order\Types\LineItemReference',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'lineItemReferences'
+            'elementName' => 'lineItemReferences',
         ],
         'maxEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxEstimatedDeliveryDate'
+            'elementName' => 'maxEstimatedDeliveryDate',
         ],
         'minEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minEstimatedDeliveryDate'
+            'elementName' => 'minEstimatedDeliveryDate',
         ],
         'shipmentTrackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipmentTrackingNumber'
+            'elementName' => 'shipmentTrackingNumber',
         ],
         'shipmentTrackingUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipmentTrackingUrl'
+            'elementName' => 'shipmentTrackingUrl',
         ],
         'shippedDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippedDate'
+            'elementName' => 'shippedDate',
         ],
         'shippingCarrierCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCarrierCode'
+            'elementName' => 'shippingCarrierCode',
         ],
         'shippingServiceCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingServiceCode'
-        ]
+            'elementName' => 'shippingServiceCode',
+        ],
     ];
 
     /**

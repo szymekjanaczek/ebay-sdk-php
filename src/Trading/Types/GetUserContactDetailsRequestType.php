@@ -26,20 +26,20 @@ class GetUserContactDetailsRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'ContactID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ContactID'
+            'elementName' => 'ContactID',
         ],
         'RequesterID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RequesterID'
-        ]
+            'elementName' => 'RequesterID',
+        ],
     ];
 
     /**

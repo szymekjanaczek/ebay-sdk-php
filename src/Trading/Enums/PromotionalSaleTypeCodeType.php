@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class PromotionalSaleTypeCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FREE_SHIPPING_ONLY = 'FreeShippingOnly';
-    const C_PRICE_DISCOUNT_AND_FREE_SHIPPING = 'PriceDiscountAndFreeShipping';
-    const C_PRICE_DISCOUNT_ONLY = 'PriceDiscountOnly';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FREE_SHIPPING_ONLY = 'FreeShippingOnly';
+    public const C_PRICE_DISCOUNT_AND_FREE_SHIPPING = 'PriceDiscountAndFreeShipping';
+    public const C_PRICE_DISCOUNT_ONLY = 'PriceDiscountOnly';
 }

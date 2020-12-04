@@ -28,32 +28,32 @@ class RelatedProduct extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'discount' => [
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\Discount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discount'
+            'elementName' => 'discount',
         ],
         'rank' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rank'
+            'elementName' => 'rank',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
+            'elementName' => 'title',
         ],
         'maxQtyForSinglePrimary' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxQtyForSinglePrimary'
-        ]
+            'elementName' => 'maxQtyForSinglePrimary',
+        ],
     ];
 
     /**

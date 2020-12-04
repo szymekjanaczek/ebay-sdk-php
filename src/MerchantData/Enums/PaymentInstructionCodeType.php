@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class PaymentInstructionCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_PAYMENT_INSTRUCTION = 'PaymentInstruction';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_PAYMENT_INSTRUCTION = 'PaymentInstruction';
 }

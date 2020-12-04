@@ -26,20 +26,20 @@ class ItemCompatibilityType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Delete'
+            'elementName' => 'Delete',
         ],
         'NameValueList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NameValueList'
+            'elementName' => 'NameValueList',
         ],
         'CompatibilityNotes' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CompatibilityNotes'
-        ]
+            'elementName' => 'CompatibilityNotes',
+        ],
     ];
 
     /**

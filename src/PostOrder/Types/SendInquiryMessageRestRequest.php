@@ -24,8 +24,8 @@ class SendInquiryMessageRestRequest extends \DTS\eBaySDK\PostOrder\Types\SendMes
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryId'
-        ]
+            'elementName' => 'inquiryId',
+        ],
     ];
 
     /**

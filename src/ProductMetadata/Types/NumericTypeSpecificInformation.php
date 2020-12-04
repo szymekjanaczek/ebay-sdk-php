@@ -25,14 +25,14 @@ class NumericTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'unitOfMeasurement'
+            'elementName' => 'unitOfMeasurement',
         ],
         'maximumValueAllowed' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maximumValueAllowed'
-        ]
+            'elementName' => 'maximumValueAllowed',
+        ],
     ];
 
     /**

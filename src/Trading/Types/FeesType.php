@@ -24,8 +24,8 @@ class FeesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\FeeType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Fee'
-        ]
+            'elementName' => 'Fee',
+        ],
     ];
 
     /**

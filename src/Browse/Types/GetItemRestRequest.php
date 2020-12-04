@@ -24,8 +24,8 @@ class GetItemRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'item_id'
-        ]
+            'elementName' => 'item_id',
+        ],
     ];
 
     /**

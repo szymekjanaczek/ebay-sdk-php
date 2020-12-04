@@ -24,8 +24,8 @@ class ReviseInventoryStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'type' => 'DTS\eBaySDK\Trading\Types\InventoryStatusType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'InventoryStatus'
-        ]
+            'elementName' => 'InventoryStatus',
+        ],
     ];
 
     /**

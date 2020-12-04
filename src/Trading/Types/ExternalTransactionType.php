@@ -28,32 +28,32 @@ class ExternalTransactionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalTransactionID'
+            'elementName' => 'ExternalTransactionID',
         ],
         'ExternalTransactionTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalTransactionTime'
+            'elementName' => 'ExternalTransactionTime',
         ],
         'FeeOrCreditAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeeOrCreditAmount'
+            'elementName' => 'FeeOrCreditAmount',
         ],
         'PaymentOrRefundAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentOrRefundAmount'
+            'elementName' => 'PaymentOrRefundAmount',
         ],
         'ExternalTransactionStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalTransactionStatus'
-        ]
+            'elementName' => 'ExternalTransactionStatus',
+        ],
     ];
 
     /**

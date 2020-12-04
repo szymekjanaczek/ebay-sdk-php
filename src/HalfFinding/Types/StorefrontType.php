@@ -25,14 +25,14 @@ class StorefrontType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storeURL'
+            'elementName' => 'storeURL',
         ],
         'storeName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storeName'
-        ]
+            'elementName' => 'storeName',
+        ],
     ];
 
     /**

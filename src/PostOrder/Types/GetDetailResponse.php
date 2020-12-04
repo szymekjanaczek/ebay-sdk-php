@@ -25,14 +25,14 @@ class GetDetailResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'detail'
+            'elementName' => 'detail',
         ],
         'summary' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'summary'
-        ]
+            'elementName' => 'summary',
+        ],
     ];
 
     /**

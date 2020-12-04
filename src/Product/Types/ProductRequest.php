@@ -32,56 +32,56 @@ class ProductRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'invocationId'
+            'elementName' => 'invocationId',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'keywords' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'keywords'
+            'elementName' => 'keywords',
         ],
         'propertyFilter' => [
             'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'propertyFilter'
+            'elementName' => 'propertyFilter',
         ],
         'sortOrder' => [
             'type' => 'DTS\eBaySDK\Product\Types\SortOrder',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortOrder'
+            'elementName' => 'sortOrder',
         ],
         'dataset' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dataset'
+            'elementName' => 'dataset',
         ],
         'datasetPropertyName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'datasetPropertyName'
+            'elementName' => 'datasetPropertyName',
         ],
         'paginationInput' => [
             'type' => 'DTS\eBaySDK\Product\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
+            'elementName' => 'paginationInput',
         ],
         'productStatusFilter' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productStatusFilter'
-        ]
+            'elementName' => 'productStatusFilter',
+        ],
     ];
 
     /**

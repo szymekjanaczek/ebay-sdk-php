@@ -30,44 +30,44 @@ class Product extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productIdentifier'
+            'elementName' => 'productIdentifier',
         ],
         'stockPhotoURL' => [
             'type' => 'DTS\eBaySDK\Product\Types\StockPhotoURL',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'stockPhotoURL'
+            'elementName' => 'stockPhotoURL',
         ],
         'productDetails' => [
             'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productDetails'
+            'elementName' => 'productDetails',
         ],
         'productStatus' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productStatus'
+            'elementName' => 'productStatus',
         ],
         'compatibilityCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'compatibilityCount'
+            'elementName' => 'compatibilityCount',
         ],
         'type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
+            'elementName' => 'type',
         ],
         'notes' => [
             'type' => 'DTS\eBaySDK\Product\Types\Notes',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'notes'
-        ]
+            'elementName' => 'notes',
+        ],
     ];
 
     /**

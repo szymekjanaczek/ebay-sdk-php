@@ -24,8 +24,8 @@ class CaseArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'caseSummary'
-        ]
+            'elementName' => 'caseSummary',
+        ],
     ];
 
     /**

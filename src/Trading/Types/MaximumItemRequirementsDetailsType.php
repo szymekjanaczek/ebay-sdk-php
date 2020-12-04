@@ -25,14 +25,14 @@ class MaximumItemRequirementsDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'MaximumItemCount'
+            'elementName' => 'MaximumItemCount',
         ],
         'MinimumFeedbackScore' => [
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'MinimumFeedbackScore'
-        ]
+            'elementName' => 'MinimumFeedbackScore',
+        ],
     ];
 
     /**

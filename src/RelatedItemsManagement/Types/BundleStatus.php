@@ -28,32 +28,32 @@ class BundleStatus extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleName'
+            'elementName' => 'bundleName',
         ],
         'primarySKU' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'primarySKU'
+            'elementName' => 'primarySKU',
         ],
         'bundleID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleID'
+            'elementName' => 'bundleID',
         ],
         'ack' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ack'
+            'elementName' => 'ack',
         ],
         'errorMessage' => [
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorMessage'
-        ]
+            'elementName' => 'errorMessage',
+        ],
     ];
 
     /**

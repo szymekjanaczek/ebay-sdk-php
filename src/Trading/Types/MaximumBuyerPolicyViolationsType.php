@@ -25,14 +25,14 @@ class MaximumBuyerPolicyViolationsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Count'
+            'elementName' => 'Count',
         ],
         'Period' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Period'
-        ]
+            'elementName' => 'Period',
+        ],
     ];
 
     /**

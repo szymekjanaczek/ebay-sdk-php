@@ -28,32 +28,32 @@ class StoreCategoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'categoryName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryName'
+            'elementName' => 'categoryName',
         ],
         'isLeaf' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isLeaf'
+            'elementName' => 'isLeaf',
         ],
         'isPseudo' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isPseudo'
+            'elementName' => 'isPseudo',
         ],
         'storeId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storeId'
-        ]
+            'elementName' => 'storeId',
+        ],
     ];
 
     /**

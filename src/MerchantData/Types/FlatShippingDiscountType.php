@@ -25,14 +25,14 @@ class FlatShippingDiscountType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DiscountName'
+            'elementName' => 'DiscountName',
         ],
         'DiscountProfile' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\DiscountProfileType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DiscountProfile'
-        ]
+            'elementName' => 'DiscountProfile',
+        ],
     ];
 
     /**

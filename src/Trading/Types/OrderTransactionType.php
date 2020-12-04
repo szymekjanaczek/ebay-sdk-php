@@ -25,14 +25,14 @@ class OrderTransactionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\OrderType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Order'
+            'elementName' => 'Order',
         ],
         'Transaction' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Transaction'
-        ]
+            'elementName' => 'Transaction',
+        ],
     ];
 
     /**

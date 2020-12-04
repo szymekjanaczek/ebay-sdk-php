@@ -24,8 +24,8 @@ class StoreColorSchemeArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ColorScheme'
-        ]
+            'elementName' => 'ColorScheme',
+        ],
     ];
 
     /**

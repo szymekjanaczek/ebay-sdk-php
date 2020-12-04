@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\HalfFinding\Enums;
 
 class RentalDurationType
 {
-    const C_DAYS125 = 'Days125';
-    const C_DAYS30 = 'Days30';
-    const C_DAYS45 = 'Days45';
-    const C_DAYS60 = 'Days60';
-    const C_DAYS90 = 'Days90';
+    public const C_DAYS125 = 'Days125';
+    public const C_DAYS30 = 'Days30';
+    public const C_DAYS45 = 'Days45';
+    public const C_DAYS60 = 'Days60';
+    public const C_DAYS90 = 'Days90';
 }

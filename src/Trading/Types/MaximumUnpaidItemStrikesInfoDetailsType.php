@@ -25,14 +25,14 @@ class MaximumUnpaidItemStrikesInfoDetailsType extends \DTS\eBaySDK\Types\BaseTyp
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesCountDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaximumUnpaidItemStrikesCount'
+            'elementName' => 'MaximumUnpaidItemStrikesCount',
         ],
         'MaximumUnpaidItemStrikesDuration' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesDurationDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'MaximumUnpaidItemStrikesDuration'
-        ]
+            'elementName' => 'MaximumUnpaidItemStrikesDuration',
+        ],
     ];
 
     /**

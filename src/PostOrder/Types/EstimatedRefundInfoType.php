@@ -26,20 +26,20 @@ class EstimatedRefundInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerTotalAmount'
+            'elementName' => 'buyerTotalAmount',
         ],
         'estimatedRefundDetail' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimatedRefundDetail'
+            'elementName' => 'estimatedRefundDetail',
         ],
         'sellerTotalAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerTotalAmount'
-        ]
+            'elementName' => 'sellerTotalAmount',
+        ],
     ];
 
     /**

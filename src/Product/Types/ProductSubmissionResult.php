@@ -25,14 +25,14 @@ class ProductSubmissionResult extends \DTS\eBaySDK\Product\Types\BaseServiceResp
             'type' => 'DTS\eBaySDK\Product\Types\ProductSubmission',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productSubmission'
+            'elementName' => 'productSubmission',
         ],
         'status' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionStatus',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'status'
-        ]
+            'elementName' => 'status',
+        ],
     ];
 
     /**

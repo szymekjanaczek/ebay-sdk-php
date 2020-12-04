@@ -24,8 +24,8 @@ class GetItemStatusRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReque
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ItemID'
-        ]
+            'elementName' => 'ItemID',
+        ],
     ];
 
     /**

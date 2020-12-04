@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class DesiredOutcomeTypeEnum
 {
-    const C_FULL_REFUND = 'FULL_REFUND';
-    const C_STILL_WANT_ITEM = 'STILL_WANT_ITEM';
+    public const C_FULL_REFUND = 'FULL_REFUND';
+    public const C_STILL_WANT_ITEM = 'STILL_WANT_ITEM';
 }

@@ -24,8 +24,8 @@ class QuantityType extends \DTS\eBaySDK\Types\DecimalType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'unit'
-        ]
+            'attributeName' => 'unit',
+        ],
     ];
 
     /**

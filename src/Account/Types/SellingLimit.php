@@ -25,14 +25,14 @@ class SellingLimit extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantity'
-        ]
+            'elementName' => 'quantity',
+        ],
     ];
 
     /**

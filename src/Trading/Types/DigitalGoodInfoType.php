@@ -24,8 +24,8 @@ class DigitalGoodInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DigitalDelivery'
-        ]
+            'elementName' => 'DigitalDelivery',
+        ],
     ];
 
     /**

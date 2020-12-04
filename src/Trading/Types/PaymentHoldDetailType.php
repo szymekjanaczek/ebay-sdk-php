@@ -27,26 +27,26 @@ class PaymentHoldDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExpectedReleaseDate'
+            'elementName' => 'ExpectedReleaseDate',
         ],
         'RequiredSellerActionArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\RequiredSellerActionArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RequiredSellerActionArray'
+            'elementName' => 'RequiredSellerActionArray',
         ],
         'NumOfReqSellerActions' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NumOfReqSellerActions'
+            'elementName' => 'NumOfReqSellerActions',
         ],
         'PaymentHoldReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentHoldReason'
-        ]
+            'elementName' => 'PaymentHoldReason',
+        ],
     ];
 
     /**

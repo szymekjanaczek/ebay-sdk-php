@@ -28,32 +28,32 @@ class AutomotivePartsCompatibilityPolicy extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'categoryTreeId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeId'
+            'elementName' => 'categoryTreeId',
         ],
         'compatibilityBasedOn' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'compatibilityBasedOn'
+            'elementName' => 'compatibilityBasedOn',
         ],
         'compatibleVehicleTypes' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'compatibleVehicleTypes'
+            'elementName' => 'compatibleVehicleTypes',
         ],
         'maxNumberOfCompatibleVehicles' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxNumberOfCompatibleVehicles'
-        ]
+            'elementName' => 'maxNumberOfCompatibleVehicles',
+        ],
     ];
 
     /**

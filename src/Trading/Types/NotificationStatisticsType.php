@@ -28,32 +28,32 @@ class NotificationStatisticsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveredCount'
+            'elementName' => 'DeliveredCount',
         ],
         'QueuedNewCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QueuedNewCount'
+            'elementName' => 'QueuedNewCount',
         ],
         'QueuedPendingCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QueuedPendingCount'
+            'elementName' => 'QueuedPendingCount',
         ],
         'ExpiredCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExpiredCount'
+            'elementName' => 'ExpiredCount',
         ],
         'ErrorCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ErrorCount'
-        ]
+            'elementName' => 'ErrorCount',
+        ],
     ];
 
     /**

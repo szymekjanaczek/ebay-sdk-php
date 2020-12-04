@@ -24,8 +24,8 @@ class RemoveSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagemen
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'profileIds'
-        ]
+            'elementName' => 'profileIds',
+        ],
     ];
 
     /**

@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SellingManagerShippedStatusCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_SHIPPED = 'Shipped';
-    const C_UNSHIPPED = 'Unshipped';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_SHIPPED = 'Shipped';
+    public const C_UNSHIPPED = 'Unshipped';
 }

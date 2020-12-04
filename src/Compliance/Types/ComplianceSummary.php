@@ -24,8 +24,8 @@ class ComplianceSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Compliance\Types\ComplianceSummaryInfo',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'violationSummaries'
-        ]
+            'elementName' => 'violationSummaries',
+        ],
     ];
 
     /**

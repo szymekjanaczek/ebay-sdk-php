@@ -27,26 +27,26 @@ class BuyerRoleMetricsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PositiveFeedbackLeftCount'
+            'elementName' => 'PositiveFeedbackLeftCount',
         ],
         'NegativeFeedbackLeftCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NegativeFeedbackLeftCount'
+            'elementName' => 'NegativeFeedbackLeftCount',
         ],
         'NeutralFeedbackLeftCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NeutralFeedbackLeftCount'
+            'elementName' => 'NeutralFeedbackLeftCount',
         ],
         'FeedbackLeftPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackLeftPercent'
-        ]
+            'elementName' => 'FeedbackLeftPercent',
+        ],
     ];
 
     /**

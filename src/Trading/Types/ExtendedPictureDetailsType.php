@@ -24,8 +24,8 @@ class ExtendedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\PictureURLsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PictureURLs'
-        ]
+            'elementName' => 'PictureURLs',
+        ],
     ];
 
     /**

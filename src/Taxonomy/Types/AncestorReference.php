@@ -27,26 +27,26 @@ class AncestorReference extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'categoryName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryName'
+            'elementName' => 'categoryName',
         ],
         'categorySubtreeNodeHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categorySubtreeNodeHref'
+            'elementName' => 'categorySubtreeNodeHref',
         ],
         'categoryTreeNodeLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeNodeLevel'
-        ]
+            'elementName' => 'categoryTreeNodeLevel',
+        ],
     ];
 
     /**

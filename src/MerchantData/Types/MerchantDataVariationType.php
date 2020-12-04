@@ -28,32 +28,32 @@ class MerchantDataVariationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'Price' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Price'
+            'elementName' => 'Price',
         ],
         'Quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Quantity'
+            'elementName' => 'Quantity',
         ],
         'VariationSpecifics' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecifics'
+            'elementName' => 'VariationSpecifics',
         ],
         'SellingStatus' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MerchantDataSellingStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingStatus'
-        ]
+            'elementName' => 'SellingStatus',
+        ],
     ];
 
     /**

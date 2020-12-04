@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Metadata\Services;
 
 class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
 {
-    const API_VERSION = 'v1';
+    public const API_VERSION = 'v1';
 
     /**
      * @property array $operations Associative array of operations provided by the service.
@@ -25,9 +25,9 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
             'params' => [
                 'countryCode' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetPoliciesForAutoPartsCompatibility' => [
             'method' => 'GET',
@@ -35,13 +35,13 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestResponse',
             'params' => [
                 'filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'marketplace_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetPoliciesForItemCondition' => [
             'method' => 'GET',
@@ -49,13 +49,13 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestResponse',
             'params' => [
                 'filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'marketplace_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetPoliciesForListingStructures' => [
             'method' => 'GET',
@@ -63,13 +63,13 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestResponse',
             'params' => [
                 'filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'marketplace_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetPoliciesForNegotiatedPrice' => [
             'method' => 'GET',
@@ -77,13 +77,13 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestResponse',
             'params' => [
                 'filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'marketplace_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetPoliciesForReturns' => [
             'method' => 'GET',
@@ -91,14 +91,14 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
             'responseClass' => '\DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestResponse',
             'params' => [
                 'filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'marketplace_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
-        ]
+                    'required' => true,
+                ],
+            ],
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class GetDispositionRuleTriggerHistResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'historyDetail'
+            'elementName' => 'historyDetail',
         ],
         'paginationOutput' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
-        ]
+            'elementName' => 'paginationOutput',
+        ],
     ];
 
     /**

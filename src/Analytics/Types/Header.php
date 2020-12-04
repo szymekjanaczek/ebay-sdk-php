@@ -25,14 +25,14 @@ class Header extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Analytics\Types\Definition',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dimensionKeys'
+            'elementName' => 'dimensionKeys',
         ],
         'metrics' => [
             'type' => 'DTS\eBaySDK\Analytics\Types\Definition',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'metrics'
-        ]
+            'elementName' => 'metrics',
+        ],
     ];
 
     /**

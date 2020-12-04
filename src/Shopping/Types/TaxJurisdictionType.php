@@ -26,20 +26,20 @@ class TaxJurisdictionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'JurisdictionID'
+            'elementName' => 'JurisdictionID',
         ],
         'SalesTaxPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SalesTaxPercent'
+            'elementName' => 'SalesTaxPercent',
         ],
         'ShippingIncludedInTax' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingIncludedInTax'
-        ]
+            'elementName' => 'ShippingIncludedInTax',
+        ],
     ];
 
     /**

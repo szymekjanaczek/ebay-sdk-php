@@ -26,20 +26,20 @@ class AddMemberMessagesAAQToBidderRequestContainerType extends \DTS\eBaySDK\Type
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CorrelationID'
+            'elementName' => 'CorrelationID',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'MemberMessage' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MemberMessage'
-        ]
+            'elementName' => 'MemberMessage',
+        ],
     ];
 
     /**

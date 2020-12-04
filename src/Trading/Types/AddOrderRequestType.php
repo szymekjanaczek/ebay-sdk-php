@@ -24,8 +24,8 @@ class AddOrderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
             'type' => 'DTS\eBaySDK\Trading\Types\OrderType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Order'
-        ]
+            'elementName' => 'Order',
+        ],
     ];
 
     /**

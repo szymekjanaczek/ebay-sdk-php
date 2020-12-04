@@ -24,8 +24,8 @@ class PaymentProfile extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\Selle
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentInfo',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentInfo'
-        ]
+            'elementName' => 'paymentInfo',
+        ],
     ];
 
     /**

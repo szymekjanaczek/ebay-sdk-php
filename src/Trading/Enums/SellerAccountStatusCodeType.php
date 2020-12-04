@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SellerAccountStatusCodeType
 {
-    const C_CURRENT = 'Current';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_ON_HOLD = 'OnHold';
-    const C_PAST_DUE = 'PastDue';
+    public const C_CURRENT = 'Current';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_ON_HOLD = 'OnHold';
+    public const C_PAST_DUE = 'PastDue';
 }

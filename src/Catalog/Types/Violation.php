@@ -27,26 +27,26 @@ class Violation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Catalog\Types\ViolationAspectValues',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectsValues'
+            'elementName' => 'aspectsValues',
         ],
         'productAttribute' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ViolationProductAttribute',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productAttribute'
+            'elementName' => 'productAttribute',
         ],
         'reason' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reason'
+            'elementName' => 'reason',
         ],
         'violationCode' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'violationCode'
-        ]
+            'elementName' => 'violationCode',
+        ],
     ];
 
     /**

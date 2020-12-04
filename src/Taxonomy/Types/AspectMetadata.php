@@ -24,8 +24,8 @@ class AspectMetadata extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Taxonomy\Types\Aspect',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspects'
-        ]
+            'elementName' => 'aspects',
+        ],
     ];
 
     /**

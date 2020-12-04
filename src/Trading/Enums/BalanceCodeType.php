@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class BalanceCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_OTHER = 'Other';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_OTHER = 'Other';
 }

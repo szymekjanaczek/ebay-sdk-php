@@ -33,62 +33,62 @@ class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryURL'
+            'elementName' => 'DeliveryURL',
         ],
         'ReferenceID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReferenceID'
+            'elementName' => 'ReferenceID',
         ],
         'ExpirationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExpirationTime'
+            'elementName' => 'ExpirationTime',
         ],
         'Type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Type'
+            'elementName' => 'Type',
         ],
         'Retries' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Retries'
+            'elementName' => 'Retries',
         ],
         'DeliveryStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryStatus'
+            'elementName' => 'DeliveryStatus',
         ],
         'NextRetryTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NextRetryTime'
+            'elementName' => 'NextRetryTime',
         ],
         'DeliveryTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryTime'
+            'elementName' => 'DeliveryTime',
         ],
         'ErrorMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ErrorMessage'
+            'elementName' => 'ErrorMessage',
         ],
         'DeliveryURLName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryURLName'
-        ]
+            'elementName' => 'DeliveryURLName',
+        ],
     ];
 
     /**

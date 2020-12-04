@@ -26,20 +26,20 @@ class ReviseMyMessagesFoldersRequestType extends \DTS\eBaySDK\Trading\Types\Abst
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Operation'
+            'elementName' => 'Operation',
         ],
         'FolderID' => [
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'FolderName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FolderName'
-        ]
+            'elementName' => 'FolderName',
+        ],
     ];
 
     /**

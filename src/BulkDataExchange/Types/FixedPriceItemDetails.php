@@ -24,8 +24,8 @@ class FixedPriceItemDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeVariations'
-        ]
+            'elementName' => 'includeVariations',
+        ],
     ];
 
     /**

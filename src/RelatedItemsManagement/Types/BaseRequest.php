@@ -24,8 +24,8 @@ class BaseRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'extension'
-        ]
+            'elementName' => 'extension',
+        ],
     ];
 
     /**

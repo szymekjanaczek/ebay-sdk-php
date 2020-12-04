@@ -30,44 +30,44 @@ class GetVeROReportStatusResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
+            'elementName' => 'PaginationResult',
         ],
         'HasMoreItems' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasMoreItems'
+            'elementName' => 'HasMoreItems',
         ],
         'ItemsPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemsPerPage'
+            'elementName' => 'ItemsPerPage',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
+            'elementName' => 'PageNumber',
         ],
         'VeROReportPacketID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VeROReportPacketID'
+            'elementName' => 'VeROReportPacketID',
         ],
         'VeROReportPacketStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VeROReportPacketStatus'
+            'elementName' => 'VeROReportPacketStatus',
         ],
         'ReportedItemDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReportedItemDetails'
-        ]
+            'elementName' => 'ReportedItemDetails',
+        ],
     ];
 
     /**

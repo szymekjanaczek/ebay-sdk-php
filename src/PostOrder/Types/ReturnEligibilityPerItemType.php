@@ -25,14 +25,14 @@ class ReturnEligibilityPerItemType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'eligibilityResultsPerCheckType'
+            'elementName' => 'eligibilityResultsPerCheckType',
         ],
         'returnItem' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnItem'
-        ]
+            'elementName' => 'returnItem',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class DigitalDeliveryUserType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'Email' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Email'
-        ]
+            'elementName' => 'Email',
+        ],
     ];
 
     /**

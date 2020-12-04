@@ -26,20 +26,20 @@ class FindBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleDetailSelector'
+            'elementName' => 'bundleDetailSelector',
         ],
         'findAllByStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'findAllByStatus'
+            'elementName' => 'findAllByStatus',
         ],
         'bundleFilter' => [
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'bundleFilter'
-        ]
+            'elementName' => 'bundleFilter',
+        ],
     ];
 
     /**

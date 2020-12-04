@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Feedback\Services;
 
 class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
 {
-    const API_VERSION = '1.2.2';
+    public const API_VERSION = '1.2.2';
 
     /**
      * @param array $config Configuration option values.

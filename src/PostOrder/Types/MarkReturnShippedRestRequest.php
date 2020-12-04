@@ -24,8 +24,8 @@ class MarkReturnShippedRestRequest extends \DTS\eBaySDK\PostOrder\Types\MarkAsSh
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

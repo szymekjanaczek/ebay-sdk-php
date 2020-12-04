@@ -31,50 +31,50 @@ class ListingTransactionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionTime'
+            'elementName' => 'TransactionTime',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'ItemTitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemTitle'
+            'elementName' => 'ItemTitle',
         ],
         'SerialNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SerialNumber'
+            'elementName' => 'SerialNumber',
         ],
         'Memo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Memo'
+            'elementName' => 'Memo',
         ],
         'GlobalCategoryDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GlobalCategoryDescription'
+            'elementName' => 'GlobalCategoryDescription',
         ],
         'SiteDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SiteDescription'
+            'elementName' => 'SiteDescription',
         ],
         'FeeAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeeAmount'
-        ]
+            'elementName' => 'FeeAmount',
+        ],
     ];
 
     /**

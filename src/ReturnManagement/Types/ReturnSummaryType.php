@@ -31,50 +31,50 @@ class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnId'
+            'elementName' => 'ReturnId',
         ],
         'ReturnType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnType'
+            'elementName' => 'ReturnType',
         ],
         'otherParty' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'otherParty'
+            'elementName' => 'otherParty',
         ],
         'returnRequest' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnRequest'
+            'elementName' => 'returnRequest',
         ],
         'status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'status'
+            'elementName' => 'status',
         ],
         'responseDue' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnResponseDueType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'responseDue'
+            'elementName' => 'responseDue',
         ],
         'creationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'lastModifiedDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastModifiedDate'
-        ]
+            'elementName' => 'lastModifiedDate',
+        ],
     ];
 
     /**

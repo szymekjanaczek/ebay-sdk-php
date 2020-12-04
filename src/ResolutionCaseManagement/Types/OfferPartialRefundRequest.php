@@ -26,20 +26,20 @@ class OfferPartialRefundRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Ty
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'amount' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Money',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'comments' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
-        ]
+            'elementName' => 'comments',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class FindItemsByProductRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
             'type' => 'DTS\eBaySDK\Finding\Types\ProductId',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productId'
+            'elementName' => 'productId',
         ],
         'itemFilter' => [
             'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemFilter'
+            'elementName' => 'itemFilter',
         ],
         'outputSelector' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'outputSelector'
-        ]
+            'elementName' => 'outputSelector',
+        ],
     ];
 
     /**

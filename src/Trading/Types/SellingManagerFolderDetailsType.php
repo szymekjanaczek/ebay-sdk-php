@@ -30,44 +30,44 @@ class SellingManagerFolderDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'ParentFolderID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ParentFolderID'
+            'elementName' => 'ParentFolderID',
         ],
         'FolderLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderLevel'
+            'elementName' => 'FolderLevel',
         ],
         'FolderName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderName'
+            'elementName' => 'FolderName',
         ],
         'FolderComment' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderComment'
+            'elementName' => 'FolderComment',
         ],
         'ChildFolder' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ChildFolder'
+            'elementName' => 'ChildFolder',
         ],
         'CreationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreationTime'
-        ]
+            'elementName' => 'CreationTime',
+        ],
     ];
 
     /**

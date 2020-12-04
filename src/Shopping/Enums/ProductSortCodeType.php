@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Shopping\Enums;
 
 class ProductSortCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_ITEM_COUNT = 'ItemCount';
-    const C_POPULARITY = 'Popularity';
-    const C_RATING = 'Rating';
-    const C_REVIEW_COUNT = 'ReviewCount';
-    const C_TITLE = 'Title';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_ITEM_COUNT = 'ItemCount';
+    public const C_POPULARITY = 'Popularity';
+    public const C_RATING = 'Rating';
+    public const C_REVIEW_COUNT = 'ReviewCount';
+    public const C_TITLE = 'Title';
 }

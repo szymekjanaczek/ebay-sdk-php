@@ -25,14 +25,14 @@ class MerchantDataRequestHeaderType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SiteID'
+            'elementName' => 'SiteID',
         ],
         'Version' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Version'
-        ]
+            'elementName' => 'Version',
+        ],
     ];
 
     /**

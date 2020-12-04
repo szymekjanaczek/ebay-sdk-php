@@ -24,8 +24,8 @@ class ActivateRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\Ba
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recurringJobId'
-        ]
+            'elementName' => 'recurringJobId',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class CreateCancelResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelId'
+            'elementName' => 'cancelId',
         ],
         'orderEligibilityResult' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\OrderEligibilityResult',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'orderEligibilityResult'
-        ]
+            'elementName' => 'orderEligibilityResult',
+        ],
     ];
 
     /**

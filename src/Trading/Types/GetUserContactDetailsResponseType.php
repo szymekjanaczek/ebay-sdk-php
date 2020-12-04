@@ -26,20 +26,20 @@ class GetUserContactDetailsResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'ContactAddress' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ContactAddress'
+            'elementName' => 'ContactAddress',
         ],
         'RegistrationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RegistrationDate'
-        ]
+            'elementName' => 'RegistrationDate',
+        ],
     ];
 
     /**

@@ -28,32 +28,32 @@ class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DiscountName'
+            'elementName' => 'DiscountName',
         ],
         'OrderHandlingAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderHandlingAmount'
+            'elementName' => 'OrderHandlingAmount',
         ],
         'EachAdditionalAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EachAdditionalAmount'
+            'elementName' => 'EachAdditionalAmount',
         ],
         'EachAdditionalOffAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EachAdditionalOffAmount'
+            'elementName' => 'EachAdditionalOffAmount',
         ],
         'EachAdditionalPercentOff' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EachAdditionalPercentOff'
-        ]
+            'elementName' => 'EachAdditionalPercentOff',
+        ],
     ];
 
     /**

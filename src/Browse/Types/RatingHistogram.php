@@ -25,14 +25,14 @@ class RatingHistogram extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'count'
+            'elementName' => 'count',
         ],
         'rating' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rating'
-        ]
+            'elementName' => 'rating',
+        ],
     ];
 
     /**

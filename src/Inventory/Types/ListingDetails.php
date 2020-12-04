@@ -26,20 +26,20 @@ class ListingDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingId'
+            'elementName' => 'listingId',
         ],
         'listingStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingStatus'
+            'elementName' => 'listingStatus',
         ],
         'soldQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'soldQuantity'
-        ]
+            'elementName' => 'soldQuantity',
+        ],
     ];
 
     /**

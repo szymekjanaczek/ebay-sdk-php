@@ -24,8 +24,8 @@ class GetSessionIDRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RuName'
-        ]
+            'elementName' => 'RuName',
+        ],
     ];
 
     /**

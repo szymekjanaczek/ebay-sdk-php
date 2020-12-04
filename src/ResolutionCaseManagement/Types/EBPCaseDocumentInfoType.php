@@ -26,20 +26,20 @@ class EBPCaseDocumentInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
+            'elementName' => 'type',
         ],
         'uploadDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'uploadDate'
-        ]
+            'elementName' => 'uploadDate',
+        ],
     ];
 
     /**

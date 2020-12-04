@@ -25,14 +25,14 @@ class AddToWatchListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WatchListCount'
+            'elementName' => 'WatchListCount',
         ],
         'WatchListMaximum' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WatchListMaximum'
-        ]
+            'elementName' => 'WatchListMaximum',
+        ],
     ];
 
     /**

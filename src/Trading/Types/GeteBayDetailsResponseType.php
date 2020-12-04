@@ -48,152 +48,152 @@ class GeteBayDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
             'type' => 'DTS\eBaySDK\Trading\Types\CountryDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CountryDetails'
+            'elementName' => 'CountryDetails',
         ],
         'CurrencyDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CurrencyDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CurrencyDetails'
+            'elementName' => 'CurrencyDetails',
         ],
         'DispatchTimeMaxDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DispatchTimeMaxDetails'
+            'elementName' => 'DispatchTimeMaxDetails',
         ],
         'PaymentOptionDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PaymentOptionDetails'
+            'elementName' => 'PaymentOptionDetails',
         ],
         'RegionDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\RegionDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'RegionDetails'
+            'elementName' => 'RegionDetails',
         ],
         'ShippingLocationDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingLocationDetails'
+            'elementName' => 'ShippingLocationDetails',
         ],
         'ShippingServiceDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingServiceDetails'
+            'elementName' => 'ShippingServiceDetails',
         ],
         'SiteDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SiteDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SiteDetails'
+            'elementName' => 'SiteDetails',
         ],
         'TaxJurisdiction' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TaxJurisdictionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'TaxJurisdiction'
+            'elementName' => 'TaxJurisdiction',
         ],
         'URLDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\URLDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'URLDetails'
+            'elementName' => 'URLDetails',
         ],
         'TimeZoneDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TimeZoneDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'TimeZoneDetails'
+            'elementName' => 'TimeZoneDetails',
         ],
         'ItemSpecificDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ItemSpecificDetails'
+            'elementName' => 'ItemSpecificDetails',
         ],
         'RegionOfOriginDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'RegionOfOriginDetails'
+            'elementName' => 'RegionOfOriginDetails',
         ],
         'ShippingPackageDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingPackageDetails'
+            'elementName' => 'ShippingPackageDetails',
         ],
         'ShippingCarrierDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingCarrierDetails'
+            'elementName' => 'ShippingCarrierDetails',
         ],
         'ReturnPolicyDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ReturnPolicyDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnPolicyDetails'
+            'elementName' => 'ReturnPolicyDetails',
         ],
         'ListingStartPriceDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ListingStartPriceDetails'
+            'elementName' => 'ListingStartPriceDetails',
         ],
         'BuyerRequirementDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'BuyerRequirementDetails'
+            'elementName' => 'BuyerRequirementDetails',
         ],
         'ListingFeatureDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ListingFeatureDetails'
+            'elementName' => 'ListingFeatureDetails',
         ],
         'VariationDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VariationDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationDetails'
+            'elementName' => 'VariationDetails',
         ],
         'ExcludeShippingLocationDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ExcludeShippingLocationDetails'
+            'elementName' => 'ExcludeShippingLocationDetails',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
+            'elementName' => 'UpdateTime',
         ],
         'RecoupmentPolicyDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'RecoupmentPolicyDetails'
+            'elementName' => 'RecoupmentPolicyDetails',
         ],
         'ShippingCategoryDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingCategoryDetails'
+            'elementName' => 'ShippingCategoryDetails',
         ],
         'ProductDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductDetails'
-        ]
+            'elementName' => 'ProductDetails',
+        ],
     ];
 
     /**

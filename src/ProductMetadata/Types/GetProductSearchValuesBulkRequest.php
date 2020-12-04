@@ -24,8 +24,8 @@ class GetProductSearchValuesBulkRequest extends \DTS\eBaySDK\ProductMetadata\Typ
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'propertyName'
-        ]
+            'elementName' => 'propertyName',
+        ],
     ];
 
     /**

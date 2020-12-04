@@ -45,134 +45,134 @@ class SimpleUserType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'FeedbackPrivate' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackPrivate'
+            'elementName' => 'FeedbackPrivate',
         ],
         'FeedbackRatingStar' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackRatingStar'
+            'elementName' => 'FeedbackRatingStar',
         ],
         'FeedbackScore' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackScore'
+            'elementName' => 'FeedbackScore',
         ],
         'UserAnonymized' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserAnonymized'
+            'elementName' => 'UserAnonymized',
         ],
         'NewUser' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewUser'
+            'elementName' => 'NewUser',
         ],
         'RegistrationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RegistrationDate'
+            'elementName' => 'RegistrationDate',
         ],
         'RegistrationSite' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RegistrationSite'
+            'elementName' => 'RegistrationSite',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'SellerBusinessType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerBusinessType'
+            'elementName' => 'SellerBusinessType',
         ],
         'StoreURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreURL'
+            'elementName' => 'StoreURL',
         ],
         'StoreName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreName'
+            'elementName' => 'StoreName',
         ],
         'SellerItemsURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerItemsURL'
+            'elementName' => 'SellerItemsURL',
         ],
         'AboutMeURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AboutMeURL'
+            'elementName' => 'AboutMeURL',
         ],
         'MyWorldURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MyWorldURL'
+            'elementName' => 'MyWorldURL',
         ],
         'MyWorldSmallImage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MyWorldSmallImage'
+            'elementName' => 'MyWorldSmallImage',
         ],
         'MyWorldLargeImage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MyWorldLargeImage'
+            'elementName' => 'MyWorldLargeImage',
         ],
         'ReviewsAndGuidesURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReviewsAndGuidesURL'
+            'elementName' => 'ReviewsAndGuidesURL',
         ],
         'FeedbackDetailsURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackDetailsURL'
+            'elementName' => 'FeedbackDetailsURL',
         ],
         'PositiveFeedbackPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PositiveFeedbackPercent'
+            'elementName' => 'PositiveFeedbackPercent',
         ],
         'SellerLevel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerLevel'
+            'elementName' => 'SellerLevel',
         ],
         'TopRatedSeller' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TopRatedSeller'
-        ]
+            'elementName' => 'TopRatedSeller',
+        ],
     ];
 
     /**

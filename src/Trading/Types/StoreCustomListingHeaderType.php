@@ -29,38 +29,38 @@ class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisplayType'
+            'elementName' => 'DisplayType',
         ],
         'Logo' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Logo'
+            'elementName' => 'Logo',
         ],
         'SearchBox' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SearchBox'
+            'elementName' => 'SearchBox',
         ],
         'LinkToInclude' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'LinkToInclude'
+            'elementName' => 'LinkToInclude',
         ],
         'AddToFavoriteStores' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AddToFavoriteStores'
+            'elementName' => 'AddToFavoriteStores',
         ],
         'SignUpForStoreNewsletter' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SignUpForStoreNewsletter'
-        ]
+            'elementName' => 'SignUpForStoreNewsletter',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class OrderItemDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\OrderLineItemType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'OrderLineItem'
-        ]
+            'elementName' => 'OrderLineItem',
+        ],
     ];
 
     /**

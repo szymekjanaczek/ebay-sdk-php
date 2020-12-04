@@ -36,80 +36,80 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayPaymentStatus'
+            'elementName' => 'eBayPaymentStatus',
         ],
         'CheckoutStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CheckoutStatus'
+            'elementName' => 'CheckoutStatus',
         ],
         'LastTimeModified' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastTimeModified'
+            'elementName' => 'LastTimeModified',
         ],
         'PaymentMethodUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentMethodUsed'
+            'elementName' => 'PaymentMethodUsed',
         ],
         'CompleteStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CompleteStatus'
+            'elementName' => 'CompleteStatus',
         ],
         'BuyerSelectedShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerSelectedShipping'
+            'elementName' => 'BuyerSelectedShipping',
         ],
         'PaymentHoldStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentHoldStatus'
+            'elementName' => 'PaymentHoldStatus',
         ],
         'IntegratedMerchantCreditCardEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IntegratedMerchantCreditCardEnabled'
+            'elementName' => 'IntegratedMerchantCreditCardEnabled',
         ],
         'InquiryStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InquiryStatus'
+            'elementName' => 'InquiryStatus',
         ],
         'ReturnStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnStatus'
+            'elementName' => 'ReturnStatus',
         ],
         'PaymentInstrument' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentInstrument'
+            'elementName' => 'PaymentInstrument',
         ],
         'DigitalStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DigitalStatus'
+            'elementName' => 'DigitalStatus',
         ],
         'CancelStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CancelStatus'
-        ]
+            'elementName' => 'CancelStatus',
+        ],
     ];
 
     /**

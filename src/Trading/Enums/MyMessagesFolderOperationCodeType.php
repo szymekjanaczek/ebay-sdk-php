@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class MyMessagesFolderOperationCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DISPLAY = 'Display';
-    const C_REMOVE = 'Remove';
-    const C_RENAME = 'Rename';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DISPLAY = 'Display';
+    public const C_REMOVE = 'Remove';
+    public const C_RENAME = 'Rename';
 }

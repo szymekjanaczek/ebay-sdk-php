@@ -24,8 +24,8 @@ class DisableInventoryLocationRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'merchantLocationKey'
-        ]
+            'elementName' => 'merchantLocationKey',
+        ],
     ];
 
     /**

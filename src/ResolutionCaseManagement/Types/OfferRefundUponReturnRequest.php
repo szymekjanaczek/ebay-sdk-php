@@ -27,26 +27,26 @@ class OfferRefundUponReturnRequest extends \DTS\eBaySDK\ResolutionCaseManagement
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'returnAddress' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnAddress'
+            'elementName' => 'returnAddress',
         ],
         'returnMerchandiseAuthorization' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnMerchandiseAuthorization'
+            'elementName' => 'returnMerchandiseAuthorization',
         ],
         'additionalReturnInstructions' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'additionalReturnInstructions'
-        ]
+            'elementName' => 'additionalReturnInstructions',
+        ],
     ];
 
     /**

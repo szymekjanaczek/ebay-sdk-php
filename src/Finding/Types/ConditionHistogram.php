@@ -25,14 +25,14 @@ class ConditionHistogram extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Finding\Types\Condition',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'condition'
+            'elementName' => 'condition',
         ],
         'count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'count'
-        ]
+            'elementName' => 'count',
+        ],
     ];
 
     /**

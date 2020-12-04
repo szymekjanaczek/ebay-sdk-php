@@ -25,14 +25,14 @@ class ReturnResponseDueType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'party'
+            'elementName' => 'party',
         ],
         'respondByDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'respondByDate'
-        ]
+            'elementName' => 'respondByDate',
+        ],
     ];
 
     /**

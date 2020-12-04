@@ -24,8 +24,8 @@ class GetACategoryTreeRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category_tree_id'
-        ]
+            'elementName' => 'category_tree_id',
+        ],
     ];
 
     /**

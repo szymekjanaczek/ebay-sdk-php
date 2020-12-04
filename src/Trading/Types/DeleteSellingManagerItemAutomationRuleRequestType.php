@@ -26,20 +26,20 @@ class DeleteSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Tra
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'DeleteAutomatedRelistingRule' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeleteAutomatedRelistingRule'
+            'elementName' => 'DeleteAutomatedRelistingRule',
         ],
         'DeleteAutomatedSecondChanceOfferRule' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeleteAutomatedSecondChanceOfferRule'
-        ]
+            'elementName' => 'DeleteAutomatedSecondChanceOfferRule',
+        ],
     ];
 
     /**

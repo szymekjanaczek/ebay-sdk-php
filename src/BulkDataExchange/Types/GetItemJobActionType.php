@@ -25,14 +25,14 @@ class GetItemJobActionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'action'
+            'elementName' => 'action',
         ],
         'jobId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobId'
-        ]
+            'elementName' => 'jobId',
+        ],
     ];
 
     /**

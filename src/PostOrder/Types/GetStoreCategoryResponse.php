@@ -24,8 +24,8 @@ class GetStoreCategoryResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\StoreCategoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categories'
-        ]
+            'elementName' => 'categories',
+        ],
     ];
 
     /**

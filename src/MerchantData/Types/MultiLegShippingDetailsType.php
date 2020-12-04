@@ -24,8 +24,8 @@ class MultiLegShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\MultiLegShipmentType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerShipmentToLogisticsProvider'
-        ]
+            'elementName' => 'SellerShipmentToLogisticsProvider',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class GetSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\T
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'MaxDepth' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxDepth'
+            'elementName' => 'MaxDepth',
         ],
         'FullRecursion' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FullRecursion'
-        ]
+            'elementName' => 'FullRecursion',
+        ],
     ];
 
     /**

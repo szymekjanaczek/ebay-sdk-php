@@ -25,14 +25,14 @@ class Refinement extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Catalog\Types\AspectDistribution',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectDistributions'
+            'elementName' => 'aspectDistributions',
         ],
         'dominantCategoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dominantCategoryId'
-        ]
+            'elementName' => 'dominantCategoryId',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GetDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeID'
-        ]
+            'elementName' => 'DisputeID',
+        ],
     ];
 
     /**

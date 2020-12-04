@@ -24,8 +24,8 @@ class SetShipmentTrackingInfoResponseType extends \DTS\eBaySDK\MerchantData\Type
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
-        ]
+            'elementName' => 'OrderLineItemID',
+        ],
     ];
 
     /**

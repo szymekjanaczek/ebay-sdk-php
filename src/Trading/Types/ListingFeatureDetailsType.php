@@ -33,62 +33,62 @@ class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BoldTitle'
+            'elementName' => 'BoldTitle',
         ],
         'Border' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Border'
+            'elementName' => 'Border',
         ],
         'Highlight' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Highlight'
+            'elementName' => 'Highlight',
         ],
         'GiftIcon' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GiftIcon'
+            'elementName' => 'GiftIcon',
         ],
         'HomePageFeatured' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HomePageFeatured'
+            'elementName' => 'HomePageFeatured',
         ],
         'FeaturedFirst' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeaturedFirst'
+            'elementName' => 'FeaturedFirst',
         ],
         'FeaturedPlus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeaturedPlus'
+            'elementName' => 'FeaturedPlus',
         ],
         'ProPack' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProPack'
+            'elementName' => 'ProPack',
         ],
         'DetailVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailVersion'
+            'elementName' => 'DetailVersion',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
-        ]
+            'elementName' => 'UpdateTime',
+        ],
     ];
 
     /**

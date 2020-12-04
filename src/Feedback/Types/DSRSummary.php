@@ -31,50 +31,50 @@ class DSRSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DSRType'
+            'elementName' => 'DSRType',
         ],
         'DSRAverage' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DSRAverage'
+            'elementName' => 'DSRAverage',
         ],
         'totalRatingCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalRatingCount'
+            'elementName' => 'totalRatingCount',
         ],
         'rating1Count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rating1Count'
+            'elementName' => 'rating1Count',
         ],
         'rating2Count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rating2Count'
+            'elementName' => 'rating2Count',
         ],
         'rating3Count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rating3Count'
+            'elementName' => 'rating3Count',
         ],
         'rating4Count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rating4Count'
+            'elementName' => 'rating4Count',
         ],
         'rating5Count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rating5Count'
-        ]
+            'elementName' => 'rating5Count',
+        ],
     ];
 
     /**

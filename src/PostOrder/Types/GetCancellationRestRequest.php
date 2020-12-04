@@ -25,14 +25,14 @@ class GetCancellationRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelId'
+            'elementName' => 'cancelId',
         ],
         'fieldgroups' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fieldgroups'
-        ]
+            'elementName' => 'fieldgroups',
+        ],
     ];
 
     /**

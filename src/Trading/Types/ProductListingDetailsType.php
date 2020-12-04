@@ -36,80 +36,80 @@ class ProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeStockPhotoURL'
+            'elementName' => 'IncludeStockPhotoURL',
         ],
         'UseStockPhotoURLAsGallery' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UseStockPhotoURLAsGallery'
+            'elementName' => 'UseStockPhotoURLAsGallery',
         ],
         'StockPhotoURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StockPhotoURL'
+            'elementName' => 'StockPhotoURL',
         ],
         'Copyright' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Copyright'
+            'elementName' => 'Copyright',
         ],
         'ProductReferenceID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductReferenceID'
+            'elementName' => 'ProductReferenceID',
         ],
         'ReturnSearchResultOnDuplicates' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnSearchResultOnDuplicates'
+            'elementName' => 'ReturnSearchResultOnDuplicates',
         ],
         'ISBN' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ISBN'
+            'elementName' => 'ISBN',
         ],
         'UPC' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UPC'
+            'elementName' => 'UPC',
         ],
         'EAN' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EAN'
+            'elementName' => 'EAN',
         ],
         'BrandMPN' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BrandMPNType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BrandMPN'
+            'elementName' => 'BrandMPN',
         ],
         'TicketListingDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TicketListingDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TicketListingDetails'
+            'elementName' => 'TicketListingDetails',
         ],
         'UseFirstProduct' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UseFirstProduct'
+            'elementName' => 'UseFirstProduct',
         ],
         'IncludeeBayProductDetails' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeeBayProductDetails'
-        ]
+            'elementName' => 'IncludeeBayProductDetails',
+        ],
     ];
 
     /**

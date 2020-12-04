@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
@@ -15,8 +16,8 @@ class Data extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\FileTransfer\Types\XopInclude',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'xop:Include'
-        ]
+            'elementName' => 'xop:Include',
+        ],
     ];
 
     /**

@@ -27,26 +27,26 @@ class InitiateShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrier'
+            'elementName' => 'carrier',
         ],
         'labelData' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelData'
+            'elementName' => 'labelData',
         ],
         'labelURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelURL'
+            'elementName' => 'labelURL',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
-        ]
+            'elementName' => 'trackingNumber',
+        ],
     ];
 
     /**

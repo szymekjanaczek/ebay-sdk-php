@@ -24,8 +24,8 @@ class CategoryArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Category'
-        ]
+            'elementName' => 'Category',
+        ],
     ];
 
     /**

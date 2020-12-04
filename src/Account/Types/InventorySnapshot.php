@@ -30,44 +30,44 @@ class InventorySnapshot extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cumulativeInventoryValue'
+            'elementName' => 'cumulativeInventoryValue',
         ],
         'cumulativeQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cumulativeQuantity'
+            'elementName' => 'cumulativeQuantity',
         ],
         'lookbackPeriod' => [
             'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lookbackPeriod'
+            'elementName' => 'lookbackPeriod',
         ],
         'maxAvailableQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxAvailableQuantity'
+            'elementName' => 'maxAvailableQuantity',
         ],
         'maxInventoryValue' => [
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxInventoryValue'
+            'elementName' => 'maxInventoryValue',
         ],
         'minAvailableQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minAvailableQuantity'
+            'elementName' => 'minAvailableQuantity',
         ],
         'minInventoryValue' => [
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minInventoryValue'
-        ]
+            'elementName' => 'minInventoryValue',
+        ],
     ];
 
     /**

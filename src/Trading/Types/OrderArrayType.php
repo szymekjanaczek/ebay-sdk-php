@@ -24,8 +24,8 @@ class OrderArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\OrderType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Order'
-        ]
+            'elementName' => 'Order',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GetMultipleItemsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractR
             'type' => 'DTS\eBaySDK\Shopping\Types\SimpleItemType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

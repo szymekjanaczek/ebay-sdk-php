@@ -30,44 +30,44 @@ class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SummaryDays'
+            'elementName' => 'SummaryDays',
         ],
         'TotalBids' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalBids'
+            'elementName' => 'TotalBids',
         ],
         'BidActivityWithSeller' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidActivityWithSeller'
+            'elementName' => 'BidActivityWithSeller',
         ],
         'BidsToUniqueSellers' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidsToUniqueSellers'
+            'elementName' => 'BidsToUniqueSellers',
         ],
         'BidsToUniqueCategories' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidsToUniqueCategories'
+            'elementName' => 'BidsToUniqueCategories',
         ],
         'BidRetractions' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidRetractions'
+            'elementName' => 'BidRetractions',
         ],
         'ItemBidDetails' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ItemBidDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ItemBidDetails'
-        ]
+            'elementName' => 'ItemBidDetails',
+        ],
     ];
 
     /**

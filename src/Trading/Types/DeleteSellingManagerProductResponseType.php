@@ -24,8 +24,8 @@ class DeleteSellingManagerProductResponseType extends \DTS\eBaySDK\Trading\Types
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeletedSellingManagerProductDetails'
-        ]
+            'elementName' => 'DeletedSellingManagerProductDetails',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class StartDownloadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseSe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'downloadJobType'
+            'elementName' => 'downloadJobType',
         ],
         'UUID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UUID'
+            'elementName' => 'UUID',
         ],
         'downloadRequestFilter' => [
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'downloadRequestFilter'
-        ]
+            'elementName' => 'downloadRequestFilter',
+        ],
     ];
 
     /**

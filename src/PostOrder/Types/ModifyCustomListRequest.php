@@ -26,20 +26,20 @@ class ModifyCustomListRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'customListDetail'
+            'elementName' => 'customListDetail',
         ],
         'forceDelete' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'forceDelete'
+            'elementName' => 'forceDelete',
         ],
         'operation' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListModificationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'operation'
-        ]
+            'elementName' => 'operation',
+        ],
     ];
 
     /**

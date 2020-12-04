@@ -25,14 +25,14 @@ class DeleteAdByIDRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ad_id'
+            'elementName' => 'ad_id',
         ],
         'campaign_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_id'
-        ]
+            'elementName' => 'campaign_id',
+        ],
     ];
 
     /**

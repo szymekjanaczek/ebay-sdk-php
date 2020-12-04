@@ -25,14 +25,14 @@ class CreateReturnRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'draftId'
+            'elementName' => 'draftId',
         ],
         'returnRequest' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnRequestType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnRequest'
-        ]
+            'elementName' => 'returnRequest',
+        ],
     ];
 
     /**

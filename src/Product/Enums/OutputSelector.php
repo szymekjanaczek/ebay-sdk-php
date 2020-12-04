@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Product\Enums;
 
 class OutputSelector
 {
-    const C_PRODUCT_SUBMISSION = 'ProductSubmission';
+    public const C_PRODUCT_SUBMISSION = 'ProductSubmission';
 }

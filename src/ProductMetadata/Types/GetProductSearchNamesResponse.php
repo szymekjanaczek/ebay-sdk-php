@@ -25,14 +25,14 @@ class GetProductSearchNamesResponse extends \DTS\eBaySDK\ProductMetadata\Types\B
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'properties' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\Properties',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'properties'
-        ]
+            'elementName' => 'properties',
+        ],
     ];
 
     /**

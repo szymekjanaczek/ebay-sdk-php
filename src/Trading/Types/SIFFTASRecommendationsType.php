@@ -24,8 +24,8 @@ class SIFFTASRecommendationsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\AttributeSetArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AttributeSetArray'
-        ]
+            'elementName' => 'AttributeSetArray',
+        ],
     ];
 
     /**

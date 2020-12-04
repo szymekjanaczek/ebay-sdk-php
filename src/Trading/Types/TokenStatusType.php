@@ -27,26 +27,26 @@ class TokenStatusType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'EIASToken' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EIASToken'
+            'elementName' => 'EIASToken',
         ],
         'ExpirationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExpirationTime'
+            'elementName' => 'ExpirationTime',
         ],
         'RevocationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RevocationTime'
-        ]
+            'elementName' => 'RevocationTime',
+        ],
     ];
 
     /**

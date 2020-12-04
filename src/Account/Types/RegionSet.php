@@ -25,14 +25,14 @@ class RegionSet extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\Region',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'regionExcluded'
+            'elementName' => 'regionExcluded',
         ],
         'regionIncluded' => [
             'type' => 'DTS\eBaySDK\Account\Types\Region',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'regionIncluded'
-        ]
+            'elementName' => 'regionIncluded',
+        ],
     ];
 
     /**

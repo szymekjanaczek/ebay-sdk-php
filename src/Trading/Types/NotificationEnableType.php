@@ -25,14 +25,14 @@ class NotificationEnableType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EventType'
+            'elementName' => 'EventType',
         ],
         'EventEnable' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EventEnable'
-        ]
+            'elementName' => 'EventEnable',
+        ],
     ];
 
     /**

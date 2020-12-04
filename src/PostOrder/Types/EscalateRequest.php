@@ -25,14 +25,14 @@ class EscalateRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
+            'elementName' => 'comments',
         ],
         'reason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reason'
-        ]
+            'elementName' => 'reason',
+        ],
     ];
 
     /**

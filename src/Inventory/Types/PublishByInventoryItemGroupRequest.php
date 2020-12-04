@@ -25,14 +25,14 @@ class PublishByInventoryItemGroupRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryItemGroupKey'
+            'elementName' => 'inventoryItemGroupKey',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
-        ]
+            'elementName' => 'marketplaceId',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class EscalationInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerEscalationEligibilityInfo'
+            'elementName' => 'buyerEscalationEligibilityInfo',
         ],
         'caseId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'sellerEscalationEligibilityInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerEscalationEligibilityInfo'
-        ]
+            'elementName' => 'sellerEscalationEligibilityInfo',
+        ],
     ];
 
     /**

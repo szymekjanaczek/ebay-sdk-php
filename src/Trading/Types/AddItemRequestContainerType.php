@@ -25,14 +25,14 @@ class AddItemRequestContainerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
+            'elementName' => 'Item',
         ],
         'MessageID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageID'
-        ]
+            'elementName' => 'MessageID',
+        ],
     ];
 
     /**

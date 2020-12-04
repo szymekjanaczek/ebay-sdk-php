@@ -25,14 +25,14 @@ class ItemCondition extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'conditionDescription'
+            'elementName' => 'conditionDescription',
         ],
         'conditionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'conditionId'
-        ]
+            'elementName' => 'conditionId',
+        ],
     ];
 
     /**

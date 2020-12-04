@@ -24,8 +24,8 @@ class CategoryHistogramContainer extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogram',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryHistogram'
-        ]
+            'elementName' => 'categoryHistogram',
+        ],
     ];
 
     /**

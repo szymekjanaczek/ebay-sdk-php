@@ -39,98 +39,98 @@ class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'claimAmount'
+            'elementName' => 'claimAmount',
         ],
         'extTransactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'extTransactionId'
+            'elementName' => 'extTransactionId',
         ],
         'initiator' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'initiator'
+            'elementName' => 'initiator',
         ],
         'inquiryDetails' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\InquiryDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryDetails'
+            'elementName' => 'inquiryDetails',
         ],
         'inquiryHistoryDetails' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryHistoryDetails'
+            'elementName' => 'inquiryHistoryDetails',
         ],
         'inquiryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryId'
+            'elementName' => 'inquiryId',
         ],
         'inquiryQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryQuantity'
+            'elementName' => 'inquiryQuantity',
         ],
         'itemDetails' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ItemDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemDetails'
+            'elementName' => 'itemDetails',
         ],
         'itemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'returnDetails' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddress',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnDetails'
+            'elementName' => 'returnDetails',
         ],
         'sellerMakeItRightByDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerMakeItRightByDate'
+            'elementName' => 'sellerMakeItRightByDate',
         ],
         'shippingCost' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCost'
+            'elementName' => 'shippingCost',
         ],
         'state' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'state'
+            'elementName' => 'state',
         ],
         'status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'status'
+            'elementName' => 'status',
         ],
         'transactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionId'
+            'elementName' => 'transactionId',
         ],
         'viewPPTrasanctionUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'viewPPTrasanctionUrl'
-        ]
+            'elementName' => 'viewPPTrasanctionUrl',
+        ],
     ];
 
     /**

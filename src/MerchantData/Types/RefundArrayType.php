@@ -24,8 +24,8 @@ class RefundArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\RefundType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Refund'
-        ]
+            'elementName' => 'Refund',
+        ],
     ];
 
     /**

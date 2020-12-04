@@ -25,14 +25,14 @@ class ReturnPolicyInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'optedForRMA'
+            'elementName' => 'optedForRMA',
         ],
         'optedForMultipleReturnAddress' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'optedForMultipleReturnAddress'
-        ]
+            'elementName' => 'optedForMultipleReturnAddress',
+        ],
     ];
 
     /**

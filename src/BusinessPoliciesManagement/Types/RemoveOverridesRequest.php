@@ -24,8 +24,8 @@ class RemoveOverridesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Typ
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'profileId'
-        ]
+            'elementName' => 'profileId',
+        ],
     ];
 
     /**

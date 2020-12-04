@@ -30,44 +30,44 @@ class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\A
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Sort'
+            'elementName' => 'Sort',
         ],
         'FolderID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'SortOrder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SortOrder'
+            'elementName' => 'SortOrder',
         ],
         'Search' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Search'
+            'elementName' => 'Search',
         ],
         'StoreCategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategoryID'
+            'elementName' => 'StoreCategoryID',
         ],
         'Filter' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Filter'
-        ]
+            'elementName' => 'Filter',
+        ],
     ];
 
     /**

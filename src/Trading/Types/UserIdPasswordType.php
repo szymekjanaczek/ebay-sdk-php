@@ -28,32 +28,32 @@ class UserIdPasswordType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AppId'
+            'elementName' => 'AppId',
         ],
         'DevId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DevId'
+            'elementName' => 'DevId',
         ],
         'AuthCert' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AuthCert'
+            'elementName' => 'AuthCert',
         ],
         'Username' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Username'
+            'elementName' => 'Username',
         ],
         'Password' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Password'
-        ]
+            'elementName' => 'Password',
+        ],
     ];
 
     /**

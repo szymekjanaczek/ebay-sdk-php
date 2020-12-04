@@ -26,20 +26,20 @@ class GetAllBiddersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'CallMode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CallMode'
+            'elementName' => 'CallMode',
         ],
         'IncludeBiddingSummary' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeBiddingSummary'
-        ]
+            'elementName' => 'IncludeBiddingSummary',
+        ],
     ];
 
     /**

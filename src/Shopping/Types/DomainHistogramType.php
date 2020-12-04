@@ -24,8 +24,8 @@ class DomainHistogramType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Shopping\Types\HistogramEntryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Domain'
-        ]
+            'elementName' => 'Domain',
+        ],
     ];
 
     /**

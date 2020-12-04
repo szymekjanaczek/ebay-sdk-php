@@ -27,26 +27,26 @@ class FindItemsRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
             'type' => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productID'
+            'elementName' => 'productID',
         ],
         'paginationInput' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\PaginationInputType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
+            'elementName' => 'paginationInput',
         ],
         'itemFilter' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemFilter'
+            'elementName' => 'itemFilter',
         ],
         'sortBy' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\SortByType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortBy'
-        ]
+            'elementName' => 'sortBy',
+        ],
     ];
 
     /**

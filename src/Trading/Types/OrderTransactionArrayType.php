@@ -24,8 +24,8 @@ class OrderTransactionArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\OrderTransactionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'OrderTransaction'
-        ]
+            'elementName' => 'OrderTransaction',
+        ],
     ];
 
     /**

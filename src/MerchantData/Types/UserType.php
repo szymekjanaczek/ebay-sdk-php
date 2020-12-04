@@ -65,254 +65,254 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AboutMePage'
+            'elementName' => 'AboutMePage',
         ],
         'EIASToken' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EIASToken'
+            'elementName' => 'EIASToken',
         ],
         'Email' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Email'
+            'elementName' => 'Email',
         ],
         'FeedbackScore' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackScore'
+            'elementName' => 'FeedbackScore',
         ],
         'UniqueNegativeFeedbackCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UniqueNegativeFeedbackCount'
+            'elementName' => 'UniqueNegativeFeedbackCount',
         ],
         'UniquePositiveFeedbackCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UniquePositiveFeedbackCount'
+            'elementName' => 'UniquePositiveFeedbackCount',
         ],
         'PositiveFeedbackPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PositiveFeedbackPercent'
+            'elementName' => 'PositiveFeedbackPercent',
         ],
         'FeedbackPrivate' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackPrivate'
+            'elementName' => 'FeedbackPrivate',
         ],
         'FeedbackRatingStar' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackRatingStar'
+            'elementName' => 'FeedbackRatingStar',
         ],
         'IDVerified' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IDVerified'
+            'elementName' => 'IDVerified',
         ],
         'eBayGoodStanding' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayGoodStanding'
+            'elementName' => 'eBayGoodStanding',
         ],
         'NewUser' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewUser'
+            'elementName' => 'NewUser',
         ],
         'RegistrationAddress' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RegistrationAddress'
+            'elementName' => 'RegistrationAddress',
         ],
         'RegistrationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RegistrationDate'
+            'elementName' => 'RegistrationDate',
         ],
         'Site' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Site'
+            'elementName' => 'Site',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'UserID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'UserIDChanged' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserIDChanged'
+            'elementName' => 'UserIDChanged',
         ],
         'UserIDLastChanged' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserIDLastChanged'
+            'elementName' => 'UserIDLastChanged',
         ],
         'VATStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VATStatus'
+            'elementName' => 'VATStatus',
         ],
         'BuyerInfo' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\BuyerType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerInfo'
+            'elementName' => 'BuyerInfo',
         ],
         'SellerInfo' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\SellerType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerInfo'
+            'elementName' => 'SellerInfo',
         ],
         'BusinessRole' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BusinessRole'
+            'elementName' => 'BusinessRole',
         ],
         'PayPalAccountLevel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalAccountLevel'
+            'elementName' => 'PayPalAccountLevel',
         ],
         'PayPalAccountType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalAccountType'
+            'elementName' => 'PayPalAccountType',
         ],
         'PayPalAccountStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalAccountStatus'
+            'elementName' => 'PayPalAccountStatus',
         ],
         'UserSubscription' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'UserSubscription'
+            'elementName' => 'UserSubscription',
         ],
         'SkypeID' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SkypeID'
+            'elementName' => 'SkypeID',
         ],
         'eBayWikiReadOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayWikiReadOnly'
+            'elementName' => 'eBayWikiReadOnly',
         ],
         'TUVLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TUVLevel'
+            'elementName' => 'TUVLevel',
         ],
         'VATID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VATID'
+            'elementName' => 'VATID',
         ],
         'MotorsDealer' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MotorsDealer'
+            'elementName' => 'MotorsDealer',
         ],
         'BiddingSummary' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\BiddingSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BiddingSummary'
+            'elementName' => 'BiddingSummary',
         ],
         'UserAnonymized' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserAnonymized'
+            'elementName' => 'UserAnonymized',
         ],
         'UniqueNeutralFeedbackCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UniqueNeutralFeedbackCount'
+            'elementName' => 'UniqueNeutralFeedbackCount',
         ],
         'EnterpriseSeller' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EnterpriseSeller'
+            'elementName' => 'EnterpriseSeller',
         ],
         'BillingEmail' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BillingEmail'
+            'elementName' => 'BillingEmail',
         ],
         'QualifiesForSelling' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QualifiesForSelling'
+            'elementName' => 'QualifiesForSelling',
         ],
         'StaticAlias' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StaticAlias'
+            'elementName' => 'StaticAlias',
         ],
         'ShippingAddress' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingAddress'
+            'elementName' => 'ShippingAddress',
         ],
         'UserFirstName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserFirstName'
+            'elementName' => 'UserFirstName',
         ],
         'UserLastName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserLastName'
-        ]
+            'elementName' => 'UserLastName',
+        ],
     ];
 
     /**

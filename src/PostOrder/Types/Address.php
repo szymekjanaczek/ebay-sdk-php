@@ -36,80 +36,80 @@ class Address extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'addressLine1'
+            'elementName' => 'addressLine1',
         ],
         'addressLine2' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'addressLine2'
+            'elementName' => 'addressLine2',
         ],
         'addressType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'addressType'
+            'elementName' => 'addressType',
         ],
         'city' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'city'
+            'elementName' => 'city',
         ],
         'country' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'country'
+            'elementName' => 'country',
         ],
         'county' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'county'
+            'elementName' => 'county',
         ],
         'isTransliterated' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isTransliterated'
+            'elementName' => 'isTransliterated',
         ],
         'nationalRegion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'nationalRegion'
+            'elementName' => 'nationalRegion',
         ],
         'postalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'postalCode'
+            'elementName' => 'postalCode',
         ],
         'script' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'script'
+            'elementName' => 'script',
         ],
         'stateOrProvince' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'stateOrProvince'
+            'elementName' => 'stateOrProvince',
         ],
         'transliteratedFromScript' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transliteratedFromScript'
+            'elementName' => 'transliteratedFromScript',
         ],
         'worldRegion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'worldRegion'
-        ]
+            'elementName' => 'worldRegion',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class StoreLogoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogoID'
+            'elementName' => 'LogoID',
         ],
         'Name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'URL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'URL'
-        ]
+            'elementName' => 'URL',
+        ],
     ];
 
     /**

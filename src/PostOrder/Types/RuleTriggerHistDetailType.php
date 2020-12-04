@@ -26,20 +26,20 @@ class RuleTriggerHistDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'returnDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Java:XMLGregorianCalendar',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnDate'
+            'elementName' => 'returnDate',
         ],
         'returnId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

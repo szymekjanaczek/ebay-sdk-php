@@ -31,50 +31,50 @@ class InquiryDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\AppealDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'appealDetails'
+            'elementName' => 'appealDetails',
         ],
         'creationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'escalationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'escalationDate'
+            'elementName' => 'escalationDate',
         ],
         'expirationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'expirationDate'
+            'elementName' => 'expirationDate',
         ],
         'lastBuyerRespDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastBuyerRespDate'
+            'elementName' => 'lastBuyerRespDate',
         ],
         'refundAmounts' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RefundAmounts',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundAmounts'
+            'elementName' => 'refundAmounts',
         ],
         'refundDeadlineDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundDeadlineDate'
+            'elementName' => 'refundDeadlineDate',
         ],
         'totalAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalAmount'
-        ]
+            'elementName' => 'totalAmount',
+        ],
     ];
 
     /**

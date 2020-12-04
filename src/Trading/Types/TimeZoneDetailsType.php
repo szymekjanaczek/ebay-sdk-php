@@ -31,50 +31,50 @@ class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TimeZoneID'
+            'elementName' => 'TimeZoneID',
         ],
         'StandardLabel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StandardLabel'
+            'elementName' => 'StandardLabel',
         ],
         'StandardOffset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StandardOffset'
+            'elementName' => 'StandardOffset',
         ],
         'DaylightSavingsLabel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DaylightSavingsLabel'
+            'elementName' => 'DaylightSavingsLabel',
         ],
         'DaylightSavingsOffset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DaylightSavingsOffset'
+            'elementName' => 'DaylightSavingsOffset',
         ],
         'DaylightSavingsInEffect' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DaylightSavingsInEffect'
+            'elementName' => 'DaylightSavingsInEffect',
         ],
         'DetailVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailVersion'
+            'elementName' => 'DetailVersion',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
-        ]
+            'elementName' => 'UpdateTime',
+        ],
     ];
 
     /**

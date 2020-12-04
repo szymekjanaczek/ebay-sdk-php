@@ -26,20 +26,20 @@ class IssueRefundRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnId'
+            'elementName' => 'ReturnId',
         ],
         'refundDetail' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\RefundDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundDetail'
+            'elementName' => 'refundDetail',
         ],
         'comments' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
-        ]
+            'elementName' => 'comments',
+        ],
     ];
 
     /**

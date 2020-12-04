@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class OrderTypeEnum
 {
-    const C_EBAY_NOW = 'EBAY_NOW';
-    const C_IN_STORE_PICKUP = 'IN_STORE_PICKUP';
-    const C_ONLINE = 'ONLINE';
-    const C_OTHER = 'OTHER';
+    public const C_EBAY_NOW = 'EBAY_NOW';
+    public const C_IN_STORE_PICKUP = 'IN_STORE_PICKUP';
+    public const C_ONLINE = 'ONLINE';
+    public const C_OTHER = 'OTHER';
 }

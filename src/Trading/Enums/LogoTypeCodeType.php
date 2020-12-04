@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class LogoTypeCodeType
 {
-    const C_CUSTOM = 'Custom';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_STORE = 'Store';
-    const C_WINNING_BIDDER_NOTICE = 'WinningBidderNotice';
+    public const C_CUSTOM = 'Custom';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_STORE = 'Store';
+    public const C_WINNING_BIDDER_NOTICE = 'WinningBidderNotice';
 }

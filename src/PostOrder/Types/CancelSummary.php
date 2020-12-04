@@ -39,98 +39,98 @@ class CancelSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerResponseDueDate'
+            'elementName' => 'buyerResponseDueDate',
         ],
         'cancelCloseDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelCloseDate'
+            'elementName' => 'cancelCloseDate',
         ],
         'cancelCloseReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelCloseReason'
+            'elementName' => 'cancelCloseReason',
         ],
         'cancelId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelId'
+            'elementName' => 'cancelId',
         ],
         'cancelReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelReason'
+            'elementName' => 'cancelReason',
         ],
         'cancelRequestDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelRequestDate'
+            'elementName' => 'cancelRequestDate',
         ],
         'legacyOrderId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacyOrderId'
+            'elementName' => 'legacyOrderId',
         ],
         'lineItems' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'lineItems'
+            'elementName' => 'lineItems',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'paymentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentStatus'
+            'elementName' => 'paymentStatus',
         ],
         'requestorType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'requestorType'
+            'elementName' => 'requestorType',
         ],
         'requestRefundAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'requestRefundAmount'
+            'elementName' => 'requestRefundAmount',
         ],
         'sellerResponseDueDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerResponseDueDate'
+            'elementName' => 'sellerResponseDueDate',
         ],
         'shipmentDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipmentDate'
+            'elementName' => 'shipmentDate',
         ],
         'cancelState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelState'
+            'elementName' => 'cancelState',
         ],
         'cancelStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelStatus'
-        ]
+            'elementName' => 'cancelStatus',
+        ],
     ];
 
     /**

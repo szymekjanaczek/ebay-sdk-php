@@ -24,8 +24,8 @@ class Money extends \DTS\eBaySDK\Types\DecimalType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'currencyCode'
-        ]
+            'attributeName' => 'currencyCode',
+        ],
     ];
 
     /**

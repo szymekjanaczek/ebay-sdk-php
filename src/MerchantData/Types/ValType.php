@@ -26,20 +26,20 @@ class ValType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ValueLiteral'
+            'elementName' => 'ValueLiteral',
         ],
         'SuggestedValueLiteral' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SuggestedValueLiteral'
+            'elementName' => 'SuggestedValueLiteral',
         ],
         'ValueID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ValueID'
-        ]
+            'elementName' => 'ValueID',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class MyMessagesMessageArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Message'
-        ]
+            'elementName' => 'Message',
+        ],
     ];
 
     /**

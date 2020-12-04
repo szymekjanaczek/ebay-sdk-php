@@ -26,20 +26,20 @@ class Property extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'propertyName'
+            'elementName' => 'propertyName',
         ],
         'propertyNameMetadata' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameMetadata',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'propertyNameMetadata'
+            'elementName' => 'propertyNameMetadata',
         ],
         'propertyDisplayName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'propertyDisplayName'
-        ]
+            'elementName' => 'propertyDisplayName',
+        ],
     ];
 
     /**

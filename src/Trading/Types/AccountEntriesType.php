@@ -24,8 +24,8 @@ class AccountEntriesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\AccountEntryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AccountEntry'
-        ]
+            'elementName' => 'AccountEntry',
+        ],
     ];
 
     /**

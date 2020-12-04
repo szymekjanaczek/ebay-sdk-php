@@ -25,14 +25,14 @@ class ReturnAddressType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'address'
+            'elementName' => 'address',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
-        ]
+            'elementName' => 'name',
+        ],
     ];
 
     /**

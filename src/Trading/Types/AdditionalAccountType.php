@@ -26,20 +26,20 @@ class AdditionalAccountType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Balance'
+            'elementName' => 'Balance',
         ],
         'Currency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Currency'
+            'elementName' => 'Currency',
         ],
         'AccountCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AccountCode'
-        ]
+            'elementName' => 'AccountCode',
+        ],
     ];
 
     /**

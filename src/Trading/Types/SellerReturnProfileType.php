@@ -25,14 +25,14 @@ class SellerReturnProfileType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnProfileID'
+            'elementName' => 'ReturnProfileID',
         ],
         'ReturnProfileName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnProfileName'
-        ]
+            'elementName' => 'ReturnProfileName',
+        ],
     ];
 
     /**

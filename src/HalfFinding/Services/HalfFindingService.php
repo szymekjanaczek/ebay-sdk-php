@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\HalfFinding\Services;
 
 class HalfFindingService extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBaseService
 {
-    const API_VERSION = '1.2.0';
+    public const API_VERSION = '1.2.0';
 
     /**
      * @param array $config Configuration option values.

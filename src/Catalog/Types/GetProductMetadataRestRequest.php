@@ -26,20 +26,20 @@ class GetProductMetadataRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'other_applicable_category_ids'
+            'elementName' => 'other_applicable_category_ids',
         ],
         'primary_category_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'primary_category_id'
+            'elementName' => 'primary_category_id',
         ],
         'epid' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'epid'
-        ]
+            'elementName' => 'epid',
+        ],
     ];
 
     /**

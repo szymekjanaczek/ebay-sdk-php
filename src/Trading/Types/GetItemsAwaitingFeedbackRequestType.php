@@ -25,14 +25,14 @@ class GetItemsAwaitingFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\Abs
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Sort'
+            'elementName' => 'Sort',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
-        ]
+            'elementName' => 'Pagination',
+        ],
     ];
 
     /**

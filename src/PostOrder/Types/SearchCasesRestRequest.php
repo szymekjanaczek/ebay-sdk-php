@@ -34,68 +34,68 @@ class SearchCasesRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'case_creation_date_range_from'
+            'elementName' => 'case_creation_date_range_from',
         ],
         'case_creation_date_range_to' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'case_creation_date_range_to'
+            'elementName' => 'case_creation_date_range_to',
         ],
         'case_status_filter' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'case_status_filter'
+            'elementName' => 'case_status_filter',
         ],
         'fieldgroups' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fieldgroups'
+            'elementName' => 'fieldgroups',
         ],
         'item_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'item_id'
+            'elementName' => 'item_id',
         ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'order_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'order_id'
+            'elementName' => 'order_id',
         ],
         'return_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'return_id'
+            'elementName' => 'return_id',
         ],
         'sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sort'
+            'elementName' => 'sort',
         ],
         'transaction_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transaction_id'
-        ]
+            'elementName' => 'transaction_id',
+        ],
     ];
 
     /**

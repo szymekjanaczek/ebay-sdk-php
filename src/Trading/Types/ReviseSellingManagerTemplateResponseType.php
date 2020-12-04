@@ -30,44 +30,44 @@ class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Type
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateID'
+            'elementName' => 'SaleTemplateID',
         ],
         'Fees' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Fees'
+            'elementName' => 'Fees',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'Category2ID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Category2ID'
+            'elementName' => 'Category2ID',
         ],
         'VerifyOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VerifyOnly'
+            'elementName' => 'VerifyOnly',
         ],
         'SaleTemplateName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateName'
+            'elementName' => 'SaleTemplateName',
         ],
         'SellingManagerProductDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductDetails'
-        ]
+            'elementName' => 'SellingManagerProductDetails',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class CheckShippingLabelEligibilityRestRequest extends \DTS\eBaySDK\Types\BaseTy
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class ShipToLocations extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Browse\Types\Region',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'regionExcluded'
+            'elementName' => 'regionExcluded',
         ],
         'regionIncluded' => [
             'type' => 'DTS\eBaySDK\Browse\Types\Region',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'regionIncluded'
-        ]
+            'elementName' => 'regionIncluded',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class AddSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\Abs
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductDetails'
+            'elementName' => 'SellingManagerProductDetails',
         ],
         'FolderID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'SellingManagerProductSpecifics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductSpecifics'
-        ]
+            'elementName' => 'SellingManagerProductSpecifics',
+        ],
     ];
 
     /**

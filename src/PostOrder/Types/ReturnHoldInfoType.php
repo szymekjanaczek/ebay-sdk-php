@@ -28,32 +28,32 @@ class ReturnHoldInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdCreationDate'
+            'elementName' => 'holdCreationDate',
         ],
         'holdReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdReferenceId'
+            'elementName' => 'holdReferenceId',
         ],
         'holdReleaseDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdReleaseDate'
+            'elementName' => 'holdReleaseDate',
         ],
         'holdStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdStatus'
+            'elementName' => 'holdStatus',
         ],
         'holdTransactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdTransactionId'
-        ]
+            'elementName' => 'holdTransactionId',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class LineItemProperties extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerProtection'
+            'elementName' => 'buyerProtection',
         ],
         'fromBestOffer' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fromBestOffer'
-        ]
+            'elementName' => 'fromBestOffer',
+        ],
     ];
 
     /**

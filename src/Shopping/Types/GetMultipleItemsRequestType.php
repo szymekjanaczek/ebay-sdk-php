@@ -25,14 +25,14 @@ class GetMultipleItemsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRe
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'IncludeSelector' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeSelector'
-        ]
+            'elementName' => 'IncludeSelector',
+        ],
     ];
 
     /**

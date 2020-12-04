@@ -25,14 +25,14 @@ class GetMessagePreferencesRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerID'
+            'elementName' => 'SellerID',
         ],
         'IncludeASQPreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeASQPreferences'
-        ]
+            'elementName' => 'IncludeASQPreferences',
+        ],
     ];
 
     /**

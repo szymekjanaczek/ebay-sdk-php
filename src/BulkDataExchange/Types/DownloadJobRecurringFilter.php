@@ -24,8 +24,8 @@ class DownloadJobRecurringFilter extends \DTS\eBaySDK\BulkDataExchange\Types\Bas
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'orderReportRecurringFilter'
-        ]
+            'elementName' => 'orderReportRecurringFilter',
+        ],
     ];
 
     /**

@@ -27,26 +27,26 @@ class GetSingleItemRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReque
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'VariationSKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSKU'
+            'elementName' => 'VariationSKU',
         ],
         'VariationSpecifics' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecifics'
+            'elementName' => 'VariationSpecifics',
         ],
         'IncludeSelector' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeSelector'
-        ]
+            'elementName' => 'IncludeSelector',
+        ],
     ];
 
     /**

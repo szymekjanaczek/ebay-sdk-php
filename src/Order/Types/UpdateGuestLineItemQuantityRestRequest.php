@@ -24,8 +24,8 @@ class UpdateGuestLineItemQuantityRestRequest extends \DTS\eBaySDK\Order\Types\Up
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'checkoutSessionId'
-        ]
+            'elementName' => 'checkoutSessionId',
+        ],
     ];
 
     /**

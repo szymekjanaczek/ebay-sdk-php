@@ -24,8 +24,8 @@ class GetUserResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTyp
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'User'
-        ]
+            'elementName' => 'User',
+        ],
     ];
 
     /**

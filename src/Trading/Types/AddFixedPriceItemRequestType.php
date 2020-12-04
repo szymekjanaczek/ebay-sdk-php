@@ -24,8 +24,8 @@ class AddFixedPriceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

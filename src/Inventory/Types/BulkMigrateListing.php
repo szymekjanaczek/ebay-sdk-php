@@ -24,8 +24,8 @@ class BulkMigrateListing extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\MigrateListing',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'requests'
-        ]
+            'elementName' => 'requests',
+        ],
     ];
 
     /**

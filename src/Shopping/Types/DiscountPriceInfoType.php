@@ -29,38 +29,38 @@ class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OriginalRetailPrice'
+            'elementName' => 'OriginalRetailPrice',
         ],
         'MinimumAdvertisedPrice' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinimumAdvertisedPrice'
+            'elementName' => 'MinimumAdvertisedPrice',
         ],
         'MinimumAdvertisedPriceExposure' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinimumAdvertisedPriceExposure'
+            'elementName' => 'MinimumAdvertisedPriceExposure',
         ],
         'PricingTreatment' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PricingTreatment'
+            'elementName' => 'PricingTreatment',
         ],
         'SoldOneBay' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SoldOneBay'
+            'elementName' => 'SoldOneBay',
         ],
         'SoldOffeBay' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SoldOffeBay'
-        ]
+            'elementName' => 'SoldOffeBay',
+        ],
     ];
 
     /**

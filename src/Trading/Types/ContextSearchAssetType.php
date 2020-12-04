@@ -26,20 +26,20 @@ class ContextSearchAssetType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Keyword'
+            'elementName' => 'Keyword',
         ],
         'Category' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Category'
+            'elementName' => 'Category',
         ],
         'Ranking' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Ranking'
-        ]
+            'elementName' => 'Ranking',
+        ],
     ];
 
     /**

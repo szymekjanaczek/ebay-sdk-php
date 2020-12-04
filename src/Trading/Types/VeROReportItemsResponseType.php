@@ -25,14 +25,14 @@ class VeROReportItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VeROReportPacketID'
+            'elementName' => 'VeROReportPacketID',
         ],
         'VeROReportPacketStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VeROReportPacketStatus'
-        ]
+            'elementName' => 'VeROReportPacketStatus',
+        ],
     ];
 
     /**

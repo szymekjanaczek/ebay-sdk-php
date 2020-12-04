@@ -24,8 +24,8 @@ class GetSellingManagerSaleRecordResponseType extends \DTS\eBaySDK\Trading\Types
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerSoldOrder'
-        ]
+            'elementName' => 'SellingManagerSoldOrder',
+        ],
     ];
 
     /**

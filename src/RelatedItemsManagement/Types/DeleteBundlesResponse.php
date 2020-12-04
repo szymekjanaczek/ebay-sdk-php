@@ -24,8 +24,8 @@ class DeleteBundlesResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\Ba
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'bundleStatus'
-        ]
+            'elementName' => 'bundleStatus',
+        ],
     ];
 
     /**

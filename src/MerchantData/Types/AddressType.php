@@ -55,194 +55,194 @@ class AddressType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'Street' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Street'
+            'elementName' => 'Street',
         ],
         'Street1' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Street1'
+            'elementName' => 'Street1',
         ],
         'Street2' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Street2'
+            'elementName' => 'Street2',
         ],
         'CityName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CityName'
+            'elementName' => 'CityName',
         ],
         'County' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'County'
+            'elementName' => 'County',
         ],
         'StateOrProvince' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StateOrProvince'
+            'elementName' => 'StateOrProvince',
         ],
         'Country' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Country'
+            'elementName' => 'Country',
         ],
         'CountryName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CountryName'
+            'elementName' => 'CountryName',
         ],
         'Phone' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Phone'
+            'elementName' => 'Phone',
         ],
         'PhoneCountryCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PhoneCountryCode'
+            'elementName' => 'PhoneCountryCode',
         ],
         'PhoneCountryPrefix' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PhoneCountryPrefix'
+            'elementName' => 'PhoneCountryPrefix',
         ],
         'PhoneAreaOrCityCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PhoneAreaOrCityCode'
+            'elementName' => 'PhoneAreaOrCityCode',
         ],
         'PhoneLocalNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PhoneLocalNumber'
+            'elementName' => 'PhoneLocalNumber',
         ],
         'Phone2CountryCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Phone2CountryCode'
+            'elementName' => 'Phone2CountryCode',
         ],
         'Phone2CountryPrefix' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Phone2CountryPrefix'
+            'elementName' => 'Phone2CountryPrefix',
         ],
         'Phone2AreaOrCityCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Phone2AreaOrCityCode'
+            'elementName' => 'Phone2AreaOrCityCode',
         ],
         'Phone2LocalNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Phone2LocalNumber'
+            'elementName' => 'Phone2LocalNumber',
         ],
         'PostalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PostalCode'
+            'elementName' => 'PostalCode',
         ],
         'AddressID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AddressID'
+            'elementName' => 'AddressID',
         ],
         'AddressOwner' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AddressOwner'
+            'elementName' => 'AddressOwner',
         ],
         'ExternalAddressID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalAddressID'
+            'elementName' => 'ExternalAddressID',
         ],
         'InternationalName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InternationalName'
+            'elementName' => 'InternationalName',
         ],
         'InternationalStateAndCity' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InternationalStateAndCity'
+            'elementName' => 'InternationalStateAndCity',
         ],
         'InternationalStreet' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InternationalStreet'
+            'elementName' => 'InternationalStreet',
         ],
         'CompanyName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CompanyName'
+            'elementName' => 'CompanyName',
         ],
         'FirstName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FirstName'
+            'elementName' => 'FirstName',
         ],
         'LastName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastName'
+            'elementName' => 'LastName',
         ],
         'Phone2' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Phone2'
+            'elementName' => 'Phone2',
         ],
         'AddressUsage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AddressUsage'
+            'elementName' => 'AddressUsage',
         ],
         'ReferenceID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReferenceID'
+            'elementName' => 'ReferenceID',
         ],
         'AddressAttribute' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddressAttributeType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AddressAttribute'
-        ]
+            'elementName' => 'AddressAttribute',
+        ],
     ];
 
     /**

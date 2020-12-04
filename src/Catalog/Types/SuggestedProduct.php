@@ -37,86 +37,86 @@ class SuggestedProduct extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'additionalImageUrls'
+            'elementName' => 'additionalImageUrls',
         ],
         'aspects' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\Aspect',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspects'
+            'elementName' => 'aspects',
         ],
         'brand' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'brand'
+            'elementName' => 'brand',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'ean' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ean'
+            'elementName' => 'ean',
         ],
         'epid' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'epid'
+            'elementName' => 'epid',
         ],
         'imageUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'imageUrl'
+            'elementName' => 'imageUrl',
         ],
         'isbn' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'isbn'
+            'elementName' => 'isbn',
         ],
         'mpn' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'mpn'
+            'elementName' => 'mpn',
         ],
         'otherApplicableCategoryIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'otherApplicableCategoryIds'
+            'elementName' => 'otherApplicableCategoryIds',
         ],
         'primaryCategoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'primaryCategoryId'
+            'elementName' => 'primaryCategoryId',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
+            'elementName' => 'title',
         ],
         'upc' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'upc'
+            'elementName' => 'upc',
         ],
         'version' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'version'
-        ]
+            'elementName' => 'version',
+        ],
     ];
 
     /**

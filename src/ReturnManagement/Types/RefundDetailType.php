@@ -25,14 +25,14 @@ class RefundDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalAmount'
+            'elementName' => 'totalAmount',
         ],
         'itemizedRefund' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemizedRefund'
-        ]
+            'elementName' => 'itemizedRefund',
+        ],
     ];
 
     /**

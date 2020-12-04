@@ -31,50 +31,50 @@ class ErrorData extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorId'
+            'elementName' => 'errorId',
         ],
         'domain' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domain'
+            'elementName' => 'domain',
         ],
         'severity' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'severity'
+            'elementName' => 'severity',
         ],
         'category' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category'
+            'elementName' => 'category',
         ],
         'message' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'message'
+            'elementName' => 'message',
         ],
         'subdomain' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'subdomain'
+            'elementName' => 'subdomain',
         ],
         'exceptionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'exceptionId'
+            'elementName' => 'exceptionId',
         ],
         'parameter' => [
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'parameter'
-        ]
+            'elementName' => 'parameter',
+        ],
     ];
 
     /**

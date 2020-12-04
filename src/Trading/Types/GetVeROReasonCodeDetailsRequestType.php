@@ -25,14 +25,14 @@ class GetVeROReasonCodeDetailsRequestType extends \DTS\eBaySDK\Trading\Types\Abs
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReasonCodeID'
+            'elementName' => 'ReasonCodeID',
         ],
         'ReturnAllSites' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnAllSites'
-        ]
+            'elementName' => 'ReturnAllSites',
+        ],
     ];
 
     /**

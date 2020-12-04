@@ -25,14 +25,14 @@ class NameValueListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'Value' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Value'
-        ]
+            'elementName' => 'Value',
+        ],
     ];
 
     /**

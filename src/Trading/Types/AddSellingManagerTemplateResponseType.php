@@ -29,38 +29,38 @@ class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\A
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'Category2ID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Category2ID'
+            'elementName' => 'Category2ID',
         ],
         'SaleTemplateID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateID'
+            'elementName' => 'SaleTemplateID',
         ],
         'SaleTemplateName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateName'
+            'elementName' => 'SaleTemplateName',
         ],
         'SellingManagerProductDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductDetails'
+            'elementName' => 'SellingManagerProductDetails',
         ],
         'Fees' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Fees'
-        ]
+            'elementName' => 'Fees',
+        ],
     ];
 
     /**

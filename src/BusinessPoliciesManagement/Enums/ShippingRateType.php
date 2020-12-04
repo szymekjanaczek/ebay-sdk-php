@@ -12,15 +12,15 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Enums;
 
 class ShippingRateType
 {
-    const C_DAILY_PICKUP = 'DailyPickup';
-    const C_EBAY_RATES = 'EbayRates';
-    const C_FEDEX_COUNTER = 'FedexCounter';
-    const C_FEDEX_DISCOUNTED = 'FedexDiscounted';
-    const C_FEDEX_STANDARD_LIST = 'FedexStandardList';
-    const C_GOLD_SILVER = 'GoldSilver';
-    const C_ON_DEMAND = 'OnDemand';
-    const C_PLAT_TITANIUM = 'PlatTitanium';
-    const C_RETAIL = 'Retail';
-    const C_USPS_COMMERCIAL_PLUS = 'USPSCommercialPlus';
-    const C_USPS_DISCOUNTED = 'USPSDiscounted';
+    public const C_DAILY_PICKUP = 'DailyPickup';
+    public const C_EBAY_RATES = 'EbayRates';
+    public const C_FEDEX_COUNTER = 'FedexCounter';
+    public const C_FEDEX_DISCOUNTED = 'FedexDiscounted';
+    public const C_FEDEX_STANDARD_LIST = 'FedexStandardList';
+    public const C_GOLD_SILVER = 'GoldSilver';
+    public const C_ON_DEMAND = 'OnDemand';
+    public const C_PLAT_TITANIUM = 'PlatTitanium';
+    public const C_RETAIL = 'Retail';
+    public const C_USPS_COMMERCIAL_PLUS = 'USPSCommercialPlus';
+    public const C_USPS_DISCOUNTED = 'USPSDiscounted';
 }

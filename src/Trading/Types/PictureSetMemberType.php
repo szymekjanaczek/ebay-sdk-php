@@ -26,20 +26,20 @@ class PictureSetMemberType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MemberURL'
+            'elementName' => 'MemberURL',
         ],
         'PictureHeight' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureHeight'
+            'elementName' => 'PictureHeight',
         ],
         'PictureWidth' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureWidth'
-        ]
+            'elementName' => 'PictureWidth',
+        ],
     ];
 
     /**

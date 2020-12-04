@@ -24,8 +24,8 @@ class CreateAdsByInventoryReferenceRestRequest extends \DTS\eBaySDK\Marketing\Ty
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_id'
-        ]
+            'elementName' => 'campaign_id',
+        ],
     ];
 
     /**

@@ -33,62 +33,62 @@ class SearchForItemsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspect_filter'
+            'elementName' => 'aspect_filter',
         ],
         'category_ids' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category_ids'
+            'elementName' => 'category_ids',
         ],
         'epid' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'epid'
+            'elementName' => 'epid',
         ],
         'fieldgroups' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fieldgroups'
+            'elementName' => 'fieldgroups',
         ],
         'filter' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'filter'
+            'elementName' => 'filter',
         ],
         'gtin' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'gtin'
+            'elementName' => 'gtin',
         ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'q' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'q'
+            'elementName' => 'q',
         ],
         'sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sort'
-        ]
+            'elementName' => 'sort',
+        ],
     ];
 
     /**

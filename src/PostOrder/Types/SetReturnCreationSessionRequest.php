@@ -24,8 +24,8 @@ class SetReturnCreationSessionRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnRequestType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnRequest'
-        ]
+            'elementName' => 'returnRequest',
+        ],
     ];
 
     /**

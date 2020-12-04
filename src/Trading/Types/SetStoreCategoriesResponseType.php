@@ -26,20 +26,20 @@ class SetStoreCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaskID'
+            'elementName' => 'TaskID',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'CustomCategory' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CustomCategory'
-        ]
+            'elementName' => 'CustomCategory',
+        ],
     ];
 
     /**

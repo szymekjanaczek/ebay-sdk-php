@@ -25,14 +25,14 @@ class CarrierShippingCostInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrier'
+            'elementName' => 'carrier',
         ],
         'shippingCost' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCost'
-        ]
+            'elementName' => 'shippingCost',
+        ],
     ];
 
     /**

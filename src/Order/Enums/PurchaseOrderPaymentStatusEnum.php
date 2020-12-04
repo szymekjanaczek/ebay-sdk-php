@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Order\Enums;
 
 class PurchaseOrderPaymentStatusEnum
 {
-    const C_FAILED = 'FAILED';
-    const C_PAID = 'PAID';
-    const C_PARTIALLY_PAID = 'PARTIALLY_PAID';
-    const C_PENDING = 'PENDING';
+    public const C_FAILED = 'FAILED';
+    public const C_PAID = 'PAID';
+    public const C_PARTIALLY_PAID = 'PARTIALLY_PAID';
+    public const C_PENDING = 'PENDING';
 }

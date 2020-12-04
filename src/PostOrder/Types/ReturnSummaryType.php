@@ -39,98 +39,98 @@ class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\AvailableOptionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'buyerAvailableOptions'
+            'elementName' => 'buyerAvailableOptions',
         ],
         'buyerLoginName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerLoginName'
+            'elementName' => 'buyerLoginName',
         ],
         'buyerResponseDue' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerResponseDue'
+            'elementName' => 'buyerResponseDue',
         ],
         'buyerTotalRefund' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerTotalRefund'
+            'elementName' => 'buyerTotalRefund',
         ],
         'creationInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnCreationInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationInfo'
+            'elementName' => 'creationInfo',
         ],
         'currentType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'currentType'
+            'elementName' => 'currentType',
         ],
         'dispositionRuleTriggered' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dispositionRuleTriggered'
+            'elementName' => 'dispositionRuleTriggered',
         ],
         'escalationInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EscalationInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'escalationInfo'
+            'elementName' => 'escalationInfo',
         ],
         'returnId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
+            'elementName' => 'returnId',
         ],
         'returnPolicy' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnPolicyType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPolicy'
+            'elementName' => 'returnPolicy',
         ],
         'sellerAvailableOptions' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\AvailableOptionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'sellerAvailableOptions'
+            'elementName' => 'sellerAvailableOptions',
         ],
         'sellerLoginName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerLoginName'
+            'elementName' => 'sellerLoginName',
         ],
         'sellerResponseDue' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerResponseDue'
+            'elementName' => 'sellerResponseDue',
         ],
         'sellerTotalRefund' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerTotalRefund'
+            'elementName' => 'sellerTotalRefund',
         ],
         'state' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'state'
+            'elementName' => 'state',
         ],
         'status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'status'
-        ]
+            'elementName' => 'status',
+        ],
     ];
 
     /**

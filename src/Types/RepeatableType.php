@@ -1,8 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\Types;
 
-use \DTS\eBaySDK\Exceptions;
-use \DTS\eBaySDK\JmesPath\JmesPathableArrayInterface;
+use DTS\eBaySDK\Exceptions;
+use DTS\eBaySDK\JmesPath\JmesPathableArrayInterface;
 
 /**
  * Class to handle XML elements that are repeatable.

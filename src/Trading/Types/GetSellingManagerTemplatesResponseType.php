@@ -24,8 +24,8 @@ class GetSellingManagerTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerTemplateDetailsArray'
-        ]
+            'elementName' => 'SellingManagerTemplateDetailsArray',
+        ],
     ];
 
     /**

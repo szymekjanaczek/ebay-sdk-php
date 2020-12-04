@@ -35,74 +35,74 @@ class EbayOfferDetailsWithKeys extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'availableQuantity'
+            'elementName' => 'availableQuantity',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'format' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'format'
+            'elementName' => 'format',
         ],
         'listingDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingDescription'
+            'elementName' => 'listingDescription',
         ],
         'listingPolicies' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ListingPolicies',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingPolicies'
+            'elementName' => 'listingPolicies',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'merchantLocationKey' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'merchantLocationKey'
+            'elementName' => 'merchantLocationKey',
         ],
         'pricingSummary' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pricingSummary'
+            'elementName' => 'pricingSummary',
         ],
         'quantityLimitPerBuyer' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantityLimitPerBuyer'
+            'elementName' => 'quantityLimitPerBuyer',
         ],
         'sku' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
+            'elementName' => 'sku',
         ],
         'storeCategoryNames' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'storeCategoryNames'
+            'elementName' => 'storeCategoryNames',
         ],
         'tax' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Tax',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'tax'
-        ]
+            'elementName' => 'tax',
+        ],
     ];
 
     /**

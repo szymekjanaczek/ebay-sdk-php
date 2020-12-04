@@ -27,26 +27,26 @@ class ProvideLabelResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelData'
+            'elementName' => 'labelData',
         ],
         'labelId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelId'
+            'elementName' => 'labelId',
         ],
         'labelURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelURL'
+            'elementName' => 'labelURL',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
-        ]
+            'elementName' => 'trackingNumber',
+        ],
     ];
 
     /**

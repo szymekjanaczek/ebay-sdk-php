@@ -29,38 +29,38 @@ class StoreVacationPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OnVacation'
+            'elementName' => 'OnVacation',
         ],
         'ReturnDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnDate'
+            'elementName' => 'ReturnDate',
         ],
         'MessageItem' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageItem'
+            'elementName' => 'MessageItem',
         ],
         'MessageStore' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageStore'
+            'elementName' => 'MessageStore',
         ],
         'DisplayMessageStoreCustomText' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisplayMessageStoreCustomText'
+            'elementName' => 'DisplayMessageStoreCustomText',
         ],
         'MessageStoreCustomText' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageStoreCustomText'
-        ]
+            'elementName' => 'MessageStoreCustomText',
+        ],
     ];
 
     /**

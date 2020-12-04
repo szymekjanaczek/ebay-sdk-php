@@ -24,8 +24,8 @@ class GetBundlesResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseR
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\Bundle',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'bundle'
-        ]
+            'elementName' => 'bundle',
+        ],
     ];
 
     /**

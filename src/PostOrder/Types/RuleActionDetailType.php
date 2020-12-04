@@ -26,20 +26,20 @@ class RuleActionDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDataDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'actionData'
+            'elementName' => 'actionData',
         ],
         'dataType' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDataType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataType'
+            'elementName' => 'dataType',
         ],
         'isInvalid' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isInvalid'
-        ]
+            'elementName' => 'isInvalid',
+        ],
     ];
 
     /**

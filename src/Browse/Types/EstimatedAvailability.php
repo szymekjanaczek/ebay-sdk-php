@@ -29,38 +29,38 @@ class EstimatedAvailability extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'availabilityThreshold'
+            'elementName' => 'availabilityThreshold',
         ],
         'availabilityThresholdType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'availabilityThresholdType'
+            'elementName' => 'availabilityThresholdType',
         ],
         'deliveryOptions' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'deliveryOptions'
+            'elementName' => 'deliveryOptions',
         ],
         'estimatedAvailabilityStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimatedAvailabilityStatus'
+            'elementName' => 'estimatedAvailabilityStatus',
         ],
         'estimatedAvailableQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimatedAvailableQuantity'
+            'elementName' => 'estimatedAvailableQuantity',
         ],
         'estimatedSoldQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimatedSoldQuantity'
-        ]
+            'elementName' => 'estimatedSoldQuantity',
+        ],
     ];
 
     /**

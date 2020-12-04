@@ -28,32 +28,32 @@ class VATDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BusinessSeller'
+            'elementName' => 'BusinessSeller',
         ],
         'RestrictedToBusiness' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RestrictedToBusiness'
+            'elementName' => 'RestrictedToBusiness',
         ],
         'VATPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VATPercent'
+            'elementName' => 'VATPercent',
         ],
         'VATSite' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VATSite'
+            'elementName' => 'VATSite',
         ],
         'VATID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VATID'
-        ]
+            'elementName' => 'VATID',
+        ],
     ];
 
     /**

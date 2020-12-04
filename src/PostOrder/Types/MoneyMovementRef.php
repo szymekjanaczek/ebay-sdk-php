@@ -24,8 +24,8 @@ class MoneyMovementRef extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'idref'
-        ]
+            'elementName' => 'idref',
+        ],
     ];
 
     /**

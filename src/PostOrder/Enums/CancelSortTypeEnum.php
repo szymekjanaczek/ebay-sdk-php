@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class CancelSortTypeEnum
 {
-    const C_CANCEL_ID = 'CANCEL_ID';
-    const C_CANCEL_REQUEST_DATE = 'CANCEL_REQUEST_DATE';
+    public const C_CANCEL_ID = 'CANCEL_ID';
+    public const C_CANCEL_REQUEST_DATE = 'CANCEL_REQUEST_DATE';
 }

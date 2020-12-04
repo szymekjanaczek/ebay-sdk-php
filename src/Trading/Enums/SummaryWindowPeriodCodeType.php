@@ -12,13 +12,13 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SummaryWindowPeriodCodeType
 {
-    const C_CURRENT_MONTH = 'CurrentMonth';
-    const C_CURRENT_WEEK = 'CurrentWeek';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_LAST24_HOURS = 'Last24Hours';
-    const C_LAST31_DAYS = 'Last31Days';
-    const C_LAST60_DAYS = 'Last60Days';
-    const C_LAST7_DAYS = 'Last7Days';
-    const C_LAST_MONTH = 'LastMonth';
-    const C_LAST_WEEK = 'LastWeek';
+    public const C_CURRENT_MONTH = 'CurrentMonth';
+    public const C_CURRENT_WEEK = 'CurrentWeek';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_LAST24_HOURS = 'Last24Hours';
+    public const C_LAST31_DAYS = 'Last31Days';
+    public const C_LAST60_DAYS = 'Last60Days';
+    public const C_LAST7_DAYS = 'Last7Days';
+    public const C_LAST_MONTH = 'LastMonth';
+    public const C_LAST_WEEK = 'LastWeek';
 }

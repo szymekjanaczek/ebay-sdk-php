@@ -30,44 +30,44 @@ class Address extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'street1' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'street1'
+            'elementName' => 'street1',
         ],
         'street2' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'street2'
+            'elementName' => 'street2',
         ],
         'city' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'city'
+            'elementName' => 'city',
         ],
         'stateOrProvince' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'stateOrProvince'
+            'elementName' => 'stateOrProvince',
         ],
         'country' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'country'
+            'elementName' => 'country',
         ],
         'postalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'postalCode'
-        ]
+            'elementName' => 'postalCode',
+        ],
     ];
 
     /**

@@ -27,26 +27,26 @@ class GetListingViolationsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'listing_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listing_id'
+            'elementName' => 'listing_id',
         ],
         'offset' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'compliance_type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'compliance_type'
-        ]
+            'elementName' => 'compliance_type',
+        ],
     ];
 
     /**

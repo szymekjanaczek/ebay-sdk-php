@@ -27,26 +27,26 @@ class ModifyDispositionRuleRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleModificationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'operation'
+            'elementName' => 'operation',
         ],
         'priorityList' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\PriorityListType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priorityList'
+            'elementName' => 'priorityList',
         ],
         'ruleDetail' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailInputType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ruleDetail'
+            'elementName' => 'ruleDetail',
         ],
         'versionId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'versionId'
-        ]
+            'elementName' => 'versionId',
+        ],
     ];
 
     /**

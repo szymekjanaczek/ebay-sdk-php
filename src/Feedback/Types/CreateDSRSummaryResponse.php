@@ -24,8 +24,8 @@ class CreateDSRSummaryResponse extends \DTS\eBaySDK\Feedback\Types\BaseServiceRe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobId'
-        ]
+            'elementName' => 'jobId',
+        ],
     ];
 
     /**

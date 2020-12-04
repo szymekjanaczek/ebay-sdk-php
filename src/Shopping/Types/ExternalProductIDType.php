@@ -27,26 +27,26 @@ class ExternalProductIDType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Value'
+            'elementName' => 'Value',
         ],
         'ReturnSearchResultOnDuplicates' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnSearchResultOnDuplicates'
+            'elementName' => 'ReturnSearchResultOnDuplicates',
         ],
         'Type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Type'
+            'elementName' => 'Type',
         ],
         'AlternateValue' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AlternateValue'
-        ]
+            'elementName' => 'AlternateValue',
+        ],
     ];
 
     /**

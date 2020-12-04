@@ -25,14 +25,14 @@ class VariationDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
+            'elementName' => 'sku',
         ],
         'variationAspects' => [
             'type' => 'DTS\eBaySDK\Compliance\Types\NameValueList',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'variationAspects'
-        ]
+            'elementName' => 'variationAspects',
+        ],
     ];
 
     /**

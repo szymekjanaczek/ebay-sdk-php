@@ -25,14 +25,14 @@ class ProductSubmissionFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'filterName'
+            'elementName' => 'filterName',
         ],
         'filterValue' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'filterValue'
-        ]
+            'elementName' => 'filterValue',
+        ],
     ];
 
     /**

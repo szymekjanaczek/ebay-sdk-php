@@ -25,14 +25,14 @@ class MultiLegShippingServiceType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingService'
+            'elementName' => 'ShippingService',
         ],
         'TotalShippingCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalShippingCost'
-        ]
+            'elementName' => 'TotalShippingCost',
+        ],
     ];
 
     /**

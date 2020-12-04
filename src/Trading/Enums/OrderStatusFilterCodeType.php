@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class OrderStatusFilterCodeType
 {
-    const C_ALL = 'All';
-    const C_AWAITING_PAYMENT = 'AwaitingPayment';
-    const C_AWAITING_SHIPMENT = 'AwaitingShipment';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_PAID_AND_SHIPPED = 'PaidAndShipped';
+    public const C_ALL = 'All';
+    public const C_AWAITING_PAYMENT = 'AwaitingPayment';
+    public const C_AWAITING_SHIPMENT = 'AwaitingShipment';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_PAID_AND_SHIPPED = 'PaidAndShipped';
 }

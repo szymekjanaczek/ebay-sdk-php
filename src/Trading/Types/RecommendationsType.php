@@ -26,20 +26,20 @@ class RecommendationsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'NameRecommendation' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameRecommendationType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NameRecommendation'
+            'elementName' => 'NameRecommendation',
         ],
         'Updated' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Updated'
-        ]
+            'elementName' => 'Updated',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class PictureURLsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'eBayPictureURL'
+            'elementName' => 'eBayPictureURL',
         ],
         'ExternalPictureURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalPictureURL'
-        ]
+            'elementName' => 'ExternalPictureURL',
+        ],
     ];
 
     /**

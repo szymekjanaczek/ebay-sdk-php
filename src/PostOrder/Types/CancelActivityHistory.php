@@ -29,38 +29,38 @@ class CancelActivityHistory extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actionDate'
+            'elementName' => 'actionDate',
         ],
         'activityParty' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'activityParty'
+            'elementName' => 'activityParty',
         ],
         'activityType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'activityType'
+            'elementName' => 'activityType',
         ],
         'cancelStateFrom' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelStateFrom'
+            'elementName' => 'cancelStateFrom',
         ],
         'cancelStateTo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelStateTo'
+            'elementName' => 'cancelStateTo',
         ],
         'cancelStatetateTo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelStatetateTo'
-        ]
+            'elementName' => 'cancelStatetateTo',
+        ],
     ];
 
     /**

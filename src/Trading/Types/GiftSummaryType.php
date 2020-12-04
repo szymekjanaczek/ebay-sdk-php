@@ -24,8 +24,8 @@ class GiftSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Message'
-        ]
+            'elementName' => 'Message',
+        ],
     ];
 
     /**

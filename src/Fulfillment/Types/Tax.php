@@ -24,8 +24,8 @@ class Tax extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
-        ]
+            'elementName' => 'amount',
+        ],
     ];
 
     /**

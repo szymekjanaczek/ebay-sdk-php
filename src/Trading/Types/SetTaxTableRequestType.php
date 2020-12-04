@@ -24,8 +24,8 @@ class SetTaxTableRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestT
             'type' => 'DTS\eBaySDK\Trading\Types\TaxTableType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxTable'
-        ]
+            'elementName' => 'TaxTable',
+        ],
     ];
 
     /**

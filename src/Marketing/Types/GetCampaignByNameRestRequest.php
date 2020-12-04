@@ -24,8 +24,8 @@ class GetCampaignByNameRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_name'
-        ]
+            'elementName' => 'campaign_name',
+        ],
     ];
 
     /**

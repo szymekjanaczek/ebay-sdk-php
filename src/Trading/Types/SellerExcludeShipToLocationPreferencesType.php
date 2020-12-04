@@ -24,8 +24,8 @@ class SellerExcludeShipToLocationPreferencesType extends \DTS\eBaySDK\Types\Base
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ExcludeShipToLocation'
-        ]
+            'elementName' => 'ExcludeShipToLocation',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class GetProductSearchDataVersionResponse extends \DTS\eBaySDK\ProductMetadata\T
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'namesDetails'
+            'elementName' => 'namesDetails',
         ],
         'valueDetails' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'valueDetails'
-        ]
+            'elementName' => 'valueDetails',
+        ],
     ];
 
     /**

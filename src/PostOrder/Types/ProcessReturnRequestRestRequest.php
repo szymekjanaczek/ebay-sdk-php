@@ -24,8 +24,8 @@ class ProcessReturnRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\Decid
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

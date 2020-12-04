@@ -26,20 +26,20 @@ class UpdateCampaignIdentificationRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaignName'
+            'elementName' => 'campaignName',
         ],
         'endDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endDate'
+            'elementName' => 'endDate',
         ],
         'startDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startDate'
-        ]
+            'elementName' => 'startDate',
+        ],
     ];
 
     /**

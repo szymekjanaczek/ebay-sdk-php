@@ -24,8 +24,8 @@ class GetRecurringJobExecutionStatusRequest extends \DTS\eBaySDK\BulkDataExchang
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recurringJobId'
-        ]
+            'elementName' => 'recurringJobId',
+        ],
     ];
 
     /**

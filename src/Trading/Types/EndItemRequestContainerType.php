@@ -26,20 +26,20 @@ class EndItemRequestContainerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'EndingReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndingReason'
+            'elementName' => 'EndingReason',
         ],
         'MessageID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageID'
-        ]
+            'elementName' => 'MessageID',
+        ],
     ];
 
     /**

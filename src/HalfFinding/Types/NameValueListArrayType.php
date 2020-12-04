@@ -24,8 +24,8 @@ class NameValueListArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\HalfFinding\Types\NameValueListType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'nameValueList'
-        ]
+            'elementName' => 'nameValueList',
+        ],
     ];
 
     /**

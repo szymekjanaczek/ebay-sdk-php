@@ -27,26 +27,26 @@ class ServiceDefinition extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'superscript'
+            'elementName' => 'superscript',
         ],
         'maxDeliveryServiceDefinition' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxDeliveryServiceDefinition'
+            'elementName' => 'maxDeliveryServiceDefinition',
         ],
         'minDeliveryServiceDefinition' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minDeliveryServiceDefinition'
+            'elementName' => 'minDeliveryServiceDefinition',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
-        ]
+            'elementName' => 'name',
+        ],
     ];
 
     /**

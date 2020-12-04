@@ -26,20 +26,20 @@ class CreateDSRSummaryByCategoryRequest extends \DTS\eBaySDK\Feedback\Types\Base
             'type' => 'DTS\eBaySDK\Feedback\Types\DateRange',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dateRange'
+            'elementName' => 'dateRange',
         ],
         'dateRangeEventType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dateRangeEventType'
+            'elementName' => 'dateRangeEventType',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryId'
-        ]
+            'elementName' => 'categoryId',
+        ],
     ];
 
     /**

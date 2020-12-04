@@ -27,26 +27,26 @@ class ConflictingProduct extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'conflictCode'
+            'elementName' => 'conflictCode',
         ],
         'differentiatingAspects' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspect',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'differentiatingAspects'
+            'elementName' => 'differentiatingAspects',
         ],
         'epid' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'epid'
+            'elementName' => 'epid',
         ],
         'reason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reason'
-        ]
+            'elementName' => 'reason',
+        ],
     ];
 
     /**

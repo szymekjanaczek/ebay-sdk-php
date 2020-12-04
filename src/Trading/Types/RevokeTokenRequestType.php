@@ -24,8 +24,8 @@ class RevokeTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestT
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnsubscribeNotification'
-        ]
+            'elementName' => 'UnsubscribeNotification',
+        ],
     ];
 
     /**

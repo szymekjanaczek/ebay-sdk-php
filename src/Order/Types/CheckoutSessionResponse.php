@@ -31,50 +31,50 @@ class CheckoutSessionResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\PaymentMethod',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'acceptedPaymentMethods'
+            'elementName' => 'acceptedPaymentMethods',
         ],
         'checkoutSessionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'checkoutSessionId'
+            'elementName' => 'checkoutSessionId',
         ],
         'expirationDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'expirationDate'
+            'elementName' => 'expirationDate',
         ],
         'lineItems' => [
             'type' => 'DTS\eBaySDK\Order\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'lineItems'
+            'elementName' => 'lineItems',
         ],
         'pricingSummary' => [
             'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pricingSummary'
+            'elementName' => 'pricingSummary',
         ],
         'providedPaymentInstrument' => [
             'type' => 'DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'providedPaymentInstrument'
+            'elementName' => 'providedPaymentInstrument',
         ],
         'shippingAddress' => [
             'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingAddress'
+            'elementName' => 'shippingAddress',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

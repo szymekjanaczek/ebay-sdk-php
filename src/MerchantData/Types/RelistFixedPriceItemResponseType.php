@@ -33,62 +33,62 @@ class RelistFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Types\A
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'SKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'Fees' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Fees'
+            'elementName' => 'Fees',
         ],
         'StartTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTime'
+            'elementName' => 'StartTime',
         ],
         'EndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
+            'elementName' => 'EndTime',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'Category2ID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Category2ID'
+            'elementName' => 'Category2ID',
         ],
         'DiscountReason' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DiscountReason'
+            'elementName' => 'DiscountReason',
         ],
         'ProductSuggestions' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ProductSuggestionsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductSuggestions'
+            'elementName' => 'ProductSuggestions',
         ],
         'ListingRecommendations' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingRecommendations'
-        ]
+            'elementName' => 'ListingRecommendations',
+        ],
     ];
 
     /**

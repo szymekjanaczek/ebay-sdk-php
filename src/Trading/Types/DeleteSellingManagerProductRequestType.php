@@ -24,8 +24,8 @@ class DeleteSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductID'
-        ]
+            'elementName' => 'ProductID',
+        ],
     ];
 
     /**

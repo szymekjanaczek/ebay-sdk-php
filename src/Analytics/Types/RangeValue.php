@@ -28,32 +28,32 @@ class RangeValue extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'end'
+            'elementName' => 'end',
         ],
         'exclusiveEnd' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'exclusiveEnd'
+            'elementName' => 'exclusiveEnd',
         ],
         'exclusiveStart' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'exclusiveStart'
+            'elementName' => 'exclusiveStart',
         ],
         'range' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'range'
+            'elementName' => 'range',
         ],
         'start' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'start'
-        ]
+            'elementName' => 'start',
+        ],
     ];
 
     /**

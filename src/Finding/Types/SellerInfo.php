@@ -28,32 +28,32 @@ class SellerInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerUserName'
+            'elementName' => 'sellerUserName',
         ],
         'feedbackScore' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'feedbackScore'
+            'elementName' => 'feedbackScore',
         ],
         'positiveFeedbackPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'positiveFeedbackPercent'
+            'elementName' => 'positiveFeedbackPercent',
         ],
         'feedbackRatingStar' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'feedbackRatingStar'
+            'elementName' => 'feedbackRatingStar',
         ],
         'topRatedSeller' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'topRatedSeller'
-        ]
+            'elementName' => 'topRatedSeller',
+        ],
     ];
 
     /**

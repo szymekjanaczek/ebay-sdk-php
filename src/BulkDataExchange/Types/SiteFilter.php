@@ -24,8 +24,8 @@ class SiteFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'globalId'
-        ]
+            'elementName' => 'globalId',
+        ],
     ];
 
     /**

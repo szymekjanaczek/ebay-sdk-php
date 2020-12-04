@@ -25,14 +25,14 @@ class CommonDescriptions extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'itemIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemIds'
-        ]
+            'elementName' => 'itemIds',
+        ],
     ];
 
     /**

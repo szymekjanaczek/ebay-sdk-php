@@ -25,14 +25,14 @@ class GetEstimateResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundInfo'
+            'elementName' => 'refundInfo',
         ],
         'returnShippingCostInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedShippingInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnShippingCostInfo'
-        ]
+            'elementName' => 'returnShippingCostInfo',
+        ],
     ];
 
     /**

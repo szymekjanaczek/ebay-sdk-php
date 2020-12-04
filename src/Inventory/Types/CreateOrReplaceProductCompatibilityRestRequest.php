@@ -24,8 +24,8 @@ class CreateOrReplaceProductCompatibilityRestRequest extends \DTS\eBaySDK\Invent
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
-        ]
+            'elementName' => 'sku',
+        ],
     ];
 
     /**

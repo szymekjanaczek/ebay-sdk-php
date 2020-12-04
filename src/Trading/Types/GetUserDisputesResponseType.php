@@ -30,44 +30,44 @@ class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartingDisputeID'
+            'elementName' => 'StartingDisputeID',
         ],
         'EndingDisputeID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndingDisputeID'
+            'elementName' => 'EndingDisputeID',
         ],
         'DisputeArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\DisputeArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeArray'
+            'elementName' => 'DisputeArray',
         ],
         'ItemsPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemsPerPage'
+            'elementName' => 'ItemsPerPage',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
+            'elementName' => 'PageNumber',
         ],
         'DisputeFilterCount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\DisputeFilterCountType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DisputeFilterCount'
+            'elementName' => 'DisputeFilterCount',
         ],
         'PaginationResult' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
-        ]
+            'elementName' => 'PaginationResult',
+        ],
     ];
 
     /**

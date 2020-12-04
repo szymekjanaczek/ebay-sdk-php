@@ -28,32 +28,32 @@ class CategoryTreeNode extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Taxonomy\Types\Category',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category'
+            'elementName' => 'category',
         ],
         'categoryTreeNodeLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeNodeLevel'
+            'elementName' => 'categoryTreeNodeLevel',
         ],
         'childCategoryTreeNodes' => [
             'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'childCategoryTreeNodes'
+            'elementName' => 'childCategoryTreeNodes',
         ],
         'leafCategoryTreeNode' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'leafCategoryTreeNode'
+            'elementName' => 'leafCategoryTreeNode',
         ],
         'parentCategoryTreeNodeHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'parentCategoryTreeNodeHref'
-        ]
+            'elementName' => 'parentCategoryTreeNodeHref',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class CorrectiveRecommendations extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Compliance\Types\ProductRecommendation',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productRecommendation'
-        ]
+            'elementName' => 'productRecommendation',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class NameValueRelationshipType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ParentName'
+            'elementName' => 'ParentName',
         ],
         'ParentValue' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ParentValue'
-        ]
+            'elementName' => 'ParentValue',
+        ],
     ];
 
     /**

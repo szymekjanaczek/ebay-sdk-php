@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Product\Enums;
 
 class MediaType
 {
-    const C_IMAGE = 'Image';
+    public const C_IMAGE = 'Image';
 }

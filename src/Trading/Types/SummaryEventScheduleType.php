@@ -26,20 +26,20 @@ class SummaryEventScheduleType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EventType'
+            'elementName' => 'EventType',
         ],
         'SummaryPeriod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SummaryPeriod'
+            'elementName' => 'SummaryPeriod',
         ],
         'Frequency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Frequency'
-        ]
+            'elementName' => 'Frequency',
+        ],
     ];
 
     /**

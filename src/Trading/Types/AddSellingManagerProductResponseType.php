@@ -24,8 +24,8 @@ class AddSellingManagerProductResponseType extends \DTS\eBaySDK\Trading\Types\Ab
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductDetails'
-        ]
+            'elementName' => 'SellingManagerProductDetails',
+        ],
     ];
 
     /**

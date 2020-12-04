@@ -24,8 +24,8 @@ class GetStoreCategoryUpdateStatusResponseType extends \DTS\eBaySDK\Trading\Type
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
-        ]
+            'elementName' => 'Status',
+        ],
     ];
 
     /**

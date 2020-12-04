@@ -27,26 +27,26 @@ class ItemDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemPictureUrl'
+            'elementName' => 'itemPictureUrl',
         ],
         'itemPrice' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemPrice'
+            'elementName' => 'itemPrice',
         ],
         'itemTitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemTitle'
+            'elementName' => 'itemTitle',
         ],
         'viewPurchasedItemUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'viewPurchasedItemUrl'
-        ]
+            'elementName' => 'viewPurchasedItemUrl',
+        ],
     ];
 
     /**

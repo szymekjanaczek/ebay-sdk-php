@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class RefundPaymentTypeEnum
 {
-    const C_ECHECK = 'ECHECK';
-    const C_INSTANT_REFUND = 'INSTANT_REFUND';
-    const C_OTHER = 'OTHER';
-    const C_PAYOUT = 'PAYOUT';
+    public const C_ECHECK = 'ECHECK';
+    public const C_INSTANT_REFUND = 'INSTANT_REFUND';
+    public const C_OTHER = 'OTHER';
+    public const C_PAYOUT = 'PAYOUT';
 }

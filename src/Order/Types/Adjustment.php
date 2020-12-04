@@ -25,14 +25,14 @@ class Adjustment extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'label' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'label'
-        ]
+            'elementName' => 'label',
+        ],
     ];
 
     /**

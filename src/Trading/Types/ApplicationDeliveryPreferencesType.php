@@ -30,44 +30,44 @@ class ApplicationDeliveryPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ApplicationURL'
+            'elementName' => 'ApplicationURL',
         ],
         'ApplicationEnable' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ApplicationEnable'
+            'elementName' => 'ApplicationEnable',
         ],
         'AlertEmail' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AlertEmail'
+            'elementName' => 'AlertEmail',
         ],
         'AlertEnable' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AlertEnable'
+            'elementName' => 'AlertEnable',
         ],
         'DeviceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeviceType'
+            'elementName' => 'DeviceType',
         ],
         'PayloadVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayloadVersion'
+            'elementName' => 'PayloadVersion',
         ],
         'DeliveryURLDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\DeliveryURLDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DeliveryURLDetails'
-        ]
+            'elementName' => 'DeliveryURLDetails',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class PaymentInstrument extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'brand'
+            'elementName' => 'brand',
         ],
         'paymentMethodType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMethodType'
-        ]
+            'elementName' => 'paymentMethodType',
+        ],
     ];
 
     /**

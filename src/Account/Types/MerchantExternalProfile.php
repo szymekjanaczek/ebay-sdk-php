@@ -32,56 +32,56 @@ class MerchantExternalProfile extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'acceptedPaymentMethods'
+            'elementName' => 'acceptedPaymentMethods',
         ],
         'accountCreationDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'accountCreationDate'
+            'elementName' => 'accountCreationDate',
         ],
         'billingPaymentMethods' => [
             'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'billingPaymentMethods'
+            'elementName' => 'billingPaymentMethods',
         ],
         'inventorySizing' => [
             'type' => 'DTS\eBaySDK\Account\Types\InventorySizing',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventorySizing'
+            'elementName' => 'inventorySizing',
         ],
         'merchantCategoryCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'merchantCategoryCode'
+            'elementName' => 'merchantCategoryCode',
         ],
         'primaryCurrency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'primaryCurrency'
+            'elementName' => 'primaryCurrency',
         ],
         'returnSnapshots' => [
             'type' => 'DTS\eBaySDK\Account\Types\ReturnSnapshot',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnSnapshots'
+            'elementName' => 'returnSnapshots',
         ],
         'sicCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sicCode'
+            'elementName' => 'sicCode',
         ],
         'transactionVolume' => [
             'type' => 'DTS\eBaySDK\Account\Types\TransactionVolume',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionVolume'
-        ]
+            'elementName' => 'transactionVolume',
+        ],
     ];
 
     /**

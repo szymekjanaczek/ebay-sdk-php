@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Fulfillment\Enums;
 
 class SoldFormatEnum
 {
-    const C_AUCTION = 'AUCTION';
-    const C_FIXED_PRICE = 'FIXED_PRICE';
-    const C_OTHER = 'OTHER';
-    const C_SECOND_CHANCE_OFFER = 'SECOND_CHANCE_OFFER';
+    public const C_AUCTION = 'AUCTION';
+    public const C_FIXED_PRICE = 'FIXED_PRICE';
+    public const C_OTHER = 'OTHER';
+    public const C_SECOND_CHANCE_OFFER = 'SECOND_CHANCE_OFFER';
 }

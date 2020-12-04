@@ -24,8 +24,8 @@ class GetCompatibilitySearchValuesRequest extends \DTS\eBaySDK\ProductMetadata\T
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'propertyName'
-        ]
+            'elementName' => 'propertyName',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GetVeROReasonCodeDetailsResponseType extends \DTS\eBaySDK\Trading\Types\Ab
             'type' => 'DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VeROReasonCodeDetails'
-        ]
+            'elementName' => 'VeROReasonCodeDetails',
+        ],
     ];
 
     /**

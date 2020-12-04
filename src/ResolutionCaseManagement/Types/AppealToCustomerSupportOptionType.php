@@ -24,8 +24,8 @@ class AppealToCustomerSupportOptionType extends \DTS\eBaySDK\ResolutionCaseManag
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'customerSupportResponseTimeInHours'
-        ]
+            'elementName' => 'customerSupportResponseTimeInHours',
+        ],
     ];
 
     /**

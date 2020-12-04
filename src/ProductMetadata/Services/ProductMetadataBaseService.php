@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\ProductMetadata\Services;
 
 /**
@@ -9,22 +10,22 @@ class ProductMetadataBaseService extends \DTS\eBaySDK\Services\BaseService
     /**
      * HTTP header constant. The API version your application supports.
      */
-    const HDR_API_VERSION = 'X-EBAY-SOA-SERVICE-VERSION';
+    public const HDR_API_VERSION = 'X-EBAY-SOA-SERVICE-VERSION';
 
     /**
      * HTTP header constant. Your application ID.
      */
-    const HDR_APP_ID = 'X-EBAY-SOA-SECURITY-APPNAME';
+    public const HDR_APP_ID = 'X-EBAY-SOA-SECURITY-APPNAME';
 
     /**
      * HTTP header constant. The global ID of the eBay site the request is for.
      */
-    const HDR_GLOBAL_ID = 'X-EBAY-SOA-GLOBAL-ID';
+    public const HDR_GLOBAL_ID = 'X-EBAY-SOA-GLOBAL-ID';
 
     /**
      * HTTP header constant. The name of the operation you are calling.
      */
-    const HDR_OPERATION_NAME = 'X-EBAY-SOA-OPERATION-NAME';
+    public const HDR_OPERATION_NAME = 'X-EBAY-SOA-OPERATION-NAME';
 
     /**
      * @param array $config Configuration option values.
@@ -46,11 +47,11 @@ class ProductMetadataBaseService extends \DTS\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService::API_VERSION
+                'default' => \DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService::API_VERSION,
             ],
             'globalId' => [
-                'valid' => ['string']
-            ]
+                'valid' => ['string'],
+            ],
         ];
     }
 

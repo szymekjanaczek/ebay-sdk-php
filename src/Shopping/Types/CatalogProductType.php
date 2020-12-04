@@ -33,62 +33,62 @@ class CatalogProductType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DomainName'
+            'elementName' => 'DomainName',
         ],
         'DetailsURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailsURL'
+            'elementName' => 'DetailsURL',
         ],
         'DisplayStockPhotos' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisplayStockPhotos'
+            'elementName' => 'DisplayStockPhotos',
         ],
         'ProductID' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ProductID'
+            'elementName' => 'ProductID',
         ],
         'ItemCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemCount'
+            'elementName' => 'ItemCount',
         ],
         'ItemSpecifics' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemSpecifics'
+            'elementName' => 'ItemSpecifics',
         ],
         'ReviewCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReviewCount'
+            'elementName' => 'ReviewCount',
         ],
         'StockPhotoURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StockPhotoURL'
+            'elementName' => 'StockPhotoURL',
         ],
         'Title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Title'
+            'elementName' => 'Title',
         ],
         'ProductState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductState'
-        ]
+            'elementName' => 'ProductState',
+        ],
     ];
 
     /**

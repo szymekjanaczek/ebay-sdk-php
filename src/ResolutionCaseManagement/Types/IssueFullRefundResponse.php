@@ -25,14 +25,14 @@ class IssueFullRefundResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Type
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fullRefundStatus'
+            'elementName' => 'fullRefundStatus',
         ],
         'refundDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundDate'
-        ]
+            'elementName' => 'refundDate',
+        ],
     ];
 
     /**

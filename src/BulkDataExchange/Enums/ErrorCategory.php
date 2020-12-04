@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Enums;
 
 class ErrorCategory
 {
-    const C_APPLICATION = 'Application';
-    const C_REQUEST = 'Request';
-    const C_SYSTEM = 'System';
+    public const C_APPLICATION = 'Application';
+    public const C_REQUEST = 'Request';
+    public const C_SYSTEM = 'System';
 }

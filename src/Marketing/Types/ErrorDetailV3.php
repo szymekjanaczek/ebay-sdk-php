@@ -32,56 +32,56 @@ class ErrorDetailV3 extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category'
+            'elementName' => 'category',
         ],
         'domain' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domain'
+            'elementName' => 'domain',
         ],
         'errorId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorId'
+            'elementName' => 'errorId',
         ],
         'inputRefIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'inputRefIds'
+            'elementName' => 'inputRefIds',
         ],
         'longMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'longMessage'
+            'elementName' => 'longMessage',
         ],
         'message' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'message'
+            'elementName' => 'message',
         ],
         'outputRefIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'outputRefIds'
+            'elementName' => 'outputRefIds',
         ],
         'parameters' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\ErrorParameterV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'parameters'
+            'elementName' => 'parameters',
         ],
         'subdomain' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'subdomain'
-        ]
+            'elementName' => 'subdomain',
+        ],
     ];
 
     /**

@@ -12,12 +12,12 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class DayOfWeekCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FRIDAY = 'Friday';
-    const C_MONDAY = 'Monday';
-    const C_SATURDAY = 'Saturday';
-    const C_SUNDAY = 'Sunday';
-    const C_THURSDAY = 'Thursday';
-    const C_TUESDAY = 'Tuesday';
-    const C_WEDNESDAY = 'Wednesday';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FRIDAY = 'Friday';
+    public const C_MONDAY = 'Monday';
+    public const C_SATURDAY = 'Saturday';
+    public const C_SUNDAY = 'Sunday';
+    public const C_THURSDAY = 'Thursday';
+    public const C_TUESDAY = 'Tuesday';
+    public const C_WEDNESDAY = 'Wednesday';
 }

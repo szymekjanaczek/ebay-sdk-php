@@ -29,38 +29,38 @@ class FulfillmentStartInstruction extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ebaySupportedFulfillment'
+            'elementName' => 'ebaySupportedFulfillment',
         ],
         'finalDestinationAddress' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'finalDestinationAddress'
+            'elementName' => 'finalDestinationAddress',
         ],
         'fulfillmentInstructionsType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fulfillmentInstructionsType'
+            'elementName' => 'fulfillmentInstructionsType',
         ],
         'maxEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxEstimatedDeliveryDate'
+            'elementName' => 'maxEstimatedDeliveryDate',
         ],
         'minEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minEstimatedDeliveryDate'
+            'elementName' => 'minEstimatedDeliveryDate',
         ],
         'shippingStep' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\ShippingStep',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingStep'
-        ]
+            'elementName' => 'shippingStep',
+        ],
     ];
 
     /**

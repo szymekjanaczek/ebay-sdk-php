@@ -24,8 +24,8 @@ class FindSellerStandardsProfilesResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Analytics\Types\StandardsProfile',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'standardsProfiles'
-        ]
+            'elementName' => 'standardsProfiles',
+        ],
     ];
 
     /**

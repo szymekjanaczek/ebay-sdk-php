@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Browse\Enums;
 
 class RefundMethodEnum
 {
-    const C_MERCHANDISE_CREDIT = 'MERCHANDISE_CREDIT';
-    const C_MONEY_BACK = 'MONEY_BACK';
+    public const C_MERCHANDISE_CREDIT = 'MERCHANDISE_CREDIT';
+    public const C_MONEY_BACK = 'MONEY_BACK';
 }

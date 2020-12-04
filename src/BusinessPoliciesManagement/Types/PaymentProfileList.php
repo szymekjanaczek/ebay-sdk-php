@@ -24,8 +24,8 @@ class PaymentProfileList extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PaymentProfile'
-        ]
+            'elementName' => 'PaymentProfile',
+        ],
     ];
 
     /**

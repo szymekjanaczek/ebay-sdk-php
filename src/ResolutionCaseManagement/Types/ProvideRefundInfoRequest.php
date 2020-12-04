@@ -25,14 +25,14 @@ class ProvideRefundInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Typ
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'refundMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundMessage'
-        ]
+            'elementName' => 'refundMessage',
+        ],
     ];
 
     /**

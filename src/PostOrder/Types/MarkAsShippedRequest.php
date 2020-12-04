@@ -29,38 +29,38 @@ class MarkAsShippedRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierEnum'
+            'elementName' => 'carrierEnum',
         ],
         'carrierName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierName'
+            'elementName' => 'carrierName',
         ],
         'carrierUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierUsed'
+            'elementName' => 'carrierUsed',
         ],
         'comments' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
+            'elementName' => 'comments',
         ],
         'shippedDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippedDate'
+            'elementName' => 'shippedDate',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
-        ]
+            'elementName' => 'trackingNumber',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class CancelStatus extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelledDate'
+            'elementName' => 'cancelledDate',
         ],
         'cancelRequests' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\CancelRequest',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'cancelRequests'
+            'elementName' => 'cancelRequests',
         ],
         'cancelState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelState'
-        ]
+            'elementName' => 'cancelState',
+        ],
     ];
 
     /**

@@ -27,26 +27,26 @@ class RateTable extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'countryCode'
+            'elementName' => 'countryCode',
         ],
         'locality' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'locality'
+            'elementName' => 'locality',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'rateTableId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rateTableId'
-        ]
+            'elementName' => 'rateTableId',
+        ],
     ];
 
     /**

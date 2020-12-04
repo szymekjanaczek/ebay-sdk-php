@@ -24,8 +24,8 @@ class ReturnEligibilityErrorDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityErrorType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eligibilityError'
-        ]
+            'elementName' => 'eligibilityError',
+        ],
     ];
 
     /**

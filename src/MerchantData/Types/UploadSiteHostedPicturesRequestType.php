@@ -30,44 +30,44 @@ class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\MerchantData\Type
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureName'
+            'elementName' => 'PictureName',
         ],
         'PictureSystemVersion' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureSystemVersion'
+            'elementName' => 'PictureSystemVersion',
         ],
         'PictureSet' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureSet'
+            'elementName' => 'PictureSet',
         ],
         'PictureData' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\Base64BinaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureData'
+            'elementName' => 'PictureData',
         ],
         'PictureUploadPolicy' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PictureUploadPolicy'
+            'elementName' => 'PictureUploadPolicy',
         ],
         'ExternalPictureURL' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ExternalPictureURL'
+            'elementName' => 'ExternalPictureURL',
         ],
         'ExtensionInDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExtensionInDays'
-        ]
+            'elementName' => 'ExtensionInDays',
+        ],
     ];
 
     /**

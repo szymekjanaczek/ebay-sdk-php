@@ -25,14 +25,14 @@ class ItemizedReturnShippingCostType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'returnShippingCostType' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnShippingCostType'
-        ]
+            'elementName' => 'returnShippingCostType',
+        ],
     ];
 
     /**

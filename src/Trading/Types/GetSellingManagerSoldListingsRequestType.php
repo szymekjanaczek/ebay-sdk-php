@@ -31,50 +31,50 @@ class GetSellingManagerSoldListingsRequestType extends \DTS\eBaySDK\Trading\Type
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Search'
+            'elementName' => 'Search',
         ],
         'StoreCategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategoryID'
+            'elementName' => 'StoreCategoryID',
         ],
         'Filter' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Filter'
+            'elementName' => 'Filter',
         ],
         'Archived' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Archived'
+            'elementName' => 'Archived',
         ],
         'Sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Sort'
+            'elementName' => 'Sort',
         ],
         'SortOrder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SortOrder'
+            'elementName' => 'SortOrder',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'SaleDateRange' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleDateRange'
-        ]
+            'elementName' => 'SaleDateRange',
+        ],
     ];
 
     /**

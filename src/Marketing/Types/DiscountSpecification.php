@@ -28,32 +28,32 @@ class DiscountSpecification extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'forEachAmount'
+            'elementName' => 'forEachAmount',
         ],
         'forEachQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'forEachQuantity'
+            'elementName' => 'forEachQuantity',
         ],
         'minAmount' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minAmount'
+            'elementName' => 'minAmount',
         ],
         'minQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minQuantity'
+            'elementName' => 'minQuantity',
         ],
         'numberOfDiscountedItems' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'numberOfDiscountedItems'
-        ]
+            'elementName' => 'numberOfDiscountedItems',
+        ],
     ];
 
     /**

@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class GalleryTypeCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FEATURED = 'Featured';
-    const C_GALLERY = 'Gallery';
-    const C_NONE = 'None';
-    const C_PLUS = 'Plus';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FEATURED = 'Featured';
+    public const C_GALLERY = 'Gallery';
+    public const C_NONE = 'None';
+    public const C_PLUS = 'Plus';
 }

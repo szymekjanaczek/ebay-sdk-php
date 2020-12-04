@@ -25,14 +25,14 @@ class BotBlockRequestType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BotBlockToken'
+            'elementName' => 'BotBlockToken',
         ],
         'BotBlockUserInput' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BotBlockUserInput'
-        ]
+            'elementName' => 'BotBlockUserInput',
+        ],
     ];
 
     /**

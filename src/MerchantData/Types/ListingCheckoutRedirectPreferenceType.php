@@ -25,14 +25,14 @@ class ListingCheckoutRedirectPreferenceType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProStoresStoreName'
+            'elementName' => 'ProStoresStoreName',
         ],
         'SellerThirdPartyUsername' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerThirdPartyUsername'
-        ]
+            'elementName' => 'SellerThirdPartyUsername',
+        ],
     ];
 
     /**

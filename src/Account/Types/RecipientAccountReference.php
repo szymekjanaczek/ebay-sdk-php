@@ -25,14 +25,14 @@ class RecipientAccountReference extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'referenceId'
+            'elementName' => 'referenceId',
         ],
         'referenceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'referenceType'
-        ]
+            'elementName' => 'referenceType',
+        ],
     ];
 
     /**

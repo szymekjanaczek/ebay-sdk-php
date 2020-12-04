@@ -26,20 +26,20 @@ class ConditionListDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'all'
+            'elementName' => 'all',
         ],
         'isMultiple' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isMultiple'
+            'elementName' => 'isMultiple',
         ],
         'selected' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'selected'
-        ]
+            'elementName' => 'selected',
+        ],
     ];
 
     /**

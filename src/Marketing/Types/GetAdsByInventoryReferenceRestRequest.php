@@ -26,20 +26,20 @@ class GetAdsByInventoryReferenceRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_id'
+            'elementName' => 'campaign_id',
         ],
         'inventory_reference_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventory_reference_id'
+            'elementName' => 'inventory_reference_id',
         ],
         'inventory_reference_type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventory_reference_type'
-        ]
+            'elementName' => 'inventory_reference_type',
+        ],
     ];
 
     /**

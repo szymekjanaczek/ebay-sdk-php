@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SellingManagerAutomationPropertyTypeCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_ITEM_LIST_FAILED_AUTOMATION_RULES = 'ItemListFailedAutomationRules';
-    const C_ITEM_LIST_FAILED_SECOND_CHANCE_OFFER_AUTO_RULES = 'ItemListFailedSecondChanceOfferAutoRules';
-    const C_ITEM_RELIST_FAILED_AUTOMATION_RULES = 'ItemRelistFailedAutomationRules';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_ITEM_LIST_FAILED_AUTOMATION_RULES = 'ItemListFailedAutomationRules';
+    public const C_ITEM_LIST_FAILED_SECOND_CHANCE_OFFER_AUTO_RULES = 'ItemListFailedSecondChanceOfferAutoRules';
+    public const C_ITEM_RELIST_FAILED_AUTOMATION_RULES = 'ItemRelistFailedAutomationRules';
 }

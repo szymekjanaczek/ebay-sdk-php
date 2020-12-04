@@ -24,8 +24,8 @@ class VoluntaryRefundResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\VoluntaryRefundResult',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundResult'
-        ]
+            'elementName' => 'refundResult',
+        ],
     ];
 
     /**

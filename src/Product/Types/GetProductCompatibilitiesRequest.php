@@ -30,44 +30,44 @@ class GetProductCompatibilitiesRequest extends \DTS\eBaySDK\Product\Types\BaseSe
             'type' => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productIdentifier'
+            'elementName' => 'productIdentifier',
         ],
         'paginationInput' => [
             'type' => 'DTS\eBaySDK\Product\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
+            'elementName' => 'paginationInput',
         ],
         'applicationPropertyFilter' => [
             'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'applicationPropertyFilter'
+            'elementName' => 'applicationPropertyFilter',
         ],
         'dataset' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dataset'
+            'elementName' => 'dataset',
         ],
         'sortOrder' => [
             'type' => 'DTS\eBaySDK\Product\Types\CompatibilitySort',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'sortOrder'
+            'elementName' => 'sortOrder',
         ],
         'disabledProductFilter' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'disabledProductFilter'
+            'elementName' => 'disabledProductFilter',
         ],
         'datasetPropertyName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'datasetPropertyName'
-        ]
+            'elementName' => 'datasetPropertyName',
+        ],
     ];
 
     /**

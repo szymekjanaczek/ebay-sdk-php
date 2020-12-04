@@ -48,152 +48,152 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EstimatedDeliveryDate'
+            'elementName' => 'EstimatedDeliveryDate',
         ],
         'InsuredValue' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuredValue'
+            'elementName' => 'InsuredValue',
         ],
         'PackageDepth' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackageDepth'
+            'elementName' => 'PackageDepth',
         ],
         'PackageLength' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackageLength'
+            'elementName' => 'PackageLength',
         ],
         'PackageWidth' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackageWidth'
+            'elementName' => 'PackageWidth',
         ],
         'PayPalShipmentID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalShipmentID'
+            'elementName' => 'PayPalShipmentID',
         ],
         'ShipmentID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShipmentID'
+            'elementName' => 'ShipmentID',
         ],
         'PostageTotal' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PostageTotal'
+            'elementName' => 'PostageTotal',
         ],
         'PrintedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PrintedTime'
+            'elementName' => 'PrintedTime',
         ],
         'ShipFromAddress' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShipFromAddress'
+            'elementName' => 'ShipFromAddress',
         ],
         'ShippingAddress' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingAddress'
+            'elementName' => 'ShippingAddress',
         ],
         'ShippingFeature' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingFeature'
+            'elementName' => 'ShippingFeature',
         ],
         'ShippingPackage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingPackage'
+            'elementName' => 'ShippingPackage',
         ],
         'ShippingServiceUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceUsed'
+            'elementName' => 'ShippingServiceUsed',
         ],
         'WeightMajor' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WeightMajor'
+            'elementName' => 'WeightMajor',
         ],
         'WeightMinor' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WeightMinor'
+            'elementName' => 'WeightMinor',
         ],
         'ItemTransactionID' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemTransactionIDType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ItemTransactionID'
+            'elementName' => 'ItemTransactionID',
         ],
         'DeliveryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryDate'
+            'elementName' => 'DeliveryDate',
         ],
         'DeliveryStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeliveryStatus'
+            'elementName' => 'DeliveryStatus',
         ],
         'RefundGrantedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundGrantedTime'
+            'elementName' => 'RefundGrantedTime',
         ],
         'RefundRequestedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundRequestedTime'
+            'elementName' => 'RefundRequestedTime',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'ShippedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippedTime'
+            'elementName' => 'ShippedTime',
         ],
         'ShipmentTrackingDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShipmentTrackingDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShipmentTrackingDetails'
+            'elementName' => 'ShipmentTrackingDetails',
         ],
         'ShipmentLineItem' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShipmentLineItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShipmentLineItem'
-        ]
+            'elementName' => 'ShipmentLineItem',
+        ],
     ];
 
     /**

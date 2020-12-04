@@ -24,8 +24,8 @@ class PauseAPromotionRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotion_id'
-        ]
+            'elementName' => 'promotion_id',
+        ],
     ];
 
     /**

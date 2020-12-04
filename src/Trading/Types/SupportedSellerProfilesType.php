@@ -24,8 +24,8 @@ class SupportedSellerProfilesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\SupportedSellerProfileType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SupportedSellerProfile'
-        ]
+            'elementName' => 'SupportedSellerProfile',
+        ],
     ];
 
     /**

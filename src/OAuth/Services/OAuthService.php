@@ -1,23 +1,24 @@
 <?php
+
 namespace DTS\eBaySDK\OAuth\Services;
 
+use DTS\eBaySDK as Functions;
 use DTS\eBaySDK\ConfigurationResolver;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
 use DTS\eBaySDK\UriResolver;
-use \DTS\eBaySDK as Functions;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
 class OAuthService
 {
-    const API_VERSION = 'v1';
+    public const API_VERSION = 'v1';
 
     /**
      * @var array $endPoints The API endpoints.
      */
     private static $endPoints = [
-        'sandbox'    => 'https://api.sandbox.ebay.com/identity',
-        'production' => 'https://api.ebay.com/identity'
+        'sandbox' => 'https://api.sandbox.ebay.com/identity',
+        'production' => 'https://api.ebay.com/identity',
     ];
 
     /**
@@ -29,22 +30,22 @@ class OAuthService
             'resource' => 'oauth2/token',
             'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetUserTokenRestResponse',
             'params' => [
-            ]
+            ],
         ],
         'refreshUserToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
             'responseClass' => '\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse',
             'params' => [
-            ]
+            ],
         ],
         'getAppToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
             'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse',
             'params' => [
-            ]
-        ]
+            ],
+        ],
     ];
 
     /**
@@ -83,40 +84,40 @@ class OAuthService
             'apiVersion' => [
                 'valid' => ['string'],
                 'default' => \DTS\eBaySDK\OAuth\Services\OAuthService::API_VERSION,
-                'required' => true
+                'required' => true,
             ],
             'profile' => [
                 'valid' => ['string'],
-                'fn'    => 'DTS\eBaySDK\applyProfile',
+                'fn' => 'DTS\eBaySDK\applyProfile',
             ],
             'credentials' => [
-                'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
-                'fn'      => 'DTS\eBaySDK\applyCredentials',
-                'default' => [CredentialsProvider::class, 'defaultProvider']
+                'valid' => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
+                'fn' => 'DTS\eBaySDK\applyCredentials',
+                'default' => [CredentialsProvider::class, 'defaultProvider'],
             ],
             'debug' => [
-                'valid'   => ['bool', 'array'],
-                'fn'      => 'DTS\eBaySDK\applyDebug',
-                'default' => false
+                'valid' => ['bool', 'array'],
+                'fn' => 'DTS\eBaySDK\applyDebug',
+                'default' => false,
             ],
             'httpHandler' => [
-                'valid'   => ['callable'],
-                'default' => 'DTS\eBaySDK\defaultHttpHandler'
+                'valid' => ['callable'],
+                'default' => 'DTS\eBaySDK\defaultHttpHandler',
             ],
             'httpOptions' => [
-                'valid'   => ['array'],
+                'valid' => ['array'],
                 'default' => [
-                    'http_errors' => false
-                ]
+                    'http_errors' => false,
+                ],
             ],
             'ruName' => [
-                'valid'    => ['string'],
-                'required' => true
+                'valid' => ['string'],
+                'required' => true,
             ],
             'sandbox' => [
-                'valid'   => ['bool'],
-                'default' => false
-            ]
+                'valid' => ['bool'],
+                'default' => false,
+            ],
         ];
     }
 
@@ -181,15 +182,15 @@ class OAuthService
             : 'https://auth.ebay.com/oauth2/authorize?';
 
         $urlParams = [
-            'client_id'     => $this->getConfig('credentials')->getAppId(),
-            'redirect_uri'  => $this->getConfig('ruName'),
+            'client_id' => $this->getConfig('credentials')->getAppId(),
+            'redirect_uri' => $this->getConfig('ruName'),
             'response_type' => 'code',
-            'state'         => $params['state'],
-            'scope'         => implode(' ', $params['scope'])
+            'state' => $params['state'],
+            'scope' => implode(' ', $params['scope']),
 
         ];
 
-        return $url.http_build_query($urlParams, null, '&', PHP_QUERY_RFC3986);
+        return $url . http_build_query($urlParams, null, '&', PHP_QUERY_RFC3986);
     }
 
     /**
@@ -354,7 +355,7 @@ class OAuthService
      */
     private function buildRequestBody(array $request)
     {
-        $params = array_reduce(array_keys($request), function ($carry, $key) use($request) {
+        $params = array_reduce(array_keys($request), function ($carry, $key) use ($request) {
             $value = $request[$key];
             $carry[$key] = is_array($value) ? implode(' ', $value) : $value;
             return $carry;
@@ -379,7 +380,7 @@ class OAuthService
         $headers = [];
 
         $headers['Accept'] = 'application/json';
-        $headers['Authorization'] = 'Basic '.base64_encode($appId.':'.$certId);
+        $headers['Authorization'] = 'Basic ' . base64_encode($appId . ':' . $certId);
         $headers['Content-Type'] = 'application/x-www-form-urlencoded';
         $headers['Content-Length'] = strlen($body);
 
@@ -395,10 +396,10 @@ class OAuthService
       */
     private function debugRequest($url, array $headers, $body)
     {
-        $str = $url.PHP_EOL;
+        $str = $url . PHP_EOL;
 
         $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers) {
-            $str .= $key.': '.$headers[$key].PHP_EOL;
+            $str .= $key . ': ' . $headers[$key] . PHP_EOL;
             return $str;
         }, '');
 

@@ -28,32 +28,32 @@ class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'type' => 'DTS\eBaySDK\Trading\Types\OfferType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Offer'
+            'elementName' => 'Offer',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'BlockOnWarning' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BlockOnWarning'
+            'elementName' => 'BlockOnWarning',
         ],
         'AffiliateTrackingDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AffiliateTrackingDetails'
+            'elementName' => 'AffiliateTrackingDetails',
         ],
         'VariationSpecifics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecifics'
-        ]
+            'elementName' => 'VariationSpecifics',
+        ],
     ];
 
     /**

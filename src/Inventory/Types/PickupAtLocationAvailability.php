@@ -27,26 +27,26 @@ class PickupAtLocationAvailability extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'availabilityType'
+            'elementName' => 'availabilityType',
         ],
         'fulfillmentTime' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fulfillmentTime'
+            'elementName' => 'fulfillmentTime',
         ],
         'merchantLocationKey' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'merchantLocationKey'
+            'elementName' => 'merchantLocationKey',
         ],
         'quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantity'
-        ]
+            'elementName' => 'quantity',
+        ],
     ];
 
     /**

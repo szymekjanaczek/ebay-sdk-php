@@ -26,20 +26,20 @@ class FindCampaignByAdReferenceRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventory_reference_id'
+            'elementName' => 'inventory_reference_id',
         ],
         'inventory_reference_type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventory_reference_type'
+            'elementName' => 'inventory_reference_type',
         ],
         'listing_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listing_id'
-        ]
+            'elementName' => 'listing_id',
+        ],
     ];
 
     /**

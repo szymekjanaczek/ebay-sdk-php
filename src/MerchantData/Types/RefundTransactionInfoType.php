@@ -30,44 +30,44 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundStatus'
+            'elementName' => 'RefundStatus',
         ],
         'RefundType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundType'
+            'elementName' => 'RefundType',
         ],
         'RefundTo' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundTo'
+            'elementName' => 'RefundTo',
         ],
         'RefundTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundTime'
+            'elementName' => 'RefundTime',
         ],
         'RefundAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundAmount'
+            'elementName' => 'RefundAmount',
         ],
         'ReferenceID' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReferenceID'
+            'elementName' => 'ReferenceID',
         ],
         'FeeOrCreditAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeeOrCreditAmount'
-        ]
+            'elementName' => 'FeeOrCreditAmount',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class NotificationDetailsArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\NotificationDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NotificationDetails'
-        ]
+            'elementName' => 'NotificationDetails',
+        ],
     ];
 
     /**

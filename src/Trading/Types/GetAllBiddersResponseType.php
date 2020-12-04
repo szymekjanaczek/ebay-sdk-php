@@ -27,26 +27,26 @@ class GetAllBiddersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'type' => 'DTS\eBaySDK\Trading\Types\OfferArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidArray'
+            'elementName' => 'BidArray',
         ],
         'HighBidder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HighBidder'
+            'elementName' => 'HighBidder',
         ],
         'HighestBid' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HighestBid'
+            'elementName' => 'HighestBid',
         ],
         'ListingStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingStatus'
-        ]
+            'elementName' => 'ListingStatus',
+        ],
     ];
 
     /**

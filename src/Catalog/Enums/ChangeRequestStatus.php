@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Catalog\Enums;
 
 class ChangeRequestStatus
 {
-    const C_APPROVED = 'APPROVED';
-    const C_APPROVED_WITH_MODIFICATIONS = 'APPROVED_WITH_MODIFICATIONS';
-    const C_REJECTED = 'REJECTED';
-    const C_SUBMITTED = 'SUBMITTED';
-    const C_UNDER_EXTENDED_REVIEW = 'UNDER_EXTENDED_REVIEW';
-    const C_UNDER_REVIEW = 'UNDER_REVIEW';
+    public const C_APPROVED = 'APPROVED';
+    public const C_APPROVED_WITH_MODIFICATIONS = 'APPROVED_WITH_MODIFICATIONS';
+    public const C_REJECTED = 'REJECTED';
+    public const C_SUBMITTED = 'SUBMITTED';
+    public const C_UNDER_EXTENDED_REVIEW = 'UNDER_EXTENDED_REVIEW';
+    public const C_UNDER_REVIEW = 'UNDER_REVIEW';
 }

@@ -28,32 +28,32 @@ class SellingManagerTemplateDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateID'
+            'elementName' => 'SaleTemplateID',
         ],
         'SaleTemplateName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateName'
+            'elementName' => 'SaleTemplateName',
         ],
         'SuccessPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SuccessPercent'
+            'elementName' => 'SuccessPercent',
         ],
         'SellingManagerProductDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductDetails'
+            'elementName' => 'SellingManagerProductDetails',
         ],
         'Template' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Template'
-        ]
+            'elementName' => 'Template',
+        ],
     ];
 
     /**

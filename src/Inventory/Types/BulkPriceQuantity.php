@@ -24,8 +24,8 @@ class BulkPriceQuantity extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\PriceQuantity',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'requests'
-        ]
+            'elementName' => 'requests',
+        ],
     ];
 
     /**

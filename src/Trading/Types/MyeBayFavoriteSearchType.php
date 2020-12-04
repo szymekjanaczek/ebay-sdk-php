@@ -50,164 +50,164 @@ class MyeBayFavoriteSearchType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SearchName'
+            'elementName' => 'SearchName',
         ],
         'SearchQuery' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SearchQuery'
+            'elementName' => 'SearchQuery',
         ],
         'QueryKeywords' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QueryKeywords'
+            'elementName' => 'QueryKeywords',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'ItemSort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemSort'
+            'elementName' => 'ItemSort',
         ],
         'SortOrder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SortOrder'
+            'elementName' => 'SortOrder',
         ],
         'EndTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTimeFrom'
+            'elementName' => 'EndTimeFrom',
         ],
         'EndTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTimeTo'
+            'elementName' => 'EndTimeTo',
         ],
         'MaxDistance' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxDistance'
+            'elementName' => 'MaxDistance',
         ],
         'PostalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PostalCode'
+            'elementName' => 'PostalCode',
         ],
         'ItemType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemType'
+            'elementName' => 'ItemType',
         ],
         'PriceMax' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PriceMax'
+            'elementName' => 'PriceMax',
         ],
         'PriceMin' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PriceMin'
+            'elementName' => 'PriceMin',
         ],
         'Currency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Currency'
+            'elementName' => 'Currency',
         ],
         'BidCountMax' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidCountMax'
+            'elementName' => 'BidCountMax',
         ],
         'BidCountMin' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidCountMin'
+            'elementName' => 'BidCountMin',
         ],
         'SearchFlag' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SearchFlag'
+            'elementName' => 'SearchFlag',
         ],
         'PaymentMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentMethod'
+            'elementName' => 'PaymentMethod',
         ],
         'PreferredLocation' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PreferredLocation'
+            'elementName' => 'PreferredLocation',
         ],
         'SellerID' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SellerID'
+            'elementName' => 'SellerID',
         ],
         'SellerIDExclude' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SellerIDExclude'
+            'elementName' => 'SellerIDExclude',
         ],
         'ItemsAvailableTo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemsAvailableTo'
+            'elementName' => 'ItemsAvailableTo',
         ],
         'ItemsLocatedIn' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemsLocatedIn'
+            'elementName' => 'ItemsLocatedIn',
         ],
         'SellerBusinessType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerBusinessType'
+            'elementName' => 'SellerBusinessType',
         ],
         'Condition' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Condition'
+            'elementName' => 'Condition',
         ],
         'Quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Quantity'
+            'elementName' => 'Quantity',
         ],
         'QuantityOperator' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantityOperator'
-        ]
+            'elementName' => 'QuantityOperator',
+        ],
     ];
 
     /**

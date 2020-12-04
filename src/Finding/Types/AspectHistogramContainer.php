@@ -24,8 +24,8 @@ class AspectHistogramContainer extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Finding\Types\Aspect',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspect'
-        ]
+            'elementName' => 'aspect',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class ItemCompatibilityType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NameValueList'
+            'elementName' => 'NameValueList',
         ],
         'CompatibilityNotes' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CompatibilityNotes'
-        ]
+            'elementName' => 'CompatibilityNotes',
+        ],
     ];
 
     /**

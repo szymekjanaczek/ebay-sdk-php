@@ -29,38 +29,38 @@ class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GroupID'
+            'elementName' => 'GroupID',
         ],
         'ID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ID'
+            'elementName' => 'ID',
         ],
         'ImageURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ImageURL'
+            'elementName' => 'ImageURL',
         ],
         'Name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'TemplateXML' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TemplateXML'
+            'elementName' => 'TemplateXML',
         ],
         'Type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Type'
-        ]
+            'elementName' => 'Type',
+        ],
     ];
 
     /**

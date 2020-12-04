@@ -53,182 +53,182 @@ class OrderLineItemType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
+            'elementName' => 'OrderLineItemID',
         ],
         'TransactionTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionTime'
+            'elementName' => 'TransactionTime',
         ],
         'OriginalChargeTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OriginalChargeTime'
+            'elementName' => 'OriginalChargeTime',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'ItemTitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemTitle'
+            'elementName' => 'ItemTitle',
         ],
         'SerialNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SerialNumber'
+            'elementName' => 'SerialNumber',
         ],
         'SKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'GlobalCategoryDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GlobalCategoryDescription'
+            'elementName' => 'GlobalCategoryDescription',
         ],
         'SiteDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SiteDescription'
+            'elementName' => 'SiteDescription',
         ],
         'QuantitySold' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantitySold'
+            'elementName' => 'QuantitySold',
         ],
         'SalePrice' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SalePrice'
+            'elementName' => 'SalePrice',
         ],
         'TaxAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxAmount'
+            'elementName' => 'TaxAmount',
         ],
         'ShippingCost' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingCost'
+            'elementName' => 'ShippingCost',
         ],
         'TotalCost' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalCost'
+            'elementName' => 'TotalCost',
         ],
         'PaymentClearedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentClearedTime'
+            'elementName' => 'PaymentClearedTime',
         ],
         'InsuranceCost' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuranceCost'
+            'elementName' => 'InsuranceCost',
         ],
         'ListingSiteID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingSiteID'
+            'elementName' => 'ListingSiteID',
         ],
         'SaleTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTime'
+            'elementName' => 'SaleTime',
         ],
         'Memo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Memo'
+            'elementName' => 'Memo',
         ],
         'SecondDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SecondDescription'
+            'elementName' => 'SecondDescription',
         ],
         'FeeDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeeDescription'
+            'elementName' => 'FeeDescription',
         ],
         'FeeAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeeAmount'
+            'elementName' => 'FeeAmount',
         ],
         'SellingManagerSaleRecordID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerSaleRecordID'
+            'elementName' => 'SellingManagerSaleRecordID',
         ],
         'BuyerPaymentTransactionNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerPaymentTransactionNumber'
+            'elementName' => 'BuyerPaymentTransactionNumber',
         ],
         'Variation' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\MerchantDataVariationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Variation'
+            'elementName' => 'Variation',
         ],
         'TaxCategory' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxCategory'
+            'elementName' => 'TaxCategory',
         ],
         'Taxes' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\TaxesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Taxes'
+            'elementName' => 'Taxes',
         ],
         'Status' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'ActualShippingCost' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ActualShippingCost'
+            'elementName' => 'ActualShippingCost',
         ],
         'UnpaidItem' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\UnpaidItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnpaidItem'
-        ]
+            'elementName' => 'UnpaidItem',
+        ],
     ];
 
     /**

@@ -39,98 +39,98 @@ class SendInvoiceRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestT
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
+            'elementName' => 'TransactionID',
         ],
         'OrderID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderID'
+            'elementName' => 'OrderID',
         ],
         'InternationalShippingServiceOptions' => [
             'type' => 'DTS\eBaySDK\Trading\Types\InternationalShippingServiceOptionsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'InternationalShippingServiceOptions'
+            'elementName' => 'InternationalShippingServiceOptions',
         ],
         'ShippingServiceOptions' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingServiceOptions'
+            'elementName' => 'ShippingServiceOptions',
         ],
         'SalesTax' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SalesTaxType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SalesTax'
+            'elementName' => 'SalesTax',
         ],
         'InsuranceOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuranceOption'
+            'elementName' => 'InsuranceOption',
         ],
         'InsuranceFee' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuranceFee'
+            'elementName' => 'InsuranceFee',
         ],
         'PaymentMethods' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PaymentMethods'
+            'elementName' => 'PaymentMethods',
         ],
         'PayPalEmailAddress' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalEmailAddress'
+            'elementName' => 'PayPalEmailAddress',
         ],
         'CheckoutInstructions' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CheckoutInstructions'
+            'elementName' => 'CheckoutInstructions',
         ],
         'EmailCopyToSeller' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EmailCopyToSeller'
+            'elementName' => 'EmailCopyToSeller',
         ],
         'CODCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CODCost'
+            'elementName' => 'CODCost',
         ],
         'SKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
+            'elementName' => 'OrderLineItemID',
         ],
         'AdjustmentAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AdjustmentAmount'
-        ]
+            'elementName' => 'AdjustmentAmount',
+        ],
     ];
 
     /**

@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class RequestTypeEnum
 {
-    const C_CREATE = 'CREATE';
-    const C_REQUEST = 'REQUEST';
-    const C_UNKNOWN = 'UNKNOWN';
+    public const C_CREATE = 'CREATE';
+    public const C_REQUEST = 'REQUEST';
+    public const C_UNKNOWN = 'UNKNOWN';
 }

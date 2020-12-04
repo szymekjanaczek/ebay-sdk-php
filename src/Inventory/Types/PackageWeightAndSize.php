@@ -26,20 +26,20 @@ class PackageWeightAndSize extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\Dimension',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dimensions'
+            'elementName' => 'dimensions',
         ],
         'packageType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'packageType'
+            'elementName' => 'packageType',
         ],
         'weight' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Weight',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'weight'
-        ]
+            'elementName' => 'weight',
+        ],
     ];
 
     /**

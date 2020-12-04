@@ -29,38 +29,38 @@ class GetUserCasesRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\Ba
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemFilterType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemFilter'
+            'elementName' => 'itemFilter',
         ],
         'creationDateRangeFilter' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDateRangeFilter'
+            'elementName' => 'creationDateRangeFilter',
         ],
         'caseTypeFilter' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseTypeFilter'
+            'elementName' => 'caseTypeFilter',
         ],
         'caseStatusFilter' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseStatusFilter'
+            'elementName' => 'caseStatusFilter',
         ],
         'paginationInput' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
+            'elementName' => 'paginationInput',
         ],
         'sortOrder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortOrder'
-        ]
+            'elementName' => 'sortOrder',
+        ],
     ];
 
     /**

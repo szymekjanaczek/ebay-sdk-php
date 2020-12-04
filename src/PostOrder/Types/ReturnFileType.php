@@ -31,50 +31,50 @@ class ReturnFileType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'fileData' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileData'
+            'elementName' => 'fileData',
         ],
         'fileFormat' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileFormat'
+            'elementName' => 'fileFormat',
         ],
         'fileId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileId'
+            'elementName' => 'fileId',
         ],
         'filePurpose' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'filePurpose'
+            'elementName' => 'filePurpose',
         ],
         'fileStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileStatus'
+            'elementName' => 'fileStatus',
         ],
         'resizedFileData' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'resizedFileData'
+            'elementName' => 'resizedFileData',
         ],
         'submitter' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'submitter'
-        ]
+            'elementName' => 'submitter',
+        ],
     ];
 
     /**

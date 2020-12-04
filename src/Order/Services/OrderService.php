@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Order\Services;
 
 class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
 {
-    const API_VERSION = 'v1';
+    public const API_VERSION = 'v1';
 
     /**
      * @property array $operations Associative array of operations provided by the service.
@@ -25,16 +25,16 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'InitiateCheckoutSession' => [
             'method' => 'POST',
             'resource' => 'checkout_session/initiate',
             'responseClass' => '\DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestResponse',
             'params' => [
-            ]
+            ],
         ],
         'PlaceOrder' => [
             'method' => 'POST',
@@ -43,9 +43,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'UpdatePaymentInfo' => [
             'method' => 'POST',
@@ -54,9 +54,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'UpdateQuantityForLineItem' => [
             'method' => 'POST',
@@ -65,9 +65,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'UpdateShippingAddress' => [
             'method' => 'POST',
@@ -76,9 +76,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'UpdateShippingOption' => [
             'method' => 'POST',
@@ -87,9 +87,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetGuestCheckoutSession' => [
             'method' => 'GET',
@@ -98,16 +98,16 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'InitiateGuestCheckoutSession' => [
             'method' => 'POST',
             'resource' => 'guest_checkout_session/initiate',
             'responseClass' => '\DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestResponse',
             'params' => [
-            ]
+            ],
         ],
         'PlaceGuestOrder' => [
             'method' => 'POST',
@@ -116,9 +116,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'UpdateGuestLineItemQuantity' => [
             'method' => 'POST',
@@ -127,9 +127,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'UpdateGuestLineItemShippingAddress' => [
             'method' => 'POST',
@@ -138,9 +138,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'UpdateGuestPaymentInfo' => [
             'method' => 'POST',
@@ -149,9 +149,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'UpdateGuestShippingOption' => [
             'method' => 'POST',
@@ -160,9 +160,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetGuestPurchaseOrder' => [
             'method' => 'GET',
@@ -171,9 +171,9 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'purchaseOrderId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetPurchaseOrder' => [
             'method' => 'GET',
@@ -182,10 +182,10 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
             'params' => [
                 'purchaseOrderId' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
-        ]
+                    'required' => true,
+                ],
+            ],
+        ],
     ];
 
     /**

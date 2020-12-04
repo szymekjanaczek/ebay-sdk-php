@@ -28,32 +28,32 @@ class EstimatedRefundType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimatedAmount'
+            'elementName' => 'estimatedAmount',
         ],
         'maxAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxAmount'
+            'elementName' => 'maxAmount',
         ],
         'minAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minAmount'
+            'elementName' => 'minAmount',
         ],
         'refundFeeType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundFeeType'
+            'elementName' => 'refundFeeType',
         ],
         'restockingFeePercentage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'restockingFeePercentage'
-        ]
+            'elementName' => 'restockingFeePercentage',
+        ],
     ];
 
     /**

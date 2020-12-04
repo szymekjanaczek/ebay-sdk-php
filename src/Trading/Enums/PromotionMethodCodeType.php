@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class PromotionMethodCodeType
 {
-    const C_CROSS_SELL = 'CrossSell';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_UP_SELL = 'UpSell';
+    public const C_CROSS_SELL = 'CrossSell';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_UP_SELL = 'UpSell';
 }

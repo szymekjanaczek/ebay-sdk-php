@@ -24,8 +24,8 @@ class GetFulfillmentPoliciesByMarketplaceRestRequest extends \DTS\eBaySDK\Types\
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplace_id'
-        ]
+            'elementName' => 'marketplace_id',
+        ],
     ];
 
     /**

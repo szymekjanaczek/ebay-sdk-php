@@ -24,8 +24,8 @@ class GetSellingManagerEmailLogResponseType extends \DTS\eBaySDK\Trading\Types\A
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'EmailLog'
-        ]
+            'elementName' => 'EmailLog',
+        ],
     ];
 
     /**

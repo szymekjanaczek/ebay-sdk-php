@@ -25,14 +25,14 @@ class PaymentsInformationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\PaymentInformationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Payments'
+            'elementName' => 'Payments',
         ],
         'Refunds' => [
             'type' => 'DTS\eBaySDK\Trading\Types\RefundInformationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Refunds'
-        ]
+            'elementName' => 'Refunds',
+        ],
     ];
 
     /**

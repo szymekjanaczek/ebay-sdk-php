@@ -24,8 +24,8 @@ class AdReferences extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\AdReference',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ads'
-        ]
+            'elementName' => 'ads',
+        ],
     ];
 
     /**

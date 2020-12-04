@@ -26,20 +26,20 @@ class CreateAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bidPercentage'
+            'elementName' => 'bidPercentage',
         ],
         'inventoryReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceId'
+            'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceType'
-        ]
+            'elementName' => 'inventoryReferenceType',
+        ],
     ];
 
     /**

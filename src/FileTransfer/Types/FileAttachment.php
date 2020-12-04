@@ -25,14 +25,14 @@ class FileAttachment extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Size'
+            'elementName' => 'Size',
         ],
         'Data' => [
             'type' => 'DTS\eBaySDK\FileTransfer\Types\Data',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Data'
-        ]
+            'elementName' => 'Data',
+        ],
     ];
 
     /**

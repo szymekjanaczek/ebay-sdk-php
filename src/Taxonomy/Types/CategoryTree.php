@@ -27,26 +27,26 @@ class CategoryTree extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'applicableMarketplaceIds'
+            'elementName' => 'applicableMarketplaceIds',
         ],
         'categoryTreeId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeId'
+            'elementName' => 'categoryTreeId',
         ],
         'categoryTreeVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeVersion'
+            'elementName' => 'categoryTreeVersion',
         ],
         'rootCategoryNode' => [
             'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rootCategoryNode'
-        ]
+            'elementName' => 'rootCategoryNode',
+        ],
     ];
 
     /**

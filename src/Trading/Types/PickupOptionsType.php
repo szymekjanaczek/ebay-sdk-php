@@ -25,14 +25,14 @@ class PickupOptionsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupMethod'
+            'elementName' => 'PickupMethod',
         ],
         'PickupPriority' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupPriority'
-        ]
+            'elementName' => 'PickupPriority',
+        ],
     ];
 
     /**

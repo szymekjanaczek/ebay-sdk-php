@@ -24,8 +24,8 @@ class GetRecurringJobExecutionStatusResponse extends \DTS\eBaySDK\BulkDataExchan
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\JobProfile',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobProfile'
-        ]
+            'elementName' => 'jobProfile',
+        ],
     ];
 
     /**

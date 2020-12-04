@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Analytics\Enums;
 
 class DataTypeEnum
 {
-    const C_DATE = 'DATE';
-    const C_NUMBER = 'NUMBER';
-    const C_STRING = 'STRING';
+    public const C_DATE = 'DATE';
+    public const C_NUMBER = 'NUMBER';
+    public const C_STRING = 'STRING';
 }

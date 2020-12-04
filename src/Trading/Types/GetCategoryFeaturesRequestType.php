@@ -28,32 +28,32 @@ class GetCategoryFeaturesRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'LevelLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LevelLimit'
+            'elementName' => 'LevelLimit',
         ],
         'ViewAllNodes' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ViewAllNodes'
+            'elementName' => 'ViewAllNodes',
         ],
         'FeatureID' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FeatureID'
+            'elementName' => 'FeatureID',
         ],
         'AllFeaturesForCategory' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AllFeaturesForCategory'
-        ]
+            'elementName' => 'AllFeaturesForCategory',
+        ],
     ];
 
     /**

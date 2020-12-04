@@ -43,122 +43,122 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowBidderNoticePreferences'
+            'elementName' => 'ShowBidderNoticePreferences',
         ],
         'ShowCombinedPaymentPreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowCombinedPaymentPreferences'
+            'elementName' => 'ShowCombinedPaymentPreferences',
         ],
         'ShowSellerPaymentPreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowSellerPaymentPreferences'
+            'elementName' => 'ShowSellerPaymentPreferences',
         ],
         'ShowEndOfAuctionEmailPreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowEndOfAuctionEmailPreferences'
+            'elementName' => 'ShowEndOfAuctionEmailPreferences',
         ],
         'ShowSellerFavoriteItemPreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowSellerFavoriteItemPreferences'
+            'elementName' => 'ShowSellerFavoriteItemPreferences',
         ],
         'ShowEmailShipmentTrackingNumberPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowEmailShipmentTrackingNumberPreference'
+            'elementName' => 'ShowEmailShipmentTrackingNumberPreference',
         ],
         'ShowRequiredShipPhoneNumberPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowRequiredShipPhoneNumberPreference'
+            'elementName' => 'ShowRequiredShipPhoneNumberPreference',
         ],
         'ShowSellerExcludeShipToLocationPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowSellerExcludeShipToLocationPreference'
+            'elementName' => 'ShowSellerExcludeShipToLocationPreference',
         ],
         'ShowUnpaidItemAssistancePreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowUnpaidItemAssistancePreference'
+            'elementName' => 'ShowUnpaidItemAssistancePreference',
         ],
         'ShowPurchaseReminderEmailPreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowPurchaseReminderEmailPreferences'
+            'elementName' => 'ShowPurchaseReminderEmailPreferences',
         ],
         'ShowUnpaidItemAssistanceExclusionList' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowUnpaidItemAssistanceExclusionList'
+            'elementName' => 'ShowUnpaidItemAssistanceExclusionList',
         ],
         'ShowSellerProfilePreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowSellerProfilePreferences'
+            'elementName' => 'ShowSellerProfilePreferences',
         ],
         'ShowSellerReturnPreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowSellerReturnPreferences'
+            'elementName' => 'ShowSellerReturnPreferences',
         ],
         'ShowGlobalShippingProgramPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowGlobalShippingProgramPreference'
+            'elementName' => 'ShowGlobalShippingProgramPreference',
         ],
         'ShowDispatchCutoffTimePreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowDispatchCutoffTimePreferences'
+            'elementName' => 'ShowDispatchCutoffTimePreferences',
         ],
         'ShowGlobalShippingProgramListingPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowGlobalShippingProgramListingPreference'
+            'elementName' => 'ShowGlobalShippingProgramListingPreference',
         ],
         'ShowOverrideGSPServiceWithIntlServicePreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowOverrideGSPServiceWithIntlServicePreference'
+            'elementName' => 'ShowOverrideGSPServiceWithIntlServicePreference',
         ],
         'ShowPickupDropoffPreferences' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowPickupDropoffPreferences'
+            'elementName' => 'ShowPickupDropoffPreferences',
         ],
         'ShowOutOfStockControlPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShowOutOfStockControlPreference'
+            'elementName' => 'ShowOutOfStockControlPreference',
         ],
         'ShoweBayPLUSPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShoweBayPLUSPreference'
-        ]
+            'elementName' => 'ShoweBayPLUSPreference',
+        ],
     ];
 
     /**

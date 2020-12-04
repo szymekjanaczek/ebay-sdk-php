@@ -27,26 +27,26 @@ class SalesTaxType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SalesTaxPercent'
+            'elementName' => 'SalesTaxPercent',
         ],
         'SalesTaxState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SalesTaxState'
+            'elementName' => 'SalesTaxState',
         ],
         'ShippingIncludedInTax' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingIncludedInTax'
+            'elementName' => 'ShippingIncludedInTax',
         ],
         'SalesTaxAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SalesTaxAmount'
-        ]
+            'elementName' => 'SalesTaxAmount',
+        ],
     ];
 
     /**

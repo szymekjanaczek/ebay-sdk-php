@@ -24,8 +24,8 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RMARequired'
-        ]
+            'elementName' => 'RMARequired',
+        ],
     ];
 
     /**

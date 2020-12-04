@@ -25,14 +25,14 @@ class SetPromotionalSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Action'
+            'elementName' => 'Action',
         ],
         'PromotionalSaleDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PromotionalSaleType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PromotionalSaleDetails'
-        ]
+            'elementName' => 'PromotionalSaleDetails',
+        ],
     ];
 
     /**

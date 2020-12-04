@@ -25,14 +25,14 @@ class ShipToLocation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'country'
+            'elementName' => 'country',
         ],
         'postalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'postalCode'
-        ]
+            'elementName' => 'postalCode',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GeteBayDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReque
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DetailName'
-        ]
+            'elementName' => 'DetailName',
+        ],
     ];
 
     /**

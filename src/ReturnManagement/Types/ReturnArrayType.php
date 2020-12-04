@@ -24,8 +24,8 @@ class ReturnArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ReturnSummary'
-        ]
+            'elementName' => 'ReturnSummary',
+        ],
     ];
 
     /**

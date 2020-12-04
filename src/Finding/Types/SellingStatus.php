@@ -28,32 +28,32 @@ class SellingStatus extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'currentPrice'
+            'elementName' => 'currentPrice',
         ],
         'convertedCurrentPrice' => [
             'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'convertedCurrentPrice'
+            'elementName' => 'convertedCurrentPrice',
         ],
         'bidCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bidCount'
+            'elementName' => 'bidCount',
         ],
         'sellingState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellingState'
+            'elementName' => 'sellingState',
         ],
         'timeLeft' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'timeLeft'
-        ]
+            'elementName' => 'timeLeft',
+        ],
     ];
 
     /**

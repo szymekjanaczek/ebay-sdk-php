@@ -27,26 +27,26 @@ class DiscountPriceInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'originalRetailPrice'
+            'elementName' => 'originalRetailPrice',
         ],
         'pricingTreatment' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pricingTreatment'
+            'elementName' => 'pricingTreatment',
         ],
         'soldOnEbay' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'soldOnEbay'
+            'elementName' => 'soldOnEbay',
         ],
         'soldOffEbay' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'soldOffEbay'
-        ]
+            'elementName' => 'soldOffEbay',
+        ],
     ];
 
     /**

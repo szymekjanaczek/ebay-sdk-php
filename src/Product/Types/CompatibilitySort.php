@@ -25,14 +25,14 @@ class CompatibilitySort extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\SortOrder',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortOrder'
+            'elementName' => 'sortOrder',
         ],
         'sortPriority' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortPriority'
-        ]
+            'elementName' => 'sortPriority',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class ErrorMessage extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ErrorData',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'error'
-        ]
+            'elementName' => 'error',
+        ],
     ];
 
     /**

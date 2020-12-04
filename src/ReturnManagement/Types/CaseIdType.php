@@ -25,14 +25,14 @@ class CaseIdType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'id'
+            'elementName' => 'id',
         ],
         'type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
-        ]
+            'elementName' => 'type',
+        ],
     ];
 
     /**

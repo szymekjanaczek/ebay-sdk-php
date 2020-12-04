@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class PayPalAccountTypeCodeType
 {
-    const C_BUSINESS = 'Business';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_INVALID = 'Invalid';
-    const C_PERSONAL = 'Personal';
-    const C_PREMIER = 'Premier';
-    const C_UNKNOWN = 'Unknown';
+    public const C_BUSINESS = 'Business';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_INVALID = 'Invalid';
+    public const C_PERSONAL = 'Personal';
+    public const C_PREMIER = 'Premier';
+    public const C_UNKNOWN = 'Unknown';
 }

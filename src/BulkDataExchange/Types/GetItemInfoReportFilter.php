@@ -31,50 +31,50 @@ class GetItemInfoReportFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobAction'
+            'elementName' => 'jobAction',
         ],
         'filterType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'filterType'
+            'elementName' => 'filterType',
         ],
         'includeAttributes' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeAttributes'
+            'elementName' => 'includeAttributes',
         ],
         'includeDescription' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeDescription'
+            'elementName' => 'includeDescription',
         ],
         'reportDateFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reportDateFrom'
+            'elementName' => 'reportDateFrom',
         ],
         'reportDateTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reportDateTo'
+            'elementName' => 'reportDateTo',
         ],
         'timeFrame' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'timeFrame'
+            'elementName' => 'timeFrame',
         ],
         'changedFieldSelector' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'changedFieldSelector'
-        ]
+            'elementName' => 'changedFieldSelector',
+        ],
     ];
 
     /**

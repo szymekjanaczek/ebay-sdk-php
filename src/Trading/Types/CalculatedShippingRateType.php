@@ -28,32 +28,32 @@ class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OriginatingPostalCode'
+            'elementName' => 'OriginatingPostalCode',
         ],
         'MeasurementUnit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MeasurementUnit'
+            'elementName' => 'MeasurementUnit',
         ],
         'PackagingHandlingCosts' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PackagingHandlingCosts'
+            'elementName' => 'PackagingHandlingCosts',
         ],
         'ShippingIrregular' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingIrregular'
+            'elementName' => 'ShippingIrregular',
         ],
         'InternationalPackagingHandlingCosts' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InternationalPackagingHandlingCosts'
-        ]
+            'elementName' => 'InternationalPackagingHandlingCosts',
+        ],
     ];
 
     /**

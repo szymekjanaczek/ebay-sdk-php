@@ -24,8 +24,8 @@ class FindProductsByCompatibilityRequest extends \DTS\eBaySDK\Product\Types\Base
             'type' => 'DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productByCompatibilitySearch'
-        ]
+            'elementName' => 'productByCompatibilitySearch',
+        ],
     ];
 
     /**

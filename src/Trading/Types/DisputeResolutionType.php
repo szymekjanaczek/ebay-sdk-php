@@ -26,20 +26,20 @@ class DisputeResolutionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeResolutionRecordType'
+            'elementName' => 'DisputeResolutionRecordType',
         ],
         'DisputeResolutionReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeResolutionReason'
+            'elementName' => 'DisputeResolutionReason',
         ],
         'ResolutionTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ResolutionTime'
-        ]
+            'elementName' => 'ResolutionTime',
+        ],
     ];
 
     /**

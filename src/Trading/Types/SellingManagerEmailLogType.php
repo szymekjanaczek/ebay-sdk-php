@@ -27,26 +27,26 @@ class SellingManagerEmailLogType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EmailType'
+            'elementName' => 'EmailType',
         ],
         'CustomEmailName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CustomEmailName'
+            'elementName' => 'CustomEmailName',
         ],
         'EmailState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EmailState'
+            'elementName' => 'EmailState',
         ],
         'EventTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EventTime'
-        ]
+            'elementName' => 'EventTime',
+        ],
     ];
 
     /**

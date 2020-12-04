@@ -25,14 +25,14 @@ class DateFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startTime'
+            'elementName' => 'startTime',
         ],
         'endTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endTime'
-        ]
+            'elementName' => 'endTime',
+        ],
     ];
 
     /**

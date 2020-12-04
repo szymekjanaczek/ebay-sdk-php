@@ -27,26 +27,26 @@ class ShippingProfileDiscountInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domesticFlatCalcDiscountProfileId'
+            'elementName' => 'domesticFlatCalcDiscountProfileId',
         ],
         'intlFlatCalcDiscountProfileId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'intlFlatCalcDiscountProfileId'
+            'elementName' => 'intlFlatCalcDiscountProfileId',
         ],
         'applyDomesticPromoShippingProfile' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'applyDomesticPromoShippingProfile'
+            'elementName' => 'applyDomesticPromoShippingProfile',
         ],
         'applyIntlPromoShippingProfile' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'applyIntlPromoShippingProfile'
-        ]
+            'elementName' => 'applyIntlPromoShippingProfile',
+        ],
     ];
 
     /**

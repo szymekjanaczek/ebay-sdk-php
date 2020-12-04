@@ -26,20 +26,20 @@ class ReturnSnapshot extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lookbackPeriod'
+            'elementName' => 'lookbackPeriod',
         ],
         'returnedInventoryValue' => [
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnedInventoryValue'
+            'elementName' => 'returnedInventoryValue',
         ],
         'returnedQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnedQuantity'
-        ]
+            'elementName' => 'returnedQuantity',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class ActiveInventoryReportFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeListingType'
+            'elementName' => 'includeListingType',
         ],
         'fixedPriceItemDetails' => [
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\FixedPriceItemDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fixedPriceItemDetails'
+            'elementName' => 'fixedPriceItemDetails',
         ],
         'auctionItemDetails' => [
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\AuctionItemDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'auctionItemDetails'
-        ]
+            'elementName' => 'auctionItemDetails',
+        ],
     ];
 
     /**

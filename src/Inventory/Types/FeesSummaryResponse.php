@@ -24,8 +24,8 @@ class FeesSummaryResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\FeeSummary',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'feeSummaries'
-        ]
+            'elementName' => 'feeSummaries',
+        ],
     ];
 
     /**

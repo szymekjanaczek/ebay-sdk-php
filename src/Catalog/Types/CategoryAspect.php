@@ -27,26 +27,26 @@ class CategoryAspect extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectHelpText'
+            'elementName' => 'aspectHelpText',
         ],
         'constraint' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'constraint'
+            'elementName' => 'constraint',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'values' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\CategoryAspectValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'values'
-        ]
+            'elementName' => 'values',
+        ],
     ];
 
     /**

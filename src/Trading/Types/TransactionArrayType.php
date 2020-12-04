@@ -24,8 +24,8 @@ class TransactionArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Transaction'
-        ]
+            'elementName' => 'Transaction',
+        ],
     ];
 
     /**

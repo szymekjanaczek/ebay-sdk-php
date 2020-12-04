@@ -26,20 +26,20 @@ class GetShipmentTrackingRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrier_used'
+            'elementName' => 'carrier_used',
         ],
         'returnId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
+            'elementName' => 'returnId',
         ],
         'tracking_number' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'tracking_number'
-        ]
+            'elementName' => 'tracking_number',
+        ],
     ];
 
     /**

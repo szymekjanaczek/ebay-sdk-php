@@ -24,8 +24,8 @@ class TaxTableType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\TaxJurisdictionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'TaxJurisdiction'
-        ]
+            'elementName' => 'TaxJurisdiction',
+        ],
     ];
 
     /**

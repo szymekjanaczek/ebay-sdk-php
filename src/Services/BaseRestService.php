@@ -1,10 +1,11 @@
 <?php
+
 namespace DTS\eBaySDK\Services;
 
-use DTS\eBaySDK\Parser\JsonParser;
+use DTS\eBaySDK as Functions;
 use DTS\eBaySDK\ConfigurationResolver;
+use DTS\eBaySDK\Parser\JsonParser;
 use DTS\eBaySDK\UriResolver;
-use \DTS\eBaySDK as Functions;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -16,17 +17,17 @@ abstract class BaseRestService
     /**
      * HTTP header constant. Describes the natural language provided in the field values of the request payload.
      */
-    const HDR_REQUEST_LANGUAGE = 'Content-Language';
+    public const HDR_REQUEST_LANGUAGE = 'Content-Language';
 
     /**
      * HTTP header constant. Tells the server the natural language in which the client desires the response.
      */
-    const HDR_RESPONSE_LANGUAGE = 'Accept-Language';
+    public const HDR_RESPONSE_LANGUAGE = 'Accept-Language';
 
     /**
      * HTTP header constant. Tells the server the encoding in which the client desires the response.
      */
-    const HDR_RESPONSE_ENCODING = 'Accept-Encoding';
+    public const HDR_RESPONSE_ENCODING = 'Accept-Encoding';
 
     /**
      * @var \DTS\eBaySDK\ConfigurationResolver Resolves configuration options.
@@ -62,34 +63,34 @@ abstract class BaseRestService
     {
         return [
             'compressResponse' => [
-                'valid'   => ['bool'],
-                'default' => false
+                'valid' => ['bool'],
+                'default' => false,
             ],
             'debug' => [
-                'valid'   => ['bool', 'array'],
-                'fn'      => 'DTS\eBaySDK\applyDebug',
-                'default' => false
+                'valid' => ['bool', 'array'],
+                'fn' => 'DTS\eBaySDK\applyDebug',
+                'default' => false,
             ],
             'httpHandler' => [
-                'valid'   => ['callable'],
-                'default' => 'DTS\eBaySDK\defaultHttpHandler'
+                'valid' => ['callable'],
+                'default' => 'DTS\eBaySDK\defaultHttpHandler',
             ],
             'httpOptions' => [
-                'valid'   => ['array'],
+                'valid' => ['array'],
                 'default' => [
-                    'http_errors' => false
-                ]
+                    'http_errors' => false,
+                ],
             ],
             'requestLanguage' => [
-                'valid' => ['string']
+                'valid' => ['string'],
             ],
             'responseLanguage' => [
-                'valid' => ['string']
+                'valid' => ['string'],
             ],
             'sandbox' => [
-                'valid'   => ['bool'],
-                'default' => false
-            ]
+                'valid' => ['bool'],
+                'default' => false,
+            ],
         ];
     }
 
@@ -173,7 +174,7 @@ abstract class BaseRestService
                     $this->debugResponse($json);
                 }
 
-                $response =  new $responseClass(
+                $response = new $responseClass(
                     [],
                     $res->getStatusCode(),
                     $res->getHeaders()
@@ -255,10 +256,10 @@ abstract class BaseRestService
       */
     private function debugRequest($url, array $headers, $body)
     {
-        $str = $url.PHP_EOL;
+        $str = $url . PHP_EOL;
 
         $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers) {
-            $str .= $key.': '.$headers[$key].PHP_EOL;
+            $str .= $key . ': ' . $headers[$key] . PHP_EOL;
             return $str;
         }, '');
 

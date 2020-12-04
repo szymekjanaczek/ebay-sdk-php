@@ -30,44 +30,44 @@ class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'type' => 'DTS\eBaySDK\Trading\Types\SearchStandingDashboardType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SearchStanding'
+            'elementName' => 'SearchStanding',
         ],
         'SellerFeeDiscount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerFeeDiscount'
+            'elementName' => 'SellerFeeDiscount',
         ],
         'PowerSellerStatus' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PowerSellerDashboardType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PowerSellerStatus'
+            'elementName' => 'PowerSellerStatus',
         ],
         'PolicyCompliance' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PolicyCompliance'
+            'elementName' => 'PolicyCompliance',
         ],
         'BuyerSatisfaction' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerSatisfaction'
+            'elementName' => 'BuyerSatisfaction',
         ],
         'SellerAccount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellerAccountDashboardType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerAccount'
+            'elementName' => 'SellerAccount',
         ],
         'Performance' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PerformanceDashboardType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Performance'
-        ]
+            'elementName' => 'Performance',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class CloseInquiryRestRequest extends \DTS\eBaySDK\PostOrder\Types\BuyerCloseInq
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryId'
-        ]
+            'elementName' => 'inquiryId',
+        ],
     ];
 
     /**

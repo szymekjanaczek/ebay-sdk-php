@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class PictureSourceCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_EPS = 'EPS';
-    const C_PICTURE_MANAGER = 'PictureManager';
-    const C_VENDOR = 'Vendor';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_EPS = 'EPS';
+    public const C_PICTURE_MANAGER = 'PictureManager';
+    public const C_VENDOR = 'Vendor';
 }

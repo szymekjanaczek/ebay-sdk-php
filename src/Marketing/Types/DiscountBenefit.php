@@ -27,26 +27,26 @@ class DiscountBenefit extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amountOffItem'
+            'elementName' => 'amountOffItem',
         ],
         'amountOffOrder' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amountOffOrder'
+            'elementName' => 'amountOffOrder',
         ],
         'percentageOffItem' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'percentageOffItem'
+            'elementName' => 'percentageOffItem',
         ],
         'percentageOffOrder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'percentageOffOrder'
-        ]
+            'elementName' => 'percentageOffOrder',
+        ],
     ];
 
     /**

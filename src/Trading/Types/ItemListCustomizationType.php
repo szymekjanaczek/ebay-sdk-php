@@ -30,44 +30,44 @@ class ItemListCustomizationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Include'
+            'elementName' => 'Include',
         ],
         'ListingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingType'
+            'elementName' => 'ListingType',
         ],
         'Sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Sort'
+            'elementName' => 'Sort',
         ],
         'DurationInDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DurationInDays'
+            'elementName' => 'DurationInDays',
         ],
         'IncludeNotes' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeNotes'
+            'elementName' => 'IncludeNotes',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'OrderStatusFilter' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderStatusFilter'
-        ]
+            'elementName' => 'OrderStatusFilter',
+        ],
     ];
 
     /**

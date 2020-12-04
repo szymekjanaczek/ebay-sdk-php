@@ -24,8 +24,8 @@ class FeeSettlementReportFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startTime'
-        ]
+            'elementName' => 'startTime',
+        ],
     ];
 
     /**

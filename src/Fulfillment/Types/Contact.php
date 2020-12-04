@@ -27,26 +27,26 @@ class Contact extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'companyName'
+            'elementName' => 'companyName',
         ],
         'contactAddress' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'contactAddress'
+            'elementName' => 'contactAddress',
         ],
         'fullName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fullName'
+            'elementName' => 'fullName',
         ],
         'primaryPhone' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\PhoneNumber',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'primaryPhone'
-        ]
+            'elementName' => 'primaryPhone',
+        ],
     ];
 
     /**

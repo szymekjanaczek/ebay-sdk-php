@@ -24,8 +24,8 @@ class GetReturnPoliciesByMarketplaceRestRequest extends \DTS\eBaySDK\Types\BaseT
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplace_id'
-        ]
+            'elementName' => 'marketplace_id',
+        ],
     ];
 
     /**

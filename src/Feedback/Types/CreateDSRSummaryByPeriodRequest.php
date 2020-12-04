@@ -25,14 +25,14 @@ class CreateDSRSummaryByPeriodRequest extends \DTS\eBaySDK\Feedback\Types\BaseSe
             'type' => 'DTS\eBaySDK\Feedback\Types\DateRange',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dateRange'
+            'elementName' => 'dateRange',
         ],
         'dateRangeEventType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dateRangeEventType'
-        ]
+            'elementName' => 'dateRangeEventType',
+        ],
     ];
 
     /**

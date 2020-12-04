@@ -24,8 +24,8 @@ class PropertyNameMetadata extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'displaySequence'
-        ]
+            'elementName' => 'displaySequence',
+        ],
     ];
 
     /**

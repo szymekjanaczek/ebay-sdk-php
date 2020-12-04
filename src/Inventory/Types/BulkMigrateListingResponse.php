@@ -24,8 +24,8 @@ class BulkMigrateListingResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\MigrateListingResponse',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'responses'
-        ]
+            'elementName' => 'responses',
+        ],
     ];
 
     /**

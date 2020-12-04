@@ -24,8 +24,8 @@ class BulkPriceQuantityResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\PriceQuantityResponse',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'responses'
-        ]
+            'elementName' => 'responses',
+        ],
     ];
 
     /**

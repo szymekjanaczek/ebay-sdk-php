@@ -25,14 +25,14 @@ class RentalAmount extends \DTS\eBaySDK\Types\DoubleType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'duration'
+            'attributeName' => 'duration',
         ],
         'currencyId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'currencyId'
-        ]
+            'attributeName' => 'currencyId',
+        ],
     ];
 
     /**

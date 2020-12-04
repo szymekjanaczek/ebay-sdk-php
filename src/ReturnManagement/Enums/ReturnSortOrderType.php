@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 
 class ReturnSortOrderType
 {
-    const C_ASCENDING = 'Ascending';
-    const C_DESCENDING = 'Descending';
+    public const C_ASCENDING = 'Ascending';
+    public const C_DESCENDING = 'Descending';
 }

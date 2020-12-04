@@ -26,20 +26,20 @@ class SaveItemToSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\T
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'ProductID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductID'
+            'elementName' => 'ProductID',
         ],
         'TemplateName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TemplateName'
-        ]
+            'elementName' => 'TemplateName',
+        ],
     ];
 
     /**

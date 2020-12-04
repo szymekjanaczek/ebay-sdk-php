@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Order\Services;
 
 /**
@@ -10,24 +11,24 @@ class OrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
      * @var array $endPoints The API endpoints.
      */
     protected static $endPoints = [
-        'sandbox'    => 'https://api.sandbox.ebay.com/buy/order',
-        'production' => 'https://apix.ebay.com/buy/order'
+        'sandbox' => 'https://api.sandbox.ebay.com/buy/order',
+        'production' => 'https://apix.ebay.com/buy/order',
     ];
 
     /**
      * HTTP header constant. The Authentication Token that is used to validate the caller has permission to access the eBay servers.
      */
-    const HDR_AUTHORIZATION = 'Authorization';
+    public const HDR_AUTHORIZATION = 'Authorization';
 
     /**
      * HTTP header constant. The global ID of the eBay site on which the transaction took place.
      */
-    const HDR_MARKETPLACE_ID = 'X-EBAY-C-MARKETPLACE-ID';
+    public const HDR_MARKETPLACE_ID = 'X-EBAY-C-MARKETPLACE-ID';
 
     /**
      * HTTP header constant. This header specifies the risk correlation ID, which is provided by a security software library.
      */
-    const HDR_END_USER_CTX = 'X-EBAY-C-ENDUSERCTX';
+    public const HDR_END_USER_CTX = 'X-EBAY-C-ENDUSERCTX';
 
     /**
      * @param array $config Configuration option values.
@@ -50,18 +51,18 @@ class OrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
             'apiVersion' => [
                 'valid' => ['string'],
                 'default' => \DTS\eBaySDK\Order\Services\OrderService::API_VERSION,
-                'required' => true
+                'required' => true,
             ],
             'authorization' => [
                 'valid' => ['string'],
-                'required' => true
+                'required' => true,
             ],
             'marketplaceId' => [
-                'valid' => ['string']
+                'valid' => ['string'],
             ],
             'riskCorrelationId' => [
-                'valid' => ['string']
-            ]
+                'valid' => ['string'],
+            ],
         ];
     }
 
@@ -75,7 +76,7 @@ class OrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_AUTHORIZATION] = 'Bearer '.$this->getConfig('authorization');
+        $headers[self::HDR_AUTHORIZATION] = 'Bearer ' . $this->getConfig('authorization');
 
         // Add optional headers.
         if ($this->getConfig('marketplaceId')) {
@@ -83,7 +84,7 @@ class OrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
         }
 
         if ($this->getConfig('riskCorrelationId')) {
-            $headers[self::HDR_END_USER_CTX ] = 'deviceId='.$this->getConfig('riskCorrelationId');
+            $headers[self::HDR_END_USER_CTX ] = 'deviceId=' . $this->getConfig('riskCorrelationId');
         }
 
         return $headers;

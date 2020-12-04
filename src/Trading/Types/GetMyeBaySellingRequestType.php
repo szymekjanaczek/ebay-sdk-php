@@ -31,50 +31,50 @@ class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ScheduledList'
+            'elementName' => 'ScheduledList',
         ],
         'ActiveList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ActiveList'
+            'elementName' => 'ActiveList',
         ],
         'SoldList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SoldList'
+            'elementName' => 'SoldList',
         ],
         'UnsoldList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnsoldList'
+            'elementName' => 'UnsoldList',
         ],
         'DeletedFromSoldList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeletedFromSoldList'
+            'elementName' => 'DeletedFromSoldList',
         ],
         'DeletedFromUnsoldList' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeletedFromUnsoldList'
+            'elementName' => 'DeletedFromUnsoldList',
         ],
         'SellingSummary' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingSummary'
+            'elementName' => 'SellingSummary',
         ],
         'HideVariations' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HideVariations'
-        ]
+            'elementName' => 'HideVariations',
+        ],
     ];
 
     /**

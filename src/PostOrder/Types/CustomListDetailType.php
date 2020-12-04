@@ -27,26 +27,26 @@ class CustomListDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDataType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'listData'
+            'elementName' => 'listData',
         ],
         'listId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listId'
+            'elementName' => 'listId',
         ],
         'listName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listName'
+            'elementName' => 'listName',
         ],
         'listType' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listType'
-        ]
+            'elementName' => 'listType',
+        ],
     ];
 
     /**

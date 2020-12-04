@@ -24,8 +24,8 @@ class GetCharitiesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespon
             'type' => 'DTS\eBaySDK\Trading\Types\CharityInfoType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Charity'
-        ]
+            'elementName' => 'Charity',
+        ],
     ];
 
     /**

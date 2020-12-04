@@ -12,12 +12,12 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class ReturnCountFilterEnum
 {
-    const C_ALL_OPEN = 'ALL_OPEN';
-    const C_ALL_OPEN_REPLACEMENT = 'ALL_OPEN_REPLACEMENT';
-    const C_ALL_OPEN_RETURN = 'ALL_OPEN_RETURN';
-    const C_CLOSED = 'CLOSED';
-    const C_ITEM_DELIVERED = 'ITEM_DELIVERED';
-    const C_ITEM_SHIPPED = 'ITEM_SHIPPED';
-    const C_RETURN_STARTED = 'RETURN_STARTED';
-    const C_UNKNOWN = 'UNKNOWN';
+    public const C_ALL_OPEN = 'ALL_OPEN';
+    public const C_ALL_OPEN_REPLACEMENT = 'ALL_OPEN_REPLACEMENT';
+    public const C_ALL_OPEN_RETURN = 'ALL_OPEN_RETURN';
+    public const C_CLOSED = 'CLOSED';
+    public const C_ITEM_DELIVERED = 'ITEM_DELIVERED';
+    public const C_ITEM_SHIPPED = 'ITEM_SHIPPED';
+    public const C_RETURN_STARTED = 'RETURN_STARTED';
+    public const C_UNKNOWN = 'UNKNOWN';
 }

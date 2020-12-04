@@ -26,20 +26,20 @@ class ProvidedPaymentInstrument extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\PaymentInstrumentReference',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentInstrumentReference'
+            'elementName' => 'paymentInstrumentReference',
         ],
         'paymentMethodBrand' => [
             'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMethodBrand'
+            'elementName' => 'paymentMethodBrand',
         ],
         'paymentMethodType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMethodType'
-        ]
+            'elementName' => 'paymentMethodType',
+        ],
     ];
 
     /**

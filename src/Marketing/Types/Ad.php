@@ -28,32 +28,32 @@ class Ad extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'adId'
+            'elementName' => 'adId',
         ],
         'bidPercentage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bidPercentage'
+            'elementName' => 'bidPercentage',
         ],
         'inventoryReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceId'
+            'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceType'
+            'elementName' => 'inventoryReferenceType',
         ],
         'listingId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingId'
-        ]
+            'elementName' => 'listingId',
+        ],
     ];
 
     /**

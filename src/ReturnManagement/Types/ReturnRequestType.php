@@ -26,20 +26,20 @@ class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnItemType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'returnItem'
+            'elementName' => 'returnItem',
         ],
         'returnReason' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnReason'
+            'elementName' => 'returnReason',
         ],
         'comments' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
-        ]
+            'elementName' => 'comments',
+        ],
     ];
 
     /**

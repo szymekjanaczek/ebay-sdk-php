@@ -24,8 +24,8 @@ class DeleteSpecificReportTaskRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'report_task_id'
-        ]
+            'elementName' => 'report_task_id',
+        ],
     ];
 
     /**

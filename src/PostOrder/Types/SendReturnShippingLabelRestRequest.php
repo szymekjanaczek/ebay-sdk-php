@@ -25,14 +25,14 @@ class SendReturnShippingLabelRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'return_id'
+            'elementName' => 'return_id',
         ],
         'to_email_address' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'to_email_address'
-        ]
+            'elementName' => 'to_email_address',
+        ],
     ];
 
     /**

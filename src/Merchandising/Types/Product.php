@@ -31,50 +31,50 @@ class Product extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Merchandising\Types\ProductId',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productId'
+            'elementName' => 'productId',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
+            'elementName' => 'title',
         ],
         'productURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productURL'
+            'elementName' => 'productURL',
         ],
         'catalogName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'catalogName'
+            'elementName' => 'catalogName',
         ],
         'imageURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'imageURL'
+            'elementName' => 'imageURL',
         ],
         'reviewCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reviewCount'
+            'elementName' => 'reviewCount',
         ],
         'priceRangeMin' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priceRangeMin'
+            'elementName' => 'priceRangeMin',
         ],
         'priceRangeMax' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priceRangeMax'
-        ]
+            'elementName' => 'priceRangeMax',
+        ],
     ];
 
     /**

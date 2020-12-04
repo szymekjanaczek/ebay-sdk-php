@@ -26,20 +26,20 @@ class StoreThemeType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ThemeID'
+            'elementName' => 'ThemeID',
         ],
         'Name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'ColorScheme' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ColorScheme'
-        ]
+            'elementName' => 'ColorScheme',
+        ],
     ];
 
     /**

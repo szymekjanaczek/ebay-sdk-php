@@ -29,38 +29,38 @@ class CreateDSRSummaryByShippingDetailRequest extends \DTS\eBaySDK\Feedback\Type
             'type' => 'DTS\eBaySDK\Feedback\Types\DateRange',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dateRange'
+            'elementName' => 'dateRange',
         ],
         'dateRangeEventType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dateRangeEventType'
+            'elementName' => 'dateRangeEventType',
         ],
         'shippingCostType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCostType'
+            'elementName' => 'shippingCostType',
         ],
         'shippingDestinationType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingDestinationType'
+            'elementName' => 'shippingDestinationType',
         ],
         'shipToCountry' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shipToCountry'
+            'elementName' => 'shipToCountry',
         ],
         'shippingService' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shippingService'
-        ]
+            'elementName' => 'shippingService',
+        ],
     ];
 
     /**

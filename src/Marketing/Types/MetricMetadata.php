@@ -25,14 +25,14 @@ class MetricMetadata extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataType'
+            'elementName' => 'dataType',
         ],
         'metricKey' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'metricKey'
-        ]
+            'elementName' => 'metricKey',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class MessageMediaType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MediaURL'
+            'elementName' => 'MediaURL',
         ],
         'MediaName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MediaName'
-        ]
+            'elementName' => 'MediaName',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class PaymentInformationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\PaymentTransactionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Payment'
-        ]
+            'elementName' => 'Payment',
+        ],
     ];
 
     /**

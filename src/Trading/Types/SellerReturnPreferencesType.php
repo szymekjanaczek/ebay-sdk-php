@@ -24,8 +24,8 @@ class SellerReturnPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OptedIn'
-        ]
+            'elementName' => 'OptedIn',
+        ],
     ];
 
     /**

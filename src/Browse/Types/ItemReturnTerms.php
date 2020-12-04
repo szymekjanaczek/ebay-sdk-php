@@ -31,50 +31,50 @@ class ItemReturnTerms extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'extendedHolidayReturnsOffered'
+            'elementName' => 'extendedHolidayReturnsOffered',
         ],
         'refundMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundMethod'
+            'elementName' => 'refundMethod',
         ],
         'restockingFeePercentage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'restockingFeePercentage'
+            'elementName' => 'restockingFeePercentage',
         ],
         'returnInstructions' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnInstructions'
+            'elementName' => 'returnInstructions',
         ],
         'returnMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnMethod'
+            'elementName' => 'returnMethod',
         ],
         'returnPeriod' => [
             'type' => 'DTS\eBaySDK\Browse\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPeriod'
+            'elementName' => 'returnPeriod',
         ],
         'returnsAccepted' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnsAccepted'
+            'elementName' => 'returnsAccepted',
         ],
         'returnShippingCostPayer' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnShippingCostPayer'
-        ]
+            'elementName' => 'returnShippingCostPayer',
+        ],
     ];
 
     /**

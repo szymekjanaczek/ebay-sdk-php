@@ -29,38 +29,38 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'StartPrice' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartPrice'
+            'elementName' => 'StartPrice',
         ],
         'Quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Quantity'
+            'elementName' => 'Quantity',
         ],
         'VariationSpecifics' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'VariationSpecifics'
+            'elementName' => 'VariationSpecifics',
         ],
         'SellingStatus' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingStatus'
+            'elementName' => 'SellingStatus',
         ],
         'DiscountPriceInfo' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\DiscountPriceInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DiscountPriceInfo'
-        ]
+            'elementName' => 'DiscountPriceInfo',
+        ],
     ];
 
     /**

@@ -31,50 +31,50 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'baseDeliveryCost'
+            'elementName' => 'baseDeliveryCost',
         ],
         'deliveryDiscount' => [
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryDiscount'
+            'elementName' => 'deliveryDiscount',
         ],
         'maxEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxEstimatedDeliveryDate'
+            'elementName' => 'maxEstimatedDeliveryDate',
         ],
         'minEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minEstimatedDeliveryDate'
+            'elementName' => 'minEstimatedDeliveryDate',
         ],
         'selected' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'selected'
+            'elementName' => 'selected',
         ],
         'shippingCarrierCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCarrierCode'
+            'elementName' => 'shippingCarrierCode',
         ],
         'shippingOptionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingOptionId'
+            'elementName' => 'shippingOptionId',
         ],
         'shippingServiceCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingServiceCode'
-        ]
+            'elementName' => 'shippingServiceCode',
+        ],
     ];
 
     /**

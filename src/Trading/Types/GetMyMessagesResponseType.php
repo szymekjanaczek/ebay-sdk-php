@@ -25,14 +25,14 @@ class GetMyMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Summary'
+            'elementName' => 'Summary',
         ],
         'Messages' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Messages'
-        ]
+            'elementName' => 'Messages',
+        ],
     ];
 
     /**

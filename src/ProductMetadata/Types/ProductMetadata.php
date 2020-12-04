@@ -26,20 +26,20 @@ class ProductMetadata extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyMetadata',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'propertyMetadata'
+            'elementName' => 'propertyMetadata',
         ],
         'groupProperties' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\GroupProperties',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'groupProperties'
+            'elementName' => 'groupProperties',
         ],
         'productMetadataVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productMetadataVersion'
-        ]
+            'elementName' => 'productMetadataVersion',
+        ],
     ];
 
     /**

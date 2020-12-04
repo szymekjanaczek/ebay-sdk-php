@@ -35,74 +35,74 @@ class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ValueType'
+            'elementName' => 'ValueType',
         ],
         'MinValues' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinValues'
+            'elementName' => 'MinValues',
         ],
         'MaxValues' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxValues'
+            'elementName' => 'MaxValues',
         ],
         'SelectionMode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SelectionMode'
+            'elementName' => 'SelectionMode',
         ],
         'AspectUsage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AspectUsage'
+            'elementName' => 'AspectUsage',
         ],
         'MaxValueLength' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxValueLength'
+            'elementName' => 'MaxValueLength',
         ],
         'ProductRequired' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductRequired'
+            'elementName' => 'ProductRequired',
         ],
         'Confidence' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Confidence'
+            'elementName' => 'Confidence',
         ],
         'Relationship' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueRelationshipType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Relationship'
+            'elementName' => 'Relationship',
         ],
         'VariationPicture' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationPicture'
+            'elementName' => 'VariationPicture',
         ],
         'VariationSpecifics' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecifics'
+            'elementName' => 'VariationSpecifics',
         ],
         'ValueFormat' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ValueFormat'
-        ]
+            'elementName' => 'ValueFormat',
+        ],
     ];
 
     /**

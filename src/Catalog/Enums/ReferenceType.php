@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Catalog\Enums;
 
 class ReferenceType
 {
-    const C_INVENTORY_ITEM = 'INVENTORY_ITEM';
-    const C_LISTING = 'LISTING';
-    const C_LISTING_DRAFT = 'LISTING_DRAFT';
+    public const C_INVENTORY_ITEM = 'INVENTORY_ITEM';
+    public const C_LISTING = 'LISTING';
+    public const C_LISTING_DRAFT = 'LISTING_DRAFT';
 }

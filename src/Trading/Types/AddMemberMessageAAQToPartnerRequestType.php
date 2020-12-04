@@ -25,14 +25,14 @@ class AddMemberMessageAAQToPartnerRequestType extends \DTS\eBaySDK\Trading\Types
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'MemberMessage' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MemberMessage'
-        ]
+            'elementName' => 'MemberMessage',
+        ],
     ];
 
     /**

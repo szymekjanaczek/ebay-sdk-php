@@ -29,38 +29,38 @@ class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeID'
+            'elementName' => 'DisputeID',
         ],
         'MessageText' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageText'
+            'elementName' => 'MessageText',
         ],
         'DisputeActivity' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeActivity'
+            'elementName' => 'DisputeActivity',
         ],
         'ShippingCarrierUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingCarrierUsed'
+            'elementName' => 'ShippingCarrierUsed',
         ],
         'ShipmentTrackNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShipmentTrackNumber'
+            'elementName' => 'ShipmentTrackNumber',
         ],
         'ShippingTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingTime'
-        ]
+            'elementName' => 'ShippingTime',
+        ],
     ];
 
     /**

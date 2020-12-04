@@ -26,20 +26,20 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'userID'
+            'elementName' => 'userID',
         ],
         'feedbackScore' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'feedbackScore'
+            'elementName' => 'feedbackScore',
         ],
         'positiveFeedbackPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'positiveFeedbackPercent'
-        ]
+            'elementName' => 'positiveFeedbackPercent',
+        ],
     ];
 
     /**

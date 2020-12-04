@@ -24,8 +24,8 @@ class BidderNoticePreferencesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnsuccessfulBidderNoticeIncludeMyItems'
-        ]
+            'elementName' => 'UnsuccessfulBidderNoticeIncludeMyItems',
+        ],
     ];
 
     /**

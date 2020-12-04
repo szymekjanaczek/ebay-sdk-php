@@ -26,20 +26,20 @@ class UploadFileRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'data'
+            'elementName' => 'data',
         ],
         'fileName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileName'
+            'elementName' => 'fileName',
         ],
         'filePurpose' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'filePurpose'
-        ]
+            'elementName' => 'filePurpose',
+        ],
     ];
 
     /**

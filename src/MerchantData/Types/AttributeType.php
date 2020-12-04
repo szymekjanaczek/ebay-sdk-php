@@ -26,20 +26,20 @@ class AttributeType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\ValType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Value'
+            'elementName' => 'Value',
         ],
         'attributeID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'attributeID'
+            'attributeName' => 'attributeID',
         ],
         'attributeLabel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'attributeLabel'
-        ]
+            'attributeName' => 'attributeLabel',
+        ],
     ];
 
     /**

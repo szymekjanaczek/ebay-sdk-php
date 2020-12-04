@@ -29,38 +29,38 @@ class SelectionRule extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'brands'
+            'elementName' => 'brands',
         ],
         'categoryIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryIds'
+            'elementName' => 'categoryIds',
         ],
         'categoryScope' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryScope'
+            'elementName' => 'categoryScope',
         ],
         'listingConditionIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'listingConditionIds'
+            'elementName' => 'listingConditionIds',
         ],
         'maxPrice' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxPrice'
+            'elementName' => 'maxPrice',
         ],
         'minPrice' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minPrice'
-        ]
+            'elementName' => 'minPrice',
+        ],
     ];
 
     /**

@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class GeneralPaymentMethodCodeType
 {
-    const C_ACH = 'ACH';
-    const C_CREDITCARD = 'Creditcard';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_ECHECK = 'Echeck';
-    const C_OTHER = 'Other';
-    const C_PAY_PAL_BALANCE = 'PayPalBalance';
+    public const C_ACH = 'ACH';
+    public const C_CREDITCARD = 'Creditcard';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_ECHECK = 'Echeck';
+    public const C_OTHER = 'Other';
+    public const C_PAY_PAL_BALANCE = 'PayPalBalance';
 }

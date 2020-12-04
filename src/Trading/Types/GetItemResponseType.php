@@ -24,8 +24,8 @@ class GetItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTyp
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

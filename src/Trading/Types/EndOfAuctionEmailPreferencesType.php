@@ -29,38 +29,38 @@ class EndOfAuctionEmailPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TemplateText'
+            'elementName' => 'TemplateText',
         ],
         'LogoURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogoURL'
+            'elementName' => 'LogoURL',
         ],
         'LogoType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogoType'
+            'elementName' => 'LogoType',
         ],
         'EmailCustomized' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EmailCustomized'
+            'elementName' => 'EmailCustomized',
         ],
         'TextCustomized' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TextCustomized'
+            'elementName' => 'TextCustomized',
         ],
         'LogoCustomized' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogoCustomized'
-        ]
+            'elementName' => 'LogoCustomized',
+        ],
     ];
 
     /**

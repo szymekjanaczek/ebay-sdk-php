@@ -24,8 +24,8 @@ class UpdateShipmentTrackingRestRequest extends \DTS\eBaySDK\PostOrder\Types\Upd
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

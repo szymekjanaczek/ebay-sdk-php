@@ -43,122 +43,122 @@ class AccountSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AccountState'
+            'elementName' => 'AccountState',
         ],
         'InvoicePayment' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InvoicePayment'
+            'elementName' => 'InvoicePayment',
         ],
         'InvoiceCredit' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InvoiceCredit'
+            'elementName' => 'InvoiceCredit',
         ],
         'InvoiceNewFee' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InvoiceNewFee'
+            'elementName' => 'InvoiceNewFee',
         ],
         'AdditionalAccount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AdditionalAccountType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AdditionalAccount'
+            'elementName' => 'AdditionalAccount',
         ],
         'AmountPastDue' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AmountPastDue'
+            'elementName' => 'AmountPastDue',
         ],
         'BankAccountInfo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BankAccountInfo'
+            'elementName' => 'BankAccountInfo',
         ],
         'BankModifyDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BankModifyDate'
+            'elementName' => 'BankModifyDate',
         ],
         'BillingCycleDate' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BillingCycleDate'
+            'elementName' => 'BillingCycleDate',
         ],
         'CreditCardExpiration' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreditCardExpiration'
+            'elementName' => 'CreditCardExpiration',
         ],
         'CreditCardInfo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreditCardInfo'
+            'elementName' => 'CreditCardInfo',
         ],
         'CreditCardModifyDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreditCardModifyDate'
+            'elementName' => 'CreditCardModifyDate',
         ],
         'CurrentBalance' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CurrentBalance'
+            'elementName' => 'CurrentBalance',
         ],
         'Email' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Email'
+            'elementName' => 'Email',
         ],
         'InvoiceBalance' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InvoiceBalance'
+            'elementName' => 'InvoiceBalance',
         ],
         'InvoiceDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InvoiceDate'
+            'elementName' => 'InvoiceDate',
         ],
         'LastAmountPaid' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastAmountPaid'
+            'elementName' => 'LastAmountPaid',
         ],
         'LastPaymentDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastPaymentDate'
+            'elementName' => 'LastPaymentDate',
         ],
         'PastDue' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PastDue'
+            'elementName' => 'PastDue',
         ],
         'PaymentMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentMethod'
-        ]
+            'elementName' => 'PaymentMethod',
+        ],
     ];
 
     /**

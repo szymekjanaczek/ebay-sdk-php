@@ -28,32 +28,32 @@ class CreateAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\AdReference',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ads'
+            'elementName' => 'ads',
         ],
         'errors' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'inventoryReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceId'
+            'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceType'
+            'elementName' => 'inventoryReferenceType',
         ],
         'statusCode' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'statusCode'
-        ]
+            'elementName' => 'statusCode',
+        ],
     ];
 
     /**

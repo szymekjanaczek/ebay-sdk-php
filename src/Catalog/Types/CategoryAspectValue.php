@@ -25,14 +25,14 @@ class CategoryAspectValue extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
+            'elementName' => 'value',
         ],
         'valueConstraints' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ValueConstraint',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'valueConstraints'
-        ]
+            'elementName' => 'valueConstraints',
+        ],
     ];
 
     /**

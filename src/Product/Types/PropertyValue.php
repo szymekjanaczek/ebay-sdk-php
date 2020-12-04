@@ -25,14 +25,14 @@ class PropertyValue extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'propertyName'
+            'elementName' => 'propertyName',
         ],
         'value' => [
             'type' => 'DTS\eBaySDK\Product\Types\Value',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

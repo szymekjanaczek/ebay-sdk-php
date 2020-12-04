@@ -34,68 +34,68 @@ class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuranceCost'
+            'elementName' => 'InsuranceCost',
         ],
         'InsuranceOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuranceOption'
+            'elementName' => 'InsuranceOption',
         ],
         'InternationalShippingServiceOption' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'InternationalShippingServiceOption'
+            'elementName' => 'InternationalShippingServiceOption',
         ],
         'SalesTax' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\SalesTaxType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SalesTax'
+            'elementName' => 'SalesTax',
         ],
         'ShippingRateErrorMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingRateErrorMessage'
+            'elementName' => 'ShippingRateErrorMessage',
         ],
         'ShippingServiceOption' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\ShippingServiceOptionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingServiceOption'
+            'elementName' => 'ShippingServiceOption',
         ],
         'TaxTable' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\TaxTableType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxTable'
+            'elementName' => 'TaxTable',
         ],
         'InternationalInsuranceCost' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InternationalInsuranceCost'
+            'elementName' => 'InternationalInsuranceCost',
         ],
         'InternationalInsuranceOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InternationalInsuranceOption'
+            'elementName' => 'InternationalInsuranceOption',
         ],
         'CODCost' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CODCost'
+            'elementName' => 'CODCost',
         ],
         'ExcludeShipToLocation' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ExcludeShipToLocation'
-        ]
+            'elementName' => 'ExcludeShipToLocation',
+        ],
     ];
 
     /**

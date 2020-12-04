@@ -26,20 +26,20 @@ class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
+            'elementName' => 'type',
         ],
         'cost' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cost'
+            'elementName' => 'cost',
         ],
         'expeditedService' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'expeditedService'
-        ]
+            'elementName' => 'expeditedService',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class CategorySuggestionResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Taxonomy\Types\CategorySuggestion',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categorySuggestions'
+            'elementName' => 'categorySuggestions',
         ],
         'categoryTreeId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeId'
+            'elementName' => 'categoryTreeId',
         ],
         'categoryTreeVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeVersion'
-        ]
+            'elementName' => 'categoryTreeVersion',
+        ],
     ];
 
     /**

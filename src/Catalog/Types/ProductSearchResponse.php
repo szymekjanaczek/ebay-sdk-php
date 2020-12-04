@@ -31,50 +31,50 @@ class ProductSearchResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'href'
+            'elementName' => 'href',
         ],
         'limit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'next' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'next'
+            'elementName' => 'next',
         ],
         'offset' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'prev' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'prev'
+            'elementName' => 'prev',
         ],
         'productSummaries' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ProductSummary',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productSummaries'
+            'elementName' => 'productSummaries',
         ],
         'refinement' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\Refinement',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refinement'
+            'elementName' => 'refinement',
         ],
         'total' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
-        ]
+            'elementName' => 'total',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'categoryTreeId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeId'
+            'elementName' => 'categoryTreeId',
         ],
         'required' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'required'
-        ]
+            'elementName' => 'required',
+        ],
     ];
 
     /**

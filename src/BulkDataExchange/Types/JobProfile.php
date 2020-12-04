@@ -32,56 +32,56 @@ class JobProfile extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobId'
+            'elementName' => 'jobId',
         ],
         'jobType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobType'
+            'elementName' => 'jobType',
         ],
         'jobStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobStatus'
+            'elementName' => 'jobStatus',
         ],
         'creationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationTime'
+            'elementName' => 'creationTime',
         ],
         'completionTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'completionTime'
+            'elementName' => 'completionTime',
         ],
         'errorCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorCount'
+            'elementName' => 'errorCount',
         ],
         'percentComplete' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'percentComplete'
+            'elementName' => 'percentComplete',
         ],
         'fileReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileReferenceId'
+            'elementName' => 'fileReferenceId',
         ],
         'inputFileReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inputFileReferenceId'
-        ]
+            'elementName' => 'inputFileReferenceId',
+        ],
     ];
 
     /**

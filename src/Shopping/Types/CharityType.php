@@ -31,50 +31,50 @@ class CharityType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityID'
+            'elementName' => 'CharityID',
         ],
         'CharityName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityName'
+            'elementName' => 'CharityName',
         ],
         'CharityNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityNumber'
+            'elementName' => 'CharityNumber',
         ],
         'DonationPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DonationPercent'
+            'elementName' => 'DonationPercent',
         ],
         'Mission' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Mission'
+            'elementName' => 'Mission',
         ],
         'LogoURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogoURL'
+            'elementName' => 'LogoURL',
         ],
         'CharityListing' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityListing'
+            'elementName' => 'CharityListing',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
-        ]
+            'elementName' => 'Status',
+        ],
     ];
 
     /**

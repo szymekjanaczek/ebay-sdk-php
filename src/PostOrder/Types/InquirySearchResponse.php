@@ -26,20 +26,20 @@ class InquirySearchResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\InquirySummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'members'
+            'elementName' => 'members',
         ],
         'paginationOutput' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
+            'elementName' => 'paginationOutput',
         ],
         'totalNumberOfInquiries' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalNumberOfInquiries'
-        ]
+            'elementName' => 'totalNumberOfInquiries',
+        ],
     ];
 
     /**

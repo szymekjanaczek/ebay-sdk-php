@@ -37,86 +37,86 @@ class ProductSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Catalog\Types\Image',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'additionalImages'
+            'elementName' => 'additionalImages',
         ],
         'aspects' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\Aspect',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspects'
+            'elementName' => 'aspects',
         ],
         'brand' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'brand'
+            'elementName' => 'brand',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'ean' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ean'
+            'elementName' => 'ean',
         ],
         'epid' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'epid'
+            'elementName' => 'epid',
         ],
         'gtin' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'gtin'
+            'elementName' => 'gtin',
         ],
         'image' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\Image',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'image'
+            'elementName' => 'image',
         ],
         'isbn' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'isbn'
+            'elementName' => 'isbn',
         ],
         'mpn' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'mpn'
+            'elementName' => 'mpn',
         ],
         'productHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productHref'
+            'elementName' => 'productHref',
         ],
         'productWebUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productWebUrl'
+            'elementName' => 'productWebUrl',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
+            'elementName' => 'title',
         ],
         'upc' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'upc'
-        ]
+            'elementName' => 'upc',
+        ],
     ];
 
     /**

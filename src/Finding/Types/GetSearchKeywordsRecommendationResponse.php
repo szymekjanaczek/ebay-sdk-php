@@ -24,8 +24,8 @@ class GetSearchKeywordsRecommendationResponse extends \DTS\eBaySDK\Finding\Types
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'keywords'
-        ]
+            'elementName' => 'keywords',
+        ],
     ];
 
     /**

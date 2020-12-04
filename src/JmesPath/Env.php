@@ -33,7 +33,7 @@ namespace DTS\eBaySDK\JmesPath;
  */
 final class Env
 {
-    const COMPILE_DIR = 'JP_PHP_COMPILE';
+    public const COMPILE_DIR = 'JP_PHP_COMPILE';
 
     /**
      * Returns data from the input array that matches a JMESPath expression.

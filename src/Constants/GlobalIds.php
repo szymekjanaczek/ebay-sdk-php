@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Constants;
 
 /**
@@ -11,47 +12,47 @@ namespace DTS\eBaySDK\Constants;
 class GlobalIds
 {
     // United States
-    const US = 'EBAY-US';
+    public const US = 'EBAY-US';
     // Canada (English)
-    const ENCA = 'EBAY-ENCA';
+    public const ENCA = 'EBAY-ENCA';
     // UK
-    const GB = 'EBAY-GB';
+    public const GB = 'EBAY-GB';
     // Australia
-    const AU = 'EBAY-AU';
+    public const AU = 'EBAY-AU';
     // Austria
-    const AT = 'EBAY-AT';
+    public const AT = 'EBAY-AT';
     // Belgium (French)
-    const FRBE = 'EBAY-FRBE';
+    public const FRBE = 'EBAY-FRBE';
     // France
-    const FR = 'EBAY-FR';
+    public const FR = 'EBAY-FR';
     // Germany
-    const DE = 'EBAY-DE';
+    public const DE = 'EBAY-DE';
     // Motors
-    const MOTORS = 'EBAY-MOTOR';
+    public const MOTORS = 'EBAY-MOTOR';
     // Italy
-    const IT = 'EBAY-IT';
+    public const IT = 'EBAY-IT';
     // Belgium (Dutch)
-    const NLBE = 'EBAY-NLBE';
+    public const NLBE = 'EBAY-NLBE';
     // Netherlands
-    const NL = 'EBAY-NL';
+    public const NL = 'EBAY-NL';
     // Spain
-    const ES = 'EBAY-ES';
+    public const ES = 'EBAY-ES';
     // Switzerland
-    const CH = 'EBAY-CH';
+    public const CH = 'EBAY-CH';
     // Hong Kong
-    const HK = 'EBAY-HK';
+    public const HK = 'EBAY-HK';
     // India
-    const IN = 'EBAY-IN';
+    public const IN = 'EBAY-IN';
     // Ireland
-    const IE = 'EBAY-IE';
+    public const IE = 'EBAY-IE';
     // Malaysia
-    const MY = 'EBAY-MY';
+    public const MY = 'EBAY-MY';
     // Canada (French)
-    const FRCA = 'EBAY-FRCA';
+    public const FRCA = 'EBAY-FRCA';
     // Philippines
-    const PH = 'EBAY-PH';
+    public const PH = 'EBAY-PH';
     // Poland
-    const PL = 'EBAY-PL';
+    public const PL = 'EBAY-PL';
     // Singapore
-    const SG = 'EBAY-SG';
+    public const SG = 'EBAY-SG';
 }

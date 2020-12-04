@@ -24,8 +24,8 @@ class CreateDSRSummaryByTransactionRequest extends \DTS\eBaySDK\Feedback\Types\B
             'type' => 'DTS\eBaySDK\Feedback\Types\TransactionKey',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'transactionKey'
-        ]
+            'elementName' => 'transactionKey',
+        ],
     ];
 
     /**

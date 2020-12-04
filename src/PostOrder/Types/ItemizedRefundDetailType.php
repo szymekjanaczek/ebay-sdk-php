@@ -26,20 +26,20 @@ class ItemizedRefundDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundAmount'
+            'elementName' => 'refundAmount',
         ],
         'refundFeeType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundFeeType'
+            'elementName' => 'refundFeeType',
         ],
         'restockingFeePercentage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'restockingFeePercentage'
-        ]
+            'elementName' => 'restockingFeePercentage',
+        ],
     ];
 
     /**

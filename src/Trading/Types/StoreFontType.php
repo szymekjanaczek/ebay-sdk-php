@@ -32,56 +32,56 @@ class StoreFontType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NameFace'
+            'elementName' => 'NameFace',
         ],
         'NameSize' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NameSize'
+            'elementName' => 'NameSize',
         ],
         'NameColor' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NameColor'
+            'elementName' => 'NameColor',
         ],
         'TitleFace' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TitleFace'
+            'elementName' => 'TitleFace',
         ],
         'TitleSize' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TitleSize'
+            'elementName' => 'TitleSize',
         ],
         'TitleColor' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TitleColor'
+            'elementName' => 'TitleColor',
         ],
         'DescFace' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DescFace'
+            'elementName' => 'DescFace',
         ],
         'DescSize' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DescSize'
+            'elementName' => 'DescSize',
         ],
         'DescColor' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DescColor'
-        ]
+            'elementName' => 'DescColor',
+        ],
     ];
 
     /**

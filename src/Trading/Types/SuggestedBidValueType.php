@@ -24,8 +24,8 @@ class SuggestedBidValueType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'BidValue'
-        ]
+            'elementName' => 'BidValue',
+        ],
     ];
 
     /**

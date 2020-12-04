@@ -24,8 +24,8 @@ class CreateReturnRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\Create
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fieldgroups'
-        ]
+            'elementName' => 'fieldgroups',
+        ],
     ];
 
     /**

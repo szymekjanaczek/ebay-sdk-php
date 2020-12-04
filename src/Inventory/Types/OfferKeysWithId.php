@@ -24,8 +24,8 @@ class OfferKeysWithId extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\OfferKeyWithId',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'offers'
-        ]
+            'elementName' => 'offers',
+        ],
     ];
 
     /**

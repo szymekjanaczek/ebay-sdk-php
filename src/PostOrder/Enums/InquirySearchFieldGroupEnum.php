@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class InquirySearchFieldGroupEnum
 {
-    const C_DEFAULT = 'DEFAULT';
-    const C_SUMMARY = 'SUMMARY';
+    public const C_DEFAULT = 'DEFAULT';
+    public const C_SUMMARY = 'SUMMARY';
 }

@@ -87,386 +87,386 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AmountPaid'
+            'elementName' => 'AmountPaid',
         ],
         'AdjustmentAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AdjustmentAmount'
+            'elementName' => 'AdjustmentAmount',
         ],
         'ConvertedAdjustmentAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ConvertedAdjustmentAmount'
+            'elementName' => 'ConvertedAdjustmentAmount',
         ],
         'Buyer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Buyer'
+            'elementName' => 'Buyer',
         ],
         'ShippingDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingDetails'
+            'elementName' => 'ShippingDetails',
         ],
         'ConvertedAmountPaid' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ConvertedAmountPaid'
+            'elementName' => 'ConvertedAmountPaid',
         ],
         'ConvertedTransactionPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ConvertedTransactionPrice'
+            'elementName' => 'ConvertedTransactionPrice',
         ],
         'CreatedDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreatedDate'
+            'elementName' => 'CreatedDate',
         ],
         'DepositType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DepositType'
+            'elementName' => 'DepositType',
         ],
         'Item' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
+            'elementName' => 'Item',
         ],
         'QuantityPurchased' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantityPurchased'
+            'elementName' => 'QuantityPurchased',
         ],
         'Status' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
+            'elementName' => 'TransactionID',
         ],
         'TransactionPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionPrice'
+            'elementName' => 'TransactionPrice',
         ],
         'BestOfferSale' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferSale'
+            'elementName' => 'BestOfferSale',
         ],
         'VATPercent' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VATPercent'
+            'elementName' => 'VATPercent',
         ],
         'ExternalTransaction' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ExternalTransactionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ExternalTransaction'
+            'elementName' => 'ExternalTransaction',
         ],
         'SellingManagerProductDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductDetails'
+            'elementName' => 'SellingManagerProductDetails',
         ],
         'ShippingServiceSelected' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceSelected'
+            'elementName' => 'ShippingServiceSelected',
         ],
         'BuyerPaidStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerPaidStatus'
+            'elementName' => 'BuyerPaidStatus',
         ],
         'SellerPaidStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerPaidStatus'
+            'elementName' => 'SellerPaidStatus',
         ],
         'PaidTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaidTime'
+            'elementName' => 'PaidTime',
         ],
         'ShippedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippedTime'
+            'elementName' => 'ShippedTime',
         ],
         'TotalPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalPrice'
+            'elementName' => 'TotalPrice',
         ],
         'FeedbackLeft' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackLeft'
+            'elementName' => 'FeedbackLeft',
         ],
         'FeedbackReceived' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackReceived'
+            'elementName' => 'FeedbackReceived',
         ],
         'ContainingOrder' => [
             'type' => 'DTS\eBaySDK\Trading\Types\OrderType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ContainingOrder'
+            'elementName' => 'ContainingOrder',
         ],
         'FinalValueFee' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FinalValueFee'
+            'elementName' => 'FinalValueFee',
         ],
         'TransactionSiteID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionSiteID'
+            'elementName' => 'TransactionSiteID',
         ],
         'Platform' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Platform'
+            'elementName' => 'Platform',
         ],
         'PayPalEmailAddress' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalEmailAddress'
+            'elementName' => 'PayPalEmailAddress',
         ],
         'PaisaPayID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaisaPayID'
+            'elementName' => 'PaisaPayID',
         ],
         'BuyerGuaranteePrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerGuaranteePrice'
+            'elementName' => 'BuyerGuaranteePrice',
         ],
         'Variation' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VariationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Variation'
+            'elementName' => 'Variation',
         ],
         'BuyerCheckoutMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerCheckoutMessage'
+            'elementName' => 'BuyerCheckoutMessage',
         ],
         'TotalTransactionPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalTransactionPrice'
+            'elementName' => 'TotalTransactionPrice',
         ],
         'Taxes' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TaxesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Taxes'
+            'elementName' => 'Taxes',
         ],
         'BundlePurchase' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BundlePurchase'
+            'elementName' => 'BundlePurchase',
         ],
         'ActualShippingCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ActualShippingCost'
+            'elementName' => 'ActualShippingCost',
         ],
         'ActualHandlingCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ActualHandlingCost'
+            'elementName' => 'ActualHandlingCost',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
+            'elementName' => 'OrderLineItemID',
         ],
         'eBayPaymentID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayPaymentID'
+            'elementName' => 'eBayPaymentID',
         ],
         'PaymentHoldDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaymentHoldDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentHoldDetails'
+            'elementName' => 'PaymentHoldDetails',
         ],
         'SellerDiscounts' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellerDiscountsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerDiscounts'
+            'elementName' => 'SellerDiscounts',
         ],
         'CodiceFiscale' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CodiceFiscale'
+            'elementName' => 'CodiceFiscale',
         ],
         'IsMultiLegShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IsMultiLegShipping'
+            'elementName' => 'IsMultiLegShipping',
         ],
         'MultiLegShippingDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MultiLegShippingDetails'
+            'elementName' => 'MultiLegShippingDetails',
         ],
         'InvoiceSentTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InvoiceSentTime'
+            'elementName' => 'InvoiceSentTime',
         ],
         'UnpaidItem' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UnpaidItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnpaidItem'
+            'elementName' => 'UnpaidItem',
         ],
         'IntangibleItem' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IntangibleItem'
+            'elementName' => 'IntangibleItem',
         ],
         'MonetaryDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaymentsInformationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MonetaryDetails'
+            'elementName' => 'MonetaryDetails',
         ],
         'PickupDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PickupDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupDetails'
+            'elementName' => 'PickupDetails',
         ],
         'PickupMethodSelected' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PickupMethodSelectedType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupMethodSelected'
+            'elementName' => 'PickupMethodSelected',
         ],
         'ShippingConvenienceCharge' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingConvenienceCharge'
+            'elementName' => 'ShippingConvenienceCharge',
         ],
         'LogisticsPlanType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogisticsPlanType'
+            'elementName' => 'LogisticsPlanType',
         ],
         'BuyerPackageEnclosures' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BuyerPackageEnclosuresType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerPackageEnclosures'
+            'elementName' => 'BuyerPackageEnclosures',
         ],
         'InventoryReservationID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InventoryReservationID'
+            'elementName' => 'InventoryReservationID',
         ],
         'ExtendedOrderID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExtendedOrderID'
+            'elementName' => 'ExtendedOrderID',
         ],
         'eBayPlusTransaction' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayPlusTransaction'
+            'elementName' => 'eBayPlusTransaction',
         ],
         'GiftSummary' => [
             'type' => 'DTS\eBaySDK\Trading\Types\GiftSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GiftSummary'
+            'elementName' => 'GiftSummary',
         ],
         'DigitalDeliverySelected' => [
             'type' => 'DTS\eBaySDK\Trading\Types\DigitalDeliverySelectedType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DigitalDeliverySelected'
+            'elementName' => 'DigitalDeliverySelected',
         ],
         'Gift' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Gift'
+            'elementName' => 'Gift',
         ],
         'GuaranteedShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GuaranteedShipping'
+            'elementName' => 'GuaranteedShipping',
         ],
         'GuaranteedDelivery' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'GuaranteedDelivery'
-        ]
+            'elementName' => 'GuaranteedDelivery',
+        ],
     ];
 
     /**

@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class DigitalStatusCodeType
 {
-    const C_ACTIVATED = 'Activated';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DEACTIVATED = 'Deactivated';
-    const C_DOWNLOADED = 'Downloaded';
-    const C_INACTIVE = 'Inactive';
+    public const C_ACTIVATED = 'Activated';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DEACTIVATED = 'Deactivated';
+    public const C_DOWNLOADED = 'Downloaded';
+    public const C_INACTIVE = 'Inactive';
 }

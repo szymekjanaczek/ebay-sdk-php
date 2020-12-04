@@ -26,20 +26,20 @@ class GetContextualKeywordsRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'URL'
+            'elementName' => 'URL',
         ],
         'Encoding' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Encoding'
+            'elementName' => 'Encoding',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CategoryID'
-        ]
+            'elementName' => 'CategoryID',
+        ],
     ];
 
     /**

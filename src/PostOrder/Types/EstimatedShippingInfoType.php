@@ -25,14 +25,14 @@ class EstimatedShippingInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'carriers'
+            'elementName' => 'carriers',
         ],
         'returnShipmentPayer' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnShipmentPayer'
-        ]
+            'elementName' => 'returnShipmentPayer',
+        ],
     ];
 
     /**

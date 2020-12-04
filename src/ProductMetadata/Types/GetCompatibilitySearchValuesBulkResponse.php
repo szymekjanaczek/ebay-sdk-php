@@ -24,8 +24,8 @@ class GetCompatibilitySearchValuesBulkResponse extends \DTS\eBaySDK\ProductMetad
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'medataDetails'
-        ]
+            'elementName' => 'medataDetails',
+        ],
     ];
 
     /**

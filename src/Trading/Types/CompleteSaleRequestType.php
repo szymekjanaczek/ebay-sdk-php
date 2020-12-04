@@ -32,56 +32,56 @@ class CompleteSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
+            'elementName' => 'TransactionID',
         ],
         'FeedbackInfo' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackInfo'
+            'elementName' => 'FeedbackInfo',
         ],
         'Shipped' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Shipped'
+            'elementName' => 'Shipped',
         ],
         'Paid' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Paid'
+            'elementName' => 'Paid',
         ],
         'ListingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingType'
+            'elementName' => 'ListingType',
         ],
         'Shipment' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Shipment'
+            'elementName' => 'Shipment',
         ],
         'OrderID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderID'
+            'elementName' => 'OrderID',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
-        ]
+            'elementName' => 'OrderLineItemID',
+        ],
     ];
 
     /**

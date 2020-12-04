@@ -24,8 +24,8 @@ class GetPromotionSummaryReportRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplace_id'
-        ]
+            'elementName' => 'marketplace_id',
+        ],
     ];
 
     /**

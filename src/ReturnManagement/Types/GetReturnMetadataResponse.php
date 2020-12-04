@@ -24,8 +24,8 @@ class GetReturnMetadataResponse extends \DTS\eBaySDK\ReturnManagement\Types\Base
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\MetaDataCodeResultType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'metadataCodeValues'
-        ]
+            'elementName' => 'metadataCodeValues',
+        ],
     ];
 
     /**

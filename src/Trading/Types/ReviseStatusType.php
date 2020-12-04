@@ -28,32 +28,32 @@ class ReviseStatusType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemRevised'
+            'elementName' => 'ItemRevised',
         ],
         'BuyItNowAdded' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyItNowAdded'
+            'elementName' => 'BuyItNowAdded',
         ],
         'BuyItNowLowered' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyItNowLowered'
+            'elementName' => 'BuyItNowLowered',
         ],
         'ReserveLowered' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReserveLowered'
+            'elementName' => 'ReserveLowered',
         ],
         'ReserveRemoved' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReserveRemoved'
-        ]
+            'elementName' => 'ReserveRemoved',
+        ],
     ];
 
     /**

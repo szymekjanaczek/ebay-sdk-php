@@ -25,14 +25,14 @@ class StringTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'managedValue'
+            'elementName' => 'managedValue',
         ],
         'maximumCharactersAllowed' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maximumCharactersAllowed'
-        ]
+            'elementName' => 'maximumCharactersAllowed',
+        ],
     ];
 
     /**

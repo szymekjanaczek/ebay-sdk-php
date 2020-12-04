@@ -24,8 +24,8 @@ class GetStoreCategoryUpdateStatusRequestType extends \DTS\eBaySDK\Trading\Types
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaskID'
-        ]
+            'elementName' => 'TaskID',
+        ],
     ];
 
     /**

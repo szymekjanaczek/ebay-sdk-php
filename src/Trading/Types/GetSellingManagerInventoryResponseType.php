@@ -26,20 +26,20 @@ class GetSellingManagerInventoryResponseType extends \DTS\eBaySDK\Trading\Types\
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InventoryCountLastCalculatedDate'
+            'elementName' => 'InventoryCountLastCalculatedDate',
         ],
         'SellingManagerProduct' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SellingManagerProduct'
+            'elementName' => 'SellingManagerProduct',
         ],
         'PaginationResult' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
-        ]
+            'elementName' => 'PaginationResult',
+        ],
     ];
 
     /**

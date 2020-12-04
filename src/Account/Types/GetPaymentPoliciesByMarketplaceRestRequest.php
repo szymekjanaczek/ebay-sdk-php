@@ -24,8 +24,8 @@ class GetPaymentPoliciesByMarketplaceRestRequest extends \DTS\eBaySDK\Types\Base
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplace_id'
-        ]
+            'elementName' => 'marketplace_id',
+        ],
     ];
 
     /**

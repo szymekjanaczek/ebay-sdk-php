@@ -33,62 +33,62 @@ class Metric extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'level'
+            'elementName' => 'level',
         ],
         'lookbackEndDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lookbackEndDate'
+            'elementName' => 'lookbackEndDate',
         ],
         'lookbackStartDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lookbackStartDate'
+            'elementName' => 'lookbackStartDate',
         ],
         'metricKey' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'metricKey'
+            'elementName' => 'metricKey',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'thresholdLowerBound' => [
             'type' => 'any',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'thresholdLowerBound'
+            'elementName' => 'thresholdLowerBound',
         ],
         'thresholdMetaData' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'thresholdMetaData'
+            'elementName' => 'thresholdMetaData',
         ],
         'thresholdUpperBound' => [
             'type' => 'any',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'thresholdUpperBound'
+            'elementName' => 'thresholdUpperBound',
         ],
         'type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
+            'elementName' => 'type',
         ],
         'value' => [
             'type' => 'any',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

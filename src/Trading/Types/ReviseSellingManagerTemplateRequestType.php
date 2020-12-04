@@ -29,38 +29,38 @@ class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateID'
+            'elementName' => 'SaleTemplateID',
         ],
         'ProductID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductID'
+            'elementName' => 'ProductID',
         ],
         'SaleTemplateName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateName'
+            'elementName' => 'SaleTemplateName',
         ],
         'Item' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
+            'elementName' => 'Item',
         ],
         'DeletedField' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DeletedField'
+            'elementName' => 'DeletedField',
         ],
         'VerifyOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VerifyOnly'
-        ]
+            'elementName' => 'VerifyOnly',
+        ],
     ];
 
     /**

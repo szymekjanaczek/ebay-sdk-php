@@ -12,13 +12,13 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class CancelTransactionCaseStatusType
 {
-    const C_CANCELLED = 'CANCELLED';
-    const C_CLOSED = 'CLOSED';
-    const C_CLOSED_FVFCREDIT = 'CLOSED_FVFCREDIT';
-    const C_CLOSED_NOFVFCREDIT = 'CLOSED_NOFVFCREDIT';
-    const C_CS_CLOSED = 'CS_CLOSED';
-    const C_EXPIRED = 'EXPIRED';
-    const C_MY_RESPONSE_DUE = 'MY_RESPONSE_DUE';
-    const C_OTHER = 'OTHER';
-    const C_OTHER_PARTY_RESPONSE_DUE = 'OTHER_PARTY_RESPONSE_DUE';
+    public const C_CANCELLED = 'CANCELLED';
+    public const C_CLOSED = 'CLOSED';
+    public const C_CLOSED_FVFCREDIT = 'CLOSED_FVFCREDIT';
+    public const C_CLOSED_NOFVFCREDIT = 'CLOSED_NOFVFCREDIT';
+    public const C_CS_CLOSED = 'CS_CLOSED';
+    public const C_EXPIRED = 'EXPIRED';
+    public const C_MY_RESPONSE_DUE = 'MY_RESPONSE_DUE';
+    public const C_OTHER = 'OTHER';
+    public const C_OTHER_PARTY_RESPONSE_DUE = 'OTHER_PARTY_RESPONSE_DUE';
 }

@@ -25,14 +25,14 @@ class DisputeFilterCountType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisputeFilterType'
+            'elementName' => 'DisputeFilterType',
         ],
         'TotalAvailable' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalAvailable'
-        ]
+            'elementName' => 'TotalAvailable',
+        ],
     ];
 
     /**

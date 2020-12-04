@@ -36,80 +36,80 @@ class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryTypes'
+            'elementName' => 'categoryTypes',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'extendedHolidayReturnsOffered' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'extendedHolidayReturnsOffered'
+            'elementName' => 'extendedHolidayReturnsOffered',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'refundMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundMethod'
+            'elementName' => 'refundMethod',
         ],
         'restockingFeePercentage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'restockingFeePercentage'
+            'elementName' => 'restockingFeePercentage',
         ],
         'returnInstructions' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnInstructions'
+            'elementName' => 'returnInstructions',
         ],
         'returnMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnMethod'
+            'elementName' => 'returnMethod',
         ],
         'returnPeriod' => [
             'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPeriod'
+            'elementName' => 'returnPeriod',
         ],
         'returnPolicyId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPolicyId'
+            'elementName' => 'returnPolicyId',
         ],
         'returnsAccepted' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnsAccepted'
+            'elementName' => 'returnsAccepted',
         ],
         'returnShippingCostPayer' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnShippingCostPayer'
-        ]
+            'elementName' => 'returnShippingCostPayer',
+        ],
     ];
 
     /**

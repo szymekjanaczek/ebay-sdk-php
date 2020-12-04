@@ -25,14 +25,14 @@ class GetUserReturnsResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseRes
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'returns'
+            'elementName' => 'returns',
         ],
         'paginationOutput' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
-        ]
+            'elementName' => 'paginationOutput',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class ProductMetadataBulkResponse extends \DTS\eBaySDK\ProductMetadata\Types\Bas
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataResponse',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productMetadataResponse'
-        ]
+            'elementName' => 'productMetadataResponse',
+        ],
     ];
 
     /**

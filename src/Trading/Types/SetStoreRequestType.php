@@ -24,8 +24,8 @@ class SetStoreRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
             'type' => 'DTS\eBaySDK\Trading\Types\StoreType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Store'
-        ]
+            'elementName' => 'Store',
+        ],
     ];
 
     /**

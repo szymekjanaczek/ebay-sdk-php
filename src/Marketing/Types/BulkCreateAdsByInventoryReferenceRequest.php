@@ -24,8 +24,8 @@ class BulkCreateAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseTy
             'type' => 'DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRequest',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'requests'
-        ]
+            'elementName' => 'requests',
+        ],
     ];
 
     /**

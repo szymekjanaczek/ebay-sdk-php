@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Fulfillment\Enums;
 
 class AcknowledgeStatusEnum
 {
-    const C_ACKNOWLEDGED = 'ACKNOWLEDGED';
-    const C_UNACKNOWLEDGED = 'UNACKNOWLEDGED';
+    public const C_ACKNOWLEDGED = 'ACKNOWLEDGED';
+    public const C_UNACKNOWLEDGED = 'UNACKNOWLEDGED';
 }

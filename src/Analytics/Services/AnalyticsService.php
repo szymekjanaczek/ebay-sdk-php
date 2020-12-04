@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Analytics\Services;
 
 class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseService
 {
-    const API_VERSION = 'v1';
+    public const API_VERSION = 'v1';
 
     /**
      * @property array $operations Associative array of operations provided by the service.
@@ -25,20 +25,20 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
             'params' => [
                 'cycle' => [
                     'valid' => ['string'],
-                    'required' => true
+                    'required' => true,
                 ],
                 'program' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetAllSellerProfiles' => [
             'method' => 'GET',
             'resource' => 'seller_standards_profile',
             'responseClass' => '\DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse',
             'params' => [
-            ]
+            ],
         ],
         'GetTrafficReport' => [
             'method' => 'GET',
@@ -47,17 +47,17 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
             'params' => [
                 'dimension' => [
                     'valid' => ['string'],
-                    'required' => true
+                    'required' => true,
                 ],
                 'filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'metric' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
-        ]
+                    'required' => true,
+                ],
+            ],
+        ],
     ];
 
     /**

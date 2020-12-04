@@ -30,44 +30,44 @@ class VerifyAddFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Type
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'SKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'Fees' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Fees'
+            'elementName' => 'Fees',
         ],
         'CategoryID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'Category2ID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Category2ID'
+            'elementName' => 'Category2ID',
         ],
         'DiscountReason' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DiscountReason'
+            'elementName' => 'DiscountReason',
         ],
         'ListingRecommendations' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingRecommendations'
-        ]
+            'elementName' => 'ListingRecommendations',
+        ],
     ];
 
     /**

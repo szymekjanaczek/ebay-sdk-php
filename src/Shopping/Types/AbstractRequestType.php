@@ -24,8 +24,8 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageID'
-        ]
+            'elementName' => 'MessageID',
+        ],
     ];
 
     /**

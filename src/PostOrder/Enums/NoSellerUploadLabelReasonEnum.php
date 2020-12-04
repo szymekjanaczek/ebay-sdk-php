@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class NoSellerUploadLabelReasonEnum
 {
-    const C_ITEM_TOO_LARGE = 'ITEM_TOO_LARGE';
-    const C_OTHER = 'OTHER';
-    const C_REIMBURSE = 'REIMBURSE';
-    const C_RETURN_TO_INTL_LOCATION = 'RETURN_TO_INTL_LOCATION';
-    const C_RETURN_TO_STORE = 'RETURN_TO_STORE';
-    const C_WORK_WITH_BUYER = 'WORK_WITH_BUYER';
+    public const C_ITEM_TOO_LARGE = 'ITEM_TOO_LARGE';
+    public const C_OTHER = 'OTHER';
+    public const C_REIMBURSE = 'REIMBURSE';
+    public const C_RETURN_TO_INTL_LOCATION = 'RETURN_TO_INTL_LOCATION';
+    public const C_RETURN_TO_STORE = 'RETURN_TO_STORE';
+    public const C_WORK_WITH_BUYER = 'WORK_WITH_BUYER';
 }

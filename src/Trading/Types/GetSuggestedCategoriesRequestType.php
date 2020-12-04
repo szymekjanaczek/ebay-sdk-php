@@ -24,8 +24,8 @@ class GetSuggestedCategoriesRequestType extends \DTS\eBaySDK\Trading\Types\Abstr
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Query'
-        ]
+            'elementName' => 'Query',
+        ],
     ];
 
     /**

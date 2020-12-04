@@ -27,26 +27,26 @@ class ReturnMetadataType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataType'
+            'elementName' => 'dataType',
         ],
         'isArray' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isArray'
+            'elementName' => 'isArray',
         ],
         'siteMetadataKey' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'siteMetadataKey'
+            'elementName' => 'siteMetadataKey',
         ],
         'values' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'values'
-        ]
+            'elementName' => 'values',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class DeleteBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\Bas
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'bundleID'
-        ]
+            'elementName' => 'bundleID',
+        ],
     ];
 
     /**

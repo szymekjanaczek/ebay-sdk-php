@@ -25,14 +25,14 @@ class ViolationProductAttribute extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'values' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'values'
-        ]
+            'elementName' => 'values',
+        ],
     ];
 
     /**

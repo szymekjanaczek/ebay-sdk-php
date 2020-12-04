@@ -31,50 +31,50 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'adjustment'
+            'elementName' => 'adjustment',
         ],
         'deliveryCost' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryCost'
+            'elementName' => 'deliveryCost',
         ],
         'deliveryDiscount' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryDiscount'
+            'elementName' => 'deliveryDiscount',
         ],
         'fee' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fee'
+            'elementName' => 'fee',
         ],
         'priceDiscount' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priceDiscount'
+            'elementName' => 'priceDiscount',
         ],
         'priceSubtotal' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priceSubtotal'
+            'elementName' => 'priceSubtotal',
         ],
         'tax' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'tax'
+            'elementName' => 'tax',
         ],
         'total' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
-        ]
+            'elementName' => 'total',
+        ],
     ];
 
     /**

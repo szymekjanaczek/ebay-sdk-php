@@ -39,98 +39,98 @@ class ApiAccessRuleType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CallName'
+            'elementName' => 'CallName',
         ],
         'CountsTowardAggregate' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CountsTowardAggregate'
+            'elementName' => 'CountsTowardAggregate',
         ],
         'DailyHardLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DailyHardLimit'
+            'elementName' => 'DailyHardLimit',
         ],
         'DailySoftLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DailySoftLimit'
+            'elementName' => 'DailySoftLimit',
         ],
         'DailyUsage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DailyUsage'
+            'elementName' => 'DailyUsage',
         ],
         'HourlyHardLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HourlyHardLimit'
+            'elementName' => 'HourlyHardLimit',
         ],
         'HourlySoftLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HourlySoftLimit'
+            'elementName' => 'HourlySoftLimit',
         ],
         'HourlyUsage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HourlyUsage'
+            'elementName' => 'HourlyUsage',
         ],
         'Period' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Period'
+            'elementName' => 'Period',
         ],
         'PeriodicHardLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PeriodicHardLimit'
+            'elementName' => 'PeriodicHardLimit',
         ],
         'PeriodicSoftLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PeriodicSoftLimit'
+            'elementName' => 'PeriodicSoftLimit',
         ],
         'PeriodicUsage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PeriodicUsage'
+            'elementName' => 'PeriodicUsage',
         ],
         'PeriodicStartDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PeriodicStartDate'
+            'elementName' => 'PeriodicStartDate',
         ],
         'ModTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ModTime'
+            'elementName' => 'ModTime',
         ],
         'RuleCurrentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RuleCurrentStatus'
+            'elementName' => 'RuleCurrentStatus',
         ],
         'RuleStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RuleStatus'
-        ]
+            'elementName' => 'RuleStatus',
+        ],
     ];
 
     /**

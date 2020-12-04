@@ -24,8 +24,8 @@ class BulkUpdateAdBidsByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Type
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_id'
-        ]
+            'elementName' => 'campaign_id',
+        ],
     ];
 
     /**

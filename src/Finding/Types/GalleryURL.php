@@ -24,8 +24,8 @@ class GalleryURL extends \DTS\eBaySDK\Types\URIType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'gallerySize'
-        ]
+            'attributeName' => 'gallerySize',
+        ],
     ];
 
     /**

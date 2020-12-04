@@ -24,8 +24,8 @@ class AppealRef extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'idref'
-        ]
+            'attributeName' => 'idref',
+        ],
     ];
 
     /**

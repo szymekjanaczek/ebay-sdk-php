@@ -24,8 +24,8 @@ class SalesTaxJurisdictions extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Metadata\Types\SalesTaxJurisdiction',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'salesTaxJurisdictions'
-        ]
+            'elementName' => 'salesTaxJurisdictions',
+        ],
     ];
 
     /**

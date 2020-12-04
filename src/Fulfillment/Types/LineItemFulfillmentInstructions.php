@@ -27,26 +27,26 @@ class LineItemFulfillmentInstructions extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'guaranteedDelivery'
+            'elementName' => 'guaranteedDelivery',
         ],
         'maxEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxEstimatedDeliveryDate'
+            'elementName' => 'maxEstimatedDeliveryDate',
         ],
         'minEstimatedDeliveryDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minEstimatedDeliveryDate'
+            'elementName' => 'minEstimatedDeliveryDate',
         ],
         'shipByDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipByDate'
-        ]
+            'elementName' => 'shipByDate',
+        ],
     ];
 
     /**

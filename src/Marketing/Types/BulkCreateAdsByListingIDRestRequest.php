@@ -24,8 +24,8 @@ class BulkCreateAdsByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Types\B
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_id'
-        ]
+            'elementName' => 'campaign_id',
+        ],
     ];
 
     /**

@@ -29,38 +29,38 @@ class GetShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrier'
+            'elementName' => 'carrier',
         ],
         'labelContent' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelContent'
+            'elementName' => 'labelContent',
         ],
         'labelCost' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelCost'
+            'elementName' => 'labelCost',
         ],
         'labelPrintStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelPrintStatus'
+            'elementName' => 'labelPrintStatus',
         ],
         'labelURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelURL'
+            'elementName' => 'labelURL',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
-        ]
+            'elementName' => 'trackingNumber',
+        ],
     ];
 
     /**

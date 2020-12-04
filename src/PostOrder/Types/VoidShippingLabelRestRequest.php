@@ -24,8 +24,8 @@ class VoidShippingLabelRestRequest extends \DTS\eBaySDK\PostOrder\Types\VoidLabe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

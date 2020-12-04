@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class BuyerSatisfactionStatusCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_EXCELLENT = 'Excellent';
-    const C_GOOD = 'Good';
-    const C_NEEDS_WORK = 'NeedsWork';
-    const C_POOR = 'Poor';
-    const C_UNACCEPTABLE = 'Unacceptable';
-    const C_VERY_POOR = 'VeryPoor';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_EXCELLENT = 'Excellent';
+    public const C_GOOD = 'Good';
+    public const C_NEEDS_WORK = 'NeedsWork';
+    public const C_POOR = 'Poor';
+    public const C_UNACCEPTABLE = 'Unacceptable';
+    public const C_VERY_POOR = 'VeryPoor';
 }

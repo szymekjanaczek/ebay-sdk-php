@@ -24,8 +24,8 @@ class AddressAttributeType extends \DTS\eBaySDK\Types\StringType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'type'
-        ]
+            'attributeName' => 'type',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class UpdateAPaymentPolicyRestRequest extends \DTS\eBaySDK\Account\Types\Payment
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'payment_policy_id'
-        ]
+            'elementName' => 'payment_policy_id',
+        ],
     ];
 
     /**

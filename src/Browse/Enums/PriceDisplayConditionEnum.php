@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Browse\Enums;
 
 class PriceDisplayConditionEnum
 {
-    const C_ALWAYS_SHOW = 'ALWAYS_SHOW';
-    const C_ONLY_SHOW_WHEN_ADDED_IN_CART = 'ONLY_SHOW_WHEN_ADDED_IN_CART';
+    public const C_ALWAYS_SHOW = 'ALWAYS_SHOW';
+    public const C_ONLY_SHOW_WHEN_ADDED_IN_CART = 'ONLY_SHOW_WHEN_ADDED_IN_CART';
 }

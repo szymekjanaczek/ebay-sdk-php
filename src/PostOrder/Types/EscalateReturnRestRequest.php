@@ -24,8 +24,8 @@ class EscalateReturnRestRequest extends \DTS\eBaySDK\PostOrder\Types\EscalateReq
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

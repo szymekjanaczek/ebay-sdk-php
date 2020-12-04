@@ -25,14 +25,14 @@ class GetUserCasesResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\B
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cases'
+            'elementName' => 'cases',
         ],
         'paginationOutput' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
-        ]
+            'elementName' => 'paginationOutput',
+        ],
     ];
 
     /**

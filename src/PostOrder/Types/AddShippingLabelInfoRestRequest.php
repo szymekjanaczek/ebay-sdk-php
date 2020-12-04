@@ -24,8 +24,8 @@ class AddShippingLabelInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\Provi
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class OrderAckResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractRespo
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
-        ]
+            'elementName' => 'OrderLineItemID',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class PaginatedItemArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemArray'
+            'elementName' => 'ItemArray',
         ],
         'PaginationResult' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
-        ]
+            'elementName' => 'PaginationResult',
+        ],
     ];
 
     /**

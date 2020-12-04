@@ -25,14 +25,14 @@ class TransactionListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeeDescription'
+            'elementName' => 'FeeDescription',
         ],
         'ListingTransaction' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ListingTransactionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ListingTransaction'
-        ]
+            'elementName' => 'ListingTransaction',
+        ],
     ];
 
     /**

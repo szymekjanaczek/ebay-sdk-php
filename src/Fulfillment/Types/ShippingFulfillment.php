@@ -29,38 +29,38 @@ class ShippingFulfillment extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fulfillmentId'
+            'elementName' => 'fulfillmentId',
         ],
         'lineItems' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemReference',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'lineItems'
+            'elementName' => 'lineItems',
         ],
         'shipmentTrackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipmentTrackingNumber'
+            'elementName' => 'shipmentTrackingNumber',
         ],
         'shippedDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippedDate'
+            'elementName' => 'shippedDate',
         ],
         'shippingCarrierCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCarrierCode'
+            'elementName' => 'shippingCarrierCode',
         ],
         'shippingServiceCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingServiceCode'
-        ]
+            'elementName' => 'shippingServiceCode',
+        ],
     ];
 
     /**

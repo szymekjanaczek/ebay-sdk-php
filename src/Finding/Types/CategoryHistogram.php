@@ -25,14 +25,14 @@ class CategoryHistogram extends \DTS\eBaySDK\Finding\Types\Category
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'count'
+            'elementName' => 'count',
         ],
         'childCategoryHistogram' => [
             'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogram',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'childCategoryHistogram'
-        ]
+            'elementName' => 'childCategoryHistogram',
+        ],
     ];
 
     /**

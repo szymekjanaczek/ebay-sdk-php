@@ -24,8 +24,8 @@ class IssueCaseRefundRestRequest extends \DTS\eBaySDK\PostOrder\Types\CaseVolunt
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
-        ]
+            'elementName' => 'caseId',
+        ],
     ];
 
     /**

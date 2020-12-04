@@ -24,8 +24,8 @@ class GetSellingManagerInventoryFolderResponseType extends \DTS\eBaySDK\Trading\
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Folder'
-        ]
+            'elementName' => 'Folder',
+        ],
     ];
 
     /**

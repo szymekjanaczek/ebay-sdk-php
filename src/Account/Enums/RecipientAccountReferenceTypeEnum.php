@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Account\Enums;
 
 class RecipientAccountReferenceTypeEnum
 {
-    const C_PAYPAL_EMAIL = 'PAYPAL_EMAIL';
+    public const C_PAYPAL_EMAIL = 'PAYPAL_EMAIL';
 }

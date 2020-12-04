@@ -24,8 +24,8 @@ class NumberOfPolicyViolationsDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Count'
-        ]
+            'elementName' => 'Count',
+        ],
     ];
 
     /**

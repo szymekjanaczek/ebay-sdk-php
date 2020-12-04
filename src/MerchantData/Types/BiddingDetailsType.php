@@ -28,32 +28,32 @@ class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ConvertedMaxBid'
+            'elementName' => 'ConvertedMaxBid',
         ],
         'MaxBid' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxBid'
+            'elementName' => 'MaxBid',
         ],
         'QuantityBid' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantityBid'
+            'elementName' => 'QuantityBid',
         ],
         'QuantityWon' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantityWon'
+            'elementName' => 'QuantityWon',
         ],
         'Winning' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Winning'
-        ]
+            'elementName' => 'Winning',
+        ],
     ];
 
     /**

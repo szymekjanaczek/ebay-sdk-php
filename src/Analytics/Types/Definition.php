@@ -26,20 +26,20 @@ class Definition extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataType'
+            'elementName' => 'dataType',
         ],
         'key' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'key'
+            'elementName' => 'key',
         ],
         'localizedName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'localizedName'
-        ]
+            'elementName' => 'localizedName',
+        ],
     ];
 
     /**

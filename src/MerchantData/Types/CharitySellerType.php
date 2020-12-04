@@ -26,20 +26,20 @@ class CharitySellerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharitySellerStatus'
+            'elementName' => 'CharitySellerStatus',
         ],
         'CharityAffiliation' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\CharityAffiliationType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CharityAffiliation'
+            'elementName' => 'CharityAffiliation',
         ],
         'TermsAndConditionsAccepted' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TermsAndConditionsAccepted'
-        ]
+            'elementName' => 'TermsAndConditionsAccepted',
+        ],
     ];
 
     /**

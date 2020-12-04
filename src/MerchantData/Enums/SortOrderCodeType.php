@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class SortOrderCodeType
 {
-    const C_ASCENDING = 'Ascending';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DESCENDING = 'Descending';
+    public const C_ASCENDING = 'Ascending';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DESCENDING = 'Descending';
 }

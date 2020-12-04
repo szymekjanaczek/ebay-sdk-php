@@ -24,8 +24,8 @@ class PriorityListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ruleId'
-        ]
+            'elementName' => 'ruleId',
+        ],
     ];
 
     /**

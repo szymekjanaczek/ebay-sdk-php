@@ -26,20 +26,20 @@ class ProductResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\Product',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'products'
+            'elementName' => 'products',
         ],
         'paginationOutput' => [
             'type' => 'DTS\eBaySDK\Product\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
+            'elementName' => 'paginationOutput',
         ],
         'invocationId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'invocationId'
-        ]
+            'elementName' => 'invocationId',
+        ],
     ];
 
     /**

@@ -27,26 +27,26 @@ class FindItemsByCategoryRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingS
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'itemFilter' => [
             'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemFilter'
+            'elementName' => 'itemFilter',
         ],
         'aspectFilter' => [
             'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectFilter'
+            'elementName' => 'aspectFilter',
         ],
         'outputSelector' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'outputSelector'
-        ]
+            'elementName' => 'outputSelector',
+        ],
     ];
 
     /**

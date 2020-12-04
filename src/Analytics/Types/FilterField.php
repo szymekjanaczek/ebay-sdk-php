@@ -28,32 +28,32 @@ class FilterField extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'field'
+            'elementName' => 'field',
         ],
         'negated' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'negated'
+            'elementName' => 'negated',
         ],
         'range' => [
             'type' => 'DTS\eBaySDK\Analytics\Types\RangeValue',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'range'
+            'elementName' => 'range',
         ],
         'set' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'set'
+            'elementName' => 'set',
         ],
         'value' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

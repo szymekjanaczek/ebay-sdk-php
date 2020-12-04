@@ -26,20 +26,20 @@ class CaseSearchResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\CaseSummaryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'members'
+            'elementName' => 'members',
         ],
         'paginationOutput' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
+            'elementName' => 'paginationOutput',
         ],
         'totalNumberOfCases' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalNumberOfCases'
-        ]
+            'elementName' => 'totalNumberOfCases',
+        ],
     ];
 
     /**

@@ -29,38 +29,38 @@ class GetVeROReportStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VeROReportPacketID'
+            'elementName' => 'VeROReportPacketID',
         ],
         'ItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'IncludeReportedItemDetails' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeReportedItemDetails'
+            'elementName' => 'IncludeReportedItemDetails',
         ],
         'TimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TimeFrom'
+            'elementName' => 'TimeFrom',
         ],
         'TimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TimeTo'
+            'elementName' => 'TimeTo',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
-        ]
+            'elementName' => 'Pagination',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class AppliedPromotion extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'discountAmount' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountAmount'
+            'elementName' => 'discountAmount',
         ],
         'promotionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionId'
-        ]
+            'elementName' => 'promotionId',
+        ],
     ];
 
     /**

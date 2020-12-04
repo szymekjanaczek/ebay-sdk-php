@@ -24,8 +24,8 @@ class GetItemStatusResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResp
             'type' => 'DTS\eBaySDK\Shopping\Types\SimpleItemType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Item'
-        ]
+            'elementName' => 'Item',
+        ],
     ];
 
     /**

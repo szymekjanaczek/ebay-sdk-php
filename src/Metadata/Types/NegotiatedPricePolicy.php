@@ -28,32 +28,32 @@ class NegotiatedPricePolicy extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bestOfferAutoAcceptEnabled'
+            'elementName' => 'bestOfferAutoAcceptEnabled',
         ],
         'bestOfferAutoDeclineEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bestOfferAutoDeclineEnabled'
+            'elementName' => 'bestOfferAutoDeclineEnabled',
         ],
         'bestOfferCounterEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bestOfferCounterEnabled'
+            'elementName' => 'bestOfferCounterEnabled',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'categoryTreeId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeId'
-        ]
+            'elementName' => 'categoryTreeId',
+        ],
     ];
 
     /**

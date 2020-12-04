@@ -24,8 +24,8 @@ class ProductDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductIdentifierUnavailableText'
-        ]
+            'elementName' => 'ProductIdentifierUnavailableText',
+        ],
     ];
 
     /**

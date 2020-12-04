@@ -26,20 +26,20 @@ class CreateSignInCheckoutSessionRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\CreditCard',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creditCard'
+            'elementName' => 'creditCard',
         ],
         'lineItemInputs' => [
             'type' => 'DTS\eBaySDK\Order\Types\LineItemInput',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'lineItemInputs'
+            'elementName' => 'lineItemInputs',
         ],
         'shippingAddress' => [
             'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingAddress'
-        ]
+            'elementName' => 'shippingAddress',
+        ],
     ];
 
     /**

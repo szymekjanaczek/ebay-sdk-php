@@ -31,50 +31,50 @@ class OrderReportFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'createTimeFrom'
+            'elementName' => 'createTimeFrom',
         ],
         'createTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'createTimeTo'
+            'elementName' => 'createTimeTo',
         ],
         'modTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'modTimeFrom'
+            'elementName' => 'modTimeFrom',
         ],
         'modTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'modTimeTo'
+            'elementName' => 'modTimeTo',
         ],
         'includeFinalValueFee' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeFinalValueFee'
+            'elementName' => 'includeFinalValueFee',
         ],
         'listingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingType'
+            'elementName' => 'listingType',
         ],
         'orderStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'orderStatus'
+            'elementName' => 'orderStatus',
         ],
         'version' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'version'
-        ]
+            'elementName' => 'version',
+        ],
     ];
 
     /**

@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class QuestionTypeCodeType
 {
-    const C_CUSTOMIZED_SUBJECT = 'CustomizedSubject';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_GENERAL = 'General';
-    const C_MULTIPLE_ITEM_SHIPPING = 'MultipleItemShipping';
-    const C_NONE = 'None';
-    const C_PAYMENT = 'Payment';
-    const C_SHIPPING = 'Shipping';
+    public const C_CUSTOMIZED_SUBJECT = 'CustomizedSubject';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_GENERAL = 'General';
+    public const C_MULTIPLE_ITEM_SHIPPING = 'MultipleItemShipping';
+    public const C_NONE = 'None';
+    public const C_PAYMENT = 'Payment';
+    public const C_SHIPPING = 'Shipping';
 }

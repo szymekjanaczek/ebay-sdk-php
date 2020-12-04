@@ -24,8 +24,8 @@ class CreateOrReplaceInventoryItemGroupRestRequest extends \DTS\eBaySDK\Inventor
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryItemGroupKey'
-        ]
+            'elementName' => 'inventoryItemGroupKey',
+        ],
     ];
 
     /**

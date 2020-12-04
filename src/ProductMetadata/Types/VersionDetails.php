@@ -25,14 +25,14 @@ class VersionDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'version'
+            'elementName' => 'version',
         ],
         'updateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'updateTime'
-        ]
+            'elementName' => 'updateTime',
+        ],
     ];
 
     /**

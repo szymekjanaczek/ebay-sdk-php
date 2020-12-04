@@ -27,160 +27,218 @@ namespace DTS\eBaySDK\JmesPath;
  */
 class Lexer
 {
-    const T_DOT = 'dot';
-    const T_STAR = 'star';
-    const T_COMMA = 'comma';
-    const T_COLON = 'colon';
-    const T_CURRENT = 'current';
-    const T_EXPREF = 'expref';
-    const T_LPAREN = 'lparen';
-    const T_RPAREN = 'rparen';
-    const T_LBRACE = 'lbrace';
-    const T_RBRACE = 'rbrace';
-    const T_LBRACKET = 'lbracket';
-    const T_RBRACKET = 'rbracket';
-    const T_FLATTEN = 'flatten';
-    const T_IDENTIFIER = 'identifier';
-    const T_NUMBER = 'number';
-    const T_QUOTED_IDENTIFIER = 'quoted_identifier';
-    const T_UNKNOWN = 'unknown';
-    const T_PIPE = 'pipe';
-    const T_OR = 'or';
-    const T_AND = 'and';
-    const T_NOT = 'not';
-    const T_FILTER = 'filter';
-    const T_LITERAL = 'literal';
-    const T_EOF = 'eof';
-    const T_COMPARATOR = 'comparator';
+    public const T_DOT = 'dot';
+    public const T_STAR = 'star';
+    public const T_COMMA = 'comma';
+    public const T_COLON = 'colon';
+    public const T_CURRENT = 'current';
+    public const T_EXPREF = 'expref';
+    public const T_LPAREN = 'lparen';
+    public const T_RPAREN = 'rparen';
+    public const T_LBRACE = 'lbrace';
+    public const T_RBRACE = 'rbrace';
+    public const T_LBRACKET = 'lbracket';
+    public const T_RBRACKET = 'rbracket';
+    public const T_FLATTEN = 'flatten';
+    public const T_IDENTIFIER = 'identifier';
+    public const T_NUMBER = 'number';
+    public const T_QUOTED_IDENTIFIER = 'quoted_identifier';
+    public const T_UNKNOWN = 'unknown';
+    public const T_PIPE = 'pipe';
+    public const T_OR = 'or';
+    public const T_AND = 'and';
+    public const T_NOT = 'not';
+    public const T_FILTER = 'filter';
+    public const T_LITERAL = 'literal';
+    public const T_EOF = 'eof';
+    public const T_COMPARATOR = 'comparator';
 
-    const STATE_IDENTIFIER = 0;
-    const STATE_NUMBER = 1;
-    const STATE_SINGLE_CHAR = 2;
-    const STATE_WHITESPACE = 3;
-    const STATE_STRING_LITERAL = 4;
-    const STATE_QUOTED_STRING = 5;
-    const STATE_JSON_LITERAL = 6;
-    const STATE_LBRACKET = 7;
-    const STATE_PIPE = 8;
-    const STATE_LT = 9;
-    const STATE_GT = 10;
-    const STATE_EQ = 11;
-    const STATE_NOT = 12;
-    const STATE_AND = 13;
+    public const STATE_IDENTIFIER = 0;
+    public const STATE_NUMBER = 1;
+    public const STATE_SINGLE_CHAR = 2;
+    public const STATE_WHITESPACE = 3;
+    public const STATE_STRING_LITERAL = 4;
+    public const STATE_QUOTED_STRING = 5;
+    public const STATE_JSON_LITERAL = 6;
+    public const STATE_LBRACKET = 7;
+    public const STATE_PIPE = 8;
+    public const STATE_LT = 9;
+    public const STATE_GT = 10;
+    public const STATE_EQ = 11;
+    public const STATE_NOT = 12;
+    public const STATE_AND = 13;
 
     /** @var array We know what token we are consuming based on each char */
     private static $transitionTable = [
-        '<'  => self::STATE_LT,
-        '>'  => self::STATE_GT,
-        '='  => self::STATE_EQ,
-        '!'  => self::STATE_NOT,
-        '['  => self::STATE_LBRACKET,
-        '|'  => self::STATE_PIPE,
-        '&'  => self::STATE_AND,
-        '`'  => self::STATE_JSON_LITERAL,
-        '"'  => self::STATE_QUOTED_STRING,
-        "'"  => self::STATE_STRING_LITERAL,
-        '-'  => self::STATE_NUMBER,
-        '0'  => self::STATE_NUMBER,
-        '1'  => self::STATE_NUMBER,
-        '2'  => self::STATE_NUMBER,
-        '3'  => self::STATE_NUMBER,
-        '4'  => self::STATE_NUMBER,
-        '5'  => self::STATE_NUMBER,
-        '6'  => self::STATE_NUMBER,
-        '7'  => self::STATE_NUMBER,
-        '8'  => self::STATE_NUMBER,
-        '9'  => self::STATE_NUMBER,
-        ' '  => self::STATE_WHITESPACE,
+        '<' => self::STATE_LT,
+        '>' => self::STATE_GT,
+        '=' => self::STATE_EQ,
+        '!' => self::STATE_NOT,
+        '[' => self::STATE_LBRACKET,
+        '|' => self::STATE_PIPE,
+        '&' => self::STATE_AND,
+        '`' => self::STATE_JSON_LITERAL,
+        '"' => self::STATE_QUOTED_STRING,
+        "'" => self::STATE_STRING_LITERAL,
+        '-' => self::STATE_NUMBER,
+        '0' => self::STATE_NUMBER,
+        '1' => self::STATE_NUMBER,
+        '2' => self::STATE_NUMBER,
+        '3' => self::STATE_NUMBER,
+        '4' => self::STATE_NUMBER,
+        '5' => self::STATE_NUMBER,
+        '6' => self::STATE_NUMBER,
+        '7' => self::STATE_NUMBER,
+        '8' => self::STATE_NUMBER,
+        '9' => self::STATE_NUMBER,
+        ' ' => self::STATE_WHITESPACE,
         "\t" => self::STATE_WHITESPACE,
         "\n" => self::STATE_WHITESPACE,
         "\r" => self::STATE_WHITESPACE,
-        '.'  => self::STATE_SINGLE_CHAR,
-        '*'  => self::STATE_SINGLE_CHAR,
-        ']'  => self::STATE_SINGLE_CHAR,
-        ','  => self::STATE_SINGLE_CHAR,
-        ':'  => self::STATE_SINGLE_CHAR,
-        '@'  => self::STATE_SINGLE_CHAR,
-        '('  => self::STATE_SINGLE_CHAR,
-        ')'  => self::STATE_SINGLE_CHAR,
-        '{'  => self::STATE_SINGLE_CHAR,
-        '}'  => self::STATE_SINGLE_CHAR,
-        '_'  => self::STATE_IDENTIFIER,
-        'A'  => self::STATE_IDENTIFIER,
-        'B'  => self::STATE_IDENTIFIER,
-        'C'  => self::STATE_IDENTIFIER,
-        'D'  => self::STATE_IDENTIFIER,
-        'E'  => self::STATE_IDENTIFIER,
-        'F'  => self::STATE_IDENTIFIER,
-        'G'  => self::STATE_IDENTIFIER,
-        'H'  => self::STATE_IDENTIFIER,
-        'I'  => self::STATE_IDENTIFIER,
-        'J'  => self::STATE_IDENTIFIER,
-        'K'  => self::STATE_IDENTIFIER,
-        'L'  => self::STATE_IDENTIFIER,
-        'M'  => self::STATE_IDENTIFIER,
-        'N'  => self::STATE_IDENTIFIER,
-        'O'  => self::STATE_IDENTIFIER,
-        'P'  => self::STATE_IDENTIFIER,
-        'Q'  => self::STATE_IDENTIFIER,
-        'R'  => self::STATE_IDENTIFIER,
-        'S'  => self::STATE_IDENTIFIER,
-        'T'  => self::STATE_IDENTIFIER,
-        'U'  => self::STATE_IDENTIFIER,
-        'V'  => self::STATE_IDENTIFIER,
-        'W'  => self::STATE_IDENTIFIER,
-        'X'  => self::STATE_IDENTIFIER,
-        'Y'  => self::STATE_IDENTIFIER,
-        'Z'  => self::STATE_IDENTIFIER,
-        'a'  => self::STATE_IDENTIFIER,
-        'b'  => self::STATE_IDENTIFIER,
-        'c'  => self::STATE_IDENTIFIER,
-        'd'  => self::STATE_IDENTIFIER,
-        'e'  => self::STATE_IDENTIFIER,
-        'f'  => self::STATE_IDENTIFIER,
-        'g'  => self::STATE_IDENTIFIER,
-        'h'  => self::STATE_IDENTIFIER,
-        'i'  => self::STATE_IDENTIFIER,
-        'j'  => self::STATE_IDENTIFIER,
-        'k'  => self::STATE_IDENTIFIER,
-        'l'  => self::STATE_IDENTIFIER,
-        'm'  => self::STATE_IDENTIFIER,
-        'n'  => self::STATE_IDENTIFIER,
-        'o'  => self::STATE_IDENTIFIER,
-        'p'  => self::STATE_IDENTIFIER,
-        'q'  => self::STATE_IDENTIFIER,
-        'r'  => self::STATE_IDENTIFIER,
-        's'  => self::STATE_IDENTIFIER,
-        't'  => self::STATE_IDENTIFIER,
-        'u'  => self::STATE_IDENTIFIER,
-        'v'  => self::STATE_IDENTIFIER,
-        'w'  => self::STATE_IDENTIFIER,
-        'x'  => self::STATE_IDENTIFIER,
-        'y'  => self::STATE_IDENTIFIER,
-        'z'  => self::STATE_IDENTIFIER,
+        '.' => self::STATE_SINGLE_CHAR,
+        '*' => self::STATE_SINGLE_CHAR,
+        ']' => self::STATE_SINGLE_CHAR,
+        ',' => self::STATE_SINGLE_CHAR,
+        ':' => self::STATE_SINGLE_CHAR,
+        '@' => self::STATE_SINGLE_CHAR,
+        '(' => self::STATE_SINGLE_CHAR,
+        ')' => self::STATE_SINGLE_CHAR,
+        '{' => self::STATE_SINGLE_CHAR,
+        '}' => self::STATE_SINGLE_CHAR,
+        '_' => self::STATE_IDENTIFIER,
+        'A' => self::STATE_IDENTIFIER,
+        'B' => self::STATE_IDENTIFIER,
+        'C' => self::STATE_IDENTIFIER,
+        'D' => self::STATE_IDENTIFIER,
+        'E' => self::STATE_IDENTIFIER,
+        'F' => self::STATE_IDENTIFIER,
+        'G' => self::STATE_IDENTIFIER,
+        'H' => self::STATE_IDENTIFIER,
+        'I' => self::STATE_IDENTIFIER,
+        'J' => self::STATE_IDENTIFIER,
+        'K' => self::STATE_IDENTIFIER,
+        'L' => self::STATE_IDENTIFIER,
+        'M' => self::STATE_IDENTIFIER,
+        'N' => self::STATE_IDENTIFIER,
+        'O' => self::STATE_IDENTIFIER,
+        'P' => self::STATE_IDENTIFIER,
+        'Q' => self::STATE_IDENTIFIER,
+        'R' => self::STATE_IDENTIFIER,
+        'S' => self::STATE_IDENTIFIER,
+        'T' => self::STATE_IDENTIFIER,
+        'U' => self::STATE_IDENTIFIER,
+        'V' => self::STATE_IDENTIFIER,
+        'W' => self::STATE_IDENTIFIER,
+        'X' => self::STATE_IDENTIFIER,
+        'Y' => self::STATE_IDENTIFIER,
+        'Z' => self::STATE_IDENTIFIER,
+        'a' => self::STATE_IDENTIFIER,
+        'b' => self::STATE_IDENTIFIER,
+        'c' => self::STATE_IDENTIFIER,
+        'd' => self::STATE_IDENTIFIER,
+        'e' => self::STATE_IDENTIFIER,
+        'f' => self::STATE_IDENTIFIER,
+        'g' => self::STATE_IDENTIFIER,
+        'h' => self::STATE_IDENTIFIER,
+        'i' => self::STATE_IDENTIFIER,
+        'j' => self::STATE_IDENTIFIER,
+        'k' => self::STATE_IDENTIFIER,
+        'l' => self::STATE_IDENTIFIER,
+        'm' => self::STATE_IDENTIFIER,
+        'n' => self::STATE_IDENTIFIER,
+        'o' => self::STATE_IDENTIFIER,
+        'p' => self::STATE_IDENTIFIER,
+        'q' => self::STATE_IDENTIFIER,
+        'r' => self::STATE_IDENTIFIER,
+        's' => self::STATE_IDENTIFIER,
+        't' => self::STATE_IDENTIFIER,
+        'u' => self::STATE_IDENTIFIER,
+        'v' => self::STATE_IDENTIFIER,
+        'w' => self::STATE_IDENTIFIER,
+        'x' => self::STATE_IDENTIFIER,
+        'y' => self::STATE_IDENTIFIER,
+        'z' => self::STATE_IDENTIFIER,
     ];
 
     /** @var array Valid identifier characters after first character */
     private $validIdentifier = [
-        'A' => true, 'B' => true, 'C' => true, 'D' => true, 'E' => true,
-        'F' => true, 'G' => true, 'H' => true, 'I' => true, 'J' => true,
-        'K' => true, 'L' => true, 'M' => true, 'N' => true, 'O' => true,
-        'P' => true, 'Q' => true, 'R' => true, 'S' => true, 'T' => true,
-        'U' => true, 'V' => true, 'W' => true, 'X' => true, 'Y' => true,
-        'Z' => true, 'a' => true, 'b' => true, 'c' => true, 'd' => true,
-        'e' => true, 'f' => true, 'g' => true, 'h' => true, 'i' => true,
-        'j' => true, 'k' => true, 'l' => true, 'm' => true, 'n' => true,
-        'o' => true, 'p' => true, 'q' => true, 'r' => true, 's' => true,
-        't' => true, 'u' => true, 'v' => true, 'w' => true, 'x' => true,
-        'y' => true, 'z' => true, '_' => true, '0' => true, '1' => true,
-        '2' => true, '3' => true, '4' => true, '5' => true, '6' => true,
-        '7' => true, '8' => true, '9' => true,
+        'A' => true,
+        'B' => true,
+        'C' => true,
+        'D' => true,
+        'E' => true,
+        'F' => true,
+        'G' => true,
+        'H' => true,
+        'I' => true,
+        'J' => true,
+        'K' => true,
+        'L' => true,
+        'M' => true,
+        'N' => true,
+        'O' => true,
+        'P' => true,
+        'Q' => true,
+        'R' => true,
+        'S' => true,
+        'T' => true,
+        'U' => true,
+        'V' => true,
+        'W' => true,
+        'X' => true,
+        'Y' => true,
+        'Z' => true,
+        'a' => true,
+        'b' => true,
+        'c' => true,
+        'd' => true,
+        'e' => true,
+        'f' => true,
+        'g' => true,
+        'h' => true,
+        'i' => true,
+        'j' => true,
+        'k' => true,
+        'l' => true,
+        'm' => true,
+        'n' => true,
+        'o' => true,
+        'p' => true,
+        'q' => true,
+        'r' => true,
+        's' => true,
+        't' => true,
+        'u' => true,
+        'v' => true,
+        'w' => true,
+        'x' => true,
+        'y' => true,
+        'z' => true,
+        '_' => true,
+        '0' => true,
+        '1' => true,
+        '2' => true,
+        '3' => true,
+        '4' => true,
+        '5' => true,
+        '6' => true,
+        '7' => true,
+        '8' => true,
+        '9' => true,
     ];
 
     /** @var array Valid number characters after the first character */
     private $numbers = [
-        '0' => true, '1' => true, '2' => true, '3' => true, '4' => true,
-        '5' => true, '6' => true, '7' => true, '8' => true, '9' => true
+        '0' => true,
+        '1' => true,
+        '2' => true,
+        '3' => true,
+        '4' => true,
+        '5' => true,
+        '6' => true,
+        '7' => true,
+        '8' => true,
+        '9' => true,
     ];
 
     /** @var array Map of simple single character tokens */
@@ -221,9 +279,9 @@ class Lexer
             // Every character must be in the transition character table.
             if (!isset(self::$transitionTable[$current])) {
                 $tokens[] = [
-                    'type'  => self::T_UNKNOWN,
-                    'pos'   => key($chars),
-                    'value' => $current
+                    'type' => self::T_UNKNOWN,
+                    'pos' => key($chars),
+                    'value' => $current,
                 ];
                 next($chars);
                 continue;
@@ -235,12 +293,11 @@ class Lexer
 
                 // Consume simple tokens like ".", ",", "@", etc.
                 $tokens[] = [
-                    'type'  => $this->simpleTokens[$current],
-                    'pos'   => key($chars),
-                    'value' => $current
+                    'type' => $this->simpleTokens[$current],
+                    'pos' => key($chars),
+                    'value' => $current,
                 ];
                 next($chars);
-
             } elseif ($state === self::STATE_IDENTIFIER) {
 
                 // Consume identifiers
@@ -251,16 +308,14 @@ class Lexer
                     $current = next($chars);
                 } while ($current !== false && isset($this->validIdentifier[$current]));
                 $tokens[] = [
-                    'type'  => self::T_IDENTIFIER,
+                    'type' => self::T_IDENTIFIER,
                     'value' => $buffer,
-                    'pos'   => $start
+                    'pos' => $start,
                 ];
-
             } elseif ($state === self::STATE_WHITESPACE) {
 
                 // Skip whitespace
                 next($chars);
-
             } elseif ($state === self::STATE_LBRACKET) {
 
                 // Consume "[", "[?", and "[]"
@@ -269,37 +324,34 @@ class Lexer
                 if ($actual === ']') {
                     next($chars);
                     $tokens[] = [
-                        'type'  => self::T_FLATTEN,
-                        'pos'   => $position,
-                        'value' => '[]'
+                        'type' => self::T_FLATTEN,
+                        'pos' => $position,
+                        'value' => '[]',
                     ];
                 } elseif ($actual === '?') {
                     next($chars);
                     $tokens[] = [
-                        'type'  => self::T_FILTER,
-                        'pos'   => $position,
-                        'value' => '[?'
+                        'type' => self::T_FILTER,
+                        'pos' => $position,
+                        'value' => '[?',
                     ];
                 } else {
                     $tokens[] = [
-                        'type'  => self::T_LBRACKET,
-                        'pos'   => $position,
-                        'value' => '['
+                        'type' => self::T_LBRACKET,
+                        'pos' => $position,
+                        'value' => '[',
                     ];
                 }
-
             } elseif ($state === self::STATE_STRING_LITERAL) {
 
                 // Consume raw string literals
                 $t = $this->inside($chars, "'", self::T_LITERAL);
                 $t['value'] = str_replace("\\'", "'", $t['value']);
                 $tokens[] = $t;
-
             } elseif ($state === self::STATE_PIPE) {
 
                 // Consume pipe and OR
                 $tokens[] = $this->matchOr($chars, '|', '|', self::T_OR, self::T_PIPE);
-
             } elseif ($state == self::STATE_JSON_LITERAL) {
 
                 // Consume JSON literals
@@ -309,7 +361,6 @@ class Lexer
                     $token = $this->parseJson($token);
                 }
                 $tokens[] = $token;
-
             } elseif ($state == self::STATE_NUMBER) {
 
                 // Consume numbers
@@ -320,11 +371,10 @@ class Lexer
                     $current = next($chars);
                 } while ($current !== false && isset($this->numbers[$current]));
                 $tokens[] = [
-                    'type'  => self::T_NUMBER,
+                    'type' => self::T_NUMBER,
                     'value' => (int)$buffer,
-                    'pos'   => $start
+                    'pos' => $start,
                 ];
-
             } elseif ($state === self::STATE_QUOTED_STRING) {
 
                 // Consume quoted identifiers
@@ -334,35 +384,29 @@ class Lexer
                     $token = $this->parseJson($token);
                 }
                 $tokens[] = $token;
-
             } elseif ($state === self::STATE_EQ) {
 
                 // Consume equals
                 $tokens[] = $this->matchOr($chars, '=', '=', self::T_COMPARATOR, self::T_UNKNOWN);
-
             } elseif ($state == self::STATE_AND) {
-
                 $tokens[] = $this->matchOr($chars, '&', '&', self::T_AND, self::T_EXPREF);
-
             } elseif ($state === self::STATE_NOT) {
 
                 // Consume not equal
                 $tokens[] = $this->matchOr($chars, '!', '=', self::T_COMPARATOR, self::T_NOT);
-
             } else {
 
                 // either '<' or '>'
                 // Consume less than and greater than
                 $tokens[] = $this->matchOr($chars, $current, '=', self::T_COMPARATOR, self::T_COMPARATOR);
-
             }
         }
 
         eof:
         $tokens[] = [
-            'type'  => self::T_EOF,
-            'pos'   => strlen($input),
-            'value' => null
+            'type' => self::T_EOF,
+            'pos' => strlen($input),
+            'value' => null,
         ];
 
         return $tokens;
@@ -386,16 +430,16 @@ class Lexer
         if (next($chars) === $expected) {
             next($chars);
             return [
-                'type'  => $type,
-                'pos'   => key($chars) - 1,
-                'value' => $current . $expected
+                'type' => $type,
+                'pos' => key($chars) - 1,
+                'value' => $current . $expected,
             ];
         }
 
         return [
-            'type'  => $orElse,
-            'pos'   => key($chars) - 1,
-            'value' => $current
+            'type' => $orElse,
+            'pos' => key($chars) - 1,
+            'value' => $current,
         ];
     }
 
@@ -424,9 +468,9 @@ class Lexer
             if ($current === false) {
                 // Unclosed delimiter
                 return [
-                    'type'  => self::T_UNKNOWN,
+                    'type' => self::T_UNKNOWN,
                     'value' => $buffer,
-                    'pos'   => $position
+                    'pos' => $position,
                 ];
             }
             $buffer .= $current;
@@ -435,7 +479,11 @@ class Lexer
 
         next($chars);
 
-        return ['type' => $type, 'value' => $buffer, 'pos' => $position];
+        return [
+            'type' => $type,
+            'value' => $buffer,
+            'pos' => $position,
+        ];
     }
 
     /**

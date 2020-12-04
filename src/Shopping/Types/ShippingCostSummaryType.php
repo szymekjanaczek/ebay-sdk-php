@@ -32,56 +32,56 @@ class ShippingCostSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceName'
+            'elementName' => 'ShippingServiceName',
         ],
         'ShippingServiceCost' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCost'
+            'elementName' => 'ShippingServiceCost',
         ],
         'InsuranceCost' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuranceCost'
+            'elementName' => 'InsuranceCost',
         ],
         'ShippingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingType'
+            'elementName' => 'ShippingType',
         ],
         'LocalPickup' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LocalPickup'
+            'elementName' => 'LocalPickup',
         ],
         'InsuranceOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InsuranceOption'
+            'elementName' => 'InsuranceOption',
         ],
         'ListedShippingServiceCost' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListedShippingServiceCost'
+            'elementName' => 'ListedShippingServiceCost',
         ],
         'ImportCharge' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ImportCharge'
+            'elementName' => 'ImportCharge',
         ],
         'LogisticPlanType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogisticPlanType'
-        ]
+            'elementName' => 'LogisticPlanType',
+        ],
     ];
 
     /**

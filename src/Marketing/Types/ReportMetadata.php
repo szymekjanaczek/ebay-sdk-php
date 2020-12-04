@@ -28,32 +28,32 @@ class ReportMetadata extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\DimensionMetadata',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dimensionMetadata'
+            'elementName' => 'dimensionMetadata',
         ],
         'maxNumberOfDimensionsToRequest' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxNumberOfDimensionsToRequest'
+            'elementName' => 'maxNumberOfDimensionsToRequest',
         ],
         'maxNumberOfMetricsToRequest' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxNumberOfMetricsToRequest'
+            'elementName' => 'maxNumberOfMetricsToRequest',
         ],
         'metricMetadata' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\MetricMetadata',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'metricMetadata'
+            'elementName' => 'metricMetadata',
         ],
         'reportType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reportType'
-        ]
+            'elementName' => 'reportType',
+        ],
     ];
 
     /**

@@ -27,26 +27,26 @@ class ReviseSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductDetails'
+            'elementName' => 'SellingManagerProductDetails',
         ],
         'SellingManagerFolderDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerFolderDetails'
+            'elementName' => 'SellingManagerFolderDetails',
         ],
         'DeletedField' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DeletedField'
+            'elementName' => 'DeletedField',
         ],
         'SellingManagerProductSpecifics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductSpecifics'
-        ]
+            'elementName' => 'SellingManagerProductSpecifics',
+        ],
     ];
 
     /**

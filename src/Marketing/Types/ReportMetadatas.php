@@ -24,8 +24,8 @@ class ReportMetadatas extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\ReportMetadata',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'reportMetadata'
-        ]
+            'elementName' => 'reportMetadata',
+        ],
     ];
 
     /**

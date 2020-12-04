@@ -25,14 +25,14 @@ class GetBidderListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Bidder'
+            'elementName' => 'Bidder',
         ],
         'BidItemArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BidItemArray'
-        ]
+            'elementName' => 'BidItemArray',
+        ],
     ];
 
     /**

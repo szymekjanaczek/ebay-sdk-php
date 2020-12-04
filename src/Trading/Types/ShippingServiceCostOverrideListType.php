@@ -24,8 +24,8 @@ class ShippingServiceCostOverrideListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCostOverride'
-        ]
+            'elementName' => 'ShippingServiceCostOverride',
+        ],
     ];
 
     /**

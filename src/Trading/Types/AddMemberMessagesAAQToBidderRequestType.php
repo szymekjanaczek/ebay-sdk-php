@@ -24,8 +24,8 @@ class AddMemberMessagesAAQToBidderRequestType extends \DTS\eBaySDK\Trading\Types
             'type' => 'DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AddMemberMessagesAAQToBidderRequestContainer'
-        ]
+            'elementName' => 'AddMemberMessagesAAQToBidderRequestContainer',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GetCompatibilitySearchDataVersionRequest extends \DTS\eBaySDK\ProductMetad
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
-        ]
+            'elementName' => 'categoryId',
+        ],
     ];
 
     /**

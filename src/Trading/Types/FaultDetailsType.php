@@ -26,20 +26,20 @@ class FaultDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ErrorCode'
+            'elementName' => 'ErrorCode',
         ],
         'Severity' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Severity'
+            'elementName' => 'Severity',
         ],
         'DetailedMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailedMessage'
-        ]
+            'elementName' => 'DetailedMessage',
+        ],
     ];
 
     /**

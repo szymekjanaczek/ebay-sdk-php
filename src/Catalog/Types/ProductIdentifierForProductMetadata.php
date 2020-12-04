@@ -26,20 +26,20 @@ class ProductIdentifierForProductMetadata extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'constraint'
+            'elementName' => 'constraint',
         ],
         'valueAssociatedWithProduct' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'valueAssociatedWithProduct'
+            'elementName' => 'valueAssociatedWithProduct',
         ],
         'values' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'values'
-        ]
+            'elementName' => 'values',
+        ],
     ];
 
     /**

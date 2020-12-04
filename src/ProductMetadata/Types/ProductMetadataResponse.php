@@ -25,14 +25,14 @@ class ProductMetadataResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseRes
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadata',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productMetadata'
+            'elementName' => 'productMetadata',
         ],
         'requestInformation' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'requestInformation'
-        ]
+            'elementName' => 'requestInformation',
+        ],
     ];
 
     /**

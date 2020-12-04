@@ -26,20 +26,20 @@ class PerformanceDashboardType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Site'
+            'elementName' => 'Site',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'Alert' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellerDashboardAlertType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Alert'
-        ]
+            'elementName' => 'Alert',
+        ],
     ];
 
     /**

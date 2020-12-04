@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Trading\Services;
 
 use DTS\eBaySDK\Trading\Types;
@@ -11,37 +12,37 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
     /**
      * HTTP header constant. The API version your application supports.
      */
-    const HDR_API_VERSION = 'X-EBAY-API-COMPATIBILITY-LEVEL';
+    public const HDR_API_VERSION = 'X-EBAY-API-COMPATIBILITY-LEVEL';
 
     /**
      * HTTP header constant. Your application ID.
      */
-    const HDR_APP_ID = 'X-EBAY-API-APP-NAME';
+    public const HDR_APP_ID = 'X-EBAY-API-APP-NAME';
 
     /**
      * HTTP header constant. The OAUTH Authentication Token that is used to validate the caller has permission to access the eBay servers.
      */
-    const HDR_AUTHORIZATION = 'X-EBAY-API-IAF-TOKEN';
+    public const HDR_AUTHORIZATION = 'X-EBAY-API-IAF-TOKEN';
 
     /**
      * HTTP header constant. Your certificate ID.
      */
-    const HDR_CERT_ID = 'X-EBAY-API-CERT-NAME';
+    public const HDR_CERT_ID = 'X-EBAY-API-CERT-NAME';
 
     /**
      * HTTP header constant. Your developer ID.
      */
-    const HDR_DEV_ID = 'X-EBAY-API-DEV-NAME';
+    public const HDR_DEV_ID = 'X-EBAY-API-DEV-NAME';
 
     /**
      * HTTP header constant. The name of the operation you are calling.
      */
-    const HDR_OPERATION_NAME = 'X-EBAY-API-CALL-NAME';
+    public const HDR_OPERATION_NAME = 'X-EBAY-API-CALL-NAME';
 
     /**
      * HTTP header constant. The site ID of the eBay site the request is for.
      */
-    const HDR_SITE_ID = 'X-EBAY-API-SITEID';
+    public const HDR_SITE_ID = 'X-EBAY-API-SITEID';
 
     /**
      * @param array $config Configuration option values.
@@ -64,18 +65,18 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
             'apiVersion' => [
                 'valid' => ['string'],
                 'default' => \DTS\eBaySDK\Trading\Services\TradingService::API_VERSION,
-                'required' => true
+                'required' => true,
             ],
             'authorization' => [
-                'valid' => ['string']
+                'valid' => ['string'],
             ],
             'authToken' => [
-                'valid' => ['string']
+                'valid' => ['string'],
             ],
             'siteId' => [
                 'valid' => ['int', 'string'],
-                'required' => true
-            ]
+                'required' => true,
+            ],
         ];
     }
 
@@ -176,7 +177,7 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
     protected function buildRequestBody(\DTS\eBaySDK\Types\BaseType $request)
     {
         if ($request->hasAttachment() && $request instanceof Types\UploadSiteHostedPicturesRequestType) {
-            return $this->buildMultipartFormDataXMLPayload($request).$this->buildMultipartFormDataFilePayload($request->PictureName, $request->attachment());
+            return $this->buildMultipartFormDataXMLPayload($request) . $this->buildMultipartFormDataFilePayload($request->PictureName, $request->attachment());
         } else {
             return parent::buildRequestBody($request);
         }

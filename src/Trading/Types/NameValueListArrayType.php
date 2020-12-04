@@ -24,8 +24,8 @@ class NameValueListArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NameValueList'
-        ]
+            'elementName' => 'NameValueList',
+        ],
     ];
 
     /**

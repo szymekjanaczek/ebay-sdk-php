@@ -29,38 +29,38 @@ class AspectConstraint extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectDataType'
+            'elementName' => 'aspectDataType',
         ],
         'aspectEnabledForVariations' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectEnabledForVariations'
+            'elementName' => 'aspectEnabledForVariations',
         ],
         'aspectFormat' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectFormat'
+            'elementName' => 'aspectFormat',
         ],
         'aspectMode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectMode'
+            'elementName' => 'aspectMode',
         ],
         'aspectRequired' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectRequired'
+            'elementName' => 'aspectRequired',
         ],
         'itemToAspectCardinality' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemToAspectCardinality'
-        ]
+            'elementName' => 'itemToAspectCardinality',
+        ],
     ];
 
     /**

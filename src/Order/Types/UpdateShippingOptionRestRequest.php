@@ -24,8 +24,8 @@ class UpdateShippingOptionRestRequest extends \DTS\eBaySDK\Order\Types\UpdateShi
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'checkoutSessionId'
-        ]
+            'elementName' => 'checkoutSessionId',
+        ],
     ];
 
     /**

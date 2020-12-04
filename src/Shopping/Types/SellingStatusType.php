@@ -25,14 +25,14 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantitySold'
+            'elementName' => 'QuantitySold',
         ],
         'QuantitySoldByPickupInStore' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantitySoldByPickupInStore'
-        ]
+            'elementName' => 'QuantitySoldByPickupInStore',
+        ],
     ];
 
     /**

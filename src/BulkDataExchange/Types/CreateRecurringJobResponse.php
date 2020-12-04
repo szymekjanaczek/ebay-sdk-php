@@ -24,8 +24,8 @@ class CreateRecurringJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\Bas
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recurringJobId'
-        ]
+            'elementName' => 'recurringJobId',
+        ],
     ];
 
     /**

@@ -38,92 +38,92 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
+            'elementName' => 'SKU',
         ],
         'StartPrice' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartPrice'
+            'elementName' => 'StartPrice',
         ],
         'Quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Quantity'
+            'elementName' => 'Quantity',
         ],
         'VariationSpecifics' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\NameValueListArrayType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'VariationSpecifics'
+            'elementName' => 'VariationSpecifics',
         ],
         'UnitsAvailable' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnitsAvailable'
+            'elementName' => 'UnitsAvailable',
         ],
         'UnitCost' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UnitCost'
+            'elementName' => 'UnitCost',
         ],
         'SellingStatus' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingStatus'
+            'elementName' => 'SellingStatus',
         ],
         'VariationTitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationTitle'
+            'elementName' => 'VariationTitle',
         ],
         'VariationViewItemURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationViewItemURL'
+            'elementName' => 'VariationViewItemURL',
         ],
         'Delete' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Delete'
+            'elementName' => 'Delete',
         ],
         'SellingManagerProductInventoryStatus' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\SellingManagerProductInventoryStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellingManagerProductInventoryStatus'
+            'elementName' => 'SellingManagerProductInventoryStatus',
         ],
         'WatchCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WatchCount'
+            'elementName' => 'WatchCount',
         ],
         'PrivateNotes' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PrivateNotes'
+            'elementName' => 'PrivateNotes',
         ],
         'DiscountPriceInfo' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\DiscountPriceInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DiscountPriceInfo'
+            'elementName' => 'DiscountPriceInfo',
         ],
         'VariationProductListingDetails' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\VariationProductListingDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationProductListingDetails'
-        ]
+            'elementName' => 'VariationProductListingDetails',
+        ],
     ];
 
     /**

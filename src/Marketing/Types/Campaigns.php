@@ -24,8 +24,8 @@ class Campaigns extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\Campaign',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'campaigns'
-        ]
+            'elementName' => 'campaigns',
+        ],
     ];
 
     /**

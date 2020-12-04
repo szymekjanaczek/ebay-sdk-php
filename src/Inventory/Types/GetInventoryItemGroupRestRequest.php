@@ -24,8 +24,8 @@ class GetInventoryItemGroupRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryItemGroupKey'
-        ]
+            'elementName' => 'inventoryItemGroupKey',
+        ],
     ];
 
     /**

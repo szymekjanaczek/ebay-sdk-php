@@ -33,62 +33,62 @@ class PromotionDetail extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'endDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endDate'
+            'elementName' => 'endDate',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'priority' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priority'
+            'elementName' => 'priority',
         ],
         'promotionHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionHref'
+            'elementName' => 'promotionHref',
         ],
         'promotionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionId'
+            'elementName' => 'promotionId',
         ],
         'promotionImageUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionImageUrl'
+            'elementName' => 'promotionImageUrl',
         ],
         'promotionStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionStatus'
+            'elementName' => 'promotionStatus',
         ],
         'startDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startDate'
-        ]
+            'elementName' => 'startDate',
+        ],
     ];
 
     /**

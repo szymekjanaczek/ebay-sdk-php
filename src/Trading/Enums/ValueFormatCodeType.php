@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class ValueFormatCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FULL_DATE = 'FullDate';
-    const C_PARTIAL_DATE = 'PartialDate';
-    const C_YEAR = 'Year';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FULL_DATE = 'FullDate';
+    public const C_PARTIAL_DATE = 'PartialDate';
+    public const C_YEAR = 'Year';
 }

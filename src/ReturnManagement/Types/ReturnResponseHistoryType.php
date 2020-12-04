@@ -27,26 +27,26 @@ class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'note'
+            'elementName' => 'note',
         ],
         'author' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'author'
+            'elementName' => 'author',
         ],
         'activityDetail' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'activityDetail'
+            'elementName' => 'activityDetail',
         ],
         'creationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
-        ]
+            'elementName' => 'creationDate',
+        ],
     ];
 
     /**

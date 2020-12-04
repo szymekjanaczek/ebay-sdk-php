@@ -27,26 +27,26 @@ class ProductSuggestionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Title'
+            'elementName' => 'Title',
         ],
         'EPID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EPID'
+            'elementName' => 'EPID',
         ],
         'StockPhoto' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StockPhoto'
+            'elementName' => 'StockPhoto',
         ],
         'Recommended' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Recommended'
-        ]
+            'elementName' => 'Recommended',
+        ],
     ];
 
     /**

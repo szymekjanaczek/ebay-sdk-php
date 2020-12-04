@@ -25,14 +25,14 @@ class Media extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\MediaIdentifier',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'mediaIdentifier'
+            'elementName' => 'mediaIdentifier',
         ],
         'mediaType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'mediaType'
-        ]
+            'elementName' => 'mediaType',
+        ],
     ];
 
     /**

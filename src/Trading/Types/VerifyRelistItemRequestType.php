@@ -25,14 +25,14 @@ class VerifyRelistItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
+            'elementName' => 'Item',
         ],
         'DeletedField' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DeletedField'
-        ]
+            'elementName' => 'DeletedField',
+        ],
     ];
 
     /**

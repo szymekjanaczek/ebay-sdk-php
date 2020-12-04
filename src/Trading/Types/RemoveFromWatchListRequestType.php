@@ -26,20 +26,20 @@ class RemoveFromWatchListRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'RemoveAllItems' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RemoveAllItems'
+            'elementName' => 'RemoveAllItems',
         ],
         'VariationKey' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VariationKeyType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'VariationKey'
-        ]
+            'elementName' => 'VariationKey',
+        ],
     ];
 
     /**

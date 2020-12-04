@@ -28,32 +28,32 @@ class CreateChangeRequestPayload extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'changeRequestType'
+            'elementName' => 'changeRequestType',
         ],
         'reasonForChangeRequest' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reasonForChangeRequest'
+            'elementName' => 'reasonForChangeRequest',
         ],
         'referenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'referenceId'
+            'elementName' => 'referenceId',
         ],
         'referenceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'referenceType'
+            'elementName' => 'referenceType',
         ],
         'suggestedProduct' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\SuggestedProduct',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'suggestedProduct'
-        ]
+            'elementName' => 'suggestedProduct',
+        ],
     ];
 
     /**

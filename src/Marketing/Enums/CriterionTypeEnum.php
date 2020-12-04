@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Marketing\Enums;
 
 class CriterionTypeEnum
 {
-    const C_INVENTORY_PARTITION = 'INVENTORY_PARTITION';
+    public const C_INVENTORY_PARTITION = 'INVENTORY_PARTITION';
 }

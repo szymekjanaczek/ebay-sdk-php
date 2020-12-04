@@ -27,26 +27,26 @@ class GetTrackingHistoryResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierUsed'
+            'elementName' => 'carrierUsed',
         ],
         'scanHistory' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ScanDetailType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'scanHistory'
+            'elementName' => 'scanHistory',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
+            'elementName' => 'trackingNumber',
         ],
         'trackingStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingStatus'
-        ]
+            'elementName' => 'trackingStatus',
+        ],
     ];
 
     /**

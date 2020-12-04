@@ -24,8 +24,8 @@ class GetJobStatusRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServic
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobId'
-        ]
+            'elementName' => 'jobId',
+        ],
     ];
 
     /**

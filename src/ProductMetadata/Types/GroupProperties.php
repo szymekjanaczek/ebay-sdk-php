@@ -27,26 +27,26 @@ class GroupProperties extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'groupType'
+            'elementName' => 'groupType',
         ],
         'groupName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'groupName'
+            'elementName' => 'groupName',
         ],
         'groupProperty' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\GroupProperty',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'groupProperty'
+            'elementName' => 'groupProperty',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
-        ]
+            'elementName' => 'description',
+        ],
     ];
 
     /**

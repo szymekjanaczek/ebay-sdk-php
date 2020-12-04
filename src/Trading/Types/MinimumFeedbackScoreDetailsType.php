@@ -24,8 +24,8 @@ class MinimumFeedbackScoreDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FeedbackScore'
-        ]
+            'elementName' => 'FeedbackScore',
+        ],
     ];
 
     /**

@@ -27,26 +27,26 @@ class GetRecurringJobExecutionHistoryRequest extends \DTS\eBaySDK\BulkDataExchan
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startTime'
+            'elementName' => 'startTime',
         ],
         'endTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endTime'
+            'elementName' => 'endTime',
         ],
         'recurringJobId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recurringJobId'
+            'elementName' => 'recurringJobId',
         ],
         'jobStatus' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'jobStatus'
-        ]
+            'elementName' => 'jobStatus',
+        ],
     ];
 
     /**

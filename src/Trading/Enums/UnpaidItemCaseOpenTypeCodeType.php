@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class UnpaidItemCaseOpenTypeCodeType
 {
-    const C_AUTO = 'Auto';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_MANUAL = 'Manual';
+    public const C_AUTO = 'Auto';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_MANUAL = 'Manual';
 }

@@ -24,8 +24,8 @@ class StoreCustomCategoryArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CustomCategory'
-        ]
+            'elementName' => 'CustomCategory',
+        ],
     ];
 
     /**

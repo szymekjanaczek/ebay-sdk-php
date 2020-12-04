@@ -25,14 +25,14 @@ class PicturesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecificName'
+            'elementName' => 'VariationSpecificName',
         ],
         'VariationSpecificPictureSet' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VariationSpecificPictureSetType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'VariationSpecificPictureSet'
-        ]
+            'elementName' => 'VariationSpecificPictureSet',
+        ],
     ];
 
     /**

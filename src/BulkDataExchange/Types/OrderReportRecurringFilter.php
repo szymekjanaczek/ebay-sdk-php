@@ -27,26 +27,26 @@ class OrderReportRecurringFilter extends \DTS\eBaySDK\BulkDataExchange\Types\Bas
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'createTimeRange'
+            'elementName' => 'createTimeRange',
         ],
         'modTimeRange' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'modTimeRange'
+            'elementName' => 'modTimeRange',
         ],
         'listingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listingType'
+            'elementName' => 'listingType',
         ],
         'version' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'version'
-        ]
+            'elementName' => 'version',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class CheckLabelPrintEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'printLabelValid'
-        ]
+            'elementName' => 'printLabelValid',
+        ],
     ];
 
     /**

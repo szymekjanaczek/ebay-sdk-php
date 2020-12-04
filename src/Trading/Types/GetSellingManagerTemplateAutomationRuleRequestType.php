@@ -24,8 +24,8 @@ class GetSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Tr
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SaleTemplateID'
-        ]
+            'elementName' => 'SaleTemplateID',
+        ],
     ];
 
     /**

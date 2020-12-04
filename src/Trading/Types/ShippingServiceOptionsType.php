@@ -37,86 +37,86 @@ class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingInsuranceCost'
+            'elementName' => 'ShippingInsuranceCost',
         ],
         'ShippingService' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingService'
+            'elementName' => 'ShippingService',
         ],
         'ShippingServiceCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCost'
+            'elementName' => 'ShippingServiceCost',
         ],
         'ShippingServiceAdditionalCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceAdditionalCost'
+            'elementName' => 'ShippingServiceAdditionalCost',
         ],
         'ShippingServicePriority' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServicePriority'
+            'elementName' => 'ShippingServicePriority',
         ],
         'ExpeditedService' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExpeditedService'
+            'elementName' => 'ExpeditedService',
         ],
         'ShippingTimeMin' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingTimeMin'
+            'elementName' => 'ShippingTimeMin',
         ],
         'ShippingTimeMax' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingTimeMax'
+            'elementName' => 'ShippingTimeMax',
         ],
         'ShippingSurcharge' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingSurcharge'
+            'elementName' => 'ShippingSurcharge',
         ],
         'FreeShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FreeShipping'
+            'elementName' => 'FreeShipping',
         ],
         'LocalPickup' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LocalPickup'
+            'elementName' => 'LocalPickup',
         ],
         'ImportCharge' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ImportCharge'
+            'elementName' => 'ImportCharge',
         ],
         'ShippingPackageInfo' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingPackageInfoType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingPackageInfo'
+            'elementName' => 'ShippingPackageInfo',
         ],
         'ShippingServiceCutOffTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCutOffTime'
-        ]
+            'elementName' => 'ShippingServiceCutOffTime',
+        ],
     ];
 
     /**

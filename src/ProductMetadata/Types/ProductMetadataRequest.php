@@ -27,26 +27,26 @@ class ProductMetadataRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseRequ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'includeManagedValues' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeManagedValues'
+            'elementName' => 'includeManagedValues',
         ],
         'includeGroupPropertiesOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeGroupPropertiesOnly'
+            'elementName' => 'includeGroupPropertiesOnly',
         ],
         'groupType' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'groupType'
-        ]
+            'elementName' => 'groupType',
+        ],
     ];
 
     /**

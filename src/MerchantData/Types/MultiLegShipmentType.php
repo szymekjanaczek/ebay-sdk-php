@@ -27,26 +27,26 @@ class MultiLegShipmentType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\MultiLegShippingServiceType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceDetails'
+            'elementName' => 'ShippingServiceDetails',
         ],
         'ShipToAddress' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShipToAddress'
+            'elementName' => 'ShipToAddress',
         ],
         'ShippingTimeMin' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingTimeMin'
+            'elementName' => 'ShippingTimeMin',
         ],
         'ShippingTimeMax' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingTimeMax'
-        ]
+            'elementName' => 'ShippingTimeMax',
+        ],
     ];
 
     /**

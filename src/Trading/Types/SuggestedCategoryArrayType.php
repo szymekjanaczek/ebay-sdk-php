@@ -24,8 +24,8 @@ class SuggestedCategoryArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\SuggestedCategoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SuggestedCategory'
-        ]
+            'elementName' => 'SuggestedCategory',
+        ],
     ];
 
     /**

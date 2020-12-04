@@ -25,14 +25,14 @@ class EstimatedRefundDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemizedRefundDetails'
+            'elementName' => 'itemizedRefundDetails',
         ],
         'optionalRefundLineItems' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'optionalRefundLineItems'
-        ]
+            'elementName' => 'optionalRefundLineItems',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class AspectValue extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'localizedValue'
+            'elementName' => 'localizedValue',
         ],
         'valueConstraints' => [
             'type' => 'DTS\eBaySDK\Taxonomy\Types\ValueConstraint',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'valueConstraints'
-        ]
+            'elementName' => 'valueConstraints',
+        ],
     ];
 
     /**

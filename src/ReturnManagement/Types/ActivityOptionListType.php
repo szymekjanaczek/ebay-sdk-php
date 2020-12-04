@@ -25,14 +25,14 @@ class ActivityOptionListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\IssueRefundOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'issueRefund'
+            'elementName' => 'issueRefund',
         ],
         'provideSellerInfo' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'provideSellerInfo'
-        ]
+            'elementName' => 'provideSellerInfo',
+        ],
     ];
 
     /**

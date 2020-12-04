@@ -24,8 +24,8 @@ class StartUploadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobId'
-        ]
+            'elementName' => 'jobId',
+        ],
     ];
 
     /**

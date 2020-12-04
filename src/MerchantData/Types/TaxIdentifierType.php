@@ -26,20 +26,20 @@ class TaxIdentifierType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Type'
+            'elementName' => 'Type',
         ],
         'ID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ID'
+            'elementName' => 'ID',
         ],
         'Attribute' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Attribute'
-        ]
+            'elementName' => 'Attribute',
+        ],
     ];
 
     /**

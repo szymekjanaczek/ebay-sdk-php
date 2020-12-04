@@ -28,32 +28,32 @@ class ReturnCreationInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
+            'elementName' => 'comments',
         ],
         'creationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'item' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'item'
+            'elementName' => 'item',
         ],
         'reason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reason'
+            'elementName' => 'reason',
         ],
         'type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
-        ]
+            'elementName' => 'type',
+        ],
     ];
 
     /**

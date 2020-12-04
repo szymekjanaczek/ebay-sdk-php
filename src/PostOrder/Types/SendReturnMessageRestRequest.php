@@ -24,8 +24,8 @@ class SendReturnMessageRestRequest extends \DTS\eBaySDK\PostOrder\Types\SendMess
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

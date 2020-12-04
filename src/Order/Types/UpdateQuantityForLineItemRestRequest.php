@@ -24,8 +24,8 @@ class UpdateQuantityForLineItemRestRequest extends \DTS\eBaySDK\Order\Types\Upda
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'checkoutSessionId'
-        ]
+            'elementName' => 'checkoutSessionId',
+        ],
     ];
 
     /**

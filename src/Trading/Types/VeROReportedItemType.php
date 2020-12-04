@@ -26,20 +26,20 @@ class VeROReportedItemType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'ItemStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemStatus'
+            'elementName' => 'ItemStatus',
         ],
         'ItemReasonForFailure' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemReasonForFailure'
-        ]
+            'elementName' => 'ItemReasonForFailure',
+        ],
     ];
 
     /**

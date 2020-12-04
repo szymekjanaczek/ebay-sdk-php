@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Types;
 
 /**
@@ -15,8 +16,8 @@ class BooleanType extends \DTS\eBaySDK\Types\BaseType
         'value' => [
             'type' => 'boolean',
             'repeatable' => false,
-            'attribute' => false
-        ]
+            'attribute' => false,
+        ],
     ];
 
     /**

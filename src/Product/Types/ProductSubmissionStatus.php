@@ -26,20 +26,20 @@ class ProductSubmissionStatus extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productSubmissionId'
+            'elementName' => 'productSubmissionId',
         ],
         'statusCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'statusCode'
+            'elementName' => 'statusCode',
         ],
         'ePID' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ePID'
-        ]
+            'elementName' => 'ePID',
+        ],
     ];
 
     /**

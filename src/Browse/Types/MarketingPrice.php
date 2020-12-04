@@ -26,20 +26,20 @@ class MarketingPrice extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountAmount'
+            'elementName' => 'discountAmount',
         ],
         'discountPercentage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountPercentage'
+            'elementName' => 'discountPercentage',
         ],
         'originalPrice' => [
             'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'originalPrice'
-        ]
+            'elementName' => 'originalPrice',
+        ],
     ];
 
     /**

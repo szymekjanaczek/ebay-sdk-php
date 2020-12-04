@@ -26,20 +26,20 @@ class DimensionMetadata extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataType'
+            'elementName' => 'dataType',
         ],
         'dimensionKey' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dimensionKey'
+            'elementName' => 'dimensionKey',
         ],
         'dimensionKeyAnnotations' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\DimensionKeyAnnotation',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dimensionKeyAnnotations'
-        ]
+            'elementName' => 'dimensionKeyAnnotations',
+        ],
     ];
 
     /**

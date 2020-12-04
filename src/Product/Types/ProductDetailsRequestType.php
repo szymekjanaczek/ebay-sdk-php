@@ -27,26 +27,26 @@ class ProductDetailsRequestType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productIdentifier'
+            'elementName' => 'productIdentifier',
         ],
         'datasetPropertyName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'datasetPropertyName'
+            'elementName' => 'datasetPropertyName',
         ],
         'dataset' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dataset'
+            'elementName' => 'dataset',
         ],
         'productStatusFilter' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productStatusFilter'
-        ]
+            'elementName' => 'productStatusFilter',
+        ],
     ];
 
     /**

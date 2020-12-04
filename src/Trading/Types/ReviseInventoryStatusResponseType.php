@@ -25,14 +25,14 @@ class ReviseInventoryStatusResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'type' => 'DTS\eBaySDK\Trading\Types\InventoryStatusType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'InventoryStatus'
+            'elementName' => 'InventoryStatus',
         ],
         'Fees' => [
             'type' => 'DTS\eBaySDK\Trading\Types\InventoryFeesType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Fees'
-        ]
+            'elementName' => 'Fees',
+        ],
     ];
 
     /**

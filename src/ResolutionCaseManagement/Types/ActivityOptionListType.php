@@ -34,68 +34,68 @@ class ActivityOptionListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offerOtherSolution'
+            'elementName' => 'offerOtherSolution',
         ],
         'provideTrackingInfo' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'provideTrackingInfo'
+            'elementName' => 'provideTrackingInfo',
         ],
         'issueFullRefund' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'issueFullRefund'
+            'elementName' => 'issueFullRefund',
         ],
         'issuePartialRefund' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'issuePartialRefund'
+            'elementName' => 'issuePartialRefund',
         ],
         'provideShippingInfo' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'provideShippingInfo'
+            'elementName' => 'provideShippingInfo',
         ],
         'requestBuyerToReturn' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'requestBuyerToReturn'
+            'elementName' => 'requestBuyerToReturn',
         ],
         'provideShippingOrTrackingInfo' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingOrTrackingInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'provideShippingOrTrackingInfo'
+            'elementName' => 'provideShippingOrTrackingInfo',
         ],
         'provideRefundInfo' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'provideRefundInfo'
+            'elementName' => 'provideRefundInfo',
         ],
         'contactCustomerSupport' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'contactCustomerSupport'
+            'elementName' => 'contactCustomerSupport',
         ],
         'escalateToCustomerSupport' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'escalateToCustomerSupport'
+            'elementName' => 'escalateToCustomerSupport',
         ],
         'appealToCustomerSupport' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'appealToCustomerSupport'
-        ]
+            'elementName' => 'appealToCustomerSupport',
+        ],
     ];
 
     /**

@@ -29,38 +29,38 @@ class StorefrontType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategoryID'
+            'elementName' => 'StoreCategoryID',
         ],
         'StoreCategory2ID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategory2ID'
+            'elementName' => 'StoreCategory2ID',
         ],
         'StoreCategoryName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategoryName'
+            'elementName' => 'StoreCategoryName',
         ],
         'StoreCategory2Name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategory2Name'
+            'elementName' => 'StoreCategory2Name',
         ],
         'StoreURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreURL'
+            'elementName' => 'StoreURL',
         ],
         'StoreName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreName'
-        ]
+            'elementName' => 'StoreName',
+        ],
     ];
 
     /**

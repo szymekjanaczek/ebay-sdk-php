@@ -26,20 +26,20 @@ class BaseFindingServiceResponse extends \DTS\eBaySDK\Finding\Types\BaseServiceR
             'type' => 'DTS\eBaySDK\Finding\Types\SearchResult',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'searchResult'
+            'elementName' => 'searchResult',
         ],
         'paginationOutput' => [
             'type' => 'DTS\eBaySDK\Finding\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
+            'elementName' => 'paginationOutput',
         ],
         'itemSearchURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemSearchURL'
-        ]
+            'elementName' => 'itemSearchURL',
+        ],
     ];
 
     /**

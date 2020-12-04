@@ -29,38 +29,38 @@ class GetStoreOptionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BasicThemeArray'
+            'elementName' => 'BasicThemeArray',
         ],
         'AdvancedThemeArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AdvancedThemeArray'
+            'elementName' => 'AdvancedThemeArray',
         ],
         'LogoArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreLogoArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LogoArray'
+            'elementName' => 'LogoArray',
         ],
         'SubscriptionArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SubscriptionArray'
+            'elementName' => 'SubscriptionArray',
         ],
         'MaxCategories' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxCategories'
+            'elementName' => 'MaxCategories',
         ],
         'MaxCategoryLevels' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxCategoryLevels'
-        ]
+            'elementName' => 'MaxCategoryLevels',
+        ],
     ];
 
     /**

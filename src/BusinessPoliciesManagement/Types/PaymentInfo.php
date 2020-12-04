@@ -29,38 +29,38 @@ class PaymentInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'acceptedPaymentMethod'
+            'elementName' => 'acceptedPaymentMethod',
         ],
         'immediatePay' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'immediatePay'
+            'elementName' => 'immediatePay',
         ],
         'paymentInstructions' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentInstructions'
+            'elementName' => 'paymentInstructions',
         ],
         'paypalEmailAddress' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paypalEmailAddress'
+            'elementName' => 'paypalEmailAddress',
         ],
         'depositDetails' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\DepositDetails',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'depositDetails'
+            'elementName' => 'depositDetails',
         ],
         'daysToFullPayment' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'daysToFullPayment'
-        ]
+            'elementName' => 'daysToFullPayment',
+        ],
     ];
 
     /**

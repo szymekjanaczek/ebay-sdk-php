@@ -25,14 +25,14 @@ class GetTaxTableResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespons
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastUpdateTime'
+            'elementName' => 'LastUpdateTime',
         ],
         'TaxTable' => [
             'type' => 'DTS\eBaySDK\Trading\Types\TaxTableType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxTable'
-        ]
+            'elementName' => 'TaxTable',
+        ],
     ];
 
     /**

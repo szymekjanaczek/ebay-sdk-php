@@ -41,110 +41,110 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
+            'elementName' => 'title',
         ],
         'viewItemURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'viewItemURL'
+            'elementName' => 'viewItemURL',
         ],
         'currentPrice' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'currentPrice'
+            'elementName' => 'currentPrice',
         ],
         'originalPrice' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'originalPrice'
+            'elementName' => 'originalPrice',
         ],
         'globalId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'globalId'
+            'elementName' => 'globalId',
         ],
         'timeLeft' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'timeLeft'
+            'elementName' => 'timeLeft',
         ],
         'primaryCategoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'primaryCategoryId'
+            'elementName' => 'primaryCategoryId',
         ],
         'primaryCategoryName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'primaryCategoryName'
+            'elementName' => 'primaryCategoryName',
         ],
         'subtitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'subtitle'
+            'elementName' => 'subtitle',
         ],
         'bidCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bidCount'
+            'elementName' => 'bidCount',
         ],
         'buyItNowPrice' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyItNowPrice'
+            'elementName' => 'buyItNowPrice',
         ],
         'country' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'country'
+            'elementName' => 'country',
         ],
         'imageURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'imageURL'
+            'elementName' => 'imageURL',
         ],
         'shippingCost' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCost'
+            'elementName' => 'shippingCost',
         ],
         'shippingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingType'
+            'elementName' => 'shippingType',
         ],
         'watchCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'watchCount'
+            'elementName' => 'watchCount',
         ],
         'discountPriceInfo' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\DiscountPriceInfo',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountPriceInfo'
-        ]
+            'elementName' => 'discountPriceInfo',
+        ],
     ];
 
     /**

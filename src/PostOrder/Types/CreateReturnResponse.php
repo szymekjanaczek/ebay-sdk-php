@@ -27,26 +27,26 @@ class CreateReturnResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\GetDetailResponse',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'detail'
+            'elementName' => 'detail',
         ],
         'eligibilityResult' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eligibilityResult'
+            'elementName' => 'eligibilityResult',
         ],
         'returnId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
+            'elementName' => 'returnId',
         ],
         'summary' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'summary'
-        ]
+            'elementName' => 'summary',
+        ],
     ];
 
     /**

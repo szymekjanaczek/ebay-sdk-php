@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class LabelActionEnum
 {
-    const C_EBAY_LABEL = 'EBAY_LABEL';
-    const C_MARK_AS_SENT = 'MARK_AS_SENT';
-    const C_NO_LABEL = 'NO_LABEL';
-    const C_PURCHASE_LABEL = 'PURCHASE_LABEL';
-    const C_UNKNOWN = 'UNKNOWN';
-    const C_UPLOAD_LABEL = 'UPLOAD_LABEL';
+    public const C_EBAY_LABEL = 'EBAY_LABEL';
+    public const C_MARK_AS_SENT = 'MARK_AS_SENT';
+    public const C_NO_LABEL = 'NO_LABEL';
+    public const C_PURCHASE_LABEL = 'PURCHASE_LABEL';
+    public const C_UNKNOWN = 'UNKNOWN';
+    public const C_UPLOAD_LABEL = 'UPLOAD_LABEL';
 }

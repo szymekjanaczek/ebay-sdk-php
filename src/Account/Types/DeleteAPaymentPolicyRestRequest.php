@@ -24,8 +24,8 @@ class DeleteAPaymentPolicyRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'payment_policy_id'
-        ]
+            'elementName' => 'payment_policy_id',
+        ],
     ];
 
     /**

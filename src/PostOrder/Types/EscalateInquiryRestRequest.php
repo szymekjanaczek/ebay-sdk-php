@@ -24,8 +24,8 @@ class EscalateInquiryRestRequest extends \DTS\eBaySDK\PostOrder\Types\EscalateIn
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryId'
-        ]
+            'elementName' => 'inquiryId',
+        ],
     ];
 
     /**

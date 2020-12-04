@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Catalog\Enums;
 
 class AspectModeEnum
 {
-    const C_FREE_TEXT = 'FREE_TEXT';
-    const C_SELECTION_ONLY = 'SELECTION_ONLY';
+    public const C_FREE_TEXT = 'FREE_TEXT';
+    public const C_SELECTION_ONLY = 'SELECTION_ONLY';
 }

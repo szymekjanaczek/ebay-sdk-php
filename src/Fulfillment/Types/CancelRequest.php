@@ -29,38 +29,38 @@ class CancelRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelCompletedDate'
+            'elementName' => 'cancelCompletedDate',
         ],
         'cancelInitiator' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelInitiator'
+            'elementName' => 'cancelInitiator',
         ],
         'cancelReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelReason'
+            'elementName' => 'cancelReason',
         ],
         'cancelRequestedDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelRequestedDate'
+            'elementName' => 'cancelRequestedDate',
         ],
         'cancelRequestId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelRequestId'
+            'elementName' => 'cancelRequestId',
         ],
         'cancelRequestState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelRequestState'
-        ]
+            'elementName' => 'cancelRequestState',
+        ],
     ];
 
     /**

@@ -33,62 +33,62 @@ class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
+            'elementName' => 'type',
         ],
         'fromParty' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fromParty'
+            'elementName' => 'fromParty',
         ],
         'toParty' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'toParty'
+            'elementName' => 'toParty',
         ],
         'amount' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'paymentMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMethod'
+            'elementName' => 'paymentMethod',
         ],
         'paypalTransactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paypalTransactionId'
+            'elementName' => 'paypalTransactionId',
         ],
         'status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'status'
+            'elementName' => 'status',
         ],
         'transactionDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionDate'
+            'elementName' => 'transactionDate',
         ],
         'id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'id'
+            'attributeName' => 'id',
         ],
         'parentId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'parentId'
-        ]
+            'attributeName' => 'parentId',
+        ],
     ];
 
     /**

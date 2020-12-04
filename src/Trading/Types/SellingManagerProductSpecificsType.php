@@ -26,20 +26,20 @@ class SellingManagerProductSpecificsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PrimaryCategoryID'
+            'elementName' => 'PrimaryCategoryID',
         ],
         'Variations' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VariationsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Variations'
+            'elementName' => 'Variations',
         ],
         'ItemSpecifics' => [
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemSpecifics'
-        ]
+            'elementName' => 'ItemSpecifics',
+        ],
     ];
 
     /**

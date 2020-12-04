@@ -28,32 +28,32 @@ class VariationDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxVariationsPerItem'
+            'elementName' => 'MaxVariationsPerItem',
         ],
         'MaxNamesPerVariationSpecificsSet' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxNamesPerVariationSpecificsSet'
+            'elementName' => 'MaxNamesPerVariationSpecificsSet',
         ],
         'MaxValuesPerVariationSpecificsSetName' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxValuesPerVariationSpecificsSetName'
+            'elementName' => 'MaxValuesPerVariationSpecificsSetName',
         ],
         'DetailVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailVersion'
+            'elementName' => 'DetailVersion',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
-        ]
+            'elementName' => 'UpdateTime',
+        ],
     ];
 
     /**

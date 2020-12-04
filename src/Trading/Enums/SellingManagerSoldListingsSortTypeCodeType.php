@@ -12,26 +12,26 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SellingManagerSoldListingsSortTypeCodeType
 {
-    const C_BUYER_EMAIL = 'BuyerEmail';
-    const C_BUYER_POSTAL_CODE = 'BuyerPostalCode';
-    const C_CHECKOUT_STATE = 'CheckoutState';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_CUSTOM_LABEL = 'CustomLabel';
-    const C_DAYS_SINCE_SALE = 'DaysSinceSale';
-    const C_EMAILS_SENT = 'EmailsSent';
-    const C_FEEDBACK_LEFT = 'FeedbackLeft';
-    const C_FEEDBACK_RECEIVED = 'FeedbackReceived';
-    const C_LISTED_ON = 'ListedOn';
-    const C_PAID_DATE = 'PaidDate';
-    const C_PAID_STATE = 'PaidState';
-    const C_RESERVE_PRICE = 'ReservePrice';
-    const C_SALES_RECORDID = 'SalesRecordID';
-    const C_SALE_DATE = 'SaleDate';
-    const C_SALE_FORMAT = 'SaleFormat';
-    const C_SHIPPED_DATE = 'ShippedDate';
-    const C_SHIPPED_STATE = 'ShippedState';
-    const C_SHIPPING_COST = 'ShippingCost';
-    const C_SOLD_ON = 'SoldOn';
-    const C_START_PRICE = 'StartPrice';
-    const C_TOTAL_PRICE = 'TotalPrice';
+    public const C_BUYER_EMAIL = 'BuyerEmail';
+    public const C_BUYER_POSTAL_CODE = 'BuyerPostalCode';
+    public const C_CHECKOUT_STATE = 'CheckoutState';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_CUSTOM_LABEL = 'CustomLabel';
+    public const C_DAYS_SINCE_SALE = 'DaysSinceSale';
+    public const C_EMAILS_SENT = 'EmailsSent';
+    public const C_FEEDBACK_LEFT = 'FeedbackLeft';
+    public const C_FEEDBACK_RECEIVED = 'FeedbackReceived';
+    public const C_LISTED_ON = 'ListedOn';
+    public const C_PAID_DATE = 'PaidDate';
+    public const C_PAID_STATE = 'PaidState';
+    public const C_RESERVE_PRICE = 'ReservePrice';
+    public const C_SALES_RECORDID = 'SalesRecordID';
+    public const C_SALE_DATE = 'SaleDate';
+    public const C_SALE_FORMAT = 'SaleFormat';
+    public const C_SHIPPED_DATE = 'ShippedDate';
+    public const C_SHIPPED_STATE = 'ShippedState';
+    public const C_SHIPPING_COST = 'ShippingCost';
+    public const C_SOLD_ON = 'SoldOn';
+    public const C_START_PRICE = 'StartPrice';
+    public const C_TOTAL_PRICE = 'TotalPrice';
 }

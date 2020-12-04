@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class PictureManagerActionCodeType
 {
-    const C_ADD = 'Add';
-    const C_CHANGE = 'Change';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DELETE = 'Delete';
-    const C_MOVE = 'Move';
-    const C_RENAME = 'Rename';
+    public const C_ADD = 'Add';
+    public const C_CHANGE = 'Change';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DELETE = 'Delete';
+    public const C_MOVE = 'Move';
+    public const C_RENAME = 'Rename';
 }

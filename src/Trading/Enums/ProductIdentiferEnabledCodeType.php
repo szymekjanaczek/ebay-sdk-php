@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class ProductIdentiferEnabledCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DISABLED = 'Disabled';
-    const C_ENABLED = 'Enabled';
-    const C_REQUIRED = 'Required';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DISABLED = 'Disabled';
+    public const C_ENABLED = 'Enabled';
+    public const C_REQUIRED = 'Required';
 }

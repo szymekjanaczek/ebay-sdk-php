@@ -24,8 +24,8 @@ class SubmitReturnFileRestRequest extends \DTS\eBaySDK\PostOrder\Types\SubmitFil
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
-        ]
+            'elementName' => 'returnId',
+        ],
     ];
 
     /**

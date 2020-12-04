@@ -27,26 +27,26 @@ class DecideReturnRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
+            'elementName' => 'comments',
         ],
         'decision' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'decision'
+            'elementName' => 'decision',
         ],
         'partialRefundAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'partialRefundAmount'
+            'elementName' => 'partialRefundAmount',
         ],
         'RMANumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RMANumber'
-        ]
+            'elementName' => 'RMANumber',
+        ],
     ];
 
     /**

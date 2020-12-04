@@ -30,44 +30,44 @@ class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Type'
+            'elementName' => 'Type',
         ],
         'RelistCondition' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RelistCondition'
+            'elementName' => 'RelistCondition',
         ],
         'RelistAfterDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RelistAfterDays'
+            'elementName' => 'RelistAfterDays',
         ],
         'RelistAfterHours' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RelistAfterHours'
+            'elementName' => 'RelistAfterHours',
         ],
         'RelistAtSpecificTimeOfDay' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RelistAtSpecificTimeOfDay'
+            'elementName' => 'RelistAtSpecificTimeOfDay',
         ],
         'BestOfferDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BestOfferDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferDetails'
+            'elementName' => 'BestOfferDetails',
         ],
         'ListingHoldInventoryLevel' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingHoldInventoryLevel'
-        ]
+            'elementName' => 'ListingHoldInventoryLevel',
+        ],
     ];
 
     /**

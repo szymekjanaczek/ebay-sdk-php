@@ -25,14 +25,14 @@ class SellingManagerSearchType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SearchType'
+            'elementName' => 'SearchType',
         ],
         'SearchValue' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SearchValue'
-        ]
+            'elementName' => 'SearchValue',
+        ],
     ];
 
     /**

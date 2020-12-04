@@ -24,8 +24,8 @@ class UpdateInventoryLocationRestRequest extends \DTS\eBaySDK\Inventory\Types\In
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'merchantLocationKey'
-        ]
+            'elementName' => 'merchantLocationKey',
+        ],
     ];
 
     /**

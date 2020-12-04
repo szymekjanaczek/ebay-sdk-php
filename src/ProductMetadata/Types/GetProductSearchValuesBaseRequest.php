@@ -27,26 +27,26 @@ class GetProductSearchValuesBaseRequest extends \DTS\eBaySDK\ProductMetadata\Typ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'propertyFilter' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'propertyFilter'
+            'elementName' => 'propertyFilter',
         ],
         'listFormatOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'listFormatOnly'
+            'elementName' => 'listFormatOnly',
         ],
         'sortOrder' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\SortOrder',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'sortOrder'
-        ]
+            'elementName' => 'sortOrder',
+        ],
     ];
 
     /**

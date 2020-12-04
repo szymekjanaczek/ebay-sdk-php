@@ -27,26 +27,26 @@ class OrderCancelLineItem extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'transactionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionId'
+            'elementName' => 'transactionId',
         ],
         'itemTitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemTitle'
+            'elementName' => 'itemTitle',
         ],
         'cancelQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelQuantity'
-        ]
+            'elementName' => 'cancelQuantity',
+        ],
     ];
 
     /**

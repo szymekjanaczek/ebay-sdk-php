@@ -1,10 +1,11 @@
 <?php
+
 namespace DTS\eBaySDK\Services;
 
-use DTS\eBaySDK\Parser\XmlParser;
+use DTS\eBaySDK as Functions;
 use DTS\eBaySDK\ConfigurationResolver;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
-use \DTS\eBaySDK as Functions;
+use DTS\eBaySDK\Parser\XmlParser;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -16,12 +17,12 @@ abstract class BaseService
     /**
      * Helper constent when build requests that contain attachments.
      */
-    const CRLF = "\r\n";
+    public const CRLF = "\r\n";
 
     /**
      * HTTP header constant. Tells the server the encoding in which the client desires the response.
      */
-    const HDR_RESPONSE_ENCODING = 'Accept-Encoding';
+    public const HDR_RESPONSE_ENCODING = 'Accept-Encoding';
 
     /**
      * @var \DTS\eBaySDK\ConfigurationResolver Resolves configuration options.
@@ -69,34 +70,34 @@ abstract class BaseService
         return [
             'profile' => [
                 'valid' => ['string'],
-                'fn'    => 'DTS\eBaySDK\applyProfile',
+                'fn' => 'DTS\eBaySDK\applyProfile',
             ],
             'compressResponse' => [
-                'valid'   => ['bool'],
-                'default' => false
+                'valid' => ['bool'],
+                'default' => false,
             ],
             'credentials' => [
-                'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
-                'fn'      => 'DTS\eBaySDK\applyCredentials',
-                'default' => [CredentialsProvider::class, 'defaultProvider']
+                'valid' => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
+                'fn' => 'DTS\eBaySDK\applyCredentials',
+                'default' => [CredentialsProvider::class, 'defaultProvider'],
             ],
             'debug' => [
-                'valid'   => ['bool', 'array'],
-                'fn'      => 'DTS\eBaySDK\applyDebug',
-                'default' => false
+                'valid' => ['bool', 'array'],
+                'fn' => 'DTS\eBaySDK\applyDebug',
+                'default' => false,
             ],
             'httpHandler' => [
-                'valid'   => ['callable'],
-                'default' => 'DTS\eBaySDK\defaultHttpHandler'
+                'valid' => ['callable'],
+                'default' => 'DTS\eBaySDK\defaultHttpHandler',
             ],
             'httpOptions' => [
-                'valid'   => ['array'],
-                'default' => []
+                'valid' => ['array'],
+                'default' => [],
             ],
             'sandbox' => [
-                'valid'   => ['bool'],
-                'default' => false
-            ]
+                'valid' => ['bool'],
+                'default' => false,
+            ],
         ];
     }
 
@@ -204,7 +205,7 @@ abstract class BaseService
         if (!$request->hasAttachment()) {
             return $request->toRequestXml();
         } else {
-            return $this->buildXopDocument($request).$this->buildAttachmentBody($request->attachment());
+            return $this->buildXopDocument($request) . $this->buildAttachmentBody($request->attachment());
         }
     }
 
@@ -219,11 +220,11 @@ abstract class BaseService
     {
         return sprintf(
             '%s%s%s%s%s',
-            '--MIME_boundary'.self::CRLF,
-            'Content-Type: application/xop+xml;charset=UTF-8;type="text/xml"'.self::CRLF,
-            'Content-Transfer-Encoding: 8bit'.self::CRLF,
-            'Content-ID: <request.xml@devbay.net>'.self::CRLF.self::CRLF,
-            $request->toRequestXml().self::CRLF
+            '--MIME_boundary' . self::CRLF,
+            'Content-Type: application/xop+xml;charset=UTF-8;type="text/xml"' . self::CRLF,
+            'Content-Transfer-Encoding: 8bit' . self::CRLF,
+            'Content-ID: <request.xml@devbay.net>' . self::CRLF . self::CRLF,
+            $request->toRequestXml() . self::CRLF
         );
     }
 
@@ -238,11 +239,11 @@ abstract class BaseService
     {
         return sprintf(
             '%s%s%s%s%s%s',
-            '--MIME_boundary'.self::CRLF,
-            'Content-Type: '.$attachment['mimeType'].self::CRLF,
-            'Content-Transfer-Encoding: binary'.self::CRLF,
-            'Content-ID: <attachment.bin@devbay.net>'.self::CRLF.self::CRLF,
-            $attachment['data'].self::CRLF,
+            '--MIME_boundary' . self::CRLF,
+            'Content-Type: ' . $attachment['mimeType'] . self::CRLF,
+            'Content-Transfer-Encoding: binary' . self::CRLF,
+            'Content-ID: <attachment.bin@devbay.net>' . self::CRLF . self::CRLF,
+            $attachment['data'] . self::CRLF,
             '--MIME_boundary--'
         );
     }
@@ -258,9 +259,9 @@ abstract class BaseService
     {
         return sprintf(
             '%s%s%s',
-            '--boundary'.self::CRLF,
-            'Content-Disposition: form-data; name="XML Payload"'.self::CRLF.self::CRLF,
-            $request->toRequestXml().self::CRLF
+            '--boundary' . self::CRLF,
+            'Content-Disposition: form-data; name="XML Payload"' . self::CRLF . self::CRLF,
+            $request->toRequestXml() . self::CRLF
         );
     }
 
@@ -277,10 +278,10 @@ abstract class BaseService
     {
         return sprintf(
             '%s%s%s%s%s',
-            '--boundary'.self::CRLF,
-            'Content-Disposition: form-data; name="'.$name.'"; filename="picture"'.self::CRLF,
-            'Content-Type: '.$attachment['mimeType'].self::CRLF.self::CRLF,
-            $attachment['data'].self::CRLF,
+            '--boundary' . self::CRLF,
+            'Content-Disposition: form-data; name="' . $name . '"; filename="picture"' . self::CRLF,
+            'Content-Type: ' . $attachment['mimeType'] . self::CRLF . self::CRLF,
+            $attachment['data'] . self::CRLF,
             '--boundary--'
         );
     }
@@ -327,7 +328,10 @@ abstract class BaseService
          * Ugly way of seeing if an attachment is present in the response.
          */
         if (strpos($response, 'application/xop+xml') === false) {
-            return [$response, ['data' => null, 'mimeType' => null]];
+            return [$response, [
+                'data' => null,
+                'mimeType' => null,
+            ]];
         } else {
             return $this->extractXmlAndAttachment($response);
         }
@@ -342,7 +346,10 @@ abstract class BaseService
      */
     private function extractXmlAndAttachment($response)
     {
-        $attachment = ['data' => null, 'mimeType' => null];
+        $attachment = [
+            'data' => null,
+            'mimeType' => null,
+        ];
 
         preg_match('/\r\n/', $response, $matches, PREG_OFFSET_CAPTURE);
         $boundary = substr($response, 0, $matches[0][1]);
@@ -382,10 +389,10 @@ abstract class BaseService
       */
     private function debugRequest($url, array $headers, $body)
     {
-        $str = $url.PHP_EOL;
+        $str = $url . PHP_EOL;
 
         $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers) {
-            $str .= $key.': '.$headers[$key].PHP_EOL;
+            $str .= $key . ': ' . $headers[$key] . PHP_EOL;
             return $str;
         }, '');
 

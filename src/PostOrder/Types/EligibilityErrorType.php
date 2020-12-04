@@ -26,20 +26,20 @@ class EligibilityErrorType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'code'
+            'elementName' => 'code',
         ],
         'content' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'content'
+            'elementName' => 'content',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
-        ]
+            'elementName' => 'description',
+        ],
     ];
 
     /**

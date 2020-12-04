@@ -25,14 +25,14 @@ class DeleteAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceId'
+            'elementName' => 'inventoryReferenceId',
         ],
         'inventoryReferenceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryReferenceType'
-        ]
+            'elementName' => 'inventoryReferenceType',
+        ],
     ];
 
     /**

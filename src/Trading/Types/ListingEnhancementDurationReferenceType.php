@@ -24,8 +24,8 @@ class ListingEnhancementDurationReferenceType extends \DTS\eBaySDK\Types\BaseTyp
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Duration'
-        ]
+            'elementName' => 'Duration',
+        ],
     ];
 
     /**

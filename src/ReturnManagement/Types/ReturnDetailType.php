@@ -30,44 +30,44 @@ class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'globalId'
+            'elementName' => 'globalId',
         ],
         'returnHistory' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'returnHistory'
+            'elementName' => 'returnHistory',
         ],
         'refundInfo' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\RefundInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundInfo'
+            'elementName' => 'refundInfo',
         ],
         'returnPolicy' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnPolicyInfoType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPolicy'
+            'elementName' => 'returnPolicy',
         ],
         'buyerReturnShipment' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerReturnShipment'
+            'elementName' => 'buyerReturnShipment',
         ],
         'shipmentInfo' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ShipmentType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shipmentInfo'
+            'elementName' => 'shipmentInfo',
         ],
         'caseId' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
-        ]
+            'elementName' => 'caseId',
+        ],
     ];
 
     /**

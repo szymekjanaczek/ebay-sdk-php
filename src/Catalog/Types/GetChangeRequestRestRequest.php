@@ -24,8 +24,8 @@ class GetChangeRequestRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'change_request_id'
-        ]
+            'elementName' => 'change_request_id',
+        ],
     ];
 
     /**

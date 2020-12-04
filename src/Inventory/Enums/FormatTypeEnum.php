@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Inventory\Enums;
 
 class FormatTypeEnum
 {
-    const C_FIXED_PRICE = 'FIXED_PRICE';
+    public const C_FIXED_PRICE = 'FIXED_PRICE';
 }

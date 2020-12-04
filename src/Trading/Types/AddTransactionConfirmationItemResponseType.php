@@ -26,20 +26,20 @@ class AddTransactionConfirmationItemResponseType extends \DTS\eBaySDK\Trading\Ty
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'StartTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTime'
+            'elementName' => 'StartTime',
         ],
         'EndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
-        ]
+            'elementName' => 'EndTime',
+        ],
     ];
 
     /**

@@ -28,32 +28,32 @@ class NameRecommendationType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'ValidationRules' => [
             'type' => 'DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ValidationRules'
+            'elementName' => 'ValidationRules',
         ],
         'ValueRecommendation' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ValueRecommendationType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ValueRecommendation'
+            'elementName' => 'ValueRecommendation',
         ],
         'HelpURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HelpURL'
+            'elementName' => 'HelpURL',
         ],
         'HelpText' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HelpText'
-        ]
+            'elementName' => 'HelpText',
+        ],
     ];
 
     /**

@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class StringMatchCodeType
 {
-    const C_CONTAINS = 'Contains';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_STARTS_WITH = 'StartsWith';
+    public const C_CONTAINS = 'Contains';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_STARTS_WITH = 'StartsWith';
 }

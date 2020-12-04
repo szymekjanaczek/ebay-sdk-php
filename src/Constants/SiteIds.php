@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Constants;
 
 /**
@@ -11,47 +12,47 @@ namespace DTS\eBaySDK\Constants;
 class SiteIds
 {
     // United States
-    const US = 0;
+    public const US = 0;
     // Canada (English)
-    const ENCA = 2;
+    public const ENCA = 2;
     // UK
-    const GB = 3;
+    public const GB = 3;
     // Australia
-    const AU = 15;
+    public const AU = 15;
     // Austria
-    const AT = 16;
+    public const AT = 16;
     // Belgium (French)
-    const FRBE = 23;
+    public const FRBE = 23;
     // France
-    const FR = 71;
+    public const FR = 71;
     // Germany
-    const DE = 77;
+    public const DE = 77;
     // Motors
-    const MOTORS = 100;
+    public const MOTORS = 100;
     // Italy
-    const IT = 101;
+    public const IT = 101;
     // Belgium (Dutch)
-    const NLBE = 123;
+    public const NLBE = 123;
     // Netherlands
-    const NL = 146;
+    public const NL = 146;
     // Spain
-    const ES = 186;
+    public const ES = 186;
     // Switzerland
-    const CH = 193;
+    public const CH = 193;
     // Hong Kong
-    const HK = 201;
+    public const HK = 201;
     // India
-    const IN = 203;
+    public const IN = 203;
     // Ireland
-    const IE = 205;
+    public const IE = 205;
     // Malaysia
-    const MY = 207;
+    public const MY = 207;
     // Canada (French)
-    const FRCA = 210;
+    public const FRCA = 210;
     // Philippines
-    const PH = 211;
+    public const PH = 211;
     // Poland
-    const PL = 212;
+    public const PL = 212;
     // Singapore
-    const SG = 216;
+    public const SG = 216;
 }

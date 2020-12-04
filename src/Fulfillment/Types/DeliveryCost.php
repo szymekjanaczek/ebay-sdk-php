@@ -27,26 +27,26 @@ class DeliveryCost extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'importCharges'
+            'elementName' => 'importCharges',
         ],
         'shippingCost' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCost'
+            'elementName' => 'shippingCost',
         ],
         'shippingIntermediationFee' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingIntermediationFee'
+            'elementName' => 'shippingIntermediationFee',
         ],
         'discountAmount' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discountAmount'
-        ]
+            'elementName' => 'discountAmount',
+        ],
     ];
 
     /**

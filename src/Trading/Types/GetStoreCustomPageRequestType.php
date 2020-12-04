@@ -24,8 +24,8 @@ class GetStoreCustomPageRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageID'
-        ]
+            'elementName' => 'PageID',
+        ],
     ];
 
     /**

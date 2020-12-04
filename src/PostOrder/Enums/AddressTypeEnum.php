@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class AddressTypeEnum
 {
-    const C_BUSINESS = 'BUSINESS';
-    const C_PO_BOX = 'PO_BOX';
-    const C_RESIDENCE = 'RESIDENCE';
+    public const C_BUSINESS = 'BUSINESS';
+    public const C_PO_BOX = 'PO_BOX';
+    public const C_RESIDENCE = 'RESIDENCE';
 }

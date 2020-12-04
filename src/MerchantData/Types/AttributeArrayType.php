@@ -24,8 +24,8 @@ class AttributeArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\AttributeType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Attribute'
-        ]
+            'elementName' => 'Attribute',
+        ],
     ];
 
     /**

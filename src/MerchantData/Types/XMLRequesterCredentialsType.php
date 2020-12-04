@@ -26,20 +26,20 @@ class XMLRequesterCredentialsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Username'
+            'elementName' => 'Username',
         ],
         'Password' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Password'
+            'elementName' => 'Password',
         ],
         'eBayAuthToken' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayAuthToken'
-        ]
+            'elementName' => 'eBayAuthToken',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class DeleteASalesTaxTableRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'countryCode'
+            'elementName' => 'countryCode',
         ],
         'jurisdictionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jurisdictionId'
-        ]
+            'elementName' => 'jurisdictionId',
+        ],
     ];
 
     /**

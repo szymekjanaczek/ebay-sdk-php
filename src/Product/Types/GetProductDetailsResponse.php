@@ -24,8 +24,8 @@ class GetProductDetailsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceRe
             'type' => 'DTS\eBaySDK\Product\Types\Product',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'product'
-        ]
+            'elementName' => 'product',
+        ],
     ];
 
     /**

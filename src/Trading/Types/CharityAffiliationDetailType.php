@@ -26,20 +26,20 @@ class CharityAffiliationDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CharityID'
+            'elementName' => 'CharityID',
         ],
         'AffiliationType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AffiliationType'
+            'elementName' => 'AffiliationType',
         ],
         'LastUsedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastUsedTime'
-        ]
+            'elementName' => 'LastUsedTime',
+        ],
     ];
 
     /**

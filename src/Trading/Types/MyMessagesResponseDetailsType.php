@@ -26,20 +26,20 @@ class MyMessagesResponseDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ResponseEnabled'
+            'elementName' => 'ResponseEnabled',
         ],
         'ResponseURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ResponseURL'
+            'elementName' => 'ResponseURL',
         ],
         'UserResponseDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserResponseDate'
-        ]
+            'elementName' => 'UserResponseDate',
+        ],
     ];
 
     /**

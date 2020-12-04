@@ -24,8 +24,8 @@ class GetMessagePreferencesResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'type' => 'DTS\eBaySDK\Trading\Types\ASQPreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ASQPreferences'
-        ]
+            'elementName' => 'ASQPreferences',
+        ],
     ];
 
     /**

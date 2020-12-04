@@ -25,14 +25,14 @@ class ReturnEligibilityItemPerCheckTypeResult extends \DTS\eBaySDK\Types\BaseTyp
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'checkType'
+            'elementName' => 'checkType',
         ],
         'eligibilityInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eligibilityInfo'
-        ]
+            'elementName' => 'eligibilityInfo',
+        ],
     ];
 
     /**

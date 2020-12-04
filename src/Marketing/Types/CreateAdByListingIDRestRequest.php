@@ -24,8 +24,8 @@ class CreateAdByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Types\Create
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'campaign_id'
-        ]
+            'elementName' => 'campaign_id',
+        ],
     ];
 
     /**

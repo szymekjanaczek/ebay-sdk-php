@@ -25,14 +25,14 @@ class PaymentMethodMessage extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legalMessage'
+            'elementName' => 'legalMessage',
         ],
         'requiredForUserConfirmation' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'requiredForUserConfirmation'
-        ]
+            'elementName' => 'requiredForUserConfirmation',
+        ],
     ];
 
     /**

@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Browse\Services;
 
 class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
 {
-    const API_VERSION = 'v1';
+    public const API_VERSION = 'v1';
 
     /**
      * @property array $operations Associative array of operations provided by the service.
@@ -25,9 +25,9 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
             'params' => [
                 'item_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'GetItemByLegacyId' => [
             'method' => 'GET',
@@ -36,15 +36,15 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
             'params' => [
                 'legacy_item_id' => [
                     'valid' => ['string'],
-                    'required' => true
+                    'required' => true,
                 ],
                 'legacy_variation_id' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'legacy_variation_sku' => [
-                    'valid' => ['string']
-                ]
-            ]
+                    'valid' => ['string'],
+                ],
+            ],
         ],
         'GetItemsByItemGroup' => [
             'method' => 'GET',
@@ -53,9 +53,9 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
             'params' => [
                 'item_group_id' => [
                     'valid' => ['string'],
-                    'required' => true
-                ]
-            ]
+                    'required' => true,
+                ],
+            ],
         ],
         'SearchForItems' => [
             'method' => 'GET',
@@ -63,37 +63,37 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
             'responseClass' => '\DTS\eBaySDK\Browse\Types\SearchForItemsRestResponse',
             'params' => [
                 'aspect_filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'category_ids' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'epid' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'fieldgroups' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'filter' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'gtin' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'limit' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'offset' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'q' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'sort' => [
-                    'valid' => ['string']
-                ]
-            ]
-        ]
+                    'valid' => ['string'],
+                ],
+            ],
+        ],
     ];
 
     /**

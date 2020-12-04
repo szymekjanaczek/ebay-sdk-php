@@ -29,38 +29,38 @@ class RespondToBestOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'BestOfferID' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'BestOfferID'
+            'elementName' => 'BestOfferID',
         ],
         'Action' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Action'
+            'elementName' => 'Action',
         ],
         'SellerResponse' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerResponse'
+            'elementName' => 'SellerResponse',
         ],
         'CounterOfferPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CounterOfferPrice'
+            'elementName' => 'CounterOfferPrice',
         ],
         'CounterOfferQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CounterOfferQuantity'
-        ]
+            'elementName' => 'CounterOfferQuantity',
+        ],
     ];
 
     /**

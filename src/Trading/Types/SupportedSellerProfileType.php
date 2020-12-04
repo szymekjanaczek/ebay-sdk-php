@@ -28,32 +28,32 @@ class SupportedSellerProfileType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProfileID'
+            'elementName' => 'ProfileID',
         ],
         'ProfileType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProfileType'
+            'elementName' => 'ProfileType',
         ],
         'ProfileName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProfileName'
+            'elementName' => 'ProfileName',
         ],
         'ShortSummary' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShortSummary'
+            'elementName' => 'ShortSummary',
         ],
         'CategoryGroup' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryGroupType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryGroup'
-        ]
+            'elementName' => 'CategoryGroup',
+        ],
     ];
 
     /**

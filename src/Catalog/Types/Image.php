@@ -26,20 +26,20 @@ class Image extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'height'
+            'elementName' => 'height',
         ],
         'imageUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'imageUrl'
+            'elementName' => 'imageUrl',
         ],
         'width' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'width'
-        ]
+            'elementName' => 'width',
+        ],
     ];
 
     /**

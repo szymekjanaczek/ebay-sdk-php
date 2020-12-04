@@ -33,62 +33,62 @@ class InquirySummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyer'
+            'elementName' => 'buyer',
         ],
         'claimAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'claimAmount'
+            'elementName' => 'claimAmount',
         ],
         'creationDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'inquiryId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryId'
+            'elementName' => 'inquiryId',
         ],
         'inquiryStatusEnum' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryStatusEnum'
+            'elementName' => 'inquiryStatusEnum',
         ],
         'itemId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'lastModifiedDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastModifiedDate'
+            'elementName' => 'lastModifiedDate',
         ],
         'respondByDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'respondByDate'
+            'elementName' => 'respondByDate',
         ],
         'seller' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'seller'
+            'elementName' => 'seller',
         ],
         'transactionId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transactionId'
-        ]
+            'elementName' => 'transactionId',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class GetDSRSummaryResponse extends \DTS\eBaySDK\Feedback\Types\BaseServiceRespo
             'type' => 'DTS\eBaySDK\Feedback\Types\DSRSummary',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'DSRSummary'
+            'elementName' => 'DSRSummary',
         ],
         'totalTransactionCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'totalTransactionCount'
-        ]
+            'elementName' => 'totalTransactionCount',
+        ],
     ];
 
     /**

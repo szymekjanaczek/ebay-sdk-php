@@ -24,8 +24,8 @@ class ConsolidateShippingProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesM
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Job'
-        ]
+            'elementName' => 'Job',
+        ],
     ];
 
     /**

@@ -32,56 +32,56 @@ class DeliveryEstimate extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxDelivery'
+            'elementName' => 'maxDelivery',
         ],
         'minDelivery' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minDelivery'
+            'elementName' => 'minDelivery',
         ],
         'maxDeliveryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxDeliveryDate'
+            'elementName' => 'maxDeliveryDate',
         ],
         'minDeliveryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minDeliveryDate'
+            'elementName' => 'minDeliveryDate',
         ],
         'minConfidence' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minConfidence'
+            'elementName' => 'minConfidence',
         ],
         'maxConfidence' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxConfidence'
+            'elementName' => 'maxConfidence',
         ],
         'estimateTreatment' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimateTreatment'
+            'elementName' => 'estimateTreatment',
         ],
         'maxActualDelivery' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxActualDelivery'
+            'elementName' => 'maxActualDelivery',
         ],
         'minActualDelivery' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minActualDelivery'
-        ]
+            'elementName' => 'minActualDelivery',
+        ],
     ];
 
     /**

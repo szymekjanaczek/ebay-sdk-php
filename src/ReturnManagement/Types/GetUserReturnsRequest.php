@@ -31,50 +31,50 @@ class GetUserReturnsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequ
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ItemFilterType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemFilter'
+            'elementName' => 'itemFilter',
         ],
         'orderId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'orderId'
+            'elementName' => 'orderId',
         ],
         'creationDateRangeFilter' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDateRangeFilter'
+            'elementName' => 'creationDateRangeFilter',
         ],
         'ReturnStatusFilter' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnStatusFilter'
+            'elementName' => 'ReturnStatusFilter',
         ],
         'otherUserFilter' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\UserFilterType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'otherUserFilter'
+            'elementName' => 'otherUserFilter',
         ],
         'paginationInput' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
+            'elementName' => 'paginationInput',
         ],
         'sortType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortType'
+            'elementName' => 'sortType',
         ],
         'sortOrderType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortOrderType'
-        ]
+            'elementName' => 'sortOrderType',
+        ],
     ];
 
     /**

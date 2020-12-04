@@ -24,8 +24,8 @@ class GetOrderTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstra
             'type' => 'DTS\eBaySDK\Trading\Types\OrderArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderArray'
-        ]
+            'elementName' => 'OrderArray',
+        ],
     ];
 
     /**

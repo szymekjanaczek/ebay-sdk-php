@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class ReturnsAcceptedOptionsCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_RETURNS_ACCEPTED = 'ReturnsAccepted';
-    const C_RETURNS_NOT_ACCEPTED = 'ReturnsNotAccepted';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_RETURNS_ACCEPTED = 'ReturnsAccepted';
+    public const C_RETURNS_NOT_ACCEPTED = 'ReturnsNotAccepted';
 }

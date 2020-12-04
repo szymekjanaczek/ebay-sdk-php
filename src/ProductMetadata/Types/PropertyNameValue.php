@@ -26,20 +26,20 @@ class PropertyNameValue extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'propertyName'
+            'elementName' => 'propertyName',
         ],
         'value' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\Value',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
+            'elementName' => 'value',
         ],
         'childPropertyNameValue' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'childPropertyNameValue'
-        ]
+            'elementName' => 'childPropertyNameValue',
+        ],
     ];
 
     /**

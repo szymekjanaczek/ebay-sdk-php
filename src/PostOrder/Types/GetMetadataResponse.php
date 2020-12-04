@@ -24,8 +24,8 @@ class GetMetadataResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnMetadataType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'metadata'
-        ]
+            'elementName' => 'metadata',
+        ],
     ];
 
     /**

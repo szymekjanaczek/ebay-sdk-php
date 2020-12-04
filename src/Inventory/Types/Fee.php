@@ -26,20 +26,20 @@ class Fee extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'feeType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'feeType'
+            'elementName' => 'feeType',
         ],
         'promotionalDiscount' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionalDiscount'
-        ]
+            'elementName' => 'promotionalDiscount',
+        ],
     ];
 
     /**

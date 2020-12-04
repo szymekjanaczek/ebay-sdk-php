@@ -28,32 +28,32 @@ class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'label'
+            'elementName' => 'label',
         ],
         'logoImage' => [
             'type' => 'DTS\eBaySDK\Order\Types\Image',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'logoImage'
+            'elementName' => 'logoImage',
         ],
         'paymentMethodBrands' => [
             'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'paymentMethodBrands'
+            'elementName' => 'paymentMethodBrands',
         ],
         'paymentMethodMessages' => [
             'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodMessage',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'paymentMethodMessages'
+            'elementName' => 'paymentMethodMessages',
         ],
         'paymentMethodType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentMethodType'
-        ]
+            'elementName' => 'paymentMethodType',
+        ],
     ];
 
     /**

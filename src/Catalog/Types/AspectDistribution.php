@@ -25,14 +25,14 @@ class AspectDistribution extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Catalog\Types\AspectValueDistribution',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectValueDistributions'
+            'elementName' => 'aspectValueDistributions',
         ],
         'localizedAspectName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'localizedAspectName'
-        ]
+            'elementName' => 'localizedAspectName',
+        ],
     ];
 
     /**

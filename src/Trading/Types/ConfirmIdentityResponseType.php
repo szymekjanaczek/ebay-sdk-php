@@ -24,8 +24,8 @@ class ConfirmIdentityResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
-        ]
+            'elementName' => 'UserID',
+        ],
     ];
 
     /**

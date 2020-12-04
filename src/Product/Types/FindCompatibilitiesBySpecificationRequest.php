@@ -31,50 +31,50 @@ class FindCompatibilitiesBySpecificationRequest extends \DTS\eBaySDK\Product\Typ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'compatibilityPropertyFilter' => [
             'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'compatibilityPropertyFilter'
+            'elementName' => 'compatibilityPropertyFilter',
         ],
         'specification' => [
             'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'specification'
+            'elementName' => 'specification',
         ],
         'dataSet' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dataSet'
+            'elementName' => 'dataSet',
         ],
         'datasetPropertyName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'datasetPropertyName'
+            'elementName' => 'datasetPropertyName',
         ],
         'exactMatch' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'exactMatch'
+            'elementName' => 'exactMatch',
         ],
         'paginationInput' => [
             'type' => 'DTS\eBaySDK\Product\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationInput'
+            'elementName' => 'paginationInput',
         ],
         'sortOrder' => [
             'type' => 'DTS\eBaySDK\Product\Types\CompatibilitySort',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'sortOrder'
-        ]
+            'elementName' => 'sortOrder',
+        ],
     ];
 
     /**

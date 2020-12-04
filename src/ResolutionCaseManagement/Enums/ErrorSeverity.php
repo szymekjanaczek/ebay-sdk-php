@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class ErrorSeverity
 {
-    const C_ERROR = 'Error';
-    const C_WARNING = 'Warning';
+    public const C_ERROR = 'Error';
+    public const C_WARNING = 'Warning';
 }

@@ -24,8 +24,8 @@ class Distance extends \DTS\eBaySDK\Types\DoubleType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'unit'
-        ]
+            'attributeName' => 'unit',
+        ],
     ];
 
     /**

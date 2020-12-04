@@ -30,44 +30,44 @@ class GetMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageIDs'
+            'elementName' => 'MessageIDs',
         ],
         'FolderID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'StartTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTime'
+            'elementName' => 'StartTime',
         ],
         'EndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
+            'elementName' => 'EndTime',
         ],
         'ExternalMessageIDs' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalMessageIDs'
+            'elementName' => 'ExternalMessageIDs',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'IncludeHighPriorityMessageOnly' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeHighPriorityMessageOnly'
-        ]
+            'elementName' => 'IncludeHighPriorityMessageOnly',
+        ],
     ];
 
     /**

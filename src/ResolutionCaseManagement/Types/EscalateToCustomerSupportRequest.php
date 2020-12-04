@@ -26,20 +26,20 @@ class EscalateToCustomerSupportRequest extends \DTS\eBaySDK\ResolutionCaseManage
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'escalationReason' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'escalationReason'
+            'elementName' => 'escalationReason',
         ],
         'comments' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
-        ]
+            'elementName' => 'comments',
+        ],
     ];
 
     /**

@@ -29,38 +29,38 @@ class ProductMetadataAspect extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'aspectHelpText'
+            'elementName' => 'aspectHelpText',
         ],
         'constraint' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'constraint'
+            'elementName' => 'constraint',
         ],
         'droppable' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'droppable'
+            'elementName' => 'droppable',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'values' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'values'
+            'elementName' => 'values',
         ],
         'valuesAssociatedWithProduct' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'valuesAssociatedWithProduct'
-        ]
+            'elementName' => 'valuesAssociatedWithProduct',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class DuplicateInvocationDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DuplicateInvocationID'
+            'elementName' => 'DuplicateInvocationID',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'InvocationTrackingID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InvocationTrackingID'
-        ]
+            'elementName' => 'InvocationTrackingID',
+        ],
     ];
 
     /**

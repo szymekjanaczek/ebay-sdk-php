@@ -27,26 +27,26 @@ class GetStoreRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryStructureOnly'
+            'elementName' => 'CategoryStructureOnly',
         ],
         'RootCategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RootCategoryID'
+            'elementName' => 'RootCategoryID',
         ],
         'LevelLimit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LevelLimit'
+            'elementName' => 'LevelLimit',
         ],
         'UserID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
-        ]
+            'elementName' => 'UserID',
+        ],
     ];
 
     /**

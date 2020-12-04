@@ -30,44 +30,44 @@ class SellingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ActiveAuctionCount'
+            'elementName' => 'ActiveAuctionCount',
         ],
         'AuctionSellingCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AuctionSellingCount'
+            'elementName' => 'AuctionSellingCount',
         ],
         'AuctionBidCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AuctionBidCount'
+            'elementName' => 'AuctionBidCount',
         ],
         'TotalAuctionSellingValue' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalAuctionSellingValue'
+            'elementName' => 'TotalAuctionSellingValue',
         ],
         'TotalSoldCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalSoldCount'
+            'elementName' => 'TotalSoldCount',
         ],
         'TotalSoldValue' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalSoldValue'
+            'elementName' => 'TotalSoldValue',
         ],
         'SoldDurationInDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SoldDurationInDays'
-        ]
+            'elementName' => 'SoldDurationInDays',
+        ],
     ];
 
     /**

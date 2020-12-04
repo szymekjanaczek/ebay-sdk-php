@@ -35,74 +35,74 @@ class ChangeRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'changeRequestId'
+            'elementName' => 'changeRequestId',
         ],
         'changeRequestStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'changeRequestStatus'
+            'elementName' => 'changeRequestStatus',
         ],
         'changeRequestType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'changeRequestType'
+            'elementName' => 'changeRequestType',
         ],
         'creationDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'expectedCompletionDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'expectedCompletionDate'
+            'elementName' => 'expectedCompletionDate',
         ],
         'processResolution' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\ProcessResolution',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'processResolution'
+            'elementName' => 'processResolution',
         ],
         'processStatusMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'processStatusMessage'
+            'elementName' => 'processStatusMessage',
         ],
         'reasonForChangeRequest' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reasonForChangeRequest'
+            'elementName' => 'reasonForChangeRequest',
         ],
         'referenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'referenceId'
+            'elementName' => 'referenceId',
         ],
         'referenceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'referenceType'
+            'elementName' => 'referenceType',
         ],
         'resolutionDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'resolutionDate'
+            'elementName' => 'resolutionDate',
         ],
         'suggestedProduct' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\SuggestedProduct',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'suggestedProduct'
-        ]
+            'elementName' => 'suggestedProduct',
+        ],
     ];
 
     /**

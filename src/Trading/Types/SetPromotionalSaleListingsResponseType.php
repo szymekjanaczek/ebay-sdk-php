@@ -24,8 +24,8 @@ class SetPromotionalSaleListingsResponseType extends \DTS\eBaySDK\Trading\Types\
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
-        ]
+            'elementName' => 'Status',
+        ],
     ];
 
     /**

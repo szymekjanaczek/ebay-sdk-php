@@ -32,56 +32,56 @@ class PaymentPolicyRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryTypes'
+            'elementName' => 'categoryTypes',
         ],
         'deposit' => [
             'type' => 'DTS\eBaySDK\Account\Types\Deposit',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deposit'
+            'elementName' => 'deposit',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'fullPaymentDueIn' => [
             'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fullPaymentDueIn'
+            'elementName' => 'fullPaymentDueIn',
         ],
         'immediatePay' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'immediatePay'
+            'elementName' => 'immediatePay',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'paymentInstructions' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentInstructions'
+            'elementName' => 'paymentInstructions',
         ],
         'paymentMethods' => [
             'type' => 'DTS\eBaySDK\Account\Types\PaymentMethod',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'paymentMethods'
-        ]
+            'elementName' => 'paymentMethods',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GetJobStatusResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServi
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\JobProfile',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'jobProfile'
-        ]
+            'elementName' => 'jobProfile',
+        ],
     ];
 
     /**

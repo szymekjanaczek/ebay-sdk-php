@@ -31,50 +31,50 @@ class GuestPurchaseOrder extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'lineItems'
+            'elementName' => 'lineItems',
         ],
         'pricingSummary' => [
             'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pricingSummary'
+            'elementName' => 'pricingSummary',
         ],
         'purchaseOrderCreationDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderCreationDate'
+            'elementName' => 'purchaseOrderCreationDate',
         ],
         'purchaseOrderId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderId'
+            'elementName' => 'purchaseOrderId',
         ],
         'purchaseOrderPaymentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderPaymentStatus'
+            'elementName' => 'purchaseOrderPaymentStatus',
         ],
         'purchaseOrderStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderStatus'
+            'elementName' => 'purchaseOrderStatus',
         ],
         'refundedAmount' => [
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundedAmount'
+            'elementName' => 'refundedAmount',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

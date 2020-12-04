@@ -24,8 +24,8 @@ class ModifyNameArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\ModifyNameType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ModifyName'
-        ]
+            'elementName' => 'ModifyName',
+        ],
     ];
 
     /**

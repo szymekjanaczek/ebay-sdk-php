@@ -30,44 +30,44 @@ class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SearchKeywords'
+            'elementName' => 'SearchKeywords',
         ],
         'StoreCategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategoryID'
+            'elementName' => 'StoreCategoryID',
         ],
         'ListingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingType'
+            'elementName' => 'ListingType',
         ],
         'SearchSortOrder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SearchSortOrder'
+            'elementName' => 'SearchSortOrder',
         ],
         'MinPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinPrice'
+            'elementName' => 'MinPrice',
         ],
         'MaxPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxPrice'
+            'elementName' => 'MaxPrice',
         ],
         'FavoriteItemID' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FavoriteItemID'
-        ]
+            'elementName' => 'FavoriteItemID',
+        ],
     ];
 
     /**

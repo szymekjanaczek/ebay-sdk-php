@@ -28,32 +28,32 @@ class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServicePriority'
+            'elementName' => 'ShippingServicePriority',
         ],
         'ShippingServiceType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceType'
+            'elementName' => 'ShippingServiceType',
         ],
         'ShippingServiceCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCost'
+            'elementName' => 'ShippingServiceCost',
         ],
         'ShippingServiceAdditionalCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceAdditionalCost'
+            'elementName' => 'ShippingServiceAdditionalCost',
         ],
         'ShippingSurcharge' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingSurcharge'
-        ]
+            'elementName' => 'ShippingSurcharge',
+        ],
     ];
 
     /**

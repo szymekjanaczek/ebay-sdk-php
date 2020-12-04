@@ -29,38 +29,38 @@ class FindCompletedItemsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'keywords'
+            'elementName' => 'keywords',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'itemFilter' => [
             'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemFilter'
+            'elementName' => 'itemFilter',
         ],
         'aspectFilter' => [
             'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'aspectFilter'
+            'elementName' => 'aspectFilter',
         ],
         'outputSelector' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'outputSelector'
+            'elementName' => 'outputSelector',
         ],
         'productId' => [
             'type' => 'DTS\eBaySDK\Finding\Types\ProductId',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productId'
-        ]
+            'elementName' => 'productId',
+        ],
     ];
 
     /**

@@ -30,44 +30,44 @@ class InventoryItem extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\Availability',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'availability'
+            'elementName' => 'availability',
         ],
         'condition' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'condition'
+            'elementName' => 'condition',
         ],
         'conditionDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'conditionDescription'
+            'elementName' => 'conditionDescription',
         ],
         'packageWeightAndSize' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\PackageWeightAndSize',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'packageWeightAndSize'
+            'elementName' => 'packageWeightAndSize',
         ],
         'product' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Product',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'product'
+            'elementName' => 'product',
         ],
         'sku' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
+            'elementName' => 'sku',
         ],
         'groupIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'groupIds'
-        ]
+            'elementName' => 'groupIds',
+        ],
     ];
 
     /**

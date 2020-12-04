@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\FileTransfer\Services;
 
 /**
@@ -9,17 +10,17 @@ class FileTransferBaseService extends \DTS\eBaySDK\Services\BaseService
     /**
      * HTTP header constant. The API version your application supports.
      */
-    const HDR_API_VERSION = 'X-EBAY-SOA-SERVICE-VERSION';
+    public const HDR_API_VERSION = 'X-EBAY-SOA-SERVICE-VERSION';
 
     /**
      * HTTP header constant. The Authentication Token that is used to validate the caller has permission to access the eBay servers.
      */
-    const HDR_AUTH_TOKEN = 'X-EBAY-SOA-SECURITY-TOKEN';
+    public const HDR_AUTH_TOKEN = 'X-EBAY-SOA-SECURITY-TOKEN';
 
     /**
      * HTTP header constant. The name of the operation you are calling.
      */
-    const HDR_OPERATION_NAME = 'X-EBAY-SOA-OPERATION-NAME';
+    public const HDR_OPERATION_NAME = 'X-EBAY-SOA-OPERATION-NAME';
 
     /**
      * @param array $config Configuration option values.
@@ -41,12 +42,12 @@ class FileTransferBaseService extends \DTS\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\FileTransfer\Services\FileTransferService::API_VERSION
+                'default' => \DTS\eBaySDK\FileTransfer\Services\FileTransferService::API_VERSION,
             ],
             'authToken' => [
                 'valid' => ['string'],
-                'required' => true
-            ]
+                'required' => true,
+            ],
         ];
     }
 
@@ -78,8 +79,8 @@ class FileTransferBaseService extends \DTS\eBaySDK\Services\BaseService
             if (!isset($request->fileAttachment->Data)) {
                 $request->fileAttachment->Data = new \DTS\eBaySDK\FileTransfer\Types\Data([
                     'xopInclude' => new \DTS\eBaySDK\FileTransfer\Types\XopInclude([
-                        'href' => 'cid:attachment.bin@devbay.net'
-                    ])
+                        'href' => 'cid:attachment.bin@devbay.net',
+                    ]),
                 ]);
             }
 

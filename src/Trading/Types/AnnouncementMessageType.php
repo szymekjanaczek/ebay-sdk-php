@@ -26,20 +26,20 @@ class AnnouncementMessageType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AnnouncementStartTime'
+            'elementName' => 'AnnouncementStartTime',
         ],
         'EventTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EventTime'
+            'elementName' => 'EventTime',
         ],
         'MessageType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageType'
-        ]
+            'elementName' => 'MessageType',
+        ],
     ];
 
     /**

@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class ProductUseCaseCodeType
 {
-    const C_ADD_ITEM = 'AddItem';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_RELIST_ITEM = 'RelistItem';
-    const C_REVISE_ITEM = 'ReviseItem';
+    public const C_ADD_ITEM = 'AddItem';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_RELIST_ITEM = 'RelistItem';
+    public const C_REVISE_ITEM = 'ReviseItem';
 }

@@ -25,14 +25,14 @@ class SearchResult extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Finding\Types\SearchItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'item'
+            'elementName' => 'item',
         ],
         'count' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'count'
-        ]
+            'attributeName' => 'count',
+        ],
     ];
 
     /**

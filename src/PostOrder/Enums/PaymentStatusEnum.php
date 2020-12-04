@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class PaymentStatusEnum
 {
-    const C_MARK_AS_PAID = 'MARK_AS_PAID';
-    const C_NOT_PAID = 'NOT_PAID';
-    const C_PAYPAL_PAID = 'PAYPAL_PAID';
-    const C_UNKNOWN = 'UNKNOWN';
+    public const C_MARK_AS_PAID = 'MARK_AS_PAID';
+    public const C_NOT_PAID = 'NOT_PAID';
+    public const C_PAYPAL_PAID = 'PAYPAL_PAID';
+    public const C_UNKNOWN = 'UNKNOWN';
 }

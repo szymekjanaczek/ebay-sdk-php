@@ -24,8 +24,8 @@ class SoldReportResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractRes
             'type' => 'DTS\eBaySDK\MerchantData\Types\OrderDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'OrderDetails'
-        ]
+            'elementName' => 'OrderDetails',
+        ],
     ];
 
     /**

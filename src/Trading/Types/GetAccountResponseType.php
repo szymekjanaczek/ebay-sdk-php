@@ -31,50 +31,50 @@ class GetAccountResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AccountID'
+            'elementName' => 'AccountID',
         ],
         'AccountSummary' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AccountSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AccountSummary'
+            'elementName' => 'AccountSummary',
         ],
         'Currency' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Currency'
+            'elementName' => 'Currency',
         ],
         'AccountEntries' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AccountEntriesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AccountEntries'
+            'elementName' => 'AccountEntries',
         ],
         'PaginationResult' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
+            'elementName' => 'PaginationResult',
         ],
         'HasMoreEntries' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasMoreEntries'
+            'elementName' => 'HasMoreEntries',
         ],
         'EntriesPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EntriesPerPage'
+            'elementName' => 'EntriesPerPage',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
-        ]
+            'elementName' => 'PageNumber',
+        ],
     ];
 
     /**

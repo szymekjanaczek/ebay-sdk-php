@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 /**
@@ -30,7 +31,7 @@ namespace DTS\eBaySDK;
  */
 class Sdk
 {
-    const VERSION = '18.0.0';
+    public const VERSION = '18.0.0';
 
     /**
      * @var bool Controls if the SDK should enforce strict types

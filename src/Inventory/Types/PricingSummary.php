@@ -28,32 +28,32 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minimumAdvertisedPrice'
+            'elementName' => 'minimumAdvertisedPrice',
         ],
         'originallySoldForRetailPriceOn' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'originallySoldForRetailPriceOn'
+            'elementName' => 'originallySoldForRetailPriceOn',
         ],
         'originalRetailPrice' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'originalRetailPrice'
+            'elementName' => 'originalRetailPrice',
         ],
         'price' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'price'
+            'elementName' => 'price',
         ],
         'pricingVisibility' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pricingVisibility'
-        ]
+            'elementName' => 'pricingVisibility',
+        ],
     ];
 
     /**

@@ -33,62 +33,62 @@ class SellerRoleMetricsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PositiveFeedbackLeftCount'
+            'elementName' => 'PositiveFeedbackLeftCount',
         ],
         'NegativeFeedbackLeftCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NegativeFeedbackLeftCount'
+            'elementName' => 'NegativeFeedbackLeftCount',
         ],
         'NeutralFeedbackLeftCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NeutralFeedbackLeftCount'
+            'elementName' => 'NeutralFeedbackLeftCount',
         ],
         'FeedbackLeftPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackLeftPercent'
+            'elementName' => 'FeedbackLeftPercent',
         ],
         'RepeatBuyerCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RepeatBuyerCount'
+            'elementName' => 'RepeatBuyerCount',
         ],
         'RepeatBuyerPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RepeatBuyerPercent'
+            'elementName' => 'RepeatBuyerPercent',
         ],
         'UniqueBuyerCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UniqueBuyerCount'
+            'elementName' => 'UniqueBuyerCount',
         ],
         'TransactionPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionPercent'
+            'elementName' => 'TransactionPercent',
         ],
         'CrossBorderTransactionCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CrossBorderTransactionCount'
+            'elementName' => 'CrossBorderTransactionCount',
         ],
         'CrossBorderTransactionPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CrossBorderTransactionPercent'
-        ]
+            'elementName' => 'CrossBorderTransactionPercent',
+        ],
     ];
 
     /**

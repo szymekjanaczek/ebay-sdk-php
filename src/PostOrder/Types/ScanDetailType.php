@@ -30,44 +30,44 @@ class ScanDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eventCity'
+            'elementName' => 'eventCity',
         ],
         'eventCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eventCode'
+            'elementName' => 'eventCode',
         ],
         'eventDesc' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eventDesc'
+            'elementName' => 'eventDesc',
         ],
         'eventPostalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eventPostalCode'
+            'elementName' => 'eventPostalCode',
         ],
         'eventStateOrProvince' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eventStateOrProvince'
+            'elementName' => 'eventStateOrProvince',
         ],
         'eventStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eventStatus'
+            'elementName' => 'eventStatus',
         ],
         'eventTime' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eventTime'
-        ]
+            'elementName' => 'eventTime',
+        ],
     ];
 
     /**

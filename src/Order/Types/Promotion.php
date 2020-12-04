@@ -27,26 +27,26 @@ class Promotion extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'discount'
+            'elementName' => 'discount',
         ],
         'message' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'message'
+            'elementName' => 'message',
         ],
         'promotionCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionCode'
+            'elementName' => 'promotionCode',
         ],
         'promotionType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionType'
-        ]
+            'elementName' => 'promotionType',
+        ],
     ];
 
     /**

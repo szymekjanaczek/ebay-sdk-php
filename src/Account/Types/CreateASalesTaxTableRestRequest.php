@@ -25,14 +25,14 @@ class CreateASalesTaxTableRestRequest extends \DTS\eBaySDK\Account\Types\SalesTa
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'countryCode'
+            'elementName' => 'countryCode',
         ],
         'jurisdictionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jurisdictionId'
-        ]
+            'elementName' => 'jurisdictionId',
+        ],
     ];
 
     /**

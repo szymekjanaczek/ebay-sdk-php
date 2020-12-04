@@ -25,14 +25,14 @@ class ItemTotalsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalQuantity'
+            'elementName' => 'TotalQuantity',
         ],
         'TotalValue' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalValue'
-        ]
+            'elementName' => 'TotalValue',
+        ],
     ];
 
     /**

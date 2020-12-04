@@ -25,14 +25,14 @@ class GetCategoryInfoRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReq
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'IncludeSelector' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeSelector'
-        ]
+            'elementName' => 'IncludeSelector',
+        ],
     ];
 
     /**

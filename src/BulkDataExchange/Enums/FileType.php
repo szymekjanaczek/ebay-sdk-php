@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\BulkDataExchange\Enums;
 
 class FileType
 {
-    const C_XML = 'XML';
+    public const C_XML = 'XML';
 }

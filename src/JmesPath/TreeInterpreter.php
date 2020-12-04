@@ -207,6 +207,7 @@ class TreeInterpreter
                     return self::relativeCmp($left, $right, $node['value']);
                 }
 
+                // no break
             case 'condition':
                 return Utils::isTruthy($this->dispatch($node['children'][0], $value))
                     ? $this->dispatch($node['children'][1], $value)

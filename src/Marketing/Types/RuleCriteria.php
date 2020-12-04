@@ -26,20 +26,20 @@ class RuleCriteria extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'excludeInventoryItems'
+            'elementName' => 'excludeInventoryItems',
         ],
         'excludeListingIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'excludeListingIds'
+            'elementName' => 'excludeListingIds',
         ],
         'selectionRules' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'selectionRules'
-        ]
+            'elementName' => 'selectionRules',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class GetProductCompatiblitiesResponse extends \DTS\eBaySDK\Product\Types\BaseSe
             'type' => 'DTS\eBaySDK\Product\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paginationOutput'
+            'elementName' => 'paginationOutput',
         ],
         'compatibilityDetails' => [
             'type' => 'DTS\eBaySDK\Product\Types\Product',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'compatibilityDetails'
-        ]
+            'elementName' => 'compatibilityDetails',
+        ],
     ];
 
     /**

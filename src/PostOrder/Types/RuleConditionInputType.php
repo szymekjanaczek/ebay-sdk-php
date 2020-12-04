@@ -28,32 +28,32 @@ class RuleConditionInputType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dataList'
+            'elementName' => 'dataList',
         ],
         'dataRange' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataRange'
+            'elementName' => 'dataRange',
         ],
         'isEbayPlus' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isEbayPlus'
+            'elementName' => 'isEbayPlus',
         ],
         'storeCategory' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storeCategory'
+            'elementName' => 'storeCategory',
         ],
         'storeId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storeId'
-        ]
+            'elementName' => 'storeId',
+        ],
     ];
 
     /**

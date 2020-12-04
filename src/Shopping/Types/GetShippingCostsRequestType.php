@@ -28,32 +28,32 @@ class GetShippingCostsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'QuantitySold' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantitySold'
+            'elementName' => 'QuantitySold',
         ],
         'DestinationPostalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DestinationPostalCode'
+            'elementName' => 'DestinationPostalCode',
         ],
         'DestinationCountryCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DestinationCountryCode'
+            'elementName' => 'DestinationCountryCode',
         ],
         'IncludeDetails' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeDetails'
-        ]
+            'elementName' => 'IncludeDetails',
+        ],
     ];
 
     /**

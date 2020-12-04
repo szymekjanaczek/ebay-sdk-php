@@ -24,8 +24,8 @@ class GetMostWatchedItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
-        ]
+            'elementName' => 'categoryId',
+        ],
     ];
 
     /**

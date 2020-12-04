@@ -29,38 +29,38 @@ class ShipmentInfoRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'proofOfShipmentUploaded'
+            'elementName' => 'proofOfShipmentUploaded',
         ],
         'sellerComments' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerComments'
+            'elementName' => 'sellerComments',
         ],
         'shippedWithTracking' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippedWithTracking'
+            'elementName' => 'shippedWithTracking',
         ],
         'shippingCarrierName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingCarrierName'
+            'elementName' => 'shippingCarrierName',
         ],
         'shippingDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingDate'
+            'elementName' => 'shippingDate',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
-        ]
+            'elementName' => 'trackingNumber',
+        ],
     ];
 
     /**

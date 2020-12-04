@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Order\Enums;
 
 class PurchaseOrderStatusEnum
 {
-    const C_CANCELLED = 'CANCELLED';
-    const C_DELIVERED = 'DELIVERED';
-    const C_FULFILLMENT_IN_PROGRESS = 'FULFILLMENT_IN_PROGRESS';
-    const C_PENDING = 'PENDING';
+    public const C_CANCELLED = 'CANCELLED';
+    public const C_DELIVERED = 'DELIVERED';
+    public const C_FULFILLMENT_IN_PROGRESS = 'FULFILLMENT_IN_PROGRESS';
+    public const C_PENDING = 'PENDING';
 }

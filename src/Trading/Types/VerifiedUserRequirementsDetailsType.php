@@ -25,14 +25,14 @@ class VerifiedUserRequirementsDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VerifiedUser'
+            'elementName' => 'VerifiedUser',
         ],
         'FeedbackScore' => [
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FeedbackScore'
-        ]
+            'elementName' => 'FeedbackScore',
+        ],
     ];
 
     /**

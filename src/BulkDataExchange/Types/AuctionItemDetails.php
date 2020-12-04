@@ -25,14 +25,14 @@ class AuctionItemDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeBidCount'
+            'elementName' => 'includeBidCount',
         ],
         'includeReservePriceMet' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includeReservePriceMet'
-        ]
+            'elementName' => 'includeReservePriceMet',
+        ],
     ];
 
     /**

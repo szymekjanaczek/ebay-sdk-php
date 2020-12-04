@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Browse\Enums;
 
 class AvailabilityThresholdEnum
 {
-    const C_MORE_THAN = 'MORE_THAN';
+    public const C_MORE_THAN = 'MORE_THAN';
 }

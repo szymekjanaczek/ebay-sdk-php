@@ -28,32 +28,32 @@ class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ePID'
+            'elementName' => 'ePID',
         ],
         'ISBN' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ISBN'
+            'elementName' => 'ISBN',
         ],
         'UPC' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UPC'
+            'elementName' => 'UPC',
         ],
         'EAN' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EAN'
+            'elementName' => 'EAN',
         ],
         'productId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productId'
-        ]
+            'elementName' => 'productId',
+        ],
     ];
 
     /**

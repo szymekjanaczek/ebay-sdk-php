@@ -24,8 +24,8 @@ class GetItemsByItemGroupRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'item_group_id'
-        ]
+            'elementName' => 'item_group_id',
+        ],
     ];
 
     /**

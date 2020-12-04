@@ -32,56 +32,56 @@ class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'MailMessageType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MailMessageType'
+            'elementName' => 'MailMessageType',
         ],
         'MessageStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MessageStatus'
+            'elementName' => 'MessageStatus',
         ],
         'DisplayToPublic' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisplayToPublic'
+            'elementName' => 'DisplayToPublic',
         ],
         'StartCreationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartCreationTime'
+            'elementName' => 'StartCreationTime',
         ],
         'EndCreationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndCreationTime'
+            'elementName' => 'EndCreationTime',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'MemberMessageID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MemberMessageID'
+            'elementName' => 'MemberMessageID',
         ],
         'SenderID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SenderID'
-        ]
+            'elementName' => 'SenderID',
+        ],
     ];
 
     /**

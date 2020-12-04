@@ -28,32 +28,32 @@ class Taxes extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'includedInPrice'
+            'elementName' => 'includedInPrice',
         ],
         'shippingAndHandlingTaxed' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingAndHandlingTaxed'
+            'elementName' => 'shippingAndHandlingTaxed',
         ],
         'taxJurisdiction' => [
             'type' => 'DTS\eBaySDK\Browse\Types\TaxJurisdiction',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'taxJurisdiction'
+            'elementName' => 'taxJurisdiction',
         ],
         'taxPercentage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'taxPercentage'
+            'elementName' => 'taxPercentage',
         ],
         'taxType' => [
             'type' => 'DTS\eBaySDK\Browse\Types\TaxType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'taxType'
-        ]
+            'elementName' => 'taxType',
+        ],
     ];
 
     /**

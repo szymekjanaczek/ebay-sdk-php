@@ -28,32 +28,32 @@ class TransactionSnapshot extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'calendarWindowAggregatedMetrics'
+            'elementName' => 'calendarWindowAggregatedMetrics',
         ],
         'lookbackPeriod' => [
             'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lookbackPeriod'
+            'elementName' => 'lookbackPeriod',
         ],
         'rollingWindowAggregatedMetrics' => [
             'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rollingWindowAggregatedMetrics'
+            'elementName' => 'rollingWindowAggregatedMetrics',
         ],
         'soldInventoryValue' => [
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'soldInventoryValue'
+            'elementName' => 'soldInventoryValue',
         ],
         'soldQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'soldQuantity'
-        ]
+            'elementName' => 'soldQuantity',
+        ],
     ];
 
     /**

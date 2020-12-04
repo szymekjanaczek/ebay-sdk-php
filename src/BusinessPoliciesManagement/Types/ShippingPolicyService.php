@@ -35,74 +35,74 @@ class ShippingPolicyService extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shipToLocation'
+            'elementName' => 'shipToLocation',
         ],
         'shippingService' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingService'
+            'elementName' => 'shippingService',
         ],
         'shippingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingType'
+            'elementName' => 'shippingType',
         ],
         'sortOrderId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sortOrderId'
+            'elementName' => 'sortOrderId',
         ],
         'freeShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'freeShipping'
+            'elementName' => 'freeShipping',
         ],
         'codFee' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'codFee'
+            'elementName' => 'codFee',
         ],
         'fastShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fastShipping'
+            'elementName' => 'fastShipping',
         ],
         'shippingServiceAdditionalCost' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingServiceAdditionalCost'
+            'elementName' => 'shippingServiceAdditionalCost',
         ],
         'shippingServiceCost' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingServiceCost'
+            'elementName' => 'shippingServiceCost',
         ],
         'shippingSurcharge' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingSurcharge'
+            'elementName' => 'shippingSurcharge',
         ],
         'shippingOverrideFee' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingOverrideFee'
+            'elementName' => 'shippingOverrideFee',
         ],
         'buyerResponsibleForShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerResponsibleForShipping'
-        ]
+            'elementName' => 'buyerResponsibleForShipping',
+        ],
     ];
 
     /**

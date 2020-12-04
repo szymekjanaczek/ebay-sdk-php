@@ -28,32 +28,32 @@ class ProcessResolution extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Catalog\Types\ConflictingProduct',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'conflictingProducts'
+            'elementName' => 'conflictingProducts',
         ],
         'corrections' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\Correction',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'corrections'
+            'elementName' => 'corrections',
         ],
         'epid' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'epid'
+            'elementName' => 'epid',
         ],
         'productHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'productHref'
+            'elementName' => 'productHref',
         ],
         'violations' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\Violation',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'violations'
-        ]
+            'elementName' => 'violations',
+        ],
     ];
 
     /**

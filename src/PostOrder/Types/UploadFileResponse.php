@@ -25,14 +25,14 @@ class UploadFileResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'compressedFileData'
+            'elementName' => 'compressedFileData',
         ],
         'fileId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileId'
-        ]
+            'elementName' => 'fileId',
+        ],
     ];
 
     /**

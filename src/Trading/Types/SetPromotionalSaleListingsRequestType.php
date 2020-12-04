@@ -30,44 +30,44 @@ class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\A
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PromotionalSaleID'
+            'elementName' => 'PromotionalSaleID',
         ],
         'Action' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Action'
+            'elementName' => 'Action',
         ],
         'PromotionalSaleItemIDArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PromotionalSaleItemIDArray'
+            'elementName' => 'PromotionalSaleItemIDArray',
         ],
         'StoreCategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StoreCategoryID'
+            'elementName' => 'StoreCategoryID',
         ],
         'CategoryID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'AllFixedPriceItems' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AllFixedPriceItems'
+            'elementName' => 'AllFixedPriceItems',
         ],
         'AllAuctionItems' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AllAuctionItems'
-        ]
+            'elementName' => 'AllAuctionItems',
+        ],
     ];
 
     /**

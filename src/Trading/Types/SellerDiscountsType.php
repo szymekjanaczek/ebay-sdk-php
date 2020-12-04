@@ -27,26 +27,26 @@ class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OriginalItemPrice'
+            'elementName' => 'OriginalItemPrice',
         ],
         'OriginalItemShippingCost' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OriginalItemShippingCost'
+            'elementName' => 'OriginalItemShippingCost',
         ],
         'OriginalShippingService' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OriginalShippingService'
+            'elementName' => 'OriginalShippingService',
         ],
         'SellerDiscount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellerDiscountType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SellerDiscount'
-        ]
+            'elementName' => 'SellerDiscount',
+        ],
     ];
 
     /**

@@ -32,56 +32,56 @@ class LeaveFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'CommentText' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CommentText'
+            'elementName' => 'CommentText',
         ],
         'CommentType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CommentType'
+            'elementName' => 'CommentType',
         ],
         'TransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TransactionID'
+            'elementName' => 'TransactionID',
         ],
         'TargetUser' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TargetUser'
+            'elementName' => 'TargetUser',
         ],
         'SellerItemRatingDetailArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemRatingDetailArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerItemRatingDetailArray'
+            'elementName' => 'SellerItemRatingDetailArray',
         ],
         'OrderLineItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderLineItemID'
+            'elementName' => 'OrderLineItemID',
         ],
         'ItemArrivedWithinEDDType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemArrivedWithinEDDType'
+            'elementName' => 'ItemArrivedWithinEDDType',
         ],
         'ItemDeliveredWithinEDD' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemDeliveredWithinEDD'
-        ]
+            'elementName' => 'ItemDeliveredWithinEDD',
+        ],
     ];
 
     /**

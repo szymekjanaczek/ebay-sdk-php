@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class TopRatedProgramCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_DE = 'DE';
-    const C_GLOBAL = 'Global';
-    const C_UK = 'UK';
-    const C_US = 'US';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_DE = 'DE';
+    public const C_GLOBAL = 'Global';
+    public const C_UK = 'UK';
+    public const C_US = 'US';
 }

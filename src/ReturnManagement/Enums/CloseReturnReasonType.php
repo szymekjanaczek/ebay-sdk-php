@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 
 class CloseReturnReasonType
 {
-    const C_CLOSED_UPON_ESCALATION = 'CLOSED_UPON_ESCALATION';
-    const C_CLOSED_UPON_REFUND = 'CLOSED_UPON_REFUND';
-    const C_CS_CLOSED = 'CS_CLOSED';
-    const C_EXPIRED = 'EXPIRED';
-    const C_OTHER = 'OTHER';
+    public const C_CLOSED_UPON_ESCALATION = 'CLOSED_UPON_ESCALATION';
+    public const C_CLOSED_UPON_REFUND = 'CLOSED_UPON_REFUND';
+    public const C_CS_CLOSED = 'CS_CLOSED';
+    public const C_EXPIRED = 'EXPIRED';
+    public const C_OTHER = 'OTHER';
 }

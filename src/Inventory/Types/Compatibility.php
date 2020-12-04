@@ -25,14 +25,14 @@ class Compatibility extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\CompatibleProduct',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'compatibleProducts'
+            'elementName' => 'compatibleProducts',
         ],
         'sku' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
-        ]
+            'elementName' => 'sku',
+        ],
     ];
 
     /**

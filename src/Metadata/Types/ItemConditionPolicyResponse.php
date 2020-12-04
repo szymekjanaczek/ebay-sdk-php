@@ -25,14 +25,14 @@ class ItemConditionPolicyResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Metadata\Types\ItemConditionPolicy',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemConditionPolicies'
+            'elementName' => 'itemConditionPolicies',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

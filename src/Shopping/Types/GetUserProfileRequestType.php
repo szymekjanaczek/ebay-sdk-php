@@ -25,14 +25,14 @@ class GetUserProfileRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequ
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'IncludeSelector' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeSelector'
-        ]
+            'elementName' => 'IncludeSelector',
+        ],
     ];
 
     /**

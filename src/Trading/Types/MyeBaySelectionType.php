@@ -31,50 +31,50 @@ class MyeBaySelectionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Include'
+            'elementName' => 'Include',
         ],
         'IncludeItemCount' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeItemCount'
+            'elementName' => 'IncludeItemCount',
         ],
         'IncludeFavoriteSearcheCount' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeFavoriteSearcheCount'
+            'elementName' => 'IncludeFavoriteSearcheCount',
         ],
         'IncludeFavoriteSellerCount' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeFavoriteSellerCount'
+            'elementName' => 'IncludeFavoriteSellerCount',
         ],
         'Sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Sort'
+            'elementName' => 'Sort',
         ],
         'MaxResults' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxResults'
+            'elementName' => 'MaxResults',
         ],
         'UserDefinedListName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserDefinedListName'
+            'elementName' => 'UserDefinedListName',
         ],
         'IncludeListContents' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeListContents'
-        ]
+            'elementName' => 'IncludeListContents',
+        ],
     ];
 
     /**

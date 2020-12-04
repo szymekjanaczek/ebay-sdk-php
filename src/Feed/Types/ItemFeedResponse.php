@@ -24,8 +24,8 @@ class ItemFeedResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Feed\Types\ItemFeed',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemFeeds'
-        ]
+            'elementName' => 'itemFeeds',
+        ],
     ];
 
     /**

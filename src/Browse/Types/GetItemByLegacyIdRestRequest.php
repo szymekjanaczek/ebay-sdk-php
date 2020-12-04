@@ -26,20 +26,20 @@ class GetItemByLegacyIdRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacy_item_id'
+            'elementName' => 'legacy_item_id',
         ],
         'legacy_variation_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacy_variation_id'
+            'elementName' => 'legacy_variation_id',
         ],
         'legacy_variation_sku' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacy_variation_sku'
-        ]
+            'elementName' => 'legacy_variation_sku',
+        ],
     ];
 
     /**

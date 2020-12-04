@@ -34,68 +34,68 @@ class SearchCancellationsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyer_login_name'
+            'elementName' => 'buyer_login_name',
         ],
         'cancel_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancel_id'
+            'elementName' => 'cancel_id',
         ],
         'creation_date_range_from' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creation_date_range_from'
+            'elementName' => 'creation_date_range_from',
         ],
         'creation_date_range_to' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creation_date_range_to'
+            'elementName' => 'creation_date_range_to',
         ],
         'item_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'item_id'
+            'elementName' => 'item_id',
         ],
         'legacy_order_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'legacy_order_id'
+            'elementName' => 'legacy_order_id',
         ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'offset' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'seller_login_name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'seller_login_name'
+            'elementName' => 'seller_login_name',
         ],
         'sort' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sort'
+            'elementName' => 'sort',
         ],
         'transaction_id' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'transaction_id'
-        ]
+            'elementName' => 'transaction_id',
+        ],
     ];
 
     /**

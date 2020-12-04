@@ -26,20 +26,20 @@ class EndItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
+            'elementName' => 'EndTime',
         ],
         'CorrelationID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CorrelationID'
+            'elementName' => 'CorrelationID',
         ],
         'Errors' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Errors'
-        ]
+            'elementName' => 'Errors',
+        ],
     ];
 
     /**

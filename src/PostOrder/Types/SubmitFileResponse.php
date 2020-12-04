@@ -24,8 +24,8 @@ class SubmitFileResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'removedFileIds'
-        ]
+            'elementName' => 'removedFileIds',
+        ],
     ];
 
     /**

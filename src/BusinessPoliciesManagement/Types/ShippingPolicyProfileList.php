@@ -24,8 +24,8 @@ class ShippingPolicyProfileList extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShippingPolicyProfile'
-        ]
+            'elementName' => 'ShippingPolicyProfile',
+        ],
     ];
 
     /**

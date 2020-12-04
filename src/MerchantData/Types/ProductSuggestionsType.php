@@ -24,8 +24,8 @@ class ProductSuggestionsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\ProductSuggestionType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ProductSuggestion'
-        ]
+            'elementName' => 'ProductSuggestion',
+        ],
     ];
 
     /**

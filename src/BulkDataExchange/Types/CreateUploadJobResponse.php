@@ -26,20 +26,20 @@ class CreateUploadJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseSe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobId'
+            'elementName' => 'jobId',
         ],
         'fileReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileReferenceId'
+            'elementName' => 'fileReferenceId',
         ],
         'maxFileSize' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxFileSize'
-        ]
+            'elementName' => 'maxFileSize',
+        ],
     ];
 
     /**

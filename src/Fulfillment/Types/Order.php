@@ -37,86 +37,86 @@ class Order extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Buyer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyer'
+            'elementName' => 'buyer',
         ],
         'buyerCheckoutNotes' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'buyerCheckoutNotes'
+            'elementName' => 'buyerCheckoutNotes',
         ],
         'cancelStatus' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\CancelStatus',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelStatus'
+            'elementName' => 'cancelStatus',
         ],
         'creationDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'fulfillmentHrefs' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'fulfillmentHrefs'
+            'elementName' => 'fulfillmentHrefs',
         ],
         'fulfillmentStartInstructions' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\FulfillmentStartInstruction',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'fulfillmentStartInstructions'
+            'elementName' => 'fulfillmentStartInstructions',
         ],
         'lastModifiedDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastModifiedDate'
+            'elementName' => 'lastModifiedDate',
         ],
         'lineItems' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'lineItems'
+            'elementName' => 'lineItems',
         ],
         'orderFulfillmentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'orderFulfillmentStatus'
+            'elementName' => 'orderFulfillmentStatus',
         ],
         'orderId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'orderId'
+            'elementName' => 'orderId',
         ],
         'orderPaymentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'orderPaymentStatus'
+            'elementName' => 'orderPaymentStatus',
         ],
         'paymentSummary' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\PaymentSummary',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentSummary'
+            'elementName' => 'paymentSummary',
         ],
         'pricingSummary' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pricingSummary'
+            'elementName' => 'pricingSummary',
         ],
         'sellerId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerId'
-        ]
+            'elementName' => 'sellerId',
+        ],
     ];
 
     /**

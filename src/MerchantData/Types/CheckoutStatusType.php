@@ -30,44 +30,44 @@ class CheckoutStatusType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayPaymentStatus'
+            'elementName' => 'eBayPaymentStatus',
         ],
         'LastModifiedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastModifiedTime'
+            'elementName' => 'LastModifiedTime',
         ],
         'PaymentMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentMethod'
+            'elementName' => 'PaymentMethod',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'IntegratedMerchantCreditCardEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IntegratedMerchantCreditCardEnabled'
+            'elementName' => 'IntegratedMerchantCreditCardEnabled',
         ],
         'eBayPaymentMismatchDetails' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayPaymentMismatchDetails'
+            'elementName' => 'eBayPaymentMismatchDetails',
         ],
         'PaymentInstrument' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentInstrument'
-        ]
+            'elementName' => 'PaymentInstrument',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class UnitPriceInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'type'
+            'elementName' => 'type',
         ],
         'quantity' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantity'
-        ]
+            'elementName' => 'quantity',
+        ],
     ];
 
     /**

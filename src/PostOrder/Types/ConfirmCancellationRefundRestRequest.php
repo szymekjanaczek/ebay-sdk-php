@@ -24,8 +24,8 @@ class ConfirmCancellationRefundRestRequest extends \DTS\eBaySDK\PostOrder\Types\
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cancelId'
-        ]
+            'elementName' => 'cancelId',
+        ],
     ];
 
     /**

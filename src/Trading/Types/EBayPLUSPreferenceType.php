@@ -26,20 +26,20 @@ class EBayPLUSPreferenceType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Country'
+            'elementName' => 'Country',
         ],
         'OptInStatus' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OptInStatus'
+            'elementName' => 'OptInStatus',
         ],
         'ListingPreference' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingPreference'
-        ]
+            'elementName' => 'ListingPreference',
+        ],
     ];
 
     /**

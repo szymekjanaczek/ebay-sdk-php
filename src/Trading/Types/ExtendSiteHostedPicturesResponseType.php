@@ -24,8 +24,8 @@ class ExtendSiteHostedPicturesResponseType extends \DTS\eBaySDK\Trading\Types\Ab
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PictureURL'
-        ]
+            'elementName' => 'PictureURL',
+        ],
     ];
 
     /**

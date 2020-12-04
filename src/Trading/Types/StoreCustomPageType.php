@@ -32,56 +32,56 @@ class StoreCustomPageType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'PageID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageID'
+            'elementName' => 'PageID',
         ],
         'URLPath' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'URLPath'
+            'elementName' => 'URLPath',
         ],
         'URL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'URL'
+            'elementName' => 'URL',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'Content' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Content'
+            'elementName' => 'Content',
         ],
         'LeftNav' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LeftNav'
+            'elementName' => 'LeftNav',
         ],
         'PreviewEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PreviewEnabled'
+            'elementName' => 'PreviewEnabled',
         ],
         'Order' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Order'
-        ]
+            'elementName' => 'Order',
+        ],
     ];
 
     /**

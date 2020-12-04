@@ -26,20 +26,20 @@ class GetMemberMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MemberMessage'
+            'elementName' => 'MemberMessage',
         ],
         'PaginationResult' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
+            'elementName' => 'PaginationResult',
         ],
         'HasMoreItems' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasMoreItems'
-        ]
+            'elementName' => 'HasMoreItems',
+        ],
     ];
 
     /**

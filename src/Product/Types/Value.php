@@ -26,20 +26,20 @@ class Value extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\StringValue',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'text'
+            'elementName' => 'text',
         ],
         'number' => [
             'type' => 'DTS\eBaySDK\Product\Types\NumericValue',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'number'
+            'elementName' => 'number',
         ],
         'URL' => [
             'type' => 'DTS\eBaySDK\Product\Types\URIValue',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'URL'
-        ]
+            'elementName' => 'URL',
+        ],
     ];
 
     /**

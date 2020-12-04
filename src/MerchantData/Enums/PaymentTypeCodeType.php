@@ -12,12 +12,12 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class PaymentTypeCodeType
 {
-    const C_ADMIN_REVERSAL = 'AdminReversal';
-    const C_ALL_OTHER = 'AllOther';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_REFUND = 'Refund';
-    const C_RENTAL_BUYOUT = 'RentalBuyout';
-    const C_RENTAL_EXTENSION = 'RentalExtension';
-    const C_SALE = 'Sale';
-    const C_SELLER_DENIED_PAYMENT = 'SellerDeniedPayment';
+    public const C_ADMIN_REVERSAL = 'AdminReversal';
+    public const C_ALL_OTHER = 'AllOther';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_REFUND = 'Refund';
+    public const C_RENTAL_BUYOUT = 'RentalBuyout';
+    public const C_RENTAL_EXTENSION = 'RentalExtension';
+    public const C_SALE = 'Sale';
+    public const C_SELLER_DENIED_PAYMENT = 'SellerDeniedPayment';
 }

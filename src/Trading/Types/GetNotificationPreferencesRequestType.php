@@ -24,8 +24,8 @@ class GetNotificationPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\A
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PreferenceLevel'
-        ]
+            'elementName' => 'PreferenceLevel',
+        ],
     ];
 
     /**

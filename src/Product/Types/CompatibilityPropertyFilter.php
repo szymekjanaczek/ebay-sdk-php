@@ -26,20 +26,20 @@ class CompatibilityPropertyFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'propertyFilter'
+            'elementName' => 'propertyFilter',
         ],
         'AAIA' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AAIA'
+            'elementName' => 'AAIA',
         ],
         'HSNTSN' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HSNTSN'
-        ]
+            'elementName' => 'HSNTSN',
+        ],
     ];
 
     /**

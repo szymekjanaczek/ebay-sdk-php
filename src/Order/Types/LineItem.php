@@ -33,62 +33,62 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\Image',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'image'
+            'elementName' => 'image',
         ],
         'itemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemId'
+            'elementName' => 'itemId',
         ],
         'lineItemId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemId'
+            'elementName' => 'lineItemId',
         ],
         'lineItemPaymentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemPaymentStatus'
+            'elementName' => 'lineItemPaymentStatus',
         ],
         'lineItemStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lineItemStatus'
+            'elementName' => 'lineItemStatus',
         ],
         'netPrice' => [
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'netPrice'
+            'elementName' => 'netPrice',
         ],
         'quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantity'
+            'elementName' => 'quantity',
         ],
         'seller' => [
             'type' => 'DTS\eBaySDK\Order\Types\Seller',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'seller'
+            'elementName' => 'seller',
         ],
         'shippingDetail' => [
             'type' => 'DTS\eBaySDK\Order\Types\ShippingDetail',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingDetail'
+            'elementName' => 'shippingDetail',
         ],
         'title' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'title'
-        ]
+            'elementName' => 'title',
+        ],
     ];
 
     /**

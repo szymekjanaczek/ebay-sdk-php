@@ -26,20 +26,20 @@ class GetSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentProfileList'
+            'elementName' => 'paymentProfileList',
         ],
         'returnPolicyProfileList' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPolicyProfileList'
+            'elementName' => 'returnPolicyProfileList',
         ],
         'shippingPolicyProfile' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingPolicyProfile'
-        ]
+            'elementName' => 'shippingPolicyProfile',
+        ],
     ];
 
     /**

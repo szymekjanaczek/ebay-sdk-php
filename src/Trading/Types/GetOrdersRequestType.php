@@ -35,74 +35,74 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
             'type' => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderIDArray'
+            'elementName' => 'OrderIDArray',
         ],
         'CreateTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreateTimeFrom'
+            'elementName' => 'CreateTimeFrom',
         ],
         'CreateTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CreateTimeTo'
+            'elementName' => 'CreateTimeTo',
         ],
         'OrderRole' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderRole'
+            'elementName' => 'OrderRole',
         ],
         'OrderStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OrderStatus'
+            'elementName' => 'OrderStatus',
         ],
         'ListingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ListingType'
+            'elementName' => 'ListingType',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'ModTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ModTimeFrom'
+            'elementName' => 'ModTimeFrom',
         ],
         'ModTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ModTimeTo'
+            'elementName' => 'ModTimeTo',
         ],
         'NumberOfDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NumberOfDays'
+            'elementName' => 'NumberOfDays',
         ],
         'IncludeFinalValueFee' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeFinalValueFee'
+            'elementName' => 'IncludeFinalValueFee',
         ],
         'SortingOrder' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SortingOrder'
-        ]
+            'elementName' => 'SortingOrder',
+        ],
     ];
 
     /**

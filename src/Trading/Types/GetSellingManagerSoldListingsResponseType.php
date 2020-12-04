@@ -25,14 +25,14 @@ class GetSellingManagerSoldListingsResponseType extends \DTS\eBaySDK\Trading\Typ
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SaleRecord'
+            'elementName' => 'SaleRecord',
         ],
         'PaginationResult' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
-        ]
+            'elementName' => 'PaginationResult',
+        ],
     ];
 
     /**

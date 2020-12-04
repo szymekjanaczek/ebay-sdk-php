@@ -25,14 +25,14 @@ class BuyerProtectionDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerProtectionSource'
+            'elementName' => 'BuyerProtectionSource',
         ],
         'BuyerProtectionStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerProtectionStatus'
-        ]
+            'elementName' => 'BuyerProtectionStatus',
+        ],
     ];
 
     /**

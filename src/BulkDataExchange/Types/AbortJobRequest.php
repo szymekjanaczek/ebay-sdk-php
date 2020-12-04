@@ -24,8 +24,8 @@ class AbortJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceReq
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'jobId'
-        ]
+            'elementName' => 'jobId',
+        ],
     ];
 
     /**

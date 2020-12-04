@@ -39,98 +39,98 @@ class SellingManagerOrderStatusType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CheckoutStatus'
+            'elementName' => 'CheckoutStatus',
         ],
         'PaidStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaidStatus'
+            'elementName' => 'PaidStatus',
         ],
         'ShippedStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippedStatus'
+            'elementName' => 'ShippedStatus',
         ],
         'eBayPaymentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'eBayPaymentStatus'
+            'elementName' => 'eBayPaymentStatus',
         ],
         'PayPalTransactionID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalTransactionID'
+            'elementName' => 'PayPalTransactionID',
         ],
         'PaymentMethodUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentMethodUsed'
+            'elementName' => 'PaymentMethodUsed',
         ],
         'FeedbackReceived' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackReceived'
+            'elementName' => 'FeedbackReceived',
         ],
         'FeedbackSent' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackSent'
+            'elementName' => 'FeedbackSent',
         ],
         'TotalEmailsSent' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalEmailsSent'
+            'elementName' => 'TotalEmailsSent',
         ],
         'PaymentHoldStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentHoldStatus'
+            'elementName' => 'PaymentHoldStatus',
         ],
         'SellerInvoiceNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerInvoiceNumber'
+            'elementName' => 'SellerInvoiceNumber',
         ],
         'ShippedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippedTime'
+            'elementName' => 'ShippedTime',
         ],
         'PaidTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaidTime'
+            'elementName' => 'PaidTime',
         ],
         'LastEmailSentTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastEmailSentTime'
+            'elementName' => 'LastEmailSentTime',
         ],
         'SellerInvoiceTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerInvoiceTime'
+            'elementName' => 'SellerInvoiceTime',
         ],
         'IntegratedMerchantCreditCardEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IntegratedMerchantCreditCardEnabled'
-        ]
+            'elementName' => 'IntegratedMerchantCreditCardEnabled',
+        ],
     ];
 
     /**

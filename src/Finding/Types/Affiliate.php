@@ -27,26 +27,26 @@ class Affiliate extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingId'
+            'elementName' => 'trackingId',
         ],
         'networkId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'networkId'
+            'elementName' => 'networkId',
         ],
         'customId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'customId'
+            'elementName' => 'customId',
         ],
         'geoTargeting' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'geoTargeting'
-        ]
+            'elementName' => 'geoTargeting',
+        ],
     ];
 
     /**

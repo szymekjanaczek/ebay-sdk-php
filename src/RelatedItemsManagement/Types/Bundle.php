@@ -32,56 +32,56 @@ class Bundle extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleID'
+            'elementName' => 'bundleID',
         ],
         'bundleName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleName'
+            'elementName' => 'bundleName',
         ],
         'primarySKU' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'primarySKU'
+            'elementName' => 'primarySKU',
         ],
         'scheduledStartTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'scheduledStartTime'
+            'elementName' => 'scheduledStartTime',
         ],
         'scheduledEndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'scheduledEndTime'
+            'elementName' => 'scheduledEndTime',
         ],
         'relatedProductGroup' => [
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'relatedProductGroup'
+            'elementName' => 'relatedProductGroup',
         ],
         'bundleStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleStatus'
+            'elementName' => 'bundleStatus',
         ],
         'isoCurrencyCode' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'isoCurrencyCode'
+            'elementName' => 'isoCurrencyCode',
         ],
         'site' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'site'
-        ]
+            'elementName' => 'site',
+        ],
     ];
 
     /**

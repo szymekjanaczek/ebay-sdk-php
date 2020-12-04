@@ -25,14 +25,14 @@ class DeleteSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Type
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeletedSaleTemplateID'
+            'elementName' => 'DeletedSaleTemplateID',
         ],
         'DeletedSaleTemplateName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeletedSaleTemplateName'
-        ]
+            'elementName' => 'DeletedSaleTemplateName',
+        ],
     ];
 
     /**

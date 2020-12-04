@@ -25,14 +25,14 @@ class ListDataType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'id'
+            'elementName' => 'id',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
-        ]
+            'elementName' => 'name',
+        ],
     ];
 
     /**

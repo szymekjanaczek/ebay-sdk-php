@@ -25,14 +25,14 @@ class MyeBayFavoriteSearchListType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalAvailable'
+            'elementName' => 'TotalAvailable',
         ],
         'FavoriteSearch' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FavoriteSearch'
-        ]
+            'elementName' => 'FavoriteSearch',
+        ],
     ];
 
     /**

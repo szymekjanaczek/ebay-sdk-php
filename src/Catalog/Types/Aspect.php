@@ -25,14 +25,14 @@ class Aspect extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'localizedName'
+            'elementName' => 'localizedName',
         ],
         'localizedValues' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'localizedValues'
-        ]
+            'elementName' => 'localizedValues',
+        ],
     ];
 
     /**

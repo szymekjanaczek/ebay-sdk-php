@@ -27,26 +27,26 @@ class ProductSubmission extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'invocationId'
+            'elementName' => 'invocationId',
         ],
         'categoryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'productPropertyValue' => [
             'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productPropertyValue'
+            'elementName' => 'productPropertyValue',
         ],
         'media' => [
             'type' => 'DTS\eBaySDK\Product\Types\Media',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'media'
-        ]
+            'elementName' => 'media',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class SellerProfileResponseStatus extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'profileId'
+            'elementName' => 'profileId',
         ],
         'ack' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ack'
+            'elementName' => 'ack',
         ],
         'errorMessage' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorMessage'
-        ]
+            'elementName' => 'errorMessage',
+        ],
     ];
 
     /**

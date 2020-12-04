@@ -26,20 +26,20 @@ class GetUserRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'UserID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserID'
+            'elementName' => 'UserID',
         ],
         'IncludeFeatureEligibility' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeFeatureEligibility'
-        ]
+            'elementName' => 'IncludeFeatureEligibility',
+        ],
     ];
 
     /**

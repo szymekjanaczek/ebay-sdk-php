@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Types;
 
 /**
@@ -15,8 +16,8 @@ class DecimalType extends \DTS\eBaySDK\Types\BaseType
         'value' => [
             'type' => 'integer|double',
             'repeatable' => false,
-            'attribute' => false
-        ]
+            'attribute' => false,
+        ],
     ];
 
     /**

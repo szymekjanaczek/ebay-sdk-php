@@ -28,32 +28,32 @@ class FeatureEligibilityType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QualifiesForBuyItNow'
+            'elementName' => 'QualifiesForBuyItNow',
         ],
         'QualifiesForBuyItNowMultiple' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QualifiesForBuyItNowMultiple'
+            'elementName' => 'QualifiesForBuyItNowMultiple',
         ],
         'QualifiedForFixedPriceOneDayDuration' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QualifiedForFixedPriceOneDayDuration'
+            'elementName' => 'QualifiedForFixedPriceOneDayDuration',
         ],
         'QualifiesForVariations' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QualifiesForVariations'
+            'elementName' => 'QualifiesForVariations',
         ],
         'QualifiedForAuctionOneDayDuration' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QualifiedForAuctionOneDayDuration'
-        ]
+            'elementName' => 'QualifiedForAuctionOneDayDuration',
+        ],
     ];
 
     /**

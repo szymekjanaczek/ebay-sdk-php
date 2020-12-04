@@ -26,20 +26,20 @@ class EndFixedPriceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'EndingReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndingReason'
+            'elementName' => 'EndingReason',
         ],
         'SKU' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKU'
-        ]
+            'elementName' => 'SKU',
+        ],
     ];
 
     /**

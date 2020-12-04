@@ -24,8 +24,8 @@ class Programs extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\Program',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'programs'
-        ]
+            'elementName' => 'programs',
+        ],
     ];
 
     /**

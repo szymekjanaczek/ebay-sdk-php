@@ -26,20 +26,20 @@ class DepositDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'daysToFullPayment'
+            'elementName' => 'daysToFullPayment',
         ],
         'hoursToDeposit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'hoursToDeposit'
+            'elementName' => 'hoursToDeposit',
         ],
         'depositAmount' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'depositAmount'
-        ]
+            'elementName' => 'depositAmount',
+        ],
     ];
 
     /**

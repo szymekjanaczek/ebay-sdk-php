@@ -24,8 +24,8 @@ class AbortRecurringJobExecutionRequest extends \DTS\eBaySDK\BulkDataExchange\Ty
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recurringJobId'
-        ]
+            'elementName' => 'recurringJobId',
+        ],
     ];
 
     /**

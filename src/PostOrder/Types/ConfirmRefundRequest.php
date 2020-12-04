@@ -25,14 +25,14 @@ class ConfirmRefundRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundDate'
+            'elementName' => 'refundDate',
         ],
         'unpaidOrder' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'unpaidOrder'
-        ]
+            'elementName' => 'unpaidOrder',
+        ],
     ];
 
     /**

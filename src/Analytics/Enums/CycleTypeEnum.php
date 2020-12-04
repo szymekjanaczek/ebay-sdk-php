@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Analytics\Enums;
 
 class CycleTypeEnum
 {
-    const C_CURRENT = 'CURRENT';
-    const C_PROJECTED = 'PROJECTED';
+    public const C_CURRENT = 'CURRENT';
+    public const C_PROJECTED = 'PROJECTED';
 }

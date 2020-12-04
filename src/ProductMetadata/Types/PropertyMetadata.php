@@ -31,50 +31,50 @@ class PropertyMetadata extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'propertyName'
+            'elementName' => 'propertyName',
         ],
         'alternatePropertyName' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'alternatePropertyName'
+            'elementName' => 'alternatePropertyName',
         ],
         'dataType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dataType'
+            'elementName' => 'dataType',
         ],
         'typeSpecificInformation' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\TypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'typeSpecificInformation'
+            'elementName' => 'typeSpecificInformation',
         ],
         'multiValued' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'multiValued'
+            'elementName' => 'multiValued',
         ],
         'canonicalName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'canonicalName'
+            'elementName' => 'canonicalName',
         ],
         'propertyTags' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\Tag',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'propertyTags'
+            'elementName' => 'propertyTags',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
-        ]
+            'elementName' => 'description',
+        ],
     ];
 
     /**

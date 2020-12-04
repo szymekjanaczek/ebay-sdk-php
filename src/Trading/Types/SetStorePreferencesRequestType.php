@@ -24,8 +24,8 @@ class SetStorePreferencesRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'type' => 'DTS\eBaySDK\Trading\Types\StorePreferencesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StorePreferences'
-        ]
+            'elementName' => 'StorePreferences',
+        ],
     ];
 
     /**

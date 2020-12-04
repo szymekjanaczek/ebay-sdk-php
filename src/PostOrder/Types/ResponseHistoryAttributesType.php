@@ -31,50 +31,50 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierUsed'
+            'elementName' => 'carrierUsed',
         ],
         'escalateReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'escalateReason'
+            'elementName' => 'escalateReason',
         ],
         'moneyMovementRef' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementRef',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'moneyMovementRef'
+            'elementName' => 'moneyMovementRef',
         ],
         'partialRefundAmount' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'partialRefundAmount'
+            'elementName' => 'partialRefundAmount',
         ],
         'RMA' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RMA'
+            'elementName' => 'RMA',
         ],
         'sellerReturnAddress' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sellerReturnAddress'
+            'elementName' => 'sellerReturnAddress',
         ],
         'toEmailAddress' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'toEmailAddress'
+            'elementName' => 'toEmailAddress',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
-        ]
+            'elementName' => 'trackingNumber',
+        ],
     ];
 
     /**

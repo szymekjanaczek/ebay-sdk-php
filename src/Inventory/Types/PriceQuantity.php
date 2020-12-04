@@ -26,20 +26,20 @@ class PriceQuantity extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Inventory\Types\OfferPriceQuantity',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'offers'
+            'elementName' => 'offers',
         ],
         'shipToLocationAvailability' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipToLocationAvailability'
+            'elementName' => 'shipToLocationAvailability',
         ],
         'sku' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'sku'
-        ]
+            'elementName' => 'sku',
+        ],
     ];
 
     /**

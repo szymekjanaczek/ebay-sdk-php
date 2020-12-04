@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class BuyerINREscalationReasonType
 {
-    const C_ITEM_NOT_RECEIVED = 'ITEM_NOT_RECEIVED';
-    const C_OTHER = 'OTHER';
-    const C_SELLER_NO_RESPONSE = 'SELLER_NO_RESPONSE';
-    const C_TROUBLE_COMMUNICATION_WITH_SELLER = 'TROUBLE_COMMUNICATION_WITH_SELLER';
+    public const C_ITEM_NOT_RECEIVED = 'ITEM_NOT_RECEIVED';
+    public const C_OTHER = 'OTHER';
+    public const C_SELLER_NO_RESPONSE = 'SELLER_NO_RESPONSE';
+    public const C_TROUBLE_COMMUNICATION_WITH_SELLER = 'TROUBLE_COMMUNICATION_WITH_SELLER';
 }

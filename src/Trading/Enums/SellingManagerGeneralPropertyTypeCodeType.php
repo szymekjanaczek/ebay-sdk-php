@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class SellingManagerGeneralPropertyTypeCodeType
 {
-    const C_BAD_EMAIL_TEMPLATE = 'BadEmailTemplate';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_NEGATIVE_FEEDBACK_RECEIVED = 'NegativeFeedbackReceived';
-    const C_UNPAID_ITEM_DISPUTE = 'UnpaidItemDispute';
+    public const C_BAD_EMAIL_TEMPLATE = 'BadEmailTemplate';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_NEGATIVE_FEEDBACK_RECEIVED = 'NegativeFeedbackReceived';
+    public const C_UNPAID_ITEM_DISPUTE = 'UnpaidItemDispute';
 }

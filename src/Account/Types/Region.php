@@ -25,14 +25,14 @@ class Region extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'regionName'
+            'elementName' => 'regionName',
         ],
         'regionType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'regionType'
-        ]
+            'elementName' => 'regionType',
+        ],
     ];
 
     /**

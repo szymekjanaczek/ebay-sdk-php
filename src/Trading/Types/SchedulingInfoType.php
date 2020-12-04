@@ -26,20 +26,20 @@ class SchedulingInfoType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxScheduledMinutes'
+            'elementName' => 'MaxScheduledMinutes',
         ],
         'MinScheduledMinutes' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinScheduledMinutes'
+            'elementName' => 'MinScheduledMinutes',
         ],
         'MaxScheduledItems' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaxScheduledItems'
-        ]
+            'elementName' => 'MaxScheduledItems',
+        ],
     ];
 
     /**

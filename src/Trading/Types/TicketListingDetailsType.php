@@ -27,26 +27,26 @@ class TicketListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EventTitle'
+            'elementName' => 'EventTitle',
         ],
         'Venue' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Venue'
+            'elementName' => 'Venue',
         ],
         'PrintedDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PrintedDate'
+            'elementName' => 'PrintedDate',
         ],
         'PrintedTime' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PrintedTime'
-        ]
+            'elementName' => 'PrintedTime',
+        ],
     ];
 
     /**

@@ -28,32 +28,32 @@ class GetBestOffersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'type' => 'DTS\eBaySDK\Trading\Types\BestOfferArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferArray'
+            'elementName' => 'BestOfferArray',
         ],
         'Item' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Item'
+            'elementName' => 'Item',
         ],
         'ItemBestOffersArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemBestOffersArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemBestOffersArray'
+            'elementName' => 'ItemBestOffersArray',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
+            'elementName' => 'PageNumber',
         ],
         'PaginationResult' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
-        ]
+            'elementName' => 'PaginationResult',
+        ],
     ];
 
     /**

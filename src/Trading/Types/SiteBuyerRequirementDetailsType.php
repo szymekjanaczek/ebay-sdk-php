@@ -32,56 +32,56 @@ class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LinkedPayPalAccount'
+            'elementName' => 'LinkedPayPalAccount',
         ],
         'MaximumBuyerPolicyViolations' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaximumBuyerPolicyViolations'
+            'elementName' => 'MaximumBuyerPolicyViolations',
         ],
         'MaximumItemRequirements' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaximumItemRequirements'
+            'elementName' => 'MaximumItemRequirements',
         ],
         'MaximumUnpaidItemStrikesInfo' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MaximumUnpaidItemStrikesInfo'
+            'elementName' => 'MaximumUnpaidItemStrikesInfo',
         ],
         'MinimumFeedbackScore' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinimumFeedbackScore'
+            'elementName' => 'MinimumFeedbackScore',
         ],
         'ShipToRegistrationCountry' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShipToRegistrationCountry'
+            'elementName' => 'ShipToRegistrationCountry',
         ],
         'VerifiedUserRequirements' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VerifiedUserRequirements'
+            'elementName' => 'VerifiedUserRequirements',
         ],
         'DetailVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DetailVersion'
+            'elementName' => 'DetailVersion',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
-        ]
+            'elementName' => 'UpdateTime',
+        ],
     ];
 
     /**

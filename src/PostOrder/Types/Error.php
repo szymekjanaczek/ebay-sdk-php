@@ -36,80 +36,80 @@ class Error extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorId'
+            'elementName' => 'errorId',
         ],
         'domain' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domain'
+            'elementName' => 'domain',
         ],
         'subdomain' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'subdomain'
+            'elementName' => 'subdomain',
         ],
         'severity' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'severity'
+            'elementName' => 'severity',
         ],
         'category' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category'
+            'elementName' => 'category',
         ],
         'message' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'message'
+            'elementName' => 'message',
         ],
         'parameter' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'parameter'
+            'elementName' => 'parameter',
         ],
         'longMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'longMessage'
+            'elementName' => 'longMessage',
         ],
         'httpStatusCode' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'httpStatusCode'
+            'elementName' => 'httpStatusCode',
         ],
         'errorName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorName'
+            'elementName' => 'errorName',
         ],
         'resolution' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'resolution'
+            'elementName' => 'resolution',
         ],
         'organization' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'organization'
+            'elementName' => 'organization',
         ],
         'errorGroups' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorGroups'
-        ]
+            'elementName' => 'errorGroups',
+        ],
     ];
 
     /**

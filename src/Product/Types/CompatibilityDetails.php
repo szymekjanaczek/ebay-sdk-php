@@ -24,8 +24,8 @@ class CompatibilityDetails extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'compatibilityProperty'
-        ]
+            'elementName' => 'compatibilityProperty',
+        ],
     ];
 
     /**

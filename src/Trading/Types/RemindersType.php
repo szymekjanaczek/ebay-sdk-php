@@ -42,116 +42,116 @@ class RemindersType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentToSendCount'
+            'elementName' => 'PaymentToSendCount',
         ],
         'FeedbackToReceiveCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackToReceiveCount'
+            'elementName' => 'FeedbackToReceiveCount',
         ],
         'FeedbackToSendCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackToSendCount'
+            'elementName' => 'FeedbackToSendCount',
         ],
         'OutbidCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'OutbidCount'
+            'elementName' => 'OutbidCount',
         ],
         'PaymentToReceiveCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaymentToReceiveCount'
+            'elementName' => 'PaymentToReceiveCount',
         ],
         'SecondChanceOfferCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SecondChanceOfferCount'
+            'elementName' => 'SecondChanceOfferCount',
         ],
         'ShippingNeededCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingNeededCount'
+            'elementName' => 'ShippingNeededCount',
         ],
         'RelistingNeededCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RelistingNeededCount'
+            'elementName' => 'RelistingNeededCount',
         ],
         'TotalNewLeadsCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalNewLeadsCount'
+            'elementName' => 'TotalNewLeadsCount',
         ],
         'DocsForCCProcessingToSendCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DocsForCCProcessingToSendCount'
+            'elementName' => 'DocsForCCProcessingToSendCount',
         ],
         'RTEToProcessCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RTEToProcessCount'
+            'elementName' => 'RTEToProcessCount',
         ],
         'ItemReceiptToConfirmCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemReceiptToConfirmCount'
+            'elementName' => 'ItemReceiptToConfirmCount',
         ],
         'RefundOnHoldCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundOnHoldCount'
+            'elementName' => 'RefundOnHoldCount',
         ],
         'RefundCancelledCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundCancelledCount'
+            'elementName' => 'RefundCancelledCount',
         ],
         'ShippingDetailsToBeProvidedCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingDetailsToBeProvidedCount'
+            'elementName' => 'ShippingDetailsToBeProvidedCount',
         ],
         'ItemReceiptConfirmationToReceiveCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemReceiptConfirmationToReceiveCount'
+            'elementName' => 'ItemReceiptConfirmationToReceiveCount',
         ],
         'RefundInitiatedCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RefundInitiatedCount'
+            'elementName' => 'RefundInitiatedCount',
         ],
         'PendingRTERequestCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PendingRTERequestCount'
+            'elementName' => 'PendingRTERequestCount',
         ],
         'DeclinedRTERequestCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DeclinedRTERequestCount'
-        ]
+            'elementName' => 'DeclinedRTERequestCount',
+        ],
     ];
 
     /**

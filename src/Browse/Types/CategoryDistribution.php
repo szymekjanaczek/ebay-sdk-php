@@ -27,26 +27,26 @@ class CategoryDistribution extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryId'
+            'elementName' => 'categoryId',
         ],
         'categoryName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryName'
+            'elementName' => 'categoryName',
         ],
         'matchCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'matchCount'
+            'elementName' => 'matchCount',
         ],
         'refinementHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refinementHref'
-        ]
+            'elementName' => 'refinementHref',
+        ],
     ];
 
     /**

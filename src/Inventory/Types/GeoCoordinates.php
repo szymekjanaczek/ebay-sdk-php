@@ -25,14 +25,14 @@ class GeoCoordinates extends \DTS\eBaySDK\Types\BaseType
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'latitude'
+            'elementName' => 'latitude',
         ],
         'longitude' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'longitude'
-        ]
+            'elementName' => 'longitude',
+        ],
     ];
 
     /**

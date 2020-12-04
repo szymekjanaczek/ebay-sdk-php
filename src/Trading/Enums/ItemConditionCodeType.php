@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class ItemConditionCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_NEW = 'New';
-    const C_USED = 'Used';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_NEW = 'New';
+    public const C_USED = 'Used';
 }

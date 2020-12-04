@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class PictureManagerDetailLevelCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_RETURN_ALL = 'ReturnAll';
-    const C_RETURN_PICTURE = 'ReturnPicture';
-    const C_RETURN_SUBSCRIPTION = 'ReturnSubscription';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_RETURN_ALL = 'ReturnAll';
+    public const C_RETURN_PICTURE = 'ReturnPicture';
+    public const C_RETURN_SUBSCRIPTION = 'ReturnSubscription';
 }

@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Product\Enums;
 
 class ProductSubmissionStatusCode
 {
-    const C_APPROVED = 'Approved';
-    const C_PENDING = 'Pending';
-    const C_REJECTED = 'Rejected';
+    public const C_APPROVED = 'Approved';
+    public const C_PENDING = 'Pending';
+    public const C_REJECTED = 'Rejected';
 }

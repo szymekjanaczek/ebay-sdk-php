@@ -25,14 +25,14 @@ class ErrorParameterType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Value'
+            'elementName' => 'Value',
         ],
         'ParamID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'ParamID'
-        ]
+            'attributeName' => 'ParamID',
+        ],
     ];
 
     /**

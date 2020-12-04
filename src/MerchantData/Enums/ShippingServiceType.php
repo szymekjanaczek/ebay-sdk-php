@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class ShippingServiceType
 {
-    const C_DOMESTIC = 'Domestic';
-    const C_INTERNATIONAL = 'International';
+    public const C_DOMESTIC = 'Domestic';
+    public const C_INTERNATIONAL = 'International';
 }

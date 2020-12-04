@@ -25,14 +25,14 @@ class SellerShippingProfileType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingProfileID'
+            'elementName' => 'ShippingProfileID',
         ],
         'ShippingProfileName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingProfileName'
-        ]
+            'elementName' => 'ShippingProfileName',
+        ],
     ];
 
     /**

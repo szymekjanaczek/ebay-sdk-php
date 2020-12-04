@@ -25,14 +25,14 @@ class GetAReturnPolicyByNameRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplace_id'
+            'elementName' => 'marketplace_id',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
-        ]
+            'elementName' => 'name',
+        ],
     ];
 
     /**

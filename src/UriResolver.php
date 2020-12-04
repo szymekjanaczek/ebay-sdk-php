@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 /**
@@ -14,7 +15,7 @@ class UriResolver
         'bool' => 'is_bool',
         'callable' => 'is_callable',
         'int' => 'is_int',
-        'string' => 'is_string'
+        'string' => 'is_string',
     ];
 
     public function __construct()
@@ -62,9 +63,9 @@ class UriResolver
         }
 
         return (
-            "$uri/".
-            "$version/".
-            $this->fillPathParams($resource, $paramValues).
+            "$uri/" .
+            "$version/" .
+            $this->fillPathParams($resource, $paramValues) .
             $this->buildQueryParameters($paramValues)
         );
     }
@@ -155,8 +156,8 @@ class UriResolver
             } elseif (is_callable($value)) {
                 $value = $value();
             }
-            $query[] = $param.'='.urlencode($value);
+            $query[] = $param . '=' . urlencode($value);
         }
-        return '?'.join('&', $query);
+        return '?' . join('&', $query);
     }
 }

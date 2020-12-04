@@ -24,8 +24,8 @@ class GetDealsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandising
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'keywords'
-        ]
+            'elementName' => 'keywords',
+        ],
     ];
 
     /**

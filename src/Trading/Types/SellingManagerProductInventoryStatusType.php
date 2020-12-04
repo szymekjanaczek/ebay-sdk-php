@@ -29,38 +29,38 @@ class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseTy
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantityScheduled'
+            'elementName' => 'QuantityScheduled',
         ],
         'QuantityActive' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantityActive'
+            'elementName' => 'QuantityActive',
         ],
         'QuantitySold' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantitySold'
+            'elementName' => 'QuantitySold',
         ],
         'QuantityUnsold' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'QuantityUnsold'
+            'elementName' => 'QuantityUnsold',
         ],
         'SuccessPercent' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SuccessPercent'
+            'elementName' => 'SuccessPercent',
         ],
         'AverageSellingPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AverageSellingPrice'
-        ]
+            'elementName' => 'AverageSellingPrice',
+        ],
     ];
 
     /**

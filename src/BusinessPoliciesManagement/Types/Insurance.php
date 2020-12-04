@@ -27,26 +27,26 @@ class Insurance extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domesticInsuranceFee'
+            'elementName' => 'domesticInsuranceFee',
         ],
         'domesticInsuranceOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domesticInsuranceOption'
+            'elementName' => 'domesticInsuranceOption',
         ],
         'intlInsuranceOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'intlInsuranceOption'
+            'elementName' => 'intlInsuranceOption',
         ],
         'intlInsuranceFee' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'intlInsuranceFee'
-        ]
+            'elementName' => 'intlInsuranceFee',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class DeleteAFulfillmentPolicyRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fulfillmentPolicyId'
-        ]
+            'elementName' => 'fulfillmentPolicyId',
+        ],
     ];
 
     /**

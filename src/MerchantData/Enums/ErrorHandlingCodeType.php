@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class ErrorHandlingCodeType
 {
-    const C_ALL_OR_NOTHING = 'AllOrNothing';
-    const C_BEST_EFFORT = 'BestEffort';
-    const C_FAIL_ON_ERROR = 'FailOnError';
-    const C_LEGACY = 'Legacy';
+    public const C_ALL_OR_NOTHING = 'AllOrNothing';
+    public const C_BEST_EFFORT = 'BestEffort';
+    public const C_FAIL_ON_ERROR = 'FailOnError';
+    public const C_LEGACY = 'Legacy';
 }

@@ -25,14 +25,14 @@ class Value extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'applicable'
+            'elementName' => 'applicable',
         ],
         'value' => [
             'type' => 'any',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'value'
-        ]
+            'elementName' => 'value',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class GetAReturnPolicyByIDRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnPolicyId'
-        ]
+            'elementName' => 'returnPolicyId',
+        ],
     ];
 
     /**

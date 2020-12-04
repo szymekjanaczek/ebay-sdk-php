@@ -25,14 +25,14 @@ class MyMessagesFolderType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderID'
+            'elementName' => 'FolderID',
         ],
         'FolderName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FolderName'
-        ]
+            'elementName' => 'FolderName',
+        ],
     ];
 
     /**

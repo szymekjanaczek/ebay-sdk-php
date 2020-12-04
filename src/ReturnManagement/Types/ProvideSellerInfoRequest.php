@@ -26,20 +26,20 @@ class ProvideSellerInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseR
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnId'
+            'elementName' => 'ReturnId',
         ],
         'returnMerchandiseAuthorization' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnMerchandiseAuthorization'
+            'elementName' => 'returnMerchandiseAuthorization',
         ],
         'returnAddress' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnAddress'
-        ]
+            'elementName' => 'returnAddress',
+        ],
     ];
 
     /**

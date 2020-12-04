@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class RefundStatusType
 {
-    const C_AGREED = 'AGREED';
-    const C_FAILED = 'FAILED';
-    const C_SUCCESS = 'SUCCESS';
+    public const C_AGREED = 'AGREED';
+    public const C_FAILED = 'FAILED';
+    public const C_SUCCESS = 'SUCCESS';
 }

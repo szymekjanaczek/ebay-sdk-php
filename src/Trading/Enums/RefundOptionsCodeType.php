@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class RefundOptionsCodeType
 {
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_EXCHANGE = 'Exchange';
-    const C_MERCHANDISE_CREDIT = 'MerchandiseCredit';
-    const C_MONEY_BACK = 'MoneyBack';
-    const C_MONEY_BACK_OR_EXCHANGE = 'MoneyBackOrExchange';
-    const C_MONEY_BACK_OR_REPLACEMENT = 'MoneyBackOrReplacement';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_EXCHANGE = 'Exchange';
+    public const C_MERCHANDISE_CREDIT = 'MerchandiseCredit';
+    public const C_MONEY_BACK = 'MoneyBack';
+    public const C_MONEY_BACK_OR_EXCHANGE = 'MoneyBackOrExchange';
+    public const C_MONEY_BACK_OR_REPLACEMENT = 'MoneyBackOrReplacement';
 }

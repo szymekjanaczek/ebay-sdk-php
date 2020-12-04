@@ -26,20 +26,20 @@ class GetDescriptionTemplatesRequestType extends \DTS\eBaySDK\Trading\Types\Abst
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryID'
+            'elementName' => 'CategoryID',
         ],
         'LastModifiedTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LastModifiedTime'
+            'elementName' => 'LastModifiedTime',
         ],
         'MotorVehicles' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MotorVehicles'
-        ]
+            'elementName' => 'MotorVehicles',
+        ],
     ];
 
     /**

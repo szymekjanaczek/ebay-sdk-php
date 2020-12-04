@@ -24,8 +24,8 @@ class FeedbackPeriodArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'FeedbackPeriod'
-        ]
+            'elementName' => 'FeedbackPeriod',
+        ],
     ];
 
     /**

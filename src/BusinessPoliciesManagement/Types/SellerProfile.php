@@ -31,50 +31,50 @@ class SellerProfile extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'profileName'
+            'elementName' => 'profileName',
         ],
         'profileId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'profileId'
+            'elementName' => 'profileId',
         ],
         'profileType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'profileType'
+            'elementName' => 'profileType',
         ],
         'profileVersion' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'profileVersion'
+            'elementName' => 'profileVersion',
         ],
         'profileDesc' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'profileDesc'
+            'elementName' => 'profileDesc',
         ],
         'deletedDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deletedDate'
+            'elementName' => 'deletedDate',
         ],
         'siteId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'siteId'
+            'elementName' => 'siteId',
         ],
         'categoryGroups' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroups',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryGroups'
-        ]
+            'elementName' => 'categoryGroups',
+        ],
     ];
 
     /**

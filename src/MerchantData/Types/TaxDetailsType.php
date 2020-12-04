@@ -30,44 +30,44 @@ class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Imposition'
+            'elementName' => 'Imposition',
         ],
         'TaxDescription' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxDescription'
+            'elementName' => 'TaxDescription',
         ],
         'TaxAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxAmount'
+            'elementName' => 'TaxAmount',
         ],
         'TaxOnSubtotalAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxOnSubtotalAmount'
+            'elementName' => 'TaxOnSubtotalAmount',
         ],
         'TaxOnShippingAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxOnShippingAmount'
+            'elementName' => 'TaxOnShippingAmount',
         ],
         'TaxOnHandlingAmount' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxOnHandlingAmount'
+            'elementName' => 'TaxOnHandlingAmount',
         ],
         'TaxCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaxCode'
-        ]
+            'elementName' => 'TaxCode',
+        ],
     ];
 
     /**

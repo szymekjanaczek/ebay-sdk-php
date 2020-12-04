@@ -30,44 +30,44 @@ class ShippingInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingServiceCost'
+            'elementName' => 'shippingServiceCost',
         ],
         'shippingType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingType'
+            'elementName' => 'shippingType',
         ],
         'shipToLocations' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shipToLocations'
+            'elementName' => 'shipToLocations',
         ],
         'expeditedShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'expeditedShipping'
+            'elementName' => 'expeditedShipping',
         ],
         'oneDayShippingAvailable' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'oneDayShippingAvailable'
+            'elementName' => 'oneDayShippingAvailable',
         ],
         'handlingTime' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'handlingTime'
+            'elementName' => 'handlingTime',
         ],
         'intermediatedShipping' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'intermediatedShipping'
-        ]
+            'elementName' => 'intermediatedShipping',
+        ],
     ];
 
     /**

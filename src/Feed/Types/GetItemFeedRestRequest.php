@@ -26,20 +26,20 @@ class GetItemFeedRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'category_id'
+            'elementName' => 'category_id',
         ],
         'date' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'date'
+            'elementName' => 'date',
         ],
         'feed_type' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'feed_type'
-        ]
+            'elementName' => 'feed_type',
+        ],
     ];
 
     /**

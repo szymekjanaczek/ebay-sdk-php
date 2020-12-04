@@ -25,14 +25,14 @@ class SalesTaxBase extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'salesTaxPercentage'
+            'elementName' => 'salesTaxPercentage',
         ],
         'shippingAndHandlingTaxed' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingAndHandlingTaxed'
-        ]
+            'elementName' => 'shippingAndHandlingTaxed',
+        ],
     ];
 
     /**

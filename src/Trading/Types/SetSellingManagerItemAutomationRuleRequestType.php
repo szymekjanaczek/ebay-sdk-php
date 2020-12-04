@@ -26,20 +26,20 @@ class SetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Tradin
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'AutomatedRelistingRule' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AutomatedRelistingRule'
+            'elementName' => 'AutomatedRelistingRule',
         ],
         'AutomatedSecondChanceOfferRule' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AutomatedSecondChanceOfferRule'
-        ]
+            'elementName' => 'AutomatedSecondChanceOfferRule',
+        ],
     ];
 
     /**

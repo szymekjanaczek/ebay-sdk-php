@@ -25,14 +25,14 @@ class Aspect extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Finding\Types\AspectValueHistogram',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'valueHistogram'
+            'elementName' => 'valueHistogram',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'name'
-        ]
+            'attributeName' => 'name',
+        ],
     ];
 
     /**

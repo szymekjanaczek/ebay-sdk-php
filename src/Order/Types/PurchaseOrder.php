@@ -34,68 +34,68 @@ class PurchaseOrder extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Order\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'lineItems'
+            'elementName' => 'lineItems',
         ],
         'paymentInstrument' => [
             'type' => 'DTS\eBaySDK\Order\Types\PaymentInstrument',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paymentInstrument'
+            'elementName' => 'paymentInstrument',
         ],
         'pricingSummary' => [
             'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'pricingSummary'
+            'elementName' => 'pricingSummary',
         ],
         'purchaseOrderCreationDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderCreationDate'
+            'elementName' => 'purchaseOrderCreationDate',
         ],
         'purchaseOrderId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderId'
+            'elementName' => 'purchaseOrderId',
         ],
         'purchaseOrderPaymentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderPaymentStatus'
+            'elementName' => 'purchaseOrderPaymentStatus',
         ],
         'purchaseOrderStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'purchaseOrderStatus'
+            'elementName' => 'purchaseOrderStatus',
         ],
         'refundedAmount' => [
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refundedAmount'
+            'elementName' => 'refundedAmount',
         ],
         'shippingAddress' => [
             'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingAddress'
+            'elementName' => 'shippingAddress',
         ],
         'shippingFulfillments' => [
             'type' => 'DTS\eBaySDK\Order\Types\ShippingFulfillment',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shippingFulfillments'
+            'elementName' => 'shippingFulfillments',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

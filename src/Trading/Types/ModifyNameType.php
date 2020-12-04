@@ -25,14 +25,14 @@ class ModifyNameType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'NewName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NewName'
-        ]
+            'elementName' => 'NewName',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class UpdateBidPercentageRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bidPercentage'
-        ]
+            'elementName' => 'bidPercentage',
+        ],
     ];
 
     /**

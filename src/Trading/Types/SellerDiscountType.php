@@ -27,26 +27,26 @@ class SellerDiscountType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CampaignID'
+            'elementName' => 'CampaignID',
         ],
         'CampaignDisplayName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CampaignDisplayName'
+            'elementName' => 'CampaignDisplayName',
         ],
         'ItemDiscountAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemDiscountAmount'
+            'elementName' => 'ItemDiscountAmount',
         ],
         'ShippingDiscountAmount' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingDiscountAmount'
-        ]
+            'elementName' => 'ShippingDiscountAmount',
+        ],
     ];
 
     /**

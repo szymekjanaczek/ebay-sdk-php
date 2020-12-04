@@ -24,8 +24,8 @@ class GetItemsAwaitingFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\Ab
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedTransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemsAwaitingFeedback'
-        ]
+            'elementName' => 'ItemsAwaitingFeedback',
+        ],
     ];
 
     /**

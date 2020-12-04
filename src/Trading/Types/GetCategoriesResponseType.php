@@ -30,44 +30,44 @@ class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryArray'
+            'elementName' => 'CategoryArray',
         ],
         'CategoryCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryCount'
+            'elementName' => 'CategoryCount',
         ],
         'UpdateTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UpdateTime'
+            'elementName' => 'UpdateTime',
         ],
         'CategoryVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryVersion'
+            'elementName' => 'CategoryVersion',
         ],
         'ReservePriceAllowed' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReservePriceAllowed'
+            'elementName' => 'ReservePriceAllowed',
         ],
         'MinimumReservePrice' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinimumReservePrice'
+            'elementName' => 'MinimumReservePrice',
         ],
         'ReduceReserveAllowed' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReduceReserveAllowed'
-        ]
+            'elementName' => 'ReduceReserveAllowed',
+        ],
     ];
 
     /**

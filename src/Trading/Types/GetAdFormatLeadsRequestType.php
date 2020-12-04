@@ -28,32 +28,32 @@ class GetAdFormatLeadsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'IncludeMemberMessages' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeMemberMessages'
+            'elementName' => 'IncludeMemberMessages',
         ],
         'StartCreationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartCreationTime'
+            'elementName' => 'StartCreationTime',
         ],
         'EndCreationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndCreationTime'
-        ]
+            'elementName' => 'EndCreationTime',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class StoreLogoArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\StoreLogoType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Logo'
-        ]
+            'elementName' => 'Logo',
+        ],
     ];
 
     /**

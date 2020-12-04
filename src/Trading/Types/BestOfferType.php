@@ -33,62 +33,62 @@ class BestOfferType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferID'
+            'elementName' => 'BestOfferID',
         ],
         'ExpirationTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExpirationTime'
+            'elementName' => 'ExpirationTime',
         ],
         'Buyer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Buyer'
+            'elementName' => 'Buyer',
         ],
         'Price' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Price'
+            'elementName' => 'Price',
         ],
         'Status' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Status'
+            'elementName' => 'Status',
         ],
         'Quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Quantity'
+            'elementName' => 'Quantity',
         ],
         'BuyerMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyerMessage'
+            'elementName' => 'BuyerMessage',
         ],
         'SellerMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerMessage'
+            'elementName' => 'SellerMessage',
         ],
         'BestOfferCodeType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferCodeType'
+            'elementName' => 'BestOfferCodeType',
         ],
         'CallStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CallStatus'
-        ]
+            'elementName' => 'CallStatus',
+        ],
     ];
 
     /**

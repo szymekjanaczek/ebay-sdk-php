@@ -32,56 +32,56 @@ class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TimeZoneID'
+            'elementName' => 'TimeZoneID',
         ],
         'Hours1Days' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Hours1Days'
+            'elementName' => 'Hours1Days',
         ],
         'Hours1AnyTime' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Hours1AnyTime'
+            'elementName' => 'Hours1AnyTime',
         ],
         'Hours1From' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Hours1From'
+            'elementName' => 'Hours1From',
         ],
         'Hours1To' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Hours1To'
+            'elementName' => 'Hours1To',
         ],
         'Hours2Days' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Hours2Days'
+            'elementName' => 'Hours2Days',
         ],
         'Hours2AnyTime' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Hours2AnyTime'
+            'elementName' => 'Hours2AnyTime',
         ],
         'Hours2From' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Hours2From'
+            'elementName' => 'Hours2From',
         ],
         'Hours2To' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Hours2To'
-        ]
+            'elementName' => 'Hours2To',
+        ],
     ];
 
     /**

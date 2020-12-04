@@ -33,62 +33,62 @@ class InternationalShippingServiceOptionType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingInsuranceCost'
+            'elementName' => 'ShippingInsuranceCost',
         ],
         'ShippingServiceName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceName'
+            'elementName' => 'ShippingServiceName',
         ],
         'ShippingServiceAdditionalCost' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceAdditionalCost'
+            'elementName' => 'ShippingServiceAdditionalCost',
         ],
         'ShippingServiceCost' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCost'
+            'elementName' => 'ShippingServiceCost',
         ],
         'ShippingServicePriority' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServicePriority'
+            'elementName' => 'ShippingServicePriority',
         ],
         'ShipsTo' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ShipsTo'
+            'elementName' => 'ShipsTo',
         ],
         'EstimatedDeliveryMinTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EstimatedDeliveryMinTime'
+            'elementName' => 'EstimatedDeliveryMinTime',
         ],
         'EstimatedDeliveryMaxTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EstimatedDeliveryMaxTime'
+            'elementName' => 'EstimatedDeliveryMaxTime',
         ],
         'ImportCharge' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ImportCharge'
+            'elementName' => 'ImportCharge',
         ],
         'ShippingServiceCutOffTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingServiceCutOffTime'
-        ]
+            'elementName' => 'ShippingServiceCutOffTime',
+        ],
     ];
 
     /**

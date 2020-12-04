@@ -25,14 +25,14 @@ class ProvideShippingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagemen
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippedDate'
+            'elementName' => 'shippedDate',
         ],
         'carrierUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierUsed'
-        ]
+            'elementName' => 'carrierUsed',
+        ],
     ];
 
     /**

@@ -24,8 +24,8 @@ class UpdateReturnDraftRestRequest extends \DTS\eBaySDK\PostOrder\Types\SetRetur
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'draftId'
-        ]
+            'elementName' => 'draftId',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class BundleFilter extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'primarySKU'
+            'elementName' => 'primarySKU',
         ],
         'bundleID' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'bundleID'
-        ]
+            'elementName' => 'bundleID',
+        ],
     ];
 
     /**

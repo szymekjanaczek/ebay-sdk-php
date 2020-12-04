@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Merchandising\Enums;
 
 class ItemFilterType
 {
-    const C_WORLD_OF_GOOD_ONLY = 'WorldOfGoodOnly';
+    public const C_WORLD_OF_GOOD_ONLY = 'WorldOfGoodOnly';
 }

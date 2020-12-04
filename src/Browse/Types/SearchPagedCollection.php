@@ -32,56 +32,56 @@ class SearchPagedCollection extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'href'
+            'elementName' => 'href',
         ],
         'itemSummaries' => [
             'type' => 'DTS\eBaySDK\Browse\Types\ItemSummary',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemSummaries'
+            'elementName' => 'itemSummaries',
         ],
         'limit' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'limit'
+            'elementName' => 'limit',
         ],
         'next' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'next'
+            'elementName' => 'next',
         ],
         'offset' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'offset'
+            'elementName' => 'offset',
         ],
         'prev' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'prev'
+            'elementName' => 'prev',
         ],
         'refinement' => [
             'type' => 'DTS\eBaySDK\Browse\Types\Refinement',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'refinement'
+            'elementName' => 'refinement',
         ],
         'total' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
+            'elementName' => 'total',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

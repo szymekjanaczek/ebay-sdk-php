@@ -12,13 +12,13 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class ShippingTypeCodeType
 {
-    const C_CALCULATED = 'Calculated';
-    const C_CALCULATED_DOMESTIC_FLAT_INTERNATIONAL = 'CalculatedDomesticFlatInternational';
-    const C_CUSTOM_CODE = 'CustomCode';
-    const C_FLAT = 'Flat';
-    const C_FLAT_DOMESTIC_CALCULATED_INTERNATIONAL = 'FlatDomesticCalculatedInternational';
-    const C_FREE = 'Free';
-    const C_FREIGHT = 'Freight';
-    const C_FREIGHT_FLAT = 'FreightFlat';
-    const C_NOT_SPECIFIED = 'NotSpecified';
+    public const C_CALCULATED = 'Calculated';
+    public const C_CALCULATED_DOMESTIC_FLAT_INTERNATIONAL = 'CalculatedDomesticFlatInternational';
+    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_FLAT = 'Flat';
+    public const C_FLAT_DOMESTIC_CALCULATED_INTERNATIONAL = 'FlatDomesticCalculatedInternational';
+    public const C_FREE = 'Free';
+    public const C_FREIGHT = 'Freight';
+    public const C_FREIGHT_FLAT = 'FreightFlat';
+    public const C_NOT_SPECIFIED = 'NotSpecified';
 }

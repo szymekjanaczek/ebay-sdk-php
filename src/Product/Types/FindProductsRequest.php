@@ -24,8 +24,8 @@ class FindProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
             'type' => 'DTS\eBaySDK\Product\Types\ProductRequest',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productSearch'
-        ]
+            'elementName' => 'productSearch',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class GetCategoryMappingsResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryMappingType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'CategoryMapping'
+            'elementName' => 'CategoryMapping',
         ],
         'CategoryVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CategoryVersion'
-        ]
+            'elementName' => 'CategoryVersion',
+        ],
     ];
 
     /**

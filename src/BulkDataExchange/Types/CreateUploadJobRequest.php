@@ -26,20 +26,20 @@ class CreateUploadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseSer
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'uploadJobType'
+            'elementName' => 'uploadJobType',
         ],
         'UUID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UUID'
+            'elementName' => 'UUID',
         ],
         'fileType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileType'
-        ]
+            'elementName' => 'fileType',
+        ],
     ];
 
     /**

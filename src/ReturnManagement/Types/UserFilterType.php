@@ -26,20 +26,20 @@ class UserFilterType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'userId'
+            'elementName' => 'userId',
         ],
         'userLoginName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'userLoginName'
+            'elementName' => 'userLoginName',
         ],
         'role' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'role'
-        ]
+            'elementName' => 'role',
+        ],
     ];
 
     /**

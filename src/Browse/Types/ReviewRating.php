@@ -26,20 +26,20 @@ class ReviewRating extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'averageRating'
+            'elementName' => 'averageRating',
         ],
         'ratingHistograms' => [
             'type' => 'DTS\eBaySDK\Browse\Types\RatingHistogram',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ratingHistograms'
+            'elementName' => 'ratingHistograms',
         ],
         'reviewCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reviewCount'
-        ]
+            'elementName' => 'reviewCount',
+        ],
     ];
 
     /**

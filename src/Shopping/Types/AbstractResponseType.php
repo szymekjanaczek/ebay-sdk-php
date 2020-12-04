@@ -29,38 +29,38 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Timestamp'
+            'elementName' => 'Timestamp',
         ],
         'Ack' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Ack'
+            'elementName' => 'Ack',
         ],
         'Errors' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Errors'
+            'elementName' => 'Errors',
         ],
         'Build' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Build'
+            'elementName' => 'Build',
         ],
         'Version' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Version'
+            'elementName' => 'Version',
         ],
         'CorrelationID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CorrelationID'
-        ]
+            'elementName' => 'CorrelationID',
+        ],
     ];
 
     /**

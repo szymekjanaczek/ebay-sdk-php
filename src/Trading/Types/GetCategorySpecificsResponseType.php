@@ -26,20 +26,20 @@ class GetCategorySpecificsResponseType extends \DTS\eBaySDK\Trading\Types\Abstra
             'type' => 'DTS\eBaySDK\Trading\Types\RecommendationsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Recommendations'
+            'elementName' => 'Recommendations',
         ],
         'TaskReferenceID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TaskReferenceID'
+            'elementName' => 'TaskReferenceID',
         ],
         'FileReferenceID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FileReferenceID'
-        ]
+            'elementName' => 'FileReferenceID',
+        ],
     ];
 
     /**

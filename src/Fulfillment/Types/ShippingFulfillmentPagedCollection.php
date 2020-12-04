@@ -26,20 +26,20 @@ class ShippingFulfillmentPagedCollection extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'fulfillments'
+            'elementName' => 'fulfillments',
         ],
         'total' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'total'
+            'elementName' => 'total',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

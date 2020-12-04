@@ -25,14 +25,14 @@ class ExtendSiteHostedPicturesRequestType extends \DTS\eBaySDK\Trading\Types\Abs
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PictureURL'
+            'elementName' => 'PictureURL',
         ],
         'ExtensionInDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExtensionInDays'
-        ]
+            'elementName' => 'ExtensionInDays',
+        ],
     ];
 
     /**

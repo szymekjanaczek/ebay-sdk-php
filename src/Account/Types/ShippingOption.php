@@ -30,44 +30,44 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'costType'
+            'elementName' => 'costType',
         ],
         'insuranceFee' => [
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'insuranceFee'
+            'elementName' => 'insuranceFee',
         ],
         'insuranceOffered' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'insuranceOffered'
+            'elementName' => 'insuranceOffered',
         ],
         'optionType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'optionType'
+            'elementName' => 'optionType',
         ],
         'packageHandlingCost' => [
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'packageHandlingCost'
+            'elementName' => 'packageHandlingCost',
         ],
         'rateTableId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'rateTableId'
+            'elementName' => 'rateTableId',
         ],
         'shippingServices' => [
             'type' => 'DTS\eBaySDK\Account\Types\ShippingService',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shippingServices'
-        ]
+            'elementName' => 'shippingServices',
+        ],
     ];
 
     /**

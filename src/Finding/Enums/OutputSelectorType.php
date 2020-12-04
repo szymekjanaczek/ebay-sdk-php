@@ -12,13 +12,13 @@ namespace DTS\eBaySDK\Finding\Enums;
 
 class OutputSelectorType
 {
-    const C_ASPECT_HISTOGRAM = 'AspectHistogram';
-    const C_CATEGORY_HISTOGRAM = 'CategoryHistogram';
-    const C_CONDITION_HISTOGRAM = 'ConditionHistogram';
-    const C_GALLERY_INFO = 'GalleryInfo';
-    const C_PICTUREURL_LARGE = 'PictureURLLarge';
-    const C_PICTUREURL_SUPER_SIZE = 'PictureURLSuperSize';
-    const C_SELLER_INFO = 'SellerInfo';
-    const C_STORE_INFO = 'StoreInfo';
-    const C_UNIT_PRICE_INFO = 'UnitPriceInfo';
+    public const C_ASPECT_HISTOGRAM = 'AspectHistogram';
+    public const C_CATEGORY_HISTOGRAM = 'CategoryHistogram';
+    public const C_CONDITION_HISTOGRAM = 'ConditionHistogram';
+    public const C_GALLERY_INFO = 'GalleryInfo';
+    public const C_PICTUREURL_LARGE = 'PictureURLLarge';
+    public const C_PICTUREURL_SUPER_SIZE = 'PictureURLSuperSize';
+    public const C_SELLER_INFO = 'SellerInfo';
+    public const C_STORE_INFO = 'StoreInfo';
+    public const C_UNIT_PRICE_INFO = 'UnitPriceInfo';
 }

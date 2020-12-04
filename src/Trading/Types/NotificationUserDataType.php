@@ -26,20 +26,20 @@ class NotificationUserDataType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\SMSSubscriptionType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SMSSubscription'
+            'elementName' => 'SMSSubscription',
         ],
         'SummarySchedule' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SummaryEventScheduleType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SummarySchedule'
+            'elementName' => 'SummarySchedule',
         ],
         'ExternalUserData' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExternalUserData'
-        ]
+            'elementName' => 'ExternalUserData',
+        ],
     ];
 
     /**

@@ -29,38 +29,38 @@ class UpdateTrackingRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'newCarrierEnum'
+            'elementName' => 'newCarrierEnum',
         ],
         'newCarrierName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'newCarrierName'
+            'elementName' => 'newCarrierName',
         ],
         'newTrackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'newTrackingNumber'
+            'elementName' => 'newTrackingNumber',
         ],
         'usedCarrierEnum' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'usedCarrierEnum'
+            'elementName' => 'usedCarrierEnum',
         ],
         'usedCarrierName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'usedCarrierName'
+            'elementName' => 'usedCarrierName',
         ],
         'usedTrackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'usedTrackingNumber'
-        ]
+            'elementName' => 'usedTrackingNumber',
+        ],
     ];
 
     /**

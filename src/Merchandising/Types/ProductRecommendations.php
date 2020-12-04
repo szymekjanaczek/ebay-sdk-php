@@ -24,8 +24,8 @@ class ProductRecommendations extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Merchandising\Types\Product',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'product'
-        ]
+            'elementName' => 'product',
+        ],
     ];
 
     /**

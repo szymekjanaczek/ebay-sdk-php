@@ -26,20 +26,20 @@ class ItemsCanceledEventType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CanceledItemIDArray'
+            'elementName' => 'CanceledItemIDArray',
         ],
         'EligibleForRelist' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForRelist'
+            'elementName' => 'EligibleForRelist',
         ],
         'SellerID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerID'
-        ]
+            'elementName' => 'SellerID',
+        ],
     ];
 
     /**

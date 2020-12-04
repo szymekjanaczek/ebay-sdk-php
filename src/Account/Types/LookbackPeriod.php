@@ -25,14 +25,14 @@ class LookbackPeriod extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lifetime'
+            'elementName' => 'lifetime',
         ],
         'timeDuration' => [
             'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'timeDuration'
-        ]
+            'elementName' => 'timeDuration',
+        ],
     ];
 
     /**

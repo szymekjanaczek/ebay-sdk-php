@@ -24,8 +24,8 @@ class GetActivityOptionsResponse extends \DTS\eBaySDK\ResolutionCaseManagement\T
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityOptionListType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'activityOptions'
-        ]
+            'elementName' => 'activityOptions',
+        ],
     ];
 
     /**

@@ -29,38 +29,38 @@ class ShipmentTrackingDetailType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrier'
+            'elementName' => 'carrier',
         ],
         'currentStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'currentStatus'
+            'elementName' => 'currentStatus',
         ],
         'estimateFromDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimateFromDate'
+            'elementName' => 'estimateFromDate',
         ],
         'estimateToDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimateToDate'
+            'elementName' => 'estimateToDate',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
+            'elementName' => 'trackingNumber',
         ],
         'trackingURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingURL'
-        ]
+            'elementName' => 'trackingURL',
+        ],
     ];
 
     /**

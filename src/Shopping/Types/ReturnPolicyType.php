@@ -34,68 +34,68 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Refund'
+            'elementName' => 'Refund',
         ],
         'ReturnsWithin' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnsWithin'
+            'elementName' => 'ReturnsWithin',
         ],
         'ReturnsAccepted' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReturnsAccepted'
+            'elementName' => 'ReturnsAccepted',
         ],
         'Description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Description'
+            'elementName' => 'Description',
         ],
         'WarrantyOffered' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WarrantyOffered'
+            'elementName' => 'WarrantyOffered',
         ],
         'WarrantyType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WarrantyType'
+            'elementName' => 'WarrantyType',
         ],
         'WarrantyDuration' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'WarrantyDuration'
+            'elementName' => 'WarrantyDuration',
         ],
         'EAN' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EAN'
+            'elementName' => 'EAN',
         ],
         'ShippingCostPaidBy' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingCostPaidBy'
+            'elementName' => 'ShippingCostPaidBy',
         ],
         'RestockingFeeValue' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RestockingFeeValue'
+            'elementName' => 'RestockingFeeValue',
         ],
         'RestockingFeeValueOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RestockingFeeValueOption'
-        ]
+            'elementName' => 'RestockingFeeValueOption',
+        ],
     ];
 
     /**

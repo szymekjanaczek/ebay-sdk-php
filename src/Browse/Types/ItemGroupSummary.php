@@ -29,38 +29,38 @@ class ItemGroupSummary extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Browse\Types\Image',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'itemGroupAdditionalImages'
+            'elementName' => 'itemGroupAdditionalImages',
         ],
         'itemGroupHref' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemGroupHref'
+            'elementName' => 'itemGroupHref',
         ],
         'itemGroupId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemGroupId'
+            'elementName' => 'itemGroupId',
         ],
         'itemGroupImage' => [
             'type' => 'DTS\eBaySDK\Browse\Types\Image',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemGroupImage'
+            'elementName' => 'itemGroupImage',
         ],
         'itemGroupTitle' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemGroupTitle'
+            'elementName' => 'itemGroupTitle',
         ],
         'itemGroupType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemGroupType'
-        ]
+            'elementName' => 'itemGroupType',
+        ],
     ];
 
     /**

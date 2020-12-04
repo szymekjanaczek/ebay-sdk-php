@@ -32,56 +32,56 @@ class ShippingAddressImpl extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'addressLine1'
+            'elementName' => 'addressLine1',
         ],
         'addressLine2' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'addressLine2'
+            'elementName' => 'addressLine2',
         ],
         'city' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'city'
+            'elementName' => 'city',
         ],
         'country' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'country'
+            'elementName' => 'country',
         ],
         'county' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'county'
+            'elementName' => 'county',
         ],
         'phoneNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'phoneNumber'
+            'elementName' => 'phoneNumber',
         ],
         'postalCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'postalCode'
+            'elementName' => 'postalCode',
         ],
         'recipient' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'recipient'
+            'elementName' => 'recipient',
         ],
         'stateOrProvince' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'stateOrProvince'
-        ]
+            'elementName' => 'stateOrProvince',
+        ],
     ];
 
     /**

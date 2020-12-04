@@ -24,8 +24,8 @@ class UpdatePaymentInfoRestRequest extends \DTS\eBaySDK\Order\Types\UpdatePaymen
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'checkoutSessionId'
-        ]
+            'elementName' => 'checkoutSessionId',
+        ],
     ];
 
     /**

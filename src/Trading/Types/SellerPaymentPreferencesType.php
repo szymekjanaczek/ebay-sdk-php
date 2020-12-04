@@ -32,56 +32,56 @@ class SellerPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AlwaysUseThisPaymentAddress'
+            'elementName' => 'AlwaysUseThisPaymentAddress',
         ],
         'DisplayPayNowButton' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DisplayPayNowButton'
+            'elementName' => 'DisplayPayNowButton',
         ],
         'PayPalPreferred' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalPreferred'
+            'elementName' => 'PayPalPreferred',
         ],
         'DefaultPayPalEmailAddress' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DefaultPayPalEmailAddress'
+            'elementName' => 'DefaultPayPalEmailAddress',
         ],
         'PayPalAlwaysOn' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PayPalAlwaysOn'
+            'elementName' => 'PayPalAlwaysOn',
         ],
         'SellerPaymentAddress' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SellerPaymentAddress'
+            'elementName' => 'SellerPaymentAddress',
         ],
         'UPSRateOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UPSRateOption'
+            'elementName' => 'UPSRateOption',
         ],
         'FedExRateOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FedExRateOption'
+            'elementName' => 'FedExRateOption',
         ],
         'USPSRateOption' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'USPSRateOption'
-        ]
+            'elementName' => 'USPSRateOption',
+        ],
     ];
 
     /**

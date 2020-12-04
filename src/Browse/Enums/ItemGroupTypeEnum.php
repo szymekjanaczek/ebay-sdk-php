@@ -12,5 +12,5 @@ namespace DTS\eBaySDK\Browse\Enums;
 
 class ItemGroupTypeEnum
 {
-    const C_SELLER_DEFINED_VARIATIONS = 'SELLER_DEFINED_VARIATIONS';
+    public const C_SELLER_DEFINED_VARIATIONS = 'SELLER_DEFINED_VARIATIONS';
 }

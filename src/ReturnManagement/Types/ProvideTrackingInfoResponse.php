@@ -24,8 +24,8 @@ class ProvideTrackingInfoResponse extends \DTS\eBaySDK\ReturnManagement\Types\Ba
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryStatus'
-        ]
+            'elementName' => 'deliveryStatus',
+        ],
     ];
 
     /**

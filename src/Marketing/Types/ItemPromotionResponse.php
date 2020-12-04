@@ -34,68 +34,68 @@ class ItemPromotionResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'discountRules' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\DiscountRule',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'discountRules'
+            'elementName' => 'discountRules',
         ],
         'endDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'endDate'
+            'elementName' => 'endDate',
         ],
         'inventoryCriterion' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\InventoryCriterion',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inventoryCriterion'
+            'elementName' => 'inventoryCriterion',
         ],
         'marketplaceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'name' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'name'
+            'elementName' => 'name',
         ],
         'priority' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'priority'
+            'elementName' => 'priority',
         ],
         'promotionId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionId'
+            'elementName' => 'promotionId',
         ],
         'promotionImageUrl' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionImageUrl'
+            'elementName' => 'promotionImageUrl',
         ],
         'promotionStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'promotionStatus'
+            'elementName' => 'promotionStatus',
         ],
         'startDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'startDate'
-        ]
+            'elementName' => 'startDate',
+        ],
     ];
 
     /**

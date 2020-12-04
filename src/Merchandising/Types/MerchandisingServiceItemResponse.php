@@ -24,8 +24,8 @@ class MerchandisingServiceItemResponse extends \DTS\eBaySDK\Merchandising\Types\
             'type' => 'DTS\eBaySDK\Merchandising\Types\ItemRecommendations',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemRecommendations'
-        ]
+            'elementName' => 'itemRecommendations',
+        ],
     ];
 
     /**

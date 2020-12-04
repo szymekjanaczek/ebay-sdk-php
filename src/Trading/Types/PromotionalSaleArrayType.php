@@ -24,8 +24,8 @@ class PromotionalSaleArrayType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Trading\Types\PromotionalSaleType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PromotionalSale'
-        ]
+            'elementName' => 'PromotionalSale',
+        ],
     ];
 
     /**

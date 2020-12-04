@@ -24,8 +24,8 @@ class GetAllSalesTaxTablesRestRequest extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'country_code'
-        ]
+            'elementName' => 'country_code',
+        ],
     ];
 
     /**

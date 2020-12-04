@@ -26,20 +26,20 @@ class Deposit extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'amount'
+            'elementName' => 'amount',
         ],
         'dueIn' => [
             'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dueIn'
+            'elementName' => 'dueIn',
         ],
         'paymentMethods' => [
             'type' => 'DTS\eBaySDK\Account\Types\PaymentMethod',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'paymentMethods'
-        ]
+            'elementName' => 'paymentMethods',
+        ],
     ];
 
     /**

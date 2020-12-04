@@ -29,38 +29,38 @@ class StandardsProfile extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Analytics\Types\Cycle',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'cycle'
+            'elementName' => 'cycle',
         ],
         'defaultProgram' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'defaultProgram'
+            'elementName' => 'defaultProgram',
         ],
         'evaluationReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'evaluationReason'
+            'elementName' => 'evaluationReason',
         ],
         'metrics' => [
             'type' => 'DTS\eBaySDK\Analytics\Types\Metric',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'metrics'
+            'elementName' => 'metrics',
         ],
         'program' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'program'
+            'elementName' => 'program',
         ],
         'standardsLevel' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'standardsLevel'
-        ]
+            'elementName' => 'standardsLevel',
+        ],
     ];
 
     /**

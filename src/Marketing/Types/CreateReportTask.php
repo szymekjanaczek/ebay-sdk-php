@@ -33,62 +33,62 @@ class CreateReportTask extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'campaignIds'
+            'elementName' => 'campaignIds',
         ],
         'dateFrom' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dateFrom'
+            'elementName' => 'dateFrom',
         ],
         'dateTo' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dateTo'
+            'elementName' => 'dateTo',
         ],
         'dimensions' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\Dimension',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'dimensions'
+            'elementName' => 'dimensions',
         ],
         'inventoryReferences' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\InventoryReference',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'inventoryReferences'
+            'elementName' => 'inventoryReferences',
         ],
         'listingIds' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'listingIds'
+            'elementName' => 'listingIds',
         ],
         'marketplaceId' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'marketplaceId'
+            'elementName' => 'marketplaceId',
         ],
         'metricKeys' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'metricKeys'
+            'elementName' => 'metricKeys',
         ],
         'reportFormat' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reportFormat'
+            'elementName' => 'reportFormat',
         ],
         'reportType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'reportType'
-        ]
+            'elementName' => 'reportType',
+        ],
     ];
 
     /**

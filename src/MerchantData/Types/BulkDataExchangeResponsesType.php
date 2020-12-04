@@ -40,104 +40,104 @@ class BulkDataExchangeResponsesType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ActiveInventoryReport'
+            'elementName' => 'ActiveInventoryReport',
         ],
         'AddFixedPriceItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AddFixedPriceItemResponse'
+            'elementName' => 'AddFixedPriceItemResponse',
         ],
         'AddItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\AddItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AddItemResponse'
+            'elementName' => 'AddItemResponse',
         ],
         'EndFixedPriceItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\EndFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'EndFixedPriceItemResponse'
+            'elementName' => 'EndFixedPriceItemResponse',
         ],
         'EndItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\EndItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'EndItemResponse'
+            'elementName' => 'EndItemResponse',
         ],
         'FeeSettlementReport' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeeSettlementReport'
+            'elementName' => 'FeeSettlementReport',
         ],
         'OrderAckResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\OrderAckResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'OrderAckResponse'
+            'elementName' => 'OrderAckResponse',
         ],
         'RelistFixedPriceItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\RelistFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'RelistFixedPriceItemResponse'
+            'elementName' => 'RelistFixedPriceItemResponse',
         ],
         'RelistItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\RelistItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'RelistItemResponse'
+            'elementName' => 'RelistItemResponse',
         ],
         'ReviseFixedPriceItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ReviseFixedPriceItemResponse'
+            'elementName' => 'ReviseFixedPriceItemResponse',
         ],
         'ReviseInventoryStatusResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ReviseInventoryStatusResponse'
+            'elementName' => 'ReviseInventoryStatusResponse',
         ],
         'ReviseItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ReviseItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ReviseItemResponse'
+            'elementName' => 'ReviseItemResponse',
         ],
         'SetShipmentTrackingInfoResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SetShipmentTrackingInfoResponse'
+            'elementName' => 'SetShipmentTrackingInfoResponse',
         ],
         'SoldReport' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\SoldReportResponseType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SoldReport'
+            'elementName' => 'SoldReport',
         ],
         'UploadSiteHostedPicturesResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'UploadSiteHostedPicturesResponse'
+            'elementName' => 'UploadSiteHostedPicturesResponse',
         ],
         'VerifyAddFixedPriceItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'VerifyAddFixedPriceItemResponse'
+            'elementName' => 'VerifyAddFixedPriceItemResponse',
         ],
         'VerifyAddItemResponse' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\VerifyAddItemResponseType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'VerifyAddItemResponse'
-        ]
+            'elementName' => 'VerifyAddItemResponse',
+        ],
     ];
 
     /**

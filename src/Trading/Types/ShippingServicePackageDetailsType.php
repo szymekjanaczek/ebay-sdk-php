@@ -25,14 +25,14 @@ class ShippingServicePackageDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'Name',
         ],
         'DimensionsRequired' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DimensionsRequired'
-        ]
+            'elementName' => 'DimensionsRequired',
+        ],
     ];
 
     /**

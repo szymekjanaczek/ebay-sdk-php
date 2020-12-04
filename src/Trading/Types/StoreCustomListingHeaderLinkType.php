@@ -26,20 +26,20 @@ class StoreCustomListingHeaderLinkType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LinkID'
+            'elementName' => 'LinkID',
         ],
         'Order' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Order'
+            'elementName' => 'Order',
         ],
         'LinkType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LinkType'
-        ]
+            'elementName' => 'LinkType',
+        ],
     ];
 
     /**

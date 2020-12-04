@@ -24,8 +24,8 @@ class ErrorParameter extends \DTS\eBaySDK\Types\StringType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => true,
-            'attributeName' => 'name'
-        ]
+            'attributeName' => 'name',
+        ],
     ];
 
     /**

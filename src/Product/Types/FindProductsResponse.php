@@ -24,8 +24,8 @@ class FindProductsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceRespons
             'type' => 'DTS\eBaySDK\Product\Types\ProductResponse',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productSearchResult'
-        ]
+            'elementName' => 'productSearchResult',
+        ],
     ];
 
     /**

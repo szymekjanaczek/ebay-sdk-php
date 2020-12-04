@@ -26,20 +26,20 @@ class StoreColorType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Primary'
+            'elementName' => 'Primary',
         ],
         'Secondary' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Secondary'
+            'elementName' => 'Secondary',
         ],
         'Accent' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Accent'
-        ]
+            'elementName' => 'Accent',
+        ],
     ];
 
     /**

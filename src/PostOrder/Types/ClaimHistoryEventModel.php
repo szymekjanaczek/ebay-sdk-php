@@ -28,32 +28,32 @@ class ClaimHistoryEventModel extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'action'
+            'elementName' => 'action',
         ],
         'actor' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actor'
+            'elementName' => 'actor',
         ],
         'date' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'date'
+            'elementName' => 'date',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'moneyMovement' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementEntries',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'moneyMovement'
-        ]
+            'elementName' => 'moneyMovement',
+        ],
     ];
 
     /**

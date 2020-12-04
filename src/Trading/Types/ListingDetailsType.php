@@ -44,128 +44,128 @@ class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Adult'
+            'elementName' => 'Adult',
         ],
         'BindingAuction' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BindingAuction'
+            'elementName' => 'BindingAuction',
         ],
         'CheckoutEnabled' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'CheckoutEnabled'
+            'elementName' => 'CheckoutEnabled',
         ],
         'ConvertedBuyItNowPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ConvertedBuyItNowPrice'
+            'elementName' => 'ConvertedBuyItNowPrice',
         ],
         'ConvertedStartPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ConvertedStartPrice'
+            'elementName' => 'ConvertedStartPrice',
         ],
         'ConvertedReservePrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ConvertedReservePrice'
+            'elementName' => 'ConvertedReservePrice',
         ],
         'HasReservePrice' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasReservePrice'
+            'elementName' => 'HasReservePrice',
         ],
         'RelistedItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RelistedItemID'
+            'elementName' => 'RelistedItemID',
         ],
         'SecondChanceOriginalItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SecondChanceOriginalItemID'
+            'elementName' => 'SecondChanceOriginalItemID',
         ],
         'StartTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'StartTime'
+            'elementName' => 'StartTime',
         ],
         'EndTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndTime'
+            'elementName' => 'EndTime',
         ],
         'ViewItemURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ViewItemURL'
+            'elementName' => 'ViewItemURL',
         ],
         'HasUnansweredQuestions' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasUnansweredQuestions'
+            'elementName' => 'HasUnansweredQuestions',
         ],
         'HasPublicMessages' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'HasPublicMessages'
+            'elementName' => 'HasPublicMessages',
         ],
         'BuyItNowAvailable' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BuyItNowAvailable'
+            'elementName' => 'BuyItNowAvailable',
         ],
         'MinimumBestOfferPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MinimumBestOfferPrice'
+            'elementName' => 'MinimumBestOfferPrice',
         ],
         'LocalListingDistance' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LocalListingDistance'
+            'elementName' => 'LocalListingDistance',
         ],
         'TCROriginalItemID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TCROriginalItemID'
+            'elementName' => 'TCROriginalItemID',
         ],
         'ViewItemURLForNaturalSearch' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ViewItemURLForNaturalSearch'
+            'elementName' => 'ViewItemURLForNaturalSearch',
         ],
         'BestOfferAutoAcceptPrice' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferAutoAcceptPrice'
+            'elementName' => 'BestOfferAutoAcceptPrice',
         ],
         'EndingReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndingReason'
-        ]
+            'elementName' => 'EndingReason',
+        ],
     ];
 
     /**

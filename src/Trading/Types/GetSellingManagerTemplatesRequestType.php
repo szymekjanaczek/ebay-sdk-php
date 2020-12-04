@@ -24,8 +24,8 @@ class GetSellingManagerTemplatesRequestType extends \DTS\eBaySDK\Trading\Types\A
             'type' => 'integer',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'SaleTemplateID'
-        ]
+            'elementName' => 'SaleTemplateID',
+        ],
     ];
 
     /**

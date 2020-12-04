@@ -27,26 +27,26 @@ class VariationSpecificPictureSetType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'VariationSpecificValue'
+            'elementName' => 'VariationSpecificValue',
         ],
         'PictureURL' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PictureURL'
+            'elementName' => 'PictureURL',
         ],
         'ExternalPictureURL' => [
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ExternalPictureURL'
+            'elementName' => 'ExternalPictureURL',
         ],
         'ExtendedPictureDetails' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ExtendedPictureDetails'
-        ]
+            'elementName' => 'ExtendedPictureDetails',
+        ],
     ];
 
     /**

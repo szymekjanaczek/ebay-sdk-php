@@ -30,44 +30,44 @@ class FindProductsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractRespo
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ApproximatePages'
+            'elementName' => 'ApproximatePages',
         ],
         'MoreResults' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MoreResults'
+            'elementName' => 'MoreResults',
         ],
         'DomainHistogram' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\DomainHistogramType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DomainHistogram'
+            'elementName' => 'DomainHistogram',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
+            'elementName' => 'PageNumber',
         ],
         'Product' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\CatalogProductType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Product'
+            'elementName' => 'Product',
         ],
         'TotalProducts' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TotalProducts'
+            'elementName' => 'TotalProducts',
         ],
         'DuplicateItems' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'DuplicateItems'
-        ]
+            'elementName' => 'DuplicateItems',
+        ],
     ];
 
     /**

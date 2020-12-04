@@ -25,14 +25,14 @@ class MonthlyRecurrence extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'dayOfMonth'
+            'elementName' => 'dayOfMonth',
         ],
         'timeOfDay' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'timeOfDay'
-        ]
+            'elementName' => 'timeOfDay',
+        ],
     ];
 
     /**

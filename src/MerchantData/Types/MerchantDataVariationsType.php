@@ -24,8 +24,8 @@ class MerchantDataVariationsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\MerchantData\Types\MerchantDataVariationType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'Variation'
-        ]
+            'elementName' => 'Variation',
+        ],
     ];
 
     /**

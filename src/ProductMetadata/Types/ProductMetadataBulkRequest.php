@@ -24,8 +24,8 @@ class ProductMetadataBulkRequest extends \DTS\eBaySDK\ProductMetadata\Types\Base
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'productMetadataRequest'
-        ]
+            'elementName' => 'productMetadataRequest',
+        ],
     ];
 
     /**

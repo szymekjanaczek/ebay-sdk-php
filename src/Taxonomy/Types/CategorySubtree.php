@@ -26,20 +26,20 @@ class CategorySubtree extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categorySubtreeNode'
+            'elementName' => 'categorySubtreeNode',
         ],
         'categoryTreeId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeId'
+            'elementName' => 'categoryTreeId',
         ],
         'categoryTreeVersion' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'categoryTreeVersion'
-        ]
+            'elementName' => 'categoryTreeVersion',
+        ],
     ];
 
     /**

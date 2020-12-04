@@ -34,68 +34,68 @@ class CheckInquiryEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'earliestPossibleFilingDate'
+            'elementName' => 'earliestPossibleFilingDate',
         ],
         'errors' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityResponseError',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'errors'
+            'elementName' => 'errors',
         ],
         'estimatedDeliveryDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'estimatedDeliveryDate'
+            'elementName' => 'estimatedDeliveryDate',
         ],
         'inquiryEligibilityStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryEligibilityStatus'
+            'elementName' => 'inquiryEligibilityStatus',
         ],
         'inquiryId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'inquiryId'
+            'elementName' => 'inquiryId',
         ],
         'latestPossibleFilingDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'latestPossibleFilingDate'
+            'elementName' => 'latestPossibleFilingDate',
         ],
         'nonOverridableErrors' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityResponseError',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'nonOverridableErrors'
+            'elementName' => 'nonOverridableErrors',
         ],
         'paypalReasonToDenyRequestFiling' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'paypalReasonToDenyRequestFiling'
+            'elementName' => 'paypalReasonToDenyRequestFiling',
         ],
         'returnFilingDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnFilingDate'
+            'elementName' => 'returnFilingDate',
         ],
         'returnId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnId'
+            'elementName' => 'returnId',
         ],
         'warnings' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityResponseError',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'warnings'
-        ]
+            'elementName' => 'warnings',
+        ],
     ];
 
     /**

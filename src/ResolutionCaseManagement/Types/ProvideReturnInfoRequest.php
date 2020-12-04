@@ -26,20 +26,20 @@ class ProvideReturnInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Typ
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'address'
+            'elementName' => 'address',
         ],
         'caseId' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'returnMerchandiseAuthorization' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'returnMerchandiseAuthorization'
-        ]
+            'elementName' => 'returnMerchandiseAuthorization',
+        ],
     ];
 
     /**

@@ -25,14 +25,14 @@ class MaximumBuyerPolicyViolationsDetailsType extends \DTS\eBaySDK\Types\BaseTyp
             'type' => 'DTS\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NumberOfPolicyViolations'
+            'elementName' => 'NumberOfPolicyViolations',
         ],
         'PolicyViolationDuration' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PolicyViolationDurationDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PolicyViolationDuration'
-        ]
+            'elementName' => 'PolicyViolationDuration',
+        ],
     ];
 
     /**

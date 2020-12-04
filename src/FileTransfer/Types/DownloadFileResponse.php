@@ -24,8 +24,8 @@ class DownloadFileResponse extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceRe
             'type' => 'DTS\eBaySDK\FileTransfer\Types\FileAttachment',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileAttachment'
-        ]
+            'elementName' => 'fileAttachment',
+        ],
     ];
 
     /**

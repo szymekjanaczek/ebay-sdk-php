@@ -36,80 +36,80 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemID'
+            'elementName' => 'itemID',
         ],
         'itemURL' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemURL'
+            'elementName' => 'itemURL',
         ],
         'quantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'quantity'
+            'elementName' => 'quantity',
         ],
         'seller' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'seller'
+            'elementName' => 'seller',
         ],
         'price' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'price'
+            'elementName' => 'price',
         ],
         'rentalPrice' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\RentalAmount',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'rentalPrice'
+            'elementName' => 'rentalPrice',
         ],
         'shippingService' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\ShippingServiceOptionsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'shippingService'
+            'elementName' => 'shippingService',
         ],
         'itemLocation' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'itemLocation'
+            'elementName' => 'itemLocation',
         ],
         'excludedShippingAreas' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'excludedShippingAreas'
+            'elementName' => 'excludedShippingAreas',
         ],
         'condition' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'condition'
+            'elementName' => 'condition',
         ],
         'comments' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'comments'
+            'elementName' => 'comments',
         ],
         'description' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'description'
+            'elementName' => 'description',
         ],
         'storefront' => [
             'type' => 'DTS\eBaySDK\HalfFinding\Types\StorefrontType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'storefront'
-        ]
+            'elementName' => 'storefront',
+        ],
     ];
 
     /**

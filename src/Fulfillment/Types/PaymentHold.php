@@ -29,38 +29,38 @@ class PaymentHold extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'expectedReleaseDate'
+            'elementName' => 'expectedReleaseDate',
         ],
         'holdAmount' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdAmount'
+            'elementName' => 'holdAmount',
         ],
         'holdReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdReason'
+            'elementName' => 'holdReason',
         ],
         'holdState' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'holdState'
+            'elementName' => 'holdState',
         ],
         'releaseDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'releaseDate'
+            'elementName' => 'releaseDate',
         ],
         'sellerActionsToRelease' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\SellerActionsToRelease',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'sellerActionsToRelease'
-        ]
+            'elementName' => 'sellerActionsToRelease',
+        ],
     ];
 
     /**

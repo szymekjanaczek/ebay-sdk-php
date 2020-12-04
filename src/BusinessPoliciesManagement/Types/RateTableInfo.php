@@ -25,14 +25,14 @@ class RateTableInfo extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'intlRateTable'
+            'elementName' => 'intlRateTable',
         ],
         'domesticRateTable' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'domesticRateTable'
-        ]
+            'elementName' => 'domesticRateTable',
+        ],
     ];
 
     /**

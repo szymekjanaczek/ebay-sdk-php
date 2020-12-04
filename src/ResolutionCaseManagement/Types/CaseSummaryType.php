@@ -33,62 +33,62 @@ class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseId'
+            'elementName' => 'caseId',
         ],
         'user' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'user'
+            'elementName' => 'user',
         ],
         'otherParty' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'otherParty'
+            'elementName' => 'otherParty',
         ],
         'status' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'status'
+            'elementName' => 'status',
         ],
         'item' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'item'
+            'elementName' => 'item',
         ],
         'caseQuantity' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseQuantity'
+            'elementName' => 'caseQuantity',
         ],
         'caseAmount' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'caseAmount'
+            'elementName' => 'caseAmount',
         ],
         'respondByDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'respondByDate'
+            'elementName' => 'respondByDate',
         ],
         'creationDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'creationDate'
+            'elementName' => 'creationDate',
         ],
         'lastModifiedDate' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastModifiedDate'
-        ]
+            'elementName' => 'lastModifiedDate',
+        ],
     ];
 
     /**

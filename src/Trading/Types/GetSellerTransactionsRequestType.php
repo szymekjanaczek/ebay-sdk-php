@@ -33,62 +33,62 @@ class GetSellerTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ModTimeFrom'
+            'elementName' => 'ModTimeFrom',
         ],
         'ModTimeTo' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ModTimeTo'
+            'elementName' => 'ModTimeTo',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
+            'elementName' => 'Pagination',
         ],
         'IncludeFinalValueFee' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeFinalValueFee'
+            'elementName' => 'IncludeFinalValueFee',
         ],
         'IncludeContainingOrder' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeContainingOrder'
+            'elementName' => 'IncludeContainingOrder',
         ],
         'SKUArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SKUArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SKUArray'
+            'elementName' => 'SKUArray',
         ],
         'Platform' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Platform'
+            'elementName' => 'Platform',
         ],
         'NumberOfDays' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NumberOfDays'
+            'elementName' => 'NumberOfDays',
         ],
         'InventoryTrackingMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'InventoryTrackingMethod'
+            'elementName' => 'InventoryTrackingMethod',
         ],
         'IncludeCodiceFiscale' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'IncludeCodiceFiscale'
-        ]
+            'elementName' => 'IncludeCodiceFiscale',
+        ],
     ];
 
     /**

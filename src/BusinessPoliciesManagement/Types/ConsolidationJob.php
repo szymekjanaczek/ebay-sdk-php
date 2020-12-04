@@ -27,26 +27,26 @@ class ConsolidationJob extends \DTS\eBaySDK\Types\BaseType
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'JobId'
+            'elementName' => 'JobId',
         ],
         'JobType' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'JobType'
+            'elementName' => 'JobType',
         ],
         'JobStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'JobStatus'
+            'elementName' => 'JobStatus',
         ],
         'SiteId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SiteId'
-        ]
+            'elementName' => 'SiteId',
+        ],
     ];
 
     /**

@@ -29,38 +29,38 @@ class PickupMethodSelectedType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupMethod'
+            'elementName' => 'PickupMethod',
         ],
         'PickupStoreID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupStoreID'
+            'elementName' => 'PickupStoreID',
         ],
         'PickupStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupStatus'
+            'elementName' => 'PickupStatus',
         ],
         'MerchantPickupCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'MerchantPickupCode'
+            'elementName' => 'MerchantPickupCode',
         ],
         'PickupFulfillmentTime' => [
             'type' => 'DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupFulfillmentTime'
+            'elementName' => 'PickupFulfillmentTime',
         ],
         'PickupLocationUUID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PickupLocationUUID'
-        ]
+            'elementName' => 'PickupLocationUUID',
+        ],
     ];
 
     /**

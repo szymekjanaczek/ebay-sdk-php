@@ -30,44 +30,44 @@ class GetFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespons
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackDetailArray'
+            'elementName' => 'FeedbackDetailArray',
         ],
         'FeedbackDetailItemTotal' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackDetailItemTotal'
+            'elementName' => 'FeedbackDetailItemTotal',
         ],
         'FeedbackSummary' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackSummaryType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackSummary'
+            'elementName' => 'FeedbackSummary',
         ],
         'FeedbackScore' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'FeedbackScore'
+            'elementName' => 'FeedbackScore',
         ],
         'PaginationResult' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PaginationResult'
+            'elementName' => 'PaginationResult',
         ],
         'EntriesPerPage' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EntriesPerPage'
+            'elementName' => 'EntriesPerPage',
         ],
         'PageNumber' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'PageNumber'
-        ]
+            'elementName' => 'PageNumber',
+        ],
     ];
 
     /**

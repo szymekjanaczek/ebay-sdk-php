@@ -24,8 +24,8 @@ class GetTokenStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
             'type' => 'DTS\eBaySDK\Trading\Types\TokenStatusType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'TokenStatus'
-        ]
+            'elementName' => 'TokenStatus',
+        ],
     ];
 
     /**

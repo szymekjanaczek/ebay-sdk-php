@@ -27,26 +27,26 @@ class VariationProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ISBN'
+            'elementName' => 'ISBN',
         ],
         'UPC' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UPC'
+            'elementName' => 'UPC',
         ],
         'EAN' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EAN'
+            'elementName' => 'EAN',
         ],
         'ProductReferenceID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ProductReferenceID'
-        ]
+            'elementName' => 'ProductReferenceID',
+        ],
     ];
 
     /**

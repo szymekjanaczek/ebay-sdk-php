@@ -28,32 +28,32 @@ class ReturnAddress extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\PostOrder\Types\Address',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'address'
+            'elementName' => 'address',
         ],
         'editable' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'editable'
+            'elementName' => 'editable',
         ],
         'firstName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'firstName'
+            'elementName' => 'firstName',
         ],
         'lastName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'lastName'
+            'elementName' => 'lastName',
         ],
         'RMA' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RMA'
-        ]
+            'elementName' => 'RMA',
+        ],
     ];
 
     /**

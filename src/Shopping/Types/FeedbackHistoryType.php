@@ -33,62 +33,62 @@ class FeedbackHistoryType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'BidRetractionFeedbackPeriods'
+            'elementName' => 'BidRetractionFeedbackPeriods',
         ],
         'NegativeFeedbackPeriods' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NegativeFeedbackPeriods'
+            'elementName' => 'NegativeFeedbackPeriods',
         ],
         'NeutralFeedbackPeriods' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'NeutralFeedbackPeriods'
+            'elementName' => 'NeutralFeedbackPeriods',
         ],
         'PositiveFeedbackPeriods' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'PositiveFeedbackPeriods'
+            'elementName' => 'PositiveFeedbackPeriods',
         ],
         'TotalFeedbackPeriods' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'TotalFeedbackPeriods'
+            'elementName' => 'TotalFeedbackPeriods',
         ],
         'UniqueNegativeFeedbackCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UniqueNegativeFeedbackCount'
+            'elementName' => 'UniqueNegativeFeedbackCount',
         ],
         'UniquePositiveFeedbackCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UniquePositiveFeedbackCount'
+            'elementName' => 'UniquePositiveFeedbackCount',
         ],
         'AverageRatingDetails' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\AverageRatingDetailsType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'AverageRatingDetails'
+            'elementName' => 'AverageRatingDetails',
         ],
         'NeutralCommentCountFromSuspendedUsers' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'NeutralCommentCountFromSuspendedUsers'
+            'elementName' => 'NeutralCommentCountFromSuspendedUsers',
         ],
         'UniqueNeutralFeedbackCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UniqueNeutralFeedbackCount'
-        ]
+            'elementName' => 'UniqueNeutralFeedbackCount',
+        ],
     ];
 
     /**

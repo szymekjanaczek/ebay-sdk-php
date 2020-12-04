@@ -26,20 +26,20 @@ class AverageRatingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RatingDetail'
+            'elementName' => 'RatingDetail',
         ],
         'Rating' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Rating'
+            'elementName' => 'Rating',
         ],
         'RatingCount' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'RatingCount'
-        ]
+            'elementName' => 'RatingCount',
+        ],
     ];
 
     /**

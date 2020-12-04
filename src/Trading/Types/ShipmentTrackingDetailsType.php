@@ -26,20 +26,20 @@ class ShipmentTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShippingCarrierUsed'
+            'elementName' => 'ShippingCarrierUsed',
         ],
         'ShipmentTrackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShipmentTrackingNumber'
+            'elementName' => 'ShipmentTrackingNumber',
         ],
         'ShipmentLineItem' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ShipmentLineItemType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShipmentLineItem'
-        ]
+            'elementName' => 'ShipmentLineItem',
+        ],
     ];
 
     /**

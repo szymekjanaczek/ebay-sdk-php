@@ -24,8 +24,8 @@ class SendShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelURL'
-        ]
+            'elementName' => 'labelURL',
+        ],
     ];
 
     /**

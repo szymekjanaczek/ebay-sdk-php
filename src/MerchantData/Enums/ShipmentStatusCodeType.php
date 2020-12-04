@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class ShipmentStatusCodeType
 {
-    const C_ACTIVE = 'Active';
-    const C_CANCELED = 'Canceled';
-    const C_CUSTOM_CODE = 'CustomCode';
+    public const C_ACTIVE = 'Active';
+    public const C_CANCELED = 'Canceled';
+    public const C_CUSTOM_CODE = 'CustomCode';
 }

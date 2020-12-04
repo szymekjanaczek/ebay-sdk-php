@@ -27,26 +27,26 @@ class DeleteSellingManagerItemAutomationRuleResponseType extends \DTS\eBaySDK\Tr
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AutomatedListingRule'
+            'elementName' => 'AutomatedListingRule',
         ],
         'AutomatedRelistingRule' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AutomatedRelistingRule'
+            'elementName' => 'AutomatedRelistingRule',
         ],
         'AutomatedSecondChanceOfferRule' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'AutomatedSecondChanceOfferRule'
+            'elementName' => 'AutomatedSecondChanceOfferRule',
         ],
         'Fees' => [
             'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Fees'
-        ]
+            'elementName' => 'Fees',
+        ],
     ];
 
     /**

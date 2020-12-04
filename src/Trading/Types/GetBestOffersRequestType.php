@@ -27,26 +27,26 @@ class GetBestOffersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'BestOfferID' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferID'
+            'elementName' => 'BestOfferID',
         ],
         'BestOfferStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferStatus'
+            'elementName' => 'BestOfferStatus',
         ],
         'Pagination' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'Pagination'
-        ]
+            'elementName' => 'Pagination',
+        ],
     ];
 
     /**

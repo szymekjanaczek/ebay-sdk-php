@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Compliance\Services;
 
 class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseService
 {
-    const API_VERSION = 'v1';
+    public const API_VERSION = 'v1';
 
     /**
      * @property array $operations Associative array of operations provided by the service.
@@ -24,9 +24,9 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
             'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse',
             'params' => [
                 'compliance_type' => [
-                    'valid' => ['string']
-                ]
-            ]
+                    'valid' => ['string'],
+                ],
+            ],
         ],
         'GetListingViolations' => [
             'method' => 'GET',
@@ -34,19 +34,19 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
             'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse',
             'params' => [
                 'limit' => [
-                    'valid' => ['integer']
+                    'valid' => ['integer'],
                 ],
                 'listing_id' => [
-                    'valid' => ['string']
+                    'valid' => ['string'],
                 ],
                 'offset' => [
-                    'valid' => ['integer']
+                    'valid' => ['integer'],
                 ],
                 'compliance_type' => [
-                    'valid' => ['string']
-                ]
-            ]
-        ]
+                    'valid' => ['string'],
+                ],
+            ],
+        ],
     ];
 
     /**

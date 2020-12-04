@@ -30,44 +30,44 @@ class ErrorType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ShortMessage'
+            'elementName' => 'ShortMessage',
         ],
         'LongMessage' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'LongMessage'
+            'elementName' => 'LongMessage',
         ],
         'ErrorCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ErrorCode'
+            'elementName' => 'ErrorCode',
         ],
         'UserDisplayHint' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'UserDisplayHint'
+            'elementName' => 'UserDisplayHint',
         ],
         'SeverityCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'SeverityCode'
+            'elementName' => 'SeverityCode',
         ],
         'ErrorParameters' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ErrorParameterType',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'ErrorParameters'
+            'elementName' => 'ErrorParameters',
         ],
         'ErrorClassification' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ErrorClassification'
-        ]
+            'elementName' => 'ErrorClassification',
+        ],
     ];
 
     /**

@@ -48,152 +48,152 @@ class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'active'
+            'elementName' => 'active',
         ],
         'actualDeliveryDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actualDeliveryDate'
+            'elementName' => 'actualDeliveryDate',
         ],
         'actualShipDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'actualShipDate'
+            'elementName' => 'actualShipDate',
         ],
         'carrierEnum' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierEnum'
+            'elementName' => 'carrierEnum',
         ],
         'carrierId' => [
             'type' => 'integer',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierId'
+            'elementName' => 'carrierId',
         ],
         'carrierName' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierName'
+            'elementName' => 'carrierName',
         ],
         'carrierUsed' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'carrierUsed'
+            'elementName' => 'carrierUsed',
         ],
         'deliveryDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryDate'
+            'elementName' => 'deliveryDate',
         ],
         'deliveryStatus' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'deliveryStatus'
+            'elementName' => 'deliveryStatus',
         ],
         'destinationAddress' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'destinationAddress'
+            'elementName' => 'destinationAddress',
         ],
         'errorCode' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'errorCode'
+            'elementName' => 'errorCode',
         ],
         'labelAvailableUntilDate' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelAvailableUntilDate'
+            'elementName' => 'labelAvailableUntilDate',
         ],
         'labelDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelDate'
+            'elementName' => 'labelDate',
         ],
         'labelId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelId'
+            'elementName' => 'labelId',
         ],
         'labelPrintExpired' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelPrintExpired'
+            'elementName' => 'labelPrintExpired',
         ],
         'labelVoidExpired' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'labelVoidExpired'
+            'elementName' => 'labelVoidExpired',
         ],
         'markAsReceived' => [
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'markAsReceived'
+            'elementName' => 'markAsReceived',
         ],
         'maxDeliveryEstimate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'maxDeliveryEstimate'
+            'elementName' => 'maxDeliveryEstimate',
         ],
         'minDeliveryEstimate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'minDeliveryEstimate'
+            'elementName' => 'minDeliveryEstimate',
         ],
         'originAddress' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'originAddress'
+            'elementName' => 'originAddress',
         ],
         'shipDate' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipDate'
+            'elementName' => 'shipDate',
         ],
         'shipmentId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shipmentId'
+            'elementName' => 'shipmentId',
         ],
         'shippedBy' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippedBy'
+            'elementName' => 'shippedBy',
         ],
         'shippingMethod' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'shippingMethod'
+            'elementName' => 'shippingMethod',
         ],
         'trackingNumber' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'trackingNumber'
-        ]
+            'elementName' => 'trackingNumber',
+        ],
     ];
 
     /**

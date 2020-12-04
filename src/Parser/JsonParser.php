@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Parser;
 
 class JsonParser

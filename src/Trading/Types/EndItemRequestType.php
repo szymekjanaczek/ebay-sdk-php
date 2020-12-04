@@ -25,14 +25,14 @@ class EndItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ItemID'
+            'elementName' => 'ItemID',
         ],
         'EndingReason' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'EndingReason'
-        ]
+            'elementName' => 'EndingReason',
+        ],
     ];
 
     /**

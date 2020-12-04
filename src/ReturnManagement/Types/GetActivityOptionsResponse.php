@@ -24,8 +24,8 @@ class GetActivityOptionsResponse extends \DTS\eBaySDK\ReturnManagement\Types\Bas
             'type' => 'string',
             'repeatable' => true,
             'attribute' => false,
-            'elementName' => 'activityOptions'
-        ]
+            'elementName' => 'activityOptions',
+        ],
     ];
 
     /**

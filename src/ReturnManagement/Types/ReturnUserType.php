@@ -25,14 +25,14 @@ class ReturnUserType extends \DTS\eBaySDK\Types\BaseType
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'userId'
+            'elementName' => 'userId',
         ],
         'role' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'role'
-        ]
+            'elementName' => 'role',
+        ],
     ];
 
     /**

@@ -26,20 +26,20 @@ class Tax extends \DTS\eBaySDK\Types\BaseType
             'type' => 'boolean',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'applyTax'
+            'elementName' => 'applyTax',
         ],
         'thirdPartyTaxCategory' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'thirdPartyTaxCategory'
+            'elementName' => 'thirdPartyTaxCategory',
         ],
         'vatPercentage' => [
             'type' => 'double',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'vatPercentage'
-        ]
+            'elementName' => 'vatPercentage',
+        ],
     ];
 
     /**

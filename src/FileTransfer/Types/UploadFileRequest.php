@@ -27,26 +27,26 @@ class UploadFileRequest extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceReque
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'taskReferenceId'
+            'elementName' => 'taskReferenceId',
         ],
         'fileReferenceId' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileReferenceId'
+            'elementName' => 'fileReferenceId',
         ],
         'fileFormat' => [
             'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileFormat'
+            'elementName' => 'fileFormat',
         ],
         'fileAttachment' => [
             'type' => 'DTS\eBaySDK\FileTransfer\Types\FileAttachment',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'fileAttachment'
-        ]
+            'elementName' => 'fileAttachment',
+        ],
     ];
 
     /**

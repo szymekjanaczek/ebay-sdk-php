@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class ReasonHideFromSearchCodeType
 {
-    const C_DUPLICATE_LISTING = 'DuplicateListing';
-    const C_OUT_OF_STOCK = 'OutOfStock';
+    public const C_DUPLICATE_LISTING = 'DuplicateListing';
+    public const C_OUT_OF_STOCK = 'OutOfStock';
 }
