@@ -120,7 +120,7 @@ trait HttpHeadersTrait
      *
      * @param array $headers Associative array of HTTP headers.
      */
-    private function setHeaders(array $headers)
+    private function setHeaders(array $headers): void
     {
         $this->headerNames = $this->headers = [];
         foreach ($headers as $header => $value) {

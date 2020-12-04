@@ -235,7 +235,7 @@ class Utils
         return $endpoint;
     }
 
-    private static function adjustSlice($length, $start, $stop, $step)
+    private static function adjustSlice(int $length, $start, $stop, $step): array
     {
         if ($step === null) {
             $step = 1;
@@ -258,7 +258,14 @@ class Utils
         return [$start, $stop, $step];
     }
 
-    private static function sliceIndices($subject, $start, $stop, $step)
+    /**
+     * @param array|string $subject
+     * @param int|null     $start
+     * @param int|null     $stop
+     *
+     * @return array|string
+     */
+    private static function sliceIndices($subject, ?int $start, ?int $stop, int $step)
     {
         $type = gettype($subject);
         $len  = $type == 'string' ? strlen($subject) : count($subject);

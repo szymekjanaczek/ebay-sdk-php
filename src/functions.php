@@ -116,7 +116,7 @@ function applyCredentials($value, array &$configuration)
  * @param mixed $value Not used.
  * @param array &$configuration The configuration array where the provider will be stored.
  */
-function applyProfile($value, array &$configuration)
+function applyProfile($value, array &$configuration): void
 {
     $configuration['credentials'] = CredentialsProvider::ini($configuration['profile']);
 }
@@ -127,7 +127,7 @@ function applyProfile($value, array &$configuration)
  * @param mixed $value Debugger options.
  * @param array &$configuration The configuration array where the resolved debugger will be stored.
  */
-function applyDebug($value, array &$configuration)
+function applyDebug($value, array &$configuration): void
 {
     if ($value !== false) {
         $configuration['debug'] = new Debugger($value === true ? [] : $value);

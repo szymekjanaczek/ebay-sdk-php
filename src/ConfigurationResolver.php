@@ -93,13 +93,13 @@ class ConfigurationResolver
     }
 
     /**
-     * @param array $valid Array of valid types.
-     * @param $name Name of the configuration option.
-     * @param $provided Value to check the type of.
+     * @param array  $valid    Array of valid types.
+     * @param string $name     Name of the configuration option.
+     * @param mixed  $provided Value to check the type of.
      *
      * @throws \InvalidArgumentException.
      */
-    private function checkType(array $valid, $name, $provided)
+    private function checkType(array $valid, $name, $provided): void
     {
         foreach ($valid as $check) {
             if (isset(self::$typeMap[$check])) {
@@ -127,7 +127,7 @@ class ConfigurationResolver
      *
      * @throws \InvalidArgumentException.
      */
-    private function throwRequired(array $configuration)
+    private function throwRequired(array $configuration): void
     {
         $missing = [];
 

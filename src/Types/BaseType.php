@@ -271,7 +271,7 @@ class BaseType implements JmesPathableObjectInterface
      * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
      * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the property.
      */
-    protected function setValues($class, array $values = [])
+    protected function setValues($class, array $values = []): void
     {
         foreach ($values as $property => $value) {
             $value = self::removeNull($value);
@@ -308,7 +308,7 @@ class BaseType implements JmesPathableObjectInterface
      * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
      * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the property.
      */
-    private function set($class, $name, $value)
+    private function set($class, $name, $value): void
     {
         self::ensurePropertyExists($class, $name);
         self::ensurePropertyType($class, $name, $value);
@@ -333,14 +333,14 @@ class BaseType implements JmesPathableObjectInterface
     }
 
     /**
-     *  Unset a property.
+     * Unset a property.
      *
      * @param string $class The name of the class the properties belong to.
      * @param string $name The property name.
      *
      * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
      */
-    private function unSetProperty($class, $name)
+    private function unSetProperty($class, $name): void
     {
         self::ensurePropertyExists($class, $name);
 
@@ -375,7 +375,7 @@ class BaseType implements JmesPathableObjectInterface
      *
      * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If trying to assign a non array type to an repeatable property.
      */
-    private function setValue($class, $name, $value)
+    private function setValue($class, $name, $value): void
     {
         $info = self::propertyInfo($class, $name);
 
@@ -462,7 +462,7 @@ class BaseType implements JmesPathableObjectInterface
      *
      * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
      */
-    private static function ensurePropertyExists($class, $name)
+    private static function ensurePropertyExists($class, $name): void
     {
         if (!array_key_exists($name, self::$properties[$class])) {
             throw new Exceptions\UnknownPropertyException($name);

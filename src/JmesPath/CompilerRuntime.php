@@ -86,7 +86,7 @@ class CompilerRuntime
         return $functionName($this->interpreter, $data);
     }
 
-    private function compile($filename, $expression, $functionName)
+    private function compile(string $filename, string $expression, string $functionName): void
     {
         $code = $this->compiler->visit(
             $this->parser->parse($expression),

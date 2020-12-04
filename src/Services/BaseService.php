@@ -124,7 +124,7 @@ abstract class BaseService
      *
      * @param array $configuration Associative array of configuration options and their values.
      */
-    public function setConfig(array $configuration)
+    public function setConfig(array $configuration): void
     {
         $this->config = Functions\arrayMergeDeep(
             $this->config,
@@ -342,10 +342,8 @@ abstract class BaseService
      * Extracts the XML and the attachment from the response if it contains an attachment.
      *
      * @param string $response The XML response body.
-     *
-     * @return string The XML part of response body.
      */
-    private function extractXmlAndAttachment($response)
+    private function extractXmlAndAttachment($response): array
     {
         $attachment = [
             'data'     => null,
@@ -388,7 +386,7 @@ abstract class BaseService
      * @param array $headers Associative array of HTTP headers.
      * @param string $body The XML body of the POST request.
      */
-    private function debugRequest($url, array $headers, $body)
+    private function debugRequest($url, array $headers, $body): void
     {
         $str = $url . PHP_EOL;
 
@@ -407,7 +405,7 @@ abstract class BaseService
      *
      * @param string $body The XML body of the response.
      */
-    private function debugResponse($body)
+    private function debugResponse($body): void
     {
         $this->debug($body);
     }
@@ -417,7 +415,7 @@ abstract class BaseService
      *
      * @param string $str
      */
-    private function debug($str)
+    private function debug($str): void
     {
         $debugger = $this->getConfig('debug');
         $debugger($str);

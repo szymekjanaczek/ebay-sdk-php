@@ -79,7 +79,7 @@ class FnDispatcher
         return ceil($args[0]);
     }
 
-    private function fn_contains(array $args)
+    private function fn_contains(array $args): ?bool
     {
         $this->validate('contains', $args, [['string', 'array'], ['any']]);
         $arg = Utils::toArray($args[0]);
@@ -92,14 +92,14 @@ class FnDispatcher
         }
     }
 
-    private function fn_ends_with(array $args)
+    private function fn_ends_with(array $args): bool
     {
         $this->validate('ends_with', $args, [['string'], ['string']]);
         list($search, $suffix) = $args;
         return $suffix === '' || substr($search, -strlen($suffix)) === $suffix;
     }
 
-    private function fn_floor(array $args)
+    private function fn_floor(array $args): float
     {
         $this->validate('floor', $args, [['number']]);
         return floor($args[0]);
@@ -127,13 +127,13 @@ class FnDispatcher
         return $this->reduce('join:0', Utils::toArray($args[1]), ['string'], $fn);
     }
 
-    private function fn_keys(array $args)
+    private function fn_keys(array $args): array
     {
         $this->validate('keys', $args, [['object']]);
         return array_keys((array)Utils::toArray($args[0]));
     }
 
-    private function fn_length(array $args)
+    private function fn_length(array $args): int
     {
         $this->validate('length', $args, [['string', 'array', 'object']]);
         $arg = Utils::toArray($args[0]);
@@ -203,7 +203,7 @@ class FnDispatcher
         return $this->reduce('sum:0', Utils::toArray($args[0]), ['number'], $fn);
     }
 
-    private function fn_sort(array $args)
+    private function fn_sort(array $args): array
     {
         $this->validate('sort', $args, [['array']]);
         $valid = ['string', 'number'];
@@ -213,7 +213,7 @@ class FnDispatcher
         });
     }
 
-    private function fn_sort_by(array $args)
+    private function fn_sort_by(array $args): array
     {
         $this->validate('sort_by', $args, [['array'], ['expression']]);
         $expr  = $args[1];
@@ -229,14 +229,14 @@ class FnDispatcher
         );
     }
 
-    private function fn_starts_with(array $args)
+    private function fn_starts_with(array $args): bool
     {
         $this->validate('starts_with', $args, [['string'], ['string']]);
         list($search, $prefix) = $args;
         return $prefix === '' || strpos($search, $prefix) === 0;
     }
 
-    private function fn_type(array $args)
+    private function fn_type(array $args): string
     {
         $this->validateArity('type', count($args), 1);
         return Utils::type($args[0]);
@@ -274,13 +274,13 @@ class FnDispatcher
         }
     }
 
-    private function fn_values(array $args)
+    private function fn_values(array $args): array
     {
         $this->validate('values', $args, [['array', 'object']]);
         return array_values((array)Utils::toArray($args[0]));
     }
 
-    private function fn_merge(array $args)
+    private function fn_merge(array $args): array
     {
         if (!$args) {
             throw new \RuntimeException(
@@ -301,7 +301,7 @@ class FnDispatcher
         return Utils::isArray($args[0]) ? Utils::toArray($args[0]) : [$args[0]];
     }
 
-    private function fn_map(array $args)
+    private function fn_map(array $args): array
     {
         $this->validate('map', $args, [['expression'], ['any']]);
         $result = [];
@@ -311,7 +311,7 @@ class FnDispatcher
         return $result;
     }
 
-    private function typeError($from, $msg)
+    private function typeError(string $from, string $msg): void
     {
         if (strpos($from, ':')) {
             list($fn, $pos) = explode(':', $from);
@@ -325,7 +325,7 @@ class FnDispatcher
         }
     }
 
-    private function validateArity($from, $given, $expected)
+    private function validateArity(string $from, int $given, int $expected): void
     {
         if ($given != $expected) {
             $err = "%s() expects {$expected} arguments, {$given} were provided";
@@ -333,7 +333,7 @@ class FnDispatcher
         }
     }
 
-    private function validate($from, $args, $types = [])
+    private function validate(string $from, array $args, array $types = []): void
     {
         $this->validateArity($from, count($args), count($types));
         foreach ($args as $index => $value) {
@@ -344,7 +344,7 @@ class FnDispatcher
         }
     }
 
-    private function validateType($from, $value, array $types)
+    private function validateType(string $from, $value, array $types): void
     {
         if ($types[0] == 'any'
             || in_array(Utils::type($value), $types)
@@ -366,7 +366,7 @@ class FnDispatcher
      * @param mixed $a Value A
      * @param mixed $b Value B
      */
-    private function validateSeq($from, array $types, $a, $b)
+    private function validateSeq($from, array $types, $a, $b): void
     {
         $ta = Utils::type($a);
         $tb = Utils::type($b);

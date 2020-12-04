@@ -63,7 +63,7 @@ class XmlParser
      * @param string $name The name of the element.
      * @param array $attributes Associative array of the element's attributes.
      */
-    private function startElement($parser, $name, array $attributes)
+    private function startElement($parser, $name, array $attributes): void
     {
         $this->metaStack->push($this->getPhpMeta($this->normalizeElementName($name), $attributes));
     }
@@ -74,7 +74,7 @@ class XmlParser
      * @param resource $parser Reference to the XML parser calling the handler.
      * @param string $cdata The character data.
      */
-    private function cdata($parser, $cdata)
+    private function cdata($parser, $cdata): void
     {
         $this->metaStack->top()->strData .= $cdata;
     }
@@ -88,7 +88,7 @@ class XmlParser
      * @param resource $parser Reference to the XML parser calling the handler.
      * @param string $name The name of the element.
      */
-    private function endElement($parser, $name)
+    private function endElement($parser, $name): void
     {
         $meta = $this->metaStack->pop();
 

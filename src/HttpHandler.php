@@ -39,7 +39,7 @@ class HttpHandler
     }
 
     /**
-     * @param \Psr7Request|RequestInterface $request
+     * @param RequestInterface $request
      * @param array $options Http options for the client.
      *
      * @return \GuzzleHttp\Promise\PromiseInterface Promise that will be resolved with a

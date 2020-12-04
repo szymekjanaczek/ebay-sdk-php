@@ -134,7 +134,7 @@ class Parser
         return $left;
     }
 
-    private function nud_identifier()
+    private function nud_identifier(): array
     {
         $token = $this->token;
         $this->next();
@@ -144,7 +144,7 @@ class Parser
         ];
     }
 
-    private function nud_quoted_identifier()
+    private function nud_quoted_identifier(): array
     {
         $token = $this->token;
         $this->next();
@@ -161,7 +161,7 @@ class Parser
         return self::$currentNode;
     }
 
-    private function nud_literal()
+    private function nud_literal(): array
     {
         $token = $this->token;
         $this->next();
@@ -171,7 +171,7 @@ class Parser
         ];
     }
 
-    private function nud_expref()
+    private function nud_expref(): array
     {
         $this->next();
         return [
@@ -180,7 +180,7 @@ class Parser
         ];
     }
 
-    private function nud_not()
+    private function nud_not(): array
     {
         $this->next();
         return [
@@ -189,7 +189,7 @@ class Parser
         ];
     }
 
-    private function nud_lparen()
+    private function nud_lparen(): array
     {
         $this->next();
         $result = $this->expr(0);
@@ -200,7 +200,7 @@ class Parser
         return $result;
     }
 
-    private function nud_lbrace()
+    private function nud_lbrace(): array
     {
         static $validKeys = [
             T::T_QUOTED_IDENTIFIER => true,
@@ -272,7 +272,7 @@ class Parser
         }
     }
 
-    private function led_flatten(array $left)
+    private function led_flatten(array $left): array
     {
         $this->next();
 
@@ -303,7 +303,7 @@ class Parser
         ];
     }
 
-    private function led_or(array $left)
+    private function led_or(array $left): array
     {
         $this->next();
         return [
@@ -312,7 +312,7 @@ class Parser
         ];
     }
 
-    private function led_and(array $left)
+    private function led_and(array $left): array
     {
         $this->next();
         return [
@@ -321,7 +321,7 @@ class Parser
         ];
     }
 
-    private function led_pipe(array $left)
+    private function led_pipe(array $left): array
     {
         $this->next();
         return [
@@ -330,7 +330,7 @@ class Parser
         ];
     }
 
-    private function led_lparen(array $left)
+    private function led_lparen(array $left): array
     {
         $args = [];
         $this->next();
@@ -351,7 +351,7 @@ class Parser
         ];
     }
 
-    private function led_filter(array $left)
+    private function led_filter(array $left): array
     {
         $this->next();
         $expression = $this->expr();
@@ -375,7 +375,7 @@ class Parser
         ];
     }
 
-    private function led_comparator(array $left)
+    private function led_comparator(array $left): array
     {
         $token = $this->token;
         $this->next();
@@ -412,7 +412,7 @@ class Parser
         return $this->expr($bp);
     }
 
-    private function parseKeyValuePair()
+    private function parseKeyValuePair(): array
     {
         static $validColon = [
             T::T_COLON => true,
@@ -428,7 +428,7 @@ class Parser
         ];
     }
 
-    private function parseWildcardObject(array $left = null)
+    private function parseWildcardObject(array $left = null): array
     {
         $this->next();
 
@@ -442,7 +442,7 @@ class Parser
         ];
     }
 
-    private function parseWildcardArray(array $left = null)
+    private function parseWildcardArray(array $left = null): array
     {
         static $getRbracket = [
             T::T_RBRACKET => true,
@@ -460,10 +460,7 @@ class Parser
         ];
     }
 
-    /**
-     * Parses an array index expression (e.g., [0], [1:2:3]
-     */
-    private function parseArrayIndexExpression()
+    private function parseArrayIndexExpression(): array
     {
         static $matchNext = [
             T::T_NUMBER   => true,
@@ -518,7 +515,7 @@ class Parser
         ];
     }
 
-    private function parseMultiSelectList()
+    private function parseMultiSelectList(): array
     {
         $nodes = [];
 
@@ -537,7 +534,7 @@ class Parser
         ];
     }
 
-    private function syntax($msg)
+    private function syntax($msg): SyntaxErrorException
     {
         return new SyntaxErrorException($msg, $this->token, $this->expression);
     }
@@ -549,7 +546,7 @@ class Parser
             : $this->tokens[$this->tpos + 1]['type'];
     }
 
-    private function next(array $match = null)
+    private function next(array $match = null): void
     {
         if (!isset($this->tokens[$this->tpos + 1])) {
             $this->token = self::$nullToken;
@@ -562,7 +559,7 @@ class Parser
         }
     }
 
-    private function assertNotToken($type)
+    private function assertNotToken(string $type): void
     {
         if ($this->token['type'] == $type) {
             throw $this->syntax("Token {$this->tpos} not allowed to be $type");

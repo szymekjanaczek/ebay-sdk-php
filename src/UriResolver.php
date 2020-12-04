@@ -70,7 +70,7 @@ class UriResolver
         );
     }
 
-    private function checkType(array $valid, $name, $provided)
+    private function checkType(array $valid, $name, $provided): void
     {
         foreach ($valid as $check) {
             if (isset(self::$typeMap[$check])) {
@@ -93,7 +93,7 @@ class UriResolver
         throw new \InvalidArgumentException($msg);
     }
 
-    private function throwRequired(array $paramDefs, array $paramValues)
+    private function throwRequired(array $paramDefs, array $paramValues): void
     {
         $missing = [];
 

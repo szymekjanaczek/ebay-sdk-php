@@ -116,7 +116,7 @@ abstract class BaseRestService
      *
      * @param array $configuration Associative array of configuration options and their values.
      */
-    public function setConfig(array $configuration)
+    public function setConfig(array $configuration): void
     {
         $this->config = Functions\arrayMergeDeep(
             $this->config,
@@ -254,7 +254,7 @@ abstract class BaseRestService
      * @param array $headers Associative array of HTTP headers.
      * @param string $body The JSON body of the request.
      */
-    private function debugRequest($url, array $headers, $body)
+    private function debugRequest($url, array $headers, $body): void
     {
         $str = $url . PHP_EOL;
 
@@ -273,7 +273,7 @@ abstract class BaseRestService
      *
      * @param string $body The JSON body of the response.
      */
-    private function debugResponse($body)
+    private function debugResponse($body): void
     {
         $this->debug($body);
     }
@@ -283,7 +283,7 @@ abstract class BaseRestService
      *
      * @param string $str The debug information.
      */
-    private function debug($str)
+    private function debug($str): void
     {
         $debugger = $this->getConfig('debug');
         $debugger($str);

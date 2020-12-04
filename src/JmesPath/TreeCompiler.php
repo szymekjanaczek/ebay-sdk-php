@@ -171,7 +171,7 @@ class TreeCompiler
             ->write('}');
     }
 
-    private function visit_field(array $node)
+    private function visit_field(array $node): self
     {
         $arr = '$value[' . var_export($node['value'], true) . ']';
         $obj = '$value->{' . var_export($node['value'], true) . '}';
@@ -192,7 +192,7 @@ class TreeCompiler
         return $this;
     }
 
-    private function visit_index(array $node)
+    private function visit_index(array $node): self
     {
         if ($node['value'] >= 0) {
             $check = '$value[' . $node['value'] . ']';
@@ -218,7 +218,7 @@ class TreeCompiler
             ->write('}');
     }
 
-    private function visit_literal(array $node)
+    private function visit_literal(array $node): self
     {
         return $this->write('$value = %s;', var_export($node['value'], true));
     }
@@ -235,7 +235,7 @@ class TreeCompiler
         return $this->visit_multi_select_hash($node);
     }
 
-    private function visit_multi_select_hash(array $node)
+    private function visit_multi_select_hash(array $node): self
     {
         $listVal = $this->makeVar('list');
         $value   = $this->makeVar('prev');
@@ -266,7 +266,7 @@ class TreeCompiler
             ->write('}');
     }
 
-    private function visit_function(array $node)
+    private function visit_function(array $node): self
     {
         $value = $this->makeVar('val');
         $args  = $this->makeVar('args');
@@ -286,7 +286,7 @@ class TreeCompiler
         );
     }
 
-    private function visit_slice(array $node)
+    private function visit_slice(array $node): self
     {
         return $this
             ->write('$value = !is_string($value) && !Utils::isArray($value)')
@@ -298,12 +298,12 @@ class TreeCompiler
             );
     }
 
-    private function visit_current(array $node)
+    private function visit_current(array $node): self
     {
         return $this->write('// Visiting current node (no-op)');
     }
 
-    private function visit_expref(array $node)
+    private function visit_expref(array $node): self
     {
         $child = var_export($node['children'][0], true);
         return $this->write('$value = function ($value) use ($interpreter) {')
@@ -313,7 +313,7 @@ class TreeCompiler
             ->write('};');
     }
 
-    private function visit_flatten(array $node)
+    private function visit_flatten(array $node): self
     {
         $this->dispatch($node['children'][0]);
         $merged = $this->makeVar('merged');
@@ -349,7 +349,7 @@ class TreeCompiler
         return $this;
     }
 
-    private function visit_projection(array $node)
+    private function visit_projection(array $node): self
     {
         $val       = $this->makeVar('val');
         $collected = $this->makeVar('collected');
@@ -406,7 +406,7 @@ class TreeCompiler
             ->write('}');
     }
 
-    private function visit_comparator(array $node)
+    private function visit_comparator(array $node): self
     {
         $value = $this->makeVar('val');
         $a     = $this->makeVar('left');
