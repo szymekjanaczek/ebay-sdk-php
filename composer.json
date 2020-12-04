@@ -11,10 +11,15 @@
             "homepage": "http://davidtsadler.com"
         },
         {
-          "name": "Benjamin Morel",
-          "email": "benjamin.morel@gmail.com"
+            "name": "Benjamin Morel",
+            "email": "benjamin.morel@gmail.com"
         }
     ],
+    "config": {
+        "platform": {
+            "php": "7.1.3"
+        }
+    },
     "require": {
         "php-64bit": "^7.4 || ^8.0",
         "ext-curl": "*",
