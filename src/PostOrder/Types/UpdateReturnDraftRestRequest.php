@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $draftId
  */
 class UpdateReturnDraftRestRequest extends \DTS\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest

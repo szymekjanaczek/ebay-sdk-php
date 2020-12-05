@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property boolean $includeBidCount
  * @property boolean $includeReservePriceMet
  */

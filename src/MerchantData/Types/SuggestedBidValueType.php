@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType[] $BidValue
  */
 class SuggestedBidValueType extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Analytics\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Analytics\Types\StandardsProfile[] $standardsProfiles
  */
 class FindSellerStandardsProfilesResponse extends \DTS\eBaySDK\Types\BaseType

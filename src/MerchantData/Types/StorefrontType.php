@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $StoreCategoryID
  * @property integer $StoreCategory2ID
  * @property string $StoreCategoryName

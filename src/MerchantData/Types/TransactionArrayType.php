@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\TransactionType[] $Transaction
  */
 class TransactionArrayType extends \DTS\eBaySDK\Types\BaseType

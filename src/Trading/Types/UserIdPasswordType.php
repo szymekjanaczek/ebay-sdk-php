@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $AppId
  * @property string $DevId
  * @property string $AuthCert

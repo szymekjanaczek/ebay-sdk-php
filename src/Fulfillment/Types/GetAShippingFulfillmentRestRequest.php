@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $fulfillmentId
  * @property string $orderId
  */

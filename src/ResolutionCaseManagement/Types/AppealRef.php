@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property string $idref
  */
 class AppealRef extends \DTS\eBaySDK\Types\BaseType

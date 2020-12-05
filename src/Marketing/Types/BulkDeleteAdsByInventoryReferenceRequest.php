@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRequest[] $requests
  */
 class BulkDeleteAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType

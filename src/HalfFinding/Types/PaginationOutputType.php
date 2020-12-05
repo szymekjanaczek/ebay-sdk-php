@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property integer $pageNumber
  * @property integer $entriesPerPage
  * @property integer $totalEntries

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $PictureName
  * @property integer $PictureSystemVersion
  * @property \DTS\eBaySDK\Trading\Enums\PictureSetCodeType $PictureSet

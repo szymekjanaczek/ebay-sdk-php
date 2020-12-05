@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $DelayBeforeOpeningDispute
  * @property boolean $OptInStatus
  * @property boolean $AutoRelist

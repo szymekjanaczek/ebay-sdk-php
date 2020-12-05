@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property string $profileName
  * @property integer $profileId
  * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType $profileType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property string $globalId
  * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType[] $returnHistory
  * @property \DTS\eBaySDK\ReturnManagement\Types\RefundInfoType $refundInfo

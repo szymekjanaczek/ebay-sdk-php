@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $RightsOwnerID
  * @property \DTS\eBaySDK\Trading\Types\VeROReportItemsType $ReportItems
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $MaxScheduledMinutes
  * @property integer $MinScheduledMinutes
  * @property integer $MaxScheduledItems

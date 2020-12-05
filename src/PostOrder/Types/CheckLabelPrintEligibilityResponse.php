@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $printLabelValid
  */
 class CheckLabelPrintEligibilityResponse extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string $name
  * @property string $dataType
  * @property string[] $value

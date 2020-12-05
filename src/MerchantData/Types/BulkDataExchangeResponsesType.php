@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType $ActiveInventoryReport
  * @property \DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType[] $AddFixedPriceItemResponse
  * @property \DTS\eBaySDK\MerchantData\Types\AddItemResponseType[] $AddItemResponse

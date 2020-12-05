@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property string $category
  * @property string $domain
  * @property integer $errorId

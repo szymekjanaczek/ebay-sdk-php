@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property integer $conditionId
  * @property string $conditionDisplayName
  */

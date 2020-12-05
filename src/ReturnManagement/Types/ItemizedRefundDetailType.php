@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Enums\RefundFeeType $refundFeeType
  * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $amount
  */

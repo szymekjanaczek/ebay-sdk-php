@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $buyerCloseComment
  * @property string $buyerCloseReason
  * @property string $returnCloseReason

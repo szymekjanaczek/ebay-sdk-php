@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\Campaign[] $campaigns
  * @property string $href
  * @property integer $limit

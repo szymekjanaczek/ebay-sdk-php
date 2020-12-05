@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\Fee[] $fees
  * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
  * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings

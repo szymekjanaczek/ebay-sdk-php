@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class ReturnShippingCostType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

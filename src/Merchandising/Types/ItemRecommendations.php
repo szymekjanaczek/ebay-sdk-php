@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Merchandising\Types\Item[] $item
  */
 class ItemRecommendations extends \DTS\eBaySDK\Types\BaseType

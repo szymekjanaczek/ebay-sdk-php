@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $OrderID
  * @property \DTS\eBaySDK\MerchantData\Enums\OrderStatusCodeType $OrderStatus
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AdjustmentAmount

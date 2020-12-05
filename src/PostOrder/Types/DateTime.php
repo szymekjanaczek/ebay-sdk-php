@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $formattedValue
  * @property \DateTime $value
  */

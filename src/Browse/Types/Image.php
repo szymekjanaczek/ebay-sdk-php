@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property integer $height
  * @property string $imageUrl
  * @property integer $width

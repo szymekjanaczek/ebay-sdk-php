@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property boolean $BestOfferEnabled
  * @property \DTS\eBaySDK\Shopping\Types\AmountType $BuyItNowPrice
  * @property string $Description

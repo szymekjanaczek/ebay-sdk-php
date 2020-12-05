@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $campaign_name
  */
 class GetCampaignByNameRestRequest extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Enums\ActivityOptionType[] $activityOptions
  */
 class GetActivityOptionsResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse

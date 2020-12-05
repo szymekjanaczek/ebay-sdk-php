@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feedback\Types;
 
 /**
- *
  * @property string $itemId
  * @property string $transactionId
  */

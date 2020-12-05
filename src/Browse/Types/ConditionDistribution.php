@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $condition
  * @property string $conditionId
  * @property integer $matchCount

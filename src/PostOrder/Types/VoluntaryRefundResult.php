@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $refundSource
  * @property string $refundStatus
  */

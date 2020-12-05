@@ -23,7 +23,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request
      * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
      */
     public function getRelatedCategoryItems(\DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request)
@@ -32,7 +31,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getRelatedCategoryItemsAsync(\DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request)
@@ -45,7 +43,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request
      * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
      */
     public function getMostWatchedItems(\DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request)
@@ -54,7 +51,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getMostWatchedItemsAsync(\DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request)
@@ -67,7 +63,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request
      * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceProductResponse
      */
     public function getTopSellingProducts(\DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request)
@@ -76,7 +71,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getTopSellingProductsAsync(\DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request)
@@ -89,7 +83,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetDealsRequest $request
      * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
      */
     public function getDeals(\DTS\eBaySDK\Merchandising\Types\GetDealsRequest $request)
@@ -98,7 +91,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetDealsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getDealsAsync(\DTS\eBaySDK\Merchandising\Types\GetDealsRequest $request)
@@ -111,7 +103,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request
      * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
      */
     public function getSimilarItems(\DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request)
@@ -120,7 +111,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getSimilarItemsAsync(\DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request)
@@ -133,7 +123,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetVersionRequest $request
      * @return \DTS\eBaySDK\Merchandising\Types\GetVersionResponse
      */
     public function getVersion(\DTS\eBaySDK\Merchandising\Types\GetVersionRequest $request)
@@ -142,7 +131,6 @@ class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\Merchandi
     }
 
     /**
-     * @param \DTS\eBaySDK\Merchandising\Types\GetVersionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getVersionAsync(\DTS\eBaySDK\Merchandising\Types\GetVersionRequest $request)

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property integer $profileId
  */
 class RemoveOverridesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest

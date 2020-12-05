@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property integer $count
  * @property string $rating
  */

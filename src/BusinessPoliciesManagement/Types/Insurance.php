@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $domesticInsuranceFee
  * @property string $domesticInsuranceOption
  * @property string $intlInsuranceOption

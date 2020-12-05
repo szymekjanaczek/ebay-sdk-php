@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class HomePageFeaturedEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

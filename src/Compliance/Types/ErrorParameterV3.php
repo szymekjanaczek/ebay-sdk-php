@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property string $name
  * @property string $value
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property string[] $shipToLocation
  * @property string $shippingService
  * @property string $shippingType

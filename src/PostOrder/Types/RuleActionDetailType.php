@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDataDetailType[] $actionData
  * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDataType $dataType
  * @property boolean $isInvalid

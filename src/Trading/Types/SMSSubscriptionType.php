@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $SMSPhone
  * @property \DTS\eBaySDK\Trading\Enums\SMSSubscriptionUserStatusCodeType $UserStatus
  * @property \DTS\eBaySDK\Trading\Enums\WirelessCarrierIDCodeType $CarrierID

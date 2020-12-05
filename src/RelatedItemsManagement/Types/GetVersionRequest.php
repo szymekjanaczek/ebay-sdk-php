@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
-/**
- *
- */
 class GetVersionRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest
 {
     /**

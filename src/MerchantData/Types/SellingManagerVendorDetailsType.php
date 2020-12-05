@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $VendorName
  * @property string $VendorContactInfo
  */

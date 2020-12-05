@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $buyerPaid
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $buyerPaidDate
  * @property string $cancelReason

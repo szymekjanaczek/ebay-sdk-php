@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ProductMetadata\Types\ExtensionType[] $extension
  */
 class BaseRequest extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string[] $ItemID
  */
 class GetItemStatusRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType

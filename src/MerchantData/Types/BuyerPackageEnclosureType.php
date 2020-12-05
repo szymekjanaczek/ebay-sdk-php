@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType $type
  */
 class BuyerPackageEnclosureType extends \DTS\eBaySDK\Types\StringType

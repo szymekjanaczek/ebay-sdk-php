@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $idref
  */
 class MoneyMovementRef extends \DTS\eBaySDK\Types\BaseType

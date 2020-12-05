@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\BoldTitleCodeType $BoldTitle
  * @property \DTS\eBaySDK\Trading\Enums\BorderCodeType $Border
  * @property \DTS\eBaySDK\Trading\Enums\HighlightCodeType $Highlight

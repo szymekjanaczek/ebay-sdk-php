@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\RelatedItemsManagement\Types\Amount $discountAmount
  * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum $discountType
  * @property double $discountPercent

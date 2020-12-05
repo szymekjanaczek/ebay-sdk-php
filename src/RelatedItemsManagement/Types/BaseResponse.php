@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\AckValue $ack
  * @property \DTS\eBaySDK\RelatedItemsManagement\Types\ErrorMessage $errorMessage
  * @property string $version

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
- *
  * @property integer $maxResults
  * @property \DTS\eBaySDK\Merchandising\Types\Affiliate $affiliate
  */

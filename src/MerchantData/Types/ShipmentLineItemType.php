@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\LineItemType[] $LineItem
  */
 class ShipmentLineItemType extends \DTS\eBaySDK\Types\BaseType

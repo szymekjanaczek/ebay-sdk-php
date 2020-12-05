@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\FileTransfer\Types\ErrorData[] $error
  */
 class ErrorMessage extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\OfferType $Offer
  * @property string $ItemID
  * @property boolean $BlockOnWarning

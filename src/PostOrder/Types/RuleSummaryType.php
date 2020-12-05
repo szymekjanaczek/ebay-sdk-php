@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $count
  * @property integer $countInTestMode
  * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDetailType $invalidAction

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $active
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actualDeliveryDate
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actualShipDate

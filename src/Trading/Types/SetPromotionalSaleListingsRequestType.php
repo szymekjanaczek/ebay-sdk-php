@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $PromotionalSaleID
  * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType $Action
  * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray

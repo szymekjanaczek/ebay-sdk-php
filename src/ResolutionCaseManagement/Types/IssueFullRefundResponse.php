@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\RefundStatusType $fullRefundStatus
  * @property \DateTime $refundDate
  */

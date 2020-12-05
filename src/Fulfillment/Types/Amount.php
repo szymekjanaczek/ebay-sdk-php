@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Enums\CurrencyCodeEnum $convertedFromCurrency
  * @property string $convertedFromValue
  * @property \DTS\eBaySDK\Fulfillment\Enums\CurrencyCodeEnum $currency

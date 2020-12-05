@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class CreateReturnRulesRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateDispositionRuleRequest
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $campaign_id
  * @property string $limit
  * @property string $listing_ids

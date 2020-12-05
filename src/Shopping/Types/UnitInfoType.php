@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $UnitType
  * @property double $UnitQuantity
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $carrier
  * @property string $labelContent
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $labelCost

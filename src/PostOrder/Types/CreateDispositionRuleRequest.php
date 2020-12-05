@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailInputType $ruleDetail
  */
 class CreateDispositionRuleRequest extends \DTS\eBaySDK\Types\BaseType

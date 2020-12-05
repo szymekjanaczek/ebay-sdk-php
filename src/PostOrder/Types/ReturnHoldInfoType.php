@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $holdCreationDate
  * @property string $holdReferenceId
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $holdReleaseDate

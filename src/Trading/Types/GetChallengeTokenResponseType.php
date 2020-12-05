@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ChallengeToken
  * @property string $ImageChallengeURL
  * @property string $AudioChallengeURL

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $aspectName
  * @property \DTS\eBaySDK\Catalog\Types\CorrectionAspectValue[] $values
  */

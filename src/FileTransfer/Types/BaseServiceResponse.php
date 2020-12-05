@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\FileTransfer\Enums\AckValue $ack
  * @property \DTS\eBaySDK\FileTransfer\Types\ErrorMessage $errorMessage
  * @property string $version

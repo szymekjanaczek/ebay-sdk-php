@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property string $note
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $author
  * @property string $activity

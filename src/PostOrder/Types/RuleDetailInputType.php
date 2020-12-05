@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\RuleActionInputType $actionDetail
  * @property \DTS\eBaySDK\PostOrder\Types\RuleConditionInputType[] $condition
  * @property integer $priority

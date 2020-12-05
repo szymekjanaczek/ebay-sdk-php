@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property integer $daysToRefundBuyer
  */
 class IssueFullRefundOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType

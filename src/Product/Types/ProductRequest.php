@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property string $invocationId
  * @property string $categoryId
  * @property string $keywords

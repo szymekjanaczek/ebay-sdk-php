@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $eBayAuthToken
  * @property string $HardExpirationWarning
  * @property \DTS\eBaySDK\Trading\Types\UserIdPasswordType $Credentials

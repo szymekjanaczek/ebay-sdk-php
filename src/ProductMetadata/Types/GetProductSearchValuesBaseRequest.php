@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string $categoryId
  * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyFilter
  * @property boolean $listFormatOnly

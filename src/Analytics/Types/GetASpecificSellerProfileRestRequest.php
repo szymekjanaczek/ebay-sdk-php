@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Analytics\Types;
 
 /**
- *
  * @property string $cycle
  * @property string $program
  */

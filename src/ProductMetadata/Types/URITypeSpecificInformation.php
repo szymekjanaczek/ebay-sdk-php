@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
-/**
- *
- */
 class URITypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
 {
     /**

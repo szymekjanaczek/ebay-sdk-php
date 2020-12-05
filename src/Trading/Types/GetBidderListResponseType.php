@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\UserType $Bidder
  * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $BidItemArray
  */

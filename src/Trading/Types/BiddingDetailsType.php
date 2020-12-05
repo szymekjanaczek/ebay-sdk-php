@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedMaxBid
  * @property \DTS\eBaySDK\Trading\Types\AmountType $MaxBid
  * @property integer $QuantityBid

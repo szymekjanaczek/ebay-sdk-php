@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $ValueLiteral
  * @property string[] $SuggestedValueLiteral
  * @property integer $ValueID

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $campaign_id
  */
 class PauseCampaignRestRequest extends \DTS\eBaySDK\Types\BaseType

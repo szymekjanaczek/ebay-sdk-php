@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $listId
  */
 class CreateCustomListResponse extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\HalfFinding\Types\NameValueListType[] $nameValueList
  */
 class NameValueListArrayType extends \DTS\eBaySDK\Types\BaseType

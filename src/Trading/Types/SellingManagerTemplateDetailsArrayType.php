@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsType[] $SellingManagerTemplateDetails
  */
 class SellingManagerTemplateDetailsArrayType extends \DTS\eBaySDK\Types\BaseType

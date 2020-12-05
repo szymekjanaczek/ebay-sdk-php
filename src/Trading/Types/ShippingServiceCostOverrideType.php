@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $ShippingServicePriority
  * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceType $ShippingServiceType
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost

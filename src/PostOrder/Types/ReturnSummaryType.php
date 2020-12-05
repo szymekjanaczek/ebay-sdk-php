@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\AvailableOptionType[] $buyerAvailableOptions
  * @property string $buyerLoginName
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType $buyerResponseDue

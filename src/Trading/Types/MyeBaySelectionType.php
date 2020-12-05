@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $Include
  * @property boolean $IncludeItemCount
  * @property boolean $IncludeFavoriteSearcheCount

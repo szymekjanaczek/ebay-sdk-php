@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $DuplicateInvocationID
  * @property \DTS\eBaySDK\Trading\Enums\InvocationStatusType $Status
  * @property string $InvocationTrackingID

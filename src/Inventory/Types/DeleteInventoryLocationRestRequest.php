@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $merchantLocationKey
  */
 class DeleteInventoryLocationRestRequest extends \DTS\eBaySDK\Types\BaseType

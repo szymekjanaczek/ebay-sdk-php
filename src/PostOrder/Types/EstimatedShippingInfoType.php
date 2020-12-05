@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType[] $carriers
  * @property string $returnShipmentPayer
  */

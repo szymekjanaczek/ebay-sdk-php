@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\SMSSubscriptionType $SMSSubscription
  * @property \DTS\eBaySDK\Trading\Types\SummaryEventScheduleType[] $SummarySchedule
  * @property string $ExternalUserData

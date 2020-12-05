@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $firstOrderDate
  * @property \DTS\eBaySDK\Account\Types\TransactionSnapshot $transactionSnapshots
  */

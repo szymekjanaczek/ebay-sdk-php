@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $accountHolderName
  * @property \DTS\eBaySDK\Order\Types\BillingAddress $billingAddress
  * @property string $brand

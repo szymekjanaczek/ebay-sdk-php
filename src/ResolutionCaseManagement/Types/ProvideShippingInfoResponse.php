@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
-/**
- *
- */
 class ProvideShippingInfoResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
 {
     /**

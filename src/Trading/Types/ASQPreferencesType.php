@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $ResetDefaultSubjects
  * @property string[] $Subject
  */

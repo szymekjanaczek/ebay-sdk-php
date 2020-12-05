@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
-/**
- *
- */
 class DetailStatusInfoType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType
 {
     /**

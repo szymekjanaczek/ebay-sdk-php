@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property boolean $EligibleForPickupInStore
  */
 class PickUpInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType

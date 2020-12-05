@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $BriefText
  * @property string $DetailedText
  * @property integer $codeID

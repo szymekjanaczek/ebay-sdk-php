@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $BotBlockToken
  * @property string $BotBlockUserInput
  */

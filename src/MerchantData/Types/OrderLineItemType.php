@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $OrderLineItemID
  * @property \DateTime $TransactionTime
  * @property \DateTime $OriginalChargeTime

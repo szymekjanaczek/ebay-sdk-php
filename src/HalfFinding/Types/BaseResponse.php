@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\HalfFinding\Enums\AckValue $ack
  * @property \DTS\eBaySDK\HalfFinding\Types\ErrorMessage $errorMessage
  * @property string $version

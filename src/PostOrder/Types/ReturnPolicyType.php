@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $RMARequired
  */
 class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType

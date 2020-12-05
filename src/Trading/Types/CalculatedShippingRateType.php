@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $OriginatingPostalCode
  * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
  * @property \DTS\eBaySDK\Trading\Types\AmountType $PackagingHandlingCosts

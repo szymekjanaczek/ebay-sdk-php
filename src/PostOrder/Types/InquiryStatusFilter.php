@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class InquiryStatusFilter extends \DTS\eBaySDK\Types\BaseType
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $unit
  * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $measurementSystem
  */

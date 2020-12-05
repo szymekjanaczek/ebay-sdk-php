@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $creationDisabled
  * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailType[] $rule
  * @property integer $totalNumRules

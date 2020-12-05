@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $name
  * @property string $value
  */

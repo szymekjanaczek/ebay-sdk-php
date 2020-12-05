@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class GetSellerDashboardRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**

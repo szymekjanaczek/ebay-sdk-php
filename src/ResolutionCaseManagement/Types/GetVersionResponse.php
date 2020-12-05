@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
-/**
- *
- */
 class GetVersionResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
 {
     /**

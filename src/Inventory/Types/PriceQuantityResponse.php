@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
  * @property string $offerId
  * @property string $sku

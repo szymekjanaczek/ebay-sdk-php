@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DateTime $HardExpirationWarning
  * @property string $Ack
  * @property string $Version

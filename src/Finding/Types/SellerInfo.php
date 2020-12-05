@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property string $sellerUserName
  * @property integer $feedbackScore
  * @property double $positiveFeedbackPercent

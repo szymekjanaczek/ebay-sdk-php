@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $CallName
  * @property boolean $CountsTowardAggregate
  * @property integer $DailyHardLimit

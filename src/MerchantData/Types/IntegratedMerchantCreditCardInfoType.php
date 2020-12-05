@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType[] $SupportedSite
  */
 class IntegratedMerchantCreditCardInfoType extends \DTS\eBaySDK\Types\BaseType

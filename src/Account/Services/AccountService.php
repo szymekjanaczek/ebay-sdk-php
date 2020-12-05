@@ -321,7 +321,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse
      */
     public function createAFulfillmentPolicy(\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request)
@@ -330,7 +329,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createAFulfillmentPolicyAsync(\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request)
@@ -339,7 +337,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestResponse
      */
     public function deleteAFulfillmentPolicy(\DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request)
@@ -348,7 +345,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteAFulfillmentPolicyAsync(\DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request)
@@ -357,7 +353,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestResponse
      */
     public function getFulfillmentPoliciesByMarketplace(\DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request)
@@ -366,7 +361,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getFulfillmentPoliciesByMarketplaceAsync(\DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request)
@@ -375,7 +369,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse
      */
     public function getAFulfillmentPolicyByID(\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request)
@@ -384,7 +377,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAFulfillmentPolicyByIDAsync(\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request)
@@ -393,7 +385,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestResponse
      */
     public function getAFulfillmentPolicyByName(\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request)
@@ -402,7 +393,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAFulfillmentPolicyByNameAsync(\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request)
@@ -411,7 +401,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse
      */
     public function updateAFulfillmentPolicy(\DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request)
@@ -420,7 +409,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateAFulfillmentPolicyAsync(\DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request)
@@ -429,7 +417,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse
      */
     public function createAPaymentPolicy(\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request)
@@ -438,7 +425,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createAPaymentPolicyAsync(\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request)
@@ -447,7 +433,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestResponse
      */
     public function deleteAPaymentPolicy(\DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request)
@@ -456,7 +441,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteAPaymentPolicyAsync(\DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request)
@@ -465,7 +449,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestResponse
      */
     public function getPaymentPoliciesByMarketplace(\DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request)
@@ -474,7 +457,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPaymentPoliciesByMarketplaceAsync(\DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request)
@@ -483,7 +465,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestResponse
      */
     public function getAPaymentPolicyByID(\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request)
@@ -492,7 +473,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAPaymentPolicyByIDAsync(\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request)
@@ -501,7 +481,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse
      */
     public function getAPaymentPolicyByName(\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request)
@@ -510,7 +489,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAPaymentPolicyByNameAsync(\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request)
@@ -519,7 +497,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestResponse
      */
     public function updateAPaymentPolicy(\DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request)
@@ -528,7 +505,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateAPaymentPolicyAsync(\DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request)
@@ -569,7 +545,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\OptInToProgramRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\OptInToProgramRestResponse
      */
     public function optInToProgram(\DTS\eBaySDK\Account\Types\OptInToProgramRestRequest $request)
@@ -578,7 +553,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\OptInToProgramRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function optInToProgramAsync(\DTS\eBaySDK\Account\Types\OptInToProgramRestRequest $request)
@@ -587,7 +561,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\OptOutOfProgramRestResponse
      */
     public function optOutOfProgram(\DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request)
@@ -596,7 +569,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function optOutOfProgramAsync(\DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request)
@@ -605,7 +577,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetShippingRateTablesRestResponse
      */
     public function getShippingRateTables(\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request)
@@ -614,7 +585,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getShippingRateTablesAsync(\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request)
@@ -623,7 +593,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestResponse
      */
     public function createAReturnPolicy(\DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request)
@@ -632,7 +601,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createAReturnPolicyAsync(\DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request)
@@ -641,7 +609,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestResponse
      */
     public function deleteAReturnPolicy(\DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request)
@@ -650,7 +617,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteAReturnPolicyAsync(\DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request)
@@ -659,7 +625,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestResponse
      */
     public function getReturnPoliciesByMarketplace(\DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request)
@@ -668,7 +633,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnPoliciesByMarketplaceAsync(\DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request)
@@ -677,7 +641,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestResponse
      */
     public function getAReturnPolicyByID(\DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request)
@@ -686,7 +649,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAReturnPolicyByIDAsync(\DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request)
@@ -695,7 +657,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse
      */
     public function getAReturnPolicyByName(\DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request)
@@ -704,7 +665,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAReturnPolicyByNameAsync(\DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request)
@@ -713,7 +673,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestResponse
      */
     public function updateAReturnPolicy(\DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request)
@@ -722,7 +681,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateAReturnPolicyAsync(\DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request)
@@ -731,7 +689,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestResponse
      */
     public function createASalesTaxTable(\DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request)
@@ -740,7 +697,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createASalesTaxTableAsync(\DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request)
@@ -749,7 +705,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse
      */
     public function deleteASalesTaxTable(\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request)
@@ -758,7 +713,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteASalesTaxTableAsync(\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request)
@@ -767,7 +721,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetASalesTaxTableRestResponse
      */
     public function getASalesTaxTable(\DTS\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request)
@@ -776,7 +729,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getASalesTaxTableAsync(\DTS\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request)
@@ -785,7 +737,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request
      * @return \DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestResponse
      */
     public function getAllSalesTaxTables(\DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request)
@@ -794,7 +745,6 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAllSalesTaxTablesAsync(\DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request)

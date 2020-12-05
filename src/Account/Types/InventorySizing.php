@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property integer $currentAvailableQuantity
  * @property \DTS\eBaySDK\Account\Types\Amount $currentInventoryValue
  * @property \DTS\eBaySDK\Account\Types\InventorySnapshot $inventorySnapshots

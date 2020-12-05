@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $label
  * @property \DTS\eBaySDK\Order\Types\Image $logoImage
  * @property \DTS\eBaySDK\Order\Types\PaymentMethodBrand[] $paymentMethodBrands

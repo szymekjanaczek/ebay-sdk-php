@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
  * @property \DTS\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
  * @property \DTS\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile

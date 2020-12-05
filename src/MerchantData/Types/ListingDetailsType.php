@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property boolean $Adult
  * @property boolean $BindingAuction
  * @property boolean $CheckoutEnabled

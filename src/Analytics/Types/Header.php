@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Analytics\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Analytics\Types\Definition[] $dimensionKeys
  * @property \DTS\eBaySDK\Analytics\Types\Definition[] $metrics
  */

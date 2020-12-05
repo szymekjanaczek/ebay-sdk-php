@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
-/**
- *
- */
 class IssuePartialRefundOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**

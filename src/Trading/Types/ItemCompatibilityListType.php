@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\ItemCompatibilityType[] $Compatibility
  * @property boolean $ReplaceAll
  */

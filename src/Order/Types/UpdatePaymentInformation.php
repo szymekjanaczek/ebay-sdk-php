@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Order\Types\CreditCard $creditCard
  */
 class UpdatePaymentInformation extends \DTS\eBaySDK\Types\BaseType

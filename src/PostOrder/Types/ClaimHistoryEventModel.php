@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $action
  * @property \DTS\eBaySDK\PostOrder\Enums\UserPartyEnum $actor
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $date

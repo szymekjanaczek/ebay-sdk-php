@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $jobId
  * @property string $fileReferenceId
  * @property string $maxFileSize

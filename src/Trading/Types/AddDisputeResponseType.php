@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $DisputeID
  */
 class AddDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

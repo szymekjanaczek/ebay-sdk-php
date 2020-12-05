@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class ProductRecommendationsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

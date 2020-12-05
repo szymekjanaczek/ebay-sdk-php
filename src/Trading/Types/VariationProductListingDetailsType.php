@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ISBN
  * @property string $UPC
  * @property string $EAN

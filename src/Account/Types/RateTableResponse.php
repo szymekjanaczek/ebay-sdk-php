@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\RateTable[] $rateTables
  */
 class RateTableResponse extends \DTS\eBaySDK\Types\BaseType

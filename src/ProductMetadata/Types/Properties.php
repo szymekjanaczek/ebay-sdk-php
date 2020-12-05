@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string $metadataVersion
  * @property \DTS\eBaySDK\ProductMetadata\Types\Property[] $propertyName
  * @property string $dataset

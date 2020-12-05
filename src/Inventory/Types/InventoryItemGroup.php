@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property mixed $aspects
  * @property string $description
  * @property string[] $imageUrls

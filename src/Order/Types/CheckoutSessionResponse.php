@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Order\Types\PaymentMethod[] $acceptedPaymentMethods
  * @property string $checkoutSessionId
  * @property string $expirationDate

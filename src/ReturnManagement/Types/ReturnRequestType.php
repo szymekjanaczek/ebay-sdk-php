@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnItemType[] $returnItem
  * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType $returnReason
  * @property string $comments

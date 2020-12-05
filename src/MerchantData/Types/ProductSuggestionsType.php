@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\ProductSuggestionType[] $ProductSuggestion
  */
 class ProductSuggestionsType extends \DTS\eBaySDK\Types\BaseType

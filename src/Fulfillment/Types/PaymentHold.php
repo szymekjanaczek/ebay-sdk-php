@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $expectedReleaseDate
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $holdAmount
  * @property string $holdReason

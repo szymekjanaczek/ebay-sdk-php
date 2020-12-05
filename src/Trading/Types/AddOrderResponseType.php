@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $OrderID
  * @property \DateTime $CreatedTime
  */

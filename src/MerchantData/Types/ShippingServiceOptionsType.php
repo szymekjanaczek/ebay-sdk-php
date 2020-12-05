@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingInsuranceCost
  * @property string $ShippingService
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingServiceCost

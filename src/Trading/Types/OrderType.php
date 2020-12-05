@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $OrderID
  * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount

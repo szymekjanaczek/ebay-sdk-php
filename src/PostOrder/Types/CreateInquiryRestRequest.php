@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class CreateInquiryRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateInquiryRequest
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $itemId
  * @property string $transactionId
  * @property string $itemTitle

@@ -96,7 +96,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest $request
      * @return \DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestResponse
      */
     public function getADefaultCategoryTreeId(\DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest $request)
@@ -105,7 +104,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getADefaultCategoryTreeIdAsync(\DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest $request)
@@ -114,7 +112,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestRequest $request
      * @return \DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestResponse
      */
     public function getACategoryTree(\DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestRequest $request)
@@ -123,7 +120,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getACategoryTreeAsync(\DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestRequest $request)
@@ -132,7 +128,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestRequest $request
      * @return \DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestResponse
      */
     public function getACategorySubtree(\DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestRequest $request)
@@ -141,7 +136,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getACategorySubtreeAsync(\DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestRequest $request)
@@ -150,7 +144,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestRequest $request
      * @return \DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestResponse
      */
     public function getSuggestedCategories(\DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestRequest $request)
@@ -159,7 +152,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getSuggestedCategoriesAsync(\DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestRequest $request)
@@ -168,7 +160,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestRequest $request
      * @return \DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse
      */
     public function getItemAspectsForCategory(\DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestRequest $request)
@@ -177,7 +168,6 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getItemAspectsForCategoryAsync(\DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestRequest $request)

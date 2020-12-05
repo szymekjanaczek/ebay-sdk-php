@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\ListDataType[] $all
  * @property boolean $isMultiple
  * @property \DTS\eBaySDK\PostOrder\Types\ListDataType[] $selected

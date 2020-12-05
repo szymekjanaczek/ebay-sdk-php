@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\ProductSubmission $productSubmission
  * @property \DTS\eBaySDK\Product\Types\ProductSubmissionStatus $status
  */

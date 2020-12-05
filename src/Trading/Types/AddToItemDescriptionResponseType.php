@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class AddToItemDescriptionResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**

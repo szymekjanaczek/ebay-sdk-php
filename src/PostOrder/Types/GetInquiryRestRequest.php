@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $inquiryId
  */
 class GetInquiryRestRequest extends \DTS\eBaySDK\Types\BaseType

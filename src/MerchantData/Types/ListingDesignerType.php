@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $LayoutID
  * @property boolean $OptimalPictureSize
  * @property integer $ThemeID

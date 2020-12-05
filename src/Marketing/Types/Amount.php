@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Enums\CurrencyCodeEnum $currency
  * @property string $value
  */

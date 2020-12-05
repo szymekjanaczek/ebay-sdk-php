@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $actualDeliveryDate
  * @property \DTS\eBaySDK\Order\Types\LineItemReference[] $lineItemReferences
  * @property string $maxEstimatedDeliveryDate

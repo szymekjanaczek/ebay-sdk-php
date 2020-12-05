@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $date
  * @property \DTS\eBaySDK\Inventory\Types\Interval[] $intervals
  */

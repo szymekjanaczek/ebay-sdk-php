@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Enums\CurrencyCodeEnum $convertedFromCurrency
  * @property double $convertedFromValue
  * @property \DTS\eBaySDK\PostOrder\Enums\CurrencyCodeEnum $currency

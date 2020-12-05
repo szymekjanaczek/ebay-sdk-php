@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string $groupType
  * @property string $groupName
  * @property \DTS\eBaySDK\ProductMetadata\Types\GroupProperty[] $groupProperty

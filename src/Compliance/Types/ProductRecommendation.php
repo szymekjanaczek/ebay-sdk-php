@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property string $epid
  */
 class ProductRecommendation extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $content
  * @property \DTS\eBaySDK\PostOrder\Enums\LanguageEnum $language
  * @property string $translatedFromContent

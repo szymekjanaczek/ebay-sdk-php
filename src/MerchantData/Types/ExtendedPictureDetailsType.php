@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\PictureURLsType[] $PictureURLs
  */
 class ExtendedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType

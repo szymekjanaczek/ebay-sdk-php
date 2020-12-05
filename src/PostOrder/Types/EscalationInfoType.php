@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo $buyerEscalationEligibilityInfo
  * @property string $caseId
  * @property \DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo $sellerEscalationEligibilityInfo

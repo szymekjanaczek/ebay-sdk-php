@@ -197,7 +197,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\GetCheckoutSessionRestResponse
      */
     public function getCheckoutSession(\DTS\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request)
@@ -206,7 +205,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getCheckoutSessionAsync(\DTS\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request)
@@ -215,7 +213,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestResponse
      */
     public function initiateCheckoutSession(\DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request)
@@ -224,7 +221,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function initiateCheckoutSessionAsync(\DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request)
@@ -233,7 +229,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\PlaceOrderRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\PlaceOrderRestResponse
      */
     public function placeOrder(\DTS\eBaySDK\Order\Types\PlaceOrderRestRequest $request)
@@ -242,7 +237,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\PlaceOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function placeOrderAsync(\DTS\eBaySDK\Order\Types\PlaceOrderRestRequest $request)
@@ -251,7 +245,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestResponse
      */
     public function updatePaymentInfo(\DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request)
@@ -260,7 +253,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updatePaymentInfoAsync(\DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request)
@@ -269,7 +261,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestResponse
      */
     public function updateQuantityForLineItem(\DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request)
@@ -278,7 +269,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateQuantityForLineItemAsync(\DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request)
@@ -287,7 +277,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\UpdateShippingAddressRestResponse
      */
     public function updateShippingAddress(\DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request)
@@ -296,7 +285,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateShippingAddressAsync(\DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request)
@@ -305,7 +293,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\UpdateShippingOptionRestResponse
      */
     public function updateShippingOption(\DTS\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request)
@@ -314,7 +301,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateShippingOptionAsync(\DTS\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request)
@@ -323,7 +309,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestResponse
      */
     public function getGuestCheckoutSession(\DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request)
@@ -332,7 +317,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getGuestCheckoutSessionAsync(\DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request)
@@ -341,7 +325,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestResponse
      */
     public function initiateGuestCheckoutSession(\DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request)
@@ -350,7 +333,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function initiateGuestCheckoutSessionAsync(\DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request)
@@ -359,7 +341,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\PlaceGuestOrderRestResponse
      */
     public function placeGuestOrder(\DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request)
@@ -368,7 +349,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function placeGuestOrderAsync(\DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request)
@@ -377,7 +357,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestResponse
      */
     public function updateGuestLineItemQuantity(\DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request)
@@ -386,7 +365,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateGuestLineItemQuantityAsync(\DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request)
@@ -395,7 +373,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse
      */
     public function updateGuestLineItemShippingAddress(\DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request)
@@ -404,7 +381,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateGuestLineItemShippingAddressAsync(\DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request)
@@ -413,7 +389,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestResponse
      */
     public function updateGuestPaymentInfo(\DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request)
@@ -422,7 +397,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateGuestPaymentInfoAsync(\DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request)
@@ -431,7 +405,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestResponse
      */
     public function updateGuestShippingOption(\DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request)
@@ -440,7 +413,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateGuestShippingOptionAsync(\DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request)
@@ -449,7 +421,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestResponse
      */
     public function getGuestPurchaseOrder(\DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request)
@@ -458,7 +429,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getGuestPurchaseOrderAsync(\DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request)
@@ -467,7 +437,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request
      * @return \DTS\eBaySDK\Order\Types\GetPurchaseOrderRestResponse
      */
     public function getPurchaseOrder(\DTS\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request)
@@ -476,7 +445,6 @@ class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPurchaseOrderAsync(\DTS\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request)

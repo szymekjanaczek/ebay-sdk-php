@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $campaignName
  * @property string $endDate
  * @property string $startDate

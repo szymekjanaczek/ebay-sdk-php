@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\URIValue $thumbnail
  * @property \DTS\eBaySDK\Product\Types\URIValue $standard
  */

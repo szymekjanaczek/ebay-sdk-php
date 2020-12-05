@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $returnId
  */
 class IssueReturnRefundRestRequest extends \DTS\eBaySDK\PostOrder\Types\IssueRefundRequest

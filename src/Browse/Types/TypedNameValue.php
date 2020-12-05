@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $name
  * @property \DTS\eBaySDK\Browse\Enums\ValueTypeEnum $type
  * @property string $value

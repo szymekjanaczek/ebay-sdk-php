@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
-/**
- *
- */
 class ActivityDetailType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType
 {
     /**

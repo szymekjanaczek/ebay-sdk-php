@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property string $name
  */
 class ErrorParameter extends \DTS\eBaySDK\Types\StringType

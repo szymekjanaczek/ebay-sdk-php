@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $Title
  * @property string $EPID
  * @property string $StockPhoto

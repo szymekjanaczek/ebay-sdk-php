@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $recurringJobId
  * @property \DateTime $creationTime
  * @property integer $frequencyInMinutes

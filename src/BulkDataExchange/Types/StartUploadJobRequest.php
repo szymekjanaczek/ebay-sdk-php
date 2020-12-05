@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $jobId
  */
 class StartUploadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest

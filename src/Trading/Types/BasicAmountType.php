@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class BasicAmountType extends \DTS\eBaySDK\Types\StringType
 {
     /**

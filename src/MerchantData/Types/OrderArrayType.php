@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\OrderType[] $Order
  */
 class OrderArrayType extends \DTS\eBaySDK\Types\BaseType

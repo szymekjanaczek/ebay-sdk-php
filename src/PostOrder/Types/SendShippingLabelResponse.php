@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $labelURL
  */
 class SendShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType

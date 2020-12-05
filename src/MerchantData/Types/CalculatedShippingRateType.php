@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $OriginatingPostalCode
  * @property \DTS\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType $MeasurementUnit
  * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageDepth

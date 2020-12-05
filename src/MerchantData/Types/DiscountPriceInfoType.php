@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalRetailPrice
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MinimumAdvertisedPrice
  * @property \DTS\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure

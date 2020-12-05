@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property integer $displaySequence
  */
 class PropertyNameMetadata extends \DTS\eBaySDK\Types\BaseType

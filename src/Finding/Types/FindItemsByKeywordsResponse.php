@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Finding\Types\CategoryHistogramContainer $categoryHistogramContainer
  * @property \DTS\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
  * @property \DTS\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer

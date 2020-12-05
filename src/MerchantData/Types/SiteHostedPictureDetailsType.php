@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $PictureName
  * @property \DTS\eBaySDK\MerchantData\Enums\PictureSetCodeType $PictureSet
  * @property \DTS\eBaySDK\MerchantData\Enums\PictureFormatCodeType $PictureFormat

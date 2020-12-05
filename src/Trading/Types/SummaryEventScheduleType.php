@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $EventType
  * @property \DTS\eBaySDK\Trading\Enums\SummaryWindowPeriodCodeType $SummaryPeriod
  * @property \DTS\eBaySDK\Trading\Enums\SummaryFrequencyCodeType $Frequency

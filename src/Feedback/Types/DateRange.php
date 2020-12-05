@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feedback\Types;
 
 /**
- *
  * @property \DateTime $dateFrom
  * @property \DateTime $dateTo
  */

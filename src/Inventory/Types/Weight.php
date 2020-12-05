@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Enums\WeightUnitOfMeasureEnum $unit
  * @property double $value
  */

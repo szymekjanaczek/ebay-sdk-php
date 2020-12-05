@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $ItemID
  * @property string $VariationSKU
  * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType $VariationSpecifics

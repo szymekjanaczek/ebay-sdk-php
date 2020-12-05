@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Metadata\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Metadata\Types\Sel:ReturnsPolicy[] $returnPolicies
  * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
  */

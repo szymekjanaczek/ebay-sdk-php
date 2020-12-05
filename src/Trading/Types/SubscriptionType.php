@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $EIASToken
  * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $SiteID
  * @property boolean $Active

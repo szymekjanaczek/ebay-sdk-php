@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property boolean $includedInPrice
  * @property boolean $shippingAndHandlingTaxed
  * @property \DTS\eBaySDK\Browse\Types\TaxJurisdiction $taxJurisdiction

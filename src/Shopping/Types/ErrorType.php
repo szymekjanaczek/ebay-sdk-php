@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $ShortMessage
  * @property string $LongMessage
  * @property string $ErrorCode

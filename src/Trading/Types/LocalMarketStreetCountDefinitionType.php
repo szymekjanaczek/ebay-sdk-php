@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class LocalMarketStreetCountDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $PictureSystemVersion
  * @property \DTS\eBaySDK\MerchantData\Types\SiteHostedPictureDetailsType $SiteHostedPictureDetails
  */

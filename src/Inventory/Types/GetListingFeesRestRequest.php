@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
-/**
- *
- */
 class GetListingFeesRestRequest extends \DTS\eBaySDK\Inventory\Types\OfferKeysWithId
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property integer $bundleID
  * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $bundleStatus
  */

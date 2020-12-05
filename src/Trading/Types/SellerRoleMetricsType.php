@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $PositiveFeedbackLeftCount
  * @property integer $NegativeFeedbackLeftCount
  * @property integer $NeutralFeedbackLeftCount

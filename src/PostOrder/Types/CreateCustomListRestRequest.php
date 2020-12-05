@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class CreateCustomListRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateCustomListRequest
 {
     /**

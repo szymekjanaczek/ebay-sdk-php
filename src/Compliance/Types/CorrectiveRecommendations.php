@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Compliance\Types\ProductRecommendation $productRecommendation
  */
 class CorrectiveRecommendations extends \DTS\eBaySDK\Types\BaseType

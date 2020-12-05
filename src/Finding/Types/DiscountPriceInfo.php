@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Finding\Types\Amount $originalRetailPrice
  * @property \DTS\eBaySDK\Finding\Enums\MapExposureEnum $minimumAdvertisedPriceExposure
  * @property \DTS\eBaySDK\Finding\Enums\PriceTreatmentEnum $pricingTreatment

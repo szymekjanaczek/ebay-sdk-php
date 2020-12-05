@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideType[] $ShippingServiceCostOverride
  */
 class ShippingServiceCostOverrideListType extends \DTS\eBaySDK\Types\BaseType

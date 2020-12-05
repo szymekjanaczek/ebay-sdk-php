@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\RefundType[] $Refund
  */
 class RefundArrayType extends \DTS\eBaySDK\Types\BaseType

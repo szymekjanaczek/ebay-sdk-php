@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property string $itemID
  * @property string $itemURL
  * @property integer $quantity

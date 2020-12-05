@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $MaximumQuantity
  */
 class QuantityRestrictionPerBuyerInfoType extends \DTS\eBaySDK\Types\BaseType

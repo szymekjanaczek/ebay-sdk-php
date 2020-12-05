@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\ItemTransactionIDType[] $ItemTransactionID
  */
 class ItemTransactionIDArrayType extends \DTS\eBaySDK\Types\BaseType

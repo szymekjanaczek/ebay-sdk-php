@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $SearchKeywords
  * @property integer $StoreCategoryID
  * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType

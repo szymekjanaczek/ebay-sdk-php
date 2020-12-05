@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property integer $JobId
  */
 class GetConsolidationJobStatusRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest

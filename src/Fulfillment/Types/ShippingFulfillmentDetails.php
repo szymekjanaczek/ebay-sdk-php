@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\LineItemReference[] $lineItems
  * @property string $shippedDate
  * @property string $shippingCarrierCode

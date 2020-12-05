@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType[] $extension
  */
 class BaseRequest extends \DTS\eBaySDK\Types\BaseType

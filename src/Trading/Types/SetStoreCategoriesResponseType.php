@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $TaskID
  * @property \DTS\eBaySDK\Trading\Enums\TaskStatusCodeType $Status
  * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategory

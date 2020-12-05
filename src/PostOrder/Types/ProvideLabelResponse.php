@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $labelData
  * @property string $labelId
  * @property string $labelURL

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DateTime $TimeTo
  * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
  */

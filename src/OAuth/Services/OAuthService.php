@@ -14,7 +14,7 @@ class OAuthService
     public const API_VERSION = 'v1';
 
     /**
-     * @var array $endPoints The API endpoints.
+     * @var array The API endpoints.
      */
     private static $endPoints = [
         'sandbox'    => 'https://api.sandbox.ebay.com/identity',
@@ -194,7 +194,6 @@ class OAuthService
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
      * @return \DTS\eBaySDK\OAuth\Types\GetUserTokenRestResponse
      */
     public function getUserToken(\DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
@@ -203,7 +202,6 @@ class OAuthService
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getUserTokenAsync(\DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
@@ -222,7 +220,6 @@ class OAuthService
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
      * @return \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse
      */
     public function refreshUserToken(\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request)
@@ -231,7 +228,6 @@ class OAuthService
     }
 
     /**
-     * @param \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function refreshUserTokenAsync(\DTS\eBaySDK\OAuth\Types\refreshUserTokenRestRequest $request)

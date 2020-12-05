@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ShippingLocation
  * @property string $Description
  * @property string $DetailVersion

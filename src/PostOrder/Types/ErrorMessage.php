@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Error[] $error
  */
 class ErrorMessage extends \DTS\eBaySDK\Types\BaseType

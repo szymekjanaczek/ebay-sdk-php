@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $checkoutSessionId
  */
 class GetGuestCheckoutSessionRestRequest extends \DTS\eBaySDK\Types\BaseType

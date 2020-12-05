@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class GetClientAlertsAuthTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**

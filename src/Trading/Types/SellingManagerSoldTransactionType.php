@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $InvoiceNumber
  * @property integer $TransactionID
  * @property integer $SaleRecordID

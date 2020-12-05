@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $StartingDisputeID
  * @property string $EndingDisputeID
  * @property \DTS\eBaySDK\Trading\Types\DisputeArrayType $DisputeArray

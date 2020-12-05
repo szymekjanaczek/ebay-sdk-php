@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property boolean $applyTax
  * @property string $thirdPartyTaxCategory
  * @property double $vatPercentage

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $notes
  * @property \DTS\eBaySDK\Inventory\Types\ProductFamilyProperties $productFamilyProperties
  * @property \DTS\eBaySDK\Inventory\Types\ProductIdentifier $productIdentifier

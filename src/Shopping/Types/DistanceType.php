@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $unit
  */
 class DistanceType extends \DTS\eBaySDK\Types\DoubleType

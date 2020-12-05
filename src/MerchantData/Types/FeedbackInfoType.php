@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $CommentText
  * @property \DTS\eBaySDK\MerchantData\Enums\CommentTypeCodeType $CommentType
  * @property string $TargetUser

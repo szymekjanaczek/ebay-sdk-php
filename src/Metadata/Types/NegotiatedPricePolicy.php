@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Metadata\Types;
 
 /**
- *
  * @property boolean $bestOfferAutoAcceptEnabled
  * @property boolean $bestOfferAutoDeclineEnabled
  * @property boolean $bestOfferCounterEnabled

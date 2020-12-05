@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $eventCity
  * @property string $eventCode
  * @property string $eventDesc

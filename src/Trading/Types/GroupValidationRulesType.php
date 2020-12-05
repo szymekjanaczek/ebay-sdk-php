@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $MinRequired
  */
 class GroupValidationRulesType extends \DTS\eBaySDK\Types\BaseType

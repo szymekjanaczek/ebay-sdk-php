@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property string $compliance_type
  */
 class GetListingViolationsSummaryRestRequest extends \DTS\eBaySDK\Types\BaseType

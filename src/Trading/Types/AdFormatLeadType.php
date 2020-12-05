@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $AdditionalInformation
  * @property \DTS\eBaySDK\Trading\Types\AddressType $Address
  * @property string $BestTimeToCall

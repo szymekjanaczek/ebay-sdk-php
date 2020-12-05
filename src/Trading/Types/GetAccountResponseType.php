@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $AccountID
  * @property \DTS\eBaySDK\Trading\Types\AccountSummaryType $AccountSummary
  * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency

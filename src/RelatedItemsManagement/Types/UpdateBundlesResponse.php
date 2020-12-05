@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus[] $bundleStatus
  */
 class UpdateBundlesResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseResponse

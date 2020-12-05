@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $Count
  * @property \DTS\eBaySDK\MerchantData\Enums\PeriodCodeType $Period
  */

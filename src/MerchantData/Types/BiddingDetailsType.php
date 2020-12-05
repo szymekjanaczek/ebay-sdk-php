@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedMaxBid
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MaxBid
  * @property integer $QuantityBid

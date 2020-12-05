@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $buyerResponseDueDate
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $cancelCloseDate
  * @property string $cancelCloseReason

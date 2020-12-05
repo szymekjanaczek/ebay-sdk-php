@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $buyerFinalAcceptRefundAmt
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $buyerInitExpectRefundAmt
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $internationalRefundAmount

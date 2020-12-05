@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
-/**
- *
- */
 class FindHalfProductsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
 {
     /**

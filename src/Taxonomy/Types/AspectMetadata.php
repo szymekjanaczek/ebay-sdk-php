@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Taxonomy\Types\Aspect[] $aspects
  */
 class AspectMetadata extends \DTS\eBaySDK\Types\BaseType

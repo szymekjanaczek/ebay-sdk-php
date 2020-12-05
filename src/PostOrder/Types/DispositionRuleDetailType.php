@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $ruleId
  * @property string $ruleName
  * @property \DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum $ruleTemplate

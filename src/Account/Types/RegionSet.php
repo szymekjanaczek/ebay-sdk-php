@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\Region[] $regionExcluded
  * @property \DTS\eBaySDK\Account\Types\Region[] $regionIncluded
  */

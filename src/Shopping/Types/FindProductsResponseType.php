@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property integer $ApproximatePages
  * @property boolean $MoreResults
  * @property \DTS\eBaySDK\Shopping\Types\DomainHistogramType $DomainHistogram

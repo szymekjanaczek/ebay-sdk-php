@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType $Sort
  * @property integer $FolderID
  * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination

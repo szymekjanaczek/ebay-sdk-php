@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $actualAmount
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
  * @property string $externalPaymentId

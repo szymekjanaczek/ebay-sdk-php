@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class GetChallengeTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**

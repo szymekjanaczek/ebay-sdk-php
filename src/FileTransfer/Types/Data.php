@@ -3,7 +3,6 @@
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\FileTransfer\Types\XopInclude $xopInclude
  */
 class Data extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Shopping\Types\NameValueListType[] $NameValueList
  * @property string $CompatibilityNotes
  */

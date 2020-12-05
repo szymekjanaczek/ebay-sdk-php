@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\PaymentInformationType $Payments
  * @property \DTS\eBaySDK\MerchantData\Types\RefundInformationType $Refunds
  */

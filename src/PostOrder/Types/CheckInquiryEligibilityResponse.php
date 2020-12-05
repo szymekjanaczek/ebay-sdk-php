@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $earliestPossibleFilingDate
  * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResponseError[] $errors
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $estimatedDeliveryDate

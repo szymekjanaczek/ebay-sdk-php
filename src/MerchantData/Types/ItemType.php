@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $ApplicationData
  * @property \DTS\eBaySDK\MerchantData\Types\AttributeArrayType $AttributeArray
  * @property boolean $AutoPay

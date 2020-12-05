@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\FulfillmentPolicy[] $fulfillmentPolicies
  * @property string $href
  * @property integer $limit

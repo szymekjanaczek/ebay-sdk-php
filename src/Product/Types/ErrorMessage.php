@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\ErrorData[] $error
  */
 class ErrorMessage extends \DTS\eBaySDK\Types\BaseType

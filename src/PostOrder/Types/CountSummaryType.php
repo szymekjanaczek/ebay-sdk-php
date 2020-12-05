@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $count
  * @property \DTS\eBaySDK\PostOrder\Enums\ReturnCountFilterEnum $type
  */

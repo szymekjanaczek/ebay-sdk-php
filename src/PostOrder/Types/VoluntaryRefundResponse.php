@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\VoluntaryRefundResult $refundResult
  */
 class VoluntaryRefundResponse extends \DTS\eBaySDK\Types\BaseType

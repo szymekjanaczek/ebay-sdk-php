@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Merchandising\Types\ProductId $productId
  * @property string $title
  * @property string $productURL

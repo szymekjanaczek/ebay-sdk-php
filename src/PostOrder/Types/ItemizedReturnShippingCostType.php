@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $amount
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnShippingCostType $returnShippingCostType
  */

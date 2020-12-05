@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\Amount $amount
  * @property \DTS\eBaySDK\Account\Types\TimeDuration $dueIn
  * @property \DTS\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods

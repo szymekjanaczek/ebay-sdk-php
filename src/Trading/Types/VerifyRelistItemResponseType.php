@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ItemID
  * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property \DateTime $StartTime

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $epid
  * @property string $gtin
  * @property string $ktype

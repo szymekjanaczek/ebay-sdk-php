@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string[] $data
  * @property string $fileName
  * @property string $filePurpose

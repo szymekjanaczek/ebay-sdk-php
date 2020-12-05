@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $marketplace_id
  */
 class GetPaymentPoliciesByMarketplaceRestRequest extends \DTS\eBaySDK\Types\BaseType

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
-/**
- *
- */
 class ReturnReasonType extends \DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType
 {
     /**

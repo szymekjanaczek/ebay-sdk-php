@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $itemPictureUrl
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $itemPrice
  * @property string $itemTitle

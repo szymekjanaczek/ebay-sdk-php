@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $sku
  */
 class DeleteInventoryItemRestRequest extends \DTS\eBaySDK\Types\BaseType

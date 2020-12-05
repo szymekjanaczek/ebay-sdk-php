@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\HalfFinding\Types\ErrorData[] $error
  */
 class ErrorMessage extends \DTS\eBaySDK\Types\BaseType

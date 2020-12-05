@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property string $itemId
  * @property string $transactionId
  * @property integer $returnQuantity

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $carrier
  * @property string $currentStatus
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $estimateFromDate

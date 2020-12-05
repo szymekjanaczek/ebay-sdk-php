@@ -69,7 +69,6 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request
      * @return \DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestResponse
      */
     public function getASpecificSellerProfile(\DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request)
@@ -78,7 +77,6 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getASpecificSellerProfileAsync(\DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request)
@@ -103,7 +101,6 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request
      * @return \DTS\eBaySDK\Analytics\Types\GetTrafficReportRestResponse
      */
     public function getTrafficReport(\DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request)
@@ -112,7 +109,6 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getTrafficReportAsync(\DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request)

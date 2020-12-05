@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
  * @property \DTS\eBaySDK\ReturnManagement\Types\RefundDetailType $refundDetail
  * @property string $comments

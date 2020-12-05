@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $adjustment
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $deliveryCost
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $deliveryDiscount

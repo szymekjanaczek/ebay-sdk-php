@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $href
  * @property integer $limit
  * @property \DTS\eBaySDK\Marketing\Types\ListingDetail[] $listings

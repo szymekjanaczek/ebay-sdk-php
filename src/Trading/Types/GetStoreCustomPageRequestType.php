@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $PageID
  */
 class GetStoreCustomPageRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

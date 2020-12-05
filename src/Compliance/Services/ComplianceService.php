@@ -58,7 +58,6 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
      * @return \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse
      */
     public function getListingViolationsSummary(\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
@@ -67,7 +66,6 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getListingViolationsSummaryAsync(\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
@@ -76,7 +74,6 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
      * @return \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse
      */
     public function getListingViolations(\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
@@ -85,7 +82,6 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getListingViolationsAsync(\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)

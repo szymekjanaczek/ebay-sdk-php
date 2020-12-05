@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Taxonomy\Enums\MarketplaceIdEnum[] $applicableMarketplaceIds
  * @property string $categoryTreeId
  * @property string $categoryTreeVersion

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
-/**
- *
- */
 class DecisionReasonDetailType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType
 {
     /**

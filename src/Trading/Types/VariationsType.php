@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\VariationType[] $Variation
  * @property \DTS\eBaySDK\Trading\Types\PicturesType[] $Pictures
  * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecificsSet

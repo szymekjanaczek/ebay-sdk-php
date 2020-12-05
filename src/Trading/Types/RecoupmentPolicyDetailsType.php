@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $EnforcedOnListingSite
  * @property boolean $EnforcedOnRegistrationSite
  * @property string $DetailVersion

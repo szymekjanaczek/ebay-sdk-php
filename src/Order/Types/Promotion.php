@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Order\Types\Amount $discount
  * @property string $message
  * @property string $promotionCode

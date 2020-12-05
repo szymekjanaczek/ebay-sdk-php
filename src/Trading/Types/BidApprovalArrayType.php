@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class BidApprovalArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

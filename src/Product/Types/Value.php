@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\StringValue $text
  * @property \DTS\eBaySDK\Product\Types\NumericValue $number
  * @property \DTS\eBaySDK\Product\Types\URIValue $URL

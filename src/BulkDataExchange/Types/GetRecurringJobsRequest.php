@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
-/**
- *
- */
 class GetRecurringJobsRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**

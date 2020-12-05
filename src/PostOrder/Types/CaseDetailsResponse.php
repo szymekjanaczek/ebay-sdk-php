@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\ActionDeadlines $actionDeadlines
  * @property \DTS\eBaySDK\PostOrder\Types\AppealDetails $appealDetails
  * @property string $buyerClosureReason

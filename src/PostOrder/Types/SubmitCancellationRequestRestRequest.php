@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class SubmitCancellationRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateCancelRequest
 {
     /**

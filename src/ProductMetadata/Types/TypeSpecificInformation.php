@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation $uriTypeSpecificInformation
  * @property \DTS\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation $numericTypeSpecificInformation
  * @property \DTS\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation $mediaTypeSpecificInformation

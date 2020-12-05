@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
-/**
- *
- */
 class FindReviewsAndGuidesRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
 {
     /**

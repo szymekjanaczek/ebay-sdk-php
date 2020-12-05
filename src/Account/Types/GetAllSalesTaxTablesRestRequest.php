@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $country_code
  */
 class GetAllSalesTaxTablesRestRequest extends \DTS\eBaySDK\Types\BaseType

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Feedback\Types;
 
-/**
- *
- */
 class BaseServiceRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**

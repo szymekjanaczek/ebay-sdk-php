@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $dataType
  * @property boolean $isArray
  * @property \DTS\eBaySDK\PostOrder\Enums\ReturnMetadataKeyEnum $siteMetadataKey

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class AttributeSetArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

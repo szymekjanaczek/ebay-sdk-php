@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string $value
  */
 class URIValue extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $DomesticRateTable
  * @property string $InternationalRateTable
  * @property string $DomesticRateTableId

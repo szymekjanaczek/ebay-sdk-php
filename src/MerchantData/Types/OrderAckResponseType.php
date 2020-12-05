@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $OrderLineItemID
  */
 class OrderAckResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType

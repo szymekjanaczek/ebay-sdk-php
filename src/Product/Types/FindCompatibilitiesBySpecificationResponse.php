@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\PaginationOutput $paginationOutput
  * @property \DTS\eBaySDK\Product\Types\CompatibilityDetails[] $compatibilityDetails
  */

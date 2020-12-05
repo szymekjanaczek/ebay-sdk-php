@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $contentType
  */
 class Base64BinaryType extends \DTS\eBaySDK\Types\Base64BinaryType

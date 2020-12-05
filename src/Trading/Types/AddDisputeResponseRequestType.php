@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $DisputeID
  * @property string $MessageText
  * @property \DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType $DisputeActivity

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\CampaignCriterion $campaignCriterion
  * @property string $campaignId
  * @property string $campaignName

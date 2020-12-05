@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesCountDetailsType $MaximumUnpaidItemStrikesCount
  * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesDurationDetailsType[] $MaximumUnpaidItemStrikesDuration
  */

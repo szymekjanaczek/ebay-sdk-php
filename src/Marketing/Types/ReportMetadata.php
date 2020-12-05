@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\DimensionMetadata[] $dimensionMetadata
  * @property integer $maxNumberOfDimensionsToRequest
  * @property integer $maxNumberOfMetricsToRequest

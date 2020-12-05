@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
-/**
- *
- */
 class GetMetadataForAllReportsRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**

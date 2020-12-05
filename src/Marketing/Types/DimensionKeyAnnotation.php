@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $annotationKey
  * @property \DTS\eBaySDK\Marketing\Enums\DataTypeEnum $dataType
  */

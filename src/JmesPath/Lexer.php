@@ -69,7 +69,9 @@ class Lexer
     public const STATE_NOT            = 12;
     public const STATE_AND            = 13;
 
-    /** @var array We know what token we are consuming based on each char */
+    /**
+     * @var array We know what token we are consuming based on each char
+     */
     private static $transitionTable = [
         '<'  => self::STATE_LT,
         '>'  => self::STATE_GT,
@@ -161,7 +163,9 @@ class Lexer
         'z'  => self::STATE_IDENTIFIER,
     ];
 
-    /** @var array Valid identifier characters after first character */
+    /**
+     * @var array Valid identifier characters after first character
+     */
     private $validIdentifier = [
         'A' => true,
         'B' => true,
@@ -228,7 +232,9 @@ class Lexer
         '9' => true,
     ];
 
-    /** @var array Valid number characters after the first character */
+    /**
+     * @var array Valid number characters after the first character
+     */
     private $numbers = [
         '0' => true,
         '1' => true,
@@ -242,7 +248,9 @@ class Lexer
         '9' => true,
     ];
 
-    /** @var array Map of simple single character tokens */
+    /**
+     * @var array Map of simple single character tokens
+     */
     private $simpleTokens = [
         '.' => self::T_DOT,
         '*' => self::T_STAR,

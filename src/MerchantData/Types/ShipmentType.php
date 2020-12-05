@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DateTime $EstimatedDeliveryDate
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuredValue
  * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageDepth

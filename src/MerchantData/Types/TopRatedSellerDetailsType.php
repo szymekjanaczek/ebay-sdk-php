@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\TopRatedProgramCodeType[] $TopRatedProgram
  */
 class TopRatedSellerDetailsType extends \DTS\eBaySDK\Types\BaseType

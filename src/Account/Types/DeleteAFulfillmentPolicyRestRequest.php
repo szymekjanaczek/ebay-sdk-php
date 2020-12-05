@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $fulfillmentPolicyId
  */
 class DeleteAFulfillmentPolicyRestRequest extends \DTS\eBaySDK\Types\BaseType

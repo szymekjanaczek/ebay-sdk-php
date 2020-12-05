@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $phoneNumber
  */
 class PhoneNumber extends \DTS\eBaySDK\Types\BaseType

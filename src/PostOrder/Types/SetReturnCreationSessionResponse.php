@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $draftId
  */
 class SetReturnCreationSessionResponse extends \DTS\eBaySDK\Types\BaseType

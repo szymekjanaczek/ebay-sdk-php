@@ -9,7 +9,6 @@ use DTS\eBaySDK\Types;
 
 /**
  * Base class for all API objects.
- *
  */
 class BaseType implements JmesPathableObjectInterface
 {
@@ -27,7 +26,6 @@ class BaseType implements JmesPathableObjectInterface
      *     'attribute' => false,       Indicates if the proeprty is an attribute in the XML.
      *     'elementName' => 'Subject'  The corressponding element in the XML.
      * ]
-     *
      */
     protected static $properties = [];
 
@@ -535,9 +533,6 @@ class BaseType implements JmesPathableObjectInterface
 
     /**
      * Helper function to remove the properties and values that belong to a object's parent.
-     *
-     * @param array $properties
-     * @param array $values
      *
      * @return array The first element is an array of parent properties and values.
      * The second element is an array of the object's properties and values.

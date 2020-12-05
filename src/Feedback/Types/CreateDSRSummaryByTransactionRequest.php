@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feedback\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Feedback\Types\TransactionKey[] $transactionKey
  */
 class CreateDSRSummaryByTransactionRequest extends \DTS\eBaySDK\Feedback\Types\BaseServiceRequest

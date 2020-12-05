@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $buyer_login_name
  * @property string $cancel_id
  * @property string $creation_date_range_from

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property string $currencyId
  */
 class Amount extends \DTS\eBaySDK\Types\DoubleType

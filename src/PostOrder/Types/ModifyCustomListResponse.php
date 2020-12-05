@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $listId
  * @property \DTS\eBaySDK\PostOrder\Types\RuleSummaryType[] $ruleAffected
  */

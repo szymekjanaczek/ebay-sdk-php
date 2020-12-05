@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property integer $offset
  * @property string $href
  * @property integer $total

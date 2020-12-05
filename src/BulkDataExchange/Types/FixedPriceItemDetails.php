@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property boolean $includeVariations
  */
 class FixedPriceItemDetails extends \DTS\eBaySDK\Types\BaseType

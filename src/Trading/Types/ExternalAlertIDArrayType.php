@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string[] $ExternalAlertID
  */
 class ExternalAlertIDArrayType extends \DTS\eBaySDK\Types\BaseType

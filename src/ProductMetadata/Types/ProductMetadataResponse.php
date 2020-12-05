@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ProductMetadata\Types\ProductMetadata $productMetadata
  * @property \DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest $requestInformation
  */

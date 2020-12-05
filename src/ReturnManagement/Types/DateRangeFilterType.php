@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DateTime $fromDate
  * @property \DateTime $toDate
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $paymentPolicyId
  */
 class GetAPaymentPolicyByIDRestRequest extends \DTS\eBaySDK\Types\BaseType

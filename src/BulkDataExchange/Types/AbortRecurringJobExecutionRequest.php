@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $recurringJobId
  */
 class AbortRecurringJobExecutionRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest

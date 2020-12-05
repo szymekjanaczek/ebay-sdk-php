@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
-/**
- *
- */
 class BulkUpdatePriceAndQuantityRestRequest extends \DTS\eBaySDK\Inventory\Types\BulkPriceQuantity
 {
     /**

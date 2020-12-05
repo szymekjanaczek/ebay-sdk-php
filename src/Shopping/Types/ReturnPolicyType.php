@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $Refund
  * @property string $ReturnsWithin
  * @property string $ReturnsAccepted

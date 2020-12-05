@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $unit
  */
 class QuantityType extends \DTS\eBaySDK\Types\DecimalType

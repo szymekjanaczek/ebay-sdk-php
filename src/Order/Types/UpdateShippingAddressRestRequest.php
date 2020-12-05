@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $checkoutSessionId
  */
 class UpdateShippingAddressRestRequest extends \DTS\eBaySDK\Order\Types\ShippingAddressImpl

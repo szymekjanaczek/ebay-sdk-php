@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType[] $caseSummary
  */
 class CaseArrayType extends \DTS\eBaySDK\Types\BaseType

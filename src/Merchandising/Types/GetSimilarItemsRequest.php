@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
- *
  * @property string $itemId
  * @property string[] $categoryId
  * @property string[] $categoryIdExclude

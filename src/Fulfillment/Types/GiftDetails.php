@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $message
  * @property string $recipientEmail
  * @property string $senderName

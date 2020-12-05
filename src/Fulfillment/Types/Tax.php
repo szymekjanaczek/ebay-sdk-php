@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $amount
  */
 class Tax extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $CategoryStructureOnly
  * @property integer $RootCategoryID
  * @property integer $LevelLimit

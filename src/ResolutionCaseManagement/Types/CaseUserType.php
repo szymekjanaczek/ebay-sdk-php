@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property string $userId
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType $role
  */

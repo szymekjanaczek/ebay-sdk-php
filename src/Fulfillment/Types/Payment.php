@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $amount
  * @property string $paymentDate
  * @property \DTS\eBaySDK\Fulfillment\Types\PaymentHold[] $paymentHolds

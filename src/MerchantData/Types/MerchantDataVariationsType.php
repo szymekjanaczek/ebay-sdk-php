@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataVariationType[] $Variation
  */
 class MerchantDataVariationsType extends \DTS\eBaySDK\Types\BaseType

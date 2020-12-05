@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
-/**
- *
- */
 class FindItemsForFavoriteSearchResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
 {
     /**

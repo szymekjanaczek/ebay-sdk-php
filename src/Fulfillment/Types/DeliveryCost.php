@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $importCharges
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $shippingCost
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $shippingIntermediationFee

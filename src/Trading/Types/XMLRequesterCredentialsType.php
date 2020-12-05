@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $Username
  * @property string $Password
  * @property string $eBayAuthToken

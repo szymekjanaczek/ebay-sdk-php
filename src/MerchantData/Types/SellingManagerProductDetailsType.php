@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $ProductName
  * @property integer $ProductID
  * @property string $CustomLabel

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $Quantity
  * @property string $CountryOfOrigin
  * @property string $Description

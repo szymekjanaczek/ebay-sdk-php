@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $comments
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
  * @property \DTS\eBaySDK\PostOrder\Types\RefundDetailType $refundDetail

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Shopping\Enums\CurrencyCodeType $currencyID
  */
 class AmountType extends \DTS\eBaySDK\Types\DoubleType

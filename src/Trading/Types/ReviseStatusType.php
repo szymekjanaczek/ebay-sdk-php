@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $ItemRevised
  * @property boolean $BuyItNowAdded
  * @property boolean $BuyItNowLowered

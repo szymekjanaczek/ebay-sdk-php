@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $report_type
  */
 class GetMetadataForAReportTypeRestRequest extends \DTS\eBaySDK\Types\BaseType

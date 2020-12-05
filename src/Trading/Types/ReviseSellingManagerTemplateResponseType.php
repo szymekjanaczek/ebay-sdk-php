@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $SaleTemplateID
  * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $CategoryID

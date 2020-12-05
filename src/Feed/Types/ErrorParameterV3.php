@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feed\Types;
 
 /**
- *
  * @property string $name
  * @property string $value
  */

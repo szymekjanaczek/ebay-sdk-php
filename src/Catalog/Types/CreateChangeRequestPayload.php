@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Enums\ChangeRequestType $changeRequestType
  * @property string $reasonForChangeRequest
  * @property string $referenceId

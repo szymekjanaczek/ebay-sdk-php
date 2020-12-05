@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
-/**
- *
- */
 class CreateItemPromotionRestRequest extends \DTS\eBaySDK\Marketing\Types\ItemPromotion
 {
     /**

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
-/**
- *
- */
 class GetProductSearchValuesBulkResponse extends \DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesResponse
 {
     /**

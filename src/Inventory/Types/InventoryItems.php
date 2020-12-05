@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $href
  * @property \DTS\eBaySDK\Inventory\Types\InventoryItem[] $inventoryItems
  * @property integer $limit

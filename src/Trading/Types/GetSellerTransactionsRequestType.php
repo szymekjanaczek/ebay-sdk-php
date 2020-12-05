@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DateTime $ModTimeFrom
  * @property \DateTime $ModTimeTo
  * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination

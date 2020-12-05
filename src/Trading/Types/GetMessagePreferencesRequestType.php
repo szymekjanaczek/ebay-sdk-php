@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $SellerID
  * @property boolean $IncludeASQPreferences
  */

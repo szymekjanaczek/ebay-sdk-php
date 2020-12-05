@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property boolean $ebaySupportedFulfillment
  * @property \DTS\eBaySDK\Fulfillment\Types\Address $finalDestinationAddress
  * @property \DTS\eBaySDK\Fulfillment\Enums\FulfillmentInstructionsType $fulfillmentInstructionsType

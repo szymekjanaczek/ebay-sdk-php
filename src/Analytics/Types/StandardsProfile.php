@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Analytics\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Analytics\Types\Cycle $cycle
  * @property boolean $defaultProgram
  * @property string $evaluationReason

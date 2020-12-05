@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property integer $shippingPolicyVersionId
  */
 class ShippingPolicyIdentity extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property boolean $guaranteedDelivery
  * @property string $maxEstimatedDeliveryDate
  * @property string $minEstimatedDeliveryDate

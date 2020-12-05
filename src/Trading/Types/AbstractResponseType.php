@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DateTime $Timestamp
  * @property \DTS\eBaySDK\Trading\Enums\AckCodeType $Ack
  * @property string $CorrelationID

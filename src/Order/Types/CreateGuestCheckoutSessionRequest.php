@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $contactEmail
  * @property string $contactFirstName
  * @property string $contactLastName

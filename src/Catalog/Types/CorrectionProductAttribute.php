@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Enums\ProductAttributeName $attributeName
  * @property string $newValue
  * @property string $value

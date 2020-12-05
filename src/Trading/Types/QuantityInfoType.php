@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $MinimumRemnantSet
  */
 class QuantityInfoType extends \DTS\eBaySDK\Types\BaseType

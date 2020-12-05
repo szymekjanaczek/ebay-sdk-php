@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property integer $totalPages
  * @property integer $totalEntries
  * @property integer $pageNumber

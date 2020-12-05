@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class MaxItemCompatibilityDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

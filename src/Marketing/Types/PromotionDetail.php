@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $description
  * @property string $endDate
  * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId

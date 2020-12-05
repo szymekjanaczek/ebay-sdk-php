@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $campaign_id
  */
 class BulkUpdateAdBidsByInventoryReferenceRestRequest extends \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRequest

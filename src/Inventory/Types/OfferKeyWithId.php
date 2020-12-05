@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $offerId
  */
 class OfferKeyWithId extends \DTS\eBaySDK\Types\BaseType

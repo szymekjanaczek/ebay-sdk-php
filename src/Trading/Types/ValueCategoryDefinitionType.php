@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class ValueCategoryDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

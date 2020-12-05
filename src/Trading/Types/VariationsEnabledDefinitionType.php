@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class VariationsEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

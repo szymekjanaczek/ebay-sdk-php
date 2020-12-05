@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $change_request_id
  */
 class GetChangeRequestRestRequest extends \DTS\eBaySDK\Types\BaseType

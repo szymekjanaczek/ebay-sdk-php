@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feed\Types;
 
 /**
- *
  * @property string $ageGroup
  * @property string $brand
  * @property string $category

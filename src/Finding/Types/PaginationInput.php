@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property integer $pageNumber
  * @property integer $entriesPerPage
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\URLTypeCodeType $URLType
  * @property string $URL
  * @property string $DetailVersion

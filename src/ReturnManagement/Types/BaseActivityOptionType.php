@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property boolean $buyerPreference
  */
 class BaseActivityOptionType extends \DTS\eBaySDK\Types\BaseType

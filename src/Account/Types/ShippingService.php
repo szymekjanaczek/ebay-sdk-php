@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\Amount $additionalShippingCost
  * @property boolean $buyerResponsibleForPickup
  * @property boolean $buyerResponsibleForShipping

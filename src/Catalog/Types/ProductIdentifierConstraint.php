@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Enums\AspectModeEnum[] $mode
  * @property boolean $required
  */

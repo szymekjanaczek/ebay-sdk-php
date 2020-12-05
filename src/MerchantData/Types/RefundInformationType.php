@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\RefundTransactionInfoType[] $Refund
  */
 class RefundInformationType extends \DTS\eBaySDK\Types\BaseType

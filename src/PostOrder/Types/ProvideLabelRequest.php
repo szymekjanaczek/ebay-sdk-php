@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $carrierEnum
  * @property string $carrierName
  * @property \DTS\eBaySDK\PostOrder\Types\Text $comments

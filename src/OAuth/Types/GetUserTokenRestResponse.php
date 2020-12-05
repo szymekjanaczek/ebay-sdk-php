@@ -6,7 +6,6 @@ use DTS\eBaySDK\HttpHeadersTrait;
 use DTS\eBaySDK\StatusCodeTrait;
 
 /**
- *
  * @property string $access_token
  * @property string $token_type
  * @property integer $expires_in

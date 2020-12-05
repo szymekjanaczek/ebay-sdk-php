@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property \DateTime $startTime
  */
 class FeeSettlementReportFilter extends \DTS\eBaySDK\Types\BaseType

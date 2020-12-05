@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string[] $globalId
  */
 class SiteFilter extends \DTS\eBaySDK\Types\BaseType

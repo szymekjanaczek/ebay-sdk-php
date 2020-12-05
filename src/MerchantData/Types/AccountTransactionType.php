@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $FeeDescription
  * @property \DTS\eBaySDK\MerchantData\Types\NonUsageTransactionType[] $Transaction
  */

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
-/**
- *
- */
 class BaseServiceRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**

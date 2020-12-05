@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Enums\AspectDataTypeEnum $aspectDataType
  * @property string $aspectFormat
  * @property \DTS\eBaySDK\Catalog\Enums\AspectModeEnum $aspectMode

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property \DateTime $Timestamp
  * @property \DTS\eBaySDK\Shopping\Enums\AckCodeType $Ack
  * @property \DTS\eBaySDK\Shopping\Types\ErrorType[] $Errors

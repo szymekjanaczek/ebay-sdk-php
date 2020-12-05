@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $addressLine1
  * @property string $addressLine2
  * @property \DTS\eBaySDK\PostOrder\Enums\AddressTypeEnum $addressType

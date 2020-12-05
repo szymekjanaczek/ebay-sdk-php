@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $ThemeID
  * @property string $Name
  * @property \DTS\eBaySDK\Trading\Types\StoreColorSchemeType $ColorScheme

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\DisputeType[] $Dispute
  */
 class DisputeArrayType extends \DTS\eBaySDK\Types\BaseType

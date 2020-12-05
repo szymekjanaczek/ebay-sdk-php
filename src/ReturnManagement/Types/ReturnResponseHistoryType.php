@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property string $note
  * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnUserType $author
  * @property \DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType $activityDetail

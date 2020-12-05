@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DateTime $EndTime
  * @property string $CorrelationID
  * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors

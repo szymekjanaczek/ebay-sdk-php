@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string[] $adIds
  */
 class AdIds extends \DTS\eBaySDK\Types\BaseType

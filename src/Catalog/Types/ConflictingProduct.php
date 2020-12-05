@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $conflictCode
  * @property \DTS\eBaySDK\Catalog\Types\ProductAspect[] $differentiatingAspects
  * @property string $epid

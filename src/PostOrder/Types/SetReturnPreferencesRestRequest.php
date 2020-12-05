@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class SetReturnPreferencesRestRequest extends \DTS\eBaySDK\PostOrder\Types\SetSellerReturnPreferenceRequest
 {
     /**

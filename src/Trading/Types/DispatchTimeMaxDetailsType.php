@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $DispatchTimeMax
  * @property string $Description
  * @property string $DetailVersion

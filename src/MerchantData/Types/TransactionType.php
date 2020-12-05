@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AmountPaid
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AdjustmentAmount
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedAdjustmentAmount

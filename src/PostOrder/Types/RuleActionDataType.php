@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class RuleActionDataType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

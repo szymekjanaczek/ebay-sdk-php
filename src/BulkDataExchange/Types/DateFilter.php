@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property \DateTime $startTime
  * @property \DateTime $endTime
  */

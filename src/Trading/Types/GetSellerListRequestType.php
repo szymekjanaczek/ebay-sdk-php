@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $UserID
  * @property \DTS\eBaySDK\Trading\Types\UserIDArrayType $MotorsDealerUsers
  * @property \DateTime $EndTimeFrom

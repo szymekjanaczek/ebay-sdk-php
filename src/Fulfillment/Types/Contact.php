@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $companyName
  * @property \DTS\eBaySDK\Fulfillment\Types\Address $contactAddress
  * @property string $fullName

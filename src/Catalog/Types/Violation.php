@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Types\ViolationAspectValues[] $aspectsValues
  * @property \DTS\eBaySDK\Catalog\Types\ViolationProductAttribute $productAttribute
  * @property integer $reason

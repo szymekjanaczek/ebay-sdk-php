@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $creation_date_range_from
  * @property string $creation_date_range_to
  * @property string $item_id

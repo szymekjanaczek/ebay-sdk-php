@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\SearchStandingDashboardType $SearchStanding
  * @property \DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType $SellerFeeDiscount
  * @property \DTS\eBaySDK\Trading\Types\PowerSellerDashboardType $PowerSellerStatus

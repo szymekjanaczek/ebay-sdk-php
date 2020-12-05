@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
  */
 class GetEBPCaseDetailRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property string $propertyName
  * @property \DTS\eBaySDK\Product\Types\Value[] $value
  */

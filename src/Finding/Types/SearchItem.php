@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property string $itemId
  * @property string $title
  * @property string $globalId

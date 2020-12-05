@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $localizedAspectValue
  * @property integer $matchCount
  * @property string $refinementHref

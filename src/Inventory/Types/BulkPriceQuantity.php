@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\PriceQuantity[] $requests
  */
 class BulkPriceQuantity extends \DTS\eBaySDK\Types\BaseType

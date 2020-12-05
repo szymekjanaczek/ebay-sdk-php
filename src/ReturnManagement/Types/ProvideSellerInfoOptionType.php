@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
-/**
- *
- */
 class ProvideSellerInfoOptionType extends \DTS\eBaySDK\ReturnManagement\Types\BaseActivityOptionType
 {
     /**

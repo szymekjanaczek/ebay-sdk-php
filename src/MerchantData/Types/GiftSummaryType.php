@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $Message
  */
 class GiftSummaryType extends \DTS\eBaySDK\Types\BaseType

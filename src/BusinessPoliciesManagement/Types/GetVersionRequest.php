@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
-/**
- *
- */
 class GetVersionRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
 {
     /**

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class DepositSupportedDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

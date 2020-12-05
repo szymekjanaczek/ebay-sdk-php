@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property boolean $lifetime
  * @property \DTS\eBaySDK\Account\Types\TimeDuration $timeDuration
  */

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
-/**
- *
- */
 class BaseServiceRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**

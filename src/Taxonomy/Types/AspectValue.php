@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property string $localizedValue
  * @property \DTS\eBaySDK\Taxonomy\Types\ValueConstraint[] $valueConstraints
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\PaymentTransactionType[] $Payment
  */
 class PaymentInformationType extends \DTS\eBaySDK\Types\BaseType

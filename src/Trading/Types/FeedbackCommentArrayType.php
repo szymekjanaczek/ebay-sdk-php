@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string[] $StoredCommentText
  */
 class FeedbackCommentArrayType extends \DTS\eBaySDK\Types\BaseType

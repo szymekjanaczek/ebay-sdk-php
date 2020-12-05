@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $eligible
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $endTime
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $startTime

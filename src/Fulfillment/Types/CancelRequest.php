@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $cancelCompletedDate
  * @property string $cancelInitiator
  * @property string $cancelReason

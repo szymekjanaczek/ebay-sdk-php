@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\Address $address
  * @property \DTS\eBaySDK\Inventory\Types\GeoCoordinates $geoCoordinates
  * @property string $locationId

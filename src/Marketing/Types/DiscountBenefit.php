@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\Amount $amountOffItem
  * @property \DTS\eBaySDK\Marketing\Types\Amount $amountOffOrder
  * @property string $percentageOffItem

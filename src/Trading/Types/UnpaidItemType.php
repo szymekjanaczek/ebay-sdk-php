@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemCaseStatusTypeCodeType $Status
  * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType $Type
  */

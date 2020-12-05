@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\ValType[] $Value
  * @property integer $attributeID
  * @property string $attributeLabel

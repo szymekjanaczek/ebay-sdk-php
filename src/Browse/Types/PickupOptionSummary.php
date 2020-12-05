@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $pickupLocationType
  */
 class PickupOptionSummary extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Finding\Types\SearchResult $searchResult
  * @property \DTS\eBaySDK\Finding\Types\PaginationOutput $paginationOutput
  * @property string $itemSearchURL

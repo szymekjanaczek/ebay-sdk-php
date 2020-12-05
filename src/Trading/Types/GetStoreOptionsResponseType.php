@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\StoreThemeArrayType $BasicThemeArray
  * @property \DTS\eBaySDK\Trading\Types\StoreThemeArrayType $AdvancedThemeArray
  * @property \DTS\eBaySDK\Trading\Types\StoreLogoArrayType $LogoArray

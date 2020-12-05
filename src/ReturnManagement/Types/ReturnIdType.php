@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property string $id
  */
 class ReturnIdType extends \DTS\eBaySDK\Types\BaseType

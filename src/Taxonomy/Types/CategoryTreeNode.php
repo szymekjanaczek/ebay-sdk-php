@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Taxonomy\Types\Category $category
  * @property integer $categoryTreeNodeLevel
  * @property \DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode[] $childCategoryTreeNodes

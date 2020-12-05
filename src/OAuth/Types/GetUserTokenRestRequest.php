@@ -3,7 +3,6 @@
 namespace DTS\eBaySDK\OAuth\Types;
 
 /**
- *
  * @property string $grant_type
  * @property string $redirect_uri
  * @property string $code

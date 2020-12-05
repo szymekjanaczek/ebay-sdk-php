@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DateTime $EndTime
  */
 class EndItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

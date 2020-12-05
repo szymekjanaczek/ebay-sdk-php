@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedAdjustmentAmount

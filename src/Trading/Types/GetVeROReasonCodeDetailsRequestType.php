@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $ReasonCodeID
  * @property boolean $ReturnAllSites
  */

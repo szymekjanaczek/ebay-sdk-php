@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\InventoryItem[] $excludeInventoryItems
  * @property string[] $excludeListingIds
  * @property \DTS\eBaySDK\Marketing\Types\SelectionRule[] $selectionRules

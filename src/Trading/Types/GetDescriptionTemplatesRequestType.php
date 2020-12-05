@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $CategoryID
  * @property \DateTime $LastModifiedTime
  * @property boolean $MotorVehicles

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property boolean $autoSelectFutureInventory
  * @property \DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum $criterionType
  * @property \DTS\eBaySDK\Marketing\Types\SelectionRule[] $selectionRules

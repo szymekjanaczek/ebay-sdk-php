@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $returnPolicyId
  */
 class GetAReturnPolicyByIDRestRequest extends \DTS\eBaySDK\Types\BaseType

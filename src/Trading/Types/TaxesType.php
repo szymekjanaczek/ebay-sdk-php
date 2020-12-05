@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalTaxAmount
  * @property \DTS\eBaySDK\Trading\Types\TaxDetailsType[] $TaxDetails
  */

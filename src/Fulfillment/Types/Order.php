@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\Buyer $buyer
  * @property string $buyerCheckoutNotes
  * @property \DTS\eBaySDK\Fulfillment\Types\CancelStatus $cancelStatus

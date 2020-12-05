@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string[] $annotationKeys
  * @property string $dimensionKey
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
  */
 class GetSellingManagerSaleRecordResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

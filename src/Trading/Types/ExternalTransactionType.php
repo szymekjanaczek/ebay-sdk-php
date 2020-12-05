@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ExternalTransactionID
  * @property \DateTime $ExternalTransactionTime
  * @property \DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount

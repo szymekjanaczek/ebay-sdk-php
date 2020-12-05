@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ItemID
  * @property string $UserID
  * @property boolean $IncludeFeatureEligibility

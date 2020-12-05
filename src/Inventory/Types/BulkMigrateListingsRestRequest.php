@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
-/**
- *
- */
 class BulkMigrateListingsRestRequest extends \DTS\eBaySDK\Inventory\Types\BulkMigrateListing
 {
     /**

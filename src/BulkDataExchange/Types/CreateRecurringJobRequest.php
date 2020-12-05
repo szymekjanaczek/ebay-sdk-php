@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $UUID
  * @property \DTS\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter $downloadJobRecurringFilter
  * @property integer $frequencyInMinutes

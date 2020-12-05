@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\ListDataType[] $dataList
  * @property \DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType $dataRange
  * @property boolean $isEbayPlus

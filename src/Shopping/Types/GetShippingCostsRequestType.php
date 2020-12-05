@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $ItemID
  * @property integer $QuantitySold
  * @property string $DestinationPostalCode

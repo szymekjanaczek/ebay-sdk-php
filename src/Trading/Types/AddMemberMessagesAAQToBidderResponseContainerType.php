@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $CorrelationID
  * @property \DTS\eBaySDK\Trading\Enums\AckCodeType $Ack
  */

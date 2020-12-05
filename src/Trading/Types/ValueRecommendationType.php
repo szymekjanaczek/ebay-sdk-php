@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $Value
  * @property \DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType $ValidationRules
  */

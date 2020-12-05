@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Finding\Types\Condition $condition
  * @property integer $count
  */

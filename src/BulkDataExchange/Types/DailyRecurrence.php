@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $timeOfDay
  */
 class DailyRecurrence extends \DTS\eBaySDK\Types\BaseType

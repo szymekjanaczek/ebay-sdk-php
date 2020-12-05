@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\MultiLegShippingServiceType $ShippingServiceDetails
  * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShipToAddress
  * @property integer $ShippingTimeMin

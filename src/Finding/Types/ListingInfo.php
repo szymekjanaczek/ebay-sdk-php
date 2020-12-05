@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property boolean $bestOfferEnabled
  * @property boolean $buyItNowAvailable
  * @property \DTS\eBaySDK\Finding\Types\Amount $buyItNowPrice

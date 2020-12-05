@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
- *
  * @property integer $errorId
  * @property string $domain
  * @property \DTS\eBaySDK\Merchandising\Enums\ErrorSeverity $severity

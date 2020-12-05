@@ -8,7 +8,7 @@ namespace DTS\eBaySDK;
 class ConfigurationResolver
 {
     /**
-     * @var array $definitions Definitions for each configuration option.
+     * @var array Definitions for each configuration option.
      */
     private $definitions;
 

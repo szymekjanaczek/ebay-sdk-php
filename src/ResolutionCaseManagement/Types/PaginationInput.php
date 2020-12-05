@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property integer $pageNumber
  * @property integer $entriesPerPage
  */

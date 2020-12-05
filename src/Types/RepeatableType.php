@@ -38,7 +38,6 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
     private $expectedType;
 
     /**
-     *
      * @param string $class The name of the class that the property is a member of.
      * @param string $property The name of the property that acts like an array.
      * @param string $expectedType The type that values assigned to the array should be.

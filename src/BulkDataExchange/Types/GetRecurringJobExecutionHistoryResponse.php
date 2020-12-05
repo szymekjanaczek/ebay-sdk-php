@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\BulkDataExchange\Types\JobProfile[] $jobProfile
  */
 class GetRecurringJobExecutionHistoryResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse

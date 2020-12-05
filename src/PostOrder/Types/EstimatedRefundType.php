@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $estimatedAmount
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $maxAmount
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $minAmount

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $offerId
  */
 class UpdateOfferRestRequest extends \DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithId

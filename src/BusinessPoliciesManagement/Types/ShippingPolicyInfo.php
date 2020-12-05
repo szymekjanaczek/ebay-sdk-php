@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property string $shippingPolicyName
  * @property string $domesticShippingType
  * @property string $intlShippingType

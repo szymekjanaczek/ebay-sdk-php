@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $CharityID
  * @property string $CharityName
  * @property string $Query

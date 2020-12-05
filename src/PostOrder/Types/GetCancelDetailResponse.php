@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\CancelDetail $cancelDetail
  */
 class GetCancelDetailResponse extends \DTS\eBaySDK\Types\BaseType

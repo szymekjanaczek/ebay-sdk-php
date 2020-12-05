@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class CheckInquiryEligibilityRestRequest extends \DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRequest
 {
     /**

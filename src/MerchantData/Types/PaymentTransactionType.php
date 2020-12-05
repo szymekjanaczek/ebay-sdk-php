@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $PaymentStatus
  * @property \DTS\eBaySDK\MerchantData\Types\UserIdentityType $Payer
  * @property \DTS\eBaySDK\MerchantData\Types\UserIdentityType $Payee

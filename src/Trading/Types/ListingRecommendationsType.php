@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationType[] $Recommendation
  */
 class ListingRecommendationsType extends \DTS\eBaySDK\Types\BaseType

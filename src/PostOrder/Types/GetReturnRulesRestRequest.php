@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $fieldgroups
  */
 class GetReturnRulesRestRequest extends \DTS\eBaySDK\Types\BaseType

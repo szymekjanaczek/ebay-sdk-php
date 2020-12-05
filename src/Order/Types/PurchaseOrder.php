@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
  * @property \DTS\eBaySDK\Order\Types\PaymentInstrument $paymentInstrument
  * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary

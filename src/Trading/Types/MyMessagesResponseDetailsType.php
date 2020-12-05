@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $ResponseEnabled
  * @property string $ResponseURL
  * @property \DateTime $UserResponseDate

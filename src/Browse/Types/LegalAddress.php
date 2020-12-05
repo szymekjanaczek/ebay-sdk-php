@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $addressLine1
  * @property string $addressLine2
  * @property string $city

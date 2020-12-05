@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $aspectHelpText
  * @property \DTS\eBaySDK\Catalog\Types\ProductAspectConstraint $constraint
  * @property boolean $droppable

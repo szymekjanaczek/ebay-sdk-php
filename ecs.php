@@ -24,5 +24,5 @@ return static function (ContainerConfigurator $containerConfigurator): void {
 
     // B. full sets
     $parameters = $containerConfigurator->parameters();
-    $parameters->set(Option::SETS, [SetList::PSR_1, SetList::PSR_12, SetList::ARRAY]);
+    $parameters->set(Option::SETS, [SetList::PSR_1, SetList::PSR_12, SetList::ARRAY, SetList::DOCBLOCK]);
 };

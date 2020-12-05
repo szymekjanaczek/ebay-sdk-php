@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $propertyFilter
  * @property string $AAIA
  * @property string $HSNTSN

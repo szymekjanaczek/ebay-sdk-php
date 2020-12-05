@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $categoryId
  * @property \DTS\eBaySDK\Browse\Types\FilterField[] $filters
  */

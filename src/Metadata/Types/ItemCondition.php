@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Metadata\Types;
 
 /**
- *
  * @property string $conditionDescription
  * @property string $conditionId
  */

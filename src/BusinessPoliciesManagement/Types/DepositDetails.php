@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property integer $daysToFullPayment
  * @property integer $hoursToDeposit
  * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $depositAmount

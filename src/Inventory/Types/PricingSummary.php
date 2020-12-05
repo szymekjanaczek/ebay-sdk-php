@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\Amount $minimumAdvertisedPrice
  * @property \DTS\eBaySDK\Inventory\Enums\SoldOnEnum $originallySoldForRetailPriceOn
  * @property \DTS\eBaySDK\Inventory\Types\Amount $originalRetailPrice

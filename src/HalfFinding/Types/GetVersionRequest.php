@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
-/**
- *
- */
 class GetVersionRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
 {
     /**

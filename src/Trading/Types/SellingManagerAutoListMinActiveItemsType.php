@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $MinActiveItemCount
  * @property string $ListTimeFrom
  * @property string $ListTimeTo

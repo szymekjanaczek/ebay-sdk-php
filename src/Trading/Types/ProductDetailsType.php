@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ProductIdentifierUnavailableText
  */
 class ProductDetailsType extends \DTS\eBaySDK\Types\BaseType

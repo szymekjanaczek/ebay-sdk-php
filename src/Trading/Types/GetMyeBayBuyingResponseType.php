@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\BuyingSummaryType $BuyingSummary
  * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $WatchList
  * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList

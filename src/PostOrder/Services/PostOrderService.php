@@ -884,7 +884,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestResponse
      */
     public function approveCancellationRequest(\DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest $request)
@@ -893,7 +892,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function approveCancellationRequestAsync(\DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest $request)
@@ -902,7 +900,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestResponse
      */
     public function checkCancellationEligibility(\DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest $request)
@@ -911,7 +908,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function checkCancellationEligibilityAsync(\DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest $request)
@@ -920,7 +916,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestResponse
      */
     public function confirmCancellationRefund(\DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest $request)
@@ -929,7 +924,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function confirmCancellationRefundAsync(\DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest $request)
@@ -938,7 +932,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetCancellationRestResponse
      */
     public function getCancellation(\DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest $request)
@@ -947,7 +940,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getCancellationAsync(\DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest $request)
@@ -956,7 +948,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestResponse
      */
     public function rejectCancellationRequest(\DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest $request)
@@ -965,7 +956,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function rejectCancellationRequestAsync(\DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest $request)
@@ -974,7 +964,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestResponse
      */
     public function searchCancellations(\DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest $request)
@@ -983,7 +972,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchCancellationsAsync(\DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest $request)
@@ -992,7 +980,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestResponse
      */
     public function submitCancellationRequest(\DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest $request)
@@ -1001,7 +988,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function submitCancellationRequestAsync(\DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest $request)
@@ -1010,7 +996,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestResponse
      */
     public function appealCaseDecision(\DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest $request)
@@ -1019,7 +1004,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function appealCaseDecisionAsync(\DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest $request)
@@ -1028,7 +1012,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CloseCaseRestResponse
      */
     public function closeCase(\DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest $request)
@@ -1037,7 +1020,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function closeCaseAsync(\DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest $request)
@@ -1046,7 +1028,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetCaseRestResponse
      */
     public function getCase(\DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest $request)
@@ -1055,7 +1036,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getCaseAsync(\DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest $request)
@@ -1064,7 +1044,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestResponse
      */
     public function issueCaseRefund(\DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest $request)
@@ -1073,7 +1052,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function issueCaseRefundAsync(\DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest $request)
@@ -1082,7 +1060,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestResponse
      */
     public function provideReturnShipmentInfo(\DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest $request)
@@ -1091,7 +1068,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function provideReturnShipmentInfoAsync(\DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest $request)
@@ -1100,7 +1076,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestResponse
      */
     public function providesReturnAddress(\DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest $request)
@@ -1109,7 +1084,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function providesReturnAddressAsync(\DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest $request)
@@ -1118,7 +1092,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SearchCasesRestResponse
      */
     public function searchCases(\DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest $request)
@@ -1127,7 +1100,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchCasesAsync(\DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest $request)
@@ -1136,7 +1108,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestResponse
      */
     public function checkInquiryEligibility(\DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest $request)
@@ -1145,7 +1116,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function checkInquiryEligibilityAsync(\DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest $request)
@@ -1154,7 +1124,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CloseInquiryRestResponse
      */
     public function closeInquiry(\DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest $request)
@@ -1163,7 +1132,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function closeInquiryAsync(\DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest $request)
@@ -1172,7 +1140,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestResponse
      */
     public function confirmInquiryRefund(\DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest $request)
@@ -1181,7 +1148,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function confirmInquiryRefundAsync(\DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest $request)
@@ -1190,7 +1156,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CreateInquiryRestResponse
      */
     public function createInquiry(\DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest $request)
@@ -1199,7 +1164,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createInquiryAsync(\DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest $request)
@@ -1208,7 +1172,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestResponse
      */
     public function escalateInquiry(\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest $request)
@@ -1217,7 +1180,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function escalateInquiryAsync(\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest $request)
@@ -1226,7 +1188,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetInquiryRestResponse
      */
     public function getInquiry(\DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest $request)
@@ -1235,7 +1196,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getInquiryAsync(\DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest $request)
@@ -1244,7 +1204,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestResponse
      */
     public function issueInquiryRefund(\DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest $request)
@@ -1253,7 +1212,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function issueInquiryRefundAsync(\DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest $request)
@@ -1262,7 +1220,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestResponse
      */
     public function provideInquiryRefundInfo(\DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest $request)
@@ -1271,7 +1228,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function provideInquiryRefundInfoAsync(\DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest $request)
@@ -1280,7 +1236,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestResponse
      */
     public function provideInquiryShipmentInfo(\DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest $request)
@@ -1289,7 +1244,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function provideInquiryShipmentInfoAsync(\DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest $request)
@@ -1298,7 +1252,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestResponse
      */
     public function searchInquiries(\DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest $request)
@@ -1307,7 +1260,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchInquiriesAsync(\DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest $request)
@@ -1316,7 +1268,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestResponse
      */
     public function sendInquiryMessage(\DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest $request)
@@ -1325,7 +1276,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function sendInquiryMessageAsync(\DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest $request)
@@ -1334,7 +1284,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestResponse
      */
     public function addShippingLabelInfo(\DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest $request)
@@ -1343,7 +1292,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function addShippingLabelInfoAsync(\DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest $request)
@@ -1352,7 +1300,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestResponse
      */
     public function cancelReturnRequest(\DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest $request)
@@ -1361,7 +1308,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function cancelReturnRequestAsync(\DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest $request)
@@ -1370,7 +1316,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse
      */
     public function checkReturnEligibility(\DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest $request)
@@ -1379,7 +1324,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function checkReturnEligibilityAsync(\DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest $request)
@@ -1388,7 +1332,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestResponse
      */
     public function checkShippingLabelEligibility(\DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest $request)
@@ -1397,7 +1340,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function checkShippingLabelEligibilityAsync(\DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest $request)
@@ -1406,7 +1348,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestResponse
      */
     public function createReturnDraft(\DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest $request)
@@ -1415,7 +1356,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createReturnDraftAsync(\DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest $request)
@@ -1424,7 +1364,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestResponse
      */
     public function createReturnRequest(\DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest $request)
@@ -1433,7 +1372,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createReturnRequestAsync(\DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest $request)
@@ -1442,7 +1380,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestResponse
      */
     public function createReturnShippingLabel(\DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest $request)
@@ -1451,7 +1388,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createReturnShippingLabelAsync(\DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest $request)
@@ -1460,7 +1396,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestResponse
      */
     public function deleteReturnDraftFile(\DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest $request)
@@ -1469,7 +1404,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteReturnDraftFileAsync(\DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest $request)
@@ -1478,7 +1412,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestResponse
      */
     public function deleteReturnFile(\DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest $request)
@@ -1487,7 +1420,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteReturnFileAsync(\DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest $request)
@@ -1496,7 +1428,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\EscalateReturnRestResponse
      */
     public function escalateReturn(\DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest $request)
@@ -1505,7 +1436,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function escalateReturnAsync(\DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest $request)
@@ -1514,7 +1444,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRestResponse
      */
     public function getReturn(\DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest $request)
@@ -1523,7 +1452,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest $request)
@@ -1532,7 +1460,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestResponse
      */
     public function getReturnDraft(\DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest $request)
@@ -1541,7 +1468,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnDraftAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest $request)
@@ -1550,7 +1476,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestResponse
      */
     public function getReturnDraftFiles(\DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest $request)
@@ -1559,7 +1484,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnDraftFilesAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest $request)
@@ -1568,7 +1492,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestResponse
      */
     public function getReturnEstimate(\DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest $request)
@@ -1577,7 +1500,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnEstimateAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest $request)
@@ -1586,7 +1508,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestResponse
      */
     public function getReturnFiles(\DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest $request)
@@ -1595,7 +1516,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnFilesAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest $request)
@@ -1604,7 +1524,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse
      */
     public function getReturnMetadata(\DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest $request)
@@ -1613,7 +1532,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnMetadataAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest $request)
@@ -1638,7 +1556,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestResponse
      */
     public function getReturnShippingLabel(\DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest $request)
@@ -1647,7 +1564,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnShippingLabelAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest $request)
@@ -1656,7 +1572,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestResponse
      */
     public function getShipmentTracking(\DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest $request)
@@ -1665,7 +1580,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getShipmentTrackingAsync(\DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest $request)
@@ -1674,7 +1588,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestResponse
      */
     public function issueReturnRefund(\DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest $request)
@@ -1683,7 +1596,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function issueReturnRefundAsync(\DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest $request)
@@ -1692,7 +1604,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestResponse
      */
     public function markReturnReceived(\DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest $request)
@@ -1701,7 +1612,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function markReturnReceivedAsync(\DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest $request)
@@ -1710,7 +1620,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestResponse
      */
     public function markReturnRefundReceived(\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest $request)
@@ -1719,7 +1628,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function markReturnRefundReceivedAsync(\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest $request)
@@ -1728,7 +1636,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestResponse
      */
     public function markReturnRefundSent(\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest $request)
@@ -1737,7 +1644,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function markReturnRefundSentAsync(\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest $request)
@@ -1746,7 +1652,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestResponse
      */
     public function markReturnShipped(\DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest $request)
@@ -1755,7 +1660,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function markReturnShippedAsync(\DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest $request)
@@ -1764,7 +1668,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestResponse
      */
     public function processReturnRequest(\DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest $request)
@@ -1773,7 +1676,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function processReturnRequestAsync(\DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest $request)
@@ -1782,7 +1684,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SearchReturnsRestResponse
      */
     public function searchReturns(\DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest $request)
@@ -1791,7 +1692,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchReturnsAsync(\DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest $request)
@@ -1800,7 +1700,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestResponse
      */
     public function sendReturnMessage(\DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest $request)
@@ -1809,7 +1708,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function sendReturnMessageAsync(\DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest $request)
@@ -1818,7 +1716,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestResponse
      */
     public function sendReturnShippingLabel(\DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest $request)
@@ -1827,7 +1724,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function sendReturnShippingLabelAsync(\DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest $request)
@@ -1836,7 +1732,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestResponse
      */
     public function setReturnPreferences(\DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest $request)
@@ -1845,7 +1740,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function setReturnPreferencesAsync(\DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest $request)
@@ -1854,7 +1748,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestResponse
      */
     public function submitReturnFile(\DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest $request)
@@ -1863,7 +1756,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function submitReturnFileAsync(\DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest $request)
@@ -1872,7 +1764,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestResponse
      */
     public function updateReturnDraft(\DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest $request)
@@ -1881,7 +1772,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateReturnDraftAsync(\DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest $request)
@@ -1890,7 +1780,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestResponse
      */
     public function updateShipmentTracking(\DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest $request)
@@ -1899,7 +1788,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateShipmentTrackingAsync(\DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest $request)
@@ -1908,7 +1796,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestResponse
      */
     public function uploadReturnDraftFile(\DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest $request)
@@ -1917,7 +1804,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function uploadReturnDraftFileAsync(\DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest $request)
@@ -1926,7 +1812,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestResponse
      */
     public function uploadReturnFile(\DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest $request)
@@ -1935,7 +1820,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function uploadReturnFileAsync(\DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest $request)
@@ -1944,7 +1828,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestResponse
      */
     public function voidShippingLabel(\DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest $request)
@@ -1953,7 +1836,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function voidShippingLabelAsync(\DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest $request)
@@ -1962,7 +1844,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CreateCustomListRestResponse
      */
     public function createCustomList(\DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest $request)
@@ -1971,7 +1852,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createCustomListAsync(\DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest $request)
@@ -1980,7 +1860,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestResponse
      */
     public function createReturnRules(\DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest $request)
@@ -1989,7 +1868,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createReturnRulesAsync(\DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest $request)
@@ -2062,7 +1940,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestResponse
      */
     public function getReturnRule(\DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest $request)
@@ -2071,7 +1948,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnRuleAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest $request)
@@ -2080,7 +1956,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestResponse
      */
     public function getReturnRuleHistory(\DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest $request)
@@ -2089,7 +1964,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnRuleHistoryAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest $request)
@@ -2098,7 +1972,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestResponse
      */
     public function getReturnRules(\DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest $request)
@@ -2107,7 +1980,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReturnRulesAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest $request)
@@ -2116,7 +1988,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestResponse
      */
     public function updateCustomList(\DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest $request)
@@ -2125,7 +1996,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateCustomListAsync(\DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest $request)
@@ -2134,7 +2004,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest $request
      * @return \DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestResponse
      */
     public function updateReturnRules(\DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest $request)
@@ -2143,7 +2012,6 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateReturnRulesAsync(\DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest $request)

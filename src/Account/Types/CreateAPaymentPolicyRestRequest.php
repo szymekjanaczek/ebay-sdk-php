@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
-/**
- *
- */
 class CreateAPaymentPolicyRestRequest extends \DTS\eBaySDK\Account\Types\PaymentPolicyRequest
 {
     /**

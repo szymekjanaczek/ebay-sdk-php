@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feed\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Feed\Types\ItemFeed[] $itemFeeds
  */
 class ItemFeedResponse extends \DTS\eBaySDK\Types\BaseType

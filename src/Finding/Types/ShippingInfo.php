@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Finding\Types\Amount $shippingServiceCost
  * @property string $shippingType
  * @property string[] $shipToLocations

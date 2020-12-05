@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\ProductResponse[] $productSearchResult
  */
 class FindProductsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse

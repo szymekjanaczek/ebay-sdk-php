@@ -48,7 +48,6 @@ class FeedService extends \DTS\eBaySDK\Feed\Services\FeedBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest $request
      * @return \DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse
      */
     public function getItemFeed(\DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest $request)
@@ -57,7 +56,6 @@ class FeedService extends \DTS\eBaySDK\Feed\Services\FeedBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getItemFeedAsync(\DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest $request)

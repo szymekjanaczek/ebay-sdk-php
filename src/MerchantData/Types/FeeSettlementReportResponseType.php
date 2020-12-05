@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $InvoiceID
  * @property string $SellerID
  * @property string $AccountID

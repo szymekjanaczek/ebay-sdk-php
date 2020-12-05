@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $SessionID
  */
 class ConfirmIdentityRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

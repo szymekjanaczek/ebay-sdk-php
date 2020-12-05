@@ -136,7 +136,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request
      * @return \DTS\eBaySDK\Catalog\Types\GetProductRestResponse
      */
     public function getProduct(\DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request)
@@ -145,7 +144,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getProductAsync(\DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request)
@@ -154,7 +152,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\SearchRestRequest $request
      * @return \DTS\eBaySDK\Catalog\Types\SearchRestResponse
      */
     public function search(\DTS\eBaySDK\Catalog\Types\SearchRestRequest $request)
@@ -163,7 +160,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\SearchRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchAsync(\DTS\eBaySDK\Catalog\Types\SearchRestRequest $request)
@@ -172,7 +168,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request
      * @return \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestResponse
      */
     public function getProductMetadata(\DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request)
@@ -181,7 +176,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getProductMetadataAsync(\DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request)
@@ -190,7 +184,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request
      * @return \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestResponse
      */
     public function getProductMetadataForCategories(\DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request)
@@ -199,7 +192,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getProductMetadataForCategoriesAsync(\DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request)
@@ -208,7 +200,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request
      * @return \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestResponse
      */
     public function getChangeRequest(\DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request)
@@ -217,7 +208,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getChangeRequestAsync(\DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request)
@@ -226,7 +216,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request
      * @return \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestResponse
      */
     public function getChangeRequests(\DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request)
@@ -235,7 +224,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getChangeRequestsAsync(\DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request)
@@ -244,7 +232,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request
      * @return \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestResponse
      */
     public function createChangeRequest(\DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request)
@@ -253,7 +240,6 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createChangeRequestAsync(\DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request)

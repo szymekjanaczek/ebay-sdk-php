@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Browse\Types\Image[] $itemGroupAdditionalImages
  * @property string $itemGroupHref
  * @property string $itemGroupId

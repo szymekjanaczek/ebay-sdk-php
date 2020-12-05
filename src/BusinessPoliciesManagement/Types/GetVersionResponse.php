@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
-/**
- *
- */
 class GetVersionResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
 {
     /**

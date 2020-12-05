@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
- *
  * @property string $paramName
  * @property string $paramValue
  * @property \DTS\eBaySDK\Merchandising\Enums\ItemFilterType $name

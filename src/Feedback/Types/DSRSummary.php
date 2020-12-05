@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feedback\Types;
 
 /**
- *
  * @property string $DSRType
  * @property double $DSRAverage
  * @property integer $totalRatingCount

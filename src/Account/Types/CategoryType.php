@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property boolean $default
  * @property \DTS\eBaySDK\Account\Enums\CategoryTypeEnum $name
  */

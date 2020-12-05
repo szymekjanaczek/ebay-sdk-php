@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType $ItemTransactionIDArray
  * @property \DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
  * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform

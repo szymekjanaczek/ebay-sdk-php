@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string[] $Duration
  */
 class StoreOwnerExtendedListingDurationsType extends \DTS\eBaySDK\Types\BaseType

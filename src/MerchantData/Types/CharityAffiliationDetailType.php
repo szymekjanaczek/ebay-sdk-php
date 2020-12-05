@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $CharityID
  * @property \DTS\eBaySDK\MerchantData\Enums\CharityAffiliationTypeCodeType $AffiliationType
  * @property \DateTime $LastUsedTime

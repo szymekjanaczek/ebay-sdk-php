@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
-/**
- *
- */
 class BaseServiceRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**

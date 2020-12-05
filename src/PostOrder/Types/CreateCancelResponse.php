@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $cancelId
  * @property \DTS\eBaySDK\PostOrder\Types\OrderEligibilityResult $orderEligibilityResult
  */

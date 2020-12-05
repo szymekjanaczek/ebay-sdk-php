@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Taxonomy\Types\CategorySuggestion[] $categorySuggestions
  * @property string $categoryTreeId
  * @property string $categoryTreeVersion

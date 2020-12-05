@@ -23,7 +23,6 @@ class FileTransferService extends \DTS\eBaySDK\FileTransfer\Services\FileTransfe
     }
 
     /**
-     * @param \DTS\eBaySDK\FileTransfer\Types\UploadFileRequest $request
      * @return \DTS\eBaySDK\FileTransfer\Types\UploadFileResponse
      */
     public function uploadFile(\DTS\eBaySDK\FileTransfer\Types\UploadFileRequest $request)
@@ -32,7 +31,6 @@ class FileTransferService extends \DTS\eBaySDK\FileTransfer\Services\FileTransfe
     }
 
     /**
-     * @param \DTS\eBaySDK\FileTransfer\Types\UploadFileRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function uploadFileAsync(\DTS\eBaySDK\FileTransfer\Types\UploadFileRequest $request)
@@ -45,7 +43,6 @@ class FileTransferService extends \DTS\eBaySDK\FileTransfer\Services\FileTransfe
     }
 
     /**
-     * @param \DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest $request
      * @return \DTS\eBaySDK\FileTransfer\Types\DownloadFileResponse
      */
     public function downloadFile(\DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest $request)
@@ -54,7 +51,6 @@ class FileTransferService extends \DTS\eBaySDK\FileTransfer\Services\FileTransfe
     }
 
     /**
-     * @param \DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function downloadFileAsync(\DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest $request)

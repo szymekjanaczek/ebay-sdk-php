@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Shopping\Types\SimpleItemType[] $Item
  */
 class GetMultipleItemsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType

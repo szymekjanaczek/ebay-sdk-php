@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property string $id
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType $type
  */

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class AttributeConversionEnabledFeatureDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

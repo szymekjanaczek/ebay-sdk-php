@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\AppealDetails $appealDetails
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $escalationDate

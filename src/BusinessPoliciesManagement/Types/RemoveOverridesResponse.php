@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
-/**
- *
- */
 class RemoveOverridesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
 {
     /**

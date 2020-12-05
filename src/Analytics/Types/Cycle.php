@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Analytics\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Analytics\Enums\CycleTypeEnum $cycleType
  * @property string $evaluationDate
  * @property string $evaluationMonth

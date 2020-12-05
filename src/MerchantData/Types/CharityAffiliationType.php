@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $id
  * @property \DTS\eBaySDK\MerchantData\Enums\CharityAffiliationTypeCodeType $type
  */

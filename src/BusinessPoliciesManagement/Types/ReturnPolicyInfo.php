@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property string $description
  * @property string $refundOption
  * @property string $shippingCostPaidByOption

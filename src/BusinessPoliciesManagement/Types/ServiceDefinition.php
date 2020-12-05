@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property string $superscript
  * @property integer $maxDeliveryServiceDefinition
  * @property integer $minDeliveryServiceDefinition

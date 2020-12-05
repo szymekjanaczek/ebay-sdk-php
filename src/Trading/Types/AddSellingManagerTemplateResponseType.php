@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $CategoryID
  * @property integer $Category2ID
  * @property integer $SaleTemplateID

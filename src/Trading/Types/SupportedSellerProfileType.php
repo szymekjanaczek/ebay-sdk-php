@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $ProfileID
  * @property string $ProfileType
  * @property string $ProfileName

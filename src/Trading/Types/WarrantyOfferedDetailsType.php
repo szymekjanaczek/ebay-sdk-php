@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $WarrantyOfferedOption
  * @property string $Description
  */

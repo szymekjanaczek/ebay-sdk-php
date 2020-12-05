@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $DeliveryMethod
  * @property \DTS\eBaySDK\MerchantData\Types\DeliveryStatusType $DeliveryStatus
  * @property \DTS\eBaySDK\MerchantData\Types\DeliveryDetailsType $DeliveryDetails

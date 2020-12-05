@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
-/**
- *
- */
 class CreateAReturnPolicyRestRequest extends \DTS\eBaySDK\Account\Types\ReturnPolicyRequest
 {
     /**

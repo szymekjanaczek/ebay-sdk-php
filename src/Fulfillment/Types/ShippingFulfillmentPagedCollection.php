@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment[] $fulfillments
  * @property integer $total
  * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings

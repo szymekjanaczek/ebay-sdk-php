@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProduct[] $relatedProduct
  * @property string $groupName
  * @property integer $rank

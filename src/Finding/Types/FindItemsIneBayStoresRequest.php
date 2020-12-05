@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property string $keywords
  * @property string $storeName
  * @property \DTS\eBaySDK\Finding\Types\ItemFilter[] $itemFilter

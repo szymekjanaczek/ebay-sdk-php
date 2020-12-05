@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
-/**
- *
- */
 class DomainFilter extends \DTS\eBaySDK\Types\BaseType
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string[] $brands
  * @property string[] $categoryIds
  * @property \DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum $categoryScope

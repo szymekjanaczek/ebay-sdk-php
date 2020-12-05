@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $BestOfferCount
  * @property boolean $BestOfferEnabled
  * @property \DTS\eBaySDK\Trading\Types\AmountType $BestOffer

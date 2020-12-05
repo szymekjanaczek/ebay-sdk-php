@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class ClassifiedAdContactByAddressEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

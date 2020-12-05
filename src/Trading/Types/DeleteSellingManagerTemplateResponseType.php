@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $DeletedSaleTemplateID
  * @property string $DeletedSaleTemplateName
  */

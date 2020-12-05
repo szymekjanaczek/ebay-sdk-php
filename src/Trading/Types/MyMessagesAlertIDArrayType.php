@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class MyMessagesAlertIDArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

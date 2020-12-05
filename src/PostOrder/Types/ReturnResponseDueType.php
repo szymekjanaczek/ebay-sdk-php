@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $activityDue
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $respondByDate
  */

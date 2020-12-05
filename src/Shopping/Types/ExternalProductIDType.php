@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $Value
  * @property boolean $ReturnSearchResultOnDuplicates
  * @property \DTS\eBaySDK\Shopping\Enums\ExternalProductCodeType $Type

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property string $id
  * @property \DTS\eBaySDK\ReturnManagement\Enums\CaseType $type
  */

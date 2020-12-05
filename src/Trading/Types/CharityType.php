@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $CharityName
  * @property integer $CharityNumber
  * @property double $DonationPercent

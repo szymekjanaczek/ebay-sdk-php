@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $LinkID
  * @property integer $Order
  * @property \DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType $LinkType

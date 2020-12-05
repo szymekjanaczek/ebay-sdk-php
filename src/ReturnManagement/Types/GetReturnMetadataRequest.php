@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Enums\MetadataCodeType[] $metadataEntryCode
  */
 class GetReturnMetadataRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest

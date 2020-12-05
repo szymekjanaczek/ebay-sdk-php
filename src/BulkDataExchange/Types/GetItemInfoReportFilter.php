@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType $jobAction
  * @property \DTS\eBaySDK\BulkDataExchange\Enums\ItemEventType $filterType
  * @property boolean $includeAttributes

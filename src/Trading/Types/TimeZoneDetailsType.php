@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $TimeZoneID
  * @property string $StandardLabel
  * @property string $StandardOffset

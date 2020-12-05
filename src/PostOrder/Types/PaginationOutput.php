@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $limit
  * @property integer $offset
  * @property integer $totalEntries

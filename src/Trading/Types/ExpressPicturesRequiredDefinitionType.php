@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class ExpressPicturesRequiredDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

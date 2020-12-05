@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $uploadJobType
  * @property string $UUID
  * @property \DTS\eBaySDK\BulkDataExchange\Enums\FileType $fileType

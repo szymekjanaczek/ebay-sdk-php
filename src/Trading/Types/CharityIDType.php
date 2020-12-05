@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType $type
  */
 class CharityIDType extends \DTS\eBaySDK\Types\StringType

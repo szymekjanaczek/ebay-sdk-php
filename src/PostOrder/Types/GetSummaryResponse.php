@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\CountSummaryType[] $countSummary
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType[] $members
  * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput

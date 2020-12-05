@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property string $productSubmissionId
  * @property \DTS\eBaySDK\Product\Enums\ProductSubmissionStatusCode $statusCode
  * @property string[] $ePID

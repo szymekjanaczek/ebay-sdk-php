@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feedback\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Feedback\Types\DSRSummary[] $DSRSummary
  * @property integer $totalTransactionCount
  */

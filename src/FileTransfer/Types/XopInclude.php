@@ -3,7 +3,6 @@
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
- *
  * @property string href
  */
 class XopInclude extends \DTS\eBaySDK\Types\BaseType

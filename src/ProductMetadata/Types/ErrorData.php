@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property integer $errorId
  * @property string $domain
  * @property string $subdomain

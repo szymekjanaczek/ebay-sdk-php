@@ -9,17 +9,17 @@ namespace DTS\eBaySDK\Credentials;
 class Credentials implements \DTS\eBaySDK\Credentials\CredentialsInterface
 {
     /**
-     * @var string $appId Application ID
+     * @var string Application ID
      */
     private $appId;
 
     /**
-     * @var string $certId Certificate ID
+     * @var string Certificate ID
      */
     private $certId;
 
     /**
-     * @var string $devId Developer ID
+     * @var string Developer ID
      */
     private $devId;
 

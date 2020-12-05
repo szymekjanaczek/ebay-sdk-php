@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Types\AspectDistribution[] $aspectDistributions
  * @property string $dominantCategoryId
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Browse\Types\Region $region
  * @property string $taxJurisdictionId
  */

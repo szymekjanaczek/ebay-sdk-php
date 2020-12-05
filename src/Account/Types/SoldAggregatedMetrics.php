@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\Amount $maxSoldInventoryValue
  * @property integer $maxSoldQuantity
  * @property \DTS\eBaySDK\Account\Types\Amount $minSoldInventoryValue

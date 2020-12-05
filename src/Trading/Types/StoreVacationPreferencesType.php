@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $OnVacation
  * @property \DateTime $ReturnDate
  * @property boolean $MessageItem

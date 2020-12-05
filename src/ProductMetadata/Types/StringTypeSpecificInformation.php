@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string[] $managedValue
  * @property integer $maximumCharactersAllowed
  */

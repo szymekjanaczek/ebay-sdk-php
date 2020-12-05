@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property string $keywords
  * @property \DTS\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
  * @property \DTS\eBaySDK\Finding\Types\AspectFilter[] $aspectFilter

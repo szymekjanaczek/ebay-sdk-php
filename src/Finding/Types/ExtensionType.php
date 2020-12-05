@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
-/**
- *
- */
 class ExtensionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

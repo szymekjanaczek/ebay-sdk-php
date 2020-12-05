@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $salesTaxPercentage
  * @property boolean $shippingAndHandlingTaxed
  */

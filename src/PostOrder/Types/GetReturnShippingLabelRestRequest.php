@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $return_id
  */
 class GetReturnShippingLabelRestRequest extends \DTS\eBaySDK\Types\BaseType

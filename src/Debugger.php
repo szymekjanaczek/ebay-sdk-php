@@ -8,12 +8,12 @@ namespace DTS\eBaySDK;
 class Debugger
 {
     /**
-     * @var array $config . Debug configuration.
+     * @var array . Debug configuration.
      */
     private $config;
 
     /**
-     * @var array $credentialsStrings . RegExp patterns to remove credentials from the debug info.
+     * @var array . RegExp patterns to remove credentials from the debug info.
      */
     private static $credentialsStrings = [
         '/^(X-EBAY-SOA-SECURITY-TOKEN:.*)?$/im'        => 'X-EBAY-SOA-SECURITY-TOKEN: SECURITY-TOKEN',

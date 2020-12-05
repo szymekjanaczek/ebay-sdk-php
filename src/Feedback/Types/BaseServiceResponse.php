@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feedback\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Feedback\Enums\AckValue $ack
  * @property \DTS\eBaySDK\Feedback\Types\ErrorMessage $errorMessage
  * @property string $version

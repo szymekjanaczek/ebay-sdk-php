@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $returnId
  */
 class SubmitReturnFileRestRequest extends \DTS\eBaySDK\PostOrder\Types\SubmitFileRequest

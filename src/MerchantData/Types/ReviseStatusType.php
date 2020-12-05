@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property boolean $ItemRevised
  * @property boolean $BuyItNowAdded
  * @property boolean $BuyItNowLowered

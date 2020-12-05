@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class LocalMarketSellerContactDetailsEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

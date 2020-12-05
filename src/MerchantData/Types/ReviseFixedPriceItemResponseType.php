@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $ItemID
  * @property string $SKU
  * @property \DateTime $StartTime

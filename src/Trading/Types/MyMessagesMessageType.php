@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $Sender
  * @property string $RecipientUserID
  * @property string $SendToName

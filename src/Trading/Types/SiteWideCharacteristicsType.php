@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class SiteWideCharacteristicsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

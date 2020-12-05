@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
-/**
- *
- */
 class FindHalfProductsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
 {
     /**

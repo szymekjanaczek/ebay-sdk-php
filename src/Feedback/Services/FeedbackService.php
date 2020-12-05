@@ -23,7 +23,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request
      * @return \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
      */
     public function createDSRSummaryByTransaction(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request)
@@ -32,7 +31,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createDSRSummaryByTransactionAsync(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request)
@@ -45,7 +43,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request
      * @return \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
      */
     public function createDSRSummaryByPeriod(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request)
@@ -54,7 +51,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createDSRSummaryByPeriodAsync(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request)
@@ -67,7 +63,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request
      * @return \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
      */
     public function createDSRSummaryByCategory(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request)
@@ -76,7 +71,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createDSRSummaryByCategoryAsync(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request)
@@ -89,7 +83,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request
      * @return \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
      */
     public function createDSRSummaryByShippingDetail(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request)
@@ -98,7 +91,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createDSRSummaryByShippingDetailAsync(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request)
@@ -111,7 +103,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request
      * @return \DTS\eBaySDK\Feedback\Types\GetDSRSummaryResponse
      */
     public function getDSRSummary(\DTS\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request)
@@ -120,7 +111,6 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getDSRSummaryAsync(\DTS\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request)

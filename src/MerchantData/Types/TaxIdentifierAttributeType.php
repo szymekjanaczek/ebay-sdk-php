@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\TaxIdentifierAttributeCodeType $name
  */
 class TaxIdentifierAttributeType extends \DTS\eBaySDK\Types\StringType

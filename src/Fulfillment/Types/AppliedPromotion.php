@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $description
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountAmount
  * @property string $promotionId

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
- *
  * @property integer $errorId
  * @property string $domain
  * @property \DTS\eBaySDK\FileTransfer\Enums\ErrorSeverity $severity

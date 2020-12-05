@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\RelatedItemsManagement\Types\Bundle[] $bundle
  */
 class GetBundlesResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseResponse

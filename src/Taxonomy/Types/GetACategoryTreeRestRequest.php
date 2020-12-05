@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property string $category_tree_id
  */
 class GetACategoryTreeRestRequest extends \DTS\eBaySDK\Types\BaseType

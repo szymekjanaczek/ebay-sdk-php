@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $Name
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $Fee
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PromotionalDiscount

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\CustomListDetailType $customListDetail
  */
 class CreateCustomListRequest extends \DTS\eBaySDK\Types\BaseType

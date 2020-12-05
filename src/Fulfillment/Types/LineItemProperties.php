@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property boolean $buyerProtection
  * @property boolean $fromBestOffer
  */

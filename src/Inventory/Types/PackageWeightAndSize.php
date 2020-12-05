@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\Dimension $dimensions
  * @property \DTS\eBaySDK\Inventory\Enums\PackageTypeEnum $packageType
  * @property \DTS\eBaySDK\Inventory\Types\Weight $weight

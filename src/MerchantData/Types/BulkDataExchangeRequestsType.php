@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataRequestHeaderType $Header
  * @property \DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemRequestType[] $AddFixedPriceItemRequest
  * @property \DTS\eBaySDK\MerchantData\Types\AddItemRequestType[] $AddItemRequest

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string $value
  */
 class StringValue extends \DTS\eBaySDK\Types\BaseType

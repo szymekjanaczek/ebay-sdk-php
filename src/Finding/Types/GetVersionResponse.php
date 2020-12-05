@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
-/**
- *
- */
 class GetVersionResponse extends \DTS\eBaySDK\Finding\Types\BaseServiceResponse
 {
     /**

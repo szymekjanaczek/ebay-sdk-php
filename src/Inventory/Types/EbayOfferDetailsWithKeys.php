@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property integer $availableQuantity
  * @property string $categoryId
  * @property \DTS\eBaySDK\Inventory\Enums\FormatTypeEnum $format

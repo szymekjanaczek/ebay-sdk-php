@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
  * @property string $extTransactionId
  * @property \DTS\eBaySDK\PostOrder\Enums\UserPartyEnum $initiator

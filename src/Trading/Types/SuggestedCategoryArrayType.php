@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\SuggestedCategoryType[] $SuggestedCategory
  */
 class SuggestedCategoryArrayType extends \DTS\eBaySDK\Types\BaseType

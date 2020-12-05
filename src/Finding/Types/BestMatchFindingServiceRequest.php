@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Finding\Types\PaginationInput $paginationInput
  * @property string $buyerPostalCode
  * @property \DTS\eBaySDK\Finding\Types\Affiliate $affiliate

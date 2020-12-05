@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $BotBlockToken
  * @property string $BotBlockUrl
  * @property string $BotBlockAudioUrl

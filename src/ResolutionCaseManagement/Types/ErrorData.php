@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property integer $errorId
  * @property string $domain
  * @property string $subdomain

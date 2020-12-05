@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $Question
  * @property string[] $Response

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\HalfFinding\Types\ProductIDType $productID
  * @property \DTS\eBaySDK\HalfFinding\Types\PaginationInputType $paginationInput
  * @property \DTS\eBaySDK\HalfFinding\Types\ItemFilter[] $itemFilter

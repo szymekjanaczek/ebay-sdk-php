@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\DiscountBenefit $discountBenefit
  * @property \DTS\eBaySDK\Marketing\Types\DiscountSpecification $discountSpecification
  * @property integer $ruleOrder

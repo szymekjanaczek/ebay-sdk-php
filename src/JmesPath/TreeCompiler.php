@@ -60,7 +60,6 @@ class TreeCompiler
     }
 
     /**
-     * @param array $node
      * @return mixed
      */
     private function dispatch(array $node)

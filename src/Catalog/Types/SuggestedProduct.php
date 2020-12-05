@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string[] $additionalImageUrls
  * @property \DTS\eBaySDK\Catalog\Types\Aspect[] $aspects
  * @property string $brand

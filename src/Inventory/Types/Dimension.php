@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property double $height
  * @property double $length
  * @property \DTS\eBaySDK\Inventory\Enums\LengthUnitOfMeasureEnum $unit

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $other_applicable_category_ids
  * @property string $primary_category_id
  * @property string $epid

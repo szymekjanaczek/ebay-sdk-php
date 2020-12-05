@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Order\Types\Amount $baseDeliveryCost
  * @property \DTS\eBaySDK\Order\Types\Amount $deliveryDiscount
  * @property string $maxEstimatedDeliveryDate

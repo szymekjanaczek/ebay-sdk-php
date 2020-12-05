@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $applicableForAspectName
  * @property string[] $applicableForAspectValues
  */

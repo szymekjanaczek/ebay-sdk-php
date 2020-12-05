@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class RefundLineType extends \DTS\eBaySDK\Trading\Types\AmountType
 {
     /**

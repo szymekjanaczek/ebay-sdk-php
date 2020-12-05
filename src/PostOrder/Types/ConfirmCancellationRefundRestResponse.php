@@ -14,7 +14,6 @@ use DTS\eBaySDK\HttpHeadersTrait;
 use DTS\eBaySDK\StatusCodeTrait;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Error[] $error
  * @property \DTS\eBaySDK\PostOrder\Types\ErrorDetailV3[] $errors
  * @property \DTS\eBaySDK\PostOrder\Types\ErrorDetailV3[] $warnings

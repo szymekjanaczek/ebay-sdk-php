@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType $ValueType
  * @property integer $MinValues
  * @property integer $MaxValues

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ErrorCode
  * @property string $Severity
  * @property string $DetailedMessage

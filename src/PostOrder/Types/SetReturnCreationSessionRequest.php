@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnRequestType $returnRequest
  */
 class SetReturnCreationSessionRequest extends \DTS\eBaySDK\Types\BaseType

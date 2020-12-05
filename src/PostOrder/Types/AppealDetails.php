@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $appealCloseReasonEnum
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $appealDate
  * @property string $appealReasonCode

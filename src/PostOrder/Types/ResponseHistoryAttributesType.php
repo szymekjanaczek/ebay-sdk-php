@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $carrierUsed
  * @property string $escalateReason
  * @property \DTS\eBaySDK\PostOrder\Types\MoneyMovementRef $moneyMovementRef

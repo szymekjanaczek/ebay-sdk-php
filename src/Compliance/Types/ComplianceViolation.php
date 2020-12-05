@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum $complianceType
  * @property string $listingId
  * @property string $sku

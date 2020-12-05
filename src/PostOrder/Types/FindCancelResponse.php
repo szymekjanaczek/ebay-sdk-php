@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\CancelSummary[] $cancellations
  * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
  * @property integer $total

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\DeleteAdRequest[] $requests
  */
 class BulkDeleteAdRequest extends \DTS\eBaySDK\Types\BaseType

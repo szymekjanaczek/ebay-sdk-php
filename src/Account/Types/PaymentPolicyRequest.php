@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
  * @property \DTS\eBaySDK\Account\Types\Deposit $deposit
  * @property string $description

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $advanceRulesEnabled
  * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailType[] $basicRules
  * @property boolean $RMARequired

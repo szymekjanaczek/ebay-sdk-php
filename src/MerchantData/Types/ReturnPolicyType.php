@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $RefundOption
  * @property string $Refund
  * @property string $ReturnsWithinOption

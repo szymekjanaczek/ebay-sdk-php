@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\HalfFinding\Enums\SortOrder $sortOrder
  * @property \DTS\eBaySDK\HalfFinding\Enums\SortOnType $sortOn
  */

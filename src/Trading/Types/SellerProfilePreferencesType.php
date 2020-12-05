@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $SellerProfileOptedIn
  * @property \DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType $SupportedSellerProfiles
  */

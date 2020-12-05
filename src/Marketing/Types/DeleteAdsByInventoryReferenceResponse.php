@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string[] $adIds
  * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
  * @property string $inventoryReferenceId

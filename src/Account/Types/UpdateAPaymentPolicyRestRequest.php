@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $payment_policy_id
  */
 class UpdateAPaymentPolicyRestRequest extends \DTS\eBaySDK\Account\Types\PaymentPolicyRequest

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\CustomListDetailType $customListDetail
  * @property boolean $forceDelete
  * @property \DTS\eBaySDK\PostOrder\Types\CustomListModificationType $operation

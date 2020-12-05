@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $BestOfferEnabled
  * @property boolean $AutoPayEnabled
  * @property boolean $B2BVATEnabled

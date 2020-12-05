@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\RequiredSellerActionCodeType[] $RequiredSellerAction
  */
 class RequiredSellerActionArrayType extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property string $bundleName
  * @property string[] $primarySKU
  * @property integer $bundleID

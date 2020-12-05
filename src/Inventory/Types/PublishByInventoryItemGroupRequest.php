@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $inventoryItemGroupKey
  * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
  */

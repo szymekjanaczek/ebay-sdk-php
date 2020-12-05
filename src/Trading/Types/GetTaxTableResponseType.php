@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DateTime $LastUpdateTime
  * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
  */

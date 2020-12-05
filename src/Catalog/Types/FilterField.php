@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $field
  * @property boolean $negated
  * @property \DTS\eBaySDK\Catalog\Types\RangeValue $range

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $activity
  * @property \DTS\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType $attributes
  * @property string $author

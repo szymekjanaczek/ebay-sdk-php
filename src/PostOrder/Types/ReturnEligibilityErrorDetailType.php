@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\EligibilityErrorType $eligibilityError
  */
 class ReturnEligibilityErrorDetailType extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $ScheduledList
  * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $ActiveList
  * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $SoldList

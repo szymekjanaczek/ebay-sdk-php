@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property integer $errorId
  * @property string $domain
  * @property \DTS\eBaySDK\BulkDataExchange\Enums\ErrorSeverity $severity

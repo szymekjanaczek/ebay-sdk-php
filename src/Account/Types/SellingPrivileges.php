@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property boolean $sellerRegistrationCompleted
  * @property \DTS\eBaySDK\Account\Types\SellingLimit $sellingLimit
  */

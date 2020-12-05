@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $Keyword
  * @property \DTS\eBaySDK\Trading\Types\CategoryType $Category
  * @property integer $Ranking

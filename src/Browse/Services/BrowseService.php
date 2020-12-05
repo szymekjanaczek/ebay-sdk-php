@@ -105,7 +105,6 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Browse\Types\GetItemRestRequest $request
      * @return \DTS\eBaySDK\Browse\Types\GetItemRestResponse
      */
     public function getItem(\DTS\eBaySDK\Browse\Types\GetItemRestRequest $request)
@@ -114,7 +113,6 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Browse\Types\GetItemRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getItemAsync(\DTS\eBaySDK\Browse\Types\GetItemRestRequest $request)
@@ -123,7 +121,6 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestRequest $request
      * @return \DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestResponse
      */
     public function getItemByLegacyId(\DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestRequest $request)
@@ -132,7 +129,6 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getItemByLegacyIdAsync(\DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestRequest $request)
@@ -141,7 +137,6 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestRequest $request
      * @return \DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestResponse
      */
     public function getItemsByItemGroup(\DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestRequest $request)
@@ -150,7 +145,6 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getItemsByItemGroupAsync(\DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestRequest $request)
@@ -159,7 +153,6 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Browse\Types\SearchForItemsRestRequest $request
      * @return \DTS\eBaySDK\Browse\Types\SearchForItemsRestResponse
      */
     public function searchForItems(\DTS\eBaySDK\Browse\Types\SearchForItemsRestRequest $request)
@@ -168,7 +161,6 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Browse\Types\SearchForItemsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchForItemsAsync(\DTS\eBaySDK\Browse\Types\SearchForItemsRestRequest $request)

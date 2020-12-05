@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
  */
 class DeleteMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

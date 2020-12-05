@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class SellerReverseDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**

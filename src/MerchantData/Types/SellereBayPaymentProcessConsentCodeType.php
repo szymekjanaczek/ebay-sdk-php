@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
-/**
- *
- */
 class SellereBayPaymentProcessConsentCodeType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

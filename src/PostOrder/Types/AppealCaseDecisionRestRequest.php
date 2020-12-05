@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $caseId
  */
 class AppealCaseDecisionRestRequest extends \DTS\eBaySDK\PostOrder\Types\AppealRequest

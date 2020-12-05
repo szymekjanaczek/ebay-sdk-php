@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property string $url
  */
 class MediaIdentifier extends \DTS\eBaySDK\Types\BaseType

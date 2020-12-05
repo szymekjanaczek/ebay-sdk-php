@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property boolean $IncludeStockPhotoURL
  * @property boolean $UseStockPhotoURLAsGallery
  * @property string $StockPhotoURL

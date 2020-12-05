@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Analytics\Types;
 
 /**
- *
  * @property string $endDate
  * @property \DTS\eBaySDK\Analytics\Types\Header $header
  * @property string $lastUpdatedDate

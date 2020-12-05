@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class UnitOfMeasurementType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

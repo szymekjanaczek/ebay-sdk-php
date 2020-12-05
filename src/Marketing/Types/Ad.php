@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $adId
  * @property string $bidPercentage
  * @property string $inventoryReferenceId

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class FreeGalleryPlusEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

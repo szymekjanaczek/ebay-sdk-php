@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $buyerAddress
  * @property string $buyerLoginName
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnCloseInfoType $closeInfo

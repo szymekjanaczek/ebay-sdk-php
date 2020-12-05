@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\UserIdentityCodeType $type
  */
 class UserIdentityType extends \DTS\eBaySDK\Types\StringType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property boolean $QualifiesForBuyItNow
  * @property boolean $QualifiesForBuyItNowMultiple
  * @property boolean $QualifiedForFixedPriceOneDayDuration

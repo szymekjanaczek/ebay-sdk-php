@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
-/**
- *
- */
 class StatusType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

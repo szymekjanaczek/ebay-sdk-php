@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\SupportedSellerProfileType[] $SupportedSellerProfile
  */
 class SupportedSellerProfilesType extends \DTS\eBaySDK\Types\BaseType

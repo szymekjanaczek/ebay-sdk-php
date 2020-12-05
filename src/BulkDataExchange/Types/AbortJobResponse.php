@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
-/**
- *
- */
 class AbortJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
 {
     /**

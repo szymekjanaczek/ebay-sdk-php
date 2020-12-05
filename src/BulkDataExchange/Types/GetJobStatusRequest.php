@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $jobId
  */
 class GetJobStatusRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest

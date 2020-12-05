@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $locationAdditionalInformation
  * @property string $locationInstructions
  * @property string $locationWebUrl

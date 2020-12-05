@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $itemId
  * @property \DTS\eBaySDK\PostOrder\Types\Java:XMLGregorianCalendar $returnDate
  * @property integer $returnId

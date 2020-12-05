@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $SummaryDays
  * @property integer $TotalBids
  * @property integer $BidActivityWithSeller

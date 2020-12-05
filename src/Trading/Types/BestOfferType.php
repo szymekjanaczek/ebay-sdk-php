@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $BestOfferID
  * @property \DateTime $ExpirationTime
  * @property \DTS\eBaySDK\Trading\Types\UserType $Buyer

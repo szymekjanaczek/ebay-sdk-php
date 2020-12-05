@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property boolean $excludeForeBaySelling
  * @property boolean $excludeForeBayReviews
  * @property boolean $excludeForHalfSelling

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $FolderName
  * @property integer $ParentFolderID
  * @property string $Comment

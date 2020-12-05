@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $draftId
  */
 class GetReturnDraftRestRequest extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\MediaIdentifier $mediaIdentifier
  * @property \DTS\eBaySDK\Product\Enums\MediaType $mediaType
  */

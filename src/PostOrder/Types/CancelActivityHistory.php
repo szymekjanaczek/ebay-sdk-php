@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actionDate
  * @property string $activityParty
  * @property \DTS\eBaySDK\PostOrder\Enums\CancelActivityTypeEnum $activityType

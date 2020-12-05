@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $bidPercentage
  */
 class UpdateBidPercentageRequest extends \DTS\eBaySDK\Types\BaseType

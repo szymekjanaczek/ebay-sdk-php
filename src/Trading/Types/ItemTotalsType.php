@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $TotalQuantity
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalValue
  */

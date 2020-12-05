@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property integer $count
  * @property \DTS\eBaySDK\Finding\Types\CategoryHistogram[] $childCategoryHistogram
  */

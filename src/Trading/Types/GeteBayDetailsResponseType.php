@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\CountryDetailsType[] $CountryDetails
  * @property \DTS\eBaySDK\Trading\Types\CurrencyDetailsType[] $CurrencyDetails
  * @property \DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType[] $DispatchTimeMaxDetails

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $DeliveredCount
  * @property integer $QueuedNewCount
  * @property integer $QueuedPendingCount

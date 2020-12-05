@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
-/**
- *
- */
 class GetVersionRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
 {
     /**

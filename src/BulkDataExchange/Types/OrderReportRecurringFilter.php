@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property integer $createTimeRange
  * @property integer $modTimeRange
  * @property \DTS\eBaySDK\BulkDataExchange\Enums\ListingType $listingType

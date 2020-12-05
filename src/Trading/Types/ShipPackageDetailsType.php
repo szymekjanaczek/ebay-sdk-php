@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
  * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageDepth
  * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageLength

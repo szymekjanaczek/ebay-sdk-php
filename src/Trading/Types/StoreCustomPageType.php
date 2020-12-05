@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $Name
  * @property integer $PageID
  * @property string $URLPath

@@ -8,7 +8,7 @@ namespace DTS\eBaySDK\Browse\Services;
 class BrowseBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
-     * @var array $endPoints The API endpoints.
+     * @var array The API endpoints.
      */
     protected static $endPoints = [
         'sandbox'    => 'https://api.sandbox.ebay.com/buy/browse',

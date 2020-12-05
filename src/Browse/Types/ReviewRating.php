@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $averageRating
  * @property \DTS\eBaySDK\Browse\Types\RatingHistogram[] $ratingHistograms
  * @property integer $reviewCount

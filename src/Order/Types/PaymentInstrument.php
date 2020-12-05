@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Order\Types\PaymentMethodBrand $brand
  * @property \DTS\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
  */

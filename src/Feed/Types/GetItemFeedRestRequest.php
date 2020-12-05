@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feed\Types;
 
 /**
- *
  * @property string $category_id
  * @property string $date
  * @property string $feed_type

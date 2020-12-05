@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $ascending
  * @property \DTS\eBaySDK\PostOrder\Enums\CancelSortTypeEnum $enumValue
  */

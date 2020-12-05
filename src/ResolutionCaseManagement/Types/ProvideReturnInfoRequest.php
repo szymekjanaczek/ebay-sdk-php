@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Address $address
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
  * @property string $returnMerchandiseAuthorization

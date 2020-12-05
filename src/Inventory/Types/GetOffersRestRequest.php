@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $format
  * @property string $limit
  * @property string $marketplace_id

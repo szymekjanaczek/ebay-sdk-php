@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\GroupValidationRulesType $ValidationRules
  * @property \DTS\eBaySDK\Trading\Types\NameRecommendationType[] $NameRecommendation
  */

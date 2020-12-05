@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property string $epid
  */
 class GetProductRestRequest extends \DTS\eBaySDK\Types\BaseType

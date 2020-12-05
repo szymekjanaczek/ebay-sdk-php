@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\TaxTypeCodeType $Imposition
  * @property \DTS\eBaySDK\MerchantData\Enums\TaxDescriptionCodeType $TaxDescription
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxAmount

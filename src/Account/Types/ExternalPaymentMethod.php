@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $paymentMethodName
  * @property \DTS\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum $paymentMethodType
  * @property boolean $primary

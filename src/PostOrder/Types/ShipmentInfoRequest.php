@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property boolean $proofOfShipmentUploaded
  * @property \DTS\eBaySDK\PostOrder\Types\Text $sellerComments
  * @property boolean $shippedWithTracking

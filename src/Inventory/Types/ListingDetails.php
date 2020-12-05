@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $listingId
  * @property \DTS\eBaySDK\Inventory\Enums\ListingStatusEnum $listingStatus
  * @property integer $soldQuantity

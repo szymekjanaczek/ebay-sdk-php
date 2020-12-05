@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DateTime $EndTime
  */
 class EndItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType

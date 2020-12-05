@@ -8,7 +8,7 @@ namespace DTS\eBaySDK\Inventory\Services;
 class InventoryBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
-     * @var array $endPoints The API endpoints.
+     * @var array The API endpoints.
      */
     protected static $endPoints = [
         'sandbox'    => 'https://api.sandbox.ebay.com/sell/inventory',

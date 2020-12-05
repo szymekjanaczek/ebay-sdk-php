@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Enums\RefundStatusType $RefundStatus
  */
 class IssueRefundResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse

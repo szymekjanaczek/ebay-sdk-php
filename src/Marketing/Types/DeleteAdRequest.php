@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $listingId
  */
 class DeleteAdRequest extends \DTS\eBaySDK\Types\BaseType

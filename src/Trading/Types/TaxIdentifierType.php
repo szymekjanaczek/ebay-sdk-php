@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType $Type
  * @property string $ID
  * @property \DTS\eBaySDK\Trading\Types\TaxIdentifierAttributeType[] $Attribute

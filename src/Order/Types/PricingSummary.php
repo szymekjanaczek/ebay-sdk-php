@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Order\Types\Adjustment $adjustment
  * @property \DTS\eBaySDK\Order\Types\Amount $deliveryCost
  * @property \DTS\eBaySDK\Order\Types\Amount $deliveryDiscount

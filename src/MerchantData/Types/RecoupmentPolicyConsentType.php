@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType[] $Site
  */
 class RecoupmentPolicyConsentType extends \DTS\eBaySDK\Types\BaseType

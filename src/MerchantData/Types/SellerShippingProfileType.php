@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $ShippingProfileID
  * @property string $ShippingProfileName
  */

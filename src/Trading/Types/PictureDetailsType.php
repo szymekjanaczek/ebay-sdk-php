@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $GalleryURL
  * @property \DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType $GalleryType
  * @property \DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType $PhotoDisplay

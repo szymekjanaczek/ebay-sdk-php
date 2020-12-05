@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\OrderDetailsType[] $OrderDetails
  */
 class SoldReportResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType

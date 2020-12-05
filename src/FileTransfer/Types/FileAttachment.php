@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
- *
  * @property integer $Size
  * @property \DTS\eBaySDK\FileTransfer\Types\Data $Data
  */

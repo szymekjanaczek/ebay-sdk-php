@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
-/**
- *
- */
 class OptOutOfProgramRestRequest extends \DTS\eBaySDK\Account\Types\Program
 {
     /**

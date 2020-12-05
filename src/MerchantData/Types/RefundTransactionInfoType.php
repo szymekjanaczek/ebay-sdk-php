@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $RefundStatus
  * @property \DTS\eBaySDK\MerchantData\Enums\RefundSourceTypeCodeType $RefundType
  * @property \DTS\eBaySDK\MerchantData\Types\UserIdentityType $RefundTo

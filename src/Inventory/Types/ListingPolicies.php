@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $fulfillmentPolicyId
  * @property string $paymentPolicyId
  * @property string $returnPolicyId

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $DeliveryURL
  * @property string $ReferenceID
  * @property \DateTime $ExpirationTime

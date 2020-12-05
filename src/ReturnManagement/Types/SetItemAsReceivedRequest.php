@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
  */
 class SetItemAsReceivedRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Browse\Types\AspectDistribution[] $aspectDistributions
  * @property \DTS\eBaySDK\Browse\Types\BuyingOptionDistribution[] $buyingOptionDistributions
  * @property \DTS\eBaySDK\Browse\Types\CategoryDistribution[] $categoryDistributions

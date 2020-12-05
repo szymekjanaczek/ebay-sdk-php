@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $CampaignID
  * @property string $CampaignDisplayName
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ItemDiscountAmount

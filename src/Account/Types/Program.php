@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Enums\ProgramTypeEnum $programType
  */
 class Program extends \DTS\eBaySDK\Types\BaseType

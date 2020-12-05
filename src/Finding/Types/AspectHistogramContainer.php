@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Finding\Types\Aspect[] $aspect
  */
 class AspectHistogramContainer extends \DTS\eBaySDK\Types\BaseType

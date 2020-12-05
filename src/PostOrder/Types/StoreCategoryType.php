@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $categoryId
  * @property string $categoryName
  * @property boolean $isLeaf

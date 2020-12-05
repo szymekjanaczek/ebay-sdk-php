@@ -566,7 +566,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestResponse
      */
     public function bulkCreateAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request)
@@ -575,7 +574,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function bulkCreateAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestRequest $request)
@@ -584,7 +582,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse
      */
     public function bulkCreateAdsByListingID(\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request)
@@ -593,7 +590,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function bulkCreateAdsByListingIDAsync(\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestRequest $request)
@@ -602,7 +598,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestResponse
      */
     public function bulkDeleteAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request)
@@ -611,7 +606,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function bulkDeleteAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestRequest $request)
@@ -620,7 +614,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestResponse
      */
     public function bulkDeleteAdsByListingID(\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request)
@@ -629,7 +622,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function bulkDeleteAdsByListingIDAsync(\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestRequest $request)
@@ -638,7 +630,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestResponse
      */
     public function bulkUpdateAdBidsByInventoryReference(\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request)
@@ -647,7 +638,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function bulkUpdateAdBidsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestRequest $request)
@@ -656,7 +646,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestResponse
      */
     public function bulkUpdateAdBidsByListingID(\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request)
@@ -665,7 +654,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function bulkUpdateAdBidsByListingIDAsync(\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestRequest $request)
@@ -674,7 +662,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestResponse
      */
     public function createAdByListingID(\DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request)
@@ -683,7 +670,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createAdByListingIDAsync(\DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest $request)
@@ -692,7 +678,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestResponse
      */
     public function createAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request)
@@ -701,7 +686,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestRequest $request)
@@ -710,7 +694,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestResponse
      */
     public function deleteAdByID(\DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request)
@@ -719,7 +702,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteAdByIDAsync(\DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestRequest $request)
@@ -728,7 +710,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestResponse
      */
     public function deleteAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request)
@@ -737,7 +718,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestRequest $request)
@@ -746,7 +726,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetAdByIDRestResponse
      */
     public function getAdByID(\DTS\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request)
@@ -755,7 +734,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAdByIDAsync(\DTS\eBaySDK\Marketing\Types\GetAdByIDRestRequest $request)
@@ -764,7 +742,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdsRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetAdsRestResponse
      */
     public function getAds(\DTS\eBaySDK\Marketing\Types\GetAdsRestRequest $request)
@@ -773,7 +750,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAdsAsync(\DTS\eBaySDK\Marketing\Types\GetAdsRestRequest $request)
@@ -782,7 +758,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse
      */
     public function getAdsByInventoryReference(\DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request)
@@ -791,7 +766,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAdsByInventoryReferenceAsync(\DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestRequest $request)
@@ -800,7 +774,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\UpdateBidRestResponse
      */
     public function updateBid(\DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest $request)
@@ -809,7 +782,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateBidAsync(\DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest $request)
@@ -818,7 +790,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\CloneCampaignRestResponse
      */
     public function cloneCampaign(\DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request)
@@ -827,7 +798,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function cloneCampaignAsync(\DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest $request)
@@ -836,7 +806,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\CreateCampaignRestResponse
      */
     public function createCampaign(\DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request)
@@ -845,7 +814,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createCampaignAsync(\DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest $request)
@@ -854,7 +822,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\DeleteCampaignRestResponse
      */
     public function deleteCampaign(\DTS\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request)
@@ -863,7 +830,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteCampaignAsync(\DTS\eBaySDK\Marketing\Types\DeleteCampaignRestRequest $request)
@@ -872,7 +838,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\EndCampaignRestResponse
      */
     public function endCampaign(\DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest $request)
@@ -881,7 +846,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function endCampaignAsync(\DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest $request)
@@ -890,7 +854,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestResponse
      */
     public function findCampaignByAdReference(\DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request)
@@ -899,7 +862,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function findCampaignByAdReferenceAsync(\DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest $request)
@@ -908,7 +870,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse
      */
     public function getAllCampaigns(\DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request)
@@ -917,7 +878,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAllCampaignsAsync(\DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestRequest $request)
@@ -926,7 +886,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestResponse
      */
     public function getCampaignByName(\DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request)
@@ -935,7 +894,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getCampaignByNameAsync(\DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest $request)
@@ -944,7 +902,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestResponse
      */
     public function getCampaignByID(\DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request)
@@ -953,7 +910,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getCampaignByIDAsync(\DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest $request)
@@ -962,7 +918,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\PauseCampaignRestResponse
      */
     public function pauseCampaign(\DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request)
@@ -971,7 +926,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function pauseCampaignAsync(\DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest $request)
@@ -980,7 +934,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\ResumeCampaignRestResponse
      */
     public function resumeCampaign(\DTS\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request)
@@ -989,7 +942,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function resumeCampaignAsync(\DTS\eBaySDK\Marketing\Types\ResumeCampaignRestRequest $request)
@@ -998,7 +950,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestResponse
      */
     public function updateCampaignIDentification(\DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request)
@@ -1007,7 +958,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateCampaignIDentificationAsync(\DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest $request)
@@ -1016,7 +966,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestResponse
      */
     public function createItemPromotion(\DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request)
@@ -1025,7 +974,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createItemPromotionAsync(\DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestRequest $request)
@@ -1034,7 +982,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestResponse
      */
     public function deleteItemPromotion(\DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request)
@@ -1043,7 +990,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteItemPromotionAsync(\DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest $request)
@@ -1052,7 +998,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetItemPromotionRestResponse
      */
     public function getItemPromotion(\DTS\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request)
@@ -1061,7 +1006,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getItemPromotionAsync(\DTS\eBaySDK\Marketing\Types\GetItemPromotionRestRequest $request)
@@ -1070,7 +1014,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestResponse
      */
     public function updateItemPromotion(\DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request)
@@ -1079,7 +1022,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function updateItemPromotionAsync(\DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest $request)
@@ -1088,7 +1030,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestResponse
      */
     public function getListingsInSpecificPromotion(\DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request)
@@ -1097,7 +1038,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getListingsInSpecificPromotionAsync(\DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest $request)
@@ -1106,7 +1046,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetPromotionsRestResponse
      */
     public function getPromotions(\DTS\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request)
@@ -1115,7 +1054,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPromotionsAsync(\DTS\eBaySDK\Marketing\Types\GetPromotionsRestRequest $request)
@@ -1124,7 +1062,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\PauseAPromotionRestResponse
      */
     public function pauseAPromotion(\DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request)
@@ -1133,7 +1070,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function pauseAPromotionAsync(\DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest $request)
@@ -1142,7 +1078,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestResponse
      */
     public function resumeAPromotion(\DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request)
@@ -1151,7 +1086,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function resumeAPromotionAsync(\DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest $request)
@@ -1160,7 +1094,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestResponse
      */
     public function getPromotionSummaryReport(\DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request)
@@ -1169,7 +1102,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPromotionSummaryReportAsync(\DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestRequest $request)
@@ -1178,7 +1110,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetSpecificReportRestResponse
      */
     public function getSpecificReport(\DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request)
@@ -1187,7 +1118,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getSpecificReportAsync(\DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest $request)
@@ -1196,7 +1126,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestResponse
      */
     public function getMetadataForAllReports(\DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request)
@@ -1205,7 +1134,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getMetadataForAllReportsAsync(\DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest $request)
@@ -1214,7 +1142,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestResponse
      */
     public function getMetadataForAReportType(\DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request)
@@ -1223,7 +1150,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getMetadataForAReportTypeAsync(\DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest $request)
@@ -1232,7 +1158,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\CreateReportTasktRestResponse
      */
     public function createReportTask(\DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request)
@@ -1241,7 +1166,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createReportTaskAsync(\DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest $request)
@@ -1250,7 +1174,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestResponse
      */
     public function deleteSpecificReportTask(\DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request)
@@ -1259,7 +1182,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function deleteSpecificReportTaskAsync(\DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest $request)
@@ -1268,7 +1190,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetReportTasksRestResponse
      */
     public function getReportTasks(\DTS\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request)
@@ -1277,7 +1198,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getReportTasksAsync(\DTS\eBaySDK\Marketing\Types\GetReportTasksRestRequest $request)
@@ -1286,7 +1206,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestResponse
      */
     public function getSpecificReportTask(\DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request)
@@ -1295,7 +1214,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getSpecificReportTaskAsync(\DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestRequest $request)
@@ -1304,7 +1222,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request
      * @return \DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestResponse
      */
     public function getAPromotionReport(\DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request)
@@ -1313,7 +1230,6 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAPromotionReportAsync(\DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest $request)

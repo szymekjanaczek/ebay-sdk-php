@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
-/**
- *
- */
 class ExtensionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

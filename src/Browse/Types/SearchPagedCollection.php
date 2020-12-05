@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $href
  * @property \DTS\eBaySDK\Browse\Types\ItemSummary[] $itemSummaries
  * @property integer $limit

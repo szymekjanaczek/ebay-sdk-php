@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
- *
  * @property string $SKU
  * @property \DTS\eBaySDK\RelatedItemsManagement\Types\Discount $discount
  * @property integer $rank

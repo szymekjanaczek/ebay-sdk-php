@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $fieldgroups
  */
 class CreateReturnRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateReturnRequest

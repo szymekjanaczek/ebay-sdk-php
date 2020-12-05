@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $PaisaPayStatus
  * @property boolean $AllowPaymentEdit
  * @property \DTS\eBaySDK\MerchantData\Enums\CurrencyCodeType $BillingCurrency

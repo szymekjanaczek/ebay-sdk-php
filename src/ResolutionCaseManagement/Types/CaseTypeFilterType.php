@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType[] $caseType
  */
 class CaseTypeFilterType extends \DTS\eBaySDK\Types\BaseType

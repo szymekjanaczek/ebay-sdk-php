@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
-/**
- *
- */
 class CreateOfferRestRequest extends \DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithKeys
 {
     /**

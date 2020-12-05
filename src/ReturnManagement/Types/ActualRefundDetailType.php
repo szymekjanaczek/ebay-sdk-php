@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Types\RefundDetailType $actualRefund
  * @property \DTS\eBaySDK\ReturnManagement\Enums\RefundStatusType $refundStatus
  * @property \DateTime $refundDate

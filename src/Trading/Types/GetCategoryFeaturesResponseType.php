@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $CategoryVersion
  * @property \DateTime $UpdateTime
  * @property \DTS\eBaySDK\Trading\Types\CategoryFeatureType[] $Category

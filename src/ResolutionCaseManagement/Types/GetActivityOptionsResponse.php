@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityOptionListType $activityOptions
  */
 class GetActivityOptionsResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse

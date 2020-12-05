@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property string $aspectDataType
  * @property boolean $aspectEnabledForVariations
  * @property string $aspectFormat

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnDetailType $detail
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType $summary
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundFromSeller
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalRefundToBuyer
  * @property \DateTime $RefundTime

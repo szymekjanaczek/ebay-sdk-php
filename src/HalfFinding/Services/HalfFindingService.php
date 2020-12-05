@@ -23,7 +23,6 @@ class HalfFindingService extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBa
     }
 
     /**
-     * @param \DTS\eBaySDK\HalfFinding\Types\GetVersionRequest $request
      * @return \DTS\eBaySDK\HalfFinding\Types\GetVersionResponse
      */
     public function getVersion(\DTS\eBaySDK\HalfFinding\Types\GetVersionRequest $request)
@@ -32,7 +31,6 @@ class HalfFindingService extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBa
     }
 
     /**
-     * @param \DTS\eBaySDK\HalfFinding\Types\GetVersionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getVersionAsync(\DTS\eBaySDK\HalfFinding\Types\GetVersionRequest $request)
@@ -45,7 +43,6 @@ class HalfFindingService extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBa
     }
 
     /**
-     * @param \DTS\eBaySDK\HalfFinding\Types\FindItemsRequest $request
      * @return \DTS\eBaySDK\HalfFinding\Types\FindItemsResponse
      */
     public function findHalfItems(\DTS\eBaySDK\HalfFinding\Types\FindItemsRequest $request)
@@ -54,7 +51,6 @@ class HalfFindingService extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBa
     }
 
     /**
-     * @param \DTS\eBaySDK\HalfFinding\Types\FindItemsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function findHalfItemsAsync(\DTS\eBaySDK\HalfFinding\Types\FindItemsRequest $request)

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $field
  * @property \DTS\eBaySDK\Fulfillment\Types\RangeValue $range
  * @property string[] $set

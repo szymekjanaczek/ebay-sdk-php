@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class GetTokenStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**

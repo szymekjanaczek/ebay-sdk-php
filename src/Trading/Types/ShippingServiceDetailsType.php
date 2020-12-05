@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $Description
  * @property boolean $ExpeditedService
  * @property boolean $InternationalService

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $carrierUsed
  * @property \DTS\eBaySDK\PostOrder\Types\ScanDetailType[] $scanHistory
  * @property string $trackingNumber

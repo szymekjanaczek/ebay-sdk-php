@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class ClassifiedAdPhoneCountDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

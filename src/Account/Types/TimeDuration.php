@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Enums\TimeDurationUnitEnum $unit
  * @property integer $value
  */

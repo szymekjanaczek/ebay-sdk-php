@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property string $trackingId
  * @property string $networkId
  * @property string $customId

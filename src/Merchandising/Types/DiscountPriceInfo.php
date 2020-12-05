@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Merchandising\Types\Amount $originalRetailPrice
  * @property \DTS\eBaySDK\Merchandising\Enums\PriceTreatmentEnum $pricingTreatment
  * @property boolean $soldOnEbay

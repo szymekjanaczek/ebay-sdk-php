@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\ReturnFileType[] $files
  */
 class GetFileResponse extends \DTS\eBaySDK\Types\BaseType

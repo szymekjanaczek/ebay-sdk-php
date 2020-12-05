@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string $categoryId
  */
 class GetCompatibilitySearchDataVersionRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest

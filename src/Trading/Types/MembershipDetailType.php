@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ProgramName
  * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
  * @property \DateTime $ExpiryDate

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Enums\InventoryCriterionEnum $inventoryCriterionType
  * @property \DTS\eBaySDK\Marketing\Types\InventoryItem[] $inventoryItems
  * @property string[] $listingIds

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
  * @property \DTS\eBaySDK\PostOrder\Enums\DecisionEnum $decision
  * @property \DTS\eBaySDK\PostOrder\Types\Amount $partialRefundAmount

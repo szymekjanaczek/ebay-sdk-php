@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $caseId
  */
 class CloseCaseRestRequest extends \DTS\eBaySDK\PostOrder\Types\BuyerCloseCaseRequest

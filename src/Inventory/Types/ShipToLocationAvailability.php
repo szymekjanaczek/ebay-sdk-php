@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property integer $quantity
  */
 class ShipToLocationAvailability extends \DTS\eBaySDK\Types\BaseType

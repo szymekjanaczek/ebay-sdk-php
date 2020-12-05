@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $caseId
  */
 class ProvidesReturnAddressRestRequest extends \DTS\eBaySDK\PostOrder\Types\ReturnAddressRequest

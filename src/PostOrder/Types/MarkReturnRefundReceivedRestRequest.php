@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $returnId
  */
 class MarkReturnRefundReceivedRestRequest extends \DTS\eBaySDK\Types\BaseType

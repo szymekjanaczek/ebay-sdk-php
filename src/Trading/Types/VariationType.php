@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $SKU
  * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
  * @property integer $Quantity

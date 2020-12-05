@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $PackageID
  * @property string $Description
  * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage

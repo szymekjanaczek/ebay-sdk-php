@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
- *
  * @property string $categoryId
  * @property boolean $includeManagedValues
  * @property boolean $includeGroupPropertiesOnly

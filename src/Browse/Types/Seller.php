@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $feedbackPercentage
  * @property integer $feedbackScore
  * @property string $sellerAccountType

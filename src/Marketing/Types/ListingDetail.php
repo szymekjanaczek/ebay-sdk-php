@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\Amount $currentPrice
  * @property boolean $freeShipping
  * @property string $inventoryReferenceId

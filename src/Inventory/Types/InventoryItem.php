@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\Availability $availability
  * @property \DTS\eBaySDK\Inventory\Enums\ConditionEnum $condition
  * @property string $conditionDescription

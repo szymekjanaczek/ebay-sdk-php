@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $VariationSpecificValue
  * @property string[] $PictureURL
  */

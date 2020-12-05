@@ -96,7 +96,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request
      * @return \DTS\eBaySDK\Fulfillment\Types\GetOrdersRestResponse
      */
     public function getOrders(\DTS\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request)
@@ -105,7 +104,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getOrdersAsync(\DTS\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request)
@@ -114,7 +112,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request
      * @return \DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestResponse
      */
     public function getAnOrder(\DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request)
@@ -123,7 +120,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAnOrderAsync(\DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request)
@@ -132,7 +128,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request
      * @return \DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse
      */
     public function createAShippingFulfillment(\DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request)
@@ -141,7 +136,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createAShippingFulfillmentAsync(\DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request)
@@ -150,7 +144,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request
      * @return \DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse
      */
     public function getShippingFulfillments(\DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request)
@@ -159,7 +152,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getShippingFulfillmentsAsync(\DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request)
@@ -168,7 +160,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request
      * @return \DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestResponse
      */
     public function getAShippingFulfillment(\DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request)
@@ -177,7 +168,6 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
     }
 
     /**
-     * @param \DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getAShippingFulfillmentAsync(\DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request)

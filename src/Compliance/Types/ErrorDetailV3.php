@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property string $category
  * @property string $domain
  * @property integer $errorId

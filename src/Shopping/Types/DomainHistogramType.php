@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Shopping\Types\HistogramEntryType[] $Domain
  */
 class DomainHistogramType extends \DTS\eBaySDK\Types\BaseType

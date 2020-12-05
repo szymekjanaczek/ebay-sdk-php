@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string[] $removedFileIds
  */
 class SubmitFileResponse extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalItemPrice
  * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalItemShippingCost
  * @property string $OriginalShippingService

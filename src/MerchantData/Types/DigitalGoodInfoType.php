@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property boolean $DigitalDelivery
  */
 class DigitalGoodInfoType extends \DTS\eBaySDK\Types\BaseType

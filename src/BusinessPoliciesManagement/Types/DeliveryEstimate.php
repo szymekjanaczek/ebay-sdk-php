@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property integer $maxDelivery
  * @property integer $minDelivery
  * @property \DateTime $maxDeliveryDate

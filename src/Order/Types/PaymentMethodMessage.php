@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $legalMessage
  * @property boolean $requiredForUserConfirmation
  */

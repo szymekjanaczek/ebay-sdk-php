@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\HalfFinding\Types\ExtensionType[] $extension
  */
 class BaseRequest extends \DTS\eBaySDK\Types\BaseType

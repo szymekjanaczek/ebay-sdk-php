@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\OrderLineItemType[] $OrderLineItem
  */
 class OrderItemDetailsType extends \DTS\eBaySDK\Types\BaseType

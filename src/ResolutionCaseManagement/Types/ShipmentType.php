@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property string $trackingNumber
  * @property string $carrierUsed
  * @property string $deliveryStatus

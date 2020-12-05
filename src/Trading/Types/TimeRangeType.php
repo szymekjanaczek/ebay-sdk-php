@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DateTime $TimeFrom
  * @property \DateTime $TimeTo
  */

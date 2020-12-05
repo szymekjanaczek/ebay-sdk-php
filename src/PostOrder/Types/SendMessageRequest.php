@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\Text $message
  */
 class SendMessageRequest extends \DTS\eBaySDK\Types\BaseType

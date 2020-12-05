@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class RefundFundingSourceType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

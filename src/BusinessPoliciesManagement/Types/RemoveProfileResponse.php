@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
-/**
- *
- */
 class RemoveProfileResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
 {
     /**

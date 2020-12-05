@@ -28,7 +28,9 @@ namespace DTS\eBaySDK\JmesPath;
  */
 class TreeInterpreter
 {
-    /** @var callable */
+    /**
+     * @var callable
+     */
     private $fnDispatcher;
 
     /**
@@ -58,7 +60,6 @@ class TreeInterpreter
      * Recursively traverses an AST using depth-first, pre-order traversal.
      * The evaluation logic for each node type is embedded into a large switch
      * statement to avoid the cost of "double dispatch".
-     * @param array $node
      * @param $value
      * @return mixed
      */

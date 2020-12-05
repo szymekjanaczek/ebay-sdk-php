@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\AdReference[] $ads
  */
 class AdReferences extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\SalesTax[] $salesTaxes
  */
 class SalesTaxes extends \DTS\eBaySDK\Types\BaseType

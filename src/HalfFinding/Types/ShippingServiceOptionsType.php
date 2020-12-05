@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\HalfFinding\Enums\Type $type
  * @property \DTS\eBaySDK\HalfFinding\Types\Amount $cost
  * @property boolean $expeditedService

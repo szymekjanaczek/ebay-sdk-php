@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $checkoutSessionId
  */
 class UpdateQuantityForLineItemRestRequest extends \DTS\eBaySDK\Order\Types\UpdateQuantity

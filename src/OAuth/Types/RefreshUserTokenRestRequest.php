@@ -3,7 +3,6 @@
 namespace DTS\eBaySDK\OAuth\Types;
 
 /**
- *
  * @property string $grant_type
  * @property string $refresh_token
  * @property string $scope

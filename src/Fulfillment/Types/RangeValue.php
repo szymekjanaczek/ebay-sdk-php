@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $end
  * @property boolean $exclusiveEnd
  * @property boolean $exclusiveStart

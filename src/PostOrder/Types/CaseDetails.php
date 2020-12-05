@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $buyerFinalAcceptResolution
  * @property string $buyerInitExpectResolution
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate

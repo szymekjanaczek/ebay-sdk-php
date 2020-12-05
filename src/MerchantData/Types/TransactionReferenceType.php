@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\TransactionReferenceCodeType $type
  */
 class TransactionReferenceType extends \DTS\eBaySDK\Types\StringType

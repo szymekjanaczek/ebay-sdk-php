@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property boolean $Delete
  * @property \DTS\eBaySDK\MerchantData\Types\NameValueListType[] $NameValueList
  * @property string $CompatibilityNotes

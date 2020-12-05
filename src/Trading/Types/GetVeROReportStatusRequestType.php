@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $VeROReportPacketID
  * @property string $ItemID
  * @property boolean $IncludeReportedItemDetails

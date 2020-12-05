@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer[] $Count
  */
 class NumberOfPolicyViolationsDetailsType extends \DTS\eBaySDK\Types\BaseType

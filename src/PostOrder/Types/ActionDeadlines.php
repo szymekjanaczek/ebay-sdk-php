@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $daysForBuyerToProvideProofOfShipment
  * @property integer $daysToExpireWithoutResponse
  * @property integer $daysToExpireWithResponse

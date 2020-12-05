@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property string $sku
  * @property \DTS\eBaySDK\Compliance\Types\NameValueList[] $variationAspects
  */

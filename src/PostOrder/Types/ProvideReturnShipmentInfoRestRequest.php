@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $caseId
  */
 class ProvideReturnShipmentInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\ProvideShipmentInfoRequest

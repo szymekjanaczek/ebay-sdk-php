@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $inventory_reference_id
  * @property string $inventory_reference_type
  * @property string $listing_id

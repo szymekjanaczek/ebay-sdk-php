@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $returnId
  */
 class GetReturnFilesRestRequest extends \DTS\eBaySDK\Types\BaseType

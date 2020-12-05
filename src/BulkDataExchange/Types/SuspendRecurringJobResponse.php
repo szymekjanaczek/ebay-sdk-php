@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
-/**
- *
- */
 class SuspendRecurringJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
 {
     /**

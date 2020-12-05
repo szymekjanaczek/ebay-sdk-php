@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\Amount $averageItemDiscount
  * @property \DTS\eBaySDK\Marketing\Types\Amount $averageItemRevenue
  * @property \DTS\eBaySDK\Marketing\Types\Amount $averageOrderDiscount

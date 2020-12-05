@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $QuantityScheduled
  * @property integer $QuantityActive
  * @property integer $QuantitySold

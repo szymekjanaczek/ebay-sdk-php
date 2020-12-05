@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $TimeZoneID
  * @property \DTS\eBaySDK\Trading\Enums\DaysCodeType $Hours1Days
  * @property boolean $Hours1AnyTime

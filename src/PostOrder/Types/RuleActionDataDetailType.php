@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $id
  */
 class RuleActionDataDetailType extends \DTS\eBaySDK\Types\BaseType

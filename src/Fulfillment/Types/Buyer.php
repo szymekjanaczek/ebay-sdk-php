@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $username
  */
 class Buyer extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $RecipientUserID
  * @property string $VerifyEligibilityOnly
  * @property string $RecipientPostalCode

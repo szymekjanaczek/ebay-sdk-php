@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $TotalAvailable
  * @property \DTS\eBaySDK\Trading\Types\ItemType[] $SecondChanceOffer
  */

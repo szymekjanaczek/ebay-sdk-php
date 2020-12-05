@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property string $userId
  * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType $role
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property string $itemId
  * @property string $itemTitle
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $transactionPrice

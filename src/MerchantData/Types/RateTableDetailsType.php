@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $DomesticRateTable
  */
 class RateTableDetailsType extends \DTS\eBaySDK\Types\BaseType

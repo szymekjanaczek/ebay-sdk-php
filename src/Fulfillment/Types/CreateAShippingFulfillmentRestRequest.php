@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $orderId
  */
 class CreateAShippingFulfillmentRestRequest extends \DTS\eBaySDK\Fulfillment\Types\ShippingFulfillmentDetails

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property boolean $extendedHolidayReturnsOffered
  * @property \DTS\eBaySDK\Browse\Enums\RefundMethodEnum $refundMethod
  * @property string $restockingFeePercentage

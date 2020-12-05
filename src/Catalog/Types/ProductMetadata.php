@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Types\ProductMetadataAspect[] $aspects
  * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata $brand
  * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata $mpn

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $marketplace_id
  */
 class GetPromotionSummaryReportRestRequest extends \DTS\eBaySDK\Types\BaseType

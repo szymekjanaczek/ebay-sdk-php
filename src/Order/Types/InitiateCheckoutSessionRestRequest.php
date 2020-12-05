@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
-/**
- *
- */
 class InitiateCheckoutSessionRestRequest extends \DTS\eBaySDK\Order\Types\CreateSignInCheckoutSessionRequest
 {
     /**

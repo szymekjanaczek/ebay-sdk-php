@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $referenceId
  * @property \DTS\eBaySDK\Account\Enums\RecipientAccountReferenceTypeEnum $referenceType
  */

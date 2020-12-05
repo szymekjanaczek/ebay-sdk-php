@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property string $reasonCode
  * @property string $message
  * @property \DTS\eBaySDK\Compliance\Types\VariationDetails $variation

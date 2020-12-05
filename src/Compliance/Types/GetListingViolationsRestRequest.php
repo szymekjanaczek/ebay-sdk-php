@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Compliance\Types;
 
 /**
- *
  * @property integer $limit
  * @property string $listing_id
  * @property integer $offset

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $MemberURL
  * @property integer $PictureHeight
  * @property integer $PictureWidth

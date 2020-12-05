@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $ShowBidderNoticePreferences
  * @property boolean $ShowCombinedPaymentPreferences
  * @property boolean $ShowSellerPaymentPreferences

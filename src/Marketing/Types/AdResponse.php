@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $adId
  * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
  * @property string $href

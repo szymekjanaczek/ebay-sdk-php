@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class SellerPaymentType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

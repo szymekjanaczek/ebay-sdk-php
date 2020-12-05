@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $regionName
  * @property \DTS\eBaySDK\Browse\Enums\RegionTypeEnum $regionType
  */

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $AboutMePage
  * @property string $EIASToken
  * @property string $Email

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $buyer
  * @property integer $caseId
  * @property \DTS\eBaySDK\PostOrder\Enums\CaseStatusEnum $caseStatusEnum

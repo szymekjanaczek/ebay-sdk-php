@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $refundStatus
  */
 class IssueRefundResponse extends \DTS\eBaySDK\Types\BaseType

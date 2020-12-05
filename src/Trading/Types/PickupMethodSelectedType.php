@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $PickupMethod
  * @property string $PickupStoreID
  * @property \DTS\eBaySDK\Trading\Enums\PickupStatusCodeType $PickupStatus

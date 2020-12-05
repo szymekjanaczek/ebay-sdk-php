@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
- *
  * @property string $jobId
  * @property string $jobType
  * @property \DTS\eBaySDK\BulkDataExchange\Enums\JobStatus $jobStatus

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $description
  * @property \DTS\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
  * @property string $endDate

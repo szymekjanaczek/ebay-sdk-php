@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property integer $domesticFlatCalcDiscountProfileId
  * @property integer $intlFlatCalcDiscountProfileId
  * @property boolean $applyDomesticPromoShippingProfile

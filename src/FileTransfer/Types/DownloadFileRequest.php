@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
- *
  * @property string $taskReferenceId
  * @property string $fileReferenceId
  */

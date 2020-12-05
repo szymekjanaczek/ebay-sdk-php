@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Analytics\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum $level
  * @property string $lookbackEndDate
  * @property string $lookbackStartDate

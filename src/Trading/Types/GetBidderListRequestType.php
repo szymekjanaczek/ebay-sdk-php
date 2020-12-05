@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $ActiveItemsOnly
  * @property \DateTime $EndTimeFrom
  * @property \DateTime $EndTimeTo

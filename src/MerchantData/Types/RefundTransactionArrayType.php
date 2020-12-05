@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
-/**
- *
- */
 class RefundTransactionArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WatchList
  * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BidList
  * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BestOfferList

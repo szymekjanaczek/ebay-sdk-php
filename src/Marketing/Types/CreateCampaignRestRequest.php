@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
-/**
- *
- */
 class CreateCampaignRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateCampaignRequest
 {
     /**

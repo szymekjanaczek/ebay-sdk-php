@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property double $Percent
  */
 class SellerFeeDiscountDashboardType extends \DTS\eBaySDK\Types\BaseType

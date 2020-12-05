@@ -31,7 +31,9 @@ use DTS\eBaySDK\JmesPath\Lexer as T;
  */
 class Parser
 {
-    /** @var Lexer */
+    /**
+     * @var Lexer
+     */
     private $lexer;
     private $tokens;
     private $token;
@@ -70,7 +72,9 @@ class Parser
         T::T_LPAREN            => 60,
     ];
 
-    /** @var array Acceptable tokens after a dot token */
+    /**
+     * @var array Acceptable tokens after a dot token
+     */
     private static $afterDot = [
         T::T_IDENTIFIER => true,
         // foo.bar

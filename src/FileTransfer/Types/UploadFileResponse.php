@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\FileTransfer\Types;
 
-/**
- *
- */
 class UploadFileResponse extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceResponse
 {
     /**

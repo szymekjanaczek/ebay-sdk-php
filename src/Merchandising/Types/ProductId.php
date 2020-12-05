@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
- *
  * @property string $type
  */
 class ProductId extends \DTS\eBaySDK\Types\StringType

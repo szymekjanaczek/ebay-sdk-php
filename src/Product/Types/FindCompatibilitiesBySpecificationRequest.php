@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property string $categoryId
  * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $compatibilityPropertyFilter
  * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $specification

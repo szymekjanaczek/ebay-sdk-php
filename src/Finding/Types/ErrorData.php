@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property integer $errorId
  * @property string $domain
  * @property \DTS\eBaySDK\Finding\Enums\ErrorSeverity $severity

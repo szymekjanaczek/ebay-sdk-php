@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $bidPercentage
  * @property \DTS\eBaySDK\Marketing\Enums\FundingModelEnum $fundingModel
  */

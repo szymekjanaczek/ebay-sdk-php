@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $FeedbackID
  */
 class LeaveFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

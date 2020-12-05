@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Types\ConflictingProduct[] $conflictingProducts
  * @property \DTS\eBaySDK\Catalog\Types\Correction[] $corrections
  * @property string $epid

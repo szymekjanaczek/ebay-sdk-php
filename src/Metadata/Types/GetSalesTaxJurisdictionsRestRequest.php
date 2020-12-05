@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Metadata\Types;
 
 /**
- *
  * @property string $countryCode
  */
 class GetSalesTaxJurisdictionsRestRequest extends \DTS\eBaySDK\Types\BaseType

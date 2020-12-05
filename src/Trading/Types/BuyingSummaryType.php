@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $BiddingCount
  * @property integer $WinningCount
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWinningCost

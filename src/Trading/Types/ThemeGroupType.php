@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $GroupID
  * @property string $GroupName
  * @property integer[] $ThemeID

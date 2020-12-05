@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\UserType $User
  */
 class GetUserResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

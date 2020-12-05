@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\FeeType[] $Fee
  */
 class FeesType extends \DTS\eBaySDK\Types\BaseType

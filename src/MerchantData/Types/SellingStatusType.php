@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $BidCount
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $BidIncrement
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedCurrentPrice

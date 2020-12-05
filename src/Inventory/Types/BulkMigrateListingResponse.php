@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\MigrateListingResponse[] $responses
  */
 class BulkMigrateListingResponse extends \DTS\eBaySDK\Types\BaseType

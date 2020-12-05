@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\FeeSummary[] $feeSummaries
  */
 class FeesSummaryResponse extends \DTS\eBaySDK\Types\BaseType

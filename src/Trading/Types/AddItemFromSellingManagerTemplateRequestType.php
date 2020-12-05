@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $SaleTemplateID
  * @property \DateTime $ScheduleTime
  * @property \DTS\eBaySDK\Trading\Types\ItemType $Item

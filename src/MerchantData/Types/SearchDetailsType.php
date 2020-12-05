@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
-/**
- *
- */
 class SearchDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

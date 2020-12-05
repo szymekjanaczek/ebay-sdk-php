@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
-/**
- *
- */
 class FeedbackRequirementsType extends \DTS\eBaySDK\Types\BooleanType
 {
     /**

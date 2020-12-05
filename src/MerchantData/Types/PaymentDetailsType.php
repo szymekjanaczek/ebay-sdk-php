@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $HoursToDeposit
  * @property integer $DaysToFullPayment
  * @property \DTS\eBaySDK\MerchantData\Types\AmountType $DepositAmount

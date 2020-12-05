@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
-/**
- *
- */
 class TaxType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

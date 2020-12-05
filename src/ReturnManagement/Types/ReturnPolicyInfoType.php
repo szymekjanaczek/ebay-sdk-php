@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property boolean $optedForRMA
  * @property boolean $optedForMultipleReturnAddress
  */

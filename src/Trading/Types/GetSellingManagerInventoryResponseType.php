@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DateTime $InventoryCountLastCalculatedDate
  * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductType[] $SellingManagerProduct
  * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult

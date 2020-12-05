@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $BusinessSeller
  * @property boolean $RestrictedToBusiness
  * @property double $VATPercent

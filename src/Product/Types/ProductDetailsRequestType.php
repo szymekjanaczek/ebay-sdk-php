@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
  * @property string[] $datasetPropertyName
  * @property string[] $dataset

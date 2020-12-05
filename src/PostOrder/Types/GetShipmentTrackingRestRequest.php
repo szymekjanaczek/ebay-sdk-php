@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $carrier_used
  * @property string $returnId
  * @property string $tracking_number

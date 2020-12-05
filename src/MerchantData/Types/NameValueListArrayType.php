@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\NameValueListType[] $NameValueList
  */
 class NameValueListArrayType extends \DTS\eBaySDK\Types\BaseType

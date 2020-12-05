@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Product\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Product\Enums\SortType $sortType
  * @property \DTS\eBaySDK\Product\Enums\OrderType $sortOrder
  */

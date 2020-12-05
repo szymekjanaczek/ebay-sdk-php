@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\Amount $forEachAmount
  * @property integer $forEachQuantity
  * @property \DTS\eBaySDK\Marketing\Types\Amount $minAmount

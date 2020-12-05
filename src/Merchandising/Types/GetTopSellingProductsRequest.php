@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Merchandising\Types;
 
-/**
- *
- */
 class GetTopSellingProductsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
 {
     /**

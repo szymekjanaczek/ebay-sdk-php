@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $caseId
  */
 class EscalateResponse extends \DTS\eBaySDK\Types\BaseType

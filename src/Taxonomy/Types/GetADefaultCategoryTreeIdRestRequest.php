@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
- *
  * @property string $marketplace_id
  */
 class GetADefaultCategoryTreeIdRestRequest extends \DTS\eBaySDK\Types\BaseType

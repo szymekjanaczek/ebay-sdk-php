@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class Group2MaxFlatShippingCostDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

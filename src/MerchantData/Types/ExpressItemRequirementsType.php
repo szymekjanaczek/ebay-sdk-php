@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
-/**
- *
- */
 class ExpressItemRequirementsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

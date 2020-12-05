@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ApplicationData
  * @property boolean $AutoPay
  * @property \DTS\eBaySDK\Trading\Types\PaymentDetailsType $PaymentDetails

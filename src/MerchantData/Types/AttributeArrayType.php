@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\AttributeType[] $Attribute
  */
 class AttributeArrayType extends \DTS\eBaySDK\Types\BaseType

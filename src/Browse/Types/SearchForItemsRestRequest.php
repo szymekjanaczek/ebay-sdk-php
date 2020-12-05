@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $aspect_filter
  * @property string $category_ids
  * @property string $epid

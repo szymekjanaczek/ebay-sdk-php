@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $Name
  * @property \DTS\eBaySDK\Trading\Types\AmountType $Fee
  * @property \DTS\eBaySDK\Trading\Types\AmountType $PromotionalDiscount

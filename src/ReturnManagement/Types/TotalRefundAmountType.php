@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $estimatedRefundAmount
  * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $actualRefundAmount
  */

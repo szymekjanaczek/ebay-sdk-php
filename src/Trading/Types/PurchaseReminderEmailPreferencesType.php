@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $PurchaseReminderEmailPreferences
  */
 class PurchaseReminderEmailPreferencesType extends \DTS\eBaySDK\Types\BaseType

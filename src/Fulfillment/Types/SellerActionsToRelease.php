@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $sellerActionToRelease
  */
 class SellerActionsToRelease extends \DTS\eBaySDK\Types\BaseType

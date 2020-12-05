@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class GetStoreOptionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**

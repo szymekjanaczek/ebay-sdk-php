@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $legacy_item_id
  * @property string $legacy_variation_id
  * @property string $legacy_variation_sku

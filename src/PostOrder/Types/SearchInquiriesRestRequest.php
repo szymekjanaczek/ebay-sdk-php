@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $fieldgroups
  * @property string $inquiry_creation_date_range_from
  * @property string $inquiry_creation_date_range_to

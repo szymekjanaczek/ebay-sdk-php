@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\FileTransfer\Types;
 
-/**
- *
- */
 class BaseServiceRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**

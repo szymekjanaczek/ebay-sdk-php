@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\BuyerSatisfactionStatusCodeType $Status
  * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType[] $Alert
  */

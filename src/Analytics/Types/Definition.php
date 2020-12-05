@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Analytics\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Analytics\Enums\DataTypeEnum $dataType
  * @property string $key
  * @property string $localizedName

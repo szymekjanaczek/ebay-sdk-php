@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Enums\ShippingCostTypeEnum $costType
  * @property \DTS\eBaySDK\Account\Types\Amount $insuranceFee
  * @property boolean $insuranceOffered

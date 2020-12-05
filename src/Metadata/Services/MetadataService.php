@@ -110,7 +110,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetSalesTaxJurisdictionsRestRequest $request
      * @return \DTS\eBaySDK\Metadata\Types\GetSalesTaxJurisdictionsRestResponse
      */
     public function getSalesTaxJurisdictions(\DTS\eBaySDK\Metadata\Types\GetSalesTaxJurisdictionsRestRequest $request)
@@ -119,7 +118,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetSalesTaxJurisdictionsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getSalesTaxJurisdictionsAsync(\DTS\eBaySDK\Metadata\Types\GetSalesTaxJurisdictionsRestRequest $request)
@@ -128,7 +126,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestRequest $request
      * @return \DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestResponse
      */
     public function getPoliciesForAutoPartsCompatibility(\DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestRequest $request)
@@ -137,7 +134,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPoliciesForAutoPartsCompatibilityAsync(\DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestRequest $request)
@@ -146,7 +142,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestRequest $request
      * @return \DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestResponse
      */
     public function getPoliciesForItemCondition(\DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestRequest $request)
@@ -155,7 +150,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPoliciesForItemConditionAsync(\DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestRequest $request)
@@ -164,7 +158,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestRequest $request
      * @return \DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestResponse
      */
     public function getPoliciesForListingStructures(\DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestRequest $request)
@@ -173,7 +166,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPoliciesForListingStructuresAsync(\DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestRequest $request)
@@ -182,7 +174,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestRequest $request
      * @return \DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestResponse
      */
     public function getPoliciesForNegotiatedPrice(\DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestRequest $request)
@@ -191,7 +182,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPoliciesForNegotiatedPriceAsync(\DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestRequest $request)
@@ -200,7 +190,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestRequest $request
      * @return \DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestResponse
      */
     public function getPoliciesForReturns(\DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestRequest $request)
@@ -209,7 +198,6 @@ class MetadataService extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getPoliciesForReturnsAsync(\DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestRequest $request)

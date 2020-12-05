@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Metadata\Types;
 
 /**
- *
  * @property string $categoryId
  * @property string $categoryTreeId
  * @property boolean $variationsSupported

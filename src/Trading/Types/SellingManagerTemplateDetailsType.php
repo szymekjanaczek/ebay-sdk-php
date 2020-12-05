@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $SaleTemplateID
  * @property string $SaleTemplateName
  * @property double $SuccessPercent

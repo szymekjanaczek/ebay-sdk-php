@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Catalog\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Catalog\Types\ChangeRequest[] $changeRequests
  * @property string $href
  * @property integer $limit

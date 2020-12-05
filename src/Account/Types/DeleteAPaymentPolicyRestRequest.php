@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property string $payment_policy_id
  */
 class DeleteAPaymentPolicyRestRequest extends \DTS\eBaySDK\Types\BaseType

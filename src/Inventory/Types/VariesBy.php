@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string[] $aspectsImageVariesBy
  * @property \DTS\eBaySDK\Inventory\Types\Specification[] $specifications
  */

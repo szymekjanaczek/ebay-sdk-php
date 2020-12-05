@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $EventTitle
  * @property string $Venue
  * @property string $PrintedDate

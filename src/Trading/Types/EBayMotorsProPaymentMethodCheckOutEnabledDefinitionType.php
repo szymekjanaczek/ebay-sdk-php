@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class EBayMotorsProPaymentMethodCheckOutEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

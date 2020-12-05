@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType[] $returns
  * @property \DTS\eBaySDK\ReturnManagement\Types\PaginationOutput $paginationOutput
  */

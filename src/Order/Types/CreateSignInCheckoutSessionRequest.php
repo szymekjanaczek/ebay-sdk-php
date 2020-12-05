@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Order\Types\CreditCard $creditCard
  * @property \DTS\eBaySDK\Order\Types\LineItemInput[] $lineItemInputs
  * @property \DTS\eBaySDK\Order\Types\ShippingAddress $shippingAddress

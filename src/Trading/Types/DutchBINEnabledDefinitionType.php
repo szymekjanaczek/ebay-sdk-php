@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class DutchBINEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

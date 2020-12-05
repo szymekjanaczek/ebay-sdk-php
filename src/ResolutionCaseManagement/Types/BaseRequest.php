@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
-/**
- *
- */
 class BaseRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\HalfFinding\Types\PaginationOutputType $paginationOutput
  * @property \DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType $product
  */

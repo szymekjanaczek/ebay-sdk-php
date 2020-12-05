@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $additionalShippingCostPerUnit
  * @property string $cutOffDateUsedForEstimate
  * @property string $maxEstimatedDeliveryDate

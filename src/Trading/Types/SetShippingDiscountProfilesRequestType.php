@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
  * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
  * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType $ModifyActionCode

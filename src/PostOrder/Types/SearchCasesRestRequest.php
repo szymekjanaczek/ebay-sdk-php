@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $case_creation_date_range_from
  * @property string $case_creation_date_range_to
  * @property string $case_status_filter

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property boolean $default
  * @property string $name
  * @property boolean $ETRS

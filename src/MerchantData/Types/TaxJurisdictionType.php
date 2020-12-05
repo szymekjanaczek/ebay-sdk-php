@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $JurisdictionID
  * @property double $SalesTaxPercent
  * @property boolean $ShippingIncludedInTax

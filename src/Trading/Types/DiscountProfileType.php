@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $DiscountProfileID
  * @property string $DiscountProfileName
  * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount

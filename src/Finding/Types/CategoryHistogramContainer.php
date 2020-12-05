@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Finding\Types\CategoryHistogram[] $categoryHistogram
  */
 class CategoryHistogramContainer extends \DTS\eBaySDK\Types\BaseType

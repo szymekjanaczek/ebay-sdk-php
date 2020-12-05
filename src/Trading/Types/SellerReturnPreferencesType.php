@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $OptedIn
  */
 class SellerReturnPreferencesType extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $warnings
  */
 class BaseResponse extends \DTS\eBaySDK\Types\BaseType

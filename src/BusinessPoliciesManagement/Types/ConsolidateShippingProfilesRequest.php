@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
-/**
- *
- */
 class ConsolidateShippingProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
  * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType $escalationReason
  * @property string $comments

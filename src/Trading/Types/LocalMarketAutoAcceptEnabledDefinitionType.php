@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class LocalMarketAutoAcceptEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

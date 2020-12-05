@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $caseId
  */
 class GetCaseRestRequest extends \DTS\eBaySDK\Types\BaseType

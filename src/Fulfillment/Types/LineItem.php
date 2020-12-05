@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\AppliedPromotion[] $appliedPromotions
  * @property \DTS\eBaySDK\Fulfillment\Types\DeliveryCost $deliveryCost
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountedLineItemCost

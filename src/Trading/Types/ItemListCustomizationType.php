@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property boolean $Include
  * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
  * @property \DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType $Sort

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Shopping\Types;
 
 /**
- *
  * @property string $MessageID
  */
 class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType

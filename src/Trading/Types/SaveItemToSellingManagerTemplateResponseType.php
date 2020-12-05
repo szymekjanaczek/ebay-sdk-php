@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $TemplateID
  */
 class SaveItemToSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

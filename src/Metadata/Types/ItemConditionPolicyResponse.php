@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Metadata\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Metadata\Types\ItemConditionPolicy[] $itemConditionPolicies
  * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
  */

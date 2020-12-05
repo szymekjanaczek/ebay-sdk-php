@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
-/**
- *
- */
 class SetItemAsReceivedResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
 {
     /**

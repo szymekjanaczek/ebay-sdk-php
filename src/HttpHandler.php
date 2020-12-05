@@ -12,7 +12,7 @@ use Psr\Http\Message\RequestInterface;
 class HttpHandler
 {
     /**
-     * @var \GuzzleHttp\ClientInterface $client The client for making the HTTP request.
+     * @var \GuzzleHttp\ClientInterface The client for making the HTTP request.
      */
     private $client;
 
@@ -39,7 +39,6 @@ class HttpHandler
     }
 
     /**
-     * @param RequestInterface $request
      * @param array $options Http options for the client.
      *
      * @return \GuzzleHttp\Promise\PromiseInterface Promise that will be resolved with a

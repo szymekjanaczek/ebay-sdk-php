@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $offerId
  */
 class GetOfferRestRequest extends \DTS\eBaySDK\Types\BaseType

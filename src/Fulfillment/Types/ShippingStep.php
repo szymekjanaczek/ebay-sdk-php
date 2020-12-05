@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $shippingCarrierCode
  * @property string $shippingServiceCode
  * @property \DTS\eBaySDK\Fulfillment\Types\Contact $shipTo

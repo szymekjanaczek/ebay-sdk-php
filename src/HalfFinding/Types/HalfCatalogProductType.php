@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property string $title
  * @property string $detailsURL
  * @property string $stockPhotoURL

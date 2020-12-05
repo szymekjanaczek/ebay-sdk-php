@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $ApplicationURL
  * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $ApplicationEnable
  * @property string $AlertEmail

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property integer $HoursToDeposit
  * @property integer $DaysToFullPayment
  * @property \DTS\eBaySDK\Trading\Types\AmountType $DepositAmount

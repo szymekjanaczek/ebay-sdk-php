@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\CaseSummaryType[] $members
  * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
  * @property integer $totalNumberOfCases

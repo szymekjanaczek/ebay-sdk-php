@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType $CombinedPaymentOption
  */
 class CombinedPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType

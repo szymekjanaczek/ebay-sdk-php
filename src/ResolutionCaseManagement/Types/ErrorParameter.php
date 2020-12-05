@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
- *
  * @property string $name
  */
 class ErrorParameter extends \DTS\eBaySDK\Types\StringType

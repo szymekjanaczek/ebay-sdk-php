@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Feedback\Types;
 
 /**
- *
  * @property integer $errorId
  * @property string $domain
  * @property \DTS\eBaySDK\Feedback\Enums\ErrorSeverity $severity

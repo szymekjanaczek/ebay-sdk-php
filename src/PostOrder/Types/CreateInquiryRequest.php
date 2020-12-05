@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property integer $claimQuantity
  * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
  * @property string $desiredOutcome

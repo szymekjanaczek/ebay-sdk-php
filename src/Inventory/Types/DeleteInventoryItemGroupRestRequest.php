@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $inventoryItemGroupKey
  */
 class DeleteInventoryItemGroupRestRequest extends \DTS\eBaySDK\Types\BaseType

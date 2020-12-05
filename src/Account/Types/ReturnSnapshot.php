@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
  * @property \DTS\eBaySDK\Account\Types\Amount $returnedInventoryValue
  * @property integer $returnedQuantity

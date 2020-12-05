@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Order\Types;
 
 /**
- *
  * @property string $lastFourDigitForCreditCard
  */
 class PaymentInstrumentReference extends \DTS\eBaySDK\Types\BaseType

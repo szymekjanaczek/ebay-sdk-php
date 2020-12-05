@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Fulfillment\Types\Payment[] $payments
  * @property \DTS\eBaySDK\Fulfillment\Types\OrderRefund[] $refunds
  * @property \DTS\eBaySDK\Fulfillment\Types\Amount $totalDueSeller

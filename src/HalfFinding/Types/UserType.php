@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
- *
  * @property string $userID
  * @property integer $feedbackScore
  * @property double $positiveFeedbackPercent

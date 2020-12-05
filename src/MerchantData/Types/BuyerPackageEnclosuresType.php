@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType[] $BuyerPackageEnclosure
  */
 class BuyerPackageEnclosuresType extends \DTS\eBaySDK\Types\BaseType

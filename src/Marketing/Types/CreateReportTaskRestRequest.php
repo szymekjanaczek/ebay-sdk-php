@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
-/**
- *
- */
 class CreateReportTaskRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateReportTask
 {
     /**

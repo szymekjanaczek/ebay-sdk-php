@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property integer $PaymentProfileID
  * @property string $PaymentProfileName
  */

@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
-/**
- *
- */
 class SimpleItemArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

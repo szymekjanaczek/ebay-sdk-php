@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property string[] $acceptedPaymentMethod
  * @property boolean $immediatePay
  * @property string $paymentInstructions

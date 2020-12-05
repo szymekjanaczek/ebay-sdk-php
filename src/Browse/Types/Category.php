@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $categoryId
  */
 class Category extends \DTS\eBaySDK\Types\BaseType

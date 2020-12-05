@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Browse\Types;
 
 /**
- *
  * @property string $end
  * @property boolean $exclusiveEnd
  * @property boolean $exclusiveStart

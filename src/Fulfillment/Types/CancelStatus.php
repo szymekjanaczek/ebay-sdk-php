@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
- *
  * @property string $cancelledDate
  * @property \DTS\eBaySDK\Fulfillment\Types\CancelRequest[] $cancelRequests
  * @property \DTS\eBaySDK\Fulfillment\Enums\CancelStateEnum $cancelState

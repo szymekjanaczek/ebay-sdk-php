@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\VeROReportedItemType[] $ReportedItem
  */
 class VeROReportedItemDetailsType extends \DTS\eBaySDK\Types\BaseType

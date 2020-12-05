@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
-/**
- *
- */
 class ValType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

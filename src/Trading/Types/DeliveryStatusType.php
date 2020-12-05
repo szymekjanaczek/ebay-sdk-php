@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property string $Email
  */
 class DeliveryStatusType extends \DTS\eBaySDK\Types\BaseType

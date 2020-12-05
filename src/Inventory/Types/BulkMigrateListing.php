@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Inventory\Types\MigrateListing[] $requests
  */
 class BulkMigrateListing extends \DTS\eBaySDK\Types\BaseType

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Types\MembershipDetailType[] $Program
  */
 class MembershipDetailsType extends \DTS\eBaySDK\Types\BaseType

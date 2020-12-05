@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Trading\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Trading\Enums\AccountStateCodeType $AccountState
  * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoicePayment
  * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceCredit

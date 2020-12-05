@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile[] $ShippingPolicyProfile
  */
 class ShippingPolicyProfileList extends \DTS\eBaySDK\Types\BaseType

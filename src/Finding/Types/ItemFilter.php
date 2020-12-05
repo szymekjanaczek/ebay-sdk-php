@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Finding\Types;
 
 /**
- *
  * @property string $paramName
  * @property string $paramValue
  * @property \DTS\eBaySDK\Finding\Enums\ItemFilterType $name

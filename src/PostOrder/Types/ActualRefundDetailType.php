@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\RefundDetailType $actualRefund
  * @property \DTS\eBaySDK\PostOrder\Enums\ReturnRefundInitiatorEnum $refundInitiationType
  * @property \DTS\eBaySDK\PostOrder\Types\DateTime $refundIssuedDate

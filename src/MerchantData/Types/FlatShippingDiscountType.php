@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\MerchantData\Enums\DiscountNameCodeType $DiscountName
  * @property \DTS\eBaySDK\MerchantData\Types\DiscountProfileType[] $DiscountProfile
  */

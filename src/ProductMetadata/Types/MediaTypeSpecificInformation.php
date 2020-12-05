@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
-/**
- *
- */
 class MediaTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
 {
     /**

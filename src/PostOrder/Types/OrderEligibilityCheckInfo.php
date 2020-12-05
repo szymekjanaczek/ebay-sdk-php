@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $legacyOrderId
  */
 class OrderEligibilityCheckInfo extends \DTS\eBaySDK\Types\BaseType

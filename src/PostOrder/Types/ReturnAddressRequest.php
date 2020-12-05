@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property string $firstName
  * @property string $lastName
  * @property \DTS\eBaySDK\PostOrder\Types\Address $returnAddress

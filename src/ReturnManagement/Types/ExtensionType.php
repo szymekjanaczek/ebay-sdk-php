@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
-/**
- *
- */
 class ExtensionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

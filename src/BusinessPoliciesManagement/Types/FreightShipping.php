@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
- *
  * @property string $originPickupLocationType
  * @property boolean $originPickupInside
  * @property boolean $packagingHelpRequired

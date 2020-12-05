@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
- *
  * @property string $DuplicateInvocationID
  * @property \DTS\eBaySDK\MerchantData\Enums\InvocationStatusType $Status
  * @property string $InvocationTrackingID

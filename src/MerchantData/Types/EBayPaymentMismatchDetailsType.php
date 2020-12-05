@@ -10,9 +10,6 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
-/**
- *
- */
 class EBayPaymentMismatchDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**

@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDetailType $actionDetail
  * @property \DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType[] $condition
  * @property \DTS\eBaySDK\PostOrder\Types\RuleSummaryType $ruleSummary

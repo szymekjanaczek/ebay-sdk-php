@@ -260,8 +260,6 @@ class Utils
 
     /**
      * @param array|string $subject
-     * @param int|null     $start
-     * @param int|null     $stop
      *
      * @return array|string
      */

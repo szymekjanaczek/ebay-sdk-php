@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $promotion_id
  */
 class PauseAPromotionRestRequest extends \DTS\eBaySDK\Types\BaseType

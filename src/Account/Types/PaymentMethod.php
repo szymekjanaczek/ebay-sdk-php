@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Account\Types;
 
 /**
- *
  * @property \DTS\eBaySDK\Account\Enums\PaymentInstrumentBrandEnum[] $brands
  * @property \DTS\eBaySDK\Account\Enums\PaymentMethodTypeEnum $paymentMethodType
  * @property \DTS\eBaySDK\Account\Types\RecipientAccountReference $recipientAccountReference

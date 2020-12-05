@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Marketing\Types;
 
 /**
- *
  * @property string $limit
  * @property string $marketplace_id
  * @property string $offset

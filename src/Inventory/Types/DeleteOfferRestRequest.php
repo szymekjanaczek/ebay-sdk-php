@@ -11,7 +11,6 @@
 namespace DTS\eBaySDK\Inventory\Types;
 
 /**
- *
  * @property string $offerId
  */
 class DeleteOfferRestRequest extends \DTS\eBaySDK\Types\BaseType
