@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class StoreCustomPageStatusCodeType
 {
-    public const C_ACTIVE = 'Active';
+    public const C_ACTIVE      = 'Active';
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_DELETE = 'Delete';
-    public const C_INACTIVE = 'Inactive';
+    public const C_DELETE      = 'Delete';
+    public const C_INACTIVE    = 'Inactive';
 }

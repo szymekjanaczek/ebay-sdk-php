@@ -23,7 +23,7 @@ class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OriginalItemPrice'        => [
+        'OriginalItemPrice' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'OriginalItemShippingCost',
         ],
-        'OriginalShippingService'  => [
+        'OriginalShippingService' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OriginalShippingService',
         ],
-        'SellerDiscount'           => [
+        'SellerDiscount' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\SellerDiscountType',
             'repeatable'  => true,
             'attribute'   => false,

@@ -23,13 +23,13 @@ class GetBestOffersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'          => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'BestOfferID'     => [
+        'BestOfferID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class GetBestOffersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'attribute'   => false,
             'elementName' => 'BestOfferStatus',
         ],
-        'Pagination'      => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,

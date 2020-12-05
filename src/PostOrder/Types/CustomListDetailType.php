@@ -29,7 +29,7 @@ class CustomListDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'listData',
         ],
-        'listId'   => [
+        'listId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

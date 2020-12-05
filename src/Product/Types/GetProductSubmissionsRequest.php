@@ -29,19 +29,19 @@ class GetProductSubmissionsRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'productSubmissionFilter',
         ],
-        'outputSelector'          => [
+        'outputSelector' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'outputSelector',
         ],
-        'paginationInput'         => [
+        'paginationInput' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PaginationInput',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paginationInput',
         ],
-        'sortOption'              => [
+        'sortOption' => [
             'type'        => 'DTS\eBaySDK\Product\Types\SortOption',
             'repeatable'  => true,
             'attribute'   => false,

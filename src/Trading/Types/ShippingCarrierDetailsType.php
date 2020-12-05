@@ -30,25 +30,25 @@ class ShippingCarrierDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingCarrierID',
         ],
-        'Description'       => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'ShippingCarrier'   => [
+        'ShippingCarrier' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingCarrier',
         ],
-        'DetailVersion'     => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'        => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Inventory\Enums;
 
 class ShippingServiceTypeEnum
 {
-    public const C_DOMESTIC = 'DOMESTIC';
+    public const C_DOMESTIC      = 'DOMESTIC';
     public const C_INTERNATIONAL = 'INTERNATIONAL';
 }

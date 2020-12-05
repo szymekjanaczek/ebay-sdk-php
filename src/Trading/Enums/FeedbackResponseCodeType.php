@@ -13,6 +13,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 class FeedbackResponseCodeType
 {
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_FOLLOW_UP = 'FollowUp';
-    public const C_REPLY = 'Reply';
+    public const C_FOLLOW_UP   = 'FollowUp';
+    public const C_REPLY       = 'Reply';
 }

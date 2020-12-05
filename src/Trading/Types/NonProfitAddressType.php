@@ -39,37 +39,37 @@ class NonProfitAddressType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'AddressLine2',
         ],
-        'City'         => [
+        'City' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'City',
         ],
-        'State'        => [
+        'State' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'State',
         ],
-        'ZipCode'      => [
+        'ZipCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ZipCode',
         ],
-        'Latitude'     => [
+        'Latitude' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Latitude',
         ],
-        'Longitude'    => [
+        'Longitude' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Longitude',
         ],
-        'AddressType'  => [
+        'AddressType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

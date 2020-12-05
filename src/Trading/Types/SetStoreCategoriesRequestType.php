@@ -23,13 +23,13 @@ class SetStoreCategoriesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Action'                      => [
+        'Action' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Action',
         ],
-        'ItemDestinationCategoryID'   => [
+        'ItemDestinationCategoryID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class SetStoreCategoriesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'attribute'   => false,
             'elementName' => 'DestinationParentCategoryID',
         ],
-        'StoreCategories'             => [
+        'StoreCategories' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
             'repeatable'  => false,
             'attribute'   => false,

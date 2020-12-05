@@ -22,7 +22,7 @@ class PictureSetMemberType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MemberURL'     => [
+        'MemberURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class PictureSetMemberType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'PictureHeight',
         ],
-        'PictureWidth'  => [
+        'PictureWidth' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

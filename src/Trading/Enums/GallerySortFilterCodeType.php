@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class GallerySortFilterCodeType
 {
-    public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_SHOW_ANY_ITEMS = 'ShowAnyItems';
+    public const C_CUSTOM_CODE                          = 'CustomCode';
+    public const C_SHOW_ANY_ITEMS                       = 'ShowAnyItems';
     public const C_SHOW_ITEMS_WITH_GALLERY_IMAGES_FIRST = 'ShowItemsWithGalleryImagesFirst';
-    public const C_SHOW_ONLY_ITEMS_WITH_GALLERY_IMAGES = 'ShowOnlyItemsWithGalleryImages';
+    public const C_SHOW_ONLY_ITEMS_WITH_GALLERY_IMAGES  = 'ShowOnlyItemsWithGalleryImages';
 }

@@ -24,13 +24,13 @@ class SummaryReportResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'baseSale'            => [
+        'baseSale' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'baseSale',
         ],
-        'lastUpdated'         => [
+        'lastUpdated' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -42,13 +42,13 @@ class SummaryReportResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'percentageSalesLift',
         ],
-        'promotionSale'       => [
+        'promotionSale' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'promotionSale',
         ],
-        'totalSale'           => [
+        'totalSale' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

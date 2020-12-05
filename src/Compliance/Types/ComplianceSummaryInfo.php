@@ -28,13 +28,13 @@ class ComplianceSummaryInfo extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'complianceType',
         ],
-        'marketplaceId'  => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'listingCount'   => [
+        'listingCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

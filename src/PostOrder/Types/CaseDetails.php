@@ -36,61 +36,61 @@ class CaseDetails extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyerFinalAcceptResolution',
         ],
-        'buyerInitExpectResolution'  => [
+        'buyerInitExpectResolution' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerInitExpectResolution',
         ],
-        'creationDate'               => [
+        'creationDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'escalationDate'             => [
+        'escalationDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'escalationDate',
         ],
-        'expirationDate'             => [
+        'expirationDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'expirationDate',
         ],
-        'lastBuyerRespDate'          => [
+        'lastBuyerRespDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lastBuyerRespDate',
         ],
-        'lastSellerRespDate'         => [
+        'lastSellerRespDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lastSellerRespDate',
         ],
-        'paypalPaid'                 => [
+        'paypalPaid' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paypalPaid',
         ],
-        'refundAmounts'              => [
+        'refundAmounts' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\RefundAmounts',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'refundAmounts',
         ],
-        'refundDeadlineDate'         => [
+        'refundDeadlineDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'refundDeadlineDate',
         ],
-        'refundType'                 => [
+        'refundType' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\RefundType',
             'repeatable'  => false,
             'attribute'   => false,

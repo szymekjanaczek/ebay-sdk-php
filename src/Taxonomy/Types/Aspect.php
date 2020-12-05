@@ -22,13 +22,13 @@ class Aspect extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectConstraint'    => [
+        'aspectConstraint' => [
             'type'        => 'DTS\eBaySDK\Taxonomy\Types\AspectConstraint',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'aspectConstraint',
         ],
-        'aspectValues'        => [
+        'aspectValues' => [
             'type'        => 'DTS\eBaySDK\Taxonomy\Types\AspectValue',
             'repeatable'  => true,
             'attribute'   => false,

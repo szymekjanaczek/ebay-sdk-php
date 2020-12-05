@@ -30,25 +30,25 @@ class GetUserDisputesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'attribute'   => false,
             'elementName' => 'DisputeFilterType',
         ],
-        'DisputeSortType'   => [
+        'DisputeSortType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DisputeSortType',
         ],
-        'ModTimeFrom'       => [
+        'ModTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo'         => [
+        'ModTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'Pagination'        => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,

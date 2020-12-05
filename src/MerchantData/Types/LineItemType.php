@@ -24,7 +24,7 @@ class LineItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Quantity'        => [
+        'Quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -36,19 +36,19 @@ class LineItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'CountryOfOrigin',
         ],
-        'Description'     => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'ItemID'          => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'TransactionID'   => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

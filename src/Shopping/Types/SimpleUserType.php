@@ -41,115 +41,115 @@ class SimpleUserType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'UserID'                  => [
+        'UserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserID',
         ],
-        'FeedbackPrivate'         => [
+        'FeedbackPrivate' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackPrivate',
         ],
-        'FeedbackRatingStar'      => [
+        'FeedbackRatingStar' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackRatingStar',
         ],
-        'FeedbackScore'           => [
+        'FeedbackScore' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackScore',
         ],
-        'UserAnonymized'          => [
+        'UserAnonymized' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserAnonymized',
         ],
-        'NewUser'                 => [
+        'NewUser' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NewUser',
         ],
-        'RegistrationDate'        => [
+        'RegistrationDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RegistrationDate',
         ],
-        'RegistrationSite'        => [
+        'RegistrationSite' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RegistrationSite',
         ],
-        'Status'                  => [
+        'Status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'SellerBusinessType'      => [
+        'SellerBusinessType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerBusinessType',
         ],
-        'StoreURL'                => [
+        'StoreURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreURL',
         ],
-        'StoreName'               => [
+        'StoreName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreName',
         ],
-        'SellerItemsURL'          => [
+        'SellerItemsURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerItemsURL',
         ],
-        'AboutMeURL'              => [
+        'AboutMeURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AboutMeURL',
         ],
-        'MyWorldURL'              => [
+        'MyWorldURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MyWorldURL',
         ],
-        'MyWorldSmallImage'       => [
+        'MyWorldSmallImage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MyWorldSmallImage',
         ],
-        'MyWorldLargeImage'       => [
+        'MyWorldLargeImage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MyWorldLargeImage',
         ],
-        'ReviewsAndGuidesURL'     => [
+        'ReviewsAndGuidesURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReviewsAndGuidesURL',
         ],
-        'FeedbackDetailsURL'      => [
+        'FeedbackDetailsURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -161,13 +161,13 @@ class SimpleUserType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'PositiveFeedbackPercent',
         ],
-        'SellerLevel'             => [
+        'SellerLevel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerLevel',
         ],
-        'TopRatedSeller'          => [
+        'TopRatedSeller' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

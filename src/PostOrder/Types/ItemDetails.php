@@ -23,19 +23,19 @@ class ItemDetails extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemPictureUrl'       => [
+        'itemPictureUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemPictureUrl',
         ],
-        'itemPrice'            => [
+        'itemPrice' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemPrice',
         ],
-        'itemTitle'            => [
+        'itemTitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

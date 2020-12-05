@@ -26,37 +26,37 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'RefundStatus'      => [
+        'RefundStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundStatus',
         ],
-        'RefundType'        => [
+        'RefundType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundType',
         ],
-        'RefundTo'          => [
+        'RefundTo' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundTo',
         ],
-        'RefundTime'        => [
+        'RefundTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundTime',
         ],
-        'RefundAmount'      => [
+        'RefundAmount' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundAmount',
         ],
-        'ReferenceID'       => [
+        'ReferenceID' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -22,7 +22,7 @@ class MarkRefundSentRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'comments'            => [
+        'comments' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class MarkRefundSentRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'partialRefundAmount',
         ],
-        'refundDetail'        => [
+        'refundDetail' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
             'repeatable'  => false,
             'attribute'   => false,

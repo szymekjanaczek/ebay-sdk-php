@@ -27,7 +27,7 @@ class ReturnPolicyResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'returnPolicies',
         ],
-        'warnings'       => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

@@ -27,19 +27,19 @@ class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Address'                      => [
+        'Address' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Address',
         ],
-        'Fax'                          => [
+        'Fax' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Fax',
         ],
-        'Email'                        => [
+        'Email' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -51,25 +51,25 @@ class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'AdditionalContactInformation',
         ],
-        'TradeRegistrationNumber'      => [
+        'TradeRegistrationNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TradeRegistrationNumber',
         ],
-        'LegalInvoice'                 => [
+        'LegalInvoice' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LegalInvoice',
         ],
-        'TermsAndConditions'           => [
+        'TermsAndConditions' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TermsAndConditions',
         ],
-        'VATDetails'                   => [
+        'VATDetails' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\VATDetailsType',
             'repeatable'  => false,
             'attribute'   => false,

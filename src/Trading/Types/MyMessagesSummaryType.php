@@ -25,31 +25,31 @@ class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FolderSummary'          => [
+        'FolderSummary' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'FolderSummary',
         ],
-        'NewMessageCount'        => [
+        'NewMessageCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NewMessageCount',
         ],
-        'FlaggedMessageCount'    => [
+        'FlaggedMessageCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FlaggedMessageCount',
         ],
-        'TotalMessageCount'      => [
+        'TotalMessageCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalMessageCount',
         ],
-        'NewHighPriorityCount'   => [
+        'NewHighPriorityCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

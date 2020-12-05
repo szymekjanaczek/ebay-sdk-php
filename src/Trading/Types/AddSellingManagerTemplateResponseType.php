@@ -25,25 +25,25 @@ class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID'                   => [
+        'CategoryID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'Category2ID'                  => [
+        'Category2ID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Category2ID',
         ],
-        'SaleTemplateID'               => [
+        'SaleTemplateID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
-        'SaleTemplateName'             => [
+        'SaleTemplateName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -55,7 +55,7 @@ class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\A
             'attribute'   => false,
             'elementName' => 'SellingManagerProductDetails',
         ],
-        'Fees'                         => [
+        'Fees' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable'  => false,
             'attribute'   => false,

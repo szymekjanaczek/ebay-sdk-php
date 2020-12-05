@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 class VeROReportPacketStatusCodeType
 {
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_IN_PROCESS = 'InProcess';
-    public const C_PROCESSED = 'Processed';
-    public const C_RECEIVED = 'Received';
+    public const C_IN_PROCESS  = 'InProcess';
+    public const C_PROCESSED   = 'Processed';
+    public const C_RECEIVED    = 'Received';
 }

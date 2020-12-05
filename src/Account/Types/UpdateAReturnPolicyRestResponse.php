@@ -27,7 +27,7 @@ class UpdateAReturnPolicyRestResponse extends \DTS\eBaySDK\Account\Types\SetRetu
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

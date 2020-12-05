@@ -26,31 +26,31 @@ class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BiddingCount'      => [
+        'BiddingCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BiddingCount',
         ],
-        'WinningCount'      => [
+        'WinningCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WinningCount',
         ],
-        'TotalWinningCost'  => [
+        'TotalWinningCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalWinningCost',
         ],
-        'WonCount'          => [
+        'WonCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WonCount',
         ],
-        'TotalWonCost'      => [
+        'TotalWonCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'WonDurationInDays',
         ],
-        'BestOfferCount'    => [
+        'BestOfferCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

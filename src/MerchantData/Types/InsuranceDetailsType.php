@@ -21,7 +21,7 @@ class InsuranceDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'InsuranceFee'    => [
+        'InsuranceFee' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,11 +27,11 @@ class FeedService extends \DTS\eBaySDK\Feed\Services\FeedBaseService
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'date'        => [
+                'date' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'feed_type'   => [
+                'feed_type' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],

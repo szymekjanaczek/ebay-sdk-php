@@ -23,7 +23,7 @@ class CreateCancelRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'buyerPaid'     => [
+        'buyerPaid' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,7 +35,7 @@ class CreateCancelRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyerPaidDate',
         ],
-        'cancelReason'  => [
+        'cancelReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

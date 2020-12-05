@@ -21,7 +21,7 @@ class FetchTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SecretID'  => [
+        'SecretID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

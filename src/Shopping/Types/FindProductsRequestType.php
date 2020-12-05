@@ -30,7 +30,7 @@ class FindProductsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'IncludeSelector'    => [
+        'IncludeSelector' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -42,49 +42,49 @@ class FindProductsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReques
             'attribute'   => false,
             'elementName' => 'AvailableItemsOnly',
         ],
-        'DomainName'         => [
+        'DomainName' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'DomainName',
         ],
-        'ProductID'          => [
+        'ProductID' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProductID',
         ],
-        'QueryKeywords'      => [
+        'QueryKeywords' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QueryKeywords',
         ],
-        'ProductSort'        => [
+        'ProductSort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProductSort',
         ],
-        'SortOrder'          => [
+        'SortOrder' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SortOrder',
         ],
-        'MaxEntries'         => [
+        'MaxEntries' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxEntries',
         ],
-        'PageNumber'         => [
+        'PageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
-        'CategoryID'         => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

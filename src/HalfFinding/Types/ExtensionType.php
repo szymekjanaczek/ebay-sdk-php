@@ -23,13 +23,13 @@ class ExtensionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'id'          => [
+        'id' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'id',
         ],
-        'version'     => [
+        'version' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class ExtensionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'contentType',
         ],
-        'value'       => [
+        'value' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

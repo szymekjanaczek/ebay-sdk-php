@@ -26,25 +26,25 @@ class ShippingPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PackageID'           => [
+        'PackageID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PackageID',
         ],
-        'Description'         => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'ShippingPackage'     => [
+        'ShippingPackage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingPackage',
         ],
-        'DefaultValue'        => [
+        'DefaultValue' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class ShippingPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DimensionsSupported',
         ],
-        'DetailVersion'       => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'          => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

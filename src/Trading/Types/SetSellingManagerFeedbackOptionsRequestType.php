@@ -27,7 +27,7 @@ class SetSellingManagerFeedbackOptionsRequestType extends \DTS\eBaySDK\Trading\T
             'attribute'   => false,
             'elementName' => 'AutomatedLeaveFeedbackEvent',
         ],
-        'StoredComments'              => [
+        'StoredComments' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FeedbackCommentArrayType',
             'repeatable'  => false,
             'attribute'   => false,

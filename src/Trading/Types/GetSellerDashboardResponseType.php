@@ -26,7 +26,7 @@ class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SearchStanding'    => [
+        'SearchStanding' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SearchStandingDashboardType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -44,7 +44,7 @@ class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'attribute'   => false,
             'elementName' => 'PowerSellerStatus',
         ],
-        'PolicyCompliance'  => [
+        'PolicyCompliance' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'attribute'   => false,
             'elementName' => 'BuyerSatisfaction',
         ],
-        'SellerAccount'     => [
+        'SellerAccount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellerAccountDashboardType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerAccount',
         ],
-        'Performance'       => [
+        'Performance' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PerformanceDashboardType',
             'repeatable'  => true,
             'attribute'   => false,

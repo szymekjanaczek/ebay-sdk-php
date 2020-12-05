@@ -30,31 +30,31 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DetailLevel'          => [
+        'DetailLevel' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'DetailLevel',
         ],
-        'ErrorLanguage'        => [
+        'ErrorLanguage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ErrorLanguage',
         ],
-        'MessageID'            => [
+        'MessageID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageID',
         ],
-        'Version'              => [
+        'Version' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Version',
         ],
-        'EndUserIP'            => [
+        'EndUserIP' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -66,31 +66,31 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'RequesterCredentials',
         ],
-        'ErrorHandling'        => [
+        'ErrorHandling' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ErrorHandling',
         ],
-        'InvocationID'         => [
+        'InvocationID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'InvocationID',
         ],
-        'OutputSelector'       => [
+        'OutputSelector' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'OutputSelector',
         ],
-        'WarningLevel'         => [
+        'WarningLevel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WarningLevel',
         ],
-        'BotBlock'             => [
+        'BotBlock' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\BotBlockRequestType',
             'repeatable'  => false,
             'attribute'   => false,

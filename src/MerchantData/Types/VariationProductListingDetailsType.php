@@ -28,13 +28,13 @@ class VariationProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ISBN',
         ],
-        'UPC'  => [
+        'UPC' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UPC',
         ],
-        'EAN'  => [
+        'EAN' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -39,43 +39,43 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'appliedPromotions'               => [
+        'appliedPromotions' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\AppliedPromotion',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'appliedPromotions',
         ],
-        'deliveryCost'                    => [
+        'deliveryCost' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\DeliveryCost',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'deliveryCost',
         ],
-        'discountedLineItemCost'          => [
+        'discountedLineItemCost' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'discountedLineItemCost',
         ],
-        'giftDetails'                     => [
+        'giftDetails' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\GiftDetails',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'giftDetails',
         ],
-        'legacyItemId'                    => [
+        'legacyItemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'legacyItemId',
         ],
-        'legacyVariationId'               => [
+        'legacyVariationId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'legacyVariationId',
         ],
-        'lineItemCost'                    => [
+        'lineItemCost' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -87,73 +87,73 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'lineItemFulfillmentInstructions',
         ],
-        'lineItemFulfillmentStatus'       => [
+        'lineItemFulfillmentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lineItemFulfillmentStatus',
         ],
-        'lineItemId'                      => [
+        'lineItemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lineItemId',
         ],
-        'listingMarketplaceId'            => [
+        'listingMarketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingMarketplaceId',
         ],
-        'properties'                      => [
+        'properties' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\LineItemProperties',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'properties',
         ],
-        'purchaseMarketplaceId'           => [
+        'purchaseMarketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'purchaseMarketplaceId',
         ],
-        'quantity'                        => [
+        'quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'quantity',
         ],
-        'refunds'                         => [
+        'refunds' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\LineItemRefund',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'refunds',
         ],
-        'sku'                             => [
+        'sku' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sku',
         ],
-        'soldFormat'                      => [
+        'soldFormat' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'soldFormat',
         ],
-        'taxes'                           => [
+        'taxes' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Tax',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'taxes',
         ],
-        'title'                           => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'title',
         ],
-        'total'                           => [
+        'total' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

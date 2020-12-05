@@ -26,7 +26,7 @@ class CreateRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\Base
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'UUID'                       => [
+        'UUID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -38,31 +38,31 @@ class CreateRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\Base
             'attribute'   => false,
             'elementName' => 'downloadJobRecurringFilter',
         ],
-        'frequencyInMinutes'         => [
+        'frequencyInMinutes' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'frequencyInMinutes',
         ],
-        'downloadJobType'            => [
+        'downloadJobType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'downloadJobType',
         ],
-        'monthlyRecurrence'          => [
+        'monthlyRecurrence' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'monthlyRecurrence',
         ],
-        'weeklyRecurrence'           => [
+        'weeklyRecurrence' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'weeklyRecurrence',
         ],
-        'dailyRecurrence'            => [
+        'dailyRecurrence' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence',
             'repeatable'  => false,
             'attribute'   => false,

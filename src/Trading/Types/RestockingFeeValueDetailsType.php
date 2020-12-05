@@ -27,7 +27,7 @@ class RestockingFeeValueDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'RestockingFeeValueOption',
         ],
-        'Description'              => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

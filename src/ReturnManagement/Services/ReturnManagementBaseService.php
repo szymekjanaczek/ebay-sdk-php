@@ -45,17 +45,17 @@ class ReturnManagementBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion' => [
-                    'valid'   => ['string'],
-                    'default' => \DTS\eBaySDK\ReturnManagement\Services\ReturnManagementService::API_VERSION,
-                ],
-                'authToken'  => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
-                'globalId'   => [
-                    'valid' => ['string'],
-                ],
+            'apiVersion' => [
+                'valid'   => ['string'],
+                'default' => \DTS\eBaySDK\ReturnManagement\Services\ReturnManagementService::API_VERSION,
+            ],
+            'authToken' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
+            'globalId' => [
+                'valid' => ['string'],
+            ],
             ];
     }
 

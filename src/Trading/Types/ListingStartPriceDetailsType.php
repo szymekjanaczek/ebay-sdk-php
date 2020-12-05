@@ -25,31 +25,31 @@ class ListingStartPriceDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Description'             => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'ListingType'             => [
+        'ListingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingType',
         ],
-        'StartPrice'              => [
+        'StartPrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartPrice',
         ],
-        'DetailVersion'           => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'              => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

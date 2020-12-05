@@ -21,7 +21,7 @@ class GetMyMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Summary'  => [
+        'Summary' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesSummaryType',
             'repeatable'  => false,
             'attribute'   => false,

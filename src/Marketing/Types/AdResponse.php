@@ -24,25 +24,25 @@ class AdResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'adId'       => [
+        'adId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'adId',
         ],
-        'errors'     => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'errors',
         ],
-        'href'       => [
+        'href' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'href',
         ],
-        'listingId'  => [
+        'listingId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

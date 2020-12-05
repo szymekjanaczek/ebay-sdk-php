@@ -29,19 +29,19 @@ class Amount extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'convertedFromCurrency',
         ],
-        'convertedFromValue'    => [
+        'convertedFromValue' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'convertedFromValue',
         ],
-        'currency'              => [
+        'currency' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'currency',
         ],
-        'value'                 => [
+        'value' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,

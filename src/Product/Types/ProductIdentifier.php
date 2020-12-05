@@ -24,25 +24,25 @@ class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ePID'      => [
+        'ePID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ePID',
         ],
-        'ISBN'      => [
+        'ISBN' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ISBN',
         ],
-        'UPC'       => [
+        'UPC' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UPC',
         ],
-        'EAN'       => [
+        'EAN' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -22,7 +22,7 @@ class EndFixedPriceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'       => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class EndFixedPriceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
             'attribute'   => false,
             'elementName' => 'EndingReason',
         ],
-        'SKU'          => [
+        'SKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

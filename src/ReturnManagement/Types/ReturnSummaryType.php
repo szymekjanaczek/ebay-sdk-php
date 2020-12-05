@@ -27,43 +27,43 @@ class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ReturnId'         => [
+        'ReturnId' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
-        'ReturnType'       => [
+        'ReturnType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnType',
         ],
-        'otherParty'       => [
+        'otherParty' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'otherParty',
         ],
-        'returnRequest'    => [
+        'returnRequest' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnRequest',
         ],
-        'status'           => [
+        'status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'status',
         ],
-        'responseDue'      => [
+        'responseDue' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnResponseDueType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'responseDue',
         ],
-        'creationDate'     => [
+        'creationDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

@@ -13,6 +13,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 class MarkUpMarkDownEventTypeCodeType
 {
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_MARK_DOWN = 'MarkDown';
-    public const C_MARK_UP = 'MarkUp';
+    public const C_MARK_DOWN   = 'MarkDown';
+    public const C_MARK_UP     = 'MarkUp';
 }

@@ -28,13 +28,13 @@ class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TimeZoneID'    => [
+        'TimeZoneID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TimeZoneID',
         ],
-        'Hours1Days'    => [
+        'Hours1Days' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -46,19 +46,19 @@ class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Hours1AnyTime',
         ],
-        'Hours1From'    => [
+        'Hours1From' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Hours1From',
         ],
-        'Hours1To'      => [
+        'Hours1To' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Hours1To',
         ],
-        'Hours2Days'    => [
+        'Hours2Days' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -70,13 +70,13 @@ class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Hours2AnyTime',
         ],
-        'Hours2From'    => [
+        'Hours2From' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Hours2From',
         ],
-        'Hours2To'      => [
+        'Hours2To' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

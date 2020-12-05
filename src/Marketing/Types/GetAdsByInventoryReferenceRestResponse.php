@@ -27,7 +27,7 @@ class GetAdsByInventoryReferenceRestResponse extends \DTS\eBaySDK\Marketing\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

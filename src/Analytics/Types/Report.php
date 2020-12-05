@@ -25,13 +25,13 @@ class Report extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'endDate'         => [
+        'endDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'endDate',
         ],
-        'header'          => [
+        'header' => [
             'type'        => 'DTS\eBaySDK\Analytics\Types\Header',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class Report extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'lastUpdatedDate',
         ],
-        'records'         => [
+        'records' => [
             'type'        => 'DTS\eBaySDK\Analytics\Types\Record',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'records',
         ],
-        'startDate'       => [
+        'startDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'startDate',
         ],
-        'warnings'        => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

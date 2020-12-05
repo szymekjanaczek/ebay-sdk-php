@@ -23,19 +23,19 @@ class GetCategoryInfoResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryArray'   => [
+        'CategoryArray' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\CategoryArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryArray',
         ],
-        'CategoryCount'   => [
+        'CategoryCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryCount',
         ],
-        'UpdateTime'      => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

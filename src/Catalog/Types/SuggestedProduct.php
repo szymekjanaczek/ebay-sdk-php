@@ -33,55 +33,55 @@ class SuggestedProduct extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'additionalImageUrls'        => [
+        'additionalImageUrls' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'additionalImageUrls',
         ],
-        'aspects'                    => [
+        'aspects' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\Aspect',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'brand'                      => [
+        'brand' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'description'                => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'ean'                        => [
+        'ean' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ean',
         ],
-        'epid'                       => [
+        'epid' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'imageUrl'                   => [
+        'imageUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'imageUrl',
         ],
-        'isbn'                       => [
+        'isbn' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'isbn',
         ],
-        'mpn'                        => [
+        'mpn' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
@@ -93,25 +93,25 @@ class SuggestedProduct extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'otherApplicableCategoryIds',
         ],
-        'primaryCategoryId'          => [
+        'primaryCategoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'primaryCategoryId',
         ],
-        'title'                      => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'title',
         ],
-        'upc'                        => [
+        'upc' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'upc',
         ],
-        'version'                    => [
+        'version' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

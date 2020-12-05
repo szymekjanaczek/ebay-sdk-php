@@ -25,19 +25,19 @@ class CreateDSRSummaryByShippingDetailRequest extends \DTS\eBaySDK\Feedback\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dateRange'               => [
+        'dateRange' => [
             'type'        => 'DTS\eBaySDK\Feedback\Types\DateRange',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'dateRange',
         ],
-        'dateRangeEventType'      => [
+        'dateRangeEventType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'dateRangeEventType',
         ],
-        'shippingCostType'        => [
+        'shippingCostType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,13 +49,13 @@ class CreateDSRSummaryByShippingDetailRequest extends \DTS\eBaySDK\Feedback\Type
             'attribute'   => false,
             'elementName' => 'shippingDestinationType',
         ],
-        'shipToCountry'           => [
+        'shipToCountry' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'shipToCountry',
         ],
-        'shippingService'         => [
+        'shippingService' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

@@ -37,49 +37,49 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'additionalShippingCostPerUnit',
         ],
-        'cutOffDateUsedForEstimate'     => [
+        'cutOffDateUsedForEstimate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cutOffDateUsedForEstimate',
         ],
-        'maxEstimatedDeliveryDate'      => [
+        'maxEstimatedDeliveryDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxEstimatedDeliveryDate',
         ],
-        'minEstimatedDeliveryDate'      => [
+        'minEstimatedDeliveryDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'quantityUsedForEstimate'       => [
+        'quantityUsedForEstimate' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'quantityUsedForEstimate',
         ],
-        'shippingCarrierCode'           => [
+        'shippingCarrierCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingCost'                  => [
+        'shippingCost' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'shippingCostType'              => [
+        'shippingCostType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCostType',
         ],
-        'shippingServiceCode'           => [
+        'shippingServiceCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -91,13 +91,13 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'shipToLocationUsedForEstimate',
         ],
-        'trademarkSymbol'               => [
+        'trademarkSymbol' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'trademarkSymbol',
         ],
-        'type'                          => [
+        'type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

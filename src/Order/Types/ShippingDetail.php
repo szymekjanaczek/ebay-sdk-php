@@ -35,13 +35,13 @@ class ShippingDetail extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'shippingCarrierCode'      => [
+        'shippingCarrierCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingServiceCode'      => [
+        'shippingServiceCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

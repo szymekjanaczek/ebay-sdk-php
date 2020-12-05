@@ -48,27 +48,27 @@ class BrowseBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'affiliateCampaignId'  => [
-                    'valid' => ['string'],
-                ],
-                'affiliateReferenceId' => [
-                    'valid' => ['string'],
-                ],
-                'apiVersion'           => [
-                    'valid'    => ['string'],
-                    'default'  => \DTS\eBaySDK\Browse\Services\BrowseService::API_VERSION,
-                    'required' => true,
-                ],
-                'authorization'        => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
-                'contextualLocation'   => [
-                    'valid' => ['string'],
-                ],
-                'marketplaceId'        => [
-                    'valid' => ['string'],
-                ],
+            'affiliateCampaignId' => [
+                'valid' => ['string'],
+            ],
+            'affiliateReferenceId' => [
+                'valid' => ['string'],
+            ],
+            'apiVersion' => [
+                'valid'    => ['string'],
+                'default'  => \DTS\eBaySDK\Browse\Services\BrowseService::API_VERSION,
+                'required' => true,
+            ],
+            'authorization' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
+            'contextualLocation' => [
+                'valid' => ['string'],
+            ],
+            'marketplaceId' => [
+                'valid' => ['string'],
+            ],
             ];
     }
 

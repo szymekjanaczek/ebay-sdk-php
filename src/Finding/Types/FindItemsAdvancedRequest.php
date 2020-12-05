@@ -25,31 +25,31 @@ class FindItemsAdvancedRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSer
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'keywords'          => [
+        'keywords' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'keywords',
         ],
-        'categoryId'        => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'itemFilter'        => [
+        'itemFilter' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\ItemFilter',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'aspectFilter'      => [
+        'aspectFilter' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\AspectFilter',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'aspectFilter',
         ],
-        'outputSelector'    => [
+        'outputSelector' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

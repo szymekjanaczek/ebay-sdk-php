@@ -28,43 +28,43 @@ class StoreCustomPageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Name'           => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'PageID'         => [
+        'PageID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PageID',
         ],
-        'URLPath'        => [
+        'URLPath' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'URLPath',
         ],
-        'URL'            => [
+        'URL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'URL',
         ],
-        'Status'         => [
+        'Status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'Content'        => [
+        'Content' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Content',
         ],
-        'LeftNav'        => [
+        'LeftNav' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -76,7 +76,7 @@ class StoreCustomPageType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'PreviewEnabled',
         ],
-        'Order'          => [
+        'Order' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

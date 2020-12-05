@@ -27,7 +27,7 @@ class AddProductsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
             'attribute'   => false,
             'elementName' => 'addProductResponse',
         ],
-        'clientBatchId'      => [
+        'clientBatchId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

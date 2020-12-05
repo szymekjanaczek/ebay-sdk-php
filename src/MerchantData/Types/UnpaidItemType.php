@@ -27,7 +27,7 @@ class UnpaidItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'Type'   => [
+        'Type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

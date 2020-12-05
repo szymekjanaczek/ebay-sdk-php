@@ -33,19 +33,19 @@ class ShippingServiceOptionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingInsuranceCost'         => [
+        'ShippingInsuranceCost' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingInsuranceCost',
         ],
-        'ShippingServiceName'           => [
+        'ShippingServiceName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingServiceName',
         ],
-        'ShippingServiceCost'           => [
+        'ShippingServiceCost' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -57,61 +57,61 @@ class ShippingServiceOptionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingServiceAdditionalCost',
         ],
-        'ShippingServicePriority'       => [
+        'ShippingServicePriority' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingServicePriority',
         ],
-        'ExpeditedService'              => [
+        'ExpeditedService' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExpeditedService',
         ],
-        'ShippingTimeMin'               => [
+        'ShippingTimeMin' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingTimeMin',
         ],
-        'ShippingTimeMax'               => [
+        'ShippingTimeMax' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingTimeMax',
         ],
-        'ShippingSurcharge'             => [
+        'ShippingSurcharge' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingSurcharge',
         ],
-        'ShipsTo'                       => [
+        'ShipsTo' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ShipsTo',
         ],
-        'EstimatedDeliveryMinTime'      => [
+        'EstimatedDeliveryMinTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EstimatedDeliveryMinTime',
         ],
-        'EstimatedDeliveryMaxTime'      => [
+        'EstimatedDeliveryMaxTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EstimatedDeliveryMaxTime',
         ],
-        'FastAndFree'                   => [
+        'FastAndFree' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FastAndFree',
         ],
-        'ShippingServiceCutOffTime'     => [
+        'ShippingServiceCutOffTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

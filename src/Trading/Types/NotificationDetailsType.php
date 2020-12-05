@@ -29,55 +29,55 @@ class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DeliveryURL'     => [
+        'DeliveryURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DeliveryURL',
         ],
-        'ReferenceID'     => [
+        'ReferenceID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReferenceID',
         ],
-        'ExpirationTime'  => [
+        'ExpirationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExpirationTime',
         ],
-        'Type'            => [
+        'Type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Type',
         ],
-        'Retries'         => [
+        'Retries' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Retries',
         ],
-        'DeliveryStatus'  => [
+        'DeliveryStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DeliveryStatus',
         ],
-        'NextRetryTime'   => [
+        'NextRetryTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NextRetryTime',
         ],
-        'DeliveryTime'    => [
+        'DeliveryTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DeliveryTime',
         ],
-        'ErrorMessage'    => [
+        'ErrorMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

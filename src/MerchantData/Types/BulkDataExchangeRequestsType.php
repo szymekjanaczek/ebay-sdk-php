@@ -34,73 +34,73 @@ class BulkDataExchangeRequestsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Header'                          => [
+        'Header' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MerchantDataRequestHeaderType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Header',
         ],
-        'AddFixedPriceItemRequest'        => [
+        'AddFixedPriceItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'AddFixedPriceItemRequest',
         ],
-        'AddItemRequest'                  => [
+        'AddItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AddItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'AddItemRequest',
         ],
-        'EndFixedPriceItemRequest'        => [
+        'EndFixedPriceItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\EndFixedPriceItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'EndFixedPriceItemRequest',
         ],
-        'EndItemRequest'                  => [
+        'EndItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\EndItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'EndItemRequest',
         ],
-        'OrderAckRequest'                 => [
+        'OrderAckRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\OrderAckRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'OrderAckRequest',
         ],
-        'RelistFixedPriceItemRequest'     => [
+        'RelistFixedPriceItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\RelistFixedPriceItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'RelistFixedPriceItemRequest',
         ],
-        'RelistItemRequest'               => [
+        'RelistItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\RelistItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'RelistItemRequest',
         ],
-        'ReviseFixedPriceItemRequest'     => [
+        'ReviseFixedPriceItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\ReviseFixedPriceItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ReviseFixedPriceItemRequest',
         ],
-        'ReviseInventoryStatusRequest'    => [
+        'ReviseInventoryStatusRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ReviseInventoryStatusRequest',
         ],
-        'ReviseItemRequest'               => [
+        'ReviseItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\ReviseItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ReviseItemRequest',
         ],
-        'SetShipmentTrackingInfoRequest'  => [
+        'SetShipmentTrackingInfoRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoRequestType',
             'repeatable'  => true,
             'attribute'   => false,
@@ -112,13 +112,13 @@ class BulkDataExchangeRequestsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'UploadSiteHostedPicturesRequest',
         ],
-        'VerifyAddFixedPriceItemRequest'  => [
+        'VerifyAddFixedPriceItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'VerifyAddFixedPriceItemRequest',
         ],
-        'VerifyAddItemRequest'            => [
+        'VerifyAddItemRequest' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\VerifyAddItemRequestType',
             'repeatable'  => true,
             'attribute'   => false,

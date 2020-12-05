@@ -23,19 +23,19 @@ class InitiateShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrier'        => [
+        'carrier' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrier',
         ],
-        'labelData'      => [
+        'labelData' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelData',
         ],
-        'labelURL'       => [
+        'labelURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

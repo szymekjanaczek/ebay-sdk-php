@@ -24,13 +24,13 @@ class GetBestOffersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BestOfferArray'      => [
+        'BestOfferArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\BestOfferArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BestOfferArray',
         ],
-        'Item'                => [
+        'Item' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -42,13 +42,13 @@ class GetBestOffersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'attribute'   => false,
             'elementName' => 'ItemBestOffersArray',
         ],
-        'PageNumber'          => [
+        'PageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
-        'PaginationResult'    => [
+        'PaginationResult' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable'  => false,
             'attribute'   => false,

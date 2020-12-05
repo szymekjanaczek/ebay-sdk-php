@@ -28,13 +28,13 @@ class CompatibilityPropertyFilter extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'propertyFilter',
         ],
-        'AAIA'           => [
+        'AAIA' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AAIA',
         ],
-        'HSNTSN'         => [
+        'HSNTSN' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -35,13 +35,13 @@ class Dimension extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'length',
         ],
-        'unit'   => [
+        'unit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'unit',
         ],
-        'width'  => [
+        'width' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,

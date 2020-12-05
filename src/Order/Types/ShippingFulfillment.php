@@ -28,13 +28,13 @@ class ShippingFulfillment extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'actualDeliveryDate'       => [
+        'actualDeliveryDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'actualDeliveryDate',
         ],
-        'lineItemReferences'       => [
+        'lineItemReferences' => [
             'type'        => 'DTS\eBaySDK\Order\Types\LineItemReference',
             'repeatable'  => true,
             'attribute'   => false,
@@ -52,31 +52,31 @@ class ShippingFulfillment extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'shipmentTrackingNumber'   => [
+        'shipmentTrackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shipmentTrackingNumber',
         ],
-        'shipmentTrackingUrl'      => [
+        'shipmentTrackingUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shipmentTrackingUrl',
         ],
-        'shippedDate'              => [
+        'shippedDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippedDate',
         ],
-        'shippingCarrierCode'      => [
+        'shippingCarrierCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingServiceCode'      => [
+        'shippingServiceCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

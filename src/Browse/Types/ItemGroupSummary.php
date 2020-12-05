@@ -31,31 +31,31 @@ class ItemGroupSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'itemGroupAdditionalImages',
         ],
-        'itemGroupHref'             => [
+        'itemGroupHref' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemGroupHref',
         ],
-        'itemGroupId'               => [
+        'itemGroupId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemGroupId',
         ],
-        'itemGroupImage'            => [
+        'itemGroupImage' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Image',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemGroupImage',
         ],
-        'itemGroupTitle'            => [
+        'itemGroupTitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemGroupTitle',
         ],
-        'itemGroupType'             => [
+        'itemGroupType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

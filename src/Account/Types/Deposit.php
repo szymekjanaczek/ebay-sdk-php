@@ -22,13 +22,13 @@ class Deposit extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'amount'         => [
+        'amount' => [
             'type'        => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'dueIn'          => [
+        'dueIn' => [
             'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable'  => false,
             'attribute'   => false,

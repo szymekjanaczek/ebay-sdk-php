@@ -31,13 +31,13 @@ class ReturnPolicyRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryTypes'                 => [
+        'categoryTypes' => [
             'type'        => 'DTS\eBaySDK\Account\Types\CategoryType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'categoryTypes',
         ],
-        'description'                   => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,55 +49,55 @@ class ReturnPolicyRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'extendedHolidayReturnsOffered',
         ],
-        'marketplaceId'                 => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'name'                          => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'name',
         ],
-        'refundMethod'                  => [
+        'refundMethod' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'refundMethod',
         ],
-        'restockingFeePercentage'       => [
+        'restockingFeePercentage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'restockingFeePercentage',
         ],
-        'returnInstructions'            => [
+        'returnInstructions' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnInstructions',
         ],
-        'returnMethod'                  => [
+        'returnMethod' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnMethod',
         ],
-        'returnPeriod'                  => [
+        'returnPeriod' => [
             'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnPeriod',
         ],
-        'returnsAccepted'               => [
+        'returnsAccepted' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnsAccepted',
         ],
-        'returnShippingCostPayer'       => [
+        'returnShippingCostPayer' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

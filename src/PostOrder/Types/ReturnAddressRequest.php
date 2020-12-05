@@ -23,13 +23,13 @@ class ReturnAddressRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'firstName'     => [
+        'firstName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'firstName',
         ],
-        'lastName'      => [
+        'lastName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class ReturnAddressRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'returnAddress',
         ],
-        'RMA'           => [
+        'RMA' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

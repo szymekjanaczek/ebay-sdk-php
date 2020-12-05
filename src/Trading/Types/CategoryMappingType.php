@@ -27,7 +27,7 @@ class CategoryMappingType extends \DTS\eBaySDK\Types\BaseType
             'attribute'     => true,
             'attributeName' => 'oldID',
         ],
-        'id'    => [
+        'id' => [
             'type'          => 'string',
             'repeatable'    => false,
             'attribute'     => true,

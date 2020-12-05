@@ -34,61 +34,61 @@ class EbayOfferDetailsWithAll extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'availableQuantity'     => [
+        'availableQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'availableQuantity',
         ],
-        'categoryId'            => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'format'                => [
+        'format' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'format',
         ],
-        'listing'               => [
+        'listing' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ListingDetails',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listing',
         ],
-        'listingDescription'    => [
+        'listingDescription' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingDescription',
         ],
-        'listingPolicies'       => [
+        'listingPolicies' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ListingPolicies',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingPolicies',
         ],
-        'marketplaceId'         => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'merchantLocationKey'   => [
+        'merchantLocationKey' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'merchantLocationKey',
         ],
-        'offerId'               => [
+        'offerId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offerId',
         ],
-        'pricingSummary'        => [
+        'pricingSummary' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\PricingSummary',
             'repeatable'  => false,
             'attribute'   => false,
@@ -100,25 +100,25 @@ class EbayOfferDetailsWithAll extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'quantityLimitPerBuyer',
         ],
-        'sku'                   => [
+        'sku' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sku',
         ],
-        'status'                => [
+        'status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'status',
         ],
-        'storeCategoryNames'    => [
+        'storeCategoryNames' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'storeCategoryNames',
         ],
-        'tax'                   => [
+        'tax' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Tax',
             'repeatable'  => false,
             'attribute'   => false,

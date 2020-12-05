@@ -40,79 +40,79 @@ class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'InvoiceNumber'         => [
+        'InvoiceNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'InvoiceNumber',
         ],
-        'TransactionID'         => [
+        'TransactionID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'SaleRecordID'          => [
+        'SaleRecordID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SaleRecordID',
         ],
-        'ItemID'                => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'QuantitySold'          => [
+        'QuantitySold' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuantitySold',
         ],
-        'ItemPrice'             => [
+        'ItemPrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemPrice',
         ],
-        'SubtotalAmount'        => [
+        'SubtotalAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SubtotalAmount',
         ],
-        'ItemTitle'             => [
+        'ItemTitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemTitle',
         ],
-        'ListingType'           => [
+        'ListingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingType',
         ],
-        'Relisted'              => [
+        'Relisted' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Relisted',
         ],
-        'WatchCount'            => [
+        'WatchCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WatchCount',
         ],
-        'StartPrice'            => [
+        'StartPrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartPrice',
         ],
-        'ReservePrice'          => [
+        'ReservePrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -124,43 +124,43 @@ class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SecondChanceOfferSent',
         ],
-        'CustomLabel'           => [
+        'CustomLabel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CustomLabel',
         ],
-        'SoldOn'                => [
+        'SoldOn' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SoldOn',
         ],
-        'ListedOn'              => [
+        'ListedOn' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ListedOn',
         ],
-        'Shipment'              => [
+        'Shipment' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ShipmentType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Shipment',
         ],
-        'CharityListing'        => [
+        'CharityListing' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CharityListing',
         ],
-        'Variation'             => [
+        'Variation' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\VariationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Variation',
         ],
-        'OrderLineItemID'       => [
+        'OrderLineItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

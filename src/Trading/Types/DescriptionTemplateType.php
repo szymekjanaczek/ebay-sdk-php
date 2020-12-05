@@ -25,25 +25,25 @@ class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'GroupID'     => [
+        'GroupID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GroupID',
         ],
-        'ID'          => [
+        'ID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ID',
         ],
-        'ImageURL'    => [
+        'ImageURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ImageURL',
         ],
-        'Name'        => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -55,7 +55,7 @@ class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'TemplateXML',
         ],
-        'Type'        => [
+        'Type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

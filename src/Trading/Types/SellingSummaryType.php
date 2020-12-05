@@ -26,19 +26,19 @@ class SellingSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ActiveAuctionCount'       => [
+        'ActiveAuctionCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ActiveAuctionCount',
         ],
-        'AuctionSellingCount'      => [
+        'AuctionSellingCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AuctionSellingCount',
         ],
-        'AuctionBidCount'          => [
+        'AuctionBidCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -50,19 +50,19 @@ class SellingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'TotalAuctionSellingValue',
         ],
-        'TotalSoldCount'           => [
+        'TotalSoldCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalSoldCount',
         ],
-        'TotalSoldValue'           => [
+        'TotalSoldValue' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalSoldValue',
         ],
-        'SoldDurationInDays'       => [
+        'SoldDurationInDays' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

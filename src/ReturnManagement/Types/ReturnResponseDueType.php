@@ -21,7 +21,7 @@ class ReturnResponseDueType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'party'         => [
+        'party' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable'  => false,
             'attribute'   => false,

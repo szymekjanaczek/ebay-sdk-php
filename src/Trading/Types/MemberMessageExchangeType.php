@@ -26,31 +26,31 @@ class MemberMessageExchangeType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Item'             => [
+        'Item' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Item',
         ],
-        'Question'         => [
+        'Question' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Question',
         ],
-        'Response'         => [
+        'Response' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Response',
         ],
-        'MessageStatus'    => [
+        'MessageStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageStatus',
         ],
-        'CreationDate'     => [
+        'CreationDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class MemberMessageExchangeType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'LastModifiedDate',
         ],
-        'MessageMedia'     => [
+        'MessageMedia' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
             'repeatable'  => true,
             'attribute'   => false,

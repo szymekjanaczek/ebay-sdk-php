@@ -21,7 +21,7 @@ class ExtendedContactDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ContactHoursDetails'               => [
+        'ContactHoursDetails' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\ContactHoursDetailsType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -21,7 +21,7 @@ class VeROReportItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'VeROReportPacketID'     => [
+        'VeROReportPacketID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

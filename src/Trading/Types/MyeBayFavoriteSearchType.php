@@ -46,139 +46,139 @@ class MyeBayFavoriteSearchType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SearchName'         => [
+        'SearchName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SearchName',
         ],
-        'SearchQuery'        => [
+        'SearchQuery' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SearchQuery',
         ],
-        'QueryKeywords'      => [
+        'QueryKeywords' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QueryKeywords',
         ],
-        'CategoryID'         => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'ItemSort'           => [
+        'ItemSort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemSort',
         ],
-        'SortOrder'          => [
+        'SortOrder' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SortOrder',
         ],
-        'EndTimeFrom'        => [
+        'EndTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTimeFrom',
         ],
-        'EndTimeTo'          => [
+        'EndTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTimeTo',
         ],
-        'MaxDistance'        => [
+        'MaxDistance' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxDistance',
         ],
-        'PostalCode'         => [
+        'PostalCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PostalCode',
         ],
-        'ItemType'           => [
+        'ItemType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemType',
         ],
-        'PriceMax'           => [
+        'PriceMax' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PriceMax',
         ],
-        'PriceMin'           => [
+        'PriceMin' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PriceMin',
         ],
-        'Currency'           => [
+        'Currency' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Currency',
         ],
-        'BidCountMax'        => [
+        'BidCountMax' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidCountMax',
         ],
-        'BidCountMin'        => [
+        'BidCountMin' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidCountMin',
         ],
-        'SearchFlag'         => [
+        'SearchFlag' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'SearchFlag',
         ],
-        'PaymentMethod'      => [
+        'PaymentMethod' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentMethod',
         ],
-        'PreferredLocation'  => [
+        'PreferredLocation' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PreferredLocation',
         ],
-        'SellerID'           => [
+        'SellerID' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'SellerID',
         ],
-        'SellerIDExclude'    => [
+        'SellerIDExclude' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'SellerIDExclude',
         ],
-        'ItemsAvailableTo'   => [
+        'ItemsAvailableTo' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemsAvailableTo',
         ],
-        'ItemsLocatedIn'     => [
+        'ItemsLocatedIn' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -190,19 +190,19 @@ class MyeBayFavoriteSearchType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SellerBusinessType',
         ],
-        'Condition'          => [
+        'Condition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Condition',
         ],
-        'Quantity'           => [
+        'Quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Quantity',
         ],
-        'QuantityOperator'   => [
+        'QuantityOperator' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

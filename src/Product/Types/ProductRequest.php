@@ -28,37 +28,37 @@ class ProductRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'invocationId'        => [
+        'invocationId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'invocationId',
         ],
-        'categoryId'          => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'keywords'            => [
+        'keywords' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'keywords',
         ],
-        'propertyFilter'      => [
+        'propertyFilter' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'propertyFilter',
         ],
-        'sortOrder'           => [
+        'sortOrder' => [
             'type'        => 'DTS\eBaySDK\Product\Types\SortOrder',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sortOrder',
         ],
-        'dataset'             => [
+        'dataset' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
@@ -70,7 +70,7 @@ class ProductRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'datasetPropertyName',
         ],
-        'paginationInput'     => [
+        'paginationInput' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PaginationInput',
             'repeatable'  => false,
             'attribute'   => false,

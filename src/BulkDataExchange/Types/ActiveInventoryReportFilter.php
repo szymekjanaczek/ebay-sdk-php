@@ -22,7 +22,7 @@ class ActiveInventoryReportFilter extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'includeListingType'    => [
+        'includeListingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ActiveInventoryReportFilter extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'fixedPriceItemDetails',
         ],
-        'auctionItemDetails'    => [
+        'auctionItemDetails' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\AuctionItemDetails',
             'repeatable'  => false,
             'attribute'   => false,

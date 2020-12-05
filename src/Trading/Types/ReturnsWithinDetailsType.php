@@ -27,7 +27,7 @@ class ReturnsWithinDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ReturnsWithinOption',
         ],
-        'Description'         => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

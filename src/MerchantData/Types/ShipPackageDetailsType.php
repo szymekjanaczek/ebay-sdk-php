@@ -27,25 +27,25 @@ class ShipPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MeasurementUnit'   => [
+        'MeasurementUnit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MeasurementUnit',
         ],
-        'PackageDepth'      => [
+        'PackageDepth' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PackageDepth',
         ],
-        'PackageLength'     => [
+        'PackageLength' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PackageLength',
         ],
-        'PackageWidth'      => [
+        'PackageWidth' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -57,19 +57,19 @@ class ShipPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingIrregular',
         ],
-        'ShippingPackage'   => [
+        'ShippingPackage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingPackage',
         ],
-        'WeightMajor'       => [
+        'WeightMajor' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WeightMajor',
         ],
-        'WeightMinor'       => [
+        'WeightMinor' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable'  => false,
             'attribute'   => false,

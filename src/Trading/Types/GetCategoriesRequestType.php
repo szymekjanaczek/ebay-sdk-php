@@ -35,13 +35,13 @@ class GetCategoriesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'attribute'   => false,
             'elementName' => 'CategoryParent',
         ],
-        'LevelLimit'     => [
+        'LevelLimit' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LevelLimit',
         ],
-        'ViewAllNodes'   => [
+        'ViewAllNodes' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

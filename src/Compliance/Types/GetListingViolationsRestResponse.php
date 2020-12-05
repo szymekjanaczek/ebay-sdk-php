@@ -27,7 +27,7 @@ class GetListingViolationsRestResponse extends \DTS\eBaySDK\Compliance\Types\Pag
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Compliance\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

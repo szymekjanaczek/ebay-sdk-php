@@ -35,13 +35,13 @@ class UploadFileRequest extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceReque
             'attribute'   => false,
             'elementName' => 'fileReferenceId',
         ],
-        'fileFormat'      => [
+        'fileFormat' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fileFormat',
         ],
-        'fileAttachment'  => [
+        'fileAttachment' => [
             'type'        => 'DTS\eBaySDK\FileTransfer\Types\FileAttachment',
             'repeatable'  => false,
             'attribute'   => false,

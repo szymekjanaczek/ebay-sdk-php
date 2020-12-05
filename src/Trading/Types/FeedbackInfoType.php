@@ -34,7 +34,7 @@ class FeedbackInfoType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'CommentType',
         ],
-        'TargetUser'  => [
+        'TargetUser' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

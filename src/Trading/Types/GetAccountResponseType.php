@@ -27,25 +27,25 @@ class GetAccountResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'AccountID'        => [
+        'AccountID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AccountID',
         ],
-        'AccountSummary'   => [
+        'AccountSummary' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AccountSummaryType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AccountSummary',
         ],
-        'Currency'         => [
+        'Currency' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Currency',
         ],
-        'AccountEntries'   => [
+        'AccountEntries' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AccountEntriesType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -57,19 +57,19 @@ class GetAccountResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'HasMoreEntries'   => [
+        'HasMoreEntries' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HasMoreEntries',
         ],
-        'EntriesPerPage'   => [
+        'EntriesPerPage' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EntriesPerPage',
         ],
-        'PageNumber'       => [
+        'PageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

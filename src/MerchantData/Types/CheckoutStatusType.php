@@ -26,25 +26,25 @@ class CheckoutStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eBayPaymentStatus'                   => [
+        'eBayPaymentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayPaymentStatus',
         ],
-        'LastModifiedTime'                    => [
+        'LastModifiedTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LastModifiedTime',
         ],
-        'PaymentMethod'                       => [
+        'PaymentMethod' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentMethod',
         ],
-        'Status'                              => [
+        'Status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class CheckoutStatusType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'IntegratedMerchantCreditCardEnabled',
         ],
-        'eBayPaymentMismatchDetails'          => [
+        'eBayPaymentMismatchDetails' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayPaymentMismatchDetails',
         ],
-        'PaymentInstrument'                   => [
+        'PaymentInstrument' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

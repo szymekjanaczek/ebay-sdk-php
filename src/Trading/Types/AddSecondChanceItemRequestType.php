@@ -30,25 +30,25 @@ class AddSecondChanceItemRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'attribute'   => false,
             'elementName' => 'RecipientBidderUserID',
         ],
-        'BuyItNowPrice'         => [
+        'BuyItNowPrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyItNowPrice',
         ],
-        'Duration'              => [
+        'Duration' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Duration',
         ],
-        'ItemID'                => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'SellerMessage'         => [
+        'SellerMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

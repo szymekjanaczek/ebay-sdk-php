@@ -25,19 +25,19 @@ class StorefrontType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'StoreCategoryID'    => [
+        'StoreCategoryID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreCategoryID',
         ],
-        'StoreCategory2ID'   => [
+        'StoreCategory2ID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreCategory2ID',
         ],
-        'StoreCategoryName'  => [
+        'StoreCategoryName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,13 +49,13 @@ class StorefrontType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'StoreCategory2Name',
         ],
-        'StoreURL'           => [
+        'StoreURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreURL',
         ],
-        'StoreName'          => [
+        'StoreName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

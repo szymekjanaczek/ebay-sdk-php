@@ -66,28 +66,28 @@ abstract class BaseRestService
                 'valid'   => ['bool'],
                 'default' => false,
             ],
-            'debug'            => [
+            'debug' => [
                 'valid'   => ['bool', 'array'],
                 'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false,
             ],
-            'httpHandler'      => [
+            'httpHandler' => [
                 'valid'   => ['callable'],
                 'default' => 'DTS\eBaySDK\defaultHttpHandler',
             ],
-            'httpOptions'      => [
+            'httpOptions' => [
                 'valid'   => ['array'],
                 'default' => [
                     'http_errors' => false,
                 ],
             ],
-            'requestLanguage'  => [
+            'requestLanguage' => [
                 'valid' => ['string'],
             ],
             'responseLanguage' => [
                 'valid' => ['string'],
             ],
-            'sandbox'          => [
+            'sandbox' => [
                 'valid'   => ['bool'],
                 'default' => false,
             ],
@@ -145,7 +145,7 @@ abstract class BaseRestService
             $requestValues = array_diff_key($requestArray, $operation['params']);
         }
 
-        $url           = $this->uriResolver->resolve(
+        $url = $this->uriResolver->resolve(
             $this->getUrl(),
             $this->getConfig('apiVersion'),
             $operation['resource'],

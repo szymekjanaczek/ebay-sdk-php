@@ -31,13 +31,13 @@ class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MessageType'       => [
+        'MessageType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageType',
         ],
-        'QuestionType'      => [
+        'QuestionType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,55 +49,55 @@ class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'EmailCopyToSender',
         ],
-        'DisplayToPublic'   => [
+        'DisplayToPublic' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DisplayToPublic',
         ],
-        'SenderID'          => [
+        'SenderID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SenderID',
         ],
-        'SenderEmail'       => [
+        'SenderEmail' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SenderEmail',
         ],
-        'RecipientID'       => [
+        'RecipientID' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'RecipientID',
         ],
-        'Subject'           => [
+        'Subject' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Subject',
         ],
-        'Body'              => [
+        'Body' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Body',
         ],
-        'MessageID'         => [
+        'MessageID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageID',
         ],
-        'ParentMessageID'   => [
+        'ParentMessageID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ParentMessageID',
         ],
-        'MessageMedia'      => [
+        'MessageMedia' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
             'repeatable'  => true,
             'attribute'   => false,

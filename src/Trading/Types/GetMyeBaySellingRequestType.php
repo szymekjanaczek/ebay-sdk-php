@@ -27,31 +27,31 @@ class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ScheduledList'         => [
+        'ScheduledList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ScheduledList',
         ],
-        'ActiveList'            => [
+        'ActiveList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ActiveList',
         ],
-        'SoldList'              => [
+        'SoldList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SoldList',
         ],
-        'UnsoldList'            => [
+        'UnsoldList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UnsoldList',
         ],
-        'DeletedFromSoldList'   => [
+        'DeletedFromSoldList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -63,13 +63,13 @@ class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
             'attribute'   => false,
             'elementName' => 'DeletedFromUnsoldList',
         ],
-        'SellingSummary'        => [
+        'SellingSummary' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellingSummary',
         ],
-        'HideVariations'        => [
+        'HideVariations' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

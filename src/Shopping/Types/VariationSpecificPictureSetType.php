@@ -27,7 +27,7 @@ class VariationSpecificPictureSetType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'VariationSpecificValue',
         ],
-        'PictureURL'             => [
+        'PictureURL' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

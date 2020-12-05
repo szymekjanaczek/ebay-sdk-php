@@ -30,49 +30,49 @@ class SellerLegalInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'email'                      => [
+        'email' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'email',
         ],
-        'fax'                        => [
+        'fax' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fax',
         ],
-        'imprint'                    => [
+        'imprint' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'imprint',
         ],
-        'legalContactFirstName'      => [
+        'legalContactFirstName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'legalContactFirstName',
         ],
-        'legalContactLastName'       => [
+        'legalContactLastName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'legalContactLastName',
         ],
-        'name'                       => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'name',
         ],
-        'phone'                      => [
+        'phone' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'phone',
         ],
-        'registrationNumber'         => [
+        'registrationNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -84,13 +84,13 @@ class SellerLegalInfo extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'sellerProvidedLegalAddress',
         ],
-        'termsOfService'             => [
+        'termsOfService' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'termsOfService',
         ],
-        'vatDetails'                 => [
+        'vatDetails' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\VatDetail',
             'repeatable'  => true,
             'attribute'   => false,

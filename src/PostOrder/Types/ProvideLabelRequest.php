@@ -30,25 +30,25 @@ class ProvideLabelRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrierEnum'                  => [
+        'carrierEnum' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierEnum',
         ],
-        'carrierName'                  => [
+        'carrierName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierName',
         ],
-        'comments'                     => [
+        'comments' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'comments',
         ],
-        'fileId'                       => [
+        'fileId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -60,37 +60,37 @@ class ProvideLabelRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'forwardShippingLabelProvided',
         ],
-        'labelAction'                  => [
+        'labelAction' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelAction',
         ],
-        'labelId'                      => [
+        'labelId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelId',
         ],
-        'labelSentDate'                => [
+        'labelSentDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelSentDate',
         ],
-        'noLabelReason'                => [
+        'noLabelReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'noLabelReason',
         ],
-        'returnLabelCost'              => [
+        'returnLabelCost' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\B:Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnLabelCost',
         ],
-        'trackingNumber'               => [
+        'trackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

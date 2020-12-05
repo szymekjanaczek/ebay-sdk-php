@@ -27,13 +27,13 @@ class MyeBaySelectionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Include'                     => [
+        'Include' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Include',
         ],
-        'IncludeItemCount'            => [
+        'IncludeItemCount' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -45,31 +45,31 @@ class MyeBaySelectionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'IncludeFavoriteSearcheCount',
         ],
-        'IncludeFavoriteSellerCount'  => [
+        'IncludeFavoriteSellerCount' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeFavoriteSellerCount',
         ],
-        'Sort'                        => [
+        'Sort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Sort',
         ],
-        'MaxResults'                  => [
+        'MaxResults' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxResults',
         ],
-        'UserDefinedListName'         => [
+        'UserDefinedListName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserDefinedListName',
         ],
-        'IncludeListContents'         => [
+        'IncludeListContents' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

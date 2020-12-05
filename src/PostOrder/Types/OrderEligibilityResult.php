@@ -24,19 +24,19 @@ class OrderEligibilityResult extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eligible'              => [
+        'eligible' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eligible',
         ],
-        'eligibleCancelReason'  => [
+        'eligibleCancelReason' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'eligibleCancelReason',
         ],
-        'failureReason'         => [
+        'failureReason' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class OrderEligibilityResult extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'itemEligibilityResult',
         ],
-        'legacyOrderId'         => [
+        'legacyOrderId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

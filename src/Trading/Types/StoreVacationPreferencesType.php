@@ -25,25 +25,25 @@ class StoreVacationPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OnVacation'                    => [
+        'OnVacation' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OnVacation',
         ],
-        'ReturnDate'                    => [
+        'ReturnDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnDate',
         ],
-        'MessageItem'                   => [
+        'MessageItem' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageItem',
         ],
-        'MessageStore'                  => [
+        'MessageStore' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -55,7 +55,7 @@ class StoreVacationPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DisplayMessageStoreCustomText',
         ],
-        'MessageStoreCustomText'        => [
+        'MessageStoreCustomText' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

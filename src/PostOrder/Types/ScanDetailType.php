@@ -26,25 +26,25 @@ class ScanDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eventCity'            => [
+        'eventCity' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eventCity',
         ],
-        'eventCode'            => [
+        'eventCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eventCode',
         ],
-        'eventDesc'            => [
+        'eventDesc' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eventDesc',
         ],
-        'eventPostalCode'      => [
+        'eventPostalCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class ScanDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'eventStateOrProvince',
         ],
-        'eventStatus'          => [
+        'eventStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eventStatus',
         ],
-        'eventTime'            => [
+        'eventTime' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,

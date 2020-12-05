@@ -30,7 +30,7 @@ class SoldAggregatedMetrics extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'maxSoldInventoryValue',
         ],
-        'maxSoldQuantity'       => [
+        'maxSoldQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -42,13 +42,13 @@ class SoldAggregatedMetrics extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'minSoldInventoryValue',
         ],
-        'minSoldQuantity'       => [
+        'minSoldQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minSoldQuantity',
         ],
-        'period'                => [
+        'period' => [
             'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable'  => false,
             'attribute'   => false,

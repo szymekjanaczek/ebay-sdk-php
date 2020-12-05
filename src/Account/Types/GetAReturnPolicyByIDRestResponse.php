@@ -27,7 +27,7 @@ class GetAReturnPolicyByIDRestResponse extends \DTS\eBaySDK\Account\Types\Return
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

@@ -37,97 +37,97 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BidCount'                    => [
+        'BidCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidCount',
         ],
-        'BidIncrement'                => [
+        'BidIncrement' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidIncrement',
         ],
-        'ConvertedCurrentPrice'       => [
+        'ConvertedCurrentPrice' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ConvertedCurrentPrice',
         ],
-        'CurrentPrice'                => [
+        'CurrentPrice' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CurrentPrice',
         ],
-        'HighBidder'                  => [
+        'HighBidder' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\UserType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HighBidder',
         ],
-        'LeadCount'                   => [
+        'LeadCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LeadCount',
         ],
-        'MinimumToBid'                => [
+        'MinimumToBid' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MinimumToBid',
         ],
-        'QuantitySold'                => [
+        'QuantitySold' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuantitySold',
         ],
-        'ReserveMet'                  => [
+        'ReserveMet' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReserveMet',
         ],
-        'SecondChanceEligible'        => [
+        'SecondChanceEligible' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SecondChanceEligible',
         ],
-        'BidderCount'                 => [
+        'BidderCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidderCount',
         ],
-        'ListingStatus'               => [
+        'ListingStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingStatus',
         ],
-        'FinalValueFee'               => [
+        'FinalValueFee' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FinalValueFee',
         ],
-        'PromotionalSaleDetails'      => [
+        'PromotionalSaleDetails' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\PromotionalSaleDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PromotionalSaleDetails',
         ],
-        'AdminEnded'                  => [
+        'AdminEnded' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AdminEnded',
         ],
-        'SoldAsBin'                   => [
+        'SoldAsBin' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -139,7 +139,7 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'QuantitySoldByPickupInStore',
         ],
-        'SuggestedBidValues'          => [
+        'SuggestedBidValues' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\SuggestedBidValueType',
             'repeatable'  => false,
             'attribute'   => false,

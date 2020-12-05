@@ -24,7 +24,7 @@ class Refinement extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectDistributions'       => [
+        'aspectDistributions' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\AspectDistribution',
             'repeatable'  => true,
             'attribute'   => false,
@@ -36,19 +36,19 @@ class Refinement extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyingOptionDistributions',
         ],
-        'categoryDistributions'     => [
+        'categoryDistributions' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\CategoryDistribution',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'categoryDistributions',
         ],
-        'conditionDistributions'    => [
+        'conditionDistributions' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ConditionDistribution',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'conditionDistributions',
         ],
-        'dominantCategoryId'        => [
+        'dominantCategoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

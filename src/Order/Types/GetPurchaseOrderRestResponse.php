@@ -27,7 +27,7 @@ class GetPurchaseOrderRestResponse extends \DTS\eBaySDK\Order\Types\PurchaseOrde
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

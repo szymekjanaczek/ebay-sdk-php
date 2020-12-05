@@ -23,13 +23,13 @@ class ShippingFulfillmentDetails extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'lineItems'           => [
+        'lineItems' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\LineItemReference',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'lineItems',
         ],
-        'shippedDate'         => [
+        'shippedDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class ShippingFulfillmentDetails extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'trackingNumber'      => [
+        'trackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

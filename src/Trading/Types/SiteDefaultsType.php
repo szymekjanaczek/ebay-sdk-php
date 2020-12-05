@@ -147,355 +147,355 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ListingDuration'                           => [
+        'ListingDuration' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ListingDurationReferenceType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ListingDuration',
         ],
-        'ShippingTermsRequired'                     => [
+        'ShippingTermsRequired' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingTermsRequired',
         ],
-        'BestOfferEnabled'                          => [
+        'BestOfferEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BestOfferEnabled',
         ],
-        'UserConsentRequired'                       => [
+        'UserConsentRequired' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserConsentRequired',
         ],
-        'HomePageFeaturedEnabled'                   => [
+        'HomePageFeaturedEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HomePageFeaturedEnabled',
         ],
-        'ProPackEnabled'                            => [
+        'ProPackEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProPackEnabled',
         ],
-        'BasicUpgradePackEnabled'                   => [
+        'BasicUpgradePackEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BasicUpgradePackEnabled',
         ],
-        'ValuePackEnabled'                          => [
+        'ValuePackEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ValuePackEnabled',
         ],
-        'ProPackPlusEnabled'                        => [
+        'ProPackPlusEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProPackPlusEnabled',
         ],
-        'AdFormatEnabled'                           => [
+        'AdFormatEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AdFormatEnabled',
         ],
-        'BestOfferCounterEnabled'                   => [
+        'BestOfferCounterEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BestOfferCounterEnabled',
         ],
-        'BestOfferAutoDeclineEnabled'               => [
+        'BestOfferAutoDeclineEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BestOfferAutoDeclineEnabled',
         ],
-        'LocalMarketSpecialitySubscription'         => [
+        'LocalMarketSpecialitySubscription' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketSpecialitySubscription',
         ],
-        'LocalMarketRegularSubscription'            => [
+        'LocalMarketRegularSubscription' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketRegularSubscription',
         ],
-        'LocalMarketPremiumSubscription'            => [
+        'LocalMarketPremiumSubscription' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketPremiumSubscription',
         ],
-        'LocalMarketNonSubscription'                => [
+        'LocalMarketNonSubscription' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketNonSubscription',
         ],
-        'MinimumReservePrice'                       => [
+        'MinimumReservePrice' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MinimumReservePrice',
         ],
-        'SellerContactDetailsEnabled'               => [
+        'SellerContactDetailsEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerContactDetailsEnabled',
         ],
-        'TransactionConfirmationRequestEnabled'     => [
+        'TransactionConfirmationRequestEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionConfirmationRequestEnabled',
         ],
-        'SkypeMeTransactionalEnabled'               => [
+        'SkypeMeTransactionalEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SkypeMeTransactionalEnabled',
         ],
-        'SkypeMeNonTransactionalEnabled'            => [
+        'SkypeMeNonTransactionalEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SkypeMeNonTransactionalEnabled',
         ],
-        'LocalListingDistancesRegular'              => [
+        'LocalListingDistancesRegular' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalListingDistancesRegular',
         ],
-        'LocalListingDistancesSpecialty'            => [
+        'LocalListingDistancesSpecialty' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalListingDistancesSpecialty',
         ],
-        'LocalListingDistancesNonSubscription'      => [
+        'LocalListingDistancesNonSubscription' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalListingDistancesNonSubscription',
         ],
-        'ClassifiedAdPaymentMethodEnabled'          => [
+        'ClassifiedAdPaymentMethodEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdPaymentMethodEnabled',
         ],
-        'ClassifiedAdShippingMethodEnabled'         => [
+        'ClassifiedAdShippingMethodEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdShippingMethodEnabled',
         ],
-        'ClassifiedAdBestOfferEnabled'              => [
+        'ClassifiedAdBestOfferEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdBestOfferEnabled',
         ],
-        'ClassifiedAdCounterOfferEnabled'           => [
+        'ClassifiedAdCounterOfferEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdCounterOfferEnabled',
         ],
-        'ClassifiedAdAutoDeclineEnabled'            => [
+        'ClassifiedAdAutoDeclineEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdAutoDeclineEnabled',
         ],
-        'ClassifiedAdContactByPhoneEnabled'         => [
+        'ClassifiedAdContactByPhoneEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdContactByPhoneEnabled',
         ],
-        'ClassifiedAdContactByEmailEnabled'         => [
+        'ClassifiedAdContactByEmailEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdContactByEmailEnabled',
         ],
-        'SafePaymentRequired'                       => [
+        'SafePaymentRequired' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SafePaymentRequired',
         ],
-        'ClassifiedAdPayPerLeadEnabled'             => [
+        'ClassifiedAdPayPerLeadEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdPayPerLeadEnabled',
         ],
-        'ItemSpecificsEnabled'                      => [
+        'ItemSpecificsEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemSpecificsEnabled',
         ],
-        'PaisaPayFullEscrowEnabled'                 => [
+        'PaisaPayFullEscrowEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaisaPayFullEscrowEnabled',
         ],
-        'ISBNIdentifierEnabled'                     => [
+        'ISBNIdentifierEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ISBNIdentifierEnabled',
         ],
-        'UPCIdentifierEnabled'                      => [
+        'UPCIdentifierEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UPCIdentifierEnabled',
         ],
-        'EANIdentifierEnabled'                      => [
+        'EANIdentifierEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EANIdentifierEnabled',
         ],
-        'BrandMPNIdentifierEnabled'                 => [
+        'BrandMPNIdentifierEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BrandMPNIdentifierEnabled',
         ],
-        'ClassifiedAdAutoAcceptEnabled'             => [
+        'ClassifiedAdAutoAcceptEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdAutoAcceptEnabled',
         ],
-        'BestOfferAutoAcceptEnabled'                => [
+        'BestOfferAutoAcceptEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BestOfferAutoAcceptEnabled',
         ],
-        'CrossBorderTradeNorthAmericaEnabled'       => [
+        'CrossBorderTradeNorthAmericaEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CrossBorderTradeNorthAmericaEnabled',
         ],
-        'CrossBorderTradeGBEnabled'                 => [
+        'CrossBorderTradeGBEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CrossBorderTradeGBEnabled',
         ],
-        'CrossBorderTradeAustraliaEnabled'          => [
+        'CrossBorderTradeAustraliaEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CrossBorderTradeAustraliaEnabled',
         ],
-        'PayPalBuyerProtectionEnabled'              => [
+        'PayPalBuyerProtectionEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PayPalBuyerProtectionEnabled',
         ],
-        'BuyerGuaranteeEnabled'                     => [
+        'BuyerGuaranteeEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerGuaranteeEnabled',
         ],
-        'INEscrowWorkflowTimeline'                  => [
+        'INEscrowWorkflowTimeline' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'INEscrowWorkflowTimeline',
         ],
-        'GalleryFeaturedDurations'                  => [
+        'GalleryFeaturedDurations' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ListingEnhancementDurationReferenceType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GalleryFeaturedDurations',
         ],
-        'PayPalRequired'                            => [
+        'PayPalRequired' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PayPalRequired',
         ],
-        'eBayMotorsProAdFormatEnabled'              => [
+        'eBayMotorsProAdFormatEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProAdFormatEnabled',
         ],
-        'eBayMotorsProContactByPhoneEnabled'        => [
+        'eBayMotorsProContactByPhoneEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProContactByPhoneEnabled',
         ],
-        'eBayMotorsProPhoneCount'                   => [
+        'eBayMotorsProPhoneCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProPhoneCount',
         ],
-        'eBayMotorsProContactByAddressEnabled'      => [
+        'eBayMotorsProContactByAddressEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProContactByAddressEnabled',
         ],
-        'eBayMotorsProStreetCount'                  => [
+        'eBayMotorsProStreetCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProStreetCount',
         ],
-        'eBayMotorsProCompanyNameEnabled'           => [
+        'eBayMotorsProCompanyNameEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProCompanyNameEnabled',
         ],
-        'eBayMotorsProContactByEmailEnabled'        => [
+        'eBayMotorsProContactByEmailEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProContactByEmailEnabled',
         ],
-        'eBayMotorsProBestOfferEnabled'             => [
+        'eBayMotorsProBestOfferEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProBestOfferEnabled',
         ],
-        'eBayMotorsProAutoAcceptEnabled'            => [
+        'eBayMotorsProAutoAcceptEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProAutoAcceptEnabled',
         ],
-        'eBayMotorsProAutoDeclineEnabled'           => [
+        'eBayMotorsProAutoDeclineEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -507,169 +507,169 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'eBayMotorsProPaymentMethodCheckOutEnabled',
         ],
-        'eBayMotorsProShippingMethodEnabled'        => [
+        'eBayMotorsProShippingMethodEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProShippingMethodEnabled',
         ],
-        'eBayMotorsProCounterOfferEnabled'          => [
+        'eBayMotorsProCounterOfferEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProCounterOfferEnabled',
         ],
-        'eBayMotorsProSellerContactDetailsEnabled'  => [
+        'eBayMotorsProSellerContactDetailsEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayMotorsProSellerContactDetailsEnabled',
         ],
-        'LocalMarketAdFormatEnabled'                => [
+        'LocalMarketAdFormatEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketAdFormatEnabled',
         ],
-        'LocalMarketContactByPhoneEnabled'          => [
+        'LocalMarketContactByPhoneEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketContactByPhoneEnabled',
         ],
-        'LocalMarketPhoneCount'                     => [
+        'LocalMarketPhoneCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketPhoneCount',
         ],
-        'LocalMarketContactByAddressEnabled'        => [
+        'LocalMarketContactByAddressEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketContactByAddressEnabled',
         ],
-        'LocalMarketStreetCount'                    => [
+        'LocalMarketStreetCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketStreetCount',
         ],
-        'LocalMarketCompanyNameEnabled'             => [
+        'LocalMarketCompanyNameEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketCompanyNameEnabled',
         ],
-        'LocalMarketContactByEmailEnabled'          => [
+        'LocalMarketContactByEmailEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketContactByEmailEnabled',
         ],
-        'LocalMarketBestOfferEnabled'               => [
+        'LocalMarketBestOfferEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketBestOfferEnabled',
         ],
-        'LocalMarketAutoAcceptEnabled'              => [
+        'LocalMarketAutoAcceptEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketAutoAcceptEnabled',
         ],
-        'LocalMarketAutoDeclineEnabled'             => [
+        'LocalMarketAutoDeclineEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketAutoDeclineEnabled',
         ],
-        'LocalMarketPaymentMethodCheckOutEnabled'   => [
+        'LocalMarketPaymentMethodCheckOutEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketPaymentMethodCheckOutEnabled',
         ],
-        'LocalMarketShippingMethodEnabled'          => [
+        'LocalMarketShippingMethodEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketShippingMethodEnabled',
         ],
-        'LocalMarketCounterOfferEnabled'            => [
+        'LocalMarketCounterOfferEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketCounterOfferEnabled',
         ],
-        'LocalMarketSellerContactDetailsEnabled'    => [
+        'LocalMarketSellerContactDetailsEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LocalMarketSellerContactDetailsEnabled',
         ],
-        'ClassifiedAdPhoneCount'                    => [
+        'ClassifiedAdPhoneCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdPhoneCount',
         ],
-        'ClassifiedAdContactByAddressEnabled'       => [
+        'ClassifiedAdContactByAddressEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdContactByAddressEnabled',
         ],
-        'ClassifiedAdStreetCount'                   => [
+        'ClassifiedAdStreetCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdStreetCount',
         ],
-        'ClassifiedAdCompanyNameEnabled'            => [
+        'ClassifiedAdCompanyNameEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ClassifiedAdCompanyNameEnabled',
         ],
-        'SpecialitySubscription'                    => [
+        'SpecialitySubscription' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SpecialitySubscription',
         ],
-        'RegularSubscription'                       => [
+        'RegularSubscription' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RegularSubscription',
         ],
-        'PremiumSubscription'                       => [
+        'PremiumSubscription' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PremiumSubscription',
         ],
-        'NonSubscription'                           => [
+        'NonSubscription' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NonSubscription',
         ],
-        'PayPalRequiredForStoreOwner'               => [
+        'PayPalRequiredForStoreOwner' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PayPalRequiredForStoreOwner',
         ],
-        'ReviseQuantityAllowed'                     => [
+        'ReviseQuantityAllowed' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReviseQuantityAllowed',
         ],
-        'RevisePriceAllowed'                        => [
+        'RevisePriceAllowed' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -681,235 +681,235 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'StoreOwnerExtendedListingDurationsEnabled',
         ],
-        'StoreOwnerExtendedListingDurations'        => [
+        'StoreOwnerExtendedListingDurations' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreOwnerExtendedListingDurations',
         ],
-        'ReturnPolicyEnabled'                       => [
+        'ReturnPolicyEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnPolicyEnabled',
         ],
-        'HandlingTimeEnabled'                       => [
+        'HandlingTimeEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HandlingTimeEnabled',
         ],
-        'MaxFlatShippingCost'                       => [
+        'MaxFlatShippingCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxFlatShippingCost',
         ],
-        'MaxFlatShippingCostCBTExempt'              => [
+        'MaxFlatShippingCostCBTExempt' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxFlatShippingCostCBTExempt',
         ],
-        'Group1MaxFlatShippingCost'                 => [
+        'Group1MaxFlatShippingCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Group1MaxFlatShippingCost',
         ],
-        'Group2MaxFlatShippingCost'                 => [
+        'Group2MaxFlatShippingCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Group2MaxFlatShippingCost',
         ],
-        'Group3MaxFlatShippingCost'                 => [
+        'Group3MaxFlatShippingCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Group3MaxFlatShippingCost',
         ],
-        'PaymentMethod'                             => [
+        'PaymentMethod' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'PaymentMethod',
         ],
-        'VariationsEnabled'                         => [
+        'VariationsEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VariationsEnabled',
         ],
-        'FreeGalleryPlusEnabled'                    => [
+        'FreeGalleryPlusEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FreeGalleryPlusEnabled',
         ],
-        'FreePicturePackEnabled'                    => [
+        'FreePicturePackEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FreePicturePackEnabled',
         ],
-        'ItemCompatibilityEnabled'                  => [
+        'ItemCompatibilityEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemCompatibilityEnabled',
         ],
-        'MinItemCompatibility'                      => [
+        'MinItemCompatibility' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MinItemCompatibility',
         ],
-        'MaxItemCompatibility'                      => [
+        'MaxItemCompatibility' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxItemCompatibility',
         ],
-        'ConditionEnabled'                          => [
+        'ConditionEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ConditionEnabled',
         ],
-        'ConditionValues'                           => [
+        'ConditionValues' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ConditionValuesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ConditionValues',
         ],
-        'ValueCategory'                             => [
+        'ValueCategory' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ValueCategory',
         ],
-        'ProductCreationEnabled'                    => [
+        'ProductCreationEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProductCreationEnabled',
         ],
-        'EANEnabled'                                => [
+        'EANEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EANEnabled',
         ],
-        'ISBNEnabled'                               => [
+        'ISBNEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ISBNEnabled',
         ],
-        'UPCEnabled'                                => [
+        'UPCEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UPCEnabled',
         ],
-        'MaxGranularFitmentCount'                   => [
+        'MaxGranularFitmentCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxGranularFitmentCount',
         ],
-        'CompatibleVehicleType'                     => [
+        'CompatibleVehicleType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CompatibleVehicleType',
         ],
-        'PaymentOptionsGroup'                       => [
+        'PaymentOptionsGroup' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentOptionsGroup',
         ],
-        'ShippingProfileCategoryGroup'              => [
+        'ShippingProfileCategoryGroup' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingProfileCategoryGroup',
         ],
-        'PaymentProfileCategoryGroup'               => [
+        'PaymentProfileCategoryGroup' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentProfileCategoryGroup',
         ],
-        'ReturnPolicyProfileCategoryGroup'          => [
+        'ReturnPolicyProfileCategoryGroup' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnPolicyProfileCategoryGroup',
         ],
-        'VINSupported'                              => [
+        'VINSupported' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VINSupported',
         ],
-        'VRMSupported'                              => [
+        'VRMSupported' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VRMSupported',
         ],
-        'SellerProvidedTitleSupported'              => [
+        'SellerProvidedTitleSupported' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerProvidedTitleSupported',
         ],
-        'DepositSupported'                          => [
+        'DepositSupported' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DepositSupported',
         ],
-        'GlobalShippingEnabled'                     => [
+        'GlobalShippingEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GlobalShippingEnabled',
         ],
-        'AdditionalCompatibilityEnabled'            => [
+        'AdditionalCompatibilityEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AdditionalCompatibilityEnabled',
         ],
-        'PickupDropOffEnabled'                      => [
+        'PickupDropOffEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PickupDropOffEnabled',
         ],
-        'DigitalGoodDeliveryEnabled'                => [
+        'DigitalGoodDeliveryEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DigitalGoodDeliveryEnabled',
         ],
-        'EpidSupported'                             => [
+        'EpidSupported' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EpidSupported',
         ],
-        'KTypeSupported'                            => [
+        'KTypeSupported' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'KTypeSupported',
         ],
-        'ProductRequiredEnabled'                    => [
+        'ProductRequiredEnabled' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

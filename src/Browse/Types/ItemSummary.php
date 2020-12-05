@@ -44,43 +44,43 @@ class ItemSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'additionalImages'           => [
+        'additionalImages' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Image',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'additionalImages',
         ],
-        'bidCount'                   => [
+        'bidCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'bidCount',
         ],
-        'buyingOptions'              => [
+        'buyingOptions' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'buyingOptions',
         ],
-        'categories'                 => [
+        'categories' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Category',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'categories',
         ],
-        'condition'                  => [
+        'condition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'condition',
         ],
-        'conditionId'                => [
+        'conditionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'conditionId',
         ],
-        'currentBidPrice'            => [
+        'currentBidPrice' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -92,103 +92,103 @@ class ItemSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'distanceFromPickupLocation',
         ],
-        'energyEfficiencyClass'      => [
+        'energyEfficiencyClass' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'energyEfficiencyClass',
         ],
-        'epid'                       => [
+        'epid' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'image'                      => [
+        'image' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Image',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'image',
         ],
-        'itemAffiliateWebUrl'        => [
+        'itemAffiliateWebUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemAffiliateWebUrl',
         ],
-        'itemGroupHref'              => [
+        'itemGroupHref' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemGroupHref',
         ],
-        'itemGroupType'              => [
+        'itemGroupType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemGroupType',
         ],
-        'itemHref'                   => [
+        'itemHref' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemHref',
         ],
-        'itemId'                     => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'itemLocation'               => [
+        'itemLocation' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ItemLocationImpl',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemLocation',
         ],
-        'itemWebUrl'                 => [
+        'itemWebUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemWebUrl',
         ],
-        'marketingPrice'             => [
+        'marketingPrice' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\MarketingPrice',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketingPrice',
         ],
-        'pickupOptions'              => [
+        'pickupOptions' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\PickupOptionSummary',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'pickupOptions',
         ],
-        'price'                      => [
+        'price' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'price',
         ],
-        'seller'                     => [
+        'seller' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Seller',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'seller',
         ],
-        'shippingOptions'            => [
+        'shippingOptions' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ShippingOptionSummary',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'shippingOptions',
         ],
-        'thumbnailImages'            => [
+        'thumbnailImages' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Image',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'thumbnailImages',
         ],
-        'title'                      => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -25,25 +25,25 @@ class FindCompletedItemsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'keywords'       => [
+        'keywords' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'keywords',
         ],
-        'categoryId'     => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'itemFilter'     => [
+        'itemFilter' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\ItemFilter',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'aspectFilter'   => [
+        'aspectFilter' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\AspectFilter',
             'repeatable'  => true,
             'attribute'   => false,
@@ -55,7 +55,7 @@ class FindCompletedItemsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
             'attribute'   => false,
             'elementName' => 'outputSelector',
         ],
-        'productId'      => [
+        'productId' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\ProductId',
             'repeatable'  => false,
             'attribute'   => false,

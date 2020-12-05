@@ -29,49 +29,49 @@ class GetSellerTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ModTimeFrom'             => [
+        'ModTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo'               => [
+        'ModTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'Pagination'              => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'IncludeFinalValueFee'    => [
+        'IncludeFinalValueFee' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeFinalValueFee',
         ],
-        'IncludeContainingOrder'  => [
+        'IncludeContainingOrder' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeContainingOrder',
         ],
-        'SKUArray'                => [
+        'SKUArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SKUArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SKUArray',
         ],
-        'Platform'                => [
+        'Platform' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Platform',
         ],
-        'NumberOfDays'            => [
+        'NumberOfDays' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -83,7 +83,7 @@ class GetSellerTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'attribute'   => false,
             'elementName' => 'InventoryTrackingMethod',
         ],
-        'IncludeCodiceFiscale'    => [
+        'IncludeCodiceFiscale' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

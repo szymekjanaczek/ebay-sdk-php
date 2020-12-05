@@ -21,7 +21,7 @@ class GetSellerEventsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TimeTo'    => [
+        'TimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

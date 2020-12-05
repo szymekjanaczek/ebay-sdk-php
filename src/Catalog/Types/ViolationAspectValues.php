@@ -27,7 +27,7 @@ class ViolationAspectValues extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'aspectName',
         ],
-        'values'     => [
+        'values' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

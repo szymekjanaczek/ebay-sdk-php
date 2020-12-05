@@ -13,6 +13,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 class DiscountCodeType
 {
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_PERCENTAGE = 'Percentage';
-    public const C_PRICE = 'Price';
+    public const C_PERCENTAGE  = 'Percentage';
+    public const C_PRICE       = 'Price';
 }

@@ -35,13 +35,13 @@ class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingCost',
         ],
-        'OrderAmount'  => [
+        'OrderAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderAmount',
         ],
-        'ItemCount'    => [
+        'ItemCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

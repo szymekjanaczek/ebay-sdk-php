@@ -28,13 +28,13 @@ class RuleCriteria extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'excludeInventoryItems',
         ],
-        'excludeListingIds'     => [
+        'excludeListingIds' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'excludeListingIds',
         ],
-        'selectionRules'        => [
+        'selectionRules' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
             'repeatable'  => true,
             'attribute'   => false,

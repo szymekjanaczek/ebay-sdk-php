@@ -26,25 +26,25 @@ class Address extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'name'            => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'name',
         ],
-        'street1'         => [
+        'street1' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'street1',
         ],
-        'street2'         => [
+        'street2' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'street2',
         ],
-        'city'            => [
+        'city' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class Address extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'stateOrProvince',
         ],
-        'country'         => [
+        'country' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'country',
         ],
-        'postalCode'      => [
+        'postalCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

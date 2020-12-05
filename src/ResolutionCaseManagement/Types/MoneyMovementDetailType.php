@@ -29,31 +29,31 @@ class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'type'                => [
+        'type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'type',
         ],
-        'fromParty'           => [
+        'fromParty' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fromParty',
         ],
-        'toParty'             => [
+        'toParty' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'toParty',
         ],
-        'amount'              => [
+        'amount' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'paymentMethod'       => [
+        'paymentMethod' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -65,25 +65,25 @@ class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'paypalTransactionId',
         ],
-        'status'              => [
+        'status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'status',
         ],
-        'transactionDate'     => [
+        'transactionDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'transactionDate',
         ],
-        'id'                  => [
+        'id' => [
             'type'          => 'string',
             'repeatable'    => false,
             'attribute'     => true,
             'attributeName' => 'id',
         ],
-        'parentId'            => [
+        'parentId' => [
             'type'          => 'string',
             'repeatable'    => false,
             'attribute'     => true,

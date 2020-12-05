@@ -35,55 +35,55 @@ class SearchForItemsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'aspect_filter',
         ],
-        'category_ids'  => [
+        'category_ids' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'category_ids',
         ],
-        'epid'          => [
+        'epid' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'fieldgroups'   => [
+        'fieldgroups' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fieldgroups',
         ],
-        'filter'        => [
+        'filter' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'filter',
         ],
-        'gtin'          => [
+        'gtin' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'gtin',
         ],
-        'limit'         => [
+        'limit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset'        => [
+        'offset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'q'             => [
+        'q' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'q',
         ],
-        'sort'          => [
+        'sort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -28,31 +28,31 @@ class Bundle extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'bundleID'            => [
+        'bundleID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'bundleID',
         ],
-        'bundleName'          => [
+        'bundleName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'bundleName',
         ],
-        'primarySKU'          => [
+        'primarySKU' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'primarySKU',
         ],
-        'scheduledStartTime'  => [
+        'scheduledStartTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'scheduledStartTime',
         ],
-        'scheduledEndTime'    => [
+        'scheduledEndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
@@ -64,19 +64,19 @@ class Bundle extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'relatedProductGroup',
         ],
-        'bundleStatus'        => [
+        'bundleStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'bundleStatus',
         ],
-        'isoCurrencyCode'     => [
+        'isoCurrencyCode' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'isoCurrencyCode',
         ],
-        'site'                => [
+        'site' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

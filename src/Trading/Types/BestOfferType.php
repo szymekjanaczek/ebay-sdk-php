@@ -29,49 +29,49 @@ class BestOfferType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BestOfferID'       => [
+        'BestOfferID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BestOfferID',
         ],
-        'ExpirationTime'    => [
+        'ExpirationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExpirationTime',
         ],
-        'Buyer'             => [
+        'Buyer' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Buyer',
         ],
-        'Price'             => [
+        'Price' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Price',
         ],
-        'Status'            => [
+        'Status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'Quantity'          => [
+        'Quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Quantity',
         ],
-        'BuyerMessage'      => [
+        'BuyerMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerMessage',
         ],
-        'SellerMessage'     => [
+        'SellerMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -83,7 +83,7 @@ class BestOfferType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'BestOfferCodeType',
         ],
-        'CallStatus'        => [
+        'CallStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

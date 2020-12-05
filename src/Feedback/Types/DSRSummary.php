@@ -27,13 +27,13 @@ class DSRSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DSRType'          => [
+        'DSRType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DSRType',
         ],
-        'DSRAverage'       => [
+        'DSRAverage' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
@@ -45,31 +45,31 @@ class DSRSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'totalRatingCount',
         ],
-        'rating1Count'     => [
+        'rating1Count' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'rating1Count',
         ],
-        'rating2Count'     => [
+        'rating2Count' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'rating2Count',
         ],
-        'rating3Count'     => [
+        'rating3Count' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'rating3Count',
         ],
-        'rating4Count'     => [
+        'rating4Count' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'rating4Count',
         ],
-        'rating5Count'     => [
+        'rating5Count' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

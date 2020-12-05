@@ -26,25 +26,25 @@ class Product extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productIdentifier'  => [
+        'productIdentifier' => [
             'type'        => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'productIdentifier',
         ],
-        'stockPhotoURL'      => [
+        'stockPhotoURL' => [
             'type'        => 'DTS\eBaySDK\Product\Types\StockPhotoURL',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'stockPhotoURL',
         ],
-        'productDetails'     => [
+        'productDetails' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'productDetails',
         ],
-        'productStatus'      => [
+        'productStatus' => [
             'type'        => 'DTS\eBaySDK\Product\Types\ProductStatus',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class Product extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'compatibilityCount',
         ],
-        'type'               => [
+        'type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'type',
         ],
-        'notes'              => [
+        'notes' => [
             'type'        => 'DTS\eBaySDK\Product\Types\Notes',
             'repeatable'  => false,
             'attribute'   => false,

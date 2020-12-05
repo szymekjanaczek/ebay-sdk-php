@@ -26,13 +26,13 @@ class GetProductCompatibilitiesRequest extends \DTS\eBaySDK\Product\Types\BaseSe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productIdentifier'         => [
+        'productIdentifier' => [
             'type'        => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'productIdentifier',
         ],
-        'paginationInput'           => [
+        'paginationInput' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PaginationInput',
             'repeatable'  => false,
             'attribute'   => false,
@@ -44,25 +44,25 @@ class GetProductCompatibilitiesRequest extends \DTS\eBaySDK\Product\Types\BaseSe
             'attribute'   => false,
             'elementName' => 'applicationPropertyFilter',
         ],
-        'dataset'                   => [
+        'dataset' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'dataset',
         ],
-        'sortOrder'                 => [
+        'sortOrder' => [
             'type'        => 'DTS\eBaySDK\Product\Types\CompatibilitySort',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'sortOrder',
         ],
-        'disabledProductFilter'     => [
+        'disabledProductFilter' => [
             'type'        => 'DTS\eBaySDK\Product\Types\ProductStatus',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'disabledProductFilter',
         ],
-        'datasetPropertyName'       => [
+        'datasetPropertyName' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

@@ -29,19 +29,19 @@ class ShippingLocationDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingLocation',
         ],
-        'Description'      => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'DetailVersion'    => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'       => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

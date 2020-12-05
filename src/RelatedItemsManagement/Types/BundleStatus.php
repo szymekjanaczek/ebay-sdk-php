@@ -24,25 +24,25 @@ class BundleStatus extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'bundleName'   => [
+        'bundleName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'bundleName',
         ],
-        'primarySKU'   => [
+        'primarySKU' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'primarySKU',
         ],
-        'bundleID'     => [
+        'bundleID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'bundleID',
         ],
-        'ack'          => [
+        'ack' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

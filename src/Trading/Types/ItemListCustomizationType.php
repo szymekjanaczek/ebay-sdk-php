@@ -26,37 +26,37 @@ class ItemListCustomizationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Include'           => [
+        'Include' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Include',
         ],
-        'ListingType'       => [
+        'ListingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingType',
         ],
-        'Sort'              => [
+        'Sort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Sort',
         ],
-        'DurationInDays'    => [
+        'DurationInDays' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DurationInDays',
         ],
-        'IncludeNotes'      => [
+        'IncludeNotes' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeNotes',
         ],
-        'Pagination'        => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,

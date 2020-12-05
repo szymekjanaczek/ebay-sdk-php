@@ -28,49 +28,49 @@ class GetItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'                       => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'IncludeWatchCount'            => [
+        'IncludeWatchCount' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeWatchCount',
         ],
-        'IncludeItemSpecifics'         => [
+        'IncludeItemSpecifics' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeItemSpecifics',
         ],
-        'IncludeTaxTable'              => [
+        'IncludeTaxTable' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeTaxTable',
         ],
-        'SKU'                          => [
+        'SKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'VariationSKU'                 => [
+        'VariationSKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VariationSKU',
         ],
-        'VariationSpecifics'           => [
+        'VariationSpecifics' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VariationSpecifics',
         ],
-        'TransactionID'                => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

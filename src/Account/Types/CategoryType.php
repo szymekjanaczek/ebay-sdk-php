@@ -27,7 +27,7 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'default',
         ],
-        'name'    => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

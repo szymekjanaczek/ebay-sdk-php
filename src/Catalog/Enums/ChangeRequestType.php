@@ -13,5 +13,5 @@ namespace DTS\eBaySDK\Catalog\Enums;
 class ChangeRequestType
 {
     public const C_PRODUCT_CREATION = 'PRODUCT_CREATION';
-    public const C_PRODUCT_UPDATE = 'PRODUCT_UPDATE';
+    public const C_PRODUCT_UPDATE   = 'PRODUCT_UPDATE';
 }

@@ -27,7 +27,7 @@ class GetProductMetadataForCategoriesRestRequest extends \DTS\eBaySDK\Types\Base
             'attribute'   => false,
             'elementName' => 'other_applicable_category_ids',
         ],
-        'primary_category_id'           => [
+        'primary_category_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

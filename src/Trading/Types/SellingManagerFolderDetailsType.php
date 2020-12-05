@@ -26,7 +26,7 @@ class SellingManagerFolderDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FolderID'       => [
+        'FolderID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -38,31 +38,31 @@ class SellingManagerFolderDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ParentFolderID',
         ],
-        'FolderLevel'    => [
+        'FolderLevel' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FolderLevel',
         ],
-        'FolderName'     => [
+        'FolderName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FolderName',
         ],
-        'FolderComment'  => [
+        'FolderComment' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FolderComment',
         ],
-        'ChildFolder'    => [
+        'ChildFolder' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ChildFolder',
         ],
-        'CreationTime'   => [
+        'CreationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

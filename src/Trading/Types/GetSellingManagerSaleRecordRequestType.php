@@ -23,19 +23,19 @@ class GetSellingManagerSaleRecordRequestType extends \DTS\eBaySDK\Trading\Types\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'          => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'TransactionID'   => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'OrderID'         => [
+        'OrderID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

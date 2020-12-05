@@ -24,13 +24,13 @@ class GetAdFormatLeadsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'                => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'Status'                => [
+        'Status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -42,13 +42,13 @@ class GetAdFormatLeadsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
             'attribute'   => false,
             'elementName' => 'IncludeMemberMessages',
         ],
-        'StartCreationTime'     => [
+        'StartCreationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartCreationTime',
         ],
-        'EndCreationTime'       => [
+        'EndCreationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

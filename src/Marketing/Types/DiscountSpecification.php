@@ -24,25 +24,25 @@ class DiscountSpecification extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'forEachAmount'           => [
+        'forEachAmount' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'forEachAmount',
         ],
-        'forEachQuantity'         => [
+        'forEachQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'forEachQuantity',
         ],
-        'minAmount'               => [
+        'minAmount' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minAmount',
         ],
-        'minQuantity'             => [
+        'minQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

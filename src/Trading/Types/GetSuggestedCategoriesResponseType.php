@@ -27,7 +27,7 @@ class GetSuggestedCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\Abst
             'attribute'   => false,
             'elementName' => 'SuggestedCategoryArray',
         ],
-        'CategoryCount'          => [
+        'CategoryCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

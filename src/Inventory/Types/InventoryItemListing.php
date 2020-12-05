@@ -27,7 +27,7 @@ class InventoryItemListing extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'offerId',
         ],
-        'sku'     => [
+        'sku' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

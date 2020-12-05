@@ -23,7 +23,7 @@ class CategorySuggestion extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'category'                  => [
+        'category' => [
             'type'        => 'DTS\eBaySDK\Taxonomy\Types\Category',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class CategorySuggestion extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'categoryTreeNodeAncestors',
         ],
-        'categoryTreeNodeLevel'     => [
+        'categoryTreeNodeLevel' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryTreeNodeLevel',
         ],
-        'relevancy'                 => [
+        'relevancy' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

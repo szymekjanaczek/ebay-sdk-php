@@ -25,31 +25,31 @@ class ProductMetadataAspect extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectHelpText'              => [
+        'aspectHelpText' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'aspectHelpText',
         ],
-        'constraint'                  => [
+        'constraint' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'constraint',
         ],
-        'droppable'                   => [
+        'droppable' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'droppable',
         ],
-        'name'                        => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'name',
         ],
-        'values'                      => [
+        'values' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\ProductAspectValue',
             'repeatable'  => true,
             'attribute'   => false,

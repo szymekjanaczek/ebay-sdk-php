@@ -22,13 +22,13 @@ class EndItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'            => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'EndingReason'      => [
+        'EndingReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -29,19 +29,19 @@ class GetJobsRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequ
             'attribute'   => false,
             'elementName' => 'creationTimeFrom',
         ],
-        'creationTimeTo'   => [
+        'creationTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creationTimeTo',
         ],
-        'jobType'          => [
+        'jobType' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'jobType',
         ],
-        'jobStatus'        => [
+        'jobStatus' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

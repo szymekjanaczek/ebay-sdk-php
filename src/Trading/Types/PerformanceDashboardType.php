@@ -22,7 +22,7 @@ class PerformanceDashboardType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Site'   => [
+        'Site' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class PerformanceDashboardType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'Alert'  => [
+        'Alert' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellerDashboardAlertType',
             'repeatable'  => false,
             'attribute'   => false,

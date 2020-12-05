@@ -37,8 +37,7 @@ class SyntaxErrorException extends \InvalidArgumentException
         $expectedTypesOrMessage,
         array $token,
         $expression
-    )
-    {
+    ) {
         $message = "Syntax error at character {$token['pos']}\n"
             . $expression . "\n" . str_repeat(' ', $token['pos']) . "^\n";
         $message .= !is_array($expectedTypesOrMessage)

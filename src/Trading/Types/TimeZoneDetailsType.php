@@ -27,31 +27,31 @@ class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TimeZoneID'              => [
+        'TimeZoneID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TimeZoneID',
         ],
-        'StandardLabel'           => [
+        'StandardLabel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StandardLabel',
         ],
-        'StandardOffset'          => [
+        'StandardOffset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StandardOffset',
         ],
-        'DaylightSavingsLabel'    => [
+        'DaylightSavingsLabel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DaylightSavingsLabel',
         ],
-        'DaylightSavingsOffset'   => [
+        'DaylightSavingsOffset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -63,13 +63,13 @@ class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DaylightSavingsInEffect',
         ],
-        'DetailVersion'           => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'              => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

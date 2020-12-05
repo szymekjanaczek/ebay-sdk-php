@@ -39,91 +39,91 @@ class ReportTask extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'campaignIds'                      => [
+        'campaignIds' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'campaignIds',
         ],
-        'dateFrom'                         => [
+        'dateFrom' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'dateFrom',
         ],
-        'dateTo'                           => [
+        'dateTo' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'dateTo',
         ],
-        'dimensions'                       => [
+        'dimensions' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Dimension',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'dimensions',
         ],
-        'inventoryReferences'              => [
+        'inventoryReferences' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\InventoryReference',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'inventoryReferences',
         ],
-        'listingIds'                       => [
+        'listingIds' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'listingIds',
         ],
-        'marketplaceId'                    => [
+        'marketplaceId' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'metricKeys'                       => [
+        'metricKeys' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'metricKeys',
         ],
-        'reportExpirationDate'             => [
+        'reportExpirationDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportExpirationDate',
         ],
-        'reportFormat'                     => [
+        'reportFormat' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportFormat',
         ],
-        'reportHref'                       => [
+        'reportHref' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportHref',
         ],
-        'reportId'                         => [
+        'reportId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportId',
         ],
-        'reportName'                       => [
+        'reportName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportName',
         ],
-        'reportTaskCompletionDate'         => [
+        'reportTaskCompletionDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportTaskCompletionDate',
         ],
-        'reportTaskCreationDate'           => [
+        'reportTaskCreationDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -135,25 +135,25 @@ class ReportTask extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'reportTaskExpectedCompletionDate',
         ],
-        'reportTaskId'                     => [
+        'reportTaskId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportTaskId',
         ],
-        'reportTaskStatus'                 => [
+        'reportTaskStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportTaskStatus',
         ],
-        'reportTaskStatusMessage'          => [
+        'reportTaskStatusMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reportTaskStatusMessage',
         ],
-        'reportType'                       => [
+        'reportType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

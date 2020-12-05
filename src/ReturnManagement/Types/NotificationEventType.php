@@ -34,49 +34,49 @@ class NotificationEventType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'NotificationEventName',
         ],
-        'RecipientUserID'       => [
+        'RecipientUserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RecipientUserID',
         ],
-        'ExternalUserData'      => [
+        'ExternalUserData' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExternalUserData',
         ],
-        'ReturnId'              => [
+        'ReturnId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnId',
         ],
-        'CreationDate'          => [
+        'CreationDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CreationDate',
         ],
-        'OtherPartyId'          => [
+        'OtherPartyId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OtherPartyId',
         ],
-        'OtherPartyRole'        => [
+        'OtherPartyRole' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OtherPartyRole',
         ],
-        'ReturnStatus'          => [
+        'ReturnStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnStatus',
         ],
-        'ReturnGlobalId'        => [
+        'ReturnGlobalId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

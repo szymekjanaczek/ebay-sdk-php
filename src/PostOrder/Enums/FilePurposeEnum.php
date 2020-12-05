@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class FilePurposeEnum
 {
-    public const C_ITEM_RELATED = 'ITEM_RELATED';
+    public const C_ITEM_RELATED  = 'ITEM_RELATED';
     public const C_LABEL_RELATED = 'LABEL_RELATED';
-    public const C_UNKNOWN = 'UNKNOWN';
+    public const C_UNKNOWN       = 'UNKNOWN';
 }

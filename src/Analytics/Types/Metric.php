@@ -29,31 +29,31 @@ class Metric extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'level'               => [
+        'level' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'level',
         ],
-        'lookbackEndDate'     => [
+        'lookbackEndDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lookbackEndDate',
         ],
-        'lookbackStartDate'   => [
+        'lookbackStartDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lookbackStartDate',
         ],
-        'metricKey'           => [
+        'metricKey' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'metricKey',
         ],
-        'name'                => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -65,7 +65,7 @@ class Metric extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'thresholdLowerBound',
         ],
-        'thresholdMetaData'   => [
+        'thresholdMetaData' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -77,13 +77,13 @@ class Metric extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'thresholdUpperBound',
         ],
-        'type'                => [
+        'type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'type',
         ],
-        'value'               => [
+        'value' => [
             'type'        => 'any',
             'repeatable'  => false,
             'attribute'   => false,

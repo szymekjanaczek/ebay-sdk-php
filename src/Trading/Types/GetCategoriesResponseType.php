@@ -26,37 +26,37 @@ class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryArray'        => [
+        'CategoryArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\CategoryArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryArray',
         ],
-        'CategoryCount'        => [
+        'CategoryCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryCount',
         ],
-        'UpdateTime'           => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UpdateTime',
         ],
-        'CategoryVersion'      => [
+        'CategoryVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryVersion',
         ],
-        'ReservePriceAllowed'  => [
+        'ReservePriceAllowed' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReservePriceAllowed',
         ],
-        'MinimumReservePrice'  => [
+        'MinimumReservePrice' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,

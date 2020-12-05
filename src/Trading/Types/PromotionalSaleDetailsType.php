@@ -28,13 +28,13 @@ class PromotionalSaleDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'OriginalPrice',
         ],
-        'StartTime'     => [
+        'StartTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime'       => [
+        'EndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

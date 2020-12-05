@@ -110,7 +110,7 @@ class Utils
 
         // Handle array-like values. Must be empty or offset 0 does not exist
         return $value instanceof \Countable && $value instanceof \ArrayAccess
-            ? count($value) == 0 || !$value->offsetExists(0)
+            ? count($value) == 0          || !$value->offsetExists(0)
             : $value instanceof \stdClass || $value instanceof JmesPathableObjectInterface;
     }
 
@@ -267,8 +267,8 @@ class Utils
      */
     private static function sliceIndices($subject, ?int $start, ?int $stop, int $step)
     {
-        $type = gettype($subject);
-        $len  = $type == 'string' ? strlen($subject) : count($subject);
+        $type                      = gettype($subject);
+        $len                       = $type == 'string' ? strlen($subject) : count($subject);
         list($start, $stop, $step) = self::adjustSlice($len, $start, $stop, $step);
 
         $result = [];

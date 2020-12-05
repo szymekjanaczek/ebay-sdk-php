@@ -23,13 +23,13 @@ class GetSingleItemRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReque
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'             => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'VariationSKU'       => [
+        'VariationSKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class GetSingleItemRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReque
             'attribute'   => false,
             'elementName' => 'VariationSpecifics',
         ],
-        'IncludeSelector'    => [
+        'IncludeSelector' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

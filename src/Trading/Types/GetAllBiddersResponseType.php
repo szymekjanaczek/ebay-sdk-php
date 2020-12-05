@@ -23,19 +23,19 @@ class GetAllBiddersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BidArray'      => [
+        'BidArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\OfferArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidArray',
         ],
-        'HighBidder'    => [
+        'HighBidder' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HighBidder',
         ],
-        'HighestBid'    => [
+        'HighestBid' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class UpdateOfferRestResponse extends \DTS\eBaySDK\Inventory\Types\OfferResponse
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

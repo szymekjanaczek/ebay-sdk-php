@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Account\Enums;
 
 class ReturnShippingCostPayerEnum
 {
-    public const C_BUYER = 'BUYER';
+    public const C_BUYER  = 'BUYER';
     public const C_SELLER = 'SELLER';
 }

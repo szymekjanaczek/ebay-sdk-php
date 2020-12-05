@@ -26,19 +26,19 @@ class Offers extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'href'   => [
+        'href' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'href',
         ],
-        'limit'  => [
+        'limit' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'next'   => [
+        'next' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -50,19 +50,19 @@ class Offers extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'offers',
         ],
-        'prev'   => [
+        'prev' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'size'   => [
+        'size' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'size',
         ],
-        'total'  => [
+        'total' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

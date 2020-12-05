@@ -21,7 +21,7 @@ class ProvideRefundInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Typ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId'        => [
+        'caseId' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable'  => false,
             'attribute'   => false,

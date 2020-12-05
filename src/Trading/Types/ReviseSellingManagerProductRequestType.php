@@ -23,19 +23,19 @@ class ReviseSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SellingManagerProductDetails'   => [
+        'SellingManagerProductDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellingManagerProductDetails',
         ],
-        'SellingManagerFolderDetails'    => [
+        'SellingManagerFolderDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellingManagerFolderDetails',
         ],
-        'DeletedField'                   => [
+        'DeletedField' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

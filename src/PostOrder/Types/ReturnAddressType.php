@@ -27,7 +27,7 @@ class ReturnAddressType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'address',
         ],
-        'name'    => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,43 +27,43 @@ class GetMyeBaySellingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SellingSummary'        => [
+        'SellingSummary' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingSummaryType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellingSummary',
         ],
-        'ScheduledList'         => [
+        'ScheduledList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ScheduledList',
         ],
-        'ActiveList'            => [
+        'ActiveList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ActiveList',
         ],
-        'SoldList'              => [
+        'SoldList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SoldList',
         ],
-        'UnsoldList'            => [
+        'UnsoldList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UnsoldList',
         ],
-        'Summary'               => [
+        'Summary' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Summary',
         ],
-        'DeletedFromSoldList'   => [
+        'DeletedFromSoldList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -24,25 +24,25 @@ class SMSSubscriptionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SMSPhone'          => [
+        'SMSPhone' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SMSPhone',
         ],
-        'UserStatus'        => [
+        'UserStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserStatus',
         ],
-        'CarrierID'         => [
+        'CarrierID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CarrierID',
         ],
-        'ErrorCode'         => [
+        'ErrorCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

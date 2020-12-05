@@ -29,7 +29,7 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
                 ],
             ],
         ],
-        'GetACategoryTree'          => [
+        'GetACategoryTree' => [
             'method'        => 'GET',
             'resource'      => 'category_tree/{category_tree_id}',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestResponse',
@@ -40,12 +40,12 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
                 ],
             ],
         ],
-        'GetACategorySubtree'       => [
+        'GetACategorySubtree' => [
             'method'        => 'GET',
             'resource'      => 'category_tree/{category_tree_id}/get_category_subtree',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestResponse',
             'params'        => [
-                'category_id'      => [
+                'category_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -55,7 +55,7 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
                 ],
             ],
         ],
-        'GetSuggestedCategories'    => [
+        'GetSuggestedCategories' => [
             'method'        => 'GET',
             'resource'      => 'category_tree/{category_tree_id}/get_category_suggestions',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestResponse',
@@ -64,7 +64,7 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'q'                => [
+                'q' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -75,7 +75,7 @@ class TaxonomyService extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
             'resource'      => 'category_tree/{category_tree_id}/get_item_aspects_for_category',
             'responseClass' => '\DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse',
             'params'        => [
-                'category_id'      => [
+                'category_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],

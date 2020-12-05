@@ -22,7 +22,7 @@ class BaseFindingServiceResponse extends \DTS\eBaySDK\Finding\Types\BaseServiceR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'searchResult'     => [
+        'searchResult' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\SearchResult',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class BaseFindingServiceResponse extends \DTS\eBaySDK\Finding\Types\BaseServiceR
             'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
-        'itemSearchURL'    => [
+        'itemSearchURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

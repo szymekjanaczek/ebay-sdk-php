@@ -26,7 +26,7 @@ class InventoryItems extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'href'           => [
+        'href' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -38,31 +38,31 @@ class InventoryItems extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'inventoryItems',
         ],
-        'limit'          => [
+        'limit' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'next'           => [
+        'next' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'next',
         ],
-        'prev'           => [
+        'prev' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'size'           => [
+        'size' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'size',
         ],
-        'total'          => [
+        'total' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

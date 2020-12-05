@@ -21,7 +21,7 @@ class ReturnEligibilityItemPerCheckTypeResult extends \DTS\eBaySDK\Types\BaseTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'checkType'       => [
+        'checkType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

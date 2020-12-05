@@ -24,7 +24,7 @@ class FilterField extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'field'   => [
+        'field' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -36,19 +36,19 @@ class FilterField extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'negated',
         ],
-        'range'   => [
+        'range' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\RangeValue',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'range',
         ],
-        'set'     => [
+        'set' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'set',
         ],
-        'value'   => [
+        'value' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

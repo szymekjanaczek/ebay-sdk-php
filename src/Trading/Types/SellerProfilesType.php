@@ -28,13 +28,13 @@ class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SellerShippingProfile',
         ],
-        'SellerReturnProfile'   => [
+        'SellerReturnProfile' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellerReturnProfileType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerReturnProfile',
         ],
-        'SellerPaymentProfile'  => [
+        'SellerPaymentProfile' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellerPaymentProfileType',
             'repeatable'  => false,
             'attribute'   => false,

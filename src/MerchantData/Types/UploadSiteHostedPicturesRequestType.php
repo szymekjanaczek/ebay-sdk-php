@@ -26,7 +26,7 @@ class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\MerchantData\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PictureName'          => [
+        'PictureName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -38,31 +38,31 @@ class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\MerchantData\Type
             'attribute'   => false,
             'elementName' => 'PictureSystemVersion',
         ],
-        'PictureSet'           => [
+        'PictureSet' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PictureSet',
         ],
-        'PictureData'          => [
+        'PictureData' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\Base64BinaryType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PictureData',
         ],
-        'PictureUploadPolicy'  => [
+        'PictureUploadPolicy' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PictureUploadPolicy',
         ],
-        'ExternalPictureURL'   => [
+        'ExternalPictureURL' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ExternalPictureURL',
         ],
-        'ExtensionInDays'      => [
+        'ExtensionInDays' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

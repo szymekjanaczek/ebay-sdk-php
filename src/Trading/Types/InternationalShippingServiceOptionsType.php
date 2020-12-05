@@ -27,13 +27,13 @@ class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingService'               => [
+        'ShippingService' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingService',
         ],
-        'ShippingServiceCost'           => [
+        'ShippingServiceCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -45,31 +45,31 @@ class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseTyp
             'attribute'   => false,
             'elementName' => 'ShippingServiceAdditionalCost',
         ],
-        'ShippingServicePriority'       => [
+        'ShippingServicePriority' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingServicePriority',
         ],
-        'ShipToLocation'                => [
+        'ShipToLocation' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ShipToLocation',
         ],
-        'ShippingInsuranceCost'         => [
+        'ShippingInsuranceCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingInsuranceCost',
         ],
-        'ImportCharge'                  => [
+        'ImportCharge' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ImportCharge',
         ],
-        'ShippingServiceCutOffTime'     => [
+        'ShippingServiceCutOffTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

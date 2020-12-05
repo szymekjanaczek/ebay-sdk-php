@@ -21,7 +21,7 @@ class ModifyCustomListResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'listId'       => [
+        'listId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

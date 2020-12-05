@@ -26,37 +26,37 @@ class ApplicationDeliveryPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ApplicationURL'     => [
+        'ApplicationURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ApplicationURL',
         ],
-        'ApplicationEnable'  => [
+        'ApplicationEnable' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ApplicationEnable',
         ],
-        'AlertEmail'         => [
+        'AlertEmail' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AlertEmail',
         ],
-        'AlertEnable'        => [
+        'AlertEnable' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AlertEnable',
         ],
-        'DeviceType'         => [
+        'DeviceType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DeviceType',
         ],
-        'PayloadVersion'     => [
+        'PayloadVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

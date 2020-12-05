@@ -27,7 +27,7 @@ class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Typ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'RecipientUserID'       => [
+        'RecipientUserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -39,7 +39,7 @@ class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Typ
             'attribute'   => false,
             'elementName' => 'VerifyEligibilityOnly',
         ],
-        'RecipientPostalCode'   => [
+        'RecipientPostalCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -51,25 +51,25 @@ class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Typ
             'attribute'   => false,
             'elementName' => 'RecipientRelationType',
         ],
-        'NegotiatedPrice'       => [
+        'NegotiatedPrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NegotiatedPrice',
         ],
-        'ListingDuration'       => [
+        'ListingDuration' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingDuration',
         ],
-        'ItemID'                => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'Comments'              => [
+        'Comments' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

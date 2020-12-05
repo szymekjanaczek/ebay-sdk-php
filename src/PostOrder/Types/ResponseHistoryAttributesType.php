@@ -27,19 +27,19 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrierUsed'         => [
+        'carrierUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'escalateReason'      => [
+        'escalateReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'escalateReason',
         ],
-        'moneyMovementRef'    => [
+        'moneyMovementRef' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementRef',
             'repeatable'  => false,
             'attribute'   => false,
@@ -51,7 +51,7 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'partialRefundAmount',
         ],
-        'RMA'                 => [
+        'RMA' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -63,13 +63,13 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'sellerReturnAddress',
         ],
-        'toEmailAddress'      => [
+        'toEmailAddress' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'toEmailAddress',
         ],
-        'trackingNumber'      => [
+        'trackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

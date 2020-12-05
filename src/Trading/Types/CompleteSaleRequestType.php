@@ -28,49 +28,49 @@ class CompleteSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'          => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'TransactionID'   => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'FeedbackInfo'    => [
+        'FeedbackInfo' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FeedbackInfoType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackInfo',
         ],
-        'Shipped'         => [
+        'Shipped' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Shipped',
         ],
-        'Paid'            => [
+        'Paid' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Paid',
         ],
-        'ListingType'     => [
+        'ListingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingType',
         ],
-        'Shipment'        => [
+        'Shipment' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ShipmentType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Shipment',
         ],
-        'OrderID'         => [
+        'OrderID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

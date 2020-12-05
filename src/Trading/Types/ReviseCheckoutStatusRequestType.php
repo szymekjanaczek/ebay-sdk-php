@@ -37,91 +37,91 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'                  => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'TransactionID'           => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'OrderID'                 => [
+        'OrderID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderID',
         ],
-        'AmountPaid'              => [
+        'AmountPaid' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AmountPaid',
         ],
-        'PaymentMethodUsed'       => [
+        'PaymentMethodUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentMethodUsed',
         ],
-        'CheckoutStatus'          => [
+        'CheckoutStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CheckoutStatus',
         ],
-        'ShippingService'         => [
+        'ShippingService' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingService',
         ],
-        'ShippingIncludedInTax'   => [
+        'ShippingIncludedInTax' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingIncludedInTax',
         ],
-        'PaymentStatus'           => [
+        'PaymentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentStatus',
         ],
-        'AdjustmentAmount'        => [
+        'AdjustmentAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AdjustmentAmount',
         ],
-        'BuyerID'                 => [
+        'BuyerID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerID',
         ],
-        'SalesTax'                => [
+        'SalesTax' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SalesTax',
         ],
-        'ShippingCost'            => [
+        'ShippingCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingCost',
         ],
-        'EncryptedID'             => [
+        'EncryptedID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EncryptedID',
         ],
-        'ExternalTransaction'     => [
+        'ExternalTransaction' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ExternalTransactionType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -133,13 +133,13 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'attribute'   => false,
             'elementName' => 'MultipleSellerPaymentID',
         ],
-        'CODCost'                 => [
+        'CODCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CODCost',
         ],
-        'OrderLineItemID'         => [
+        'OrderLineItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,43 +27,43 @@ class OrderSearchPagedCollection extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'href'     => [
+        'href' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'href',
         ],
-        'limit'    => [
+        'limit' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'next'     => [
+        'next' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'next',
         ],
-        'offset'   => [
+        'offset' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'orders'   => [
+        'orders' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Order',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'orders',
         ],
-        'prev'     => [
+        'prev' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'total'    => [
+        'total' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

@@ -30,14 +30,13 @@ class AstRuntime
 {
     private $parser;
     private $interpreter;
-    private $cache = [];
+    private $cache       = [];
     private $cachedCount = 0;
 
     public function __construct(
         Parser $parser = null,
         callable $fnDispatcher = null
-    )
-    {
+    ) {
         $fnDispatcher      = $fnDispatcher ?: FnDispatcher::getInstance();
         $this->interpreter = new TreeInterpreter($fnDispatcher);
         $this->parser      = $parser ?: new Parser();

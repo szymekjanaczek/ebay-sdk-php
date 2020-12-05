@@ -29,13 +29,13 @@ class ReturnPolicyInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'description'              => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'refundOption'             => [
+        'refundOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -47,43 +47,43 @@ class ReturnPolicyInfo extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'shippingCostPaidByOption',
         ],
-        'returnsWithinOption'      => [
+        'returnsWithinOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnsWithinOption',
         ],
-        'returnsAcceptedOption'    => [
+        'returnsAcceptedOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnsAcceptedOption',
         ],
-        'warrantyOfferedOption'    => [
+        'warrantyOfferedOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'warrantyOfferedOption',
         ],
-        'warrantyTypeOption'       => [
+        'warrantyTypeOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'warrantyTypeOption',
         ],
-        'warrantyDurationOption'   => [
+        'warrantyDurationOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'warrantyDurationOption',
         ],
-        'restockingFeeValue'       => [
+        'restockingFeeValue' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'restockingFeeValue',
         ],
-        'holidayReturns'           => [
+        'holidayReturns' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

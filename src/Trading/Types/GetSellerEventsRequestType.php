@@ -30,55 +30,55 @@ class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'UserID'                    => [
+        'UserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserID',
         ],
-        'StartTimeFrom'             => [
+        'StartTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartTimeFrom',
         ],
-        'StartTimeTo'               => [
+        'StartTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartTimeTo',
         ],
-        'EndTimeFrom'               => [
+        'EndTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTimeFrom',
         ],
-        'EndTimeTo'                 => [
+        'EndTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTimeTo',
         ],
-        'ModTimeFrom'               => [
+        'ModTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo'                 => [
+        'ModTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'NewItemFilter'             => [
+        'NewItemFilter' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NewItemFilter',
         ],
-        'IncludeWatchCount'         => [
+        'IncludeWatchCount' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -90,7 +90,7 @@ class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'attribute'   => false,
             'elementName' => 'IncludeVariationSpecifics',
         ],
-        'HideVariations'            => [
+        'HideVariations' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class FundingStrategy extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'bidPercentage',
         ],
-        'fundingModel'  => [
+        'fundingModel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

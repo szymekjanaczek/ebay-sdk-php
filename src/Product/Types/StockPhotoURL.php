@@ -27,7 +27,7 @@ class StockPhotoURL extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'thumbnail',
         ],
-        'standard'  => [
+        'standard' => [
             'type'        => 'DTS\eBaySDK\Product\Types\URIValue',
             'repeatable'  => false,
             'attribute'   => false,

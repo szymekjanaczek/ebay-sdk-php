@@ -27,13 +27,13 @@ class GetSimilarItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMercha
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId'            => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'categoryId'        => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
@@ -45,31 +45,31 @@ class GetSimilarItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMercha
             'attribute'   => false,
             'elementName' => 'categoryIdExclude',
         ],
-        'listingType'       => [
+        'listingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingType',
         ],
-        'endTimeTo'         => [
+        'endTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'endTimeTo',
         ],
-        'endTimeFrom'       => [
+        'endTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'endTimeFrom',
         ],
-        'maxPrice'          => [
+        'maxPrice' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxPrice',
         ],
-        'itemFilter'        => [
+        'itemFilter' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\ItemFilter',
             'repeatable'  => true,
             'attribute'   => false,

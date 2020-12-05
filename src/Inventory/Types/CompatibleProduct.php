@@ -22,7 +22,7 @@ class CompatibleProduct extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'notes'                   => [
+        'notes' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class CompatibleProduct extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'productFamilyProperties',
         ],
-        'productIdentifier'       => [
+        'productIdentifier' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ProductIdentifier',
             'repeatable'  => false,
             'attribute'   => false,

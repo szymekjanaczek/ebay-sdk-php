@@ -26,25 +26,25 @@ class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'globalId'            => [
+        'globalId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'globalId',
         ],
-        'returnHistory'       => [
+        'returnHistory' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'returnHistory',
         ],
-        'refundInfo'          => [
+        'refundInfo' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\RefundInfoType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'refundInfo',
         ],
-        'returnPolicy'        => [
+        'returnPolicy' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnPolicyInfoType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyerReturnShipment',
         ],
-        'shipmentInfo'        => [
+        'shipmentInfo' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ShipmentType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'shipmentInfo',
         ],
-        'caseId'              => [
+        'caseId' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\CaseIdType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -24,25 +24,25 @@ class ComplianceDetail extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'reasonCode'                => [
+        'reasonCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reasonCode',
         ],
-        'message'                   => [
+        'message' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'message',
         ],
-        'variation'                 => [
+        'variation' => [
             'type'        => 'DTS\eBaySDK\Compliance\Types\VariationDetails',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'variation',
         ],
-        'violationData'             => [
+        'violationData' => [
             'type'        => 'DTS\eBaySDK\Compliance\Types\NameValueList',
             'repeatable'  => true,
             'attribute'   => false,

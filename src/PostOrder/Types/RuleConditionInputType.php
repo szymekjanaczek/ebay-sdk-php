@@ -24,19 +24,19 @@ class RuleConditionInputType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dataList'      => [
+        'dataList' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'dataList',
         ],
-        'dataRange'     => [
+        'dataRange' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'dataRange',
         ],
-        'isEbayPlus'    => [
+        'isEbayPlus' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class RuleConditionInputType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'storeCategory',
         ],
-        'storeId'       => [
+        'storeId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

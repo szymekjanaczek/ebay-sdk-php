@@ -27,7 +27,7 @@ class StoreSubscriptionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Level',
         ],
-        'Fee'   => [
+        'Fee' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

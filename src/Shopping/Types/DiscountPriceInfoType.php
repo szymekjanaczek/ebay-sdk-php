@@ -25,13 +25,13 @@ class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OriginalRetailPrice'            => [
+        'OriginalRetailPrice' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OriginalRetailPrice',
         ],
-        'MinimumAdvertisedPrice'         => [
+        'MinimumAdvertisedPrice' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'MinimumAdvertisedPriceExposure',
         ],
-        'PricingTreatment'               => [
+        'PricingTreatment' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PricingTreatment',
         ],
-        'SoldOneBay'                     => [
+        'SoldOneBay' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SoldOneBay',
         ],
-        'SoldOffeBay'                    => [
+        'SoldOffeBay' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

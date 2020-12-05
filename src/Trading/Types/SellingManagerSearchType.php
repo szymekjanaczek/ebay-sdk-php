@@ -21,7 +21,7 @@ class SellingManagerSearchType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SearchType'  => [
+        'SearchType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

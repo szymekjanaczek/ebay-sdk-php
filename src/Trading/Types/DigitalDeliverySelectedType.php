@@ -22,13 +22,13 @@ class DigitalDeliverySelectedType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DeliveryMethod'  => [
+        'DeliveryMethod' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DeliveryMethod',
         ],
-        'DeliveryStatus'  => [
+        'DeliveryStatus' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\DeliveryStatusType',
             'repeatable'  => false,
             'attribute'   => false,

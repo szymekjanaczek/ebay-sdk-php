@@ -22,13 +22,13 @@ class FaultDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ErrorCode'       => [
+        'ErrorCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ErrorCode',
         ],
-        'Severity'        => [
+        'Severity' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

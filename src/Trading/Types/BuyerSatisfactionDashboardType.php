@@ -27,7 +27,7 @@ class BuyerSatisfactionDashboardType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'Alert'  => [
+        'Alert' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellerDashboardAlertType',
             'repeatable'  => true,
             'attribute'   => false,

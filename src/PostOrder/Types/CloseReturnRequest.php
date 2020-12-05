@@ -27,7 +27,7 @@ class CloseReturnRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyerCloseReason',
         ],
-        'comments'         => [
+        'comments' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable'  => false,
             'attribute'   => false,

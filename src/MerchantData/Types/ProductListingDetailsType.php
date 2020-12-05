@@ -32,31 +32,31 @@ class ProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'IncludeStockPhotoURL'           => [
+        'IncludeStockPhotoURL' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeStockPhotoURL',
         ],
-        'UseStockPhotoURLAsGallery'      => [
+        'UseStockPhotoURLAsGallery' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UseStockPhotoURLAsGallery',
         ],
-        'StockPhotoURL'                  => [
+        'StockPhotoURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StockPhotoURL',
         ],
-        'Copyright'                      => [
+        'Copyright' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Copyright',
         ],
-        'ProductReferenceID'             => [
+        'ProductReferenceID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -68,43 +68,43 @@ class ProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ReturnSearchResultOnDuplicates',
         ],
-        'ISBN'                           => [
+        'ISBN' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ISBN',
         ],
-        'UPC'                            => [
+        'UPC' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UPC',
         ],
-        'EAN'                            => [
+        'EAN' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EAN',
         ],
-        'BrandMPN'                       => [
+        'BrandMPN' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\BrandMPNType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BrandMPN',
         ],
-        'TicketListingDetails'           => [
+        'TicketListingDetails' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\TicketListingDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TicketListingDetails',
         ],
-        'UseFirstProduct'                => [
+        'UseFirstProduct' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UseFirstProduct',
         ],
-        'IncludeeBayProductDetails'      => [
+        'IncludeeBayProductDetails' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

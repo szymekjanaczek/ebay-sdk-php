@@ -27,7 +27,7 @@ class OperatingHours extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'dayOfWeekEnum',
         ],
-        'intervals'     => [
+        'intervals' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Interval',
             'repeatable'  => true,
             'attribute'   => false,

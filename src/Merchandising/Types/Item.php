@@ -37,49 +37,49 @@ class Item extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId'              => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'title'               => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'title',
         ],
-        'viewItemURL'         => [
+        'viewItemURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'viewItemURL',
         ],
-        'currentPrice'        => [
+        'currentPrice' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'currentPrice',
         ],
-        'originalPrice'       => [
+        'originalPrice' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'originalPrice',
         ],
-        'globalId'            => [
+        'globalId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'globalId',
         ],
-        'timeLeft'            => [
+        'timeLeft' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'timeLeft',
         ],
-        'primaryCategoryId'   => [
+        'primaryCategoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -91,55 +91,55 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'primaryCategoryName',
         ],
-        'subtitle'            => [
+        'subtitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'subtitle',
         ],
-        'bidCount'            => [
+        'bidCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'bidCount',
         ],
-        'buyItNowPrice'       => [
+        'buyItNowPrice' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyItNowPrice',
         ],
-        'country'             => [
+        'country' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'country',
         ],
-        'imageURL'            => [
+        'imageURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'imageURL',
         ],
-        'shippingCost'        => [
+        'shippingCost' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'shippingType'        => [
+        'shippingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingType',
         ],
-        'watchCount'          => [
+        'watchCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'watchCount',
         ],
-        'discountPriceInfo'   => [
+        'discountPriceInfo' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\DiscountPriceInfo',
             'repeatable'  => false,
             'attribute'   => false,

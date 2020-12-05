@@ -27,43 +27,43 @@ class LegalAddress extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'addressLine1'    => [
+        'addressLine1' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'addressLine1',
         ],
-        'addressLine2'    => [
+        'addressLine2' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'addressLine2',
         ],
-        'city'            => [
+        'city' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'city',
         ],
-        'country'         => [
+        'country' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'country',
         ],
-        'countryName'     => [
+        'countryName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'countryName',
         ],
-        'county'          => [
+        'county' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'county',
         ],
-        'postalCode'      => [
+        'postalCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

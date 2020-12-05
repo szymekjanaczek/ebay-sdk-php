@@ -31,61 +31,61 @@ class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ValueType'          => [
+        'ValueType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ValueType',
         ],
-        'MinValues'          => [
+        'MinValues' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MinValues',
         ],
-        'MaxValues'          => [
+        'MaxValues' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxValues',
         ],
-        'SelectionMode'      => [
+        'SelectionMode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SelectionMode',
         ],
-        'AspectUsage'        => [
+        'AspectUsage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AspectUsage',
         ],
-        'MaxValueLength'     => [
+        'MaxValueLength' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxValueLength',
         ],
-        'ProductRequired'    => [
+        'ProductRequired' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProductRequired',
         ],
-        'Confidence'         => [
+        'Confidence' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Confidence',
         ],
-        'Relationship'       => [
+        'Relationship' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\NameValueRelationshipType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Relationship',
         ],
-        'VariationPicture'   => [
+        'VariationPicture' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -97,7 +97,7 @@ class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'VariationSpecifics',
         ],
-        'ValueFormat'        => [
+        'ValueFormat' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

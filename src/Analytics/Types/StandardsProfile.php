@@ -25,13 +25,13 @@ class StandardsProfile extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'cycle'            => [
+        'cycle' => [
             'type'        => 'DTS\eBaySDK\Analytics\Types\Cycle',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cycle',
         ],
-        'defaultProgram'   => [
+        'defaultProgram' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class StandardsProfile extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'evaluationReason',
         ],
-        'metrics'          => [
+        'metrics' => [
             'type'        => 'DTS\eBaySDK\Analytics\Types\Metric',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'metrics',
         ],
-        'program'          => [
+        'program' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'program',
         ],
-        'standardsLevel'   => [
+        'standardsLevel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -26,31 +26,31 @@ class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'StartingDisputeID'  => [
+        'StartingDisputeID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartingDisputeID',
         ],
-        'EndingDisputeID'    => [
+        'EndingDisputeID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndingDisputeID',
         ],
-        'DisputeArray'       => [
+        'DisputeArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\DisputeArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DisputeArray',
         ],
-        'ItemsPerPage'       => [
+        'ItemsPerPage' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemsPerPage',
         ],
-        'PageNumber'         => [
+        'PageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'attribute'   => false,
             'elementName' => 'DisputeFilterCount',
         ],
-        'PaginationResult'   => [
+        'PaginationResult' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable'  => false,
             'attribute'   => false,

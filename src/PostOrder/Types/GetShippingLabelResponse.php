@@ -25,19 +25,19 @@ class GetShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrier'          => [
+        'carrier' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrier',
         ],
-        'labelContent'     => [
+        'labelContent' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelContent',
         ],
-        'labelCost'        => [
+        'labelCost' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,13 +49,13 @@ class GetShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'labelPrintStatus',
         ],
-        'labelURL'         => [
+        'labelURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelURL',
         ],
-        'trackingNumber'   => [
+        'trackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

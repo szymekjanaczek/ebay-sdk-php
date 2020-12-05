@@ -27,31 +27,31 @@ class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrier'        => [
+        'carrier' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrier',
         ],
-        'comments'       => [
+        'comments' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'comments',
         ],
-        'itemId'         => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'reason'         => [
+        'reason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reason',
         ],
-        'requestType'    => [
+        'requestType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -63,13 +63,13 @@ class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'returnQuantity',
         ],
-        'transactionId'  => [
+        'transactionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'transactionId',
         ],
-        'type'           => [
+        'type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

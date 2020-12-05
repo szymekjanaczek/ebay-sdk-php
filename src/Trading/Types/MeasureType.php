@@ -21,7 +21,7 @@ class MeasureType extends \DTS\eBaySDK\Types\DecimalType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'unit'              => [
+        'unit' => [
             'type'          => 'string',
             'repeatable'    => false,
             'attribute'     => true,

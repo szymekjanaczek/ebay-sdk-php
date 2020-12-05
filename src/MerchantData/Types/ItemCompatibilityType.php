@@ -22,13 +22,13 @@ class ItemCompatibilityType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Delete'             => [
+        'Delete' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Delete',
         ],
-        'NameValueList'      => [
+        'NameValueList' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\NameValueListType',
             'repeatable'  => true,
             'attribute'   => false,

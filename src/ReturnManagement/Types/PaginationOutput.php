@@ -23,7 +23,7 @@ class PaginationOutput extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'pageNumber'     => [
+        'pageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class PaginationOutput extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'entriesPerPage',
         ],
-        'totalPages'     => [
+        'totalPages' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'totalPages',
         ],
-        'totalEntries'   => [
+        'totalEntries' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

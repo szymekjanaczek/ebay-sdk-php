@@ -27,13 +27,13 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'adjustment'       => [
+        'adjustment' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Adjustment',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'adjustment',
         ],
-        'deliveryCost'     => [
+        'deliveryCost' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -45,31 +45,31 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'deliveryDiscount',
         ],
-        'fee'              => [
+        'fee' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fee',
         ],
-        'priceDiscount'    => [
+        'priceDiscount' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'priceDiscount',
         ],
-        'priceSubtotal'    => [
+        'priceSubtotal' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'priceSubtotal',
         ],
-        'tax'              => [
+        'tax' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'tax',
         ],
-        'total'            => [
+        'total' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

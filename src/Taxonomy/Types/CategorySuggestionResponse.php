@@ -28,7 +28,7 @@ class CategorySuggestionResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'categorySuggestions',
         ],
-        'categoryTreeId'      => [
+        'categoryTreeId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,19 +27,19 @@ class PropertyMetadata extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'propertyName'            => [
+        'propertyName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'propertyName',
         ],
-        'alternatePropertyName'   => [
+        'alternatePropertyName' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'alternatePropertyName',
         ],
-        'dataType'                => [
+        'dataType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -51,25 +51,25 @@ class PropertyMetadata extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'typeSpecificInformation',
         ],
-        'multiValued'             => [
+        'multiValued' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'multiValued',
         ],
-        'canonicalName'           => [
+        'canonicalName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'canonicalName',
         ],
-        'propertyTags'            => [
+        'propertyTags' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\Tag',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'propertyTags',
         ],
-        'description'             => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

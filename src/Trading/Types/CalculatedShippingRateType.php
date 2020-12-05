@@ -24,25 +24,25 @@ class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OriginatingPostalCode'               => [
+        'OriginatingPostalCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OriginatingPostalCode',
         ],
-        'MeasurementUnit'                     => [
+        'MeasurementUnit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MeasurementUnit',
         ],
-        'PackagingHandlingCosts'              => [
+        'PackagingHandlingCosts' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PackagingHandlingCosts',
         ],
-        'ShippingIrregular'                   => [
+        'ShippingIrregular' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

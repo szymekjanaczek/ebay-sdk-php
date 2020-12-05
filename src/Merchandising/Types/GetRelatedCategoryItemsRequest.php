@@ -22,7 +22,7 @@ class GetRelatedCategoryItemsRequest extends \DTS\eBaySDK\Merchandising\Types\Ba
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId'     => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

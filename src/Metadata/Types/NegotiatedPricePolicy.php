@@ -24,7 +24,7 @@ class NegotiatedPricePolicy extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'bestOfferAutoAcceptEnabled'  => [
+        'bestOfferAutoAcceptEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -36,19 +36,19 @@ class NegotiatedPricePolicy extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'bestOfferAutoDeclineEnabled',
         ],
-        'bestOfferCounterEnabled'     => [
+        'bestOfferCounterEnabled' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'bestOfferCounterEnabled',
         ],
-        'categoryId'                  => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'categoryTreeId'              => [
+        'categoryTreeId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

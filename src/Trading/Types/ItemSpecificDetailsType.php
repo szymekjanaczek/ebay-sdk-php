@@ -31,31 +31,31 @@ class ItemSpecificDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'MaxItemSpecificsPerItem',
         ],
-        'MaxValuesPerName'        => [
+        'MaxValuesPerName' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxValuesPerName',
         ],
-        'MaxCharactersPerValue'   => [
+        'MaxCharactersPerValue' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxCharactersPerValue',
         ],
-        'MaxCharactersPerName'    => [
+        'MaxCharactersPerName' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxCharactersPerName',
         ],
-        'DetailVersion'           => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'              => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

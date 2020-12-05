@@ -27,7 +27,7 @@ class GetItemFeedRestResponse extends \DTS\eBaySDK\Feed\Types\ItemFeedResponse
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Feed\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

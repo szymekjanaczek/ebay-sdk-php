@@ -27,7 +27,7 @@ class Aspect extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'valueHistogram',
         ],
-        'name'           => [
+        'name' => [
             'type'          => 'string',
             'repeatable'    => false,
             'attribute'     => true,

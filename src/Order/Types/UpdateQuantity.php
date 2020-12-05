@@ -27,7 +27,7 @@ class UpdateQuantity extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'lineItemId',
         ],
-        'quantity'   => [
+        'quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

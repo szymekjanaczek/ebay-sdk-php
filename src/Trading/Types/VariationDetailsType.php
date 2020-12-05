@@ -24,13 +24,13 @@ class VariationDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MaxVariationsPerItem'                  => [
+        'MaxVariationsPerItem' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxVariationsPerItem',
         ],
-        'MaxNamesPerVariationSpecificsSet'      => [
+        'MaxNamesPerVariationSpecificsSet' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -42,13 +42,13 @@ class VariationDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'MaxValuesPerVariationSpecificsSetName',
         ],
-        'DetailVersion'                         => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'                            => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

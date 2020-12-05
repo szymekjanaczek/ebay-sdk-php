@@ -25,19 +25,19 @@ class RuleSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'count'             => [
+        'count' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'count',
         ],
-        'countInTestMode'   => [
+        'countInTestMode' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'countInTestMode',
         ],
-        'invalidAction'     => [
+        'invalidAction' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,13 +49,13 @@ class RuleSummaryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'invalidConditions',
         ],
-        'lastModifiedDate'  => [
+        'lastModifiedDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lastModifiedDate',
         ],
-        'priority'          => [
+        'priority' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class AddProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
             'attribute'   => false,
             'elementName' => 'addProductRequest',
         ],
-        'clientBatchId'     => [
+        'clientBatchId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

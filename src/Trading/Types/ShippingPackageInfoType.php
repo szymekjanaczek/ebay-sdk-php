@@ -29,49 +29,49 @@ class ShippingPackageInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'StoreID'                        => [
+        'StoreID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreID',
         ],
-        'ShippingTrackingEvent'          => [
+        'ShippingTrackingEvent' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingTrackingEvent',
         ],
-        'ScheduledDeliveryTimeMin'       => [
+        'ScheduledDeliveryTimeMin' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ScheduledDeliveryTimeMin',
         ],
-        'ScheduledDeliveryTimeMax'       => [
+        'ScheduledDeliveryTimeMax' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ScheduledDeliveryTimeMax',
         ],
-        'ActualDeliveryTime'             => [
+        'ActualDeliveryTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ActualDeliveryTime',
         ],
-        'EstimatedDeliveryTimeMin'       => [
+        'EstimatedDeliveryTimeMin' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EstimatedDeliveryTimeMin',
         ],
-        'EstimatedDeliveryTimeMax'       => [
+        'EstimatedDeliveryTimeMax' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EstimatedDeliveryTimeMax',
         ],
-        'HandleByTime'                   => [
+        'HandleByTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

@@ -23,13 +23,13 @@ class DeleteSellingManagerItemAutomationRuleResponseType extends \DTS\eBaySDK\Tr
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'AutomatedListingRule'           => [
+        'AutomatedListingRule' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AutomatedListingRule',
         ],
-        'AutomatedRelistingRule'         => [
+        'AutomatedRelistingRule' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class DeleteSellingManagerItemAutomationRuleResponseType extends \DTS\eBaySDK\Tr
             'attribute'   => false,
             'elementName' => 'AutomatedSecondChanceOfferRule',
         ],
-        'Fees'                           => [
+        'Fees' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -22,13 +22,13 @@ class GetUserContactDetailsResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'UserID'           => [
+        'UserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserID',
         ],
-        'ContactAddress'   => [
+        'ContactAddress' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable'  => false,
             'attribute'   => false,

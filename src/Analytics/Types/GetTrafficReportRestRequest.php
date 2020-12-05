@@ -28,13 +28,13 @@ class GetTrafficReportRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'dimension',
         ],
-        'filter'    => [
+        'filter' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'filter',
         ],
-        'metric'    => [
+        'metric' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

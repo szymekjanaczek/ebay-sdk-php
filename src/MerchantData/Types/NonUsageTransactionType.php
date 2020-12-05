@@ -26,19 +26,19 @@ class NonUsageTransactionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TransactionTime'    => [
+        'TransactionTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionTime',
         ],
-        'Description'        => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'Memo'               => [
+        'Memo' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -50,19 +50,19 @@ class NonUsageTransactionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'OriginalChargeTime',
         ],
-        'StartTime'          => [
+        'StartTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime'            => [
+        'EndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'FeeAmount'          => [
+        'FeeAmount' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

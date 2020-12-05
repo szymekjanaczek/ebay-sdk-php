@@ -27,43 +27,43 @@ class PaymentTransactionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaymentStatus'      => [
+        'PaymentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentStatus',
         ],
-        'Payer'              => [
+        'Payer' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\UserIdentityType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Payer',
         ],
-        'Payee'              => [
+        'Payee' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\UserIdentityType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Payee',
         ],
-        'PaymentTime'        => [
+        'PaymentTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentTime',
         ],
-        'PaymentAmount'      => [
+        'PaymentAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentAmount',
         ],
-        'ReferenceID'        => [
+        'ReferenceID' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\TransactionReferenceType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReferenceID',
         ],
-        'FeeOrCreditAmount'  => [
+        'FeeOrCreditAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

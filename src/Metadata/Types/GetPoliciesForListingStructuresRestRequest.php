@@ -21,7 +21,7 @@ class GetPoliciesForListingStructuresRestRequest extends \DTS\eBaySDK\Types\Base
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'filter'         => [
+        'filter' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

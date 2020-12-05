@@ -27,7 +27,7 @@ class AddProductResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
             'attribute'   => false,
             'elementName' => 'invocationId',
         ],
-        'status'       => [
+        'status' => [
             'type'        => 'DTS\eBaySDK\Product\Types\ProductSubmissionStatus',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class ListingDurationDefinitionsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ListingDuration',
         ],
-        'Version'         => [
+        'Version' => [
             'type'          => 'integer',
             'repeatable'    => false,
             'attribute'     => true,

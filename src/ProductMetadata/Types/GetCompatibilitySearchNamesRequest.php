@@ -27,7 +27,7 @@ class GetCompatibilitySearchNamesRequest extends \DTS\eBaySDK\ProductMetadata\Ty
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'dataset'    => [
+        'dataset' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

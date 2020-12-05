@@ -29,55 +29,55 @@ class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'GalleryURL'             => [
+        'GalleryURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GalleryURL',
         ],
-        'GalleryType'            => [
+        'GalleryType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GalleryType',
         ],
-        'PhotoDisplay'           => [
+        'PhotoDisplay' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PhotoDisplay',
         ],
-        'PictureURL'             => [
+        'PictureURL' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'PictureURL',
         ],
-        'PictureSource'          => [
+        'PictureSource' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PictureSource',
         ],
-        'GalleryDuration'        => [
+        'GalleryDuration' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GalleryDuration',
         ],
-        'GalleryStatus'          => [
+        'GalleryStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GalleryStatus',
         ],
-        'GalleryErrorInfo'       => [
+        'GalleryErrorInfo' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GalleryErrorInfo',
         ],
-        'ExternalPictureURL'     => [
+        'ExternalPictureURL' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

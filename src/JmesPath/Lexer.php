@@ -28,46 +28,46 @@ namespace DTS\eBaySDK\JmesPath;
  */
 class Lexer
 {
-    public const T_DOT = 'dot';
-    public const T_STAR = 'star';
-    public const T_COMMA = 'comma';
-    public const T_COLON = 'colon';
-    public const T_CURRENT = 'current';
-    public const T_EXPREF = 'expref';
-    public const T_LPAREN = 'lparen';
-    public const T_RPAREN = 'rparen';
-    public const T_LBRACE = 'lbrace';
-    public const T_RBRACE = 'rbrace';
-    public const T_LBRACKET = 'lbracket';
-    public const T_RBRACKET = 'rbracket';
-    public const T_FLATTEN = 'flatten';
-    public const T_IDENTIFIER = 'identifier';
-    public const T_NUMBER = 'number';
+    public const T_DOT               = 'dot';
+    public const T_STAR              = 'star';
+    public const T_COMMA             = 'comma';
+    public const T_COLON             = 'colon';
+    public const T_CURRENT           = 'current';
+    public const T_EXPREF            = 'expref';
+    public const T_LPAREN            = 'lparen';
+    public const T_RPAREN            = 'rparen';
+    public const T_LBRACE            = 'lbrace';
+    public const T_RBRACE            = 'rbrace';
+    public const T_LBRACKET          = 'lbracket';
+    public const T_RBRACKET          = 'rbracket';
+    public const T_FLATTEN           = 'flatten';
+    public const T_IDENTIFIER        = 'identifier';
+    public const T_NUMBER            = 'number';
     public const T_QUOTED_IDENTIFIER = 'quoted_identifier';
-    public const T_UNKNOWN = 'unknown';
-    public const T_PIPE = 'pipe';
-    public const T_OR = 'or';
-    public const T_AND = 'and';
-    public const T_NOT = 'not';
-    public const T_FILTER = 'filter';
-    public const T_LITERAL = 'literal';
-    public const T_EOF = 'eof';
-    public const T_COMPARATOR = 'comparator';
+    public const T_UNKNOWN           = 'unknown';
+    public const T_PIPE              = 'pipe';
+    public const T_OR                = 'or';
+    public const T_AND               = 'and';
+    public const T_NOT               = 'not';
+    public const T_FILTER            = 'filter';
+    public const T_LITERAL           = 'literal';
+    public const T_EOF               = 'eof';
+    public const T_COMPARATOR        = 'comparator';
 
-    public const STATE_IDENTIFIER = 0;
-    public const STATE_NUMBER = 1;
-    public const STATE_SINGLE_CHAR = 2;
-    public const STATE_WHITESPACE = 3;
+    public const STATE_IDENTIFIER     = 0;
+    public const STATE_NUMBER         = 1;
+    public const STATE_SINGLE_CHAR    = 2;
+    public const STATE_WHITESPACE     = 3;
     public const STATE_STRING_LITERAL = 4;
-    public const STATE_QUOTED_STRING = 5;
-    public const STATE_JSON_LITERAL = 6;
-    public const STATE_LBRACKET = 7;
-    public const STATE_PIPE = 8;
-    public const STATE_LT = 9;
-    public const STATE_GT = 10;
-    public const STATE_EQ = 11;
-    public const STATE_NOT = 12;
-    public const STATE_AND = 13;
+    public const STATE_QUOTED_STRING  = 5;
+    public const STATE_JSON_LITERAL   = 6;
+    public const STATE_LBRACKET       = 7;
+    public const STATE_PIPE           = 8;
+    public const STATE_LT             = 9;
+    public const STATE_GT             = 10;
+    public const STATE_EQ             = 11;
+    public const STATE_NOT            = 12;
+    public const STATE_AND            = 13;
 
     /** @var array We know what token we are consuming based on each char */
     private static $transitionTable = [
@@ -305,7 +305,7 @@ class Lexer
                 $start  = key($chars);
                 $buffer = '';
                 do {
-                    $buffer  .= $current;
+                    $buffer .= $current;
                     $current = next($chars);
                 } while ($current !== false && isset($this->validIdentifier[$current]));
                 $tokens[] = [
@@ -368,7 +368,7 @@ class Lexer
                 $start  = key($chars);
                 $buffer = '';
                 do {
-                    $buffer  .= $current;
+                    $buffer .= $current;
                     $current = next($chars);
                 } while ($current !== false && isset($this->numbers[$current]));
                 $tokens[] = [
@@ -463,7 +463,7 @@ class Lexer
 
         while ($current !== $delim) {
             if ($current === '\\') {
-                $buffer  .= '\\';
+                $buffer .= '\\';
                 $current = next($chars);
             }
             if ($current === false) {
@@ -474,7 +474,7 @@ class Lexer
                     'pos'   => $position,
                 ];
             }
-            $buffer  .= $current;
+            $buffer .= $current;
             $current = next($chars);
         }
 

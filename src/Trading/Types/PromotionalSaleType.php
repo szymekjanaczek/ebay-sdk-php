@@ -28,13 +28,13 @@ class PromotionalSaleType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PromotionalSaleID'          => [
+        'PromotionalSaleID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PromotionalSaleID',
         ],
-        'PromotionalSaleName'        => [
+        'PromotionalSaleName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -46,37 +46,37 @@ class PromotionalSaleType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'PromotionalSaleItemIDArray',
         ],
-        'Status'                     => [
+        'Status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'DiscountType'               => [
+        'DiscountType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DiscountType',
         ],
-        'DiscountValue'              => [
+        'DiscountValue' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DiscountValue',
         ],
-        'PromotionalSaleStartTime'   => [
+        'PromotionalSaleStartTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PromotionalSaleStartTime',
         ],
-        'PromotionalSaleEndTime'     => [
+        'PromotionalSaleEndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PromotionalSaleEndTime',
         ],
-        'PromotionalSaleType'        => [
+        'PromotionalSaleType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

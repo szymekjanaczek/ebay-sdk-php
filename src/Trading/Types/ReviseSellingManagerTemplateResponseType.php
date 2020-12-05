@@ -26,37 +26,37 @@ class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SaleTemplateID'               => [
+        'SaleTemplateID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
-        'Fees'                         => [
+        'Fees' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Fees',
         ],
-        'CategoryID'                   => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'Category2ID'                  => [
+        'Category2ID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Category2ID',
         ],
-        'VerifyOnly'                   => [
+        'VerifyOnly' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VerifyOnly',
         ],
-        'SaleTemplateName'             => [
+        'SaleTemplateName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

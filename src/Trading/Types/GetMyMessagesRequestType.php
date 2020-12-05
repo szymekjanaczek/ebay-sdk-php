@@ -26,37 +26,37 @@ class GetMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MessageIDs'                     => [
+        'MessageIDs' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageIDs',
         ],
-        'FolderID'                       => [
+        'FolderID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FolderID',
         ],
-        'StartTime'                      => [
+        'StartTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime'                        => [
+        'EndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'ExternalMessageIDs'             => [
+        'ExternalMessageIDs' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExternalMessageIDs',
         ],
-        'Pagination'                     => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,

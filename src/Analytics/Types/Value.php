@@ -27,7 +27,7 @@ class Value extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'applicable',
         ],
-        'value'      => [
+        'value' => [
             'type'        => 'any',
             'repeatable'  => false,
             'attribute'   => false,

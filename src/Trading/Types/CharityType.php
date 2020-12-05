@@ -27,13 +27,13 @@ class CharityType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CharityName'     => [
+        'CharityName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CharityName',
         ],
-        'CharityNumber'   => [
+        'CharityNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -45,31 +45,31 @@ class CharityType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DonationPercent',
         ],
-        'CharityID'       => [
+        'CharityID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CharityID',
         ],
-        'Mission'         => [
+        'Mission' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Mission',
         ],
-        'LogoURL'         => [
+        'LogoURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LogoURL',
         ],
-        'Status'          => [
+        'Status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'CharityListing'  => [
+        'CharityListing' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

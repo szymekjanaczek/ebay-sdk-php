@@ -22,7 +22,7 @@ class Value extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'text'   => [
+        'text' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\StringValue',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class Value extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'number',
         ],
-        'URL'    => [
+        'URL' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\URIValue',
             'repeatable'  => false,
             'attribute'   => false,

@@ -23,13 +23,13 @@ class InventoryStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SKU'        => [
+        'SKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'ItemID'     => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class InventoryStatusType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'StartPrice',
         ],
-        'Quantity'   => [
+        'Quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

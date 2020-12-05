@@ -27,7 +27,7 @@ class GetReturnDetailResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseRe
             'attribute'   => false,
             'elementName' => 'ReturnSummary',
         ],
-        'ReturnDetail'  => [
+        'ReturnDetail' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType',
             'repeatable'  => false,
             'attribute'   => false,

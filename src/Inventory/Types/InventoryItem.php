@@ -26,13 +26,13 @@ class InventoryItem extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'availability'         => [
+        'availability' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Availability',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'availability',
         ],
-        'condition'            => [
+        'condition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -50,19 +50,19 @@ class InventoryItem extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'packageWeightAndSize',
         ],
-        'product'              => [
+        'product' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Product',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'product',
         ],
-        'sku'                  => [
+        'sku' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sku',
         ],
-        'groupIds'             => [
+        'groupIds' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

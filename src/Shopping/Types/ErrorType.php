@@ -25,31 +25,31 @@ class ErrorType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShortMessage'        => [
+        'ShortMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShortMessage',
         ],
-        'LongMessage'         => [
+        'LongMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LongMessage',
         ],
-        'ErrorCode'           => [
+        'ErrorCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ErrorCode',
         ],
-        'SeverityCode'        => [
+        'SeverityCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SeverityCode',
         ],
-        'ErrorParameters'     => [
+        'ErrorParameters' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\ErrorParameterType',
             'repeatable'  => true,
             'attribute'   => false,

@@ -28,7 +28,7 @@ class ValidateChallengeInputRequestType extends \DTS\eBaySDK\Trading\Types\Abstr
             'attribute'   => false,
             'elementName' => 'ChallengeToken',
         ],
-        'UserInput'      => [
+        'UserInput' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

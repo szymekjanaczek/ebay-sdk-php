@@ -27,7 +27,7 @@ class ItemRatingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'RatingDetail',
         ],
-        'Rating'       => [
+        'Rating' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

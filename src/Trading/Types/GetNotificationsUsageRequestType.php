@@ -28,13 +28,13 @@ class GetNotificationsUsageRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime'   => [
+        'EndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'ItemID'    => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

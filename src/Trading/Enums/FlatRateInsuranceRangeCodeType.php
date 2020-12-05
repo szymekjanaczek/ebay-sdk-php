@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class FlatRateInsuranceRangeCodeType
 {
-    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_CUSTOM_CODE                = 'CustomCode';
     public const C_FLAT_RATE_INSURANCE_RANGE1 = 'FlatRateInsuranceRange1';
     public const C_FLAT_RATE_INSURANCE_RANGE2 = 'FlatRateInsuranceRange2';
     public const C_FLAT_RATE_INSURANCE_RANGE3 = 'FlatRateInsuranceRange3';

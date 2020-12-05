@@ -22,7 +22,7 @@ class StoreColorType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Primary'   => [
+        'Primary' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class StoreColorType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Secondary',
         ],
-        'Accent'    => [
+        'Accent' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

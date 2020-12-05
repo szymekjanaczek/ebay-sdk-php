@@ -22,7 +22,7 @@ class CancelStatus extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'cancelledDate'  => [
+        'cancelledDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class CancelStatus extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'cancelRequests',
         ],
-        'cancelState'    => [
+        'cancelState' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

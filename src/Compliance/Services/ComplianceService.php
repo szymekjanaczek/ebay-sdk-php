@@ -28,18 +28,18 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
                 ],
             ],
         ],
-        'GetListingViolations'        => [
+        'GetListingViolations' => [
             'method'        => 'GET',
             'resource'      => 'listing_violation',
             'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse',
             'params'        => [
-                'limit'           => [
+                'limit' => [
                     'valid' => ['integer'],
                 ],
-                'listing_id'      => [
+                'listing_id' => [
                     'valid' => ['string'],
                 ],
-                'offset'          => [
+                'offset' => [
                     'valid' => ['integer'],
                 ],
                 'compliance_type' => [

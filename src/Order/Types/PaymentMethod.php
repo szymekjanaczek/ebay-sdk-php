@@ -24,19 +24,19 @@ class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'label'                 => [
+        'label' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'label',
         ],
-        'logoImage'             => [
+        'logoImage' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Image',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'logoImage',
         ],
-        'paymentMethodBrands'   => [
+        'paymentMethodBrands' => [
             'type'        => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable'  => true,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'paymentMethodMessages',
         ],
-        'paymentMethodType'     => [
+        'paymentMethodType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

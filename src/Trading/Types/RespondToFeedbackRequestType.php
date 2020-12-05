@@ -26,37 +26,37 @@ class RespondToFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FeedbackID'      => [
+        'FeedbackID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackID',
         ],
-        'ItemID'          => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'TransactionID'   => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'TargetUserID'    => [
+        'TargetUserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TargetUserID',
         ],
-        'ResponseType'    => [
+        'ResponseType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ResponseType',
         ],
-        'ResponseText'    => [
+        'ResponseText' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

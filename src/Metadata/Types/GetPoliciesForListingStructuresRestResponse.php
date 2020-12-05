@@ -27,7 +27,7 @@ class GetPoliciesForListingStructuresRestResponse extends \DTS\eBaySDK\Metadata\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

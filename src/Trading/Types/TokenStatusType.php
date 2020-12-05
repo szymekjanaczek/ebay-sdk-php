@@ -23,13 +23,13 @@ class TokenStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Status'         => [
+        'Status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Status',
         ],
-        'EIASToken'      => [
+        'EIASToken' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

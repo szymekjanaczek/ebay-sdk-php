@@ -24,25 +24,25 @@ class EstimatedRefundType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'estimatedAmount'         => [
+        'estimatedAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'estimatedAmount',
         ],
-        'maxAmount'               => [
+        'maxAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxAmount',
         ],
-        'minAmount'               => [
+        'minAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minAmount',
         ],
-        'refundFeeType'           => [
+        'refundFeeType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

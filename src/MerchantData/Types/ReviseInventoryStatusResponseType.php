@@ -27,7 +27,7 @@ class ReviseInventoryStatusResponseType extends \DTS\eBaySDK\MerchantData\Types\
             'attribute'   => false,
             'elementName' => 'InventoryStatus',
         ],
-        'Fees'            => [
+        'Fees' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\InventoryFeesType',
             'repeatable'  => true,
             'attribute'   => false,

@@ -21,7 +21,7 @@ class UploadSiteHostedPicturesResponseType extends \DTS\eBaySDK\MerchantData\Typ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PictureSystemVersion'     => [
+        'PictureSystemVersion' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

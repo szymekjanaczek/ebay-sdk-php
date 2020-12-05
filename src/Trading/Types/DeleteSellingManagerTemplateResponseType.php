@@ -21,7 +21,7 @@ class DeleteSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DeletedSaleTemplateID'   => [
+        'DeletedSaleTemplateID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

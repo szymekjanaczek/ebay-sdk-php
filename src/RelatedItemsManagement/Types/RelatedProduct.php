@@ -24,25 +24,25 @@ class RelatedProduct extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SKU'                    => [
+        'SKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'discount'               => [
+        'discount' => [
             'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\Discount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'discount',
         ],
-        'rank'                   => [
+        'rank' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'rank',
         ],
-        'title'                  => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

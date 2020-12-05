@@ -28,37 +28,37 @@ class DeliveryEstimate extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'maxDelivery'       => [
+        'maxDelivery' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxDelivery',
         ],
-        'minDelivery'       => [
+        'minDelivery' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minDelivery',
         ],
-        'maxDeliveryDate'   => [
+        'maxDeliveryDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxDeliveryDate',
         ],
-        'minDeliveryDate'   => [
+        'minDeliveryDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minDeliveryDate',
         ],
-        'minConfidence'     => [
+        'minConfidence' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minConfidence',
         ],
-        'maxConfidence'     => [
+        'maxConfidence' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

@@ -30,13 +30,13 @@ class Product extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspects'     => [
+        'aspects' => [
             'type'        => 'any',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'brand'       => [
+        'brand' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,49 +48,49 @@ class Product extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'ean'         => [
+        'ean' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ean',
         ],
-        'imageUrls'   => [
+        'imageUrls' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'imageUrls',
         ],
-        'isbn'        => [
+        'isbn' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'isbn',
         ],
-        'mpn'         => [
+        'mpn' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'mpn',
         ],
-        'subtitle'    => [
+        'subtitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'subtitle',
         ],
-        'title'       => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'title',
         ],
-        'upc'         => [
+        'upc' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'upc',
         ],
-        'epid'        => [
+        'epid' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

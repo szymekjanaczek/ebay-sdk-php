@@ -30,37 +30,37 @@ class ShippingPolicyInfoService extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'shipToLocation'                => [
+        'shipToLocation' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'shipToLocation',
         ],
-        'shippingService'               => [
+        'shippingService' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingService',
         ],
-        'sortOrderId'                   => [
+        'sortOrderId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sortOrderId',
         ],
-        'freeShipping'                  => [
+        'freeShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'freeShipping',
         ],
-        'codFee'                        => [
+        'codFee' => [
             'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'codFee',
         ],
-        'fastShipping'                  => [
+        'fastShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -72,25 +72,25 @@ class ShippingPolicyInfoService extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'shippingServiceAdditionalCost',
         ],
-        'shippingServiceCost'           => [
+        'shippingServiceCost' => [
             'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingServiceCost',
         ],
-        'shippingSurcharge'             => [
+        'shippingSurcharge' => [
             'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingSurcharge',
         ],
-        'buyerResponsibleForShipping'   => [
+        'buyerResponsibleForShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerResponsibleForShipping',
         ],
-        'buyerResponsibleForPickup'     => [
+        'buyerResponsibleForPickup' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

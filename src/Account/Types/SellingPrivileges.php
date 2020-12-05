@@ -27,7 +27,7 @@ class SellingPrivileges extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'sellerRegistrationCompleted',
         ],
-        'sellingLimit'                => [
+        'sellingLimit' => [
             'type'        => 'DTS\eBaySDK\Account\Types\SellingLimit',
             'repeatable'  => false,
             'attribute'   => false,

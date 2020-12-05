@@ -23,13 +23,13 @@ class VariationsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Variation'             => [
+        'Variation' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\VariationType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Variation',
         ],
-        'Pictures'              => [
+        'Pictures' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PicturesType',
             'repeatable'  => true,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class VariationsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'VariationSpecificsSet',
         ],
-        'ModifyNameList'        => [
+        'ModifyNameList' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ModifyNameArrayType',
             'repeatable'  => false,
             'attribute'   => false,

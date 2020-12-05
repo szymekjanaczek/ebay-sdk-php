@@ -27,19 +27,19 @@ class SearchRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'offset'        => [
+        'offset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'limit'         => [
+        'limit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'fieldgroups'   => [
+        'fieldgroups' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -51,25 +51,25 @@ class SearchRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'aspect_filter',
         ],
-        'category_ids'  => [
+        'category_ids' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'category_ids',
         ],
-        'mpn'           => [
+        'mpn' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'mpn',
         ],
-        'gtin'          => [
+        'gtin' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'gtin',
         ],
-        'q'             => [
+        'q' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

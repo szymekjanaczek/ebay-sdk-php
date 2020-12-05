@@ -27,7 +27,7 @@ class ListingStructurePolicyResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'listingStructurePolicies',
         ],
-        'warnings'                 => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

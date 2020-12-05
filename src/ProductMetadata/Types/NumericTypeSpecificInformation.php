@@ -21,7 +21,7 @@ class NumericTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'unitOfMeasurement'   => [
+        'unitOfMeasurement' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

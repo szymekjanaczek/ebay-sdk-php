@@ -28,49 +28,49 @@ class AddItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'                 => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'StartTime'              => [
+        'StartTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime'                => [
+        'EndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'Fees'                   => [
+        'Fees' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Fees',
         ],
-        'CategoryID'             => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'Category2ID'            => [
+        'Category2ID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Category2ID',
         ],
-        'DiscountReason'         => [
+        'DiscountReason' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'DiscountReason',
         ],
-        'ProductSuggestions'     => [
+        'ProductSuggestions' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ProductSuggestionsType',
             'repeatable'  => false,
             'attribute'   => false,

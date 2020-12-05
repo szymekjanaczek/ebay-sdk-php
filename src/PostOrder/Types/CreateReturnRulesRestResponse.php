@@ -28,13 +28,13 @@ class CreateReturnRulesRestResponse extends \DTS\eBaySDK\PostOrder\Types\CreateD
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'error'    => [
+        'error' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Error',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'error',
         ],
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

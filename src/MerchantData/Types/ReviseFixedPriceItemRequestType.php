@@ -21,7 +21,7 @@ class ReviseFixedPriceItemRequestType extends \DTS\eBaySDK\MerchantData\Types\Ab
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Item'         => [
+        'Item' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,

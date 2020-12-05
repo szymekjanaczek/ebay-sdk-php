@@ -23,7 +23,7 @@ class ProvideTrackingInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\T
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId'         => [
+        'caseId' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class ProvideTrackingInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\T
             'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
-        'carrierUsed'    => [
+        'carrierUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'comments'       => [
+        'comments' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

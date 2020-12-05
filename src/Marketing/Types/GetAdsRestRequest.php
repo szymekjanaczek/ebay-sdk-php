@@ -29,7 +29,7 @@ class GetAdsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'campaign_id',
         ],
-        'limit'       => [
+        'limit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class GetAdsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'listing_ids',
         ],
-        'offset'      => [
+        'offset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

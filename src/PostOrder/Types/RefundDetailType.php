@@ -27,7 +27,7 @@ class RefundDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'itemizedRefundDetail',
         ],
-        'totalAmount'          => [
+        'totalAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

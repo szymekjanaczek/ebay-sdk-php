@@ -65,18 +65,18 @@ class ShoppingBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'affiliateUserId'     => [
-                    'valid' => ['string'],
+            'affiliateUserId' => [
+                'valid' => ['string'],
+            ],
+            'apiVersion' => [
+                'valid'    => ['string'],
+                'default'  => \DTS\eBaySDK\Shopping\Services\ShoppingService::API_VERSION,
+                'required' => true,
+            ],
+            'siteId' => [
+                'valid' => ['int', 'string'],
                 ],
-                'apiVersion'          => [
-                    'valid'    => ['string'],
-                    'default'  => \DTS\eBaySDK\Shopping\Services\ShoppingService::API_VERSION,
-                    'required' => true,
-                ],
-                'siteId'              => [
-                    'valid' => ['int', 'string'],
-                ],
-                'trackingId'          => [
+                'trackingId' => [
                     'valid' => ['string'],
                 ],
                 'trackingPartnerCode' => [

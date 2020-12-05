@@ -27,7 +27,7 @@ class GetAnOrderRestResponse extends \DTS\eBaySDK\Fulfillment\Types\Order
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

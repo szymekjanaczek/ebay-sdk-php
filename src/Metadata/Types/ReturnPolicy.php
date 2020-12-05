@@ -22,7 +22,7 @@ class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId'     => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
-        'required'       => [
+        'required' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

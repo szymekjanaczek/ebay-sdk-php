@@ -22,7 +22,7 @@ class ReviewRating extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'averageRating'    => [
+        'averageRating' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ReviewRating extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ratingHistograms',
         ],
-        'reviewCount'      => [
+        'reviewCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

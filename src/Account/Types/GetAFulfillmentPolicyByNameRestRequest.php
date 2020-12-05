@@ -27,7 +27,7 @@ class GetAFulfillmentPolicyByNameRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'marketplace_id',
         ],
-        'name'           => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

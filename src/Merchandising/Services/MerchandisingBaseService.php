@@ -45,13 +45,13 @@ class MerchandisingBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion' => [
-                    'valid'   => ['string'],
-                    'default' => \DTS\eBaySDK\Merchandising\Services\MerchandisingService::API_VERSION,
-                ],
-                'globalId'   => [
-                    'valid' => ['string'],
-                ],
+            'apiVersion' => [
+                'valid'   => ['string'],
+                'default' => \DTS\eBaySDK\Merchandising\Services\MerchandisingService::API_VERSION,
+            ],
+            'globalId' => [
+                'valid' => ['string'],
+            ],
             ];
     }
 

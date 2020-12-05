@@ -24,19 +24,19 @@ class CheckEligibilityRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'checkTypes'     => [
+        'checkTypes' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'checkTypes',
         ],
-        'itemId'         => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'reason'         => [
+        'reason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class CheckEligibilityRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'returnQuantity',
         ],
-        'transactionId'  => [
+        'transactionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

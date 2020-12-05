@@ -22,13 +22,13 @@ class StoreThemeType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ThemeID'     => [
+        'ThemeID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ThemeID',
         ],
-        'Name'        => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

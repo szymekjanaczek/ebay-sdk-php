@@ -27,7 +27,7 @@ class FeedbackPeriodType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'PeriodInDays',
         ],
-        'Count'        => [
+        'Count' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

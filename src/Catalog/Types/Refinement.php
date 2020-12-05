@@ -27,7 +27,7 @@ class Refinement extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'aspectDistributions',
         ],
-        'dominantCategoryId'  => [
+        'dominantCategoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

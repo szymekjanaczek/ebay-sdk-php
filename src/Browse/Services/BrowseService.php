@@ -18,7 +18,7 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'GetItem'             => [
+        'GetItem' => [
             'method'        => 'GET',
             'resource'      => 'item/{item_id}',
             'responseClass' => '\DTS\eBaySDK\Browse\Types\GetItemRestResponse',
@@ -29,16 +29,16 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
                 ],
             ],
         ],
-        'GetItemByLegacyId'   => [
+        'GetItemByLegacyId' => [
             'method'        => 'GET',
             'resource'      => 'item/get_item_by_legacy_id',
             'responseClass' => '\DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestResponse',
             'params'        => [
-                'legacy_item_id'       => [
+                'legacy_item_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'legacy_variation_id'  => [
+                'legacy_variation_id' => [
                     'valid' => ['string'],
                 ],
                 'legacy_variation_sku' => [
@@ -57,7 +57,7 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
                 ],
             ],
         ],
-        'SearchForItems'      => [
+        'SearchForItems' => [
             'method'        => 'GET',
             'resource'      => 'item_summary/search',
             'responseClass' => '\DTS\eBaySDK\Browse\Types\SearchForItemsRestResponse',
@@ -65,31 +65,31 @@ class BrowseService extends \DTS\eBaySDK\Browse\Services\BrowseBaseService
                 'aspect_filter' => [
                     'valid' => ['string'],
                 ],
-                'category_ids'  => [
+                'category_ids' => [
                     'valid' => ['string'],
                 ],
-                'epid'          => [
+                'epid' => [
                     'valid' => ['string'],
                 ],
-                'fieldgroups'   => [
+                'fieldgroups' => [
                     'valid' => ['string'],
                 ],
-                'filter'        => [
+                'filter' => [
                     'valid' => ['string'],
                 ],
-                'gtin'          => [
+                'gtin' => [
                     'valid' => ['string'],
                 ],
-                'limit'         => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'        => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'q'             => [
+                'q' => [
                     'valid' => ['string'],
                 ],
-                'sort'          => [
+                'sort' => [
                     'valid' => ['string'],
                 ],
             ],

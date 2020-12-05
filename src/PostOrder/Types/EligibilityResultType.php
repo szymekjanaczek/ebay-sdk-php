@@ -26,7 +26,7 @@ class EligibilityResultType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId'                 => [
+        'caseId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -38,31 +38,31 @@ class EligibilityResultType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'eligibilityErrorDetail',
         ],
-        'eligibilityStatus'      => [
+        'eligibilityStatus' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\StatusType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eligibilityStatus',
         ],
-        'eligibleStartDate'      => [
+        'eligibleStartDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eligibleStartDate',
         ],
-        'returnCreationDate'     => [
+        'returnCreationDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnCreationDate',
         ],
-        'returnDeadline'         => [
+        'returnDeadline' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnDeadline',
         ],
-        'returnId'               => [
+        'returnId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

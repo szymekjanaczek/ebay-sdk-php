@@ -24,25 +24,25 @@ class SupportedSellerProfileType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ProfileID'     => [
+        'ProfileID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProfileID',
         ],
-        'ProfileType'   => [
+        'ProfileType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProfileType',
         ],
-        'ProfileName'   => [
+        'ProfileName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProfileName',
         ],
-        'ShortSummary'  => [
+        'ShortSummary' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -25,25 +25,25 @@ class GetUserTokenRestResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'access_token'             => [
+        'access_token' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'access_token',
         ],
-        'token_type'               => [
+        'token_type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'token_type',
         ],
-        'expires_in'               => [
+        'expires_in' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'expires_in',
         ],
-        'refresh_token'            => [
+        'refresh_token' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -55,19 +55,19 @@ class GetUserTokenRestResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'refresh_token_expires_in',
         ],
-        'error'                    => [
+        'error' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'error',
         ],
-        'error_description'        => [
+        'error_description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'error_description',
         ],
-        'error_uri'                => [
+        'error_uri' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

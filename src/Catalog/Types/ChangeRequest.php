@@ -31,25 +31,25 @@ class ChangeRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'changeRequestId'        => [
+        'changeRequestId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'changeRequestId',
         ],
-        'changeRequestStatus'    => [
+        'changeRequestStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'changeRequestStatus',
         ],
-        'changeRequestType'      => [
+        'changeRequestType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'changeRequestType',
         ],
-        'creationDate'           => [
+        'creationDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -61,13 +61,13 @@ class ChangeRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'expectedCompletionDate',
         ],
-        'processResolution'      => [
+        'processResolution' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\ProcessResolution',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'processResolution',
         ],
-        'processStatusMessage'   => [
+        'processStatusMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -79,25 +79,25 @@ class ChangeRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'reasonForChangeRequest',
         ],
-        'referenceId'            => [
+        'referenceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'referenceId',
         ],
-        'referenceType'          => [
+        'referenceType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'referenceType',
         ],
-        'resolutionDate'         => [
+        'resolutionDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'resolutionDate',
         ],
-        'suggestedProduct'       => [
+        'suggestedProduct' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\SuggestedProduct',
             'repeatable'  => false,
             'attribute'   => false,

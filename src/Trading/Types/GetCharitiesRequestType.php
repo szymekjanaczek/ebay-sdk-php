@@ -27,31 +27,31 @@ class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CharityID'          => [
+        'CharityID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CharityID',
         ],
-        'CharityName'        => [
+        'CharityName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CharityName',
         ],
-        'Query'              => [
+        'Query' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Query',
         ],
-        'CharityRegion'      => [
+        'CharityRegion' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CharityRegion',
         ],
-        'CharityDomain'      => [
+        'CharityDomain' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -63,13 +63,13 @@ class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
             'attribute'   => false,
             'elementName' => 'IncludeDescription',
         ],
-        'MatchType'          => [
+        'MatchType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MatchType',
         ],
-        'Featured'           => [
+        'Featured' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

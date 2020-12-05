@@ -34,7 +34,7 @@ class BestMatchFindingServiceRequest extends \DTS\eBaySDK\Finding\Types\BaseServ
             'attribute'   => false,
             'elementName' => 'buyerPostalCode',
         ],
-        'affiliate'       => [
+        'affiliate' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\Affiliate',
             'repeatable'  => false,
             'attribute'   => false,

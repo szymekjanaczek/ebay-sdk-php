@@ -35,73 +35,73 @@ class CancelSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'buyerResponseDueDate'  => [
+        'buyerResponseDueDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerResponseDueDate',
         ],
-        'cancelCloseDate'       => [
+        'cancelCloseDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelCloseDate',
         ],
-        'cancelCloseReason'     => [
+        'cancelCloseReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelCloseReason',
         ],
-        'cancelId'              => [
+        'cancelId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelId',
         ],
-        'cancelReason'          => [
+        'cancelReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelReason',
         ],
-        'cancelRequestDate'     => [
+        'cancelRequestDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelRequestDate',
         ],
-        'legacyOrderId'         => [
+        'legacyOrderId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'legacyOrderId',
         ],
-        'lineItems'             => [
+        'lineItems' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'lineItems',
         ],
-        'marketplaceId'         => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'paymentStatus'         => [
+        'paymentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paymentStatus',
         ],
-        'requestorType'         => [
+        'requestorType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'requestorType',
         ],
-        'requestRefundAmount'   => [
+        'requestRefundAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -113,19 +113,19 @@ class CancelSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'sellerResponseDueDate',
         ],
-        'shipmentDate'          => [
+        'shipmentDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shipmentDate',
         ],
-        'cancelState'           => [
+        'cancelState' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelState',
         ],
-        'cancelStatus'          => [
+        'cancelStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

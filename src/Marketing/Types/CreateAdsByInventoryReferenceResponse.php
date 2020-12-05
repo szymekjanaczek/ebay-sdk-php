@@ -24,19 +24,19 @@ class CreateAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ads'                    => [
+        'ads' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\AdReference',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ads',
         ],
-        'errors'                 => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'errors',
         ],
-        'inventoryReferenceId'   => [
+        'inventoryReferenceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class CreateAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'inventoryReferenceType',
         ],
-        'statusCode'             => [
+        'statusCode' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

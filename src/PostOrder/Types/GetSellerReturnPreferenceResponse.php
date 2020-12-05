@@ -29,19 +29,19 @@ class GetSellerReturnPreferenceResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'advanceRulesEnabled',
         ],
-        'basicRules'          => [
+        'basicRules' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleDetailType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'basicRules',
         ],
-        'RMARequired'         => [
+        'RMARequired' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RMARequired',
         ],
-        'versionId'           => [
+        'versionId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

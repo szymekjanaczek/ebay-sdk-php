@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Account\Enums;
 
 class ReturnMethodEnum
 {
-    public const C_EXCHANGE = 'EXCHANGE';
+    public const C_EXCHANGE    = 'EXCHANGE';
     public const C_REPLACEMENT = 'REPLACEMENT';
 }

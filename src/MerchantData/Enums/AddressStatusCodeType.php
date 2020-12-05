@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class AddressStatusCodeType
 {
-    public const C_CONFIRMED = 'Confirmed';
+    public const C_CONFIRMED   = 'Confirmed';
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_NONE = 'None';
+    public const C_NONE        = 'None';
     public const C_UNCONFIRMED = 'Unconfirmed';
 }

@@ -36,61 +36,61 @@ class SearchCasesRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'case_creation_date_range_from',
         ],
-        'case_creation_date_range_to'   => [
+        'case_creation_date_range_to' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'case_creation_date_range_to',
         ],
-        'case_status_filter'            => [
+        'case_status_filter' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'case_status_filter',
         ],
-        'fieldgroups'                   => [
+        'fieldgroups' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fieldgroups',
         ],
-        'item_id'                       => [
+        'item_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'item_id',
         ],
-        'limit'                         => [
+        'limit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset'                        => [
+        'offset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'order_id'                      => [
+        'order_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'order_id',
         ],
-        'return_id'                     => [
+        'return_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'return_id',
         ],
-        'sort'                          => [
+        'sort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sort',
         ],
-        'transaction_id'                => [
+        'transaction_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

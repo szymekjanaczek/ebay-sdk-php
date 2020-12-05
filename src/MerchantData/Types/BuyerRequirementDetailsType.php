@@ -27,37 +27,37 @@ class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShipToRegistrationCountry'    => [
+        'ShipToRegistrationCountry' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipToRegistrationCountry',
         ],
-        'ZeroFeedbackScore'            => [
+        'ZeroFeedbackScore' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ZeroFeedbackScore',
         ],
-        'MinimumFeedbackScore'         => [
+        'MinimumFeedbackScore' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MinimumFeedbackScore',
         ],
-        'MaximumItemRequirements'      => [
+        'MaximumItemRequirements' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MaximumItemRequirementsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaximumItemRequirements',
         ],
-        'LinkedPayPalAccount'          => [
+        'LinkedPayPalAccount' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LinkedPayPalAccount',
         ],
-        'VerifiedUserRequirements'     => [
+        'VerifiedUserRequirements' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\VerifiedUserRequirementsType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class RefundStatusCodeType
 {
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_FAILED = 'Failed';
-    public const C_PENDING = 'Pending';
-    public const C_SUCCESSFUL = 'Successful';
+    public const C_FAILED      = 'Failed';
+    public const C_PENDING     = 'Pending';
+    public const C_SUCCESSFUL  = 'Successful';
 }

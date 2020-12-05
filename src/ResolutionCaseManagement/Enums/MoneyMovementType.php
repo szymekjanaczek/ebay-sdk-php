@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class MoneyMovementType
 {
-    public const C_OTHER = 'OTHER';
-    public const C_PAYOUT = 'PAYOUT';
-    public const C_REFUND = 'REFUND';
+    public const C_OTHER         = 'OTHER';
+    public const C_PAYOUT        = 'PAYOUT';
+    public const C_REFUND        = 'REFUND';
     public const C_REIMBURSEMENT = 'REIMBURSEMENT';
-    public const C_REVERSAL = 'REVERSAL';
+    public const C_REVERSAL      = 'REVERSAL';
 }

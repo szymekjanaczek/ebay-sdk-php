@@ -122,7 +122,7 @@ class TreeInterpreter
 
             case 'flatten':
                 static $skipElement = [];
-                $value = $this->dispatch($node['children'][0], $value);
+                $value              = $this->dispatch($node['children'][0], $value);
 
                 if (!Utils::isArray($value)) {
                     return null;

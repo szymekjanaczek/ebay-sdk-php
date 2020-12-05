@@ -26,25 +26,25 @@ class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Type'                      => [
+        'Type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Type',
         ],
-        'RelistCondition'           => [
+        'RelistCondition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RelistCondition',
         ],
-        'RelistAfterDays'           => [
+        'RelistAfterDays' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RelistAfterDays',
         ],
-        'RelistAfterHours'          => [
+        'RelistAfterHours' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,7 +56,7 @@ class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'RelistAtSpecificTimeOfDay',
         ],
-        'BestOfferDetails'          => [
+        'BestOfferDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\BestOfferDetailsType',
             'repeatable'  => false,
             'attribute'   => false,

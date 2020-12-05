@@ -21,7 +21,7 @@ class GetItemsAwaitingFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\Abs
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Sort'       => [
+        'Sort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

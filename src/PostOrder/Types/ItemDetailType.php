@@ -22,7 +22,7 @@ class ItemDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId'         => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ItemDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'returnQuantity',
         ],
-        'transactionId'  => [
+        'transactionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

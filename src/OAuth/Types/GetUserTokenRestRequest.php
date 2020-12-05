@@ -14,7 +14,7 @@ class GetUserTokenRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'grant_type'   => [
+        'grant_type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -26,7 +26,7 @@ class GetUserTokenRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'redirect_uri',
         ],
-        'code'         => [
+        'code' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

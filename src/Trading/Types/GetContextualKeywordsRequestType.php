@@ -22,13 +22,13 @@ class GetContextualKeywordsRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'URL'        => [
+        'URL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'URL',
         ],
-        'Encoding'   => [
+        'Encoding' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

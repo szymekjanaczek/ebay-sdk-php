@@ -32,49 +32,49 @@ class Error extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errorId'        => [
+        'errorId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'errorId',
         ],
-        'domain'         => [
+        'domain' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'domain',
         ],
-        'subdomain'      => [
+        'subdomain' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'subdomain',
         ],
-        'severity'       => [
+        'severity' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'severity',
         ],
-        'category'       => [
+        'category' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'category',
         ],
-        'message'        => [
+        'message' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'message',
         ],
-        'parameter'      => [
+        'parameter' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ErrorParameter',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'parameter',
         ],
-        'longMessage'    => [
+        'longMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -86,25 +86,25 @@ class Error extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'httpStatusCode',
         ],
-        'errorName'      => [
+        'errorName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'errorName',
         ],
-        'resolution'     => [
+        'resolution' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'resolution',
         ],
-        'organization'   => [
+        'organization' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'organization',
         ],
-        'errorGroups'    => [
+        'errorGroups' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -25,19 +25,19 @@ class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DisputeID'           => [
+        'DisputeID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DisputeID',
         ],
-        'MessageText'         => [
+        'MessageText' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageText',
         ],
-        'DisputeActivity'     => [
+        'DisputeActivity' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -55,7 +55,7 @@ class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'attribute'   => false,
             'elementName' => 'ShipmentTrackNumber',
         ],
-        'ShippingTime'        => [
+        'ShippingTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

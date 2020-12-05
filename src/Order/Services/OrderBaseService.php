@@ -48,21 +48,21 @@ class OrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion'        => [
-                    'valid'    => ['string'],
-                    'default'  => \DTS\eBaySDK\Order\Services\OrderService::API_VERSION,
-                    'required' => true,
-                ],
-                'authorization'     => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
-                'marketplaceId'     => [
-                    'valid' => ['string'],
-                ],
-                'riskCorrelationId' => [
-                    'valid' => ['string'],
-                ],
+            'apiVersion' => [
+                'valid'    => ['string'],
+                'default'  => \DTS\eBaySDK\Order\Services\OrderService::API_VERSION,
+                'required' => true,
+            ],
+            'authorization' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
+            'marketplaceId' => [
+                'valid' => ['string'],
+            ],
+            'riskCorrelationId' => [
+                'valid' => ['string'],
+            ],
             ];
     }
 

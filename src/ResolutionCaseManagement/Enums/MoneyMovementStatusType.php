@@ -14,5 +14,5 @@ class MoneyMovementStatusType
 {
     public const C_CANCELLED = 'CANCELLED';
     public const C_COMPLETED = 'COMPLETED';
-    public const C_SUCCESS = 'SUCCESS';
+    public const C_SUCCESS   = 'SUCCESS';
 }

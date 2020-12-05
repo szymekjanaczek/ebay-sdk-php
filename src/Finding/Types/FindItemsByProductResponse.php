@@ -21,7 +21,7 @@ class FindItemsByProductResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingS
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectHistogramContainer'    => [
+        'aspectHistogramContainer' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class Interval extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'close',
         ],
-        'open'  => [
+        'open' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

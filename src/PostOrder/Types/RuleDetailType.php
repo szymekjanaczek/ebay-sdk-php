@@ -28,13 +28,13 @@ class RuleDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'actionDetail',
         ],
-        'condition'    => [
+        'condition' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'condition',
         ],
-        'ruleSummary'  => [
+        'ruleSummary' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleSummaryType',
             'repeatable'  => false,
             'attribute'   => false,

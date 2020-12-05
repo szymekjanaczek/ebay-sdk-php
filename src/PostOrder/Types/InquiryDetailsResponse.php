@@ -35,61 +35,61 @@ class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'claimAmount'             => [
+        'claimAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'claimAmount',
         ],
-        'extTransactionId'        => [
+        'extTransactionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'extTransactionId',
         ],
-        'initiator'               => [
+        'initiator' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'initiator',
         ],
-        'inquiryDetails'          => [
+        'inquiryDetails' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\InquiryDetails',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'inquiryDetails',
         ],
-        'inquiryHistoryDetails'   => [
+        'inquiryHistoryDetails' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'inquiryHistoryDetails',
         ],
-        'inquiryId'               => [
+        'inquiryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'inquiryId',
         ],
-        'inquiryQuantity'         => [
+        'inquiryQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'inquiryQuantity',
         ],
-        'itemDetails'             => [
+        'itemDetails' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ItemDetails',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemDetails',
         ],
-        'itemId'                  => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'returnDetails'           => [
+        'returnDetails' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnAddress',
             'repeatable'  => false,
             'attribute'   => false,
@@ -101,31 +101,31 @@ class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'sellerMakeItRightByDate',
         ],
-        'shippingCost'            => [
+        'shippingCost' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'state'                   => [
+        'state' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'state',
         ],
-        'status'                  => [
+        'status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'status',
         ],
-        'transactionId'           => [
+        'transactionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'transactionId',
         ],
-        'viewPPTrasanctionUrl'    => [
+        'viewPPTrasanctionUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

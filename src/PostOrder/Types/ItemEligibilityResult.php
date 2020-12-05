@@ -23,7 +23,7 @@ class ItemEligibilityResult extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eligible'      => [
+        'eligible' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,7 +35,7 @@ class ItemEligibilityResult extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'failureReason',
         ],
-        'itemId'        => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

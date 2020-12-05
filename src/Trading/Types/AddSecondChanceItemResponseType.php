@@ -22,7 +22,7 @@ class AddSecondChanceItemResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'    => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class AddSecondChanceItemResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime'   => [
+        'EndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

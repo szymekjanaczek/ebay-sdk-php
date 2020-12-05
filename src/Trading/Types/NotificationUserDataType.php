@@ -22,13 +22,13 @@ class NotificationUserDataType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SMSSubscription'  => [
+        'SMSSubscription' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SMSSubscriptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SMSSubscription',
         ],
-        'SummarySchedule'  => [
+        'SummarySchedule' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SummaryEventScheduleType',
             'repeatable'  => true,
             'attribute'   => false,

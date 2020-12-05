@@ -33,43 +33,43 @@ class Campaign extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'campaignCriterion',
         ],
-        'campaignId'        => [
+        'campaignId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'campaignId',
         ],
-        'campaignName'      => [
+        'campaignName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'campaignName',
         ],
-        'campaignStatus'    => [
+        'campaignStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'campaignStatus',
         ],
-        'endDate'           => [
+        'endDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'endDate',
         ],
-        'fundingStrategy'   => [
+        'fundingStrategy' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\FundingStrategy',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fundingStrategy',
         ],
-        'marketplaceId'     => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'startDate'         => [
+        'startDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

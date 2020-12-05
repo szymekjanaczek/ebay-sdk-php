@@ -25,31 +25,31 @@ class PaymentHold extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'expectedReleaseDate'    => [
+        'expectedReleaseDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'expectedReleaseDate',
         ],
-        'holdAmount'             => [
+        'holdAmount' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'holdAmount',
         ],
-        'holdReason'             => [
+        'holdReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'holdReason',
         ],
-        'holdState'              => [
+        'holdState' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'holdState',
         ],
-        'releaseDate'            => [
+        'releaseDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

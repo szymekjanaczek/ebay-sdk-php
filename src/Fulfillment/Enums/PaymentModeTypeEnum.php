@@ -13,5 +13,5 @@ namespace DTS\eBaySDK\Fulfillment\Enums;
 class PaymentModeTypeEnum
 {
     public const C_OFF_LINE = 'OFF_LINE';
-    public const C_ONLINE = 'ONLINE';
+    public const C_ONLINE   = 'ONLINE';
 }

@@ -27,31 +27,31 @@ class CheckoutSessionResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'acceptedPaymentMethods'    => [
+        'acceptedPaymentMethods' => [
             'type'        => 'DTS\eBaySDK\Order\Types\PaymentMethod',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'acceptedPaymentMethods',
         ],
-        'checkoutSessionId'         => [
+        'checkoutSessionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'checkoutSessionId',
         ],
-        'expirationDate'            => [
+        'expirationDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'expirationDate',
         ],
-        'lineItems'                 => [
+        'lineItems' => [
             'type'        => 'DTS\eBaySDK\Order\Types\LineItem',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'lineItems',
         ],
-        'pricingSummary'            => [
+        'pricingSummary' => [
             'type'        => 'DTS\eBaySDK\Order\Types\PricingSummary',
             'repeatable'  => false,
             'attribute'   => false,
@@ -63,13 +63,13 @@ class CheckoutSessionResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'providedPaymentInstrument',
         ],
-        'shippingAddress'           => [
+        'shippingAddress' => [
             'type'        => 'DTS\eBaySDK\Order\Types\ShippingAddress',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingAddress',
         ],
-        'warnings'                  => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

@@ -25,13 +25,13 @@ class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SaleTemplateID'   => [
+        'SaleTemplateID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
-        'ProductID'        => [
+        'ProductID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types
             'attribute'   => false,
             'elementName' => 'SaleTemplateName',
         ],
-        'Item'             => [
+        'Item' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Item',
         ],
-        'DeletedField'     => [
+        'DeletedField' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'DeletedField',
         ],
-        'VerifyOnly'       => [
+        'VerifyOnly' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

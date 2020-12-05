@@ -28,13 +28,13 @@ class Affiliate extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'trackingId',
         ],
-        'networkId'  => [
+        'networkId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'networkId',
         ],
-        'customId'   => [
+        'customId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

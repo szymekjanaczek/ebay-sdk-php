@@ -24,7 +24,7 @@ class ReportMetadata extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dimensionMetadata'              => [
+        'dimensionMetadata' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\DimensionMetadata',
             'repeatable'  => true,
             'attribute'   => false,
@@ -36,19 +36,19 @@ class ReportMetadata extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'maxNumberOfDimensionsToRequest',
         ],
-        'maxNumberOfMetricsToRequest'    => [
+        'maxNumberOfMetricsToRequest' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxNumberOfMetricsToRequest',
         ],
-        'metricMetadata'                 => [
+        'metricMetadata' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\MetricMetadata',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'metricMetadata',
         ],
-        'reportType'                     => [
+        'reportType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

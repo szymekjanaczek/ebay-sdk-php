@@ -23,13 +23,13 @@ class SellingManagerProductType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SellingManagerProductDetails'         => [
+        'SellingManagerProductDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellingManagerProductDetails',
         ],
-        'SellingManagerTemplateDetailsArray'   => [
+        'SellingManagerTemplateDetailsArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class SellingManagerProductType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SellingManagerProductInventoryStatus',
         ],
-        'SellingManagerProductSpecifics'       => [
+        'SellingManagerProductSpecifics' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
             'repeatable'  => false,
             'attribute'   => false,

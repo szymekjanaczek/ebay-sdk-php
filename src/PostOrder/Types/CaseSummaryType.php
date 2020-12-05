@@ -29,37 +29,37 @@ class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'buyer'            => [
+        'buyer' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyer',
         ],
-        'caseId'           => [
+        'caseId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseId',
         ],
-        'caseStatusEnum'   => [
+        'caseStatusEnum' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseStatusEnum',
         ],
-        'claimAmount'      => [
+        'claimAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'claimAmount',
         ],
-        'creationDate'     => [
+        'creationDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'itemId'           => [
+        'itemId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -71,19 +71,19 @@ class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'lastModifiedDate',
         ],
-        'respondByDate'    => [
+        'respondByDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'respondByDate',
         ],
-        'seller'           => [
+        'seller' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'seller',
         ],
-        'transactionId'    => [
+        'transactionId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

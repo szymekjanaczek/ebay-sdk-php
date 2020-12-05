@@ -21,7 +21,7 @@ class ProductMetadataResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productMetadata'    => [
+        'productMetadata' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadata',
             'repeatable'  => false,
             'attribute'   => false,

@@ -29,19 +29,19 @@ class InventorySizing extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'currentAvailableQuantity',
         ],
-        'currentInventoryValue'    => [
+        'currentInventoryValue' => [
             'type'        => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'currentInventoryValue',
         ],
-        'inventorySnapshots'       => [
+        'inventorySnapshots' => [
             'type'        => 'DTS\eBaySDK\Account\Types\InventorySnapshot',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'inventorySnapshots',
         ],
-        'primarySalesCategory'     => [
+        'primarySalesCategory' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

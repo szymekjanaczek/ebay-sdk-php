@@ -23,19 +23,19 @@ class ThemeGroupType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'GroupID'    => [
+        'GroupID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GroupID',
         ],
-        'GroupName'  => [
+        'GroupName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GroupName',
         ],
-        'ThemeID'    => [
+        'ThemeID' => [
             'type'        => 'integer',
             'repeatable'  => true,
             'attribute'   => false,

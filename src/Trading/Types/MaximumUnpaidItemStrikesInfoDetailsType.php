@@ -21,7 +21,7 @@ class MaximumUnpaidItemStrikesInfoDetailsType extends \DTS\eBaySDK\Types\BaseTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MaximumUnpaidItemStrikesCount'    => [
+        'MaximumUnpaidItemStrikesCount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesCountDetailsType',
             'repeatable'  => false,
             'attribute'   => false,

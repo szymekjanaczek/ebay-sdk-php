@@ -24,25 +24,25 @@ class ProductAspectConstraint extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspectDataType'             => [
+        'aspectDataType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'aspectDataType',
         ],
-        'aspectFormat'               => [
+        'aspectFormat' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'aspectFormat',
         ],
-        'aspectMode'                 => [
+        'aspectMode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'aspectMode',
         ],
-        'aspectRequired'             => [
+        'aspectRequired' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

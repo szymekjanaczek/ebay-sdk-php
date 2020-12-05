@@ -23,7 +23,7 @@ class LineItemFulfillmentInstructions extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'guaranteedDelivery'       => [
+        'guaranteedDelivery' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class LineItemFulfillmentInstructions extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'shipByDate'               => [
+        'shipByDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -26,37 +26,37 @@ class PagedComplianceViolationCollection extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'offset'            => [
+        'offset' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'href'              => [
+        'href' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'href',
         ],
-        'total'             => [
+        'total' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'total',
         ],
-        'next'              => [
+        'next' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'next',
         ],
-        'prev'              => [
+        'prev' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'limit'             => [
+        'limit' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

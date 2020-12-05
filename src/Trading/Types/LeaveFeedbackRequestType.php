@@ -28,31 +28,31 @@ class LeaveFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'                      => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'CommentText'                 => [
+        'CommentText' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CommentText',
         ],
-        'CommentType'                 => [
+        'CommentType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CommentType',
         ],
-        'TransactionID'               => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'TargetUser'                  => [
+        'TargetUser' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -64,19 +64,19 @@ class LeaveFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'attribute'   => false,
             'elementName' => 'SellerItemRatingDetailArray',
         ],
-        'OrderLineItemID'             => [
+        'OrderLineItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
-        'ItemArrivedWithinEDDType'    => [
+        'ItemArrivedWithinEDDType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemArrivedWithinEDDType',
         ],
-        'ItemDeliveredWithinEDD'      => [
+        'ItemDeliveredWithinEDD' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

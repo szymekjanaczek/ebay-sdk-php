@@ -22,13 +22,13 @@ class PropertyNameValue extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'propertyName'           => [
+        'propertyName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'propertyName',
         ],
-        'value'                  => [
+        'value' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\Value',
             'repeatable'  => false,
             'attribute'   => false,

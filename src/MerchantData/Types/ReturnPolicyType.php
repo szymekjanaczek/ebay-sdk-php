@@ -38,85 +38,85 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'RefundOption'             => [
+        'RefundOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundOption',
         ],
-        'Refund'                   => [
+        'Refund' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Refund',
         ],
-        'ReturnsWithinOption'      => [
+        'ReturnsWithinOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnsWithinOption',
         ],
-        'ReturnsWithin'            => [
+        'ReturnsWithin' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnsWithin',
         ],
-        'ReturnsAcceptedOption'    => [
+        'ReturnsAcceptedOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnsAcceptedOption',
         ],
-        'ReturnsAccepted'          => [
+        'ReturnsAccepted' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnsAccepted',
         ],
-        'Description'              => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'WarrantyOfferedOption'    => [
+        'WarrantyOfferedOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WarrantyOfferedOption',
         ],
-        'WarrantyOffered'          => [
+        'WarrantyOffered' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WarrantyOffered',
         ],
-        'WarrantyTypeOption'       => [
+        'WarrantyTypeOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WarrantyTypeOption',
         ],
-        'WarrantyType'             => [
+        'WarrantyType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WarrantyType',
         ],
-        'WarrantyDurationOption'   => [
+        'WarrantyDurationOption' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WarrantyDurationOption',
         ],
-        'WarrantyDuration'         => [
+        'WarrantyDuration' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WarrantyDuration',
         ],
-        'EAN'                      => [
+        'EAN' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -128,13 +128,13 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingCostPaidByOption',
         ],
-        'ShippingCostPaidBy'       => [
+        'ShippingCostPaidBy' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingCostPaidBy',
         ],
-        'RestockingFeeValue'       => [
+        'RestockingFeeValue' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -146,7 +146,7 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'RestockingFeeValueOption',
         ],
-        'ExtendedHolidayReturns'   => [
+        'ExtendedHolidayReturns' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

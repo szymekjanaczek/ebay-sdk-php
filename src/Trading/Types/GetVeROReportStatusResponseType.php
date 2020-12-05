@@ -26,31 +26,31 @@ class GetVeROReportStatusResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaginationResult'       => [
+        'PaginationResult' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'HasMoreItems'           => [
+        'HasMoreItems' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HasMoreItems',
         ],
-        'ItemsPerPage'           => [
+        'ItemsPerPage' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemsPerPage',
         ],
-        'PageNumber'             => [
+        'PageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PageNumber',
         ],
-        'VeROReportPacketID'     => [
+        'VeROReportPacketID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class GetVeROReportStatusResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'attribute'   => false,
             'elementName' => 'VeROReportPacketStatus',
         ],
-        'ReportedItemDetails'    => [
+        'ReportedItemDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -26,13 +26,13 @@ class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Type'      => [
+        'Type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Type',
         ],
-        'Group'     => [
+        'Group' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -44,25 +44,25 @@ class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'FieldName',
         ],
-        'Code'      => [
+        'Code' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Code',
         ],
-        'Value'     => [
+        'Value' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Value',
         ],
-        'Message'   => [
+        'Message' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Message',
         ],
-        'Metadata'  => [
+        'Metadata' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MetadataType',
             'repeatable'  => true,
             'attribute'   => false,

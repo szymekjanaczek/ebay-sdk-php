@@ -28,13 +28,13 @@ class CorrectionProductAttribute extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'attributeName',
         ],
-        'newValue'      => [
+        'newValue' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'newValue',
         ],
-        'value'         => [
+        'value' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

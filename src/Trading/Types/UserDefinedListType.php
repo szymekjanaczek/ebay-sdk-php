@@ -25,13 +25,13 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Name'                => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'ItemCount'           => [
+        'ItemCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'FavoriteSellerCount',
         ],
-        'ItemArray'           => [
+        'ItemArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemArray',
         ],
-        'FavoriteSearches'    => [
+        'FavoriteSearches' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FavoriteSearches',
         ],
-        'FavoriteSellers'     => [
+        'FavoriteSellers' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
             'repeatable'  => false,
             'attribute'   => false,

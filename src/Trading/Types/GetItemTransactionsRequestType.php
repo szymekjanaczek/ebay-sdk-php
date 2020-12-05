@@ -30,37 +30,37 @@ class GetItemTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'                 => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'ModTimeFrom'            => [
+        'ModTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo'              => [
+        'ModTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'TransactionID'          => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'Pagination'             => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'IncludeFinalValueFee'   => [
+        'IncludeFinalValueFee' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -72,25 +72,25 @@ class GetItemTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'attribute'   => false,
             'elementName' => 'IncludeContainingOrder',
         ],
-        'Platform'               => [
+        'Platform' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Platform',
         ],
-        'NumberOfDays'           => [
+        'NumberOfDays' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NumberOfDays',
         ],
-        'IncludeVariations'      => [
+        'IncludeVariations' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeVariations',
         ],
-        'OrderLineItemID'        => [
+        'OrderLineItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

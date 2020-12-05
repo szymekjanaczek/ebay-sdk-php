@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Fulfillment\Enums;
 
 class LineItemFulfillmentStatusEnum
 {
-    public const C_FULFILLED = 'FULFILLED';
+    public const C_FULFILLED   = 'FULFILLED';
     public const C_NOT_STARTED = 'NOT_STARTED';
 }

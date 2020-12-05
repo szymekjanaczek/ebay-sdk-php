@@ -23,19 +23,19 @@ class DiscountBenefit extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'amountOffItem'      => [
+        'amountOffItem' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'amountOffItem',
         ],
-        'amountOffOrder'     => [
+        'amountOffOrder' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'amountOffOrder',
         ],
-        'percentageOffItem'  => [
+        'percentageOffItem' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

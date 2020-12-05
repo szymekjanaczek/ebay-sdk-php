@@ -37,13 +37,13 @@ class FeedbackDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FeedbackRatingStar'  => [
+        'FeedbackRatingStar' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackRatingStar',
         ],
-        'CommentingUser'      => [
+        'CommentingUser' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -55,91 +55,91 @@ class FeedbackDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'CommentingUserScore',
         ],
-        'CommentText'         => [
+        'CommentText' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CommentText',
         ],
-        'CommentTime'         => [
+        'CommentTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CommentTime',
         ],
-        'CommentType'         => [
+        'CommentType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CommentType',
         ],
-        'FeedbackResponse'    => [
+        'FeedbackResponse' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackResponse',
         ],
-        'FollowUp'            => [
+        'FollowUp' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FollowUp',
         ],
-        'ItemID'              => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'Role'                => [
+        'Role' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Role',
         ],
-        'ItemTitle'           => [
+        'ItemTitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemTitle',
         ],
-        'ItemPrice'           => [
+        'ItemPrice' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemPrice',
         ],
-        'FeedbackID'          => [
+        'FeedbackID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackID',
         ],
-        'TransactionID'       => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionID',
         ],
-        'CommentReplaced'     => [
+        'CommentReplaced' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CommentReplaced',
         ],
-        'ResponseReplaced'    => [
+        'ResponseReplaced' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ResponseReplaced',
         ],
-        'FollowUpReplaced'    => [
+        'FollowUpReplaced' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FollowUpReplaced',
         ],
-        'Countable'           => [
+        'Countable' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

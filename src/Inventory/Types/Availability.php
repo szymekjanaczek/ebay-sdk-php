@@ -27,7 +27,7 @@ class Availability extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'pickupAtLocationAvailability',
         ],
-        'shipToLocationAvailability'   => [
+        'shipToLocationAvailability' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability',
             'repeatable'  => false,
             'attribute'   => false,

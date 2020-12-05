@@ -13,5 +13,5 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 class CaseType
 {
     public const C_EBP_SNAD = 'EBP_SNAD';
-    public const C_OTHER = 'OTHER';
+    public const C_OTHER    = 'OTHER';
 }

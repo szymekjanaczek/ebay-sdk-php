@@ -30,25 +30,25 @@ class ActionDeadlines extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'daysForBuyerToProvideProofOfShipment',
         ],
-        'daysToExpireWithoutResponse'          => [
+        'daysToExpireWithoutResponse' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'daysToExpireWithoutResponse',
         ],
-        'daysToExpireWithResponse'             => [
+        'daysToExpireWithResponse' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'daysToExpireWithResponse',
         ],
-        'daysToReturnItem'                     => [
+        'daysToReturnItem' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'daysToReturnItem',
         ],
-        'maxDaysToFileClaim'                   => [
+        'maxDaysToFileClaim' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

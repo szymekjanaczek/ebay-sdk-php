@@ -27,7 +27,7 @@ class GetSuggestedCategoriesRestResponse extends \DTS\eBaySDK\Taxonomy\Types\Cat
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

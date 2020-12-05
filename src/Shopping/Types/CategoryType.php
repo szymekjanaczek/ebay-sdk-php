@@ -26,19 +26,19 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID'       => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'CategoryLevel'    => [
+        'CategoryLevel' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryLevel',
         ],
-        'CategoryName'     => [
+        'CategoryName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'CategoryNamePath',
         ],
-        'CategoryIDPath'   => [
+        'CategoryIDPath' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryIDPath',
         ],
-        'LeafCategory'     => [
+        'LeafCategory' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

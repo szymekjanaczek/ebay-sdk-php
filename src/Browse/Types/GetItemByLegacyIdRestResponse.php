@@ -27,7 +27,7 @@ class GetItemByLegacyIdRestResponse extends \DTS\eBaySDK\Browse\Types\Item
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

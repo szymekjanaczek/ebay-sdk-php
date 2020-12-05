@@ -30,25 +30,25 @@ class OrderReportResponseType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'HardExpirationWarning',
         ],
-        'Ack'                   => [
+        'Ack' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Ack',
         ],
-        'Version'               => [
+        'Version' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Version',
         ],
-        'Errors'                => [
+        'Errors' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\ErrorType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Errors',
         ],
-        'OrderArray'            => [
+        'OrderArray' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\OrderArrayType',
             'repeatable'  => false,
             'attribute'   => false,

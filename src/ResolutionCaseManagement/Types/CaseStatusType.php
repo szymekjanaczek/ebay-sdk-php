@@ -28,31 +28,31 @@ class CaseStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'INRStatus'               => [
+        'INRStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'INRStatus',
         ],
-        'SNADStatus'              => [
+        'SNADStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SNADStatus',
         ],
-        'EBPINRStatus'            => [
+        'EBPINRStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EBPINRStatus',
         ],
-        'EBPSNADStatus'           => [
+        'EBPSNADStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EBPSNADStatus',
         ],
-        'UPIStatus'               => [
+        'UPIStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -64,19 +64,19 @@ class CaseStatusType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'cancelTransactionStatus',
         ],
-        'returnStatus'            => [
+        'returnStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnStatus',
         ],
-        'PaypalINRStatus'         => [
+        'PaypalINRStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaypalINRStatus',
         ],
-        'PaypalSNADStatus'        => [
+        'PaypalSNADStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

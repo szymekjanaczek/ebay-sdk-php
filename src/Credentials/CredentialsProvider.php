@@ -11,9 +11,9 @@ namespace DTS\eBaySDK\Credentials;
  */
 class CredentialsProvider
 {
-    public const ENV_APP_ID = 'EBAY_SDK_APP_ID';
+    public const ENV_APP_ID  = 'EBAY_SDK_APP_ID';
     public const ENV_CERT_ID = 'EBAY_SDK_CERT_ID';
-    public const ENV_DEV_ID = 'EBAY_SDK_DEV_ID';
+    public const ENV_DEV_ID  = 'EBAY_SDK_DEV_ID';
     public const ENV_PROFILE = 'EBAY_SDK_PROFILE';
 
     /**

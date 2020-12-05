@@ -30,19 +30,19 @@ class ListingDetail extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'currentPrice'           => [
+        'currentPrice' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'currentPrice',
         ],
-        'freeShipping'           => [
+        'freeShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'freeShipping',
         ],
-        'inventoryReferenceId'   => [
+        'inventoryReferenceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -54,43 +54,43 @@ class ListingDetail extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'inventoryReferenceType',
         ],
-        'listingCategoryId'      => [
+        'listingCategoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingCategoryId',
         ],
-        'listingCondition'       => [
+        'listingCondition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingCondition',
         ],
-        'listingConditionId'     => [
+        'listingConditionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingConditionId',
         ],
-        'listingId'              => [
+        'listingId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingId',
         ],
-        'quantity'               => [
+        'quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'quantity',
         ],
-        'storeCategoryId'        => [
+        'storeCategoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'storeCategoryId',
         ],
-        'title'                  => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -45,17 +45,17 @@ class ResolutionCaseManagementBaseService extends \DTS\eBaySDK\Services\BaseServ
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion' => [
-                    'valid'   => ['string'],
-                    'default' => \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService::API_VERSION,
-                ],
-                'authToken'  => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
-                'globalId'   => [
-                    'valid' => ['string'],
-                ],
+            'apiVersion' => [
+                'valid'   => ['string'],
+                'default' => \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService::API_VERSION,
+            ],
+            'authToken' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
+            'globalId' => [
+                'valid' => ['string'],
+            ],
             ];
     }
 

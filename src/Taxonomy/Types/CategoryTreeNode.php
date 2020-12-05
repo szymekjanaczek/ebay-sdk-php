@@ -24,25 +24,25 @@ class CategoryTreeNode extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'category'                   => [
+        'category' => [
             'type'        => 'DTS\eBaySDK\Taxonomy\Types\Category',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'category',
         ],
-        'categoryTreeNodeLevel'      => [
+        'categoryTreeNodeLevel' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryTreeNodeLevel',
         ],
-        'childCategoryTreeNodes'     => [
+        'childCategoryTreeNodes' => [
             'type'        => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'childCategoryTreeNodes',
         ],
-        'leafCategoryTreeNode'       => [
+        'leafCategoryTreeNode' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

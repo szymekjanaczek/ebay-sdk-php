@@ -28,37 +28,37 @@ class EbayOfferDetailsWithId extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'availableQuantity'     => [
+        'availableQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'availableQuantity',
         ],
-        'categoryId'            => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'listingDescription'    => [
+        'listingDescription' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingDescription',
         ],
-        'listingPolicies'       => [
+        'listingPolicies' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ListingPolicies',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingPolicies',
         ],
-        'merchantLocationKey'   => [
+        'merchantLocationKey' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'merchantLocationKey',
         ],
-        'pricingSummary'        => [
+        'pricingSummary' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\PricingSummary',
             'repeatable'  => false,
             'attribute'   => false,
@@ -70,13 +70,13 @@ class EbayOfferDetailsWithId extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'quantityLimitPerBuyer',
         ],
-        'storeCategoryNames'    => [
+        'storeCategoryNames' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'storeCategoryNames',
         ],
-        'tax'                   => [
+        'tax' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Tax',
             'repeatable'  => false,
             'attribute'   => false,

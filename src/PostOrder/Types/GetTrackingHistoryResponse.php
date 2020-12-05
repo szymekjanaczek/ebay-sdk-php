@@ -23,13 +23,13 @@ class GetTrackingHistoryResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrierUsed'    => [
+        'carrierUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'scanHistory'    => [
+        'scanHistory' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ScanDetailType',
             'repeatable'  => true,
             'attribute'   => false,

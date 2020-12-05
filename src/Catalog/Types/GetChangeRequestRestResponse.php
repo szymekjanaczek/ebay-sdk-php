@@ -27,7 +27,7 @@ class GetChangeRequestRestResponse extends \DTS\eBaySDK\Catalog\Types\ChangeRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

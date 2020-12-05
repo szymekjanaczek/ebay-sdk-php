@@ -21,7 +21,7 @@ class SpecialHours extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'date'      => [
+        'date' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

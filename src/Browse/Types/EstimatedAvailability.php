@@ -25,19 +25,19 @@ class EstimatedAvailability extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'availabilityThreshold'       => [
+        'availabilityThreshold' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'availabilityThreshold',
         ],
-        'availabilityThresholdType'   => [
+        'availabilityThresholdType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'availabilityThresholdType',
         ],
-        'deliveryOptions'             => [
+        'deliveryOptions' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
@@ -49,13 +49,13 @@ class EstimatedAvailability extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'estimatedAvailabilityStatus',
         ],
-        'estimatedAvailableQuantity'  => [
+        'estimatedAvailableQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'estimatedAvailableQuantity',
         ],
-        'estimatedSoldQuantity'       => [
+        'estimatedSoldQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

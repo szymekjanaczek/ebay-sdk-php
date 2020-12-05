@@ -24,25 +24,25 @@ class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DiscountName'             => [
+        'DiscountName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DiscountName',
         ],
-        'OrderHandlingAmount'      => [
+        'OrderHandlingAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderHandlingAmount',
         ],
-        'EachAdditionalAmount'     => [
+        'EachAdditionalAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EachAdditionalAmount',
         ],
-        'EachAdditionalOffAmount'  => [
+        'EachAdditionalOffAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

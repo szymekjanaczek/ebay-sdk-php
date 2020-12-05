@@ -25,31 +25,31 @@ class UpdateTrackingRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'newCarrierEnum'     => [
+        'newCarrierEnum' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'newCarrierEnum',
         ],
-        'newCarrierName'     => [
+        'newCarrierName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'newCarrierName',
         ],
-        'newTrackingNumber'  => [
+        'newTrackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'newTrackingNumber',
         ],
-        'usedCarrierEnum'    => [
+        'usedCarrierEnum' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'usedCarrierEnum',
         ],
-        'usedCarrierName'    => [
+        'usedCarrierName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

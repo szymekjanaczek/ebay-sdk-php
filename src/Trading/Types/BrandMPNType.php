@@ -27,7 +27,7 @@ class BrandMPNType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Brand',
         ],
-        'MPN'   => [
+        'MPN' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

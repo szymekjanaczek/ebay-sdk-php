@@ -22,13 +22,13 @@ class ProvideReturnInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Typ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'address'                        => [
+        'address' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'address',
         ],
-        'caseId'                         => [
+        'caseId' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable'  => false,
             'attribute'   => false,

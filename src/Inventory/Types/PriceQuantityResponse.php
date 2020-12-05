@@ -24,19 +24,19 @@ class PriceQuantityResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'     => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'errors',
         ],
-        'offerId'    => [
+        'offerId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offerId',
         ],
-        'sku'        => [
+        'sku' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class PriceQuantityResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'statusCode',
         ],
-        'warnings'   => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

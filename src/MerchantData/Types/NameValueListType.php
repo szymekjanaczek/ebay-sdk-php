@@ -22,13 +22,13 @@ class NameValueListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Name'   => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'Value'  => [
+        'Value' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

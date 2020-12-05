@@ -22,13 +22,13 @@ class CaseSearchResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'members'            => [
+        'members' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\CaseSummaryType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'members',
         ],
-        'paginationOutput'   => [
+        'paginationOutput' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable'  => false,
             'attribute'   => false,

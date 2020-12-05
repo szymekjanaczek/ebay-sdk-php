@@ -18,14 +18,14 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'CreateAFulfillmentPolicy'            => [
+        'CreateAFulfillmentPolicy' => [
             'method'        => 'POST',
             'resource'      => 'fulfillment_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse',
             'params'        => [
             ],
         ],
-        'DeleteAFulfillmentPolicy'            => [
+        'DeleteAFulfillmentPolicy' => [
             'method'        => 'DELETE',
             'resource'      => 'fulfillment_policy/{fulfillmentPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestResponse',
@@ -47,7 +47,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetAFulfillmentPolicyByID'           => [
+        'GetAFulfillmentPolicyByID' => [
             'method'        => 'GET',
             'resource'      => 'fulfillment_policy/{fulfillmentPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse',
@@ -58,7 +58,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetAFulfillmentPolicyByName'         => [
+        'GetAFulfillmentPolicyByName' => [
             'method'        => 'GET',
             'resource'      => 'fulfillment_policy/get_by_policy_name',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestResponse',
@@ -67,13 +67,13 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'name'           => [
+                'name' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'UpdateAFulfillmentPolicy'            => [
+        'UpdateAFulfillmentPolicy' => [
             'method'        => 'PUT',
             'resource'      => 'fulfillment_policy/{fulfillmentPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse',
@@ -84,14 +84,14 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'CreateAPaymentPolicy'                => [
+        'CreateAPaymentPolicy' => [
             'method'        => 'POST',
             'resource'      => 'payment_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse',
             'params'        => [
             ],
         ],
-        'DeleteAPaymentPolicy'                => [
+        'DeleteAPaymentPolicy' => [
             'method'        => 'DELETE',
             'resource'      => 'payment_policy/{payment_policy_id}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestResponse',
@@ -102,7 +102,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetPaymentPoliciesByMarketplace'     => [
+        'GetPaymentPoliciesByMarketplace' => [
             'method'        => 'GET',
             'resource'      => 'payment_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestResponse',
@@ -113,7 +113,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetAPaymentPolicyByID'               => [
+        'GetAPaymentPolicyByID' => [
             'method'        => 'GET',
             'resource'      => 'payment_policy/{paymentPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestResponse',
@@ -124,7 +124,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetAPaymentPolicyByName'             => [
+        'GetAPaymentPolicyByName' => [
             'method'        => 'GET',
             'resource'      => 'payment_policy/get_by_policy_name',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse',
@@ -133,13 +133,13 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'name'           => [
+                'name' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'UpdateAPaymentPolicy'                => [
+        'UpdateAPaymentPolicy' => [
             'method'        => 'PUT',
             'resource'      => 'payment_policy/{payment_policy_id}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestResponse',
@@ -150,35 +150,35 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetAccountPrivileges'                => [
+        'GetAccountPrivileges' => [
             'method'        => 'GET',
             'resource'      => 'privilege',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse',
             'params'        => [
             ],
         ],
-        'GetOptedInPrograms'                  => [
+        'GetOptedInPrograms' => [
             'method'        => 'GET',
             'resource'      => 'program/get_opted_in_programs',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetOptedInProgramsRestResponse',
             'params'        => [
             ],
         ],
-        'OptInToProgram'                      => [
+        'OptInToProgram' => [
             'method'        => 'POST',
             'resource'      => 'program/opt_in',
             'responseClass' => '\DTS\eBaySDK\Account\Types\OptInToProgramRestResponse',
             'params'        => [
             ],
         ],
-        'OptOutOfProgram'                     => [
+        'OptOutOfProgram' => [
             'method'        => 'POST',
             'resource'      => 'program/opt_out',
             'responseClass' => '\DTS\eBaySDK\Account\Types\OptOutOfProgramRestResponse',
             'params'        => [
             ],
         ],
-        'GetShippingRateTables'               => [
+        'GetShippingRateTables' => [
             'method'        => 'POST',
             'resource'      => 'rate_table',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestResponse',
@@ -188,14 +188,14 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'CreateAReturnPolicy'                 => [
+        'CreateAReturnPolicy' => [
             'method'        => 'POST',
             'resource'      => 'return_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestResponse',
             'params'        => [
             ],
         ],
-        'DeleteAReturnPolicy'                 => [
+        'DeleteAReturnPolicy' => [
             'method'        => 'DELETE',
             'resource'      => 'return_policy/{return_policy_id}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestResponse',
@@ -206,7 +206,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetReturnPoliciesByMarketplace'      => [
+        'GetReturnPoliciesByMarketplace' => [
             'method'        => 'GET',
             'resource'      => 'return_policy',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestResponse',
@@ -217,7 +217,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetAReturnPolicyByID'                => [
+        'GetAReturnPolicyByID' => [
             'method'        => 'GET',
             'resource'      => 'return_policy/{returnPolicyId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestResponse',
@@ -228,7 +228,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetAReturnPolicyByName'              => [
+        'GetAReturnPolicyByName' => [
             'method'        => 'GET',
             'resource'      => 'return_policy/get_by_policy_name',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse',
@@ -237,13 +237,13 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'name'           => [
+                'name' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'UpdateAReturnPolicy'                 => [
+        'UpdateAReturnPolicy' => [
             'method'        => 'PUT',
             'resource'      => 'return_policy/{return_policy_id}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestResponse',
@@ -254,12 +254,12 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'CreateASalesTaxTable'                => [
+        'CreateASalesTaxTable' => [
             'method'        => 'PUT',
             'resource'      => 'sales_tax/{countryCode}/{jurisdictionId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestResponse',
             'params'        => [
-                'countryCode'    => [
+                'countryCode' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -269,12 +269,12 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'DeleteASalesTaxTable'                => [
+        'DeleteASalesTaxTable' => [
             'method'        => 'DELETE',
             'resource'      => 'sales_tax/{countryCode}/{jurisdictionId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse',
             'params'        => [
-                'countryCode'    => [
+                'countryCode' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -284,12 +284,12 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetASalesTaxTable'                   => [
+        'GetASalesTaxTable' => [
             'method'        => 'GET',
             'resource'      => 'sales_tax/{countryCode}/{jurisdictionId}',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetASalesTaxTableRestResponse',
             'params'        => [
-                'countryCode'    => [
+                'countryCode' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -299,7 +299,7 @@ class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
                 ],
             ],
         ],
-        'GetAllSalesTaxTables'                => [
+        'GetAllSalesTaxTables' => [
             'method'        => 'GET',
             'resource'      => 'sales_tax',
             'responseClass' => '\DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestResponse',

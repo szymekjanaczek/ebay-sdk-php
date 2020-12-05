@@ -21,7 +21,7 @@ class GetProductCompatiblitiesResponse extends \DTS\eBaySDK\Product\Types\BaseSe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'paginationOutput'     => [
+        'paginationOutput' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PaginationOutput',
             'repeatable'  => false,
             'attribute'   => false,

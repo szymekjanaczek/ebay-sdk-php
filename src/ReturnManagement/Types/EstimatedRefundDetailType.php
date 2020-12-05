@@ -21,7 +21,7 @@ class EstimatedRefundDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'estimatedRefund'        => [
+        'estimatedRefund' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\RefundDetailType',
             'repeatable'  => false,
             'attribute'   => false,

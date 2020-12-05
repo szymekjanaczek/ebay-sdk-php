@@ -35,37 +35,37 @@ class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'buyerAvailableOptions'    => [
+        'buyerAvailableOptions' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\AvailableOptionType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'buyerAvailableOptions',
         ],
-        'buyerLoginName'           => [
+        'buyerLoginName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerLoginName',
         ],
-        'buyerResponseDue'         => [
+        'buyerResponseDue' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerResponseDue',
         ],
-        'buyerTotalRefund'         => [
+        'buyerTotalRefund' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerTotalRefund',
         ],
-        'creationInfo'             => [
+        'creationInfo' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnCreationInfoType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creationInfo',
         ],
-        'currentType'              => [
+        'currentType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -77,55 +77,55 @@ class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'dispositionRuleTriggered',
         ],
-        'escalationInfo'           => [
+        'escalationInfo' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\EscalationInfoType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'escalationInfo',
         ],
-        'returnId'                 => [
+        'returnId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnId',
         ],
-        'returnPolicy'             => [
+        'returnPolicy' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnPolicyType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnPolicy',
         ],
-        'sellerAvailableOptions'   => [
+        'sellerAvailableOptions' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\AvailableOptionType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'sellerAvailableOptions',
         ],
-        'sellerLoginName'          => [
+        'sellerLoginName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerLoginName',
         ],
-        'sellerResponseDue'        => [
+        'sellerResponseDue' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerResponseDue',
         ],
-        'sellerTotalRefund'        => [
+        'sellerTotalRefund' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerTotalRefund',
         ],
-        'state'                    => [
+        'state' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'state',
         ],
-        'status'                   => [
+        'status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

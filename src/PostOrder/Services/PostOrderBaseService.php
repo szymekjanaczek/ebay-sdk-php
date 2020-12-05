@@ -43,18 +43,18 @@ class PostOrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion'    => [
-                    'valid'    => ['string'],
-                    'default'  => \DTS\eBaySDK\PostOrder\Services\PostOrderService::API_VERSION,
-                    'required' => true,
-                ],
-                'authToken'     => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
-                'marketplaceId' => [
-                    'valid' => ['string'],
-                ],
+            'apiVersion' => [
+                'valid'    => ['string'],
+                'default'  => \DTS\eBaySDK\PostOrder\Services\PostOrderService::API_VERSION,
+                'required' => true,
+            ],
+            'authToken' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
+            'marketplaceId' => [
+                'valid' => ['string'],
+            ],
             ];
     }
 

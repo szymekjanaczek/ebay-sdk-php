@@ -25,13 +25,13 @@ class ShipmentTrackingDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrier'          => [
+        'carrier' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrier',
         ],
-        'currentStatus'    => [
+        'currentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class ShipmentTrackingDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'estimateFromDate',
         ],
-        'estimateToDate'   => [
+        'estimateToDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'estimateToDate',
         ],
-        'trackingNumber'   => [
+        'trackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
-        'trackingURL'      => [
+        'trackingURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

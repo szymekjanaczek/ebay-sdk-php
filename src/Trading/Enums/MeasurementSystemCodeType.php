@@ -13,5 +13,5 @@ namespace DTS\eBaySDK\Trading\Enums;
 class MeasurementSystemCodeType
 {
     public const C_ENGLISH = 'English';
-    public const C_METRIC = 'Metric';
+    public const C_METRIC  = 'Metric';
 }

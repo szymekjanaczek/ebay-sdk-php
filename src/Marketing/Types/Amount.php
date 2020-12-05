@@ -27,7 +27,7 @@ class Amount extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'currency',
         ],
-        'value'    => [
+        'value' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

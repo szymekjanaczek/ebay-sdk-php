@@ -28,7 +28,7 @@ class GetChangeRequestsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'limit'  => [
+        'limit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

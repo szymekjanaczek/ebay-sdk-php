@@ -27,7 +27,7 @@ class Adjustment extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'label'  => [
+        'label' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

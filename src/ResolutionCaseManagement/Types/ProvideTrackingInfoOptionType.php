@@ -27,7 +27,7 @@ class ProvideTrackingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagemen
             'attribute'   => false,
             'elementName' => 'trackingNumber',
         ],
-        'carrierUsed'    => [
+        'carrierUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

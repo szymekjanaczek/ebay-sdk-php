@@ -21,7 +21,7 @@ class FlatShippingDiscountType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DiscountName'    => [
+        'DiscountName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

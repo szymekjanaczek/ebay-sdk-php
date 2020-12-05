@@ -27,13 +27,13 @@ class RecurringJobDetail extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'recurringJobId'     => [
+        'recurringJobId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'recurringJobId',
         ],
-        'creationTime'       => [
+        'creationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
@@ -45,31 +45,31 @@ class RecurringJobDetail extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'frequencyInMinutes',
         ],
-        'downloadJobType'    => [
+        'downloadJobType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'downloadJobType',
         ],
-        'jobStatus'          => [
+        'jobStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'jobStatus',
         ],
-        'monthlyRecurrence'  => [
+        'monthlyRecurrence' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'monthlyRecurrence',
         ],
-        'weeklyRecurrence'   => [
+        'weeklyRecurrence' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'weeklyRecurrence',
         ],
-        'dailyRecurrence'    => [
+        'dailyRecurrence' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence',
             'repeatable'  => false,
             'attribute'   => false,

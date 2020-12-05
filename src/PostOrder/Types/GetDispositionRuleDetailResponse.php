@@ -27,7 +27,7 @@ class GetDispositionRuleDetailResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ruleDetail',
         ],
-        'versionId'  => [
+        'versionId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

@@ -24,7 +24,7 @@ class VATDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BusinessSeller'       => [
+        'BusinessSeller' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -36,19 +36,19 @@ class VATDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'RestrictedToBusiness',
         ],
-        'VATPercent'           => [
+        'VATPercent' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VATPercent',
         ],
-        'VATSite'              => [
+        'VATSite' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VATSite',
         ],
-        'VATID'                => [
+        'VATID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

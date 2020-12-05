@@ -23,7 +23,7 @@ class Contact extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'companyName'    => [
+        'companyName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class Contact extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'contactAddress',
         ],
-        'fullName'       => [
+        'fullName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fullName',
         ],
-        'primaryPhone'   => [
+        'primaryPhone' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\PhoneNumber',
             'repeatable'  => false,
             'attribute'   => false,

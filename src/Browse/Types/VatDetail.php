@@ -27,7 +27,7 @@ class VatDetail extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'issuingCountry',
         ],
-        'vatId'          => [
+        'vatId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

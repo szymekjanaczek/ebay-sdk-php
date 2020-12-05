@@ -23,13 +23,13 @@ class SalesTaxType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SalesTaxPercent'       => [
+        'SalesTaxPercent' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SalesTaxPercent',
         ],
-        'SalesTaxState'         => [
+        'SalesTaxState' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class SalesTaxType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingIncludedInTax',
         ],
-        'SalesTaxAmount'        => [
+        'SalesTaxAmount' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

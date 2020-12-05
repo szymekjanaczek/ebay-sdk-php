@@ -31,19 +31,19 @@ class FulfillmentPolicy extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryTypes'       => [
+        'categoryTypes' => [
             'type'        => 'DTS\eBaySDK\Account\Types\CategoryType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'categoryTypes',
         ],
-        'description'         => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'freightShipping'     => [
+        'freightShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -55,49 +55,49 @@ class FulfillmentPolicy extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'fulfillmentPolicyId',
         ],
-        'globalShipping'      => [
+        'globalShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'globalShipping',
         ],
-        'handlingTime'        => [
+        'handlingTime' => [
             'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'handlingTime',
         ],
-        'localPickup'         => [
+        'localPickup' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'localPickup',
         ],
-        'marketplaceId'       => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'name'                => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'name',
         ],
-        'pickupDropOff'       => [
+        'pickupDropOff' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'pickupDropOff',
         ],
-        'shippingOptions'     => [
+        'shippingOptions' => [
             'type'        => 'DTS\eBaySDK\Account\Types\ShippingOption',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'shippingOptions',
         ],
-        'shipToLocations'     => [
+        'shipToLocations' => [
             'type'        => 'DTS\eBaySDK\Account\Types\RegionSet',
             'repeatable'  => false,
             'attribute'   => false,

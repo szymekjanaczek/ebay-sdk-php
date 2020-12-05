@@ -22,13 +22,13 @@ class EligibilityErrorType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'code'        => [
+        'code' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'code',
         ],
-        'content'     => [
+        'content' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

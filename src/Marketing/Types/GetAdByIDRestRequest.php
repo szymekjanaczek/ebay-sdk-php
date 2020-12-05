@@ -21,7 +21,7 @@ class GetAdByIDRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ad_id'       => [
+        'ad_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

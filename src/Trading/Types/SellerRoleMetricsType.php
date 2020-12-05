@@ -29,55 +29,55 @@ class SellerRoleMetricsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PositiveFeedbackLeftCount'     => [
+        'PositiveFeedbackLeftCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PositiveFeedbackLeftCount',
         ],
-        'NegativeFeedbackLeftCount'     => [
+        'NegativeFeedbackLeftCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NegativeFeedbackLeftCount',
         ],
-        'NeutralFeedbackLeftCount'      => [
+        'NeutralFeedbackLeftCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NeutralFeedbackLeftCount',
         ],
-        'FeedbackLeftPercent'           => [
+        'FeedbackLeftPercent' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackLeftPercent',
         ],
-        'RepeatBuyerCount'              => [
+        'RepeatBuyerCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RepeatBuyerCount',
         ],
-        'RepeatBuyerPercent'            => [
+        'RepeatBuyerPercent' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RepeatBuyerPercent',
         ],
-        'UniqueBuyerCount'              => [
+        'UniqueBuyerCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UniqueBuyerCount',
         ],
-        'TransactionPercent'            => [
+        'TransactionPercent' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionPercent',
         ],
-        'CrossBorderTransactionCount'   => [
+        'CrossBorderTransactionCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

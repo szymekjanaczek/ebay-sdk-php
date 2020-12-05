@@ -22,7 +22,7 @@ class UploadDocumentsRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId'    => [
+        'caseId' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class UploadDocumentsRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types
             'attribute'   => false,
             'elementName' => 'proofType',
         ],
-        'document'  => [
+        'document' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentInfoType',
             'repeatable'  => true,
             'attribute'   => false,

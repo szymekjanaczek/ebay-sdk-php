@@ -27,7 +27,7 @@ class AvailableOptionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'actionType',
         ],
-        'actionURL'  => [
+        'actionURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

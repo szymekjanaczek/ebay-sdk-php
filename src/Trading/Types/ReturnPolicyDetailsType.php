@@ -31,49 +31,49 @@ class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Refund'             => [
+        'Refund' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\RefundDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Refund',
         ],
-        'ReturnsWithin'      => [
+        'ReturnsWithin' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ReturnsWithin',
         ],
-        'ReturnsAccepted'    => [
+        'ReturnsAccepted' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ReturnsAccepted',
         ],
-        'Description'        => [
+        'Description' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'WarrantyOffered'    => [
+        'WarrantyOffered' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'WarrantyOffered',
         ],
-        'WarrantyType'       => [
+        'WarrantyType' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'WarrantyType',
         ],
-        'WarrantyDuration'   => [
+        'WarrantyDuration' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'WarrantyDuration',
         ],
-        'EAN'                => [
+        'EAN' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -91,13 +91,13 @@ class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'RestockingFeeValue',
         ],
-        'DetailVersion'      => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'         => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

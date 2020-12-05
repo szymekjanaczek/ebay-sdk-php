@@ -22,7 +22,7 @@ class MarketingPrice extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'discountAmount'     => [
+        'discountAmount' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class MarketingPrice extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'discountPercentage',
         ],
-        'originalPrice'      => [
+        'originalPrice' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable'  => false,
             'attribute'   => false,

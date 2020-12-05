@@ -22,13 +22,13 @@ class ItemizedRefundDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'refundAmount'            => [
+        'refundAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'refundAmount',
         ],
-        'refundFeeType'           => [
+        'refundFeeType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

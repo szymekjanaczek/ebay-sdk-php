@@ -21,7 +21,7 @@ class GetEstimateResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'refundInfo'             => [
+        'refundInfo' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundInfoType',
             'repeatable'  => false,
             'attribute'   => false,

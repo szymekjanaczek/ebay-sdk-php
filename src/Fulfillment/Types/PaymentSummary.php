@@ -22,13 +22,13 @@ class PaymentSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'payments'       => [
+        'payments' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Payment',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'payments',
         ],
-        'refunds'        => [
+        'refunds' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\OrderRefund',
             'repeatable'  => true,
             'attribute'   => false,

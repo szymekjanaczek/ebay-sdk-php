@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class GetReturnFieldGroupEnum
 {
-    public const C_FULL = 'FULL';
-    public const C_NONE = 'NONE';
+    public const C_FULL    = 'FULL';
+    public const C_NONE    = 'NONE';
     public const C_SUMMARY = 'SUMMARY';
 }

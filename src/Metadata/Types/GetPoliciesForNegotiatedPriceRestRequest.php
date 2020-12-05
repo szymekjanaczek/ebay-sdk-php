@@ -21,7 +21,7 @@ class GetPoliciesForNegotiatedPriceRestRequest extends \DTS\eBaySDK\Types\BaseTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'filter'         => [
+        'filter' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

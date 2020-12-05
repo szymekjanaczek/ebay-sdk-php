@@ -13,5 +13,5 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class BusinessRoleType
 {
     public const C_FULL_MARKET_PLACE_PARTICIPANT = 'FullMarketPlaceParticipant';
-    public const C_SHOPPER = 'Shopper';
+    public const C_SHOPPER                       = 'Shopper';
 }

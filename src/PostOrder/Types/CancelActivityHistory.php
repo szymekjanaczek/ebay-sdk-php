@@ -25,31 +25,31 @@ class CancelActivityHistory extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'actionDate'        => [
+        'actionDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'actionDate',
         ],
-        'activityParty'     => [
+        'activityParty' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'activityParty',
         ],
-        'activityType'      => [
+        'activityType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'activityType',
         ],
-        'cancelStateFrom'   => [
+        'cancelStateFrom' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelStateFrom',
         ],
-        'cancelStateTo'     => [
+        'cancelStateTo' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

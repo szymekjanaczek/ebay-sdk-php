@@ -27,7 +27,7 @@ class PaymentDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'moneyMovement',
         ],
-        'balanceDue'    => [
+        'balanceDue' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

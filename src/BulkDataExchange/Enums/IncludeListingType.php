@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Enums;
 
 class IncludeListingType
 {
-    public const C_AUCTION = 'Auction';
+    public const C_AUCTION                 = 'Auction';
     public const C_AUCTION_AND_FIXED_PRICE = 'AuctionAndFixedPrice';
-    public const C_FIXED_PRICE = 'FixedPrice';
+    public const C_FIXED_PRICE             = 'FixedPrice';
 }

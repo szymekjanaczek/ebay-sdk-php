@@ -29,55 +29,55 @@ class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId'           => [
+        'caseId' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseId',
         ],
-        'user'             => [
+        'user' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'user',
         ],
-        'otherParty'       => [
+        'otherParty' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'otherParty',
         ],
-        'status'           => [
+        'status' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'status',
         ],
-        'item'             => [
+        'item' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'item',
         ],
-        'caseQuantity'     => [
+        'caseQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseQuantity',
         ],
-        'caseAmount'       => [
+        'caseAmount' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseAmount',
         ],
-        'respondByDate'    => [
+        'respondByDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'respondByDate',
         ],
-        'creationDate'     => [
+        'creationDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

@@ -23,13 +23,13 @@ class GroupProperties extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'groupType'     => [
+        'groupType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'groupType',
         ],
-        'groupName'     => [
+        'groupName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class GroupProperties extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'groupProperty',
         ],
-        'description'   => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

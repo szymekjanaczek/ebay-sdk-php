@@ -22,7 +22,7 @@ class CustomListDataType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'id'       => [
+        'id' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class CustomListDataType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'identify',
         ],
-        'name'     => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

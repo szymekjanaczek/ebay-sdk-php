@@ -21,7 +21,7 @@ class ConditionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ID'          => [
+        'ID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

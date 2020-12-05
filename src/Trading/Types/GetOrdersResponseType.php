@@ -25,31 +25,31 @@ class GetOrdersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseT
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaginationResult'         => [
+        'PaginationResult' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'HasMoreOrders'            => [
+        'HasMoreOrders' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HasMoreOrders',
         ],
-        'OrderArray'               => [
+        'OrderArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\OrderArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderArray',
         ],
-        'OrdersPerPage'            => [
+        'OrdersPerPage' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrdersPerPage',
         ],
-        'PageNumber'               => [
+        'PageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

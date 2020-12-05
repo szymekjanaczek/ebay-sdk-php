@@ -22,13 +22,13 @@ class OfferPartialRefundRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Ty
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'caseId'   => [
+        'caseId' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseId',
         ],
-        'amount'   => [
+        'amount' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Money',
             'repeatable'  => false,
             'attribute'   => false,

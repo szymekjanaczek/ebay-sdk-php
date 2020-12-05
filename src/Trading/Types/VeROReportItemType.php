@@ -27,19 +27,19 @@ class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'                 => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'VeROReasonCodeID'       => [
+        'VeROReasonCodeID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VeROReasonCodeID',
         ],
-        'MessageToSeller'        => [
+        'MessageToSeller' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -51,25 +51,25 @@ class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'CopyEmailToRightsOwner',
         ],
-        'Region'                 => [
+        'Region' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Region',
         ],
-        'Country'                => [
+        'Country' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Country',
         ],
-        'Patent'                 => [
+        'Patent' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Patent',
         ],
-        'DetailedMessage'        => [
+        'DetailedMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

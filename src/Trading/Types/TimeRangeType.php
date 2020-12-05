@@ -27,7 +27,7 @@ class TimeRangeType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'TimeFrom',
         ],
-        'TimeTo'   => [
+        'TimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

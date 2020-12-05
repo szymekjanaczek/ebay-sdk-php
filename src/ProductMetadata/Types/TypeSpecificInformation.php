@@ -23,7 +23,7 @@ class TypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'uriTypeSpecificInformation'     => [
+        'uriTypeSpecificInformation' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class TypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'numericTypeSpecificInformation',
         ],
-        'mediaTypeSpecificInformation'   => [
+        'mediaTypeSpecificInformation' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'mediaTypeSpecificInformation',
         ],
-        'stringTypeSpecificInformation'  => [
+        'stringTypeSpecificInformation' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation',
             'repeatable'  => false,
             'attribute'   => false,

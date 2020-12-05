@@ -28,49 +28,49 @@ class JobProfile extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'jobId'                => [
+        'jobId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'jobId',
         ],
-        'jobType'              => [
+        'jobType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'jobType',
         ],
-        'jobStatus'            => [
+        'jobStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'jobStatus',
         ],
-        'creationTime'         => [
+        'creationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creationTime',
         ],
-        'completionTime'       => [
+        'completionTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'completionTime',
         ],
-        'errorCount'           => [
+        'errorCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'errorCount',
         ],
-        'percentComplete'      => [
+        'percentComplete' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'percentComplete',
         ],
-        'fileReferenceId'      => [
+        'fileReferenceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

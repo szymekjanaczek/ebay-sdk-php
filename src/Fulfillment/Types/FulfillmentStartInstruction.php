@@ -25,13 +25,13 @@ class FulfillmentStartInstruction extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ebaySupportedFulfillment'    => [
+        'ebaySupportedFulfillment' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ebaySupportedFulfillment',
         ],
-        'finalDestinationAddress'     => [
+        'finalDestinationAddress' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Address',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class FulfillmentStartInstruction extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'fulfillmentInstructionsType',
         ],
-        'maxEstimatedDeliveryDate'    => [
+        'maxEstimatedDeliveryDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxEstimatedDeliveryDate',
         ],
-        'minEstimatedDeliveryDate'    => [
+        'minEstimatedDeliveryDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'shippingStep'                => [
+        'shippingStep' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\ShippingStep',
             'repeatable'  => false,
             'attribute'   => false,

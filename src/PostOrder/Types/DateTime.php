@@ -27,7 +27,7 @@ class DateTime extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'formattedValue',
         ],
-        'value'          => [
+        'value' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class FindItemsResponse extends \DTS\eBaySDK\HalfFinding\Types\BaseResponse
             'attribute'   => false,
             'elementName' => 'paginationOutput',
         ],
-        'product'          => [
+        'product' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType',
             'repeatable'  => false,
             'attribute'   => false,

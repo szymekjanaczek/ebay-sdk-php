@@ -62,20 +62,20 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion'    => [
-                    'valid'    => ['string'],
-                    'default'  => \DTS\eBaySDK\Trading\Services\TradingService::API_VERSION,
-                    'required' => true,
-                ],
-                'authorization' => [
-                    'valid' => ['string'],
-                ],
-                'authToken'     => [
-                    'valid' => ['string'],
-                ],
-                'siteId'        => [
-                    'valid'    => ['int', 'string'],
-                    'required' => true,
+            'apiVersion' => [
+                'valid'    => ['string'],
+                'default'  => \DTS\eBaySDK\Trading\Services\TradingService::API_VERSION,
+                'required' => true,
+            ],
+            'authorization' => [
+                'valid' => ['string'],
+            ],
+            'authToken' => [
+                'valid' => ['string'],
+            ],
+            'siteId' => [
+                'valid'    => ['int', 'string'],
+                'required' => true,
                 ],
             ];
     }

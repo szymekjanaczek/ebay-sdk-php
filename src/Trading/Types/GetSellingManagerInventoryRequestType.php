@@ -26,31 +26,31 @@ class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Sort'            => [
+        'Sort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Sort',
         ],
-        'FolderID'        => [
+        'FolderID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FolderID',
         ],
-        'Pagination'      => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'SortOrder'       => [
+        'SortOrder' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SortOrder',
         ],
-        'Search'          => [
+        'Search' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\A
             'attribute'   => false,
             'elementName' => 'StoreCategoryID',
         ],
-        'Filter'          => [
+        'Filter' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

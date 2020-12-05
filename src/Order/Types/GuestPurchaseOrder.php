@@ -27,25 +27,25 @@ class GuestPurchaseOrder extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'lineItems'                  => [
+        'lineItems' => [
             'type'        => 'DTS\eBaySDK\Order\Types\LineItem',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'lineItems',
         ],
-        'pricingSummary'             => [
+        'pricingSummary' => [
             'type'        => 'DTS\eBaySDK\Order\Types\PricingSummary',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'pricingSummary',
         ],
-        'purchaseOrderCreationDate'  => [
+        'purchaseOrderCreationDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'purchaseOrderCreationDate',
         ],
-        'purchaseOrderId'            => [
+        'purchaseOrderId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -57,19 +57,19 @@ class GuestPurchaseOrder extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'purchaseOrderPaymentStatus',
         ],
-        'purchaseOrderStatus'        => [
+        'purchaseOrderStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'purchaseOrderStatus',
         ],
-        'refundedAmount'             => [
+        'refundedAmount' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'refundedAmount',
         ],
-        'warnings'                   => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

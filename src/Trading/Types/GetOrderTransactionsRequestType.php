@@ -29,19 +29,19 @@ class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'attribute'   => false,
             'elementName' => 'ItemTransactionIDArray',
         ],
-        'OrderIDArray'           => [
+        'OrderIDArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderIDArray',
         ],
-        'Platform'               => [
+        'Platform' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Platform',
         ],
-        'IncludeFinalValueFees'  => [
+        'IncludeFinalValueFees' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

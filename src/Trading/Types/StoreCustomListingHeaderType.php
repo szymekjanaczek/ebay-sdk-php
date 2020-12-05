@@ -25,31 +25,31 @@ class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DisplayType'              => [
+        'DisplayType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DisplayType',
         ],
-        'Logo'                     => [
+        'Logo' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Logo',
         ],
-        'SearchBox'                => [
+        'SearchBox' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SearchBox',
         ],
-        'LinkToInclude'            => [
+        'LinkToInclude' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'LinkToInclude',
         ],
-        'AddToFavoriteStores'      => [
+        'AddToFavoriteStores' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

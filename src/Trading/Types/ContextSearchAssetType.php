@@ -22,7 +22,7 @@ class ContextSearchAssetType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Keyword'  => [
+        'Keyword' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ContextSearchAssetType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Category',
         ],
-        'Ranking'  => [
+        'Ranking' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

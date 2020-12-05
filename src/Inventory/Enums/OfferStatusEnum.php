@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Inventory\Enums;
 
 class OfferStatusEnum
 {
-    public const C_PUBLISHED = 'PUBLISHED';
+    public const C_PUBLISHED   = 'PUBLISHED';
     public const C_UNPUBLISHED = 'UNPUBLISHED';
 }

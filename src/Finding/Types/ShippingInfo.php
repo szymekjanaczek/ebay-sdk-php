@@ -26,25 +26,25 @@ class ShippingInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'shippingServiceCost'     => [
+        'shippingServiceCost' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingServiceCost',
         ],
-        'shippingType'            => [
+        'shippingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingType',
         ],
-        'shipToLocations'         => [
+        'shipToLocations' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'shipToLocations',
         ],
-        'expeditedShipping'       => [
+        'expeditedShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class ShippingInfo extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'oneDayShippingAvailable',
         ],
-        'handlingTime'            => [
+        'handlingTime' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'handlingTime',
         ],
-        'intermediatedShipping'   => [
+        'intermediatedShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

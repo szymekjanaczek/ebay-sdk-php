@@ -34,49 +34,49 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Timestamp'                  => [
+        'Timestamp' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Timestamp',
         ],
-        'Ack'                        => [
+        'Ack' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Ack',
         ],
-        'CorrelationID'              => [
+        'CorrelationID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CorrelationID',
         ],
-        'Errors'                     => [
+        'Errors' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ErrorType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Errors',
         ],
-        'Message'                    => [
+        'Message' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Message',
         ],
-        'Version'                    => [
+        'Version' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Version',
         ],
-        'Build'                      => [
+        'Build' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Build',
         ],
-        'NotificationEventName'      => [
+        'NotificationEventName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -88,37 +88,37 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DuplicateInvocationDetails',
         ],
-        'RecipientUserID'            => [
+        'RecipientUserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RecipientUserID',
         ],
-        'EIASToken'                  => [
+        'EIASToken' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EIASToken',
         ],
-        'NotificationSignature'      => [
+        'NotificationSignature' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NotificationSignature',
         ],
-        'HardExpirationWarning'      => [
+        'HardExpirationWarning' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HardExpirationWarning',
         ],
-        'BotBlock'                   => [
+        'BotBlock' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\BotBlockResponseType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BotBlock',
         ],
-        'ExternalUserData'           => [
+        'ExternalUserData' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

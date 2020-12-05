@@ -30,37 +30,37 @@ class ActivityOptionListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'offerOtherSolution'            => [
+        'offerOtherSolution' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offerOtherSolution',
         ],
-        'provideTrackingInfo'           => [
+        'provideTrackingInfo' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'provideTrackingInfo',
         ],
-        'issueFullRefund'               => [
+        'issueFullRefund' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'issueFullRefund',
         ],
-        'issuePartialRefund'            => [
+        'issuePartialRefund' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'issuePartialRefund',
         ],
-        'provideShippingInfo'           => [
+        'provideShippingInfo' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'provideShippingInfo',
         ],
-        'requestBuyerToReturn'          => [
+        'requestBuyerToReturn' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -72,25 +72,25 @@ class ActivityOptionListType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'provideShippingOrTrackingInfo',
         ],
-        'provideRefundInfo'             => [
+        'provideRefundInfo' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'provideRefundInfo',
         ],
-        'contactCustomerSupport'        => [
+        'contactCustomerSupport' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'contactCustomerSupport',
         ],
-        'escalateToCustomerSupport'     => [
+        'escalateToCustomerSupport' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'escalateToCustomerSupport',
         ],
-        'appealToCustomerSupport'       => [
+        'appealToCustomerSupport' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType',
             'repeatable'  => false,
             'attribute'   => false,

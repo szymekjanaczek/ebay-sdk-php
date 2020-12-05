@@ -39,79 +39,79 @@ class ProductSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'additionalImages',
         ],
-        'aspects'          => [
+        'aspects' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\Aspect',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'brand'            => [
+        'brand' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'description'      => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'ean'              => [
+        'ean' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ean',
         ],
-        'epid'             => [
+        'epid' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'gtin'             => [
+        'gtin' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'gtin',
         ],
-        'image'            => [
+        'image' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\Image',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'image',
         ],
-        'isbn'             => [
+        'isbn' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'isbn',
         ],
-        'mpn'              => [
+        'mpn' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'mpn',
         ],
-        'productHref'      => [
+        'productHref' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'productHref',
         ],
-        'productWebUrl'    => [
+        'productWebUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'productWebUrl',
         ],
-        'title'            => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'title',
         ],
-        'upc'              => [
+        'upc' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

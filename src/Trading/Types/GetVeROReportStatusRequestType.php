@@ -25,13 +25,13 @@ class GetVeROReportStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'VeROReportPacketID'         => [
+        'VeROReportPacketID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VeROReportPacketID',
         ],
-        'ItemID'                     => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class GetVeROReportStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
             'attribute'   => false,
             'elementName' => 'IncludeReportedItemDetails',
         ],
-        'TimeFrom'                   => [
+        'TimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TimeFrom',
         ],
-        'TimeTo'                     => [
+        'TimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TimeTo',
         ],
-        'Pagination'                 => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,

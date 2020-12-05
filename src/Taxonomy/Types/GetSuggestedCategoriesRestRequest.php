@@ -27,7 +27,7 @@ class GetSuggestedCategoriesRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'category_tree_id',
         ],
-        'q'                => [
+        'q' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

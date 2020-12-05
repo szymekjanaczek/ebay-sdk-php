@@ -27,7 +27,7 @@ class AutomotivePartsCompatibilityPolicyResponse extends \DTS\eBaySDK\Types\Base
             'attribute'   => false,
             'elementName' => 'automotivePartsCompatibilityPolicies',
         ],
-        'warnings'                             => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

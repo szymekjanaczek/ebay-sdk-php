@@ -24,25 +24,25 @@ class GetBidderListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ActiveItemsOnly'  => [
+        'ActiveItemsOnly' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ActiveItemsOnly',
         ],
-        'EndTimeFrom'      => [
+        'EndTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTimeFrom',
         ],
-        'EndTimeTo'        => [
+        'EndTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTimeTo',
         ],
-        'UserID'           => [
+        'UserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

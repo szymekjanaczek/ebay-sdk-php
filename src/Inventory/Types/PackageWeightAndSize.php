@@ -22,7 +22,7 @@ class PackageWeightAndSize extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dimensions'  => [
+        'dimensions' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Dimension',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class PackageWeightAndSize extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'packageType',
         ],
-        'weight'      => [
+        'weight' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Weight',
             'repeatable'  => false,
             'attribute'   => false,

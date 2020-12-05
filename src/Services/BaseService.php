@@ -53,8 +53,7 @@ abstract class BaseService
         $productionUrl,
         $sandboxUrl,
         array $config
-    )
-    {
+    ) {
         $this->resolver      = new ConfigurationResolver(static::getConfigDefinitions());
         $this->config        = $this->resolver->resolve($config);
         $this->productionUrl = $productionUrl;
@@ -69,7 +68,7 @@ abstract class BaseService
     public static function getConfigDefinitions()
     {
         return [
-            'profile'          => [
+            'profile' => [
                 'valid' => ['string'],
                 'fn'    => 'DTS\eBaySDK\applyProfile',
             ],
@@ -77,25 +76,25 @@ abstract class BaseService
                 'valid'   => ['bool'],
                 'default' => false,
             ],
-            'credentials'      => [
+            'credentials' => [
                 'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
                 'fn'      => 'DTS\eBaySDK\applyCredentials',
                 'default' => [CredentialsProvider::class, 'defaultProvider'],
             ],
-            'debug'            => [
+            'debug' => [
                 'valid'   => ['bool', 'array'],
                 'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false,
             ],
-            'httpHandler'      => [
+            'httpHandler' => [
                 'valid'   => ['callable'],
                 'default' => 'DTS\eBaySDK\defaultHttpHandler',
             ],
-            'httpOptions'      => [
+            'httpOptions' => [
                 'valid'   => ['array'],
                 'default' => [],
             ],
-            'sandbox'          => [
+            'sandbox' => [
                 'valid'   => ['bool'],
                 'default' => false,
             ],

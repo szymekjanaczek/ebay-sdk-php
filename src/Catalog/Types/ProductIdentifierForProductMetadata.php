@@ -22,7 +22,7 @@ class ProductIdentifierForProductMetadata extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'constraint'                 => [
+        'constraint' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ProductIdentifierForProductMetadata extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'valueAssociatedWithProduct',
         ],
-        'values'                     => [
+        'values' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

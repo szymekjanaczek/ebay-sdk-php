@@ -27,7 +27,7 @@ class Dimension extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'annotationKeys',
         ],
-        'dimensionKey'   => [
+        'dimensionKey' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

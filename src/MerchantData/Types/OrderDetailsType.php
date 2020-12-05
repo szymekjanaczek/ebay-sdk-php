@@ -51,133 +51,133 @@ class OrderDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OrderID'                    => [
+        'OrderID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderID',
         ],
-        'BuyerUserID'                => [
+        'BuyerUserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerUserID',
         ],
-        'BuyerFirstName'             => [
+        'BuyerFirstName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerFirstName',
         ],
-        'BuyerLastName'              => [
+        'BuyerLastName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerLastName',
         ],
-        'BuyerEmail'                 => [
+        'BuyerEmail' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerEmail',
         ],
-        'BuyerPhone'                 => [
+        'BuyerPhone' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerPhone',
         ],
-        'ShipRecipientName'          => [
+        'ShipRecipientName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipRecipientName',
         ],
-        'ShipStreet1'                => [
+        'ShipStreet1' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipStreet1',
         ],
-        'ShipStreet2'                => [
+        'ShipStreet2' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipStreet2',
         ],
-        'ShipCityName'               => [
+        'ShipCityName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipCityName',
         ],
-        'ShipStateOrProvince'        => [
+        'ShipStateOrProvince' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipStateOrProvince',
         ],
-        'ShipPostalCode'             => [
+        'ShipPostalCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipPostalCode',
         ],
-        'ShipCountryName'            => [
+        'ShipCountryName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipCountryName',
         ],
-        'ShippingService'            => [
+        'ShippingService' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingService',
         ],
-        'PaymentClearedTime'         => [
+        'PaymentClearedTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentClearedTime',
         ],
-        'CheckoutSiteID'             => [
+        'CheckoutSiteID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CheckoutSiteID',
         ],
-        'OrderCreationTime'          => [
+        'OrderCreationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderCreationTime',
         ],
-        'OrderSalePrice'             => [
+        'OrderSalePrice' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderSalePrice',
         ],
-        'TaxAmount'                  => [
+        'TaxAmount' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TaxAmount',
         ],
-        'InsuranceCost'              => [
+        'InsuranceCost' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'InsuranceCost',
         ],
-        'ShippingCost'               => [
+        'ShippingCost' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingCost',
         ],
-        'OrderTotalCost'             => [
+        'OrderTotalCost' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -189,55 +189,55 @@ class OrderDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SellingManagerSaleRecordID',
         ],
-        'OrderItemDetails'           => [
+        'OrderItemDetails' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\OrderItemDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderItemDetails',
         ],
-        'BuyerStaticAlias'           => [
+        'BuyerStaticAlias' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerStaticAlias',
         ],
-        'ShippingServiceToken'       => [
+        'ShippingServiceToken' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingServiceToken',
         ],
-        'CheckoutStatus'             => [
+        'CheckoutStatus' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\CheckoutStatusType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CheckoutStatus',
         ],
-        'PaymentHoldStatus'          => [
+        'PaymentHoldStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentHoldStatus',
         ],
-        'ExternalTransaction'        => [
+        'ExternalTransaction' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\ExternalTransactionType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ExternalTransaction',
         ],
-        'ShipReferenceId'            => [
+        'ShipReferenceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipReferenceId',
         ],
-        'PickupDetails'              => [
+        'PickupDetails' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\PickupDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PickupDetails',
         ],
-        'PickupMethodSelected'       => [
+        'PickupMethodSelected' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\PickupMethodSelectedType',
             'repeatable'  => false,
             'attribute'   => false,

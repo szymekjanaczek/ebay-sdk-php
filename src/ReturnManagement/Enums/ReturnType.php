@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 
 class ReturnType
 {
-    public const C_MONEY_BACK = 'MONEY_BACK';
+    public const C_MONEY_BACK  = 'MONEY_BACK';
     public const C_REPLACEMENT = 'REPLACEMENT';
-    public const C_UNKNOWN = 'UNKNOWN';
+    public const C_UNKNOWN     = 'UNKNOWN';
 }

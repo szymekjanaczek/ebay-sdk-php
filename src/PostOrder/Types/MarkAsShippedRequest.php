@@ -25,31 +25,31 @@ class MarkAsShippedRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carrierEnum'    => [
+        'carrierEnum' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierEnum',
         ],
-        'carrierName'    => [
+        'carrierName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierName',
         ],
-        'carrierUsed'    => [
+        'carrierUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'comments'       => [
+        'comments' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'comments',
         ],
-        'shippedDate'    => [
+        'shippedDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,

@@ -32,61 +32,61 @@ class SetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BidderNoticePreferences'                => [
+        'BidderNoticePreferences' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\BidderNoticePreferencesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidderNoticePreferences',
         ],
-        'CombinedPaymentPreferences'             => [
+        'CombinedPaymentPreferences' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\CombinedPaymentPreferencesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CombinedPaymentPreferences',
         ],
-        'SellerPaymentPreferences'               => [
+        'SellerPaymentPreferences' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellerPaymentPreferencesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerPaymentPreferences',
         ],
-        'SellerFavoriteItemPreferences'          => [
+        'SellerFavoriteItemPreferences' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerFavoriteItemPreferences',
         ],
-        'EndOfAuctionEmailPreferences'           => [
+        'EndOfAuctionEmailPreferences' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndOfAuctionEmailPreferences',
         ],
-        'EmailShipmentTrackingNumberPreference'  => [
+        'EmailShipmentTrackingNumberPreference' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EmailShipmentTrackingNumberPreference',
         ],
-        'RequiredShipPhoneNumberPreference'      => [
+        'RequiredShipPhoneNumberPreference' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RequiredShipPhoneNumberPreference',
         ],
-        'UnpaidItemAssistancePreferences'        => [
+        'UnpaidItemAssistancePreferences' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UnpaidItemAssistancePreferences',
         ],
-        'PurchaseReminderEmailPreferences'       => [
+        'PurchaseReminderEmailPreferences' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PurchaseReminderEmailPreferences',
         ],
-        'DispatchCutoffTimePreference'           => [
+        'DispatchCutoffTimePreference' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -98,13 +98,13 @@ class SetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'attribute'   => false,
             'elementName' => 'GlobalShippingProgramListingPreference',
         ],
-        'OverrideGSPserviceWithIntlService'      => [
+        'OverrideGSPserviceWithIntlService' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OverrideGSPserviceWithIntlService',
         ],
-        'OutOfStockControlPreference'            => [
+        'OutOfStockControlPreference' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

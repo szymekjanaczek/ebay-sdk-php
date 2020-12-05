@@ -18,14 +18,14 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'BulkUpdatePriceAndQuantity'          => [
+        'BulkUpdatePriceAndQuantity' => [
             'method'        => 'POST',
             'resource'      => 'bulk_update_price_quantity',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\BulkUpdatePriceAndQuantityRestResponse',
             'params'        => [
             ],
         ],
-        'CreateOrReplaceInventoryItem'        => [
+        'CreateOrReplaceInventoryItem' => [
             'method'        => 'PUT',
             'resource'      => 'inventory_item/{sku}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemRestResponse',
@@ -36,7 +36,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'DeleteInventoryItem'                 => [
+        'DeleteInventoryItem' => [
             'method'        => 'DELETE',
             'resource'      => 'inventory_item/{sku}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteInventoryItemRestResponse',
@@ -47,7 +47,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'GetInventoryItem'                    => [
+        'GetInventoryItem' => [
             'method'        => 'GET',
             'resource'      => 'inventory_item/{sku}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryItemRestResponse',
@@ -58,12 +58,12 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'GetInventoryItems'                   => [
+        'GetInventoryItems' => [
             'method'        => 'GET',
             'resource'      => 'inventory_item',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryItemsRestResponse',
             'params'        => [
-                'limit'  => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
                 'offset' => [
@@ -71,7 +71,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'CreateOrReplaceInventoryItemGroup'   => [
+        'CreateOrReplaceInventoryItemGroup' => [
             'method'        => 'PUT',
             'resource'      => 'inventory_item_group/{inventoryItemGroupKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemGroupRestResponse',
@@ -82,7 +82,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'DeleteInventoryItemGroup'            => [
+        'DeleteInventoryItemGroup' => [
             'method'        => 'DELETE',
             'resource'      => 'inventory_item_group/{inventoryItemGroupKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteInventoryItemGroupRestResponse',
@@ -93,7 +93,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'GetInventoryItemGroup'               => [
+        'GetInventoryItemGroup' => [
             'method'        => 'GET',
             'resource'      => 'inventory_item_group/{inventoryItemGroupKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryItemGroupRestResponse',
@@ -104,14 +104,14 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'BulkMigrateListings'                 => [
+        'BulkMigrateListings' => [
             'method'        => 'POST',
             'resource'      => 'bulk_migrate_listing',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestResponse',
             'params'        => [
             ],
         ],
-        'CreateInventoryLocation'             => [
+        'CreateInventoryLocation' => [
             'method'        => 'POST',
             'resource'      => 'location/{merchantLocationKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateInventoryLocationRestResponse',
@@ -122,7 +122,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'DeleteInventoryLocation'             => [
+        'DeleteInventoryLocation' => [
             'method'        => 'DELETE',
             'resource'      => 'location/{merchantLocationKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteInventoryLocationRestResponse',
@@ -133,7 +133,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'DisableInventoryLocation'            => [
+        'DisableInventoryLocation' => [
             'method'        => 'POST',
             'resource'      => 'location/{merchantLocationKey}/disable',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DisableInventoryLocationRestResponse',
@@ -144,7 +144,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'EnableInventoryLocation'             => [
+        'EnableInventoryLocation' => [
             'method'        => 'POST',
             'resource'      => 'location/{merchantLocationKey}/enable',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\EnableInventoryLocationRestResponse',
@@ -155,7 +155,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'GetInventoryLocation'                => [
+        'GetInventoryLocation' => [
             'method'        => 'GET',
             'resource'      => 'location/{merchantLocationKey}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryLocationRestResponse',
@@ -166,12 +166,12 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'GetInventoryLocations'               => [
+        'GetInventoryLocations' => [
             'method'        => 'GET',
             'resource'      => 'location',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetInventoryLocationsRestResponse',
             'params'        => [
-                'limit'  => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
                 'offset' => [
@@ -179,7 +179,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'UpdateInventoryLocation'             => [
+        'UpdateInventoryLocation' => [
             'method'        => 'POST',
             'resource'      => 'location/{merchantLocationKey}/update_location_details',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\UpdateInventoryLocationRestResponse',
@@ -190,14 +190,14 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'CreateOffer'                         => [
+        'CreateOffer' => [
             'method'        => 'POST',
             'resource'      => 'offer',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\CreateOfferRestResponse',
             'params'        => [
             ],
         ],
-        'DeleteOffer'                         => [
+        'DeleteOffer' => [
             'method'        => 'DELETE',
             'resource'      => 'offer/{offerId}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteOfferRestResponse',
@@ -208,14 +208,14 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'GetListingFees'                      => [
+        'GetListingFees' => [
             'method'        => 'POST',
             'resource'      => 'offer/get_listing_fees',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetListingFeesRestResponse',
             'params'        => [
             ],
         ],
-        'GetOffer'                            => [
+        'GetOffer' => [
             'method'        => 'GET',
             'resource'      => 'offer/{offerId}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetOfferRestResponse',
@@ -226,30 +226,30 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'GetOffers'                           => [
+        'GetOffers' => [
             'method'        => 'GET',
             'resource'      => 'offer',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetOffersRestResponse',
             'params'        => [
-                'format'         => [
+                'format' => [
                     'valid' => ['string'],
                 ],
-                'limit'          => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
                 'marketplace_id' => [
                     'valid' => ['string'],
                 ],
-                'offset'         => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'sku'            => [
+                'sku' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'PublishOffer'                        => [
+        'PublishOffer' => [
             'method'        => 'POST',
             'resource'      => 'offer/{offerId}/publish',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\PublishOfferRestResponse',
@@ -260,7 +260,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'WithdrawOffer'                       => [
+        'WithdrawOffer' => [
             'method'        => 'POST',
             'resource'      => 'offer/{offerId}/withdraw',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\WithdrawOfferRestResponse',
@@ -271,7 +271,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'UpdateOffer'                         => [
+        'UpdateOffer' => [
             'method'        => 'PUT',
             'resource'      => 'offer/{offerId}',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\UpdateOfferRestResponse',
@@ -293,7 +293,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'DeleteProductCompatibility'          => [
+        'DeleteProductCompatibility' => [
             'method'        => 'DELETE',
             'resource'      => 'inventory_item/{sku}/product_compatibility',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\DeleteProductCompatibilityRestResponse',
@@ -304,7 +304,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'GetProductCompatibility'             => [
+        'GetProductCompatibility' => [
             'method'        => 'GET',
             'resource'      => 'inventory_item/{sku}/product_compatibility',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\GetProductCompatibilityRestResponse',
@@ -315,7 +315,7 @@ class InventoryService extends \DTS\eBaySDK\Inventory\Services\InventoryBaseServ
                 ],
             ],
         ],
-        'PublishOfferByInventoryItemGroup'    => [
+        'PublishOfferByInventoryItemGroup' => [
             'method'        => 'POST',
             'resource'      => 'offer/publish_by_inventory_item_group',
             'responseClass' => '\DTS\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestResponse',

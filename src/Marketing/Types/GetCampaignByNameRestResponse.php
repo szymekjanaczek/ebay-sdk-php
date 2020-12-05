@@ -27,7 +27,7 @@ class GetCampaignByNameRestResponse extends \DTS\eBaySDK\Marketing\Types\Campaig
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

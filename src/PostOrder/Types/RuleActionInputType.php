@@ -21,7 +21,7 @@ class RuleActionInputType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'actionData'     => [
+        'actionData' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\RuleActionDataDetailType',
             'repeatable'  => true,
             'attribute'   => false,

@@ -36,61 +36,61 @@ class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'attribute'   => false,
             'elementName' => 'AccountHistorySelection',
         ],
-        'InvoiceDate'             => [
+        'InvoiceDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'InvoiceDate',
         ],
-        'BeginDate'               => [
+        'BeginDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BeginDate',
         ],
-        'EndDate'                 => [
+        'EndDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndDate',
         ],
-        'Pagination'              => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'ExcludeBalance'          => [
+        'ExcludeBalance' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExcludeBalance',
         ],
-        'ExcludeSummary'          => [
+        'ExcludeSummary' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExcludeSummary',
         ],
-        'IncludeConversionRate'   => [
+        'IncludeConversionRate' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'IncludeConversionRate',
         ],
-        'AccountEntrySortType'    => [
+        'AccountEntrySortType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AccountEntrySortType',
         ],
-        'Currency'                => [
+        'Currency' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Currency',
         ],
-        'ItemID'                  => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

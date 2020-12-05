@@ -30,13 +30,13 @@ class ShippingService extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'additionalShippingCost'      => [
+        'additionalShippingCost' => [
             'type'        => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'additionalShippingCost',
         ],
-        'buyerResponsibleForPickup'   => [
+        'buyerResponsibleForPickup' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,49 +48,49 @@ class ShippingService extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyerResponsibleForShipping',
         ],
-        'cashOnDeliveryFee'           => [
+        'cashOnDeliveryFee' => [
             'type'        => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cashOnDeliveryFee',
         ],
-        'freeShipping'                => [
+        'freeShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'freeShipping',
         ],
-        'shippingCarrierCode'         => [
+        'shippingCarrierCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingCost'                => [
+        'shippingCost' => [
             'type'        => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'shippingServiceCode'         => [
+        'shippingServiceCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingServiceCode',
         ],
-        'shipToLocations'             => [
+        'shipToLocations' => [
             'type'        => 'DTS\eBaySDK\Account\Types\RegionSet',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shipToLocations',
         ],
-        'sortOrder'                   => [
+        'sortOrder' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sortOrder',
         ],
-        'surcharge'                   => [
+        'surcharge' => [
             'type'        => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

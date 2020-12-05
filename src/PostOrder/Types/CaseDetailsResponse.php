@@ -48,91 +48,91 @@ class CaseDetailsResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'actionDeadlines'                         => [
+        'actionDeadlines' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ActionDeadlines',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'actionDeadlines',
         ],
-        'appealDetails'                           => [
+        'appealDetails' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\AppealDetails',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'appealDetails',
         ],
-        'buyerClosureReason'                      => [
+        'buyerClosureReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerClosureReason',
         ],
-        'buyerProtectedProgramLink'               => [
+        'buyerProtectedProgramLink' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerProtectedProgramLink',
         ],
-        'caseDetails'                             => [
+        'caseDetails' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\CaseDetails',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseDetails',
         ],
-        'caseHistoryDetails'                      => [
+        'caseHistoryDetails' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseHistoryDetails',
         ],
-        'caseId'                                  => [
+        'caseId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseId',
         ],
-        'caseQuantity'                            => [
+        'caseQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseQuantity',
         ],
-        'caseType'                                => [
+        'caseType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'caseType',
         ],
-        'claimAmount'                             => [
+        'claimAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'claimAmount',
         ],
-        'creationDate'                            => [
+        'creationDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'escalatedBy'                             => [
+        'escalatedBy' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'escalatedBy',
         ],
-        'escalateReason'                          => [
+        'escalateReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'escalateReason',
         ],
-        'eventTicketsLink'                        => [
+        'eventTicketsLink' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eventTicketsLink',
         ],
-        'extTransactionId'                        => [
+        'extTransactionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -144,79 +144,79 @@ class CaseDetailsResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'fsnadDaysToAddTrackingAfterShippingItem',
         ],
-        'fsnadShipToSellerByDate'                 => [
+        'fsnadShipToSellerByDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fsnadShipToSellerByDate',
         ],
-        'initiator'                               => [
+        'initiator' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'initiator',
         ],
-        'itemId'                                  => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'lastModifiedDate'                        => [
+        'lastModifiedDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lastModifiedDate',
         ],
-        'payForItemLink'                          => [
+        'payForItemLink' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'payForItemLink',
         ],
-        'priceSignatureConfirmationAmount'        => [
+        'priceSignatureConfirmationAmount' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'priceSignatureConfirmationAmount',
         ],
-        'recalledItemLink'                        => [
+        'recalledItemLink' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'recalledItemLink',
         ],
-        'returnDetails'                           => [
+        'returnDetails' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnAddress',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnDetails',
         ],
-        'returnId'                                => [
+        'returnId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'returnId',
         ],
-        'sellerClosureReason'                     => [
+        'sellerClosureReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerClosureReason',
         ],
-        'shippingFee'                             => [
+        'shippingFee' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingFee',
         ],
-        'status'                                  => [
+        'status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'status',
         ],
-        'transactionId'                           => [
+        'transactionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

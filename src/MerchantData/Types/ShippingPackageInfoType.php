@@ -26,13 +26,13 @@ class ShippingPackageInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'StoreID'                  => [
+        'StoreID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreID',
         ],
-        'ShippingTrackingEvent'    => [
+        'ShippingTrackingEvent' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -50,7 +50,7 @@ class ShippingPackageInfoType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ScheduledDeliveryTimeMax',
         ],
-        'ActualDeliveryTime'       => [
+        'ActualDeliveryTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

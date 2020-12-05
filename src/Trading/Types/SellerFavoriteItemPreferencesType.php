@@ -26,7 +26,7 @@ class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SearchKeywords'  => [
+        'SearchKeywords' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -38,7 +38,7 @@ class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'StoreCategoryID',
         ],
-        'ListingType'     => [
+        'ListingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -50,19 +50,19 @@ class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SearchSortOrder',
         ],
-        'MinPrice'        => [
+        'MinPrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MinPrice',
         ],
-        'MaxPrice'        => [
+        'MaxPrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxPrice',
         ],
-        'FavoriteItemID'  => [
+        'FavoriteItemID' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

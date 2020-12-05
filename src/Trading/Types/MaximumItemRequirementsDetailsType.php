@@ -21,7 +21,7 @@ class MaximumItemRequirementsDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'MaximumItemCount'     => [
+        'MaximumItemCount' => [
             'type'        => 'integer',
             'repeatable'  => true,
             'attribute'   => false,

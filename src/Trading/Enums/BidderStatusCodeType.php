@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class BidderStatusCodeType
 {
-    public const C_APPROVED = 'Approved';
+    public const C_APPROVED    = 'Approved';
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_DENIED = 'Denied';
-    public const C_PENDING = 'Pending';
+    public const C_DENIED      = 'Denied';
+    public const C_PENDING     = 'Pending';
 }

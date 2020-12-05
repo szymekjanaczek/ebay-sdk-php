@@ -26,37 +26,37 @@ class SellingManagerAutoListAccordingToScheduleType extends \DTS\eBaySDK\Types\B
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DayOfWeek'                 => [
+        'DayOfWeek' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'DayOfWeek',
         ],
-        'ListingPeriodInWeeks'      => [
+        'ListingPeriodInWeeks' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingPeriodInWeeks',
         ],
-        'ListAtSpecificTimeOfDay'   => [
+        'ListAtSpecificTimeOfDay' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListAtSpecificTimeOfDay',
         ],
-        'StartTime'                 => [
+        'StartTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartTime',
         ],
-        'EndTime'                   => [
+        'EndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndTime',
         ],
-        'MaxActiveItemCount'        => [
+        'MaxActiveItemCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

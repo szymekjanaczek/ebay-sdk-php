@@ -21,7 +21,7 @@ class GetCategoryInfoRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID'      => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

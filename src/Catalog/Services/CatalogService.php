@@ -18,7 +18,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'GetProduct'                      => [
+        'GetProduct' => [
             'method'        => 'GET',
             'resource'      => 'product/{epid}',
             'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetProductRestResponse',
@@ -29,38 +29,38 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
                 ],
             ],
         ],
-        'Search'                          => [
+        'Search' => [
             'method'        => 'GET',
             'resource'      => 'product_summary/search',
             'responseClass' => '\DTS\eBaySDK\Catalog\Types\SearchRestResponse',
             'params'        => [
-                'offset'        => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'limit'         => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'fieldgroups'   => [
+                'fieldgroups' => [
                     'valid' => ['string'],
                 ],
                 'aspect_filter' => [
                     'valid' => ['string'],
                 ],
-                'category_ids'  => [
+                'category_ids' => [
                     'valid' => ['string'],
                 ],
-                'mpn'           => [
+                'mpn' => [
                     'valid' => ['string'],
                 ],
-                'gtin'          => [
+                'gtin' => [
                     'valid' => ['string'],
                 ],
-                'q'             => [
+                'q' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'GetProductMetadata'              => [
+        'GetProductMetadata' => [
             'method'        => 'GET',
             'resource'      => 'get_product_metadata',
             'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetProductMetadataRestResponse',
@@ -68,10 +68,10 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
                 'other_applicable_category_ids' => [
                     'valid' => ['string'],
                 ],
-                'primary_category_id'           => [
+                'primary_category_id' => [
                     'valid' => ['string'],
                 ],
-                'epid'                          => [
+                'epid' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -85,13 +85,13 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
                 'other_applicable_category_ids' => [
                     'valid' => ['string'],
                 ],
-                'primary_category_id'           => [
+                'primary_category_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetChangeRequest'                => [
+        'GetChangeRequest' => [
             'method'        => 'GET',
             'resource'      => 'change_request/{change_request_id}',
             'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetChangeRequestRestResponse',
@@ -102,7 +102,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
                 ],
             ],
         ],
-        'GetChangeRequests'               => [
+        'GetChangeRequests' => [
             'method'        => 'GET',
             'resource'      => 'change_request',
             'responseClass' => '\DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestResponse',
@@ -110,7 +110,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
                 'offset' => [
                     'valid' => ['string'],
                 ],
-                'limit'  => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
                 'filter' => [
@@ -118,7 +118,7 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
                 ],
             ],
         ],
-        'CreateChangeRequest'             => [
+        'CreateChangeRequest' => [
             'method'        => 'PUT',
             'resource'      => 'change_request',
             'responseClass' => '\DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestResponse',

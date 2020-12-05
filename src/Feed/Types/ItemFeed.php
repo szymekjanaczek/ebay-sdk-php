@@ -41,97 +41,97 @@ class ItemFeed extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ageGroup'                 => [
+        'ageGroup' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ageGroup',
         ],
-        'brand'                    => [
+        'brand' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'category'                 => [
+        'category' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'category',
         ],
-        'categoryId'               => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'color'                    => [
+        'color' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'color',
         ],
-        'condition'                => [
+        'condition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'condition',
         ],
-        'conditionId'              => [
+        'conditionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'conditionId',
         ],
-        'gender'                   => [
+        'gender' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'gender',
         ],
-        'gtin'                     => [
+        'gtin' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'gtin',
         ],
-        'imageUrl'                 => [
+        'imageUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'imageUrl',
         ],
-        'itemEndDate'              => [
+        'itemEndDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemEndDate',
         ],
-        'itemId'                   => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'material'                 => [
+        'material' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'material',
         ],
-        'mpn'                      => [
+        'mpn' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'mpn',
         ],
-        'priceCurrency'            => [
+        'priceCurrency' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'priceCurrency',
         ],
-        'priceValue'               => [
+        'priceValue' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -143,31 +143,31 @@ class ItemFeed extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'sellerFeedbackPercentage',
         ],
-        'sellerFeedbackScore'      => [
+        'sellerFeedbackScore' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerFeedbackScore',
         ],
-        'sellerUsername'           => [
+        'sellerUsername' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerUsername',
         ],
-        'size'                     => [
+        'size' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'size',
         ],
-        'sizeType'                 => [
+        'sizeType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sizeType',
         ],
-        'title'                    => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

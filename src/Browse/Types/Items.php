@@ -27,7 +27,7 @@ class Items extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'commonDescriptions',
         ],
-        'items'              => [
+        'items' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Item',
             'repeatable'  => true,
             'attribute'   => false,

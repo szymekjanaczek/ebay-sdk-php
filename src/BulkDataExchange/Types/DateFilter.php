@@ -27,7 +27,7 @@ class DateFilter extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'startTime',
         ],
-        'endTime'   => [
+        'endTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

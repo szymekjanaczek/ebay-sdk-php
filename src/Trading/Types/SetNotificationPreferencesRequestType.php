@@ -30,25 +30,25 @@ class SetNotificationPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\A
             'attribute'   => false,
             'elementName' => 'ApplicationDeliveryPreferences',
         ],
-        'UserDeliveryPreferenceArray'    => [
+        'UserDeliveryPreferenceArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\NotificationEnableArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserDeliveryPreferenceArray',
         ],
-        'UserData'                       => [
+        'UserData' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\NotificationUserDataType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UserData',
         ],
-        'EventProperty'                  => [
+        'EventProperty' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\NotificationEventPropertyType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'EventProperty',
         ],
-        'DeliveryURLName'                => [
+        'DeliveryURLName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

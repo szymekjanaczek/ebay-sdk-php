@@ -28,13 +28,13 @@ class SubscriptionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'EIASToken',
         ],
-        'SiteID'    => [
+        'SiteID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SiteID',
         ],
-        'Active'    => [
+        'Active' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

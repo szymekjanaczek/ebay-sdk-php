@@ -23,19 +23,19 @@ class RateTableDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DomesticRateTable'        => [
+        'DomesticRateTable' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DomesticRateTable',
         ],
-        'InternationalRateTable'   => [
+        'InternationalRateTable' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'InternationalRateTable',
         ],
-        'DomesticRateTableId'      => [
+        'DomesticRateTableId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

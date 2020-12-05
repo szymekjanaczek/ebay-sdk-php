@@ -28,13 +28,13 @@ class AddItemFromSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\
             'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
-        'ScheduleTime'   => [
+        'ScheduleTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ScheduleTime',
         ],
-        'Item'           => [
+        'Item' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -25,19 +25,19 @@ class EndOfAuctionEmailPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TemplateText'    => [
+        'TemplateText' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TemplateText',
         ],
-        'LogoURL'         => [
+        'LogoURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LogoURL',
         ],
-        'LogoType'        => [
+        'LogoType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,13 +49,13 @@ class EndOfAuctionEmailPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'EmailCustomized',
         ],
-        'TextCustomized'  => [
+        'TextCustomized' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TextCustomized',
         ],
-        'LogoCustomized'  => [
+        'LogoCustomized' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

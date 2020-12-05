@@ -27,7 +27,7 @@ class GetAShippingFulfillmentRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'fulfillmentId',
         ],
-        'orderId'       => [
+        'orderId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

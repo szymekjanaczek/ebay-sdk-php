@@ -23,7 +23,7 @@ class ProductDetailsRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productIdentifier'   => [
+        'productIdentifier' => [
             'type'        => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,7 +35,7 @@ class ProductDetailsRequestType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'datasetPropertyName',
         ],
-        'dataset'             => [
+        'dataset' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class BestOfferActionCodeType
 {
-    public const C_ACCEPT = 'Accept';
-    public const C_COUNTER = 'Counter';
+    public const C_ACCEPT      = 'Accept';
+    public const C_COUNTER     = 'Counter';
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_DECLINE = 'Decline';
+    public const C_DECLINE     = 'Decline';
 }

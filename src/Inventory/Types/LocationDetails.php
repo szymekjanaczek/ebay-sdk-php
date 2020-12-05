@@ -21,7 +21,7 @@ class LocationDetails extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'address'        => [
+        'address' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Address',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class MetaDataCodeResultType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'codeName',
         ],
-        'value'    => [
+        'value' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

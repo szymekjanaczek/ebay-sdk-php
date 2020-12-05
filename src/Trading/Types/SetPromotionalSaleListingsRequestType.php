@@ -26,13 +26,13 @@ class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PromotionalSaleID'          => [
+        'PromotionalSaleID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PromotionalSaleID',
         ],
-        'Action'                     => [
+        'Action' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -44,25 +44,25 @@ class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\A
             'attribute'   => false,
             'elementName' => 'PromotionalSaleItemIDArray',
         ],
-        'StoreCategoryID'            => [
+        'StoreCategoryID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StoreCategoryID',
         ],
-        'CategoryID'                 => [
+        'CategoryID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'AllFixedPriceItems'         => [
+        'AllFixedPriceItems' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AllFixedPriceItems',
         ],
-        'AllAuctionItems'            => [
+        'AllAuctionItems' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

@@ -45,18 +45,18 @@ class BusinessPoliciesManagementBaseService extends \DTS\eBaySDK\Services\BaseSe
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion' => [
-                    'valid'   => ['string'],
-                    'default' => \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService::API_VERSION,
-                ],
-                'authToken'  => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
-                'globalId'   => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
+            'apiVersion' => [
+                'valid'   => ['string'],
+                'default' => \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService::API_VERSION,
+            ],
+            'authToken' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
+            'globalId' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
             ];
     }
 

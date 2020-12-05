@@ -22,13 +22,13 @@ class CreateSignInCheckoutSessionRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'creditCard'      => [
+        'creditCard' => [
             'type'        => 'DTS\eBaySDK\Order\Types\CreditCard',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creditCard',
         ],
-        'lineItemInputs'  => [
+        'lineItemInputs' => [
             'type'        => 'DTS\eBaySDK\Order\Types\LineItemInput',
             'repeatable'  => true,
             'attribute'   => false,

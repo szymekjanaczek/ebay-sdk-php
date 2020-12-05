@@ -28,13 +28,13 @@ class MoneyMovementEntry extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'date'   => [
+        'date' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'date',
         ],
-        'type'   => [
+        'type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

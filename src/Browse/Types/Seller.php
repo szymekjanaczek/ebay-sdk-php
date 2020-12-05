@@ -30,25 +30,25 @@ class Seller extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'feedbackPercentage',
         ],
-        'feedbackScore'      => [
+        'feedbackScore' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'feedbackScore',
         ],
-        'sellerAccountType'  => [
+        'sellerAccountType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerAccountType',
         ],
-        'sellerLegalInfo'    => [
+        'sellerLegalInfo' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\SellerLegalInfo',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerLegalInfo',
         ],
-        'username'           => [
+        'username' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

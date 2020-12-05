@@ -28,13 +28,13 @@ class ModifyCustomListRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'customListDetail',
         ],
-        'forceDelete'      => [
+        'forceDelete' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'forceDelete',
         ],
-        'operation'        => [
+        'operation' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\CustomListModificationType',
             'repeatable'  => false,
             'attribute'   => false,

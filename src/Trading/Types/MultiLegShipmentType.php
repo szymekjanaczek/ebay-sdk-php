@@ -29,19 +29,19 @@ class MultiLegShipmentType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingServiceDetails',
         ],
-        'ShipToAddress'          => [
+        'ShipToAddress' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipToAddress',
         ],
-        'ShippingTimeMin'        => [
+        'ShippingTimeMin' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingTimeMin',
         ],
-        'ShippingTimeMax'        => [
+        'ShippingTimeMax' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

@@ -21,7 +21,7 @@ class AddToWatchListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReque
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'       => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

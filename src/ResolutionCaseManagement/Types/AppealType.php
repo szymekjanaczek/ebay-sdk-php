@@ -25,13 +25,13 @@ class AppealType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'decision'             => [
+        'decision' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'decision',
         ],
-        'decisionReason'       => [
+        'decisionReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class AppealType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'decisionReasonDetail',
         ],
-        'decisionDate'         => [
+        'decisionDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'decisionDate',
         ],
-        'creationDate'         => [
+        'creationDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'id'                   => [
+        'id' => [
             'type'          => 'string',
             'repeatable'    => false,
             'attribute'     => true,

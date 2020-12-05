@@ -21,7 +21,7 @@ class FindCompatibilitiesBySpecificationResponse extends \DTS\eBaySDK\Product\Ty
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'paginationOutput'     => [
+        'paginationOutput' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PaginationOutput',
             'repeatable'  => false,
             'attribute'   => false,

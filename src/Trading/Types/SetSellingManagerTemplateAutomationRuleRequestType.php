@@ -23,19 +23,19 @@ class SetSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Tr
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SaleTemplateID'                 => [
+        'SaleTemplateID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SaleTemplateID',
         ],
-        'AutomatedListingRule'           => [
+        'AutomatedListingRule' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AutomatedListingRule',
         ],
-        'AutomatedRelistingRule'         => [
+        'AutomatedRelistingRule' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
             'repeatable'  => false,
             'attribute'   => false,

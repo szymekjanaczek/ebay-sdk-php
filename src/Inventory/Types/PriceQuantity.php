@@ -22,7 +22,7 @@ class PriceQuantity extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'offers'                     => [
+        'offers' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\OfferPriceQuantity',
             'repeatable'  => true,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class PriceQuantity extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'shipToLocationAvailability',
         ],
-        'sku'                        => [
+        'sku' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

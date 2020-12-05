@@ -26,37 +26,37 @@ class VerifyAddFixedPriceItemResponseType extends \DTS\eBaySDK\Trading\Types\Abs
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'                 => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'SKU'                    => [
+        'SKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'Fees'                   => [
+        'Fees' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Fees',
         ],
-        'CategoryID'             => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'Category2ID'            => [
+        'Category2ID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Category2ID',
         ],
-        'DiscountReason'         => [
+        'DiscountReason' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

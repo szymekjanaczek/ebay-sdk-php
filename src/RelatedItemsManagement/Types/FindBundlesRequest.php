@@ -28,13 +28,13 @@ class FindBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseR
             'attribute'   => false,
             'elementName' => 'bundleDetailSelector',
         ],
-        'findAllByStatus'      => [
+        'findAllByStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'findAllByStatus',
         ],
-        'bundleFilter'         => [
+        'bundleFilter' => [
             'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter',
             'repeatable'  => true,
             'attribute'   => false,

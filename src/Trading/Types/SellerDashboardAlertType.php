@@ -27,7 +27,7 @@ class SellerDashboardAlertType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Severity',
         ],
-        'Text'     => [
+        'Text' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

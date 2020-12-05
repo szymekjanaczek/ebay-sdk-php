@@ -25,13 +25,13 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId'           => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'itemTitle'        => [
+        'itemTitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'transactionPrice',
         ],
-        'transactionDate'  => [
+        'transactionDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'transactionDate',
         ],
-        'globalId'         => [
+        'globalId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'globalId',
         ],
-        'transactionId'    => [
+        'transactionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

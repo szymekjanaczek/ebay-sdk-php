@@ -12,8 +12,8 @@ namespace DTS\eBaySDK\Taxonomy\Enums;
 
 class AspectDataTypeEnum
 {
-    public const C_DATE = 'DATE';
-    public const C_NUMBER = 'NUMBER';
-    public const C_STRING = 'STRING';
+    public const C_DATE         = 'DATE';
+    public const C_NUMBER       = 'NUMBER';
+    public const C_STRING       = 'STRING';
     public const C_STRING_ARRAY = 'STRING_ARRAY';
 }

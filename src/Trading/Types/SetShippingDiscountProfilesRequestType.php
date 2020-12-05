@@ -26,37 +26,37 @@ class SetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CurrencyID'                         => [
+        'CurrencyID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CurrencyID',
         ],
-        'CombinedDuration'                   => [
+        'CombinedDuration' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CombinedDuration',
         ],
-        'ModifyActionCode'                   => [
+        'ModifyActionCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModifyActionCode',
         ],
-        'FlatShippingDiscount'               => [
+        'FlatShippingDiscount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FlatShippingDiscountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FlatShippingDiscount',
         ],
-        'CalculatedShippingDiscount'         => [
+        'CalculatedShippingDiscount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CalculatedShippingDiscount',
         ],
-        'CalculatedHandlingDiscount'         => [
+        'CalculatedHandlingDiscount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
             'repeatable'  => false,
             'attribute'   => false,

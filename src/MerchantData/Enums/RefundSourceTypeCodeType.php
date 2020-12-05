@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class RefundSourceTypeCodeType
 {
-    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_CUSTOM_CODE    = 'CustomCode';
     public const C_PAYMENT_REFUND = 'PaymentRefund';
-    public const C_STORE_CREDIT = 'StoreCredit';
+    public const C_STORE_CREDIT   = 'StoreCredit';
 }

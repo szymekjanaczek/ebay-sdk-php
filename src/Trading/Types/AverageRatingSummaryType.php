@@ -27,7 +27,7 @@ class AverageRatingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'FeedbackSummaryPeriod',
         ],
-        'AverageRatingDetails'  => [
+        'AverageRatingDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AverageRatingDetailsType',
             'repeatable'  => true,
             'attribute'   => false,

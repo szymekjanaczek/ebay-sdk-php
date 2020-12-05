@@ -24,19 +24,19 @@ class MerchantDataVariationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SKU'                => [
+        'SKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'Price'              => [
+        'Price' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Price',
         ],
-        'Quantity'           => [
+        'Quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class MerchantDataVariationType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'VariationSpecifics',
         ],
-        'SellingStatus'      => [
+        'SellingStatus' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\MerchantDataSellingStatusType',
             'repeatable'  => false,
             'attribute'   => false,

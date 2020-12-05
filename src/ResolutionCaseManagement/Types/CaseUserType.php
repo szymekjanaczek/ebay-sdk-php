@@ -27,7 +27,7 @@ class CaseUserType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'userId',
         ],
-        'role'   => [
+        'role' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

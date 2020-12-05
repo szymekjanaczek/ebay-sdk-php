@@ -13,6 +13,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 class StoreHeaderStyleCodeType
 {
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_FULL = 'Full';
-    public const C_MINIMIZED = 'Minimized';
+    public const C_FULL        = 'Full';
+    public const C_MINIMIZED   = 'Minimized';
 }

@@ -29,19 +29,19 @@ class DiscountPriceInfo extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'originalRetailPrice',
         ],
-        'pricingTreatment'    => [
+        'pricingTreatment' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'pricingTreatment',
         ],
-        'soldOnEbay'          => [
+        'soldOnEbay' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'soldOnEbay',
         ],
-        'soldOffEbay'         => [
+        'soldOffEbay' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

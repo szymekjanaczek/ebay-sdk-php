@@ -23,19 +23,19 @@ class ListingPolicies extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'fulfillmentPolicyId'   => [
+        'fulfillmentPolicyId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fulfillmentPolicyId',
         ],
-        'paymentPolicyId'       => [
+        'paymentPolicyId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paymentPolicyId',
         ],
-        'returnPolicyId'        => [
+        'returnPolicyId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

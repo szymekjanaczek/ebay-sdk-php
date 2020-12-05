@@ -38,91 +38,91 @@ class RemindersType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaymentToSendCount'                    => [
+        'PaymentToSendCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentToSendCount',
         ],
-        'FeedbackToReceiveCount'                => [
+        'FeedbackToReceiveCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackToReceiveCount',
         ],
-        'FeedbackToSendCount'                   => [
+        'FeedbackToSendCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackToSendCount',
         ],
-        'OutbidCount'                           => [
+        'OutbidCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OutbidCount',
         ],
-        'PaymentToReceiveCount'                 => [
+        'PaymentToReceiveCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentToReceiveCount',
         ],
-        'SecondChanceOfferCount'                => [
+        'SecondChanceOfferCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SecondChanceOfferCount',
         ],
-        'ShippingNeededCount'                   => [
+        'ShippingNeededCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingNeededCount',
         ],
-        'RelistingNeededCount'                  => [
+        'RelistingNeededCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RelistingNeededCount',
         ],
-        'TotalNewLeadsCount'                    => [
+        'TotalNewLeadsCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalNewLeadsCount',
         ],
-        'DocsForCCProcessingToSendCount'        => [
+        'DocsForCCProcessingToSendCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DocsForCCProcessingToSendCount',
         ],
-        'RTEToProcessCount'                     => [
+        'RTEToProcessCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RTEToProcessCount',
         ],
-        'ItemReceiptToConfirmCount'             => [
+        'ItemReceiptToConfirmCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemReceiptToConfirmCount',
         ],
-        'RefundOnHoldCount'                     => [
+        'RefundOnHoldCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundOnHoldCount',
         ],
-        'RefundCancelledCount'                  => [
+        'RefundCancelledCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundCancelledCount',
         ],
-        'ShippingDetailsToBeProvidedCount'      => [
+        'ShippingDetailsToBeProvidedCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -134,19 +134,19 @@ class RemindersType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ItemReceiptConfirmationToReceiveCount',
         ],
-        'RefundInitiatedCount'                  => [
+        'RefundInitiatedCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefundInitiatedCount',
         ],
-        'PendingRTERequestCount'                => [
+        'PendingRTERequestCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PendingRTERequestCount',
         ],
-        'DeclinedRTERequestCount'               => [
+        'DeclinedRTERequestCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

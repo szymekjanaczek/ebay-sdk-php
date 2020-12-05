@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 class RefundFeeType
 {
     public const C_ORIGINAL_SHIPPING = 'ORIGINAL_SHIPPING';
-    public const C_OTHER = 'OTHER';
-    public const C_PURCHASE_PRICE = 'PURCHASE_PRICE';
-    public const C_RESTOCKING_FEE = 'RESTOCKING_FEE';
+    public const C_OTHER             = 'OTHER';
+    public const C_PURCHASE_PRICE    = 'PURCHASE_PRICE';
+    public const C_RESTOCKING_FEE    = 'RESTOCKING_FEE';
 }

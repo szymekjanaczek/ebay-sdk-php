@@ -27,7 +27,7 @@ class GetPoliciesForItemConditionRestResponse extends \DTS\eBaySDK\Metadata\Type
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

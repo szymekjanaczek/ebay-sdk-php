@@ -28,13 +28,13 @@ class Properties extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'metadataVersion',
         ],
-        'propertyName'    => [
+        'propertyName' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\Property',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'propertyName',
         ],
-        'dataset'         => [
+        'dataset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

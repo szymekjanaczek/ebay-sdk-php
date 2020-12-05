@@ -27,7 +27,7 @@ class FindCompatibilitiesBySpecificationRequest extends \DTS\eBaySDK\Product\Typ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId'                  => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -39,37 +39,37 @@ class FindCompatibilitiesBySpecificationRequest extends \DTS\eBaySDK\Product\Typ
             'attribute'   => false,
             'elementName' => 'compatibilityPropertyFilter',
         ],
-        'specification'               => [
+        'specification' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'specification',
         ],
-        'dataSet'                     => [
+        'dataSet' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'dataSet',
         ],
-        'datasetPropertyName'         => [
+        'datasetPropertyName' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'datasetPropertyName',
         ],
-        'exactMatch'                  => [
+        'exactMatch' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'exactMatch',
         ],
-        'paginationInput'             => [
+        'paginationInput' => [
             'type'        => 'DTS\eBaySDK\Product\Types\PaginationInput',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paginationInput',
         ],
-        'sortOrder'                   => [
+        'sortOrder' => [
             'type'        => 'DTS\eBaySDK\Product\Types\CompatibilitySort',
             'repeatable'  => true,
             'attribute'   => false,

@@ -29,19 +29,19 @@ class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ColorSchemeID',
         ],
-        'Name'          => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'Color'         => [
+        'Color' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreColorType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Color',
         ],
-        'Font'          => [
+        'Font' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreFontType',
             'repeatable'  => false,
             'attribute'   => false,

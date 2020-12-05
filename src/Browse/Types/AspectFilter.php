@@ -27,7 +27,7 @@ class AspectFilter extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'filters'    => [
+        'filters' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\FilterField',
             'repeatable'  => true,
             'attribute'   => false,

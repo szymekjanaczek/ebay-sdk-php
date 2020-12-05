@@ -25,7 +25,7 @@ class CreateGuestCheckoutSessionRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'contactEmail'     => [
+        'contactEmail' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -37,25 +37,25 @@ class CreateGuestCheckoutSessionRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'contactFirstName',
         ],
-        'contactLastName'  => [
+        'contactLastName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'contactLastName',
         ],
-        'creditCard'       => [
+        'creditCard' => [
             'type'        => 'DTS\eBaySDK\Order\Types\CreditCard',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creditCard',
         ],
-        'lineItemInputs'   => [
+        'lineItemInputs' => [
             'type'        => 'DTS\eBaySDK\Order\Types\LineItemInput',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'lineItemInputs',
         ],
-        'shippingAddress'  => [
+        'shippingAddress' => [
             'type'        => 'DTS\eBaySDK\Order\Types\ShippingAddress',
             'repeatable'  => false,
             'attribute'   => false,

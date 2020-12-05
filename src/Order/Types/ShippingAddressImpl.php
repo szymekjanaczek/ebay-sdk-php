@@ -28,49 +28,49 @@ class ShippingAddressImpl extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'addressLine1'    => [
+        'addressLine1' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'addressLine1',
         ],
-        'addressLine2'    => [
+        'addressLine2' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'addressLine2',
         ],
-        'city'            => [
+        'city' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'city',
         ],
-        'country'         => [
+        'country' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'country',
         ],
-        'county'          => [
+        'county' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'county',
         ],
-        'phoneNumber'     => [
+        'phoneNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'phoneNumber',
         ],
-        'postalCode'      => [
+        'postalCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'postalCode',
         ],
-        'recipient'       => [
+        'recipient' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

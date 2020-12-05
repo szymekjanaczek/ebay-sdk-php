@@ -28,37 +28,37 @@ class ErrorDetailV3 extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'category'     => [
+        'category' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'category',
         ],
-        'domain'       => [
+        'domain' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'domain',
         ],
-        'errorId'      => [
+        'errorId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'errorId',
         ],
-        'inputRefIds'  => [
+        'inputRefIds' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'inputRefIds',
         ],
-        'longMessage'  => [
+        'longMessage' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'longMessage',
         ],
-        'message'      => [
+        'message' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -70,13 +70,13 @@ class ErrorDetailV3 extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'outputRefIds',
         ],
-        'parameters'   => [
+        'parameters' => [
             'type'        => 'DTS\eBaySDK\Account\Types\ErrorParameterV3',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'parameters',
         ],
-        'subdomain'    => [
+        'subdomain' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

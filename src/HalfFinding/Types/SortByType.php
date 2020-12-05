@@ -27,7 +27,7 @@ class SortByType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'sortOrder',
         ],
-        'sortOn'    => [
+        'sortOn' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

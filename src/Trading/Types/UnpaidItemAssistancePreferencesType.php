@@ -31,31 +31,31 @@ class UnpaidItemAssistancePreferencesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DelayBeforeOpeningDispute',
         ],
-        'OptInStatus'               => [
+        'OptInStatus' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OptInStatus',
         ],
-        'AutoRelist'                => [
+        'AutoRelist' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AutoRelist',
         ],
-        'RemoveAllExcludedUsers'    => [
+        'RemoveAllExcludedUsers' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RemoveAllExcludedUsers',
         ],
-        'ExcludedUser'              => [
+        'ExcludedUser' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ExcludedUser',
         ],
-        'AutoOptDonationRefund'     => [
+        'AutoOptDonationRefund' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

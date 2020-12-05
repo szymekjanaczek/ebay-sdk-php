@@ -23,19 +23,19 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'appealRef'          => [
+        'appealRef' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'appealRef',
         ],
-        'moneyMovementRef'   => [
+        'moneyMovementRef' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'moneyMovementRef',
         ],
-        'onholdReason'       => [
+        'onholdReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

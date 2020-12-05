@@ -27,7 +27,7 @@ class GetReturnRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'fieldgroups',
         ],
-        'returnId'    => [
+        'returnId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -32,37 +32,37 @@ class CreditCard extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'accountHolderName',
         ],
-        'billingAddress'    => [
+        'billingAddress' => [
             'type'        => 'DTS\eBaySDK\Order\Types\BillingAddress',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'billingAddress',
         ],
-        'brand'             => [
+        'brand' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'cardNumber'        => [
+        'cardNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cardNumber',
         ],
-        'cvvNumber'         => [
+        'cvvNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cvvNumber',
         ],
-        'expireMonth'       => [
+        'expireMonth' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'expireMonth',
         ],
-        'expireYear'        => [
+        'expireYear' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

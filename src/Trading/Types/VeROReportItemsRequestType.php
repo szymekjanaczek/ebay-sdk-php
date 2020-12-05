@@ -27,7 +27,7 @@ class VeROReportItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'attribute'   => false,
             'elementName' => 'RightsOwnerID',
         ],
-        'ReportItems'   => [
+        'ReportItems' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\VeROReportItemsType',
             'repeatable'  => false,
             'attribute'   => false,

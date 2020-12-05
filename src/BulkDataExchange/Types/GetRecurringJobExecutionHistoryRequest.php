@@ -23,13 +23,13 @@ class GetRecurringJobExecutionHistoryRequest extends \DTS\eBaySDK\BulkDataExchan
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'startTime'      => [
+        'startTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'startTime',
         ],
-        'endTime'        => [
+        'endTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class GetRecurringJobExecutionHistoryRequest extends \DTS\eBaySDK\BulkDataExchan
             'attribute'   => false,
             'elementName' => 'recurringJobId',
         ],
-        'jobStatus'      => [
+        'jobStatus' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

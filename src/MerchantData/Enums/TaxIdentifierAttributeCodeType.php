@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 
 class TaxIdentifierAttributeCodeType
 {
-    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_CUSTOM_CODE     = 'CustomCode';
     public const C_ISSUING_COUNTRY = 'IssuingCountry';
 }

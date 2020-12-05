@@ -22,7 +22,7 @@ class GetChallengeTokenResponseType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ChallengeToken'    => [
+        'ChallengeToken' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

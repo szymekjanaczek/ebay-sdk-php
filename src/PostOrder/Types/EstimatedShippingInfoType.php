@@ -21,7 +21,7 @@ class EstimatedShippingInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'carriers'            => [
+        'carriers' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType',
             'repeatable'  => true,
             'attribute'   => false,

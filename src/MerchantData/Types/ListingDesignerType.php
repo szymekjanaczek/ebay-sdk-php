@@ -22,7 +22,7 @@ class ListingDesignerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'LayoutID'           => [
+        'LayoutID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ListingDesignerType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'OptimalPictureSize',
         ],
-        'ThemeID'            => [
+        'ThemeID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

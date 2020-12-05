@@ -22,7 +22,7 @@ class ReviseItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Item'         => [
+        'Item' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ReviseItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'attribute'   => false,
             'elementName' => 'DeletedField',
         ],
-        'VerifyOnly'   => [
+        'VerifyOnly' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

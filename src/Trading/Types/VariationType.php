@@ -34,61 +34,61 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SKU'                                  => [
+        'SKU' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SKU',
         ],
-        'StartPrice'                           => [
+        'StartPrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StartPrice',
         ],
-        'Quantity'                             => [
+        'Quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Quantity',
         ],
-        'VariationSpecifics'                   => [
+        'VariationSpecifics' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'VariationSpecifics',
         ],
-        'UnitsAvailable'                       => [
+        'UnitsAvailable' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UnitsAvailable',
         ],
-        'UnitCost'                             => [
+        'UnitCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UnitCost',
         ],
-        'SellingStatus'                        => [
+        'SellingStatus' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellingStatus',
         ],
-        'VariationTitle'                       => [
+        'VariationTitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VariationTitle',
         ],
-        'VariationViewItemURL'                 => [
+        'VariationViewItemURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VariationViewItemURL',
         ],
-        'Delete'                               => [
+        'Delete' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -100,25 +100,25 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SellingManagerProductInventoryStatus',
         ],
-        'WatchCount'                           => [
+        'WatchCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'WatchCount',
         ],
-        'PrivateNotes'                         => [
+        'PrivateNotes' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PrivateNotes',
         ],
-        'DiscountPriceInfo'                    => [
+        'DiscountPriceInfo' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\DiscountPriceInfoType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DiscountPriceInfo',
         ],
-        'VariationProductListingDetails'       => [
+        'VariationProductListingDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType',
             'repeatable'  => false,
             'attribute'   => false,

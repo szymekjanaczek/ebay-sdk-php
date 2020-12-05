@@ -27,7 +27,7 @@ class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'constraint',
         ],
-        'values'     => [
+        'values' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

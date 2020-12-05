@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 class DeviceTypeCodeType
 {
     public const C_CLIENT_ALERTS = 'ClientAlerts';
-    public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_PLATFORM = 'Platform';
-    public const C_SMS = 'SMS';
+    public const C_CUSTOM_CODE   = 'CustomCode';
+    public const C_PLATFORM      = 'Platform';
+    public const C_SMS           = 'SMS';
 }

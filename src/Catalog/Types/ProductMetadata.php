@@ -28,13 +28,13 @@ class ProductMetadata extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'brand'   => [
+        'brand' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'mpn'     => [
+        'mpn' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
             'repeatable'  => false,
             'attribute'   => false,

@@ -37,103 +37,103 @@ class StoreType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Name'                   => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'URLPath'                => [
+        'URLPath' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'URLPath',
         ],
-        'URL'                    => [
+        'URL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'URL',
         ],
-        'SubscriptionLevel'      => [
+        'SubscriptionLevel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SubscriptionLevel',
         ],
-        'Description'            => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'Logo'                   => [
+        'Logo' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreLogoType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Logo',
         ],
-        'Theme'                  => [
+        'Theme' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreThemeType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Theme',
         ],
-        'HeaderStyle'            => [
+        'HeaderStyle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HeaderStyle',
         ],
-        'HomePage'               => [
+        'HomePage' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HomePage',
         ],
-        'ItemListLayout'         => [
+        'ItemListLayout' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemListLayout',
         ],
-        'ItemListSortOrder'      => [
+        'ItemListSortOrder' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemListSortOrder',
         ],
-        'CustomHeaderLayout'     => [
+        'CustomHeaderLayout' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CustomHeaderLayout',
         ],
-        'CustomHeader'           => [
+        'CustomHeader' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CustomHeader',
         ],
-        'ExportListings'         => [
+        'ExportListings' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExportListings',
         ],
-        'CustomCategories'       => [
+        'CustomCategories' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CustomCategories',
         ],
-        'CustomListingHeader'    => [
+        'CustomListingHeader' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CustomListingHeader',
         ],
-        'LastOpenedTime'         => [
+        'LastOpenedTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

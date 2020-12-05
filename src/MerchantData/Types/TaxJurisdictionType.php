@@ -25,13 +25,13 @@ class TaxJurisdictionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'JurisdictionID'        => [
+        'JurisdictionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'JurisdictionID',
         ],
-        'SalesTaxPercent'       => [
+        'SalesTaxPercent' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class TaxJurisdictionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingIncludedInTax',
         ],
-        'JurisdictionName'      => [
+        'JurisdictionName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'JurisdictionName',
         ],
-        'DetailVersion'         => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'            => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

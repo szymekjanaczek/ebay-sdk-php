@@ -23,19 +23,19 @@ class ProvideLabelResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'labelData'      => [
+        'labelData' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelData',
         ],
-        'labelId'        => [
+        'labelId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelId',
         ],
-        'labelURL'       => [
+        'labelURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

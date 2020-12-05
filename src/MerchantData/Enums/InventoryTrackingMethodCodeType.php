@@ -13,6 +13,6 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class InventoryTrackingMethodCodeType
 {
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_ITEMID = 'ItemID';
-    public const C_SKU = 'SKU';
+    public const C_ITEMID      = 'ItemID';
+    public const C_SKU         = 'SKU';
 }

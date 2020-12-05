@@ -27,37 +27,37 @@ class Product extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productId'     => [
+        'productId' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\ProductId',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'productId',
         ],
-        'title'         => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'title',
         ],
-        'productURL'    => [
+        'productURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'productURL',
         ],
-        'catalogName'   => [
+        'catalogName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'catalogName',
         ],
-        'imageURL'      => [
+        'imageURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'imageURL',
         ],
-        'reviewCount'   => [
+        'reviewCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

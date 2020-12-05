@@ -27,25 +27,25 @@ class GetItemTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaginationResult'               => [
+        'PaginationResult' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'HasMoreTransactions'            => [
+        'HasMoreTransactions' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HasMoreTransactions',
         ],
-        'TransactionsPerPage'            => [
+        'TransactionsPerPage' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionsPerPage',
         ],
-        'PageNumber'                     => [
+        'PageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -57,19 +57,19 @@ class GetItemTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'attribute'   => false,
             'elementName' => 'ReturnedTransactionCountActual',
         ],
-        'Item'                           => [
+        'Item' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Item',
         ],
-        'TransactionArray'               => [
+        'TransactionArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TransactionArray',
         ],
-        'PayPalPreferred'                => [
+        'PayPalPreferred' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

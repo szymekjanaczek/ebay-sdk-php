@@ -27,7 +27,7 @@ class InventoryFeesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'Fee'    => [
+        'Fee' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\FeeType',
             'repeatable'  => true,
             'attribute'   => false,

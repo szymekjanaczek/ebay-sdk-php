@@ -35,91 +35,91 @@ class SellingManagerOrderStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CheckoutStatus'                      => [
+        'CheckoutStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CheckoutStatus',
         ],
-        'PaidStatus'                          => [
+        'PaidStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaidStatus',
         ],
-        'ShippedStatus'                       => [
+        'ShippedStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippedStatus',
         ],
-        'eBayPaymentStatus'                   => [
+        'eBayPaymentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayPaymentStatus',
         ],
-        'PayPalTransactionID'                 => [
+        'PayPalTransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PayPalTransactionID',
         ],
-        'PaymentMethodUsed'                   => [
+        'PaymentMethodUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentMethodUsed',
         ],
-        'FeedbackReceived'                    => [
+        'FeedbackReceived' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackReceived',
         ],
-        'FeedbackSent'                        => [
+        'FeedbackSent' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeedbackSent',
         ],
-        'TotalEmailsSent'                     => [
+        'TotalEmailsSent' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalEmailsSent',
         ],
-        'PaymentHoldStatus'                   => [
+        'PaymentHoldStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentHoldStatus',
         ],
-        'SellerInvoiceNumber'                 => [
+        'SellerInvoiceNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerInvoiceNumber',
         ],
-        'ShippedTime'                         => [
+        'ShippedTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippedTime',
         ],
-        'PaidTime'                            => [
+        'PaidTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaidTime',
         ],
-        'LastEmailSentTime'                   => [
+        'LastEmailSentTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LastEmailSentTime',
         ],
-        'SellerInvoiceTime'                   => [
+        'SellerInvoiceTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

@@ -421,7 +421,7 @@ class FnDispatcher
     private function wrapExpression($from, callable $expr, array $types)
     {
         list($fn, $pos) = explode(':', $from);
-        $from = "The expression return value of argument {$pos} of {$fn}";
+        $from           = "The expression return value of argument {$pos} of {$fn}";
         return function ($value) use ($from, $expr, $types) {
             $value = $expr($value);
             $this->validateType($from, $value, $types);

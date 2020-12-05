@@ -34,85 +34,85 @@ class AccountEntryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'AccountDetailsEntryType'  => [
+        'AccountDetailsEntryType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AccountDetailsEntryType',
         ],
-        'Description'              => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Description',
         ],
-        'Balance'                  => [
+        'Balance' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Balance',
         ],
-        'Date'                     => [
+        'Date' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Date',
         ],
-        'GrossDetailAmount'        => [
+        'GrossDetailAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'GrossDetailAmount',
         ],
-        'ItemID'                   => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'Memo'                     => [
+        'Memo' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Memo',
         ],
-        'ConversionRate'           => [
+        'ConversionRate' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ConversionRate',
         ],
-        'NetDetailAmount'          => [
+        'NetDetailAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NetDetailAmount',
         ],
-        'RefNumber'                => [
+        'RefNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RefNumber',
         ],
-        'VATPercent'               => [
+        'VATPercent' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VATPercent',
         ],
-        'Title'                    => [
+        'Title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Title',
         ],
-        'OrderLineItemID'          => [
+        'OrderLineItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderLineItemID',
         ],
-        'TransactionID'            => [
+        'TransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -23,13 +23,13 @@ class PickupAtLocationAvailability extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'availabilityType'    => [
+        'availabilityType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'availabilityType',
         ],
-        'fulfillmentTime'     => [
+        'fulfillmentTime' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\TimeDuration',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class PickupAtLocationAvailability extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'merchantLocationKey',
         ],
-        'quantity'            => [
+        'quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

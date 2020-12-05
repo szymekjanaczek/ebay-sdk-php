@@ -22,13 +22,13 @@ class UploadFileRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'data'        => [
+        'data' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'data',
         ],
-        'fileName'    => [
+        'fileName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

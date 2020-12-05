@@ -27,7 +27,7 @@ class GetProductSearchNamesRequest extends \DTS\eBaySDK\ProductMetadata\Types\Ba
             'attribute'   => false,
             'elementName' => 'categoryId',
         ],
-        'dataset'    => [
+        'dataset' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

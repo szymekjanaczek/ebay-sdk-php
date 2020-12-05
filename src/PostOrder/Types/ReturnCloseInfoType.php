@@ -28,7 +28,7 @@ class ReturnCloseInfoType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyerCloseComment',
         ],
-        'buyerCloseReason'  => [
+        'buyerCloseReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

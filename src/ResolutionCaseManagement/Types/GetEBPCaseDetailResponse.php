@@ -27,7 +27,7 @@ class GetEBPCaseDetailResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Typ
             'attribute'   => false,
             'elementName' => 'caseSummary',
         ],
-        'caseDetail'  => [
+        'caseDetail' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDetailType',
             'repeatable'  => false,
             'attribute'   => false,

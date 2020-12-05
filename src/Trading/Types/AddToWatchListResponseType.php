@@ -21,7 +21,7 @@ class AddToWatchListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'WatchListCount'   => [
+        'WatchListCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

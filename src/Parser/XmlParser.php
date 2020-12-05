@@ -278,14 +278,7 @@ class XmlParser
     private function setByValue(\stdClass $meta)
     {
         return (
-            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\Base64BinaryType', false) ||
-            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\BooleanType', false) ||
-            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\DecimalType', false) ||
-            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\DoubleType', false) ||
-            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\IntegerType', false) ||
-            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\StringType', false) ||
-            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\TokenType', false) ||
-            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\URIType', false)
+            is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\Base64BinaryType', false) || is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\BooleanType', false) || is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\DecimalType', false) || is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\DoubleType', false) || is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\IntegerType', false) || is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\StringType', false) || is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\TokenType', false) || is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\URIType', false)
         );
     }
 

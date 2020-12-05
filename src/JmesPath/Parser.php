@@ -72,17 +72,17 @@ class Parser
 
     /** @var array Acceptable tokens after a dot token */
     private static $afterDot = [
-        T::T_IDENTIFIER        => true,
+        T::T_IDENTIFIER => true,
         // foo.bar
         T::T_QUOTED_IDENTIFIER => true,
         // foo."bar"
-        T::T_STAR              => true,
+        T::T_STAR => true,
         // foo.*
-        T::T_LBRACE            => true,
+        T::T_LBRACE => true,
         // foo[1]
-        T::T_LBRACKET          => true,
+        T::T_LBRACKET => true,
         // foo{a: 0}
-        T::T_FILTER            => true,
+        T::T_FILTER => true,
         // foo.[?bar==10]
     ];
 

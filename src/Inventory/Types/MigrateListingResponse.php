@@ -26,7 +26,7 @@ class MigrateListingResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'                => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,
@@ -38,31 +38,31 @@ class MigrateListingResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'inventoryItemGroupKey',
         ],
-        'inventoryItems'        => [
+        'inventoryItems' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\InventoryItemListing',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'inventoryItems',
         ],
-        'listingId'             => [
+        'listingId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingId',
         ],
-        'marketplaceId'         => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'statusCode'            => [
+        'statusCode' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'statusCode',
         ],
-        'warnings'              => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

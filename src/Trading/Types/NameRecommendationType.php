@@ -24,13 +24,13 @@ class NameRecommendationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Name'                => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'ValidationRules'     => [
+        'ValidationRules' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -42,13 +42,13 @@ class NameRecommendationType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ValueRecommendation',
         ],
-        'HelpURL'             => [
+        'HelpURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HelpURL',
         ],
-        'HelpText'            => [
+        'HelpText' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

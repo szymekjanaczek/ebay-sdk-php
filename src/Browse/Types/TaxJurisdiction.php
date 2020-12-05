@@ -21,7 +21,7 @@ class TaxJurisdiction extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'region'            => [
+        'region' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Region',
             'repeatable'  => false,
             'attribute'   => false,

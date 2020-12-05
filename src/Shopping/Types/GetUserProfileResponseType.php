@@ -22,7 +22,7 @@ class GetUserProfileResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'User'            => [
+        'User' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\SimpleUserType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -13,6 +13,6 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class EnableCodeType
 {
     public const C_CUSTOM_CODE = 'CustomCode';
-    public const C_DISABLE = 'Disable';
-    public const C_ENABLE = 'Enable';
+    public const C_DISABLE     = 'Disable';
+    public const C_ENABLE      = 'Enable';
 }

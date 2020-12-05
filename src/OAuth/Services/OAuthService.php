@@ -25,7 +25,7 @@ class OAuthService
      * @property array $operations Associative array of operations provided by the service.
      */
     private static $operations = [
-        'getUserToken'     => [
+        'getUserToken' => [
             'method'        => 'POST',
             'resource'      => 'oauth2/token',
             'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetUserTokenRestResponse',
@@ -39,7 +39,7 @@ class OAuthService
             'params'        => [
             ],
         ],
-        'getAppToken'      => [
+        'getAppToken' => [
             'method'        => 'POST',
             'resource'      => 'oauth2/token',
             'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse',
@@ -81,12 +81,12 @@ class OAuthService
     public static function getConfigDefinitions()
     {
         return [
-            'apiVersion'  => [
+            'apiVersion' => [
                 'valid'    => ['string'],
                 'default'  => \DTS\eBaySDK\OAuth\Services\OAuthService::API_VERSION,
                 'required' => true,
             ],
-            'profile'     => [
+            'profile' => [
                 'valid' => ['string'],
                 'fn'    => 'DTS\eBaySDK\applyProfile',
             ],
@@ -95,7 +95,7 @@ class OAuthService
                 'fn'      => 'DTS\eBaySDK\applyCredentials',
                 'default' => [CredentialsProvider::class, 'defaultProvider'],
             ],
-            'debug'       => [
+            'debug' => [
                 'valid'   => ['bool', 'array'],
                 'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false,
@@ -110,11 +110,11 @@ class OAuthService
                     'http_errors' => false,
                 ],
             ],
-            'ruName'      => [
+            'ruName' => [
                 'valid'    => ['string'],
                 'required' => true,
             ],
-            'sandbox'     => [
+            'sandbox' => [
                 'valid'   => ['bool'],
                 'default' => false,
             ],
@@ -298,7 +298,7 @@ class OAuthService
             $requestValues = array_diff_key($requestArray, $operation['params']);
         }
 
-        $url           = $this->uriResolver->resolve(
+        $url = $this->uriResolver->resolve(
             $this->getUrl(),
             $this->getConfig('apiVersion'),
             $operation['resource'],
@@ -356,7 +356,7 @@ class OAuthService
     private function buildRequestBody(array $request)
     {
         $params = array_reduce(array_keys($request), function ($carry, $key) use ($request) {
-            $value       = $request[$key];
+            $value = $request[$key];
             $carry[$key] = is_array($value) ? implode(' ', $value) : $value;
             return $carry;
         }, []);

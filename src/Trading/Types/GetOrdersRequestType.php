@@ -31,61 +31,61 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OrderIDArray'         => [
+        'OrderIDArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderIDArray',
         ],
-        'CreateTimeFrom'       => [
+        'CreateTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CreateTimeFrom',
         ],
-        'CreateTimeTo'         => [
+        'CreateTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CreateTimeTo',
         ],
-        'OrderRole'            => [
+        'OrderRole' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderRole',
         ],
-        'OrderStatus'          => [
+        'OrderStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderStatus',
         ],
-        'ListingType'          => [
+        'ListingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingType',
         ],
-        'Pagination'           => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'ModTimeFrom'          => [
+        'ModTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeFrom',
         ],
-        'ModTimeTo'            => [
+        'ModTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ModTimeTo',
         ],
-        'NumberOfDays'         => [
+        'NumberOfDays' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -97,7 +97,7 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
             'attribute'   => false,
             'elementName' => 'IncludeFinalValueFee',
         ],
-        'SortingOrder'         => [
+        'SortingOrder' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

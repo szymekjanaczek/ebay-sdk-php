@@ -27,7 +27,7 @@ class PaginatedOrderTransactionArrayType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'OrderTransactionArray',
         ],
-        'PaginationResult'      => [
+        'PaginationResult' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable'  => false,
             'attribute'   => false,

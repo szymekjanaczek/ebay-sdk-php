@@ -26,25 +26,25 @@ class AdPagedCollection extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ads'    => [
+        'ads' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Ad',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ads',
         ],
-        'href'   => [
+        'href' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'href',
         ],
-        'limit'  => [
+        'limit' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'next'   => [
+        'next' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class AdPagedCollection extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'prev'   => [
+        'prev' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'total'  => [
+        'total' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

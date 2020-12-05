@@ -32,43 +32,43 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eBayPaymentStatus'                   => [
+        'eBayPaymentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'eBayPaymentStatus',
         ],
-        'CheckoutStatus'                      => [
+        'CheckoutStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CheckoutStatus',
         ],
-        'LastTimeModified'                    => [
+        'LastTimeModified' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LastTimeModified',
         ],
-        'PaymentMethodUsed'                   => [
+        'PaymentMethodUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentMethodUsed',
         ],
-        'CompleteStatus'                      => [
+        'CompleteStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CompleteStatus',
         ],
-        'BuyerSelectedShipping'               => [
+        'BuyerSelectedShipping' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerSelectedShipping',
         ],
-        'PaymentHoldStatus'                   => [
+        'PaymentHoldStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -80,31 +80,31 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'IntegratedMerchantCreditCardEnabled',
         ],
-        'InquiryStatus'                       => [
+        'InquiryStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'InquiryStatus',
         ],
-        'ReturnStatus'                        => [
+        'ReturnStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnStatus',
         ],
-        'PaymentInstrument'                   => [
+        'PaymentInstrument' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaymentInstrument',
         ],
-        'DigitalStatus'                       => [
+        'DigitalStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DigitalStatus',
         ],
-        'CancelStatus'                        => [
+        'CancelStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

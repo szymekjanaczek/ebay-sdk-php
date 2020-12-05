@@ -22,13 +22,13 @@ class AddSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\Abs
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SellingManagerProductDetails'   => [
+        'SellingManagerProductDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellingManagerProductDetails',
         ],
-        'FolderID'                       => [
+        'FolderID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

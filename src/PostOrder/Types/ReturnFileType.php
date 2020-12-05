@@ -27,37 +27,37 @@ class ReturnFileType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'creationDate'    => [
+        'creationDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'fileData'        => [
+        'fileData' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fileData',
         ],
-        'fileFormat'      => [
+        'fileFormat' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fileFormat',
         ],
-        'fileId'          => [
+        'fileId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fileId',
         ],
-        'filePurpose'     => [
+        'filePurpose' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'filePurpose',
         ],
-        'fileStatus'      => [
+        'fileStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -69,7 +69,7 @@ class ReturnFileType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'resizedFileData',
         ],
-        'submitter'       => [
+        'submitter' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

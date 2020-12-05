@@ -27,19 +27,19 @@ class SellerProfile extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'profileName'    => [
+        'profileName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'profileName',
         ],
-        'profileId'      => [
+        'profileId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'profileId',
         ],
-        'profileType'    => [
+        'profileType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -51,19 +51,19 @@ class SellerProfile extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'profileVersion',
         ],
-        'profileDesc'    => [
+        'profileDesc' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'profileDesc',
         ],
-        'deletedDate'    => [
+        'deletedDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'deletedDate',
         ],
-        'siteId'         => [
+        'siteId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

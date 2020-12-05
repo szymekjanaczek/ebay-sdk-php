@@ -23,7 +23,7 @@ class FindItemsRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productID'       => [
+        'productID' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class FindItemsRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
             'attribute'   => false,
             'elementName' => 'paginationInput',
         ],
-        'itemFilter'      => [
+        'itemFilter' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\ItemFilter',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'sortBy'          => [
+        'sortBy' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\SortByType',
             'repeatable'  => false,
             'attribute'   => false,

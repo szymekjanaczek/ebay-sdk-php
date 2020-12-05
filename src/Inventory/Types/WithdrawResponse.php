@@ -27,7 +27,7 @@ class WithdrawResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'listingId',
         ],
-        'warnings'  => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

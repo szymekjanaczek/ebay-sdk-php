@@ -23,7 +23,7 @@ class PaymentDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'HoursToDeposit'    => [
+        'HoursToDeposit' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class PaymentDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DaysToFullPayment',
         ],
-        'DepositAmount'     => [
+        'DepositAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DepositAmount',
         ],
-        'DepositType'       => [
+        'DepositType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

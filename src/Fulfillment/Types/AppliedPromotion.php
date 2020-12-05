@@ -22,7 +22,7 @@ class AppliedPromotion extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'description'    => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class AppliedPromotion extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'discountAmount',
         ],
-        'promotionId'    => [
+        'promotionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

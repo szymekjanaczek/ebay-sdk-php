@@ -35,13 +35,13 @@ class ShippingStep extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'shippingServiceCode',
         ],
-        'shipTo'              => [
+        'shipTo' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Contact',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shipTo',
         ],
-        'shipToReferenceId'   => [
+        'shipToReferenceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

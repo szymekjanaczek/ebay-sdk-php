@@ -35,13 +35,13 @@ class ExternalPaymentMethod extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'paymentMethodType',
         ],
-        'primary'           => [
+        'primary' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'primary',
         ],
-        'verified'          => [
+        'verified' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

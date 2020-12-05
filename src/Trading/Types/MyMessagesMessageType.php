@@ -44,31 +44,31 @@ class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Sender'            => [
+        'Sender' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Sender',
         ],
-        'RecipientUserID'   => [
+        'RecipientUserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RecipientUserID',
         ],
-        'SendToName'        => [
+        'SendToName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SendToName',
         ],
-        'Subject'           => [
+        'Subject' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Subject',
         ],
-        'MessageID'         => [
+        'MessageID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -80,115 +80,115 @@ class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ExternalMessageID',
         ],
-        'ContentType'       => [
+        'ContentType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ContentType',
         ],
-        'Text'              => [
+        'Text' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Text',
         ],
-        'Flagged'           => [
+        'Flagged' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Flagged',
         ],
-        'Read'              => [
+        'Read' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Read',
         ],
-        'CreationDate'      => [
+        'CreationDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CreationDate',
         ],
-        'ReceiveDate'       => [
+        'ReceiveDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReceiveDate',
         ],
-        'ExpirationDate'    => [
+        'ExpirationDate' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExpirationDate',
         ],
-        'ItemID'            => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'ResponseDetails'   => [
+        'ResponseDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ResponseDetails',
         ],
-        'Folder'            => [
+        'Folder' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Folder',
         ],
-        'Content'           => [
+        'Content' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Content',
         ],
-        'MessageType'       => [
+        'MessageType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageType',
         ],
-        'ListingStatus'     => [
+        'ListingStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ListingStatus',
         ],
-        'QuestionType'      => [
+        'QuestionType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuestionType',
         ],
-        'Replied'           => [
+        'Replied' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Replied',
         ],
-        'HighPriority'      => [
+        'HighPriority' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HighPriority',
         ],
-        'ItemEndTime'       => [
+        'ItemEndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemEndTime',
         ],
-        'ItemTitle'         => [
+        'ItemTitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemTitle',
         ],
-        'MessageMedia'      => [
+        'MessageMedia' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
             'repeatable'  => true,
             'attribute'   => false,

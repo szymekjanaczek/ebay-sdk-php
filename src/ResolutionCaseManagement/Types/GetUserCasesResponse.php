@@ -21,7 +21,7 @@ class GetUserCasesResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\B
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'cases'            => [
+        'cases' => [
             'type'        => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseArrayType',
             'repeatable'  => false,
             'attribute'   => false,

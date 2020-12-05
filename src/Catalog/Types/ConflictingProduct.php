@@ -23,7 +23,7 @@ class ConflictingProduct extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'conflictCode'           => [
+        'conflictCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class ConflictingProduct extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'differentiatingAspects',
         ],
-        'epid'                   => [
+        'epid' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'reason'                 => [
+        'reason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

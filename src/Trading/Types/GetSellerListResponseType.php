@@ -26,31 +26,31 @@ class GetSellerListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'PaginationResult'        => [
+        'PaginationResult' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PaginationResult',
         ],
-        'HasMoreItems'            => [
+        'HasMoreItems' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'HasMoreItems',
         ],
-        'ItemArray'               => [
+        'ItemArray' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemArray',
         ],
-        'ItemsPerPage'            => [
+        'ItemsPerPage' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemsPerPage',
         ],
-        'PageNumber'              => [
+        'PageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class GetSellerListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'attribute'   => false,
             'elementName' => 'ReturnedItemCountActual',
         ],
-        'Seller'                  => [
+        'Seller' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable'  => false,
             'attribute'   => false,

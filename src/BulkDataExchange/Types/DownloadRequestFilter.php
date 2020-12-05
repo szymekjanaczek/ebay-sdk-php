@@ -25,13 +25,13 @@ class DownloadRequestFilter extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'feeSettlementReportFilter'   => [
+        'feeSettlementReportFilter' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\FeeSettlementReportFilter',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'feeSettlementReportFilter',
         ],
-        'siteFilter'                  => [
+        'siteFilter' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\SiteFilter',
             'repeatable'  => false,
             'attribute'   => false,
@@ -43,19 +43,19 @@ class DownloadRequestFilter extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'activeInventoryReportFilter',
         ],
-        'dateFilter'                  => [
+        'dateFilter' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\DateFilter',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'dateFilter',
         ],
-        'soldReportFilter'            => [
+        'soldReportFilter' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'soldReportFilter',
         ],
-        'orderReportFilter'           => [
+        'orderReportFilter' => [
             'type'        => 'DTS\eBaySDK\BulkDataExchange\Types\OrderReportFilter',
             'repeatable'  => false,
             'attribute'   => false,

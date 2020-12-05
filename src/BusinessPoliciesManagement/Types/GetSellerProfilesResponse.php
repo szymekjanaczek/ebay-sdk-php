@@ -22,7 +22,7 @@ class GetSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'paymentProfileList'      => [
+        'paymentProfileList' => [
             'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class GetSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\
             'attribute'   => false,
             'elementName' => 'returnPolicyProfileList',
         ],
-        'shippingPolicyProfile'   => [
+        'shippingPolicyProfile' => [
             'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList',
             'repeatable'  => false,
             'attribute'   => false,

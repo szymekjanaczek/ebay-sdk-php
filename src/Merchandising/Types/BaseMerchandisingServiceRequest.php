@@ -27,7 +27,7 @@ class BaseMerchandisingServiceRequest extends \DTS\eBaySDK\Merchandising\Types\B
             'attribute'   => false,
             'elementName' => 'maxResults',
         ],
-        'affiliate'  => [
+        'affiliate' => [
             'type'        => 'DTS\eBaySDK\Merchandising\Types\Affiliate',
             'repeatable'  => false,
             'attribute'   => false,

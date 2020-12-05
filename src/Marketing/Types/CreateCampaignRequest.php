@@ -31,31 +31,31 @@ class CreateCampaignRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'campaignCriterion',
         ],
-        'campaignName'      => [
+        'campaignName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'campaignName',
         ],
-        'endDate'           => [
+        'endDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'endDate',
         ],
-        'fundingStrategy'   => [
+        'fundingStrategy' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\FundingStrategy',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fundingStrategy',
         ],
-        'marketplaceId'     => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'startDate'         => [
+        'startDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

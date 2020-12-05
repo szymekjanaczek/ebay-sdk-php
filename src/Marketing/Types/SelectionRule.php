@@ -25,19 +25,19 @@ class SelectionRule extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'brands'              => [
+        'brands' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'brands',
         ],
-        'categoryIds'         => [
+        'categoryIds' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'categoryIds',
         ],
-        'categoryScope'       => [
+        'categoryScope' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,13 +49,13 @@ class SelectionRule extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'listingConditionIds',
         ],
-        'maxPrice'            => [
+        'maxPrice' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxPrice',
         ],
-        'minPrice'            => [
+        'minPrice' => [
             'type'        => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

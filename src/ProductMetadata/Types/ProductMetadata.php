@@ -22,13 +22,13 @@ class ProductMetadata extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'propertyMetadata'       => [
+        'propertyMetadata' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\PropertyMetadata',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'propertyMetadata',
         ],
-        'groupProperties'        => [
+        'groupProperties' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\GroupProperties',
             'repeatable'  => true,
             'attribute'   => false,

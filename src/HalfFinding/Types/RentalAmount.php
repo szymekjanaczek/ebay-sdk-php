@@ -21,7 +21,7 @@ class RentalAmount extends \DTS\eBaySDK\Types\DoubleType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'duration'   => [
+        'duration' => [
             'type'          => 'string',
             'repeatable'    => false,
             'attribute'     => true,

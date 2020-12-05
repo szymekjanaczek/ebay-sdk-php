@@ -45,13 +45,13 @@ class ProductMetadataBaseService extends \DTS\eBaySDK\Services\BaseService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion' => [
-                    'valid'   => ['string'],
-                    'default' => \DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService::API_VERSION,
-                ],
-                'globalId'   => [
-                    'valid' => ['string'],
-                ],
+            'apiVersion' => [
+                'valid'   => ['string'],
+                'default' => \DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService::API_VERSION,
+            ],
+            'globalId' => [
+                'valid' => ['string'],
+            ],
             ];
     }
 

@@ -35,13 +35,13 @@ class ShippingOptionSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'shippingCost'             => [
+        'shippingCost' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCost',
         ],
-        'shippingCostType'         => [
+        'shippingCostType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

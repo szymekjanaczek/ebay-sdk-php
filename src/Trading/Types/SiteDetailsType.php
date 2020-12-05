@@ -23,13 +23,13 @@ class SiteDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Site'          => [
+        'Site' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Site',
         ],
-        'SiteID'        => [
+        'SiteID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class SiteDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'    => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

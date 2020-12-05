@@ -31,31 +31,31 @@ class AppealDetails extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'appealCloseReasonEnum',
         ],
-        'appealDate'            => [
+        'appealDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'appealDate',
         ],
-        'appealReasonCode'      => [
+        'appealReasonCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'appealReasonCode',
         ],
-        'appealStatus'          => [
+        'appealStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'appealStatus',
         ],
-        'appealStatusEnum'      => [
+        'appealStatusEnum' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'appealStatusEnum',
         ],
-        'eligibleForAppeal'     => [
+        'eligibleForAppeal' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

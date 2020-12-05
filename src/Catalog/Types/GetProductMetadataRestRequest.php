@@ -28,13 +28,13 @@ class GetProductMetadataRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'other_applicable_category_ids',
         ],
-        'primary_category_id'           => [
+        'primary_category_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'primary_category_id',
         ],
-        'epid'                          => [
+        'epid' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -23,7 +23,7 @@ class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'BestOfferCount'   => [
+        'BestOfferCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'BestOfferEnabled',
         ],
-        'BestOffer'        => [
+        'BestOffer' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BestOffer',
         ],
-        'BestOfferStatus'  => [
+        'BestOfferStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

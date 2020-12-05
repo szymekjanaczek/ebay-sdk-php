@@ -21,7 +21,7 @@ class SortOption extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'sortType'  => [
+        'sortType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

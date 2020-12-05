@@ -27,7 +27,7 @@ class DeliveryDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'Recipient',
         ],
-        'Sender'    => [
+        'Sender' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\DigitalDeliveryUserType',
             'repeatable'  => false,
             'attribute'   => false,

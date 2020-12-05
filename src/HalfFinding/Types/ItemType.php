@@ -32,49 +32,49 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemID'                => [
+        'itemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemID',
         ],
-        'itemURL'               => [
+        'itemURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemURL',
         ],
-        'quantity'              => [
+        'quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'quantity',
         ],
-        'seller'                => [
+        'seller' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\UserType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'seller',
         ],
-        'price'                 => [
+        'price' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'price',
         ],
-        'rentalPrice'           => [
+        'rentalPrice' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\RentalAmount',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'rentalPrice',
         ],
-        'shippingService'       => [
+        'shippingService' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\ShippingServiceOptionsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'shippingService',
         ],
-        'itemLocation'          => [
+        'itemLocation' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -86,25 +86,25 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'excludedShippingAreas',
         ],
-        'condition'             => [
+        'condition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'condition',
         ],
-        'comments'              => [
+        'comments' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'comments',
         ],
-        'description'           => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'storefront'            => [
+        'storefront' => [
             'type'        => 'DTS\eBaySDK\HalfFinding\Types\StorefrontType',
             'repeatable'  => false,
             'attribute'   => false,

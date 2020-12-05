@@ -27,7 +27,7 @@ class VoidLabelRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'comments',
         ],
-        'labelId'  => [
+        'labelId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

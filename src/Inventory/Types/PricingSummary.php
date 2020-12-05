@@ -24,7 +24,7 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'minimumAdvertisedPrice'         => [
+        'minimumAdvertisedPrice' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -36,19 +36,19 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'originallySoldForRetailPriceOn',
         ],
-        'originalRetailPrice'            => [
+        'originalRetailPrice' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'originalRetailPrice',
         ],
-        'price'                          => [
+        'price' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'price',
         ],
-        'pricingVisibility'              => [
+        'pricingVisibility' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

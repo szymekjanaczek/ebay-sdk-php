@@ -29,19 +29,19 @@ class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ProductName'       => [
+        'ProductName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProductName',
         ],
-        'ProductID'         => [
+        'ProductID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProductID',
         ],
-        'CustomLabel'       => [
+        'CustomLabel' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -53,37 +53,37 @@ class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'QuantityAvailable',
         ],
-        'UnitCost'          => [
+        'UnitCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UnitCost',
         ],
-        'FolderID'          => [
+        'FolderID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FolderID',
         ],
-        'RestockAlert'      => [
+        'RestockAlert' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RestockAlert',
         ],
-        'RestockThreshold'  => [
+        'RestockThreshold' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'RestockThreshold',
         ],
-        'VendorInfo'        => [
+        'VendorInfo' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VendorInfo',
         ],
-        'Note'              => [
+        'Note' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

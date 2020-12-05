@@ -35,61 +35,61 @@ class Product extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'additionalImages'           => [
+        'additionalImages' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\Image',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'additionalImages',
         ],
-        'aspects'                    => [
+        'aspects' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\Aspect',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'brand'                      => [
+        'brand' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'brand',
         ],
-        'description'                => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'ean'                        => [
+        'ean' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ean',
         ],
-        'epid'                       => [
+        'epid' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'epid',
         ],
-        'gtin'                       => [
+        'gtin' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'gtin',
         ],
-        'image'                      => [
+        'image' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\Image',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'image',
         ],
-        'isbn'                       => [
+        'isbn' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'isbn',
         ],
-        'mpn'                        => [
+        'mpn' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
@@ -101,31 +101,31 @@ class Product extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'otherApplicableCategoryIds',
         ],
-        'primaryCategoryId'          => [
+        'primaryCategoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'primaryCategoryId',
         ],
-        'productWebUrl'              => [
+        'productWebUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'productWebUrl',
         ],
-        'title'                      => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'title',
         ],
-        'upc'                        => [
+        'upc' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'upc',
         ],
-        'version'                    => [
+        'version' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

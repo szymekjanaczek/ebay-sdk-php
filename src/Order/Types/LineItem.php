@@ -29,19 +29,19 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'image'                 => [
+        'image' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Image',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'image',
         ],
-        'itemId'                => [
+        'itemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemId',
         ],
-        'lineItemId'            => [
+        'lineItemId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -53,37 +53,37 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'lineItemPaymentStatus',
         ],
-        'lineItemStatus'        => [
+        'lineItemStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'lineItemStatus',
         ],
-        'netPrice'              => [
+        'netPrice' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'netPrice',
         ],
-        'quantity'              => [
+        'quantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'quantity',
         ],
-        'seller'                => [
+        'seller' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Seller',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'seller',
         ],
-        'shippingDetail'        => [
+        'shippingDetail' => [
             'type'        => 'DTS\eBaySDK\Order\Types\ShippingDetail',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingDetail',
         ],
-        'title'                 => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -21,7 +21,7 @@ class AddOrderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'OrderID'     => [
+        'OrderID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

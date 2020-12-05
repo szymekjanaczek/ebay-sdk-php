@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 
 class LabelPrintStatusEnum
 {
-    public const C_EXPIRED = 'EXPIRED';
-    public const C_FAILED = 'FAILED';
-    public const C_PRINTED = 'PRINTED';
+    public const C_EXPIRED   = 'EXPIRED';
+    public const C_FAILED    = 'FAILED';
+    public const C_PRINTED   = 'PRINTED';
     public const C_REQUESTED = 'REQUESTED';
-    public const C_UNKNOWN = 'UNKNOWN';
+    public const C_UNKNOWN   = 'UNKNOWN';
 }

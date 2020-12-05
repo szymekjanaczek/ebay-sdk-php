@@ -27,7 +27,7 @@ class CreateOrReplaceProductCompatibilityRestResponse extends \DTS\eBaySDK\Inven
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

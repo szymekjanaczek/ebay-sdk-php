@@ -22,7 +22,7 @@ class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'returnItem'   => [
+        'returnItem' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnItemType',
             'repeatable'  => true,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'returnReason',
         ],
-        'comments'     => [
+        'comments' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

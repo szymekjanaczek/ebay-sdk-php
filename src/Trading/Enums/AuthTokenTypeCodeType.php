@@ -13,5 +13,5 @@ namespace DTS\eBaySDK\Trading\Enums;
 class AuthTokenTypeCodeType
 {
     public const C_CLIENT_ALERTS_TOKEN = 'ClientAlertsToken';
-    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_CUSTOM_CODE         = 'CustomCode';
 }

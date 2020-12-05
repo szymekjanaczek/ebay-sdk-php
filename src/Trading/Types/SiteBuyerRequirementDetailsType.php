@@ -28,7 +28,7 @@ class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'LinkedPayPalAccount'          => [
+        'LinkedPayPalAccount' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -40,7 +40,7 @@ class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'MaximumBuyerPolicyViolations',
         ],
-        'MaximumItemRequirements'      => [
+        'MaximumItemRequirements' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -52,31 +52,31 @@ class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'MaximumUnpaidItemStrikesInfo',
         ],
-        'MinimumFeedbackScore'         => [
+        'MinimumFeedbackScore' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MinimumFeedbackScore',
         ],
-        'ShipToRegistrationCountry'    => [
+        'ShipToRegistrationCountry' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShipToRegistrationCountry',
         ],
-        'VerifiedUserRequirements'     => [
+        'VerifiedUserRequirements' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VerifiedUserRequirements',
         ],
-        'DetailVersion'                => [
+        'DetailVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DetailVersion',
         ],
-        'UpdateTime'                   => [
+        'UpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

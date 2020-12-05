@@ -24,19 +24,19 @@ class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Offer'                    => [
+        'Offer' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\OfferType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Offer',
         ],
-        'ItemID'                   => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'BlockOnWarning'           => [
+        'BlockOnWarning' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'attribute'   => false,
             'elementName' => 'AffiliateTrackingDetails',
         ],
-        'VariationSpecifics'       => [
+        'VariationSpecifics' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -26,19 +26,19 @@ class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Imposition'          => [
+        'Imposition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Imposition',
         ],
-        'TaxDescription'      => [
+        'TaxDescription' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TaxDescription',
         ],
-        'TaxAmount'           => [
+        'TaxAmount' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'TaxOnHandlingAmount',
         ],
-        'TaxCode'             => [
+        'TaxCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

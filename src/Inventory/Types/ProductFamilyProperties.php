@@ -30,25 +30,25 @@ class ProductFamilyProperties extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'engine',
         ],
-        'make'   => [
+        'make' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'make',
         ],
-        'model'  => [
+        'model' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'model',
         ],
-        'trim'   => [
+        'trim' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'trim',
         ],
-        'year'   => [
+        'year' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

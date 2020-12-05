@@ -27,19 +27,19 @@ class InventoryItemGroup extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'aspects'               => [
+        'aspects' => [
             'type'        => 'any',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'aspects',
         ],
-        'description'           => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'imageUrls'             => [
+        'imageUrls' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
@@ -51,25 +51,25 @@ class InventoryItemGroup extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'inventoryItemGroupKey',
         ],
-        'subtitle'              => [
+        'subtitle' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'subtitle',
         ],
-        'title'                 => [
+        'title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'title',
         ],
-        'variantSKUs'           => [
+        'variantSKUs' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'variantSKUs',
         ],
-        'variesBy'              => [
+        'variesBy' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\VariesBy',
             'repeatable'  => false,
             'attribute'   => false,

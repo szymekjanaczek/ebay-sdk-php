@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\ProductMetadata\Enums;
 
 class OrderType
 {
-    public const C_ASCENDING = 'Ascending';
+    public const C_ASCENDING  = 'Ascending';
     public const C_DESCENDING = 'Descending';
 }

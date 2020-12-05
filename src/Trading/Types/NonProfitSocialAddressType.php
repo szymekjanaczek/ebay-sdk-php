@@ -27,7 +27,7 @@ class NonProfitSocialAddressType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SocialAddressType',
         ],
-        'SocialAddressId'   => [
+        'SocialAddressId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

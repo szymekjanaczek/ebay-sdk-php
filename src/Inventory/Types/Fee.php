@@ -22,13 +22,13 @@ class Fee extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'amount'              => [
+        'amount' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'feeType'             => [
+        'feeType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

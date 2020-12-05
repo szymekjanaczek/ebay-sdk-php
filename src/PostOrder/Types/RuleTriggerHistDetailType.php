@@ -22,7 +22,7 @@ class RuleTriggerHistDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemId'     => [
+        'itemId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class RuleTriggerHistDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'returnDate',
         ],
-        'returnId'   => [
+        'returnId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

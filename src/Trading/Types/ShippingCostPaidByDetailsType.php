@@ -27,7 +27,7 @@ class ShippingCostPaidByDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingCostPaidByOption',
         ],
-        'Description'              => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

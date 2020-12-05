@@ -28,7 +28,7 @@ class SearchPagedCollection extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'href'          => [
+        'href' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -40,43 +40,43 @@ class SearchPagedCollection extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'itemSummaries',
         ],
-        'limit'         => [
+        'limit' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'next'          => [
+        'next' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'next',
         ],
-        'offset'        => [
+        'offset' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'prev'          => [
+        'prev' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'prev',
         ],
-        'refinement'    => [
+        'refinement' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\Refinement',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'refinement',
         ],
-        'total'         => [
+        'total' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'total',
         ],
-        'warnings'      => [
+        'warnings' => [
             'type'        => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

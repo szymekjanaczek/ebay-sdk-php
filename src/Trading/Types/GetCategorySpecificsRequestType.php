@@ -28,49 +28,49 @@ class GetCategorySpecificsRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID'                => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'CategoryID',
         ],
-        'LastUpdateTime'            => [
+        'LastUpdateTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LastUpdateTime',
         ],
-        'MaxNames'                  => [
+        'MaxNames' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxNames',
         ],
-        'MaxValuesPerName'          => [
+        'MaxValuesPerName' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxValuesPerName',
         ],
-        'Name'                      => [
+        'Name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Name',
         ],
-        'CategorySpecific'          => [
+        'CategorySpecific' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'CategorySpecific',
         ],
-        'ExcludeRelationships'      => [
+        'ExcludeRelationships' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExcludeRelationships',
         ],
-        'IncludeConfidence'         => [
+        'IncludeConfidence' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class ReturnsAcceptedDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ReturnsAcceptedOption',
         ],
-        'Description'           => [
+        'Description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

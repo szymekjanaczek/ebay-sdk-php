@@ -27,7 +27,7 @@ class GetClientAlertsAuthTokenResponseType extends \DTS\eBaySDK\Trading\Types\Ab
             'attribute'   => false,
             'elementName' => 'ClientAlertsAuthToken',
         ],
-        'HardExpirationTime'    => [
+        'HardExpirationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

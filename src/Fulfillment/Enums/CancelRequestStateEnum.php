@@ -13,6 +13,6 @@ namespace DTS\eBaySDK\Fulfillment\Enums;
 class CancelRequestStateEnum
 {
     public const C_COMPLETED = 'COMPLETED';
-    public const C_REJECTED = 'REJECTED';
+    public const C_REJECTED  = 'REJECTED';
     public const C_REQUESTED = 'REQUESTED';
 }

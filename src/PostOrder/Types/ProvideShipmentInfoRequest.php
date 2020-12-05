@@ -27,7 +27,7 @@ class ProvideShipmentInfoRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'shippingCarrierName',
         ],
-        'trackingNumber'      => [
+        'trackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

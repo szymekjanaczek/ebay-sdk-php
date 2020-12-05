@@ -22,13 +22,13 @@ class SellingManagerAutoListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SourceSaleTemplateID'    => [
+        'SourceSaleTemplateID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SourceSaleTemplateID',
         ],
-        'KeepMinActive'           => [
+        'KeepMinActive' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -27,7 +27,7 @@ class CorrectionAspectValues extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'aspectName',
         ],
-        'values'     => [
+        'values' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\CorrectionAspectValue',
             'repeatable'  => true,
             'attribute'   => false,

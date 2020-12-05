@@ -21,7 +21,7 @@ class GetItemShippingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingDetails'      => [
+        'ShippingDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
             'repeatable'  => false,
             'attribute'   => false,

@@ -30,25 +30,25 @@ class SellingManagerAutoSecondChanceOfferType extends \DTS\eBaySDK\Types\BaseTyp
             'attribute'   => false,
             'elementName' => 'SecondChanceOfferCondition',
         ],
-        'Amount'                     => [
+        'Amount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Amount',
         ],
-        'ProfitPercent'              => [
+        'ProfitPercent' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ProfitPercent',
         ],
-        'Duration'                   => [
+        'Duration' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Duration',
         ],
-        'ListingHoldInventoryLevel'  => [
+        'ListingHoldInventoryLevel' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

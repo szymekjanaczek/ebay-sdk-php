@@ -23,19 +23,19 @@ class ConditionDistribution extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'condition'      => [
+        'condition' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'condition',
         ],
-        'conditionId'    => [
+        'conditionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'conditionId',
         ],
-        'matchCount'     => [
+        'matchCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

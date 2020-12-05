@@ -28,13 +28,13 @@ class SellingManagerProductSpecificsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'PrimaryCategoryID',
         ],
-        'Variations'        => [
+        'Variations' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\VariationsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Variations',
         ],
-        'ItemSpecifics'     => [
+        'ItemSpecifics' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable'  => false,
             'attribute'   => false,

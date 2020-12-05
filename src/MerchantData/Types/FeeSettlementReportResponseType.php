@@ -35,61 +35,61 @@ class FeeSettlementReportResponseType extends \DTS\eBaySDK\MerchantData\Types\Ab
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'InvoiceID'                     => [
+        'InvoiceID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'InvoiceID',
         ],
-        'SellerID'                      => [
+        'SellerID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SellerID',
         ],
-        'AccountID'                     => [
+        'AccountID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AccountID',
         ],
-        'ReportStartTime'               => [
+        'ReportStartTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReportStartTime',
         ],
-        'ReportEndTime'                 => [
+        'ReportEndTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReportEndTime',
         ],
-        'InvoiceProcessingTime'         => [
+        'InvoiceProcessingTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'InvoiceProcessingTime',
         ],
-        'ReportProcessingTime'          => [
+        'ReportProcessingTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReportProcessingTime',
         ],
-        'FeeSettlementAmount'           => [
+        'FeeSettlementAmount' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeeSettlementAmount',
         ],
-        'LastInvoiceAmount'             => [
+        'LastInvoiceAmount' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'LastInvoiceAmount',
         ],
-        'FeeRoundingAdjustmentAmount'   => [
+        'FeeRoundingAdjustmentAmount' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -101,31 +101,31 @@ class FeeSettlementReportResponseType extends \DTS\eBaySDK\MerchantData\Types\Ab
             'attribute'   => false,
             'elementName' => 'FeeTotalUsageAdjustmentAmount',
         ],
-        'OrderTransactionList'          => [
+        'OrderTransactionList' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\OrderDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'OrderTransactionList',
         ],
-        'ListingTransactionList'        => [
+        'ListingTransactionList' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\TransactionListType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ListingTransactionList',
         ],
-        'OrderAdjustmentList'           => [
+        'OrderAdjustmentList' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\OrderDetailsType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'OrderAdjustmentList',
         ],
-        'AccountTransactionList'        => [
+        'AccountTransactionList' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AccountTransactionType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'AccountTransactionList',
         ],
-        'DiscountTransactionList'       => [
+        'DiscountTransactionList' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\AccountTransactionType',
             'repeatable'  => true,
             'attribute'   => false,

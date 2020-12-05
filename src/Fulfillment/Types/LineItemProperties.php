@@ -27,7 +27,7 @@ class LineItemProperties extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyerProtection',
         ],
-        'fromBestOffer'   => [
+        'fromBestOffer' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

@@ -14,5 +14,5 @@ class TrackingStatusType
 {
     public const C_DELIEVERED = 'DELIEVERED';
     public const C_IN_TRANSIT = 'IN_TRANSIT';
-    public const C_UNKNOWN = 'UNKNOWN';
+    public const C_UNKNOWN    = 'UNKNOWN';
 }

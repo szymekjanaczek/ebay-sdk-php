@@ -27,25 +27,25 @@ class OrderReportFilter extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'createTimeFrom'       => [
+        'createTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'createTimeFrom',
         ],
-        'createTimeTo'         => [
+        'createTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'createTimeTo',
         ],
-        'modTimeFrom'          => [
+        'modTimeFrom' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'modTimeFrom',
         ],
-        'modTimeTo'            => [
+        'modTimeTo' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
@@ -57,19 +57,19 @@ class OrderReportFilter extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'includeFinalValueFee',
         ],
-        'listingType'          => [
+        'listingType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'listingType',
         ],
-        'orderStatus'          => [
+        'orderStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'orderStatus',
         ],
-        'version'              => [
+        'version' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

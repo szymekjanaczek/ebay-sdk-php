@@ -31,31 +31,31 @@ class ShipmentInfoRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'proofOfShipmentUploaded',
         ],
-        'sellerComments'          => [
+        'sellerComments' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sellerComments',
         ],
-        'shippedWithTracking'     => [
+        'shippedWithTracking' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippedWithTracking',
         ],
-        'shippingCarrierName'     => [
+        'shippingCarrierName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCarrierName',
         ],
-        'shippingDate'            => [
+        'shippingDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingDate',
         ],
-        'trackingNumber'          => [
+        'trackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

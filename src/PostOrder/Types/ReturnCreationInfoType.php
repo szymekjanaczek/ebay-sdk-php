@@ -24,7 +24,7 @@ class ReturnCreationInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'comments'     => [
+        'comments' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable'  => false,
             'attribute'   => false,
@@ -36,19 +36,19 @@ class ReturnCreationInfoType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'creationDate',
         ],
-        'item'         => [
+        'item' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnItemType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'item',
         ],
-        'reason'       => [
+        'reason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'reason',
         ],
-        'type'         => [
+        'type' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

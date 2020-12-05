@@ -26,25 +26,25 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'costType'            => [
+        'costType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'costType',
         ],
-        'insuranceFee'        => [
+        'insuranceFee' => [
             'type'        => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'insuranceFee',
         ],
-        'insuranceOffered'    => [
+        'insuranceOffered' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'insuranceOffered',
         ],
-        'optionType'          => [
+        'optionType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'packageHandlingCost',
         ],
-        'rateTableId'         => [
+        'rateTableId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'rateTableId',
         ],
-        'shippingServices'    => [
+        'shippingServices' => [
             'type'        => 'DTS\eBaySDK\Account\Types\ShippingService',
             'repeatable'  => true,
             'attribute'   => false,

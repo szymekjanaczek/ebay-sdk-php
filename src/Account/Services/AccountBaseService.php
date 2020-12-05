@@ -43,19 +43,19 @@ class AccountBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion'    => [
-                    'valid'    => ['string'],
-                    'default'  => \DTS\eBaySDK\Account\Services\AccountService::API_VERSION,
-                    'required' => true,
-                ],
-                'authorization' => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
-                'marketplaceId' => [
-                    'valid' => ['string'],
-                ],
-            ];
+            'apiVersion' => [
+                'valid'    => ['string'],
+                'default'  => \DTS\eBaySDK\Account\Services\AccountService::API_VERSION,
+                'required' => true,
+            ],
+            'authorization' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
+            'marketplaceId' => [
+                'valid' => ['string'],
+            ],
+        ];
     }
 
     /**

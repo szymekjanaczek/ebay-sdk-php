@@ -29,7 +29,7 @@ class SearchInquiriesRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'fieldgroups'                      => [
+        'fieldgroups' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,49 +41,49 @@ class SearchInquiriesRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'inquiry_creation_date_range_from',
         ],
-        'inquiry_creation_date_range_to'   => [
+        'inquiry_creation_date_range_to' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'inquiry_creation_date_range_to',
         ],
-        'inquiry_status'                   => [
+        'inquiry_status' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'inquiry_status',
         ],
-        'item_id'                          => [
+        'item_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'item_id',
         ],
-        'limit'                            => [
+        'limit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset'                           => [
+        'offset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'order_id'                         => [
+        'order_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'order_id',
         ],
-        'sort'                             => [
+        'sort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sort',
         ],
-        'transaction_id'                   => [
+        'transaction_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

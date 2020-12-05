@@ -26,31 +26,31 @@ class GetShippingDiscountProfilesResponseType extends \DTS\eBaySDK\Trading\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CurrencyID'                         => [
+        'CurrencyID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CurrencyID',
         ],
-        'FlatShippingDiscount'               => [
+        'FlatShippingDiscount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\FlatShippingDiscountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FlatShippingDiscount',
         ],
-        'CalculatedShippingDiscount'         => [
+        'CalculatedShippingDiscount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CalculatedShippingDiscount',
         ],
-        'PromotionalShippingDiscount'        => [
+        'PromotionalShippingDiscount' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'PromotionalShippingDiscount',
         ],
-        'CalculatedHandlingDiscount'         => [
+        'CalculatedHandlingDiscount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class GetShippingDiscountProfilesResponseType extends \DTS\eBaySDK\Trading\Types
             'attribute'   => false,
             'elementName' => 'PromotionalShippingDiscountDetails',
         ],
-        'CombinedDuration'                   => [
+        'CombinedDuration' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

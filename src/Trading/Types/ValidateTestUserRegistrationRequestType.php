@@ -25,7 +25,7 @@ class ValidateTestUserRegistrationRequestType extends \DTS\eBaySDK\Trading\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'FeedbackScore'    => [
+        'FeedbackScore' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -37,25 +37,25 @@ class ValidateTestUserRegistrationRequestType extends \DTS\eBaySDK\Trading\Types
             'attribute'   => false,
             'elementName' => 'RegistrationDate',
         ],
-        'SubscribeSA'      => [
+        'SubscribeSA' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SubscribeSA',
         ],
-        'SubscribeSAPro'   => [
+        'SubscribeSAPro' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SubscribeSAPro',
         ],
-        'SubscribeSM'      => [
+        'SubscribeSM' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SubscribeSM',
         ],
-        'SubscribeSMPro'   => [
+        'SubscribeSMPro' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

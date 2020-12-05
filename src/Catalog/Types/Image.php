@@ -22,7 +22,7 @@ class Image extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'height'   => [
+        'height' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class Image extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'imageUrl',
         ],
-        'width'    => [
+        'width' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

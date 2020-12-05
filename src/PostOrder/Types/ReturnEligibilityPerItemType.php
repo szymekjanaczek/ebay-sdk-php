@@ -27,7 +27,7 @@ class ReturnEligibilityPerItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'eligibilityResultsPerCheckType',
         ],
-        'returnItem'                     => [
+        'returnItem' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemType',
             'repeatable'  => false,
             'attribute'   => false,

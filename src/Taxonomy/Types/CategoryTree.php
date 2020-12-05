@@ -29,19 +29,19 @@ class CategoryTree extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'applicableMarketplaceIds',
         ],
-        'categoryTreeId'           => [
+        'categoryTreeId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryTreeId',
         ],
-        'categoryTreeVersion'      => [
+        'categoryTreeVersion' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryTreeVersion',
         ],
-        'rootCategoryNode'         => [
+        'rootCategoryNode' => [
             'type'        => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
             'repeatable'  => false,
             'attribute'   => false,

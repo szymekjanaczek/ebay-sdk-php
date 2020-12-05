@@ -22,13 +22,13 @@ class FindItemsByProductRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'productId'      => [
+        'productId' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\ProductId',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'productId',
         ],
-        'itemFilter'     => [
+        'itemFilter' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\ItemFilter',
             'repeatable'  => true,
             'attribute'   => false,

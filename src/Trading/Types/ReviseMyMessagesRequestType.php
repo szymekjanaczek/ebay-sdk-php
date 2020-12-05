@@ -29,19 +29,19 @@ class ReviseMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
             'attribute'   => false,
             'elementName' => 'MessageIDs',
         ],
-        'Read'       => [
+        'Read' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Read',
         ],
-        'Flagged'    => [
+        'Flagged' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Flagged',
         ],
-        'FolderID'   => [
+        'FolderID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

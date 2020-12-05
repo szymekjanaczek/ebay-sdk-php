@@ -53,163 +53,163 @@ class SellingManagerSoldOrderType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'SellingManagerSoldTransaction',
         ],
-        'ShippingAddress'               => [
+        'ShippingAddress' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingAddress',
         ],
-        'ShippingDetails'               => [
+        'ShippingDetails' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingDetails',
         ],
-        'CashOnDeliveryCost'            => [
+        'CashOnDeliveryCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'CashOnDeliveryCost',
         ],
-        'TotalAmount'                   => [
+        'TotalAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalAmount',
         ],
-        'TotalQuantity'                 => [
+        'TotalQuantity' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalQuantity',
         ],
-        'ItemCost'                      => [
+        'ItemCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemCost',
         ],
-        'VATRate'                       => [
+        'VATRate' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\VATRateType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'VATRate',
         ],
-        'NetInsuranceFee'               => [
+        'NetInsuranceFee' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NetInsuranceFee',
         ],
-        'VATInsuranceFee'               => [
+        'VATInsuranceFee' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VATInsuranceFee',
         ],
-        'VATShippingFee'                => [
+        'VATShippingFee' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VATShippingFee',
         ],
-        'NetShippingFee'                => [
+        'NetShippingFee' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NetShippingFee',
         ],
-        'NetTotalAmount'                => [
+        'NetTotalAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NetTotalAmount',
         ],
-        'VATTotalAmount'                => [
+        'VATTotalAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'VATTotalAmount',
         ],
-        'ActualShippingCost'            => [
+        'ActualShippingCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ActualShippingCost',
         ],
-        'AdjustmentAmount'              => [
+        'AdjustmentAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'AdjustmentAmount',
         ],
-        'NotesToBuyer'                  => [
+        'NotesToBuyer' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NotesToBuyer',
         ],
-        'NotesFromBuyer'                => [
+        'NotesFromBuyer' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NotesFromBuyer',
         ],
-        'NotesToSeller'                 => [
+        'NotesToSeller' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NotesToSeller',
         ],
-        'OrderStatus'                   => [
+        'OrderStatus' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\SellingManagerOrderStatusType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'OrderStatus',
         ],
-        'UnpaidItemStatus'              => [
+        'UnpaidItemStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'UnpaidItemStatus',
         ],
-        'SalePrice'                     => [
+        'SalePrice' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SalePrice',
         ],
-        'EmailsSent'                    => [
+        'EmailsSent' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EmailsSent',
         ],
-        'DaysSinceSale'                 => [
+        'DaysSinceSale' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DaysSinceSale',
         ],
-        'BuyerID'                       => [
+        'BuyerID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerID',
         ],
-        'BuyerEmail'                    => [
+        'BuyerEmail' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BuyerEmail',
         ],
-        'SaleRecordID'                  => [
+        'SaleRecordID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SaleRecordID',
         ],
-        'CreationTime'                  => [
+        'CreationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,

@@ -12,7 +12,7 @@ namespace DTS\eBaySDK\Trading\Enums;
 
 class StoreItemListLayoutCodeType
 {
-    public const C_CUSTOM_CODE = 'CustomCode';
+    public const C_CUSTOM_CODE  = 'CustomCode';
     public const C_GALLERY_VIEW = 'GalleryView';
-    public const C_LIST_VIEW = 'ListView';
+    public const C_LIST_VIEW    = 'ListView';
 }

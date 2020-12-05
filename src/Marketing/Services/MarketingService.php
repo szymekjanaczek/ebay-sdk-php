@@ -18,7 +18,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'BulkCreateAdsByInventoryReference'    => [
+        'BulkCreateAdsByInventoryReference' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/bulk_create_ads_by_inventory_reference',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestResponse',
@@ -29,7 +29,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'BulkCreateAdsByListingID'             => [
+        'BulkCreateAdsByListingID' => [
             'method'        => 'POST',
             'resource'      => 'campaign/{campaign_id}/bulk_create_ads_by_listing_id',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse',
@@ -40,7 +40,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'BulkDeleteAdsByInventoryReference'    => [
+        'BulkDeleteAdsByInventoryReference' => [
             'method'        => 'POST',
             'resource'      => 'campaign/{campaign_id}/bulk_delete_ads_by_inventory_reference',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestResponse',
@@ -51,7 +51,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'BulkDeleteAdsByListingID'             => [
+        'BulkDeleteAdsByListingID' => [
             'method'        => 'POST',
             'resource'      => 'campaign/{campaign_id}/bulk_delete_ads_by_listing_id',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestResponse',
@@ -73,7 +73,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'BulkUpdateAdBidsByListingID'          => [
+        'BulkUpdateAdBidsByListingID' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/bulk_update_ads_bid_by_listing_id',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestResponse',
@@ -84,7 +84,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'CreateAdByListingID'                  => [
+        'CreateAdByListingID' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/ad',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestResponse',
@@ -95,7 +95,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'CreateAdsByInventoryReference'        => [
+        'CreateAdsByInventoryReference' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/create_ads_by_inventory_reference',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRestResponse',
@@ -106,12 +106,12 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'DeleteAdByID'                         => [
+        'DeleteAdByID' => [
             'method'        => 'DELETE',
             'resource'      => 'ad_campaign/{campaign_id}/ad/{ad_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestResponse',
             'params'        => [
-                'ad_id'       => [
+                'ad_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -121,7 +121,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'DeleteAdsByInventoryReference'        => [
+        'DeleteAdsByInventoryReference' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/delete_ads_by_inventory_reference',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestResponse',
@@ -132,12 +132,12 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetAdByID'                            => [
+        'GetAdByID' => [
             'method'        => 'GET',
             'resource'      => 'ad_campaign/{campaign_id}/ad/{ad_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAdByIDRestResponse',
             'params'        => [
-                'ad_id'       => [
+                'ad_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -147,7 +147,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetAds'                               => [
+        'GetAds' => [
             'method'        => 'GET',
             'resource'      => 'ad_campaign/{campaign_id}/ad',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAdsRestResponse',
@@ -156,28 +156,28 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'limit'       => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
                 'listing_ids' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'offset'      => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'GetAdsByInventoryReference'           => [
+        'GetAdsByInventoryReference' => [
             'method'        => 'GET',
             'resource'      => 'ad_campaign/{campaign_id}/get_ads_by_inventory_reference',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse',
             'params'        => [
-                'campaign_id'              => [
+                'campaign_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'inventory_reference_id'   => [
+                'inventory_reference_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -187,12 +187,12 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'UpdateBid'                            => [
+        'UpdateBid' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/ad/{ad_id}/update_bid',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\UpdateBidRestResponse',
             'params'        => [
-                'ad_id'       => [
+                'ad_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -202,7 +202,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'CloneCampaign'                        => [
+        'CloneCampaign' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/clone',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\CloneCampaignRestResponse',
@@ -213,14 +213,14 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'CreateCampaign'                       => [
+        'CreateCampaign' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateCampaignRestResponse',
             'params'        => [
             ],
         ],
-        'DeleteCampaign'                       => [
+        'DeleteCampaign' => [
             'method'        => 'DELETE',
             'resource'      => 'ad_campaign/{campaign_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteCampaignRestResponse',
@@ -231,7 +231,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'EndCampaign'                          => [
+        'EndCampaign' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/end',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\EndCampaignRestResponse',
@@ -242,40 +242,40 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'FindCampaignByAdReference'            => [
+        'FindCampaignByAdReference' => [
             'method'        => 'GET',
             'resource'      => 'ad_campaign/find_campaign_by_ad_reference',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestResponse',
             'params'        => [
-                'inventory_reference_id'   => [
+                'inventory_reference_id' => [
                     'valid' => ['string'],
                 ],
                 'inventory_reference_type' => [
                     'valid' => ['string'],
                 ],
-                'listing_id'               => [
+                'listing_id' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'GetAllCampaigns'                      => [
+        'GetAllCampaigns' => [
             'method'        => 'GET',
             'resource'      => 'ad_campaign',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse',
             'params'        => [
-                'campaign_name'    => [
+                'campaign_name' => [
                     'valid' => ['string'],
                 ],
-                'campaign_status'  => [
+                'campaign_status' => [
                     'valid' => ['string'],
                 ],
-                'end_date_range'   => [
+                'end_date_range' => [
                     'valid' => ['string'],
                 ],
-                'limit'            => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'           => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
                 'start_date_range' => [
@@ -283,7 +283,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetCampaignByName'                    => [
+        'GetCampaignByName' => [
             'method'        => 'GET',
             'resource'      => 'ad_campaign/get_campaign_by_name',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestResponse',
@@ -294,7 +294,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetCampaignByID'                      => [
+        'GetCampaignByID' => [
             'method'        => 'GET',
             'resource'      => 'ad_campaign/{campaign_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestResponse',
@@ -305,7 +305,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'PauseCampaign'                        => [
+        'PauseCampaign' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/pause',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\PauseCampaignRestResponse',
@@ -316,7 +316,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'ResumeCampaign'                       => [
+        'ResumeCampaign' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/resume',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\ResumeCampaignRestResponse',
@@ -327,7 +327,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'UpdateCampaignIDentification'         => [
+        'UpdateCampaignIDentification' => [
             'method'        => 'POST',
             'resource'      => 'ad_campaign/{campaign_id}/update_campaign_identification',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestResponse',
@@ -338,14 +338,14 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'CreateItemPromotion'                  => [
+        'CreateItemPromotion' => [
             'method'        => 'POST',
             'resource'      => 'item_promotion',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateItemPromotionRestResponse',
             'params'        => [
             ],
         ],
-        'DeleteItemPromotion'                  => [
+        'DeleteItemPromotion' => [
             'method'        => 'DELETE',
             'resource'      => 'item_promotion/{promotion_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestResponse',
@@ -356,7 +356,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetItemPromotion'                     => [
+        'GetItemPromotion' => [
             'method'        => 'GET',
             'resource'      => 'item_promotion/{promotion_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetItemPromotionRestResponse',
@@ -367,7 +367,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'UpdateItemPromotion'                  => [
+        'UpdateItemPromotion' => [
             'method'        => 'PUT',
             'resource'      => 'item_promotion/{promotion_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestResponse',
@@ -378,7 +378,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetListingsInSpecificPromotion'       => [
+        'GetListingsInSpecificPromotion' => [
             'method'        => 'GET',
             'resource'      => 'promotion/{promotion_id}/get_listing_set',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestResponse',
@@ -386,46 +386,46 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 'promotion_id' => [
                     'valid' => ['string'],
                 ],
-                'limit'        => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'       => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'q'            => [
+                'q' => [
                     'valid' => ['string'],
                 ],
-                'sort'         => [
+                'sort' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'GetPromotions'                        => [
+        'GetPromotions' => [
             'method'        => 'GET',
             'resource'      => 'promotion',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetPromotionsRestResponse',
             'params'        => [
-                'limit'            => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'marketplace_id'   => [
+                'marketplace_id' => [
                     'valid' => ['string'],
                 ],
-                'offset'           => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
                 'promotion_status' => [
                     'valid' => ['string'],
                 ],
-                'q'                => [
+                'q' => [
                     'valid' => ['string'],
                 ],
-                'sort'             => [
+                'sort' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'PauseAPromotion'                      => [
+        'PauseAPromotion' => [
             'method'        => 'POST',
             'resource'      => 'promotion/{promotion_id}/pause',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\PauseAPromotionRestResponse',
@@ -436,7 +436,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'ResumeAPromotion'                     => [
+        'ResumeAPromotion' => [
             'method'        => 'POST',
             'resource'      => 'promotion/{promotion_id}/resume',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestResponse',
@@ -447,7 +447,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetPromotionSummaryReport'            => [
+        'GetPromotionSummaryReport' => [
             'method'        => 'GET',
             'resource'      => 'promotion_summary_report',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetPromotionSummaryReportRestResponse',
@@ -458,7 +458,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetSpecificReport'                    => [
+        'GetSpecificReport' => [
             'method'        => 'GET',
             'resource'      => 'ad_report/{report_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetSpecificReportRestResponse',
@@ -469,14 +469,14 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetMetadataForAllReports'             => [
+        'GetMetadataForAllReports' => [
             'method'        => 'GET',
             'resource'      => 'ad_report_metadata',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestResponse',
             'params'        => [
             ],
         ],
-        'GetMetadataForAReportType'            => [
+        'GetMetadataForAReportType' => [
             'method'        => 'GET',
             'resource'      => 'ad_report_metadata/{report_type}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestResponse',
@@ -487,14 +487,14 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'CreateReportTask'                     => [
+        'CreateReportTask' => [
             'method'        => 'POST',
             'resource'      => 'ad_report_task',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\CreateReportTasktRestResponse',
             'params'        => [
             ],
         ],
-        'DeleteSpecificReportTask'             => [
+        'DeleteSpecificReportTask' => [
             'method'        => 'DELETE',
             'resource'      => 'ad_report_task/{report_task_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestResponse',
@@ -505,15 +505,15 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetReportTasks'                       => [
+        'GetReportTasks' => [
             'method'        => 'GET',
             'resource'      => 'ad_report_task',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetReportTasksRestResponse',
             'params'        => [
-                'limit'                => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'               => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
                 'report_task_statuses' => [
@@ -521,7 +521,7 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetSpecificReportTask'                => [
+        'GetSpecificReportTask' => [
             'method'        => 'GET',
             'resource'      => 'ad_report_task/{report_task_id}',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestResponse',
@@ -532,25 +532,25 @@ class MarketingService extends \DTS\eBaySDK\Marketing\Services\MarketingBaseServ
                 ],
             ],
         ],
-        'GetAPromotionReport'                  => [
+        'GetAPromotionReport' => [
             'method'        => 'GET',
             'resource'      => 'promotion_report',
             'responseClass' => '\DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestResponse',
             'params'        => [
-                'limit'            => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'marketplace_id'   => [
+                'marketplace_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'offset'           => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
                 'promotion_status' => [
                     'valid' => ['string'],
                 ],
-                'q'                => [
+                'q' => [
                     'valid' => ['string'],
                 ],
             ],

@@ -22,13 +22,13 @@ class FindItemsAdvancedResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryHistogramContainer'  => [
+        'categoryHistogramContainer' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\CategoryHistogramContainer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'categoryHistogramContainer',
         ],
-        'aspectHistogramContainer'    => [
+        'aspectHistogramContainer' => [
             'type'        => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
             'repeatable'  => false,
             'attribute'   => false,

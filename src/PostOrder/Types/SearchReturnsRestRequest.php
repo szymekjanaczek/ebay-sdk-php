@@ -34,49 +34,49 @@ class SearchReturnsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'creation_date_range_from',
         ],
-        'creation_date_range_to'   => [
+        'creation_date_range_to' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'creation_date_range_to',
         ],
-        'item_id'                  => [
+        'item_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'item_id',
         ],
-        'limit'                    => [
+        'limit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'offset'                   => [
+        'offset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offset',
         ],
-        'return_state'             => [
+        'return_state' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'return_state',
         ],
-        'sort'                     => [
+        'sort' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sort',
         ],
-        'states'                   => [
+        'states' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'states',
         ],
-        'transaction_id'           => [
+        'transaction_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

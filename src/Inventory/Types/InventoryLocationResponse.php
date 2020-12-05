@@ -30,7 +30,7 @@ class InventoryLocationResponse extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'location'                      => [
+        'location' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Location',
             'repeatable'  => false,
             'attribute'   => false,
@@ -42,55 +42,55 @@ class InventoryLocationResponse extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'locationAdditionalInformation',
         ],
-        'locationInstructions'          => [
+        'locationInstructions' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'locationInstructions',
         ],
-        'locationTypes'                 => [
+        'locationTypes' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'locationTypes',
         ],
-        'locationWebUrl'                => [
+        'locationWebUrl' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'locationWebUrl',
         ],
-        'merchantLocationKey'           => [
+        'merchantLocationKey' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'merchantLocationKey',
         ],
-        'merchantLocationStatus'        => [
+        'merchantLocationStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'merchantLocationStatus',
         ],
-        'name'                          => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'name',
         ],
-        'operatingHours'                => [
+        'operatingHours' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\OperatingHours',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'operatingHours',
         ],
-        'phone'                         => [
+        'phone' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'phone',
         ],
-        'specialHours'                  => [
+        'specialHours' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\SpecialHours',
             'repeatable'  => true,
             'attribute'   => false,

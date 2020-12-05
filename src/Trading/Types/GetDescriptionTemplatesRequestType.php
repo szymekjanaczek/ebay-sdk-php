@@ -22,7 +22,7 @@ class GetDescriptionTemplatesRequestType extends \DTS\eBaySDK\Trading\Types\Abst
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'CategoryID'       => [
+        'CategoryID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class GetDescriptionTemplatesRequestType extends \DTS\eBaySDK\Trading\Types\Abst
             'attribute'   => false,
             'elementName' => 'LastModifiedTime',
         ],
-        'MotorVehicles'    => [
+        'MotorVehicles' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

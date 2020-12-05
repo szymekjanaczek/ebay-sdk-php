@@ -29,7 +29,7 @@ class ShippingProfileDiscountInfo extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'domesticFlatCalcDiscountProfileId',
         ],
-        'intlFlatCalcDiscountProfileId'     => [
+        'intlFlatCalcDiscountProfileId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class ShippingProfileDiscountInfo extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'applyDomesticPromoShippingProfile',
         ],
-        'applyIntlPromoShippingProfile'     => [
+        'applyIntlPromoShippingProfile' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

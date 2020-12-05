@@ -23,7 +23,7 @@ class EscalationReasonType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'sellerINRReason'  => [
+        'sellerINRReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -35,13 +35,13 @@ class EscalationReasonType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'sellerSNADReason',
         ],
-        'buyerINRReason'   => [
+        'buyerINRReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'buyerINRReason',
         ],
-        'buyerSNADReason'  => [
+        'buyerSNADReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

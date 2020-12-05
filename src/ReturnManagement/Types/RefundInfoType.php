@@ -22,7 +22,7 @@ class RefundInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'refundDue'             => [
+        'refundDue' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class RefundInfoType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'estimatedRefundDetail',
         ],
-        'actualRefundDetail'    => [
+        'actualRefundDetail' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ActualRefundDetailType',
             'repeatable'  => false,
             'attribute'   => false,

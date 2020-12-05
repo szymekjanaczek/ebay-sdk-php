@@ -28,25 +28,25 @@ class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ItemID'            => [
+        'ItemID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemID',
         ],
-        'MailMessageType'   => [
+        'MailMessageType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MailMessageType',
         ],
-        'MessageStatus'     => [
+        'MessageStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MessageStatus',
         ],
-        'DisplayToPublic'   => [
+        'DisplayToPublic' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -58,25 +58,25 @@ class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
             'attribute'   => false,
             'elementName' => 'StartCreationTime',
         ],
-        'EndCreationTime'   => [
+        'EndCreationTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'EndCreationTime',
         ],
-        'Pagination'        => [
+        'Pagination' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Pagination',
         ],
-        'MemberMessageID'   => [
+        'MemberMessageID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MemberMessageID',
         ],
-        'SenderID'          => [
+        'SenderID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

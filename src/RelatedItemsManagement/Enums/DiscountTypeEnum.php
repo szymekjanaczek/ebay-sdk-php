@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Enums;
 
 class DiscountTypeEnum
 {
-    public const C_AMOUNT = 'Amount';
+    public const C_AMOUNT     = 'Amount';
     public const C_PERCENTAGE = 'Percentage';
 }

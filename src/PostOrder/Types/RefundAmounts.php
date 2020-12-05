@@ -29,7 +29,7 @@ class RefundAmounts extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'buyerFinalAcceptRefundAmt',
         ],
-        'buyerInitExpectRefundAmt'  => [
+        'buyerInitExpectRefundAmt' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class RefundAmounts extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'internationalRefundAmount',
         ],
-        'refundAmount'              => [
+        'refundAmount' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

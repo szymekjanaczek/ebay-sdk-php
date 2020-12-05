@@ -44,67 +44,67 @@ class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'active'                  => [
+        'active' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'active',
         ],
-        'actualDeliveryDate'      => [
+        'actualDeliveryDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'actualDeliveryDate',
         ],
-        'actualShipDate'          => [
+        'actualShipDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'actualShipDate',
         ],
-        'carrierEnum'             => [
+        'carrierEnum' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierEnum',
         ],
-        'carrierId'               => [
+        'carrierId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierId',
         ],
-        'carrierName'             => [
+        'carrierName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierName',
         ],
-        'carrierUsed'             => [
+        'carrierUsed' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'carrierUsed',
         ],
-        'deliveryDate'            => [
+        'deliveryDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'deliveryDate',
         ],
-        'deliveryStatus'          => [
+        'deliveryStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'deliveryStatus',
         ],
-        'destinationAddress'      => [
+        'destinationAddress' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'destinationAddress',
         ],
-        'errorCode'               => [
+        'errorCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -116,79 +116,79 @@ class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'labelAvailableUntilDate',
         ],
-        'labelDate'               => [
+        'labelDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelDate',
         ],
-        'labelId'                 => [
+        'labelId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelId',
         ],
-        'labelPrintExpired'       => [
+        'labelPrintExpired' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelPrintExpired',
         ],
-        'labelVoidExpired'        => [
+        'labelVoidExpired' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'labelVoidExpired',
         ],
-        'markAsReceived'          => [
+        'markAsReceived' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'markAsReceived',
         ],
-        'maxDeliveryEstimate'     => [
+        'maxDeliveryEstimate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'maxDeliveryEstimate',
         ],
-        'minDeliveryEstimate'     => [
+        'minDeliveryEstimate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'minDeliveryEstimate',
         ],
-        'originAddress'           => [
+        'originAddress' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'originAddress',
         ],
-        'shipDate'                => [
+        'shipDate' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shipDate',
         ],
-        'shipmentId'              => [
+        'shipmentId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shipmentId',
         ],
-        'shippedBy'               => [
+        'shippedBy' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippedBy',
         ],
-        'shippingMethod'          => [
+        'shippingMethod' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingMethod',
         ],
-        'trackingNumber'          => [
+        'trackingNumber' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

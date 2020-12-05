@@ -23,19 +23,19 @@ class GetSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\T
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'profileType'    => [
+        'profileType' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'profileType',
         ],
-        'profileId'      => [
+        'profileId' => [
             'type'        => 'integer',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'profileId',
         ],
-        'profileName'    => [
+        'profileName' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

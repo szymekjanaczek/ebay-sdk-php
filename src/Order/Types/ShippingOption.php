@@ -27,13 +27,13 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'baseDeliveryCost'         => [
+        'baseDeliveryCost' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'baseDeliveryCost',
         ],
-        'deliveryDiscount'         => [
+        'deliveryDiscount' => [
             'type'        => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
@@ -51,25 +51,25 @@ class ShippingOption extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'minEstimatedDeliveryDate',
         ],
-        'selected'                 => [
+        'selected' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'selected',
         ],
-        'shippingCarrierCode'      => [
+        'shippingCarrierCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingCarrierCode',
         ],
-        'shippingOptionId'         => [
+        'shippingOptionId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'shippingOptionId',
         ],
-        'shippingServiceCode'      => [
+        'shippingServiceCode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

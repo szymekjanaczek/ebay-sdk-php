@@ -27,7 +27,7 @@ class Record extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'dimensionValues',
         ],
-        'metricValues'    => [
+        'metricValues' => [
             'type'        => 'DTS\eBaySDK\Analytics\Types\Value',
             'repeatable'  => true,
             'attribute'   => false,

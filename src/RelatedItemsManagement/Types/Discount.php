@@ -22,13 +22,13 @@ class Discount extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'discountAmount'  => [
+        'discountAmount' => [
             'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'discountAmount',
         ],
-        'discountType'    => [
+        'discountType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

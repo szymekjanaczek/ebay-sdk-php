@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\HalfFinding\Enums;
 
 class ErrorSeverity
 {
-    public const C_ERROR = 'Error';
+    public const C_ERROR   = 'Error';
     public const C_WARNING = 'Warning';
 }

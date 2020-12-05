@@ -12,6 +12,6 @@ namespace DTS\eBaySDK\Metadata\Enums;
 
 class CompatibilityTypeEnum
 {
-    public const C_ASSEMBLY = 'ASSEMBLY';
+    public const C_ASSEMBLY       = 'ASSEMBLY';
     public const C_SPECIFICATIONS = 'SPECIFICATIONS';
 }

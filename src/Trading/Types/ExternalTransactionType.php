@@ -24,25 +24,25 @@ class ExternalTransactionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ExternalTransactionID'     => [
+        'ExternalTransactionID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExternalTransactionID',
         ],
-        'ExternalTransactionTime'   => [
+        'ExternalTransactionTime' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ExternalTransactionTime',
         ],
-        'FeeOrCreditAmount'         => [
+        'FeeOrCreditAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'FeeOrCreditAmount',
         ],
-        'PaymentOrRefundAmount'     => [
+        'PaymentOrRefundAmount' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

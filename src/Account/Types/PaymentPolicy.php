@@ -29,43 +29,43 @@ class PaymentPolicy extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryTypes'       => [
+        'categoryTypes' => [
             'type'        => 'DTS\eBaySDK\Account\Types\CategoryType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'categoryTypes',
         ],
-        'deposit'             => [
+        'deposit' => [
             'type'        => 'DTS\eBaySDK\Account\Types\Deposit',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'deposit',
         ],
-        'description'         => [
+        'description' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'description',
         ],
-        'fullPaymentDueIn'    => [
+        'fullPaymentDueIn' => [
             'type'        => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'fullPaymentDueIn',
         ],
-        'immediatePay'        => [
+        'immediatePay' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'immediatePay',
         ],
-        'marketplaceId'       => [
+        'marketplaceId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplaceId',
         ],
-        'name'                => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -77,13 +77,13 @@ class PaymentPolicy extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'paymentInstructions',
         ],
-        'paymentMethods'      => [
+        'paymentMethods' => [
             'type'        => 'DTS\eBaySDK\Account\Types\PaymentMethod',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'paymentMethods',
         ],
-        'paymentPolicyId'     => [
+        'paymentPolicyId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

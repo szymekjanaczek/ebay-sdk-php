@@ -31,13 +31,13 @@ class CancelRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'cancelCompletedDate',
         ],
-        'cancelInitiator'     => [
+        'cancelInitiator' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelInitiator',
         ],
-        'cancelReason'        => [
+        'cancelReason' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -49,13 +49,13 @@ class CancelRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'cancelRequestedDate',
         ],
-        'cancelRequestId'     => [
+        'cancelRequestId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'cancelRequestId',
         ],
-        'cancelRequestState'  => [
+        'cancelRequestState' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

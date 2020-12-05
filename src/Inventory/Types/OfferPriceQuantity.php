@@ -28,13 +28,13 @@ class OfferPriceQuantity extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'availableQuantity',
         ],
-        'offerId'           => [
+        'offerId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'offerId',
         ],
-        'price'             => [
+        'price' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

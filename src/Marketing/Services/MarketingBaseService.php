@@ -43,18 +43,18 @@ class MarketingBaseService extends \DTS\eBaySDK\Services\BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-                'apiVersion'    => [
-                    'valid'    => ['string'],
-                    'default'  => \DTS\eBaySDK\Marketing\Services\MarketingService::API_VERSION,
-                    'required' => true,
-                ],
-                'authorization' => [
-                    'valid'    => ['string'],
-                    'required' => true,
-                ],
-                'marketplaceId' => [
-                    'valid' => ['string'],
-                ],
+            'apiVersion' => [
+                'valid'    => ['string'],
+                'default'  => \DTS\eBaySDK\Marketing\Services\MarketingService::API_VERSION,
+                'required' => true,
+            ],
+            'authorization' => [
+                'valid'    => ['string'],
+                'required' => true,
+            ],
+            'marketplaceId' => [
+                'valid' => ['string'],
+            ],
             ];
     }
 

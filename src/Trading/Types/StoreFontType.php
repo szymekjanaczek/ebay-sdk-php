@@ -28,31 +28,31 @@ class StoreFontType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'NameFace'   => [
+        'NameFace' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NameFace',
         ],
-        'NameSize'   => [
+        'NameSize' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NameSize',
         ],
-        'NameColor'  => [
+        'NameColor' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'NameColor',
         ],
-        'TitleFace'  => [
+        'TitleFace' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TitleFace',
         ],
-        'TitleSize'  => [
+        'TitleSize' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -64,19 +64,19 @@ class StoreFontType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'TitleColor',
         ],
-        'DescFace'   => [
+        'DescFace' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DescFace',
         ],
-        'DescSize'   => [
+        'DescSize' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DescSize',
         ],
-        'DescColor'  => [
+        'DescColor' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

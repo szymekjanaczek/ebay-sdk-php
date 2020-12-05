@@ -24,19 +24,19 @@ class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'ShippingServicePriority'       => [
+        'ShippingServicePriority' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingServicePriority',
         ],
-        'ShippingServiceType'           => [
+        'ShippingServiceType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ShippingServiceType',
         ],
-        'ShippingServiceCost'           => [
+        'ShippingServiceCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ShippingServiceAdditionalCost',
         ],
-        'ShippingSurcharge'             => [
+        'ShippingSurcharge' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

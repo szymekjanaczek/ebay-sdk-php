@@ -27,7 +27,7 @@ class FlatRateInsuranceRangeCostType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'FlatRateInsuranceRange',
         ],
-        'InsuranceCost'          => [
+        'InsuranceCost' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,

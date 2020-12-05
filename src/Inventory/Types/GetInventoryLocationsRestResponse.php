@@ -27,7 +27,7 @@ class GetInventoryLocationsRestResponse extends \DTS\eBaySDK\Inventory\Types\Loc
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

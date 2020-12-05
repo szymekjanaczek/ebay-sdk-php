@@ -27,7 +27,7 @@ class TotalRefundAmountType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'estimatedRefundAmount',
         ],
-        'actualRefundAmount'    => [
+        'actualRefundAmount' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,

@@ -25,31 +25,31 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Timestamp'     => [
+        'Timestamp' => [
             'type'        => 'DateTime',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Timestamp',
         ],
-        'Ack'           => [
+        'Ack' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Ack',
         ],
-        'Errors'        => [
+        'Errors' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\ErrorType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'Errors',
         ],
-        'Build'         => [
+        'Build' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Build',
         ],
-        'Version'       => [
+        'Version' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -21,7 +21,7 @@ class GetUserProfileRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'UserID'          => [
+        'UserID' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

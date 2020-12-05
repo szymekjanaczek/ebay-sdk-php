@@ -27,13 +27,13 @@ class GetUserReturnsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'itemFilter'              => [
+        'itemFilter' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ItemFilterType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'itemFilter',
         ],
-        'orderId'                 => [
+        'orderId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -45,31 +45,31 @@ class GetUserReturnsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequ
             'attribute'   => false,
             'elementName' => 'creationDateRangeFilter',
         ],
-        'ReturnStatusFilter'      => [
+        'ReturnStatusFilter' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReturnStatusFilter',
         ],
-        'otherUserFilter'         => [
+        'otherUserFilter' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\UserFilterType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'otherUserFilter',
         ],
-        'paginationInput'         => [
+        'paginationInput' => [
             'type'        => 'DTS\eBaySDK\ReturnManagement\Types\PaginationInput',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paginationInput',
         ],
-        'sortType'                => [
+        'sortType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'sortType',
         ],
-        'sortOrderType'           => [
+        'sortOrderType' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

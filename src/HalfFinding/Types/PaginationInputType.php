@@ -21,7 +21,7 @@ class PaginationInputType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'pageNumber'     => [
+        'pageNumber' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

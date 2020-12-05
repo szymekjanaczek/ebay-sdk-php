@@ -25,31 +25,31 @@ class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'QuantityScheduled'   => [
+        'QuantityScheduled' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuantityScheduled',
         ],
-        'QuantityActive'      => [
+        'QuantityActive' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuantityActive',
         ],
-        'QuantitySold'        => [
+        'QuantitySold' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuantitySold',
         ],
-        'QuantityUnsold'      => [
+        'QuantityUnsold' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuantityUnsold',
         ],
-        'SuccessPercent'      => [
+        'SuccessPercent' => [
             'type'        => 'double',
             'repeatable'  => false,
             'attribute'   => false,

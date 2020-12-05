@@ -29,19 +29,19 @@ class CategoryAspect extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'aspectHelpText',
         ],
-        'constraint'     => [
+        'constraint' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'constraint',
         ],
-        'name'           => [
+        'name' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'name',
         ],
-        'values'         => [
+        'values' => [
             'type'        => 'DTS\eBaySDK\Catalog\Types\CategoryAspectValue',
             'repeatable'  => true,
             'attribute'   => false,

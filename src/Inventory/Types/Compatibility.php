@@ -27,7 +27,7 @@ class Compatibility extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'compatibleProducts',
         ],
-        'sku'                => [
+        'sku' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

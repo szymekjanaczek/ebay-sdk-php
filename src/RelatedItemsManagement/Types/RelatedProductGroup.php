@@ -23,19 +23,19 @@ class RelatedProductGroup extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'relatedProduct'               => [
+        'relatedProduct' => [
             'type'        => 'DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProduct',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'relatedProduct',
         ],
-        'groupName'                    => [
+        'groupName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'groupName',
         ],
-        'rank'                         => [
+        'rank' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

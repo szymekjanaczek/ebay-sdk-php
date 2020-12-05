@@ -26,25 +26,25 @@ class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'SummaryDays'            => [
+        'SummaryDays' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'SummaryDays',
         ],
-        'TotalBids'              => [
+        'TotalBids' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'TotalBids',
         ],
-        'BidActivityWithSeller'  => [
+        'BidActivityWithSeller' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidActivityWithSeller',
         ],
-        'BidsToUniqueSellers'    => [
+        'BidsToUniqueSellers' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
@@ -56,13 +56,13 @@ class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'BidsToUniqueCategories',
         ],
-        'BidRetractions'         => [
+        'BidRetractions' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'BidRetractions',
         ],
-        'ItemBidDetails'         => [
+        'ItemBidDetails' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\ItemBidDetailsType',
             'repeatable'  => true,
             'attribute'   => false,

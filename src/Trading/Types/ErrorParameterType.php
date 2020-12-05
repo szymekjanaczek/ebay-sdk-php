@@ -21,7 +21,7 @@ class ErrorParameterType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Value'   => [
+        'Value' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -31,31 +31,31 @@ class PaymentInfo extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'acceptedPaymentMethod',
         ],
-        'immediatePay'          => [
+        'immediatePay' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'immediatePay',
         ],
-        'paymentInstructions'   => [
+        'paymentInstructions' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paymentInstructions',
         ],
-        'paypalEmailAddress'    => [
+        'paypalEmailAddress' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paypalEmailAddress',
         ],
-        'depositDetails'        => [
+        'depositDetails' => [
             'type'        => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\DepositDetails',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'depositDetails',
         ],
-        'daysToFullPayment'     => [
+        'daysToFullPayment' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

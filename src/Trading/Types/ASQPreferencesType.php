@@ -27,7 +27,7 @@ class ASQPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ResetDefaultSubjects',
         ],
-        'Subject'              => [
+        'Subject' => [
             'type'        => 'string',
             'repeatable'  => true,
             'attribute'   => false,

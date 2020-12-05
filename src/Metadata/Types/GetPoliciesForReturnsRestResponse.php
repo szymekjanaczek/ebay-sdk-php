@@ -27,7 +27,7 @@ class GetPoliciesForReturnsRestResponse extends \DTS\eBaySDK\Metadata\Types\Retu
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'errors'   => [
+        'errors' => [
             'type'        => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable'  => true,
             'attribute'   => false,

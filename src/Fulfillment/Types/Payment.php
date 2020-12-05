@@ -26,31 +26,31 @@ class Payment extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'amount'             => [
+        'amount' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'amount',
         ],
-        'paymentDate'        => [
+        'paymentDate' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paymentDate',
         ],
-        'paymentHolds'       => [
+        'paymentHolds' => [
             'type'        => 'DTS\eBaySDK\Fulfillment\Types\PaymentHold',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'paymentHolds',
         ],
-        'paymentMethod'      => [
+        'paymentMethod' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'paymentMethod',
         ],
-        'paymentMode'        => [
+        'paymentMode' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -62,7 +62,7 @@ class Payment extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'paymentReferenceId',
         ],
-        'paymentStatus'      => [
+        'paymentStatus' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

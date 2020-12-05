@@ -30,25 +30,25 @@ class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'ConvertedMaxBid',
         ],
-        'MaxBid'          => [
+        'MaxBid' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'MaxBid',
         ],
-        'QuantityBid'     => [
+        'QuantityBid' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuantityBid',
         ],
-        'QuantityWon'     => [
+        'QuantityWon' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'QuantityWon',
         ],
-        'Winning'         => [
+        'Winning' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,

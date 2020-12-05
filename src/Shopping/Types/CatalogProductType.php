@@ -29,13 +29,13 @@ class CatalogProductType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'DomainName'         => [
+        'DomainName' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'DomainName',
         ],
-        'DetailsURL'         => [
+        'DetailsURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -47,43 +47,43 @@ class CatalogProductType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'DisplayStockPhotos',
         ],
-        'ProductID'          => [
+        'ProductID' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
             'repeatable'  => true,
             'attribute'   => false,
             'elementName' => 'ProductID',
         ],
-        'ItemCount'          => [
+        'ItemCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemCount',
         ],
-        'ItemSpecifics'      => [
+        'ItemSpecifics' => [
             'type'        => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ItemSpecifics',
         ],
-        'ReviewCount'        => [
+        'ReviewCount' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'ReviewCount',
         ],
-        'StockPhotoURL'      => [
+        'StockPhotoURL' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'StockPhotoURL',
         ],
-        'Title'              => [
+        'Title' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'Title',
         ],
-        'ProductState'       => [
+        'ProductState' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

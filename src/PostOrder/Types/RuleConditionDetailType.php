@@ -25,25 +25,25 @@ class RuleConditionDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'dataList'      => [
+        'dataList' => [
             'type'        => 'DTS\eBaySDK\PostOrder\Types\ConditionListDetailType',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'dataList',
         ],
-        'isChecked'     => [
+        'isChecked' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'isChecked',
         ],
-        'isEbayPlus'    => [
+        'isEbayPlus' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'isEbayPlus',
         ],
-        'isInvalid'     => [
+        'isInvalid' => [
             'type'        => 'boolean',
             'repeatable'  => false,
             'attribute'   => false,
@@ -55,7 +55,7 @@ class RuleConditionDetailType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'storeCategory',
         ],
-        'storeId'       => [
+        'storeId' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

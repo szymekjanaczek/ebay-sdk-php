@@ -22,7 +22,7 @@ class AddSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types\Ab
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'Item'             => [
+        'Item' => [
             'type'        => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class AddSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types\Ab
             'attribute'   => false,
             'elementName' => 'SaleTemplateName',
         ],
-        'ProductID'        => [
+        'ProductID' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

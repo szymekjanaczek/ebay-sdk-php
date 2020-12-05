@@ -22,7 +22,7 @@ class FetchTokenResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'eBayAuthToken'      => [
+        'eBayAuthToken' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -34,7 +34,7 @@ class FetchTokenResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponse
             'attribute'   => false,
             'elementName' => 'HardExpirationTime',
         ],
-        'RESTToken'          => [
+        'RESTToken' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

@@ -23,7 +23,7 @@ class GetProductSearchValuesBaseRequest extends \DTS\eBaySDK\ProductMetadata\Typ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'categoryId'     => [
+        'categoryId' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -41,7 +41,7 @@ class GetProductSearchValuesBaseRequest extends \DTS\eBaySDK\ProductMetadata\Typ
             'attribute'   => false,
             'elementName' => 'listFormatOnly',
         ],
-        'sortOrder'      => [
+        'sortOrder' => [
             'type'        => 'DTS\eBaySDK\ProductMetadata\Types\SortOrder',
             'repeatable'  => true,
             'attribute'   => false,

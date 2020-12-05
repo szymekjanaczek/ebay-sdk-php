@@ -27,7 +27,7 @@ class AccountTransactionType extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'FeeDescription',
         ],
-        'Transaction'    => [
+        'Transaction' => [
             'type'        => 'DTS\eBaySDK\MerchantData\Types\NonUsageTransactionType',
             'repeatable'  => true,
             'attribute'   => false,

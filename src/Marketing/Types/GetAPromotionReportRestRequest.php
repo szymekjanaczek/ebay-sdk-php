@@ -24,19 +24,19 @@ class GetAPromotionReportRestRequest extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'limit'            => [
+        'limit' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'limit',
         ],
-        'marketplace_id'   => [
+        'marketplace_id' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
             'elementName' => 'marketplace_id',
         ],
-        'offset'           => [
+        'offset' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,
@@ -48,7 +48,7 @@ class GetAPromotionReportRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute'   => false,
             'elementName' => 'promotion_status',
         ],
-        'q'                => [
+        'q' => [
             'type'        => 'string',
             'repeatable'  => false,
             'attribute'   => false,

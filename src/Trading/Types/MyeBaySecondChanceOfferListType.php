@@ -21,7 +21,7 @@ class MyeBaySecondChanceOfferListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
-        'TotalAvailable'    => [
+        'TotalAvailable' => [
             'type'        => 'integer',
             'repeatable'  => false,
             'attribute'   => false,

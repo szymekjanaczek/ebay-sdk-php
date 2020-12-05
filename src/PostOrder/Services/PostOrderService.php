@@ -18,7 +18,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
      * @property array $operations Associative array of operations provided by the service.
      */
     protected static $operations = [
-        'ApproveCancellationRequest'    => [
+        'ApproveCancellationRequest' => [
             'method'        => 'POST',
             'resource'      => 'cancellation/{cancelId}/approve',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestResponse',
@@ -29,14 +29,14 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'CheckCancellationEligibility'  => [
+        'CheckCancellationEligibility' => [
             'method'        => 'POST',
             'resource'      => 'cancellation/check_eligibility',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestResponse',
             'params'        => [
             ],
         ],
-        'ConfirmCancellationRefund'     => [
+        'ConfirmCancellationRefund' => [
             'method'        => 'POST',
             'resource'      => 'cancellation/{cancelId}/confirm',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestResponse',
@@ -47,12 +47,12 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetCancellation'               => [
+        'GetCancellation' => [
             'method'        => 'GET',
             'resource'      => 'cancellation/{cancelId}?',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetCancellationRestResponse',
             'params'        => [
-                'cancelId'    => [
+                'cancelId' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -61,7 +61,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'RejectCancellationRequest'     => [
+        'RejectCancellationRequest' => [
             'method'        => 'POST',
             'resource'      => 'cancellation/{cancelId}/reject',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestResponse',
@@ -72,54 +72,54 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'SearchCancellations'           => [
+        'SearchCancellations' => [
             'method'        => 'GET',
             'resource'      => 'cancellation/search',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestResponse',
             'params'        => [
-                'buyer_login_name'         => [
+                'buyer_login_name' => [
                     'valid' => ['string'],
                 ],
-                'cancel_id'                => [
+                'cancel_id' => [
                     'valid' => ['string'],
                 ],
                 'creation_date_range_from' => [
                     'valid' => ['string'],
                 ],
-                'creation_date_range_to'   => [
+                'creation_date_range_to' => [
                     'valid' => ['string'],
                 ],
-                'item_id'                  => [
+                'item_id' => [
                     'valid' => ['string'],
                 ],
-                'legacy_order_id'          => [
+                'legacy_order_id' => [
                     'valid' => ['string'],
                 ],
-                'limit'                    => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'                   => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'seller_login_name'        => [
+                'seller_login_name' => [
                     'valid' => ['string'],
                 ],
-                'sort'                     => [
+                'sort' => [
                     'valid' => ['string'],
                 ],
-                'transaction_id'           => [
+                'transaction_id' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'SubmitCancellationRequest'     => [
+        'SubmitCancellationRequest' => [
             'method'        => 'POST',
             'resource'      => 'cancellation',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestResponse',
             'params'        => [
             ],
         ],
-        'AppealCaseDecision'            => [
+        'AppealCaseDecision' => [
             'method'        => 'POST',
             'resource'      => 'casemanagement/{caseId}/appeal',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestResponse',
@@ -130,7 +130,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'CloseCase'                     => [
+        'CloseCase' => [
             'method'        => 'POST',
             'resource'      => 'casemanagement/{caseId}/close',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CloseCaseRestResponse',
@@ -141,7 +141,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetCase'                       => [
+        'GetCase' => [
             'method'        => 'GET',
             'resource'      => 'casemanagement/{caseId}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetCaseRestResponse',
@@ -152,7 +152,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'IssueCaseRefund'               => [
+        'IssueCaseRefund' => [
             'method'        => 'POST',
             'resource'      => 'casemanagement/{caseId}/issue_refund',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestResponse',
@@ -163,7 +163,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'ProvideReturnShipmentInfo'     => [
+        'ProvideReturnShipmentInfo' => [
             'method'        => 'POST',
             'resource'      => 'casemanagement/{caseId}/provide_shipment_info',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestResponse',
@@ -174,7 +174,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'ProvidesReturnAddress'         => [
+        'ProvidesReturnAddress' => [
             'method'        => 'POST',
             'resource'      => 'casemanagement/{caseId}/provide_return_address',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestResponse',
@@ -185,7 +185,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'SearchCases'                   => [
+        'SearchCases' => [
             'method'        => 'GET',
             'resource'      => 'casemanagement/search',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SearchCasesRestResponse',
@@ -193,46 +193,46 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 'case_creation_date_range_from' => [
                     'valid' => ['string'],
                 ],
-                'case_creation_date_range_to'   => [
+                'case_creation_date_range_to' => [
                     'valid' => ['string'],
                 ],
-                'case_status_filter'            => [
+                'case_status_filter' => [
                     'valid' => ['string'],
                 ],
-                'fieldgroups'                   => [
+                'fieldgroups' => [
                     'valid' => ['string'],
                 ],
-                'item_id'                       => [
+                'item_id' => [
                     'valid' => ['string'],
                 ],
-                'limit'                         => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'                        => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'order_id'                      => [
+                'order_id' => [
                     'valid' => ['string'],
                 ],
-                'return_id'                     => [
+                'return_id' => [
                     'valid' => ['string'],
                 ],
-                'sort'                          => [
+                'sort' => [
                     'valid' => ['string'],
                 ],
-                'transaction_id'                => [
+                'transaction_id' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'CheckInquiryEligibility'       => [
+        'CheckInquiryEligibility' => [
             'method'        => 'POST',
             'resource'      => 'inquiry/check_eligibility',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestResponse',
             'params'        => [
             ],
         ],
-        'CloseInquiry'                  => [
+        'CloseInquiry' => [
             'method'        => 'POST',
             'resource'      => 'inquiry/{inquiryId}/close',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CloseInquiryRestResponse',
@@ -243,7 +243,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'ConfirmInquiryRefund'          => [
+        'ConfirmInquiryRefund' => [
             'method'        => 'POST',
             'resource'      => 'inquiry/{inquiryId}/confirm_refund',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestResponse',
@@ -254,14 +254,14 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'CreateInquiry'                 => [
+        'CreateInquiry' => [
             'method'        => 'POST',
             'resource'      => 'inquiry',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CreateInquiryRestResponse',
             'params'        => [
             ],
         ],
-        'EscalateInquiry'               => [
+        'EscalateInquiry' => [
             'method'        => 'POST',
             'resource'      => 'inquiry/{inquiryId}/escalate',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestResponse',
@@ -272,7 +272,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetInquiry'                    => [
+        'GetInquiry' => [
             'method'        => 'GET',
             'resource'      => 'inquiry/{inquiryId}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetInquiryRestResponse',
@@ -283,7 +283,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'IssueInquiryRefund'            => [
+        'IssueInquiryRefund' => [
             'method'        => 'POST',
             'resource'      => 'inquiry/{inquiryId}/issue_refund',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestResponse',
@@ -294,7 +294,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'ProvideInquiryRefundInfo'      => [
+        'ProvideInquiryRefundInfo' => [
             'method'        => 'POST',
             'resource'      => 'inquiry/{inquiryId}/provide_refund_info',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestResponse',
@@ -305,7 +305,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'ProvideInquiryShipmentInfo'    => [
+        'ProvideInquiryShipmentInfo' => [
             'method'        => 'POST',
             'resource'      => 'inquiry/{inquiryId}/provide_shipment_info',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestResponse',
@@ -316,44 +316,44 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'SearchInquiries'               => [
+        'SearchInquiries' => [
             'method'        => 'GET',
             'resource'      => 'inquiry/search',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestResponse',
             'params'        => [
-                'fieldgroups'                      => [
+                'fieldgroups' => [
                     'valid' => ['string'],
                 ],
                 'inquiry_creation_date_range_from' => [
                     'valid' => ['string'],
                 ],
-                'inquiry_creation_date_range_to'   => [
+                'inquiry_creation_date_range_to' => [
                     'valid' => ['string'],
                 ],
-                'inquiry_status'                   => [
+                'inquiry_status' => [
                     'valid' => ['string'],
                 ],
-                'item_id'                          => [
+                'item_id' => [
                     'valid' => ['string'],
                 ],
-                'limit'                            => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'                           => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'order_id'                         => [
+                'order_id' => [
                     'valid' => ['string'],
                 ],
-                'sort'                             => [
+                'sort' => [
                     'valid' => ['string'],
                 ],
-                'transaction_id'                   => [
+                'transaction_id' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'SendInquiryMessage'            => [
+        'SendInquiryMessage' => [
             'method'        => 'POST',
             'resource'      => 'inquiry/{inquiryId}/send_message',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestResponse',
@@ -364,7 +364,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'AddShippingLabelInfo'          => [
+        'AddShippingLabelInfo' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/add_shipping_label',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestResponse',
@@ -375,7 +375,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'CancelReturnRequest'           => [
+        'CancelReturnRequest' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/cancel',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestResponse',
@@ -386,7 +386,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'CheckReturnEligibility'        => [
+        'CheckReturnEligibility' => [
             'method'        => 'POST',
             'resource'      => 'return/check_eligibility',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse',
@@ -404,14 +404,14 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'CreateReturnDraft'             => [
+        'CreateReturnDraft' => [
             'method'        => 'POST',
             'resource'      => 'return/draft',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestResponse',
             'params'        => [
             ],
         ],
-        'CreateReturnRequest'           => [
+        'CreateReturnRequest' => [
             'method'        => 'POST',
             'resource'      => 'return',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestResponse',
@@ -421,7 +421,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'CreateReturnShippingLabel'     => [
+        'CreateReturnShippingLabel' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/initiate_shipping_label',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestResponse',
@@ -432,7 +432,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'DeleteReturnDraftFile'         => [
+        'DeleteReturnDraftFile' => [
             'method'        => 'DELETE',
             'resource'      => 'return/draft/{draftId}/file/{fileId}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestResponse',
@@ -441,18 +441,18 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'fileId'  => [
+                'fileId' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'DeleteReturnFile'              => [
+        'DeleteReturnFile' => [
             'method'        => 'DELETE',
             'resource'      => 'return/{returnId}/file/{fileId}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestResponse',
             'params'        => [
-                'fileId'   => [
+                'fileId' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -462,7 +462,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'EscalateReturn'                => [
+        'EscalateReturn' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/escalate',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\EscalateReturnRestResponse',
@@ -473,7 +473,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetReturn'                     => [
+        'GetReturn' => [
             'method'        => 'GET',
             'resource'      => 'return/{returnId}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnRestResponse',
@@ -481,13 +481,13 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 'fieldgroups' => [
                     'valid' => ['string'],
                 ],
-                'returnId'    => [
+                'returnId' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
             ],
         ],
-        'GetReturnDraft'                => [
+        'GetReturnDraft' => [
             'method'        => 'GET',
             'resource'      => 'return/draft/{draftId}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestResponse',
@@ -498,7 +498,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetReturnDraftFiles'           => [
+        'GetReturnDraftFiles' => [
             'method'        => 'GET',
             'resource'      => 'return/draft/{draftId}/files',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestResponse',
@@ -509,14 +509,14 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetReturnEstimate'             => [
+        'GetReturnEstimate' => [
             'method'        => 'POST',
             'resource'      => 'return/estimate',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestResponse',
             'params'        => [
             ],
         ],
-        'GetReturnFiles'                => [
+        'GetReturnFiles' => [
             'method'        => 'GET',
             'resource'      => 'return/{returnId}/files',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestResponse',
@@ -527,7 +527,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetReturnMetadata'             => [
+        'GetReturnMetadata' => [
             'method'        => 'GET',
             'resource'      => 'return/metadata/{metadataKey}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse',
@@ -538,14 +538,14 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetReturnPreferences'          => [
+        'GetReturnPreferences' => [
             'method'        => 'GET',
             'resource'      => 'return/preference',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnPreferencesRestResponse',
             'params'        => [
             ],
         ],
-        'GetReturnShippingLabel'        => [
+        'GetReturnShippingLabel' => [
             'method'        => 'GET',
             'resource'      => 'return/{returnId}/get_shipping_label',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestResponse',
@@ -556,16 +556,16 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetShipmentTracking'           => [
+        'GetShipmentTracking' => [
             'method'        => 'GET',
             'resource'      => 'return/{returnId}/tracking',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestResponse',
             'params'        => [
-                'carrier_used'    => [
+                'carrier_used' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
-                'returnId'        => [
+                'returnId' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -575,7 +575,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'IssueReturnRefund'             => [
+        'IssueReturnRefund' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/issue_refund',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestResponse',
@@ -586,7 +586,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'MarkReturnReceived'            => [
+        'MarkReturnReceived' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/mark_as_received',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestResponse',
@@ -597,7 +597,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'MarkReturnRefundReceived'      => [
+        'MarkReturnRefundReceived' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/mark_refund_received',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestResponse',
@@ -608,7 +608,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'MarkReturnRefundSent'          => [
+        'MarkReturnRefundSent' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/mark_refund_sent',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestResponse',
@@ -619,7 +619,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'MarkReturnShipped'             => [
+        'MarkReturnShipped' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/mark_as_shipped',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestResponse',
@@ -630,7 +630,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'ProcessReturnRequest'          => [
+        'ProcessReturnRequest' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/decide',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestResponse',
@@ -641,7 +641,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'SearchReturns'                 => [
+        'SearchReturns' => [
             'method'        => 'GET',
             'resource'      => 'return/search',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SearchReturnsRestResponse',
@@ -649,33 +649,33 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 'creation_date_range_from' => [
                     'valid' => ['string'],
                 ],
-                'creation_date_range_to'   => [
+                'creation_date_range_to' => [
                     'valid' => ['string'],
                 ],
-                'item_id'                  => [
+                'item_id' => [
                     'valid' => ['string'],
                 ],
-                'limit'                    => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'                   => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'return_state'             => [
+                'return_state' => [
                     'valid' => ['string'],
                 ],
-                'sort'                     => [
+                'sort' => [
                     'valid' => ['string'],
                 ],
-                'states'                   => [
+                'states' => [
                     'valid' => ['string'],
                 ],
-                'transaction_id'           => [
+                'transaction_id' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'SendReturnMessage'             => [
+        'SendReturnMessage' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/send_message',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestResponse',
@@ -686,12 +686,12 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'SendReturnShippingLabel'       => [
+        'SendReturnShippingLabel' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/send_shipping_label',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestResponse',
             'params'        => [
-                'return_id'        => [
+                'return_id' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
@@ -700,14 +700,14 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'SetReturnPreferences'          => [
+        'SetReturnPreferences' => [
             'method'        => 'POST',
             'resource'      => 'return/preference',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestResponse',
             'params'        => [
             ],
         ],
-        'SubmitReturnFile'              => [
+        'SubmitReturnFile' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/file/submit',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestResponse',
@@ -718,7 +718,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'UpdateReturnDraft'             => [
+        'UpdateReturnDraft' => [
             'method'        => 'PUT',
             'resource'      => 'return/draft/{draftId}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestResponse',
@@ -729,7 +729,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'UpdateShipmentTracking'        => [
+        'UpdateShipmentTracking' => [
             'method'        => 'PUT',
             'resource'      => 'return/{returnId}/update_tracking',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestResponse',
@@ -740,7 +740,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'UploadReturnDraftFile'         => [
+        'UploadReturnDraftFile' => [
             'method'        => 'POST',
             'resource'      => 'return/draft/{draftId}/file/upload',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestResponse',
@@ -751,7 +751,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'UploadReturnFile'              => [
+        'UploadReturnFile' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/file/upload',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestResponse',
@@ -762,7 +762,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'VoidShippingLabel'             => [
+        'VoidShippingLabel' => [
             'method'        => 'POST',
             'resource'      => 'return/{returnId}/void_shipping_label',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestResponse',
@@ -773,49 +773,49 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'CreateCustomList'              => [
+        'CreateCustomList' => [
             'method'        => 'POST',
             'resource'      => 'rules/custom_list',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CreateCustomListRestResponse',
             'params'        => [
             ],
         ],
-        'CreateReturnRules'             => [
+        'CreateReturnRules' => [
             'method'        => 'POST',
             'resource'      => 'rules',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestResponse',
             'params'        => [
             ],
         ],
-        'GetCustomList'                 => [
+        'GetCustomList' => [
             'method'        => 'GET',
             'resource'      => 'rules/custom_list_detail',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetCustomListRestResponse',
             'params'        => [
             ],
         ],
-        'GetCustomLists'                => [
+        'GetCustomLists' => [
             'method'        => 'GET',
             'resource'      => 'rules/custom_list',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetCustomListsRestResponse',
             'params'        => [
             ],
         ],
-        'GetReturnRuleTemplates'        => [
+        'GetReturnRuleTemplates' => [
             'method'        => 'GET',
             'resource'      => 'rules/get_templates',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnRuleTemplatesRestResponse',
             'params'        => [
             ],
         ],
-        'GetStoreCategories'            => [
+        'GetStoreCategories' => [
             'method'        => 'GET',
             'resource'      => 'rules/get_store_category',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetStoreCategoriesRestResponse',
             'params'        => [
             ],
         ],
-        'GetReturnRule'                 => [
+        'GetReturnRule' => [
             'method'        => 'GET',
             'resource'      => 'rules/{ruleId}',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestResponse',
@@ -826,30 +826,30 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'GetReturnRuleHistory'          => [
+        'GetReturnRuleHistory' => [
             'method'        => 'GET',
             'resource'      => 'rules/{ruleId}/get_trigger_history',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestResponse',
             'params'        => [
-                'limit'                   => [
+                'limit' => [
                     'valid' => ['string'],
                 ],
-                'offset'                  => [
+                'offset' => [
                     'valid' => ['string'],
                 ],
-                'ruleId'                  => [
+                'ruleId' => [
                     'valid'    => ['string'],
                     'required' => true,
                 ],
                 'trigger_date_range_from' => [
                     'valid' => ['string'],
                 ],
-                'trigger_date_range_to'   => [
+                'trigger_date_range_to' => [
                     'valid' => ['string'],
                 ],
             ],
         ],
-        'GetReturnRules'                => [
+        'GetReturnRules' => [
             'method'        => 'GET',
             'resource'      => 'rules/disposition_rules_list',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestResponse',
@@ -859,14 +859,14 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
                 ],
             ],
         ],
-        'UpdateCustomList'              => [
+        'UpdateCustomList' => [
             'method'        => 'PUT',
             'resource'      => 'rules/custom_list',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestResponse',
             'params'        => [
             ],
         ],
-        'UpdateReturnRules'             => [
+        'UpdateReturnRules' => [
             'method'        => 'PUT',
             'resource'      => 'rules',
             'responseClass' => '\DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestResponse',
