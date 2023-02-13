@@ -276,6 +276,7 @@ class OAuthService
         if ($request === null) {
             $request = new GetAppTokenRestRequest();
         }
+
         if (!isset($request->grant_type)) {
             $request->grant_type = 'client_credentials';
         }

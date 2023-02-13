@@ -66,8 +66,6 @@ class TreeInterpreter
      */
     private function dispatch(array $node, $value)
     {
-        $dispatcher = $this->fnDispatcher;
-
         switch ($node['type']) {
 
             case 'field':
@@ -225,7 +223,7 @@ class TreeInterpreter
                     $args[] = $this->dispatch($arg, $value);
                 }
 
-                return $dispatcher($node['value'], $args);
+                return ($this->fnDispatcher)($node['value'], $args);
 
             case 'slice':
                 return is_string($value) || Utils::isArray($value)

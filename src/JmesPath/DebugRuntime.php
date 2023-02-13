@@ -56,8 +56,7 @@ class DebugRuntime
     {
         return $this->debugCallback(
             function () use ($expression, $data) {
-                $runtime = $this->runtime;
-                return $runtime($expression, $data);
+                return ($this->runtime)($expression, $data);
             },
             $expression,
             $data
@@ -68,8 +67,7 @@ class DebugRuntime
     {
         $result = $this->debugCallback(
             function () use ($expression, $data) {
-                $runtime = $this->runtime;
-                return $runtime($expression, $data);
+                return ($this->runtime)($expression, $data);
             },
             $expression,
             $data

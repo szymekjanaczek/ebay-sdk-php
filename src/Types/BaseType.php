@@ -517,7 +517,7 @@ class BaseType implements JmesPathableObjectInterface
         $actualType = gettype($value);
 
         if ('object' === $actualType) {
-            $actualType = get_class($value);
+            return get_class($value);
         }
 
         return $actualType;

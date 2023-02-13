@@ -134,9 +134,11 @@ class Parser
      */
     private function nud_identifier(): array
     {
-        $token = $this->token;
+        $data = ['type' => 'field', 'value' => $this->token['value']];
+
         $this->next();
-        return ['type' => 'field', 'value' => $token['value']];
+
+        return $data;
     }
 
     /**
@@ -144,10 +146,12 @@ class Parser
      */
     private function nud_quoted_identifier(): array
     {
-        $token = $this->token;
+        $data = ['type' => 'field', 'value' => $this->token['value']];
+
         $this->next();
         $this->assertNotToken(T::T_LPAREN);
-        return ['type' => 'field', 'value' => $token['value']];
+
+        return $data;
     }
 
     private function nud_current()
@@ -161,9 +165,11 @@ class Parser
      */
     private function nud_literal(): array
     {
-        $token = $this->token;
+        $data = ['type' => 'literal', 'value' => $this->token['value']];
+
         $this->next();
-        return ['type' => 'literal', 'value' => $token['value']];
+
+        return $data;
     }
 
     /**
@@ -392,14 +398,16 @@ class Parser
      */
     private function led_comparator(array $left): array
     {
-        $token = $this->token;
+        $data = [
+            'type'     => T::T_COMPARATOR,
+            'value'    => $this->token['value'],
+        ];
+
         $this->next();
 
-        return [
-            'type'     => T::T_COMPARATOR,
-            'value'    => $token['value'],
-            'children' => [$left, $this->expr(self::$bp[T::T_COMPARATOR])]
-        ];
+        $data['children'] = [$left, $this->expr(self::$bp[T::T_COMPARATOR])];
+
+        return $data;
     }
 
     private function parseProjection($bp)
