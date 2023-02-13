@@ -174,7 +174,7 @@ class ConfigurationResolverTest extends TestCase
         $options = [
             'array' => [],
             'bool' => true,
-            'callable' => function (): void {
+            'callable' => static function () : void {
             },
             'int' => 1,
             'stdClass' => new stdClass(),

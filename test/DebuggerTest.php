@@ -9,7 +9,7 @@ class DebuggerTest extends TestCase
     public function testOutputsDebugInformation(): void
     {
         $str = '';
-        $logfn = function ($value) use (&$str): void {
+        $logfn = static function ($value) use (&$str) : void {
             $str .= $value;
         };
 
@@ -36,7 +36,7 @@ X-EBAY-API-DEV-NAME: devname
 EOT;
 
         $str = '';
-        $logfn = function ($value) use (&$str): void {
+        $logfn = static function ($value) use (&$str) : void {
             $str .= $value;
         };
 
@@ -65,7 +65,7 @@ X-EBAY-SOA-SECURITY-TOKEN: token
 EOT;
 
         $str = '';
-        $logfn = function ($value) use (&$str): void {
+        $logfn = static function ($value) use (&$str) : void {
             $str .= $value;
         };
 

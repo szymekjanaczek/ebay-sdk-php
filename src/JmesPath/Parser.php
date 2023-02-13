@@ -602,11 +602,11 @@ class Parser
             $token = substr($method, 4);
             $message = "Unexpected \"$token\" token ($method). Expected one of"
                 . " the following tokens: "
-                . implode(', ', array_map(function ($i): string {
+                . implode(', ', array_map(static function ($i) : string {
                     return '"' . substr($i, 4) . '"';
                 }, array_filter(
                     get_class_methods($this),
-                    function ($i) use ($prefix): bool {
+                    static function ($i) use ($prefix) : bool {
                         return strpos($i, $prefix) === 0;
                     }
                 )));

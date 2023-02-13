@@ -193,14 +193,18 @@ class Utils
     public static function stableSort(array $data, callable $sortFn): array
     {
         // Decorate each item by creating an array of [value, index]
-        array_walk($data, function (&$v, $k): void { $v = [$v, $k]; });
+        array_walk($data, static function (&$v, $k) : void {
+            $v = [$v, $k];
+        });
         // Sort by the sort function and use the index as a tie-breaker
-        uasort($data, function ($a, $b) use ($sortFn) {
+        uasort($data, static function ($a, $b) use ($sortFn) {
             return $sortFn($a[0], $b[0]) ?: ($a[1] < $b[1] ? -1 : 1);
         });
 
         // Undecorate each item and return the resulting sorted array
-        return array_map(function ($v) { return $v[0]; }, array_values($data));
+        return array_map(static function ($v) {
+            return $v[0];
+        }, array_values($data));
     }
 
     /**

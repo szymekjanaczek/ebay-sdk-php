@@ -123,7 +123,7 @@ class UriResolver
      */
     private function fillPathParams($uri, array &$paramValues): ?string
     {
-        return preg_replace_callback('/{(\S+)}/U', function ($matches) use (&$paramValues) {
+        return preg_replace_callback('/{(\S+)}/U', static function ($matches) use (&$paramValues) {
             $path = $matches[1];
             if (array_key_exists($path, $paramValues)) {
                 $value = $paramValues[$path];
@@ -131,7 +131,6 @@ class UriResolver
             } else {
                 $value = $path;
             }
-
             return $value;
         }, $uri);
     }

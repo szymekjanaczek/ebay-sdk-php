@@ -387,7 +387,7 @@ abstract class BaseService
     {
         $str = $url.PHP_EOL;
 
-        $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers): string {
+        $str .= array_reduce(array_keys($headers), static function ($str, $key) use ($headers) : string {
             $str .= $key.': '.$headers[$key].PHP_EOL;
             return $str;
         }, '');

@@ -68,7 +68,7 @@ class FnDispatcher
     {
         $this->validate('avg', $args, [['array']]);
         $arg = Utils::toArray($args[0]);
-        $sum = $this->reduce('avg:0', $arg, ['number'], function ($a, $b): float|int|array {
+        $sum = $this->reduce('avg:0', $arg, ['number'], static function ($a, $b) : float|int|array {
             return $a + $b;
         });
         return $arg ? ($sum / count($arg)) : null;
@@ -114,7 +114,7 @@ class FnDispatcher
             );
         }
 
-        return array_reduce($args, function ($carry, $item) {
+        return array_reduce($args, static function ($carry, $item) {
             return $carry !== null ? $carry : $item;
         });
     }
@@ -122,7 +122,7 @@ class FnDispatcher
     private function fn_join(array $args)
     {
         $this->validate('join', $args, [['string'], ['array']]);
-        $fn = function ($a, $b, $i) use ($args) {
+        $fn = static function ($a, $b, $i) use ($args) {
             return $i ? ($a . $args[0] . $b) : $b;
         };
         return $this->reduce('join:0', Utils::toArray($args[1]), ['string'], $fn);
@@ -144,7 +144,9 @@ class FnDispatcher
     private function fn_max(array $args)
     {
         $this->validate('max', $args, [['array']]);
-        $fn = function ($a, $b) { return $a >= $b ? $a : $b; };
+        $fn = static function ($a, $b) {
+            return $a >= $b ? $a : $b;
+        };
         return $this->reduce('max:0', Utils::toArray($args[0]), ['number', 'string'], $fn);
     }
 
@@ -152,7 +154,7 @@ class FnDispatcher
     {
         $this->validate('max_by', $args, [['array'], ['expression']]);
         $expr = $this->wrapExpression('max_by:1', $args[1], ['number', 'string']);
-        $fn = function ($carry, $item, $index) use ($expr) {
+        $fn = static function ($carry, $item, $index) use ($expr) {
             return $index
                 ? ($expr($carry) >= $expr($item) ? $carry : $item)
                 : $item;
@@ -163,7 +165,9 @@ class FnDispatcher
     private function fn_min(array $args)
     {
         $this->validate('min', $args, [['array']]);
-        $fn = function ($a, $b, $i) { return $i && $a <= $b ? $a : $b; };
+        $fn = static function ($a, $b, $i) {
+            return $i && $a <= $b ? $a : $b;
+        };
         return $this->reduce('min:0', Utils::toArray($args[0]), ['number', 'string'], $fn);
     }
 
@@ -172,7 +176,7 @@ class FnDispatcher
         $this->validate('min_by', $args, [['array'], ['expression']]);
         $expr = $this->wrapExpression('min_by:1', $args[1], ['number', 'string']);
         $i = -1;
-        $fn = function ($a, $b) use ($expr, &$i) {
+        $fn = static function ($a, $b) use ($expr, &$i) {
             return ++$i !== 0 ? ($expr($a) <= $expr($b) ? $a : $b) : $b;
         };
         return $this->reduce('min_by:1', Utils::toArray($args[0]), ['any'], $fn);
@@ -194,7 +198,9 @@ class FnDispatcher
     private function fn_sum(array $args)
     {
         $this->validate('sum', $args, [['array']]);
-        $fn = function ($a, $b): float|int|array { return $a + $b; };
+        $fn = static function ($a, $b) : float|int|array {
+            return $a + $b;
+        };
         return $this->reduce('sum:0', Utils::toArray($args[0]), ['number'], $fn);
     }
 
@@ -283,7 +289,7 @@ class FnDispatcher
             );
         }
 
-        return array_reduce($args, function ($carry, $arg): array {
+        return array_reduce($args, static function ($carry, $arg) : array {
             $carry = array_replace($carry, Utils::toArray($arg));
             return $carry;
         }, []);

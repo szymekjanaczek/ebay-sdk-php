@@ -33,7 +33,7 @@ class Debugger
     public function __construct(array $config)
     {
         $this->config = $config + [
-            'logfn' => function ($msg): void {
+            'logfn' => static function ($msg) : void {
                 echo $msg.PHP_EOL;
             },
             'scrub_credentials' => true,

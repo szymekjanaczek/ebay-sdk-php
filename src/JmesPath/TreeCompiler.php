@@ -44,7 +44,8 @@ class TreeCompiler
     public function visit(array $ast, $fnName, $expr): ?string
     {
         $this->vars = [];
-        $this->source = $this->indentation = '';
+        $this->source = '';
+        $this->indentation = '';
         $this->write("<?php\n")
             ->write('use DTS\\eBaySDK\\JmesPath\\TreeInterpreter as Ti;')
             ->write('use DTS\\eBaySDK\\JmesPath\\FnDispatcher as Fn;')

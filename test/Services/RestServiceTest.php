@@ -140,7 +140,7 @@ class RestServiceTest extends TestCase
     public function testDebugging(): void
     {
         $str = '';
-        $logfn = function ($value) use (&$str): void {
+        $logfn = static function ($value) use (&$str) : void {
             $str .= $value;
         };
 

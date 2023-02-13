@@ -45,7 +45,7 @@ class JsonParser
             return $value;
         }
 
-        return array_filter($value, function ($val): bool {
+        return array_filter($value, static function ($val) : bool {
             return !is_null($val);
         });
     }

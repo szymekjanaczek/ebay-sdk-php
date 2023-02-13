@@ -197,7 +197,7 @@ class UriResolverTest extends TestCase
         $paramValues = [
             'array' => [],
             'bool' => true,
-            'callable' => function (): void {
+            'callable' => static function () : void {
             },
             'int' => 1,
             'string' => 'foo'

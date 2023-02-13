@@ -121,7 +121,8 @@ trait HttpHeadersTrait
      */
     private function setHeaders(array $headers): void
     {
-        $this->headerNames = $this->headers = [];
+        $this->headerNames = [];
+        $this->headers = [];
         foreach ($headers as $header => $value) {
             if (!is_array($value)) {
                 $value = [$value];
@@ -148,7 +149,7 @@ trait HttpHeadersTrait
      */
     private function trimHeaderValues(array $values): array
     {
-        return array_map(function ($value): string {
+        return array_map(static function ($value) : string {
             return trim($value, " \t");
         }, $values);
     }

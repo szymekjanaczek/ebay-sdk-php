@@ -370,7 +370,7 @@ class OAuthService
      */
     private function buildRequestBody(array $request)
     {
-        $params = array_reduce(array_keys($request), function ($carry, $key) use($request) {
+        $params = array_reduce(array_keys($request), static function ($carry, $key) use ($request) {
             $value = $request[$key];
             $carry[$key] = is_array($value) ? implode(' ', $value) : $value;
             return $carry;
@@ -413,7 +413,7 @@ class OAuthService
     {
         $str = $url.PHP_EOL;
 
-        $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers): string {
+        $str .= array_reduce(array_keys($headers), static function ($str, $key) use ($headers) : string {
             $str .= $key.': '.$headers[$key].PHP_EOL;
             return $str;
         }, '');

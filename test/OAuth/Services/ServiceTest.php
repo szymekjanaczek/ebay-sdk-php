@@ -252,7 +252,7 @@ class ServiceTest extends TestCase
     public function testDebugging(): void
     {
         $str = '';
-        $logfn = function ($value) use (&$str): void {
+        $logfn = static function ($value) use (&$str) : void {
             $str .= $value;
         };
         $body = http_build_query([
@@ -312,7 +312,7 @@ class ServiceTest extends TestCase
     public function testCredentialsCanBeProvided(): void
     {
         $s = new OAuthService([
-            'credentials' => function (): Credentials {
+            'credentials' => static function () : Credentials {
                 return new Credentials('111', '222', '333');
             },
             'ruName'      => 'foo'
@@ -382,7 +382,7 @@ EOT;
         $this->expectExceptionMessage('Cannot locate credentials');
 
         new OAuthService([
-            'credentials' => function (): InvalidArgumentException {
+            'credentials' => static function () : InvalidArgumentException {
                 return new InvalidArgumentException('Cannot locate credentials');
             },
             'ruName'      => 'foo'

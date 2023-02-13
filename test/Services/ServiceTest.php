@@ -123,7 +123,7 @@ class ServiceTest extends TestCase
     public function testDebugging(): void
     {
         $str = '';
-        $logfn = function ($value) use (&$str): void {
+        $logfn = static function ($value) use (&$str) : void {
             $str .= $value;
         };
 
@@ -173,7 +173,7 @@ class ServiceTest extends TestCase
     public function testCredentialsCanBeProvided(): void
     {
         $s = new Service([
-            'credentials' => function (): Credentials {
+            'credentials' => static function () : Credentials {
                 return new Credentials('111', '222', '333');
             },
             'httpHandler' => new HttpHandler()
@@ -243,7 +243,7 @@ EOT;
         $this->expectExceptionMessage('Cannot locate credentials');
 
         new Service([
-            'credentials' => function (): InvalidArgumentException {
+            'credentials' => static function () : InvalidArgumentException {
                 return new InvalidArgumentException('Cannot locate credentials');
             },
             'httpHandler' => new HttpHandler()
@@ -277,7 +277,7 @@ EOT;
         $s->setConfig([
             'sandbox' => false,
             'compressResponse' => false,
-            'credentials' => function (): Credentials {
+            'credentials' => static function () : Credentials {
                 return new Credentials('444', '555', '666');
             }
         ]);
