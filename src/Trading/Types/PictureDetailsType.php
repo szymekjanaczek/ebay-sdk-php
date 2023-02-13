@@ -10,20 +10,25 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType;
+use DTS\eBaySDK\Trading\Enums\PictureSourceCodeType;
+use DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $GalleryURL
- * @property \DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType $GalleryType
- * @property \DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType $PhotoDisplay
+ * @property GalleryTypeCodeType $GalleryType
+ * @property PhotoDisplayCodeType $PhotoDisplay
  * @property string[] $PictureURL
- * @property \DTS\eBaySDK\Trading\Enums\PictureSourceCodeType $PictureSource
+ * @property PictureSourceCodeType $PictureSource
  * @property string $GalleryDuration
- * @property \DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType $GalleryStatus
+ * @property GalleryStatusCodeType $GalleryStatus
  * @property string $GalleryErrorInfo
  * @property string[] $ExternalPictureURL
- * @property \DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType $ExtendedPictureDetails
+ * @property ExtendedPictureDetailsType $ExtendedPictureDetails
  */
-class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PictureDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

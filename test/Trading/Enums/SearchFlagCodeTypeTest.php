@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\SearchFlagCodeType;
 
-class SearchFlagCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SearchFlagCodeTypeTest extends TestCase
 {
     private $obj;
 

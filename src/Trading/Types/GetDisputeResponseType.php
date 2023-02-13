@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\DisputeType $Dispute
+ * @property DisputeType $Dispute
  */
-class GetDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetDisputeResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\DecisionEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
- * @property \DTS\eBaySDK\PostOrder\Enums\DecisionEnum $decision
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
+ * @property Text $comments
+ * @property DecisionEnum $decision
+ * @property Amount $partialRefundAmount
  * @property string $RMANumber
  */
-class DecideReturnRequest extends \DTS\eBaySDK\Types\BaseType
+class DecideReturnRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

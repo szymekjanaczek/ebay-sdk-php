@@ -10,18 +10,20 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $TransactionTime
+ * @property DateTime $TransactionTime
  * @property string $ItemID
  * @property string $ItemTitle
  * @property string $SerialNumber
  * @property string $Memo
  * @property string $GlobalCategoryDescription
  * @property string $SiteDescription
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeAmount
+ * @property AmountType $FeeAmount
  */
-class ListingTransactionType extends \DTS\eBaySDK\Types\BaseType
+class ListingTransactionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

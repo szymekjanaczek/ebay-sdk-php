@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $feedbackPercentage
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Order\Types;
  * @property string $sellerAccountType
  * @property string $username
  */
-class Seller extends \DTS\eBaySDK\Types\BaseType
+class Seller extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

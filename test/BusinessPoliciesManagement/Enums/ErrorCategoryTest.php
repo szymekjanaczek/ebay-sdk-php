@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ErrorCategory;
 
-class ErrorCategoryTest extends \PHPUnit\Framework\TestCase
+class ErrorCategoryTest extends TestCase
 {
     private $obj;
 

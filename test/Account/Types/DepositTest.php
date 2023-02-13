@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\Deposit;
 
-class DepositTest extends \PHPUnit\Framework\TestCase
+class DepositTest extends TestCase
 {
     private $obj;
 

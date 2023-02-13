@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup;
 
-class RelatedProductGroupTest extends \PHPUnit\Framework\TestCase
+class RelatedProductGroupTest extends TestCase
 {
     private $obj;
 

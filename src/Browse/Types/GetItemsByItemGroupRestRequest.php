@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $item_group_id
  */
-class GetItemsByItemGroupRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetItemsByItemGroupRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Account\Types;
 /**
  *
  */
-class OptInToProgramRestRequest extends \DTS\eBaySDK\Account\Types\Program
+class OptInToProgramRestRequest extends Program
 {
     /**
      * @var array Properties belonging to objects of this class.

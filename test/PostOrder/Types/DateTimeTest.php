@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\DateTime;
 
-class DateTimeTest extends \PHPUnit\Framework\TestCase
+class DateTimeTest extends TestCase
 {
     private $obj;
 

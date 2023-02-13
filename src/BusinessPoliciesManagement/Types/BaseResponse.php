@@ -10,14 +10,17 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\BusinessPoliciesManagement\Enums\AckValue;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\AckValue $ack
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage $errorMessage
+ * @property AckValue $ack
+ * @property ErrorMessage $errorMessage
  * @property string $version
- * @property \DateTime $timestamp
+ * @property DateTime $timestamp
  */
-class BaseResponse extends \DTS\eBaySDK\Types\BaseType
+class BaseResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

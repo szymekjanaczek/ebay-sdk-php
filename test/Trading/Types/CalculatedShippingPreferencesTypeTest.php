@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\CalculatedShippingPreferencesType;
 
-class CalculatedShippingPreferencesTypeTest extends \PHPUnit\Framework\TestCase
+class CalculatedShippingPreferencesTypeTest extends TestCase
 {
     private $obj;
 

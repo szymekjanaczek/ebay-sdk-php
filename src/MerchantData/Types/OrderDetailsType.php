@@ -10,6 +10,9 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $OrderID
@@ -26,26 +29,26 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property string $ShipPostalCode
  * @property string $ShipCountryName
  * @property string $ShippingService
- * @property \DateTime $PaymentClearedTime
+ * @property DateTime $PaymentClearedTime
  * @property integer $CheckoutSiteID
- * @property \DateTime $OrderCreationTime
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OrderSalePrice
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuranceCost
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingCost
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OrderTotalCost
+ * @property DateTime $OrderCreationTime
+ * @property AmountType $OrderSalePrice
+ * @property AmountType $TaxAmount
+ * @property AmountType $InsuranceCost
+ * @property AmountType $ShippingCost
+ * @property AmountType $OrderTotalCost
  * @property integer $SellingManagerSaleRecordID
- * @property \DTS\eBaySDK\MerchantData\Types\OrderItemDetailsType $OrderItemDetails
+ * @property OrderItemDetailsType $OrderItemDetails
  * @property string $BuyerStaticAlias
  * @property string $ShippingServiceToken
- * @property \DTS\eBaySDK\MerchantData\Types\CheckoutStatusType $CheckoutStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
- * @property \DTS\eBaySDK\MerchantData\Types\ExternalTransactionType[] $ExternalTransaction
+ * @property CheckoutStatusType $CheckoutStatus
+ * @property PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property ExternalTransactionType[] $ExternalTransaction
  * @property string $ShipReferenceId
- * @property \DTS\eBaySDK\MerchantData\Types\PickupDetailsType $PickupDetails
- * @property \DTS\eBaySDK\MerchantData\Types\PickupMethodSelectedType $PickupMethodSelected
+ * @property PickupDetailsType $PickupDetails
+ * @property PickupMethodSelectedType $PickupMethodSelected
  */
-class OrderDetailsType extends \DTS\eBaySDK\Types\BaseType
+class OrderDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,28 +10,35 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType;
+use DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType;
+use DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType;
+use DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType;
+use DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
  * @property string $URLPath
  * @property string $URL
- * @property \DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType $SubscriptionLevel
+ * @property StoreSubscriptionLevelCodeType $SubscriptionLevel
  * @property string $Description
- * @property \DTS\eBaySDK\Trading\Types\StoreLogoType $Logo
- * @property \DTS\eBaySDK\Trading\Types\StoreThemeType $Theme
- * @property \DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType $HeaderStyle
+ * @property StoreLogoType $Logo
+ * @property StoreThemeType $Theme
+ * @property StoreHeaderStyleCodeType $HeaderStyle
  * @property integer $HomePage
- * @property \DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType $ItemListLayout
- * @property \DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType $ItemListSortOrder
- * @property \DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType $CustomHeaderLayout
+ * @property StoreItemListLayoutCodeType $ItemListLayout
+ * @property StoreItemListSortOrderCodeType $ItemListSortOrder
+ * @property StoreCustomHeaderLayoutCodeType $CustomHeaderLayout
  * @property string $CustomHeader
  * @property boolean $ExportListings
- * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategories
- * @property \DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType $CustomListingHeader
- * @property \DateTime $LastOpenedTime
+ * @property StoreCustomCategoryArrayType $CustomCategories
+ * @property StoreCustomListingHeaderType $CustomListingHeader
+ * @property DateTime $LastOpenedTime
  * @property boolean $TitleWithCompatibility
  */
-class StoreType extends \DTS\eBaySDK\Types\BaseType
+class StoreType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\AccountDetailEntryCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AccountDetailEntryCodeType $AccountDetailsEntryType
+ * @property AccountDetailEntryCodeType $AccountDetailsEntryType
  * @property string $Description
- * @property \DTS\eBaySDK\Trading\Types\AmountType $Balance
- * @property \DateTime $Date
- * @property \DTS\eBaySDK\Trading\Types\AmountType $GrossDetailAmount
+ * @property AmountType $Balance
+ * @property DateTime $Date
+ * @property AmountType $GrossDetailAmount
  * @property string $ItemID
  * @property string $Memo
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConversionRate
- * @property \DTS\eBaySDK\Trading\Types\AmountType $NetDetailAmount
+ * @property AmountType $ConversionRate
+ * @property AmountType $NetDetailAmount
  * @property string $RefNumber
  * @property integer $VATPercent
  * @property string $Title
@@ -28,7 +31,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $TransactionID
  * @property boolean $ReceivedTopRatedDiscount
  */
-class AccountEntryType extends \DTS\eBaySDK\Types\BaseType
+class AccountEntryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

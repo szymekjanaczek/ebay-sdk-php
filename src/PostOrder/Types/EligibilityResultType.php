@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $caseId
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType[] $eligibilityErrorDetail
- * @property \DTS\eBaySDK\PostOrder\Types\StatusType $eligibilityStatus
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $eligibleStartDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $returnCreationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $returnDeadline
+ * @property ReturnEligibilityErrorDetailType[] $eligibilityErrorDetail
+ * @property StatusType $eligibilityStatus
+ * @property DateTime $eligibleStartDate
+ * @property DateTime $returnCreationDate
+ * @property DateTime $returnDeadline
  * @property string $returnId
  */
-class EligibilityResultType extends \DTS\eBaySDK\Types\BaseType
+class EligibilityResultType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

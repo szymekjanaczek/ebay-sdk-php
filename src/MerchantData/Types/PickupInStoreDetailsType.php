@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $EligibleForPickupInStore
  * @property boolean $EligibleForPickupDropOff
  */
-class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PickupInStoreDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

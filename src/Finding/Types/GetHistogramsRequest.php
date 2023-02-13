@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Finding\Types;
  *
  * @property string $categoryId
  */
-class GetHistogramsRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
+class GetHistogramsRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

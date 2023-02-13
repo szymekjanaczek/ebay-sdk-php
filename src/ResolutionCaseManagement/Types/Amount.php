@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\Types\DoubleType;
 /**
  *
  * @property string $currencyId
  */
-class Amount extends \DTS\eBaySDK\Types\DoubleType
+class Amount extends DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\GiftSummaryType;
 
-class GiftSummaryTypeTest extends \PHPUnit\Framework\TestCase
+class GiftSummaryTypeTest extends TestCase
 {
     private $obj;
 

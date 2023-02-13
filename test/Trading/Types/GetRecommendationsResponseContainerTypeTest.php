@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetRecommendationsResponseContainerType;
 
-class GetRecommendationsResponseContainerTypeTest extends \PHPUnit\Framework\TestCase
+class GetRecommendationsResponseContainerTypeTest extends TestCase
 {
     private $obj;
 

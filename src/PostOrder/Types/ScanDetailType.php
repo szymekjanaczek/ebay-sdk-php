@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $eventCity
@@ -18,9 +19,9 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $eventPostalCode
  * @property string $eventStateOrProvince
  * @property string $eventStatus
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $eventTime
+ * @property DateTime $eventTime
  */
-class ScanDetailType extends \DTS\eBaySDK\Types\BaseType
+class ScanDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,20 +10,25 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\PaymentMethodType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementStatusType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementType $type
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $fromParty
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $toParty
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $amount
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaymentMethodType $paymentMethod
+ * @property MoneyMovementType $type
+ * @property CaseUserType $fromParty
+ * @property CaseUserType $toParty
+ * @property Amount $amount
+ * @property PaymentMethodType $paymentMethod
  * @property string $paypalTransactionId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementStatusType $status
- * @property \DateTime $transactionDate
+ * @property MoneyMovementStatusType $status
+ * @property DateTime $transactionDate
  * @property string $id
  * @property string $parentId
  */
-class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
+class MoneyMovementDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

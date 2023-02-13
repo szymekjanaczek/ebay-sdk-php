@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\Location;
 
-class LocationTest extends \PHPUnit\Framework\TestCase
+class LocationTest extends TestCase
 {
     private $obj;
 

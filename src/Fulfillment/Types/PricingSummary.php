@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $adjustment
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $deliveryCost
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $deliveryDiscount
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $fee
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $priceDiscount
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $priceSubtotal
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $tax
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $total
+ * @property Amount $adjustment
+ * @property Amount $deliveryCost
+ * @property Amount $deliveryDiscount
+ * @property Amount $fee
+ * @property Amount $priceDiscount
+ * @property Amount $priceSubtotal
+ * @property Amount $tax
+ * @property Amount $total
  */
-class PricingSummary extends \DTS\eBaySDK\Types\BaseType
+class PricingSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

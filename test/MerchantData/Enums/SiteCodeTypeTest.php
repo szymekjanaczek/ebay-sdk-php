@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\SiteCodeType;
 
-class SiteCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SiteCodeTypeTest extends TestCase
 {
     private $obj;
 

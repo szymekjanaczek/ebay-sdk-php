@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\RemoveFromWatchListRequestType;
 
-class RemoveFromWatchListRequestTypeTest extends \PHPUnit\Framework\TestCase
+class RemoveFromWatchListRequestTypeTest extends TestCase
 {
     private $obj;
 

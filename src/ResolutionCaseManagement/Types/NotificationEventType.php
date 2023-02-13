@@ -10,22 +10,27 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\NotificationEventNameType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType;
+use DateTime;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\NotificationEventNameType $NotificationEventName
+ * @property NotificationEventNameType $NotificationEventName
  * @property string $RecipientUserID
  * @property string $ExternalUserData
  * @property string $CaseId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType $CaseType
+ * @property CaseType $CaseType
  * @property string $ItemId
  * @property string $TransactionId
- * @property \DateTime $CreationDate
+ * @property DateTime $CreationDate
  * @property string $OtherPartyId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType $OtherPartyRole
+ * @property CaseUserRoleType $OtherPartyRole
  * @property string $CaseStatus
  * @property string $CaseGlobalId
  */
-class NotificationEventType extends \DTS\eBaySDK\Types\BaseType
+class NotificationEventType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

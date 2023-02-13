@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $carrierUsed
  * @property string $escalateReason
- * @property \DTS\eBaySDK\PostOrder\Types\MoneyMovementRef $moneyMovementRef
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
+ * @property MoneyMovementRef $moneyMovementRef
+ * @property Amount $partialRefundAmount
  * @property string $RMA
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $sellerReturnAddress
+ * @property ReturnAddressType $sellerReturnAddress
  * @property string $toEmailAddress
  * @property string $trackingNumber
  */
-class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
+class ResponseHistoryAttributesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

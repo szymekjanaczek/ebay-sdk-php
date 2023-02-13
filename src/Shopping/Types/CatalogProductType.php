@@ -10,20 +10,22 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Shopping\Enums\ProductStateCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DomainName
  * @property string $DetailsURL
  * @property boolean $DisplayStockPhotos
- * @property \DTS\eBaySDK\Shopping\Types\ProductIDType[] $ProductID
+ * @property ProductIDType[] $ProductID
  * @property integer $ItemCount
- * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType $ItemSpecifics
+ * @property NameValueListArrayType $ItemSpecifics
  * @property integer $ReviewCount
  * @property string $StockPhotoURL
  * @property string $Title
- * @property \DTS\eBaySDK\Shopping\Enums\ProductStateCodeType $ProductState
+ * @property ProductStateCodeType $ProductState
  */
-class CatalogProductType extends \DTS\eBaySDK\Types\BaseType
+class CatalogProductType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

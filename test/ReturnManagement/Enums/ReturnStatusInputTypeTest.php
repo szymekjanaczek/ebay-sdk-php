@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Enums\ReturnStatusInputType;
 
-class ReturnStatusInputTypeTest extends \PHPUnit\Framework\TestCase
+class ReturnStatusInputTypeTest extends TestCase
 {
     private $obj;
 

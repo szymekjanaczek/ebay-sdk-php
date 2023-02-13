@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\InventoryItem[] $excludeInventoryItems
+ * @property InventoryItem[] $excludeInventoryItems
  * @property string[] $excludeListingIds
- * @property \DTS\eBaySDK\Marketing\Types\SelectionRule[] $selectionRules
+ * @property SelectionRule[] $selectionRules
  */
-class RuleCriteria extends \DTS\eBaySDK\Types\BaseType
+class RuleCriteria extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

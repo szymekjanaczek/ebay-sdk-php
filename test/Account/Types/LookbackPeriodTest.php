@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\LookbackPeriod;
 
-class LookbackPeriodTest extends \PHPUnit\Framework\TestCase
+class LookbackPeriodTest extends TestCase
 {
     private $obj;
 

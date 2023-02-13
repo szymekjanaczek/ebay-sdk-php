@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Order\Types;
  *
  * @property string $checkoutSessionId
  */
-class UpdateGuestLineItemQuantityRestRequest extends \DTS\eBaySDK\Order\Types\UpdateQuantity
+class UpdateGuestLineItemQuantityRestRequest extends UpdateQuantity
 {
     /**
      * @var array Properties belonging to objects of this class.

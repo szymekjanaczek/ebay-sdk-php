@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType;
 
-class StoreCustomListingHeaderLinkTypeTest extends \PHPUnit\Framework\TestCase
+class StoreCustomListingHeaderLinkTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $SellerProfileOptedIn
- * @property \DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType $SupportedSellerProfiles
+ * @property SupportedSellerProfilesType $SupportedSellerProfiles
  */
-class SellerProfilePreferencesType extends \DTS\eBaySDK\Types\BaseType
+class SellerProfilePreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

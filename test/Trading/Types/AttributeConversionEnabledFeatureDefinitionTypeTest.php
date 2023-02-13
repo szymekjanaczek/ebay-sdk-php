@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AttributeConversionEnabledFeatureDefinitionType;
 
-class AttributeConversionEnabledFeatureDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class AttributeConversionEnabledFeatureDefinitionTypeTest extends TestCase
 {
     private $obj;
 

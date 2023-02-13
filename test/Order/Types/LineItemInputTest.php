@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\LineItemInput;
 
-class LineItemInputTest extends \PHPUnit\Framework\TestCase
+class LineItemInputTest extends TestCase
 {
     private $obj;
 

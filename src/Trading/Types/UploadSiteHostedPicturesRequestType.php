@@ -10,17 +10,19 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\PictureSetCodeType;
+use DTS\eBaySDK\Trading\Enums\PictureUploadPolicyCodeType;
 /**
  *
  * @property string $PictureName
  * @property integer $PictureSystemVersion
- * @property \DTS\eBaySDK\Trading\Enums\PictureSetCodeType $PictureSet
- * @property \DTS\eBaySDK\Trading\Types\Base64BinaryType $PictureData
- * @property \DTS\eBaySDK\Trading\Enums\PictureUploadPolicyCodeType $PictureUploadPolicy
+ * @property PictureSetCodeType $PictureSet
+ * @property Base64BinaryType $PictureData
+ * @property PictureUploadPolicyCodeType $PictureUploadPolicy
  * @property string[] $ExternalPictureURL
  * @property integer $ExtensionInDays
  */
-class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class UploadSiteHostedPicturesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

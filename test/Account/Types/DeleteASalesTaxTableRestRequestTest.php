@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest;
 
-class DeleteASalesTaxTableRestRequestTest extends \PHPUnit\Framework\TestCase
+class DeleteASalesTaxTableRestRequestTest extends TestCase
 {
     private $obj;
 

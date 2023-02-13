@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $originPickupLocationType
@@ -20,7 +21,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $destPickupLocationType
  * @property boolean $destPickupInside
  */
-class FreightShipping extends \DTS\eBaySDK\Types\BaseType
+class FreightShipping extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

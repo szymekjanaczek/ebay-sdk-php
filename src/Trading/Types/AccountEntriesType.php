@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AccountEntryType[] $AccountEntry
+ * @property AccountEntryType[] $AccountEntry
  */
-class AccountEntriesType extends \DTS\eBaySDK\Types\BaseType
+class AccountEntriesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Taxonomy\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\CategorySuggestion[] $categorySuggestions
+ * @property CategorySuggestion[] $categorySuggestions
  * @property string $categoryTreeId
  * @property string $categoryTreeVersion
  */
-class CategorySuggestionResponse extends \DTS\eBaySDK\Types\BaseType
+class CategorySuggestionResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

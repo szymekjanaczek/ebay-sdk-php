@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $pageNumber
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
  * @property integer $totalPages
  * @property integer $totalEntries
  */
-class PaginationOutput extends \DTS\eBaySDK\Types\BaseType
+class PaginationOutput extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

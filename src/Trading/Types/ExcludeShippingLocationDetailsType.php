@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Description
  * @property string $Location
  * @property string $Region
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class ExcludeShippingLocationDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ExcludeShippingLocationDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

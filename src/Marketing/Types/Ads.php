@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Ad[] $ads
+ * @property Ad[] $ads
  */
-class Ads extends \DTS\eBaySDK\Types\BaseType
+class Ads extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType;
 
-class SellingManagerAutoListMinActiveItemsTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerAutoListMinActiveItemsTypeTest extends TestCase
 {
     private $obj;
 

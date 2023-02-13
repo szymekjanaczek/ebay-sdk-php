@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedMaxBid
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MaxBid
+ * @property AmountType $ConvertedMaxBid
+ * @property AmountType $MaxBid
  * @property integer $QuantityBid
  * @property integer $QuantityWon
  * @property boolean $Winning
  */
-class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BiddingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CharityInfoType[] $Charity
+ * @property CharityInfoType[] $Charity
  */
-class GetCharitiesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetCharitiesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

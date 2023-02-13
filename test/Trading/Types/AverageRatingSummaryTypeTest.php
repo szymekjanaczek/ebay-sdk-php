@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AverageRatingSummaryType;
 
-class AverageRatingSummaryTypeTest extends \PHPUnit\Framework\TestCase
+class AverageRatingSummaryTypeTest extends TestCase
 {
     private $obj;
 

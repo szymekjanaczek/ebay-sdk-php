@@ -1,6 +1,9 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
+use DateTime;
+use DateTimeZone;
 use DTS\eBaySDK\Test\Mocks\AmountClass;
 use DTS\eBaySDK\Test\Mocks\SimpleClass;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
@@ -13,7 +16,7 @@ use DTS\eBaySDK\Test\Mocks\StringType;
 use DTS\eBaySDK\Test\Mocks\TokenType;
 use DTS\eBaySDK\Test\Mocks\URIType;
 
-class ToArrayTest extends \PHPUnit\Framework\TestCase
+class ToArrayTest extends TestCase
 {
     private $obj;
 
@@ -81,7 +84,7 @@ class ToArrayTest extends \PHPUnit\Framework\TestCase
         $this->obj->double = 123.45;
         $this->obj->booleanTrue = true;
         $this->obj->booleanFalse = false;
-        $this->obj->DateTime = new \DateTime('2000-01-01', new \DateTimeZone('UTC'));
+        $this->obj->DateTime = new DateTime('2000-01-01', new DateTimeZone('UTC'));
         $this->obj->strings = ['foo', 'bar'];
         $this->obj->integers = [111, 222];
         $this->obj->AmountClass = new Amountclass([
@@ -94,7 +97,7 @@ class ToArrayTest extends \PHPUnit\Framework\TestCase
             'double' => 123.45,
             'booleanTrue' => true,
             'booleanFalse' => false,
-            'DateTime' => new \DateTime('2000-01-01', new \DateTimeZone('UTC')),
+            'DateTime' => new DateTime('2000-01-01', new DateTimeZone('UTC')),
             'integers' => [100, 200, 300]
         ]);
         $this->obj->simpleClasses = [
@@ -104,7 +107,7 @@ class ToArrayTest extends \PHPUnit\Framework\TestCase
                 'double' => 5432.10,
                 'booleanTrue' => true,
                 'booleanFalse' => false,
-                'DateTime' => new \DateTime('2015-01-01', new \DateTimeZone('UTC'))
+                'DateTime' => new DateTime('2015-01-01', new DateTimeZone('UTC'))
             ]),
             new SimpleClass([
                 'integers' => [300, 200, 100],

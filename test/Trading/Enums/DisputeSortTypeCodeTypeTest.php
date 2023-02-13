@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\DisputeSortTypeCodeType;
 
-class DisputeSortTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class DisputeSortTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

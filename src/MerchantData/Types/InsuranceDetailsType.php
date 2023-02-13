@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\InsuranceOptionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuranceFee
- * @property \DTS\eBaySDK\MerchantData\Enums\InsuranceOptionCodeType $InsuranceOption
+ * @property AmountType $InsuranceFee
+ * @property InsuranceOptionCodeType $InsuranceOption
  */
-class InsuranceDetailsType extends \DTS\eBaySDK\Types\BaseType
+class InsuranceDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $ActiveAuctionCount
  * @property integer $AuctionSellingCount
  * @property integer $AuctionBidCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
+ * @property AmountType $TotalAuctionSellingValue
  * @property integer $TotalSoldCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalSoldValue
+ * @property AmountType $TotalSoldValue
  * @property integer $SoldDurationInDays
  */
-class SellingSummaryType extends \DTS\eBaySDK\Types\BaseType
+class SellingSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

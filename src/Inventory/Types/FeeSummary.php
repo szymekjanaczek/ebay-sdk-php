@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\MarketplaceEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Fee[] $fees
- * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
+ * @property Fee[] $fees
+ * @property MarketplaceEnum $marketplaceId
+ * @property ErrorDetailV3[] $warnings
  */
-class FeeSummary extends \DTS\eBaySDK\Types\BaseType
+class FeeSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

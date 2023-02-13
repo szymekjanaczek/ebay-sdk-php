@@ -10,7 +10,12 @@
 
 namespace DTS\eBaySDK\Compliance\Services;
 
-class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseService
+use DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest;
+use DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse;
+use GuzzleHttp\Promise\PromiseInterface;
+use DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest;
+use DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse;
+class ComplianceService extends ComplianceBaseService
 {
     const API_VERSION = 'v1';
 
@@ -58,37 +63,37 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
-     * @return \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse
+     * @param GetListingViolationsSummaryRestRequest $request
+     * @return GetListingViolationsSummaryRestResponse
      */
-    public function getListingViolationsSummary(\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
+    public function getListingViolationsSummary(GetListingViolationsSummaryRestRequest $request)
     {
         return $this->getListingViolationsSummaryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetListingViolationsSummaryRestRequest $request
+     * @return PromiseInterface
      */
-    public function getListingViolationsSummaryAsync(\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
+    public function getListingViolationsSummaryAsync(GetListingViolationsSummaryRestRequest $request)
     {
         return $this->callOperationAsync('GetListingViolationsSummary', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
-     * @return \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse
+     * @param GetListingViolationsRestRequest $request
+     * @return GetListingViolationsRestResponse
      */
-    public function getListingViolations(\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
+    public function getListingViolations(GetListingViolationsRestRequest $request)
     {
         return $this->getListingViolationsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetListingViolationsRestRequest $request
+     * @return PromiseInterface
      */
-    public function getListingViolationsAsync(\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
+    public function getListingViolationsAsync(GetListingViolationsRestRequest $request)
     {
         return $this->callOperationAsync('GetListingViolations', $request);
     }

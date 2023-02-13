@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Types\Violation;
 
-class ViolationTest extends \PHPUnit\Framework\TestCase
+class ViolationTest extends TestCase
 {
     private $obj;
 

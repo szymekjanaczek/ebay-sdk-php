@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\ResolutionCaseManagement\Services;
 
+use DTS\eBaySDK\Services\BaseService;
 /**
  * Base class for the Finding service.
  */
-class ResolutionCaseManagementBaseService extends \DTS\eBaySDK\Services\BaseService
+class ResolutionCaseManagementBaseService extends BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +47,7 @@ class ResolutionCaseManagementBaseService extends \DTS\eBaySDK\Services\BaseServ
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService::API_VERSION
+                'default' => ResolutionCaseManagementService::API_VERSION
             ],
             'authToken' => [
                 'valid' => ['string'],

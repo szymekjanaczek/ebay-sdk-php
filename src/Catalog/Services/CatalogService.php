@@ -10,7 +10,22 @@
 
 namespace DTS\eBaySDK\Catalog\Services;
 
-class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
+use DTS\eBaySDK\Catalog\Types\GetProductRestRequest;
+use DTS\eBaySDK\Catalog\Types\GetProductRestResponse;
+use GuzzleHttp\Promise\PromiseInterface;
+use DTS\eBaySDK\Catalog\Types\SearchRestRequest;
+use DTS\eBaySDK\Catalog\Types\SearchRestResponse;
+use DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest;
+use DTS\eBaySDK\Catalog\Types\GetProductMetadataRestResponse;
+use DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest;
+use DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestResponse;
+use DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest;
+use DTS\eBaySDK\Catalog\Types\GetChangeRequestRestResponse;
+use DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest;
+use DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestResponse;
+use DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest;
+use DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestResponse;
+class CatalogService extends CatalogBaseService
 {
     const API_VERSION = 'v1_beta';
 
@@ -136,127 +151,127 @@ class CatalogService extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetProductRestResponse
+     * @param GetProductRestRequest $request
+     * @return GetProductRestResponse
      */
-    public function getProduct(\DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request)
+    public function getProduct(GetProductRestRequest $request)
     {
         return $this->getProductAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetProductRestRequest $request
+     * @return PromiseInterface
      */
-    public function getProductAsync(\DTS\eBaySDK\Catalog\Types\GetProductRestRequest $request)
+    public function getProductAsync(GetProductRestRequest $request)
     {
         return $this->callOperationAsync('GetProduct', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\SearchRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\SearchRestResponse
+     * @param SearchRestRequest $request
+     * @return SearchRestResponse
      */
-    public function search(\DTS\eBaySDK\Catalog\Types\SearchRestRequest $request)
+    public function search(SearchRestRequest $request)
     {
         return $this->searchAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\SearchRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SearchRestRequest $request
+     * @return PromiseInterface
      */
-    public function searchAsync(\DTS\eBaySDK\Catalog\Types\SearchRestRequest $request)
+    public function searchAsync(SearchRestRequest $request)
     {
         return $this->callOperationAsync('Search', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestResponse
+     * @param GetProductMetadataRestRequest $request
+     * @return GetProductMetadataRestResponse
      */
-    public function getProductMetadata(\DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request)
+    public function getProductMetadata(GetProductMetadataRestRequest $request)
     {
         return $this->getProductMetadataAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetProductMetadataRestRequest $request
+     * @return PromiseInterface
      */
-    public function getProductMetadataAsync(\DTS\eBaySDK\Catalog\Types\GetProductMetadataRestRequest $request)
+    public function getProductMetadataAsync(GetProductMetadataRestRequest $request)
     {
         return $this->callOperationAsync('GetProductMetadata', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestResponse
+     * @param GetProductMetadataForCategoriesRestRequest $request
+     * @return GetProductMetadataForCategoriesRestResponse
      */
-    public function getProductMetadataForCategories(\DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request)
+    public function getProductMetadataForCategories(GetProductMetadataForCategoriesRestRequest $request)
     {
         return $this->getProductMetadataForCategoriesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetProductMetadataForCategoriesRestRequest $request
+     * @return PromiseInterface
      */
-    public function getProductMetadataForCategoriesAsync(\DTS\eBaySDK\Catalog\Types\GetProductMetadataForCategoriesRestRequest $request)
+    public function getProductMetadataForCategoriesAsync(GetProductMetadataForCategoriesRestRequest $request)
     {
         return $this->callOperationAsync('GetProductMetadataForCategories', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestResponse
+     * @param GetChangeRequestRestRequest $request
+     * @return GetChangeRequestRestResponse
      */
-    public function getChangeRequest(\DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request)
+    public function getChangeRequest(GetChangeRequestRestRequest $request)
     {
         return $this->getChangeRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetChangeRequestRestRequest $request
+     * @return PromiseInterface
      */
-    public function getChangeRequestAsync(\DTS\eBaySDK\Catalog\Types\GetChangeRequestRestRequest $request)
+    public function getChangeRequestAsync(GetChangeRequestRestRequest $request)
     {
         return $this->callOperationAsync('GetChangeRequest', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestResponse
+     * @param GetChangeRequestsRestRequest $request
+     * @return GetChangeRequestsRestResponse
      */
-    public function getChangeRequests(\DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request)
+    public function getChangeRequests(GetChangeRequestsRestRequest $request)
     {
         return $this->getChangeRequestsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetChangeRequestsRestRequest $request
+     * @return PromiseInterface
      */
-    public function getChangeRequestsAsync(\DTS\eBaySDK\Catalog\Types\GetChangeRequestsRestRequest $request)
+    public function getChangeRequestsAsync(GetChangeRequestsRestRequest $request)
     {
         return $this->callOperationAsync('GetChangeRequests', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request
-     * @return \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestResponse
+     * @param CreateChangeRequestRestRequest $request
+     * @return CreateChangeRequestRestResponse
      */
-    public function createChangeRequest(\DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request)
+    public function createChangeRequest(CreateChangeRequestRestRequest $request)
     {
         return $this->createChangeRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CreateChangeRequestRestRequest $request
+     * @return PromiseInterface
      */
-    public function createChangeRequestAsync(\DTS\eBaySDK\Catalog\Types\CreateChangeRequestRestRequest $request)
+    public function createChangeRequestAsync(CreateChangeRequestRestRequest $request)
     {
         return $this->callOperationAsync('CreateChangeRequest', $request);
     }

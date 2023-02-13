@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
 /**
  *
  */
-class GetRecurringJobsRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class GetRecurringJobsRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

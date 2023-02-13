@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Merchandising\Types;
 /**
  *
  */
-class GetTopSellingProductsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
+class GetTopSellingProductsRequest extends BaseMerchandisingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

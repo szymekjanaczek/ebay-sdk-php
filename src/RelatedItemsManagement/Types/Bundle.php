@@ -10,19 +10,22 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $bundleID
  * @property string $bundleName
  * @property string[] $primarySKU
- * @property \DateTime $scheduledStartTime
- * @property \DateTime $scheduledEndTime
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup[] $relatedProductGroup
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $bundleStatus
+ * @property DateTime $scheduledStartTime
+ * @property DateTime $scheduledEndTime
+ * @property RelatedProductGroup[] $relatedProductGroup
+ * @property BundleStatusEnum $bundleStatus
  * @property integer $isoCurrencyCode
  * @property string $site
  */
-class Bundle extends \DTS\eBaySDK\Types\BaseType
+class Bundle extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

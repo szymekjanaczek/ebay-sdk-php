@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $carrier
  * @property string $labelContent
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $labelCost
+ * @property Amount $labelCost
  * @property string $labelPrintStatus
  * @property string $labelURL
  * @property string $trackingNumber
  */
-class GetShippingLabelResponse extends \DTS\eBaySDK\Types\BaseType
+class GetShippingLabelResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

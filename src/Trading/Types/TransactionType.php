@@ -10,74 +10,80 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\DepositTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\PaidStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\SiteCodeType;
+use DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedAdjustmentAmount
- * @property \DTS\eBaySDK\Trading\Types\UserType $Buyer
- * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedAmountPaid
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedTransactionPrice
- * @property \DateTime $CreatedDate
- * @property \DTS\eBaySDK\Trading\Enums\DepositTypeCodeType $DepositType
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property AmountType $AmountPaid
+ * @property AmountType $AdjustmentAmount
+ * @property AmountType $ConvertedAdjustmentAmount
+ * @property UserType $Buyer
+ * @property ShippingDetailsType $ShippingDetails
+ * @property AmountType $ConvertedAmountPaid
+ * @property AmountType $ConvertedTransactionPrice
+ * @property DateTime $CreatedDate
+ * @property DepositTypeCodeType $DepositType
+ * @property ItemType $Item
  * @property integer $QuantityPurchased
- * @property \DTS\eBaySDK\Trading\Types\TransactionStatusType $Status
+ * @property TransactionStatusType $Status
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TransactionPrice
+ * @property AmountType $TransactionPrice
  * @property boolean $BestOfferSale
  * @property integer $VATPercent
- * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceSelected
- * @property \DTS\eBaySDK\Trading\Enums\PaidStatusCodeType $BuyerPaidStatus
- * @property \DTS\eBaySDK\Trading\Enums\PaidStatusCodeType $SellerPaidStatus
- * @property \DateTime $PaidTime
- * @property \DateTime $ShippedTime
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalPrice
- * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackLeft
- * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackReceived
- * @property \DTS\eBaySDK\Trading\Types\OrderType $ContainingOrder
- * @property \DTS\eBaySDK\Trading\Types\AmountType $FinalValueFee
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $TransactionSiteID
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
+ * @property ExternalTransactionType[] $ExternalTransaction
+ * @property SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property ShippingServiceOptionsType $ShippingServiceSelected
+ * @property PaidStatusCodeType $BuyerPaidStatus
+ * @property PaidStatusCodeType $SellerPaidStatus
+ * @property DateTime $PaidTime
+ * @property DateTime $ShippedTime
+ * @property AmountType $TotalPrice
+ * @property FeedbackInfoType $FeedbackLeft
+ * @property FeedbackInfoType $FeedbackReceived
+ * @property OrderType $ContainingOrder
+ * @property AmountType $FinalValueFee
+ * @property SiteCodeType $TransactionSiteID
+ * @property TransactionPlatformCodeType $Platform
  * @property string $PayPalEmailAddress
  * @property string $PaisaPayID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyerGuaranteePrice
- * @property \DTS\eBaySDK\Trading\Types\VariationType $Variation
+ * @property AmountType $BuyerGuaranteePrice
+ * @property VariationType $Variation
  * @property string $BuyerCheckoutMessage
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalTransactionPrice
- * @property \DTS\eBaySDK\Trading\Types\TaxesType $Taxes
+ * @property AmountType $TotalTransactionPrice
+ * @property TaxesType $Taxes
  * @property boolean $BundlePurchase
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ActualShippingCost
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ActualHandlingCost
+ * @property AmountType $ActualShippingCost
+ * @property AmountType $ActualHandlingCost
  * @property string $OrderLineItemID
  * @property string $eBayPaymentID
- * @property \DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
- * @property \DTS\eBaySDK\Trading\Types\SellerDiscountsType $SellerDiscounts
+ * @property PaymentHoldDetailType $PaymentHoldDetails
+ * @property SellerDiscountsType $SellerDiscounts
  * @property string $CodiceFiscale
  * @property boolean $IsMultiLegShipping
- * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
- * @property \DateTime $InvoiceSentTime
- * @property \DTS\eBaySDK\Trading\Types\UnpaidItemType $UnpaidItem
+ * @property MultiLegShippingDetailsType $MultiLegShippingDetails
+ * @property DateTime $InvoiceSentTime
+ * @property UnpaidItemType $UnpaidItem
  * @property boolean $IntangibleItem
- * @property \DTS\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
- * @property \DTS\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
- * @property \DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingConvenienceCharge
+ * @property PaymentsInformationType $MonetaryDetails
+ * @property PickupDetailsType $PickupDetails
+ * @property PickupMethodSelectedType $PickupMethodSelected
+ * @property AmountType $ShippingConvenienceCharge
  * @property string $LogisticsPlanType
- * @property \DTS\eBaySDK\Trading\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
+ * @property BuyerPackageEnclosuresType $BuyerPackageEnclosures
  * @property string $InventoryReservationID
  * @property string $ExtendedOrderID
  * @property boolean $eBayPlusTransaction
- * @property \DTS\eBaySDK\Trading\Types\GiftSummaryType $GiftSummary
- * @property \DTS\eBaySDK\Trading\Types\DigitalDeliverySelectedType $DigitalDeliverySelected
+ * @property GiftSummaryType $GiftSummary
+ * @property DigitalDeliverySelectedType $DigitalDeliverySelected
  * @property boolean $Gift
  * @property boolean $GuaranteedShipping
  * @property boolean $GuaranteedDelivery
  */
-class TransactionType extends \DTS\eBaySDK\Types\BaseType
+class TransactionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Metadata\Types\ItemConditionPolicy[] $itemConditionPolicies
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property ItemConditionPolicy[] $itemConditionPolicies
+ * @property ErrorDetailV3[] $warnings
  */
-class ItemConditionPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class ItemConditionPolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

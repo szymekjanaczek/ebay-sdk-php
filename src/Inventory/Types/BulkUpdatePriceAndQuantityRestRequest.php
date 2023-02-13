@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Inventory\Types;
 /**
  *
  */
-class BulkUpdatePriceAndQuantityRestRequest extends \DTS\eBaySDK\Inventory\Types\BulkPriceQuantity
+class BulkUpdatePriceAndQuantityRestRequest extends BulkPriceQuantity
 {
     /**
      * @var array Properties belonging to objects of this class.

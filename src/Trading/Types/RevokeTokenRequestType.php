@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $UnsubscribeNotification
  */
-class RevokeTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class RevokeTokenRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

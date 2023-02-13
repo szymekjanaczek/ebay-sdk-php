@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Product\Services;
 
+use DTS\eBaySDK\Services\BaseService;
 /**
  * Base class for the Product service.
  */
-class ProductBaseService extends \DTS\eBaySDK\Services\BaseService
+class ProductBaseService extends BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +47,7 @@ class ProductBaseService extends \DTS\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Product\Services\ProductService::API_VERSION
+                'default' => ProductService::API_VERSION
             ],
             'globalId' => [
                 'valid' => ['string']

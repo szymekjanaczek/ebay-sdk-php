@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemRequestType;
 
-class VerifyAddFixedPriceItemRequestTypeTest extends \PHPUnit\Framework\TestCase
+class VerifyAddFixedPriceItemRequestTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $domesticInsuranceFee
+ * @property Amount $domesticInsuranceFee
  * @property string $domesticInsuranceOption
  * @property string $intlInsuranceOption
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $intlInsuranceFee
+ * @property Amount $intlInsuranceFee
  */
-class Insurance extends \DTS\eBaySDK\Types\BaseType
+class Insurance extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

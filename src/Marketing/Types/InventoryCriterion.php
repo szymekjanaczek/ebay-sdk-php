@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\InventoryCriterionEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Enums\InventoryCriterionEnum $inventoryCriterionType
- * @property \DTS\eBaySDK\Marketing\Types\InventoryItem[] $inventoryItems
+ * @property InventoryCriterionEnum $inventoryCriterionType
+ * @property InventoryItem[] $inventoryItems
  * @property string[] $listingIds
- * @property \DTS\eBaySDK\Marketing\Types\RuleCriteria $ruleCriteria
+ * @property RuleCriteria $ruleCriteria
  */
-class InventoryCriterion extends \DTS\eBaySDK\Types\BaseType
+class InventoryCriterion extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

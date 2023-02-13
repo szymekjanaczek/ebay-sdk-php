@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\SkypeContactOptionCodeType;
 
-class SkypeContactOptionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SkypeContactOptionCodeTypeTest extends TestCase
 {
     private $obj;
 

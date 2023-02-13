@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\Product[] $product
+ * @property Product[] $product
  */
-class GetProductDetailsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class GetProductDetailsResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

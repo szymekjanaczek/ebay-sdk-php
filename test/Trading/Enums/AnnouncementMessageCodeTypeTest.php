@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\AnnouncementMessageCodeType;
 
-class AnnouncementMessageCodeTypeTest extends \PHPUnit\Framework\TestCase
+class AnnouncementMessageCodeTypeTest extends TestCase
 {
     private $obj;
 

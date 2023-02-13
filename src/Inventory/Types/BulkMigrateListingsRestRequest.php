@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Inventory\Types;
 /**
  *
  */
-class BulkMigrateListingsRestRequest extends \DTS\eBaySDK\Inventory\Types\BulkMigrateListing
+class BulkMigrateListingsRestRequest extends BulkMigrateListing
 {
     /**
      * @var array Properties belonging to objects of this class.

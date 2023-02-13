@@ -22,6 +22,12 @@
  */
 namespace DTS\eBaySDK\JmesPath;
 
+use stdClass;
+use InvalidArgumentException;
+use Closure;
+use ArrayAccess;
+use Countable;
+use RuntimeException;
 class Utils
 {
     static $typeMap = [
@@ -44,7 +50,7 @@ class Utils
     {
         if (!$value) {
             return $value === 0 || $value === '0';
-        } elseif ($value instanceof \stdClass) {
+        } elseif ($value instanceof stdClass) {
             return (bool) get_object_vars($value);
         } elseif ($value instanceof JmesPathableArrayInterface) {
             return Utils::isTruthy(iterator_to_array($value));
@@ -60,7 +66,7 @@ class Utils
      *
      * @param mixed $arg PHP variable
      * @return string Returns the JSON data type
-     * @throws \InvalidArgumentException when an unknown type is given.
+     * @throws InvalidArgumentException when an unknown type is given.
      */
     public static function type($arg)
     {
@@ -73,14 +79,14 @@ class Utils
             }
             reset($arg);
             return key($arg) === 0 ? 'array' : 'object';
-        } elseif ($arg instanceof \stdClass) {
+        } elseif ($arg instanceof stdClass) {
             return 'object';
         } elseif ($arg instanceof JmesPathableObjectInterface) {
             return 'object';
-        } elseif ($arg instanceof \Closure) {
+        } elseif ($arg instanceof Closure) {
             return 'expression';
-        } elseif ($arg instanceof \ArrayAccess
-            && $arg instanceof \Countable
+        } elseif ($arg instanceof ArrayAccess
+            && $arg instanceof Countable
         ) {
             return count($arg) == 0 || $arg->offsetExists(0)
                 ? 'array'
@@ -89,7 +95,7 @@ class Utils
             return 'string';
         }
 
-        throw new \InvalidArgumentException(
+        throw new InvalidArgumentException(
             'Unable to determine JMESPath type from ' . get_class($arg)
         );
     }
@@ -108,9 +114,9 @@ class Utils
         }
 
         // Handle array-like values. Must be empty or offset 0 does not exist
-        return $value instanceof \Countable && $value instanceof \ArrayAccess
+        return $value instanceof Countable && $value instanceof ArrayAccess
             ? count($value) == 0 || !$value->offsetExists(0)
-            : $value instanceof \stdClass || $value instanceof JmesPathableObjectInterface;
+            : $value instanceof stdClass || $value instanceof JmesPathableObjectInterface;
     }
 
     /**
@@ -127,7 +133,7 @@ class Utils
         }
 
         // Handle array-like values. Must be empty or offset 0 exists.
-        return $value instanceof \Countable && $value instanceof \ArrayAccess
+        return $value instanceof Countable && $value instanceof ArrayAccess
             ? count($value) == 0 || $value->offsetExists(0)
             : $value instanceof JmesPathableArrayInterface;
     }
@@ -155,9 +161,9 @@ class Utils
     {
         if ($a === $b) {
             return true;
-        } elseif ($a instanceof \stdClass) {
+        } elseif ($a instanceof stdClass) {
             return self::isEqual((array) $a, $b);
-        } elseif ($b instanceof \stdClass) {
+        } elseif ($b instanceof stdClass) {
             return self::isEqual($a, (array) $b);
         } elseif ($a instanceof JmesPathableArrayInterface) {
             return Utils::isEqual(iterator_to_array($a), $b);
@@ -205,12 +211,12 @@ class Utils
      * @param int          $step  Step (1, 2, -1, -2, etc.)
      *
      * @return array|string
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public static function slice($value, $start = null, $stop = null, $step = 1)
     {
         if (!Utils::isArray($value) && !is_string($value)) {
-            throw new \InvalidArgumentException('Expects string or array');
+            throw new InvalidArgumentException('Expects string or array');
         }
 
         return self::sliceIndices($value, $start, $stop, $step);
@@ -235,7 +241,7 @@ class Utils
         if ($step === null) {
             $step = 1;
         } elseif ($step === 0) {
-            throw new \RuntimeException('step cannot be 0');
+            throw new RuntimeException('step cannot be 0');
         }
 
         if ($start === null) {

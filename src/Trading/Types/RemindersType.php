@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $PaymentToSendCount
@@ -32,7 +33,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $PendingRTERequestCount
  * @property integer $DeclinedRTERequestCount
  */
-class RemindersType extends \DTS\eBaySDK\Types\BaseType
+class RemindersType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

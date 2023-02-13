@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\MailOptionsTypeCodeType;
 
-class MailOptionsTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class MailOptionsTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

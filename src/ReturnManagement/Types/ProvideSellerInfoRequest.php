@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
+ * @property ReturnIdType $ReturnId
  * @property string $returnMerchandiseAuthorization
- * @property \DTS\eBaySDK\ReturnManagement\Types\Address $returnAddress
+ * @property Address $returnAddress
  */
-class ProvideSellerInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class ProvideSellerInfoRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

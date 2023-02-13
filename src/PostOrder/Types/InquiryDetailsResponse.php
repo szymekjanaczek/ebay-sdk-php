@@ -10,26 +10,28 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\UserPartyEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
+ * @property Amount $claimAmount
  * @property string $extTransactionId
- * @property \DTS\eBaySDK\PostOrder\Enums\UserPartyEnum $initiator
- * @property \DTS\eBaySDK\PostOrder\Types\InquiryDetails $inquiryDetails
- * @property \DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse $inquiryHistoryDetails
+ * @property UserPartyEnum $initiator
+ * @property InquiryDetails $inquiryDetails
+ * @property ClaimHistoryResponse $inquiryHistoryDetails
  * @property string $inquiryId
  * @property integer $inquiryQuantity
- * @property \DTS\eBaySDK\PostOrder\Types\ItemDetails $itemDetails
+ * @property ItemDetails $itemDetails
  * @property string $itemId
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddress $returnDetails
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $sellerMakeItRightByDate
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $shippingCost
+ * @property ReturnAddress $returnDetails
+ * @property DateTime $sellerMakeItRightByDate
+ * @property Amount $shippingCost
  * @property string $state
  * @property string $status
  * @property string $transactionId
  * @property string $viewPPTrasanctionUrl
  */
-class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
+class InquiryDetailsResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

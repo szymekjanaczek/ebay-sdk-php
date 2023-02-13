@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
@@ -17,11 +18,11 @@ namespace DTS\eBaySDK\Catalog\Types;
  * @property string $next
  * @property integer $offset
  * @property string $prev
- * @property \DTS\eBaySDK\Catalog\Types\ProductSummary[] $productSummaries
- * @property \DTS\eBaySDK\Catalog\Types\Refinement $refinement
+ * @property ProductSummary[] $productSummaries
+ * @property Refinement $refinement
  * @property integer $total
  */
-class ProductSearchResponse extends \DTS\eBaySDK\Types\BaseType
+class ProductSearchResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

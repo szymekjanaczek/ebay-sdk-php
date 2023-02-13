@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType;
 
-class CarrierShippingCostInfoTypeTest extends \PHPUnit\Framework\TestCase
+class CarrierShippingCostInfoTypeTest extends TestCase
 {
     private $obj;
 

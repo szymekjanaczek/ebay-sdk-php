@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Enums\PurchaseOrderStatusEnum;
 
-class PurchaseOrderStatusEnumTest extends \PHPUnit\Framework\TestCase
+class PurchaseOrderStatusEnumTest extends TestCase
 {
     private $obj;
 

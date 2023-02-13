@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Analytics\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Analytics\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetAllSellerProfilesRestResponse extends \DTS\eBaySDK\Analytics\Types\FindSellerStandardsProfilesResponse
+class GetAllSellerProfilesRestResponse extends FindSellerStandardsProfilesResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

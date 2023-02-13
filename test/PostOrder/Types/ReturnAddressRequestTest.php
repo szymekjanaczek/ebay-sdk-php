@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ReturnAddressRequest;
 
-class ReturnAddressRequestTest extends \PHPUnit\Framework\TestCase
+class ReturnAddressRequestTest extends TestCase
 {
     private $obj;
 

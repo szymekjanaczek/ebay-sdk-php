@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\UpdateBidPercentageRequest;
 
-class UpdateBidPercentageRequestTest extends \PHPUnit\Framework\TestCase
+class UpdateBidPercentageRequestTest extends TestCase
 {
     private $obj;
 

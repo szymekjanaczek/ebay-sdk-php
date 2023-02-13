@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class ExtensionType extends \DTS\eBaySDK\Types\BaseType
+class ExtensionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

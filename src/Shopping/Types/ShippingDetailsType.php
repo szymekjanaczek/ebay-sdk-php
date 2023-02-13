@@ -10,21 +10,23 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Shopping\Enums\InsuranceOptionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $InsuranceCost
- * @property \DTS\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InsuranceOption
- * @property \DTS\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType[] $InternationalShippingServiceOption
- * @property \DTS\eBaySDK\Shopping\Types\SalesTaxType $SalesTax
+ * @property AmountType $InsuranceCost
+ * @property InsuranceOptionCodeType $InsuranceOption
+ * @property InternationalShippingServiceOptionType[] $InternationalShippingServiceOption
+ * @property SalesTaxType $SalesTax
  * @property string $ShippingRateErrorMessage
- * @property \DTS\eBaySDK\Shopping\Types\ShippingServiceOptionType[] $ShippingServiceOption
- * @property \DTS\eBaySDK\Shopping\Types\TaxTableType $TaxTable
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $InternationalInsuranceCost
- * @property \DTS\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InternationalInsuranceOption
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $CODCost
+ * @property ShippingServiceOptionType[] $ShippingServiceOption
+ * @property TaxTableType $TaxTable
+ * @property AmountType $InternationalInsuranceCost
+ * @property InsuranceOptionCodeType $InternationalInsuranceOption
+ * @property AmountType $CODCost
  * @property string[] $ExcludeShipToLocation
  */
-class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ClassifiedAdAutoAcceptEnabledDefinitionType;
 
-class ClassifiedAdAutoAcceptEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class ClassifiedAdAutoAcceptEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

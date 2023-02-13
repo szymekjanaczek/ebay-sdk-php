@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\RecipientAccountReference;
 
-class RecipientAccountReferenceTest extends \PHPUnit\Framework\TestCase
+class RecipientAccountReferenceTest extends TestCase
 {
     private $obj;
 

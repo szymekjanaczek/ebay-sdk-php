@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Payment[] $payments
- * @property \DTS\eBaySDK\Fulfillment\Types\OrderRefund[] $refunds
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $totalDueSeller
+ * @property Payment[] $payments
+ * @property OrderRefund[] $refunds
+ * @property Amount $totalDueSeller
  */
-class PaymentSummary extends \DTS\eBaySDK\Types\BaseType
+class PaymentSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

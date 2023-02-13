@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $lineItemId
  * @property integer $quantity
  */
-class LineItemReference extends \DTS\eBaySDK\Types\BaseType
+class LineItemReference extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

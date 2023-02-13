@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3;
 
-class ErrorDetailV3Test extends \PHPUnit\Framework\TestCase
+class ErrorDetailV3Test extends TestCase
 {
     private $obj;
 

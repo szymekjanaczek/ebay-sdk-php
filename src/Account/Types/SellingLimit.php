@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $amount
+ * @property Amount $amount
  * @property integer $quantity
  */
-class SellingLimit extends \DTS\eBaySDK\Types\BaseType
+class SellingLimit extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

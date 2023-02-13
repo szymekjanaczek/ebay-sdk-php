@@ -10,6 +10,8 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $TimeZoneID
@@ -19,9 +21,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DaylightSavingsOffset
  * @property boolean $DaylightSavingsInEffect
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
+class TimeZoneDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

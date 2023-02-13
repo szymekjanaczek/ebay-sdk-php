@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum $checkType
- * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResultType $eligibilityInfo
+ * @property EligibilityCheckTypeEnum $checkType
+ * @property EligibilityResultType $eligibilityInfo
  */
-class ReturnEligibilityItemPerCheckTypeResult extends \DTS\eBaySDK\Types\BaseType
+class ReturnEligibilityItemPerCheckTypeResult extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

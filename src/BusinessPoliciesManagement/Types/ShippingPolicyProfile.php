@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfo $shippingPolicyInfo
+ * @property ShippingPolicyInfo $shippingPolicyInfo
  */
-class ShippingPolicyProfile extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfile
+class ShippingPolicyProfile extends SellerProfile
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType;
 /**
  *
  * @property integer $VeROReportPacketID
- * @property \DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType $VeROReportPacketStatus
+ * @property VeROReportPacketStatusCodeType $VeROReportPacketStatus
  */
-class VeROReportItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class VeROReportItemsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

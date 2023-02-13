@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\LineItemReference;
 
-class LineItemReferenceTest extends \PHPUnit\Framework\TestCase
+class LineItemReferenceTest extends TestCase
 {
     private $obj;
 

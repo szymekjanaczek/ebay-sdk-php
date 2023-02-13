@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
  *
  * @property string $propertyName
  */
-class GetProductSearchValuesRequest extends \DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBaseRequest
+class GetProductSearchValuesRequest extends GetProductSearchValuesBaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

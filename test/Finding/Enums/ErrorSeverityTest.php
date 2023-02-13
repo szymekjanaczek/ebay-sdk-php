@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Enums\ErrorSeverity;
 
-class ErrorSeverityTest extends \PHPUnit\Framework\TestCase
+class ErrorSeverityTest extends TestCase
 {
     private $obj;
 

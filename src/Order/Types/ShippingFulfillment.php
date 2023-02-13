@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $actualDeliveryDate
- * @property \DTS\eBaySDK\Order\Types\LineItemReference[] $lineItemReferences
+ * @property LineItemReference[] $lineItemReferences
  * @property string $maxEstimatedDeliveryDate
  * @property string $minEstimatedDeliveryDate
  * @property string $shipmentTrackingNumber
@@ -22,7 +23,7 @@ namespace DTS\eBaySDK\Order\Types;
  * @property string $shippingCarrierCode
  * @property string $shippingServiceCode
  */
-class ShippingFulfillment extends \DTS\eBaySDK\Types\BaseType
+class ShippingFulfillment extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

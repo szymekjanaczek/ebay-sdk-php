@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
  * @property string $shippedDate
  * @property string $carrierUsed
  */
-class ProvideShippingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ProvideShippingInfoOptionType extends BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

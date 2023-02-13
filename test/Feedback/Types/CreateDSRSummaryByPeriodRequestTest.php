@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Feedback\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest;
 
-class CreateDSRSummaryByPeriodRequestTest extends \PHPUnit\Framework\TestCase
+class CreateDSRSummaryByPeriodRequestTest extends TestCase
 {
     private $obj;
 

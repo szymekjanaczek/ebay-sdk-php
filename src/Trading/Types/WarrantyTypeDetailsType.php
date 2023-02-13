@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $WarrantyTypeOption
  * @property string $Description
  */
-class WarrantyTypeDetailsType extends \DTS\eBaySDK\Types\BaseType
+class WarrantyTypeDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

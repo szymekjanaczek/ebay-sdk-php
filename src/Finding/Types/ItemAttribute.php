@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
  * @property string $value
  */
-class ItemAttribute extends \DTS\eBaySDK\Types\BaseType
+class ItemAttribute extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

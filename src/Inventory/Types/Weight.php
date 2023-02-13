@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\WeightUnitOfMeasureEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Enums\WeightUnitOfMeasureEnum $unit
+ * @property WeightUnitOfMeasureEnum $unit
  * @property double $value
  */
-class Weight extends \DTS\eBaySDK\Types\BaseType
+class Weight extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

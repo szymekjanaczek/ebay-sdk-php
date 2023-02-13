@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\CharitySellerStatusCodeType;
 
-class CharitySellerStatusCodeTypeTest extends \PHPUnit\Framework\TestCase
+class CharitySellerStatusCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GetSellingManagerAlertsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerAlertsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

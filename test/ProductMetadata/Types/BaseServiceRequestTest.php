@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest;
 
-class BaseServiceRequestTest extends \PHPUnit\Framework\TestCase
+class BaseServiceRequestTest extends TestCase
 {
     private $obj;
 

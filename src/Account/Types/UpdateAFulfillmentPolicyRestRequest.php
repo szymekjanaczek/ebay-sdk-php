@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Account\Types;
  *
  * @property string $fulfillmentPolicyId
  */
-class UpdateAFulfillmentPolicyRestRequest extends \DTS\eBaySDK\Account\Types\FulfillmentPolicyRequest
+class UpdateAFulfillmentPolicyRestRequest extends FulfillmentPolicyRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

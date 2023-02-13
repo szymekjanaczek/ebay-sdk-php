@@ -17,7 +17,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $OrderID
  * @property string $OrderLineItemID
  */
-class GetSellingManagerSaleRecordRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerSaleRecordRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

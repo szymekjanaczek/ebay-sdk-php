@@ -10,26 +10,28 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $buyerAddress
+ * @property ReturnAddressType $buyerAddress
  * @property string $buyerLoginName
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnCloseInfoType $closeInfo
- * @property \DTS\eBaySDK\PostOrder\Types\DispositionRuleDetailType[] $dispositionRuleDetail
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnFileType[] $files
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnHoldInfoType $holdInfo
- * @property \DTS\eBaySDK\PostOrder\Types\ItemDetailType $itemDetail
- * @property \DTS\eBaySDK\PostOrder\Enums\MarketplaceIdEnum $marketplaceId
- * @property \DTS\eBaySDK\PostOrder\Types\MoneyMovementDetailType[] $moneyMovementInfo
- * @property \DTS\eBaySDK\PostOrder\Types\RefundInfoType $refundInfo
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentType $replacementShipmentInfo
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnResponseHistoryType[] $responseHistory
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentType $returnShipmentInfo
+ * @property ReturnCloseInfoType $closeInfo
+ * @property DispositionRuleDetailType[] $dispositionRuleDetail
+ * @property ReturnFileType[] $files
+ * @property ReturnHoldInfoType $holdInfo
+ * @property ItemDetailType $itemDetail
+ * @property MarketplaceIdEnum $marketplaceId
+ * @property MoneyMovementDetailType[] $moneyMovementInfo
+ * @property RefundInfoType $refundInfo
+ * @property ShipmentType $replacementShipmentInfo
+ * @property ReturnResponseHistoryType[] $responseHistory
+ * @property ShipmentType $returnShipmentInfo
  * @property string $RMANumber
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $sellerAddress
+ * @property ReturnAddressType $sellerAddress
  * @property string $sellerLoginName
  */
-class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
+class ReturnDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

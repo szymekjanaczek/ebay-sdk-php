@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType $Status
+ * @property PromotionalSaleStatusCodeType $Status
  */
-class SetPromotionalSaleListingsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class SetPromotionalSaleListingsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

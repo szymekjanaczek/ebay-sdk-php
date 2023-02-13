@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Enums\CountryCodeEnum;
 
-class CountryCodeEnumTest extends \PHPUnit\Framework\TestCase
+class CountryCodeEnumTest extends TestCase
 {
     private $obj;
 

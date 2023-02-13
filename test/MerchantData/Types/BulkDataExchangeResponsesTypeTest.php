@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType;
 
-class BulkDataExchangeResponsesTypeTest extends \PHPUnit\Framework\TestCase
+class BulkDataExchangeResponsesTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CancelSummary[] $cancellations
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property CancelSummary[] $cancellations
+ * @property PaginationOutput $paginationOutput
  * @property integer $total
  */
-class FindCancelResponse extends \DTS\eBaySDK\Types\BaseType
+class FindCancelResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

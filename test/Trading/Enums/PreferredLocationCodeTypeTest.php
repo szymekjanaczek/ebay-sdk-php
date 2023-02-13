@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType;
 
-class PreferredLocationCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PreferredLocationCodeTypeTest extends TestCase
 {
     private $obj;
 

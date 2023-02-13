@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $managedValue
  * @property integer $maximumCharactersAllowed
  */
-class StringTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
+class StringTypeSpecificInformation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

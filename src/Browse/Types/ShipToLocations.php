@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\Region[] $regionExcluded
- * @property \DTS\eBaySDK\Browse\Types\Region[] $regionIncluded
+ * @property Region[] $regionExcluded
+ * @property Region[] $regionIncluded
  */
-class ShipToLocations extends \DTS\eBaySDK\Types\BaseType
+class ShipToLocations extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

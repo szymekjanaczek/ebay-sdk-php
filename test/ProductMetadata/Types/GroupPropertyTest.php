@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Types\GroupProperty;
 
-class GroupPropertyTest extends \PHPUnit\Framework\TestCase
+class GroupPropertyTest extends TestCase
 {
     private $obj;
 

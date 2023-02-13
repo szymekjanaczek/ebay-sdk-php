@@ -10,16 +10,22 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType;
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType;
+use DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\BuyerPaymentInstrumentCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
- * @property \DateTime $LastModifiedTime
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethod
- * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $Status
+ * @property PaymentStatusCodeType $eBayPaymentStatus
+ * @property DateTime $LastModifiedTime
+ * @property BuyerPaymentMethodCodeType $PaymentMethod
+ * @property CompleteStatusCodeType $Status
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
+ * @property BuyerPaymentInstrumentCodeType $PaymentInstrument
  */
-class CheckoutStatusType extends \DTS\eBaySDK\Types\BaseType
+class CheckoutStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

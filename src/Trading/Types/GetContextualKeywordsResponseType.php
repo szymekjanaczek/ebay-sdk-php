@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ContextSearchAssetType[] $ContextSearchAsset
+ * @property ContextSearchAssetType[] $ContextSearchAsset
  */
-class GetContextualKeywordsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetContextualKeywordsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

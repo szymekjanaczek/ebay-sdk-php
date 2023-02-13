@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $listingId
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class WithdrawResponse extends \DTS\eBaySDK\Types\BaseType
+class WithdrawResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

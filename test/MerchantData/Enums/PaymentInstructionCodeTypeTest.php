@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType;
 
-class PaymentInstructionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PaymentInstructionCodeTypeTest extends TestCase
 {
     private $obj;
 

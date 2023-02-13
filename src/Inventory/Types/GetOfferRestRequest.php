@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $offerId
  */
-class GetOfferRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetOfferRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

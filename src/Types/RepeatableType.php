@@ -1,6 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Types;
 
+use ArrayAccess;
+use Countable;
+use Iterator;
+use DTS\eBaySDK\Exceptions\InvalidPropertyTypeException;
+use function DTS\eBaySDK\checkPropertyType;
 use \DTS\eBaySDK\Exceptions;
 use \DTS\eBaySDK\JmesPath\JmesPathableArrayInterface;
 use ReturnTypeWillChange;
@@ -10,7 +15,7 @@ use ReturnTypeWillChange;
  *
  * Allows properties in an object to be treated as an array.
  */
-class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathableArrayInterface
+class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableArrayInterface
 {
     /**
      * @var array The data to store as an array.
@@ -82,7 +87,15 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
      * @param mixed $offset The array index or null to add the value to the end of the array.
      * @param mixed $value The value to add.
      *
-     * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the array.
+     * @throws InvalidPropertyTypeException If the value is the wrong type for the array.
+     */
+    /**
+     * Sets a value for the given offset.
+     *
+     * @param mixed $offset The array index or null to add the value to the end of the array.
+     * @param mixed $value The value to add.
+     *
+     * @throws InvalidPropertyTypeException If the value is the wrong type for the array.
      */
     #[ReturnTypeWillChange]
     public function offsetSet($offset, $value)
@@ -166,7 +179,7 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
      *
      * @param mixed $value The value to check the type of.
      *
-     * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the array.
+     * @throws InvalidPropertyTypeException If the value is the wrong type for the array.
      */
     private function ensurePropertyType($value)
     {
@@ -178,7 +191,7 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
         $valid = explode('|', $this->expectedType);
         $isValid = false;
         foreach ($valid as $check) {
-            if ($check !== 'any' && \DTS\eBaySDK\checkPropertyType($check)) {
+            if ($check !== 'any' && checkPropertyType($check)) {
                 if ($check === $actualType) {
                     return;
                 }
@@ -189,7 +202,7 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
         }
 
         if (!$isValid) {
-            throw new Exceptions\InvalidPropertyTypeException($this->property, $this->expectedType, $actualType);
+            throw new InvalidPropertyTypeException($this->property, $this->expectedType, $actualType);
         }
     }
 }

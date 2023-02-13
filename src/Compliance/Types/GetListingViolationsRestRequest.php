@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Compliance\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $limit
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Compliance\Types;
  * @property integer $offset
  * @property string $compliance_type
  */
-class GetListingViolationsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetListingViolationsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

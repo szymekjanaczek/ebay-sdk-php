@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest;
 
-class FindItemsForFavoriteSearchRequestTest extends \PHPUnit\Framework\TestCase
+class FindItemsForFavoriteSearchRequestTest extends TestCase
 {
     private $obj;
 

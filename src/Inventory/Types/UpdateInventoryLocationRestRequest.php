@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Inventory\Types;
  *
  * @property string $merchantLocationKey
  */
-class UpdateInventoryLocationRestRequest extends \DTS\eBaySDK\Inventory\Types\InventoryLocation
+class UpdateInventoryLocationRestRequest extends InventoryLocation
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType;
 
-class GetItemJobActionTypeTest extends \PHPUnit\Framework\TestCase
+class GetItemJobActionTypeTest extends TestCase
 {
     private $obj;
 

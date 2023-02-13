@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ValidateChallengeInputRequestType;
 
-class ValidateChallengeInputRequestTypeTest extends \PHPUnit\Framework\TestCase
+class ValidateChallengeInputRequestTypeTest extends TestCase
 {
     private $obj;
 

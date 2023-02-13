@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\BestOfferActionCodeType;
 /**
  *
  * @property string $ItemID
  * @property string[] $BestOfferID
- * @property \DTS\eBaySDK\Trading\Enums\BestOfferActionCodeType $Action
+ * @property BestOfferActionCodeType $Action
  * @property string $SellerResponse
- * @property \DTS\eBaySDK\Trading\Types\AmountType $CounterOfferPrice
+ * @property AmountType $CounterOfferPrice
  * @property integer $CounterOfferQuantity
  */
-class RespondToBestOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class RespondToBestOfferRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -16,10 +16,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $Category2ID
  * @property integer $SaleTemplateID
  * @property string $SaleTemplateName
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property FeesType $Fees
  */
-class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class AddSellingManagerTemplateResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

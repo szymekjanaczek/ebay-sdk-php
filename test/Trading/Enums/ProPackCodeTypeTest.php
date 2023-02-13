@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\ProPackCodeType;
 
-class ProPackCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ProPackCodeTypeTest extends TestCase
 {
     private $obj;
 

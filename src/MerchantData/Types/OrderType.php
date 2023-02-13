@@ -10,55 +10,62 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\OrderStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\TradingRoleCodeType;
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType;
+use DTS\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\CancelStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $OrderID
- * @property \DTS\eBaySDK\MerchantData\Enums\OrderStatusCodeType $OrderStatus
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AdjustmentAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AmountPaid
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AmountSaved
- * @property \DTS\eBaySDK\MerchantData\Types\CheckoutStatusType $CheckoutStatus
- * @property \DTS\eBaySDK\MerchantData\Types\ShippingDetailsType $ShippingDetails
- * @property \DTS\eBaySDK\MerchantData\Enums\TradingRoleCodeType $CreatingUserRole
- * @property \DateTime $CreatedTime
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
+ * @property OrderStatusCodeType $OrderStatus
+ * @property AmountType $AdjustmentAmount
+ * @property AmountType $AmountPaid
+ * @property AmountType $AmountSaved
+ * @property CheckoutStatusType $CheckoutStatus
+ * @property ShippingDetailsType $ShippingDetails
+ * @property TradingRoleCodeType $CreatingUserRole
+ * @property DateTime $CreatedTime
+ * @property BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property string $SellerEmail
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
- * @property \DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType $ShippingServiceSelected
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $Subtotal
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $Total
- * @property \DTS\eBaySDK\MerchantData\Types\ExternalTransactionType[] $ExternalTransaction
- * @property \DTS\eBaySDK\MerchantData\Types\TransactionArrayType $TransactionArray
+ * @property AddressType $ShippingAddress
+ * @property ShippingServiceOptionsType $ShippingServiceSelected
+ * @property AmountType $Subtotal
+ * @property AmountType $Total
+ * @property ExternalTransactionType[] $ExternalTransaction
+ * @property TransactionArrayType $TransactionArray
  * @property string $BuyerUserID
- * @property \DateTime $PaidTime
- * @property \DateTime $ShippedTime
+ * @property DateTime $PaidTime
+ * @property DateTime $ShippedTime
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property string $BuyerCheckoutMessage
  * @property string $EIASToken
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
- * @property \DTS\eBaySDK\MerchantData\Types\PaymentHoldDetailType $PaymentHoldDetails
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundAmount
+ * @property PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property PaymentHoldDetailType $PaymentHoldDetails
+ * @property AmountType $RefundAmount
  * @property string $RefundStatus
- * @property \DTS\eBaySDK\MerchantData\Types\RefundArrayType $RefundArray
+ * @property RefundArrayType $RefundArray
  * @property boolean $IsMultiLegShipping
- * @property \DTS\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
- * @property \DTS\eBaySDK\MerchantData\Types\PaymentsInformationType $MonetaryDetails
- * @property \DTS\eBaySDK\MerchantData\Types\PickupDetailsType $PickupDetails
- * @property \DTS\eBaySDK\MerchantData\Types\PickupMethodSelectedType $PickupMethodSelected
+ * @property MultiLegShippingDetailsType $MultiLegShippingDetails
+ * @property PaymentsInformationType $MonetaryDetails
+ * @property PickupDetailsType $PickupDetails
+ * @property PickupMethodSelectedType $PickupMethodSelected
  * @property string $SellerUserID
  * @property string $SellerEIASToken
  * @property string $CancelReason
- * @property \DTS\eBaySDK\MerchantData\Enums\CancelStatusCodeType $CancelStatus
+ * @property CancelStatusCodeType $CancelStatus
  * @property string $CancelReasonDetails
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingConvenienceCharge
- * @property \DTS\eBaySDK\MerchantData\Types\CancelDetailType[] $CancelDetail
+ * @property AmountType $ShippingConvenienceCharge
+ * @property CancelDetailType[] $CancelDetail
  * @property string $LogisticsPlanType
- * @property \DTS\eBaySDK\MerchantData\Types\TaxIdentifierType[] $BuyerTaxIdentifier
- * @property \DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
+ * @property TaxIdentifierType[] $BuyerTaxIdentifier
+ * @property BuyerPackageEnclosuresType $BuyerPackageEnclosures
  * @property string $ExtendedOrderID
  * @property boolean $ContainseBayPlusTransaction
  */
-class OrderType extends \DTS\eBaySDK\Types\BaseType
+class OrderType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

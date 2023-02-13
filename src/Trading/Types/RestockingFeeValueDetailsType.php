@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $RestockingFeeValueOption
  * @property string $Description
  */
-class RestockingFeeValueDetailsType extends \DTS\eBaySDK\Types\BaseType
+class RestockingFeeValueDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

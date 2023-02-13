@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class ProvideTrackingInfoResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class ProvideTrackingInfoResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

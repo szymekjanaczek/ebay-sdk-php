@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\VeROReportedItemType;
 
-class VeROReportedItemTypeTest extends \PHPUnit\Framework\TestCase
+class VeROReportedItemTypeTest extends TestCase
 {
     private $obj;
 

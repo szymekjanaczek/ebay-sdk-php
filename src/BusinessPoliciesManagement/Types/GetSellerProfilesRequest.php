@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType;
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType[] $profileType
+ * @property ProfileType[] $profileType
  * @property integer[] $profileId
  * @property string[] $profileName
  * @property boolean $includeDetails
  */
-class GetSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
+class GetSellerProfilesRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

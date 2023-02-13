@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $carrierUsed
- * @property \DTS\eBaySDK\PostOrder\Types\ScanDetailType[] $scanHistory
+ * @property ScanDetailType[] $scanHistory
  * @property string $trackingNumber
  * @property string $trackingStatus
  */
-class GetTrackingHistoryResponse extends \DTS\eBaySDK\Types\BaseType
+class GetTrackingHistoryResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

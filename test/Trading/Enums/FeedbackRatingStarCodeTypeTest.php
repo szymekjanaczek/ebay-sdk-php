@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType;
 
-class FeedbackRatingStarCodeTypeTest extends \PHPUnit\Framework\TestCase
+class FeedbackRatingStarCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  *
  * @property integer[] $profileIds
  */
-class RemoveSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
+class RemoveSellerProfilesRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

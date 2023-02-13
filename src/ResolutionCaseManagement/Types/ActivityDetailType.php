@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class ActivityDetailType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType
+class ActivityDetailType extends EnumerationDetailType
 {
     /**
      * @var array Properties belonging to objects of this class.

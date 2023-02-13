@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\FundingModelEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $bidPercentage
- * @property \DTS\eBaySDK\Marketing\Enums\FundingModelEnum $fundingModel
+ * @property FundingModelEnum $fundingModel
  */
-class FundingStrategy extends \DTS\eBaySDK\Types\BaseType
+class FundingStrategy extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

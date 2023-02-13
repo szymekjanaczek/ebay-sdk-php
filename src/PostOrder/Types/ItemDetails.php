@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemPictureUrl
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $itemPrice
+ * @property Amount $itemPrice
  * @property string $itemTitle
  * @property string $viewPurchasedItemUrl
  */
-class ItemDetails extends \DTS\eBaySDK\Types\BaseType
+class ItemDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

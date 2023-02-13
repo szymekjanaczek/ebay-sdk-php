@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ListingTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $SearchKeywords
  * @property integer $StoreCategoryID
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
- * @property \DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType $SearchSortOrder
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MinPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MaxPrice
+ * @property ListingTypeCodeType $ListingType
+ * @property StoreItemListSortOrderCodeType $SearchSortOrder
+ * @property AmountType $MinPrice
+ * @property AmountType $MaxPrice
  * @property string[] $FavoriteItemID
  */
-class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class SellerFavoriteItemPreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $returnId
  */
-class ProcessReturnRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\DecideReturnRequest
+class ProcessReturnRequestRestRequest extends DecideReturnRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

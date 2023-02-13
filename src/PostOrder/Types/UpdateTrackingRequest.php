@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\ShippingCarrierEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Enums\ShippingCarrierEnum $newCarrierEnum
+ * @property ShippingCarrierEnum $newCarrierEnum
  * @property string $newCarrierName
  * @property string $newTrackingNumber
- * @property \DTS\eBaySDK\PostOrder\Enums\ShippingCarrierEnum $usedCarrierEnum
+ * @property ShippingCarrierEnum $usedCarrierEnum
  * @property string $usedCarrierName
  * @property string $usedTrackingNumber
  */
-class UpdateTrackingRequest extends \DTS\eBaySDK\Types\BaseType
+class UpdateTrackingRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

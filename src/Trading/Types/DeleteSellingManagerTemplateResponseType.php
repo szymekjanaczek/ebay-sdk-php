@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DeletedSaleTemplateID
  * @property string $DeletedSaleTemplateName
  */
-class DeleteSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class DeleteSellingManagerTemplateResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

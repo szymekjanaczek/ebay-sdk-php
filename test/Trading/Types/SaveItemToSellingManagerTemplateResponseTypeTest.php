@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SaveItemToSellingManagerTemplateResponseType;
 
-class SaveItemToSellingManagerTemplateResponseTypeTest extends \PHPUnit\Framework\TestCase
+class SaveItemToSellingManagerTemplateResponseTypeTest extends TestCase
 {
     private $obj;
 

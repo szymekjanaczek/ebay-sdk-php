@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\RefundArrayType;
 
-class RefundArrayTypeTest extends \PHPUnit\Framework\TestCase
+class RefundArrayTypeTest extends TestCase
 {
     private $obj;
 

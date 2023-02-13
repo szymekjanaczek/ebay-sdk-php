@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Enums\InquiryEscalationReasonEnum;
 
-class InquiryEscalationReasonEnumTest extends \PHPUnit\Framework\TestCase
+class InquiryEscalationReasonEnumTest extends TestCase
 {
     private $obj;
 

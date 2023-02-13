@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\BidGroupItemStatusCodeType;
 
-class BidGroupItemStatusCodeTypeTest extends \PHPUnit\Framework\TestCase
+class BidGroupItemStatusCodeTypeTest extends TestCase
 {
     private $obj;
 

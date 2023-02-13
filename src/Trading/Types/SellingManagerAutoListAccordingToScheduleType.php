@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DayOfWeekCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DayOfWeekCodeType[] $DayOfWeek
+ * @property DayOfWeekCodeType[] $DayOfWeek
  * @property integer $ListingPeriodInWeeks
  * @property string $ListAtSpecificTimeOfDay
- * @property \DateTime $StartTime
- * @property \DateTime $EndTime
+ * @property DateTime $StartTime
+ * @property DateTime $EndTime
  * @property integer $MaxActiveItemCount
  * @property integer $ListingHoldInventoryLevel
  */
-class SellingManagerAutoListAccordingToScheduleType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerAutoListAccordingToScheduleType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

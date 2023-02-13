@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter;
 
-class SoldReportFilterTest extends \PHPUnit\Framework\TestCase
+class SoldReportFilterTest extends TestCase
 {
     private $obj;
 

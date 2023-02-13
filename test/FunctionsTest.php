@@ -2,14 +2,16 @@
 
 namespace DTS\eBaySDK\Test;
 
-class FunctionsTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+use function DTS\eBaySDK\arrayMergeDeep;
+class FunctionsTest extends TestCase
 {
     public function testArrayMergeDeepArray()
     {
         $a = ['a'=>'b','c' => ['d' => 'e']];
         $b = ['c' => ['f' => 'g']];
 
-        $merged = \DTS\eBaySDK\arrayMergeDeep($a, $b);
+        $merged = arrayMergeDeep($a, $b);
 
         $this->assertEquals([
             'a' => 'b',

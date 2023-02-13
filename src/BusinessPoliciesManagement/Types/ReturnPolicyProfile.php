@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyInfo $returnPolicyInfo
+ * @property ReturnPolicyInfo $returnPolicyInfo
  */
-class ReturnPolicyProfile extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfile
+class ReturnPolicyProfile extends SellerProfile
 {
     /**
      * @var array Properties belonging to objects of this class.

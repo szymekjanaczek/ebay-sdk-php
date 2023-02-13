@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $SiteID
  * @property string $Version
  */
-class MerchantDataRequestHeaderType extends \DTS\eBaySDK\Types\BaseType
+class MerchantDataRequestHeaderType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

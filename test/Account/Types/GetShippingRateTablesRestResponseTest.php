@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\GetShippingRateTablesRestResponse;
 
-class GetShippingRateTablesRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetShippingRateTablesRestResponseTest extends TestCase
 {
     private $obj;
 

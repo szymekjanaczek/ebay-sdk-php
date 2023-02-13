@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\BidApprovalType;
 
-class BidApprovalTypeTest extends \PHPUnit\Framework\TestCase
+class BidApprovalTypeTest extends TestCase
 {
     private $obj;
 

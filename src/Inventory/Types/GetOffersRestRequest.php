@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $format
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Inventory\Types;
  * @property string $offset
  * @property string $sku
  */
-class GetOffersRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetOffersRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

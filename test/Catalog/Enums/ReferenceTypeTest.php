@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Enums\ReferenceType;
 
-class ReferenceTypeTest extends \PHPUnit\Framework\TestCase
+class ReferenceTypeTest extends TestCase
 {
     private $obj;
 

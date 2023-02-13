@@ -1,12 +1,13 @@
 <?php
 namespace DTS\eBaySDK\Test\ProductMetadata\Services;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Services\ProductMetadataBaseService;
 use DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService;
 use DTS\eBaySDK\Test\ProductMetadata\Mocks\Service;
 use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
-class ServiceTest extends \PHPUnit\Framework\TestCase
+class ServiceTest extends TestCase
 {
     public function testConfigDefinitions()
     {

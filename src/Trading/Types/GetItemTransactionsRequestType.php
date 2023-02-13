@@ -10,21 +10,23 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType;
 /**
  *
  * @property string $ItemID
- * @property \DateTime $ModTimeFrom
- * @property \DateTime $ModTimeTo
+ * @property DateTime $ModTimeFrom
+ * @property DateTime $ModTimeTo
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property PaginationType $Pagination
  * @property boolean $IncludeFinalValueFee
  * @property boolean $IncludeContainingOrder
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
+ * @property TransactionPlatformCodeType $Platform
  * @property integer $NumberOfDays
  * @property boolean $IncludeVariations
  * @property string $OrderLineItemID
  */
-class GetItemTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetItemTransactionsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

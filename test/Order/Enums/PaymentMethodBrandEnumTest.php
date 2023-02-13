@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Enums\PaymentMethodBrandEnum;
 
-class PaymentMethodBrandEnumTest extends \PHPUnit\Framework\TestCase
+class PaymentMethodBrandEnumTest extends TestCase
 {
     private $obj;
 

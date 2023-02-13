@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SellingManagerSearchTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSearchTypeCodeType $SearchType
+ * @property SellingManagerSearchTypeCodeType $SearchType
  * @property string $SearchValue
  */
-class SellingManagerSearchType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerSearchType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

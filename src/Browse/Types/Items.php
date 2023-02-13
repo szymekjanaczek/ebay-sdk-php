@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\CommonDescriptions[] $commonDescriptions
- * @property \DTS\eBaySDK\Browse\Types\Item[] $items
+ * @property CommonDescriptions[] $commonDescriptions
+ * @property Item[] $items
  */
-class Items extends \DTS\eBaySDK\Types\BaseType
+class Items extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\RefundStatusType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\RefundStatusType $RefundStatus
+ * @property RefundStatusType $RefundStatus
  */
-class IssueRefundResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class IssueRefundResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

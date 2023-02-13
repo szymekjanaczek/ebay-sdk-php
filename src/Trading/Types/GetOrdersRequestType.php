@@ -10,22 +10,27 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\TradingRoleCodeType;
+use DTS\eBaySDK\Trading\Enums\OrderStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\ListingTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\SortOrderCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
- * @property \DateTime $CreateTimeFrom
- * @property \DateTime $CreateTimeTo
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $OrderRole
- * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DateTime $ModTimeFrom
- * @property \DateTime $ModTimeTo
+ * @property OrderIDArrayType $OrderIDArray
+ * @property DateTime $CreateTimeFrom
+ * @property DateTime $CreateTimeTo
+ * @property TradingRoleCodeType $OrderRole
+ * @property OrderStatusCodeType $OrderStatus
+ * @property ListingTypeCodeType $ListingType
+ * @property PaginationType $Pagination
+ * @property DateTime $ModTimeFrom
+ * @property DateTime $ModTimeTo
  * @property integer $NumberOfDays
  * @property boolean $IncludeFinalValueFee
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortingOrder
+ * @property SortOrderCodeType $SortingOrder
  */
-class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetOrdersRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

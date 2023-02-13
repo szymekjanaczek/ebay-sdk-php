@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $ReturnProfileID
  * @property string $ReturnProfileName
  */
-class SellerReturnProfileType extends \DTS\eBaySDK\Types\BaseType
+class SellerReturnProfileType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

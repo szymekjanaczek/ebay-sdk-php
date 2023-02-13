@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Types\CorrectionAspectValue;
 
-class CorrectionAspectValueTest extends \PHPUnit\Framework\TestCase
+class CorrectionAspectValueTest extends TestCase
 {
     private $obj;
 

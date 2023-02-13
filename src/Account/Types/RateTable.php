@@ -10,14 +10,17 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\CountryCodeEnum;
+use DTS\eBaySDK\Account\Enums\ShippingOptionTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Enums\CountryCodeEnum $countryCode
- * @property \DTS\eBaySDK\Account\Enums\ShippingOptionTypeEnum $locality
+ * @property CountryCodeEnum $countryCode
+ * @property ShippingOptionTypeEnum $locality
  * @property string $name
  * @property string $rateTableId
  */
-class RateTable extends \DTS\eBaySDK\Types\BaseType
+class RateTable extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

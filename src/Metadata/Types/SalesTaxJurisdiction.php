@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $salesTaxJurisdictionId
  */
-class SalesTaxJurisdiction extends \DTS\eBaySDK\Types\BaseType
+class SalesTaxJurisdiction extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,6 +1,7 @@
 <?php
 namespace DTS\eBaySDK;
 
+use InvalidArgumentException;
 /**
  * @internal Resolves a resource uri.
  */
@@ -31,13 +32,13 @@ class UriResolver
      * @param array $paramValues Associative array of uri parameter values for the operation.
      *
      * @return string Returns a resolved uri.
-     * @throws \InvalidArgumentException.
+     * @throws InvalidArgumentException .
      */
     public function resolve($uri, $version, $resource, array $paramDefs, array $paramValues)
     {
         foreach ($paramValues as $param => $value) {
             if (!array_key_exists($param, $paramDefs)) {
-                throw new \InvalidArgumentException("Unknown uri parameter \"$param\" provided");
+                throw new InvalidArgumentException("Unknown uri parameter \"$param\" provided");
             }
         }
 
@@ -89,7 +90,7 @@ class UriResolver
             $expected,
             describeType($provided)
         );
-        throw new \InvalidArgumentException($msg);
+        throw new InvalidArgumentException($msg);
     }
 
     private function throwRequired(array $paramDefs, array $paramValues)
@@ -108,7 +109,7 @@ class UriResolver
 
         $msg = "Missing required uri parameters: \n\n";
         $msg .= implode("\n\n", $missing);
-        throw new \InvalidArgumentException($msg);
+        throw new InvalidArgumentException($msg);
     }
 
     /**

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $printLabelValid
  */
-class CheckLabelPrintEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
+class CheckLabelPrintEligibilityResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\EligibilityFailureReasonEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $eligible
  * @property string[] $eligibleCancelReason
- * @property \DTS\eBaySDK\PostOrder\Enums\EligibilityFailureReasonEnum[] $failureReason
- * @property \DTS\eBaySDK\PostOrder\Types\ItemEligibilityResult[] $itemEligibilityResult
+ * @property EligibilityFailureReasonEnum[] $failureReason
+ * @property ItemEligibilityResult[] $itemEligibilityResult
  * @property string $legacyOrderId
  */
-class OrderEligibilityResult extends \DTS\eBaySDK\Types\BaseType
+class OrderEligibilityResult extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

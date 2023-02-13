@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Shopping\Types;
 /**
  *
  */
-class FindHalfProductsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class FindHalfProductsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

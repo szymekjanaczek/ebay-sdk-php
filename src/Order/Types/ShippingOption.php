@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\Amount $baseDeliveryCost
- * @property \DTS\eBaySDK\Order\Types\Amount $deliveryDiscount
+ * @property Amount $baseDeliveryCost
+ * @property Amount $deliveryDiscount
  * @property string $maxEstimatedDeliveryDate
  * @property string $minEstimatedDeliveryDate
  * @property boolean $selected
@@ -21,7 +22,7 @@ namespace DTS\eBaySDK\Order\Types;
  * @property string $shippingOptionId
  * @property string $shippingServiceCode
  */
-class ShippingOption extends \DTS\eBaySDK\Types\BaseType
+class ShippingOption extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\NameValueListType[] $NameValueList
+ * @property NameValueListType[] $NameValueList
  * @property string $CompatibilityNotes
  */
-class ItemCompatibilityType extends \DTS\eBaySDK\Types\BaseType
+class ItemCompatibilityType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $guaranteedDelivery
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Fulfillment\Types;
  * @property string $minEstimatedDeliveryDate
  * @property string $shipByDate
  */
-class LineItemFulfillmentInstructions extends \DTS\eBaySDK\Types\BaseType
+class LineItemFulfillmentInstructions extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

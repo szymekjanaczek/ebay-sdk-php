@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $CategoryID
@@ -20,7 +21,7 @@ namespace DTS\eBaySDK\Shopping\Types;
  * @property string $CategoryIDPath
  * @property boolean $LeafCategory
  */
-class CategoryType extends \DTS\eBaySDK\Types\BaseType
+class CategoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

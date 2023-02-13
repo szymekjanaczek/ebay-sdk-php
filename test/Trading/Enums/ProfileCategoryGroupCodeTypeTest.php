@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\ProfileCategoryGroupCodeType;
 
-class ProfileCategoryGroupCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ProfileCategoryGroupCodeTypeTest extends TestCase
 {
     private $obj;
 

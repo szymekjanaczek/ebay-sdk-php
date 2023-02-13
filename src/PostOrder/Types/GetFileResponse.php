@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnFileType[] $files
+ * @property ReturnFileType[] $files
  */
-class GetFileResponse extends \DTS\eBaySDK\Types\BaseType
+class GetFileResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

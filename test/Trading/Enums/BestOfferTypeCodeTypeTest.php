@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType;
 
-class BestOfferTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class BestOfferTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

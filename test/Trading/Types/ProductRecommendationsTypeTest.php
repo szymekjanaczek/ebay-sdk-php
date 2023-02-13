@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ProductRecommendationsType;
 
-class ProductRecommendationsTypeTest extends \PHPUnit\Framework\TestCase
+class ProductRecommendationsTypeTest extends TestCase
 {
     private $obj;
 

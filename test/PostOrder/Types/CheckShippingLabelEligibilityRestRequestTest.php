@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest;
 
-class CheckShippingLabelEligibilityRestRequestTest extends \PHPUnit\Framework\TestCase
+class CheckShippingLabelEligibilityRestRequestTest extends TestCase
 {
     private $obj;
 

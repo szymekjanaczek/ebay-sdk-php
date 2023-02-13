@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\BulkDataExchange\Enums\IncludeShippingAddressType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\IncludeShippingAddressType $includeShippingAddress
+ * @property IncludeShippingAddressType $includeShippingAddress
  */
-class SoldReportFilter extends \DTS\eBaySDK\Types\BaseType
+class SoldReportFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

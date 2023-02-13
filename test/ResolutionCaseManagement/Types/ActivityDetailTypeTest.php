@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityDetailType;
 
-class ActivityDetailTypeTest extends \PHPUnit\Framework\TestCase
+class ActivityDetailTypeTest extends TestCase
 {
     private $obj;
 

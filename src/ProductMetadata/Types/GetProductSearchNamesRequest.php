@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
  * @property string $categoryId
  * @property string[] $dataset
  */
-class GetProductSearchNamesRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest
+class GetProductSearchNamesRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

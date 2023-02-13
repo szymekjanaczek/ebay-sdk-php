@@ -10,35 +10,36 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\Image[] $additionalImages
+ * @property Image[] $additionalImages
  * @property integer $bidCount
  * @property string[] $buyingOptions
- * @property \DTS\eBaySDK\Browse\Types\Category[] $categories
+ * @property Category[] $categories
  * @property string $condition
  * @property string $conditionId
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $currentBidPrice
- * @property \DTS\eBaySDK\Browse\Types\TargetLocation $distanceFromPickupLocation
+ * @property ConvertedAmount $currentBidPrice
+ * @property TargetLocation $distanceFromPickupLocation
  * @property string $energyEfficiencyClass
  * @property string $epid
- * @property \DTS\eBaySDK\Browse\Types\Image $image
+ * @property Image $image
  * @property string $itemAffiliateWebUrl
  * @property string $itemGroupHref
  * @property string $itemGroupType
  * @property string $itemHref
  * @property string $itemId
- * @property \DTS\eBaySDK\Browse\Types\ItemLocationImpl $itemLocation
+ * @property ItemLocationImpl $itemLocation
  * @property string $itemWebUrl
- * @property \DTS\eBaySDK\Browse\Types\MarketingPrice $marketingPrice
- * @property \DTS\eBaySDK\Browse\Types\PickupOptionSummary[] $pickupOptions
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $price
- * @property \DTS\eBaySDK\Browse\Types\Seller $seller
- * @property \DTS\eBaySDK\Browse\Types\ShippingOptionSummary[] $shippingOptions
- * @property \DTS\eBaySDK\Browse\Types\Image[] $thumbnailImages
+ * @property MarketingPrice $marketingPrice
+ * @property PickupOptionSummary[] $pickupOptions
+ * @property ConvertedAmount $price
+ * @property Seller $seller
+ * @property ShippingOptionSummary[] $shippingOptions
+ * @property Image[] $thumbnailImages
  * @property string $title
  */
-class ItemSummary extends \DTS\eBaySDK\Types\BaseType
+class ItemSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

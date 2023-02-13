@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetSellerTransactionsResponseType;
 
-class GetSellerTransactionsResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetSellerTransactionsResponseTypeTest extends TestCase
 {
     private $obj;
 

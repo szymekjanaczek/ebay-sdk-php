@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ExtendSiteHostedPicturesResponseType;
 
-class ExtendSiteHostedPicturesResponseTypeTest extends \PHPUnit\Framework\TestCase
+class ExtendSiteHostedPicturesResponseTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType;
 
-class InsuranceDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class InsuranceDetailsTypeTest extends TestCase
 {
     private $obj;
 

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Account\Types;
 /**
  *
  */
-class CreateAFulfillmentPolicyRestRequest extends \DTS\eBaySDK\Account\Types\FulfillmentPolicyRequest
+class CreateAFulfillmentPolicyRestRequest extends FulfillmentPolicyRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $FolderID
  */
-class DeleteSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class DeleteSellingManagerInventoryFolderRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

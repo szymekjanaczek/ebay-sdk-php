@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $CorrelationID
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $MemberMessage
+ * @property MemberMessageType $MemberMessage
  */
-class AddMemberMessagesAAQToBidderRequestContainerType extends \DTS\eBaySDK\Types\BaseType
+class AddMemberMessagesAAQToBidderRequestContainerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

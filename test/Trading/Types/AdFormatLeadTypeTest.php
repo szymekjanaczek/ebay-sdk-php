@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AdFormatLeadType;
 
-class AdFormatLeadTypeTest extends \PHPUnit\Framework\TestCase
+class AdFormatLeadTypeTest extends TestCase
 {
     private $obj;
 

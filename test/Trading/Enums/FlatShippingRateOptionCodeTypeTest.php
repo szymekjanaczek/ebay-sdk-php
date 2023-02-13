@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\FlatShippingRateOptionCodeType;
 
-class FlatShippingRateOptionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class FlatShippingRateOptionCodeTypeTest extends TestCase
 {
     private $obj;
 

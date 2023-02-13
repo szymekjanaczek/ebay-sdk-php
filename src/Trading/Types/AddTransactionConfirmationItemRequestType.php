@@ -10,18 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType;
+use DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType;
 /**
  *
  * @property string $RecipientUserID
  * @property string $VerifyEligibilityOnly
  * @property string $RecipientPostalCode
- * @property \DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType $RecipientRelationType
- * @property \DTS\eBaySDK\Trading\Types\AmountType $NegotiatedPrice
- * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $ListingDuration
+ * @property RecipientRelationCodeType $RecipientRelationType
+ * @property AmountType $NegotiatedPrice
+ * @property SecondChanceOfferDurationCodeType $ListingDuration
  * @property string $ItemID
  * @property string $Comments
  */
-class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddTransactionConfirmationItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

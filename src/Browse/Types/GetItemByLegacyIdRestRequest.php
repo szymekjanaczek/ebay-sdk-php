@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $legacy_item_id
  * @property string $legacy_variation_id
  * @property string $legacy_variation_sku
  */
-class GetItemByLegacyIdRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetItemByLegacyIdRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

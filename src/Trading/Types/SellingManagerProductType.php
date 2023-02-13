@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType $SellingManagerTemplateDetailsArray
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
+ * @property SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property SellingManagerTemplateDetailsArrayType $SellingManagerTemplateDetailsArray
+ * @property SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property SellingManagerProductSpecificsType $SellingManagerProductSpecifics
  */
-class SellingManagerProductType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerProductType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $inquiryId
  */
-class CloseInquiryRestRequest extends \DTS\eBaySDK\PostOrder\Types\BuyerCloseInquiryRequest
+class CloseInquiryRestRequest extends BuyerCloseInquiryRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

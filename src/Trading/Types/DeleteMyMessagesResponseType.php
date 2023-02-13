@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class DeleteMyMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class DeleteMyMessagesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

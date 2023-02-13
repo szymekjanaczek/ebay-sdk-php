@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\ListingPolicies;
 
-class ListingPoliciesTest extends \PHPUnit\Framework\TestCase
+class ListingPoliciesTest extends TestCase
 {
     private $obj;
 

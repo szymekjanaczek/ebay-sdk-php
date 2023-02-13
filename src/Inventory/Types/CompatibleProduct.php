@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $notes
- * @property \DTS\eBaySDK\Inventory\Types\ProductFamilyProperties $productFamilyProperties
- * @property \DTS\eBaySDK\Inventory\Types\ProductIdentifier $productIdentifier
+ * @property ProductFamilyProperties $productFamilyProperties
+ * @property ProductIdentifier $productIdentifier
  */
-class CompatibleProduct extends \DTS\eBaySDK\Types\BaseType
+class CompatibleProduct extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

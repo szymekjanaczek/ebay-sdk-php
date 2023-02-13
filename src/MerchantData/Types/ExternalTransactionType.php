@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ExternalTransactionID
- * @property \DateTime $ExternalTransactionTime
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeOrCreditAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PaymentOrRefundAmount
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $ExternalTransactionStatus
+ * @property DateTime $ExternalTransactionTime
+ * @property AmountType $FeeOrCreditAmount
+ * @property AmountType $PaymentOrRefundAmount
+ * @property PaymentTransactionStatusCodeType $ExternalTransactionStatus
  */
-class ExternalTransactionType extends \DTS\eBaySDK\Types\BaseType
+class ExternalTransactionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $creation_date_range_from
@@ -22,7 +23,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $states
  * @property string $transaction_id
  */
-class SearchReturnsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class SearchReturnsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

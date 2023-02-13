@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\FindPopularItemsRequestType;
 
-class FindPopularItemsRequestTypeTest extends \PHPUnit\Framework\TestCase
+class FindPopularItemsRequestTypeTest extends TestCase
 {
     private $obj;
 

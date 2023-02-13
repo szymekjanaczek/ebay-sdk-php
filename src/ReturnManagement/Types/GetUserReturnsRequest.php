@@ -10,18 +10,20 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\ReturnSortType;
+use DTS\eBaySDK\ReturnManagement\Enums\ReturnSortOrderType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ItemFilterType $itemFilter
+ * @property ItemFilterType $itemFilter
  * @property string $orderId
- * @property \DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType $creationDateRangeFilter
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType $ReturnStatusFilter
- * @property \DTS\eBaySDK\ReturnManagement\Types\UserFilterType $otherUserFilter
- * @property \DTS\eBaySDK\ReturnManagement\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnSortType $sortType
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnSortOrderType $sortOrderType
+ * @property DateRangeFilterType $creationDateRangeFilter
+ * @property ReturnStatusFilterType $ReturnStatusFilter
+ * @property UserFilterType $otherUserFilter
+ * @property PaginationInput $paginationInput
+ * @property ReturnSortType $sortType
+ * @property ReturnSortOrderType $sortOrderType
  */
-class GetUserReturnsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class GetUserReturnsRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

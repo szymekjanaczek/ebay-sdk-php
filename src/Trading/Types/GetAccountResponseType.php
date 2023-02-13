@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
 /**
  *
  * @property string $AccountID
- * @property \DTS\eBaySDK\Trading\Types\AccountSummaryType $AccountSummary
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
- * @property \DTS\eBaySDK\Trading\Types\AccountEntriesType $AccountEntries
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property AccountSummaryType $AccountSummary
+ * @property CurrencyCodeType $Currency
+ * @property AccountEntriesType $AccountEntries
+ * @property PaginationResultType $PaginationResult
  * @property boolean $HasMoreEntries
  * @property integer $EntriesPerPage
  * @property integer $PageNumber
  */
-class GetAccountResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetAccountResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

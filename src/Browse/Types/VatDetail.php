@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\CountryCodeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Enums\CountryCodeEnum $issuingCountry
+ * @property CountryCodeEnum $issuingCountry
  * @property string $vatId
  */
-class VatDetail extends \DTS\eBaySDK\Types\BaseType
+class VatDetail extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

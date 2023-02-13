@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\Dimension;
 
-class DimensionTest extends \PHPUnit\Framework\TestCase
+class DimensionTest extends TestCase
 {
     private $obj;
 

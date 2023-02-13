@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType;
 
-class SellingManagerAutoSecondChanceOfferTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerAutoSecondChanceOfferTypeTest extends TestCase
 {
     private $obj;
 

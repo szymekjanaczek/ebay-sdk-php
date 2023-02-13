@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\UserIdentityCodeType;
+use DTS\eBaySDK\Types\StringType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\UserIdentityCodeType $type
+ * @property UserIdentityCodeType $type
  */
-class UserIdentityType extends \DTS\eBaySDK\Types\StringType
+class UserIdentityType extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

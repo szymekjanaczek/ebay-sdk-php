@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
  *
  * @property string $jobId
  */
-class GetJobStatusRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class GetJobStatusRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Enums\AddressTypeEnum;
 
-class AddressTypeEnumTest extends \PHPUnit\Framework\TestCase
+class AddressTypeEnumTest extends TestCase
 {
     private $obj;
 

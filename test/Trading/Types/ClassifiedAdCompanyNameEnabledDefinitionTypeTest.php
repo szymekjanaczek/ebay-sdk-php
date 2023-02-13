@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ClassifiedAdCompanyNameEnabledDefinitionType;
 
-class ClassifiedAdCompanyNameEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class ClassifiedAdCompanyNameEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

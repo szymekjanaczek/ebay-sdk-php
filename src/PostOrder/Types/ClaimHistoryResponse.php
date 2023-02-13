@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ClaimHistoryEventModel[] $history
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentTrackingDetailType $shipmentTrackingDetails
+ * @property ClaimHistoryEventModel[] $history
+ * @property ShipmentTrackingDetailType $shipmentTrackingDetails
  */
-class ClaimHistoryResponse extends \DTS\eBaySDK\Types\BaseType
+class ClaimHistoryResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

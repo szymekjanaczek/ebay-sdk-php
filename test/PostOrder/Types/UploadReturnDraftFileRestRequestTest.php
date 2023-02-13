@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest;
 
-class UploadReturnDraftFileRestRequestTest extends \PHPUnit\Framework\TestCase
+class UploadReturnDraftFileRestRequestTest extends TestCase
 {
     private $obj;
 

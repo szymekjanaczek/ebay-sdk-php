@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AddOrderRequestType;
 
-class AddOrderRequestTypeTest extends \PHPUnit\Framework\TestCase
+class AddOrderRequestTypeTest extends TestCase
 {
     private $obj;
 

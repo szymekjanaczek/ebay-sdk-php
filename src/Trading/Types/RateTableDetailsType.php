@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DomesticRateTable
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DomesticRateTableId
  * @property string $InternationalRateTableId
  */
-class RateTableDetailsType extends \DTS\eBaySDK\Types\BaseType
+class RateTableDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

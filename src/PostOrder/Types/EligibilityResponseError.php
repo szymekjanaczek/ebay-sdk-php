@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $id
  * @property string $severity
  */
-class EligibilityResponseError extends \DTS\eBaySDK\Types\BaseType
+class EligibilityResponseError extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

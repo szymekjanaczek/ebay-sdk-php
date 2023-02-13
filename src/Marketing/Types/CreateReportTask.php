@@ -10,20 +10,23 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\ReportFormatEnum;
+use DTS\eBaySDK\Marketing\Enums\ReportTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $campaignIds
  * @property string $dateFrom
  * @property string $dateTo
- * @property \DTS\eBaySDK\Marketing\Types\Dimension[] $dimensions
- * @property \DTS\eBaySDK\Marketing\Types\InventoryReference[] $inventoryReferences
+ * @property Dimension[] $dimensions
+ * @property InventoryReference[] $inventoryReferences
  * @property string[] $listingIds
  * @property \DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum $marketplaceId
  * @property string[] $metricKeys
- * @property \DTS\eBaySDK\Marketing\Enums\ReportFormatEnum $reportFormat
- * @property \DTS\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
+ * @property ReportFormatEnum $reportFormat
+ * @property ReportTypeEnum $reportType
  */
-class CreateReportTask extends \DTS\eBaySDK\Types\BaseType
+class CreateReportTask extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

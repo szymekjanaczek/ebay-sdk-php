@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $report_id
  */
-class GetSpecificReportRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetSpecificReportRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

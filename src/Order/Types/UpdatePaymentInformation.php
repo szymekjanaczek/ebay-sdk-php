@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\CreditCard $creditCard
+ * @property CreditCard $creditCard
  */
-class UpdatePaymentInformation extends \DTS\eBaySDK\Types\BaseType
+class UpdatePaymentInformation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\WithdrawOfferRestRequest;
 
-class WithdrawOfferRestRequestTest extends \PHPUnit\Framework\TestCase
+class WithdrawOfferRestRequestTest extends TestCase
 {
     private $obj;
 

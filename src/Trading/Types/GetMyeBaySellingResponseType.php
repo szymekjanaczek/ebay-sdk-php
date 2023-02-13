@@ -12,16 +12,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingSummaryType $SellingSummary
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ScheduledList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ActiveList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $SoldList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $UnsoldList
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType $Summary
- * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromSoldList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromUnsoldList
+ * @property SellingSummaryType $SellingSummary
+ * @property PaginatedItemArrayType $ScheduledList
+ * @property PaginatedItemArrayType $ActiveList
+ * @property PaginatedOrderTransactionArrayType $SoldList
+ * @property PaginatedItemArrayType $UnsoldList
+ * @property MyeBaySellingSummaryType $Summary
+ * @property PaginatedOrderTransactionArrayType $DeletedFromSoldList
+ * @property PaginatedItemArrayType $DeletedFromUnsoldList
  */
-class GetMyeBaySellingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMyeBaySellingResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

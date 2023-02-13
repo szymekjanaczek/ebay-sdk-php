@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\VoluntaryRefundResult $refundResult
+ * @property VoluntaryRefundResult $refundResult
  */
-class VoluntaryRefundResponse extends \DTS\eBaySDK\Types\BaseType
+class VoluntaryRefundResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,19 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\StoreCustomPageStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
  * @property integer $PageID
  * @property string $URLPath
  * @property string $URL
- * @property \DTS\eBaySDK\Trading\Enums\StoreCustomPageStatusCodeType $Status
+ * @property StoreCustomPageStatusCodeType $Status
  * @property string $Content
  * @property boolean $LeftNav
  * @property boolean $PreviewEnabled
  * @property integer $Order
  */
-class StoreCustomPageType extends \DTS\eBaySDK\Types\BaseType
+class StoreCustomPageType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

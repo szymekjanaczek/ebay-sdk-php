@@ -10,7 +10,12 @@
 
 namespace DTS\eBaySDK\HalfFinding\Services;
 
-class HalfFindingService extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBaseService
+use DTS\eBaySDK\HalfFinding\Types\GetVersionRequest;
+use DTS\eBaySDK\HalfFinding\Types\GetVersionResponse;
+use GuzzleHttp\Promise\PromiseInterface;
+use DTS\eBaySDK\HalfFinding\Types\FindItemsRequest;
+use DTS\eBaySDK\HalfFinding\Types\FindItemsResponse;
+class HalfFindingService extends HalfFindingBaseService
 {
     const API_VERSION = '1.2.0';
 
@@ -23,19 +28,19 @@ class HalfFindingService extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBa
     }
 
     /**
-     * @param \DTS\eBaySDK\HalfFinding\Types\GetVersionRequest $request
-     * @return \DTS\eBaySDK\HalfFinding\Types\GetVersionResponse
+     * @param GetVersionRequest $request
+     * @return GetVersionResponse
      */
-    public function getVersion(\DTS\eBaySDK\HalfFinding\Types\GetVersionRequest $request)
+    public function getVersion(GetVersionRequest $request)
     {
         return $this->getVersionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\HalfFinding\Types\GetVersionRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetVersionRequest $request
+     * @return PromiseInterface
      */
-    public function getVersionAsync(\DTS\eBaySDK\HalfFinding\Types\GetVersionRequest $request)
+    public function getVersionAsync(GetVersionRequest $request)
     {
         return $this->callOperationAsync(
             'getVersion',
@@ -45,19 +50,19 @@ class HalfFindingService extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBa
     }
 
     /**
-     * @param \DTS\eBaySDK\HalfFinding\Types\FindItemsRequest $request
-     * @return \DTS\eBaySDK\HalfFinding\Types\FindItemsResponse
+     * @param FindItemsRequest $request
+     * @return FindItemsResponse
      */
-    public function findHalfItems(\DTS\eBaySDK\HalfFinding\Types\FindItemsRequest $request)
+    public function findHalfItems(FindItemsRequest $request)
     {
         return $this->findHalfItemsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\HalfFinding\Types\FindItemsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param FindItemsRequest $request
+     * @return PromiseInterface
      */
-    public function findHalfItemsAsync(\DTS\eBaySDK\HalfFinding\Types\FindItemsRequest $request)
+    public function findHalfItemsAsync(FindItemsRequest $request)
     {
         return $this->callOperationAsync(
             'findHalfItems',

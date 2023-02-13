@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\FeedbackSummaryPeriodCodeType;
 
-class FeedbackSummaryPeriodCodeTypeTest extends \PHPUnit\Framework\TestCase
+class FeedbackSummaryPeriodCodeTypeTest extends TestCase
 {
     private $obj;
 

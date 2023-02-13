@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType;
 /**
  *
  * @property integer $PromotionalSaleID
- * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType[] $PromotionalSaleStatus
+ * @property PromotionalSaleStatusCodeType[] $PromotionalSaleStatus
  */
-class GetPromotionalSaleDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetPromotionalSaleDetailsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

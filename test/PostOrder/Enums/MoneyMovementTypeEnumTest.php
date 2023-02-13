@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Enums\MoneyMovementTypeEnum;
 
-class MoneyMovementTypeEnumTest extends \PHPUnit\Framework\TestCase
+class MoneyMovementTypeEnumTest extends TestCase
 {
     private $obj;
 

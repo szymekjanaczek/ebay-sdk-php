@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\DeliveryCost;
 
-class DeliveryCostTest extends \PHPUnit\Framework\TestCase
+class DeliveryCostTest extends TestCase
 {
     private $obj;
 

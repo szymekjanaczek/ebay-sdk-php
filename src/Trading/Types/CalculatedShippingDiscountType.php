@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DiscountNameCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DiscountNameCodeType $DiscountName
- * @property \DTS\eBaySDK\Trading\Types\DiscountProfileType[] $DiscountProfile
+ * @property DiscountNameCodeType $DiscountName
+ * @property DiscountProfileType[] $DiscountProfile
  */
-class CalculatedShippingDiscountType extends \DTS\eBaySDK\Types\BaseType
+class CalculatedShippingDiscountType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

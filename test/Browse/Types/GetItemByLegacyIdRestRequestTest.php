@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestRequest;
 
-class GetItemByLegacyIdRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetItemByLegacyIdRestRequestTest extends TestCase
 {
     private $obj;
 

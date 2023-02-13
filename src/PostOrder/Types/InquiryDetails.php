@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\AppealDetails $appealDetails
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $escalationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $expirationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastBuyerRespDate
- * @property \DTS\eBaySDK\PostOrder\Types\RefundAmounts $refundAmounts
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $refundDeadlineDate
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $totalAmount
+ * @property AppealDetails $appealDetails
+ * @property DateTime $creationDate
+ * @property DateTime $escalationDate
+ * @property DateTime $expirationDate
+ * @property DateTime $lastBuyerRespDate
+ * @property RefundAmounts $refundAmounts
+ * @property DateTime $refundDeadlineDate
+ * @property Amount $totalAmount
  */
-class InquiryDetails extends \DTS\eBaySDK\Types\BaseType
+class InquiryDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

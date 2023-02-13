@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\EndOfAuctionLogoTypeCodeType;
 
-class EndOfAuctionLogoTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class EndOfAuctionLogoTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

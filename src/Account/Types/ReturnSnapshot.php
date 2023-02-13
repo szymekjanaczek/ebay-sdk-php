@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
- * @property \DTS\eBaySDK\Account\Types\Amount $returnedInventoryValue
+ * @property LookbackPeriod $lookbackPeriod
+ * @property Amount $returnedInventoryValue
  * @property integer $returnedQuantity
  */
-class ReturnSnapshot extends \DTS\eBaySDK\Types\BaseType
+class ReturnSnapshot extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

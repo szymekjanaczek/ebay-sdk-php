@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Feedback\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
  * @property string $transactionId
  */
-class TransactionKey extends \DTS\eBaySDK\Types\BaseType
+class TransactionKey extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

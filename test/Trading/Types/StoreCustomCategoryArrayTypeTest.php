@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType;
 
-class StoreCustomCategoryArrayTypeTest extends \PHPUnit\Framework\TestCase
+class StoreCustomCategoryArrayTypeTest extends TestCase
 {
     private $obj;
 

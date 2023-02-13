@@ -10,26 +10,28 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType;
+use DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType;
 /**
  *
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Types\InternationalShippingServiceOptionsType[] $InternationalShippingServiceOptions
- * @property \DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType[] $ShippingServiceOptions
- * @property \DTS\eBaySDK\Trading\Types\SalesTaxType $SalesTax
- * @property \DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType $InsuranceOption
- * @property \DTS\eBaySDK\Trading\Types\AmountType $InsuranceFee
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
+ * @property InternationalShippingServiceOptionsType[] $InternationalShippingServiceOptions
+ * @property ShippingServiceOptionsType[] $ShippingServiceOptions
+ * @property SalesTaxType $SalesTax
+ * @property InsuranceOptionCodeType $InsuranceOption
+ * @property AmountType $InsuranceFee
+ * @property BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property string $PayPalEmailAddress
  * @property string $CheckoutInstructions
  * @property boolean $EmailCopyToSeller
- * @property \DTS\eBaySDK\Trading\Types\AmountType $CODCost
+ * @property AmountType $CODCost
  * @property string $SKU
  * @property string $OrderLineItemID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property AmountType $AdjustmentAmount
  */
-class SendInvoiceRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SendInvoiceRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

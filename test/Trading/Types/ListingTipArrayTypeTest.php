@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ListingTipArrayType;
 
-class ListingTipArrayTypeTest extends \PHPUnit\Framework\TestCase
+class ListingTipArrayTypeTest extends TestCase
 {
     private $obj;
 

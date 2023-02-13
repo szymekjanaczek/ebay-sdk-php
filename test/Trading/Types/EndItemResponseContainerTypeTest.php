@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\EndItemResponseContainerType;
 
-class EndItemResponseContainerTypeTest extends \PHPUnit\Framework\TestCase
+class EndItemResponseContainerTypeTest extends TestCase
 {
     private $obj;
 

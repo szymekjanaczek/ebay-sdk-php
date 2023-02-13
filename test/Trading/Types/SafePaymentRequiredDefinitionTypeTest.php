@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SafePaymentRequiredDefinitionType;
 
-class SafePaymentRequiredDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class SafePaymentRequiredDefinitionTypeTest extends TestCase
 {
     private $obj;
 

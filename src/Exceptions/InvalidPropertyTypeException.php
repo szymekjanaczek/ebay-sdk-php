@@ -1,10 +1,12 @@
 <?php
 namespace DTS\eBaySDK\Exceptions;
 
+use LogicException;
+use Exception;
 /**
  * The property was assigned a value of the wrong type.
  */
-class InvalidPropertyTypeException extends \LogicException
+class InvalidPropertyTypeException extends LogicException
 {
     /**
      * @param string $property The property name.
@@ -13,7 +15,7 @@ class InvalidPropertyTypeException extends \LogicException
      * @param int $code|0
      * @param \Exception
      */
-    public function __construct($property, $expectedType, $actualType, $code = 0, \Exception $previous = null)
+    public function __construct($property, $expectedType, $actualType, $code = 0, Exception $previous = null)
     {
         parent::__construct("Invalid property type provided for $property. Expected $expectedType but got $actualType", $code, $previous);
     }

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType;
 
-class NotificationEventTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class NotificationEventTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

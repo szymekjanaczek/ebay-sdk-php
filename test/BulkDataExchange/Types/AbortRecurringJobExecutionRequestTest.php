@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest;
 
-class AbortRecurringJobExecutionRequestTest extends \PHPUnit\Framework\TestCase
+class AbortRecurringJobExecutionRequestTest extends TestCase
 {
     private $obj;
 

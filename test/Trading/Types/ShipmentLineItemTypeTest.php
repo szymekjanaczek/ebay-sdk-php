@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ShipmentLineItemType;
 
-class ShipmentLineItemTypeTest extends \PHPUnit\Framework\TestCase
+class ShipmentLineItemTypeTest extends TestCase
 {
     private $obj;
 

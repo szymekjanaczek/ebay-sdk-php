@@ -10,37 +10,43 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
+use DTS\eBaySDK\Trading\Enums\SellerLevelCodeType;
+use DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType;
+use DTS\eBaySDK\Trading\Enums\SiteCodeType;
+use DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $PaisaPayStatus
  * @property boolean $AllowPaymentEdit
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $BillingCurrency
+ * @property CurrencyCodeType $BillingCurrency
  * @property boolean $CheckoutEnabled
  * @property boolean $CIPBankAccountStored
  * @property boolean $GoodStanding
  * @property boolean $QualifiesForB2BVAT
- * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType $SellerLevel
- * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
- * @property \DTS\eBaySDK\Trading\Types\SchedulingInfoType $SchedulingInfo
+ * @property SellerLevelCodeType $SellerLevel
+ * @property AddressType $SellerPaymentAddress
+ * @property SchedulingInfoType $SchedulingInfo
  * @property boolean $StoreOwner
  * @property string $StoreURL
- * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType $SellerBusinessType
+ * @property SellerBusinessCodeType $SellerBusinessType
  * @property boolean $RegisteredBusinessSeller
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $StoreSite
- * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType $PaymentMethod
+ * @property SiteCodeType $StoreSite
+ * @property SellerPaymentMethodCodeType $PaymentMethod
  * @property boolean $CharityRegistered
  * @property boolean $SafePaymentExempt
  * @property integer $PaisaPayEscrowEMIStatus
- * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType $CharityAffiliationDetails
+ * @property CharityAffiliationDetailsType $CharityAffiliationDetails
  * @property double $TransactionPercent
- * @property \DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType $IntegratedMerchantCreditCardInfo
- * @property \DTS\eBaySDK\Trading\Types\FeatureEligibilityType $FeatureEligibility
+ * @property IntegratedMerchantCreditCardInfoType $IntegratedMerchantCreditCardInfo
+ * @property FeatureEligibilityType $FeatureEligibility
  * @property boolean $TopRatedSeller
- * @property \DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType $TopRatedSellerDetails
- * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType $RecoupmentPolicyConsent
+ * @property TopRatedSellerDetailsType $TopRatedSellerDetails
+ * @property RecoupmentPolicyConsentType $RecoupmentPolicyConsent
  * @property boolean $DomesticRateTable
  */
-class SellerType extends \DTS\eBaySDK\Types\BaseType
+class SellerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

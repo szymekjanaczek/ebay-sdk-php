@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\CaseType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $id
- * @property \DTS\eBaySDK\ReturnManagement\Enums\CaseType $type
+ * @property CaseType $type
  */
-class CaseIdType extends \DTS\eBaySDK\Types\BaseType
+class CaseIdType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

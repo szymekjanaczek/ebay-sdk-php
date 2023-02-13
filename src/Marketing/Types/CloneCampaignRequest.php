@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $campaignName
  * @property string $endDate
- * @property \DTS\eBaySDK\Marketing\Types\FundingStrategy $fundingStrategy
+ * @property FundingStrategy $fundingStrategy
  * @property string $startDate
  */
-class CloneCampaignRequest extends \DTS\eBaySDK\Types\BaseType
+class CloneCampaignRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

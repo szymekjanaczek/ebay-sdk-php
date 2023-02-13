@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\EscrowCodeType;
 
-class EscrowCodeTypeTest extends \PHPUnit\Framework\TestCase
+class EscrowCodeTypeTest extends TestCase
 {
     private $obj;
 

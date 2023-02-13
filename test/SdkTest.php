@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Sdk;
 
-class SdkTest extends \PHPUnit\Framework\TestCase
+class SdkTest extends TestCase
 {
     private $sdk;
 

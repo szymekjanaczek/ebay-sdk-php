@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class SellerReverseDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class SellerReverseDisputeResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

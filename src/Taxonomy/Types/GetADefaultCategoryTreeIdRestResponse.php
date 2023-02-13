@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetADefaultCategoryTreeIdRestResponse extends \DTS\eBaySDK\Taxonomy\Types\BaseCategoryTree
+class GetADefaultCategoryTreeIdRestResponse extends BaseCategoryTree
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

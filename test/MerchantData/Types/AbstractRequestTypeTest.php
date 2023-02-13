@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\AbstractRequestType;
 
-class AbstractRequestTypeTest extends \PHPUnit\Framework\TestCase
+class AbstractRequestTypeTest extends TestCase
 {
     private $obj;
 

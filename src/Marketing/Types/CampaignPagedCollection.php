@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Campaign[] $campaigns
+ * @property Campaign[] $campaigns
  * @property string $href
  * @property integer $limit
  * @property string $next
@@ -20,7 +21,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $prev
  * @property integer $total
  */
-class CampaignPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class CampaignPagedCollection extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

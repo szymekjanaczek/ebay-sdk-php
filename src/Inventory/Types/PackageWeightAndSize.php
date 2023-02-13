@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\PackageTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Dimension $dimensions
- * @property \DTS\eBaySDK\Inventory\Enums\PackageTypeEnum $packageType
- * @property \DTS\eBaySDK\Inventory\Types\Weight $weight
+ * @property Dimension $dimensions
+ * @property PackageTypeEnum $packageType
+ * @property Weight $weight
  */
-class PackageWeightAndSize extends \DTS\eBaySDK\Types\BaseType
+class PackageWeightAndSize extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

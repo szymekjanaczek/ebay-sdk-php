@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DiscountNameCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DiscountNameCodeType $DiscountName
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingCost
- * @property \DTS\eBaySDK\Trading\Types\AmountType $OrderAmount
+ * @property DiscountNameCodeType $DiscountName
+ * @property AmountType $ShippingCost
+ * @property AmountType $OrderAmount
  * @property integer $ItemCount
  */
-class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PromotionalShippingDiscountDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

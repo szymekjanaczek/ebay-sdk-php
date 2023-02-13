@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
+use DTS\eBaySDK\Types\DoubleType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $currencyID
+ * @property CurrencyCodeType $currencyID
  */
-class AmountType extends \DTS\eBaySDK\Types\DoubleType
+class AmountType extends DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

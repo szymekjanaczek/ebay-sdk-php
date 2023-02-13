@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType;
 
-class AffiliateTrackingDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class AffiliateTrackingDetailsTypeTest extends TestCase
 {
     private $obj;
 

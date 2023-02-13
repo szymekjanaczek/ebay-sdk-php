@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest;
 
-class GetVersionRequestTest extends \PHPUnit\Framework\TestCase
+class GetVersionRequestTest extends TestCase
 {
     private $obj;
 

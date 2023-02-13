@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRequest;
 
-class CheckInquiryEligibilityRequestTest extends \PHPUnit\Framework\TestCase
+class CheckInquiryEligibilityRequestTest extends TestCase
 {
     private $obj;
 

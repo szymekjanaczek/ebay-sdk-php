@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus[] $sellerProfileResponseStatus
+ * @property SellerProfileResponseStatus[] $sellerProfileResponseStatus
  */
-class RemoveSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
+class RemoveSellerProfilesResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

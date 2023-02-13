@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType;
 
-class FreePicturePackEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class FreePicturePackEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

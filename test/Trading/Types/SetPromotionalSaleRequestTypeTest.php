@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SetPromotionalSaleRequestType;
 
-class SetPromotionalSaleRequestTypeTest extends \PHPUnit\Framework\TestCase
+class SetPromotionalSaleRequestTypeTest extends TestCase
 {
     private $obj;
 

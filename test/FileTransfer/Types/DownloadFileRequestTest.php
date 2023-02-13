@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\FileTransfer\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest;
 
-class DownloadFileRequestTest extends \PHPUnit\Framework\TestCase
+class DownloadFileRequestTest extends TestCase
 {
     private $obj;
 

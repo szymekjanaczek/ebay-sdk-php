@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType $CombinedPaymentOption
+ * @property CombinedPaymentOptionCodeType $CombinedPaymentOption
  */
-class CombinedPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class CombinedPaymentPreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile[] $ReturnPolicyProfile
+ * @property ReturnPolicyProfile[] $ReturnPolicyProfile
  */
-class ReturnPolicyProfileList extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyProfileList extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
 /**
  *
  */
-class CheckCancellationEligibilityRestRequest extends \DTS\eBaySDK\PostOrder\Types\OrderEligibilityCheckInfo
+class CheckCancellationEligibilityRestRequest extends OrderEligibilityCheckInfo
 {
     /**
      * @var array Properties belonging to objects of this class.

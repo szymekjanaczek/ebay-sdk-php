@@ -10,17 +10,21 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum;
+use DTS\eBaySDK\Fulfillment\Enums\PaymentModeTypeEnum;
+use DTS\eBaySDK\Fulfillment\Enums\PaymentStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $amount
+ * @property Amount $amount
  * @property string $paymentDate
- * @property \DTS\eBaySDK\Fulfillment\Types\PaymentHold[] $paymentHolds
- * @property \DTS\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum $paymentMethod
- * @property \DTS\eBaySDK\Fulfillment\Enums\PaymentModeTypeEnum $paymentMode
+ * @property PaymentHold[] $paymentHolds
+ * @property PaymentMethodTypeEnum $paymentMethod
+ * @property PaymentModeTypeEnum $paymentMode
  * @property string $paymentReferenceId
- * @property \DTS\eBaySDK\Fulfillment\Enums\PaymentStatusEnum $paymentStatus
+ * @property PaymentStatusEnum $paymentStatus
  */
-class Payment extends \DTS\eBaySDK\Types\BaseType
+class Payment extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

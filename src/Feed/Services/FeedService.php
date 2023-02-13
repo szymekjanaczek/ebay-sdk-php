@@ -10,7 +10,10 @@
 
 namespace DTS\eBaySDK\Feed\Services;
 
-class FeedService extends \DTS\eBaySDK\Feed\Services\FeedBaseService
+use DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest;
+use DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse;
+use GuzzleHttp\Promise\PromiseInterface;
+class FeedService extends FeedBaseService
 {
     const API_VERSION = 'v1_beta';
 
@@ -48,19 +51,19 @@ class FeedService extends \DTS\eBaySDK\Feed\Services\FeedBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest $request
-     * @return \DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse
+     * @param GetItemFeedRestRequest $request
+     * @return GetItemFeedRestResponse
      */
-    public function getItemFeed(\DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest $request)
+    public function getItemFeed(GetItemFeedRestRequest $request)
     {
         return $this->getItemFeedAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetItemFeedRestRequest $request
+     * @return PromiseInterface
      */
-    public function getItemFeedAsync(\DTS\eBaySDK\Feed\Types\GetItemFeedRestRequest $request)
+    public function getItemFeedAsync(GetItemFeedRestRequest $request)
     {
         return $this->callOperationAsync('GetItemFeed', $request);
     }

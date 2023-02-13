@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GeteBayOfficialTimeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GeteBayOfficialTimeResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

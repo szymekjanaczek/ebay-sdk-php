@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType;
+use DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
- * @property \DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
+ * @property DisputeExplanationCodeType $DisputeExplanation
+ * @property DisputeReasonCodeType $DisputeReason
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderLineItemID
  */
-class AddDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddDisputeRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

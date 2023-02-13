@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $inventoryReferenceId
- * @property \DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
+ * @property InventoryReferenceTypeEnum $inventoryReferenceType
  */
-class DeleteAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
+class DeleteAdsByInventoryReferenceRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\ItemReturnTerms;
 
-class ItemReturnTermsTest extends \PHPUnit\Framework\TestCase
+class ItemReturnTermsTest extends TestCase
 {
     private $obj;
 

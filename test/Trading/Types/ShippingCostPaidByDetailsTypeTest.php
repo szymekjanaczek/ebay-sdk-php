@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType;
 
-class ShippingCostPaidByDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class ShippingCostPaidByDetailsTypeTest extends TestCase
 {
     private $obj;
 

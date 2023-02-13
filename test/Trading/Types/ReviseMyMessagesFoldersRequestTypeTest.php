@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ReviseMyMessagesFoldersRequestType;
 
-class ReviseMyMessagesFoldersRequestTypeTest extends \PHPUnit\Framework\TestCase
+class ReviseMyMessagesFoldersRequestTypeTest extends TestCase
 {
     private $obj;
 

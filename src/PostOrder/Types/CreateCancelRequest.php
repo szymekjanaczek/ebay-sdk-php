@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $buyerPaid
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $buyerPaidDate
+ * @property DateTime $buyerPaidDate
  * @property string $cancelReason
  * @property string $legacyOrderId
  */
-class CreateCancelRequest extends \DTS\eBaySDK\Types\BaseType
+class CreateCancelRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

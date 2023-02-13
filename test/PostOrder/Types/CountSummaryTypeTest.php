@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\CountSummaryType;
 
-class CountSummaryTypeTest extends \PHPUnit\Framework\TestCase
+class CountSummaryTypeTest extends TestCase
 {
     private $obj;
 

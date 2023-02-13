@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GetStoreOptionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetStoreOptionsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

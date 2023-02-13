@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\GetJobsResponse;
 
-class GetJobsResponseTest extends \PHPUnit\Framework\TestCase
+class GetJobsResponseTest extends TestCase
 {
     private $obj;
 

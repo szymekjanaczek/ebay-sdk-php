@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Enums\CycleTypeEnum;
 
-class CycleTypeEnumTest extends \PHPUnit\Framework\TestCase
+class CycleTypeEnumTest extends TestCase
 {
     private $obj;
 

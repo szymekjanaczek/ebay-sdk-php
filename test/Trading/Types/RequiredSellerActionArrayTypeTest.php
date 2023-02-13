@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\RequiredSellerActionArrayType;
 
-class RequiredSellerActionArrayTypeTest extends \PHPUnit\Framework\TestCase
+class RequiredSellerActionArrayTypeTest extends TestCase
 {
     private $obj;
 

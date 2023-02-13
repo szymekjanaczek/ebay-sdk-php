@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\InvocationStatusType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DuplicateInvocationID
- * @property \DTS\eBaySDK\Trading\Enums\InvocationStatusType $Status
+ * @property InvocationStatusType $Status
  * @property string $InvocationTrackingID
  */
-class DuplicateInvocationDetailsType extends \DTS\eBaySDK\Types\BaseType
+class DuplicateInvocationDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

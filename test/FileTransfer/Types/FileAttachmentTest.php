@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\FileTransfer\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\FileTransfer\Types\FileAttachment;
 
-class FileAttachmentTest extends \PHPUnit\Framework\TestCase
+class FileAttachmentTest extends TestCase
 {
     private $obj;
 

@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $SellerID
  * @property boolean $IncludeASQPreferences
  */
-class GetMessagePreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetMessagePreferencesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

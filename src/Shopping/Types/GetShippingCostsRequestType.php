@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Shopping\Enums\CountryCodeType;
 /**
  *
  * @property string $ItemID
  * @property integer $QuantitySold
  * @property string $DestinationPostalCode
- * @property \DTS\eBaySDK\Shopping\Enums\CountryCodeType $DestinationCountryCode
+ * @property CountryCodeType $DestinationCountryCode
  * @property boolean $IncludeDetails
  */
-class GetShippingCostsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class GetShippingCostsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\ShippingCostTypeEnum;
+use DTS\eBaySDK\Account\Enums\ShippingOptionTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Enums\ShippingCostTypeEnum $costType
- * @property \DTS\eBaySDK\Account\Types\Amount $insuranceFee
+ * @property ShippingCostTypeEnum $costType
+ * @property Amount $insuranceFee
  * @property boolean $insuranceOffered
- * @property \DTS\eBaySDK\Account\Enums\ShippingOptionTypeEnum $optionType
- * @property \DTS\eBaySDK\Account\Types\Amount $packageHandlingCost
+ * @property ShippingOptionTypeEnum $optionType
+ * @property Amount $packageHandlingCost
  * @property string $rateTableId
- * @property \DTS\eBaySDK\Account\Types\ShippingService[] $shippingServices
+ * @property ShippingService[] $shippingServices
  */
-class ShippingOption extends \DTS\eBaySDK\Types\BaseType
+class ShippingOption extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

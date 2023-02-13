@@ -10,30 +10,34 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\LineItemFulfillmentStatusEnum;
+use DTS\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Fulfillment\Enums\SoldFormatEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\AppliedPromotion[] $appliedPromotions
- * @property \DTS\eBaySDK\Fulfillment\Types\DeliveryCost $deliveryCost
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountedLineItemCost
- * @property \DTS\eBaySDK\Fulfillment\Types\GiftDetails $giftDetails
+ * @property AppliedPromotion[] $appliedPromotions
+ * @property DeliveryCost $deliveryCost
+ * @property Amount $discountedLineItemCost
+ * @property GiftDetails $giftDetails
  * @property string $legacyItemId
  * @property string $legacyVariationId
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $lineItemCost
- * @property \DTS\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions $lineItemFulfillmentInstructions
- * @property \DTS\eBaySDK\Fulfillment\Enums\LineItemFulfillmentStatusEnum $lineItemFulfillmentStatus
+ * @property Amount $lineItemCost
+ * @property LineItemFulfillmentInstructions $lineItemFulfillmentInstructions
+ * @property LineItemFulfillmentStatusEnum $lineItemFulfillmentStatus
  * @property string $lineItemId
- * @property \DTS\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $listingMarketplaceId
- * @property \DTS\eBaySDK\Fulfillment\Types\LineItemProperties $properties
- * @property \DTS\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $purchaseMarketplaceId
+ * @property MarketplaceIdEnum $listingMarketplaceId
+ * @property LineItemProperties $properties
+ * @property MarketplaceIdEnum $purchaseMarketplaceId
  * @property integer $quantity
- * @property \DTS\eBaySDK\Fulfillment\Types\LineItemRefund[] $refunds
+ * @property LineItemRefund[] $refunds
  * @property string $sku
- * @property \DTS\eBaySDK\Fulfillment\Enums\SoldFormatEnum $soldFormat
- * @property \DTS\eBaySDK\Fulfillment\Types\Tax[] $taxes
+ * @property SoldFormatEnum $soldFormat
+ * @property Tax[] $taxes
  * @property string $title
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $total
+ * @property Amount $total
  */
-class LineItem extends \DTS\eBaySDK\Types\BaseType
+class LineItem extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

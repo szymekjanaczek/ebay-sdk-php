@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\PaymentHoldReasonCodeType;
 
-class PaymentHoldReasonCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PaymentHoldReasonCodeTypeTest extends TestCase
 {
     private $obj;
 

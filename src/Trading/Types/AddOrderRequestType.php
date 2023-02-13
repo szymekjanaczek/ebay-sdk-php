@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OrderType $Order
+ * @property OrderType $Order
  */
-class AddOrderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddOrderRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

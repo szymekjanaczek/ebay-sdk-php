@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Product\Mocks;
 
+use DTS\eBaySDK\Product\Services\ProductBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Product\Services\ProductBaseService
+class Service extends ProductBaseService
 {
     public function __construct(array $config)
     {

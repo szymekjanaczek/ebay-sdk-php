@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BooleanType;
 /**
  *
  */
-class FeedbackRequirementsType extends \DTS\eBaySDK\Types\BooleanType
+class FeedbackRequirementsType extends BooleanType
 {
     /**
      * @var array Properties belonging to objects of this class.

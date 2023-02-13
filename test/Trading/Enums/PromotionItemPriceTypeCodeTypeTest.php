@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\PromotionItemPriceTypeCodeType;
 
-class PromotionItemPriceTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PromotionItemPriceTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

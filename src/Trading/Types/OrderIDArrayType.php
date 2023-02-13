@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $OrderID
  */
-class OrderIDArrayType extends \DTS\eBaySDK\Types\BaseType
+class OrderIDArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

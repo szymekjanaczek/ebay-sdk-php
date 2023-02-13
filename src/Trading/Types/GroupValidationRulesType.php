@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MinRequired
  */
-class GroupValidationRulesType extends \DTS\eBaySDK\Types\BaseType
+class GroupValidationRulesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType;
 
-class SellingManagerVendorDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerVendorDetailsTypeTest extends TestCase
 {
     private $obj;
 

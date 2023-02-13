@@ -15,11 +15,11 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Error[] $error
- * @property \DTS\eBaySDK\PostOrder\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\PostOrder\Types\ErrorDetailV3[] $warnings
+ * @property Error[] $error
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetCustomListRestResponse extends \DTS\eBaySDK\PostOrder\Types\GetCustomListDetailResponse
+class GetCustomListRestResponse extends GetCustomListDetailResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

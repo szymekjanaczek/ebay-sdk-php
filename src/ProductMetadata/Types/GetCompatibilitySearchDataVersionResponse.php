@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\VersionDetails $namesDetails
- * @property \DTS\eBaySDK\ProductMetadata\Types\VersionDetails $valueDetails
+ * @property VersionDetails $namesDetails
+ * @property VersionDetails $valueDetails
  */
-class GetCompatibilitySearchDataVersionResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse
+class GetCompatibilitySearchDataVersionResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

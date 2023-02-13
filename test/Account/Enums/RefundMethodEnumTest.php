@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Enums\RefundMethodEnum;
 
-class RefundMethodEnumTest extends \PHPUnit\Framework\TestCase
+class RefundMethodEnumTest extends TestCase
 {
     private $obj;
 

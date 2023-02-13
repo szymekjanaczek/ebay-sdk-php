@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $itemTitle
  * @property integer $cancelQuantity
  */
-class OrderCancelLineItem extends \DTS\eBaySDK\Types\BaseType
+class OrderCancelLineItem extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

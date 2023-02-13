@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class TaxType extends \DTS\eBaySDK\Types\BaseType
+class TaxType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\ShippingDetailsType $ShippingDetails
- * @property \DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType $ShippingCostSummary
- * @property \DTS\eBaySDK\Shopping\Types\PickUpInStoreDetailsType $PickUpInStoreDetails
+ * @property ShippingDetailsType $ShippingDetails
+ * @property ShippingCostSummaryType $ShippingCostSummary
+ * @property PickUpInStoreDetailsType $PickUpInStoreDetails
  */
-class GetShippingCostsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class GetShippingCostsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

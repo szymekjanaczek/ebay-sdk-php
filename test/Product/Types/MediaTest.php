@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Product\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Product\Types\Media;
 
-class MediaTest extends \PHPUnit\Framework\TestCase
+class MediaTest extends TestCase
 {
     private $obj;
 

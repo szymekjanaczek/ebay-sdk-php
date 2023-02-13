@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\EANEnabledDefinitionType;
 
-class EANEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class EANEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest;
 
-class BaseRequestTest extends \PHPUnit\Framework\TestCase
+class BaseRequestTest extends TestCase
 {
     private $obj;
 

@@ -6,7 +6,7 @@ namespace DTS\eBaySDK\Types;
  *
  * @property boolean $value
  */
-class BooleanType extends \DTS\eBaySDK\Types\BaseType
+class BooleanType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

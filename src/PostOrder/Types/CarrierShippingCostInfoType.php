@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $carrier
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType $shippingCost
+ * @property ReturnShippingCostDetailType $shippingCost
  */
-class CarrierShippingCostInfoType extends \DTS\eBaySDK\Types\BaseType
+class CarrierShippingCostInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Feedback\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DSRType
@@ -21,7 +22,7 @@ namespace DTS\eBaySDK\Feedback\Types;
  * @property integer $rating4Count
  * @property integer $rating5Count
  */
-class DSRSummary extends \DTS\eBaySDK\Types\BaseType
+class DSRSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

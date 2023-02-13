@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\FeeSummary[] $feeSummaries
+ * @property FeeSummary[] $feeSummaries
  */
-class FeesSummaryResponse extends \DTS\eBaySDK\Types\BaseType
+class FeesSummaryResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

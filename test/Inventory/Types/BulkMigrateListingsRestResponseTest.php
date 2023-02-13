@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestResponse;
 
-class BulkMigrateListingsRestResponseTest extends \PHPUnit\Framework\TestCase
+class BulkMigrateListingsRestResponseTest extends TestCase
 {
     private $obj;
 

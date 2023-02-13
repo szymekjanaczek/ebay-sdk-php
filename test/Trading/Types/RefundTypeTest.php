@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\RefundType;
 
-class RefundTypeTest extends \PHPUnit\Framework\TestCase
+class RefundTypeTest extends TestCase
 {
     private $obj;
 

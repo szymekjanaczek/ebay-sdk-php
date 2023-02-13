@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\Storefront;
 
-class StorefrontTest extends \PHPUnit\Framework\TestCase
+class StorefrontTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType;
 
-class DisputeResolutionReasonCodeTypeTest extends \PHPUnit\Framework\TestCase
+class DisputeResolutionReasonCodeTypeTest extends TestCase
 {
     private $obj;
 

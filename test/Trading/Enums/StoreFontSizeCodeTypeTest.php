@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType;
 
-class StoreFontSizeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class StoreFontSizeCodeTypeTest extends TestCase
 {
     private $obj;
 

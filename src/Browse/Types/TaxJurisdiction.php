@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\Region $region
+ * @property Region $region
  * @property string $taxJurisdictionId
  */
-class TaxJurisdiction extends \DTS\eBaySDK\Types\BaseType
+class TaxJurisdiction extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

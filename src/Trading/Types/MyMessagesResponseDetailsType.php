@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $ResponseEnabled
  * @property string $ResponseURL
- * @property \DateTime $UserResponseDate
+ * @property DateTime $UserResponseDate
  */
-class MyMessagesResponseDetailsType extends \DTS\eBaySDK\Types\BaseType
+class MyMessagesResponseDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

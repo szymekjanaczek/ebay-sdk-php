@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\VerifiedUserRequirementsType;
 
-class VerifiedUserRequirementsTypeTest extends \PHPUnit\Framework\TestCase
+class VerifiedUserRequirementsTypeTest extends TestCase
 {
     private $obj;
 

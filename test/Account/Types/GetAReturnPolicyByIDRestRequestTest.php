@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest;
 
-class GetAReturnPolicyByIDRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetAReturnPolicyByIDRestRequestTest extends TestCase
 {
     private $obj;
 

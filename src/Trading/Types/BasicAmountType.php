@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\StringType;
 /**
  *
  */
-class BasicAmountType extends \DTS\eBaySDK\Types\StringType
+class BasicAmountType extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

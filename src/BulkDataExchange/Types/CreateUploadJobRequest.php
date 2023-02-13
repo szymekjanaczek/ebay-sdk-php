@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\BulkDataExchange\Enums\FileType;
 /**
  *
  * @property string $uploadJobType
  * @property string $UUID
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\FileType $fileType
+ * @property FileType $fileType
  */
-class CreateUploadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class CreateUploadJobRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

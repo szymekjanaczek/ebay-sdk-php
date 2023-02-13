@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest;
 
-class GetReturnMetadataRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetReturnMetadataRestRequestTest extends TestCase
 {
     private $obj;
 

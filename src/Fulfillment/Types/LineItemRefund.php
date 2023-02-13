@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $amount
+ * @property Amount $amount
  * @property string $refundDate
  * @property string $refundReferenceId
  */
-class LineItemRefund extends \DTS\eBaySDK\Types\BaseType
+class LineItemRefund extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

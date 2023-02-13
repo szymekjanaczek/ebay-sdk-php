@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $applicable
  * @property mixed $value
  */
-class Value extends \DTS\eBaySDK\Types\BaseType
+class Value extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

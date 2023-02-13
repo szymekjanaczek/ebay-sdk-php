@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\BestOfferAutoDeclineEnabledDefinitionType;
 
-class BestOfferAutoDeclineEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class BestOfferAutoDeclineEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

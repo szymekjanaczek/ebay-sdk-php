@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\AspectValueHistogram[] $valueHistogram
+ * @property AspectValueHistogram[] $valueHistogram
  * @property string $name
  */
-class Aspect extends \DTS\eBaySDK\Types\BaseType
+class Aspect extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

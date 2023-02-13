@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest;
 
-class GetSellerProfilesRequestTest extends \PHPUnit\Framework\TestCase
+class GetSellerProfilesRequestTest extends TestCase
 {
     private $obj;
 

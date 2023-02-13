@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
 /**
  *
  */
-class CreateInquiryRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateInquiryRequest
+class CreateInquiryRestRequest extends CreateInquiryRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

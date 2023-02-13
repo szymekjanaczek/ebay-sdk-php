@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\MinItemCompatibilityDefinitionType;
 
-class MinItemCompatibilityDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class MinItemCompatibilityDefinitionTypeTest extends TestCase
 {
     private $obj;
 

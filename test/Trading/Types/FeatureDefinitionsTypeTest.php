@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\FeatureDefinitionsType;
 
-class FeatureDefinitionsTypeTest extends \PHPUnit\Framework\TestCase
+class FeatureDefinitionsTypeTest extends TestCase
 {
     private $obj;
 

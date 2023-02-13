@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $AdditionalInformation
- * @property \DTS\eBaySDK\Trading\Types\AddressType $Address
+ * @property AddressType $Address
  * @property string $BestTimeToCall
  * @property string $Email
- * @property \DateTime $SubmittedTime
+ * @property DateTime $SubmittedTime
  * @property string $ItemID
  * @property string $ItemTitle
  * @property string $UserID
- * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
- * @property \DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType $Status
+ * @property MemberMessageExchangeArrayType $MemberMessage
+ * @property AdFormatLeadStatusCodeType $Status
  * @property string $ExternalEmail
  * @property string $PurchaseTimeFrame
  * @property string $TradeInYear
@@ -31,7 +34,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $Answer1
  * @property boolean $Answer2
  */
-class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
+class AdFormatLeadType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

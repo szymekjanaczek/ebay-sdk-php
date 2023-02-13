@@ -1,7 +1,8 @@
 <?php
 namespace DTS\eBaySDK\Test\Mocks;
 
-class SimpleClass extends \DTS\eBaySDK\Types\BaseType
+use DTS\eBaySDK\Types\BaseType;
+class SimpleClass extends BaseType
 {
     private static $propertyTypes = [
         'integer' => [

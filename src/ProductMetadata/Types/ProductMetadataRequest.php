@@ -17,7 +17,7 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
  * @property boolean $includeGroupPropertiesOnly
  * @property string[] $groupType
  */
-class ProductMetadataRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseRequest
+class ProductMetadataRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

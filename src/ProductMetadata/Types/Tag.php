@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
  * @property string[] $value
  * @property string $description
  */
-class Tag extends \DTS\eBaySDK\Types\BaseType
+class Tag extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

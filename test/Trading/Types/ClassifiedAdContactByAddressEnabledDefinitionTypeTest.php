@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ClassifiedAdContactByAddressEnabledDefinitionType;
 
-class ClassifiedAdContactByAddressEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class ClassifiedAdContactByAddressEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

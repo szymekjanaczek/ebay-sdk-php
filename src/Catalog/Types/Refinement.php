@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\AspectDistribution[] $aspectDistributions
+ * @property AspectDistribution[] $aspectDistributions
  * @property string $dominantCategoryId
  */
-class Refinement extends \DTS\eBaySDK\Types\BaseType
+class Refinement extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

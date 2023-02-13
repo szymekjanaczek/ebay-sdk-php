@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $other_applicable_category_ids
  * @property string $primary_category_id
  */
-class GetProductMetadataForCategoriesRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetProductMetadataForCategoriesRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

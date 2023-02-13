@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\TaxDescriptionCodeType;
 
-class TaxDescriptionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class TaxDescriptionCodeTypeTest extends TestCase
 {
     private $obj;
 

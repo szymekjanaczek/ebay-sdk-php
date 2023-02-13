@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Merchandising\Types\ProductRecommendations $productRecommendations
+ * @property ProductRecommendations $productRecommendations
  */
-class MerchandisingServiceProductResponse extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceResponse
+class MerchandisingServiceProductResponse extends BaseMerchandisingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

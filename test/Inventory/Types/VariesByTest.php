@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\VariesBy;
 
-class VariesByTest extends \PHPUnit\Framework\TestCase
+class VariesByTest extends TestCase
 {
     private $obj;
 

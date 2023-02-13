@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductSubmission $productSubmission
- * @property \DTS\eBaySDK\Product\Types\ProductSubmissionStatus $status
+ * @property ProductSubmission $productSubmission
+ * @property ProductSubmissionStatus $status
  */
-class ProductSubmissionResult extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class ProductSubmissionResult extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

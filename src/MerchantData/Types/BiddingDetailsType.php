@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedMaxBid
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MaxBid
+ * @property AmountType $ConvertedMaxBid
+ * @property AmountType $MaxBid
  * @property integer $QuantityBid
  * @property integer $QuantityWon
  * @property boolean $Winning
  */
-class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BiddingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

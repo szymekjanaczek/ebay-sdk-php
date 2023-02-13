@@ -10,16 +10,19 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DateTime;
+use DTS\eBaySDK\Shopping\Enums\AckCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $Timestamp
- * @property \DTS\eBaySDK\Shopping\Enums\AckCodeType $Ack
- * @property \DTS\eBaySDK\Shopping\Types\ErrorType[] $Errors
+ * @property DateTime $Timestamp
+ * @property AckCodeType $Ack
+ * @property ErrorType[] $Errors
  * @property string $Build
  * @property string $Version
  * @property string $CorrelationID
  */
-class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
+class AbstractResponseType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

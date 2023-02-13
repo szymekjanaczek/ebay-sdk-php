@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\LanguageEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $content
- * @property \DTS\eBaySDK\PostOrder\Enums\LanguageEnum $language
+ * @property LanguageEnum $language
  * @property string $translatedFromContent
- * @property \DTS\eBaySDK\PostOrder\Enums\LanguageEnum $translatedFromLanguage
+ * @property LanguageEnum $translatedFromLanguage
  */
-class Text extends \DTS\eBaySDK\Types\BaseType
+class Text extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

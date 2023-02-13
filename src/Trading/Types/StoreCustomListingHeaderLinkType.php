@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $LinkID
  * @property integer $Order
- * @property \DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType $LinkType
+ * @property StoreCustomListingHeaderLinkCodeType $LinkType
  */
-class StoreCustomListingHeaderLinkType extends \DTS\eBaySDK\Types\BaseType
+class StoreCustomListingHeaderLinkType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

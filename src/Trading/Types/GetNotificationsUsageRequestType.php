@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
- * @property \DateTime $StartTime
- * @property \DateTime $EndTime
+ * @property DateTime $StartTime
+ * @property DateTime $EndTime
  * @property string $ItemID
  */
-class GetNotificationsUsageRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetNotificationsUsageRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsResponse;
 
-class UploadDocumentsResponseTest extends \PHPUnit\Framework\TestCase
+class UploadDocumentsResponseTest extends TestCase
 {
     private $obj;
 

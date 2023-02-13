@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRequest[] $requests
+ * @property CreateAdsByInventoryReferenceRequest[] $requests
  */
-class BulkCreateAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
+class BulkCreateAdsByInventoryReferenceRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

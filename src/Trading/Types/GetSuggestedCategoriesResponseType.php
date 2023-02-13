@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SuggestedCategoryArrayType $SuggestedCategoryArray
+ * @property SuggestedCategoryArrayType $SuggestedCategoryArray
  * @property integer $CategoryCount
  */
-class GetSuggestedCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSuggestedCategoriesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest;
 
-class FindBundlesRequestTest extends \PHPUnit\Framework\TestCase
+class FindBundlesRequestTest extends TestCase
 {
     private $obj;
 

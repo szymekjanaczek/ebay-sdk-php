@@ -1,13 +1,14 @@
 <?php
 namespace DTS\eBaySDK\OAuth\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $grant_type
  * @property string $redirect_uri
  * @property string $code
  */
-class GetUserTokenRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetUserTokenRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

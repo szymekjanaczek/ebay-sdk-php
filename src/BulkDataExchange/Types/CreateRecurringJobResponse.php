@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
  *
  * @property string $recurringJobId
  */
-class CreateRecurringJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class CreateRecurringJobResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

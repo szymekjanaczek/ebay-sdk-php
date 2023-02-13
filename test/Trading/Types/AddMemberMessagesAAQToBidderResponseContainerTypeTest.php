@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderResponseContainerType;
 
-class AddMemberMessagesAAQToBidderResponseContainerTypeTest extends \PHPUnit\Framework\TestCase
+class AddMemberMessagesAAQToBidderResponseContainerTypeTest extends TestCase
 {
     private $obj;
 

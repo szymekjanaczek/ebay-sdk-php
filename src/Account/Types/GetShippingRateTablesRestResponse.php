@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetShippingRateTablesRestResponse extends \DTS\eBaySDK\Account\Types\RateTableResponse
+class GetShippingRateTablesRestResponse extends RateTableResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

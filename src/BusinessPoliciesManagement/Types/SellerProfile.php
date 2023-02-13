@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $profileName
  * @property integer $profileId
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType $profileType
+ * @property ProfileType $profileType
  * @property integer $profileVersion
  * @property string $profileDesc
- * @property \DateTime $deletedDate
+ * @property DateTime $deletedDate
  * @property integer $siteId
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroups $categoryGroups
+ * @property CategoryGroups $categoryGroups
  */
-class SellerProfile extends \DTS\eBaySDK\Types\BaseType
+class SellerProfile extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

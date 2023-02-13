@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Types\Cycle;
 
-class CycleTest extends \PHPUnit\Framework\TestCase
+class CycleTest extends TestCase
 {
     private $obj;
 

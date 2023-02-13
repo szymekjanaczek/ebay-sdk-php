@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $returnId
  */
-class EscalateReturnRestRequest extends \DTS\eBaySDK\PostOrder\Types\EscalateRequest
+class EscalateReturnRestRequest extends EscalateRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

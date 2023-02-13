@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreCustomPageArrayType $CustomPageArray
+ * @property StoreCustomPageArrayType $CustomPageArray
  */
-class GetStoreCustomPageResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetStoreCustomPageResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,24 +10,28 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\BidActionCodeType;
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\BidActionCodeType $Action
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MaxBid
+ * @property BidActionCodeType $Action
+ * @property CurrencyCodeType $Currency
+ * @property AmountType $MaxBid
  * @property integer $Quantity
  * @property boolean $SecondChanceEnabled
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $SiteCurrency
- * @property \DateTime $TimeBid
- * @property \DTS\eBaySDK\Trading\Types\AmountType $HighestBid
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedPrice
- * @property \DTS\eBaySDK\Trading\Types\UserType $User
+ * @property CurrencyCodeType $SiteCurrency
+ * @property DateTime $TimeBid
+ * @property AmountType $HighestBid
+ * @property AmountType $ConvertedPrice
+ * @property UserType $User
  * @property boolean $UserConsent
  * @property string $Message
  * @property string $BestOfferID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MyMaxBid
+ * @property AmountType $MyMaxBid
  */
-class OfferType extends \DTS\eBaySDK\Types\BaseType
+class OfferType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

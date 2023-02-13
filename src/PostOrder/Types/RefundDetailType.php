@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ItemizedRefundDetailType[] $itemizedRefundDetail
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $totalAmount
+ * @property ItemizedRefundDetailType[] $itemizedRefundDetail
+ * @property Amount $totalAmount
  */
-class RefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class RefundDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

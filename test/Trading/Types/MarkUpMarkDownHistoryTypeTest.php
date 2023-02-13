@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType;
 
-class MarkUpMarkDownHistoryTypeTest extends \PHPUnit\Framework\TestCase
+class MarkUpMarkDownHistoryTypeTest extends TestCase
 {
     private $obj;
 

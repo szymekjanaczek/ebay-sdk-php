@@ -10,21 +10,22 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $additionalShippingCost
+ * @property Amount $additionalShippingCost
  * @property boolean $buyerResponsibleForPickup
  * @property boolean $buyerResponsibleForShipping
- * @property \DTS\eBaySDK\Account\Types\Amount $cashOnDeliveryFee
+ * @property Amount $cashOnDeliveryFee
  * @property boolean $freeShipping
  * @property string $shippingCarrierCode
- * @property \DTS\eBaySDK\Account\Types\Amount $shippingCost
+ * @property Amount $shippingCost
  * @property string $shippingServiceCode
- * @property \DTS\eBaySDK\Account\Types\RegionSet $shipToLocations
+ * @property RegionSet $shipToLocations
  * @property integer $sortOrder
- * @property \DTS\eBaySDK\Account\Types\Amount $surcharge
+ * @property Amount $surcharge
  */
-class ShippingService extends \DTS\eBaySDK\Types\BaseType
+class ShippingService extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

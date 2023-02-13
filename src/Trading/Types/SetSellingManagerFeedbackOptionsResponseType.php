@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class SetSellingManagerFeedbackOptionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class SetSellingManagerFeedbackOptionsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

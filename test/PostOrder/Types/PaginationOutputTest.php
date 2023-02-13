@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\PaginationOutput;
 
-class PaginationOutputTest extends \PHPUnit\Framework\TestCase
+class PaginationOutputTest extends TestCase
 {
     private $obj;
 

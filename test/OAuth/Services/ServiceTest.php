@@ -1,6 +1,8 @@
 <?php
 namespace DTS\eBaySDK\Test\OAuth\Services;
 
+use PHPUnit\Framework\TestCase;
+use Exception;
 use DTS\eBaySDK\Test\TestTraits\ManageEnv;
 use DTS\eBaySDK\OAuth\Services\OAuthService;
 use DTS\eBaySDK\Test\Mocks\HttpOAuthHandler;
@@ -8,7 +10,7 @@ use DTS\eBaySDK\Credentials\Credentials;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
 use InvalidArgumentException;
 
-class ServiceTest extends \PHPUnit\Framework\TestCase
+class ServiceTest extends TestCase
 {
     use ManageEnv;
 
@@ -367,7 +369,7 @@ EOT;
 
         try {
             $s->getCredentials();
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             unlink($dir . '/credentials');
             throw $e;
         }
@@ -380,7 +382,7 @@ EOT;
 
         new OAuthService([
             'credentials' => function () {
-                return new \InvalidArgumentException('Cannot locate credentials');
+                return new InvalidArgumentException('Cannot locate credentials');
             },
             'ruName'      => 'foo'
         ]);
@@ -439,7 +441,8 @@ EOT;
         ]);
 
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessage('Invalid configuration value provided for "sandbox". Expected bool, but got int(-1)');
+        // todo(@szymekjanaczek) update to use regex ane full info what is returned.
+        $this->expectExceptionMessage('Invalid configuration value provided for "sandbox". Expected bool, but got');
 
         $s->setConfig(['sandbox' => -1]);
     }

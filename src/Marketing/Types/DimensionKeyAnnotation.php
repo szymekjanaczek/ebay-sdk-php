@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\DataTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $annotationKey
- * @property \DTS\eBaySDK\Marketing\Enums\DataTypeEnum $dataType
+ * @property DataTypeEnum $dataType
  */
-class DimensionKeyAnnotation extends \DTS\eBaySDK\Types\BaseType
+class DimensionKeyAnnotation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

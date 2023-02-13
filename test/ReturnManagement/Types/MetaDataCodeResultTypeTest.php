@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\MetaDataCodeResultType;
 
-class MetaDataCodeResultTypeTest extends \PHPUnit\Framework\TestCase
+class MetaDataCodeResultTypeTest extends TestCase
 {
     private $obj;
 

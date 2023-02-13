@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\Text;
 
-class TextTest extends \PHPUnit\Framework\TestCase
+class TextTest extends TestCase
 {
     private $obj;
 

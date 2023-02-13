@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 /**
  *
  */
-class ReturnReasonType extends \DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType
+class ReturnReasonType extends EnumerationDetailType
 {
     /**
      * @var array Properties belonging to objects of this class.

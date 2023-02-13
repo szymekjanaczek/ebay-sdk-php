@@ -10,21 +10,22 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $buyerFinalAcceptResolution
  * @property string $buyerInitExpectResolution
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $escalationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $expirationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastBuyerRespDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastSellerRespDate
+ * @property DateTime $creationDate
+ * @property DateTime $escalationDate
+ * @property DateTime $expirationDate
+ * @property DateTime $lastBuyerRespDate
+ * @property DateTime $lastSellerRespDate
  * @property boolean $paypalPaid
- * @property \DTS\eBaySDK\PostOrder\Types\RefundAmounts $refundAmounts
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $refundDeadlineDate
- * @property \DTS\eBaySDK\PostOrder\Types\RefundType $refundType
+ * @property RefundAmounts $refundAmounts
+ * @property DateTime $refundDeadlineDate
+ * @property RefundType $refundType
  */
-class CaseDetails extends \DTS\eBaySDK\Types\BaseType
+class CaseDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

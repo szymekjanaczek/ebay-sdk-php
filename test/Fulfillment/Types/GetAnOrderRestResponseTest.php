@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestResponse;
 
-class GetAnOrderRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetAnOrderRestResponseTest extends TestCase
 {
     private $obj;
 

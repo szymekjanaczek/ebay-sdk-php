@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType;
 
-class CaseTypeFilterTypeTest extends \PHPUnit\Framework\TestCase
+class CaseTypeFilterTypeTest extends TestCase
 {
     private $obj;
 

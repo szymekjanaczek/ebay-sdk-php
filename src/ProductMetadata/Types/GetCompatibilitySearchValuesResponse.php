@@ -13,11 +13,11 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
 /**
  *
  * @property string $metadataVersion
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyValues
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue $propertyValuesTree
+ * @property PropertyValue[] $propertyValues
+ * @property PropertyNameValue $propertyValuesTree
  * @property boolean $treeFormat
  */
-class GetCompatibilitySearchValuesResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse
+class GetCompatibilitySearchValuesResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

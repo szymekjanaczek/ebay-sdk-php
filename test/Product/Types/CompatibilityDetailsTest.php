@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Product\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Product\Types\CompatibilityDetails;
 
-class CompatibilityDetailsTest extends \PHPUnit\Framework\TestCase
+class CompatibilityDetailsTest extends TestCase
 {
     private $obj;
 

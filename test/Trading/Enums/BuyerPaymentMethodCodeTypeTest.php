@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType;
 
-class BuyerPaymentMethodCodeTypeTest extends \PHPUnit\Framework\TestCase
+class BuyerPaymentMethodCodeTypeTest extends TestCase
 {
     private $obj;
 

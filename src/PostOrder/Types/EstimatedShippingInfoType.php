@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType[] $carriers
+ * @property CarrierShippingCostInfoType[] $carriers
  * @property string $returnShipmentPayer
  */
-class EstimatedShippingInfoType extends \DTS\eBaySDK\Types\BaseType
+class EstimatedShippingInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\SearchItem[] $item
+ * @property SearchItem[] $item
  * @property integer $count
  */
-class SearchResult extends \DTS\eBaySDK\Types\BaseType
+class SearchResult extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

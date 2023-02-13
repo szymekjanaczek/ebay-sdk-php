@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\WirelessCarrierIDCodeType;
 
-class WirelessCarrierIDCodeTypeTest extends \PHPUnit\Framework\TestCase
+class WirelessCarrierIDCodeTypeTest extends TestCase
 {
     private $obj;
 

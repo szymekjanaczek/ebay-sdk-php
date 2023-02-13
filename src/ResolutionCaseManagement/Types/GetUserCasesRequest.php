@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseSortOrderType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ItemFilterType $itemFilter
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType $creationDateRangeFilter
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType $caseTypeFilter
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType $caseStatusFilter
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseSortOrderType $sortOrder
+ * @property ItemFilterType $itemFilter
+ * @property DateRangeFilterType $creationDateRangeFilter
+ * @property CaseTypeFilterType $caseTypeFilter
+ * @property CaseStatusFilterType $caseStatusFilter
+ * @property PaginationInput $paginationInput
+ * @property CaseSortOrderType $sortOrder
  */
-class GetUserCasesRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class GetUserCasesRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

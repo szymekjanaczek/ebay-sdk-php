@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $ValidToken
  */
-class ValidateChallengeInputResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ValidateChallengeInputResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

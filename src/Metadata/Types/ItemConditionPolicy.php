@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $categoryId
  * @property string $categoryTreeId
  * @property boolean $itemConditionRequired
- * @property \DTS\eBaySDK\Metadata\Types\ItemCondition[] $itemConditions
+ * @property ItemCondition[] $itemConditions
  */
-class ItemConditionPolicy extends \DTS\eBaySDK\Types\BaseType
+class ItemConditionPolicy extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Enums\OutputSelectorType;
 
-class OutputSelectorTypeTest extends \PHPUnit\Framework\TestCase
+class OutputSelectorTypeTest extends TestCase
 {
     private $obj;
 

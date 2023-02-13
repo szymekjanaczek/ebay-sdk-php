@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\RegionTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $regionName
- * @property \DTS\eBaySDK\Browse\Enums\RegionTypeEnum $regionType
+ * @property RegionTypeEnum $regionType
  */
-class Region extends \DTS\eBaySDK\Types\BaseType
+class Region extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

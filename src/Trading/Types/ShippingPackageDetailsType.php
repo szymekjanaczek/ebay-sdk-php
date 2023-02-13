@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $PackageID
  * @property string $Description
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property ShippingPackageCodeType $ShippingPackage
  * @property boolean $DefaultValue
  * @property boolean $DimensionsSupported
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class ShippingPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingPackageDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

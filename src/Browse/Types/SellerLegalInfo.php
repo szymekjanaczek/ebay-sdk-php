@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $email
@@ -20,11 +21,11 @@ namespace DTS\eBaySDK\Browse\Types;
  * @property string $name
  * @property string $phone
  * @property string $registrationNumber
- * @property \DTS\eBaySDK\Browse\Types\LegalAddress $sellerProvidedLegalAddress
+ * @property LegalAddress $sellerProvidedLegalAddress
  * @property string $termsOfService
- * @property \DTS\eBaySDK\Browse\Types\VatDetail[] $vatDetails
+ * @property VatDetail[] $vatDetails
  */
-class SellerLegalInfo extends \DTS\eBaySDK\Types\BaseType
+class SellerLegalInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

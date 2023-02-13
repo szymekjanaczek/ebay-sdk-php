@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Merchandising\Types;
 /**
  *
  */
-class GetVersionResponse extends \DTS\eBaySDK\Merchandising\Types\BaseServiceResponse
+class GetVersionResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

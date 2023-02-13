@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\CurrencyCodeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Enums\CurrencyCodeEnum $convertedFromCurrency
+ * @property CurrencyCodeEnum $convertedFromCurrency
  * @property string $convertedFromValue
- * @property \DTS\eBaySDK\Fulfillment\Enums\CurrencyCodeEnum $currency
+ * @property CurrencyCodeEnum $currency
  * @property string $value
  */
-class Amount extends \DTS\eBaySDK\Types\BaseType
+class Amount extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

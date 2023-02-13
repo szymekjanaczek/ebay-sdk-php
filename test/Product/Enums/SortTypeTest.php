@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Product\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Product\Enums\SortType;
 
-class SortTypeTest extends \PHPUnit\Framework\TestCase
+class SortTypeTest extends TestCase
 {
     private $obj;
 

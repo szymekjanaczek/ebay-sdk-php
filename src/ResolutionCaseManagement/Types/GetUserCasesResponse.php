@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseArrayType $cases
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationOutput $paginationOutput
+ * @property CaseArrayType $cases
+ * @property PaginationOutput $paginationOutput
  */
-class GetUserCasesResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class GetUserCasesResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

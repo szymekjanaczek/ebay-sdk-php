@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\AddressStatusCodeType;
 
-class AddressStatusCodeTypeTest extends \PHPUnit\Framework\TestCase
+class AddressStatusCodeTypeTest extends TestCase
 {
     private $obj;
 

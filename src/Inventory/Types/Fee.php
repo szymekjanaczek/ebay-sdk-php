@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Amount $amount
+ * @property Amount $amount
  * @property string $feeType
- * @property \DTS\eBaySDK\Inventory\Types\Amount $promotionalDiscount
+ * @property Amount $promotionalDiscount
  */
-class Fee extends \DTS\eBaySDK\Types\BaseType
+class Fee extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

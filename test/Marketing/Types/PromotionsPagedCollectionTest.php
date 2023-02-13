@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\PromotionsPagedCollection;
 
-class PromotionsPagedCollectionTest extends \PHPUnit\Framework\TestCase
+class PromotionsPagedCollectionTest extends TestCase
 {
     private $obj;
 

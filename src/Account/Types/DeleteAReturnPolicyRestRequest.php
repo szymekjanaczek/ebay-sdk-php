@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $return_policy_id
  */
-class DeleteAReturnPolicyRestRequest extends \DTS\eBaySDK\Types\BaseType
+class DeleteAReturnPolicyRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

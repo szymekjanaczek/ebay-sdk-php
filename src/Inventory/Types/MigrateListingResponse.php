@@ -10,17 +10,19 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\MarketplaceEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $errors
  * @property string $inventoryItemGroupKey
- * @property \DTS\eBaySDK\Inventory\Types\InventoryItemListing[] $inventoryItems
+ * @property InventoryItemListing[] $inventoryItems
  * @property string $listingId
- * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
+ * @property MarketplaceEnum $marketplaceId
  * @property integer $statusCode
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class MigrateListingResponse extends \DTS\eBaySDK\Types\BaseType
+class MigrateListingResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

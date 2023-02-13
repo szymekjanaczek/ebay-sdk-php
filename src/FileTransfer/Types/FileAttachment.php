@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\FileTransfer\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $Size
- * @property \DTS\eBaySDK\FileTransfer\Types\Data $Data
+ * @property Data $Data
  */
-class FileAttachment extends \DTS\eBaySDK\Types\BaseType
+class FileAttachment extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
  * @property integer $ItemCount
  * @property integer $FavoriteSellerCount
- * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property ItemArrayType $ItemArray
+ * @property MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property MyeBayFavoriteSellerListType $FavoriteSellers
  */
-class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
+class UserDefinedListType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

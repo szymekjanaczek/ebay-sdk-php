@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $shippingCarrierCode
  * @property string $shippingServiceCode
- * @property \DTS\eBaySDK\Fulfillment\Types\Contact $shipTo
+ * @property Contact $shipTo
  * @property string $shipToReferenceId
  */
-class ShippingStep extends \DTS\eBaySDK\Types\BaseType
+class ShippingStep extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

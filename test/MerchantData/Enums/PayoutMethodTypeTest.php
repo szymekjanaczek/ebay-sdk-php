@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\PayoutMethodType;
 
-class PayoutMethodTypeTest extends \PHPUnit\Framework\TestCase
+class PayoutMethodTypeTest extends TestCase
 {
     private $obj;
 

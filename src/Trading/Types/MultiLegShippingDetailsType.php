@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MultiLegShipmentType $SellerShipmentToLogisticsProvider
+ * @property MultiLegShipmentType $SellerShipmentToLogisticsProvider
  */
-class MultiLegShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class MultiLegShippingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

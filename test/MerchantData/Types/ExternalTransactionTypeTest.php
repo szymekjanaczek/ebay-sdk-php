@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ExternalTransactionType;
 
-class ExternalTransactionTypeTest extends \PHPUnit\Framework\TestCase
+class ExternalTransactionTypeTest extends TestCase
 {
     private $obj;
 

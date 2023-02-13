@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Taxonomy\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\AspectConstraint $aspectConstraint
- * @property \DTS\eBaySDK\Taxonomy\Types\AspectValue[] $aspectValues
+ * @property AspectConstraint $aspectConstraint
+ * @property AspectValue[] $aspectValues
  * @property string $localizedAspectName
  */
-class Aspect extends \DTS\eBaySDK\Types\BaseType
+class Aspect extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

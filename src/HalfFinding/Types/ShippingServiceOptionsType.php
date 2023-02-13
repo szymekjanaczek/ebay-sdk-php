@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\HalfFinding\Enums\Type;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\Type $type
- * @property \DTS\eBaySDK\HalfFinding\Types\Amount $cost
+ * @property Type $type
+ * @property Amount $cost
  * @property boolean $expeditedService
  */
-class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServiceOptionsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

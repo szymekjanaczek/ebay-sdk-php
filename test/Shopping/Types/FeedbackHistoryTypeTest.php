@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\FeedbackHistoryType;
 
-class FeedbackHistoryTypeTest extends \PHPUnit\Framework\TestCase
+class FeedbackHistoryTypeTest extends TestCase
 {
     private $obj;
 

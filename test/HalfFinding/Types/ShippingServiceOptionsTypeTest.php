@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Types\ShippingServiceOptionsType;
 
-class ShippingServiceOptionsTypeTest extends \PHPUnit\Framework\TestCase
+class ShippingServiceOptionsTypeTest extends TestCase
 {
     private $obj;
 

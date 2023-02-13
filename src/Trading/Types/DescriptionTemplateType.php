@@ -10,6 +10,8 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DescriptionTemplateCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $GroupID
@@ -17,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ImageURL
  * @property string $Name
  * @property string $TemplateXML
- * @property \DTS\eBaySDK\Trading\Enums\DescriptionTemplateCodeType $Type
+ * @property DescriptionTemplateCodeType $Type
  */
-class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
+class DescriptionTemplateType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

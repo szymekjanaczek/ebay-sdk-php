@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\UnitPriceInfo;
 
-class UnitPriceInfoTest extends \PHPUnit\Framework\TestCase
+class UnitPriceInfoTest extends TestCase
 {
     private $obj;
 

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
  *
  * @property integer $customerSupportResponseTimeInHours
  */
-class AppealToCustomerSupportOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class AppealToCustomerSupportOptionType extends BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

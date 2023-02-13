@@ -1,11 +1,14 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
+use DTS\eBaySDK\Trading\Services\TradingService;
+use DTS\eBaySDK\Trading\Types\UploadSiteHostedPicturesRequestType;
 use DTS\eBaySDK\Trading\Services;
 use DTS\eBaySDK\Trading\Types;
 use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
-class MultipartFormDataTest extends \PHPUnit\Framework\TestCase
+class MultipartFormDataTest extends TestCase
 {
     private $httpHandler;
     private $service;
@@ -24,13 +27,13 @@ class MultipartFormDataTest extends \PHPUnit\Framework\TestCase
          * makes the request. We can test these properties to check what the service is passing.
          */
         $this->httpHandler = new HttpHandler();
-        $this->service = new Services\TradingService([
+        $this->service = new TradingService([
             'apiVersion' => '123',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
             'siteId' => 0,
             'httpHandler' => $this->httpHandler
         ]);
-        $this->request = new Types\UploadSiteHostedPicturesRequestType();
+        $this->request = new UploadSiteHostedPicturesRequestType();
         $this->request->PictureName = 'Example Picture';
         $this->requestXml = rtrim(file_get_contents(__DIR__.'/../../Mocks/MultipartFormDataRequest'));
     }

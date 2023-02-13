@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Enums\ActivityOptionType;
 
-class ActivityOptionTypeTest extends \PHPUnit\Framework\TestCase
+class ActivityOptionTypeTest extends TestCase
 {
     private $obj;
 

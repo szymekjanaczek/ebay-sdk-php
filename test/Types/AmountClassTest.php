@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Test\Mocks\AmountClass;
 
-class AmountClassTest extends \PHPUnit\Framework\TestCase
+class AmountClassTest extends TestCase
 {
     private $obj;
 

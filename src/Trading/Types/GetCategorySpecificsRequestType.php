@@ -10,19 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property string[] $CategoryID
- * @property \DateTime $LastUpdateTime
+ * @property DateTime $LastUpdateTime
  * @property integer $MaxNames
  * @property integer $MaxValuesPerName
  * @property string $Name
- * @property \DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType[] $CategorySpecific
+ * @property CategoryItemSpecificsType[] $CategorySpecific
  * @property boolean $ExcludeRelationships
  * @property boolean $IncludeConfidence
  * @property boolean $CategorySpecificsFileInfo
  */
-class GetCategorySpecificsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetCategorySpecificsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

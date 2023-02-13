@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
  * @property string[] $values
  */
-class Specification extends \DTS\eBaySDK\Types\BaseType
+class Specification extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

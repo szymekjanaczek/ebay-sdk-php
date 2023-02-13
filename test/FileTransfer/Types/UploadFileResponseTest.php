@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\FileTransfer\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\FileTransfer\Types\UploadFileResponse;
 
-class UploadFileResponseTest extends \PHPUnit\Framework\TestCase
+class UploadFileResponseTest extends TestCase
 {
     private $obj;
 

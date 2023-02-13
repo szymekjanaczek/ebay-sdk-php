@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
@@ -20,7 +21,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
  * @property string $country
  * @property string $postalCode
  */
-class Address extends \DTS\eBaySDK\Types\BaseType
+class Address extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

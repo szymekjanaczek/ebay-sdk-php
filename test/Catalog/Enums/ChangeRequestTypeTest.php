@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Enums\ChangeRequestType;
 
-class ChangeRequestTypeTest extends \PHPUnit\Framework\TestCase
+class ChangeRequestTypeTest extends TestCase
 {
     private $obj;
 

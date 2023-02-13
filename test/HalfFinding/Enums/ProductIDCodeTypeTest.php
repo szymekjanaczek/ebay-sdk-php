@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Enums\ProductIDCodeType;
 
-class ProductIDCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ProductIDCodeTypeTest extends TestCase
 {
     private $obj;
 

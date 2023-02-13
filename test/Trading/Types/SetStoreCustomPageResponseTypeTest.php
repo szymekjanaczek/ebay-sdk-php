@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SetStoreCustomPageResponseType;
 
-class SetStoreCustomPageResponseTypeTest extends \PHPUnit\Framework\TestCase
+class SetStoreCustomPageResponseTypeTest extends TestCase
 {
     private $obj;
 

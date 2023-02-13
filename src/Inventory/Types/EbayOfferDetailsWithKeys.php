@@ -10,22 +10,25 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\FormatTypeEnum;
+use DTS\eBaySDK\Inventory\Enums\MarketplaceEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $availableQuantity
  * @property string $categoryId
- * @property \DTS\eBaySDK\Inventory\Enums\FormatTypeEnum $format
+ * @property FormatTypeEnum $format
  * @property string $listingDescription
- * @property \DTS\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
- * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
+ * @property ListingPolicies $listingPolicies
+ * @property MarketplaceEnum $marketplaceId
  * @property string $merchantLocationKey
- * @property \DTS\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
+ * @property PricingSummary $pricingSummary
  * @property integer $quantityLimitPerBuyer
  * @property string $sku
  * @property string[] $storeCategoryNames
- * @property \DTS\eBaySDK\Inventory\Types\Tax $tax
+ * @property Tax $tax
  */
-class EbayOfferDetailsWithKeys extends \DTS\eBaySDK\Types\BaseType
+class EbayOfferDetailsWithKeys extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

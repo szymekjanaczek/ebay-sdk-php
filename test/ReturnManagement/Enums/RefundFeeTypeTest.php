@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Enums\RefundFeeType;
 
-class RefundFeeTypeTest extends \PHPUnit\Framework\TestCase
+class RefundFeeTypeTest extends TestCase
 {
     private $obj;
 

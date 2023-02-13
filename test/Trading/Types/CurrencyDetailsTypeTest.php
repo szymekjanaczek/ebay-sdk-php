@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\CurrencyDetailsType;
 
-class CurrencyDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class CurrencyDetailsTypeTest extends TestCase
 {
     private $obj;
 

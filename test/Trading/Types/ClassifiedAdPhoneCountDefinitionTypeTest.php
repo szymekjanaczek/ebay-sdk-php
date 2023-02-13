@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ClassifiedAdPhoneCountDefinitionType;
 
-class ClassifiedAdPhoneCountDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class ClassifiedAdPhoneCountDefinitionTypeTest extends TestCase
 {
     private $obj;
 

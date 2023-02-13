@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Order\Types;
 /**
  *
  */
-class InitiateGuestCheckoutSessionRestRequest extends \DTS\eBaySDK\Order\Types\CreateGuestCheckoutSessionRequest
+class InitiateGuestCheckoutSessionRestRequest extends CreateGuestCheckoutSessionRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $bundleID
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $bundleStatus
+ * @property BundleStatusEnum $bundleStatus
  */
-class BundleStatusMap extends \DTS\eBaySDK\Types\BaseType
+class BundleStatusMap extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $message
  * @property string $recipientEmail
  * @property string $senderName
  */
-class GiftDetails extends \DTS\eBaySDK\Types\BaseType
+class GiftDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

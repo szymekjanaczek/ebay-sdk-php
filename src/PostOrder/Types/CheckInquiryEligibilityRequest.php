@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
  * @property string $transactionId
  */
-class CheckInquiryEligibilityRequest extends \DTS\eBaySDK\Types\BaseType
+class CheckInquiryEligibilityRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

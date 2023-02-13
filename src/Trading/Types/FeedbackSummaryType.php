@@ -10,22 +10,23 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $BidRetractionFeedbackPeriodArray
- * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $NegativeFeedbackPeriodArray
- * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $NeutralFeedbackPeriodArray
- * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $PositiveFeedbackPeriodArray
- * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $TotalFeedbackPeriodArray
+ * @property FeedbackPeriodArrayType $BidRetractionFeedbackPeriodArray
+ * @property FeedbackPeriodArrayType $NegativeFeedbackPeriodArray
+ * @property FeedbackPeriodArrayType $NeutralFeedbackPeriodArray
+ * @property FeedbackPeriodArrayType $PositiveFeedbackPeriodArray
+ * @property FeedbackPeriodArrayType $TotalFeedbackPeriodArray
  * @property integer $NeutralCommentCountFromSuspendedUsers
  * @property integer $UniqueNegativeFeedbackCount
  * @property integer $UniquePositiveFeedbackCount
  * @property integer $UniqueNeutralFeedbackCount
- * @property \DTS\eBaySDK\Trading\Types\SellerRatingSummaryArrayType $SellerRatingSummaryArray
- * @property \DTS\eBaySDK\Trading\Types\SellerRoleMetricsType $SellerRoleMetrics
- * @property \DTS\eBaySDK\Trading\Types\BuyerRoleMetricsType $BuyerRoleMetrics
+ * @property SellerRatingSummaryArrayType $SellerRatingSummaryArray
+ * @property SellerRoleMetricsType $SellerRoleMetrics
+ * @property BuyerRoleMetricsType $BuyerRoleMetrics
  */
-class FeedbackSummaryType extends \DTS\eBaySDK\Types\BaseType
+class FeedbackSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

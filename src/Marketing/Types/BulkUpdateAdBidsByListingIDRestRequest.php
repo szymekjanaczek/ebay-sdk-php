@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  *
  * @property string $campaign_id
  */
-class BulkUpdateAdBidsByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Types\BulkCreateAdRequest
+class BulkUpdateAdBidsByListingIDRestRequest extends BulkCreateAdRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\RuleActionInputType;
 
-class RuleActionInputTypeTest extends \PHPUnit\Framework\TestCase
+class RuleActionInputTypeTest extends TestCase
 {
     private $obj;
 

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $ProductID
  */
-class DeleteSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class DeleteSellingManagerProductRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

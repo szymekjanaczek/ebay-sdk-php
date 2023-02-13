@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\PhoneNumber;
 
-class PhoneNumberTest extends \PHPUnit\Framework\TestCase
+class PhoneNumberTest extends TestCase
 {
     private $obj;
 

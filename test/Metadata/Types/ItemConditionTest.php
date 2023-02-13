@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Types\ItemCondition;
 
-class ItemConditionTest extends \PHPUnit\Framework\TestCase
+class ItemConditionTest extends TestCase
 {
     private $obj;
 

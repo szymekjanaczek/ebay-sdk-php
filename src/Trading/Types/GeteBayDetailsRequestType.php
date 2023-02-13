@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DetailNameCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DetailNameCodeType[] $DetailName
+ * @property DetailNameCodeType[] $DetailName
  */
-class GeteBayDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GeteBayDetailsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

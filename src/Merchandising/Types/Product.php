@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\Merchandising\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Merchandising\Types\ProductId $productId
+ * @property ProductId $productId
  * @property string $title
  * @property string $productURL
  * @property string $catalogName
  * @property string $imageURL
  * @property integer $reviewCount
- * @property \DTS\eBaySDK\Merchandising\Types\Amount $priceRangeMin
- * @property \DTS\eBaySDK\Merchandising\Types\Amount $priceRangeMax
+ * @property Amount $priceRangeMin
+ * @property Amount $priceRangeMax
  */
-class Product extends \DTS\eBaySDK\Types\BaseType
+class Product extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

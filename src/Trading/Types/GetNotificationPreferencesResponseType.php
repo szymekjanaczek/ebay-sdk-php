@@ -12,13 +12,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType $ApplicationDeliveryPreferences
+ * @property ApplicationDeliveryPreferencesType $ApplicationDeliveryPreferences
  * @property string $DeliveryURLName
- * @property \DTS\eBaySDK\Trading\Types\NotificationEnableArrayType $UserDeliveryPreferenceArray
- * @property \DTS\eBaySDK\Trading\Types\NotificationUserDataType $UserData
- * @property \DTS\eBaySDK\Trading\Types\NotificationEventPropertyType[] $EventProperty
+ * @property NotificationEnableArrayType $UserDeliveryPreferenceArray
+ * @property NotificationUserDataType $UserData
+ * @property NotificationEventPropertyType[] $EventProperty
  */
-class GetNotificationPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetNotificationPreferencesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

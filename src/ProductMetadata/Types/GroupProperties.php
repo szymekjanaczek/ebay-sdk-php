@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $groupType
  * @property string $groupName
- * @property \DTS\eBaySDK\ProductMetadata\Types\GroupProperty[] $groupProperty
+ * @property GroupProperty[] $groupProperty
  * @property string $description
  */
-class GroupProperties extends \DTS\eBaySDK\Types\BaseType
+class GroupProperties extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

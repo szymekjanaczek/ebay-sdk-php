@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $payment_policy_id
  */
-class DeleteAPaymentPolicyRestRequest extends \DTS\eBaySDK\Types\BaseType
+class DeleteAPaymentPolicyRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $value
  */
-class URIValue extends \DTS\eBaySDK\Types\BaseType
+class URIValue extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

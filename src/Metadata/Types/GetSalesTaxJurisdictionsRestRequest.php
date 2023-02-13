@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $countryCode
  */
-class GetSalesTaxJurisdictionsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetSalesTaxJurisdictionsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

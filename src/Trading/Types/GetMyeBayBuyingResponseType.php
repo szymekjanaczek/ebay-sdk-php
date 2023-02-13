@@ -12,20 +12,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\BuyingSummaryType $BuyingSummary
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $WatchList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BestOfferList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $WonList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $LostList
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
- * @property \DTS\eBaySDK\Trading\Types\ItemType[] $SecondChanceOffer
- * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromWonList
- * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromLostList
- * @property \DTS\eBaySDK\Trading\Types\UserDefinedListType[] $UserDefinedList
+ * @property BuyingSummaryType $BuyingSummary
+ * @property PaginatedItemArrayType $WatchList
+ * @property PaginatedItemArrayType $BidList
+ * @property PaginatedItemArrayType $BestOfferList
+ * @property PaginatedOrderTransactionArrayType $WonList
+ * @property PaginatedItemArrayType $LostList
+ * @property MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property ItemType[] $SecondChanceOffer
+ * @property PaginatedOrderTransactionArrayType $DeletedFromWonList
+ * @property PaginatedItemArrayType $DeletedFromLostList
+ * @property UserDefinedListType[] $UserDefinedList
  */
-class GetMyeBayBuyingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMyeBayBuyingResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

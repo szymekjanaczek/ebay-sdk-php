@@ -10,6 +10,9 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ListingTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $InvoiceNumber
@@ -17,24 +20,24 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $SaleRecordID
  * @property string $ItemID
  * @property integer $QuantitySold
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $SubtotalAmount
+ * @property AmountType $ItemPrice
+ * @property AmountType $SubtotalAmount
  * @property string $ItemTitle
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property ListingTypeCodeType $ListingType
  * @property boolean $Relisted
  * @property integer $WatchCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ReservePrice
+ * @property AmountType $StartPrice
+ * @property AmountType $ReservePrice
  * @property boolean $SecondChanceOfferSent
  * @property string $CustomLabel
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $SoldOn
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType[] $ListedOn
- * @property \DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
+ * @property TransactionPlatformCodeType $SoldOn
+ * @property TransactionPlatformCodeType[] $ListedOn
+ * @property ShipmentType $Shipment
  * @property boolean $CharityListing
- * @property \DTS\eBaySDK\Trading\Types\VariationType $Variation
+ * @property VariationType $Variation
  * @property string $OrderLineItemID
  */
-class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerSoldTransactionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

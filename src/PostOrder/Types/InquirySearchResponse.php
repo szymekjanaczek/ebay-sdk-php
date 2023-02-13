@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\InquirySummaryType[] $members
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property InquirySummaryType[] $members
+ * @property PaginationOutput $paginationOutput
  * @property integer $totalNumberOfInquiries
  */
-class InquirySearchResponse extends \DTS\eBaySDK\Types\BaseType
+class InquirySearchResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

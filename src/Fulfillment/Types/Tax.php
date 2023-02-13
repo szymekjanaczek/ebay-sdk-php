@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $amount
+ * @property Amount $amount
  */
-class Tax extends \DTS\eBaySDK\Types\BaseType
+class Tax extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

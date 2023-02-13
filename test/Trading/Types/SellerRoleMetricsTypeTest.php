@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellerRoleMetricsType;
 
-class SellerRoleMetricsTypeTest extends \PHPUnit\Framework\TestCase
+class SellerRoleMetricsTypeTest extends TestCase
 {
     private $obj;
 

@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\PaginationOutput $paginationOutput
- * @property \DTS\eBaySDK\Product\Types\Product[] $compatibilityDetails
+ * @property PaginationOutput $paginationOutput
+ * @property Product[] $compatibilityDetails
  */
-class GetProductCompatiblitiesResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class GetProductCompatiblitiesResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

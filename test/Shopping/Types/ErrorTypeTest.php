@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\ErrorType;
 
-class ErrorTypeTest extends \PHPUnit\Framework\TestCase
+class ErrorTypeTest extends TestCase
 {
     private $obj;
 

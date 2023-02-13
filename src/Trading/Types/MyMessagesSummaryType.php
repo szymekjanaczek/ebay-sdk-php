@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType[] $FolderSummary
+ * @property MyMessagesFolderSummaryType[] $FolderSummary
  * @property integer $NewMessageCount
  * @property integer $FlaggedMessageCount
  * @property integer $TotalMessageCount
  * @property integer $NewHighPriorityCount
  * @property integer $TotalHighPriorityCount
  */
-class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
+class MyMessagesSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

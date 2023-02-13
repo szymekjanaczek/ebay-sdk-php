@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Account\Types;
  *
  * @property string $return_policy_id
  */
-class UpdateAReturnPolicyRestRequest extends \DTS\eBaySDK\Account\Types\ReturnPolicyRequest
+class UpdateAReturnPolicyRestRequest extends ReturnPolicyRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

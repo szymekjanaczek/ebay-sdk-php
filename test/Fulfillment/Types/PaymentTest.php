@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\Payment;
 
-class PaymentTest extends \PHPUnit\Framework\TestCase
+class PaymentTest extends TestCase
 {
     private $obj;
 

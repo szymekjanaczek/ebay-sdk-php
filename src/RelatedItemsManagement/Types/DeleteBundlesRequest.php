@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Types;
  *
  * @property integer[] $bundleID
  */
-class DeleteBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest
+class DeleteBundlesRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

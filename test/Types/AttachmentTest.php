@@ -1,11 +1,12 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Test\Mocks\Service;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
-class AttachmentTest extends \PHPUnit\Framework\TestCase
+class AttachmentTest extends TestCase
 {
     private $httpHandler;
     private $service;

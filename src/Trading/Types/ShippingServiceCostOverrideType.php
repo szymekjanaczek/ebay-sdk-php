@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ShippingServiceType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $ShippingServicePriority
- * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceType $ShippingServiceType
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
+ * @property ShippingServiceType $ShippingServiceType
+ * @property AmountType $ShippingServiceCost
+ * @property AmountType $ShippingServiceAdditionalCost
+ * @property AmountType $ShippingSurcharge
  */
-class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServiceCostOverrideType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

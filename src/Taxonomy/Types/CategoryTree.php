@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Taxonomy\Types;
 
+use DTS\eBaySDK\Taxonomy\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Enums\MarketplaceIdEnum[] $applicableMarketplaceIds
+ * @property MarketplaceIdEnum[] $applicableMarketplaceIds
  * @property string $categoryTreeId
  * @property string $categoryTreeVersion
- * @property \DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode $rootCategoryNode
+ * @property CategoryTreeNode $rootCategoryNode
  */
-class CategoryTree extends \DTS\eBaySDK\Types\BaseType
+class CategoryTree extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

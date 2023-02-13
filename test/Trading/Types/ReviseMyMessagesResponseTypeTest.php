@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ReviseMyMessagesResponseType;
 
-class ReviseMyMessagesResponseTypeTest extends \PHPUnit\Framework\TestCase
+class ReviseMyMessagesResponseTypeTest extends TestCase
 {
     private $obj;
 

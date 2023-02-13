@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
 /**
  *
  */
-class GetReturnEstimateRestRequest extends \DTS\eBaySDK\PostOrder\Types\GetEstimateRequest
+class GetReturnEstimateRestRequest extends GetEstimateRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

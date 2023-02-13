@@ -10,6 +10,10 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CountryCodeType;
+use DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType;
+use DTS\eBaySDK\Trading\Enums\AddressUsageCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
@@ -19,20 +23,20 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $CityName
  * @property string $County
  * @property string $StateOrProvince
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Country
+ * @property CountryCodeType $Country
  * @property string $CountryName
  * @property string $Phone
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $PhoneCountryCode
+ * @property CountryCodeType $PhoneCountryCode
  * @property string $PhoneCountryPrefix
  * @property string $PhoneAreaOrCityCode
  * @property string $PhoneLocalNumber
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Phone2CountryCode
+ * @property CountryCodeType $Phone2CountryCode
  * @property string $Phone2CountryPrefix
  * @property string $Phone2AreaOrCityCode
  * @property string $Phone2LocalNumber
  * @property string $PostalCode
  * @property string $AddressID
- * @property \DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType $AddressOwner
+ * @property AddressOwnerCodeType $AddressOwner
  * @property string $ExternalAddressID
  * @property string $InternationalName
  * @property string $InternationalStateAndCity
@@ -41,11 +45,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $FirstName
  * @property string $LastName
  * @property string $Phone2
- * @property \DTS\eBaySDK\Trading\Enums\AddressUsageCodeType $AddressUsage
+ * @property AddressUsageCodeType $AddressUsage
  * @property string $ReferenceID
- * @property \DTS\eBaySDK\Trading\Types\AddressAttributeType[] $AddressAttribute
+ * @property AddressAttributeType[] $AddressAttribute
  */
-class AddressType extends \DTS\eBaySDK\Types\BaseType
+class AddressType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType;
 
-class ExcludeShippingLocationDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class ExcludeShippingLocationDetailsTypeTest extends TestCase
 {
     private $obj;
 

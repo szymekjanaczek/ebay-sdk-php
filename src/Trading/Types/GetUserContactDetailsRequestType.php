@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ContactID
  * @property string $RequesterID
  */
-class GetUserContactDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserContactDetailsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

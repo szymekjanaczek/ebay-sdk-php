@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $FolderID
  * @property integer $NewParentFolderID
  */
-class MoveSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class MoveSellingManagerInventoryFolderRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

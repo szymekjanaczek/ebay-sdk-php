@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GetTaxTableRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetTaxTableRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

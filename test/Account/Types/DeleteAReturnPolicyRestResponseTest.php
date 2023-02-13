@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestResponse;
 
-class DeleteAReturnPolicyRestResponseTest extends \PHPUnit\Framework\TestCase
+class DeleteAReturnPolicyRestResponseTest extends TestCase
 {
     private $obj;
 

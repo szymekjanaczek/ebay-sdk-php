@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $PositiveFeedbackLeftCount
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $NeutralFeedbackLeftCount
  * @property double $FeedbackLeftPercent
  */
-class BuyerRoleMetricsType extends \DTS\eBaySDK\Types\BaseType
+class BuyerRoleMetricsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

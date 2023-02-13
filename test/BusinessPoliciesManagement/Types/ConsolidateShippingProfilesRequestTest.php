@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest;
 
-class ConsolidateShippingProfilesRequestTest extends \PHPUnit\Framework\TestCase
+class ConsolidateShippingProfilesRequestTest extends TestCase
 {
     private $obj;
 

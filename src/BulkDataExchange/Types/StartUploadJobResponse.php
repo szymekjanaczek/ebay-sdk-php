@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
 /**
  *
  */
-class StartUploadJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class StartUploadJobResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

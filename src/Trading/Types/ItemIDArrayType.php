@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $ItemID
  */
-class ItemIDArrayType extends \DTS\eBaySDK\Types\BaseType
+class ItemIDArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

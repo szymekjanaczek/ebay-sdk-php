@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\BusinessSellerDetailsType;
 
-class BusinessSellerDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class BusinessSellerDetailsTypeTest extends TestCase
 {
     private $obj;
 

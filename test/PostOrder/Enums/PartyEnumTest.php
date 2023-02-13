@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Enums\PartyEnum;
 
-class PartyEnumTest extends \PHPUnit\Framework\TestCase
+class PartyEnumTest extends TestCase
 {
     private $obj;
 

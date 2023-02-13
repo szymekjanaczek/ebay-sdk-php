@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SendInvoiceRequestType;
 
-class SendInvoiceRequestTypeTest extends \PHPUnit\Framework\TestCase
+class SendInvoiceRequestTypeTest extends TestCase
 {
     private $obj;
 

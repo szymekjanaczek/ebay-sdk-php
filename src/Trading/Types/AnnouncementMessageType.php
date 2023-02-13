@@ -10,13 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\AnnouncementMessageCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $AnnouncementStartTime
- * @property \DateTime $EventTime
- * @property \DTS\eBaySDK\Trading\Enums\AnnouncementMessageCodeType $MessageType
+ * @property DateTime $AnnouncementStartTime
+ * @property DateTime $EventTime
+ * @property AnnouncementMessageCodeType $MessageType
  */
-class AnnouncementMessageType extends \DTS\eBaySDK\Types\BaseType
+class AnnouncementMessageType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

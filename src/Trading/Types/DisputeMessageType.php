@@ -10,14 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DisputeMessageSourceCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MessageID
- * @property \DTS\eBaySDK\Trading\Enums\DisputeMessageSourceCodeType $MessageSource
- * @property \DateTime $MessageCreationTime
+ * @property DisputeMessageSourceCodeType $MessageSource
+ * @property DateTime $MessageCreationTime
  * @property string $MessageText
  */
-class DisputeMessageType extends \DTS\eBaySDK\Types\BaseType
+class DisputeMessageType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

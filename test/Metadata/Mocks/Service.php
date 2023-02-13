@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Metadata\Mocks;
 
+use DTS\eBaySDK\Metadata\Services\MetadataBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
+class Service extends MetadataBaseService
 {
     protected static $operations = [
         'testOperation' => [

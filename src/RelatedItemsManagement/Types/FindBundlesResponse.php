@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\Bundle[] $bundle
+ * @property Bundle[] $bundle
  */
-class FindBundlesResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseResponse
+class FindBundlesResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

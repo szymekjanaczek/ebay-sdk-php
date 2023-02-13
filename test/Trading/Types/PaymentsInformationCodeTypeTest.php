@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\PaymentsInformationCodeType;
 
-class PaymentsInformationCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PaymentsInformationCodeTypeTest extends TestCase
 {
     private $obj;
 

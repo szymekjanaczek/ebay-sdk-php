@@ -10,20 +10,22 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\CaseStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $buyer
  * @property integer $caseId
- * @property \DTS\eBaySDK\PostOrder\Enums\CaseStatusEnum $caseStatusEnum
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property CaseStatusEnum $caseStatusEnum
+ * @property Amount $claimAmount
+ * @property DateTime $creationDate
  * @property integer $itemId
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $respondByDate
+ * @property DateTime $lastModifiedDate
+ * @property DateTime $respondByDate
  * @property string $seller
  * @property integer $transactionId
  */
-class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
+class CaseSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

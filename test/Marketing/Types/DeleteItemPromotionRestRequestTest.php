@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestRequest;
 
-class DeleteItemPromotionRestRequestTest extends \PHPUnit\Framework\TestCase
+class DeleteItemPromotionRestRequestTest extends TestCase
 {
     private $obj;
 

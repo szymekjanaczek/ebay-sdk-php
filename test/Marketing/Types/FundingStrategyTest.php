@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\FundingStrategy;
 
-class FundingStrategyTest extends \PHPUnit\Framework\TestCase
+class FundingStrategyTest extends TestCase
 {
     private $obj;
 

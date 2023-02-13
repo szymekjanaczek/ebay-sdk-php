@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\PictureSourceCodeType;
 
-class PictureSourceCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PictureSourceCodeTypeTest extends TestCase
 {
     private $obj;
 

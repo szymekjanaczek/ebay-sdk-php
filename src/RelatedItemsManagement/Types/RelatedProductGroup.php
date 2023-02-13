@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProduct[] $relatedProduct
+ * @property RelatedProduct[] $relatedProduct
  * @property string $groupName
  * @property integer $rank
  * @property boolean $singleRelatedSKUPurchaseOnly
  */
-class RelatedProductGroup extends \DTS\eBaySDK\Types\BaseType
+class RelatedProductGroup extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

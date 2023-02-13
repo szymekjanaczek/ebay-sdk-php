@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Catalog\Mocks;
 
+use DTS\eBaySDK\Catalog\Services\CatalogBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Catalog\Services\CatalogBaseService
+class Service extends CatalogBaseService
 {
     protected static $operations = [
         'testOperation' => [

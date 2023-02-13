@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\DeleteInventoryItemGroupRestRequest;
 
-class DeleteInventoryItemGroupRestRequestTest extends \PHPUnit\Framework\TestCase
+class DeleteInventoryItemGroupRestRequestTest extends TestCase
 {
     private $obj;
 

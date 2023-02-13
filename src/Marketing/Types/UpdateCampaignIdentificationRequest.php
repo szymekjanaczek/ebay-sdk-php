@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $campaignName
  * @property string $endDate
  * @property string $startDate
  */
-class UpdateCampaignIdentificationRequest extends \DTS\eBaySDK\Types\BaseType
+class UpdateCampaignIdentificationRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

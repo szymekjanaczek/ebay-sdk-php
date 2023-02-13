@@ -10,59 +10,74 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\BuyerProtectionCodeType;
+use DTS\eBaySDK\Trading\Enums\CountryCodeType;
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
+use DTS\eBaySDK\Trading\Enums\DescriptionReviseModeCodeType;
+use DTS\eBaySDK\Trading\Enums\HitCounterCodeType;
+use DTS\eBaySDK\Trading\Enums\ListingEnhancementsCodeType;
+use DTS\eBaySDK\Trading\Enums\ListingTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType;
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\SiteCodeType;
+use DTS\eBaySDK\Trading\Enums\ListingSubtypeCodeType;
+use DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType;
+use DTS\eBaySDK\Trading\Enums\QuantityAvailableHintCodeType;
+use DTS\eBaySDK\Trading\Enums\ReasonHideFromSearchCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ApplicationData
  * @property boolean $AutoPay
- * @property \DTS\eBaySDK\Trading\Types\PaymentDetailsType $PaymentDetails
- * @property \DTS\eBaySDK\Trading\Types\BiddingDetailsType $BiddingDetails
+ * @property PaymentDetailsType $PaymentDetails
+ * @property BiddingDetailsType $BiddingDetails
  * @property boolean $MotorsGermanySearchable
- * @property \DTS\eBaySDK\Trading\Enums\BuyerProtectionCodeType $BuyerProtection
- * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyItNowPrice
+ * @property BuyerProtectionCodeType $BuyerProtection
+ * @property AmountType $BuyItNowPrice
  * @property boolean $CategoryMappingAllowed
- * @property \DTS\eBaySDK\Trading\Types\CharityType $Charity
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Country
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property CharityType $Charity
+ * @property CountryCodeType $Country
+ * @property CurrencyCodeType $Currency
  * @property string $Description
- * @property \DTS\eBaySDK\Trading\Enums\DescriptionReviseModeCodeType $DescriptionReviseMode
- * @property \DTS\eBaySDK\Trading\Enums\HitCounterCodeType $HitCounter
+ * @property DescriptionReviseModeCodeType $DescriptionReviseMode
+ * @property HitCounterCodeType $HitCounter
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\ListingDetailsType $ListingDetails
- * @property \DTS\eBaySDK\Trading\Types\ListingDesignerType $ListingDesigner
+ * @property ListingDetailsType $ListingDetails
+ * @property ListingDesignerType $ListingDesigner
  * @property string $ListingDuration
- * @property \DTS\eBaySDK\Trading\Enums\ListingEnhancementsCodeType[] $ListingEnhancement
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property ListingEnhancementsCodeType[] $ListingEnhancement
+ * @property ListingTypeCodeType $ListingType
  * @property string $Location
  * @property integer $LotSize
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
+ * @property BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property string $PayPalEmailAddress
- * @property \DTS\eBaySDK\Trading\Types\CategoryType $PrimaryCategory
- * @property \DTS\eBaySDK\Trading\Types\ProductListingDetailsType $ProductListingDetails
+ * @property CategoryType $PrimaryCategory
+ * @property ProductListingDetailsType $ProductListingDetails
  * @property integer $Quantity
  * @property string $PrivateNotes
  * @property boolean $RelistLink
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ReservePrice
- * @property \DTS\eBaySDK\Trading\Types\ReviseStatusType $ReviseStatus
- * @property \DateTime $ScheduleTime
- * @property \DTS\eBaySDK\Trading\Types\CategoryType $SecondaryCategory
- * @property \DTS\eBaySDK\Trading\Types\CategoryType $FreeAddedCategory
- * @property \DTS\eBaySDK\Trading\Types\UserType $Seller
- * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
- * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
+ * @property AmountType $ReservePrice
+ * @property ReviseStatusType $ReviseStatus
+ * @property DateTime $ScheduleTime
+ * @property CategoryType $SecondaryCategory
+ * @property CategoryType $FreeAddedCategory
+ * @property UserType $Seller
+ * @property SellingStatusType $SellingStatus
+ * @property ShippingDetailsType $ShippingDetails
  * @property string[] $ShipToLocations
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
- * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
- * @property \DTS\eBaySDK\Trading\Types\StorefrontType $Storefront
+ * @property SiteCodeType $Site
+ * @property AmountType $StartPrice
+ * @property StorefrontType $Storefront
  * @property string $SubTitle
  * @property string $TimeLeft
  * @property string $Title
  * @property string $UUID
- * @property \DTS\eBaySDK\Trading\Types\VATDetailsType $VATDetails
+ * @property VATDetailsType $VATDetails
  * @property string $SellerVacationNote
  * @property integer $WatchCount
  * @property integer $HitCount
  * @property boolean $DisableBuyerRequirements
- * @property \DTS\eBaySDK\Trading\Types\BestOfferDetailsType $BestOfferDetails
+ * @property BestOfferDetailsType $BestOfferDetails
  * @property boolean $LocationDefaulted
  * @property boolean $UseTaxTable
  * @property boolean $BuyerResponsibleForShipping
@@ -74,72 +89,72 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $CategoryBasedAttributesPrefill
  * @property string $PostalCode
  * @property boolean $ShippingTermsInDescription
- * @property \DTS\eBaySDK\Trading\Types\PictureDetailsType $PictureDetails
+ * @property PictureDetailsType $PictureDetails
  * @property integer $DispatchTimeMax
- * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerContactDetails
+ * @property AddressType $SellerContactDetails
  * @property integer $TotalQuestionCount
  * @property boolean $ProxyItem
- * @property \DTS\eBaySDK\Trading\Types\ExtendedContactDetailsType $ExtendedSellerContactDetails
+ * @property ExtendedContactDetailsType $ExtendedSellerContactDetails
  * @property integer $LeadCount
  * @property integer $NewLeadCount
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ClassifiedAdPayPerLeadFee
- * @property \DTS\eBaySDK\Trading\Types\BuyerProtectionDetailsType $ApplyBuyerProtection
- * @property \DTS\eBaySDK\Trading\Enums\ListingSubtypeCodeType $ListingSubtype2
+ * @property NameValueListArrayType $ItemSpecifics
+ * @property AmountType $ClassifiedAdPayPerLeadFee
+ * @property BuyerProtectionDetailsType $ApplyBuyerProtection
+ * @property ListingSubtypeCodeType $ListingSubtype2
  * @property boolean $MechanicalCheckAccepted
  * @property boolean $UpdateSellerInfo
  * @property boolean $UpdateReturnPolicy
- * @property \DTS\eBaySDK\Trading\Types\ItemPolicyViolationType $ItemPolicyViolation
+ * @property ItemPolicyViolationType $ItemPolicyViolation
  * @property string[] $CrossBorderTrade
- * @property \DTS\eBaySDK\Trading\Types\BusinessSellerDetailsType $BusinessSellerDetails
- * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyerGuaranteePrice
- * @property \DTS\eBaySDK\Trading\Types\BuyerRequirementDetailsType $BuyerRequirementDetails
- * @property \DTS\eBaySDK\Trading\Types\ReturnPolicyType $ReturnPolicy
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType[] $PaymentAllowedSite
- * @property \DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType $InventoryTrackingMethod
+ * @property BusinessSellerDetailsType $BusinessSellerDetails
+ * @property AmountType $BuyerGuaranteePrice
+ * @property BuyerRequirementDetailsType $BuyerRequirementDetails
+ * @property ReturnPolicyType $ReturnPolicy
+ * @property SiteCodeType[] $PaymentAllowedSite
+ * @property InventoryTrackingMethodCodeType $InventoryTrackingMethod
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\Trading\Types\VariationsType $Variations
- * @property \DTS\eBaySDK\Trading\Types\ItemCompatibilityListType $ItemCompatibilityList
+ * @property VariationsType $Variations
+ * @property ItemCompatibilityListType $ItemCompatibilityList
  * @property integer $ItemCompatibilityCount
  * @property integer $ConditionID
  * @property string $ConditionDescription
  * @property string $ConditionDisplayName
  * @property string $TaxCategory
- * @property \DTS\eBaySDK\Trading\Enums\QuantityAvailableHintCodeType $QuantityAvailableHint
+ * @property QuantityAvailableHintCodeType $QuantityAvailableHint
  * @property integer $QuantityThreshold
- * @property \DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property DiscountPriceInfoType $DiscountPriceInfo
  * @property string $SellerProvidedTitle
  * @property string $VIN
  * @property string $VRM
- * @property \DTS\eBaySDK\Trading\Types\QuantityInfoType $QuantityInfo
- * @property \DTS\eBaySDK\Trading\Types\SellerProfilesType $SellerProfiles
- * @property \DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideListType $ShippingServiceCostOverrideList
- * @property \DTS\eBaySDK\Trading\Types\ShipPackageDetailsType $ShippingPackageDetails
+ * @property QuantityInfoType $QuantityInfo
+ * @property SellerProfilesType $SellerProfiles
+ * @property ShippingServiceCostOverrideListType $ShippingServiceCostOverrideList
+ * @property ShipPackageDetailsType $ShippingPackageDetails
  * @property boolean $TopRatedListing
- * @property \DTS\eBaySDK\Trading\Types\QuantityRestrictionPerBuyerInfoType $QuantityRestrictionPerBuyer
- * @property \DTS\eBaySDK\Trading\Types\AmountType $FloorPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $CeilingPrice
+ * @property QuantityRestrictionPerBuyerInfoType $QuantityRestrictionPerBuyer
+ * @property AmountType $FloorPrice
+ * @property AmountType $CeilingPrice
  * @property boolean $IsIntermediatedShippingEligible
- * @property \DTS\eBaySDK\Trading\Types\UnitInfoType $UnitInfo
+ * @property UnitInfoType $UnitInfo
  * @property integer $RelistParentID
  * @property string $ConditionDefinition
  * @property boolean $HideFromSearch
- * @property \DTS\eBaySDK\Trading\Enums\ReasonHideFromSearchCodeType $ReasonHideFromSearch
+ * @property ReasonHideFromSearchCodeType $ReasonHideFromSearch
  * @property boolean $IncludeRecommendations
- * @property \DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType $PickupInStoreDetails
+ * @property PickupInStoreDetailsType $PickupInStoreDetails
  * @property boolean $eBayNowEligible
  * @property boolean $eBayNowAvailable
  * @property boolean $IgnoreQuantity
  * @property boolean $AvailableForPickupDropOff
  * @property boolean $EligibleForPickupDropOff
  * @property boolean $LiveAuction
- * @property \DTS\eBaySDK\Trading\Types\DigitalGoodInfoType $DigitalGoodInfo
+ * @property DigitalGoodInfoType $DigitalGoodInfo
  * @property boolean $eBayPlus
  * @property boolean $eBayPlusEligible
  * @property boolean $eMailDeliveryAvailable
  * @property boolean $IsSecureDescription
  */
-class ItemType extends \DTS\eBaySDK\Types\BaseType
+class ItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

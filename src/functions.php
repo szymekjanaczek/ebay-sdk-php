@@ -1,6 +1,7 @@
 <?php
 namespace DTS\eBaySDK;
 
+use InvalidArgumentException;
 use DTS\eBaySDK\Credentials\Credentials;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
 use DTS\eBaySDK\Credentials\CredentialsInterface;
@@ -76,13 +77,13 @@ function arrayMergeDeepArray(array $arrays)
  * @param mixed $value The credentials.
  * @param array &$configuration The configuration array where the resolved credentials will be stored.
  *
- * @throws \InvalidArgumentException.
+ * @throws InvalidArgumentException .
  */
 function applyCredentials($value, array &$configuration)
 {
     if (is_callable($value)) {
         $c = $value();
-        if ($c instanceof \InvalidArgumentException) {
+        if ($c instanceof InvalidArgumentException) {
             throw $c;
         } else {
             $configuration['credentials'] = $c;
@@ -100,7 +101,7 @@ function applyCredentials($value, array &$configuration)
             $value['devId']
         );
     } else {
-        throw new \InvalidArgumentException(
+        throw new InvalidArgumentException(
             'Credentials must be an instance of '
             . 'DTS\eBaySDK\Credentials\CredentialsInterface, an associative '
             . 'array that contains "appId", "certId", "devId", '
@@ -140,7 +141,7 @@ function applyDebug($value, array &$configuration)
  *
  * @param array &$configuration Not used.
  *
- * @return \DTS\eBaySDK\HttpHandler
+ * @return HttpHandler
  */
 function defaultHttpHandler(array &$configuration)
 {
@@ -156,7 +157,7 @@ function defaultHttpHandler(array &$configuration)
  */
 function checkPropertyType($type)
 {
-    if (\DTS\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES) {
+    if (Sdk::$STRICT_PROPERTY_TYPES) {
         return true;
     }
 

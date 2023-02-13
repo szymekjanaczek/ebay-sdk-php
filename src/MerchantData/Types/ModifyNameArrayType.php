@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\ModifyNameType[] $ModifyName
+ * @property ModifyNameType[] $ModifyName
  */
-class ModifyNameArrayType extends \DTS\eBaySDK\Types\BaseType
+class ModifyNameArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\DomainHistogramType;
 
-class DomainHistogramTypeTest extends \PHPUnit\Framework\TestCase
+class DomainHistogramTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation;
 
-class NumericTypeSpecificInformationTest extends \PHPUnit\Framework\TestCase
+class NumericTypeSpecificInformationTest extends TestCase
 {
     private $obj;
 

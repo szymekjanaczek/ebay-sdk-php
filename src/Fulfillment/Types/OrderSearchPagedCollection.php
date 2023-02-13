@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
  * @property integer $limit
  * @property string $next
  * @property integer $offset
- * @property \DTS\eBaySDK\Fulfillment\Types\Order[] $orders
+ * @property Order[] $orders
  * @property string $prev
  * @property integer $total
- * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class OrderSearchPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class OrderSearchPagedCollection extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Type
@@ -18,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Code
  * @property string[] $Value
  * @property string $Message
- * @property \DTS\eBaySDK\Trading\Types\MetadataType[] $Metadata
+ * @property MetadataType[] $Metadata
  */
-class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
+class ListingRecommendationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

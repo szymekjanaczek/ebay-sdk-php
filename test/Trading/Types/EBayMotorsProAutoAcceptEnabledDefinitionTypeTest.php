@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\EBayMotorsProAutoAcceptEnabledDefinitionType;
 
-class EBayMotorsProAutoAcceptEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class EBayMotorsProAutoAcceptEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

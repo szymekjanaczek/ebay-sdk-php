@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Enums\WeightUnitOfMeasureEnum;
 
-class WeightUnitOfMeasureEnumTest extends \PHPUnit\Framework\TestCase
+class WeightUnitOfMeasureEnumTest extends TestCase
 {
     private $obj;
 

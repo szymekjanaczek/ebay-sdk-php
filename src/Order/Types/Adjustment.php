@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\Amount $amount
+ * @property Amount $amount
  * @property string $label
  */
-class Adjustment extends \DTS\eBaySDK\Types\BaseType
+class Adjustment extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

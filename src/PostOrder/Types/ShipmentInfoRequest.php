@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $proofOfShipmentUploaded
- * @property \DTS\eBaySDK\PostOrder\Types\Text $sellerComments
+ * @property Text $sellerComments
  * @property boolean $shippedWithTracking
  * @property string $shippingCarrierName
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shippingDate
+ * @property DateTime $shippingDate
  * @property string $trackingNumber
  */
-class ShipmentInfoRequest extends \DTS\eBaySDK\Types\BaseType
+class ShipmentInfoRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

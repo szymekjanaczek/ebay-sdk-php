@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $type
  * @property double $quantity
  */
-class UnitPriceInfo extends \DTS\eBaySDK\Types\BaseType
+class UnitPriceInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

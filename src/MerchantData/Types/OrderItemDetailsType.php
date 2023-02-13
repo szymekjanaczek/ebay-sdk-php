@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\OrderLineItemType[] $OrderLineItem
+ * @property OrderLineItemType[] $OrderLineItem
  */
-class OrderItemDetailsType extends \DTS\eBaySDK\Types\BaseType
+class OrderItemDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

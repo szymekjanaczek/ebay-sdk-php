@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Enums\RefundStatusEnum;
 
-class RefundStatusEnumTest extends \PHPUnit\Framework\TestCase
+class RefundStatusEnumTest extends TestCase
 {
     private $obj;
 

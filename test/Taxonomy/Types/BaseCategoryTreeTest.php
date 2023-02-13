@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Taxonomy\Types\BaseCategoryTree;
 
-class BaseCategoryTreeTest extends \PHPUnit\Framework\TestCase
+class BaseCategoryTreeTest extends TestCase
 {
     private $obj;
 

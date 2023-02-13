@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $applyTax
  * @property string $thirdPartyTaxCategory
  * @property double $vatPercentage
  */
-class Tax extends \DTS\eBaySDK\Types\BaseType
+class Tax extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

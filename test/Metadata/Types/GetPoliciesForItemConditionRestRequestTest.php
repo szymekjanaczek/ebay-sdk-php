@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestRequest;
 
-class GetPoliciesForItemConditionRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetPoliciesForItemConditionRestRequestTest extends TestCase
 {
     private $obj;
 

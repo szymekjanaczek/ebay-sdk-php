@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\BuyingOptionDistribution;
 
-class BuyingOptionDistributionTest extends \PHPUnit\Framework\TestCase
+class BuyingOptionDistributionTest extends TestCase
 {
     private $obj;
 

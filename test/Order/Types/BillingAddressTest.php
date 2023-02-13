@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\BillingAddress;
 
-class BillingAddressTest extends \PHPUnit\Framework\TestCase
+class BillingAddressTest extends TestCase
 {
     private $obj;
 

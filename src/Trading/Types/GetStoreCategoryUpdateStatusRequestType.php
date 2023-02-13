@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $TaskID
  */
-class GetStoreCategoryUpdateStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetStoreCategoryUpdateStatusRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\OfferPriceQuantity[] $offers
- * @property \DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability $shipToLocationAvailability
+ * @property OfferPriceQuantity[] $offers
+ * @property ShipToLocationAvailability $shipToLocationAvailability
  * @property string $sku
  */
-class PriceQuantity extends \DTS\eBaySDK\Types\BaseType
+class PriceQuantity extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

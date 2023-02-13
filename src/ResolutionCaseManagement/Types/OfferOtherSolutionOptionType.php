@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class OfferOtherSolutionOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class OfferOtherSolutionOptionType extends BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

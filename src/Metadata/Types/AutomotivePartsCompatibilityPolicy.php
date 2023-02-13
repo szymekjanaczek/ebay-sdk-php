@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Metadata\Enums\CompatibilityTypeEnum;
+use DTS\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $categoryId
  * @property string $categoryTreeId
- * @property \DTS\eBaySDK\Metadata\Enums\CompatibilityTypeEnum $compatibilityBasedOn
- * @property \DTS\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum[] $compatibleVehicleTypes
+ * @property CompatibilityTypeEnum $compatibilityBasedOn
+ * @property CompatibleVehicleTypeEnum[] $compatibleVehicleTypes
  * @property integer $maxNumberOfCompatibleVehicles
  */
-class AutomotivePartsCompatibilityPolicy extends \DTS\eBaySDK\Types\BaseType
+class AutomotivePartsCompatibilityPolicy extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

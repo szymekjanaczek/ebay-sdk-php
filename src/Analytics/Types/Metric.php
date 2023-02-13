@@ -10,9 +10,12 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum;
+use DTS\eBaySDK\Analytics\Enums\DataTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum $level
+ * @property StandardsLevelEnum $level
  * @property string $lookbackEndDate
  * @property string $lookbackStartDate
  * @property string $metricKey
@@ -20,10 +23,10 @@ namespace DTS\eBaySDK\Analytics\Types;
  * @property mixed $thresholdLowerBound
  * @property string $thresholdMetaData
  * @property mixed $thresholdUpperBound
- * @property \DTS\eBaySDK\Analytics\Enums\DataTypeEnum $type
+ * @property DataTypeEnum $type
  * @property mixed $value
  */
-class Metric extends \DTS\eBaySDK\Types\BaseType
+class Metric extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

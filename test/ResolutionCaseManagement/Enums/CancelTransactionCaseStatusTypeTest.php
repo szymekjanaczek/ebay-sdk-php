@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType;
 
-class CancelTransactionCaseStatusTypeTest extends \PHPUnit\Framework\TestCase
+class CancelTransactionCaseStatusTypeTest extends TestCase
 {
     private $obj;
 

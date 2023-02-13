@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $marketplace_id
  * @property string $name
  */
-class GetAPaymentPolicyByNameRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetAPaymentPolicyByNameRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

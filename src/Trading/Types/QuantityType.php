@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\DecimalType;
 /**
  *
  * @property string $unit
  */
-class QuantityType extends \DTS\eBaySDK\Types\DecimalType
+class QuantityType extends DecimalType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetMyeBayRemindersResponseType;
 
-class GetMyeBayRemindersResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetMyeBayRemindersResponseTypeTest extends TestCase
 {
     private $obj;
 

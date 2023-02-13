@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\NameValueRelationshipType;
 
-class NameValueRelationshipTypeTest extends \PHPUnit\Framework\TestCase
+class NameValueRelationshipTypeTest extends TestCase
 {
     private $obj;
 

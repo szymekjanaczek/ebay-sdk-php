@@ -10,21 +10,23 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
- * @property \DTS\eBaySDK\Account\Types\Deposit $deposit
+ * @property CategoryType[] $categoryTypes
+ * @property Deposit $deposit
  * @property string $description
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $fullPaymentDueIn
+ * @property TimeDuration $fullPaymentDueIn
  * @property boolean $immediatePay
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property MarketplaceIdEnum $marketplaceId
  * @property string $name
  * @property string $paymentInstructions
- * @property \DTS\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods
+ * @property PaymentMethod[] $paymentMethods
  * @property string $paymentPolicyId
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class SetPaymentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class SetPaymentPolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

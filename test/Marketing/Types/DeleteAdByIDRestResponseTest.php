@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\DeleteAdByIDRestResponse;
 
-class DeleteAdByIDRestResponseTest extends \PHPUnit\Framework\TestCase
+class DeleteAdByIDRestResponseTest extends TestCase
 {
     private $obj;
 

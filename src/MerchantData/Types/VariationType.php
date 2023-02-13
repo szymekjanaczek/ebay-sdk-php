@@ -10,25 +10,26 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $StartPrice
+ * @property AmountType $StartPrice
  * @property integer $Quantity
- * @property \DTS\eBaySDK\MerchantData\Types\NameValueListArrayType[] $VariationSpecifics
+ * @property NameValueListArrayType[] $VariationSpecifics
  * @property integer $UnitsAvailable
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $UnitCost
- * @property \DTS\eBaySDK\MerchantData\Types\SellingStatusType $SellingStatus
+ * @property AmountType $UnitCost
+ * @property SellingStatusType $SellingStatus
  * @property string $VariationTitle
  * @property string $VariationViewItemURL
  * @property boolean $Delete
- * @property \DTS\eBaySDK\MerchantData\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
  * @property integer $WatchCount
  * @property string $PrivateNotes
- * @property \DTS\eBaySDK\MerchantData\Types\DiscountPriceInfoType $DiscountPriceInfo
- * @property \DTS\eBaySDK\MerchantData\Types\VariationProductListingDetailsType $VariationProductListingDetails
+ * @property DiscountPriceInfoType $DiscountPriceInfo
+ * @property VariationProductListingDetailsType $VariationProductListingDetails
  */
-class VariationType extends \DTS\eBaySDK\Types\BaseType
+class VariationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

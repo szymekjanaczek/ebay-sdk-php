@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $WatchListCount
  * @property integer $WatchListMaximum
  */
-class RemoveFromWatchListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class RemoveFromWatchListResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

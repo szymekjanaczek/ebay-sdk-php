@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\TrackingStatusType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\TrackingStatusType $deliveryStatus
+ * @property TrackingStatusType $deliveryStatus
  */
-class ProvideTrackingInfoResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class ProvideTrackingInfoResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

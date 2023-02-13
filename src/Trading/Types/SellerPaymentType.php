@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class SellerPaymentType extends \DTS\eBaySDK\Types\BaseType
+class SellerPaymentType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

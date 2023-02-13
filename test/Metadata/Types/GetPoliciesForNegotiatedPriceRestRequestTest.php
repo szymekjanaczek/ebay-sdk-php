@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestRequest;
 
-class GetPoliciesForNegotiatedPriceRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetPoliciesForNegotiatedPriceRestRequestTest extends TestCase
 {
     private $obj;
 

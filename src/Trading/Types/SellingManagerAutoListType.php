@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $SourceSaleTemplateID
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType $KeepMinActive
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType $ListAccordingToSchedule
+ * @property SellingManagerAutoListMinActiveItemsType $KeepMinActive
+ * @property SellingManagerAutoListAccordingToScheduleType $ListAccordingToSchedule
  */
-class SellingManagerAutoListType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerAutoListType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

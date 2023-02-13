@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
  * @property string $value
  */
-class ErrorParameter extends \DTS\eBaySDK\Types\BaseType
+class ErrorParameter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

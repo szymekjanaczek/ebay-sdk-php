@@ -12,13 +12,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
- * @property \DTS\eBaySDK\Trading\Types\ItemBestOffersArrayType $ItemBestOffersArray
+ * @property BestOfferArrayType $BestOfferArray
+ * @property ItemType $Item
+ * @property ItemBestOffersArrayType $ItemBestOffersArray
  * @property integer $PageNumber
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property PaginationResultType $PaginationResult
  */
-class GetBestOffersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetBestOffersResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

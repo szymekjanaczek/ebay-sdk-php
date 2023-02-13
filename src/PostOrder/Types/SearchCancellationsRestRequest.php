@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $buyer_login_name
@@ -24,7 +25,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $sort
  * @property string $transaction_id
  */
-class SearchCancellationsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class SearchCancellationsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

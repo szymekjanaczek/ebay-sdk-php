@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\PostOrder\Mocks;
 
+use DTS\eBaySDK\PostOrder\Services\PostOrderBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseService
+class Service extends PostOrderBaseService
 {
     protected static $operations = [
         'testOperation' => [

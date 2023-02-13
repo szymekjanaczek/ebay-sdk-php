@@ -10,21 +10,24 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\InquiryEligibilityStatusEnum;
+use DTS\eBaySDK\PostOrder\Enums\PaymentDenialReasonEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $earliestPossibleFilingDate
- * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResponseError[] $errors
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $estimatedDeliveryDate
- * @property \DTS\eBaySDK\PostOrder\Enums\InquiryEligibilityStatusEnum $inquiryEligibilityStatus
+ * @property DateTime $earliestPossibleFilingDate
+ * @property EligibilityResponseError[] $errors
+ * @property DateTime $estimatedDeliveryDate
+ * @property InquiryEligibilityStatusEnum $inquiryEligibilityStatus
  * @property string $inquiryId
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $latestPossibleFilingDate
- * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResponseError[] $nonOverridableErrors
- * @property \DTS\eBaySDK\PostOrder\Enums\PaymentDenialReasonEnum $paypalReasonToDenyRequestFiling
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $returnFilingDate
+ * @property DateTime $latestPossibleFilingDate
+ * @property EligibilityResponseError[] $nonOverridableErrors
+ * @property PaymentDenialReasonEnum $paypalReasonToDenyRequestFiling
+ * @property DateTime $returnFilingDate
  * @property string $returnId
- * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResponseError[] $warnings
+ * @property EligibilityResponseError[] $warnings
  */
-class CheckInquiryEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
+class CheckInquiryEligibilityResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

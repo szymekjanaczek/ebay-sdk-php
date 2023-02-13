@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $EnforcedOnListingSite
  * @property boolean $EnforcedOnRegistrationSite
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class RecoupmentPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
+class RecoupmentPolicyDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CategoryArrayType $CategoryArray
+ * @property CategoryArrayType $CategoryArray
  * @property integer $CategoryCount
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  * @property string $CategoryVersion
  * @property boolean $ReservePriceAllowed
  * @property double $MinimumReservePrice
  * @property boolean $ReduceReserveAllowed
  */
-class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetCategoriesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

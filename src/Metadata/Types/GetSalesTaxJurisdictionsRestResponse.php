@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetSalesTaxJurisdictionsRestResponse extends \DTS\eBaySDK\Metadata\Types\SalesTaxJurisdictions
+class GetSalesTaxJurisdictionsRestResponse extends SalesTaxJurisdictions
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

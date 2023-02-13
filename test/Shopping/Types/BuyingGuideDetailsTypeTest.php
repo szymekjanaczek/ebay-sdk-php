@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\BuyingGuideDetailsType;
 
-class BuyingGuideDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class BuyingGuideDetailsTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,23 +10,25 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
+ * @property CategoryType[] $categoryTypes
  * @property string $description
  * @property boolean $freightShipping
  * @property string $fulfillmentPolicyId
  * @property boolean $globalShipping
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $handlingTime
+ * @property TimeDuration $handlingTime
  * @property boolean $localPickup
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property MarketplaceIdEnum $marketplaceId
  * @property string $name
  * @property boolean $pickupDropOff
- * @property \DTS\eBaySDK\Account\Types\ShippingOption[] $shippingOptions
- * @property \DTS\eBaySDK\Account\Types\RegionSet $shipToLocations
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property ShippingOption[] $shippingOptions
+ * @property RegionSet $shipToLocations
+ * @property ErrorDetailV3[] $warnings
  */
-class SetFulfillmentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class SetFulfillmentPolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

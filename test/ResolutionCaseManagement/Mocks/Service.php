@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Mocks;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementBaseService
+class Service extends ResolutionCaseManagementBaseService
 {
     public function __construct(array $config)
     {

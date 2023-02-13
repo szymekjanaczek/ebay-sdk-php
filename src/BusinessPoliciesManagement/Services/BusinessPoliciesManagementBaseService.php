@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Services;
 
+use DTS\eBaySDK\Services\BaseService;
 /**
  * Base class for the BusinessPoliciesManagement service.
  */
-class BusinessPoliciesManagementBaseService extends \DTS\eBaySDK\Services\BaseService
+class BusinessPoliciesManagementBaseService extends BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +47,7 @@ class BusinessPoliciesManagementBaseService extends \DTS\eBaySDK\Services\BaseSe
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService::API_VERSION
+                'default' => BusinessPoliciesManagementService::API_VERSION
             ],
             'authToken' => [
                 'valid' => ['string'],

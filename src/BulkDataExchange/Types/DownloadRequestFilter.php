@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\FeeSettlementReportFilter $feeSettlementReportFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\SiteFilter $siteFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter $activeInventoryReportFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\DateFilter $dateFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter $soldReportFilter
- * @property \DTS\eBaySDK\BulkDataExchange\Types\OrderReportFilter $orderReportFilter
+ * @property FeeSettlementReportFilter $feeSettlementReportFilter
+ * @property SiteFilter $siteFilter
+ * @property ActiveInventoryReportFilter $activeInventoryReportFilter
+ * @property DateFilter $dateFilter
+ * @property SoldReportFilter $soldReportFilter
+ * @property OrderReportFilter $orderReportFilter
  */
-class DownloadRequestFilter extends \DTS\eBaySDK\Types\BaseType
+class DownloadRequestFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Keyword
- * @property \DTS\eBaySDK\Trading\Types\CategoryType $Category
+ * @property CategoryType $Category
  * @property integer $Ranking
  */
-class ContextSearchAssetType extends \DTS\eBaySDK\Types\BaseType
+class ContextSearchAssetType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

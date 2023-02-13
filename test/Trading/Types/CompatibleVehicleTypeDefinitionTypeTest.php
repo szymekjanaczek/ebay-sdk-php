@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\CompatibleVehicleTypeDefinitionType;
 
-class CompatibleVehicleTypeDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class CompatibleVehicleTypeDefinitionTypeTest extends TestCase
 {
     private $obj;
 

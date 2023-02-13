@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $countryCode
  * @property string $jurisdictionId
  */
-class GetASalesTaxTableRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetASalesTaxTableRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

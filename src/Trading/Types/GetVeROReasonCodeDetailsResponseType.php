@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType $VeROReasonCodeDetails
+ * @property VeROReasonCodeDetailsType $VeROReasonCodeDetails
  */
-class GetVeROReasonCodeDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetVeROReasonCodeDetailsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType;
 
-class ProductIdentiferEnabledCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ProductIdentiferEnabledCodeTypeTest extends TestCase
 {
     private $obj;
 

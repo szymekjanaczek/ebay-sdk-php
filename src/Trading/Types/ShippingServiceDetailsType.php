@@ -10,6 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ShippingServiceCodeType;
+use DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType;
+use DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Description
@@ -19,24 +25,24 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $ShippingServiceID
  * @property integer $ShippingTimeMax
  * @property integer $ShippingTimeMin
- * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceCodeType $ShippingServiceCode
- * @property \DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType[] $ServiceType
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType[] $ShippingPackage
+ * @property ShippingServiceCodeType $ShippingServiceCode
+ * @property ShippingTypeCodeType[] $ServiceType
+ * @property ShippingPackageCodeType[] $ShippingPackage
  * @property boolean $DimensionsRequired
  * @property boolean $ValidForSellingFlow
  * @property boolean $SurchargeApplicable
- * @property \DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType[] $ShippingCarrier
+ * @property ShippingCarrierCodeType[] $ShippingCarrier
  * @property boolean $CODService
- * @property \DTS\eBaySDK\Trading\Types\AnnouncementMessageType[] $DeprecationDetails
+ * @property AnnouncementMessageType[] $DeprecationDetails
  * @property integer $MappedToShippingServiceID
  * @property string $CostGroupFlat
- * @property \DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType[] $ShippingServicePackageDetails
+ * @property ShippingServicePackageDetailsType[] $ShippingServicePackageDetails
  * @property boolean $WeightRequired
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  * @property string $ShippingCategory
  */
-class ShippingServiceDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServiceDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

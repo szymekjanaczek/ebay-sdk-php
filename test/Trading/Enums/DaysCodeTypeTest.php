@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\DaysCodeType;
 
-class DaysCodeTypeTest extends \PHPUnit\Framework\TestCase
+class DaysCodeTypeTest extends TestCase
 {
     private $obj;
 

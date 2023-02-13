@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\ProvideTrackingInfoRequest;
 
-class ProvideTrackingInfoRequestTest extends \PHPUnit\Framework\TestCase
+class ProvideTrackingInfoRequestTest extends TestCase
 {
     private $obj;
 

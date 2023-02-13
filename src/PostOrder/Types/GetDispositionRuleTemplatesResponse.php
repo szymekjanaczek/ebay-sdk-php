@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleTemplateDetailType[] $ruleTemplates
+ * @property RuleTemplateDetailType[] $ruleTemplates
  */
-class GetDispositionRuleTemplatesResponse extends \DTS\eBaySDK\Types\BaseType
+class GetDispositionRuleTemplatesResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

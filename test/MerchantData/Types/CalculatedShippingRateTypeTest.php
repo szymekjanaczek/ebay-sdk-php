@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\CalculatedShippingRateType;
 
-class CalculatedShippingRateTypeTest extends \PHPUnit\Framework\TestCase
+class CalculatedShippingRateTypeTest extends TestCase
 {
     private $obj;
 

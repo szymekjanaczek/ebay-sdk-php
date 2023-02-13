@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetItemShippingResponseType;
 
-class GetItemShippingResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetItemShippingResponseTypeTest extends TestCase
 {
     private $obj;
 

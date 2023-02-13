@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType;
 
-class ReturnStatusFilterTypeTest extends \PHPUnit\Framework\TestCase
+class ReturnStatusFilterTypeTest extends TestCase
 {
     private $obj;
 

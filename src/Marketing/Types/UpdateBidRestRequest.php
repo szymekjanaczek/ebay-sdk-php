@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $ad_id
  * @property string $campaign_id
  */
-class UpdateBidRestRequest extends \DTS\eBaySDK\Marketing\Types\UpdateBidPercentageRequest
+class UpdateBidRestRequest extends UpdateBidPercentageRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

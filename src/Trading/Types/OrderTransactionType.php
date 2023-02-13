@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OrderType $Order
- * @property \DTS\eBaySDK\Trading\Types\TransactionType $Transaction
+ * @property OrderType $Order
+ * @property TransactionType $Transaction
  */
-class OrderTransactionType extends \DTS\eBaySDK\Types\BaseType
+class OrderTransactionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

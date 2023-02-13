@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\ReturnReasonEnum;
+use DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnItemType $item
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
+ * @property Text $comments
+ * @property DateTime $creationDate
+ * @property ReturnItemType $item
+ * @property ReturnReasonEnum $reason
+ * @property ReturnTypeEnum $type
  */
-class ReturnCreationInfoType extends \DTS\eBaySDK\Types\BaseType
+class ReturnCreationInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

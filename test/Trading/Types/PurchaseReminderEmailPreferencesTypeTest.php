@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType;
 
-class PurchaseReminderEmailPreferencesTypeTest extends \PHPUnit\Framework\TestCase
+class PurchaseReminderEmailPreferencesTypeTest extends TestCase
 {
     private $obj;
 

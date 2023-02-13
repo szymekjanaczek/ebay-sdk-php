@@ -10,14 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\URLTypeCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\URLTypeCodeType $URLType
+ * @property URLTypeCodeType $URLType
  * @property string $URL
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class URLDetailsType extends \DTS\eBaySDK\Types\BaseType
+class URLDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

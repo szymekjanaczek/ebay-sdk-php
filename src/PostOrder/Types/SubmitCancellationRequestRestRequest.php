@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
 /**
  *
  */
-class SubmitCancellationRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateCancelRequest
+class SubmitCancellationRequestRestRequest extends CreateCancelRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

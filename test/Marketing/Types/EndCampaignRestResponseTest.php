@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\EndCampaignRestResponse;
 
-class EndCampaignRestResponseTest extends \PHPUnit\Framework\TestCase
+class EndCampaignRestResponseTest extends TestCase
 {
     private $obj;
 

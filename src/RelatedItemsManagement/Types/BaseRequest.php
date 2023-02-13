@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType[] $extension
+ * @property ExtensionType[] $extension
  */
-class BaseRequest extends \DTS\eBaySDK\Types\BaseType
+class BaseRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

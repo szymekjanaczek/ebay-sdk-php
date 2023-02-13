@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ProStoresCheckoutPreferenceType;
 
-class ProStoresCheckoutPreferenceTypeTest extends \PHPUnit\Framework\TestCase
+class ProStoresCheckoutPreferenceTypeTest extends TestCase
 {
     private $obj;
 

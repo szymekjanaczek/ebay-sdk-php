@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Feedback\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Feedback\Types\TransactionKey;
 
-class TransactionKeyTest extends \PHPUnit\Framework\TestCase
+class TransactionKeyTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType;
 
-class MyMessagesFolderSummaryTypeTest extends \PHPUnit\Framework\TestCase
+class MyMessagesFolderSummaryTypeTest extends TestCase
 {
     private $obj;
 

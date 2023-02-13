@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\RefundFeeTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $estimatedAmount
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $maxAmount
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $minAmount
- * @property \DTS\eBaySDK\PostOrder\Enums\RefundFeeTypeEnum $refundFeeType
+ * @property Amount $estimatedAmount
+ * @property Amount $maxAmount
+ * @property Amount $minAmount
+ * @property RefundFeeTypeEnum $refundFeeType
  * @property string $restockingFeePercentage
  */
-class EstimatedRefundType extends \DTS\eBaySDK\Types\BaseType
+class EstimatedRefundType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

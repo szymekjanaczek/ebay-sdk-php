@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\ValueTypeCodeType;
 
-class ValueTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ValueTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

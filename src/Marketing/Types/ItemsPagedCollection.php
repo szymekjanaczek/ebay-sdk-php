@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
  * @property integer $limit
- * @property \DTS\eBaySDK\Marketing\Types\ListingDetail[] $listings
+ * @property ListingDetail[] $listings
  * @property string $next
  * @property integer $offset
  * @property string $prev
  * @property integer $total
  */
-class ItemsPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class ItemsPagedCollection extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

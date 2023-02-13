@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\Address;
 
-class AddressTest extends \PHPUnit\Framework\TestCase
+class AddressTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum;
 
-class CriterionTypeEnumTest extends \PHPUnit\Framework\TestCase
+class CriterionTypeEnumTest extends TestCase
 {
     private $obj;
 

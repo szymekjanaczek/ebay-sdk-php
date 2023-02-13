@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\PackageWeightAndSize;
 
-class PackageWeightAndSizeTest extends \PHPUnit\Framework\TestCase
+class PackageWeightAndSizeTest extends TestCase
 {
     private $obj;
 

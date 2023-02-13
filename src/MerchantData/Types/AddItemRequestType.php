@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\ItemType $Item
+ * @property ItemType $Item
  */
-class AddItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
+class AddItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property string $CategoryID
- * @property \DateTime $LastModifiedTime
+ * @property DateTime $LastModifiedTime
  * @property boolean $MotorVehicles
  */
-class GetDescriptionTemplatesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetDescriptionTemplatesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

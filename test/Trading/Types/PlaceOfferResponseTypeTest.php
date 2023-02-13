@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\PlaceOfferResponseType;
 
-class PlaceOfferResponseTypeTest extends \PHPUnit\Framework\TestCase
+class PlaceOfferResponseTypeTest extends TestCase
 {
     private $obj;
 

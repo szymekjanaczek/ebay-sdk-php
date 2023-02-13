@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse;
 
-class UpdateGuestLineItemShippingAddressRestResponseTest extends \PHPUnit\Framework\TestCase
+class UpdateGuestLineItemShippingAddressRestResponseTest extends TestCase
 {
     private $obj;
 

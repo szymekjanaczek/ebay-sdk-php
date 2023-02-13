@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $RefundOption
  * @property string $Description
  */
-class RefundDetailsType extends \DTS\eBaySDK\Types\BaseType
+class RefundDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

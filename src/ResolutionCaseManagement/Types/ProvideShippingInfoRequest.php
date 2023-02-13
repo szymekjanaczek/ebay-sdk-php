@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DateTime;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property CaseIdType $caseId
  * @property string $carrierUsed
- * @property \DateTime $shippedDate
+ * @property DateTime $shippedDate
  * @property string $comments
  */
-class ProvideShippingInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class ProvideShippingInfoRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

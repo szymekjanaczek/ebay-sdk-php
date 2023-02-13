@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class UploadDocumentsResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class UploadDocumentsResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

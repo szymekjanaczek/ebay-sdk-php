@@ -10,21 +10,23 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Shopping\Enums\ProductSortCodeType;
+use DTS\eBaySDK\Shopping\Enums\SortOrderCodeType;
 /**
  *
  * @property string $IncludeSelector
  * @property boolean $AvailableItemsOnly
  * @property string[] $DomainName
- * @property \DTS\eBaySDK\Shopping\Types\ProductIDType $ProductID
+ * @property ProductIDType $ProductID
  * @property string $QueryKeywords
- * @property \DTS\eBaySDK\Shopping\Enums\ProductSortCodeType $ProductSort
- * @property \DTS\eBaySDK\Shopping\Enums\SortOrderCodeType $SortOrder
+ * @property ProductSortCodeType $ProductSort
+ * @property SortOrderCodeType $SortOrder
  * @property integer $MaxEntries
  * @property integer $PageNumber
  * @property string $CategoryID
  * @property boolean $HideDuplicateItems
  */
-class FindProductsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class FindProductsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

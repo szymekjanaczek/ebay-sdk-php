@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetNotificationPreferencesResponseType;
 
-class GetNotificationPreferencesResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetNotificationPreferencesResponseTypeTest extends TestCase
 {
     private $obj;
 

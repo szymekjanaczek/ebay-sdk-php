@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\BulkDataExchange\Enums\ErrorSeverity;
+use DTS\eBaySDK\BulkDataExchange\Enums\ErrorCategory;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $errorId
  * @property string $domain
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\ErrorSeverity $severity
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\ErrorCategory $category
+ * @property ErrorSeverity $severity
+ * @property ErrorCategory $category
  * @property string $message
  * @property string $subdomain
  * @property string $exceptionId
- * @property \DTS\eBaySDK\BulkDataExchange\Types\ErrorParameter[] $parameter
+ * @property ErrorParameter[] $parameter
  */
-class ErrorData extends \DTS\eBaySDK\Types\BaseType
+class ErrorData extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

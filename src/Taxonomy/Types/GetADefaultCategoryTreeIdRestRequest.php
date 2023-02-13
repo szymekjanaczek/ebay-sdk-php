@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Taxonomy\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $marketplace_id
  */
-class GetADefaultCategoryTreeIdRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetADefaultCategoryTreeIdRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

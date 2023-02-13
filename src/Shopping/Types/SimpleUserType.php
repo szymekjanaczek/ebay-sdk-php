@@ -10,18 +10,25 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Shopping\Enums\FeedbackRatingStarCodeType;
+use DateTime;
+use DTS\eBaySDK\Shopping\Enums\SiteCodeType;
+use DTS\eBaySDK\Shopping\Enums\UserStatusCodeType;
+use DTS\eBaySDK\Shopping\Enums\SellerBusinessCodeType;
+use DTS\eBaySDK\Shopping\Enums\SellerLevelCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $UserID
  * @property boolean $FeedbackPrivate
- * @property \DTS\eBaySDK\Shopping\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
+ * @property FeedbackRatingStarCodeType $FeedbackRatingStar
  * @property integer $FeedbackScore
  * @property boolean $UserAnonymized
  * @property boolean $NewUser
- * @property \DateTime $RegistrationDate
- * @property \DTS\eBaySDK\Shopping\Enums\SiteCodeType $RegistrationSite
- * @property \DTS\eBaySDK\Shopping\Enums\UserStatusCodeType $Status
- * @property \DTS\eBaySDK\Shopping\Enums\SellerBusinessCodeType $SellerBusinessType
+ * @property DateTime $RegistrationDate
+ * @property SiteCodeType $RegistrationSite
+ * @property UserStatusCodeType $Status
+ * @property SellerBusinessCodeType $SellerBusinessType
  * @property string $StoreURL
  * @property string $StoreName
  * @property string $SellerItemsURL
@@ -32,10 +39,10 @@ namespace DTS\eBaySDK\Shopping\Types;
  * @property string $ReviewsAndGuidesURL
  * @property string $FeedbackDetailsURL
  * @property double $PositiveFeedbackPercent
- * @property \DTS\eBaySDK\Shopping\Enums\SellerLevelCodeType $SellerLevel
+ * @property SellerLevelCodeType $SellerLevel
  * @property boolean $TopRatedSeller
  */
-class SimpleUserType extends \DTS\eBaySDK\Types\BaseType
+class SimpleUserType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

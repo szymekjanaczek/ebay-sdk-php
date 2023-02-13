@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ErrorCode
  * @property string $Severity
  * @property string $DetailedMessage
  */
-class FaultDetailsType extends \DTS\eBaySDK\Types\BaseType
+class FaultDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

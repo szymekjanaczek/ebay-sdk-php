@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\UserType $User
+ * @property UserType $User
  */
-class GetUserResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetUserResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

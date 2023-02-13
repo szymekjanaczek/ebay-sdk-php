@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class SearchForItemsRestResponse extends \DTS\eBaySDK\Browse\Types\SearchPagedCollection
+class SearchForItemsRestResponse extends SearchPagedCollection
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $conflictCode
- * @property \DTS\eBaySDK\Catalog\Types\ProductAspect[] $differentiatingAspects
+ * @property ProductAspect[] $differentiatingAspects
  * @property string $epid
  * @property string $reason
  */
-class ConflictingProduct extends \DTS\eBaySDK\Types\BaseType
+class ConflictingProduct extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

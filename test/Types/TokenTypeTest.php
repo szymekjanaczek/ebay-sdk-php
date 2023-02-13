@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Types\TokenType;
 
-class TokenTypeTest extends \PHPUnit\Framework\TestCase
+class TokenTypeTest extends TestCase
 {
     private $obj;
 

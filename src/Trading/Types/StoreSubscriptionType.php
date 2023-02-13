@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType $Level
- * @property \DTS\eBaySDK\Trading\Types\AmountType $Fee
+ * @property StoreSubscriptionLevelCodeType $Level
+ * @property AmountType $Fee
  */
-class StoreSubscriptionType extends \DTS\eBaySDK\Types\BaseType
+class StoreSubscriptionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

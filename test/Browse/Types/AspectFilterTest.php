@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\AspectFilter;
 
-class AspectFilterTest extends \PHPUnit\Framework\TestCase
+class AspectFilterTest extends TestCase
 {
     private $obj;
 

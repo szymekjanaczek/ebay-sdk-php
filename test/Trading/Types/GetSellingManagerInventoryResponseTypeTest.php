@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetSellingManagerInventoryResponseType;
 
-class GetSellingManagerInventoryResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetSellingManagerInventoryResponseTypeTest extends TestCase
 {
     private $obj;
 

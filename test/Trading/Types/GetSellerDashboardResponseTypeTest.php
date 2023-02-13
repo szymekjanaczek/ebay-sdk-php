@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetSellerDashboardResponseType;
 
-class GetSellerDashboardResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetSellerDashboardResponseTypeTest extends TestCase
 {
     private $obj;
 

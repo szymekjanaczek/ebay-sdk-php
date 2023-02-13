@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Finding\Enums\MapExposureEnum;
+use DTS\eBaySDK\Finding\Enums\PriceTreatmentEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\Amount $originalRetailPrice
- * @property \DTS\eBaySDK\Finding\Enums\MapExposureEnum $minimumAdvertisedPriceExposure
- * @property \DTS\eBaySDK\Finding\Enums\PriceTreatmentEnum $pricingTreatment
+ * @property Amount $originalRetailPrice
+ * @property MapExposureEnum $minimumAdvertisedPriceExposure
+ * @property PriceTreatmentEnum $pricingTreatment
  * @property boolean $soldOnEbay
  * @property boolean $soldOffEbay
  */
-class DiscountPriceInfo extends \DTS\eBaySDK\Types\BaseType
+class DiscountPriceInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

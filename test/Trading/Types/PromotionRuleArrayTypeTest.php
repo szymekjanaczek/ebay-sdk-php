@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\PromotionRuleArrayType;
 
-class PromotionRuleArrayTypeTest extends \PHPUnit\Framework\TestCase
+class PromotionRuleArrayTypeTest extends TestCase
 {
     private $obj;
 

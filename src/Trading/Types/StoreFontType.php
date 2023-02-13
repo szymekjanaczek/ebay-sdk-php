@@ -10,19 +10,22 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType;
+use DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $NameFace
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $NameSize
+ * @property StoreFontFaceCodeType $NameFace
+ * @property StoreFontSizeCodeType $NameSize
  * @property string $NameColor
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $TitleFace
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $TitleSize
+ * @property StoreFontFaceCodeType $TitleFace
+ * @property StoreFontSizeCodeType $TitleSize
  * @property string $TitleColor
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $DescFace
- * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $DescSize
+ * @property StoreFontFaceCodeType $DescFace
+ * @property StoreFontSizeCodeType $DescSize
  * @property string $DescColor
  */
-class StoreFontType extends \DTS\eBaySDK\Types\BaseType
+class StoreFontType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

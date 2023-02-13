@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\BestOfferArrayType $RespondToBestOffer
+ * @property BestOfferArrayType $RespondToBestOffer
  */
-class RespondToBestOfferResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class RespondToBestOfferResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

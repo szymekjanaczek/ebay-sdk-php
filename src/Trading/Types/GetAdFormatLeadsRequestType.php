@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType;
+use DateTime;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $Status
+ * @property MessageStatusTypeCodeType $Status
  * @property boolean $IncludeMemberMessages
- * @property \DateTime $StartCreationTime
- * @property \DateTime $EndCreationTime
+ * @property DateTime $StartCreationTime
+ * @property DateTime $EndCreationTime
  */
-class GetAdFormatLeadsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetAdFormatLeadsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

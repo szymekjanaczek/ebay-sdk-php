@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ProductListingDetailsType;
 
-class ProductListingDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class ProductListingDetailsTypeTest extends TestCase
 {
     private $obj;
 

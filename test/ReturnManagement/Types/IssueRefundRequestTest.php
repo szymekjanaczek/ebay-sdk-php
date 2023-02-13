@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\IssueRefundRequest;
 
-class IssueRefundRequestTest extends \PHPUnit\Framework\TestCase
+class IssueRefundRequestTest extends TestCase
 {
     private $obj;
 

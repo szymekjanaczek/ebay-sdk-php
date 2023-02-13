@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string[] $PictureURL
  */
-class ExtendSiteHostedPicturesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ExtendSiteHostedPicturesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

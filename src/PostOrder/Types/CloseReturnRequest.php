@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $buyerCloseReason
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property Text $comments
  */
-class CloseReturnRequest extends \DTS\eBaySDK\Types\BaseType
+class CloseReturnRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

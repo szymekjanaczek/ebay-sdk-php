@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType $NumberOfPolicyViolations
- * @property \DTS\eBaySDK\Trading\Types\PolicyViolationDurationDetailsType[] $PolicyViolationDuration
+ * @property NumberOfPolicyViolationsDetailsType $NumberOfPolicyViolations
+ * @property PolicyViolationDurationDetailsType[] $PolicyViolationDuration
  */
-class MaximumBuyerPolicyViolationsDetailsType extends \DTS\eBaySDK\Types\BaseType
+class MaximumBuyerPolicyViolationsDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

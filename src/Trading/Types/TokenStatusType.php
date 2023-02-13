@@ -10,14 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\TokenStatusCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\TokenStatusCodeType $Status
+ * @property TokenStatusCodeType $Status
  * @property string $EIASToken
- * @property \DateTime $ExpirationTime
- * @property \DateTime $RevocationTime
+ * @property DateTime $ExpirationTime
+ * @property DateTime $RevocationTime
  */
-class TokenStatusType extends \DTS\eBaySDK\Types\BaseType
+class TokenStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

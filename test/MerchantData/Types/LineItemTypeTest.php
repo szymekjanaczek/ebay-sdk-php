@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\LineItemType;
 
-class LineItemTypeTest extends \PHPUnit\Framework\TestCase
+class LineItemTypeTest extends TestCase
 {
     private $obj;
 

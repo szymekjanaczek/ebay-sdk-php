@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\ReturnStatusCodeType;
 
-class ReturnStatusCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ReturnStatusCodeTypeTest extends TestCase
 {
     private $obj;
 

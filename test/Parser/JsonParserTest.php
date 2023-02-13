@@ -1,13 +1,17 @@
 <?php
-namespace DTS\eBaySDK\Parser\Test;
+namespace DTS\eBaySDK\Test\Parser;
 
+use PHPUnit\Framework\TestCase;
+use DTS\eBaySDK\Test\Mocks\ComplexClass;
+use DateTime;
+use DateTimeZone;
 use DTS\eBaySDK\Parser\JsonParser;
 
-class JsonParserTest extends \PHPUnit\Framework\TestCase
+class JsonParserTest extends TestCase
 {
     public function testCanParseJson()
     {
-        $obj = new \DTS\eBaySDK\Test\Mocks\ComplexClass();
+        $obj = new ComplexClass();
         $json = file_get_contents(__DIR__.'/../Mocks/ResponseWithUnknownProperties.json');
         JsonParser::parseAndAssignProperties($obj, $json);
 
@@ -21,7 +25,7 @@ class JsonParserTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(123.45, $obj->double);
         $this->assertEquals(true, $obj->booleanTrue);
         $this->assertEquals(false, $obj->booleanFalse);
-        $this->assertEquals(new \DateTime('2000-01-01T16:15:30.123Z', new \DateTimeZone('UTC')), $obj->DateTime);
+        $this->assertEquals(new DateTime('2000-01-01T16:15:30.123Z', new DateTimeZone('UTC')), $obj->DateTime);
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\SimpleClass', $obj->SimpleClass);
         $this->assertEquals(321, $obj->SimpleClass->integer);
         $this->assertEquals('another string', $obj->SimpleClass->string);

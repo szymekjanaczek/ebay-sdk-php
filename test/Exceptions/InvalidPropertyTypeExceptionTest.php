@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Exceptions\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Exceptions\InvalidPropertyTypeException;
 
-class InvalidPropertyTypeExceptionTest extends \PHPUnit\Framework\TestCase
+class InvalidPropertyTypeExceptionTest extends TestCase
 {
     private $obj;
 

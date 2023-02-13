@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $IncludeStockPhotoURL
@@ -21,12 +22,12 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property string $ISBN
  * @property string $UPC
  * @property string $EAN
- * @property \DTS\eBaySDK\MerchantData\Types\BrandMPNType $BrandMPN
- * @property \DTS\eBaySDK\MerchantData\Types\TicketListingDetailsType $TicketListingDetails
+ * @property BrandMPNType $BrandMPN
+ * @property TicketListingDetailsType $TicketListingDetails
  * @property boolean $UseFirstProduct
  * @property boolean $IncludeeBayProductDetails
  */
-class ProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ProductListingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,6 +1,9 @@
 <?php
 namespace DTS\eBaySDK\Services;
 
+use DTS\eBaySDK\Credentials\CredentialsInterface;
+use DTS\eBaySDK\Types\BaseType;
+use GuzzleHttp\Promise\PromiseInterface;
 use DTS\eBaySDK\Parser\XmlParser;
 use DTS\eBaySDK\ConfigurationResolver;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
@@ -24,7 +27,7 @@ abstract class BaseService
     const HDR_RESPONSE_ENCODING = 'Accept-Encoding';
 
     /**
-     * @var \DTS\eBaySDK\ConfigurationResolver Resolves configuration options.
+     * @var ConfigurationResolver Resolves configuration options.
      */
     private $resolver;
 
@@ -133,7 +136,7 @@ abstract class BaseService
     /**
      * Helper method to return the value of the credentials configuration option.
      *
-     * @return \DTS\eBaySDK\Credentials\CredentialsInterface
+     * @return CredentialsInterface
      */
     public function getCredentials()
     {
@@ -144,12 +147,12 @@ abstract class BaseService
      * Sends an asynchronous API request.
      *
      * @param string $name The name of the operation.
-     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param BaseType $request Request object containing the request information.
      * @param string $responseClass The name of the PHP class that will be created from the XML response.
      *
-     * @return \GuzzleHttp\Promise\PromiseInterface A promise that will be resolved with an object created from the XML response.
+     * @return PromiseInterface A promise that will be resolved with an object created from the XML response.
      */
-    protected function callOperationAsync($name, \DTS\eBaySDK\Types\BaseType $request, $responseClass)
+    protected function callOperationAsync($name, BaseType $request, $responseClass)
     {
         $url = $this->getUrl();
         $body = $this->buildRequestBody($request);
@@ -195,11 +198,11 @@ abstract class BaseService
     /**
      * Builds the request body string.
      *
-     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param BaseType $request Request object containing the request information.
      *
      * @return string The request body.
      */
-    protected function buildRequestBody(\DTS\eBaySDK\Types\BaseType $request)
+    protected function buildRequestBody(BaseType $request)
     {
         if (!$request->hasAttachment()) {
             return $request->toRequestXml();
@@ -211,11 +214,11 @@ abstract class BaseService
     /**
      * Builds the XOP document part of the request body string.
      *
-     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param BaseType $request Request object containing the request information.
      *
      * @return string The XOP document part of request body.
      */
-    private function buildXopDocument(\DTS\eBaySDK\Types\BaseType $request)
+    private function buildXopDocument(BaseType $request)
     {
         return sprintf(
             '%s%s%s%s%s',
@@ -250,11 +253,11 @@ abstract class BaseService
     /**
      * Builds the XML payload part of a multipart/form-data request body.
      *
-     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param BaseType $request Request object containing the request information.
      *
      * @return string The XML payload part of a multipart/form-data request body.
      */
-    protected function buildMultipartFormDataXMLPayload(\DTS\eBaySDK\Types\BaseType $request)
+    protected function buildMultipartFormDataXMLPayload(BaseType $request)
     {
         return sprintf(
             '%s%s%s',
@@ -289,7 +292,7 @@ abstract class BaseService
      * Helper function that builds the HTTP request headers.
      *
      * @param string $name The name of the operation.
-     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param BaseType $request Request object containing the request information.
      * @param string $body The request body.
      *
      * @return array An associative array of HTTP headers.

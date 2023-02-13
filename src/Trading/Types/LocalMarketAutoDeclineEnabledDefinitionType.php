@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class LocalMarketAutoDeclineEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
+class LocalMarketAutoDeclineEnabledDefinitionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

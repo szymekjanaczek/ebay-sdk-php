@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class DomainFilter extends \DTS\eBaySDK\Types\BaseType
+class DomainFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

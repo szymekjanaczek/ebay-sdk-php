@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum;
 
-class StandardsLevelEnumTest extends \PHPUnit\Framework\TestCase
+class StandardsLevelEnumTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions;
 
-class LineItemFulfillmentInstructionsTest extends \PHPUnit\Framework\TestCase
+class LineItemFulfillmentInstructionsTest extends TestCase
 {
     private $obj;
 

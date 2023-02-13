@@ -10,24 +10,26 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType;
 /**
  *
  * @property string $UserID
- * @property \DTS\eBaySDK\Trading\Types\UserIDArrayType $MotorsDealerUsers
- * @property \DateTime $EndTimeFrom
- * @property \DateTime $EndTimeTo
+ * @property UserIDArrayType $MotorsDealerUsers
+ * @property DateTime $EndTimeFrom
+ * @property DateTime $EndTimeTo
  * @property integer $Sort
- * @property \DateTime $StartTimeFrom
- * @property \DateTime $StartTimeTo
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType $GranularityLevel
- * @property \DTS\eBaySDK\Trading\Types\SKUArrayType $SKUArray
+ * @property DateTime $StartTimeFrom
+ * @property DateTime $StartTimeTo
+ * @property PaginationType $Pagination
+ * @property GranularityLevelCodeType $GranularityLevel
+ * @property SKUArrayType $SKUArray
  * @property boolean $IncludeWatchCount
  * @property boolean $AdminEndedItemsOnly
  * @property integer $CategoryID
  * @property boolean $IncludeVariations
  */
-class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellerListRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

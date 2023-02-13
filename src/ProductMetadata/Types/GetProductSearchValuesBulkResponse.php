@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
 /**
  *
  */
-class GetProductSearchValuesBulkResponse extends \DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesResponse
+class GetProductSearchValuesBulkResponse extends GetProductSearchValuesResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

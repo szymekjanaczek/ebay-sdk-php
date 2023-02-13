@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ModifyActionCodeType;
 /**
  *
  * @property integer $PromotionalSaleID
- * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType $Action
- * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
+ * @property ModifyActionCodeType $Action
+ * @property ItemIDArrayType $PromotionalSaleItemIDArray
  * @property integer $StoreCategoryID
  * @property integer $CategoryID
  * @property boolean $AllFixedPriceItems
  * @property boolean $AllAuctionItems
  */
-class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetPromotionalSaleListingsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

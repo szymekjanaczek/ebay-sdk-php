@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\BuyerProtectionSourceCodeType;
 
-class BuyerProtectionSourceCodeTypeTest extends \PHPUnit\Framework\TestCase
+class BuyerProtectionSourceCodeTypeTest extends TestCase
 {
     private $obj;
 

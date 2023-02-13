@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Order\Enums\PaymentMethodTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\PaymentInstrumentReference $paymentInstrumentReference
- * @property \DTS\eBaySDK\Order\Types\PaymentMethodBrand $paymentMethodBrand
- * @property \DTS\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
+ * @property PaymentInstrumentReference $paymentInstrumentReference
+ * @property PaymentMethodBrand $paymentMethodBrand
+ * @property PaymentMethodTypeEnum $paymentMethodType
  */
-class ProvidedPaymentInstrument extends \DTS\eBaySDK\Types\BaseType
+class ProvidedPaymentInstrument extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SKUArrayType;
 
-class SKUArrayTypeTest extends \PHPUnit\Framework\TestCase
+class SKUArrayTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\PaymentHoldDetailType;
 
-class PaymentHoldDetailTypeTest extends \PHPUnit\Framework\TestCase
+class PaymentHoldDetailTypeTest extends TestCase
 {
     private $obj;
 

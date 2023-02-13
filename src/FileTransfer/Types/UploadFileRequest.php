@@ -15,9 +15,9 @@ namespace DTS\eBaySDK\FileTransfer\Types;
  * @property string $taskReferenceId
  * @property string $fileReferenceId
  * @property string $fileFormat
- * @property \DTS\eBaySDK\FileTransfer\Types\FileAttachment $fileAttachment
+ * @property FileAttachment $fileAttachment
  */
-class UploadFileRequest extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceRequest
+class UploadFileRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\CategoryDistribution;
 
-class CategoryDistributionTest extends \PHPUnit\Framework\TestCase
+class CategoryDistributionTest extends TestCase
 {
     private $obj;
 

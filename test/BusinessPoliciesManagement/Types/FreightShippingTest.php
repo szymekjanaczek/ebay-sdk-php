@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping;
 
-class FreightShippingTest extends \PHPUnit\Framework\TestCase
+class FreightShippingTest extends TestCase
 {
     private $obj;
 

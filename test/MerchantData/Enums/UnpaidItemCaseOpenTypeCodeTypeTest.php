@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\UnpaidItemCaseOpenTypeCodeType;
 
-class UnpaidItemCaseOpenTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class UnpaidItemCaseOpenTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

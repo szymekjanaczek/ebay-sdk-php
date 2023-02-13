@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $activityDue
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $respondByDate
+ * @property DateTime $respondByDate
  */
-class ReturnResponseDueType extends \DTS\eBaySDK\Types\BaseType
+class ReturnResponseDueType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

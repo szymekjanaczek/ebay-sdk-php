@@ -10,19 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CommentTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\ItemArrivedWithinEDDCodeType;
 /**
  *
  * @property string $ItemID
  * @property string $CommentText
- * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType $CommentType
+ * @property CommentTypeCodeType $CommentType
  * @property string $TransactionID
  * @property string $TargetUser
- * @property \DTS\eBaySDK\Trading\Types\ItemRatingDetailArrayType $SellerItemRatingDetailArray
+ * @property ItemRatingDetailArrayType $SellerItemRatingDetailArray
  * @property string $OrderLineItemID
- * @property \DTS\eBaySDK\Trading\Enums\ItemArrivedWithinEDDCodeType $ItemArrivedWithinEDDType
+ * @property ItemArrivedWithinEDDCodeType $ItemArrivedWithinEDDType
  * @property boolean $ItemDeliveredWithinEDD
  */
-class LeaveFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class LeaveFeedbackRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

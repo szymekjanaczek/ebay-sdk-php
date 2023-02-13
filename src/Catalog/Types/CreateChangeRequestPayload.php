@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Catalog\Enums\ChangeRequestType;
+use DTS\eBaySDK\Catalog\Enums\ReferenceType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Enums\ChangeRequestType $changeRequestType
+ * @property ChangeRequestType $changeRequestType
  * @property string $reasonForChangeRequest
  * @property string $referenceId
- * @property \DTS\eBaySDK\Catalog\Enums\ReferenceType $referenceType
- * @property \DTS\eBaySDK\Catalog\Types\SuggestedProduct $suggestedProduct
+ * @property ReferenceType $referenceType
+ * @property SuggestedProduct $suggestedProduct
  */
-class CreateChangeRequestPayload extends \DTS\eBaySDK\Types\BaseType
+class CreateChangeRequestPayload extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

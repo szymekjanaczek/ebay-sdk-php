@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Taxonomy\Types\AncestorReference;
 
-class AncestorReferenceTest extends \PHPUnit\Framework\TestCase
+class AncestorReferenceTest extends TestCase
 {
     private $obj;
 

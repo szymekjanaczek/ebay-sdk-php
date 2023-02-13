@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\FulfillmentInstructionsType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $ebaySupportedFulfillment
- * @property \DTS\eBaySDK\Fulfillment\Types\Address $finalDestinationAddress
- * @property \DTS\eBaySDK\Fulfillment\Enums\FulfillmentInstructionsType $fulfillmentInstructionsType
+ * @property Address $finalDestinationAddress
+ * @property FulfillmentInstructionsType $fulfillmentInstructionsType
  * @property string $maxEstimatedDeliveryDate
  * @property string $minEstimatedDeliveryDate
- * @property \DTS\eBaySDK\Fulfillment\Types\ShippingStep $shippingStep
+ * @property ShippingStep $shippingStep
  */
-class FulfillmentStartInstruction extends \DTS\eBaySDK\Types\BaseType
+class FulfillmentStartInstruction extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

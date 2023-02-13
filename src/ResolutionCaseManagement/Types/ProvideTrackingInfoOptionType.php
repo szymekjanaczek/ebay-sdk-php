@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
  * @property string $trackingNumber
  * @property string $carrierUsed
  */
-class ProvideTrackingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ProvideTrackingInfoOptionType extends BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

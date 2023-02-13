@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus;
 
-class SellerProfileResponseStatusTest extends \PHPUnit\Framework\TestCase
+class SellerProfileResponseStatusTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Taxonomy\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $category_id
  * @property string $category_tree_id
  */
-class GetItemAspectsForCategoryRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetItemAspectsForCategoryRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

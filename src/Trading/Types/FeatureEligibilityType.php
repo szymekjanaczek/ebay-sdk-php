@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $QualifiesForBuyItNow
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $QualifiesForVariations
  * @property boolean $QualifiedForAuctionOneDayDuration
  */
-class FeatureEligibilityType extends \DTS\eBaySDK\Types\BaseType
+class FeatureEligibilityType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

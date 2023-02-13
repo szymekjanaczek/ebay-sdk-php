@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
  * @property integer $limit
  * @property string $next
  * @property integer $offset
- * @property \DTS\eBaySDK\Account\Types\PaymentPolicy[] $paymentPolicies
+ * @property PaymentPolicy[] $paymentPolicies
  * @property string $prev
  * @property integer $total
  */
-class PaymentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class PaymentPolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

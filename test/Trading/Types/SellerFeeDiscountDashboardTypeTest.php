@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType;
 
-class SellerFeeDiscountDashboardTypeTest extends \PHPUnit\Framework\TestCase
+class SellerFeeDiscountDashboardTypeTest extends TestCase
 {
     private $obj;
 

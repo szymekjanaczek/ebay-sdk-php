@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Analytics\Types\Definition[] $dimensionKeys
- * @property \DTS\eBaySDK\Analytics\Types\Definition[] $metrics
+ * @property Definition[] $dimensionKeys
+ * @property Definition[] $metrics
  */
-class Header extends \DTS\eBaySDK\Types\BaseType
+class Header extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

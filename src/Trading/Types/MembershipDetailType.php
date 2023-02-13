@@ -10,13 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SiteCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ProgramName
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
- * @property \DateTime $ExpiryDate
+ * @property SiteCodeType $Site
+ * @property DateTime $ExpiryDate
  */
-class MembershipDetailType extends \DTS\eBaySDK\Types\BaseType
+class MembershipDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\BuyerProtectionSourceCodeType;
+use DTS\eBaySDK\Trading\Enums\BuyerProtectionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\BuyerProtectionSourceCodeType $BuyerProtectionSource
- * @property \DTS\eBaySDK\Trading\Enums\BuyerProtectionCodeType $BuyerProtectionStatus
+ * @property BuyerProtectionSourceCodeType $BuyerProtectionSource
+ * @property BuyerProtectionCodeType $BuyerProtectionStatus
  */
-class BuyerProtectionDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BuyerProtectionDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

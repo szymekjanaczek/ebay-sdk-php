@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Compliance\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Compliance\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetListingViolationsRestResponse extends \DTS\eBaySDK\Compliance\Types\PagedComplianceViolationCollection
+class GetListingViolationsRestResponse extends PagedComplianceViolationCollection
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\DomainFilter;
 
-class DomainFilterTest extends \PHPUnit\Framework\TestCase
+class DomainFilterTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $action
  * @property string $jobId
  */
-class GetItemJobActionType extends \DTS\eBaySDK\Types\BaseType
+class GetItemJobActionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

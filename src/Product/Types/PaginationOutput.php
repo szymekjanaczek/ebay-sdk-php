@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $totalPages
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Product\Types;
  * @property integer $pageNumber
  * @property integer $entriesPerPage
  */
-class PaginationOutput extends \DTS\eBaySDK\Types\BaseType
+class PaginationOutput extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

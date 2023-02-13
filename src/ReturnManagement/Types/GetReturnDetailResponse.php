@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType $ReturnSummary
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType $ReturnDetail
+ * @property ReturnSummaryType $ReturnSummary
+ * @property ReturnDetailType $ReturnDetail
  */
-class GetReturnDetailResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class GetReturnDetailResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

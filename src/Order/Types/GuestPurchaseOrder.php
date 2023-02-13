@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum;
+use DTS\eBaySDK\Order\Enums\PurchaseOrderStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
- * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary
+ * @property LineItem[] $lineItems
+ * @property PricingSummary $pricingSummary
  * @property string $purchaseOrderCreationDate
  * @property string $purchaseOrderId
- * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
- * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderStatusEnum $purchaseOrderStatus
- * @property \DTS\eBaySDK\Order\Types\Amount $refundedAmount
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
+ * @property PurchaseOrderStatusEnum $purchaseOrderStatus
+ * @property Amount $refundedAmount
+ * @property ErrorDetailV3[] $warnings
  */
-class GuestPurchaseOrder extends \DTS\eBaySDK\Types\BaseType
+class GuestPurchaseOrder extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

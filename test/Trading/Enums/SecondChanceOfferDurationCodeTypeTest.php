@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType;
 
-class SecondChanceOfferDurationCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SecondChanceOfferDurationCodeTypeTest extends TestCase
 {
     private $obj;
 

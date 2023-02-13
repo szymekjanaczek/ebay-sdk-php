@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\CommentTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $CommentText
- * @property \DTS\eBaySDK\MerchantData\Enums\CommentTypeCodeType $CommentType
+ * @property CommentTypeCodeType $CommentType
  * @property string $TargetUser
  */
-class FeedbackInfoType extends \DTS\eBaySDK\Types\BaseType
+class FeedbackInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

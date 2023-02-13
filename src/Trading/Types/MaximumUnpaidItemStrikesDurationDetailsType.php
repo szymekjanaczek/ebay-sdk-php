@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\PeriodCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PeriodCodeType $Period
+ * @property PeriodCodeType $Period
  * @property string $Description
  */
-class MaximumUnpaidItemStrikesDurationDetailsType extends \DTS\eBaySDK\Types\BaseType
+class MaximumUnpaidItemStrikesDurationDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

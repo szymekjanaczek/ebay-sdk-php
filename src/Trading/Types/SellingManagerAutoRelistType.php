@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistOptionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType $Type
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistOptionCodeType $RelistCondition
+ * @property SellingManagerAutoRelistTypeCodeType $Type
+ * @property SellingManagerAutoRelistOptionCodeType $RelistCondition
  * @property integer $RelistAfterDays
  * @property integer $RelistAfterHours
  * @property string $RelistAtSpecificTimeOfDay
- * @property \DTS\eBaySDK\Trading\Types\BestOfferDetailsType $BestOfferDetails
+ * @property BestOfferDetailsType $BestOfferDetails
  * @property integer $ListingHoldInventoryLevel
  */
-class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerAutoRelistType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

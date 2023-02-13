@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class SetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class SetUserPreferencesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

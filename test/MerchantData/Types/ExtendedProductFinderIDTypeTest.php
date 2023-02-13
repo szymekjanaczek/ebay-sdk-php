@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ExtendedProductFinderIDType;
 
-class ExtendedProductFinderIDTypeTest extends \PHPUnit\Framework\TestCase
+class ExtendedProductFinderIDTypeTest extends TestCase
 {
     private $obj;
 

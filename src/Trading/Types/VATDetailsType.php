@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $BusinessSeller
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $VATSite
  * @property string $VATID
  */
-class VATDetailsType extends \DTS\eBaySDK\Types\BaseType
+class VATDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

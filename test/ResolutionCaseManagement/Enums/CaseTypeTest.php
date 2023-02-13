@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType;
 
-class CaseTypeTest extends \PHPUnit\Framework\TestCase
+class CaseTypeTest extends TestCase
 {
     private $obj;
 

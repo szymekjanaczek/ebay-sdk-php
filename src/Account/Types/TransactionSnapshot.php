@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\SoldAggregatedMetrics $calendarWindowAggregatedMetrics
- * @property \DTS\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
- * @property \DTS\eBaySDK\Account\Types\SoldAggregatedMetrics $rollingWindowAggregatedMetrics
- * @property \DTS\eBaySDK\Account\Types\Amount $soldInventoryValue
+ * @property SoldAggregatedMetrics $calendarWindowAggregatedMetrics
+ * @property LookbackPeriod $lookbackPeriod
+ * @property SoldAggregatedMetrics $rollingWindowAggregatedMetrics
+ * @property Amount $soldInventoryValue
  * @property integer $soldQuantity
  */
-class TransactionSnapshot extends \DTS\eBaySDK\Types\BaseType
+class TransactionSnapshot extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

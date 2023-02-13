@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
+use DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType;
+use DTS\eBaySDK\Trading\Enums\ModifyActionCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
- * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
- * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType $ModifyActionCode
- * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
- * @property \DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property CurrencyCodeType $CurrencyID
+ * @property CombinedPaymentPeriodCodeType $CombinedDuration
+ * @property ModifyActionCodeType $ModifyActionCode
+ * @property FlatShippingDiscountType $FlatShippingDiscount
+ * @property CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property CalculatedHandlingDiscountType $CalculatedHandlingDiscount
+ * @property PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
  */
-class SetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetShippingDiscountProfilesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

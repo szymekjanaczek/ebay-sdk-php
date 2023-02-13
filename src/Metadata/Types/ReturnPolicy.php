@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $categoryId
  * @property string $categoryTreeId
  * @property boolean $required
  */
-class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicy extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

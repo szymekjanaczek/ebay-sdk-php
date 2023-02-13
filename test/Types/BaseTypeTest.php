@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Types\BaseType;
 
-class BaseTypeTest extends \PHPUnit\Framework\TestCase
+class BaseTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,18 +10,22 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DateTime;
+use DTS\eBaySDK\BulkDataExchange\Enums\ListingType;
+use DTS\eBaySDK\BulkDataExchange\Enums\OrderStatusTypes;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $createTimeFrom
- * @property \DateTime $createTimeTo
- * @property \DateTime $modTimeFrom
- * @property \DateTime $modTimeTo
+ * @property DateTime $createTimeFrom
+ * @property DateTime $createTimeTo
+ * @property DateTime $modTimeFrom
+ * @property DateTime $modTimeTo
  * @property boolean $includeFinalValueFee
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\ListingType $listingType
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\OrderStatusTypes $orderStatus
+ * @property ListingType $listingType
+ * @property OrderStatusTypes $orderStatus
  * @property integer $version
  */
-class OrderReportFilter extends \DTS\eBaySDK\Types\BaseType
+class OrderReportFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

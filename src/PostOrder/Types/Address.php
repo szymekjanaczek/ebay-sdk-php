@@ -10,23 +10,28 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\AddressTypeEnum;
+use DTS\eBaySDK\PostOrder\Enums\CountryCodeEnum;
+use DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum;
+use DTS\eBaySDK\PostOrder\Enums\WorldRegionEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $addressLine1
  * @property string $addressLine2
- * @property \DTS\eBaySDK\PostOrder\Enums\AddressTypeEnum $addressType
+ * @property AddressTypeEnum $addressType
  * @property string $city
- * @property \DTS\eBaySDK\PostOrder\Enums\CountryCodeEnum $country
+ * @property CountryCodeEnum $country
  * @property string $county
  * @property boolean $isTransliterated
  * @property string $nationalRegion
  * @property string $postalCode
- * @property \DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum $script
+ * @property LanguageScriptEnum $script
  * @property string $stateOrProvince
- * @property \DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum $transliteratedFromScript
- * @property \DTS\eBaySDK\PostOrder\Enums\WorldRegionEnum $worldRegion
+ * @property LanguageScriptEnum $transliteratedFromScript
+ * @property WorldRegionEnum $worldRegion
  */
-class Address extends \DTS\eBaySDK\Types\BaseType
+class Address extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

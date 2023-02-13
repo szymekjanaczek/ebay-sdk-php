@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\FindCompletedItemsResponse;
 
-class FindCompletedItemsResponseTest extends \PHPUnit\Framework\TestCase
+class FindCompletedItemsResponseTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property string $ClientAlertsAuthToken
- * @property \DateTime $HardExpirationTime
+ * @property DateTime $HardExpirationTime
  */
-class GetClientAlertsAuthTokenResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetClientAlertsAuthTokenResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

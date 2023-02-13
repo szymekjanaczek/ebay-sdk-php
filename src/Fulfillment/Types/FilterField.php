@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $field
- * @property \DTS\eBaySDK\Fulfillment\Types\RangeValue $range
+ * @property RangeValue $range
  * @property string[] $set
  * @property string $value
  */
-class FilterField extends \DTS\eBaySDK\Types\BaseType
+class FilterField extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

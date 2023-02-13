@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\CancelStateEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $cancelledDate
- * @property \DTS\eBaySDK\Fulfillment\Types\CancelRequest[] $cancelRequests
- * @property \DTS\eBaySDK\Fulfillment\Enums\CancelStateEnum $cancelState
+ * @property CancelRequest[] $cancelRequests
+ * @property CancelStateEnum $cancelState
  */
-class CancelStatus extends \DTS\eBaySDK\Types\BaseType
+class CancelStatus extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

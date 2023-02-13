@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestRequest;
 
-class PublishOfferByInventoryItemGroupRestRequestTest extends \PHPUnit\Framework\TestCase
+class PublishOfferByInventoryItemGroupRestRequestTest extends TestCase
 {
     private $obj;
 

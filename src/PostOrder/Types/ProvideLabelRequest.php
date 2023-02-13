@@ -10,21 +10,24 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\LabelActionEnum;
+use DTS\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $carrierEnum
  * @property string $carrierName
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property Text $comments
  * @property string $fileId
  * @property boolean $forwardShippingLabelProvided
- * @property \DTS\eBaySDK\PostOrder\Enums\LabelActionEnum $labelAction
+ * @property LabelActionEnum $labelAction
  * @property string $labelId
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $labelSentDate
- * @property \DTS\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum $noLabelReason
+ * @property DateTime $labelSentDate
+ * @property NoSellerUploadLabelReasonEnum $noLabelReason
  * @property \DTS\eBaySDK\PostOrder\Types\B:Amount $returnLabelCost
  * @property string $trackingNumber
  */
-class ProvideLabelRequest extends \DTS\eBaySDK\Types\BaseType
+class ProvideLabelRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

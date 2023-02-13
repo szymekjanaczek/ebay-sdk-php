@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Enums\DeliveryOptionsEnum;
 
-class DeliveryOptionsEnumTest extends \PHPUnit\Framework\TestCase
+class DeliveryOptionsEnumTest extends TestCase
 {
     private $obj;
 

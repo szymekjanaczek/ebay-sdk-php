@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter;
 
-class DownloadJobRecurringFilterTest extends \PHPUnit\Framework\TestCase
+class DownloadJobRecurringFilterTest extends TestCase
 {
     private $obj;
 

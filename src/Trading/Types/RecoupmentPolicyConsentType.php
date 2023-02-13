@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SiteCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType[] $Site
+ * @property SiteCodeType[] $Site
  */
-class RecoupmentPolicyConsentType extends \DTS\eBaySDK\Types\BaseType
+class RecoupmentPolicyConsentType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

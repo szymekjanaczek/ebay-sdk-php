@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ReviseCheckoutStatusRequestType;
 
-class ReviseCheckoutStatusRequestTypeTest extends \PHPUnit\Framework\TestCase
+class ReviseCheckoutStatusRequestTypeTest extends TestCase
 {
     private $obj;
 

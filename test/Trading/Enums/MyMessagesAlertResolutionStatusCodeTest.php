@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\MyMessagesAlertResolutionStatusCode;
 
-class MyMessagesAlertResolutionStatusCodeTest extends \PHPUnit\Framework\TestCase
+class MyMessagesAlertResolutionStatusCodeTest extends TestCase
 {
     private $obj;
 

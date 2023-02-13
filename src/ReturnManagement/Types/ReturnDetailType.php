@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $globalId
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType[] $returnHistory
- * @property \DTS\eBaySDK\ReturnManagement\Types\RefundInfoType $refundInfo
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnPolicyInfoType $returnPolicy
- * @property \DTS\eBaySDK\ReturnManagement\Types\ShipmentType $buyerReturnShipment
- * @property \DTS\eBaySDK\ReturnManagement\Types\ShipmentType[] $shipmentInfo
- * @property \DTS\eBaySDK\ReturnManagement\Types\CaseIdType $caseId
+ * @property ReturnResponseHistoryType[] $returnHistory
+ * @property RefundInfoType $refundInfo
+ * @property ReturnPolicyInfoType $returnPolicy
+ * @property ShipmentType $buyerReturnShipment
+ * @property ShipmentType[] $shipmentInfo
+ * @property CaseIdType $caseId
  */
-class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
+class ReturnDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

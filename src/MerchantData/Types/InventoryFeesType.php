@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\MerchantData\Types\FeeType[] $Fee
+ * @property FeeType[] $Fee
  */
-class InventoryFeesType extends \DTS\eBaySDK\Types\BaseType
+class InventoryFeesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

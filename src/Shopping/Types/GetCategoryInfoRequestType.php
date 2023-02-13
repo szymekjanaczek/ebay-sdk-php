@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Shopping\Types;
  * @property string $CategoryID
  * @property string $IncludeSelector
  */
-class GetCategoryInfoRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class GetCategoryInfoRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

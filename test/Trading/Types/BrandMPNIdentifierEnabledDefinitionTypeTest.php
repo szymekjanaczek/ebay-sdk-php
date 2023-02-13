@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType;
 
-class BrandMPNIdentifierEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class BrandMPNIdentifierEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

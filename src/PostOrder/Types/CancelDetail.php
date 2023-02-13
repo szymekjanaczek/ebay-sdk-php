@@ -10,29 +10,31 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CancelActivityHistory[] $activityHistories
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $buyerResponseDueDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $cancelCloseDate
+ * @property CancelActivityHistory[] $activityHistories
+ * @property DateTime $buyerResponseDueDate
+ * @property DateTime $cancelCloseDate
  * @property string $cancelCloseReason
  * @property string $cancelId
  * @property string $cancelReason
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $cancelRequestDate
+ * @property DateTime $cancelRequestDate
  * @property string $itemId
  * @property string $legacyOrderId
- * @property \DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem[] $lineItems
- * @property \DTS\eBaySDK\PostOrder\Enums\MarketplaceIdEnum $marketplaceId
+ * @property OrderCancelLineItem[] $lineItems
+ * @property MarketplaceIdEnum $marketplaceId
  * @property string $paymentStatus
  * @property string $requestorType
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $requestRefundAmount
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $sellerResponseDueDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shipmentDate
+ * @property Amount $requestRefundAmount
+ * @property DateTime $sellerResponseDueDate
+ * @property DateTime $shipmentDate
  * @property string $cancelState
  * @property string $cancelStatus
  * @property string $transactionId
  */
-class CancelDetail extends \DTS\eBaySDK\Types\BaseType
+class CancelDetail extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 /**
  *
  */
-class GetVersionRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest
+class GetVersionRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

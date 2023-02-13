@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $legalMessage
  * @property boolean $requiredForUserConfirmation
  */
-class PaymentMethodMessage extends \DTS\eBaySDK\Types\BaseType
+class PaymentMethodMessage extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

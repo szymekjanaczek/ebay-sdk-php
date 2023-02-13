@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $report_task_id
  */
-class DeleteSpecificReportTaskRestRequest extends \DTS\eBaySDK\Types\BaseType
+class DeleteSpecificReportTaskRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

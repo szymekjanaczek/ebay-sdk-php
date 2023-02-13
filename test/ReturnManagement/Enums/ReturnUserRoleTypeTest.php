@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType;
 
-class ReturnUserRoleTypeTest extends \PHPUnit\Framework\TestCase
+class ReturnUserRoleTypeTest extends TestCase
 {
     private $obj;
 

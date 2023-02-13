@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $PrimaryCategoryID
- * @property \DTS\eBaySDK\Trading\Types\VariationsType $Variations
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
+ * @property VariationsType $Variations
+ * @property NameValueListArrayType $ItemSpecifics
  */
-class SellingManagerProductSpecificsType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerProductSpecificsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

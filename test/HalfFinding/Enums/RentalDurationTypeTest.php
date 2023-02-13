@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Enums\RentalDurationType;
 
-class RentalDurationTypeTest extends \PHPUnit\Framework\TestCase
+class RentalDurationTypeTest extends TestCase
 {
     private $obj;
 

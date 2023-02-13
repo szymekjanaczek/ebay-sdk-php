@@ -33,7 +33,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ShowOutOfStockControlPreference
  * @property boolean $ShoweBayPLUSPreference
  */
-class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserPreferencesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

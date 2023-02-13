@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $ProductID
  * @property string $TemplateName
  */
-class SaveItemToSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SaveItemToSellingManagerTemplateRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

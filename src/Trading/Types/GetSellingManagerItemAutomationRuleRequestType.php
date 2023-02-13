@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $ItemID
  */
-class GetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerItemAutomationRuleRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,6 +1,8 @@
 <?php
 namespace DTS\eBaySDK\Services;
 
+use DTS\eBaySDK\Types\BaseType;
+use GuzzleHttp\Promise\PromiseInterface;
 use DTS\eBaySDK\Parser\JsonParser;
 use DTS\eBaySDK\ConfigurationResolver;
 use DTS\eBaySDK\UriResolver;
@@ -29,12 +31,12 @@ abstract class BaseRestService
     const HDR_RESPONSE_ENCODING = 'Accept-Encoding';
 
     /**
-     * @var \DTS\eBaySDK\ConfigurationResolver Resolves configuration options.
+     * @var ConfigurationResolver Resolves configuration options.
      */
     private $resolver;
 
     /**
-     * @var \DTS\eBaySDK\UriResolver Resolves uri parameters.
+     * @var UriResolver Resolves uri parameters.
      */
     private $uriResolver;
 
@@ -127,11 +129,11 @@ abstract class BaseRestService
      * Sends an asynchronous API request.
      *
      * @param string $name The name of the operation.
-     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param BaseType $request Request object containing the request information.
      *
-     * @return \GuzzleHttp\Promise\PromiseInterface A promise that will be resolved with an object created from the JSON response.
+     * @return PromiseInterface A promise that will be resolved with an object created from the JSON response.
      */
-    protected function callOperationAsync($name, \DTS\eBaySDK\Types\BaseType $request = null)
+    protected function callOperationAsync($name, BaseType $request = null)
     {
         $operation = static::$operations[$name];
 

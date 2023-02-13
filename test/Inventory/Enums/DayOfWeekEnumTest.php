@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Enums\DayOfWeekEnum;
 
-class DayOfWeekEnumTest extends \PHPUnit\Framework\TestCase
+class DayOfWeekEnumTest extends TestCase
 {
     private $obj;
 

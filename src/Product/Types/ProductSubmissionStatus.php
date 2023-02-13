@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Product\Enums\ProductSubmissionStatusCode;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $productSubmissionId
- * @property \DTS\eBaySDK\Product\Enums\ProductSubmissionStatusCode $statusCode
+ * @property ProductSubmissionStatusCode $statusCode
  * @property string[] $ePID
  */
-class ProductSubmissionStatus extends \DTS\eBaySDK\Types\BaseType
+class ProductSubmissionStatus extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

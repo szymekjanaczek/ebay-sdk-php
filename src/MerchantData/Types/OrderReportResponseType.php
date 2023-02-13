@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $HardExpirationWarning
+ * @property DateTime $HardExpirationWarning
  * @property string $Ack
  * @property string $Version
- * @property \DTS\eBaySDK\MerchantData\Types\ErrorType[] $Errors
- * @property \DTS\eBaySDK\MerchantData\Types\OrderArrayType $OrderArray
+ * @property ErrorType[] $Errors
+ * @property OrderArrayType $OrderArray
  */
-class OrderReportResponseType extends \DTS\eBaySDK\Types\BaseType
+class OrderReportResponseType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint;
 
-class ProductIdentifierConstraintTest extends \PHPUnit\Framework\TestCase
+class ProductIdentifierConstraintTest extends TestCase
 {
     private $obj;
 

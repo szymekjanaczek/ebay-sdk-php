@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter $orderReportRecurringFilter
+ * @property OrderReportRecurringFilter $orderReportRecurringFilter
  */
-class DownloadJobRecurringFilter extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class DownloadJobRecurringFilter extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

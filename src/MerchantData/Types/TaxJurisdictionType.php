@@ -10,6 +10,8 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $JurisdictionID
@@ -17,9 +19,9 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property boolean $ShippingIncludedInTax
  * @property string $JurisdictionName
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class TaxJurisdictionType extends \DTS\eBaySDK\Types\BaseType
+class TaxJurisdictionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

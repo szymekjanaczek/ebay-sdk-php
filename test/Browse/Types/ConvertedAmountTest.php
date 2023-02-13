@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\ConvertedAmount;
 
-class ConvertedAmountTest extends \PHPUnit\Framework\TestCase
+class ConvertedAmountTest extends TestCase
 {
     private $obj;
 

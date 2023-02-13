@@ -14,9 +14,9 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string[] $ItemID
  * @property boolean $RemoveAllItems
- * @property \DTS\eBaySDK\Trading\Types\VariationKeyType[] $VariationKey
+ * @property VariationKeyType[] $VariationKey
  */
-class RemoveFromWatchListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class RemoveFromWatchListRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

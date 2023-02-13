@@ -10,19 +10,22 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\MessageTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType;
+use DateTime;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MailMessageType
- * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $MessageStatus
+ * @property MessageTypeCodeType $MailMessageType
+ * @property MessageStatusTypeCodeType $MessageStatus
  * @property boolean $DisplayToPublic
- * @property \DateTime $StartCreationTime
- * @property \DateTime $EndCreationTime
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property DateTime $StartCreationTime
+ * @property DateTime $EndCreationTime
+ * @property PaginationType $Pagination
  * @property string $MemberMessageID
  * @property string $SenderID
  */
-class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetMemberMessagesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

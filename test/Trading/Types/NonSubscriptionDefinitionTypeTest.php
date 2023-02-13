@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\NonSubscriptionDefinitionType;
 
-class NonSubscriptionDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class NonSubscriptionDefinitionTypeTest extends TestCase
 {
     private $obj;
 

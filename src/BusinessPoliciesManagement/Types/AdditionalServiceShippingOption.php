@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
  * @property boolean $value
  */
-class AdditionalServiceShippingOption extends \DTS\eBaySDK\Types\BaseType
+class AdditionalServiceShippingOption extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

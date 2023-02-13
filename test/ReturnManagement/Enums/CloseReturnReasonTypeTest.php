@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Enums\CloseReturnReasonType;
 
-class CloseReturnReasonTypeTest extends \PHPUnit\Framework\TestCase
+class CloseReturnReasonTypeTest extends TestCase
 {
     private $obj;
 

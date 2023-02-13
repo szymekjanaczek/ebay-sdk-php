@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\EndReasonCodeType;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\MerchantData\Enums\EndReasonCodeType $EndingReason
+ * @property EndReasonCodeType $EndingReason
  * @property string $SKU
  */
-class EndFixedPriceItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
+class EndFixedPriceItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\UpdatePaymentInformation;
 
-class UpdatePaymentInformationTest extends \PHPUnit\Framework\TestCase
+class UpdatePaymentInformationTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $TimeFrom
- * @property \DateTime $TimeTo
+ * @property DateTime $TimeFrom
+ * @property DateTime $TimeTo
  */
-class TimeRangeType extends \DTS\eBaySDK\Types\BaseType
+class TimeRangeType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

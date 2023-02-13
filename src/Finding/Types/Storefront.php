@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $storeName
  * @property string $storeURL
  */
-class Storefront extends \DTS\eBaySDK\Types\BaseType
+class Storefront extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType;
 
-class ReturnEligibilityPerItemTypeTest extends \PHPUnit\Framework\TestCase
+class ReturnEligibilityPerItemTypeTest extends TestCase
 {
     private $obj;
 

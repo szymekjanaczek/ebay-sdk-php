@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\CreateDispositionRuleRequest;
 
-class CreateDispositionRuleRequestTest extends \PHPUnit\Framework\TestCase
+class CreateDispositionRuleRequestTest extends TestCase
 {
     private $obj;
 

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $buyingOption
  * @property integer $matchCount
  * @property string $refinementHref
  */
-class BuyingOptionDistribution extends \DTS\eBaySDK\Types\BaseType
+class BuyingOptionDistribution extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

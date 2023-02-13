@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType[] $SaleRecord
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property SellingManagerSoldOrderType[] $SaleRecord
+ * @property PaginationResultType $PaginationResult
  */
-class GetSellingManagerSoldListingsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerSoldListingsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

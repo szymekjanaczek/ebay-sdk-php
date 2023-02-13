@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType $Balance
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property AmountType $Balance
+ * @property CurrencyCodeType $Currency
  * @property string $AccountCode
  */
-class AdditionalAccountType extends \DTS\eBaySDK\Types\BaseType
+class AdditionalAccountType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

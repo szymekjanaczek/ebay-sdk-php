@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $StoreCategoryID
@@ -19,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $StoreURL
  * @property string $StoreName
  */
-class StorefrontType extends \DTS\eBaySDK\Types\BaseType
+class StorefrontType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

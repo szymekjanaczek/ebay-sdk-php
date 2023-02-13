@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $SKU
  * @property string $OrderLineItemID
  */
-class ItemTransactionIDType extends \DTS\eBaySDK\Types\BaseType
+class ItemTransactionIDType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

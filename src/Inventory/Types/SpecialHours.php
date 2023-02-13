@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $date
- * @property \DTS\eBaySDK\Inventory\Types\Interval[] $intervals
+ * @property Interval[] $intervals
  */
-class SpecialHours extends \DTS\eBaySDK\Types\BaseType
+class SpecialHours extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

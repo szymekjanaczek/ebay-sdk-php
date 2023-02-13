@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest;
 
-class InitiateGuestCheckoutSessionRestRequestTest extends \PHPUnit\Framework\TestCase
+class InitiateGuestCheckoutSessionRestRequestTest extends TestCase
 {
     private $obj;
 

@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $fulfillmentPolicyId
  * @property string $paymentPolicyId
  * @property string $returnPolicyId
- * @property \DTS\eBaySDK\Inventory\Types\ShippingCostOverride[] $shippingCostOverrides
+ * @property ShippingCostOverride[] $shippingCostOverrides
  */
-class ListingPolicies extends \DTS\eBaySDK\Types\BaseType
+class ListingPolicies extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

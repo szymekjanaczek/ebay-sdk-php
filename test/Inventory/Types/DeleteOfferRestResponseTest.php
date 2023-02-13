@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\DeleteOfferRestResponse;
 
-class DeleteOfferRestResponseTest extends \PHPUnit\Framework\TestCase
+class DeleteOfferRestResponseTest extends TestCase
 {
     private $obj;
 

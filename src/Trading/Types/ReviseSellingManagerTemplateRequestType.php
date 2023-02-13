@@ -15,11 +15,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $SaleTemplateID
  * @property integer $ProductID
  * @property string $SaleTemplateName
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property ItemType $Item
  * @property string[] $DeletedField
  * @property boolean $VerifyOnly
  */
-class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseSellingManagerTemplateRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

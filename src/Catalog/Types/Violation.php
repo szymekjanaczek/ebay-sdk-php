@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\ViolationAspectValues[] $aspectsValues
- * @property \DTS\eBaySDK\Catalog\Types\ViolationProductAttribute $productAttribute
+ * @property ViolationAspectValues[] $aspectsValues
+ * @property ViolationProductAttribute $productAttribute
  * @property integer $reason
  * @property integer $violationCode
  */
-class Violation extends \DTS\eBaySDK\Types\BaseType
+class Violation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

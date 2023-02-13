@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\Amount $shippingServiceCost
+ * @property Amount $shippingServiceCost
  * @property string $shippingType
  * @property string[] $shipToLocations
  * @property boolean $expeditedShipping
@@ -20,7 +21,7 @@ namespace DTS\eBaySDK\Finding\Types;
  * @property integer $handlingTime
  * @property boolean $intermediatedShipping
  */
-class ShippingInfo extends \DTS\eBaySDK\Types\BaseType
+class ShippingInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

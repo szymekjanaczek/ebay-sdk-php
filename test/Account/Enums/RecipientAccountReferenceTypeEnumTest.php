@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Enums\RecipientAccountReferenceTypeEnum;
 
-class RecipientAccountReferenceTypeEnumTest extends \PHPUnit\Framework\TestCase
+class RecipientAccountReferenceTypeEnumTest extends TestCase
 {
     private $obj;
 

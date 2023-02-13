@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\InventoryFeesType;
 
-class InventoryFeesTypeTest extends \PHPUnit\Framework\TestCase
+class InventoryFeesTypeTest extends TestCase
 {
     private $obj;
 

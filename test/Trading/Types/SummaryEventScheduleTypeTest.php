@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SummaryEventScheduleType;
 
-class SummaryEventScheduleTypeTest extends \PHPUnit\Framework\TestCase
+class SummaryEventScheduleTypeTest extends TestCase
 {
     private $obj;
 

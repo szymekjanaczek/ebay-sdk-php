@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetAdsByInventoryReferenceRestResponse extends \DTS\eBaySDK\Marketing\Types\Ads
+class GetAdsByInventoryReferenceRestResponse extends Ads
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

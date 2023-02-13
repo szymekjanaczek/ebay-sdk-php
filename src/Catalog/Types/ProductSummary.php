@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\Image[] $additionalImages
- * @property \DTS\eBaySDK\Catalog\Types\Aspect[] $aspects
+ * @property Image[] $additionalImages
+ * @property Aspect[] $aspects
  * @property string $brand
  * @property string $description
  * @property string[] $ean
  * @property string $epid
  * @property string[] $gtin
- * @property \DTS\eBaySDK\Catalog\Types\Image $image
+ * @property Image $image
  * @property string[] $isbn
  * @property string[] $mpn
  * @property string $productHref
@@ -27,7 +28,7 @@ namespace DTS\eBaySDK\Catalog\Types;
  * @property string $title
  * @property string[] $upc
  */
-class ProductSummary extends \DTS\eBaySDK\Types\BaseType
+class ProductSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

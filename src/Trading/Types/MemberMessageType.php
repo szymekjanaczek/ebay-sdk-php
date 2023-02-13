@@ -10,10 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\MessageTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
- * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType $QuestionType
+ * @property MessageTypeCodeType $MessageType
+ * @property QuestionTypeCodeType $QuestionType
  * @property boolean $EmailCopyToSender
  * @property boolean $DisplayToPublic
  * @property string $SenderID
@@ -23,9 +26,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Body
  * @property string $MessageID
  * @property string $ParentMessageID
- * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
+ * @property MessageMediaType[] $MessageMedia
  */
-class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
+class MemberMessageType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\VoidLabelRequest;
 
-class VoidLabelRequestTest extends \PHPUnit\Framework\TestCase
+class VoidLabelRequestTest extends TestCase
 {
     private $obj;
 

@@ -12,12 +12,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $SellingManagerFolderDetails
+ * @property SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property SellingManagerFolderDetailsType $SellingManagerFolderDetails
  * @property string[] $DeletedField
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
+ * @property SellingManagerProductSpecificsType $SellingManagerProductSpecifics
  */
-class ReviseSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseSellingManagerProductRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

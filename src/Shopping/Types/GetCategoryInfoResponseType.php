@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DateTime;
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\CategoryArrayType $CategoryArray
+ * @property CategoryArrayType $CategoryArray
  * @property integer $CategoryCount
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  * @property string $CategoryVersion
  */
-class GetCategoryInfoResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class GetCategoryInfoResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

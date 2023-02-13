@@ -13,14 +13,14 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
 /**
  *
  * @property string $UUID
- * @property \DTS\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter $downloadJobRecurringFilter
+ * @property DownloadJobRecurringFilter $downloadJobRecurringFilter
  * @property integer $frequencyInMinutes
  * @property string $downloadJobType
- * @property \DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence $monthlyRecurrence
- * @property \DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence $weeklyRecurrence
- * @property \DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence $dailyRecurrence
+ * @property MonthlyRecurrence $monthlyRecurrence
+ * @property WeeklyRecurrence $weeklyRecurrence
+ * @property DailyRecurrence $dailyRecurrence
  */
-class CreateRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class CreateRecurringJobRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

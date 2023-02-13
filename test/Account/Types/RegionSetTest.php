@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\RegionSet;
 
-class RegionSetTest extends \PHPUnit\Framework\TestCase
+class RegionSetTest extends TestCase
 {
     private $obj;
 

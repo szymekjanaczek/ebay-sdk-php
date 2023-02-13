@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\AttributeSetArrayType;
 
-class AttributeSetArrayTypeTest extends \PHPUnit\Framework\TestCase
+class AttributeSetArrayTypeTest extends TestCase
 {
     private $obj;
 

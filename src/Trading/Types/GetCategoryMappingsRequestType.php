@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $CategoryVersion
  */
-class GetCategoryMappingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetCategoryMappingsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

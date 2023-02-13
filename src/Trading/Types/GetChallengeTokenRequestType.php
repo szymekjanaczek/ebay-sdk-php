@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GetChallengeTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetChallengeTokenRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

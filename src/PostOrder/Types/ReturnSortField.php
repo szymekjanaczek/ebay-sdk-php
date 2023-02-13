@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\ReturnSortEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $ascending
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnSortEnum $enumValue
+ * @property ReturnSortEnum $enumValue
  * @property string $field
  */
-class ReturnSortField extends \DTS\eBaySDK\Types\BaseType
+class ReturnSortField extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

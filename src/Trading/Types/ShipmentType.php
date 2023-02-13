@@ -10,35 +10,41 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\ShippingFeatureCodeType;
+use DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType;
+use DTS\eBaySDK\Trading\Enums\ShipmentDeliveryStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\ShipmentStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $EstimatedDeliveryDate
- * @property \DTS\eBaySDK\Trading\Types\AmountType $InsuredValue
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageDepth
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageLength
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageWidth
+ * @property DateTime $EstimatedDeliveryDate
+ * @property AmountType $InsuredValue
+ * @property MeasureType $PackageDepth
+ * @property MeasureType $PackageLength
+ * @property MeasureType $PackageWidth
  * @property string $PayPalShipmentID
  * @property integer $ShipmentID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $PostageTotal
- * @property \DateTime $PrintedTime
- * @property \DTS\eBaySDK\Trading\Types\AddressType $ShipFromAddress
- * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property \DTS\eBaySDK\Trading\Enums\ShippingFeatureCodeType[] $ShippingFeature
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property AmountType $PostageTotal
+ * @property DateTime $PrintedTime
+ * @property AddressType $ShipFromAddress
+ * @property AddressType $ShippingAddress
+ * @property ShippingFeatureCodeType[] $ShippingFeature
+ * @property ShippingPackageCodeType $ShippingPackage
  * @property string $ShippingServiceUsed
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightMajor
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightMinor
- * @property \DTS\eBaySDK\Trading\Types\ItemTransactionIDType[] $ItemTransactionID
- * @property \DateTime $DeliveryDate
- * @property \DTS\eBaySDK\Trading\Enums\ShipmentDeliveryStatusCodeType $DeliveryStatus
- * @property \DateTime $RefundGrantedTime
- * @property \DateTime $RefundRequestedTime
- * @property \DTS\eBaySDK\Trading\Enums\ShipmentStatusCodeType $Status
- * @property \DateTime $ShippedTime
- * @property \DTS\eBaySDK\Trading\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
- * @property \DTS\eBaySDK\Trading\Types\ShipmentLineItemType $ShipmentLineItem
+ * @property MeasureType $WeightMajor
+ * @property MeasureType $WeightMinor
+ * @property ItemTransactionIDType[] $ItemTransactionID
+ * @property DateTime $DeliveryDate
+ * @property ShipmentDeliveryStatusCodeType $DeliveryStatus
+ * @property DateTime $RefundGrantedTime
+ * @property DateTime $RefundRequestedTime
+ * @property ShipmentStatusCodeType $Status
+ * @property DateTime $ShippedTime
+ * @property ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
+ * @property ShipmentLineItemType $ShipmentLineItem
  */
-class ShipmentType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

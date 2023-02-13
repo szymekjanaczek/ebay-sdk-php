@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ProductIdentifiersType;
 
-class ProductIdentifiersTypeTest extends \PHPUnit\Framework\TestCase
+class ProductIdentifiersTypeTest extends TestCase
 {
     private $obj;
 

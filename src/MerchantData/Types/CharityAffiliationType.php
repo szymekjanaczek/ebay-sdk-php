@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\CharityAffiliationTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $id
- * @property \DTS\eBaySDK\MerchantData\Enums\CharityAffiliationTypeCodeType $type
+ * @property CharityAffiliationTypeCodeType $type
  */
-class CharityAffiliationType extends \DTS\eBaySDK\Types\BaseType
+class CharityAffiliationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

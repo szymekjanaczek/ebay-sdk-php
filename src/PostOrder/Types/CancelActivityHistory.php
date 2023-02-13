@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\CancelActivityTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actionDate
+ * @property DateTime $actionDate
  * @property string $activityParty
- * @property \DTS\eBaySDK\PostOrder\Enums\CancelActivityTypeEnum $activityType
+ * @property CancelActivityTypeEnum $activityType
  * @property string $cancelStateFrom
  * @property string $cancelStateTo
  * @property string $cancelStatetateTo
  */
-class CancelActivityHistory extends \DTS\eBaySDK\Types\BaseType
+class CancelActivityHistory extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

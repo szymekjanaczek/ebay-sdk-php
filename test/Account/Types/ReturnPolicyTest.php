@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\ReturnPolicy;
 
-class ReturnPolicyTest extends \PHPUnit\Framework\TestCase
+class ReturnPolicyTest extends TestCase
 {
     private $obj;
 

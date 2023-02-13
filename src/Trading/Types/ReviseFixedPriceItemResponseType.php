@@ -10,21 +10,23 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType;
 /**
  *
  * @property string $ItemID
  * @property string $SKU
- * @property \DateTime $StartTime
- * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property DateTime $StartTime
+ * @property DateTime $EndTime
+ * @property FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
- * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \DTS\eBaySDK\Trading\Types\ProductSuggestionsType $ProductSuggestions
- * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property DiscountReasonCodeType[] $DiscountReason
+ * @property ProductSuggestionsType $ProductSuggestions
+ * @property ListingRecommendationsType $ListingRecommendations
  * @property boolean $VerifyOnly
  */
-class ReviseFixedPriceItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseFixedPriceItemResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

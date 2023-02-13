@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\HalfFinding\Enums\AckValue;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\AckValue $ack
- * @property \DTS\eBaySDK\HalfFinding\Types\ErrorMessage $errorMessage
+ * @property AckValue $ack
+ * @property ErrorMessage $errorMessage
  * @property string $version
- * @property \DateTime $timestamp
- * @property \DTS\eBaySDK\HalfFinding\Types\ExtensionType[] $extension
+ * @property DateTime $timestamp
+ * @property ExtensionType[] $extension
  */
-class BaseResponse extends \DTS\eBaySDK\Types\BaseType
+class BaseResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

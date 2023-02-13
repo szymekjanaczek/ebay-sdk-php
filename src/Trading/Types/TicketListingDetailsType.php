@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $EventTitle
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $PrintedDate
  * @property string $PrintedTime
  */
-class TicketListingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class TicketListingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

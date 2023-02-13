@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $case_creation_date_range_from
@@ -24,7 +25,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $sort
  * @property string $transaction_id
  */
-class SearchCasesRestRequest extends \DTS\eBaySDK\Types\BaseType
+class SearchCasesRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

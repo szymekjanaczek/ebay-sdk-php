@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $SummaryDays
@@ -18,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $BidsToUniqueSellers
  * @property integer $BidsToUniqueCategories
  * @property integer $BidRetractions
- * @property \DTS\eBaySDK\Trading\Types\ItemBidDetailsType[] $ItemBidDetails
+ * @property ItemBidDetailsType[] $ItemBidDetails
  */
-class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
+class BiddingSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

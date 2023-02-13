@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\DutchBINEnabledDefinitionType;
 
-class DutchBINEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class DutchBINEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

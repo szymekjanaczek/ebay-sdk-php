@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType;
 
-class SellingManagerSoldListingsPropertyTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerSoldListingsPropertyTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

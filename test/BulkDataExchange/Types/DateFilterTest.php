@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\DateFilter;
 
-class DateFilterTest extends \PHPUnit\Framework\TestCase
+class DateFilterTest extends TestCase
 {
     private $obj;
 

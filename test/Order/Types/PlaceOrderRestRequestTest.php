@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\PlaceOrderRestRequest;
 
-class PlaceOrderRestRequestTest extends \PHPUnit\Framework\TestCase
+class PlaceOrderRestRequestTest extends TestCase
 {
     private $obj;
 

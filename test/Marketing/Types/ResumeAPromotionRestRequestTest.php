@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestRequest;
 
-class ResumeAPromotionRestRequestTest extends \PHPUnit\Framework\TestCase
+class ResumeAPromotionRestRequestTest extends TestCase
 {
     private $obj;
 

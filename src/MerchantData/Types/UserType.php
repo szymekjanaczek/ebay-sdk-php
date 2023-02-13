@@ -10,6 +10,17 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\FeedbackRatingStarCodeType;
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\SiteCodeType;
+use DTS\eBaySDK\MerchantData\Enums\UserStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\VATStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\BusinessRoleType;
+use DTS\eBaySDK\MerchantData\Enums\PayPalAccountLevelCodeType;
+use DTS\eBaySDK\MerchantData\Enums\PayPalAccountTypeCodeType;
+use DTS\eBaySDK\MerchantData\Enums\PayPalAccountStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\EBaySubscriptionTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $AboutMePage
@@ -20,42 +31,42 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property integer $UniquePositiveFeedbackCount
  * @property double $PositiveFeedbackPercent
  * @property boolean $FeedbackPrivate
- * @property \DTS\eBaySDK\MerchantData\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
+ * @property FeedbackRatingStarCodeType $FeedbackRatingStar
  * @property boolean $IDVerified
  * @property boolean $eBayGoodStanding
  * @property boolean $NewUser
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $RegistrationAddress
- * @property \DateTime $RegistrationDate
- * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType $Site
- * @property \DTS\eBaySDK\MerchantData\Enums\UserStatusCodeType $Status
+ * @property AddressType $RegistrationAddress
+ * @property DateTime $RegistrationDate
+ * @property SiteCodeType $Site
+ * @property UserStatusCodeType $Status
  * @property string $UserID
  * @property boolean $UserIDChanged
- * @property \DateTime $UserIDLastChanged
- * @property \DTS\eBaySDK\MerchantData\Enums\VATStatusCodeType $VATStatus
- * @property \DTS\eBaySDK\MerchantData\Types\BuyerType $BuyerInfo
- * @property \DTS\eBaySDK\MerchantData\Types\SellerType $SellerInfo
- * @property \DTS\eBaySDK\MerchantData\Enums\BusinessRoleType $BusinessRole
- * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountLevelCodeType $PayPalAccountLevel
- * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountTypeCodeType $PayPalAccountType
- * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountStatusCodeType $PayPalAccountStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\EBaySubscriptionTypeCodeType[] $UserSubscription
+ * @property DateTime $UserIDLastChanged
+ * @property VATStatusCodeType $VATStatus
+ * @property BuyerType $BuyerInfo
+ * @property SellerType $SellerInfo
+ * @property BusinessRoleType $BusinessRole
+ * @property PayPalAccountLevelCodeType $PayPalAccountLevel
+ * @property PayPalAccountTypeCodeType $PayPalAccountType
+ * @property PayPalAccountStatusCodeType $PayPalAccountStatus
+ * @property EBaySubscriptionTypeCodeType[] $UserSubscription
  * @property string[] $SkypeID
  * @property boolean $eBayWikiReadOnly
  * @property integer $TUVLevel
  * @property string $VATID
  * @property boolean $MotorsDealer
- * @property \DTS\eBaySDK\MerchantData\Types\BiddingSummaryType $BiddingSummary
+ * @property BiddingSummaryType $BiddingSummary
  * @property boolean $UserAnonymized
  * @property integer $UniqueNeutralFeedbackCount
  * @property boolean $EnterpriseSeller
  * @property string $BillingEmail
  * @property boolean $QualifiesForSelling
  * @property string $StaticAlias
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
+ * @property AddressType $ShippingAddress
  * @property string $UserFirstName
  * @property string $UserLastName
  */
-class UserType extends \DTS\eBaySDK\Types\BaseType
+class UserType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

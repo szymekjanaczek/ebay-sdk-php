@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetCampaignByIDRestResponse extends \DTS\eBaySDK\Marketing\Types\Campaign
+class GetCampaignByIDRestResponse extends Campaign
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

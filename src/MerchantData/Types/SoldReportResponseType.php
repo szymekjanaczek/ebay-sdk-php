@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\OrderDetailsType[] $OrderDetails
+ * @property OrderDetailsType[] $OrderDetails
  */
-class SoldReportResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class SoldReportResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

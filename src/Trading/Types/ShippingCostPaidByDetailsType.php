@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ShippingCostPaidByOption
  * @property string $Description
  */
-class ShippingCostPaidByDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingCostPaidByDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

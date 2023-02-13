@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\AddressType;
 
-class AddressTypeTest extends \PHPUnit\Framework\TestCase
+class AddressTypeTest extends TestCase
 {
     private $obj;
 

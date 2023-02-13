@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Feedback\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Feedback\Types\DSRSummary[] $DSRSummary
+ * @property DSRSummary[] $DSRSummary
  * @property integer $totalTransactionCount
  */
-class GetDSRSummaryResponse extends \DTS\eBaySDK\Feedback\Types\BaseServiceResponse
+class GetDSRSummaryResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

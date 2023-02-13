@@ -10,21 +10,22 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $title
  * @property string $detailsURL
  * @property string $stockPhotoURL
- * @property \DTS\eBaySDK\HalfFinding\Types\ProductIDType[] $productID
+ * @property ProductIDType[] $productID
  * @property string[] $categoryName
- * @property \DTS\eBaySDK\HalfFinding\Types\NameValueListArrayType $itemSpecifics
- * @property \DTS\eBaySDK\HalfFinding\Types\ItemType[] $item
- * @property \DTS\eBaySDK\HalfFinding\Types\Amount $listPrice
+ * @property NameValueListArrayType $itemSpecifics
+ * @property ItemType[] $item
+ * @property Amount $listPrice
  * @property integer $reviewCount
- * @property \DTS\eBaySDK\HalfFinding\Types\Amount $BestFixedPrice
- * @property \DTS\eBaySDK\HalfFinding\Types\Amount $BestRentalPrice
+ * @property Amount $BestFixedPrice
+ * @property Amount $BestRentalPrice
  */
-class HalfCatalogProductType extends \DTS\eBaySDK\Types\BaseType
+class HalfCatalogProductType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

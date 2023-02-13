@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $expectedReleaseDate
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $holdAmount
+ * @property Amount $holdAmount
  * @property string $holdReason
  * @property string $holdState
  * @property string $releaseDate
- * @property \DTS\eBaySDK\Fulfillment\Types\SellerActionsToRelease[] $sellerActionsToRelease
+ * @property SellerActionsToRelease[] $sellerActionsToRelease
  */
-class PaymentHold extends \DTS\eBaySDK\Types\BaseType
+class PaymentHold extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

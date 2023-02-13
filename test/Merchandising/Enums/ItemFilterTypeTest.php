@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Merchandising\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Merchandising\Enums\ItemFilterType;
 
-class ItemFilterTypeTest extends \PHPUnit\Framework\TestCase
+class ItemFilterTypeTest extends TestCase
 {
     private $obj;
 

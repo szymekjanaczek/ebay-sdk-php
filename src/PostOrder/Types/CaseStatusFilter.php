@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class CaseStatusFilter extends \DTS\eBaySDK\Types\BaseType
+class CaseStatusFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

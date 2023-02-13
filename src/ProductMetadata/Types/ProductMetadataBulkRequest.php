@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest[] $productMetadataRequest
+ * @property ProductMetadataRequest[] $productMetadataRequest
  */
-class ProductMetadataBulkRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseRequest
+class ProductMetadataBulkRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

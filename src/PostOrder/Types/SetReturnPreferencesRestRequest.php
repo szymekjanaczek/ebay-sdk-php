@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
 /**
  *
  */
-class SetReturnPreferencesRestRequest extends \DTS\eBaySDK\PostOrder\Types\SetSellerReturnPreferenceRequest
+class SetReturnPreferencesRestRequest extends SetSellerReturnPreferenceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

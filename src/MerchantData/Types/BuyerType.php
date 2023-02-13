@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
- * @property \DTS\eBaySDK\MerchantData\Types\TaxIdentifierType[] $BuyerTaxIdentifier
+ * @property AddressType $ShippingAddress
+ * @property TaxIdentifierType[] $BuyerTaxIdentifier
  */
-class BuyerType extends \DTS\eBaySDK\Types\BaseType
+class BuyerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

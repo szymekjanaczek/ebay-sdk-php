@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $adId
  * @property string $href
  */
-class AdReference extends \DTS\eBaySDK\Types\BaseType
+class AdReference extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

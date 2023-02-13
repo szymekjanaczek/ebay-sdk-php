@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\TransactionVolume;
 
-class TransactionVolumeTest extends \PHPUnit\Framework\TestCase
+class TransactionVolumeTest extends TestCase
 {
     private $obj;
 

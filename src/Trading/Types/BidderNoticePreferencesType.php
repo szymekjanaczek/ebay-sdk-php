@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $UnsuccessfulBidderNoticeIncludeMyItems
  */
-class BidderNoticePreferencesType extends \DTS\eBaySDK\Types\BaseType
+class BidderNoticePreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

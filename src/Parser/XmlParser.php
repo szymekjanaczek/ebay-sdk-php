@@ -1,6 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Parser;
 
+use SplStack;
+use stdClass;
+use DateTime;
+use DateTimeZone;
 /**
  * Responsible for parsing XML and returning a PHP object.
  */
@@ -17,7 +21,7 @@ class XmlParser
     private $rootObject;
 
     /**
-     * @var \SplStack
+     * @var SplStack
      */
     private $metaStack;
 
@@ -28,7 +32,7 @@ class XmlParser
     {
         $this->rootObjectClass = $rootObjectClass;
 
-        $this->metaStack = new \SplStack();
+        $this->metaStack = new SplStack();
     }
 
     /**
@@ -148,11 +152,11 @@ class XmlParser
      * @param string $elementName The element name.
      * @param array $attributes Associative array of the element's attributes.
      *
-     * @return \stdClass
+     * @return stdClass
      */
     private function getPhpMeta($elementName, array $attributes)
     {
-        $meta = new \stdClass();
+        $meta = new stdClass();
         $meta->propertyName = '';
         $meta->phpType = '';
         $meta->repeatable = false;
@@ -197,11 +201,11 @@ class XmlParser
     /**
      * Builds the required PHP object.
      *
-     * @param \stdClass $meta The PHP meta data.
+     * @param stdClass $meta The PHP meta data.
      *
      * @return mixed A new PHP object or null.
      */
-    private function newPhpObject(\stdClass $meta)
+    private function newPhpObject(stdClass $meta)
     {
         $phpTypes = explode('|', $meta->phpType);
 
@@ -224,11 +228,11 @@ class XmlParser
     /**
      * Returns a value that will be assigned to an object's property.
      *
-     * @param \stdClass $meta The PHP meta data.
+     * @param stdClass $meta The PHP meta data.
      *
      * @return mixed The value to assign.
      */
-    private function getValueToAssign(\stdClass $meta)
+    private function getValueToAssign(stdClass $meta)
     {
         if ($this->isSimplePhpType($meta)) {
             return $this->getValueToAssignToProperty($meta);
@@ -243,11 +247,11 @@ class XmlParser
     /**
      * Determines if the type of the property is simple.
      *
-     * @param \stdClass $meta The PHP meta data.
+     * @param stdClass $meta The PHP meta data.
      *
      * @return bool True if the property type is simple.
      */
-    private function isSimplePhpType(\stdClass $meta)
+    private function isSimplePhpType(stdClass $meta)
     {
         $phpTypes = explode('|', $meta->phpType);
 
@@ -270,11 +274,11 @@ class XmlParser
     /**
      * Determines if the the property of an object is set by a _value_ property.
      *
-     * @param \stdClass $meta The PHP meta data.
+     * @param stdClass $meta The PHP meta data.
      *
      * @return bool True if the property needs to be set by _value_.
      */
-    private function setByValue(\stdClass $meta)
+    private function setByValue(stdClass $meta)
     {
         return (
             is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\Base64BinaryType', false) ||
@@ -291,11 +295,11 @@ class XmlParser
     /**
      * Returns a value that will be assigned to an object's property.
      *
-     * @param \stdClass $meta The PHP meta data.
+     * @param stdClass $meta The PHP meta data.
      *
      * @return mixed The value to assign.
      */
-    private function getValueToAssignToProperty(\stdClass $meta)
+    private function getValueToAssignToProperty(stdClass $meta)
     {
         switch ($meta->phpType) {
             case 'integer':
@@ -305,7 +309,7 @@ class XmlParser
             case 'boolean':
                 return strtolower($meta->strData) === 'true';
             case 'DateTime':
-                return new \DateTime($meta->strData, new \DateTimeZone('UTC'));
+                return new DateTime($meta->strData, new DateTimeZone('UTC'));
             case 'string':
             default:
                 return $meta->strData;
@@ -315,11 +319,11 @@ class XmlParser
     /**
      * Returns a value that will be assigned to an object's _value_ property.
      *
-     * @param \stdClass $meta The PHP meta data.
+     * @param stdClass $meta The PHP meta data.
      *
      * @return mixed The value to assign.
      */
-    private function getValueToAssignToValue(\stdClass $meta)
+    private function getValueToAssignToValue(stdClass $meta)
     {
         if (is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\Base64BinaryType', false)) {
             return $meta->strData;

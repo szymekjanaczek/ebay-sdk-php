@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
  * @property boolean $IsDefault
  */
-class CategoryGroupType extends \DTS\eBaySDK\Types\BaseType
+class CategoryGroupType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

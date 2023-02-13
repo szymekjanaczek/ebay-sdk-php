@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Inventory\Types;
  *
  * @property string $sku
  */
-class CreateOrReplaceProductCompatibilityRestRequest extends \DTS\eBaySDK\Inventory\Types\Compatibility
+class CreateOrReplaceProductCompatibilityRestRequest extends Compatibility
 {
     /**
      * @var array Properties belonging to objects of this class.

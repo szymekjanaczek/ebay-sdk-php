@@ -10,20 +10,22 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $user
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $otherParty
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType $status
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType $item
+ * @property CaseIdType $caseId
+ * @property CaseUserType $user
+ * @property CaseUserType $otherParty
+ * @property CaseStatusType $status
+ * @property ItemType $item
  * @property integer $caseQuantity
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $caseAmount
- * @property \DateTime $respondByDate
- * @property \DateTime $creationDate
- * @property \DateTime $lastModifiedDate
+ * @property Amount $caseAmount
+ * @property DateTime $respondByDate
+ * @property DateTime $creationDate
+ * @property DateTime $lastModifiedDate
  */
-class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
+class CaseSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

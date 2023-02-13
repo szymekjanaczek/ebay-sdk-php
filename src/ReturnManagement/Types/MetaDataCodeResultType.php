@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\MetadataCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\MetadataCodeType $codeName
+ * @property MetadataCodeType $codeName
  * @property string[] $value
  */
-class MetaDataCodeResultType extends \DTS\eBaySDK\Types\BaseType
+class MetaDataCodeResultType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

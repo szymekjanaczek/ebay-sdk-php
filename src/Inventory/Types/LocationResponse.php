@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
  * @property integer $limit
- * @property \DTS\eBaySDK\Inventory\Types\InventoryLocationResponse[] $locations
+ * @property InventoryLocationResponse[] $locations
  * @property string $next
  * @property integer $offset
  * @property string $prev
  * @property integer $total
  */
-class LocationResponse extends \DTS\eBaySDK\Types\BaseType
+class LocationResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

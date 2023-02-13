@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $MemberURL
  * @property integer $PictureHeight
  * @property integer $PictureWidth
  */
-class PictureSetMemberType extends \DTS\eBaySDK\Types\BaseType
+class PictureSetMemberType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

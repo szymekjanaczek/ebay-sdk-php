@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AttributeSetArrayType $AttributeSetArray
+ * @property AttributeSetArrayType $AttributeSetArray
  */
-class SIFFTASRecommendationsType extends \DTS\eBaySDK\Types\BaseType
+class SIFFTASRecommendationsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

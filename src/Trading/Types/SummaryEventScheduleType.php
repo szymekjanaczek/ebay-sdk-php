@@ -10,13 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\SummaryWindowPeriodCodeType;
+use DTS\eBaySDK\Trading\Enums\SummaryFrequencyCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $EventType
- * @property \DTS\eBaySDK\Trading\Enums\SummaryWindowPeriodCodeType $SummaryPeriod
- * @property \DTS\eBaySDK\Trading\Enums\SummaryFrequencyCodeType $Frequency
+ * @property NotificationEventTypeCodeType $EventType
+ * @property SummaryWindowPeriodCodeType $SummaryPeriod
+ * @property SummaryFrequencyCodeType $Frequency
  */
-class SummaryEventScheduleType extends \DTS\eBaySDK\Types\BaseType
+class SummaryEventScheduleType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,9 +13,9 @@ namespace DTS\eBaySDK\Product\Types;
 /**
  *
  * @property string $invocationId
- * @property \DTS\eBaySDK\Product\Types\ProductSubmissionStatus $status
+ * @property ProductSubmissionStatus $status
  */
-class AddProductResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class AddProductResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

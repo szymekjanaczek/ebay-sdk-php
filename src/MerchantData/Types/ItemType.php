@@ -10,63 +10,80 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\BuyerProtectionCodeType;
+use DTS\eBaySDK\MerchantData\Enums\CountryCodeType;
+use DTS\eBaySDK\MerchantData\Enums\CurrencyCodeType;
+use DTS\eBaySDK\MerchantData\Enums\DescriptionReviseModeCodeType;
+use DTS\eBaySDK\MerchantData\Enums\GiftServicesCodeType;
+use DTS\eBaySDK\MerchantData\Enums\HitCounterCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ListingEnhancementsCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ListingTypeCodeType;
+use DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType;
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\SiteCodeType;
+use DTS\eBaySDK\MerchantData\Enums\SkypeContactOptionCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ListingSubtypeCodeType;
+use DTS\eBaySDK\MerchantData\Enums\InventoryTrackingMethodCodeType;
+use DTS\eBaySDK\MerchantData\Enums\QuantityAvailableHintCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ReasonHideFromSearchCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ApplicationData
- * @property \DTS\eBaySDK\MerchantData\Types\AttributeArrayType $AttributeArray
+ * @property AttributeArrayType $AttributeArray
  * @property boolean $AutoPay
- * @property \DTS\eBaySDK\MerchantData\Types\PaymentDetailsType $PaymentDetails
- * @property \DTS\eBaySDK\MerchantData\Types\BiddingDetailsType $BiddingDetails
+ * @property PaymentDetailsType $PaymentDetails
+ * @property BiddingDetailsType $BiddingDetails
  * @property boolean $MotorsGermanySearchable
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerProtectionCodeType $BuyerProtection
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $BuyItNowPrice
+ * @property BuyerProtectionCodeType $BuyerProtection
+ * @property AmountType $BuyItNowPrice
  * @property boolean $CategoryMappingAllowed
- * @property \DTS\eBaySDK\MerchantData\Types\CharityType $Charity
- * @property \DTS\eBaySDK\MerchantData\Enums\CountryCodeType $Country
- * @property \DTS\eBaySDK\MerchantData\Enums\CurrencyCodeType $Currency
+ * @property CharityType $Charity
+ * @property CountryCodeType $Country
+ * @property CurrencyCodeType $Currency
  * @property string $Description
- * @property \DTS\eBaySDK\MerchantData\Enums\DescriptionReviseModeCodeType $DescriptionReviseMode
+ * @property DescriptionReviseModeCodeType $DescriptionReviseMode
  * @property integer $GiftIcon
- * @property \DTS\eBaySDK\MerchantData\Enums\GiftServicesCodeType[] $GiftServices
- * @property \DTS\eBaySDK\MerchantData\Enums\HitCounterCodeType $HitCounter
+ * @property GiftServicesCodeType[] $GiftServices
+ * @property HitCounterCodeType $HitCounter
  * @property string $ItemID
- * @property \DTS\eBaySDK\MerchantData\Types\ListingDetailsType $ListingDetails
- * @property \DTS\eBaySDK\MerchantData\Types\ListingDesignerType $ListingDesigner
+ * @property ListingDetailsType $ListingDetails
+ * @property ListingDesignerType $ListingDesigner
  * @property string $ListingDuration
- * @property \DTS\eBaySDK\MerchantData\Enums\ListingEnhancementsCodeType[] $ListingEnhancement
- * @property \DTS\eBaySDK\MerchantData\Enums\ListingTypeCodeType $ListingType
+ * @property ListingEnhancementsCodeType[] $ListingEnhancement
+ * @property ListingTypeCodeType $ListingType
  * @property string $Location
  * @property integer $LotSize
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
+ * @property BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property string $PayPalEmailAddress
- * @property \DTS\eBaySDK\MerchantData\Types\CategoryType $PrimaryCategory
+ * @property CategoryType $PrimaryCategory
  * @property boolean $PrivateListing
- * @property \DTS\eBaySDK\MerchantData\Types\ProductListingDetailsType $ProductListingDetails
+ * @property ProductListingDetailsType $ProductListingDetails
  * @property integer $Quantity
  * @property string $PrivateNotes
  * @property boolean $RelistLink
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ReservePrice
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseStatusType $ReviseStatus
- * @property \DateTime $ScheduleTime
- * @property \DTS\eBaySDK\MerchantData\Types\CategoryType $SecondaryCategory
- * @property \DTS\eBaySDK\MerchantData\Types\CategoryType $FreeAddedCategory
- * @property \DTS\eBaySDK\MerchantData\Types\UserType $Seller
- * @property \DTS\eBaySDK\MerchantData\Types\SellingStatusType $SellingStatus
- * @property \DTS\eBaySDK\MerchantData\Types\ShippingDetailsType $ShippingDetails
+ * @property AmountType $ReservePrice
+ * @property ReviseStatusType $ReviseStatus
+ * @property DateTime $ScheduleTime
+ * @property CategoryType $SecondaryCategory
+ * @property CategoryType $FreeAddedCategory
+ * @property UserType $Seller
+ * @property SellingStatusType $SellingStatus
+ * @property ShippingDetailsType $ShippingDetails
  * @property string[] $ShipToLocations
- * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType $Site
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $StartPrice
- * @property \DTS\eBaySDK\MerchantData\Types\StorefrontType $Storefront
+ * @property SiteCodeType $Site
+ * @property AmountType $StartPrice
+ * @property StorefrontType $Storefront
  * @property string $SubTitle
  * @property string $TimeLeft
  * @property string $Title
  * @property string $UUID
- * @property \DTS\eBaySDK\MerchantData\Types\VATDetailsType $VATDetails
+ * @property VATDetailsType $VATDetails
  * @property string $SellerVacationNote
  * @property integer $WatchCount
  * @property integer $HitCount
  * @property boolean $DisableBuyerRequirements
- * @property \DTS\eBaySDK\MerchantData\Types\BestOfferDetailsType $BestOfferDetails
+ * @property BestOfferDetailsType $BestOfferDetails
  * @property boolean $LocationDefaulted
  * @property boolean $ThirdPartyCheckout
  * @property boolean $UseTaxTable
@@ -80,78 +97,78 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property string $PostalCode
  * @property boolean $ShippingTermsInDescription
  * @property string $SellerInventoryID
- * @property \DTS\eBaySDK\MerchantData\Types\PictureDetailsType $PictureDetails
+ * @property PictureDetailsType $PictureDetails
  * @property integer $DispatchTimeMax
  * @property boolean $SkypeEnabled
  * @property string $SkypeID
- * @property \DTS\eBaySDK\MerchantData\Enums\SkypeContactOptionCodeType[] $SkypeContactOption
+ * @property SkypeContactOptionCodeType[] $SkypeContactOption
  * @property boolean $ThirdPartyCheckoutIntegration
- * @property \DTS\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType $ListingCheckoutRedirectPreference
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $SellerContactDetails
+ * @property ListingCheckoutRedirectPreferenceType $ListingCheckoutRedirectPreference
+ * @property AddressType $SellerContactDetails
  * @property integer $TotalQuestionCount
  * @property boolean $ProxyItem
- * @property \DTS\eBaySDK\MerchantData\Types\ExtendedContactDetailsType $ExtendedSellerContactDetails
+ * @property ExtendedContactDetailsType $ExtendedSellerContactDetails
  * @property integer $LeadCount
  * @property integer $NewLeadCount
- * @property \DTS\eBaySDK\MerchantData\Types\NameValueListArrayType $ItemSpecifics
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ClassifiedAdPayPerLeadFee
- * @property \DTS\eBaySDK\MerchantData\Types\BuyerProtectionDetailsType $ApplyBuyerProtection
- * @property \DTS\eBaySDK\MerchantData\Enums\ListingSubtypeCodeType $ListingSubtype2
+ * @property NameValueListArrayType $ItemSpecifics
+ * @property AmountType $ClassifiedAdPayPerLeadFee
+ * @property BuyerProtectionDetailsType $ApplyBuyerProtection
+ * @property ListingSubtypeCodeType $ListingSubtype2
  * @property boolean $MechanicalCheckAccepted
  * @property boolean $UpdateSellerInfo
  * @property boolean $UpdateReturnPolicy
- * @property \DTS\eBaySDK\MerchantData\Types\ItemPolicyViolationType $ItemPolicyViolation
+ * @property ItemPolicyViolationType $ItemPolicyViolation
  * @property string[] $CrossBorderTrade
- * @property \DTS\eBaySDK\MerchantData\Types\BusinessSellerDetailsType $BusinessSellerDetails
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $BuyerGuaranteePrice
- * @property \DTS\eBaySDK\MerchantData\Types\BuyerRequirementDetailsType $BuyerRequirementDetails
- * @property \DTS\eBaySDK\MerchantData\Types\ReturnPolicyType $ReturnPolicy
- * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType[] $PaymentAllowedSite
- * @property \DTS\eBaySDK\MerchantData\Enums\InventoryTrackingMethodCodeType $InventoryTrackingMethod
+ * @property BusinessSellerDetailsType $BusinessSellerDetails
+ * @property AmountType $BuyerGuaranteePrice
+ * @property BuyerRequirementDetailsType $BuyerRequirementDetails
+ * @property ReturnPolicyType $ReturnPolicy
+ * @property SiteCodeType[] $PaymentAllowedSite
+ * @property InventoryTrackingMethodCodeType $InventoryTrackingMethod
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\MerchantData\Types\VariationsType $Variations
- * @property \DTS\eBaySDK\MerchantData\Types\ItemCompatibilityListType $ItemCompatibilityList
+ * @property VariationsType $Variations
+ * @property ItemCompatibilityListType $ItemCompatibilityList
  * @property integer $ItemCompatibilityCount
  * @property integer $ConditionID
  * @property string $ConditionDescription
  * @property string $ConditionDisplayName
  * @property string $TaxCategory
- * @property \DTS\eBaySDK\MerchantData\Enums\QuantityAvailableHintCodeType $QuantityAvailableHint
+ * @property QuantityAvailableHintCodeType $QuantityAvailableHint
  * @property integer $QuantityThreshold
  * @property boolean $PostCheckoutExperienceEnabled
- * @property \DTS\eBaySDK\MerchantData\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property DiscountPriceInfoType $DiscountPriceInfo
  * @property boolean $UseRecommendedProduct
  * @property string $SellerProvidedTitle
  * @property string $VIN
  * @property string $VRM
- * @property \DTS\eBaySDK\MerchantData\Types\QuantityInfoType $QuantityInfo
- * @property \DTS\eBaySDK\MerchantData\Types\SellerProfilesType $SellerProfiles
- * @property \DTS\eBaySDK\MerchantData\Types\ShippingServiceCostOverrideListType $ShippingServiceCostOverrideList
- * @property \DTS\eBaySDK\MerchantData\Types\ShipPackageDetailsType $ShippingPackageDetails
+ * @property QuantityInfoType $QuantityInfo
+ * @property SellerProfilesType $SellerProfiles
+ * @property ShippingServiceCostOverrideListType $ShippingServiceCostOverrideList
+ * @property ShipPackageDetailsType $ShippingPackageDetails
  * @property boolean $TopRatedListing
- * @property \DTS\eBaySDK\MerchantData\Types\QuantityRestrictionPerBuyerInfoType $QuantityRestrictionPerBuyer
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FloorPrice
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $CeilingPrice
+ * @property QuantityRestrictionPerBuyerInfoType $QuantityRestrictionPerBuyer
+ * @property AmountType $FloorPrice
+ * @property AmountType $CeilingPrice
  * @property boolean $IsIntermediatedShippingEligible
- * @property \DTS\eBaySDK\MerchantData\Types\UnitInfoType $UnitInfo
+ * @property UnitInfoType $UnitInfo
  * @property integer $RelistParentID
  * @property string $ConditionDefinition
  * @property boolean $HideFromSearch
- * @property \DTS\eBaySDK\MerchantData\Enums\ReasonHideFromSearchCodeType $ReasonHideFromSearch
+ * @property ReasonHideFromSearchCodeType $ReasonHideFromSearch
  * @property boolean $IncludeRecommendations
- * @property \DTS\eBaySDK\MerchantData\Types\PickupInStoreDetailsType $PickupInStoreDetails
+ * @property PickupInStoreDetailsType $PickupInStoreDetails
  * @property boolean $eBayNowEligible
  * @property boolean $eBayNowAvailable
  * @property boolean $IgnoreQuantity
  * @property boolean $AvailableForPickupDropOff
  * @property boolean $EligibleForPickupDropOff
  * @property boolean $LiveAuction
- * @property \DTS\eBaySDK\MerchantData\Types\DigitalGoodInfoType $DigitalGoodInfo
+ * @property DigitalGoodInfoType $DigitalGoodInfo
  * @property boolean $eBayPlus
  * @property boolean $eBayPlusEligible
  * @property boolean $eMailDeliveryAvailable
  */
-class ItemType extends \DTS\eBaySDK\Types\BaseType
+class ItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

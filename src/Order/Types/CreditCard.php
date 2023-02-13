@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $accountHolderName
- * @property \DTS\eBaySDK\Order\Types\BillingAddress $billingAddress
+ * @property BillingAddress $billingAddress
  * @property string $brand
  * @property string $cardNumber
  * @property string $cvvNumber
  * @property integer $expireMonth
  * @property integer $expireYear
  */
-class CreditCard extends \DTS\eBaySDK\Types\BaseType
+class CreditCard extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

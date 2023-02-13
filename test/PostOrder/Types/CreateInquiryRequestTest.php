@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\CreateInquiryRequest;
 
-class CreateInquiryRequestTest extends \PHPUnit\Framework\TestCase
+class CreateInquiryRequestTest extends TestCase
 {
     private $obj;
 

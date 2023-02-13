@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ExpressEnabledDefinitionType;
 
-class ExpressEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class ExpressEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

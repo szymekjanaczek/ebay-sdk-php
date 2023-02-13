@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Mocks;
 
+use DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementBaseService
+class Service extends RelatedItemsManagementBaseService
 {
     public function __construct(array $config)
     {

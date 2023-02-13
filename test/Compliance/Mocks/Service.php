@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Compliance\Mocks;
 
+use DTS\eBaySDK\Compliance\Services\ComplianceBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseService
+class Service extends ComplianceBaseService
 {
     protected static $operations = [
         'testOperation' => [

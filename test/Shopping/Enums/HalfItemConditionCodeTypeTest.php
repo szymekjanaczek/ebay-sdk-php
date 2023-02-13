@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Enums\HalfItemConditionCodeType;
 
-class HalfItemConditionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class HalfItemConditionCodeTypeTest extends TestCase
 {
     private $obj;
 

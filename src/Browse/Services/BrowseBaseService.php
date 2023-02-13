@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Browse\Services;
 
+use DTS\eBaySDK\Services\BaseRestService;
 /**
  * Base class for the Browse service.
  */
-class BrowseBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class BrowseBaseService extends BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -55,7 +56,7 @@ class BrowseBaseService extends \DTS\eBaySDK\Services\BaseRestService
             ],
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Browse\Services\BrowseService::API_VERSION,
+                'default' => BrowseService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

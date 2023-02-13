@@ -10,6 +10,8 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $FolderID
@@ -18,9 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $FolderName
  * @property string $FolderComment
  * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType[] $ChildFolder
- * @property \DateTime $CreationTime
+ * @property DateTime $CreationTime
  */
-class SellingManagerFolderDetailsType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerFolderDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

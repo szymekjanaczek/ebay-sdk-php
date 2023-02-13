@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\ProofType;
 
-class ProofTypeTest extends \PHPUnit\Framework\TestCase
+class ProofTypeTest extends TestCase
 {
     private $obj;
 

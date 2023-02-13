@@ -10,17 +10,19 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
- * @property \DateTime $StartTime
- * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \DTS\eBaySDK\Trading\Types\ProductSuggestionsType $ProductSuggestions
- * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property FeesType $Fees
+ * @property DateTime $StartTime
+ * @property DateTime $EndTime
+ * @property DiscountReasonCodeType[] $DiscountReason
+ * @property ProductSuggestionsType $ProductSuggestions
+ * @property ListingRecommendationsType $ListingRecommendations
  */
-class VerifyRelistItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class VerifyRelistItemResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

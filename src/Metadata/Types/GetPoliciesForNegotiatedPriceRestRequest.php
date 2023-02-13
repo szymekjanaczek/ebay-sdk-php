@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $filter
  * @property string $marketplace_id
  */
-class GetPoliciesForNegotiatedPriceRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetPoliciesForNegotiatedPriceRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

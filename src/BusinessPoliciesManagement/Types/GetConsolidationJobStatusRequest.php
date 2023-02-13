@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  *
  * @property integer $JobId
  */
-class GetConsolidationJobStatusRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
+class GetConsolidationJobStatusRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

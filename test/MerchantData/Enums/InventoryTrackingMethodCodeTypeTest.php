@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\InventoryTrackingMethodCodeType;
 
-class InventoryTrackingMethodCodeTypeTest extends \PHPUnit\Framework\TestCase
+class InventoryTrackingMethodCodeTypeTest extends TestCase
 {
     private $obj;
 

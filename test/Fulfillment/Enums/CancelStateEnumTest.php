@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Enums\CancelStateEnum;
 
-class CancelStateEnumTest extends \PHPUnit\Framework\TestCase
+class CancelStateEnumTest extends TestCase
 {
     private $obj;
 

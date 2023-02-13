@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property \DTS\eBaySDK\PostOrder\Types\Mrk:Amount $amount
  */
-class ConditionDataRangeType extends \DTS\eBaySDK\Types\BaseType
+class ConditionDataRangeType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

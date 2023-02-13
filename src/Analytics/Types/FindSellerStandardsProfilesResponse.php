@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Analytics\Types\StandardsProfile[] $standardsProfiles
+ * @property StandardsProfile[] $standardsProfiles
  */
-class FindSellerStandardsProfilesResponse extends \DTS\eBaySDK\Types\BaseType
+class FindSellerStandardsProfilesResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Types\IntegerType;
 
-class IntegerTypeTest extends \PHPUnit\Framework\TestCase
+class IntegerTypeTest extends TestCase
 {
     private $obj;
 

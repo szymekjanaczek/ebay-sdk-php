@@ -10,31 +10,34 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\EndReasonCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $Adult
  * @property boolean $BindingAuction
  * @property boolean $CheckoutEnabled
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedBuyItNowPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedStartPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedReservePrice
+ * @property AmountType $ConvertedBuyItNowPrice
+ * @property AmountType $ConvertedStartPrice
+ * @property AmountType $ConvertedReservePrice
  * @property boolean $HasReservePrice
  * @property string $RelistedItemID
  * @property string $SecondChanceOriginalItemID
- * @property \DateTime $StartTime
- * @property \DateTime $EndTime
+ * @property DateTime $StartTime
+ * @property DateTime $EndTime
  * @property string $ViewItemURL
  * @property boolean $HasUnansweredQuestions
  * @property boolean $HasPublicMessages
  * @property boolean $BuyItNowAvailable
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MinimumBestOfferPrice
+ * @property AmountType $MinimumBestOfferPrice
  * @property string $LocalListingDistance
  * @property string $TCROriginalItemID
  * @property string $ViewItemURLForNaturalSearch
- * @property \DTS\eBaySDK\Trading\Types\AmountType $BestOfferAutoAcceptPrice
- * @property \DTS\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
+ * @property AmountType $BestOfferAutoAcceptPrice
+ * @property EndReasonCodeType $EndingReason
  */
-class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ListingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

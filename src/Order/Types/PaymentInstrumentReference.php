@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $lastFourDigitForCreditCard
  */
-class PaymentInstrumentReference extends \DTS\eBaySDK\Types\BaseType
+class PaymentInstrumentReference extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

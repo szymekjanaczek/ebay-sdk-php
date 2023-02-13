@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Types\URIType;
 
-class URITypeTest extends \PHPUnit\Framework\TestCase
+class URITypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType;
 
-class OnHoldReasonDetailTypeTest extends \PHPUnit\Framework\TestCase
+class OnHoldReasonDetailTypeTest extends TestCase
 {
     private $obj;
 

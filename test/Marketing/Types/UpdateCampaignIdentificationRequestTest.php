@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\UpdateCampaignIdentificationRequest;
 
-class UpdateCampaignIdentificationRequestTest extends \PHPUnit\Framework\TestCase
+class UpdateCampaignIdentificationRequestTest extends TestCase
 {
     private $obj;
 

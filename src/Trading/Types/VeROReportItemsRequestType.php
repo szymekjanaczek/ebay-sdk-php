@@ -13,9 +13,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $RightsOwnerID
- * @property \DTS\eBaySDK\Trading\Types\VeROReportItemsType $ReportItems
+ * @property VeROReportItemsType $ReportItems
  */
-class VeROReportItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class VeROReportItemsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

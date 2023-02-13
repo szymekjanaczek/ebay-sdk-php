@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType;
 
-class BuyerSatisfactionDashboardTypeTest extends \PHPUnit\Framework\TestCase
+class BuyerSatisfactionDashboardTypeTest extends TestCase
 {
     private $obj;
 

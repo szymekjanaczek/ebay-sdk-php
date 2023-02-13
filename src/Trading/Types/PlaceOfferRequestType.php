@@ -12,13 +12,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OfferType $Offer
+ * @property OfferType $Offer
  * @property string $ItemID
  * @property boolean $BlockOnWarning
- * @property \DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $AffiliateTrackingDetails
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property AffiliateTrackingDetailsType $AffiliateTrackingDetails
+ * @property NameValueListArrayType $VariationSpecifics
  */
-class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class PlaceOfferRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

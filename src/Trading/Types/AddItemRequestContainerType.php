@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property ItemType $Item
  * @property string $MessageID
  */
-class AddItemRequestContainerType extends \DTS\eBaySDK\Types\BaseType
+class AddItemRequestContainerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

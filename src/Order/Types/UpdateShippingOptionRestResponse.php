@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class UpdateShippingOptionRestResponse extends \DTS\eBaySDK\Order\Types\CheckoutSessionResponse
+class UpdateShippingOptionRestResponse extends CheckoutSessionResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

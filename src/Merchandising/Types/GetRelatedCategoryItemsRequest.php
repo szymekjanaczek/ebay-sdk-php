@@ -14,9 +14,9 @@ namespace DTS\eBaySDK\Merchandising\Types;
  *
  * @property string $itemId
  * @property string $categoryId
- * @property \DTS\eBaySDK\Merchandising\Types\ItemFilter[] $itemFilter
+ * @property ItemFilter[] $itemFilter
  */
-class GetRelatedCategoryItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
+class GetRelatedCategoryItemsRequest extends BaseMerchandisingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

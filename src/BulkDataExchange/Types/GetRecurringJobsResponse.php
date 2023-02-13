@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail[] $recurringJobDetail
+ * @property RecurringJobDetail[] $recurringJobDetail
  */
-class GetRecurringJobsResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class GetRecurringJobsResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $startTime
- * @property \DateTime $endTime
+ * @property DateTime $startTime
+ * @property DateTime $endTime
  */
-class DateFilter extends \DTS\eBaySDK\Types\BaseType
+class DateFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Types\Discount;
 
-class DiscountTest extends \PHPUnit\Framework\TestCase
+class DiscountTest extends TestCase
 {
     private $obj;
 

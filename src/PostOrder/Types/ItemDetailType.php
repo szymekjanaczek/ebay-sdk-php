@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
  * @property integer $returnQuantity
  * @property string $transactionId
  */
-class ItemDetailType extends \DTS\eBaySDK\Types\BaseType
+class ItemDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

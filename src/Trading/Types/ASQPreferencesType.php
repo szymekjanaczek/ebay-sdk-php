@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $ResetDefaultSubjects
  * @property string[] $Subject
  */
-class ASQPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class ASQPreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

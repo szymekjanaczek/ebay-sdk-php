@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class CrossPromotionsType extends \DTS\eBaySDK\Types\BaseType
+class CrossPromotionsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

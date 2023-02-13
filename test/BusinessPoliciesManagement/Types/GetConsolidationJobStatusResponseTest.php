@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusResponse;
 
-class GetConsolidationJobStatusResponseTest extends \PHPUnit\Framework\TestCase
+class GetConsolidationJobStatusResponseTest extends TestCase
 {
     private $obj;
 

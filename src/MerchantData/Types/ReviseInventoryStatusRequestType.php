@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\InventoryStatusType[] $InventoryStatus
+ * @property InventoryStatusType[] $InventoryStatus
  */
-class ReviseInventoryStatusRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
+class ReviseInventoryStatusRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

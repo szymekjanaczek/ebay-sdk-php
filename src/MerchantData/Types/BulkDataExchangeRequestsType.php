@@ -10,25 +10,26 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataRequestHeaderType $Header
- * @property \DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemRequestType[] $AddFixedPriceItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\AddItemRequestType[] $AddItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\EndFixedPriceItemRequestType[] $EndFixedPriceItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\EndItemRequestType[] $EndItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\OrderAckRequestType[] $OrderAckRequest
- * @property \DTS\eBaySDK\MerchantData\Types\RelistFixedPriceItemRequestType[] $RelistFixedPriceItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\RelistItemRequestType[] $RelistItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseFixedPriceItemRequestType[] $ReviseFixedPriceItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusRequestType[] $ReviseInventoryStatusRequest
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseItemRequestType[] $ReviseItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoRequestType[] $SetShipmentTrackingInfoRequest
- * @property \DTS\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesRequestType[] $UploadSiteHostedPicturesRequest
- * @property \DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemRequestType[] $VerifyAddFixedPriceItemRequest
- * @property \DTS\eBaySDK\MerchantData\Types\VerifyAddItemRequestType[] $VerifyAddItemRequest
+ * @property MerchantDataRequestHeaderType $Header
+ * @property AddFixedPriceItemRequestType[] $AddFixedPriceItemRequest
+ * @property AddItemRequestType[] $AddItemRequest
+ * @property EndFixedPriceItemRequestType[] $EndFixedPriceItemRequest
+ * @property EndItemRequestType[] $EndItemRequest
+ * @property OrderAckRequestType[] $OrderAckRequest
+ * @property RelistFixedPriceItemRequestType[] $RelistFixedPriceItemRequest
+ * @property RelistItemRequestType[] $RelistItemRequest
+ * @property ReviseFixedPriceItemRequestType[] $ReviseFixedPriceItemRequest
+ * @property ReviseInventoryStatusRequestType[] $ReviseInventoryStatusRequest
+ * @property ReviseItemRequestType[] $ReviseItemRequest
+ * @property SetShipmentTrackingInfoRequestType[] $SetShipmentTrackingInfoRequest
+ * @property UploadSiteHostedPicturesRequestType[] $UploadSiteHostedPicturesRequest
+ * @property VerifyAddFixedPriceItemRequestType[] $VerifyAddFixedPriceItemRequest
+ * @property VerifyAddItemRequestType[] $VerifyAddItemRequest
  */
-class BulkDataExchangeRequestsType extends \DTS\eBaySDK\Types\BaseType
+class BulkDataExchangeRequestsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

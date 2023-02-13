@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property mixed $aspects
@@ -24,7 +25,7 @@ namespace DTS\eBaySDK\Inventory\Types;
  * @property string[] $upc
  * @property string[] $epid
  */
-class Product extends \DTS\eBaySDK\Types\BaseType
+class Product extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

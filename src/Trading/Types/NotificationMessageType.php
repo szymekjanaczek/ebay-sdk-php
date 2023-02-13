@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class NotificationMessageType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class NotificationMessageType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

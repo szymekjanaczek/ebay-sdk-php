@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $sellerRegistrationCompleted
- * @property \DTS\eBaySDK\Account\Types\SellingLimit $sellingLimit
+ * @property SellingLimit $sellingLimit
  */
-class SellingPrivileges extends \DTS\eBaySDK\Types\BaseType
+class SellingPrivileges extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

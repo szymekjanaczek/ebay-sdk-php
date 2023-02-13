@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property mixed $aspects
@@ -19,9 +20,9 @@ namespace DTS\eBaySDK\Inventory\Types;
  * @property string $subtitle
  * @property string $title
  * @property string[] $variantSKUs
- * @property \DTS\eBaySDK\Inventory\Types\VariesBy $variesBy
+ * @property VariesBy $variesBy
  */
-class InventoryItemGroup extends \DTS\eBaySDK\Types\BaseType
+class InventoryItemGroup extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

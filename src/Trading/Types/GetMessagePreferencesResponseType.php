@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ASQPreferencesType $ASQPreferences
+ * @property ASQPreferencesType $ASQPreferences
  */
-class GetMessagePreferencesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMessagePreferencesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType $Sort
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property ItemSortTypeCodeType $Sort
+ * @property PaginationType $Pagination
  */
-class GetItemsAwaitingFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetItemsAwaitingFeedbackRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

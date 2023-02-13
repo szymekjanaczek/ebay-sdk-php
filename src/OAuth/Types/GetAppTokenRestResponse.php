@@ -1,6 +1,7 @@
 <?php
 namespace DTS\eBaySDK\OAuth\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
 
@@ -14,7 +15,7 @@ use DTS\eBaySDK\HttpHeadersTrait;
  * @property string $error_description
  * @property string $error_uri
  */
-class GetAppTokenRestResponse  extends \DTS\eBaySDK\Types\BaseType
+class GetAppTokenRestResponse  extends BaseType
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

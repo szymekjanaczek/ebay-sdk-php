@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $maxEstimatedDeliveryDate
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Order\Types;
  * @property string $shippingCarrierCode
  * @property string $shippingServiceCode
  */
-class ShippingDetail extends \DTS\eBaySDK\Types\BaseType
+class ShippingDetail extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $itemId
  * @property \DTS\eBaySDK\PostOrder\Types\Java:XMLGregorianCalendar $returnDate
  * @property integer $returnId
  */
-class RuleTriggerHistDetailType extends \DTS\eBaySDK\Types\BaseType
+class RuleTriggerHistDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

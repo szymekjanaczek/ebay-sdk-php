@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemCompatibilityType[] $Compatibility
+ * @property ItemCompatibilityType[] $Compatibility
  * @property boolean $ReplaceAll
  */
-class ItemCompatibilityListType extends \DTS\eBaySDK\Types\BaseType
+class ItemCompatibilityListType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

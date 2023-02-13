@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetClientAlertsAuthTokenRequestType;
 
-class GetClientAlertsAuthTokenRequestTypeTest extends \PHPUnit\Framework\TestCase
+class GetClientAlertsAuthTokenRequestTypeTest extends TestCase
 {
     private $obj;
 

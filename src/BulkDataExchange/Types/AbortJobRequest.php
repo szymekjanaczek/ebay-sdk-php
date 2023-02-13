@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
  *
  * @property string $jobId
  */
-class AbortJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class AbortJobRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

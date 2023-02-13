@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\AvailableOptionType;
 
-class AvailableOptionTypeTest extends \PHPUnit\Framework\TestCase
+class AvailableOptionTypeTest extends TestCase
 {
     private $obj;
 

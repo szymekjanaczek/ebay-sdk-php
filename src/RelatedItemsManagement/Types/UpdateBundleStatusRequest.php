@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatusMap[] $bundleStatusMap
+ * @property BundleStatusMap[] $bundleStatusMap
  */
-class UpdateBundleStatusRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest
+class UpdateBundleStatusRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

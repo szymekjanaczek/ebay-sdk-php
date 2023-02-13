@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $discountAmount
+ * @property ConvertedAmount $discountAmount
  * @property string $discountPercentage
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $originalPrice
+ * @property ConvertedAmount $originalPrice
  */
-class MarketingPrice extends \DTS\eBaySDK\Types\BaseType
+class MarketingPrice extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

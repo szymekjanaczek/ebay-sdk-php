@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\HalfFinding\Enums\RentalDurationType;
+use DTS\eBaySDK\Types\DoubleType;
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\RentalDurationType $duration
+ * @property RentalDurationType $duration
  * @property string $currencyId
  */
-class RentalAmount extends \DTS\eBaySDK\Types\DoubleType
+class RentalAmount extends DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

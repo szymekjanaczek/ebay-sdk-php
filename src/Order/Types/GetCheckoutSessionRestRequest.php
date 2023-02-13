@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $checkoutSessionId
  */
-class GetCheckoutSessionRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetCheckoutSessionRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

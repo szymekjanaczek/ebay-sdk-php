@@ -12,16 +12,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property PaginationResultType $PaginationResult
  * @property boolean $HasMoreTransactions
  * @property integer $TransactionsPerPage
  * @property integer $PageNumber
  * @property integer $ReturnedTransactionCountActual
- * @property \DTS\eBaySDK\Trading\Types\UserType $Seller
- * @property \DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
+ * @property UserType $Seller
+ * @property TransactionArrayType $TransactionArray
  * @property boolean $PayPalPreferred
  */
-class GetSellerTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellerTransactionsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

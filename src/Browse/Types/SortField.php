@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $ascending
  * @property string $field
  */
-class SortField extends \DTS\eBaySDK\Types\BaseType
+class SortField extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

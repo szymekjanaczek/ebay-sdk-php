@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityOptionListType $activityOptions
+ * @property ActivityOptionListType $activityOptions
  */
-class GetActivityOptionsResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class GetActivityOptionsResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

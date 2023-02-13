@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\RefundAmounts;
 
-class RefundAmountsTest extends \PHPUnit\Framework\TestCase
+class RefundAmountsTest extends TestCase
 {
     private $obj;
 

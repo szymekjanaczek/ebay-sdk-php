@@ -10,6 +10,8 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\AddressTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $AddressLine1
@@ -19,9 +21,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ZipCode
  * @property integer $Latitude
  * @property integer $Longitude
- * @property \DTS\eBaySDK\Trading\Enums\AddressTypeCodeType $AddressType
+ * @property AddressTypeCodeType $AddressType
  */
-class NonProfitAddressType extends \DTS\eBaySDK\Types\BaseType
+class NonProfitAddressType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

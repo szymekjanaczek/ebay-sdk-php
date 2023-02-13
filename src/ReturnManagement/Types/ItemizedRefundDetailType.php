@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\RefundFeeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\RefundFeeType $refundFeeType
- * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $amount
+ * @property RefundFeeType $refundFeeType
+ * @property Amount $amount
  */
-class ItemizedRefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class ItemizedRefundDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

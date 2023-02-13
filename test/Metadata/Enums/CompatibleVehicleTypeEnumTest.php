@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum;
 
-class CompatibleVehicleTypeEnumTest extends \PHPUnit\Framework\TestCase
+class CompatibleVehicleTypeEnumTest extends TestCase
 {
     private $obj;
 

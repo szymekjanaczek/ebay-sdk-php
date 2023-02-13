@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $brands
  * @property string[] $categoryIds
- * @property \DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum $categoryScope
+ * @property CategoryScopeEnum $categoryScope
  * @property string[] $listingConditionIds
- * @property \DTS\eBaySDK\Marketing\Types\Amount $maxPrice
- * @property \DTS\eBaySDK\Marketing\Types\Amount $minPrice
+ * @property Amount $maxPrice
+ * @property Amount $minPrice
  */
-class SelectionRule extends \DTS\eBaySDK\Types\BaseType
+class SelectionRule extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

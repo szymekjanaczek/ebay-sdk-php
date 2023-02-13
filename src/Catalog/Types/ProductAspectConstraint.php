@@ -10,15 +10,19 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Catalog\Enums\AspectDataTypeEnum;
+use DTS\eBaySDK\Catalog\Enums\AspectModeEnum;
+use DTS\eBaySDK\Catalog\Enums\ItemToAspectCardinalityEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Enums\AspectDataTypeEnum $aspectDataType
+ * @property AspectDataTypeEnum $aspectDataType
  * @property string $aspectFormat
- * @property \DTS\eBaySDK\Catalog\Enums\AspectModeEnum $aspectMode
+ * @property AspectModeEnum $aspectMode
  * @property boolean $aspectRequired
- * @property \DTS\eBaySDK\Catalog\Enums\ItemToAspectCardinalityEnum $productToAspectCardinality
+ * @property ItemToAspectCardinalityEnum $productToAspectCardinality
  */
-class ProductAspectConstraint extends \DTS\eBaySDK\Types\BaseType
+class ProductAspectConstraint extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

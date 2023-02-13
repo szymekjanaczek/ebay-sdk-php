@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property string $eBayAuthToken
- * @property \DateTime $HardExpirationTime
+ * @property DateTime $HardExpirationTime
  * @property string $RESTToken
  */
-class FetchTokenResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class FetchTokenResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

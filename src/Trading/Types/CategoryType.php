@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $BestOfferEnabled
@@ -27,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ORRA
  * @property boolean $LSD
  */
-class CategoryType extends \DTS\eBaySDK\Types\BaseType
+class CategoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Compliance\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $sku
- * @property \DTS\eBaySDK\Compliance\Types\NameValueList[] $variationAspects
+ * @property NameValueList[] $variationAspects
  */
-class VariationDetails extends \DTS\eBaySDK\Types\BaseType
+class VariationDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

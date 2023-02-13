@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $superscript
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property integer $minDeliveryServiceDefinition
  * @property string $name
  */
-class ServiceDefinition extends \DTS\eBaySDK\Types\BaseType
+class ServiceDefinition extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

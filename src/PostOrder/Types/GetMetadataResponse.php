@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnMetadataType[] $metadata
+ * @property ReturnMetadataType[] $metadata
  */
-class GetMetadataResponse extends \DTS\eBaySDK\Types\BaseType
+class GetMetadataResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

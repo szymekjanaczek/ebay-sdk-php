@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property CaseIdType $caseId
  * @property string $comments
  */
-class IssueFullRefundRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class IssueFullRefundRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

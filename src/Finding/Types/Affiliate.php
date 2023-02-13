@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $trackingId
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Finding\Types;
  * @property string $customId
  * @property boolean $geoTargeting
  */
-class Affiliate extends \DTS\eBaySDK\Types\BaseType
+class Affiliate extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

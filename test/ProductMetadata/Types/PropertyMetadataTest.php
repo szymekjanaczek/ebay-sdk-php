@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Types\PropertyMetadata;
 
-class PropertyMetadataTest extends \PHPUnit\Framework\TestCase
+class PropertyMetadataTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability[] $pickupAtLocationAvailability
- * @property \DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability $shipToLocationAvailability
+ * @property PickupAtLocationAvailability[] $pickupAtLocationAvailability
+ * @property ShipToLocationAvailability $shipToLocationAvailability
  */
-class Availability extends \DTS\eBaySDK\Types\BaseType
+class Availability extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

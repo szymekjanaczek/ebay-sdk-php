@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property integer $SaleTemplateID
- * @property \DateTime $ScheduleTime
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property DateTime $ScheduleTime
+ * @property ItemType $Item
  */
-class AddItemFromSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddItemFromSellingManagerTemplateRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

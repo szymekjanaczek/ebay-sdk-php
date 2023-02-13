@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetMessagePreferencesRequestType;
 
-class GetMessagePreferencesRequestTypeTest extends \PHPUnit\Framework\TestCase
+class GetMessagePreferencesRequestTypeTest extends TestCase
 {
     private $obj;
 

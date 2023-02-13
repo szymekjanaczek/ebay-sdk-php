@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\ProductMetadata\Enums\AckValue;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Enums\AckValue $ack
- * @property \DTS\eBaySDK\ProductMetadata\Types\ErrorMessage $errorMessage
+ * @property AckValue $ack
+ * @property ErrorMessage $errorMessage
  * @property string $version
- * @property \DateTime $timestamp
- * @property \DTS\eBaySDK\ProductMetadata\Types\ExtensionType[] $extension
+ * @property DateTime $timestamp
+ * @property ExtensionType[] $extension
  */
-class BaseResponse extends \DTS\eBaySDK\Types\BaseType
+class BaseResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

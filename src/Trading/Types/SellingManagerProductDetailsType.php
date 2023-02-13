@@ -10,20 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ProductName
  * @property integer $ProductID
  * @property string $CustomLabel
  * @property integer $QuantityAvailable
- * @property \DTS\eBaySDK\Trading\Types\AmountType $UnitCost
+ * @property AmountType $UnitCost
  * @property integer $FolderID
  * @property boolean $RestockAlert
  * @property integer $RestockThreshold
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType $VendorInfo
+ * @property SellingManagerVendorDetailsType $VendorInfo
  * @property string $Note
  */
-class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerProductDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

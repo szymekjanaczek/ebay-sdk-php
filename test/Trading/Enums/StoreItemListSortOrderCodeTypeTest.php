@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType;
 
-class StoreItemListSortOrderCodeTypeTest extends \PHPUnit\Framework\TestCase
+class StoreItemListSortOrderCodeTypeTest extends TestCase
 {
     private $obj;
 

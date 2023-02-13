@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Product\Enums\MediaType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\MediaIdentifier $mediaIdentifier
- * @property \DTS\eBaySDK\Product\Enums\MediaType $mediaType
+ * @property MediaIdentifier $mediaIdentifier
+ * @property MediaType $mediaType
  */
-class Media extends \DTS\eBaySDK\Types\BaseType
+class Media extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

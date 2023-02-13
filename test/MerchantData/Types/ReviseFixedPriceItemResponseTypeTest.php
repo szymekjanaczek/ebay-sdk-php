@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType;
 
-class ReviseFixedPriceItemResponseTypeTest extends \PHPUnit\Framework\TestCase
+class ReviseFixedPriceItemResponseTypeTest extends TestCase
 {
     private $obj;
 

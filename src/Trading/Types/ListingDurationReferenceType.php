@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ListingTypeCodeType;
+use DTS\eBaySDK\Types\IntegerType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $type
+ * @property ListingTypeCodeType $type
  */
-class ListingDurationReferenceType extends \DTS\eBaySDK\Types\IntegerType
+class ListingDurationReferenceType extends IntegerType
 {
     /**
      * @var array Properties belonging to objects of this class.

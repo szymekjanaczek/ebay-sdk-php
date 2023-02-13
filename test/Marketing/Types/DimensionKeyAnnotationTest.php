@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\DimensionKeyAnnotation;
 
-class DimensionKeyAnnotationTest extends \PHPUnit\Framework\TestCase
+class DimensionKeyAnnotationTest extends TestCase
 {
     private $obj;
 

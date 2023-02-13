@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SMSSubscriptionType $SMSSubscription
- * @property \DTS\eBaySDK\Trading\Types\SummaryEventScheduleType[] $SummarySchedule
+ * @property SMSSubscriptionType $SMSSubscription
+ * @property SummaryEventScheduleType[] $SummarySchedule
  * @property string $ExternalUserData
  */
-class NotificationUserDataType extends \DTS\eBaySDK\Types\BaseType
+class NotificationUserDataType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

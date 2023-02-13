@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob $Job
+ * @property ConsolidationJob $Job
  */
-class ConsolidateShippingProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
+class ConsolidateShippingProfilesResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

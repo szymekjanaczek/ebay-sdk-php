@@ -10,17 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\RefundSourceTypeCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType $RefundStatus
- * @property \DTS\eBaySDK\Trading\Enums\RefundSourceTypeCodeType $RefundType
- * @property \DTS\eBaySDK\Trading\Types\UserIdentityType $RefundTo
- * @property \DateTime $RefundTime
- * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
- * @property \DTS\eBaySDK\Trading\Types\TransactionReferenceType $ReferenceID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
+ * @property PaymentTransactionStatusCodeType $RefundStatus
+ * @property RefundSourceTypeCodeType $RefundType
+ * @property UserIdentityType $RefundTo
+ * @property DateTime $RefundTime
+ * @property AmountType $RefundAmount
+ * @property TransactionReferenceType $ReferenceID
+ * @property AmountType $FeeOrCreditAmount
  */
-class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
+class RefundTransactionInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

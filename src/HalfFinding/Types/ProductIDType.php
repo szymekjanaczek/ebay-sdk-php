@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\HalfFinding\Enums\ProductIDCodeType;
+use DTS\eBaySDK\Types\StringType;
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\ProductIDCodeType $type
+ * @property ProductIDCodeType $type
  */
-class ProductIDType extends \DTS\eBaySDK\Types\StringType
+class ProductIDType extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

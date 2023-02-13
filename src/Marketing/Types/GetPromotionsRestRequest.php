@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $limit
@@ -19,7 +20,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $q
  * @property string $sort
  */
-class GetPromotionsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetPromotionsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

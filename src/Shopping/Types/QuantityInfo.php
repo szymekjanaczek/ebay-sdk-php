@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MinimumRemnantSet
  */
-class QuantityInfo extends \DTS\eBaySDK\Types\BaseType
+class QuantityInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

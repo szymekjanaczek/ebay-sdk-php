@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $purchaseOrderHref
  * @property string $purchaseOrderId
- * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
+ * @property ErrorDetailV3[] $warnings
  */
-class PurchaseOrderSummary extends \DTS\eBaySDK\Types\BaseType
+class PurchaseOrderSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,6 +10,11 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\MessageTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\ListingStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Sender
@@ -22,23 +27,23 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Text
  * @property boolean $Flagged
  * @property boolean $Read
- * @property \DateTime $CreationDate
- * @property \DateTime $ReceiveDate
- * @property \DateTime $ExpirationDate
+ * @property DateTime $CreationDate
+ * @property DateTime $ReceiveDate
+ * @property DateTime $ExpirationDate
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType $ResponseDetails
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderType $Folder
+ * @property MyMessagesResponseDetailsType $ResponseDetails
+ * @property MyMessagesFolderType $Folder
  * @property string $Content
- * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
- * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
- * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType $QuestionType
+ * @property MessageTypeCodeType $MessageType
+ * @property ListingStatusCodeType $ListingStatus
+ * @property QuestionTypeCodeType $QuestionType
  * @property boolean $Replied
  * @property boolean $HighPriority
- * @property \DateTime $ItemEndTime
+ * @property DateTime $ItemEndTime
  * @property string $ItemTitle
- * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
+ * @property MessageMediaType[] $MessageMedia
  */
-class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
+class MyMessagesMessageType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

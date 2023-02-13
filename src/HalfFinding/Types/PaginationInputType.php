@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $pageNumber
  * @property integer $entriesPerPage
  */
-class PaginationInputType extends \DTS\eBaySDK\Types\BaseType
+class PaginationInputType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

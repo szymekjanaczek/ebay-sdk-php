@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType;
 
-class StoreCustomHeaderLayoutCodeTypeTest extends \PHPUnit\Framework\TestCase
+class StoreCustomHeaderLayoutCodeTypeTest extends TestCase
 {
     private $obj;
 

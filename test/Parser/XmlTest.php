@@ -1,9 +1,12 @@
 <?php
 namespace DTS\eBaySDK\Parser\Test;
 
+use PHPUnit\Framework\TestCase;
+use DateTime;
+use DateTimeZone;
 use DTS\eBaySDK\Parser\XmlParser;
 
-class XmlTest extends \PHPUnit\Framework\TestCase
+class XmlTest extends TestCase
 {
     public function testCanParseXml()
     {
@@ -23,7 +26,7 @@ class XmlTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(123.45, $obj->double);
         $this->assertEquals(true, $obj->booleanTrue);
         $this->assertEquals(false, $obj->booleanFalse);
-        $this->assertEquals(new \DateTime('2000-01-01T16:15:30.123Z', new \DateTimeZone('UTC')), $obj->DateTime);
+        $this->assertEquals(new DateTime('2000-01-01T16:15:30.123Z', new DateTimeZone('UTC')), $obj->DateTime);
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\SimpleClass', $obj->SimpleClass);
         $this->assertEquals(321, $obj->SimpleClass->integer);
         $this->assertEquals('another string', $obj->SimpleClass->string);
@@ -31,7 +34,7 @@ class XmlTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(123.45, $obj->SimpleClass->doubleAttribute);
         $this->assertEquals(true, $obj->SimpleClass->BooleanTrueAttribute);
         $this->assertEquals(false, $obj->SimpleClass->booleanFalseAttribute);
-        $this->assertEquals(new \DateTime('2000-01-01T16:15:30.123Z', new \DateTimeZone('UTC')), $obj->SimpleClass->DateTimeAttribute);
+        $this->assertEquals(new DateTime('2000-01-01T16:15:30.123Z', new DateTimeZone('UTC')), $obj->SimpleClass->DateTimeAttribute);
         $this->assertEquals('foo', $obj->strings[0]);
         $this->assertEquals('bar', $obj->strings[1]);
         $this->assertEquals(1, $obj->integers[0]);
@@ -78,7 +81,7 @@ class XmlTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(123.45, $obj->double);
         $this->assertEquals(true, $obj->booleanTrue);
         $this->assertEquals(false, $obj->booleanFalse);
-        $this->assertEquals(new \DateTime('2000-01-01T16:15:30.123Z', new \DateTimeZone('UTC')), $obj->DateTime);
+        $this->assertEquals(new DateTime('2000-01-01T16:15:30.123Z', new DateTimeZone('UTC')), $obj->DateTime);
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\SimpleClass', $obj->SimpleClass);
         $this->assertEquals(321, $obj->SimpleClass->integer);
         $this->assertEquals('another string', $obj->SimpleClass->string);
@@ -86,7 +89,7 @@ class XmlTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(123.45, $obj->SimpleClass->doubleAttribute);
         $this->assertEquals(true, $obj->SimpleClass->BooleanTrueAttribute);
         $this->assertEquals(false, $obj->SimpleClass->booleanFalseAttribute);
-        $this->assertEquals(new \DateTime('2000-01-01T16:15:30.123Z', new \DateTimeZone('UTC')), $obj->SimpleClass->DateTimeAttribute);
+        $this->assertEquals(new DateTime('2000-01-01T16:15:30.123Z', new DateTimeZone('UTC')), $obj->SimpleClass->DateTimeAttribute);
         $this->assertEquals('foo', $obj->strings[0]);
         $this->assertEquals('bar', $obj->strings[1]);
         $this->assertEquals(1, $obj->integers[0]);

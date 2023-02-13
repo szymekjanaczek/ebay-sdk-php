@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $locationAdditionalInformation
  * @property string $locationInstructions
  * @property string $locationWebUrl
  * @property string $name
- * @property \DTS\eBaySDK\Inventory\Types\OperatingHours[] $operatingHours
+ * @property OperatingHours[] $operatingHours
  * @property string $phone
- * @property \DTS\eBaySDK\Inventory\Types\SpecialHours[] $specialHours
+ * @property SpecialHours[] $specialHours
  */
-class InventoryLocation extends \DTS\eBaySDK\Types\BaseType
+class InventoryLocation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

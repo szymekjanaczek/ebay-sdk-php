@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $unitOfMeasurement
  * @property integer $maximumValueAllowed
  */
-class NumericTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
+class NumericTypeSpecificInformation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

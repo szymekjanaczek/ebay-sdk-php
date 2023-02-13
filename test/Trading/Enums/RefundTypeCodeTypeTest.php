@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\RefundTypeCodeType;
 
-class RefundTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class RefundTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,20 +10,25 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType;
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\CommentTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\TradingRoleCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $CommentingUser
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
+ * @property FeedbackRatingStarCodeType $FeedbackRatingStar
  * @property integer $CommentingUserScore
  * @property string $CommentText
- * @property \DateTime $CommentTime
- * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType $CommentType
+ * @property DateTime $CommentTime
+ * @property CommentTypeCodeType $CommentType
  * @property string $FeedbackResponse
  * @property string $Followup
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $Role
+ * @property TradingRoleCodeType $Role
  * @property string $ItemTitle
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemPrice
+ * @property AmountType $ItemPrice
  * @property string $FeedbackID
  * @property string $TransactionID
  * @property boolean $CommentReplaced
@@ -33,7 +38,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $FeedbackRevised
  * @property string $OrderLineItemID
  */
-class FeedbackDetailType extends \DTS\eBaySDK\Types\BaseType
+class FeedbackDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

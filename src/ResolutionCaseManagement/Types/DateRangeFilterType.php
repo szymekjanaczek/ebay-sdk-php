@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $fromDate
- * @property \DateTime $toDate
+ * @property DateTime $fromDate
+ * @property DateTime $toDate
  */
-class DateRangeFilterType extends \DTS\eBaySDK\Types\BaseType
+class DateRangeFilterType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

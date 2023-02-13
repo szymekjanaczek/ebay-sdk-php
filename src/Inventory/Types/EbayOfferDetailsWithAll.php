@@ -10,25 +10,29 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\FormatTypeEnum;
+use DTS\eBaySDK\Inventory\Enums\MarketplaceEnum;
+use DTS\eBaySDK\Inventory\Enums\OfferStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $availableQuantity
  * @property string $categoryId
- * @property \DTS\eBaySDK\Inventory\Enums\FormatTypeEnum $format
- * @property \DTS\eBaySDK\Inventory\Types\ListingDetails $listing
+ * @property FormatTypeEnum $format
+ * @property ListingDetails $listing
  * @property string $listingDescription
- * @property \DTS\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
- * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
+ * @property ListingPolicies $listingPolicies
+ * @property MarketplaceEnum $marketplaceId
  * @property string $merchantLocationKey
  * @property string $offerId
- * @property \DTS\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
+ * @property PricingSummary $pricingSummary
  * @property integer $quantityLimitPerBuyer
  * @property string $sku
- * @property \DTS\eBaySDK\Inventory\Enums\OfferStatusEnum $status
+ * @property OfferStatusEnum $status
  * @property string[] $storeCategoryNames
- * @property \DTS\eBaySDK\Inventory\Types\Tax $tax
+ * @property Tax $tax
  */
-class EbayOfferDetailsWithAll extends \DTS\eBaySDK\Types\BaseType
+class EbayOfferDetailsWithAll extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

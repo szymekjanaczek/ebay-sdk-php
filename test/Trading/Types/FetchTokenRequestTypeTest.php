@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\FetchTokenRequestType;
 
-class FetchTokenRequestTypeTest extends \PHPUnit\Framework\TestCase
+class FetchTokenRequestTypeTest extends TestCase
 {
     private $obj;
 

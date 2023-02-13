@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\Discount $discount
+ * @property Discount $discount
  * @property integer $rank
  * @property string $title
  * @property integer $maxQtyForSinglePrimary
  */
-class RelatedProduct extends \DTS\eBaySDK\Types\BaseType
+class RelatedProduct extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Compliance\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Compliance\Types\ComplianceSummaryInfo[] $violationSummaries
+ * @property ComplianceSummaryInfo[] $violationSummaries
  */
-class ComplianceSummary extends \DTS\eBaySDK\Types\BaseType
+class ComplianceSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

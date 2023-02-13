@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $UnitType
  * @property double $UnitQuantity
  */
-class UnitInfoType extends \DTS\eBaySDK\Types\BaseType
+class UnitInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

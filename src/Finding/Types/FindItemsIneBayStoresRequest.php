@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Finding\Enums\OutputSelectorType;
 /**
  *
  * @property string $keywords
  * @property string $storeName
- * @property \DTS\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
- * @property \DTS\eBaySDK\Finding\Enums\OutputSelectorType[] $outputSelector
- * @property \DTS\eBaySDK\Finding\Types\AspectFilter[] $aspectFilter
+ * @property ItemFilter[] $itemFilter
+ * @property OutputSelectorType[] $outputSelector
+ * @property AspectFilter[] $aspectFilter
  * @property string[] $categoryId
  */
-class FindItemsIneBayStoresRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceRequest
+class FindItemsIneBayStoresRequest extends BaseFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

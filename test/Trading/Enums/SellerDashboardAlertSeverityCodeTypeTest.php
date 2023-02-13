@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\SellerDashboardAlertSeverityCodeType;
 
-class SellerDashboardAlertSeverityCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SellerDashboardAlertSeverityCodeTypeTest extends TestCase
 {
     private $obj;
 

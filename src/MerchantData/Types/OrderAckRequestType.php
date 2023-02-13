@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $OrderID
  * @property string $OrderLineItemID
  */
-class OrderAckRequestType extends \DTS\eBaySDK\Types\BaseType
+class OrderAckRequestType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

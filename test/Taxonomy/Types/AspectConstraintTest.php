@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Taxonomy\Types\AspectConstraint;
 
-class AspectConstraintTest extends \PHPUnit\Framework\TestCase
+class AspectConstraintTest extends TestCase
 {
     private $obj;
 

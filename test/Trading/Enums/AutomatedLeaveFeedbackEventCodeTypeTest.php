@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType;
 
-class AutomatedLeaveFeedbackEventCodeTypeTest extends \PHPUnit\Framework\TestCase
+class AutomatedLeaveFeedbackEventCodeTypeTest extends TestCase
 {
     private $obj;
 

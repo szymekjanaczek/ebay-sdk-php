@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Enums\ReturnSortEnum;
 
-class ReturnSortEnumTest extends \PHPUnit\Framework\TestCase
+class ReturnSortEnumTest extends TestCase
 {
     private $obj;
 

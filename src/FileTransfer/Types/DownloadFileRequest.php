@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\FileTransfer\Types;
  * @property string $taskReferenceId
  * @property string $fileReferenceId
  */
-class DownloadFileRequest extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceRequest
+class DownloadFileRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

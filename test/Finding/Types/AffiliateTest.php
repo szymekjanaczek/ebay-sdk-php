@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\Affiliate;
 
-class AffiliateTest extends \PHPUnit\Framework\TestCase
+class AffiliateTest extends TestCase
 {
     private $obj;
 

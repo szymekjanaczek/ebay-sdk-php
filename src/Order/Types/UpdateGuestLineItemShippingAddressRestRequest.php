@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Order\Types;
  *
  * @property string $checkoutSessionId
  */
-class UpdateGuestLineItemShippingAddressRestRequest extends \DTS\eBaySDK\Order\Types\ShippingAddressImpl
+class UpdateGuestLineItemShippingAddressRestRequest extends ShippingAddressImpl
 {
     /**
      * @var array Properties belonging to objects of this class.

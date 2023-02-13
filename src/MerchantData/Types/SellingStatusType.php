@@ -10,28 +10,30 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\ListingStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $BidCount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $BidIncrement
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedCurrentPrice
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $CurrentPrice
- * @property \DTS\eBaySDK\MerchantData\Types\UserType $HighBidder
+ * @property AmountType $BidIncrement
+ * @property AmountType $ConvertedCurrentPrice
+ * @property AmountType $CurrentPrice
+ * @property UserType $HighBidder
  * @property integer $LeadCount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MinimumToBid
+ * @property AmountType $MinimumToBid
  * @property integer $QuantitySold
  * @property boolean $ReserveMet
  * @property boolean $SecondChanceEligible
  * @property integer $BidderCount
- * @property \DTS\eBaySDK\MerchantData\Enums\ListingStatusCodeType $ListingStatus
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FinalValueFee
- * @property \DTS\eBaySDK\MerchantData\Types\PromotionalSaleDetailsType $PromotionalSaleDetails
+ * @property ListingStatusCodeType $ListingStatus
+ * @property AmountType $FinalValueFee
+ * @property PromotionalSaleDetailsType $PromotionalSaleDetails
  * @property boolean $AdminEnded
  * @property boolean $SoldAsBin
  * @property integer $QuantitySoldByPickupInStore
- * @property \DTS\eBaySDK\MerchantData\Types\SuggestedBidValueType $SuggestedBidValues
+ * @property SuggestedBidValueType $SuggestedBidValues
  */
-class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
+class SellingStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

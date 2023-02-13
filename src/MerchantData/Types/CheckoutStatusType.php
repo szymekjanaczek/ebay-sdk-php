@@ -10,17 +10,23 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\PaymentStatusCodeType;
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType;
+use DTS\eBaySDK\MerchantData\Enums\CompleteStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentStatusCodeType $eBayPaymentStatus
- * @property \DateTime $LastModifiedTime
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType $PaymentMethod
- * @property \DTS\eBaySDK\MerchantData\Enums\CompleteStatusCodeType $Status
+ * @property PaymentStatusCodeType $eBayPaymentStatus
+ * @property DateTime $LastModifiedTime
+ * @property BuyerPaymentMethodCodeType $PaymentMethod
+ * @property CompleteStatusCodeType $Status
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
+ * @property EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
+ * @property BuyerPaymentInstrumentCodeType $PaymentInstrument
  */
-class CheckoutStatusType extends \DTS\eBaySDK\Types\BaseType
+class CheckoutStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

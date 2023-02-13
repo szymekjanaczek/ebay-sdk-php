@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\ItemGroupTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\Image[] $itemGroupAdditionalImages
+ * @property Image[] $itemGroupAdditionalImages
  * @property string $itemGroupHref
  * @property string $itemGroupId
- * @property \DTS\eBaySDK\Browse\Types\Image $itemGroupImage
+ * @property Image $itemGroupImage
  * @property string $itemGroupTitle
- * @property \DTS\eBaySDK\Browse\Enums\ItemGroupTypeEnum $itemGroupType
+ * @property ItemGroupTypeEnum $itemGroupType
  */
-class ItemGroupSummary extends \DTS\eBaySDK\Types\BaseType
+class ItemGroupSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

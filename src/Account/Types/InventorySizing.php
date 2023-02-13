@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $currentAvailableQuantity
- * @property \DTS\eBaySDK\Account\Types\Amount $currentInventoryValue
- * @property \DTS\eBaySDK\Account\Types\InventorySnapshot $inventorySnapshots
+ * @property Amount $currentInventoryValue
+ * @property InventorySnapshot $inventorySnapshots
  * @property string $primarySalesCategory
  */
-class InventorySizing extends \DTS\eBaySDK\Types\BaseType
+class InventorySizing extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $returnId
  */
-class MarkReturnShippedRestRequest extends \DTS\eBaySDK\PostOrder\Types\MarkAsShippedRequest
+class MarkReturnShippedRestRequest extends MarkAsShippedRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\DeleteSpecificReportTaskRestRequest;
 
-class DeleteSpecificReportTaskRestRequestTest extends \PHPUnit\Framework\TestCase
+class DeleteSpecificReportTaskRestRequestTest extends TestCase
 {
     private $obj;
 

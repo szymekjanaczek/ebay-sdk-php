@@ -10,19 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $LinkedPayPalAccount
- * @property \DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType $MaximumBuyerPolicyViolations
- * @property \DTS\eBaySDK\Trading\Types\MaximumItemRequirementsDetailsType $MaximumItemRequirements
- * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType $MaximumUnpaidItemStrikesInfo
- * @property \DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType $MinimumFeedbackScore
+ * @property MaximumBuyerPolicyViolationsDetailsType $MaximumBuyerPolicyViolations
+ * @property MaximumItemRequirementsDetailsType $MaximumItemRequirements
+ * @property MaximumUnpaidItemStrikesInfoDetailsType $MaximumUnpaidItemStrikesInfo
+ * @property MinimumFeedbackScoreDetailsType $MinimumFeedbackScore
  * @property boolean $ShipToRegistrationCountry
- * @property \DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsDetailsType $VerifiedUserRequirements
+ * @property VerifiedUserRequirementsDetailsType $VerifiedUserRequirements
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
+class SiteBuyerRequirementDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

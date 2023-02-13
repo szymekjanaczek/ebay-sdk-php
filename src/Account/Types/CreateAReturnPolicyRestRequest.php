@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Account\Types;
 /**
  *
  */
-class CreateAReturnPolicyRestRequest extends \DTS\eBaySDK\Account\Types\ReturnPolicyRequest
+class CreateAReturnPolicyRestRequest extends ReturnPolicyRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

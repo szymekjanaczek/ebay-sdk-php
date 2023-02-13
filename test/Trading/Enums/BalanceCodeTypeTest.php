@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\BalanceCodeType;
 
-class BalanceCodeTypeTest extends \PHPUnit\Framework\TestCase
+class BalanceCodeTypeTest extends TestCase
 {
     private $obj;
 

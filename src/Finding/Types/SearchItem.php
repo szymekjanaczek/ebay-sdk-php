@@ -10,44 +10,45 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
  * @property string $title
  * @property string $globalId
  * @property string $subtitle
- * @property \DTS\eBaySDK\Finding\Types\Category $primaryCategory
- * @property \DTS\eBaySDK\Finding\Types\Category $secondaryCategory
+ * @property Category $primaryCategory
+ * @property Category $secondaryCategory
  * @property string $galleryURL
- * @property \DTS\eBaySDK\Finding\Types\GalleryInfoContainer $galleryInfoContainer
+ * @property GalleryInfoContainer $galleryInfoContainer
  * @property string $viewItemURL
  * @property string $charityId
- * @property \DTS\eBaySDK\Finding\Types\ProductId $productId
+ * @property ProductId $productId
  * @property string[] $paymentMethod
  * @property boolean $autoPay
  * @property string $postalCode
  * @property string $location
  * @property string $country
- * @property \DTS\eBaySDK\Finding\Types\Storefront $storeInfo
- * @property \DTS\eBaySDK\Finding\Types\SellerInfo $sellerInfo
- * @property \DTS\eBaySDK\Finding\Types\ShippingInfo $shippingInfo
- * @property \DTS\eBaySDK\Finding\Types\SellingStatus $sellingStatus
- * @property \DTS\eBaySDK\Finding\Types\ListingInfo $listingInfo
+ * @property Storefront $storeInfo
+ * @property SellerInfo $sellerInfo
+ * @property ShippingInfo $shippingInfo
+ * @property SellingStatus $sellingStatus
+ * @property ListingInfo $listingInfo
  * @property boolean $returnsAccepted
  * @property string[] $galleryPlusPictureURL
  * @property string $compatibility
- * @property \DTS\eBaySDK\Finding\Types\Distance $distance
- * @property \DTS\eBaySDK\Finding\Types\Condition $condition
+ * @property Distance $distance
+ * @property Condition $condition
  * @property boolean $isMultiVariationListing
- * @property \DTS\eBaySDK\Finding\Types\DiscountPriceInfo $discountPriceInfo
+ * @property DiscountPriceInfo $discountPriceInfo
  * @property string $pictureURLSuperSize
  * @property string $pictureURLLarge
- * @property \DTS\eBaySDK\Finding\Types\UnitPriceInfo $unitPrice
- * @property \DTS\eBaySDK\Finding\Types\ItemAttribute[] $attribute
+ * @property UnitPriceInfo $unitPrice
+ * @property ItemAttribute[] $attribute
  * @property boolean $topRatedListing
  * @property string[] $eekStatus
  */
-class SearchItem extends \DTS\eBaySDK\Types\BaseType
+class SearchItem extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

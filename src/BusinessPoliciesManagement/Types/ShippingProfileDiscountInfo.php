@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $domesticFlatCalcDiscountProfileId
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property boolean $applyDomesticPromoShippingProfile
  * @property boolean $applyIntlPromoShippingProfile
  */
-class ShippingProfileDiscountInfo extends \DTS\eBaySDK\Types\BaseType
+class ShippingProfileDiscountInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $caseId
  */
-class CloseCaseRestRequest extends \DTS\eBaySDK\PostOrder\Types\BuyerCloseCaseRequest
+class CloseCaseRestRequest extends BuyerCloseCaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

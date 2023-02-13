@@ -10,21 +10,24 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum;
+use DTS\eBaySDK\Order\Enums\PurchaseOrderStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
- * @property \DTS\eBaySDK\Order\Types\PaymentInstrument $paymentInstrument
- * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary
+ * @property LineItem[] $lineItems
+ * @property PaymentInstrument $paymentInstrument
+ * @property PricingSummary $pricingSummary
  * @property string $purchaseOrderCreationDate
  * @property string $purchaseOrderId
- * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
- * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderStatusEnum $purchaseOrderStatus
- * @property \DTS\eBaySDK\Order\Types\Amount $refundedAmount
- * @property \DTS\eBaySDK\Order\Types\ShippingAddress $shippingAddress
- * @property \DTS\eBaySDK\Order\Types\ShippingFulfillment[] $shippingFulfillments
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
+ * @property PurchaseOrderStatusEnum $purchaseOrderStatus
+ * @property Amount $refundedAmount
+ * @property ShippingAddress $shippingAddress
+ * @property ShippingFulfillment[] $shippingFulfillments
+ * @property ErrorDetailV3[] $warnings
  */
-class PurchaseOrder extends \DTS\eBaySDK\Types\BaseType
+class PurchaseOrder extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

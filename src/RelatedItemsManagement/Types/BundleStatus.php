@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DTS\eBaySDK\RelatedItemsManagement\Enums\AckValue;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $bundleName
  * @property string[] $primarySKU
  * @property integer $bundleID
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\AckValue $ack
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\ErrorMessage $errorMessage
+ * @property AckValue $ack
+ * @property ErrorMessage $errorMessage
  */
-class BundleStatus extends \DTS\eBaySDK\Types\BaseType
+class BundleStatus extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

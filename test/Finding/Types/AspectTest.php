@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\Aspect;
 
-class AspectTest extends \PHPUnit\Framework\TestCase
+class AspectTest extends TestCase
 {
     private $obj;
 

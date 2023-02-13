@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Analytics\Enums\CycleTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Analytics\Enums\CycleTypeEnum $cycleType
+ * @property CycleTypeEnum $cycleType
  * @property string $evaluationDate
  * @property string $evaluationMonth
  */
-class Cycle extends \DTS\eBaySDK\Types\BaseType
+class Cycle extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

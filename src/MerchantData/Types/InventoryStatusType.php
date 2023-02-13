@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $SKU
  * @property string $ItemID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $StartPrice
+ * @property AmountType $StartPrice
  * @property integer $Quantity
  */
-class InventoryStatusType extends \DTS\eBaySDK\Types\BaseType
+class InventoryStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

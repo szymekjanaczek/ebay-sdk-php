@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $unitOfMeasure
  * @property string $value
  */
-class TargetLocation extends \DTS\eBaySDK\Types\BaseType
+class TargetLocation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

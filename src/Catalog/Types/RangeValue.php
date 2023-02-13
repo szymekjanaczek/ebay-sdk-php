@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $end
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Catalog\Types;
  * @property boolean $range
  * @property string $start
  */
-class RangeValue extends \DTS\eBaySDK\Types\BaseType
+class RangeValue extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

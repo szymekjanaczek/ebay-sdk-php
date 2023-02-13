@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $salesTaxPercentage
  * @property boolean $shippingAndHandlingTaxed
  */
-class SalesTaxBase extends \DTS\eBaySDK\Types\BaseType
+class SalesTaxBase extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

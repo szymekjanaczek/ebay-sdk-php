@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnUserType $party
- * @property \DateTime $respondByDate
+ * @property ReturnUserType $party
+ * @property DateTime $respondByDate
  */
-class ReturnResponseDueType extends \DTS\eBaySDK\Types\BaseType
+class ReturnResponseDueType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

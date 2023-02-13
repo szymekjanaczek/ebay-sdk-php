@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Product\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Product\Types\ProductSubmissionResult;
 
-class ProductSubmissionResultTest extends \PHPUnit\Framework\TestCase
+class ProductSubmissionResultTest extends TestCase
 {
     private $obj;
 

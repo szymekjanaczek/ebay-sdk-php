@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile;
 
-class ReturnPolicyProfileTest extends \PHPUnit\Framework\TestCase
+class ReturnPolicyProfileTest extends TestCase
 {
     private $obj;
 

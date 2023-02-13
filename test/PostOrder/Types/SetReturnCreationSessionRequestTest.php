@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest;
 
-class SetReturnCreationSessionRequestTest extends \PHPUnit\Framework\TestCase
+class SetReturnCreationSessionRequestTest extends TestCase
 {
     private $obj;
 

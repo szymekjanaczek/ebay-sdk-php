@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\PaymentMethod[] $acceptedPaymentMethods
+ * @property PaymentMethod[] $acceptedPaymentMethods
  * @property string $checkoutSessionId
  * @property string $expirationDate
- * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
- * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary
- * @property \DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument $providedPaymentInstrument
- * @property \DTS\eBaySDK\Order\Types\ShippingAddress $shippingAddress
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property LineItem[] $lineItems
+ * @property PricingSummary $pricingSummary
+ * @property ProvidedPaymentInstrument $providedPaymentInstrument
+ * @property ShippingAddress $shippingAddress
+ * @property ErrorDetailV3[] $warnings
  */
-class CheckoutSessionResponse extends \DTS\eBaySDK\Types\BaseType
+class CheckoutSessionResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

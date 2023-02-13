@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup[] $categoryGroup
+ * @property CategoryGroup[] $categoryGroup
  */
-class CategoryGroups extends \DTS\eBaySDK\Types\BaseType
+class CategoryGroups extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

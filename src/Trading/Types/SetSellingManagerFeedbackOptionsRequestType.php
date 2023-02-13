@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType $AutomatedLeaveFeedbackEvent
- * @property \DTS\eBaySDK\Trading\Types\FeedbackCommentArrayType $StoredComments
+ * @property AutomatedLeaveFeedbackEventCodeType $AutomatedLeaveFeedbackEvent
+ * @property FeedbackCommentArrayType $StoredComments
  */
-class SetSellingManagerFeedbackOptionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetSellingManagerFeedbackOptionsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

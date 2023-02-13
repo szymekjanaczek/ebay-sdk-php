@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\ProductMetadata\Mocks;
 
+use DTS\eBaySDK\ProductMetadata\Services\ProductMetadataBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\ProductMetadata\Services\ProductMetadataBaseService
+class Service extends ProductMetadataBaseService
 {
     public function __construct(array $config)
     {

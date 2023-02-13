@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\PictureFormatCodeType;
 
-class PictureFormatCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PictureFormatCodeTypeTest extends TestCase
 {
     private $obj;
 

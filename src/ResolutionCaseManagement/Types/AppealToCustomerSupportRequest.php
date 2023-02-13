@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType $appealReason
+ * @property CaseIdType $caseId
+ * @property AppealReasonType $appealReason
  * @property string $comments
  */
-class AppealToCustomerSupportRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class AppealToCustomerSupportRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorData[] $error
+ * @property ErrorData[] $error
  */
-class ErrorMessage extends \DTS\eBaySDK\Types\BaseType
+class ErrorMessage extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $excludeForeBaySelling
  * @property boolean $excludeForeBayReviews
  * @property boolean $excludeForHalfSelling
  */
-class ProductStatus extends \DTS\eBaySDK\Types\BaseType
+class ProductStatus extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType[] $historyDetail
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property RuleTriggerHistDetailType[] $historyDetail
+ * @property PaginationOutput $paginationOutput
  */
-class GetDispositionRuleTriggerHistResponse extends \DTS\eBaySDK\Types\BaseType
+class GetDispositionRuleTriggerHistResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

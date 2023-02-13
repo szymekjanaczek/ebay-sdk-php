@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType;
 
-class MyeBayFavoriteSearchListTypeTest extends \PHPUnit\Framework\TestCase
+class MyeBayFavoriteSearchListTypeTest extends TestCase
 {
     private $obj;
 

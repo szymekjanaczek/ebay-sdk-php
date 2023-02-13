@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Enums\ConditionEnum;
 
-class ConditionEnumTest extends \PHPUnit\Framework\TestCase
+class ConditionEnumTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile;
 
-class ShippingPolicyProfileTest extends \PHPUnit\Framework\TestCase
+class ShippingPolicyProfileTest extends TestCase
 {
     private $obj;
 

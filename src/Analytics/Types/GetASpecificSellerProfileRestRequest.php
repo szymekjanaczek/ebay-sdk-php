@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $cycle
  * @property string $program
  */
-class GetASpecificSellerProfileRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetASpecificSellerProfileRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

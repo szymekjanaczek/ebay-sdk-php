@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\MaxGranularFitmentCountDefinitionType;
 
-class MaxGranularFitmentCountDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class MaxGranularFitmentCountDefinitionTypeTest extends TestCase
 {
     private $obj;
 

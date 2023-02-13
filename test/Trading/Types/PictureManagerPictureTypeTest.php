@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\PictureManagerPictureType;
 
-class PictureManagerPictureTypeTest extends \PHPUnit\Framework\TestCase
+class PictureManagerPictureTypeTest extends TestCase
 {
     private $obj;
 

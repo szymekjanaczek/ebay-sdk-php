@@ -10,19 +10,22 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Shopping\Enums\ShippingTypeCodeType;
+use DTS\eBaySDK\Shopping\Enums\InsuranceOptionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ShippingServiceName
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingServiceCost
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $InsuranceCost
- * @property \DTS\eBaySDK\Shopping\Enums\ShippingTypeCodeType $ShippingType
+ * @property AmountType $ShippingServiceCost
+ * @property AmountType $InsuranceCost
+ * @property ShippingTypeCodeType $ShippingType
  * @property boolean $LocalPickup
- * @property \DTS\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InsuranceOption
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ListedShippingServiceCost
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ImportCharge
+ * @property InsuranceOptionCodeType $InsuranceOption
+ * @property AmountType $ListedShippingServiceCost
+ * @property AmountType $ImportCharge
  * @property string $LogisticPlanType
  */
-class ShippingCostSummaryType extends \DTS\eBaySDK\Types\BaseType
+class ShippingCostSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PromotionalSaleArrayType $PromotionalSaleDetails
+ * @property PromotionalSaleArrayType $PromotionalSaleDetails
  */
-class GetPromotionalSaleDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetPromotionalSaleDetailsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

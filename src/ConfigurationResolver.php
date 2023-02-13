@@ -1,6 +1,7 @@
 <?php
 namespace DTS\eBaySDK;
 
+use InvalidArgumentException;
 /**
  * @internal Resolves and validates an associative array of configuration options.
  */
@@ -36,7 +37,7 @@ class ConfigurationResolver
      * @param array $configuration Associative array of configuration options that will be resolved and validated.
      *
      * @return array Returns an associative array of the resolved and validated configuration options.
-     * @throws \InvalidArgumentException.
+     * @throws InvalidArgumentException .
      */
     public function resolve(array $configuration)
     {
@@ -72,7 +73,7 @@ class ConfigurationResolver
      * @param array $configuration Associative array of configuration options that will be resolved and validated.
      *
      * @return array Returns an associative array of the resolved and validated configuration options.
-     * @throws \InvalidArgumentException.
+     * @throws InvalidArgumentException .
      */
     public function resolveOptions(array $configuration)
     {
@@ -96,7 +97,7 @@ class ConfigurationResolver
      * @param $name Name of the configuration option.
      * @param $provided Value to check the type of.
      *
-     * @throws \InvalidArgumentException.
+     * @throws InvalidArgumentException .
      */
     private function checkType(array $valid, $name, $provided)
     {
@@ -118,13 +119,13 @@ class ConfigurationResolver
             $expected,
             describeType($provided)
         );
-        throw new \InvalidArgumentException($msg);
+        throw new InvalidArgumentException($msg);
     }
 
     /**
      * @param array $configuration Associative array of configuration options.
      *
-     * @throws \InvalidArgumentException.
+     * @throws InvalidArgumentException .
      */
     private function throwRequired(array $configuration)
     {
@@ -142,6 +143,6 @@ class ConfigurationResolver
 
         $msg = "Missing required configuration options: \n\n";
         $msg .= implode("\n\n", $missing);
-        throw new \InvalidArgumentException($msg);
+        throw new InvalidArgumentException($msg);
     }
 }

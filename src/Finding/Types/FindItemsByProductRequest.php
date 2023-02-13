@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Finding\Enums\OutputSelectorType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\ProductId $productId
- * @property \DTS\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
- * @property \DTS\eBaySDK\Finding\Enums\OutputSelectorType[] $outputSelector
+ * @property ProductId $productId
+ * @property ItemFilter[] $itemFilter
+ * @property OutputSelectorType[] $outputSelector
  */
-class FindItemsByProductRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceRequest
+class FindItemsByProductRequest extends BaseFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

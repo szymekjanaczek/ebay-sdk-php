@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $autoSelectFutureInventory
- * @property \DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum $criterionType
- * @property \DTS\eBaySDK\Marketing\Types\SelectionRule[] $selectionRules
+ * @property CriterionTypeEnum $criterionType
+ * @property SelectionRule[] $selectionRules
  */
-class CampaignCriterion extends \DTS\eBaySDK\Types\BaseType
+class CampaignCriterion extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

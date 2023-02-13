@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportRequestType;
 
-class ActiveInventoryReportRequestTypeTest extends \PHPUnit\Framework\TestCase
+class ActiveInventoryReportRequestTypeTest extends TestCase
 {
     private $obj;
 

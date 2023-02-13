@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Address $address
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property Address $address
+ * @property CaseIdType $caseId
  * @property string $returnMerchandiseAuthorization
  */
-class ProvideReturnInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class ProvideReturnInfoRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

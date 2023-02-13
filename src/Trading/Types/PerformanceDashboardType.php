@@ -10,13 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SiteCodeType;
+use DTS\eBaySDK\Trading\Enums\PerformanceStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType[] $Site
- * @property \DTS\eBaySDK\Trading\Enums\PerformanceStatusCodeType $Status
- * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType $Alert
+ * @property SiteCodeType[] $Site
+ * @property PerformanceStatusCodeType $Status
+ * @property SellerDashboardAlertType $Alert
  */
-class PerformanceDashboardType extends \DTS\eBaySDK\Types\BaseType
+class PerformanceDashboardType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

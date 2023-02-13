@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\SortOrderCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSearchType $Search
+ * @property SellingManagerSearchType $Search
  * @property integer $StoreCategoryID
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType[] $Filter
+ * @property SellingManagerSoldListingsPropertyTypeCodeType[] $Filter
  * @property boolean $Archived
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType $Sort
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Types\TimeRangeType $SaleDateRange
+ * @property SellingManagerSoldListingsSortTypeCodeType $Sort
+ * @property SortOrderCodeType $SortOrder
+ * @property PaginationType $Pagination
+ * @property TimeRangeType $SaleDateRange
  */
-class GetSellingManagerSoldListingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerSoldListingsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

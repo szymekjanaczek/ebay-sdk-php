@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest;
 
-class GetListingsInSpecificPromotionRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetListingsInSpecificPromotionRestRequestTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Enums\FulfillmentInstructionsType;
 
-class FulfillmentInstructionsTypeTest extends \PHPUnit\Framework\TestCase
+class FulfillmentInstructionsTypeTest extends TestCase
 {
     private $obj;
 

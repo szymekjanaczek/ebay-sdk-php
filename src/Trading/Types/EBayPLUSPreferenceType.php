@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CountryCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Country
+ * @property CountryCodeType $Country
  * @property boolean $OptInStatus
  * @property boolean $ListingPreference
  */
-class EBayPLUSPreferenceType extends \DTS\eBaySDK\Types\BaseType
+class EBayPLUSPreferenceType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

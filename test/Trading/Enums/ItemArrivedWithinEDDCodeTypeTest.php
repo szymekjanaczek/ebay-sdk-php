@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\ItemArrivedWithinEDDCodeType;
 
-class ItemArrivedWithinEDDCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ItemArrivedWithinEDDCodeTypeTest extends TestCase
 {
     private $obj;
 

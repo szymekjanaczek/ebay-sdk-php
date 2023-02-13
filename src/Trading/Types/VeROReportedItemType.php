@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\VeROItemStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\VeROItemStatusCodeType $ItemStatus
+ * @property VeROItemStatusCodeType $ItemStatus
  * @property string $ItemReasonForFailure
  */
-class VeROReportedItemType extends \DTS\eBaySDK\Types\BaseType
+class VeROReportedItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

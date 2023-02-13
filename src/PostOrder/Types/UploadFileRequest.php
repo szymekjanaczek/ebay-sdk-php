@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $data
  * @property string $fileName
  * @property string $filePurpose
  */
-class UploadFileRequest extends \DTS\eBaySDK\Types\BaseType
+class UploadFileRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

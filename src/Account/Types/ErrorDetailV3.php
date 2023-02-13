@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $category
@@ -19,10 +20,10 @@ namespace DTS\eBaySDK\Account\Types;
  * @property string $longMessage
  * @property string $message
  * @property string[] $outputRefIds
- * @property \DTS\eBaySDK\Account\Types\ErrorParameterV3[] $parameters
+ * @property ErrorParameterV3[] $parameters
  * @property string $subdomain
  */
-class ErrorDetailV3 extends \DTS\eBaySDK\Types\BaseType
+class ErrorDetailV3 extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

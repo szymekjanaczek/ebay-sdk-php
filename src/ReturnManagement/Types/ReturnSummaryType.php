@@ -10,18 +10,22 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\ReturnType;
+use DTS\eBaySDK\ReturnManagement\Enums\ReturnStatusType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnType $ReturnType
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnUserType $otherParty
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType $returnRequest
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnStatusType $status
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnResponseDueType $responseDue
- * @property \DateTime $creationDate
- * @property \DateTime $lastModifiedDate
+ * @property ReturnIdType $ReturnId
+ * @property ReturnType $ReturnType
+ * @property ReturnUserType $otherParty
+ * @property ReturnRequestType $returnRequest
+ * @property ReturnStatusType $status
+ * @property ReturnResponseDueType $responseDue
+ * @property DateTime $creationDate
+ * @property DateTime $lastModifiedDate
  */
-class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
+class ReturnSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

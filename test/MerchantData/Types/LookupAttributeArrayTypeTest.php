@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\LookupAttributeArrayType;
 
-class LookupAttributeArrayTypeTest extends \PHPUnit\Framework\TestCase
+class LookupAttributeArrayTypeTest extends TestCase
 {
     private $obj;
 

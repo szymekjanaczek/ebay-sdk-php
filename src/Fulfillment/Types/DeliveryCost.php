@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $importCharges
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $shippingCost
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $shippingIntermediationFee
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountAmount
+ * @property Amount $importCharges
+ * @property Amount $shippingCost
+ * @property Amount $shippingIntermediationFee
+ * @property Amount $discountAmount
  */
-class DeliveryCost extends \DTS\eBaySDK\Types\BaseType
+class DeliveryCost extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

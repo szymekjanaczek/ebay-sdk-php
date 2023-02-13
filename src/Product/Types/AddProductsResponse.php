@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\AddProductResponse[] $addProductResponse
+ * @property AddProductResponse[] $addProductResponse
  * @property string $clientBatchId
  */
-class AddProductsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class AddProductsResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

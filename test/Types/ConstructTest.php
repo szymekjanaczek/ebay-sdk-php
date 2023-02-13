@@ -1,11 +1,14 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
+use DateTime;
+use DateTimeZone;
 use DTS\eBaySDK\Test\Mocks\AmountClass;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 use DTS\eBaySDK\Test\Mocks\SimpleClass;
 
-class ConstructTest extends \PHPUnit\Framework\TestCase
+class ConstructTest extends TestCase
 {
     public function testSettingPropertiesViaCtor()
     {
@@ -15,7 +18,7 @@ class ConstructTest extends \PHPUnit\Framework\TestCase
             'double' => 123.45,
             'booleanTrue' => true,
             'booleanFalse' => false,
-            'DateTime' => new \DateTime('2000-01-01T00:00:00.000Z', new \DateTimeZone('UTC')),
+            'DateTime' => new DateTime('2000-01-01T00:00:00.000Z', new DateTimeZone('UTC')),
             'strings' => ['foo', 'bar'],
             'integers' => [111, 222],
             'AmountClass' => new AmountClass(['value' => 543.21, 'AttributeOne' => 'one']),
@@ -25,7 +28,7 @@ class ConstructTest extends \PHPUnit\Framework\TestCase
                 'double' => 123.45,
                 'booleanTrue' => true,
                 'booleanFalse' => false,
-                'DateTime' => new \DateTime('2000-01-01T00:00:00.000Z', new \DateTimeZone('UTC')),
+                'DateTime' => new DateTime('2000-01-01T00:00:00.000Z', new DateTimeZone('UTC')),
                 'integers' => [100, 200, 300]
             ],
             'simpleClasses' => [
@@ -72,7 +75,7 @@ class ConstructTest extends \PHPUnit\Framework\TestCase
         $this->assertisBool($obj->booleanFalse);
 
         $this->assertEquals(
-            new \DateTime('2000-01-01T00:00:00.000Z', new \DateTimeZone('UTC')),
+            new DateTime('2000-01-01T00:00:00.000Z', new DateTimeZone('UTC')),
             $obj->DateTime
         );
         $this->assertInstanceOf('\DateTime', $obj->DateTime);
@@ -97,7 +100,7 @@ class ConstructTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(true, $obj->SimpleClass->booleanTrue);
         $this->assertEquals(false, $obj->SimpleClass->booleanFalse);
         $this->assertEquals(
-            new \DateTime('2000-01-01T00:00:00.000Z', new \DateTimeZone('UTC')),
+            new DateTime('2000-01-01T00:00:00.000Z', new DateTimeZone('UTC')),
             $obj->SimpleClass->DateTime
         );
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\SimpleClass', $obj->SimpleClass);

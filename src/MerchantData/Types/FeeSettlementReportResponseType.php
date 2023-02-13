@@ -10,26 +10,27 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
 /**
  *
  * @property string $InvoiceID
  * @property string $SellerID
  * @property string $AccountID
- * @property \DateTime $ReportStartTime
- * @property \DateTime $ReportEndTime
- * @property \DateTime $InvoiceProcessingTime
- * @property \DateTime $ReportProcessingTime
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeSettlementAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $LastInvoiceAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeRoundingAdjustmentAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeTotalUsageAdjustmentAmount
- * @property \DTS\eBaySDK\MerchantData\Types\OrderDetailsType[] $OrderTransactionList
- * @property \DTS\eBaySDK\MerchantData\Types\TransactionListType[] $ListingTransactionList
- * @property \DTS\eBaySDK\MerchantData\Types\OrderDetailsType[] $OrderAdjustmentList
- * @property \DTS\eBaySDK\MerchantData\Types\AccountTransactionType[] $AccountTransactionList
- * @property \DTS\eBaySDK\MerchantData\Types\AccountTransactionType[] $DiscountTransactionList
+ * @property DateTime $ReportStartTime
+ * @property DateTime $ReportEndTime
+ * @property DateTime $InvoiceProcessingTime
+ * @property DateTime $ReportProcessingTime
+ * @property AmountType $FeeSettlementAmount
+ * @property AmountType $LastInvoiceAmount
+ * @property AmountType $FeeRoundingAdjustmentAmount
+ * @property AmountType $FeeTotalUsageAdjustmentAmount
+ * @property OrderDetailsType[] $OrderTransactionList
+ * @property TransactionListType[] $ListingTransactionList
+ * @property OrderDetailsType[] $OrderAdjustmentList
+ * @property AccountTransactionType[] $AccountTransactionList
+ * @property AccountTransactionType[] $DiscountTransactionList
  */
-class FeeSettlementReportResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class FeeSettlementReportResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

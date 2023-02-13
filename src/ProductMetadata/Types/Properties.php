@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $metadataVersion
- * @property \DTS\eBaySDK\ProductMetadata\Types\Property[] $propertyName
+ * @property Property[] $propertyName
  * @property string $dataset
  */
-class Properties extends \DTS\eBaySDK\Types\BaseType
+class Properties extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

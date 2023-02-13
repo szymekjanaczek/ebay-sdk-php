@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\LegalAddress;
 
-class LegalAddressTest extends \PHPUnit\Framework\TestCase
+class LegalAddressTest extends TestCase
 {
     private $obj;
 

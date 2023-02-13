@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\CancelStatus;
 
-class CancelStatusTest extends \PHPUnit\Framework\TestCase
+class CancelStatusTest extends TestCase
 {
     private $obj;
 

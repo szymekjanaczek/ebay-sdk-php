@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\ValType[] $Value
+ * @property ValType[] $Value
  * @property integer $attributeID
  * @property string $attributeLabel
  */
-class AttributeType extends \DTS\eBaySDK\Types\BaseType
+class AttributeType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

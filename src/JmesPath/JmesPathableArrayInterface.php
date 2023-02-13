@@ -22,6 +22,9 @@
  */
 namespace DTS\eBaySDK\JmesPath;
 
-interface JmesPathableArrayInterface extends \ArrayAccess, \Countable, \Iterator
+use ArrayAccess;
+use Countable;
+use Iterator;
+interface JmesPathableArrayInterface extends ArrayAccess, Countable, Iterator
 {
 }

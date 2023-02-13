@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Inventory\Types;
  *
  * @property string $inventoryItemGroupKey
  */
-class CreateOrReplaceInventoryItemGroupRestRequest extends \DTS\eBaySDK\Inventory\Types\InventoryItemGroup
+class CreateOrReplaceInventoryItemGroupRestRequest extends InventoryItemGroup
 {
     /**
      * @var array Properties belonging to objects of this class.

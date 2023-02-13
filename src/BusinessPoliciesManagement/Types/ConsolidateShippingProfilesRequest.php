@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  */
-class ConsolidateShippingProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
+class ConsolidateShippingProfilesRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Catalog\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class CreateChangeRequestRestResponse extends \DTS\eBaySDK\Types\BaseType
+class CreateChangeRequestRestResponse extends BaseType
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

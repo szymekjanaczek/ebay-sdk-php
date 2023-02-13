@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $categoryId
- * @property \DTS\eBaySDK\Catalog\Types\FilterField[] $filters
+ * @property FilterField[] $filters
  */
-class AspectFilter extends \DTS\eBaySDK\Types\BaseType
+class AspectFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

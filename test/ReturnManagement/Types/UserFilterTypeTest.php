@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\UserFilterType;
 
-class UserFilterTypeTest extends \PHPUnit\Framework\TestCase
+class UserFilterTypeTest extends TestCase
 {
     private $obj;
 

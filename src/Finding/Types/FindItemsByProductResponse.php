@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
+ * @property AspectHistogramContainer $aspectHistogramContainer
+ * @property ConditionHistogramContainer $conditionHistogramContainer
  */
-class FindItemsByProductResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
+class FindItemsByProductResponse extends BaseFindingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

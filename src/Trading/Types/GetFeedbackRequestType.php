@@ -10,18 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CommentTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\FeedbackTypeCodeType;
 /**
  *
  * @property string $UserID
  * @property string $FeedbackID
  * @property string $ItemID
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType[] $CommentType
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackTypeCodeType $FeedbackType
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property CommentTypeCodeType[] $CommentType
+ * @property FeedbackTypeCodeType $FeedbackType
+ * @property PaginationType $Pagination
  * @property string $OrderLineItemID
  */
-class GetFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetFeedbackRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

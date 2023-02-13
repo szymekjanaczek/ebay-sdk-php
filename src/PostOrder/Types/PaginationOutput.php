@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $limit
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property integer $totalEntries
  * @property integer $totalPages
  */
-class PaginationOutput extends \DTS\eBaySDK\Types\BaseType
+class PaginationOutput extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

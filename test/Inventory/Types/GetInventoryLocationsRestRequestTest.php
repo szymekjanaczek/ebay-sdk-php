@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\GetInventoryLocationsRestRequest;
 
-class GetInventoryLocationsRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetInventoryLocationsRestRequestTest extends TestCase
 {
     private $obj;
 

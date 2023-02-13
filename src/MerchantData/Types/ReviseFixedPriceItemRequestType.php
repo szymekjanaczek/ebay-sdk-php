@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\ItemType $Item
+ * @property ItemType $Item
  * @property string[] $DeletedField
  */
-class ReviseFixedPriceItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
+class ReviseFixedPriceItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

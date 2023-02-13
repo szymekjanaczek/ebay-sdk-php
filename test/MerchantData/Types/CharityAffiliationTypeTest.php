@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\CharityAffiliationType;
 
-class CharityAffiliationTypeTest extends \PHPUnit\Framework\TestCase
+class CharityAffiliationTypeTest extends TestCase
 {
     private $obj;
 

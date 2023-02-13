@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $optedForRMA
  * @property boolean $optedForMultipleReturnAddress
  */
-class ReturnPolicyInfoType extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

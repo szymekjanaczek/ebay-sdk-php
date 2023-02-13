@@ -12,15 +12,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SearchStandingDashboardType $SearchStanding
- * @property \DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType $SellerFeeDiscount
- * @property \DTS\eBaySDK\Trading\Types\PowerSellerDashboardType $PowerSellerStatus
- * @property \DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType $PolicyCompliance
- * @property \DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType $BuyerSatisfaction
- * @property \DTS\eBaySDK\Trading\Types\SellerAccountDashboardType $SellerAccount
- * @property \DTS\eBaySDK\Trading\Types\PerformanceDashboardType[] $Performance
+ * @property SearchStandingDashboardType $SearchStanding
+ * @property SellerFeeDiscountDashboardType $SellerFeeDiscount
+ * @property PowerSellerDashboardType $PowerSellerStatus
+ * @property PolicyComplianceDashboardType $PolicyCompliance
+ * @property BuyerSatisfactionDashboardType $BuyerSatisfaction
+ * @property SellerAccountDashboardType $SellerAccount
+ * @property PerformanceDashboardType[] $Performance
  */
-class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellerDashboardResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

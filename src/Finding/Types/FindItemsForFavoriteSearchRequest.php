@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\PaginationInput $paginationInput
+ * @property PaginationInput $paginationInput
  */
-class FindItemsForFavoriteSearchRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
+class FindItemsForFavoriteSearchRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

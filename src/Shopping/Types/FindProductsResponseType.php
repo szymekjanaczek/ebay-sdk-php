@@ -14,13 +14,13 @@ namespace DTS\eBaySDK\Shopping\Types;
  *
  * @property integer $ApproximatePages
  * @property boolean $MoreResults
- * @property \DTS\eBaySDK\Shopping\Types\DomainHistogramType $DomainHistogram
+ * @property DomainHistogramType $DomainHistogram
  * @property integer $PageNumber
- * @property \DTS\eBaySDK\Shopping\Types\CatalogProductType[] $Product
+ * @property CatalogProductType[] $Product
  * @property integer $TotalProducts
  * @property boolean $DuplicateItems
  */
-class FindProductsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class FindProductsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

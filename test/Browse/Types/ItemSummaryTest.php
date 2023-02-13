@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\ItemSummary;
 
-class ItemSummaryTest extends \PHPUnit\Framework\TestCase
+class ItemSummaryTest extends TestCase
 {
     private $obj;
 

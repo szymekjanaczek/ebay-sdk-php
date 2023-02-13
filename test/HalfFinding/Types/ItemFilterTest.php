@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Types\ItemFilter;
 
-class ItemFilterTest extends \PHPUnit\Framework\TestCase
+class ItemFilterTest extends TestCase
 {
     private $obj;
 

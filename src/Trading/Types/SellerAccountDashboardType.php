@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SellerAccountStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SellerAccountStatusCodeType $Status
- * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType[] $Alert
+ * @property SellerAccountStatusCodeType $Status
+ * @property SellerDashboardAlertType[] $Alert
  */
-class SellerAccountDashboardType extends \DTS\eBaySDK\Types\BaseType
+class SellerAccountDashboardType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

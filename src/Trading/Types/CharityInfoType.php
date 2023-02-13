@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
@@ -27,11 +28,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $PopularityIndex
  * @property string $EIN
  * @property string $NonProfitSecondName
- * @property \DTS\eBaySDK\Trading\Types\NonProfitAddressType[] $NonProfitAddress
- * @property \DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType[] $NonProfitSocialAddress
+ * @property NonProfitAddressType[] $NonProfitAddress
+ * @property NonProfitSocialAddressType[] $NonProfitSocialAddress
  * @property string $id
  */
-class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
+class CharityInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

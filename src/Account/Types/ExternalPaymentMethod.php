@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $paymentMethodName
- * @property \DTS\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum $paymentMethodType
+ * @property ExternalPaymentMethodTypeEnum $paymentMethodType
  * @property boolean $primary
  * @property boolean $verified
  */
-class ExternalPaymentMethod extends \DTS\eBaySDK\Types\BaseType
+class ExternalPaymentMethod extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

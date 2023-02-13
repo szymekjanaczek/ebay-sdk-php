@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\TaskStatusCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\TaskStatusCodeType $Status
+ * @property TaskStatusCodeType $Status
  */
-class GetStoreCategoryUpdateStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetStoreCategoryUpdateStatusResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

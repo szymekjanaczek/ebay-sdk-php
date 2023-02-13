@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType;
 
-class SetShipmentTrackingInfoResponseTypeTest extends \PHPUnit\Framework\TestCase
+class SetShipmentTrackingInfoResponseTypeTest extends TestCase
 {
     private $obj;
 

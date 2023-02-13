@@ -10,24 +10,29 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Account\Enums\RefundMethodEnum;
+use DTS\eBaySDK\Account\Enums\ReturnMethodEnum;
+use DTS\eBaySDK\Account\Enums\ReturnShippingCostPayerEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
+ * @property CategoryType[] $categoryTypes
  * @property string $description
  * @property boolean $extendedHolidayReturnsOffered
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Account\Enums\RefundMethodEnum $refundMethod
+ * @property RefundMethodEnum $refundMethod
  * @property string $restockingFeePercentage
  * @property string $returnInstructions
- * @property \DTS\eBaySDK\Account\Enums\ReturnMethodEnum $returnMethod
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $returnPeriod
+ * @property ReturnMethodEnum $returnMethod
+ * @property TimeDuration $returnPeriod
  * @property string $returnPolicyId
  * @property boolean $returnsAccepted
- * @property \DTS\eBaySDK\Account\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property ReturnShippingCostPayerEnum $returnShippingCostPayer
+ * @property ErrorDetailV3[] $warnings
  */
-class SetReturnPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class SetReturnPolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

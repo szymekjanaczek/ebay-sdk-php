@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ListDataType[] $all
+ * @property ListDataType[] $all
  * @property boolean $isMultiple
- * @property \DTS\eBaySDK\PostOrder\Types\ListDataType[] $selected
+ * @property ListDataType[] $selected
  */
-class ConditionListDetailType extends \DTS\eBaySDK\Types\BaseType
+class ConditionListDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

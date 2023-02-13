@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ShippingEstimatedDeliveryInfoType;
 
-class ShippingEstimatedDeliveryInfoTypeTest extends \PHPUnit\Framework\TestCase
+class ShippingEstimatedDeliveryInfoTypeTest extends TestCase
 {
     private $obj;
 

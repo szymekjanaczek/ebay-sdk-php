@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MaxScheduledMinutes
  * @property integer $MinScheduledMinutes
  * @property integer $MaxScheduledItems
  */
-class SchedulingInfoType extends \DTS\eBaySDK\Types\BaseType
+class SchedulingInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

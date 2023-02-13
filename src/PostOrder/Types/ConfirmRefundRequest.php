@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $refundDate
+ * @property DateTime $refundDate
  * @property boolean $unpaidOrder
  */
-class ConfirmRefundRequest extends \DTS\eBaySDK\Types\BaseType
+class ConfirmRefundRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

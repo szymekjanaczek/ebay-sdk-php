@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\BoldTitleCodeType;
 
-class BoldTitleCodeTypeTest extends \PHPUnit\Framework\TestCase
+class BoldTitleCodeTypeTest extends TestCase
 {
     private $obj;
 

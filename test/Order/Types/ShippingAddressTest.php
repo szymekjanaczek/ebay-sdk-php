@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\ShippingAddress;
 
-class ShippingAddressTest extends \PHPUnit\Framework\TestCase
+class ShippingAddressTest extends TestCase
 {
     private $obj;
 

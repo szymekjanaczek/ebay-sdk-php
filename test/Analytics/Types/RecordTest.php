@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Types\Record;
 
-class RecordTest extends \PHPUnit\Framework\TestCase
+class RecordTest extends TestCase
 {
     private $obj;
 

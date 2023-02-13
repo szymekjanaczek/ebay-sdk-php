@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CaseSummaryType[] $members
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property CaseSummaryType[] $members
+ * @property PaginationOutput $paginationOutput
  * @property integer $totalNumberOfCases
  */
-class CaseSearchResponse extends \DTS\eBaySDK\Types\BaseType
+class CaseSearchResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

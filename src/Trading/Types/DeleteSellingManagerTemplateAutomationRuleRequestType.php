@@ -17,7 +17,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $DeleteAutomatedRelistingRule
  * @property boolean $DeleteAutomatedSecondChanceOfferRule
  */
-class DeleteSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class DeleteSellingManagerTemplateAutomationRuleRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

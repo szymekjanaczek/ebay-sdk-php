@@ -12,16 +12,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $ScheduledList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $ActiveList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $SoldList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $UnsoldList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromSoldList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromUnsoldList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $SellingSummary
+ * @property ItemListCustomizationType $ScheduledList
+ * @property ItemListCustomizationType $ActiveList
+ * @property ItemListCustomizationType $SoldList
+ * @property ItemListCustomizationType $UnsoldList
+ * @property ItemListCustomizationType $DeletedFromSoldList
+ * @property ItemListCustomizationType $DeletedFromUnsoldList
+ * @property ItemListCustomizationType $SellingSummary
  * @property boolean $HideVariations
  */
-class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetMyeBaySellingRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

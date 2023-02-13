@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Types\GetVersionResponse;
 
-class GetVersionResponseTest extends \PHPUnit\Framework\TestCase
+class GetVersionResponseTest extends TestCase
 {
     private $obj;
 

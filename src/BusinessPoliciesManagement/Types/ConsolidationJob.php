@@ -10,14 +10,17 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobType;
+use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobStatus;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $JobId
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobType $JobType
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobStatus $JobStatus
+ * @property ConsolidationJobType $JobType
+ * @property ConsolidationJobStatus $JobStatus
  * @property integer $SiteId
  */
-class ConsolidationJob extends \DTS\eBaySDK\Types\BaseType
+class ConsolidationJob extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

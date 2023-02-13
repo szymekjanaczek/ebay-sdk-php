@@ -13,9 +13,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string[] $ItemID
- * @property \DTS\eBaySDK\Trading\Types\VariationKeyType[] $VariationKey
+ * @property VariationKeyType[] $VariationKey
  */
-class AddToWatchListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddToWatchListRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

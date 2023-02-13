@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\SearchResult $searchResult
- * @property \DTS\eBaySDK\Finding\Types\PaginationOutput $paginationOutput
+ * @property SearchResult $searchResult
+ * @property PaginationOutput $paginationOutput
  * @property string $itemSearchURL
  */
-class BaseFindingServiceResponse extends \DTS\eBaySDK\Finding\Types\BaseServiceResponse
+class BaseFindingServiceResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,21 +10,24 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\StoreTypeEnum;
+use DTS\eBaySDK\Inventory\Enums\StatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Location $location
+ * @property Location $location
  * @property string $locationAdditionalInformation
  * @property string $locationInstructions
- * @property \DTS\eBaySDK\Inventory\Enums\StoreTypeEnum[] $locationTypes
+ * @property StoreTypeEnum[] $locationTypes
  * @property string $locationWebUrl
  * @property string $merchantLocationKey
- * @property \DTS\eBaySDK\Inventory\Enums\StatusEnum $merchantLocationStatus
+ * @property StatusEnum $merchantLocationStatus
  * @property string $name
- * @property \DTS\eBaySDK\Inventory\Types\OperatingHours[] $operatingHours
+ * @property OperatingHours[] $operatingHours
  * @property string $phone
- * @property \DTS\eBaySDK\Inventory\Types\SpecialHours[] $specialHours
+ * @property SpecialHours[] $specialHours
  */
-class InventoryLocationResponse extends \DTS\eBaySDK\Types\BaseType
+class InventoryLocationResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

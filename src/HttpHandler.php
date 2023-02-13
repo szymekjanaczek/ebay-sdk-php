@@ -1,6 +1,7 @@
 <?php
 namespace DTS\eBaySDK;
 
+use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\RequestInterface;
@@ -11,7 +12,7 @@ use Psr\Http\Message\RequestInterface;
 class HttpHandler
 {
     /**
-     * @var \GuzzleHttp\ClientInterface $client The client for making the HTTP request.
+     * @var ClientInterface $client The client for making the HTTP request.
      */
     private $client;
 
@@ -30,7 +31,7 @@ class HttpHandler
     ];
 
     /**
-     * @param \GuzzleHttp\ClientInterface $client The client for making the HTTP request.
+     * @param ClientInterface $client The client for making the HTTP request.
      */
     public function __construct(ClientInterface $client = null)
     {
@@ -38,12 +39,12 @@ class HttpHandler
     }
 
     /**
-     * @param \Psr7Request|RequestInterface $request
-     * @param array $options Http options for the client.
-     *
-     * @return \GuzzleHttp\Promise\PromiseInterface Promise that will be resolved with a
-     * Psr\Http\Message\ResponseInterface response object.
-     */
+    * @param \Psr7Request|RequestInterface $request
+    * @param array $options Http options for the client.
+    *
+     * @return PromiseInterface Promise that will be resolved with a
+    Psr\Http\Message\ResponseInterface response object.
+    */
     public function __invoke(RequestInterface $request, array $options)
     {
         // Remove options that are not supported.

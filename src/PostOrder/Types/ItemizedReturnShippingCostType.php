@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $amount
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnShippingCostType $returnShippingCostType
+ * @property Amount $amount
+ * @property ReturnShippingCostType $returnShippingCostType
  */
-class ItemizedReturnShippingCostType extends \DTS\eBaySDK\Types\BaseType
+class ItemizedReturnShippingCostType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

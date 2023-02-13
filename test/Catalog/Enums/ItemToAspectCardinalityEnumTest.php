@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Enums\ItemToAspectCardinalityEnum;
 
-class ItemToAspectCardinalityEnumTest extends \PHPUnit\Framework\TestCase
+class ItemToAspectCardinalityEnumTest extends TestCase
 {
     private $obj;
 

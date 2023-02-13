@@ -13,9 +13,9 @@ namespace DTS\eBaySDK\Merchandising\Types;
 /**
  *
  * @property integer $maxResults
- * @property \DTS\eBaySDK\Merchandising\Types\Affiliate $affiliate
+ * @property Affiliate $affiliate
  */
-class BaseMerchandisingServiceRequest extends \DTS\eBaySDK\Merchandising\Types\BaseServiceRequest
+class BaseMerchandisingServiceRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

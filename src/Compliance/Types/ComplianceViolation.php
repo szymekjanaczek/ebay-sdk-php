@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Compliance\Types;
 
+use DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum $complianceType
+ * @property ComplianceTypeEnum $complianceType
  * @property string $listingId
  * @property string $sku
  * @property string $offerId
- * @property \DTS\eBaySDK\Compliance\Types\ComplianceDetail[] $violations
+ * @property ComplianceDetail[] $violations
  */
-class ComplianceViolation extends \DTS\eBaySDK\Types\BaseType
+class ComplianceViolation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\ChangeRequest[] $changeRequests
+ * @property ChangeRequest[] $changeRequests
  * @property string $href
  * @property integer $limit
  * @property string $next
@@ -20,7 +21,7 @@ namespace DTS\eBaySDK\Catalog\Types;
  * @property string $prev
  * @property integer $total
  */
-class GetChangeRequestsResponse extends \DTS\eBaySDK\Types\BaseType
+class GetChangeRequestsResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

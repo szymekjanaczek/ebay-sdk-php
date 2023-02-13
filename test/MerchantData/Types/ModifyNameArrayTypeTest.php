@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ModifyNameArrayType;
 
-class ModifyNameArrayTypeTest extends \PHPUnit\Framework\TestCase
+class ModifyNameArrayTypeTest extends TestCase
 {
     private $obj;
 

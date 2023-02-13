@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Types\DoubleType;
 
-class DoubleTypeTest extends \PHPUnit\Framework\TestCase
+class DoubleTypeTest extends TestCase
 {
     private $obj;
 

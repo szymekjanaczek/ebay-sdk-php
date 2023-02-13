@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $merchantLocationKey
  */
-class GetInventoryLocationRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetInventoryLocationRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

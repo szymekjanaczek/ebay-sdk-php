@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Product\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Product\Types\URIValue;
 
-class URIValueTest extends \PHPUnit\Framework\TestCase
+class URIValueTest extends TestCase
 {
     private $obj;
 

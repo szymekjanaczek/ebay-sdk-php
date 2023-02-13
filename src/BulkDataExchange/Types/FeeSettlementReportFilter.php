@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $startTime
+ * @property DateTime $startTime
  */
-class FeeSettlementReportFilter extends \DTS\eBaySDK\Types\BaseType
+class FeeSettlementReportFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Compliance\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $reasonCode
  * @property string $message
- * @property \DTS\eBaySDK\Compliance\Types\VariationDetails $variation
- * @property \DTS\eBaySDK\Compliance\Types\NameValueList[] $violationData
- * @property \DTS\eBaySDK\Compliance\Types\CorrectiveRecommendations $correctiveRecommendations
+ * @property VariationDetails $variation
+ * @property NameValueList[] $violationData
+ * @property CorrectiveRecommendations $correctiveRecommendations
  */
-class ComplianceDetail extends \DTS\eBaySDK\Types\BaseType
+class ComplianceDetail extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

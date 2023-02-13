@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundFromSeller
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalRefundToBuyer
- * @property \DateTime $RefundTime
+ * @property AmountType $RefundFromSeller
+ * @property AmountType $TotalRefundToBuyer
+ * @property DateTime $RefundTime
  * @property string $RefundID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundAmount
+ * @property AmountType $RefundAmount
  */
-class RefundType extends \DTS\eBaySDK\Types\BaseType
+class RefundType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

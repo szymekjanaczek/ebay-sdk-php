@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\DetailStatusInfoType;
 
-class DetailStatusInfoTypeTest extends \PHPUnit\Framework\TestCase
+class DetailStatusInfoTypeTest extends TestCase
 {
     private $obj;
 

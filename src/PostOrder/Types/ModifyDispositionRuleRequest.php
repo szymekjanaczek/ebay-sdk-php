@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleModificationType $operation
- * @property \DTS\eBaySDK\PostOrder\Types\PriorityListType $priorityList
- * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailInputType $ruleDetail
+ * @property RuleModificationType $operation
+ * @property PriorityListType $priorityList
+ * @property RuleDetailInputType $ruleDetail
  * @property integer $versionId
  */
-class ModifyDispositionRuleRequest extends \DTS\eBaySDK\Types\BaseType
+class ModifyDispositionRuleRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

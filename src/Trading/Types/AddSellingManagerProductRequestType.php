@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property SellingManagerProductDetailsType $SellingManagerProductDetails
  * @property integer $FolderID
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
+ * @property SellingManagerProductSpecificsType $SellingManagerProductSpecifics
  */
-class AddSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddSellingManagerProductRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

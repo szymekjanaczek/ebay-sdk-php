@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MembershipDetailType[] $Program
+ * @property MembershipDetailType[] $Program
  */
-class MembershipDetailsType extends \DTS\eBaySDK\Types\BaseType
+class MembershipDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

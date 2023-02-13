@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Enums\TimeDurationUnitEnum;
 
-class TimeDurationUnitEnumTest extends \PHPUnit\Framework\TestCase
+class TimeDurationUnitEnumTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\ReturnCountFilterEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $count
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnCountFilterEnum $type
+ * @property ReturnCountFilterEnum $type
  */
-class CountSummaryType extends \DTS\eBaySDK\Types\BaseType
+class CountSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $TotalQuantity
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalValue
+ * @property AmountType $TotalValue
  */
-class ItemTotalsType extends \DTS\eBaySDK\Types\BaseType
+class ItemTotalsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

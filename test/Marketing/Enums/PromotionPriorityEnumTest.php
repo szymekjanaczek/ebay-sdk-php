@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum;
 
-class PromotionPriorityEnumTest extends \PHPUnit\Framework\TestCase
+class PromotionPriorityEnumTest extends TestCase
 {
     private $obj;
 

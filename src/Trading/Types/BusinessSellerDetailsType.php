@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AddressType $Address
+ * @property AddressType $Address
  * @property string $Fax
  * @property string $Email
  * @property string $AdditionalContactInformation
  * @property string $TradeRegistrationNumber
  * @property boolean $LegalInvoice
  * @property string $TermsAndConditions
- * @property \DTS\eBaySDK\Trading\Types\VATDetailsType $VATDetails
+ * @property VATDetailsType $VATDetails
  */
-class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BusinessSellerDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

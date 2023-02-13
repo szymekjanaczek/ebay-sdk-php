@@ -12,14 +12,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\DescriptionTemplateType[] $DescriptionTemplate
+ * @property DescriptionTemplateType[] $DescriptionTemplate
  * @property integer $LayoutTotal
  * @property integer[] $ObsoleteLayoutID
  * @property integer[] $ObsoleteThemeID
- * @property \DTS\eBaySDK\Trading\Types\ThemeGroupType[] $ThemeGroup
+ * @property ThemeGroupType[] $ThemeGroup
  * @property integer $ThemeTotal
  */
-class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetDescriptionTemplatesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

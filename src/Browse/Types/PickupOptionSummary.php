@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $pickupLocationType
  */
-class PickupOptionSummary extends \DTS\eBaySDK\Types\BaseType
+class PickupOptionSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

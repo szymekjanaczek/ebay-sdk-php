@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $lifetime
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $timeDuration
+ * @property TimeDuration $timeDuration
  */
-class LookbackPeriod extends \DTS\eBaySDK\Types\BaseType
+class LookbackPeriod extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

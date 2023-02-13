@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Enums\SortOnType;
 
-class SortOnTypeTest extends \PHPUnit\Framework\TestCase
+class SortOnTypeTest extends TestCase
 {
     private $obj;
 

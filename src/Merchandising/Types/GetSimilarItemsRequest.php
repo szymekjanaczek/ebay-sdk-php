@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\Merchandising\Types;
 
+use DateTime;
 /**
  *
  * @property string $itemId
  * @property string[] $categoryId
  * @property string[] $categoryIdExclude
  * @property string $listingType
- * @property \DateTime $endTimeTo
- * @property \DateTime $endTimeFrom
- * @property \DTS\eBaySDK\Merchandising\Types\Amount $maxPrice
- * @property \DTS\eBaySDK\Merchandising\Types\ItemFilter[] $itemFilter
+ * @property DateTime $endTimeTo
+ * @property DateTime $endTimeFrom
+ * @property Amount $maxPrice
+ * @property ItemFilter[] $itemFilter
  */
-class GetSimilarItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
+class GetSimilarItemsRequest extends BaseMerchandisingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

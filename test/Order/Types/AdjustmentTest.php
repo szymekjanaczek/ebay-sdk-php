@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\Adjustment;
 
-class AdjustmentTest extends \PHPUnit\Framework\TestCase
+class AdjustmentTest extends TestCase
 {
     private $obj;
 

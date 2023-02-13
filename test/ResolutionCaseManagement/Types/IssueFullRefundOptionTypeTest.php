@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType;
 
-class IssueFullRefundOptionTypeTest extends \PHPUnit\Framework\TestCase
+class IssueFullRefundOptionTypeTest extends TestCase
 {
     private $obj;
 

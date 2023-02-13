@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Amount $amountOffItem
- * @property \DTS\eBaySDK\Marketing\Types\Amount $amountOffOrder
+ * @property Amount $amountOffItem
+ * @property Amount $amountOffOrder
  * @property string $percentageOffItem
  * @property string $percentageOffOrder
  */
-class DiscountBenefit extends \DTS\eBaySDK\Types\BaseType
+class DiscountBenefit extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

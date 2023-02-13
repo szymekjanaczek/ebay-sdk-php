@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Compliance\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Compliance\Types\PagedComplianceViolationCollection;
 
-class PagedComplianceViolationCollectionTest extends \PHPUnit\Framework\TestCase
+class PagedComplianceViolationCollectionTest extends TestCase
 {
     private $obj;
 

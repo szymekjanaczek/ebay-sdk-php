@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $UserID
  * @property boolean $IncludeFeatureEligibility
  */
-class GetUserRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

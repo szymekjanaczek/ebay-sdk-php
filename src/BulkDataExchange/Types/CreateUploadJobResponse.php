@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
  * @property string $fileReferenceId
  * @property string $maxFileSize
  */
-class CreateUploadJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class CreateUploadJobResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

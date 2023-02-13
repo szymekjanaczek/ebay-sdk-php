@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedResponse;
 
-class SetItemAsReceivedResponseTest extends \PHPUnit\Framework\TestCase
+class SetItemAsReceivedResponseTest extends TestCase
 {
     private $obj;
 

@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property PaginationResultType $PaginationResult
  * @property boolean $HasMoreItems
  * @property integer $ItemsPerPage
  * @property integer $PageNumber
  * @property integer $VeROReportPacketID
- * @property \DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType $VeROReportPacketStatus
- * @property \DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType $ReportedItemDetails
+ * @property VeROReportPacketStatusCodeType $VeROReportPacketStatus
+ * @property VeROReportedItemDetailsType $ReportedItemDetails
  */
-class GetVeROReportStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetVeROReportStatusResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

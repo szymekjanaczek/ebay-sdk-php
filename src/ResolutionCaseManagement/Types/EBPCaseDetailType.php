@@ -10,30 +10,33 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseDecisionType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $openReason
  * @property string $decisionReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType $decisionReasonDetail
- * @property \DateTime $decisionDate
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseDecisionType $decision
+ * @property DecisionReasonDetailType $decisionReasonDetail
+ * @property DateTime $decisionDate
+ * @property CaseDecisionType $decision
  * @property boolean $FVFCredited
  * @property boolean $notCountedInBuyerProtectionCases
  * @property string $globalId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealType[] $appeal
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseResponseHistoryType[] $responseHistory
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $agreedRefundAmount
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\PaymentDetailType $paymentDetail
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ShipmentType $buyerReturnShipment
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ShipmentType $sellerShipment
+ * @property AppealType[] $appeal
+ * @property EBPCaseResponseHistoryType[] $responseHistory
+ * @property Amount $agreedRefundAmount
+ * @property PaymentDetailType $paymentDetail
+ * @property ShipmentType $buyerReturnShipment
+ * @property ShipmentType $sellerShipment
  * @property string $detailStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\DetailStatusInfoType $detailStatusInfo
+ * @property DetailStatusInfoType $detailStatusInfo
  * @property string $initialBuyerExpectation
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType $initialBuyerExpectationDetail
+ * @property InitialBuyerExpectationDetailType $initialBuyerExpectationDetail
  * @property string $returnMerchandiseAuthorization
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDocumentInfoType[] $caseDocumentInfo
+ * @property EBPCaseDocumentInfoType[] $caseDocumentInfo
  */
-class EBPCaseDetailType extends \DTS\eBaySDK\Types\BaseType
+class EBPCaseDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

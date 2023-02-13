@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest;
 
-class GetReturnPoliciesByMarketplaceRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetReturnPoliciesByMarketplaceRestRequestTest extends TestCase
 {
     private $obj;
 

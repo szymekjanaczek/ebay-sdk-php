@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\TransactionReferenceCodeType;
+use DTS\eBaySDK\Types\StringType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\TransactionReferenceCodeType $type
+ * @property TransactionReferenceCodeType $type
  */
-class TransactionReferenceType extends \DTS\eBaySDK\Types\StringType
+class TransactionReferenceType extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

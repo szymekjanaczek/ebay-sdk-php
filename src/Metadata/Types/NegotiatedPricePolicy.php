@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $bestOfferAutoAcceptEnabled
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Metadata\Types;
  * @property string $categoryId
  * @property string $categoryTreeId
  */
-class NegotiatedPricePolicy extends \DTS\eBaySDK\Types\BaseType
+class NegotiatedPricePolicy extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

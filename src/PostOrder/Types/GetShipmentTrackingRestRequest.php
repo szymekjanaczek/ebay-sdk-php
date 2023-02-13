@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $carrier_used
  * @property string $returnId
  * @property string $tracking_number
  */
-class GetShipmentTrackingRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetShipmentTrackingRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

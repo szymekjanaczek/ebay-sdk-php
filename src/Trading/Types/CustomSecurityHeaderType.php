@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $eBayAuthToken
  * @property string $HardExpirationWarning
- * @property \DTS\eBaySDK\Trading\Types\UserIdPasswordType $Credentials
+ * @property UserIdPasswordType $Credentials
  * @property string $NotificationSignature
  */
-class CustomSecurityHeaderType extends \DTS\eBaySDK\Types\BaseType
+class CustomSecurityHeaderType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

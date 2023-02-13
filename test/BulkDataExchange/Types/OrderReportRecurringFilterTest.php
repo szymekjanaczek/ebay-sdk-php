@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter;
 
-class OrderReportRecurringFilterTest extends \PHPUnit\Framework\TestCase
+class OrderReportRecurringFilterTest extends TestCase
 {
     private $obj;
 

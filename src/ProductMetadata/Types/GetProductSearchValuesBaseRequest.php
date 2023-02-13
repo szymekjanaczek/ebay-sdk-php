@@ -13,11 +13,11 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
 /**
  *
  * @property string $categoryId
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyFilter
+ * @property PropertyValue[] $propertyFilter
  * @property boolean $listFormatOnly
- * @property \DTS\eBaySDK\ProductMetadata\Types\SortOrder[] $sortOrder
+ * @property SortOrder[] $sortOrder
  */
-class GetProductSearchValuesBaseRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest
+class GetProductSearchValuesBaseRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

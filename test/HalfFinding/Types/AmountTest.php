@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Types\Amount;
 
-class AmountTest extends \PHPUnit\Framework\TestCase
+class AmountTest extends TestCase
 {
     private $obj;
 

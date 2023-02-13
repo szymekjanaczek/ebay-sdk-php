@@ -10,16 +10,19 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Shopping\Enums\SeverityCodeType;
+use DTS\eBaySDK\Shopping\Enums\ErrorClassificationCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ShortMessage
  * @property string $LongMessage
  * @property string $ErrorCode
- * @property \DTS\eBaySDK\Shopping\Enums\SeverityCodeType $SeverityCode
- * @property \DTS\eBaySDK\Shopping\Types\ErrorParameterType[] $ErrorParameters
- * @property \DTS\eBaySDK\Shopping\Enums\ErrorClassificationCodeType $ErrorClassification
+ * @property SeverityCodeType $SeverityCode
+ * @property ErrorParameterType[] $ErrorParameters
+ * @property ErrorClassificationCodeType $ErrorClassification
  */
-class ErrorType extends \DTS\eBaySDK\Types\BaseType
+class ErrorType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

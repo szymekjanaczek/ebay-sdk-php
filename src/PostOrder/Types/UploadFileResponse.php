@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $compressedFileData
  * @property string $fileId
  */
-class UploadFileResponse extends \DTS\eBaySDK\Types\BaseType
+class UploadFileResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

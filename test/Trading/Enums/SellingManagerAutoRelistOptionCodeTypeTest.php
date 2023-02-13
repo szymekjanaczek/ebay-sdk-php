@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistOptionCodeType;
 
-class SellingManagerAutoRelistOptionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerAutoRelistOptionCodeTypeTest extends TestCase
 {
     private $obj;
 

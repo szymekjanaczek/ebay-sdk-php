@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\BusinessRoleType;
 
-class BusinessRoleTypeTest extends \PHPUnit\Framework\TestCase
+class BusinessRoleTypeTest extends TestCase
 {
     private $obj;
 

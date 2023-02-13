@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation $uriTypeSpecificInformation
- * @property \DTS\eBaySDK\ProductMetadata\Types\NumericTypeSpecificInformation $numericTypeSpecificInformation
- * @property \DTS\eBaySDK\ProductMetadata\Types\MediaTypeSpecificInformation $mediaTypeSpecificInformation
- * @property \DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation $stringTypeSpecificInformation
+ * @property URITypeSpecificInformation $uriTypeSpecificInformation
+ * @property NumericTypeSpecificInformation $numericTypeSpecificInformation
+ * @property MediaTypeSpecificInformation $mediaTypeSpecificInformation
+ * @property StringTypeSpecificInformation $stringTypeSpecificInformation
  */
-class TypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
+class TypeSpecificInformation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

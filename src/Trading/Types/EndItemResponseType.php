@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
- * @property \DateTime $EndTime
+ * @property DateTime $EndTime
  */
-class EndItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class EndItemResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

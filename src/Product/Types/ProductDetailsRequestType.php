@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
+ * @property ProductIdentifier $productIdentifier
  * @property string[] $datasetPropertyName
  * @property string[] $dataset
- * @property \DTS\eBaySDK\Product\Types\ProductStatus $productStatusFilter
+ * @property ProductStatus $productStatusFilter
  */
-class ProductDetailsRequestType extends \DTS\eBaySDK\Types\BaseType
+class ProductDetailsRequestType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

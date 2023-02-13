@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $sellerUserName
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Finding\Types;
  * @property string $feedbackRatingStar
  * @property boolean $topRatedSeller
  */
-class SellerInfo extends \DTS\eBaySDK\Types\BaseType
+class SellerInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

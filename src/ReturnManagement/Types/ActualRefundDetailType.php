@@ -10,13 +10,16 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\RefundStatusType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\RefundDetailType $actualRefund
- * @property \DTS\eBaySDK\ReturnManagement\Enums\RefundStatusType $refundStatus
- * @property \DateTime $refundDate
+ * @property RefundDetailType $actualRefund
+ * @property RefundStatusType $refundStatus
+ * @property DateTime $refundDate
  */
-class ActualRefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class ActualRefundDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

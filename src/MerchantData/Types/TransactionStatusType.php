@@ -10,23 +10,35 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\PaymentStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\CheckoutStatusCodeType;
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType;
+use DTS\eBaySDK\MerchantData\Enums\CompleteStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\InquiryStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ReturnStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType;
+use DTS\eBaySDK\MerchantData\Enums\DigitalStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\CancelStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentStatusCodeType $eBayPaymentStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\CheckoutStatusCodeType $CheckoutStatus
- * @property \DateTime $LastTimeModified
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
- * @property \DTS\eBaySDK\MerchantData\Enums\CompleteStatusCodeType $CompleteStatus
+ * @property PaymentStatusCodeType $eBayPaymentStatus
+ * @property CheckoutStatusCodeType $CheckoutStatus
+ * @property DateTime $LastTimeModified
+ * @property BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property CompleteStatusCodeType $CompleteStatus
  * @property boolean $BuyerSelectedShipping
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property PaymentHoldStatusCodeType $PaymentHoldStatus
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\MerchantData\Enums\InquiryStatusCodeType $InquiryStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\ReturnStatusCodeType $ReturnStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
- * @property \DTS\eBaySDK\MerchantData\Enums\DigitalStatusCodeType $DigitalStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\CancelStatusCodeType $CancelStatus
+ * @property InquiryStatusCodeType $InquiryStatus
+ * @property ReturnStatusCodeType $ReturnStatus
+ * @property BuyerPaymentInstrumentCodeType $PaymentInstrument
+ * @property DigitalStatusCodeType $DigitalStatus
+ * @property CancelStatusCodeType $CancelStatus
  */
-class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
+class TransactionStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

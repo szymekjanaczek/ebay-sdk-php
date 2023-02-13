@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property TransactionArrayType $TransactionArray
+ * @property PaginationResultType $PaginationResult
  */
-class PaginatedTransactionArrayType extends \DTS\eBaySDK\Types\BaseType
+class PaginatedTransactionArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

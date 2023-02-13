@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Feed\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $category_id
  * @property string $date
  * @property string $feed_type
  */
-class GetItemFeedRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetItemFeedRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

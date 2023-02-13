@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestResponse;
 
-class DeleteReturnFileRestResponseTest extends \PHPUnit\Framework\TestCase
+class DeleteReturnFileRestResponseTest extends TestCase
 {
     private $obj;
 

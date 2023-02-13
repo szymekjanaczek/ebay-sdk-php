@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property Text $comments
  * @property string $labelId
  */
-class VoidLabelRequest extends \DTS\eBaySDK\Types\BaseType
+class VoidLabelRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\CancelSortTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $ascending
- * @property \DTS\eBaySDK\PostOrder\Enums\CancelSortTypeEnum $enumValue
+ * @property CancelSortTypeEnum $enumValue
  */
-class CancelSortField extends \DTS\eBaySDK\Types\BaseType
+class CancelSortField extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

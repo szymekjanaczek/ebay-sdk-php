@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\HandlingNameCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\HandlingNameCodeType $DiscountName
- * @property \DTS\eBaySDK\Trading\Types\AmountType $OrderHandlingAmount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
+ * @property HandlingNameCodeType $DiscountName
+ * @property AmountType $OrderHandlingAmount
+ * @property AmountType $EachAdditionalAmount
+ * @property AmountType $EachAdditionalOffAmount
  * @property double $EachAdditionalPercentOff
  */
-class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
+class CalculatedHandlingDiscountType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

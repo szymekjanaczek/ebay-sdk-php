@@ -12,15 +12,15 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
- * @property \DTS\eBaySDK\Product\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $applicationPropertyFilter
+ * @property ProductIdentifier $productIdentifier
+ * @property PaginationInput $paginationInput
+ * @property PropertyValue[] $applicationPropertyFilter
  * @property string[] $dataset
- * @property \DTS\eBaySDK\Product\Types\CompatibilitySort[] $sortOrder
- * @property \DTS\eBaySDK\Product\Types\ProductStatus $disabledProductFilter
+ * @property CompatibilitySort[] $sortOrder
+ * @property ProductStatus $disabledProductFilter
  * @property string[] $datasetPropertyName
  */
-class GetProductCompatibilitiesRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class GetProductCompatibilitiesRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

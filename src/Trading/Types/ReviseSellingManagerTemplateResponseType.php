@@ -13,14 +13,14 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $SaleTemplateID
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
  * @property boolean $VerifyOnly
  * @property string $SaleTemplateName
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property SellingManagerProductDetailsType $SellingManagerProductDetails
  */
-class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseSellingManagerTemplateResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

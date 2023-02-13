@@ -22,6 +22,7 @@
  */
 namespace DTS\eBaySDK\JmesPath;
 
+use BadMethodCallException;
 use DTS\eBaySDK\JmesPath\Lexer as T;
 
 /**
@@ -536,6 +537,6 @@ class Parser
             throw $this->syntax($message);
         }
 
-        throw new \BadMethodCallException("Call to undefined method $method");
+        throw new BadMethodCallException("Call to undefined method $method");
     }
 }

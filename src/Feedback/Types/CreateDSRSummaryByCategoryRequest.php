@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Feedback\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Feedback\Types\DateRange $dateRange
+ * @property DateRange $dateRange
  * @property string $dateRangeEventType
  * @property string[] $categoryId
  */
-class CreateDSRSummaryByCategoryRequest extends \DTS\eBaySDK\Feedback\Types\BaseServiceRequest
+class CreateDSRSummaryByCategoryRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

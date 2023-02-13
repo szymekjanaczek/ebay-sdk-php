@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType;
+use DTS\eBaySDK\Types\DecimalType;
 /**
  *
  * @property string $unit
- * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $measurementSystem
+ * @property MeasurementSystemCodeType $measurementSystem
  */
-class MeasureType extends \DTS\eBaySDK\Types\DecimalType
+class MeasureType extends DecimalType
 {
     /**
      * @var array Properties belonging to objects of this class.

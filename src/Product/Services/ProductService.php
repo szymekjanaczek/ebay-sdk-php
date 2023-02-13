@@ -10,7 +10,21 @@
 
 namespace DTS\eBaySDK\Product\Services;
 
-class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
+use DTS\eBaySDK\Product\Types\FindProductsRequest;
+use DTS\eBaySDK\Product\Types\FindProductsResponse;
+use GuzzleHttp\Promise\PromiseInterface;
+use DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest;
+use DTS\eBaySDK\Product\Types\GetProductDetailsRequest;
+use DTS\eBaySDK\Product\Types\GetProductDetailsResponse;
+use DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest;
+use DTS\eBaySDK\Product\Types\GetProductCompatiblitiesResponse;
+use DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest;
+use DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationResponse;
+use DTS\eBaySDK\Product\Types\AddProductsRequest;
+use DTS\eBaySDK\Product\Types\AddProductsResponse;
+use DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest;
+use DTS\eBaySDK\Product\Types\GetProductSubmissionsResponse;
+class ProductService extends ProductBaseService
 {
     const API_VERSION = '1.4.0';
 
@@ -23,19 +37,19 @@ class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindProductsRequest $request
-     * @return \DTS\eBaySDK\Product\Types\FindProductsResponse
+     * @param FindProductsRequest $request
+     * @return FindProductsResponse
      */
-    public function findProducts(\DTS\eBaySDK\Product\Types\FindProductsRequest $request)
+    public function findProducts(FindProductsRequest $request)
     {
         return $this->findProductsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindProductsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param FindProductsRequest $request
+     * @return PromiseInterface
      */
-    public function findProductsAsync(\DTS\eBaySDK\Product\Types\FindProductsRequest $request)
+    public function findProductsAsync(FindProductsRequest $request)
     {
         return $this->callOperationAsync(
             'findProducts',
@@ -45,19 +59,19 @@ class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request
-     * @return \DTS\eBaySDK\Product\Types\FindProductsResponse
+     * @param FindProductsByCompatibilityRequest $request
+     * @return FindProductsResponse
      */
-    public function findProductsByCompatibility(\DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request)
+    public function findProductsByCompatibility(FindProductsByCompatibilityRequest $request)
     {
         return $this->findProductsByCompatibilityAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param FindProductsByCompatibilityRequest $request
+     * @return PromiseInterface
      */
-    public function findProductsByCompatibilityAsync(\DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request)
+    public function findProductsByCompatibilityAsync(FindProductsByCompatibilityRequest $request)
     {
         return $this->callOperationAsync(
             'findProductsByCompatibility',
@@ -67,19 +81,19 @@ class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductDetailsRequest $request
-     * @return \DTS\eBaySDK\Product\Types\GetProductDetailsResponse
+     * @param GetProductDetailsRequest $request
+     * @return GetProductDetailsResponse
      */
-    public function getProductDetails(\DTS\eBaySDK\Product\Types\GetProductDetailsRequest $request)
+    public function getProductDetails(GetProductDetailsRequest $request)
     {
         return $this->getProductDetailsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductDetailsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetProductDetailsRequest $request
+     * @return PromiseInterface
      */
-    public function getProductDetailsAsync(\DTS\eBaySDK\Product\Types\GetProductDetailsRequest $request)
+    public function getProductDetailsAsync(GetProductDetailsRequest $request)
     {
         return $this->callOperationAsync(
             'getProductDetails',
@@ -89,19 +103,19 @@ class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request
-     * @return \DTS\eBaySDK\Product\Types\GetProductCompatiblitiesResponse
+     * @param GetProductCompatibilitiesRequest $request
+     * @return GetProductCompatiblitiesResponse
      */
-    public function getProductCompatibilities(\DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request)
+    public function getProductCompatibilities(GetProductCompatibilitiesRequest $request)
     {
         return $this->getProductCompatibilitiesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetProductCompatibilitiesRequest $request
+     * @return PromiseInterface
      */
-    public function getProductCompatibilitiesAsync(\DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request)
+    public function getProductCompatibilitiesAsync(GetProductCompatibilitiesRequest $request)
     {
         return $this->callOperationAsync(
             'getProductCompatibilities',
@@ -111,19 +125,19 @@ class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request
-     * @return \DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationResponse
+     * @param FindCompatibilitiesBySpecificationRequest $request
+     * @return FindCompatibilitiesBySpecificationResponse
      */
-    public function findCompatibilitiesBySpecification(\DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request)
+    public function findCompatibilitiesBySpecification(FindCompatibilitiesBySpecificationRequest $request)
     {
         return $this->findCompatibilitiesBySpecificationAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param FindCompatibilitiesBySpecificationRequest $request
+     * @return PromiseInterface
      */
-    public function findCompatibilitiesBySpecificationAsync(\DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request)
+    public function findCompatibilitiesBySpecificationAsync(FindCompatibilitiesBySpecificationRequest $request)
     {
         return $this->callOperationAsync(
             'findCompatibilitiesBySpecification',
@@ -133,19 +147,19 @@ class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\AddProductsRequest $request
-     * @return \DTS\eBaySDK\Product\Types\AddProductsResponse
+     * @param AddProductsRequest $request
+     * @return AddProductsResponse
      */
-    public function addProducts(\DTS\eBaySDK\Product\Types\AddProductsRequest $request)
+    public function addProducts(AddProductsRequest $request)
     {
         return $this->addProductsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\AddProductsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param AddProductsRequest $request
+     * @return PromiseInterface
      */
-    public function addProductsAsync(\DTS\eBaySDK\Product\Types\AddProductsRequest $request)
+    public function addProductsAsync(AddProductsRequest $request)
     {
         return $this->callOperationAsync(
             'addProducts',
@@ -155,19 +169,19 @@ class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest $request
-     * @return \DTS\eBaySDK\Product\Types\GetProductSubmissionsResponse
+     * @param GetProductSubmissionsRequest $request
+     * @return GetProductSubmissionsResponse
      */
-    public function getProductSubmissions(\DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest $request)
+    public function getProductSubmissions(GetProductSubmissionsRequest $request)
     {
         return $this->getProductSubmissionsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetProductSubmissionsRequest $request
+     * @return PromiseInterface
      */
-    public function getProductSubmissionsAsync(\DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest $request)
+    public function getProductSubmissionsAsync(GetProductSubmissionsRequest $request)
     {
         return $this->callOperationAsync(
             'getProductSubmissions',

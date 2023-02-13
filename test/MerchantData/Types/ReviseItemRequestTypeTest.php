@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ReviseItemRequestType;
 
-class ReviseItemRequestTypeTest extends \PHPUnit\Framework\TestCase
+class ReviseItemRequestTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\GetDetailResponse $detail
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType $eligibilityResult
+ * @property GetDetailResponse $detail
+ * @property ReturnEligibilityPerItemType $eligibilityResult
  * @property string $returnId
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType $summary
+ * @property ReturnSummaryType $summary
  */
-class CreateReturnResponse extends \DTS\eBaySDK\Types\BaseType
+class CreateReturnResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

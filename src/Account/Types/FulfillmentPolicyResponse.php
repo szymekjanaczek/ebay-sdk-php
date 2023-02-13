@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\FulfillmentPolicy[] $fulfillmentPolicies
+ * @property FulfillmentPolicy[] $fulfillmentPolicies
  * @property string $href
  * @property integer $limit
  * @property string $next
@@ -20,7 +21,7 @@ namespace DTS\eBaySDK\Account\Types;
  * @property string $prev
  * @property integer $total
  */
-class FulfillmentPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class FulfillmentPolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

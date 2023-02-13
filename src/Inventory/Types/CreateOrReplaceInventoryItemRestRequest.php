@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Inventory\Types;
  *
  * @property string $sku
  */
-class CreateOrReplaceInventoryItemRestRequest extends \DTS\eBaySDK\Inventory\Types\InventoryItem
+class CreateOrReplaceInventoryItemRestRequest extends InventoryItem
 {
     /**
      * @var array Properties belonging to objects of this class.

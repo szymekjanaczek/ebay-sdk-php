@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\QuantityAvailableHintCodeType;
 
-class QuantityAvailableHintCodeTypeTest extends \PHPUnit\Framework\TestCase
+class QuantityAvailableHintCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $RMARequired
  */
-class SetSellerReturnPreferenceRequest extends \DTS\eBaySDK\Types\BaseType
+class SetSellerReturnPreferenceRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

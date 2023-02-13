@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\PriceQuantity;
 
-class PriceQuantityTest extends \PHPUnit\Framework\TestCase
+class PriceQuantityTest extends TestCase
 {
     private $obj;
 

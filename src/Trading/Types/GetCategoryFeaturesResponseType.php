@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property string $CategoryVersion
- * @property \DateTime $UpdateTime
- * @property \DTS\eBaySDK\Trading\Types\CategoryFeatureType[] $Category
- * @property \DTS\eBaySDK\Trading\Types\SiteDefaultsType $SiteDefaults
- * @property \DTS\eBaySDK\Trading\Types\FeatureDefinitionsType $FeatureDefinitions
+ * @property DateTime $UpdateTime
+ * @property CategoryFeatureType[] $Category
+ * @property SiteDefaultsType $SiteDefaults
+ * @property FeatureDefinitionsType $FeatureDefinitions
  */
-class GetCategoryFeaturesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetCategoryFeaturesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

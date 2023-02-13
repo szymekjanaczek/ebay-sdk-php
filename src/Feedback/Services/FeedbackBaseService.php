@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Feedback\Services;
 
+use DTS\eBaySDK\Services\BaseService;
 /**
  * Base class for the Return Management service.
  */
-class FeedbackBaseService extends \DTS\eBaySDK\Services\BaseService
+class FeedbackBaseService extends BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -41,7 +42,7 @@ class FeedbackBaseService extends \DTS\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Feedback\Services\FeedbackService::API_VERSION
+                'default' => FeedbackService::API_VERSION
             ],
             'authToken' => [
                 'valid' => ['string'],

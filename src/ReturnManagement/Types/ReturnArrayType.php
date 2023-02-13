@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType[] $ReturnSummary
+ * @property ReturnSummaryType[] $ReturnSummary
  */
-class ReturnArrayType extends \DTS\eBaySDK\Types\BaseType
+class ReturnArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

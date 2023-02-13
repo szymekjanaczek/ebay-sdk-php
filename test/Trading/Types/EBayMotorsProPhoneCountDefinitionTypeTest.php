@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\EBayMotorsProPhoneCountDefinitionType;
 
-class EBayMotorsProPhoneCountDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class EBayMotorsProPhoneCountDefinitionTypeTest extends TestCase
 {
     private $obj;
 

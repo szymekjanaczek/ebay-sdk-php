@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AddSecondChanceItemRequestType;
 
-class AddSecondChanceItemRequestTypeTest extends \PHPUnit\Framework\TestCase
+class AddSecondChanceItemRequestTypeTest extends TestCase
 {
     private $obj;
 

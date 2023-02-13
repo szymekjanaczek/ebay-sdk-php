@@ -18,11 +18,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $IncludeTaxTable
  * @property string $SKU
  * @property string $VariationSKU
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property NameValueListArrayType $VariationSpecifics
  * @property string $TransactionID
  * @property boolean $IncludeItemCompatibilityList
  */
-class GetItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

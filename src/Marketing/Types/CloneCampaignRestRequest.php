@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  *
  * @property string $campaign_id
  */
-class CloneCampaignRestRequest extends \DTS\eBaySDK\Marketing\Types\CloneCampaignRequest
+class CloneCampaignRestRequest extends CloneCampaignRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

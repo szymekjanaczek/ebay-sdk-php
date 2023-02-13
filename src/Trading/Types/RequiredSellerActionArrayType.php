@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\RequiredSellerActionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\RequiredSellerActionCodeType[] $RequiredSellerAction
+ * @property RequiredSellerActionCodeType[] $RequiredSellerAction
  */
-class RequiredSellerActionArrayType extends \DTS\eBaySDK\Types\BaseType
+class RequiredSellerActionArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

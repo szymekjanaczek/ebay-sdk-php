@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\UserPartyEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $action
- * @property \DTS\eBaySDK\PostOrder\Enums\UserPartyEnum $actor
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $date
+ * @property UserPartyEnum $actor
+ * @property DateTime $date
  * @property string $description
- * @property \DTS\eBaySDK\PostOrder\Types\MoneyMovementEntries $moneyMovement
+ * @property MoneyMovementEntries $moneyMovement
  */
-class ClaimHistoryEventModel extends \DTS\eBaySDK\Types\BaseType
+class ClaimHistoryEventModel extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,31 +10,40 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DisputeRecordTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\DisputeStateCodeType;
+use DTS\eBaySDK\Trading\Enums\DisputeStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\TradingRoleCodeType;
+use DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType;
+use DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType;
+use DTS\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DisputeID
- * @property \DTS\eBaySDK\Trading\Enums\DisputeRecordTypeCodeType $DisputeRecordType
- * @property \DTS\eBaySDK\Trading\Enums\DisputeStateCodeType $DisputeState
- * @property \DTS\eBaySDK\Trading\Enums\DisputeStatusCodeType $DisputeStatus
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $OtherPartyRole
+ * @property DisputeRecordTypeCodeType $DisputeRecordType
+ * @property DisputeStateCodeType $DisputeState
+ * @property DisputeStatusCodeType $DisputeStatus
+ * @property TradingRoleCodeType $OtherPartyRole
  * @property string $OtherPartyName
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $UserRole
+ * @property TradingRoleCodeType $UserRole
  * @property string $BuyerUserID
  * @property string $SellerUserID
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
- * @property \DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
- * @property \DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
- * @property \DTS\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType $DisputeCreditEligibility
- * @property \DateTime $DisputeCreatedTime
- * @property \DateTime $DisputeModifiedTime
- * @property \DTS\eBaySDK\Trading\Types\DisputeResolutionType[] $DisputeResolution
- * @property \DTS\eBaySDK\Trading\Types\DisputeMessageType[] $DisputeMessage
+ * @property ItemType $Item
+ * @property DisputeReasonCodeType $DisputeReason
+ * @property DisputeExplanationCodeType $DisputeExplanation
+ * @property DisputeCreditEligibilityCodeType $DisputeCreditEligibility
+ * @property DateTime $DisputeCreatedTime
+ * @property DateTime $DisputeModifiedTime
+ * @property DisputeResolutionType[] $DisputeResolution
+ * @property DisputeMessageType[] $DisputeMessage
  * @property boolean $Escalation
  * @property boolean $PurchaseProtection
  * @property string $OrderLineItemID
  */
-class DisputeType extends \DTS\eBaySDK\Types\BaseType
+class DisputeType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

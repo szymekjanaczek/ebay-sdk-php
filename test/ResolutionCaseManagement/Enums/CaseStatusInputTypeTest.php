@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseStatusInputType;
 
-class CaseStatusInputTypeTest extends \PHPUnit\Framework\TestCase
+class CaseStatusInputTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\LabelType;
 
-class LabelTypeTest extends \PHPUnit\Framework\TestCase
+class LabelTypeTest extends TestCase
 {
     private $obj;
 

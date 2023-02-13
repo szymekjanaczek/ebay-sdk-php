@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\ExternalProductIDType;
 
-class ExternalProductIDTypeTest extends \PHPUnit\Framework\TestCase
+class ExternalProductIDTypeTest extends TestCase
 {
     private $obj;
 

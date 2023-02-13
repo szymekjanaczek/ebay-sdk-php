@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $CategoryID
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $Order
  * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryType[] $ChildCategory
  */
-class StoreCustomCategoryType extends \DTS\eBaySDK\Types\BaseType
+class StoreCustomCategoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

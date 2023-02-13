@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class ExternalProductIDType extends \DTS\eBaySDK\Types\BaseType
+class ExternalProductIDType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

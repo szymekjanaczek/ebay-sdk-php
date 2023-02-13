@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
  * @property string $CategoryID
  * @property integer $BidCount
  * @property string $SellerID
- * @property \DateTime $LastBidTime
+ * @property DateTime $LastBidTime
  */
-class ItemBidDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ItemBidDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\AckCodeType;
 
-class AckCodeTypeTest extends \PHPUnit\Framework\TestCase
+class AckCodeTypeTest extends TestCase
 {
     private $obj;
 

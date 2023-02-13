@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $localizedName
  * @property string[] $localizedValues
  */
-class Aspect extends \DTS\eBaySDK\Types\BaseType
+class Aspect extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

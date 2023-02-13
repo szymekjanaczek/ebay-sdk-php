@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ConditionType;
 
-class ConditionTypeTest extends \PHPUnit\Framework\TestCase
+class ConditionTypeTest extends TestCase
 {
     private $obj;
 

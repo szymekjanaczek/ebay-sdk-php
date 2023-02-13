@@ -12,14 +12,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreThemeArrayType $BasicThemeArray
- * @property \DTS\eBaySDK\Trading\Types\StoreThemeArrayType $AdvancedThemeArray
- * @property \DTS\eBaySDK\Trading\Types\StoreLogoArrayType $LogoArray
- * @property \DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType $SubscriptionArray
+ * @property StoreThemeArrayType $BasicThemeArray
+ * @property StoreThemeArrayType $AdvancedThemeArray
+ * @property StoreLogoArrayType $LogoArray
+ * @property StoreSubscriptionArrayType $SubscriptionArray
  * @property integer $MaxCategories
  * @property integer $MaxCategoryLevels
  */
-class GetStoreOptionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetStoreOptionsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

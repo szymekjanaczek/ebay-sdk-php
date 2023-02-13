@@ -10,7 +10,26 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Services;
 
-class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\ReturnManagementBaseService
+use DTS\eBaySDK\ReturnManagement\Types\GetVersionRequest;
+use DTS\eBaySDK\ReturnManagement\Types\GetVersionResponse;
+use GuzzleHttp\Promise\PromiseInterface;
+use DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsRequest;
+use DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsResponse;
+use DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailRequest;
+use DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailResponse;
+use DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest;
+use DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsResponse;
+use DTS\eBaySDK\ReturnManagement\Types\IssueRefundRequest;
+use DTS\eBaySDK\ReturnManagement\Types\IssueRefundResponse;
+use DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest;
+use DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoResponse;
+use DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataRequest;
+use DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataResponse;
+use DTS\eBaySDK\ReturnManagement\Types\ProvideTrackingInfoRequest;
+use DTS\eBaySDK\ReturnManagement\Types\ProvideTrackingInfoResponse;
+use DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedRequest;
+use DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedResponse;
+class ReturnManagementService extends ReturnManagementBaseService
 {
     const API_VERSION = '1.1.0';
 
@@ -23,19 +42,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetVersionRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\GetVersionResponse
+     * @param GetVersionRequest $request
+     * @return GetVersionResponse
      */
-    public function getVersion(\DTS\eBaySDK\ReturnManagement\Types\GetVersionRequest $request)
+    public function getVersion(GetVersionRequest $request)
     {
         return $this->getVersionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetVersionRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetVersionRequest $request
+     * @return PromiseInterface
      */
-    public function getVersionAsync(\DTS\eBaySDK\ReturnManagement\Types\GetVersionRequest $request)
+    public function getVersionAsync(GetVersionRequest $request)
     {
         return $this->callOperationAsync(
             'getVersion',
@@ -45,19 +64,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsResponse
+     * @param GetUserReturnsRequest $request
+     * @return GetUserReturnsResponse
      */
-    public function getUserReturns(\DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsRequest $request)
+    public function getUserReturns(GetUserReturnsRequest $request)
     {
         return $this->getUserReturnsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetUserReturnsRequest $request
+     * @return PromiseInterface
      */
-    public function getUserReturnsAsync(\DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsRequest $request)
+    public function getUserReturnsAsync(GetUserReturnsRequest $request)
     {
         return $this->callOperationAsync(
             'getUserReturns',
@@ -67,19 +86,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailResponse
+     * @param GetReturnDetailRequest $request
+     * @return GetReturnDetailResponse
      */
-    public function getReturnDetail(\DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailRequest $request)
+    public function getReturnDetail(GetReturnDetailRequest $request)
     {
         return $this->getReturnDetailAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnDetailRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnDetailAsync(\DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailRequest $request)
+    public function getReturnDetailAsync(GetReturnDetailRequest $request)
     {
         return $this->callOperationAsync(
             'getReturnDetail',
@@ -89,19 +108,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsResponse
+     * @param GetActivityOptionsRequest $request
+     * @return GetActivityOptionsResponse
      */
-    public function getActivityOptions(\DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest $request)
+    public function getActivityOptions(GetActivityOptionsRequest $request)
     {
         return $this->getActivityOptionsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetActivityOptionsRequest $request
+     * @return PromiseInterface
      */
-    public function getActivityOptionsAsync(\DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest $request)
+    public function getActivityOptionsAsync(GetActivityOptionsRequest $request)
     {
         return $this->callOperationAsync(
             'getActivityOptions',
@@ -111,19 +130,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\IssueRefundRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\IssueRefundResponse
+     * @param IssueRefundRequest $request
+     * @return IssueRefundResponse
      */
-    public function issueRefund(\DTS\eBaySDK\ReturnManagement\Types\IssueRefundRequest $request)
+    public function issueRefund(IssueRefundRequest $request)
     {
         return $this->issueRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\IssueRefundRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param IssueRefundRequest $request
+     * @return PromiseInterface
      */
-    public function issueRefundAsync(\DTS\eBaySDK\ReturnManagement\Types\IssueRefundRequest $request)
+    public function issueRefundAsync(IssueRefundRequest $request)
     {
         return $this->callOperationAsync(
             'issueRefund',
@@ -133,19 +152,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoResponse
+     * @param ProvideSellerInfoRequest $request
+     * @return ProvideSellerInfoResponse
      */
-    public function provideSellerInfo(\DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest $request)
+    public function provideSellerInfo(ProvideSellerInfoRequest $request)
     {
         return $this->provideSellerInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideSellerInfoRequest $request
+     * @return PromiseInterface
      */
-    public function provideSellerInfoAsync(\DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest $request)
+    public function provideSellerInfoAsync(ProvideSellerInfoRequest $request)
     {
         return $this->callOperationAsync(
             'provideSellerInfo',
@@ -155,19 +174,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataResponse
+     * @param GetReturnMetadataRequest $request
+     * @return GetReturnMetadataResponse
      */
-    public function getReturnMetadata(\DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataRequest $request)
+    public function getReturnMetadata(GetReturnMetadataRequest $request)
     {
         return $this->getReturnMetadataAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnMetadataRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnMetadataAsync(\DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataRequest $request)
+    public function getReturnMetadataAsync(GetReturnMetadataRequest $request)
     {
         return $this->callOperationAsync(
             'getReturnMetadata',
@@ -177,19 +196,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\ProvideTrackingInfoRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\ProvideTrackingInfoResponse
+     * @param ProvideTrackingInfoRequest $request
+     * @return ProvideTrackingInfoResponse
      */
-    public function provideTrackingInfo(\DTS\eBaySDK\ReturnManagement\Types\ProvideTrackingInfoRequest $request)
+    public function provideTrackingInfo(ProvideTrackingInfoRequest $request)
     {
         return $this->provideTrackingInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\ProvideTrackingInfoRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideTrackingInfoRequest $request
+     * @return PromiseInterface
      */
-    public function provideTrackingInfoAsync(\DTS\eBaySDK\ReturnManagement\Types\ProvideTrackingInfoRequest $request)
+    public function provideTrackingInfoAsync(ProvideTrackingInfoRequest $request)
     {
         return $this->callOperationAsync(
             'provideTrackingInfo',
@@ -199,19 +218,19 @@ class ReturnManagementService extends \DTS\eBaySDK\ReturnManagement\Services\Ret
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedRequest $request
-     * @return \DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedResponse
+     * @param SetItemAsReceivedRequest $request
+     * @return SetItemAsReceivedResponse
      */
-    public function setItemAsReceived(\DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedRequest $request)
+    public function setItemAsReceived(SetItemAsReceivedRequest $request)
     {
         return $this->setItemAsReceivedAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SetItemAsReceivedRequest $request
+     * @return PromiseInterface
      */
-    public function setItemAsReceivedAsync(\DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedRequest $request)
+    public function setItemAsReceivedAsync(SetItemAsReceivedRequest $request)
     {
         return $this->callOperationAsync(
             'setItemAsReceived',

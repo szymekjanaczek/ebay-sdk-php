@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Product\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Product\Types\PaginationInput;
 
-class PaginationInputTest extends \PHPUnit\Framework\TestCase
+class PaginationInputTest extends TestCase
 {
     private $obj;
 

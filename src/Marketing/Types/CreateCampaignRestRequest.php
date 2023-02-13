@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Marketing\Types;
 /**
  *
  */
-class CreateCampaignRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateCampaignRequest
+class CreateCampaignRestRequest extends CreateCampaignRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

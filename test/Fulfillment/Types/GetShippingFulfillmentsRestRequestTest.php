@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest;
 
-class GetShippingFulfillmentsRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetShippingFulfillmentsRestRequestTest extends TestCase
 {
     private $obj;
 

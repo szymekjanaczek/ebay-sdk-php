@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\PriceQuantityResponse[] $responses
+ * @property PriceQuantityResponse[] $responses
  */
-class BulkPriceQuantityResponse extends \DTS\eBaySDK\Types\BaseType
+class BulkPriceQuantityResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

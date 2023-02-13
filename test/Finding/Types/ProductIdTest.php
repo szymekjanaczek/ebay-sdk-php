@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\ProductId;
 
-class ProductIdTest extends \PHPUnit\Framework\TestCase
+class ProductIdTest extends TestCase
 {
     private $obj;
 

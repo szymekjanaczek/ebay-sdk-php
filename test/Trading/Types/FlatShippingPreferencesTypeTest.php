@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\FlatShippingPreferencesType;
 
-class FlatShippingPreferencesTypeTest extends \PHPUnit\Framework\TestCase
+class FlatShippingPreferencesTypeTest extends TestCase
 {
     private $obj;
 

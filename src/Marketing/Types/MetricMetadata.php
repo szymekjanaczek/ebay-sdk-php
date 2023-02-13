@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\DataTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Enums\DataTypeEnum $dataType
+ * @property DataTypeEnum $dataType
  * @property string $metricKey
  */
-class MetricMetadata extends \DTS\eBaySDK\Types\BaseType
+class MetricMetadata extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

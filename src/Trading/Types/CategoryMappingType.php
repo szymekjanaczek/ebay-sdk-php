@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $oldID
  * @property string $id
  */
-class CategoryMappingType extends \DTS\eBaySDK\Types\BaseType
+class CategoryMappingType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

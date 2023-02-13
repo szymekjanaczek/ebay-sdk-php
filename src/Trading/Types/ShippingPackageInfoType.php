@@ -10,20 +10,22 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $StoreID
  * @property string $ShippingTrackingEvent
- * @property \DateTime $ScheduledDeliveryTimeMin
- * @property \DateTime $ScheduledDeliveryTimeMax
- * @property \DateTime $ActualDeliveryTime
- * @property \DateTime $EstimatedDeliveryTimeMin
- * @property \DateTime $EstimatedDeliveryTimeMax
- * @property \DateTime $HandleByTime
- * @property \DateTime $MinNativeEstimatedDeliveryTime
- * @property \DateTime $MaxNativeEstimatedDeliveryTime
+ * @property DateTime $ScheduledDeliveryTimeMin
+ * @property DateTime $ScheduledDeliveryTimeMax
+ * @property DateTime $ActualDeliveryTime
+ * @property DateTime $EstimatedDeliveryTimeMin
+ * @property DateTime $EstimatedDeliveryTimeMax
+ * @property DateTime $HandleByTime
+ * @property DateTime $MinNativeEstimatedDeliveryTime
+ * @property DateTime $MaxNativeEstimatedDeliveryTime
  */
-class ShippingPackageInfoType extends \DTS\eBaySDK\Types\BaseType
+class ShippingPackageInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

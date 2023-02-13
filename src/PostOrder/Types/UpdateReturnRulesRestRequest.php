@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
 /**
  *
  */
-class UpdateReturnRulesRestRequest extends \DTS\eBaySDK\PostOrder\Types\ModifyDispositionRuleRequest
+class UpdateReturnRulesRestRequest extends ModifyDispositionRuleRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

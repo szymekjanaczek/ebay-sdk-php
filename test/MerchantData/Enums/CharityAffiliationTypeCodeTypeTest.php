@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\CharityAffiliationTypeCodeType;
 
-class CharityAffiliationTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class CharityAffiliationTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

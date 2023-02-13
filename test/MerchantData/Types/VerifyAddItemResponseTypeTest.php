@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\VerifyAddItemResponseType;
 
-class VerifyAddItemResponseTypeTest extends \PHPUnit\Framework\TestCase
+class VerifyAddItemResponseTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByInventoryReferenceRestResponse;
 
-class BulkUpdateAdBidsByInventoryReferenceRestResponseTest extends \PHPUnit\Framework\TestCase
+class BulkUpdateAdBidsByInventoryReferenceRestResponseTest extends TestCase
 {
     private $obj;
 

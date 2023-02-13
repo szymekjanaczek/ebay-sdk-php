@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
- * @property \DTS\eBaySDK\ReturnManagement\Types\RefundDetailType $refundDetail
+ * @property ReturnIdType $ReturnId
+ * @property RefundDetailType $refundDetail
  * @property string $comments
  */
-class IssueRefundRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class IssueRefundRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

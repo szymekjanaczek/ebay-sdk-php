@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\AvailabilityTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Enums\AvailabilityTypeEnum $availabilityType
- * @property \DTS\eBaySDK\Inventory\Types\TimeDuration $fulfillmentTime
+ * @property AvailabilityTypeEnum $availabilityType
+ * @property TimeDuration $fulfillmentTime
  * @property string $merchantLocationKey
  * @property integer $quantity
  */
-class PickupAtLocationAvailability extends \DTS\eBaySDK\Types\BaseType
+class PickupAtLocationAvailability extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $UserID
  */
-class ConfirmIdentityResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ConfirmIdentityResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

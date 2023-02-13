@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Enums\SoldOnEnum;
 
-class SoldOnEnumTest extends \PHPUnit\Framework\TestCase
+class SoldOnEnumTest extends TestCase
 {
     private $obj;
 

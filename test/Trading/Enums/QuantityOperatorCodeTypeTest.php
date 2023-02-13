@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType;
 
-class QuantityOperatorCodeTypeTest extends \PHPUnit\Framework\TestCase
+class QuantityOperatorCodeTypeTest extends TestCase
 {
     private $obj;
 

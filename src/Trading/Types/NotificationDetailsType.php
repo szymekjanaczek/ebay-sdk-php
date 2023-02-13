@@ -10,20 +10,24 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\NotificationEventStateCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DeliveryURL
  * @property string $ReferenceID
- * @property \DateTime $ExpirationTime
- * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $Type
+ * @property DateTime $ExpirationTime
+ * @property NotificationEventTypeCodeType $Type
  * @property integer $Retries
- * @property \DTS\eBaySDK\Trading\Enums\NotificationEventStateCodeType $DeliveryStatus
- * @property \DateTime $NextRetryTime
- * @property \DateTime $DeliveryTime
+ * @property NotificationEventStateCodeType $DeliveryStatus
+ * @property DateTime $NextRetryTime
+ * @property DateTime $DeliveryTime
  * @property string $ErrorMessage
  * @property string $DeliveryURLName
  */
-class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
+class NotificationDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Merchandising\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest;
 
-class GetSimilarItemsRequestTest extends \PHPUnit\Framework\TestCase
+class GetSimilarItemsRequestTest extends TestCase
 {
     private $obj;
 

@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Finding\Enums\GallerySizeEnum;
+use DTS\eBaySDK\Types\URIType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Enums\GallerySizeEnum $gallerySize
+ * @property GallerySizeEnum $gallerySize
  */
-class GalleryURL extends \DTS\eBaySDK\Types\URIType
+class GalleryURL extends URIType
 {
     /**
      * @var array Properties belonging to objects of this class.

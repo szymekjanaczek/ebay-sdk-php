@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\AdReference[] $ads
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
+ * @property AdReference[] $ads
+ * @property ErrorDetailV3[] $errors
  * @property string $inventoryReferenceId
- * @property \DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
+ * @property InventoryReferenceTypeEnum $inventoryReferenceType
  * @property integer $statusCode
  */
-class CreateAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
+class CreateAdsByInventoryReferenceResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

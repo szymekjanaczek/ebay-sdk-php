@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class OnHoldReasonDetailType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType
+class OnHoldReasonDetailType extends EnumerationDetailType
 {
     /**
      * @var array Properties belonging to objects of this class.

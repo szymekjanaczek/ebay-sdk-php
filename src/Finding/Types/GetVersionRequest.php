@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Finding\Types;
 /**
  *
  */
-class GetVersionRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
+class GetVersionRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

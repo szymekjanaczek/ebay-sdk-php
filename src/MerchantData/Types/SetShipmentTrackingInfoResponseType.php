@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\MerchantData\Types;
  *
  * @property string $OrderLineItemID
  */
-class SetShipmentTrackingInfoResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class SetShipmentTrackingInfoResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

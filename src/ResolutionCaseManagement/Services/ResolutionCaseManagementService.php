@@ -10,7 +10,40 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Services;
 
-class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementBaseService
+use DTS\eBaySDK\ResolutionCaseManagement\Types\GetVersionRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\GetVersionResponse;
+use GuzzleHttp\Promise\PromiseInterface;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\GetUserCasesRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\GetUserCasesResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideReturnInfoRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideReturnInfoResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\OfferRefundUponReturnRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\OfferRefundUponReturnResponse;
+class ResolutionCaseManagementService extends ResolutionCaseManagementBaseService
 {
     const API_VERSION = '1.3.0';
 
@@ -23,19 +56,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\GetVersionRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\GetVersionResponse
+     * @param GetVersionRequest $request
+     * @return GetVersionResponse
      */
-    public function getVersion(\DTS\eBaySDK\ResolutionCaseManagement\Types\GetVersionRequest $request)
+    public function getVersion(GetVersionRequest $request)
     {
         return $this->getVersionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\GetVersionRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetVersionRequest $request
+     * @return PromiseInterface
      */
-    public function getVersionAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\GetVersionRequest $request)
+    public function getVersionAsync(GetVersionRequest $request)
     {
         return $this->callOperationAsync(
             'getVersion',
@@ -45,19 +78,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\GetUserCasesRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\GetUserCasesResponse
+     * @param GetUserCasesRequest $request
+     * @return GetUserCasesResponse
      */
-    public function getUserCases(\DTS\eBaySDK\ResolutionCaseManagement\Types\GetUserCasesRequest $request)
+    public function getUserCases(GetUserCasesRequest $request)
     {
         return $this->getUserCasesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\GetUserCasesRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetUserCasesRequest $request
+     * @return PromiseInterface
      */
-    public function getUserCasesAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\GetUserCasesRequest $request)
+    public function getUserCasesAsync(GetUserCasesRequest $request)
     {
         return $this->callOperationAsync(
             'getUserCases',
@@ -67,19 +100,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailResponse
+     * @param GetEBPCaseDetailRequest $request
+     * @return GetEBPCaseDetailResponse
      */
-    public function getEBPCaseDetail(\DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailRequest $request)
+    public function getEBPCaseDetail(GetEBPCaseDetailRequest $request)
     {
         return $this->getEBPCaseDetailAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetEBPCaseDetailRequest $request
+     * @return PromiseInterface
      */
-    public function getEBPCaseDetailAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailRequest $request)
+    public function getEBPCaseDetailAsync(GetEBPCaseDetailRequest $request)
     {
         return $this->callOperationAsync(
             'getEBPCaseDetail',
@@ -89,19 +122,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsResponse
+     * @param GetActivityOptionsRequest $request
+     * @return GetActivityOptionsResponse
      */
-    public function getActivityOptions(\DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsRequest $request)
+    public function getActivityOptions(GetActivityOptionsRequest $request)
     {
         return $this->getActivityOptionsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetActivityOptionsRequest $request
+     * @return PromiseInterface
      */
-    public function getActivityOptionsAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsRequest $request)
+    public function getActivityOptionsAsync(GetActivityOptionsRequest $request)
     {
         return $this->callOperationAsync(
             'getActivityOptions',
@@ -111,19 +144,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundResponse
+     * @param IssueFullRefundRequest $request
+     * @return IssueFullRefundResponse
      */
-    public function issueFullRefund(\DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundRequest $request)
+    public function issueFullRefund(IssueFullRefundRequest $request)
     {
         return $this->issueFullRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param IssueFullRefundRequest $request
+     * @return PromiseInterface
      */
-    public function issueFullRefundAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundRequest $request)
+    public function issueFullRefundAsync(IssueFullRefundRequest $request)
     {
         return $this->callOperationAsync(
             'issueFullRefund',
@@ -133,19 +166,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoResponse
+     * @param ProvideTrackingInfoRequest $request
+     * @return ProvideTrackingInfoResponse
      */
-    public function provideTrackingInfo(\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoRequest $request)
+    public function provideTrackingInfo(ProvideTrackingInfoRequest $request)
     {
         return $this->provideTrackingInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideTrackingInfoRequest $request
+     * @return PromiseInterface
      */
-    public function provideTrackingInfoAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoRequest $request)
+    public function provideTrackingInfoAsync(ProvideTrackingInfoRequest $request)
     {
         return $this->callOperationAsync(
             'provideTrackingInfo',
@@ -155,19 +188,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionResponse
+     * @param OfferOtherSolutionRequest $request
+     * @return OfferOtherSolutionResponse
      */
-    public function offerOtherSolution(\DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionRequest $request)
+    public function offerOtherSolution(OfferOtherSolutionRequest $request)
     {
         return $this->offerOtherSolutionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param OfferOtherSolutionRequest $request
+     * @return PromiseInterface
      */
-    public function offerOtherSolutionAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionRequest $request)
+    public function offerOtherSolutionAsync(OfferOtherSolutionRequest $request)
     {
         return $this->callOperationAsync(
             'offerOtherSolution',
@@ -177,19 +210,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportResponse
+     * @param EscalateToCustomerSupportRequest $request
+     * @return EscalateToCustomerSupportResponse
      */
-    public function escalateToCustomerSupport(\DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportRequest $request)
+    public function escalateToCustomerSupport(EscalateToCustomerSupportRequest $request)
     {
         return $this->escalateToCustomerSupportAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param EscalateToCustomerSupportRequest $request
+     * @return PromiseInterface
      */
-    public function escalateToCustomerSupportAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportRequest $request)
+    public function escalateToCustomerSupportAsync(EscalateToCustomerSupportRequest $request)
     {
         return $this->callOperationAsync(
             'escalateToCustomerSupport',
@@ -199,19 +232,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportResponse
+     * @param AppealToCustomerSupportRequest $request
+     * @return AppealToCustomerSupportResponse
      */
-    public function appealToCustomerSupport(\DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest $request)
+    public function appealToCustomerSupport(AppealToCustomerSupportRequest $request)
     {
         return $this->appealToCustomerSupportAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param AppealToCustomerSupportRequest $request
+     * @return PromiseInterface
      */
-    public function appealToCustomerSupportAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest $request)
+    public function appealToCustomerSupportAsync(AppealToCustomerSupportRequest $request)
     {
         return $this->callOperationAsync(
             'appealToCustomerSupport',
@@ -221,19 +254,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundResponse
+     * @param OfferPartialRefundRequest $request
+     * @return OfferPartialRefundResponse
      */
-    public function offerPartialRefund(\DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundRequest $request)
+    public function offerPartialRefund(OfferPartialRefundRequest $request)
     {
         return $this->offerPartialRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param OfferPartialRefundRequest $request
+     * @return PromiseInterface
      */
-    public function offerPartialRefundAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundRequest $request)
+    public function offerPartialRefundAsync(OfferPartialRefundRequest $request)
     {
         return $this->callOperationAsync(
             'offerPartialRefund',
@@ -243,19 +276,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundResponse
+     * @param IssuePartialRefundRequest $request
+     * @return IssuePartialRefundResponse
      */
-    public function issuePartialRefund(\DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundRequest $request)
+    public function issuePartialRefund(IssuePartialRefundRequest $request)
     {
         return $this->issuePartialRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param IssuePartialRefundRequest $request
+     * @return PromiseInterface
      */
-    public function issuePartialRefundAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundRequest $request)
+    public function issuePartialRefundAsync(IssuePartialRefundRequest $request)
     {
         return $this->callOperationAsync(
             'issuePartialRefund',
@@ -265,19 +298,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoResponse
+     * @param ProvideShippingInfoRequest $request
+     * @return ProvideShippingInfoResponse
      */
-    public function provideShippingInfo(\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoRequest $request)
+    public function provideShippingInfo(ProvideShippingInfoRequest $request)
     {
         return $this->provideShippingInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideShippingInfoRequest $request
+     * @return PromiseInterface
      */
-    public function provideShippingInfoAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoRequest $request)
+    public function provideShippingInfoAsync(ProvideShippingInfoRequest $request)
     {
         return $this->callOperationAsync(
             'provideShippingInfo',
@@ -287,19 +320,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideReturnInfoRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideReturnInfoResponse
+     * @param ProvideReturnInfoRequest $request
+     * @return ProvideReturnInfoResponse
      */
-    public function provideReturnInfo(\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideReturnInfoRequest $request)
+    public function provideReturnInfo(ProvideReturnInfoRequest $request)
     {
         return $this->provideReturnInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideReturnInfoRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideReturnInfoRequest $request
+     * @return PromiseInterface
      */
-    public function provideReturnInfoAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideReturnInfoRequest $request)
+    public function provideReturnInfoAsync(ProvideReturnInfoRequest $request)
     {
         return $this->callOperationAsync(
             'provideReturnInfo',
@@ -309,19 +342,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoResponse
+     * @param ProvideRefundInfoRequest $request
+     * @return ProvideRefundInfoResponse
      */
-    public function provideRefundInfo(\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoRequest $request)
+    public function provideRefundInfo(ProvideRefundInfoRequest $request)
     {
         return $this->provideRefundInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideRefundInfoRequest $request
+     * @return PromiseInterface
      */
-    public function provideRefundInfoAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoRequest $request)
+    public function provideRefundInfoAsync(ProvideRefundInfoRequest $request)
     {
         return $this->callOperationAsync(
             'provideRefundInfo',
@@ -331,19 +364,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsResponse
+     * @param UploadDocumentsRequest $request
+     * @return UploadDocumentsResponse
      */
-    public function uploadDocuments(\DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsRequest $request)
+    public function uploadDocuments(UploadDocumentsRequest $request)
     {
         return $this->uploadDocumentsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param UploadDocumentsRequest $request
+     * @return PromiseInterface
      */
-    public function uploadDocumentsAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsRequest $request)
+    public function uploadDocumentsAsync(UploadDocumentsRequest $request)
     {
         return $this->callOperationAsync(
             'uploadDocuments',
@@ -353,19 +386,19 @@ class ResolutionCaseManagementService extends \DTS\eBaySDK\ResolutionCaseManagem
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferRefundUponReturnRequest $request
-     * @return \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferRefundUponReturnResponse
+     * @param OfferRefundUponReturnRequest $request
+     * @return OfferRefundUponReturnResponse
      */
-    public function offerRefundUponReturn(\DTS\eBaySDK\ResolutionCaseManagement\Types\OfferRefundUponReturnRequest $request)
+    public function offerRefundUponReturn(OfferRefundUponReturnRequest $request)
     {
         return $this->offerRefundUponReturnAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferRefundUponReturnRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param OfferRefundUponReturnRequest $request
+     * @return PromiseInterface
      */
-    public function offerRefundUponReturnAsync(\DTS\eBaySDK\ResolutionCaseManagement\Types\OfferRefundUponReturnRequest $request)
+    public function offerRefundUponReturnAsync(OfferRefundUponReturnRequest $request)
     {
         return $this->callOperationAsync(
             'offerRefundUponReturn',

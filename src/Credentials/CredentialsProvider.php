@@ -1,6 +1,7 @@
 <?php
 namespace DTS\eBaySDK\Credentials;
 
+use InvalidArgumentException;
 /**
  * Credentials providers are functions that accept no arguments and return an
  * instance that implements DTS\eBaySDK\Credentials\CredentialsInterface. If they
@@ -63,13 +64,13 @@ class CredentialsProvider
      * credentials
      *
      * @return callable
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public static function chain()
     {
         $providers = func_get_args();
         if (empty($providers)) {
-            throw new \InvalidArgumentException('No providers in chain');
+            throw new InvalidArgumentException('No providers in chain');
         }
 
         return function () use ($providers) {
@@ -101,7 +102,7 @@ class CredentialsProvider
             if ($appId && $certId && $devId) {
                 return new Credentials($appId, $certId, $devId);
             } else {
-                return new \InvalidArgumentException(
+                return new InvalidArgumentException(
                     'Could not find environment variable '
                     . 'credentials in '. self::ENV_APP_ID . '/'
                     . self::ENV_CERT_ID . '/'
@@ -120,7 +121,7 @@ class CredentialsProvider
      * looking in the home directory for the current user.
      *
      * @return callable
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public static function ini($profile = null, $filename = null)
     {
@@ -129,19 +130,19 @@ class CredentialsProvider
 
         return function () use ($filename, $profile) {
             if (!is_readable($filename)) {
-                return new \InvalidArgumentException("Cannot read credentials from $filename");
+                return new InvalidArgumentException("Cannot read credentials from $filename");
             }
             $data = parse_ini_file($filename, true);
             if ($data === false) {
-                return new \InvalidArgumentException("Invalid credentials file $filename");
+                return new InvalidArgumentException("Invalid credentials file $filename");
             }
             if (!isset($data[$profile])) {
-                return new \InvalidArgumentException("'$profile' not found in credentials file");
+                return new InvalidArgumentException("'$profile' not found in credentials file");
             }
             if (!isset($data[$profile]['ebay_app_id'])
                 || !isset($data[$profile]['ebay_cert_id'])
                 || !isset($data[$profile]['ebay_dev_id'])) {
-                return new \InvalidArgumentException("No credentials present in INI profile '$profile' ($filename)");
+                return new InvalidArgumentException("No credentials present in INI profile '$profile' ($filename)");
             }
 
             return new Credentials(

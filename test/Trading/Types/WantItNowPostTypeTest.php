@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\WantItNowPostType;
 
-class WantItNowPostTypeTest extends \PHPUnit\Framework\TestCase
+class WantItNowPostTypeTest extends TestCase
 {
     private $obj;
 

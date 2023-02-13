@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Enums\LanguageEnum;
 
-class LanguageEnumTest extends \PHPUnit\Framework\TestCase
+class LanguageEnumTest extends TestCase
 {
     private $obj;
 

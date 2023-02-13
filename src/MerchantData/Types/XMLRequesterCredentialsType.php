@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Username
  * @property string $Password
  * @property string $eBayAuthToken
  */
-class XMLRequesterCredentialsType extends \DTS\eBaySDK\Types\BaseType
+class XMLRequesterCredentialsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

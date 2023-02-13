@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Product\Enums\OutputSelector;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductSubmissionFilter[] $productSubmissionFilter
- * @property \DTS\eBaySDK\Product\Enums\OutputSelector $outputSelector
- * @property \DTS\eBaySDK\Product\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\Product\Types\SortOption[] $sortOption
+ * @property ProductSubmissionFilter[] $productSubmissionFilter
+ * @property OutputSelector $outputSelector
+ * @property PaginationInput $paginationInput
+ * @property SortOption[] $sortOption
  */
-class GetProductSubmissionsRequest extends \DTS\eBaySDK\Types\BaseType
+class GetProductSubmissionsRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

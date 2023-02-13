@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $fieldgroups
  * @property string $returnId
  */
-class GetReturnRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetReturnRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

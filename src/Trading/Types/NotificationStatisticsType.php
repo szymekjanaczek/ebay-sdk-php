@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $DeliveredCount
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $ExpiredCount
  * @property integer $ErrorCount
  */
-class NotificationStatisticsType extends \DTS\eBaySDK\Types\BaseType
+class NotificationStatisticsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

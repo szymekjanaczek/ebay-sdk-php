@@ -10,36 +10,42 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\ShippingFeatureCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ShippingPackageCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ShipmentDeliveryStatusCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ShipmentStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $EstimatedDeliveryDate
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuredValue
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageLength
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
+ * @property DateTime $EstimatedDeliveryDate
+ * @property AmountType $InsuredValue
+ * @property MeasureType $PackageDepth
+ * @property MeasureType $PackageLength
+ * @property MeasureType $PackageWidth
  * @property string $PayPalShipmentID
  * @property integer $ShipmentID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PostageTotal
- * @property \DateTime $PrintedTime
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShipFromAddress
- * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
- * @property \DTS\eBaySDK\MerchantData\Enums\ShippingFeatureCodeType[] $ShippingFeature
- * @property \DTS\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property AmountType $PostageTotal
+ * @property DateTime $PrintedTime
+ * @property AddressType $ShipFromAddress
+ * @property AddressType $ShippingAddress
+ * @property ShippingFeatureCodeType[] $ShippingFeature
+ * @property ShippingPackageCodeType $ShippingPackage
  * @property string $ShippingServiceUsed
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
- * @property \DTS\eBaySDK\MerchantData\Types\ItemTransactionIDType[] $ItemTransactionID
- * @property \DateTime $DeliveryDate
- * @property \DTS\eBaySDK\MerchantData\Enums\ShipmentDeliveryStatusCodeType $DeliveryStatus
- * @property \DateTime $RefundGrantedTime
- * @property \DateTime $RefundRequestedTime
- * @property \DTS\eBaySDK\MerchantData\Enums\ShipmentStatusCodeType $Status
- * @property \DateTime $ShippedTime
+ * @property MeasureType $WeightMajor
+ * @property MeasureType $WeightMinor
+ * @property ItemTransactionIDType[] $ItemTransactionID
+ * @property DateTime $DeliveryDate
+ * @property ShipmentDeliveryStatusCodeType $DeliveryStatus
+ * @property DateTime $RefundGrantedTime
+ * @property DateTime $RefundRequestedTime
+ * @property ShipmentStatusCodeType $Status
+ * @property DateTime $ShippedTime
  * @property string $Notes
- * @property \DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
- * @property \DTS\eBaySDK\MerchantData\Types\ShipmentLineItemType $ShipmentLineItem
+ * @property ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
+ * @property ShipmentLineItemType $ShipmentLineItem
  */
-class ShipmentType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

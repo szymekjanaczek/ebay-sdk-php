@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CustomListDetailType $customListDetail
+ * @property CustomListDetailType $customListDetail
  * @property boolean $forceDelete
- * @property \DTS\eBaySDK\PostOrder\Types\CustomListModificationType $operation
+ * @property CustomListModificationType $operation
  */
-class ModifyCustomListRequest extends \DTS\eBaySDK\Types\BaseType
+class ModifyCustomListRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

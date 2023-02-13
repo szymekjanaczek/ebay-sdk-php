@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalTaxAmount
- * @property \DTS\eBaySDK\MerchantData\Types\TaxDetailsType[] $TaxDetails
+ * @property AmountType $TotalTaxAmount
+ * @property TaxDetailsType[] $TaxDetails
  */
-class TaxesType extends \DTS\eBaySDK\Types\BaseType
+class TaxesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DTS\eBaySDK\RelatedItemsManagement\Enums\BundleDetailEnum;
+use DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum;
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleDetailEnum $bundleDetailSelector
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $findAllByStatus
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter[] $bundleFilter
+ * @property BundleDetailEnum $bundleDetailSelector
+ * @property BundleStatusEnum $findAllByStatus
+ * @property BundleFilter[] $bundleFilter
  */
-class FindBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest
+class FindBundlesRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

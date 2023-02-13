@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Enums\MarketplaceIdEnum;
 
-class MarketplaceIdEnumTest extends \PHPUnit\Framework\TestCase
+class MarketplaceIdEnumTest extends TestCase
 {
     private $obj;
 

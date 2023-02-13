@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\GalleryURL[] $galleryURL
+ * @property GalleryURL[] $galleryURL
  */
-class GalleryInfoContainer extends \DTS\eBaySDK\Types\BaseType
+class GalleryInfoContainer extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

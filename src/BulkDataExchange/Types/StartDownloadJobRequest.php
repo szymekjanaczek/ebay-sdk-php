@@ -14,9 +14,9 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
  *
  * @property string $downloadJobType
  * @property string $UUID
- * @property \DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter $downloadRequestFilter
+ * @property DownloadRequestFilter $downloadRequestFilter
  */
-class StartDownloadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class StartDownloadJobRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

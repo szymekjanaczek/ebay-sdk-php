@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property double $Percent
  */
-class SellerFeeDiscountDashboardType extends \DTS\eBaySDK\Types\BaseType
+class SellerFeeDiscountDashboardType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

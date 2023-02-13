@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $MediaURL
  * @property string $MediaName
  */
-class MessageMediaType extends \DTS\eBaySDK\Types\BaseType
+class MessageMediaType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

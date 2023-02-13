@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\GeographicExposureCodeType;
 
-class GeographicExposureCodeTypeTest extends \PHPUnit\Framework\TestCase
+class GeographicExposureCodeTypeTest extends TestCase
 {
     private $obj;
 

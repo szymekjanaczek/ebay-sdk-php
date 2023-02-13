@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $aspectsImageVariesBy
- * @property \DTS\eBaySDK\Inventory\Types\Specification[] $specifications
+ * @property Specification[] $specifications
  */
-class VariesBy extends \DTS\eBaySDK\Types\BaseType
+class VariesBy extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

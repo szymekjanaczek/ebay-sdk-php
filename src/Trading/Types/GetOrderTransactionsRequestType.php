@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType $ItemTransactionIDArray
- * @property \DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
+ * @property ItemTransactionIDArrayType $ItemTransactionIDArray
+ * @property OrderIDArrayType $OrderIDArray
+ * @property TransactionPlatformCodeType $Platform
  * @property boolean $IncludeFinalValueFees
  */
-class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetOrderTransactionsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

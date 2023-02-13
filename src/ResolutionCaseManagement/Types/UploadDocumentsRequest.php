@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\ProofType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\ProofType $proofType
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentInfoType[] $document
+ * @property CaseIdType $caseId
+ * @property ProofType $proofType
+ * @property UploadDocumentInfoType[] $document
  */
-class UploadDocumentsRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class UploadDocumentsRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

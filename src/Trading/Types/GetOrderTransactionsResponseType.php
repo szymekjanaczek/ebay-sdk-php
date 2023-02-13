@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OrderArrayType $OrderArray
+ * @property OrderArrayType $OrderArray
  */
-class GetOrderTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetOrderTransactionsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

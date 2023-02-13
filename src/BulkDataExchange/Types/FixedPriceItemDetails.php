@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $includeVariations
  */
-class FixedPriceItemDetails extends \DTS\eBaySDK\Types\BaseType
+class FixedPriceItemDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

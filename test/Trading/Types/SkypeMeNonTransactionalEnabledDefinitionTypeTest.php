@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SkypeMeNonTransactionalEnabledDefinitionType;
 
-class SkypeMeNonTransactionalEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class SkypeMeNonTransactionalEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

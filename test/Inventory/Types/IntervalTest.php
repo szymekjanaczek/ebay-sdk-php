@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\Interval;
 
-class IntervalTest extends \PHPUnit\Framework\TestCase
+class IntervalTest extends TestCase
 {
     private $obj;
 

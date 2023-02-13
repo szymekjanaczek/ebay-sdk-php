@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\IsoCurrencyCode;
 
-class IsoCurrencyCodeTest extends \PHPUnit\Framework\TestCase
+class IsoCurrencyCodeTest extends TestCase
 {
     private $obj;
 

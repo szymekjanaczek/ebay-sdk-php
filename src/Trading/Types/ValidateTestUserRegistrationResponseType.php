@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class ValidateTestUserRegistrationResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ValidateTestUserRegistrationResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

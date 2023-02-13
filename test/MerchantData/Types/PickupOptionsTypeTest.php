@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\PickupOptionsType;
 
-class PickupOptionsTypeTest extends \PHPUnit\Framework\TestCase
+class PickupOptionsTypeTest extends TestCase
 {
     private $obj;
 

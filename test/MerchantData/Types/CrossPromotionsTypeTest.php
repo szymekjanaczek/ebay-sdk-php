@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\CrossPromotionsType;
 
-class CrossPromotionsTypeTest extends \PHPUnit\Framework\TestCase
+class CrossPromotionsTypeTest extends TestCase
 {
     private $obj;
 

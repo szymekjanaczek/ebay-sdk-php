@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\MerchantData\Types;
 /**
  *
  */
-class RefundLineType extends \DTS\eBaySDK\MerchantData\Types\AmountType
+class RefundLineType extends AmountType
 {
     /**
      * @var array Properties belonging to objects of this class.

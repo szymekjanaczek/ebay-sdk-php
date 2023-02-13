@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ErrorParameter;
 
-class ErrorParameterTest extends \PHPUnit\Framework\TestCase
+class ErrorParameterTest extends TestCase
 {
     private $obj;
 

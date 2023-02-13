@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\ListingStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $listingId
- * @property \DTS\eBaySDK\Inventory\Enums\ListingStatusEnum $listingStatus
+ * @property ListingStatusEnum $listingStatus
  * @property integer $soldQuantity
  */
-class ListingDetails extends \DTS\eBaySDK\Types\BaseType
+class ListingDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

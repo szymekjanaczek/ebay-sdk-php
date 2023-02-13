@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SeverityCodeType;
+use DTS\eBaySDK\Trading\Enums\ErrorClassificationCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ShortMessage
  * @property string $LongMessage
  * @property string $ErrorCode
  * @property boolean $UserDisplayHint
- * @property \DTS\eBaySDK\Trading\Enums\SeverityCodeType $SeverityCode
- * @property \DTS\eBaySDK\Trading\Types\ErrorParameterType[] $ErrorParameters
- * @property \DTS\eBaySDK\Trading\Enums\ErrorClassificationCodeType $ErrorClassification
+ * @property SeverityCodeType $SeverityCode
+ * @property ErrorParameterType[] $ErrorParameters
+ * @property ErrorClassificationCodeType $ErrorClassification
  */
-class ErrorType extends \DTS\eBaySDK\Types\BaseType
+class ErrorType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

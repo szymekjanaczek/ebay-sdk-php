@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\GetDispositionRuleDetailResponse;
 
-class GetDispositionRuleDetailResponseTest extends \PHPUnit\Framework\TestCase
+class GetDispositionRuleDetailResponseTest extends TestCase
 {
     private $obj;
 

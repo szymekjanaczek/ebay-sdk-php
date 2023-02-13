@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\LookupAttributeType;
 
-class LookupAttributeTypeTest extends \PHPUnit\Framework\TestCase
+class LookupAttributeTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $dayOfWeek
  * @property string $timeOfDay
  */
-class WeeklyRecurrence extends \DTS\eBaySDK\Types\BaseType
+class WeeklyRecurrence extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

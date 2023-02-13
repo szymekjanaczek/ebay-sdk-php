@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\CheckoutOrderDetailType;
 
-class CheckoutOrderDetailTypeTest extends \PHPUnit\Framework\TestCase
+class CheckoutOrderDetailTypeTest extends TestCase
 {
     private $obj;
 

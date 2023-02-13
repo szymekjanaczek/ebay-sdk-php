@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\ErrorHandlingCodeType;
 
-class ErrorHandlingCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ErrorHandlingCodeTypeTest extends TestCase
 {
     private $obj;
 

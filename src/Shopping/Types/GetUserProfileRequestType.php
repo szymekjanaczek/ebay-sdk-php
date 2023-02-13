@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Shopping\Types;
  * @property string $UserID
  * @property string $IncludeSelector
  */
-class GetUserProfileRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class GetUserProfileRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

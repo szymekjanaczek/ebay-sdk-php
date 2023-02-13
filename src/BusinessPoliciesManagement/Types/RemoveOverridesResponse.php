@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  */
-class RemoveOverridesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
+class RemoveOverridesResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

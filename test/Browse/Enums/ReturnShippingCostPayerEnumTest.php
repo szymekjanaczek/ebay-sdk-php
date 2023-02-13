@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Enums\ReturnShippingCostPayerEnum;
 
-class ReturnShippingCostPayerEnumTest extends \PHPUnit\Framework\TestCase
+class ReturnShippingCostPayerEnumTest extends TestCase
 {
     private $obj;
 

@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\MetaDataCodeResultType[] $metadataCodeValues
+ * @property MetaDataCodeResultType[] $metadataCodeValues
  */
-class GetReturnMetadataResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class GetReturnMetadataResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

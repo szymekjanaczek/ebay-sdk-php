@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $idref
  */
-class MoneyMovementRef extends \DTS\eBaySDK\Types\BaseType
+class MoneyMovementRef extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

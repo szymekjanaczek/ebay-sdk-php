@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetShippingDiscountProfilesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

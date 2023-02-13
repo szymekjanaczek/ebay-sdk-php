@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\ResponseHistoryAttributesType;
 
-class ResponseHistoryAttributesTypeTest extends \PHPUnit\Framework\TestCase
+class ResponseHistoryAttributesTypeTest extends TestCase
 {
     private $obj;
 

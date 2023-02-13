@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\AdFormatEnabledCodeType;
 
-class AdFormatEnabledCodeTypeTest extends \PHPUnit\Framework\TestCase
+class AdFormatEnabledCodeTypeTest extends TestCase
 {
     private $obj;
 

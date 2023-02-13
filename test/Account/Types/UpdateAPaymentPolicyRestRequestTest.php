@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest;
 
-class UpdateAPaymentPolicyRestRequestTest extends \PHPUnit\Framework\TestCase
+class UpdateAPaymentPolicyRestRequestTest extends TestCase
 {
     private $obj;
 

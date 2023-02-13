@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Enums\ReviewSortCodeType;
 
-class ReviewSortCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ReviewSortCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Feed\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Feed\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetItemFeedRestResponse extends \DTS\eBaySDK\Feed\Types\ItemFeedResponse
+class GetItemFeedRestResponse extends ItemFeedResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

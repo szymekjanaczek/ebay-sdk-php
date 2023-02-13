@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\CancelStatusCodeType;
 
-class CancelStatusCodeTypeTest extends \PHPUnit\Framework\TestCase
+class CancelStatusCodeTypeTest extends TestCase
 {
     private $obj;
 

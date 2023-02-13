@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\FeedbackRequirementsType;
 
-class FeedbackRequirementsTypeTest extends \PHPUnit\Framework\TestCase
+class FeedbackRequirementsTypeTest extends TestCase
 {
     private $obj;
 

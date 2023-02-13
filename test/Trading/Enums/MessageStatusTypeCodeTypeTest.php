@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType;
 
-class MessageStatusTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class MessageStatusTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

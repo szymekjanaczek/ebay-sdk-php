@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\CustomListType;
 
-class CustomListTypeTest extends \PHPUnit\Framework\TestCase
+class CustomListTypeTest extends TestCase
 {
     private $obj;
 

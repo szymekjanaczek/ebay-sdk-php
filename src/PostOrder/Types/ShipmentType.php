@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentTrackingType[] $allShipmentTrackings
+ * @property ShipmentTrackingType[] $allShipmentTrackings
  * @property string $payee
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentTrackingType $shipmentTracking
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType $shippingLabelCost
+ * @property ShipmentTrackingType $shipmentTracking
+ * @property ReturnShippingCostDetailType $shippingLabelCost
  */
-class ShipmentType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $SessionID
  */
-class GetSessionIDResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSessionIDResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

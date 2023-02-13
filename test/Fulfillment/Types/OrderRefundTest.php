@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\OrderRefund;
 
-class OrderRefundTest extends \PHPUnit\Framework\TestCase
+class OrderRefundTest extends TestCase
 {
     private $obj;
 

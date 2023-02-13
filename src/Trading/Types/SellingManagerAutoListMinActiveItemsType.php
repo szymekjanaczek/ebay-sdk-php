@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MinActiveItemCount
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $SpacingIntervalInMinutes
  * @property integer $ListingHoldInventoryLevel
  */
-class SellingManagerAutoListMinActiveItemsType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerAutoListMinActiveItemsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\DepositDetails;
 
-class DepositDetailsTest extends \PHPUnit\Framework\TestCase
+class DepositDetailsTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\StringMatchCodeType;
 
-class StringMatchCodeTypeTest extends \PHPUnit\Framework\TestCase
+class StringMatchCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $field
  * @property boolean $negated
- * @property \DTS\eBaySDK\Analytics\Types\RangeValue $range
+ * @property RangeValue $range
  * @property string[] $set
  * @property string $value
  */
-class FilterField extends \DTS\eBaySDK\Types\BaseType
+class FilterField extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

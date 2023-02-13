@@ -10,21 +10,25 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType;
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType $AccountHistorySelection
- * @property \DateTime $InvoiceDate
- * @property \DateTime $BeginDate
- * @property \DateTime $EndDate
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property AccountHistorySelectionCodeType $AccountHistorySelection
+ * @property DateTime $InvoiceDate
+ * @property DateTime $BeginDate
+ * @property DateTime $EndDate
+ * @property PaginationType $Pagination
  * @property boolean $ExcludeBalance
  * @property boolean $ExcludeSummary
  * @property boolean $IncludeConversionRate
- * @property \DTS\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType $AccountEntrySortType
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property AccountEntrySortTypeCodeType $AccountEntrySortType
+ * @property CurrencyCodeType $Currency
  * @property string $ItemID
  */
-class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetAccountRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

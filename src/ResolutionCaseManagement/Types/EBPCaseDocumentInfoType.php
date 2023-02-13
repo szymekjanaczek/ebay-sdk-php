@@ -10,13 +10,16 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\ProofType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\ProofType $type
- * @property \DateTime $uploadDate
+ * @property ProofType $type
+ * @property DateTime $uploadDate
  */
-class EBPCaseDocumentInfoType extends \DTS\eBaySDK\Types\BaseType
+class EBPCaseDocumentInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

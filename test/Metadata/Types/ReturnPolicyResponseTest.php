@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Types\ReturnPolicyResponse;
 
-class ReturnPolicyResponseTest extends \PHPUnit\Framework\TestCase
+class ReturnPolicyResponseTest extends TestCase
 {
     private $obj;
 

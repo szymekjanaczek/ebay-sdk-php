@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter;
 
-class BundleFilterTest extends \PHPUnit\Framework\TestCase
+class BundleFilterTest extends TestCase
 {
     private $obj;
 

@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $adId
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $errors
  * @property string $href
  * @property string $listingId
  * @property integer $statusCode
  */
-class AdResponse extends \DTS\eBaySDK\Types\BaseType
+class AdResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment[] $fulfillments
+ * @property ShippingFulfillment[] $fulfillments
  * @property integer $total
- * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class ShippingFulfillmentPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class ShippingFulfillmentPagedCollection extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

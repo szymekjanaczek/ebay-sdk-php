@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalItemPrice
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalItemShippingCost
+ * @property AmountType $OriginalItemPrice
+ * @property AmountType $OriginalItemShippingCost
  * @property string $OriginalShippingService
- * @property \DTS\eBaySDK\MerchantData\Types\SellerDiscountType[] $SellerDiscount
+ * @property SellerDiscountType[] $SellerDiscount
  */
-class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
+class SellerDiscountsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

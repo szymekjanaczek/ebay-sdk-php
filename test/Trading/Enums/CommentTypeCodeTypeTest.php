@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\CommentTypeCodeType;
 
-class CommentTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class CommentTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

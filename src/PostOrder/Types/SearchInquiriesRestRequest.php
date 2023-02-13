@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $fieldgroups
@@ -23,7 +24,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $sort
  * @property string $transaction_id
  */
-class SearchInquiriesRestRequest extends \DTS\eBaySDK\Types\BaseType
+class SearchInquiriesRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

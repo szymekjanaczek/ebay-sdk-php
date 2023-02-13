@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance;
 
-class InsuranceTest extends \PHPUnit\Framework\TestCase
+class InsuranceTest extends TestCase
 {
     private $obj;
 

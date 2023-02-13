@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\IssueRefundOptionType $issueRefund
- * @property \DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoOptionType $provideSellerInfo
+ * @property IssueRefundOptionType $issueRefund
+ * @property ProvideSellerInfoOptionType $provideSellerInfo
  */
-class ActivityOptionListType extends \DTS\eBaySDK\Types\BaseType
+class ActivityOptionListType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,26 +10,35 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType;
+use DTS\eBaySDK\Trading\Enums\CommentTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType $CheckoutStatus
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType $PaidStatus
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType $ShippedStatus
- * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
+ * @property CheckoutStatusCodeType $CheckoutStatus
+ * @property SellingManagerPaidStatusCodeType $PaidStatus
+ * @property SellingManagerShippedStatusCodeType $ShippedStatus
+ * @property PaymentStatusCodeType $eBayPaymentStatus
  * @property string $PayPalTransactionID
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
- * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType $FeedbackReceived
+ * @property BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property CommentTypeCodeType $FeedbackReceived
  * @property boolean $FeedbackSent
  * @property integer $TotalEmailsSent
- * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property PaymentHoldStatusCodeType $PaymentHoldStatus
  * @property string $SellerInvoiceNumber
- * @property \DateTime $ShippedTime
- * @property \DateTime $PaidTime
- * @property \DateTime $LastEmailSentTime
- * @property \DateTime $SellerInvoiceTime
+ * @property DateTime $ShippedTime
+ * @property DateTime $PaidTime
+ * @property DateTime $LastEmailSentTime
+ * @property DateTime $SellerInvoiceTime
  * @property boolean $IntegratedMerchantCreditCardEnabled
  */
-class SellingManagerOrderStatusType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerOrderStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

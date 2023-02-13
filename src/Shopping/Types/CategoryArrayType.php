@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\CategoryType[] $Category
+ * @property CategoryType[] $Category
  */
-class CategoryArrayType extends \DTS\eBaySDK\Types\BaseType
+class CategoryArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

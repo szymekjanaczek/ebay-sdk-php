@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\EnableCodeType;
+use DTS\eBaySDK\Trading\Enums\DeviceTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ApplicationURL
- * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $ApplicationEnable
+ * @property EnableCodeType $ApplicationEnable
  * @property string $AlertEmail
- * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $AlertEnable
- * @property \DTS\eBaySDK\Trading\Enums\DeviceTypeCodeType $DeviceType
+ * @property EnableCodeType $AlertEnable
+ * @property DeviceTypeCodeType $DeviceType
  * @property string $PayloadVersion
- * @property \DTS\eBaySDK\Trading\Types\DeliveryURLDetailType[] $DeliveryURLDetails
+ * @property DeliveryURLDetailType[] $DeliveryURLDetails
  */
-class ApplicationDeliveryPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class ApplicationDeliveryPreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

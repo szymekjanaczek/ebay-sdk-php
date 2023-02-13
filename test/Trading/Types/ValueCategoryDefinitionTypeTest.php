@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ValueCategoryDefinitionType;
 
-class ValueCategoryDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class ValueCategoryDefinitionTypeTest extends TestCase
 {
     private $obj;
 

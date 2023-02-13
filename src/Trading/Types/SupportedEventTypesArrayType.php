@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType[] $EventType
+ * @property NotificationEventTypeCodeType[] $EventType
  */
-class SupportedEventTypesArrayType extends \DTS\eBaySDK\Types\BaseType
+class SupportedEventTypesArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

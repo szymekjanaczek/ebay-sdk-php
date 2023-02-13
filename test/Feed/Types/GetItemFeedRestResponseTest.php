@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Feed\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse;
 
-class GetItemFeedRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetItemFeedRestResponseTest extends TestCase
 {
     private $obj;
 

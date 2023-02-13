@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Test\Mocks\StatusCode;
 
-class StatusCodeTraitTest extends \PHPUnit\Framework\TestCase
+class StatusCodeTraitTest extends TestCase
 {
     public function testCanSetStatusCode()
     {

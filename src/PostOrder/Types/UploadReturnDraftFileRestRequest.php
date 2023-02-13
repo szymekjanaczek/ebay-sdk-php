@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $draftId
  */
-class UploadReturnDraftFileRestRequest extends \DTS\eBaySDK\PostOrder\Types\UploadFileRequest
+class UploadReturnDraftFileRestRequest extends UploadFileRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

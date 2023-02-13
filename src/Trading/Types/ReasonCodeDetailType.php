@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $BriefText
  * @property string $DetailedText
  * @property integer $codeID
  */
-class ReasonCodeDetailType extends \DTS\eBaySDK\Types\BaseType
+class ReasonCodeDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

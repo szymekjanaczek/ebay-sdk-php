@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
- * @property \DTS\eBaySDK\Inventory\Types\InventoryItem[] $inventoryItems
+ * @property InventoryItem[] $inventoryItems
  * @property integer $limit
  * @property string $next
  * @property string $prev
  * @property integer $size
  * @property integer $total
  */
-class InventoryItems extends \DTS\eBaySDK\Types\BaseType
+class InventoryItems extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

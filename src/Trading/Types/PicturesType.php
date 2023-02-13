@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $VariationSpecificName
- * @property \DTS\eBaySDK\Trading\Types\VariationSpecificPictureSetType[] $VariationSpecificPictureSet
+ * @property VariationSpecificPictureSetType[] $VariationSpecificPictureSet
  */
-class PicturesType extends \DTS\eBaySDK\Types\BaseType
+class PicturesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

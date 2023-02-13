@@ -12,12 +12,12 @@ namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Types\ProductIDType $productID
- * @property \DTS\eBaySDK\HalfFinding\Types\PaginationInputType $paginationInput
- * @property \DTS\eBaySDK\HalfFinding\Types\ItemFilter[] $itemFilter
- * @property \DTS\eBaySDK\HalfFinding\Types\SortByType $sortBy
+ * @property ProductIDType $productID
+ * @property PaginationInputType $paginationInput
+ * @property ItemFilter[] $itemFilter
+ * @property SortByType $sortBy
  */
-class FindItemsRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
+class FindItemsRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

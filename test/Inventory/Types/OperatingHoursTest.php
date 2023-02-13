@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\OperatingHours;
 
-class OperatingHoursTest extends \PHPUnit\Framework\TestCase
+class OperatingHoursTest extends TestCase
 {
     private $obj;
 

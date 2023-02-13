@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Feedback\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Feedback\Types\GetDSRSummaryResponse;
 
-class GetDSRSummaryResponseTest extends \PHPUnit\Framework\TestCase
+class GetDSRSummaryResponseTest extends TestCase
 {
     private $obj;
 

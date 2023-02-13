@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $RuName
  */
-class GetSessionIDRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSessionIDRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

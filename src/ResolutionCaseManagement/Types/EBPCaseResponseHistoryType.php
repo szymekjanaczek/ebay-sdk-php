@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $note
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $author
+ * @property CaseUserType $author
  * @property string $activity
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityDetailType $activityDetail
- * @property \DateTime $creationDate
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ResponseHistoryAttributesType $attributes
+ * @property ActivityDetailType $activityDetail
+ * @property DateTime $creationDate
+ * @property ResponseHistoryAttributesType $attributes
  */
-class EBPCaseResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
+class EBPCaseResponseHistoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

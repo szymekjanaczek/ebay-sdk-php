@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $primarySKU
  * @property integer $bundleID
  */
-class BundleFilter extends \DTS\eBaySDK\Types\BaseType
+class BundleFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

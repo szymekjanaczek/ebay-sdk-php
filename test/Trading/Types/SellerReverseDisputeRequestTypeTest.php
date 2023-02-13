@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellerReverseDisputeRequestType;
 
-class SellerReverseDisputeRequestTypeTest extends \PHPUnit\Framework\TestCase
+class SellerReverseDisputeRequestTypeTest extends TestCase
 {
     private $obj;
 

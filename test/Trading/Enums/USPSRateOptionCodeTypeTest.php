@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\USPSRateOptionCodeType;
 
-class USPSRateOptionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class USPSRateOptionCodeTypeTest extends TestCase
 {
     private $obj;
 

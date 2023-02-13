@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
  * @property string $itemTitle
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $transactionPrice
- * @property \DateTime $transactionDate
+ * @property Amount $transactionPrice
+ * @property DateTime $transactionDate
  * @property string $globalId
  * @property string $transactionId
  */
-class ItemType extends \DTS\eBaySDK\Types\BaseType
+class ItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum;
 
-class PaymentMethodTypeEnumTest extends \PHPUnit\Framework\TestCase
+class PaymentMethodTypeEnumTest extends TestCase
 {
     private $obj;
 

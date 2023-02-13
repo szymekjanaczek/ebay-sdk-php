@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $epid
  * @property string $gtin
  * @property string $ktype
  */
-class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
+class ProductIdentifier extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,7 +10,145 @@
 
 namespace DTS\eBaySDK\PostOrder\Services;
 
-class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseService
+use DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestResponse;
+use GuzzleHttp\Promise\PromiseInterface;
+use DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestResponse;
+use DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetCancellationRestResponse;
+use DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest;
+use DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestResponse;
+use DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest;
+use DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CloseCaseRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetCaseRestResponse;
+use DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest;
+use DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestResponse;
+use DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestResponse;
+use DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SearchCasesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CloseInquiryRestResponse;
+use DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CreateInquiryRestResponse;
+use DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest;
+use DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetInquiryRestResponse;
+use DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest;
+use DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestResponse;
+use DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestResponse;
+use DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestResponse;
+use DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest;
+use DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestResponse;
+use DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest;
+use DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestResponse;
+use DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest;
+use DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestResponse;
+use DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest;
+use DTS\eBaySDK\PostOrder\Types\EscalateReturnRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnPreferencesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestResponse;
+use DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest;
+use DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestResponse;
+use DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest;
+use DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestResponse;
+use DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest;
+use DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestResponse;
+use DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest;
+use DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestResponse;
+use DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest;
+use DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestResponse;
+use DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SearchReturnsRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest;
+use DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestResponse;
+use DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest;
+use DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestResponse;
+use DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest;
+use DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestResponse;
+use DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest;
+use DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestResponse;
+use DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest;
+use DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestResponse;
+use DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest;
+use DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CreateCustomListRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetCustomListRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetCustomListsRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRuleTemplatesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetStoreCategoriesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest;
+use DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestResponse;
+use DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest;
+use DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestResponse;
+use DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest;
+use DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestResponse;
+class PostOrderService extends PostOrderBaseService
 {
     const API_VERSION = 'v2';
 
@@ -884,745 +1022,745 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestResponse
+     * @param ApproveCancellationRequestRestRequest $request
+     * @return ApproveCancellationRequestRestResponse
      */
-    public function approveCancellationRequest(\DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest $request)
+    public function approveCancellationRequest(ApproveCancellationRequestRestRequest $request)
     {
         return $this->approveCancellationRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ApproveCancellationRequestRestRequest $request
+     * @return PromiseInterface
      */
-    public function approveCancellationRequestAsync(\DTS\eBaySDK\PostOrder\Types\ApproveCancellationRequestRestRequest $request)
+    public function approveCancellationRequestAsync(ApproveCancellationRequestRestRequest $request)
     {
         return $this->callOperationAsync('ApproveCancellationRequest', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestResponse
+     * @param CheckCancellationEligibilityRestRequest $request
+     * @return CheckCancellationEligibilityRestResponse
      */
-    public function checkCancellationEligibility(\DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest $request)
+    public function checkCancellationEligibility(CheckCancellationEligibilityRestRequest $request)
     {
         return $this->checkCancellationEligibilityAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CheckCancellationEligibilityRestRequest $request
+     * @return PromiseInterface
      */
-    public function checkCancellationEligibilityAsync(\DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest $request)
+    public function checkCancellationEligibilityAsync(CheckCancellationEligibilityRestRequest $request)
     {
         return $this->callOperationAsync('CheckCancellationEligibility', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestResponse
+     * @param ConfirmCancellationRefundRestRequest $request
+     * @return ConfirmCancellationRefundRestResponse
      */
-    public function confirmCancellationRefund(\DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest $request)
+    public function confirmCancellationRefund(ConfirmCancellationRefundRestRequest $request)
     {
         return $this->confirmCancellationRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ConfirmCancellationRefundRestRequest $request
+     * @return PromiseInterface
      */
-    public function confirmCancellationRefundAsync(\DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest $request)
+    public function confirmCancellationRefundAsync(ConfirmCancellationRefundRestRequest $request)
     {
         return $this->callOperationAsync('ConfirmCancellationRefund', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetCancellationRestResponse
+     * @param GetCancellationRestRequest $request
+     * @return GetCancellationRestResponse
      */
-    public function getCancellation(\DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest $request)
+    public function getCancellation(GetCancellationRestRequest $request)
     {
         return $this->getCancellationAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetCancellationRestRequest $request
+     * @return PromiseInterface
      */
-    public function getCancellationAsync(\DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest $request)
+    public function getCancellationAsync(GetCancellationRestRequest $request)
     {
         return $this->callOperationAsync('GetCancellation', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestResponse
+     * @param RejectCancellationRequestRestRequest $request
+     * @return RejectCancellationRequestRestResponse
      */
-    public function rejectCancellationRequest(\DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest $request)
+    public function rejectCancellationRequest(RejectCancellationRequestRestRequest $request)
     {
         return $this->rejectCancellationRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param RejectCancellationRequestRestRequest $request
+     * @return PromiseInterface
      */
-    public function rejectCancellationRequestAsync(\DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestRequest $request)
+    public function rejectCancellationRequestAsync(RejectCancellationRequestRestRequest $request)
     {
         return $this->callOperationAsync('RejectCancellationRequest', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestResponse
+     * @param SearchCancellationsRestRequest $request
+     * @return SearchCancellationsRestResponse
      */
-    public function searchCancellations(\DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest $request)
+    public function searchCancellations(SearchCancellationsRestRequest $request)
     {
         return $this->searchCancellationsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SearchCancellationsRestRequest $request
+     * @return PromiseInterface
      */
-    public function searchCancellationsAsync(\DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestRequest $request)
+    public function searchCancellationsAsync(SearchCancellationsRestRequest $request)
     {
         return $this->callOperationAsync('SearchCancellations', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestResponse
+     * @param SubmitCancellationRequestRestRequest $request
+     * @return SubmitCancellationRequestRestResponse
      */
-    public function submitCancellationRequest(\DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest $request)
+    public function submitCancellationRequest(SubmitCancellationRequestRestRequest $request)
     {
         return $this->submitCancellationRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SubmitCancellationRequestRestRequest $request
+     * @return PromiseInterface
      */
-    public function submitCancellationRequestAsync(\DTS\eBaySDK\PostOrder\Types\SubmitCancellationRequestRestRequest $request)
+    public function submitCancellationRequestAsync(SubmitCancellationRequestRestRequest $request)
     {
         return $this->callOperationAsync('SubmitCancellationRequest', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestResponse
+     * @param AppealCaseDecisionRestRequest $request
+     * @return AppealCaseDecisionRestResponse
      */
-    public function appealCaseDecision(\DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest $request)
+    public function appealCaseDecision(AppealCaseDecisionRestRequest $request)
     {
         return $this->appealCaseDecisionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param AppealCaseDecisionRestRequest $request
+     * @return PromiseInterface
      */
-    public function appealCaseDecisionAsync(\DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest $request)
+    public function appealCaseDecisionAsync(AppealCaseDecisionRestRequest $request)
     {
         return $this->callOperationAsync('AppealCaseDecision', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CloseCaseRestResponse
+     * @param CloseCaseRestRequest $request
+     * @return CloseCaseRestResponse
      */
-    public function closeCase(\DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest $request)
+    public function closeCase(CloseCaseRestRequest $request)
     {
         return $this->closeCaseAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CloseCaseRestRequest $request
+     * @return PromiseInterface
      */
-    public function closeCaseAsync(\DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest $request)
+    public function closeCaseAsync(CloseCaseRestRequest $request)
     {
         return $this->callOperationAsync('CloseCase', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetCaseRestResponse
+     * @param GetCaseRestRequest $request
+     * @return GetCaseRestResponse
      */
-    public function getCase(\DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest $request)
+    public function getCase(GetCaseRestRequest $request)
     {
         return $this->getCaseAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetCaseRestRequest $request
+     * @return PromiseInterface
      */
-    public function getCaseAsync(\DTS\eBaySDK\PostOrder\Types\GetCaseRestRequest $request)
+    public function getCaseAsync(GetCaseRestRequest $request)
     {
         return $this->callOperationAsync('GetCase', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestResponse
+     * @param IssueCaseRefundRestRequest $request
+     * @return IssueCaseRefundRestResponse
      */
-    public function issueCaseRefund(\DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest $request)
+    public function issueCaseRefund(IssueCaseRefundRestRequest $request)
     {
         return $this->issueCaseRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param IssueCaseRefundRestRequest $request
+     * @return PromiseInterface
      */
-    public function issueCaseRefundAsync(\DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestRequest $request)
+    public function issueCaseRefundAsync(IssueCaseRefundRestRequest $request)
     {
         return $this->callOperationAsync('IssueCaseRefund', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestResponse
+     * @param ProvideReturnShipmentInfoRestRequest $request
+     * @return ProvideReturnShipmentInfoRestResponse
      */
-    public function provideReturnShipmentInfo(\DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest $request)
+    public function provideReturnShipmentInfo(ProvideReturnShipmentInfoRestRequest $request)
     {
         return $this->provideReturnShipmentInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideReturnShipmentInfoRestRequest $request
+     * @return PromiseInterface
      */
-    public function provideReturnShipmentInfoAsync(\DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest $request)
+    public function provideReturnShipmentInfoAsync(ProvideReturnShipmentInfoRestRequest $request)
     {
         return $this->callOperationAsync('ProvideReturnShipmentInfo', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestResponse
+     * @param ProvidesReturnAddressRestRequest $request
+     * @return ProvidesReturnAddressRestResponse
      */
-    public function providesReturnAddress(\DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest $request)
+    public function providesReturnAddress(ProvidesReturnAddressRestRequest $request)
     {
         return $this->providesReturnAddressAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvidesReturnAddressRestRequest $request
+     * @return PromiseInterface
      */
-    public function providesReturnAddressAsync(\DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest $request)
+    public function providesReturnAddressAsync(ProvidesReturnAddressRestRequest $request)
     {
         return $this->callOperationAsync('ProvidesReturnAddress', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SearchCasesRestResponse
+     * @param SearchCasesRestRequest $request
+     * @return SearchCasesRestResponse
      */
-    public function searchCases(\DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest $request)
+    public function searchCases(SearchCasesRestRequest $request)
     {
         return $this->searchCasesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SearchCasesRestRequest $request
+     * @return PromiseInterface
      */
-    public function searchCasesAsync(\DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest $request)
+    public function searchCasesAsync(SearchCasesRestRequest $request)
     {
         return $this->callOperationAsync('SearchCases', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestResponse
+     * @param CheckInquiryEligibilityRestRequest $request
+     * @return CheckInquiryEligibilityRestResponse
      */
-    public function checkInquiryEligibility(\DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest $request)
+    public function checkInquiryEligibility(CheckInquiryEligibilityRestRequest $request)
     {
         return $this->checkInquiryEligibilityAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CheckInquiryEligibilityRestRequest $request
+     * @return PromiseInterface
      */
-    public function checkInquiryEligibilityAsync(\DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest $request)
+    public function checkInquiryEligibilityAsync(CheckInquiryEligibilityRestRequest $request)
     {
         return $this->callOperationAsync('CheckInquiryEligibility', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CloseInquiryRestResponse
+     * @param CloseInquiryRestRequest $request
+     * @return CloseInquiryRestResponse
      */
-    public function closeInquiry(\DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest $request)
+    public function closeInquiry(CloseInquiryRestRequest $request)
     {
         return $this->closeInquiryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CloseInquiryRestRequest $request
+     * @return PromiseInterface
      */
-    public function closeInquiryAsync(\DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest $request)
+    public function closeInquiryAsync(CloseInquiryRestRequest $request)
     {
         return $this->callOperationAsync('CloseInquiry', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestResponse
+     * @param ConfirmInquiryRefundRestRequest $request
+     * @return ConfirmInquiryRefundRestResponse
      */
-    public function confirmInquiryRefund(\DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest $request)
+    public function confirmInquiryRefund(ConfirmInquiryRefundRestRequest $request)
     {
         return $this->confirmInquiryRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ConfirmInquiryRefundRestRequest $request
+     * @return PromiseInterface
      */
-    public function confirmInquiryRefundAsync(\DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestRequest $request)
+    public function confirmInquiryRefundAsync(ConfirmInquiryRefundRestRequest $request)
     {
         return $this->callOperationAsync('ConfirmInquiryRefund', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CreateInquiryRestResponse
+     * @param CreateInquiryRestRequest $request
+     * @return CreateInquiryRestResponse
      */
-    public function createInquiry(\DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest $request)
+    public function createInquiry(CreateInquiryRestRequest $request)
     {
         return $this->createInquiryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CreateInquiryRestRequest $request
+     * @return PromiseInterface
      */
-    public function createInquiryAsync(\DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest $request)
+    public function createInquiryAsync(CreateInquiryRestRequest $request)
     {
         return $this->callOperationAsync('CreateInquiry', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestResponse
+     * @param EscalateInquiryRestRequest $request
+     * @return EscalateInquiryRestResponse
      */
-    public function escalateInquiry(\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest $request)
+    public function escalateInquiry(EscalateInquiryRestRequest $request)
     {
         return $this->escalateInquiryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param EscalateInquiryRestRequest $request
+     * @return PromiseInterface
      */
-    public function escalateInquiryAsync(\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest $request)
+    public function escalateInquiryAsync(EscalateInquiryRestRequest $request)
     {
         return $this->callOperationAsync('EscalateInquiry', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetInquiryRestResponse
+     * @param GetInquiryRestRequest $request
+     * @return GetInquiryRestResponse
      */
-    public function getInquiry(\DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest $request)
+    public function getInquiry(GetInquiryRestRequest $request)
     {
         return $this->getInquiryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetInquiryRestRequest $request
+     * @return PromiseInterface
      */
-    public function getInquiryAsync(\DTS\eBaySDK\PostOrder\Types\GetInquiryRestRequest $request)
+    public function getInquiryAsync(GetInquiryRestRequest $request)
     {
         return $this->callOperationAsync('GetInquiry', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestResponse
+     * @param IssueInquiryRefundRestRequest $request
+     * @return IssueInquiryRefundRestResponse
      */
-    public function issueInquiryRefund(\DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest $request)
+    public function issueInquiryRefund(IssueInquiryRefundRestRequest $request)
     {
         return $this->issueInquiryRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param IssueInquiryRefundRestRequest $request
+     * @return PromiseInterface
      */
-    public function issueInquiryRefundAsync(\DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest $request)
+    public function issueInquiryRefundAsync(IssueInquiryRefundRestRequest $request)
     {
         return $this->callOperationAsync('IssueInquiryRefund', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestResponse
+     * @param ProvideInquiryRefundInfoRestRequest $request
+     * @return ProvideInquiryRefundInfoRestResponse
      */
-    public function provideInquiryRefundInfo(\DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest $request)
+    public function provideInquiryRefundInfo(ProvideInquiryRefundInfoRestRequest $request)
     {
         return $this->provideInquiryRefundInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideInquiryRefundInfoRestRequest $request
+     * @return PromiseInterface
      */
-    public function provideInquiryRefundInfoAsync(\DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest $request)
+    public function provideInquiryRefundInfoAsync(ProvideInquiryRefundInfoRestRequest $request)
     {
         return $this->callOperationAsync('ProvideInquiryRefundInfo', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestResponse
+     * @param ProvideInquiryShipmentInfoRestRequest $request
+     * @return ProvideInquiryShipmentInfoRestResponse
      */
-    public function provideInquiryShipmentInfo(\DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest $request)
+    public function provideInquiryShipmentInfo(ProvideInquiryShipmentInfoRestRequest $request)
     {
         return $this->provideInquiryShipmentInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProvideInquiryShipmentInfoRestRequest $request
+     * @return PromiseInterface
      */
-    public function provideInquiryShipmentInfoAsync(\DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest $request)
+    public function provideInquiryShipmentInfoAsync(ProvideInquiryShipmentInfoRestRequest $request)
     {
         return $this->callOperationAsync('ProvideInquiryShipmentInfo', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestResponse
+     * @param SearchInquiriesRestRequest $request
+     * @return SearchInquiriesRestResponse
      */
-    public function searchInquiries(\DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest $request)
+    public function searchInquiries(SearchInquiriesRestRequest $request)
     {
         return $this->searchInquiriesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SearchInquiriesRestRequest $request
+     * @return PromiseInterface
      */
-    public function searchInquiriesAsync(\DTS\eBaySDK\PostOrder\Types\SearchInquiriesRestRequest $request)
+    public function searchInquiriesAsync(SearchInquiriesRestRequest $request)
     {
         return $this->callOperationAsync('SearchInquiries', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestResponse
+     * @param SendInquiryMessageRestRequest $request
+     * @return SendInquiryMessageRestResponse
      */
-    public function sendInquiryMessage(\DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest $request)
+    public function sendInquiryMessage(SendInquiryMessageRestRequest $request)
     {
         return $this->sendInquiryMessageAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SendInquiryMessageRestRequest $request
+     * @return PromiseInterface
      */
-    public function sendInquiryMessageAsync(\DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest $request)
+    public function sendInquiryMessageAsync(SendInquiryMessageRestRequest $request)
     {
         return $this->callOperationAsync('SendInquiryMessage', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestResponse
+     * @param AddShippingLabelInfoRestRequest $request
+     * @return AddShippingLabelInfoRestResponse
      */
-    public function addShippingLabelInfo(\DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest $request)
+    public function addShippingLabelInfo(AddShippingLabelInfoRestRequest $request)
     {
         return $this->addShippingLabelInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param AddShippingLabelInfoRestRequest $request
+     * @return PromiseInterface
      */
-    public function addShippingLabelInfoAsync(\DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest $request)
+    public function addShippingLabelInfoAsync(AddShippingLabelInfoRestRequest $request)
     {
         return $this->callOperationAsync('AddShippingLabelInfo', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestResponse
+     * @param CancelReturnRequestRestRequest $request
+     * @return CancelReturnRequestRestResponse
      */
-    public function cancelReturnRequest(\DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest $request)
+    public function cancelReturnRequest(CancelReturnRequestRestRequest $request)
     {
         return $this->cancelReturnRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CancelReturnRequestRestRequest $request
+     * @return PromiseInterface
      */
-    public function cancelReturnRequestAsync(\DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest $request)
+    public function cancelReturnRequestAsync(CancelReturnRequestRestRequest $request)
     {
         return $this->callOperationAsync('CancelReturnRequest', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse
+     * @param CheckReturnEligibilityRestRequest $request
+     * @return CheckReturnEligibilityRestResponse
      */
-    public function checkReturnEligibility(\DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest $request)
+    public function checkReturnEligibility(CheckReturnEligibilityRestRequest $request)
     {
         return $this->checkReturnEligibilityAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CheckReturnEligibilityRestRequest $request
+     * @return PromiseInterface
      */
-    public function checkReturnEligibilityAsync(\DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestRequest $request)
+    public function checkReturnEligibilityAsync(CheckReturnEligibilityRestRequest $request)
     {
         return $this->callOperationAsync('CheckReturnEligibility', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestResponse
+     * @param CheckShippingLabelEligibilityRestRequest $request
+     * @return CheckShippingLabelEligibilityRestResponse
      */
-    public function checkShippingLabelEligibility(\DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest $request)
+    public function checkShippingLabelEligibility(CheckShippingLabelEligibilityRestRequest $request)
     {
         return $this->checkShippingLabelEligibilityAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CheckShippingLabelEligibilityRestRequest $request
+     * @return PromiseInterface
      */
-    public function checkShippingLabelEligibilityAsync(\DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest $request)
+    public function checkShippingLabelEligibilityAsync(CheckShippingLabelEligibilityRestRequest $request)
     {
         return $this->callOperationAsync('CheckShippingLabelEligibility', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestResponse
+     * @param CreateReturnDraftRestRequest $request
+     * @return CreateReturnDraftRestResponse
      */
-    public function createReturnDraft(\DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest $request)
+    public function createReturnDraft(CreateReturnDraftRestRequest $request)
     {
         return $this->createReturnDraftAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CreateReturnDraftRestRequest $request
+     * @return PromiseInterface
      */
-    public function createReturnDraftAsync(\DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest $request)
+    public function createReturnDraftAsync(CreateReturnDraftRestRequest $request)
     {
         return $this->callOperationAsync('CreateReturnDraft', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestResponse
+     * @param CreateReturnRequestRestRequest $request
+     * @return CreateReturnRequestRestResponse
      */
-    public function createReturnRequest(\DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest $request)
+    public function createReturnRequest(CreateReturnRequestRestRequest $request)
     {
         return $this->createReturnRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CreateReturnRequestRestRequest $request
+     * @return PromiseInterface
      */
-    public function createReturnRequestAsync(\DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestRequest $request)
+    public function createReturnRequestAsync(CreateReturnRequestRestRequest $request)
     {
         return $this->callOperationAsync('CreateReturnRequest', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestResponse
+     * @param CreateReturnShippingLabelRestRequest $request
+     * @return CreateReturnShippingLabelRestResponse
      */
-    public function createReturnShippingLabel(\DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest $request)
+    public function createReturnShippingLabel(CreateReturnShippingLabelRestRequest $request)
     {
         return $this->createReturnShippingLabelAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CreateReturnShippingLabelRestRequest $request
+     * @return PromiseInterface
      */
-    public function createReturnShippingLabelAsync(\DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestRequest $request)
+    public function createReturnShippingLabelAsync(CreateReturnShippingLabelRestRequest $request)
     {
         return $this->callOperationAsync('CreateReturnShippingLabel', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestResponse
+     * @param DeleteReturnDraftFileRestRequest $request
+     * @return DeleteReturnDraftFileRestResponse
      */
-    public function deleteReturnDraftFile(\DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest $request)
+    public function deleteReturnDraftFile(DeleteReturnDraftFileRestRequest $request)
     {
         return $this->deleteReturnDraftFileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param DeleteReturnDraftFileRestRequest $request
+     * @return PromiseInterface
      */
-    public function deleteReturnDraftFileAsync(\DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestRequest $request)
+    public function deleteReturnDraftFileAsync(DeleteReturnDraftFileRestRequest $request)
     {
         return $this->callOperationAsync('DeleteReturnDraftFile', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestResponse
+     * @param DeleteReturnFileRestRequest $request
+     * @return DeleteReturnFileRestResponse
      */
-    public function deleteReturnFile(\DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest $request)
+    public function deleteReturnFile(DeleteReturnFileRestRequest $request)
     {
         return $this->deleteReturnFileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param DeleteReturnFileRestRequest $request
+     * @return PromiseInterface
      */
-    public function deleteReturnFileAsync(\DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest $request)
+    public function deleteReturnFileAsync(DeleteReturnFileRestRequest $request)
     {
         return $this->callOperationAsync('DeleteReturnFile', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\EscalateReturnRestResponse
+     * @param EscalateReturnRestRequest $request
+     * @return EscalateReturnRestResponse
      */
-    public function escalateReturn(\DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest $request)
+    public function escalateReturn(EscalateReturnRestRequest $request)
     {
         return $this->escalateReturnAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param EscalateReturnRestRequest $request
+     * @return PromiseInterface
      */
-    public function escalateReturnAsync(\DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest $request)
+    public function escalateReturnAsync(EscalateReturnRestRequest $request)
     {
         return $this->callOperationAsync('EscalateReturn', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRestResponse
+     * @param GetReturnRestRequest $request
+     * @return GetReturnRestResponse
      */
-    public function getReturn(\DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest $request)
+    public function getReturn(GetReturnRestRequest $request)
     {
         return $this->getReturnAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnRestRequest $request)
+    public function getReturnAsync(GetReturnRestRequest $request)
     {
         return $this->callOperationAsync('GetReturn', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestResponse
+     * @param GetReturnDraftRestRequest $request
+     * @return GetReturnDraftRestResponse
      */
-    public function getReturnDraft(\DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest $request)
+    public function getReturnDraft(GetReturnDraftRestRequest $request)
     {
         return $this->getReturnDraftAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnDraftRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnDraftAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestRequest $request)
+    public function getReturnDraftAsync(GetReturnDraftRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnDraft', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestResponse
+     * @param GetReturnDraftFilesRestRequest $request
+     * @return GetReturnDraftFilesRestResponse
      */
-    public function getReturnDraftFiles(\DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest $request)
+    public function getReturnDraftFiles(GetReturnDraftFilesRestRequest $request)
     {
         return $this->getReturnDraftFilesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnDraftFilesRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnDraftFilesAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest $request)
+    public function getReturnDraftFilesAsync(GetReturnDraftFilesRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnDraftFiles', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestResponse
+     * @param GetReturnEstimateRestRequest $request
+     * @return GetReturnEstimateRestResponse
      */
-    public function getReturnEstimate(\DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest $request)
+    public function getReturnEstimate(GetReturnEstimateRestRequest $request)
     {
         return $this->getReturnEstimateAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnEstimateRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnEstimateAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestRequest $request)
+    public function getReturnEstimateAsync(GetReturnEstimateRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnEstimate', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestResponse
+     * @param GetReturnFilesRestRequest $request
+     * @return GetReturnFilesRestResponse
      */
-    public function getReturnFiles(\DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest $request)
+    public function getReturnFiles(GetReturnFilesRestRequest $request)
     {
         return $this->getReturnFilesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnFilesRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnFilesAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnFilesRestRequest $request)
+    public function getReturnFilesAsync(GetReturnFilesRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnFiles', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse
+     * @param GetReturnMetadataRestRequest $request
+     * @return GetReturnMetadataRestResponse
      */
-    public function getReturnMetadata(\DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest $request)
+    public function getReturnMetadata(GetReturnMetadataRestRequest $request)
     {
         return $this->getReturnMetadataAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnMetadataRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnMetadataAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestRequest $request)
+    public function getReturnMetadataAsync(GetReturnMetadataRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnMetadata', $request);
     }
 
     /**
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnPreferencesRestResponse
+     * @return GetReturnPreferencesRestResponse
      */
     public function getReturnPreferences()
     {
@@ -1630,7 +1768,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @return PromiseInterface
      */
     public function getReturnPreferencesAsync()
     {
@@ -1638,367 +1776,367 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestResponse
+     * @param GetReturnShippingLabelRestRequest $request
+     * @return GetReturnShippingLabelRestResponse
      */
-    public function getReturnShippingLabel(\DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest $request)
+    public function getReturnShippingLabel(GetReturnShippingLabelRestRequest $request)
     {
         return $this->getReturnShippingLabelAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnShippingLabelRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnShippingLabelAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestRequest $request)
+    public function getReturnShippingLabelAsync(GetReturnShippingLabelRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnShippingLabel', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestResponse
+     * @param GetShipmentTrackingRestRequest $request
+     * @return GetShipmentTrackingRestResponse
      */
-    public function getShipmentTracking(\DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest $request)
+    public function getShipmentTracking(GetShipmentTrackingRestRequest $request)
     {
         return $this->getShipmentTrackingAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetShipmentTrackingRestRequest $request
+     * @return PromiseInterface
      */
-    public function getShipmentTrackingAsync(\DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestRequest $request)
+    public function getShipmentTrackingAsync(GetShipmentTrackingRestRequest $request)
     {
         return $this->callOperationAsync('GetShipmentTracking', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestResponse
+     * @param IssueReturnRefundRestRequest $request
+     * @return IssueReturnRefundRestResponse
      */
-    public function issueReturnRefund(\DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest $request)
+    public function issueReturnRefund(IssueReturnRefundRestRequest $request)
     {
         return $this->issueReturnRefundAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param IssueReturnRefundRestRequest $request
+     * @return PromiseInterface
      */
-    public function issueReturnRefundAsync(\DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest $request)
+    public function issueReturnRefundAsync(IssueReturnRefundRestRequest $request)
     {
         return $this->callOperationAsync('IssueReturnRefund', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestResponse
+     * @param MarkReturnReceivedRestRequest $request
+     * @return MarkReturnReceivedRestResponse
      */
-    public function markReturnReceived(\DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest $request)
+    public function markReturnReceived(MarkReturnReceivedRestRequest $request)
     {
         return $this->markReturnReceivedAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param MarkReturnReceivedRestRequest $request
+     * @return PromiseInterface
      */
-    public function markReturnReceivedAsync(\DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest $request)
+    public function markReturnReceivedAsync(MarkReturnReceivedRestRequest $request)
     {
         return $this->callOperationAsync('MarkReturnReceived', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestResponse
+     * @param MarkReturnRefundReceivedRestRequest $request
+     * @return MarkReturnRefundReceivedRestResponse
      */
-    public function markReturnRefundReceived(\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest $request)
+    public function markReturnRefundReceived(MarkReturnRefundReceivedRestRequest $request)
     {
         return $this->markReturnRefundReceivedAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param MarkReturnRefundReceivedRestRequest $request
+     * @return PromiseInterface
      */
-    public function markReturnRefundReceivedAsync(\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundReceivedRestRequest $request)
+    public function markReturnRefundReceivedAsync(MarkReturnRefundReceivedRestRequest $request)
     {
         return $this->callOperationAsync('MarkReturnRefundReceived', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestResponse
+     * @param MarkReturnRefundSentRestRequest $request
+     * @return MarkReturnRefundSentRestResponse
      */
-    public function markReturnRefundSent(\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest $request)
+    public function markReturnRefundSent(MarkReturnRefundSentRestRequest $request)
     {
         return $this->markReturnRefundSentAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param MarkReturnRefundSentRestRequest $request
+     * @return PromiseInterface
      */
-    public function markReturnRefundSentAsync(\DTS\eBaySDK\PostOrder\Types\MarkReturnRefundSentRestRequest $request)
+    public function markReturnRefundSentAsync(MarkReturnRefundSentRestRequest $request)
     {
         return $this->callOperationAsync('MarkReturnRefundSent', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestResponse
+     * @param MarkReturnShippedRestRequest $request
+     * @return MarkReturnShippedRestResponse
      */
-    public function markReturnShipped(\DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest $request)
+    public function markReturnShipped(MarkReturnShippedRestRequest $request)
     {
         return $this->markReturnShippedAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param MarkReturnShippedRestRequest $request
+     * @return PromiseInterface
      */
-    public function markReturnShippedAsync(\DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest $request)
+    public function markReturnShippedAsync(MarkReturnShippedRestRequest $request)
     {
         return $this->callOperationAsync('MarkReturnShipped', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestResponse
+     * @param ProcessReturnRequestRestRequest $request
+     * @return ProcessReturnRequestRestResponse
      */
-    public function processReturnRequest(\DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest $request)
+    public function processReturnRequest(ProcessReturnRequestRestRequest $request)
     {
         return $this->processReturnRequestAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param ProcessReturnRequestRestRequest $request
+     * @return PromiseInterface
      */
-    public function processReturnRequestAsync(\DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest $request)
+    public function processReturnRequestAsync(ProcessReturnRequestRestRequest $request)
     {
         return $this->callOperationAsync('ProcessReturnRequest', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SearchReturnsRestResponse
+     * @param SearchReturnsRestRequest $request
+     * @return SearchReturnsRestResponse
      */
-    public function searchReturns(\DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest $request)
+    public function searchReturns(SearchReturnsRestRequest $request)
     {
         return $this->searchReturnsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SearchReturnsRestRequest $request
+     * @return PromiseInterface
      */
-    public function searchReturnsAsync(\DTS\eBaySDK\PostOrder\Types\SearchReturnsRestRequest $request)
+    public function searchReturnsAsync(SearchReturnsRestRequest $request)
     {
         return $this->callOperationAsync('SearchReturns', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestResponse
+     * @param SendReturnMessageRestRequest $request
+     * @return SendReturnMessageRestResponse
      */
-    public function sendReturnMessage(\DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest $request)
+    public function sendReturnMessage(SendReturnMessageRestRequest $request)
     {
         return $this->sendReturnMessageAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SendReturnMessageRestRequest $request
+     * @return PromiseInterface
      */
-    public function sendReturnMessageAsync(\DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest $request)
+    public function sendReturnMessageAsync(SendReturnMessageRestRequest $request)
     {
         return $this->callOperationAsync('SendReturnMessage', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestResponse
+     * @param SendReturnShippingLabelRestRequest $request
+     * @return SendReturnShippingLabelRestResponse
      */
-    public function sendReturnShippingLabel(\DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest $request)
+    public function sendReturnShippingLabel(SendReturnShippingLabelRestRequest $request)
     {
         return $this->sendReturnShippingLabelAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SendReturnShippingLabelRestRequest $request
+     * @return PromiseInterface
      */
-    public function sendReturnShippingLabelAsync(\DTS\eBaySDK\PostOrder\Types\SendReturnShippingLabelRestRequest $request)
+    public function sendReturnShippingLabelAsync(SendReturnShippingLabelRestRequest $request)
     {
         return $this->callOperationAsync('SendReturnShippingLabel', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestResponse
+     * @param SetReturnPreferencesRestRequest $request
+     * @return SetReturnPreferencesRestResponse
      */
-    public function setReturnPreferences(\DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest $request)
+    public function setReturnPreferences(SetReturnPreferencesRestRequest $request)
     {
         return $this->setReturnPreferencesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SetReturnPreferencesRestRequest $request
+     * @return PromiseInterface
      */
-    public function setReturnPreferencesAsync(\DTS\eBaySDK\PostOrder\Types\SetReturnPreferencesRestRequest $request)
+    public function setReturnPreferencesAsync(SetReturnPreferencesRestRequest $request)
     {
         return $this->callOperationAsync('SetReturnPreferences', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestResponse
+     * @param SubmitReturnFileRestRequest $request
+     * @return SubmitReturnFileRestResponse
      */
-    public function submitReturnFile(\DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest $request)
+    public function submitReturnFile(SubmitReturnFileRestRequest $request)
     {
         return $this->submitReturnFileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param SubmitReturnFileRestRequest $request
+     * @return PromiseInterface
      */
-    public function submitReturnFileAsync(\DTS\eBaySDK\PostOrder\Types\SubmitReturnFileRestRequest $request)
+    public function submitReturnFileAsync(SubmitReturnFileRestRequest $request)
     {
         return $this->callOperationAsync('SubmitReturnFile', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestResponse
+     * @param UpdateReturnDraftRestRequest $request
+     * @return UpdateReturnDraftRestResponse
      */
-    public function updateReturnDraft(\DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest $request)
+    public function updateReturnDraft(UpdateReturnDraftRestRequest $request)
     {
         return $this->updateReturnDraftAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param UpdateReturnDraftRestRequest $request
+     * @return PromiseInterface
      */
-    public function updateReturnDraftAsync(\DTS\eBaySDK\PostOrder\Types\UpdateReturnDraftRestRequest $request)
+    public function updateReturnDraftAsync(UpdateReturnDraftRestRequest $request)
     {
         return $this->callOperationAsync('UpdateReturnDraft', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestResponse
+     * @param UpdateShipmentTrackingRestRequest $request
+     * @return UpdateShipmentTrackingRestResponse
      */
-    public function updateShipmentTracking(\DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest $request)
+    public function updateShipmentTracking(UpdateShipmentTrackingRestRequest $request)
     {
         return $this->updateShipmentTrackingAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param UpdateShipmentTrackingRestRequest $request
+     * @return PromiseInterface
      */
-    public function updateShipmentTrackingAsync(\DTS\eBaySDK\PostOrder\Types\UpdateShipmentTrackingRestRequest $request)
+    public function updateShipmentTrackingAsync(UpdateShipmentTrackingRestRequest $request)
     {
         return $this->callOperationAsync('UpdateShipmentTracking', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestResponse
+     * @param UploadReturnDraftFileRestRequest $request
+     * @return UploadReturnDraftFileRestResponse
      */
-    public function uploadReturnDraftFile(\DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest $request)
+    public function uploadReturnDraftFile(UploadReturnDraftFileRestRequest $request)
     {
         return $this->uploadReturnDraftFileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param UploadReturnDraftFileRestRequest $request
+     * @return PromiseInterface
      */
-    public function uploadReturnDraftFileAsync(\DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestRequest $request)
+    public function uploadReturnDraftFileAsync(UploadReturnDraftFileRestRequest $request)
     {
         return $this->callOperationAsync('UploadReturnDraftFile', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestResponse
+     * @param UploadReturnFileRestRequest $request
+     * @return UploadReturnFileRestResponse
      */
-    public function uploadReturnFile(\DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest $request)
+    public function uploadReturnFile(UploadReturnFileRestRequest $request)
     {
         return $this->uploadReturnFileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param UploadReturnFileRestRequest $request
+     * @return PromiseInterface
      */
-    public function uploadReturnFileAsync(\DTS\eBaySDK\PostOrder\Types\UploadReturnFileRestRequest $request)
+    public function uploadReturnFileAsync(UploadReturnFileRestRequest $request)
     {
         return $this->callOperationAsync('UploadReturnFile', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestResponse
+     * @param VoidShippingLabelRestRequest $request
+     * @return VoidShippingLabelRestResponse
      */
-    public function voidShippingLabel(\DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest $request)
+    public function voidShippingLabel(VoidShippingLabelRestRequest $request)
     {
         return $this->voidShippingLabelAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param VoidShippingLabelRestRequest $request
+     * @return PromiseInterface
      */
-    public function voidShippingLabelAsync(\DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest $request)
+    public function voidShippingLabelAsync(VoidShippingLabelRestRequest $request)
     {
         return $this->callOperationAsync('VoidShippingLabel', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CreateCustomListRestResponse
+     * @param CreateCustomListRestRequest $request
+     * @return CreateCustomListRestResponse
      */
-    public function createCustomList(\DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest $request)
+    public function createCustomList(CreateCustomListRestRequest $request)
     {
         return $this->createCustomListAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CreateCustomListRestRequest $request
+     * @return PromiseInterface
      */
-    public function createCustomListAsync(\DTS\eBaySDK\PostOrder\Types\CreateCustomListRestRequest $request)
+    public function createCustomListAsync(CreateCustomListRestRequest $request)
     {
         return $this->callOperationAsync('CreateCustomList', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestResponse
+     * @param CreateReturnRulesRestRequest $request
+     * @return CreateReturnRulesRestResponse
      */
-    public function createReturnRules(\DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest $request)
+    public function createReturnRules(CreateReturnRulesRestRequest $request)
     {
         return $this->createReturnRulesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param CreateReturnRulesRestRequest $request
+     * @return PromiseInterface
      */
-    public function createReturnRulesAsync(\DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest $request)
+    public function createReturnRulesAsync(CreateReturnRulesRestRequest $request)
     {
         return $this->callOperationAsync('CreateReturnRules', $request);
     }
 
     /**
-     * @return \DTS\eBaySDK\PostOrder\Types\GetCustomListRestResponse
+     * @return GetCustomListRestResponse
      */
     public function getCustomList()
     {
@@ -2006,7 +2144,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @return PromiseInterface
      */
     public function getCustomListAsync()
     {
@@ -2014,7 +2152,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @return \DTS\eBaySDK\PostOrder\Types\GetCustomListsRestResponse
+     * @return GetCustomListsRestResponse
      */
     public function getCustomLists()
     {
@@ -2022,7 +2160,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @return PromiseInterface
      */
     public function getCustomListsAsync()
     {
@@ -2030,7 +2168,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRuleTemplatesRestResponse
+     * @return GetReturnRuleTemplatesRestResponse
      */
     public function getReturnRuleTemplates()
     {
@@ -2038,7 +2176,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @return PromiseInterface
      */
     public function getReturnRuleTemplatesAsync()
     {
@@ -2046,7 +2184,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @return \DTS\eBaySDK\PostOrder\Types\GetStoreCategoriesRestResponse
+     * @return GetStoreCategoriesRestResponse
      */
     public function getStoreCategories()
     {
@@ -2054,7 +2192,7 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @return PromiseInterface
      */
     public function getStoreCategoriesAsync()
     {
@@ -2062,91 +2200,91 @@ class PostOrderService extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestResponse
+     * @param GetReturnRuleRestRequest $request
+     * @return GetReturnRuleRestResponse
      */
-    public function getReturnRule(\DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest $request)
+    public function getReturnRule(GetReturnRuleRestRequest $request)
     {
         return $this->getReturnRuleAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnRuleRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnRuleAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestRequest $request)
+    public function getReturnRuleAsync(GetReturnRuleRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnRule', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestResponse
+     * @param GetReturnRuleHistoryRestRequest $request
+     * @return GetReturnRuleHistoryRestResponse
      */
-    public function getReturnRuleHistory(\DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest $request)
+    public function getReturnRuleHistory(GetReturnRuleHistoryRestRequest $request)
     {
         return $this->getReturnRuleHistoryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnRuleHistoryRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnRuleHistoryAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest $request)
+    public function getReturnRuleHistoryAsync(GetReturnRuleHistoryRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnRuleHistory', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestResponse
+     * @param GetReturnRulesRestRequest $request
+     * @return GetReturnRulesRestResponse
      */
-    public function getReturnRules(\DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest $request)
+    public function getReturnRules(GetReturnRulesRestRequest $request)
     {
         return $this->getReturnRulesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetReturnRulesRestRequest $request
+     * @return PromiseInterface
      */
-    public function getReturnRulesAsync(\DTS\eBaySDK\PostOrder\Types\GetReturnRulesRestRequest $request)
+    public function getReturnRulesAsync(GetReturnRulesRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnRules', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestResponse
+     * @param UpdateCustomListRestRequest $request
+     * @return UpdateCustomListRestResponse
      */
-    public function updateCustomList(\DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest $request)
+    public function updateCustomList(UpdateCustomListRestRequest $request)
     {
         return $this->updateCustomListAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param UpdateCustomListRestRequest $request
+     * @return PromiseInterface
      */
-    public function updateCustomListAsync(\DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest $request)
+    public function updateCustomListAsync(UpdateCustomListRestRequest $request)
     {
         return $this->callOperationAsync('UpdateCustomList', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest $request
-     * @return \DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestResponse
+     * @param UpdateReturnRulesRestRequest $request
+     * @return UpdateReturnRulesRestResponse
      */
-    public function updateReturnRules(\DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest $request)
+    public function updateReturnRules(UpdateReturnRulesRestRequest $request)
     {
         return $this->updateReturnRulesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param UpdateReturnRulesRestRequest $request
+     * @return PromiseInterface
      */
-    public function updateReturnRulesAsync(\DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestRequest $request)
+    public function updateReturnRulesAsync(UpdateReturnRulesRestRequest $request)
     {
         return $this->callOperationAsync('UpdateReturnRules', $request);
     }

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType;
 
-class IntegratedMerchantCreditCardInfoTypeTest extends \PHPUnit\Framework\TestCase
+class IntegratedMerchantCreditCardInfoTypeTest extends TestCase
 {
     private $obj;
 

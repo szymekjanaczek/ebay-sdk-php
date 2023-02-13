@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\BulkDataExchange\Mocks;
 
+use DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeBaseService
+class Service extends BulkDataExchangeBaseService
 {
     public function __construct(array $config)
     {

@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class BuyingGuideDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BuyingGuideDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

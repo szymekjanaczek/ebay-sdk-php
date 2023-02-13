@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $averageRating
- * @property \DTS\eBaySDK\Browse\Types\RatingHistogram[] $ratingHistograms
+ * @property RatingHistogram[] $ratingHistograms
  * @property integer $reviewCount
  */
-class ReviewRating extends \DTS\eBaySDK\Types\BaseType
+class ReviewRating extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

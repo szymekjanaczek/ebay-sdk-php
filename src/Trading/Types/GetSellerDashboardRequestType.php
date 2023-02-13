@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GetSellerDashboardRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellerDashboardRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

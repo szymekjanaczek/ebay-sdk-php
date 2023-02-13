@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\PayPalRequiredDefinitionType;
 
-class PayPalRequiredDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class PayPalRequiredDefinitionTypeTest extends TestCase
 {
     private $obj;
 

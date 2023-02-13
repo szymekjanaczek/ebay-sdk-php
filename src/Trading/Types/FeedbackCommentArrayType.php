@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $StoredCommentText
  */
-class FeedbackCommentArrayType extends \DTS\eBaySDK\Types\BaseType
+class FeedbackCommentArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

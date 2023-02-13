@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $offset
  * @property string $limit
  * @property string $filter
  */
-class GetChangeRequestsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetChangeRequestsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

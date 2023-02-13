@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
+ * @property SellingManagerSoldOrderType $SellingManagerSoldOrder
  */
-class GetSellingManagerSaleRecordResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerSaleRecordResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

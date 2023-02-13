@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse;
 
-class GetAFulfillmentPolicyByIDRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetAFulfillmentPolicyByIDRestResponseTest extends TestCase
 {
     private $obj;
 

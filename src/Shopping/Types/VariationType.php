@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $StartPrice
+ * @property AmountType $StartPrice
  * @property integer $Quantity
- * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType[] $VariationSpecifics
- * @property \DTS\eBaySDK\Shopping\Types\SellingStatusType $SellingStatus
- * @property \DTS\eBaySDK\Shopping\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property NameValueListArrayType[] $VariationSpecifics
+ * @property SellingStatusType $SellingStatus
+ * @property DiscountPriceInfoType $DiscountPriceInfo
  */
-class VariationType extends \DTS\eBaySDK\Types\BaseType
+class VariationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

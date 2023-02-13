@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\CharacteristicType;
 
-class CharacteristicTypeTest extends \PHPUnit\Framework\TestCase
+class CharacteristicTypeTest extends TestCase
 {
     private $obj;
 

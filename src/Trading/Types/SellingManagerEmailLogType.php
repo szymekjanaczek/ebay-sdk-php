@@ -10,14 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SellingManagerEmailTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\SellingManagerEmailSentStatusCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerEmailTypeCodeType $EmailType
+ * @property SellingManagerEmailTypeCodeType $EmailType
  * @property string $CustomEmailName
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerEmailSentStatusCodeType $EmailState
- * @property \DateTime $EventTime
+ * @property SellingManagerEmailSentStatusCodeType $EmailState
+ * @property DateTime $EventTime
  */
-class SellingManagerEmailLogType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerEmailLogType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

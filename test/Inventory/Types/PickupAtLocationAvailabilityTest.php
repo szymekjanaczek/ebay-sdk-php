@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability;
 
-class PickupAtLocationAvailabilityTest extends \PHPUnit\Framework\TestCase
+class PickupAtLocationAvailabilityTest extends TestCase
 {
     private $obj;
 

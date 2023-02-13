@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $buyerProtection
  * @property boolean $fromBestOffer
  */
-class LineItemProperties extends \DTS\eBaySDK\Types\BaseType
+class LineItemProperties extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

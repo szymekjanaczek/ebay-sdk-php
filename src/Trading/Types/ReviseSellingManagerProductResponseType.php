@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property SellingManagerProductDetailsType $SellingManagerProductDetails
  */
-class ReviseSellingManagerProductResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseSellingManagerProductResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

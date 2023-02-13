@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\JobProfile[] $jobProfile
+ * @property JobProfile[] $jobProfile
  */
-class GetJobsResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class GetJobsResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

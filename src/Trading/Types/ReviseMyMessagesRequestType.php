@@ -12,12 +12,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
+ * @property MyMessagesMessageIDArrayType $MessageIDs
  * @property boolean $Read
  * @property boolean $Flagged
  * @property integer $FolderID
  */
-class ReviseMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseMyMessagesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

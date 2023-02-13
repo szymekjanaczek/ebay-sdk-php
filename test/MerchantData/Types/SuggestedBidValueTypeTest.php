@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\SuggestedBidValueType;
 
-class SuggestedBidValueTypeTest extends \PHPUnit\Framework\TestCase
+class SuggestedBidValueTypeTest extends TestCase
 {
     private $obj;
 

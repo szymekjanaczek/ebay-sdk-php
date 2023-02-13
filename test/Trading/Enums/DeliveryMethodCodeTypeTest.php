@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\DeliveryMethodCodeType;
 
-class DeliveryMethodCodeTypeTest extends \PHPUnit\Framework\TestCase
+class DeliveryMethodCodeTypeTest extends TestCase
 {
     private $obj;
 

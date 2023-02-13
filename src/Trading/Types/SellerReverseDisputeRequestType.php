@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType;
 /**
  *
  * @property string $DisputeID
- * @property \DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType $DisputeResolutionReason
+ * @property DisputeResolutionReasonCodeType $DisputeResolutionReason
  */
-class SellerReverseDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SellerReverseDisputeRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

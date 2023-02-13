@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Types\ErrorParameter;
 
-class ErrorParameterTest extends \PHPUnit\Framework\TestCase
+class ErrorParameterTest extends TestCase
 {
     private $obj;
 

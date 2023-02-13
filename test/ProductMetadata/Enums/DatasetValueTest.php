@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ProductMetadata\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Enums\DatasetValue;
 
-class DatasetValueTest extends \PHPUnit\Framework\TestCase
+class DatasetValueTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Feedback\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Feedback\Enums\AckValue;
 
-class AckValueTest extends \PHPUnit\Framework\TestCase
+class AckValueTest extends TestCase
 {
     private $obj;
 

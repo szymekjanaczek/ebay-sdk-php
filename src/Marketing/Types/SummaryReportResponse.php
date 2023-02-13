@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Amount $baseSale
+ * @property Amount $baseSale
  * @property string $lastUpdated
  * @property string $percentageSalesLift
- * @property \DTS\eBaySDK\Marketing\Types\Amount $promotionSale
- * @property \DTS\eBaySDK\Marketing\Types\Amount $totalSale
+ * @property Amount $promotionSale
+ * @property Amount $totalSale
  */
-class SummaryReportResponse extends \DTS\eBaySDK\Types\BaseType
+class SummaryReportResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

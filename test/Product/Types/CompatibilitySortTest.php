@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Product\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Product\Types\CompatibilitySort;
 
-class CompatibilitySortTest extends \PHPUnit\Framework\TestCase
+class CompatibilitySortTest extends TestCase
 {
     private $obj;
 

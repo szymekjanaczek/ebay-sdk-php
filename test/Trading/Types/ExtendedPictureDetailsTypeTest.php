@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType;
 
-class ExtendedPictureDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class ExtendedPictureDetailsTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType;
+use DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageDepth
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageLength
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageWidth
+ * @property MeasurementSystemCodeType $MeasurementUnit
+ * @property MeasureType $PackageDepth
+ * @property MeasureType $PackageLength
+ * @property MeasureType $PackageWidth
  * @property boolean $ShippingIrregular
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightMajor
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightMinor
+ * @property ShippingPackageCodeType $ShippingPackage
+ * @property MeasureType $WeightMajor
+ * @property MeasureType $WeightMinor
  */
-class ShipPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShipPackageDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

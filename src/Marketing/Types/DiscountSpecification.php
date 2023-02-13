@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Amount $forEachAmount
+ * @property Amount $forEachAmount
  * @property integer $forEachQuantity
- * @property \DTS\eBaySDK\Marketing\Types\Amount $minAmount
+ * @property Amount $minAmount
  * @property integer $minQuantity
  * @property integer $numberOfDiscountedItems
  */
-class DiscountSpecification extends \DTS\eBaySDK\Types\BaseType
+class DiscountSpecification extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\KTypeSupportedDefinitionType;
 
-class KTypeSupportedDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class KTypeSupportedDefinitionTypeTest extends TestCase
 {
     private $obj;
 

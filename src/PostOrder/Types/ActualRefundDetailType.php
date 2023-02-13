@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\ReturnRefundInitiatorEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RefundDetailType $actualRefund
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnRefundInitiatorEnum $refundInitiationType
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $refundIssuedDate
+ * @property RefundDetailType $actualRefund
+ * @property ReturnRefundInitiatorEnum $refundInitiationType
+ * @property DateTime $refundIssuedDate
  * @property string $refundStatus
  */
-class ActualRefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class ActualRefundDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

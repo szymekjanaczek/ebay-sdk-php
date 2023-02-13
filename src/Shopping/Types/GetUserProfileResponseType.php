@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\SimpleUserType $User
- * @property \DTS\eBaySDK\Shopping\Types\FeedbackHistoryType $FeedbackHistory
- * @property \DTS\eBaySDK\Shopping\Types\FeedbackDetailType[] $FeedbackDetails
+ * @property SimpleUserType $User
+ * @property FeedbackHistoryType $FeedbackHistory
+ * @property FeedbackDetailType[] $FeedbackDetails
  */
-class GetUserProfileResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class GetUserProfileResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

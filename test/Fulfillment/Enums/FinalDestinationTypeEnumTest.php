@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Enums\FinalDestinationTypeEnum;
 
-class FinalDestinationTypeEnumTest extends \PHPUnit\Framework\TestCase
+class FinalDestinationTypeEnumTest extends TestCase
 {
     private $obj;
 

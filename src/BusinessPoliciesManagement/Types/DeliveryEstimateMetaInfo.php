@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $key
  * @property string $value
  */
-class DeliveryEstimateMetaInfo extends \DTS\eBaySDK\Types\BaseType
+class DeliveryEstimateMetaInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

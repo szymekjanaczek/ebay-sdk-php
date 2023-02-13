@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $formattedValue
  * @property \DateTime $value
  */
-class DateTime extends \DTS\eBaySDK\Types\BaseType
+class DateTime extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

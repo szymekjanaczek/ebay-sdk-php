@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest;
 
-class UpdateAReturnPolicyRestRequestTest extends \PHPUnit\Framework\TestCase
+class UpdateAReturnPolicyRestRequestTest extends TestCase
 {
     private $obj;
 

@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property MemberMessageExchangeArrayType $MemberMessage
+ * @property PaginationResultType $PaginationResult
  * @property boolean $HasMoreItems
  */
-class GetMemberMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMemberMessagesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

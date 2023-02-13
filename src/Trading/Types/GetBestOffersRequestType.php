@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType;
 /**
  *
  * @property string $ItemID
  * @property string $BestOfferID
- * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType $BestOfferStatus
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property BestOfferStatusCodeType $BestOfferStatus
+ * @property PaginationType $Pagination
  */
-class GetBestOffersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetBestOffersRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

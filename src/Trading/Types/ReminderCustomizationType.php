@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $DurationInDays
  * @property boolean $Include
  */
-class ReminderCustomizationType extends \DTS\eBaySDK\Types\BaseType
+class ReminderCustomizationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType;
 
-class ShippingServiceOptionsTypeTest extends \PHPUnit\Framework\TestCase
+class ShippingServiceOptionsTypeTest extends TestCase
 {
     private $obj;
 

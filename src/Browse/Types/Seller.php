@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $feedbackPercentage
  * @property integer $feedbackScore
  * @property string $sellerAccountType
- * @property \DTS\eBaySDK\Browse\Types\SellerLegalInfo $sellerLegalInfo
+ * @property SellerLegalInfo $sellerLegalInfo
  * @property string $username
  */
-class Seller extends \DTS\eBaySDK\Types\BaseType
+class Seller extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

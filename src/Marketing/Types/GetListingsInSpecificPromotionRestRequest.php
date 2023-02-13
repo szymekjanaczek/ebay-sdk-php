@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $promotion_id
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $q
  * @property string $sort
  */
-class GetListingsInSpecificPromotionRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetListingsInSpecificPromotionRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

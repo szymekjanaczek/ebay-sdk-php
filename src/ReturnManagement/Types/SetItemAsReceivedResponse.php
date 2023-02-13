@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 /**
  *
  */
-class SetItemAsReceivedResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class SetItemAsReceivedResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

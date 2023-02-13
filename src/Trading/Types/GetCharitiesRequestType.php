@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\StringMatchCodeType;
 /**
  *
  * @property string $CharityID
@@ -18,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $CharityRegion
  * @property integer $CharityDomain
  * @property boolean $IncludeDescription
- * @property \DTS\eBaySDK\Trading\Enums\StringMatchCodeType $MatchType
+ * @property StringMatchCodeType $MatchType
  * @property boolean $Featured
  */
-class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetCharitiesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

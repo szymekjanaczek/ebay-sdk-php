@@ -10,18 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SortOrderCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $Include
  * @property boolean $IncludeItemCount
  * @property boolean $IncludeFavoriteSearcheCount
  * @property boolean $IncludeFavoriteSellerCount
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $Sort
+ * @property SortOrderCodeType $Sort
  * @property integer $MaxResults
  * @property string $UserDefinedListName
  * @property boolean $IncludeListContents
  */
-class MyeBaySelectionType extends \DTS\eBaySDK\Types\BaseType
+class MyeBaySelectionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

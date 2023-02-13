@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\MismatchTypeCodeType;
 
-class MismatchTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class MismatchTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

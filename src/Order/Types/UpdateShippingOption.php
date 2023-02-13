@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $lineItemId
  * @property string $shippingOptionId
  */
-class UpdateShippingOption extends \DTS\eBaySDK\Types\BaseType
+class UpdateShippingOption extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

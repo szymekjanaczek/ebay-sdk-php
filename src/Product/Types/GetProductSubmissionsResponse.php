@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\PaginationOutput $paginationOutput
- * @property \DTS\eBaySDK\Product\Types\ProductSubmissionResult[] $productSubmissionResponse
+ * @property PaginationOutput $paginationOutput
+ * @property ProductSubmissionResult[] $productSubmissionResponse
  */
-class GetProductSubmissionsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class GetProductSubmissionsResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

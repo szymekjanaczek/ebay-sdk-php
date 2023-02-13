@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $CategoryID
- * @property \DTS\eBaySDK\Trading\Types\NameRecommendationType[] $NameRecommendation
+ * @property NameRecommendationType[] $NameRecommendation
  * @property boolean $Updated
  */
-class RecommendationsType extends \DTS\eBaySDK\Types\BaseType
+class RecommendationsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\ReportTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\DimensionMetadata[] $dimensionMetadata
+ * @property DimensionMetadata[] $dimensionMetadata
  * @property integer $maxNumberOfDimensionsToRequest
  * @property integer $maxNumberOfMetricsToRequest
- * @property \DTS\eBaySDK\Marketing\Types\MetricMetadata[] $metricMetadata
- * @property \DTS\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
+ * @property MetricMetadata[] $metricMetadata
+ * @property ReportTypeEnum $reportType
  */
-class ReportMetadata extends \DTS\eBaySDK\Types\BaseType
+class ReportMetadata extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

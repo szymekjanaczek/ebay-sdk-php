@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\StringValue $text
- * @property \DTS\eBaySDK\Product\Types\NumericValue $number
- * @property \DTS\eBaySDK\Product\Types\URIValue $URL
+ * @property StringValue $text
+ * @property NumericValue $number
+ * @property URIValue $URL
  */
-class Value extends \DTS\eBaySDK\Types\BaseType
+class Value extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

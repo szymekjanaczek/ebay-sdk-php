@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesCountDetailsType $MaximumUnpaidItemStrikesCount
- * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesDurationDetailsType[] $MaximumUnpaidItemStrikesDuration
+ * @property MaximumUnpaidItemStrikesCountDetailsType $MaximumUnpaidItemStrikesCount
+ * @property MaximumUnpaidItemStrikesDurationDetailsType[] $MaximumUnpaidItemStrikesDuration
  */
-class MaximumUnpaidItemStrikesInfoDetailsType extends \DTS\eBaySDK\Types\BaseType
+class MaximumUnpaidItemStrikesInfoDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

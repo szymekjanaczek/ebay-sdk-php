@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Types\SalesTaxJurisdictions;
 
-class SalesTaxJurisdictionsTest extends \PHPUnit\Framework\TestCase
+class SalesTaxJurisdictionsTest extends TestCase
 {
     private $obj;
 

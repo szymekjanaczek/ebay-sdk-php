@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Compliance\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $compliance_type
  */
-class GetListingViolationsSummaryRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetListingViolationsSummaryRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

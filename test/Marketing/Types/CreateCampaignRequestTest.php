@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\CreateCampaignRequest;
 
-class CreateCampaignRequestTest extends \PHPUnit\Framework\TestCase
+class CreateCampaignRequestTest extends TestCase
 {
     private $obj;
 

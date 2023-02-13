@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Types\Value;
 
-class ValueTest extends \PHPUnit\Framework\TestCase
+class ValueTest extends TestCase
 {
     private $obj;
 

@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Taxonomy\Mocks;
 
+use DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService
+class Service extends TaxonomyBaseService
 {
     protected static $operations = [
         'testOperation' => [

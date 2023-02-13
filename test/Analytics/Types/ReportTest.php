@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Types\Report;
 
-class ReportTest extends \PHPUnit\Framework\TestCase
+class ReportTest extends TestCase
 {
     private $obj;
 

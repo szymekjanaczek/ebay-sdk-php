@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Feedback\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Feedback\Types\ErrorData;
 
-class ErrorDataTest extends \PHPUnit\Framework\TestCase
+class ErrorDataTest extends TestCase
 {
     private $obj;
 

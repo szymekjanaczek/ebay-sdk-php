@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Taxonomy\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetItemAspectsForCategoryRestResponse extends \DTS\eBaySDK\Taxonomy\Types\AspectMetadata
+class GetItemAspectsForCategoryRestResponse extends AspectMetadata
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

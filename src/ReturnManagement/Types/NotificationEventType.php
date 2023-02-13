@@ -10,19 +10,23 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\NotificationEventNameType;
+use DateTime;
+use DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\NotificationEventNameType $NotificationEventName
+ * @property NotificationEventNameType $NotificationEventName
  * @property string $RecipientUserID
  * @property string $ExternalUserData
  * @property string $ReturnId
- * @property \DateTime $CreationDate
+ * @property DateTime $CreationDate
  * @property string $OtherPartyId
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType $OtherPartyRole
+ * @property ReturnUserRoleType $OtherPartyRole
  * @property string $ReturnStatus
  * @property string $ReturnGlobalId
  */
-class NotificationEventType extends \DTS\eBaySDK\Types\BaseType
+class NotificationEventType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

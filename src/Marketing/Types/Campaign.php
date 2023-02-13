@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\CampaignStatusEnum;
+use DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\CampaignCriterion $campaignCriterion
+ * @property CampaignCriterion $campaignCriterion
  * @property string $campaignId
  * @property string $campaignName
- * @property \DTS\eBaySDK\Marketing\Enums\CampaignStatusEnum $campaignStatus
+ * @property CampaignStatusEnum $campaignStatus
  * @property string $endDate
- * @property \DTS\eBaySDK\Marketing\Types\FundingStrategy $fundingStrategy
- * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property FundingStrategy $fundingStrategy
+ * @property MarketplaceIdEnum $marketplaceId
  * @property string $startDate
  */
-class Campaign extends \DTS\eBaySDK\Types\BaseType
+class Campaign extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

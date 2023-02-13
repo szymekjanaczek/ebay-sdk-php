@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\TokenStatusType $TokenStatus
+ * @property TokenStatusType $TokenStatus
  */
-class GetTokenStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetTokenStatusResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

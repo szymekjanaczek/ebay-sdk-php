@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\HalfFinding\Enums\ItemFilterType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\ItemFilterType $name
+ * @property ItemFilterType $name
  * @property string[] $value
  */
-class ItemFilter extends \DTS\eBaySDK\Types\BaseType
+class ItemFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

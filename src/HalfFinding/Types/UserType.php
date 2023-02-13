@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $userID
  * @property integer $feedbackScore
  * @property double $positiveFeedbackPercent
  */
-class UserType extends \DTS\eBaySDK\Types\BaseType
+class UserType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

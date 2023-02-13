@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType;
 
-class UploadSiteHostedPicturesResponseTypeTest extends \PHPUnit\Framework\TestCase
+class UploadSiteHostedPicturesResponseTypeTest extends TestCase
 {
     private $obj;
 

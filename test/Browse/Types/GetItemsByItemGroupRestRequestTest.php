@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestRequest;
 
-class GetItemsByItemGroupRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetItemsByItemGroupRestRequestTest extends TestCase
 {
     private $obj;
 

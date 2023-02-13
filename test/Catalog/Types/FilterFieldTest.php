@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Types\FilterField;
 
-class FilterFieldTest extends \PHPUnit\Framework\TestCase
+class FilterFieldTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideType;
 
-class ShippingServiceCostOverrideTypeTest extends \PHPUnit\Framework\TestCase
+class ShippingServiceCostOverrideTypeTest extends TestCase
 {
     private $obj;
 

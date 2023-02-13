@@ -10,20 +10,21 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $BidRetractionFeedbackPeriods
- * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $NegativeFeedbackPeriods
- * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $NeutralFeedbackPeriods
- * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $PositiveFeedbackPeriods
- * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $TotalFeedbackPeriods
+ * @property FeedbackPeriodType[] $BidRetractionFeedbackPeriods
+ * @property FeedbackPeriodType[] $NegativeFeedbackPeriods
+ * @property FeedbackPeriodType[] $NeutralFeedbackPeriods
+ * @property FeedbackPeriodType[] $PositiveFeedbackPeriods
+ * @property FeedbackPeriodType[] $TotalFeedbackPeriods
  * @property integer $UniqueNegativeFeedbackCount
  * @property integer $UniquePositiveFeedbackCount
- * @property \DTS\eBaySDK\Shopping\Types\AverageRatingDetailsType[] $AverageRatingDetails
+ * @property AverageRatingDetailsType[] $AverageRatingDetails
  * @property integer $NeutralCommentCountFromSuspendedUsers
  * @property integer $UniqueNeutralFeedbackCount
  */
-class FeedbackHistoryType extends \DTS\eBaySDK\Types\BaseType
+class FeedbackHistoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

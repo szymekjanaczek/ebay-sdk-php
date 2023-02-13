@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType $InsuranceOption
- * @property \DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType[] $FlatRateInsuranceRangeCost
+ * @property InsuranceOptionCodeType $InsuranceOption
+ * @property FlatRateInsuranceRangeCostType[] $FlatRateInsuranceRangeCost
  */
-class ShippingInsuranceType extends \DTS\eBaySDK\Types\BaseType
+class ShippingInsuranceType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

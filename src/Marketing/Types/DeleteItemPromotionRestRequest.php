@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $promotion_id
  */
-class DeleteItemPromotionRestRequest extends \DTS\eBaySDK\Types\BaseType
+class DeleteItemPromotionRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

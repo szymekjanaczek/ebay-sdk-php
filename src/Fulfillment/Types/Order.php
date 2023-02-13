@@ -10,24 +10,27 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus;
+use DTS\eBaySDK\Fulfillment\Enums\OrderPaymentStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Buyer $buyer
+ * @property Buyer $buyer
  * @property string $buyerCheckoutNotes
- * @property \DTS\eBaySDK\Fulfillment\Types\CancelStatus $cancelStatus
+ * @property CancelStatus $cancelStatus
  * @property string $creationDate
  * @property string[] $fulfillmentHrefs
- * @property \DTS\eBaySDK\Fulfillment\Types\FulfillmentStartInstruction[] $fulfillmentStartInstructions
+ * @property FulfillmentStartInstruction[] $fulfillmentStartInstructions
  * @property string $lastModifiedDate
- * @property \DTS\eBaySDK\Fulfillment\Types\LineItem[] $lineItems
- * @property \DTS\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus $orderFulfillmentStatus
+ * @property LineItem[] $lineItems
+ * @property OrderFulfillmentStatus $orderFulfillmentStatus
  * @property string $orderId
- * @property \DTS\eBaySDK\Fulfillment\Enums\OrderPaymentStatusEnum $orderPaymentStatus
- * @property \DTS\eBaySDK\Fulfillment\Types\PaymentSummary $paymentSummary
- * @property \DTS\eBaySDK\Fulfillment\Types\PricingSummary $pricingSummary
+ * @property OrderPaymentStatusEnum $orderPaymentStatus
+ * @property PaymentSummary $paymentSummary
+ * @property PricingSummary $pricingSummary
  * @property string $sellerId
  */
-class Order extends \DTS\eBaySDK\Types\BaseType
+class Order extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

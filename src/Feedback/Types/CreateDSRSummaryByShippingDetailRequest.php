@@ -12,14 +12,14 @@ namespace DTS\eBaySDK\Feedback\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Feedback\Types\DateRange $dateRange
+ * @property DateRange $dateRange
  * @property string $dateRangeEventType
  * @property string $shippingCostType
  * @property string $shippingDestinationType
  * @property string[] $shipToCountry
  * @property string[] $shippingService
  */
-class CreateDSRSummaryByShippingDetailRequest extends \DTS\eBaySDK\Feedback\Types\BaseServiceRequest
+class CreateDSRSummaryByShippingDetailRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

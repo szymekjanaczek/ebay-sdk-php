@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $companyName
- * @property \DTS\eBaySDK\Fulfillment\Types\Address $contactAddress
+ * @property Address $contactAddress
  * @property string $fullName
- * @property \DTS\eBaySDK\Fulfillment\Types\PhoneNumber $primaryPhone
+ * @property PhoneNumber $primaryPhone
  */
-class Contact extends \DTS\eBaySDK\Types\BaseType
+class Contact extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

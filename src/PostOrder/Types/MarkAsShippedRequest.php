@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $carrierEnum
  * @property string $carrierName
  * @property string $carrierUsed
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shippedDate
+ * @property Text $comments
+ * @property DateTime $shippedDate
  * @property string $trackingNumber
  */
-class MarkAsShippedRequest extends \DTS\eBaySDK\Types\BaseType
+class MarkAsShippedRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

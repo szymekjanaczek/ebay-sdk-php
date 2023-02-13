@@ -17,7 +17,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $LevelLimit
  * @property string $UserID
  */
-class GetStoreRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetStoreRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

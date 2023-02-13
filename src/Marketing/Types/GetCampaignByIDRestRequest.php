@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $campaign_id
  */
-class GetCampaignByIDRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetCampaignByIDRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

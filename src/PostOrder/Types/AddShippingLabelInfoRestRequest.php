@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $returnId
  */
-class AddShippingLabelInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\ProvideLabelRequest
+class AddShippingLabelInfoRestRequest extends ProvideLabelRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

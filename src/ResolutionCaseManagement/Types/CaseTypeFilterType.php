@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType[] $caseType
+ * @property CaseType[] $caseType
  */
-class CaseTypeFilterType extends \DTS\eBaySDK\Types\BaseType
+class CaseTypeFilterType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

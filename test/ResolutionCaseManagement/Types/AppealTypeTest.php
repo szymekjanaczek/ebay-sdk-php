@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\AppealType;
 
-class AppealTypeTest extends \PHPUnit\Framework\TestCase
+class AppealTypeTest extends TestCase
 {
     private $obj;
 

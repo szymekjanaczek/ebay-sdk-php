@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType;
 
-class BuyerPackageEnclosureTypeTest extends \PHPUnit\Framework\TestCase
+class BuyerPackageEnclosureTypeTest extends TestCase
 {
     private $obj;
 

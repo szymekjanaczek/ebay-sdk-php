@@ -13,9 +13,9 @@ namespace DTS\eBaySDK\MerchantData\Types;
 /**
  *
  * @property integer $PictureSystemVersion
- * @property \DTS\eBaySDK\MerchantData\Types\SiteHostedPictureDetailsType $SiteHostedPictureDetails
+ * @property SiteHostedPictureDetailsType $SiteHostedPictureDetails
  */
-class UploadSiteHostedPicturesResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class UploadSiteHostedPicturesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum;
 
-class DiscountTypeEnumTest extends \PHPUnit\Framework\TestCase
+class DiscountTypeEnumTest extends TestCase
 {
     private $obj;
 

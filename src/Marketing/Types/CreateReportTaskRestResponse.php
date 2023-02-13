@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class CreateReportTaskRestResponse extends \DTS\eBaySDK\Types\BaseType
+class CreateReportTaskRestResponse extends BaseType
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

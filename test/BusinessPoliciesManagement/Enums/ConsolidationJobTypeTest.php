@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobType;
 
-class ConsolidationJobTypeTest extends \PHPUnit\Framework\TestCase
+class ConsolidationJobTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $userId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType $role
+ * @property CaseUserRoleType $role
  */
-class CaseUserType extends \DTS\eBaySDK\Types\BaseType
+class CaseUserType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo $buyerEscalationEligibilityInfo
+ * @property EscalationEligibilityInfo $buyerEscalationEligibilityInfo
  * @property string $caseId
- * @property \DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo $sellerEscalationEligibilityInfo
+ * @property EscalationEligibilityInfo $sellerEscalationEligibilityInfo
  */
-class EscalationInfoType extends \DTS\eBaySDK\Types\BaseType
+class EscalationInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

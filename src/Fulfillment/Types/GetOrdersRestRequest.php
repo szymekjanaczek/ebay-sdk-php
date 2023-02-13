@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $filter
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Fulfillment\Types;
  * @property string $offset
  * @property string $orderIds
  */
-class GetOrdersRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetOrdersRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

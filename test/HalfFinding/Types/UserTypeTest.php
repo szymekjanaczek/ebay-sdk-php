@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Types\UserType;
 
-class UserTypeTest extends \PHPUnit\Framework\TestCase
+class UserTypeTest extends TestCase
 {
     private $obj;
 

@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
- * @property \DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType $PickUpInStoreDetails
+ * @property ShippingDetailsType $ShippingDetails
+ * @property PickupInStoreDetailsType $PickUpInStoreDetails
  */
-class GetItemShippingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetItemShippingResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

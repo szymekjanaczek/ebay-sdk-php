@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property ItemType $Item
  */
-class AddFixedPriceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddFixedPriceItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

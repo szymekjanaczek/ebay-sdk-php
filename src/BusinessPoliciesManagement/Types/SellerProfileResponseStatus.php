@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\BusinessPoliciesManagement\Enums\AckValue;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $profileId
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\AckValue $ack
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage $errorMessage
+ * @property AckValue $ack
+ * @property ErrorMessage $errorMessage
  */
-class SellerProfileResponseStatus extends \DTS\eBaySDK\Types\BaseType
+class SellerProfileResponseStatus extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

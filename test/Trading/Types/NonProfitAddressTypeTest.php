@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\NonProfitAddressType;
 
-class NonProfitAddressTypeTest extends \PHPUnit\Framework\TestCase
+class NonProfitAddressTypeTest extends TestCase
 {
     private $obj;
 

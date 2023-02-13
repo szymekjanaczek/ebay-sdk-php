@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ISBNEnabledDefinitionType;
 
-class ISBNEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class ISBNEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

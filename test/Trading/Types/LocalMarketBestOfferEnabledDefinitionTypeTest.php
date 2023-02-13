@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\LocalMarketBestOfferEnabledDefinitionType;
 
-class LocalMarketBestOfferEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class LocalMarketBestOfferEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

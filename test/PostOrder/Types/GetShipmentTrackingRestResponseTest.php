@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestResponse;
 
-class GetShipmentTrackingRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetShipmentTrackingRestResponseTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ReturnsWithinOption
  * @property string $Description
  */
-class ReturnsWithinDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ReturnsWithinDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

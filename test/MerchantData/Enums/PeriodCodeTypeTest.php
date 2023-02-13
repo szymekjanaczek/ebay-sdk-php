@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\PeriodCodeType;
 
-class PeriodCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PeriodCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Types\BooleanType;
 
-class BooleanTypeTest extends \PHPUnit\Framework\TestCase
+class BooleanTypeTest extends TestCase
 {
     private $obj;
 

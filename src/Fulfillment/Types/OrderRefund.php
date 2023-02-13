@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\RefundStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $amount
+ * @property Amount $amount
  * @property string $refundDate
  * @property string $refundReferenceId
- * @property \DTS\eBaySDK\Fulfillment\Enums\RefundStatusEnum $refundStatus
+ * @property RefundStatusEnum $refundStatus
  */
-class OrderRefund extends \DTS\eBaySDK\Types\BaseType
+class OrderRefund extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

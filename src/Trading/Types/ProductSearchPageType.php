@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class ProductSearchPageType extends \DTS\eBaySDK\Types\BaseType
+class ProductSearchPageType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

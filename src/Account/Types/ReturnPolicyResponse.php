@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
@@ -17,10 +18,10 @@ namespace DTS\eBaySDK\Account\Types;
  * @property string $next
  * @property integer $offset
  * @property string $prev
- * @property \DTS\eBaySDK\Account\Types\ReturnPolicy[] $returnPolicies
+ * @property ReturnPolicy[] $returnPolicies
  * @property integer $total
  */
-class ReturnPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

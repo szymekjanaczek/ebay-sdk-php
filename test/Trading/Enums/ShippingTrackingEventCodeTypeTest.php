@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\ShippingTrackingEventCodeType;
 
-class ShippingTrackingEventCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ShippingTrackingEventCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\NameValueListType;
 
-class NameValueListTypeTest extends \PHPUnit\Framework\TestCase
+class NameValueListTypeTest extends TestCase
 {
     private $obj;
 

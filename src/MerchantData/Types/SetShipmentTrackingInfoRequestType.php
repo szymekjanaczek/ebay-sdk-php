@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $OrderID
  * @property string $OrderLineItemID
- * @property \DTS\eBaySDK\MerchantData\Types\ShipmentType $Shipment
+ * @property ShipmentType $Shipment
  * @property boolean $IsShipped
  * @property boolean $IsPaid
  */
-class SetShipmentTrackingInfoRequestType extends \DTS\eBaySDK\Types\BaseType
+class SetShipmentTrackingInfoRequestType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

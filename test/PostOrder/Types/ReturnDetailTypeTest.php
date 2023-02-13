@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ReturnDetailType;
 
-class ReturnDetailTypeTest extends \PHPUnit\Framework\TestCase
+class ReturnDetailTypeTest extends TestCase
 {
     private $obj;
 

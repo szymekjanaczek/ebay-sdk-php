@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $legacyOrderId
  */
-class OrderEligibilityCheckInfo extends \DTS\eBaySDK\Types\BaseType
+class OrderEligibilityCheckInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

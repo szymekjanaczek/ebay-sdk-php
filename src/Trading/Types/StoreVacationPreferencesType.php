@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $OnVacation
- * @property \DateTime $ReturnDate
+ * @property DateTime $ReturnDate
  * @property boolean $MessageItem
  * @property boolean $MessageStore
  * @property boolean $DisplayMessageStoreCustomText
  * @property string $MessageStoreCustomText
  */
-class StoreVacationPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class StoreVacationPreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

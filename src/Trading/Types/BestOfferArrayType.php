@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\BestOfferType[] $BestOffer
+ * @property BestOfferType[] $BestOffer
  */
-class BestOfferArrayType extends \DTS\eBaySDK\Types\BaseType
+class BestOfferArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

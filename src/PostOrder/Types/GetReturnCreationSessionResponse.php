@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnRequestType $returnRequest
+ * @property ReturnRequestType $returnRequest
  */
-class GetReturnCreationSessionResponse extends \DTS\eBaySDK\Types\BaseType
+class GetReturnCreationSessionResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

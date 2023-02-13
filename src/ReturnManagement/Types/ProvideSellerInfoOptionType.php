@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 /**
  *
  */
-class ProvideSellerInfoOptionType extends \DTS\eBaySDK\ReturnManagement\Types\BaseActivityOptionType
+class ProvideSellerInfoOptionType extends BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

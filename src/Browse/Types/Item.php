@@ -10,9 +10,11 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\PriceDisplayConditionEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\Image[] $additionalImages
+ * @property Image[] $additionalImages
  * @property string $ageGroup
  * @property integer $bidCount
  * @property string $brand
@@ -21,46 +23,46 @@ namespace DTS\eBaySDK\Browse\Types;
  * @property string $color
  * @property string $condition
  * @property string $conditionId
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $currentBidPrice
+ * @property ConvertedAmount $currentBidPrice
  * @property string $description
  * @property string $energyEfficiencyClass
  * @property string $epid
- * @property \DTS\eBaySDK\Browse\Types\EstimatedAvailability[] $estimatedAvailabilities
+ * @property EstimatedAvailability[] $estimatedAvailabilities
  * @property string $gender
  * @property string $gtin
- * @property \DTS\eBaySDK\Browse\Types\Image $image
+ * @property Image $image
  * @property string $itemAffiliateWebUrl
  * @property string $itemEndDate
  * @property string $itemId
- * @property \DTS\eBaySDK\Browse\Types\Address $itemLocation
+ * @property Address $itemLocation
  * @property string $itemWebUrl
- * @property \DTS\eBaySDK\Browse\Types\TypedNameValue[] $localizedAspects
- * @property \DTS\eBaySDK\Browse\Types\MarketingPrice $marketingPrice
+ * @property TypedNameValue[] $localizedAspects
+ * @property MarketingPrice $marketingPrice
  * @property string $material
  * @property string $mpn
  * @property string $pattern
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $price
- * @property \DTS\eBaySDK\Browse\Enums\PriceDisplayConditionEnum $priceDisplayCondition
- * @property \DTS\eBaySDK\Browse\Types\ItemGroupSummary $primaryItemGroup
- * @property \DTS\eBaySDK\Browse\Types\ReviewRating $primaryProductReviewRating
+ * @property ConvertedAmount $price
+ * @property PriceDisplayConditionEnum $priceDisplayCondition
+ * @property ItemGroupSummary $primaryItemGroup
+ * @property ReviewRating $primaryProductReviewRating
  * @property string $productFicheWebUrl
  * @property integer $quantityLimitPerBuyer
- * @property \DTS\eBaySDK\Browse\Types\ItemReturnTerms $returnTerms
- * @property \DTS\eBaySDK\Browse\Types\Seller $seller
- * @property \DTS\eBaySDK\Browse\Types\ShippingOption[] $shippingOptions
- * @property \DTS\eBaySDK\Browse\Types\ShipToLocations $shipToLocations
+ * @property ItemReturnTerms $returnTerms
+ * @property Seller $seller
+ * @property ShippingOption[] $shippingOptions
+ * @property ShipToLocations $shipToLocations
  * @property string $shortDescription
  * @property string $size
  * @property string $sizeSystem
  * @property string $sizeType
  * @property string $subtitle
- * @property \DTS\eBaySDK\Browse\Types\Taxes[] $taxes
+ * @property Taxes[] $taxes
  * @property string $title
  * @property boolean $topRatedBuyingExperience
  * @property integer $uniqueBidderCount
- * @property \DTS\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class Item extends \DTS\eBaySDK\Types\BaseType
+class Item extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

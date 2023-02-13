@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest;
 
-class DeleteAFulfillmentPolicyRestRequestTest extends \PHPUnit\Framework\TestCase
+class DeleteAFulfillmentPolicyRestRequestTest extends TestCase
 {
     private $obj;
 

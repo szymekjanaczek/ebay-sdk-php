@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class ProvideShippingOrTrackingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ProvideShippingOrTrackingInfoOptionType extends BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

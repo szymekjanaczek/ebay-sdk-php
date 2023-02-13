@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\SoldAggregatedMetrics;
 
-class SoldAggregatedMetricsTest extends \PHPUnit\Framework\TestCase
+class SoldAggregatedMetricsTest extends TestCase
 {
     private $obj;
 

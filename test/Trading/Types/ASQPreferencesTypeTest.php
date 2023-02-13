@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ASQPreferencesType;
 
-class ASQPreferencesTypeTest extends \PHPUnit\Framework\TestCase
+class ASQPreferencesTypeTest extends TestCase
 {
     private $obj;
 

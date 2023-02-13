@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\RelistFixedPriceItemRequestType;
 
-class RelistFixedPriceItemRequestTypeTest extends \PHPUnit\Framework\TestCase
+class RelistFixedPriceItemRequestTypeTest extends TestCase
 {
     private $obj;
 

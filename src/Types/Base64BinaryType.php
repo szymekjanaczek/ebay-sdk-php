@@ -6,7 +6,7 @@ namespace DTS\eBaySDK\Types;
  *
  * @property string $value
  */
-class Base64BinaryType extends \DTS\eBaySDK\Types\BaseType
+class Base64BinaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

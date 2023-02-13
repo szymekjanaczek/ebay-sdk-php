@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\TimeDurationUnitEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Enums\TimeDurationUnitEnum $unit
+ * @property TimeDurationUnitEnum $unit
  * @property integer $value
  */
-class TimeDuration extends \DTS\eBaySDK\Types\BaseType
+class TimeDuration extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,39 +10,42 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ShippingRateTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $GlobalShipping
- * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingRateType $CalculatedShippingRate
+ * @property CalculatedShippingRateType $CalculatedShippingRate
  * @property boolean $ChangePaymentInstructions
  * @property boolean $InsuranceWanted
  * @property boolean $PaymentEdited
  * @property string $PaymentInstructions
- * @property \DTS\eBaySDK\Trading\Types\SalesTaxType $SalesTax
+ * @property SalesTaxType $SalesTax
  * @property string $ShippingRateErrorMessage
- * @property \DTS\eBaySDK\Trading\Enums\ShippingRateTypeCodeType $ShippingRateType
- * @property \DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType[] $ShippingServiceOptions
- * @property \DTS\eBaySDK\Trading\Types\InternationalShippingServiceOptionsType[] $InternationalShippingServiceOption
- * @property \DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType $ShippingType
+ * @property ShippingRateTypeCodeType $ShippingRateType
+ * @property ShippingServiceOptionsType[] $ShippingServiceOptions
+ * @property InternationalShippingServiceOptionsType[] $InternationalShippingServiceOption
+ * @property ShippingTypeCodeType $ShippingType
  * @property integer $SellingManagerSalesRecordNumber
- * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
+ * @property TaxTableType $TaxTable
  * @property string $ShippingServiceUsed
  * @property string $ShippingDiscountProfileID
- * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property FlatShippingDiscountType $FlatShippingDiscount
+ * @property CalculatedShippingDiscountType $CalculatedShippingDiscount
  * @property boolean $PromotionalShippingDiscount
  * @property string $InternationalShippingDiscountProfileID
- * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $InternationalFlatShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $InternationalCalculatedShippingDiscount
+ * @property FlatShippingDiscountType $InternationalFlatShippingDiscount
+ * @property CalculatedShippingDiscountType $InternationalCalculatedShippingDiscount
  * @property boolean $InternationalPromotionalShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
- * @property \DTS\eBaySDK\Trading\Types\AmountType $CODCost
+ * @property PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property AmountType $CODCost
  * @property string[] $ExcludeShipToLocation
  * @property boolean $SellerExcludeShipToLocationsPreference
- * @property \DTS\eBaySDK\Trading\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
- * @property \DTS\eBaySDK\Trading\Types\RateTableDetailsType $RateTableDetails
+ * @property ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
+ * @property RateTableDetailsType $RateTableDetails
  */
-class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,16 +10,19 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Analytics\Enums\ProgramEnum;
+use DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Analytics\Types\Cycle $cycle
+ * @property Cycle $cycle
  * @property boolean $defaultProgram
  * @property string $evaluationReason
- * @property \DTS\eBaySDK\Analytics\Types\Metric[] $metrics
- * @property \DTS\eBaySDK\Analytics\Enums\ProgramEnum $program
- * @property \DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum $standardsLevel
+ * @property Metric[] $metrics
+ * @property ProgramEnum $program
+ * @property StandardsLevelEnum $standardsLevel
  */
-class StandardsProfile extends \DTS\eBaySDK\Types\BaseType
+class StandardsProfile extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

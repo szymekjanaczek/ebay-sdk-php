@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SearchStandingStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SearchStandingStatusCodeType $Status
+ * @property SearchStandingStatusCodeType $Status
  */
-class SearchStandingDashboardType extends \DTS\eBaySDK\Types\BaseType
+class SearchStandingDashboardType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $campaign_id
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $listing_ids
  * @property string $offset
  */
-class GetAdsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetAdsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

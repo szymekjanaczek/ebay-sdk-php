@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
 /**
  *
  */
-class CheckInquiryEligibilityRestRequest extends \DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRequest
+class CheckInquiryEligibilityRestRequest extends CheckInquiryEligibilityRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,21 +10,22 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType $offerOtherSolution
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType $provideTrackingInfo
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType $issueFullRefund
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType $issuePartialRefund
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoOptionType $provideShippingInfo
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType $requestBuyerToReturn
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingOrTrackingInfoOptionType $provideShippingOrTrackingInfo
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType $provideRefundInfo
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType $contactCustomerSupport
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType $escalateToCustomerSupport
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType $appealToCustomerSupport
+ * @property OfferOtherSolutionOptionType $offerOtherSolution
+ * @property ProvideTrackingInfoOptionType $provideTrackingInfo
+ * @property IssueFullRefundOptionType $issueFullRefund
+ * @property IssuePartialRefundOptionType $issuePartialRefund
+ * @property ProvideShippingInfoOptionType $provideShippingInfo
+ * @property RequestBuyerToReturnOptionType $requestBuyerToReturn
+ * @property ProvideShippingOrTrackingInfoOptionType $provideShippingOrTrackingInfo
+ * @property ProvideRefundInfoOptionType $provideRefundInfo
+ * @property ContactCustomerSupportOptionType $contactCustomerSupport
+ * @property EscalateToCustomerSupportOptionType $escalateToCustomerSupport
+ * @property AppealToCustomerSupportOptionType $appealToCustomerSupport
  */
-class ActivityOptionListType extends \DTS\eBaySDK\Types\BaseType
+class ActivityOptionListType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

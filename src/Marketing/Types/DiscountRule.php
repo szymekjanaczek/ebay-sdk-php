@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\DiscountBenefit $discountBenefit
- * @property \DTS\eBaySDK\Marketing\Types\DiscountSpecification $discountSpecification
+ * @property DiscountBenefit $discountBenefit
+ * @property DiscountSpecification $discountSpecification
  * @property integer $ruleOrder
  */
-class DiscountRule extends \DTS\eBaySDK\Types\BaseType
+class DiscountRule extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

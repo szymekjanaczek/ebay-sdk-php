@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $DisputeID
  */
-class GetDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetDisputeRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

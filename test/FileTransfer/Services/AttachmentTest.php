@@ -1,11 +1,16 @@
 <?php
 namespace DTS\eBaySDK\Test\FileTransfer\Services;
 
+use PHPUnit\Framework\TestCase;
+use DTS\eBaySDK\FileTransfer\Types\UploadFileRequest;
+use DTS\eBaySDK\FileTransfer\Types\FileAttachment;
+use DTS\eBaySDK\FileTransfer\Types\Data;
+use DTS\eBaySDK\FileTransfer\Types\XopInclude;
 use DTS\eBaySDK\FileTransfer\Services\FileTransferService;
 use DTS\eBaySDK\FileTransfer\Types;
 use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
-class AttachmentTest extends \PHPUnit\Framework\TestCase
+class AttachmentTest extends TestCase
 {
     public function testAttachmentFieldIsSetCorrectlyInRequest()
     {
@@ -18,13 +23,13 @@ class AttachmentTest extends \PHPUnit\Framework\TestCase
         ]);
 
         // Calling the operation will not set the attachment field if there is no attachment.
-        $r = new Types\UploadFileRequest();
+        $r = new UploadFileRequest();
         $this->assertEquals(null, $r->fileAttachment);
         $s->uploadFile($r);
         $this->assertEquals(null, $r->fileAttachment);
 
         // Calling the operation results in the attachment field been set by the service if there is an attachment.
-        $r = new Types\UploadFileRequest();
+        $r = new UploadFileRequest();
         $r->attachment('123ABC');
         $this->assertEquals(null, $r->fileAttachment);
         $s->uploadFile($r);
@@ -35,9 +40,9 @@ class AttachmentTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(6, $r->fileAttachment->Size);
 
         // Calling the operation results in the attachment field been set by the service if there is an attachment.
-        $r = new Types\UploadFileRequest();
+        $r = new UploadFileRequest();
         $r->attachment('123ABC');
-        $r->fileAttachment = new Types\FileAttachment();
+        $r->fileAttachment = new FileAttachment();
         $this->assertEquals(null, $r->fileAttachment->Data);
         $this->assertEquals(null, $r->fileAttachment->Size);
         $s->uploadFile($r);
@@ -48,11 +53,11 @@ class AttachmentTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(6, $r->fileAttachment->Size);
 
         // Calling the operation shouldn't modify an existing file attachment.
-        $r = new Types\UploadFileRequest();
+        $r = new UploadFileRequest();
         $r->attachment('123ABC');
-        $r->fileAttachment = new Types\FileAttachment();
-        $r->fileAttachment->Data = new Types\Data();
-        $r->fileAttachment->Data->xopInclude = new Types\XopInclude();
+        $r->fileAttachment = new FileAttachment();
+        $r->fileAttachment->Data = new Data();
+        $r->fileAttachment->Data->xopInclude = new XopInclude();
         $r->fileAttachment->Data->xopInclude->href = '123';
         $r->fileAttachment->Size = 8;
         $s->uploadFile($r);

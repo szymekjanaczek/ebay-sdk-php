@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property DateTime $creationDate
  * @property string $fileData
  * @property string $fileFormat
  * @property string $fileId
@@ -21,7 +22,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $resizedFileData
  * @property string $submitter
  */
-class ReturnFileType extends \DTS\eBaySDK\Types\BaseType
+class ReturnFileType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Taxonomy\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\Category $category
+ * @property Category $category
  * @property integer $categoryTreeNodeLevel
  * @property \DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode[] $childCategoryTreeNodes
  * @property boolean $leafCategoryTreeNode
  * @property string $parentCategoryTreeNodeHref
  */
-class CategoryTreeNode extends \DTS\eBaySDK\Types\BaseType
+class CategoryTreeNode extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

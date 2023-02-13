@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\PricingTreatmentCodeType;
 
-class PricingTreatmentCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PricingTreatmentCodeTypeTest extends TestCase
 {
     private $obj;
 

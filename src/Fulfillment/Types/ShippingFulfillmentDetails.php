@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\LineItemReference[] $lineItems
+ * @property LineItemReference[] $lineItems
  * @property string $shippedDate
  * @property string $shippingCarrierCode
  * @property string $trackingNumber
  */
-class ShippingFulfillmentDetails extends \DTS\eBaySDK\Types\BaseType
+class ShippingFulfillmentDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

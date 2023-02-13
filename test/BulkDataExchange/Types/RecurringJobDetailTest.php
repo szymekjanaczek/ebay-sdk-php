@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail;
 
-class RecurringJobDetailTest extends \PHPUnit\Framework\TestCase
+class RecurringJobDetailTest extends TestCase
 {
     private $obj;
 

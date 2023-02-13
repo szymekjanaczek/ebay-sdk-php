@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetSellingManagerAlertsRequestType;
 
-class GetSellingManagerAlertsRequestTypeTest extends \PHPUnit\Framework\TestCase
+class GetSellingManagerAlertsRequestTypeTest extends TestCase
 {
     private $obj;
 

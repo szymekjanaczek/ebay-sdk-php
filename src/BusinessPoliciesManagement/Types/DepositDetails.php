@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $daysToFullPayment
  * @property integer $hoursToDeposit
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $depositAmount
+ * @property Amount $depositAmount
  */
-class DepositDetails extends \DTS\eBaySDK\Types\BaseType
+class DepositDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $returnId
  */
-class MarkReturnRefundSentRestRequest extends \DTS\eBaySDK\PostOrder\Types\MarkRefundSentRequest
+class MarkReturnRefundSentRestRequest extends MarkRefundSentRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

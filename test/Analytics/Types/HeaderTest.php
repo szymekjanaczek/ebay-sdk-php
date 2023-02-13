@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Types\Header;
 
-class HeaderTest extends \PHPUnit\Framework\TestCase
+class HeaderTest extends TestCase
 {
     private $obj;
 

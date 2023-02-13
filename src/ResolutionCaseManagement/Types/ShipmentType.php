@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $trackingNumber
  * @property string $carrierUsed
  * @property string $deliveryStatus
- * @property \DateTime $deliveryDate
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $shippingCost
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Address $shippingAddress
+ * @property DateTime $deliveryDate
+ * @property Amount $shippingCost
+ * @property Address $shippingAddress
  */
-class ShipmentType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

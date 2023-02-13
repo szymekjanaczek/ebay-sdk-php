@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CountSummaryType[] $countSummary
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType[] $members
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property CountSummaryType[] $countSummary
+ * @property ReturnSummaryType[] $members
+ * @property PaginationOutput $paginationOutput
  * @property integer $total
  */
-class GetSummaryResponse extends \DTS\eBaySDK\Types\BaseType
+class GetSummaryResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

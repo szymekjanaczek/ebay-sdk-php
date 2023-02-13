@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType;
 
-class EnumerationDetailTypeTest extends \PHPUnit\Framework\TestCase
+class EnumerationDetailTypeTest extends TestCase
 {
     private $obj;
 

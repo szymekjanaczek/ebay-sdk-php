@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestRequest;
 
-class GetMetadataForAllReportsRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetMetadataForAllReportsRestRequestTest extends TestCase
 {
     private $obj;
 

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Program[] $programs
+ * @property Program[] $programs
  */
-class Programs extends \DTS\eBaySDK\Types\BaseType
+class Programs extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

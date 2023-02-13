@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Finding\Types;
  *
  * @property string $keywords
  */
-class GetSearchKeywordsRecommendationRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
+class GetSearchKeywordsRecommendationRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

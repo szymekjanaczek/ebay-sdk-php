@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType $DisplayType
+ * @property StoreCustomListingHeaderDisplayCodeType $DisplayType
  * @property boolean $Logo
  * @property boolean $SearchBox
- * @property \DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType[] $LinkToInclude
+ * @property StoreCustomListingHeaderLinkType[] $LinkToInclude
  * @property boolean $AddToFavoriteStores
  * @property boolean $SignUpForStoreNewsletter
  */
-class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
+class StoreCustomListingHeaderType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

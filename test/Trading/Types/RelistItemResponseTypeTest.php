@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\RelistItemResponseType;
 
-class RelistItemResponseTypeTest extends \PHPUnit\Framework\TestCase
+class RelistItemResponseTypeTest extends TestCase
 {
     private $obj;
 

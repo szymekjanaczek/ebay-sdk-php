@@ -10,20 +10,30 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\BoldTitleCodeType;
+use DTS\eBaySDK\Trading\Enums\BorderCodeType;
+use DTS\eBaySDK\Trading\Enums\HighlightCodeType;
+use DTS\eBaySDK\Trading\Enums\GiftIconCodeType;
+use DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType;
+use DTS\eBaySDK\Trading\Enums\FeaturedFirstCodeType;
+use DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType;
+use DTS\eBaySDK\Trading\Enums\ProPackCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\BoldTitleCodeType $BoldTitle
- * @property \DTS\eBaySDK\Trading\Enums\BorderCodeType $Border
- * @property \DTS\eBaySDK\Trading\Enums\HighlightCodeType $Highlight
- * @property \DTS\eBaySDK\Trading\Enums\GiftIconCodeType $GiftIcon
- * @property \DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType $HomePageFeatured
- * @property \DTS\eBaySDK\Trading\Enums\FeaturedFirstCodeType $FeaturedFirst
- * @property \DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType $FeaturedPlus
- * @property \DTS\eBaySDK\Trading\Enums\ProPackCodeType $ProPack
+ * @property BoldTitleCodeType $BoldTitle
+ * @property BorderCodeType $Border
+ * @property HighlightCodeType $Highlight
+ * @property GiftIconCodeType $GiftIcon
+ * @property HomePageFeaturedCodeType $HomePageFeatured
+ * @property FeaturedFirstCodeType $FeaturedFirst
+ * @property FeaturedPlusCodeType $FeaturedPlus
+ * @property ProPackCodeType $ProPack
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ListingFeatureDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

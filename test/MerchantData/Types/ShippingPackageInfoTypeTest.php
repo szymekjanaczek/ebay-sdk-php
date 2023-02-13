@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ShippingPackageInfoType;
 
-class ShippingPackageInfoTypeTest extends \PHPUnit\Framework\TestCase
+class ShippingPackageInfoTypeTest extends TestCase
 {
     private $obj;
 

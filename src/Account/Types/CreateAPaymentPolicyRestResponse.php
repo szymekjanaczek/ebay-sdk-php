@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class CreateAPaymentPolicyRestResponse extends \DTS\eBaySDK\Account\Types\SetPaymentPolicyResponse
+class CreateAPaymentPolicyRestResponse extends SetPaymentPolicyResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

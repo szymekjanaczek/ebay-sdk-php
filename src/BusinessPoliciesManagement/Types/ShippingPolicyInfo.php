@@ -10,6 +10,8 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $shippingPolicyName
@@ -19,21 +21,21 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $dispatchTimeReason
  * @property string $shippingOption
  * @property string[] $excludeShipToLocation
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo $shippingProfileDiscountInfo
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping $freightShipping
+ * @property ShippingProfileDiscountInfo $shippingProfileDiscountInfo
+ * @property FreightShipping $freightShipping
  * @property string[] $shipToLocations
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService[] $domesticShippingPolicyInfoService
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService[] $intlShippingPolicyInfoService
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance $insurance
+ * @property ShippingPolicyInfoService[] $domesticShippingPolicyInfoService
+ * @property ShippingPolicyInfoService[] $intlShippingPolicyInfoService
+ * @property Insurance $insurance
  * @property string $intlRateTable
  * @property string $domesticRateTable
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $packagingHandlingCosts
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $internationalPackagingHandlingCosts
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode $shippingPolicyCurrency
+ * @property Amount $packagingHandlingCosts
+ * @property Amount $internationalPackagingHandlingCosts
+ * @property IsoCurrencyCode $shippingPolicyCurrency
  * @property boolean $GlobalShipping
  * @property boolean $EligibleForPickupDropOff
  */
-class ShippingPolicyInfo extends \DTS\eBaySDK\Types\BaseType
+class ShippingPolicyInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

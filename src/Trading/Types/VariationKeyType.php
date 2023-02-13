@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property NameValueListArrayType $VariationSpecifics
  */
-class VariationKeyType extends \DTS\eBaySDK\Types\BaseType
+class VariationKeyType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

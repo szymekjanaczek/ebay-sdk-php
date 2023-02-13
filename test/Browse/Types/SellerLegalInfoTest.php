@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\SellerLegalInfo;
 
-class SellerLegalInfoTest extends \PHPUnit\Framework\TestCase
+class SellerLegalInfoTest extends TestCase
 {
     private $obj;
 

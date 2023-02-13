@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\BuyerSatisfactionStatusCodeType;
 
-class BuyerSatisfactionStatusCodeTypeTest extends \PHPUnit\Framework\TestCase
+class BuyerSatisfactionStatusCodeTypeTest extends TestCase
 {
     private $obj;
 

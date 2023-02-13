@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ContactHoursDetailsType;
 
-class ContactHoursDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class ContactHoursDetailsTypeTest extends TestCase
 {
     private $obj;
 

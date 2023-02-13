@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\AspectDistribution[] $aspectDistributions
- * @property \DTS\eBaySDK\Browse\Types\BuyingOptionDistribution[] $buyingOptionDistributions
- * @property \DTS\eBaySDK\Browse\Types\CategoryDistribution[] $categoryDistributions
- * @property \DTS\eBaySDK\Browse\Types\ConditionDistribution[] $conditionDistributions
+ * @property AspectDistribution[] $aspectDistributions
+ * @property BuyingOptionDistribution[] $buyingOptionDistributions
+ * @property CategoryDistribution[] $categoryDistributions
+ * @property ConditionDistribution[] $conditionDistributions
  * @property string $dominantCategoryId
  */
-class Refinement extends \DTS\eBaySDK\Types\BaseType
+class Refinement extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

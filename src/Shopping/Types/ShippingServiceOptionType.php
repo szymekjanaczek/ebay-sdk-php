@@ -10,24 +10,26 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingInsuranceCost
+ * @property AmountType $ShippingInsuranceCost
  * @property string $ShippingServiceName
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingServiceCost
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingServiceAdditionalCost
+ * @property AmountType $ShippingServiceCost
+ * @property AmountType $ShippingServiceAdditionalCost
  * @property integer $ShippingServicePriority
  * @property boolean $ExpeditedService
  * @property integer $ShippingTimeMin
  * @property integer $ShippingTimeMax
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingSurcharge
+ * @property AmountType $ShippingSurcharge
  * @property string[] $ShipsTo
- * @property \DateTime $EstimatedDeliveryMinTime
- * @property \DateTime $EstimatedDeliveryMaxTime
+ * @property DateTime $EstimatedDeliveryMinTime
+ * @property DateTime $EstimatedDeliveryMaxTime
  * @property boolean $FastAndFree
- * @property \DateTime $ShippingServiceCutOffTime
+ * @property DateTime $ShippingServiceCutOffTime
  */
-class ShippingServiceOptionType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServiceOptionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

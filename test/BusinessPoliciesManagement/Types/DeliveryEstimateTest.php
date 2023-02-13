@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimate;
 
-class DeliveryEstimateTest extends \PHPUnit\Framework\TestCase
+class DeliveryEstimateTest extends TestCase
 {
     private $obj;
 

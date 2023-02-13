@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
  * @property integer $Count
  */
-class HistogramEntryType extends \DTS\eBaySDK\Types\BaseType
+class HistogramEntryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

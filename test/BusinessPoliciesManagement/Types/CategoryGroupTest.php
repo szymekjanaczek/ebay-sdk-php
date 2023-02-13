@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup;
 
-class CategoryGroupTest extends \PHPUnit\Framework\TestCase
+class CategoryGroupTest extends TestCase
 {
     private $obj;
 

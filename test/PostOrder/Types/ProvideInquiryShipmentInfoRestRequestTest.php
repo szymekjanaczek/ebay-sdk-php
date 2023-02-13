@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestRequest;
 
-class ProvideInquiryShipmentInfoRestRequestTest extends \PHPUnit\Framework\TestCase
+class ProvideInquiryShipmentInfoRestRequestTest extends TestCase
 {
     private $obj;
 

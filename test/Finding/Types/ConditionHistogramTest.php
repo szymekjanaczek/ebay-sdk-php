@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\ConditionHistogram;
 
-class ConditionHistogramTest extends \PHPUnit\Framework\TestCase
+class ConditionHistogramTest extends TestCase
 {
     private $obj;
 

@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingServiceType $ShippingServiceDetails
- * @property \DTS\eBaySDK\Trading\Types\AddressType $ShipToAddress
+ * @property MultiLegShippingServiceType $ShippingServiceDetails
+ * @property AddressType $ShipToAddress
  * @property integer $ShippingTimeMin
  * @property integer $ShippingTimeMax
  */
-class MultiLegShipmentType extends \DTS\eBaySDK\Types\BaseType
+class MultiLegShipmentType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

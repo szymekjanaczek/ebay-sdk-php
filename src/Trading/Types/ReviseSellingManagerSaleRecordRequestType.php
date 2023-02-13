@@ -15,10 +15,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
+ * @property SellingManagerSoldOrderType $SellingManagerSoldOrder
  * @property string $OrderLineItemID
  */
-class ReviseSellingManagerSaleRecordRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseSellingManagerSaleRecordRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

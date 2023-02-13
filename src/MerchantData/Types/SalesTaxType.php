@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property double $SalesTaxPercent
  * @property string $SalesTaxState
  * @property boolean $ShippingIncludedInTax
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $SalesTaxAmount
+ * @property AmountType $SalesTaxAmount
  */
-class SalesTaxType extends \DTS\eBaySDK\Types\BaseType
+class SalesTaxType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

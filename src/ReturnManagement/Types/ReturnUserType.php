@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $userId
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType $role
+ * @property ReturnUserRoleType $role
  */
-class ReturnUserType extends \DTS\eBaySDK\Types\BaseType
+class ReturnUserType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

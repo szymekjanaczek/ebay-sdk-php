@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\SimpleItemType[] $Item
+ * @property SimpleItemType[] $Item
  */
-class GetMultipleItemsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class GetMultipleItemsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

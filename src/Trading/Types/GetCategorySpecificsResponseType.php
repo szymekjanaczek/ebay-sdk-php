@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\RecommendationsType[] $Recommendations
+ * @property RecommendationsType[] $Recommendations
  * @property string $TaskReferenceID
  * @property string $FileReferenceID
  */
-class GetCategorySpecificsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetCategorySpecificsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

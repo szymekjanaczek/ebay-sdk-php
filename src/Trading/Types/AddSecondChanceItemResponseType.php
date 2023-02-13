@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property string $ItemID
- * @property \DateTime $StartTime
- * @property \DateTime $EndTime
+ * @property DateTime $StartTime
+ * @property DateTime $EndTime
  */
-class AddSecondChanceItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class AddSecondChanceItemResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Shopping\Types;
 /**
  *
  */
-class FindReviewsAndGuidesResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class FindReviewsAndGuidesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

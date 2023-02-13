@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $Duration
  */
-class ListingEnhancementDurationReferenceType extends \DTS\eBaySDK\Types\BaseType
+class ListingEnhancementDurationReferenceType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

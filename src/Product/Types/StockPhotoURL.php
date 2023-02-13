@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\URIValue $thumbnail
- * @property \DTS\eBaySDK\Product\Types\URIValue $standard
+ * @property URIValue $thumbnail
+ * @property URIValue $standard
  */
-class StockPhotoURL extends \DTS\eBaySDK\Types\BaseType
+class StockPhotoURL extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

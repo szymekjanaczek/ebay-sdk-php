@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\ReportTask;
 
-class ReportTaskTest extends \PHPUnit\Framework\TestCase
+class ReportTaskTest extends TestCase
 {
     private $obj;
 

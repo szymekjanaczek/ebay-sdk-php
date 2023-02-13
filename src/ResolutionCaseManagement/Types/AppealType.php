@@ -10,16 +10,19 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealDecisionType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealDecisionType $decision
+ * @property AppealDecisionType $decision
  * @property string $decisionReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType $decisionReasonDetail
- * @property \DateTime $decisionDate
- * @property \DateTime $creationDate
+ * @property DecisionReasonDetailType $decisionReasonDetail
+ * @property DateTime $decisionDate
+ * @property DateTime $creationDate
  * @property string $id
  */
-class AppealType extends \DTS\eBaySDK\Types\BaseType
+class AppealType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

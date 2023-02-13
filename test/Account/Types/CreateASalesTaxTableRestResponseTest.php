@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestResponse;
 
-class CreateASalesTaxTableRestResponseTest extends \PHPUnit\Framework\TestCase
+class CreateASalesTaxTableRestResponseTest extends TestCase
 {
     private $obj;
 

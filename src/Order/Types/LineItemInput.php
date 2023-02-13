@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
  * @property integer $quantity
  */
-class LineItemInput extends \DTS\eBaySDK\Types\BaseType
+class LineItemInput extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

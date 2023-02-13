@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CountryCodeType;
 /**
  *
  * @property string $ItemID
  * @property integer $QuantitySold
  * @property string $DestinationPostalCode
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $DestinationCountryCode
+ * @property CountryCodeType $DestinationCountryCode
  */
-class GetItemShippingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetItemShippingRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

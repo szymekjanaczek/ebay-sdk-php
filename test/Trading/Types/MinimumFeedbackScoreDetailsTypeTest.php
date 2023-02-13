@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType;
 
-class MinimumFeedbackScoreDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class MinimumFeedbackScoreDetailsTypeTest extends TestCase
 {
     private $obj;
 

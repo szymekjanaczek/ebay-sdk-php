@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Enums\RegionTypeEnum;
 
-class RegionTypeEnumTest extends \PHPUnit\Framework\TestCase
+class RegionTypeEnumTest extends TestCase
 {
     private $obj;
 

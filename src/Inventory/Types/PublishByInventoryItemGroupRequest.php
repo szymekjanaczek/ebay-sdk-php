@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\MarketplaceEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $inventoryItemGroupKey
- * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
+ * @property MarketplaceEnum $marketplaceId
  */
-class PublishByInventoryItemGroupRequest extends \DTS\eBaySDK\Types\BaseType
+class PublishByInventoryItemGroupRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

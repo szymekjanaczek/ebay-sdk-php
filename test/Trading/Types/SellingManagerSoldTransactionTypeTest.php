@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellingManagerSoldTransactionType;
 
-class SellingManagerSoldTransactionTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerSoldTransactionTypeTest extends TestCase
 {
     private $obj;
 

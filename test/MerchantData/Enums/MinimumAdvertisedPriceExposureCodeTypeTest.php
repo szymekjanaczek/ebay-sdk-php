@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType;
 
-class MinimumAdvertisedPriceExposureCodeTypeTest extends \PHPUnit\Framework\TestCase
+class MinimumAdvertisedPriceExposureCodeTypeTest extends TestCase
 {
     private $obj;
 

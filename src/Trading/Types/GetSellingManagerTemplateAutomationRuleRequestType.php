@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $SaleTemplateID
  */
-class GetSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerTemplateAutomationRuleRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

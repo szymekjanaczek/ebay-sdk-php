@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Order\Types;
  *
  * @property string $checkoutSessionId
  */
-class UpdatePaymentInfoRestRequest extends \DTS\eBaySDK\Order\Types\UpdatePaymentInformation
+class UpdatePaymentInfoRestRequest extends UpdatePaymentInformation
 {
     /**
      * @var array Properties belonging to objects of this class.

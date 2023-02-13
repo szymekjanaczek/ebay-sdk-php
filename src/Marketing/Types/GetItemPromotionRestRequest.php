@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $promotion_id
  */
-class GetItemPromotionRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetItemPromotionRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

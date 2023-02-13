@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\HandlingNameCodeType;
 
-class HandlingNameCodeTypeTest extends \PHPUnit\Framework\TestCase
+class HandlingNameCodeTypeTest extends TestCase
 {
     private $obj;
 

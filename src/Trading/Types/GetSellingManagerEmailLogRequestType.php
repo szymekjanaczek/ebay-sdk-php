@@ -15,10 +15,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ItemID
  * @property integer $TransactionID
  * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Types\TimeRangeType $EmailDateRange
+ * @property TimeRangeType $EmailDateRange
  * @property string $OrderLineItemID
  */
-class GetSellingManagerEmailLogRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerEmailLogRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

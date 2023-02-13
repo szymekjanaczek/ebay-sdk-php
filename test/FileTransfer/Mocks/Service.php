@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\FileTransfer\Mocks;
 
+use DTS\eBaySDK\FileTransfer\Services\FileTransferBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\FileTransfer\Services\FileTransferBaseService
+class Service extends FileTransferBaseService
 {
     public function __construct(array $config)
     {

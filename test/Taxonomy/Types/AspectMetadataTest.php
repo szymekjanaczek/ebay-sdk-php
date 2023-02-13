@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Taxonomy\Types\AspectMetadata;
 
-class AspectMetadataTest extends \PHPUnit\Framework\TestCase
+class AspectMetadataTest extends TestCase
 {
     private $obj;
 

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreSubscriptionType[] $Subscription
+ * @property StoreSubscriptionType[] $Subscription
  */
-class StoreSubscriptionArrayType extends \DTS\eBaySDK\Types\BaseType
+class StoreSubscriptionArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

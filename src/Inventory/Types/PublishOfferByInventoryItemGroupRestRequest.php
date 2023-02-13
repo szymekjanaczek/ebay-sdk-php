@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Inventory\Types;
 /**
  *
  */
-class PublishOfferByInventoryItemGroupRestRequest extends \DTS\eBaySDK\Inventory\Types\PublishByInventoryItemGroupRequest
+class PublishOfferByInventoryItemGroupRestRequest extends PublishByInventoryItemGroupRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

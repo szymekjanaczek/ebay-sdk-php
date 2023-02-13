@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\BuyerPackageEnclosureType[] $BuyerPackageEnclosure
+ * @property BuyerPackageEnclosureType[] $BuyerPackageEnclosure
  */
-class BuyerPackageEnclosuresType extends \DTS\eBaySDK\Types\BaseType
+class BuyerPackageEnclosuresType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

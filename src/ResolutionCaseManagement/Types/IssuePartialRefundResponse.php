@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class IssuePartialRefundResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class IssuePartialRefundResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

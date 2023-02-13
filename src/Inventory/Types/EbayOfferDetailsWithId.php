@@ -10,19 +10,20 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $availableQuantity
  * @property string $categoryId
  * @property string $listingDescription
- * @property \DTS\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
+ * @property ListingPolicies $listingPolicies
  * @property string $merchantLocationKey
- * @property \DTS\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
+ * @property PricingSummary $pricingSummary
  * @property integer $quantityLimitPerBuyer
  * @property string[] $storeCategoryNames
- * @property \DTS\eBaySDK\Inventory\Types\Tax $tax
+ * @property Tax $tax
  */
-class EbayOfferDetailsWithId extends \DTS\eBaySDK\Types\BaseType
+class EbayOfferDetailsWithId extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\HalfFinding\Types;
 /**
  *
  */
-class GetVersionResponse extends \DTS\eBaySDK\HalfFinding\Types\BaseResponse
+class GetVersionResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

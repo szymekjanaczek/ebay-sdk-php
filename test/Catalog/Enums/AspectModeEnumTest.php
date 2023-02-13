@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Enums\AspectModeEnum;
 
-class AspectModeEnumTest extends \PHPUnit\Framework\TestCase
+class AspectModeEnumTest extends TestCase
 {
     private $obj;
 

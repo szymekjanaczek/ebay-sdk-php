@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\OptInToProgramRestResponse;
 
-class OptInToProgramRestResponseTest extends \PHPUnit\Framework\TestCase
+class OptInToProgramRestResponseTest extends TestCase
 {
     private $obj;
 

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $buyerPreference
  */
-class BaseActivityOptionType extends \DTS\eBaySDK\Types\BaseType
+class BaseActivityOptionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

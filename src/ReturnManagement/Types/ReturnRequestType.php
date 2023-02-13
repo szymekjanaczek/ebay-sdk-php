@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnItemType[] $returnItem
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType $returnReason
+ * @property ReturnItemType[] $returnItem
+ * @property ReturnReasonType $returnReason
  * @property string $comments
  */
-class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
+class ReturnRequestType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

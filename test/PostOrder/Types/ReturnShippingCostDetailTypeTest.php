@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType;
 
-class ReturnShippingCostDetailTypeTest extends \PHPUnit\Framework\TestCase
+class ReturnShippingCostDetailTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\MinimumAdvertisedPriceExposureCodeType;
+use DTS\eBaySDK\Trading\Enums\PricingTreatmentCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalRetailPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MinimumAdvertisedPrice
- * @property \DTS\eBaySDK\Trading\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
- * @property \DTS\eBaySDK\Trading\Enums\PricingTreatmentCodeType $PricingTreatment
+ * @property AmountType $OriginalRetailPrice
+ * @property AmountType $MinimumAdvertisedPrice
+ * @property MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
+ * @property PricingTreatmentCodeType $PricingTreatment
  * @property boolean $SoldOneBay
  * @property boolean $SoldOffeBay
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MadeForOutletComparisonPrice
+ * @property AmountType $MadeForOutletComparisonPrice
  */
-class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
+class DiscountPriceInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

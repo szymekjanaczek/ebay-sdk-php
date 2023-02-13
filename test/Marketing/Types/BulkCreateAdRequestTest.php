@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\BulkCreateAdRequest;
 
-class BulkCreateAdRequestTest extends \PHPUnit\Framework\TestCase
+class BulkCreateAdRequestTest extends TestCase
 {
     private $obj;
 

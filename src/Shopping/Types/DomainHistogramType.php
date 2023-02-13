@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\HistogramEntryType[] $Domain
+ * @property HistogramEntryType[] $Domain
  */
-class DomainHistogramType extends \DTS\eBaySDK\Types\BaseType
+class DomainHistogramType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

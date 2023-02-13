@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse;
 
-class GetAdsByInventoryReferenceRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetAdsByInventoryReferenceRestResponseTest extends TestCase
 {
     private $obj;
 

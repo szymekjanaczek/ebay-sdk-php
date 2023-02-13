@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
  * @property string[] $Value
  */
-class MetadataType extends \DTS\eBaySDK\Types\BaseType
+class MetadataType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestResponse;
 
-class GetSuggestedCategoriesRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetSuggestedCategoriesRestResponseTest extends TestCase
 {
     private $obj;
 

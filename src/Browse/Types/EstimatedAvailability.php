@@ -10,16 +10,20 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\AvailabilityThresholdEnum;
+use DTS\eBaySDK\Browse\Enums\DeliveryOptionsEnum;
+use DTS\eBaySDK\Browse\Enums\AvailabilityStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $availabilityThreshold
- * @property \DTS\eBaySDK\Browse\Enums\AvailabilityThresholdEnum $availabilityThresholdType
- * @property \DTS\eBaySDK\Browse\Enums\DeliveryOptionsEnum[] $deliveryOptions
- * @property \DTS\eBaySDK\Browse\Enums\AvailabilityStatusEnum $estimatedAvailabilityStatus
+ * @property AvailabilityThresholdEnum $availabilityThresholdType
+ * @property DeliveryOptionsEnum[] $deliveryOptions
+ * @property AvailabilityStatusEnum $estimatedAvailabilityStatus
  * @property integer $estimatedAvailableQuantity
  * @property integer $estimatedSoldQuantity
  */
-class EstimatedAvailability extends \DTS\eBaySDK\Types\BaseType
+class EstimatedAvailability extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

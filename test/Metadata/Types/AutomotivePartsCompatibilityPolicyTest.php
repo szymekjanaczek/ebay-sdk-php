@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy;
 
-class AutomotivePartsCompatibilityPolicyTest extends \PHPUnit\Framework\TestCase
+class AutomotivePartsCompatibilityPolicyTest extends TestCase
 {
     private $obj;
 

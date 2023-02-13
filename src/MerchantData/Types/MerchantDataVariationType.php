@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $Price
+ * @property AmountType $Price
  * @property integer $Quantity
- * @property \DTS\eBaySDK\MerchantData\Types\NameValueListArrayType $VariationSpecifics
- * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataSellingStatusType $SellingStatus
+ * @property NameValueListArrayType $VariationSpecifics
+ * @property MerchantDataSellingStatusType $SellingStatus
  */
-class MerchantDataVariationType extends \DTS\eBaySDK\Types\BaseType
+class MerchantDataVariationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

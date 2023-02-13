@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType;
 
-class PaypalINRCaseStatusTypeTest extends \PHPUnit\Framework\TestCase
+class PaypalINRCaseStatusTypeTest extends TestCase
 {
     private $obj;
 

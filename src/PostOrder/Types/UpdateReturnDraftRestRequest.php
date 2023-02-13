@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $draftId
  */
-class UpdateReturnDraftRestRequest extends \DTS\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest
+class UpdateReturnDraftRestRequest extends SetReturnCreationSessionRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

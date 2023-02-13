@@ -10,14 +10,17 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\PaymentHoldReasonCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $ExpectedReleaseDate
- * @property \DTS\eBaySDK\MerchantData\Types\RequiredSellerActionArrayType $RequiredSellerActionArray
+ * @property DateTime $ExpectedReleaseDate
+ * @property RequiredSellerActionArrayType $RequiredSellerActionArray
  * @property integer $NumOfReqSellerActions
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentHoldReasonCodeType $PaymentHoldReason
+ * @property PaymentHoldReasonCodeType $PaymentHoldReason
  */
-class PaymentHoldDetailType extends \DTS\eBaySDK\Types\BaseType
+class PaymentHoldDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

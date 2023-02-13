@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\StoreCustomPageType;
 
-class StoreCustomPageTypeTest extends \PHPUnit\Framework\TestCase
+class StoreCustomPageTypeTest extends TestCase
 {
     private $obj;
 

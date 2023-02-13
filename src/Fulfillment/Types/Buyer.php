@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $username
  */
-class Buyer extends \DTS\eBaySDK\Types\BaseType
+class Buyer extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

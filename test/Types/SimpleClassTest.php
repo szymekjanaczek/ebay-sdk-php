@@ -1,6 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
+use DateTime;
+use DateTimeZone;
+use stdClass;
 use DTS\eBaySDK\Test\Mocks\SimpleClass;
 use DTS\eBaySDK\Test\Mocks\Base64BinaryType;
 use DTS\eBaySDK\Test\Mocks\BooleanType;
@@ -11,7 +15,7 @@ use DTS\eBaySDK\Test\Mocks\StringType;
 use DTS\eBaySDK\Test\Mocks\TokenType;
 use DTS\eBaySDK\Test\Mocks\URIType;
 
-class SimpleClassTest extends \PHPUnit\Framework\TestCase
+class SimpleClassTest extends TestCase
 {
     private $obj;
 
@@ -52,7 +56,7 @@ class SimpleClassTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(false, $this->obj->booleanFalse);
         $this->assertisBool($this->obj->booleanFalse);
 
-        $date = new \DateTime('2000-01-01', new \DateTimeZone('UTC'));
+        $date = new DateTime('2000-01-01', new DateTimeZone('UTC'));
         $this->obj->DateTime = $date;
         $this->assertEquals($date, $this->obj->DateTime);
         $this->assertInstanceOf('\DateTime', $this->obj->DateTime);
@@ -141,7 +145,7 @@ class SimpleClassTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(true, $this->obj->anyType);
         $this->obj->anyType = false;
         $this->assertEquals(false, $this->obj->anyType);
-        $date = new \DateTime('2000-01-01', new \DateTimeZone('UTC'));
+        $date = new DateTime('2000-01-01', new DateTimeZone('UTC'));
         $this->obj->anyType = $date;
         $this->assertEquals($date, $this->obj->anyType);
         $this->obj->anyType = [1, 2, 3];
@@ -154,7 +158,7 @@ class SimpleClassTest extends \PHPUnit\Framework\TestCase
         $this->obj->anyTypes[] = 1.23;
         $this->obj->anyTypes[] = true;
         $this->obj->anyTypes[] = false;
-        $date = new \DateTime('2000-01-01', new \DateTimeZone('UTC'));
+        $date = new DateTime('2000-01-01', new DateTimeZone('UTC'));
         $this->obj->anyTypes[] = $date;
         $this->obj->anyTypes[] = [1, 2, 3];
         $this->assertEquals(7, count($this->obj->anyTypes));
@@ -238,7 +242,7 @@ class SimpleClassTest extends \PHPUnit\Framework\TestCase
 
     public function testCanGetElementMeta()
     {
-        $meta = new \stdClass();
+        $meta = new stdClass();
         $meta->propertyName = 'SimpleClass';
         $meta->phpType = 'DTS\eBaySDK\Test\Mocks\SimpleClass';
         $meta->repeatable = false;

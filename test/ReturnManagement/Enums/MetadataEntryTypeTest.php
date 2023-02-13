@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Enums\MetadataEntryType;
 
-class MetadataEntryTypeTest extends \PHPUnit\Framework\TestCase
+class MetadataEntryTypeTest extends TestCase
 {
     private $obj;
 

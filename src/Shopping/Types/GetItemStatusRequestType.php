@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Shopping\Types;
  *
  * @property string[] $ItemID
  */
-class GetItemStatusRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class GetItemStatusRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

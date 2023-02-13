@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\InventoryItemGroup;
 
-class InventoryItemGroupTest extends \PHPUnit\Framework\TestCase
+class InventoryItemGroupTest extends TestCase
 {
     private $obj;
 

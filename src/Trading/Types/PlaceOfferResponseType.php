@@ -12,12 +12,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
+ * @property SellingStatusType $SellingStatus
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Types\BestOfferType $BestOffer
+ * @property BestOfferType $BestOffer
  * @property string $OrderLineItemID
  */
-class PlaceOfferResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class PlaceOfferResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

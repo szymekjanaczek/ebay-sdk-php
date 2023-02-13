@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportResponse;
 
-class AppealToCustomerSupportResponseTest extends \PHPUnit\Framework\TestCase
+class AppealToCustomerSupportResponseTest extends TestCase
 {
     private $obj;
 

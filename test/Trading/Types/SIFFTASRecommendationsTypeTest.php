@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SIFFTASRecommendationsType;
 
-class SIFFTASRecommendationsTypeTest extends \PHPUnit\Framework\TestCase
+class SIFFTASRecommendationsTypeTest extends TestCase
 {
     private $obj;
 

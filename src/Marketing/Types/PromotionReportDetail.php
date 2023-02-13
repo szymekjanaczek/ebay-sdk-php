@@ -10,25 +10,26 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Amount $averageItemDiscount
- * @property \DTS\eBaySDK\Marketing\Types\Amount $averageItemRevenue
- * @property \DTS\eBaySDK\Marketing\Types\Amount $averageOrderDiscount
- * @property \DTS\eBaySDK\Marketing\Types\Amount $averageOrderRevenue
+ * @property Amount $averageItemDiscount
+ * @property Amount $averageItemRevenue
+ * @property Amount $averageOrderDiscount
+ * @property Amount $averageOrderRevenue
  * @property string $averageOrderSize
- * @property \DTS\eBaySDK\Marketing\Types\Amount $baseSale
+ * @property Amount $baseSale
  * @property integer $itemsSoldQuantity
  * @property integer $numberOfOrdersSold
  * @property string $percentageSalesLift
  * @property string $promotionHref
  * @property string $promotionId
  * @property string $promotionReportId
- * @property \DTS\eBaySDK\Marketing\Types\Amount $promotionSale
- * @property \DTS\eBaySDK\Marketing\Types\Amount $totalDiscount
- * @property \DTS\eBaySDK\Marketing\Types\Amount $totalSale
+ * @property Amount $promotionSale
+ * @property Amount $totalDiscount
+ * @property Amount $totalSale
  */
-class PromotionReportDetail extends \DTS\eBaySDK\Types\BaseType
+class PromotionReportDetail extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

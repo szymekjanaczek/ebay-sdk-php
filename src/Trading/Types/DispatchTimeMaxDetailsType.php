@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $DispatchTimeMax
  * @property string $Description
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  * @property boolean $ExtendedHandling
  */
-class DispatchTimeMaxDetailsType extends \DTS\eBaySDK\Types\BaseType
+class DispatchTimeMaxDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

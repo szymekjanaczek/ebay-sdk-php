@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $additionalImageUrls
- * @property \DTS\eBaySDK\Catalog\Types\Aspect[] $aspects
+ * @property Aspect[] $aspects
  * @property string $brand
  * @property string $description
  * @property string[] $ean
@@ -27,7 +28,7 @@ namespace DTS\eBaySDK\Catalog\Types;
  * @property string[] $upc
  * @property string $version
  */
-class SuggestedProduct extends \DTS\eBaySDK\Types\BaseType
+class SuggestedProduct extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

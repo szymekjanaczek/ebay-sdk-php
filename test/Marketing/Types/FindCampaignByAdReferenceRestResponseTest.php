@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestResponse;
 
-class FindCampaignByAdReferenceRestResponseTest extends \PHPUnit\Framework\TestCase
+class FindCampaignByAdReferenceRestResponseTest extends TestCase
 {
     private $obj;
 

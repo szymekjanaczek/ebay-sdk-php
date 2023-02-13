@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $FeeDescription
- * @property \DTS\eBaySDK\MerchantData\Types\NonUsageTransactionType[] $Transaction
+ * @property NonUsageTransactionType[] $Transaction
  */
-class AccountTransactionType extends \DTS\eBaySDK\Types\BaseType
+class AccountTransactionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

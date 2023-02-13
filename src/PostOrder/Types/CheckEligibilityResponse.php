@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType $eligibilityResultPerItem
+ * @property ReturnEligibilityPerItemType $eligibilityResultPerItem
  */
-class CheckEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
+class CheckEligibilityResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

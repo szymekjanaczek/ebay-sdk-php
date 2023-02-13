@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\SubmitFileResponse;
 
-class SubmitFileResponseTest extends \PHPUnit\Framework\TestCase
+class SubmitFileResponseTest extends TestCase
 {
     private $obj;
 

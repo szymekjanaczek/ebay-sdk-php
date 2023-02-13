@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Finding\Mocks;
 
+use DTS\eBaySDK\Finding\Services\FindingBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Finding\Services\FindingBaseService
+class Service extends FindingBaseService
 {
     public function __construct(array $config)
     {

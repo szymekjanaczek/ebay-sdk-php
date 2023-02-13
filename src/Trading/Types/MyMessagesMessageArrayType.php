@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageType[] $Message
+ * @property MyMessagesMessageType[] $Message
  */
-class MyMessagesMessageArrayType extends \DTS\eBaySDK\Types\BaseType
+class MyMessagesMessageArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

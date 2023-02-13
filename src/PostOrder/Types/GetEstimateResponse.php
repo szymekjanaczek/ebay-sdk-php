@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\EstimatedRefundInfoType $refundInfo
- * @property \DTS\eBaySDK\PostOrder\Types\EstimatedShippingInfoType $returnShippingCostInfo
+ * @property EstimatedRefundInfoType $refundInfo
+ * @property EstimatedShippingInfoType $returnShippingCostInfo
  */
-class GetEstimateResponse extends \DTS\eBaySDK\Types\BaseType
+class GetEstimateResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

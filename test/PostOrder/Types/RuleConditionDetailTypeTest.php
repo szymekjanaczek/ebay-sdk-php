@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType;
 
-class RuleConditionDetailTypeTest extends \PHPUnit\Framework\TestCase
+class RuleConditionDetailTypeTest extends TestCase
 {
     private $obj;
 

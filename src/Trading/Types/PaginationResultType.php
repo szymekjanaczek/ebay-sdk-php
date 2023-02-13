@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $TotalNumberOfPages
  * @property integer $TotalNumberOfEntries
  */
-class PaginationResultType extends \DTS\eBaySDK\Types\BaseType
+class PaginationResultType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class RequestBuyerToReturnOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class RequestBuyerToReturnOptionType extends BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\FileTransfer\Types;
 /**
  *
  */
-class UploadFileResponse extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceResponse
+class UploadFileResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

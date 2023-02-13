@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ReviseSellingManagerInventoryFolderRequestType;
 
-class ReviseSellingManagerInventoryFolderRequestTypeTest extends \PHPUnit\Framework\TestCase
+class ReviseSellingManagerInventoryFolderRequestTypeTest extends TestCase
 {
     private $obj;
 

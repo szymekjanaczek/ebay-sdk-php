@@ -13,11 +13,11 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $SaleTemplateID
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoListType $AutomatedListingRule
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType $AutomatedRelistingRule
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType $AutomatedSecondChanceOfferRule
+ * @property SellingManagerAutoListType $AutomatedListingRule
+ * @property SellingManagerAutoRelistType $AutomatedRelistingRule
+ * @property SellingManagerAutoSecondChanceOfferType $AutomatedSecondChanceOfferRule
  */
-class SetSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetSellingManagerTemplateAutomationRuleRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

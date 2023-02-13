@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\TimeRangeType;
 
-class TimeRangeTypeTest extends \PHPUnit\Framework\TestCase
+class TimeRangeTypeTest extends TestCase
 {
     private $obj;
 

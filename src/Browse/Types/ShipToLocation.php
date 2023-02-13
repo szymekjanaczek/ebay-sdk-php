@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\CountryCodeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Enums\CountryCodeEnum $country
+ * @property CountryCodeEnum $country
  * @property string $postalCode
  */
-class ShipToLocation extends \DTS\eBaySDK\Types\BaseType
+class ShipToLocation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\ConflictingProduct[] $conflictingProducts
- * @property \DTS\eBaySDK\Catalog\Types\Correction[] $corrections
+ * @property ConflictingProduct[] $conflictingProducts
+ * @property Correction[] $corrections
  * @property string $epid
  * @property string $productHref
- * @property \DTS\eBaySDK\Catalog\Types\Violation[] $violations
+ * @property Violation[] $violations
  */
-class ProcessResolution extends \DTS\eBaySDK\Types\BaseType
+class ProcessResolution extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

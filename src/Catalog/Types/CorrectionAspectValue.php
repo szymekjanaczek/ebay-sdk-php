@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $newValue
  * @property string $value
  */
-class CorrectionAspectValue extends \DTS\eBaySDK\Types\BaseType
+class CorrectionAspectValue extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

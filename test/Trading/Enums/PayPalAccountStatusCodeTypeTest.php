@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\PayPalAccountStatusCodeType;
 
-class PayPalAccountStatusCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PayPalAccountStatusCodeTypeTest extends TestCase
 {
     private $obj;
 

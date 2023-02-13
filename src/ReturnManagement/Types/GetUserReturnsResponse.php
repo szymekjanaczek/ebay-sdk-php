@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType[] $returns
- * @property \DTS\eBaySDK\ReturnManagement\Types\PaginationOutput $paginationOutput
+ * @property ReturnSummaryType[] $returns
+ * @property PaginationOutput $paginationOutput
  */
-class GetUserReturnsResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class GetUserReturnsResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

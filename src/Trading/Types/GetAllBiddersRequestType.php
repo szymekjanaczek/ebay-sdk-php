@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\GetAllBiddersModeCodeType;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\GetAllBiddersModeCodeType $CallMode
+ * @property GetAllBiddersModeCodeType $CallMode
  * @property boolean $IncludeBiddingSummary
  */
-class GetAllBiddersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetAllBiddersRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

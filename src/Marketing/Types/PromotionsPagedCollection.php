@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
@@ -17,10 +18,10 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $next
  * @property integer $offset
  * @property string $prev
- * @property \DTS\eBaySDK\Marketing\Types\PromotionDetail[] $promotions
+ * @property PromotionDetail[] $promotions
  * @property integer $total
  */
-class PromotionsPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class PromotionsPagedCollection extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

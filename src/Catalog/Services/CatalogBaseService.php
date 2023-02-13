@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Catalog\Services;
 
+use DTS\eBaySDK\Services\BaseRestService;
 /**
  * Base class for the Catalog service.
  */
-class CatalogBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class CatalogBaseService extends BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +45,7 @@ class CatalogBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Catalog\Services\CatalogService::API_VERSION,
+                'default' => CatalogService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType;
 
-class CalculatedHandlingDiscountTypeTest extends \PHPUnit\Framework\TestCase
+class CalculatedHandlingDiscountTypeTest extends TestCase
 {
     private $obj;
 

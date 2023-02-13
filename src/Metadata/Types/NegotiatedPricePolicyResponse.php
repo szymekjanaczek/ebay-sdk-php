@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicy[] $negotiatedPricePolicies
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property NegotiatedPricePolicy[] $negotiatedPricePolicies
+ * @property ErrorDetailV3[] $warnings
  */
-class NegotiatedPricePolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class NegotiatedPricePolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

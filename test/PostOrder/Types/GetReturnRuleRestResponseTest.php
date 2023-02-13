@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\GetReturnRuleRestResponse;
 
-class GetReturnRuleRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetReturnRuleRestResponseTest extends TestCase
 {
     private $obj;
 

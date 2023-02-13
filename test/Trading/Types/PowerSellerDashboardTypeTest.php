@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\PowerSellerDashboardType;
 
-class PowerSellerDashboardTypeTest extends \PHPUnit\Framework\TestCase
+class PowerSellerDashboardTypeTest extends TestCase
 {
     private $obj;
 

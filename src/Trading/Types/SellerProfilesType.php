@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
- * @property \DTS\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
- * @property \DTS\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile
+ * @property SellerShippingProfileType $SellerShippingProfile
+ * @property SellerReturnProfileType $SellerReturnProfile
+ * @property SellerPaymentProfileType $SellerPaymentProfile
  */
-class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
+class SellerProfilesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

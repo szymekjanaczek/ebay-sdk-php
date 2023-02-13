@@ -10,17 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ListingTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\OrderStatusFilterCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $Include
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
- * @property \DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType $Sort
+ * @property ListingTypeCodeType $ListingType
+ * @property ItemSortTypeCodeType $Sort
  * @property integer $DurationInDays
  * @property boolean $IncludeNotes
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Enums\OrderStatusFilterCodeType $OrderStatusFilter
+ * @property PaginationType $Pagination
+ * @property OrderStatusFilterCodeType $OrderStatusFilter
  */
-class ItemListCustomizationType extends \DTS\eBaySDK\Types\BaseType
+class ItemListCustomizationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

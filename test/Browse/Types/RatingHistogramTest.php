@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\RatingHistogram;
 
-class RatingHistogramTest extends \PHPUnit\Framework\TestCase
+class RatingHistogramTest extends TestCase
 {
     private $obj;
 

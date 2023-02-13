@@ -10,22 +10,23 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $additionalShippingCostPerUnit
+ * @property ConvertedAmount $additionalShippingCostPerUnit
  * @property string $cutOffDateUsedForEstimate
  * @property string $maxEstimatedDeliveryDate
  * @property string $minEstimatedDeliveryDate
  * @property integer $quantityUsedForEstimate
  * @property string $shippingCarrierCode
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $shippingCost
+ * @property ConvertedAmount $shippingCost
  * @property string $shippingCostType
  * @property string $shippingServiceCode
- * @property \DTS\eBaySDK\Browse\Types\ShipToLocation $shipToLocationUsedForEstimate
+ * @property ShipToLocation $shipToLocationUsedForEstimate
  * @property string $trademarkSymbol
  * @property string $type
  */
-class ShippingOption extends \DTS\eBaySDK\Types\BaseType
+class ShippingOption extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

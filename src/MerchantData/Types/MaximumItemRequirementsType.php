@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MaximumItemCount
  * @property integer $MinimumFeedbackScore
  */
-class MaximumItemRequirementsType extends \DTS\eBaySDK\Types\BaseType
+class MaximumItemRequirementsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

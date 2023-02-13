@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerINREscalationReasonType;
 
-class SellerINREscalationReasonTypeTest extends \PHPUnit\Framework\TestCase
+class SellerINREscalationReasonTypeTest extends TestCase
 {
     private $obj;
 

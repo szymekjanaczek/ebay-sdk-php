@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest;
 
-class BestMatchFindingServiceRequestTest extends \PHPUnit\Framework\TestCase
+class BestMatchFindingServiceRequestTest extends TestCase
 {
     private $obj;
 

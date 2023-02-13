@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest;
 
-class DeleteBundlesRequestTest extends \PHPUnit\Framework\TestCase
+class DeleteBundlesRequestTest extends TestCase
 {
     private $obj;
 

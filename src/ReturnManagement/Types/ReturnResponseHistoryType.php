@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $note
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnUserType $author
- * @property \DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType $activityDetail
- * @property \DateTime $creationDate
+ * @property ReturnUserType $author
+ * @property ActivityDetailType $activityDetail
+ * @property DateTime $creationDate
  */
-class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
+class ReturnResponseHistoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

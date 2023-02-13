@@ -10,20 +10,24 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum;
+use DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $description
- * @property \DTS\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
+ * @property DiscountRule[] $discountRules
  * @property string $endDate
- * @property \DTS\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
- * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property InventoryCriterion $inventoryCriterion
+ * @property MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
+ * @property PromotionPriorityEnum $priority
  * @property string $promotionImageUrl
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
+ * @property PromotionStatusEnum $promotionStatus
  * @property string $startDate
  */
-class ItemPromotion extends \DTS\eBaySDK\Types\BaseType
+class ItemPromotion extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

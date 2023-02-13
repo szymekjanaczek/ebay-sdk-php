@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CharitySellerStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CharitySellerStatusCodeType $CharitySellerStatus
- * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationType[] $CharityAffiliation
+ * @property CharitySellerStatusCodeType $CharitySellerStatus
+ * @property CharityAffiliationType[] $CharityAffiliation
  * @property boolean $TermsAndConditionsAccepted
  */
-class CharitySellerType extends \DTS\eBaySDK\Types\BaseType
+class CharitySellerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\DisplayPayNowButtonCodeType;
 
-class DisplayPayNowButtonCodeTypeTest extends \PHPUnit\Framework\TestCase
+class DisplayPayNowButtonCodeTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsEnabledDefinitionType;
 
-class StoreOwnerExtendedListingDurationsEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class StoreOwnerExtendedListingDurationsEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

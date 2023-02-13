@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\TaxIdentifierAttributeCodeType;
+use DTS\eBaySDK\Types\StringType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\TaxIdentifierAttributeCodeType $name
+ * @property TaxIdentifierAttributeCodeType $name
  */
-class TaxIdentifierAttributeType extends \DTS\eBaySDK\Types\StringType
+class TaxIdentifierAttributeType extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

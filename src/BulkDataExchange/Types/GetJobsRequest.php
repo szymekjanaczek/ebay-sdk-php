@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DateTime;
+use DTS\eBaySDK\BulkDataExchange\Enums\JobStatus;
 /**
  *
- * @property \DateTime $creationTimeFrom
- * @property \DateTime $creationTimeTo
+ * @property DateTime $creationTimeFrom
+ * @property DateTime $creationTimeTo
  * @property string[] $jobType
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\JobStatus[] $jobStatus
+ * @property JobStatus[] $jobStatus
  */
-class GetJobsRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class GetJobsRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

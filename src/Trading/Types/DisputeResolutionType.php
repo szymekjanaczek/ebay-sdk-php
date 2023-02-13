@@ -10,13 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DisputeResolutionRecordTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DisputeResolutionRecordTypeCodeType $DisputeResolutionRecordType
- * @property \DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType $DisputeResolutionReason
- * @property \DateTime $ResolutionTime
+ * @property DisputeResolutionRecordTypeCodeType $DisputeResolutionRecordType
+ * @property DisputeResolutionReasonCodeType $DisputeResolutionReason
+ * @property DateTime $ResolutionTime
  */
-class DisputeResolutionType extends \DTS\eBaySDK\Types\BaseType
+class DisputeResolutionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

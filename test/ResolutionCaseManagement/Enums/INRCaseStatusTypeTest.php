@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType;
 
-class INRCaseStatusTypeTest extends \PHPUnit\Framework\TestCase
+class INRCaseStatusTypeTest extends TestCase
 {
     private $obj;
 

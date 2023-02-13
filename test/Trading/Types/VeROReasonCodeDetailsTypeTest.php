@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType;
 
-class VeROReasonCodeDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class VeROReasonCodeDetailsTypeTest extends TestCase
 {
     private $obj;
 

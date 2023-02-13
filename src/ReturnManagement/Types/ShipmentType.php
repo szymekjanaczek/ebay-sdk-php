@@ -10,19 +10,22 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\ShipmentStatusType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ShipmentStatusType $shipmentStatus
+ * @property ShipmentStatusType $shipmentStatus
  * @property string $trackingNumber
  * @property string $carrierUsed
- * @property \DateTime $deliveryDate
- * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $shippingCost
- * @property \DTS\eBaySDK\ReturnManagement\Types\Address $shippingAddress
+ * @property DateTime $deliveryDate
+ * @property Amount $shippingCost
+ * @property Address $shippingAddress
  * @property string $returnMerchandiseAuthorization
- * @property \DateTime $minEstDeliveryDate
- * @property \DateTime $maxEstDeliveryDate
+ * @property DateTime $minEstDeliveryDate
+ * @property DateTime $maxEstDeliveryDate
  */
-class ShipmentType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

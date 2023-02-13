@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
- * @property \DateTime $InventoryCountLastCalculatedDate
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductType[] $SellingManagerProduct
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property DateTime $InventoryCountLastCalculatedDate
+ * @property SellingManagerProductType[] $SellingManagerProduct
+ * @property PaginationResultType $PaginationResult
  */
-class GetSellingManagerInventoryResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerInventoryResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

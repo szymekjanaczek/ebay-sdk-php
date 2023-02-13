@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType;
 
-class ShippingTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class ShippingTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

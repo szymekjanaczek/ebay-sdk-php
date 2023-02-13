@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\URLTypeCodeType;
 
-class URLTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class URLTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

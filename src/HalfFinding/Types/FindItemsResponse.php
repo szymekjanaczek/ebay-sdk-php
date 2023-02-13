@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Types\PaginationOutputType $paginationOutput
- * @property \DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType $product
+ * @property PaginationOutputType $paginationOutput
+ * @property HalfCatalogProductType $product
  */
-class FindItemsResponse extends \DTS\eBaySDK\HalfFinding\Types\BaseResponse
+class FindItemsResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

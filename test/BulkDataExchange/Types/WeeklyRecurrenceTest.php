@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence;
 
-class WeeklyRecurrenceTest extends \PHPUnit\Framework\TestCase
+class WeeklyRecurrenceTest extends TestCase
 {
     private $obj;
 

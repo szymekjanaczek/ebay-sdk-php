@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse;
 
-class GetAllSellerProfilesRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetAllSellerProfilesRestResponseTest extends TestCase
 {
     private $obj;
 

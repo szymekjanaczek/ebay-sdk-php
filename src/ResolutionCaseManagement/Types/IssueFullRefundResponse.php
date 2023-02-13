@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\RefundStatusType;
+use DateTime;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\RefundStatusType $fullRefundStatus
- * @property \DateTime $refundDate
+ * @property RefundStatusType $fullRefundStatus
+ * @property DateTime $refundDate
  */
-class IssueFullRefundResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class IssueFullRefundResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

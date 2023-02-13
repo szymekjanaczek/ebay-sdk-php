@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\PicturesType;
 
-class PicturesTypeTest extends \PHPUnit\Framework\TestCase
+class PicturesTypeTest extends TestCase
 {
     private $obj;
 

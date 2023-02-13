@@ -1,12 +1,13 @@
 <?php
 namespace DTS\eBaySDK\Test\Credentials;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Test\TestTraits\ManageEnv;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
 use DTS\eBaySDK\Credentials\Credentials;
 use InvalidArgumentException;
 
-class CredentialsProvideerTest extends \PHPUnit\Framework\TestCase
+class CredentialsProviderTest extends TestCase
 {
     use ManageEnv;
 
@@ -166,7 +167,7 @@ EOT;
         $a = CredentialsProvider::ini('foo');
         $b = CredentialsProvider::ini();
         $c = function () {
-            throw new \InvalidArgumentException('Should not be called');
+            throw new InvalidArgumentException('Should not be called');
         };
 
         $p = CredentialsProvider::chain($a, $b, $c);

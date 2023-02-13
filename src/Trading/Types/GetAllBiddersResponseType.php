@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ListingStatusCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OfferArrayType $BidArray
+ * @property OfferArrayType $BidArray
  * @property string $HighBidder
- * @property \DTS\eBaySDK\Trading\Types\AmountType $HighestBid
- * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
+ * @property AmountType $HighestBid
+ * @property ListingStatusCodeType $ListingStatus
  */
-class GetAllBiddersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetAllBiddersResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Inventory\Types;
 /**
  *
  */
-class GetListingFeesRestRequest extends \DTS\eBaySDK\Inventory\Types\OfferKeysWithId
+class GetListingFeesRestRequest extends OfferKeysWithId
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\AspectValueDistribution[] $aspectValueDistributions
+ * @property AspectValueDistribution[] $aspectValueDistributions
  * @property string $localizedAspectName
  */
-class AspectDistribution extends \DTS\eBaySDK\Types\BaseType
+class AspectDistribution extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

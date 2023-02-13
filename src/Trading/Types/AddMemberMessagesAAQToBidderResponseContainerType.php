@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\AckCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $CorrelationID
- * @property \DTS\eBaySDK\Trading\Enums\AckCodeType $Ack
+ * @property AckCodeType $Ack
  */
-class AddMemberMessagesAAQToBidderResponseContainerType extends \DTS\eBaySDK\Types\BaseType
+class AddMemberMessagesAAQToBidderResponseContainerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

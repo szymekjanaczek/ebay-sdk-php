@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Merchandising\Types;
 
+use DTS\eBaySDK\Merchandising\Enums\ItemFilterType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $paramName
  * @property string $paramValue
- * @property \DTS\eBaySDK\Merchandising\Enums\ItemFilterType $name
+ * @property ItemFilterType $name
  * @property string[] $value
  */
-class ItemFilter extends \DTS\eBaySDK\Types\BaseType
+class ItemFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

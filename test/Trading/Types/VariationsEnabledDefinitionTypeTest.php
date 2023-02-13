@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\VariationsEnabledDefinitionType;
 
-class VariationsEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class VariationsEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

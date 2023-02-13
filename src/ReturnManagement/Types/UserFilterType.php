@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\ReturnManagement\Enums\UserFilterRoleType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $userId
  * @property string $userLoginName
- * @property \DTS\eBaySDK\ReturnManagement\Enums\UserFilterRoleType $role
+ * @property UserFilterRoleType $role
  */
-class UserFilterType extends \DTS\eBaySDK\Types\BaseType
+class UserFilterType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

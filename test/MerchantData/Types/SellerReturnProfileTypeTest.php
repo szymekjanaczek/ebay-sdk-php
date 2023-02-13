@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\SellerReturnProfileType;
 
-class SellerReturnProfileTypeTest extends \PHPUnit\Framework\TestCase
+class SellerReturnProfileTypeTest extends TestCase
 {
     private $obj;
 

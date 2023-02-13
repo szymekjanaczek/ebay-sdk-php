@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class ProvideRefundInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ProvideRefundInfoOptionType extends BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

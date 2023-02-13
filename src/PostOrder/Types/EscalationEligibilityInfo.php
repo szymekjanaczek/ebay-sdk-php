@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $eligible
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $endTime
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $startTime
+ * @property DateTime $endTime
+ * @property DateTime $startTime
  */
-class EscalationEligibilityInfo extends \DTS\eBaySDK\Types\BaseType
+class EscalationEligibilityInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\BulkDataExchange\Enums\IncludeListingType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\IncludeListingType $includeListingType
- * @property \DTS\eBaySDK\BulkDataExchange\Types\FixedPriceItemDetails $fixedPriceItemDetails
- * @property \DTS\eBaySDK\BulkDataExchange\Types\AuctionItemDetails $auctionItemDetails
+ * @property IncludeListingType $includeListingType
+ * @property FixedPriceItemDetails $fixedPriceItemDetails
+ * @property AuctionItemDetails $auctionItemDetails
  */
-class ActiveInventoryReportFilter extends \DTS\eBaySDK\Types\BaseType
+class ActiveInventoryReportFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

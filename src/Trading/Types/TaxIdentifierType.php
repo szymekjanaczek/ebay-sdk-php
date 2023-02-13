@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ValueTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType $Type
+ * @property ValueTypeCodeType $Type
  * @property string $ID
- * @property \DTS\eBaySDK\Trading\Types\TaxIdentifierAttributeType[] $Attribute
+ * @property TaxIdentifierAttributeType[] $Attribute
  */
-class TaxIdentifierType extends \DTS\eBaySDK\Types\BaseType
+class TaxIdentifierType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

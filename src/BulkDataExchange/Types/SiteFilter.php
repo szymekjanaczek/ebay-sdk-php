@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $globalId
  */
-class SiteFilter extends \DTS\eBaySDK\Types\BaseType
+class SiteFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

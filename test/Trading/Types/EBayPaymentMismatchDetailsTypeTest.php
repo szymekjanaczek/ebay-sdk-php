@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType;
 
-class EBayPaymentMismatchDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class EBayPaymentMismatchDetailsTypeTest extends TestCase
 {
     private $obj;
 

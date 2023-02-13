@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\FileTransfer\Types;
 
+use DTS\eBaySDK\Types\StringType;
 /**
  *
  * @property string $name
  */
-class ErrorParameter extends \DTS\eBaySDK\Types\StringType
+class ErrorParameter extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

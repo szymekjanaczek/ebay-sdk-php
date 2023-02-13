@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\UserDefinedListType;
 
-class UserDefinedListTypeTest extends \PHPUnit\Framework\TestCase
+class UserDefinedListTypeTest extends TestCase
 {
     private $obj;
 

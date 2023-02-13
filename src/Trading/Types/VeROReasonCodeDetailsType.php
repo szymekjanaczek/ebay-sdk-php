@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\VeROSiteDetailType[] $VeROSiteDetail
+ * @property VeROSiteDetailType[] $VeROSiteDetail
  */
-class VeROReasonCodeDetailsType extends \DTS\eBaySDK\Types\BaseType
+class VeROReasonCodeDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

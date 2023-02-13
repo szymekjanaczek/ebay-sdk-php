@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\AbstractResponseType;
 
-class AbstractResponseTypeTest extends \PHPUnit\Framework\TestCase
+class AbstractResponseTypeTest extends TestCase
 {
     private $obj;
 

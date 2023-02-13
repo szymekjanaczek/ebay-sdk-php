@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property integer $FeedbackScore
- * @property \DateTime $RegistrationDate
+ * @property DateTime $RegistrationDate
  * @property boolean $SubscribeSA
  * @property boolean $SubscribeSAPro
  * @property boolean $SubscribeSM
  * @property boolean $SubscribeSMPro
  */
-class ValidateTestUserRegistrationRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ValidateTestUserRegistrationRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

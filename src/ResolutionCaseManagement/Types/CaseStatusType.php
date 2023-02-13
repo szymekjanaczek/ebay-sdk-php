@@ -10,19 +10,29 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\SNADCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPINRCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\ReturnCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalSNADCaseStatusType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType $INRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\SNADCaseStatusType $SNADStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPINRCaseStatusType $EBPINRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType $EBPSNADStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType $UPIStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType $cancelTransactionStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\ReturnCaseStatusType $returnStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType $PaypalINRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalSNADCaseStatusType $PaypalSNADStatus
+ * @property INRCaseStatusType $INRStatus
+ * @property SNADCaseStatusType $SNADStatus
+ * @property EBPINRCaseStatusType $EBPINRStatus
+ * @property EBPSNADCaseStatusType $EBPSNADStatus
+ * @property UPICaseStatusType $UPIStatus
+ * @property CancelTransactionCaseStatusType $cancelTransactionStatus
+ * @property ReturnCaseStatusType $returnStatus
+ * @property PaypalINRCaseStatusType $PaypalINRStatus
+ * @property PaypalSNADCaseStatusType $PaypalSNADStatus
  */
-class CaseStatusType extends \DTS\eBaySDK\Types\BaseType
+class CaseStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

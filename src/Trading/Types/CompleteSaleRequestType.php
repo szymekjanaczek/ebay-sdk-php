@@ -10,19 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ListingTypeCodeType;
 /**
  *
  * @property string $ItemID
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackInfo
+ * @property FeedbackInfoType $FeedbackInfo
  * @property boolean $Shipped
  * @property boolean $Paid
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
- * @property \DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
+ * @property ListingTypeCodeType $ListingType
+ * @property ShipmentType $Shipment
  * @property string $OrderID
  * @property string $OrderLineItemID
  */
-class CompleteSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class CompleteSaleRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

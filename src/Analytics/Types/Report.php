@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $endDate
- * @property \DTS\eBaySDK\Analytics\Types\Header $header
+ * @property Header $header
  * @property string $lastUpdatedDate
- * @property \DTS\eBaySDK\Analytics\Types\Record[] $records
+ * @property Record[] $records
  * @property string $startDate
- * @property \DTS\eBaySDK\Analytics\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class Report extends \DTS\eBaySDK\Types\BaseType
+class Report extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

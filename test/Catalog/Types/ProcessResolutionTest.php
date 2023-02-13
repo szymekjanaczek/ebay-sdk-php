@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Types\ProcessResolution;
 
-class ProcessResolutionTest extends \PHPUnit\Framework\TestCase
+class ProcessResolutionTest extends TestCase
 {
     private $obj;
 

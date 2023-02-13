@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\AuthTokenTypeCodeType;
 
-class AuthTokenTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class AuthTokenTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

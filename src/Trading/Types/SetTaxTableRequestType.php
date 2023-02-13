@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
+ * @property TaxTableType $TaxTable
  */
-class SetTaxTableRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetTaxTableRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

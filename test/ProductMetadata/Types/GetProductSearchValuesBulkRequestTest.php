@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBulkRequest;
 
-class GetProductSearchValuesBulkRequestTest extends \PHPUnit\Framework\TestCase
+class GetProductSearchValuesBulkRequestTest extends TestCase
 {
     private $obj;
 

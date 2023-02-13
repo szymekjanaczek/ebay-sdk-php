@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\BulkDataExchange\Enums\ItemEventType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType $jobAction
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\ItemEventType $filterType
+ * @property GetItemJobActionType $jobAction
+ * @property ItemEventType $filterType
  * @property boolean $includeAttributes
  * @property boolean $includeDescription
- * @property \DateTime $reportDateFrom
- * @property \DateTime $reportDateTo
+ * @property DateTime $reportDateFrom
+ * @property DateTime $reportDateTo
  * @property string[] $timeFrame
  * @property string[] $changedFieldSelector
  */
-class GetItemInfoReportFilter extends \DTS\eBaySDK\Types\BaseType
+class GetItemInfoReportFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\PromotionMethodCodeType;
 
-class PromotionMethodCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PromotionMethodCodeTypeTest extends TestCase
 {
     private $obj;
 

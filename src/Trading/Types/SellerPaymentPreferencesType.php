@@ -10,19 +10,24 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DisplayPayNowButtonCodeType;
+use DTS\eBaySDK\Trading\Enums\UPSRateOptionCodeType;
+use DTS\eBaySDK\Trading\Enums\FedExRateOptionCodeType;
+use DTS\eBaySDK\Trading\Enums\USPSRateOptionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $AlwaysUseThisPaymentAddress
- * @property \DTS\eBaySDK\Trading\Enums\DisplayPayNowButtonCodeType $DisplayPayNowButton
+ * @property DisplayPayNowButtonCodeType $DisplayPayNowButton
  * @property boolean $PayPalPreferred
  * @property string $DefaultPayPalEmailAddress
  * @property boolean $PayPalAlwaysOn
- * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
- * @property \DTS\eBaySDK\Trading\Enums\UPSRateOptionCodeType $UPSRateOption
- * @property \DTS\eBaySDK\Trading\Enums\FedExRateOptionCodeType $FedExRateOption
- * @property \DTS\eBaySDK\Trading\Enums\USPSRateOptionCodeType $USPSRateOption
+ * @property AddressType $SellerPaymentAddress
+ * @property UPSRateOptionCodeType $UPSRateOption
+ * @property FedExRateOptionCodeType $FedExRateOption
+ * @property USPSRateOptionCodeType $USPSRateOption
  */
-class SellerPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class SellerPaymentPreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

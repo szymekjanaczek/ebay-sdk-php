@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ListingEnhancementDurationReferenceType;
 
-class ListingEnhancementDurationReferenceTypeTest extends \PHPUnit\Framework\TestCase
+class ListingEnhancementDurationReferenceTypeTest extends TestCase
 {
     private $obj;
 

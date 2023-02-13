@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductSubmission[] $addProductRequest
+ * @property ProductSubmission[] $addProductRequest
  * @property string $clientBatchId
  */
-class AddProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class AddProductsRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

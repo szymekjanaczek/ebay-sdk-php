@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType;
 
-class DateRangeFilterTypeTest extends \PHPUnit\Framework\TestCase
+class DateRangeFilterTypeTest extends TestCase
 {
     private $obj;
 

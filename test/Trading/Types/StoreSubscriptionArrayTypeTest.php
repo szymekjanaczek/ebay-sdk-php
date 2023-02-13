@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType;
 
-class StoreSubscriptionArrayTypeTest extends \PHPUnit\Framework\TestCase
+class StoreSubscriptionArrayTypeTest extends TestCase
 {
     private $obj;
 

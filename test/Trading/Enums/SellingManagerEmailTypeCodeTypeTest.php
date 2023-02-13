@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\SellingManagerEmailTypeCodeType;
 
-class SellingManagerEmailTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerEmailTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

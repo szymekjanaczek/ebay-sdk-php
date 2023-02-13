@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Merchandising\Types;
 
+use DTS\eBaySDK\Merchandising\Enums\PriceTreatmentEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Merchandising\Types\Amount $originalRetailPrice
- * @property \DTS\eBaySDK\Merchandising\Enums\PriceTreatmentEnum $pricingTreatment
+ * @property Amount $originalRetailPrice
+ * @property PriceTreatmentEnum $pricingTreatment
  * @property boolean $soldOnEbay
  * @property boolean $soldOffEbay
  */
-class DiscountPriceInfo extends \DTS\eBaySDK\Types\BaseType
+class DiscountPriceInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AddTransactionConfirmationItemRequestType;
 
-class AddTransactionConfirmationItemRequestTypeTest extends \PHPUnit\Framework\TestCase
+class AddTransactionConfirmationItemRequestTypeTest extends TestCase
 {
     private $obj;
 

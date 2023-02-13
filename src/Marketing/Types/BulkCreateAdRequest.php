@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\CreateAdRequest[] $requests
+ * @property CreateAdRequest[] $requests
  */
-class BulkCreateAdRequest extends \DTS\eBaySDK\Types\BaseType
+class BulkCreateAdRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

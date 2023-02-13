@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Types\StandardsProfile;
 
-class StandardsProfileTest extends \PHPUnit\Framework\TestCase
+class StandardsProfileTest extends TestCase
 {
     private $obj;
 

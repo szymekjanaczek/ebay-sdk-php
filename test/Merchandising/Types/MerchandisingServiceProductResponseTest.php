@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Merchandising\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Merchandising\Types\MerchandisingServiceProductResponse;
 
-class MerchandisingServiceProductResponseTest extends \PHPUnit\Framework\TestCase
+class MerchandisingServiceProductResponseTest extends TestCase
 {
     private $obj;
 

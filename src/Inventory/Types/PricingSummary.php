@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\SoldOnEnum;
+use DTS\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Amount $minimumAdvertisedPrice
- * @property \DTS\eBaySDK\Inventory\Enums\SoldOnEnum $originallySoldForRetailPriceOn
- * @property \DTS\eBaySDK\Inventory\Types\Amount $originalRetailPrice
- * @property \DTS\eBaySDK\Inventory\Types\Amount $price
- * @property \DTS\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum $pricingVisibility
+ * @property Amount $minimumAdvertisedPrice
+ * @property SoldOnEnum $originallySoldForRetailPriceOn
+ * @property Amount $originalRetailPrice
+ * @property Amount $price
+ * @property MinimumAdvertisedPriceHandlingEnum $pricingVisibility
  */
-class PricingSummary extends \DTS\eBaySDK\Types\BaseType
+class PricingSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $epid
  */
-class GetProductRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetProductRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

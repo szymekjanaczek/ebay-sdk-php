@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\RegionDetailsType;
 
-class RegionDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class RegionDetailsTypeTest extends TestCase
 {
     private $obj;
 

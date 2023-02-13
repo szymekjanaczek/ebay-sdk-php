@@ -14,13 +14,13 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $StartingDisputeID
  * @property string $EndingDisputeID
- * @property \DTS\eBaySDK\Trading\Types\DisputeArrayType $DisputeArray
+ * @property DisputeArrayType $DisputeArray
  * @property integer $ItemsPerPage
  * @property integer $PageNumber
- * @property \DTS\eBaySDK\Trading\Types\DisputeFilterCountType[] $DisputeFilterCount
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property DisputeFilterCountType[] $DisputeFilterCount
+ * @property PaginationResultType $PaginationResult
  */
-class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetUserDisputesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

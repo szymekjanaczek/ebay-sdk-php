@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Types\ErrorMessage;
 
-class ErrorMessageTest extends \PHPUnit\Framework\TestCase
+class ErrorMessageTest extends TestCase
 {
     private $obj;
 

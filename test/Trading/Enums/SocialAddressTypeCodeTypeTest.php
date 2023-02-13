@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType;
 
-class SocialAddressTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class SocialAddressTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

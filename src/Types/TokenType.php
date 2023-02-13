@@ -6,7 +6,7 @@ namespace DTS\eBaySDK\Types;
  *
  * @property string $value
  */
-class TokenType extends \DTS\eBaySDK\Types\BaseType
+class TokenType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

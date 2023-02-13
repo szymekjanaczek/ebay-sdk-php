@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\ReturnSnapshot;
 
-class ReturnSnapshotTest extends \PHPUnit\Framework\TestCase
+class ReturnSnapshotTest extends TestCase
 {
     private $obj;
 

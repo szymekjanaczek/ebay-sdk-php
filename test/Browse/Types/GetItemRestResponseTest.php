@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\GetItemRestResponse;
 
-class GetItemRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetItemRestResponseTest extends TestCase
 {
     private $obj;
 

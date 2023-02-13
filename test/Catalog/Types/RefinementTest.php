@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Types\Refinement;
 
-class RefinementTest extends \PHPUnit\Framework\TestCase
+class RefinementTest extends TestCase
 {
     private $obj;
 

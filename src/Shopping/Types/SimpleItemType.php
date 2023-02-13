@@ -10,76 +10,85 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DateTime;
+use DTS\eBaySDK\Shopping\Enums\ListingTypeCodeType;
+use DTS\eBaySDK\Shopping\Enums\BuyerPaymentMethodCodeType;
+use DTS\eBaySDK\Shopping\Enums\ListingStatusCodeType;
+use DTS\eBaySDK\Shopping\Enums\SiteCodeType;
+use DTS\eBaySDK\Shopping\Enums\CountryCodeType;
+use DTS\eBaySDK\Shopping\Enums\HalfItemConditionCodeType;
+use DTS\eBaySDK\Shopping\Enums\QuantityAvailableHintCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $BestOfferEnabled
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $BuyItNowPrice
+ * @property AmountType $BuyItNowPrice
  * @property string $Description
  * @property string $ItemID
  * @property boolean $BuyItNowAvailable
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ConvertedBuyItNowPrice
- * @property \DateTime $EndTime
- * @property \DateTime $StartTime
+ * @property AmountType $ConvertedBuyItNowPrice
+ * @property DateTime $EndTime
+ * @property DateTime $StartTime
  * @property string $ViewItemURLForNaturalSearch
- * @property \DTS\eBaySDK\Shopping\Enums\ListingTypeCodeType $ListingType
+ * @property ListingTypeCodeType $ListingType
  * @property string $Location
- * @property \DTS\eBaySDK\Shopping\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
+ * @property BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property string $GalleryURL
  * @property string[] $PictureURL
  * @property string $PostalCode
  * @property string $PrimaryCategoryID
  * @property string $PrimaryCategoryName
  * @property integer $Quantity
- * @property \DTS\eBaySDK\Shopping\Types\SimpleUserType $Seller
+ * @property SimpleUserType $Seller
  * @property integer $BidCount
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $ConvertedCurrentPrice
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $CurrentPrice
- * @property \DTS\eBaySDK\Shopping\Types\SimpleUserType $HighBidder
- * @property \DTS\eBaySDK\Shopping\Enums\ListingStatusCodeType $ListingStatus
+ * @property AmountType $ConvertedCurrentPrice
+ * @property AmountType $CurrentPrice
+ * @property SimpleUserType $HighBidder
+ * @property ListingStatusCodeType $ListingStatus
  * @property integer $QuantitySold
  * @property boolean $ReserveMet
  * @property string[] $ShipToLocations
- * @property \DTS\eBaySDK\Shopping\Enums\SiteCodeType $Site
+ * @property SiteCodeType $Site
  * @property string $TimeLeft
  * @property string $Title
- * @property \DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType $ShippingCostSummary
- * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType $ItemSpecifics
+ * @property ShippingCostSummaryType $ShippingCostSummary
+ * @property NameValueListArrayType $ItemSpecifics
  * @property integer $HitCount
  * @property string $Subtitle
  * @property string $PrimaryCategoryIDPath
  * @property string $SecondaryCategoryID
  * @property string $SecondaryCategoryName
  * @property string $SecondaryCategoryIDPath
- * @property \DTS\eBaySDK\Shopping\Types\CharityType $Charity
- * @property \DTS\eBaySDK\Shopping\Types\StorefrontType $Storefront
- * @property \DTS\eBaySDK\Shopping\Enums\CountryCodeType $Country
- * @property \DTS\eBaySDK\Shopping\Enums\HalfItemConditionCodeType $HalfItemCondition
+ * @property CharityType $Charity
+ * @property StorefrontType $Storefront
+ * @property CountryCodeType $Country
+ * @property HalfItemConditionCodeType $HalfItemCondition
  * @property string $SellerComments
- * @property \DTS\eBaySDK\Shopping\Types\ReturnPolicyType $ReturnPolicy
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $MinimumToBid
- * @property \DTS\eBaySDK\Shopping\Types\ProductIDType $ProductID
+ * @property ReturnPolicyType $ReturnPolicy
+ * @property AmountType $MinimumToBid
+ * @property ProductIDType $ProductID
  * @property boolean $AutoPay
- * @property \DTS\eBaySDK\Shopping\Types\BusinessSellerDetailsType $BusinessSellerDetails
- * @property \DTS\eBaySDK\Shopping\Enums\SiteCodeType[] $PaymentAllowedSite
+ * @property BusinessSellerDetailsType $BusinessSellerDetails
+ * @property SiteCodeType[] $PaymentAllowedSite
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\Shopping\Types\VariationsType $Variations
+ * @property VariationsType $Variations
  * @property integer $HandlingTime
  * @property integer $LotSize
  * @property integer $ConditionID
  * @property string $ConditionDisplayName
- * @property \DTS\eBaySDK\Shopping\Enums\QuantityAvailableHintCodeType $QuantityAvailableHint
+ * @property QuantityAvailableHintCodeType $QuantityAvailableHint
  * @property integer $QuantityThreshold
- * @property \DTS\eBaySDK\Shopping\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property DiscountPriceInfoType $DiscountPriceInfo
  * @property string[] $ExcludeShipToLocation
  * @property boolean $TopRatedListing
  * @property string $VhrUrl
  * @property boolean $VhrAvailable
- * @property \DTS\eBaySDK\Shopping\Types\QuantityInfo $QuantityInfo
- * @property \DTS\eBaySDK\Shopping\Types\UnitInfoType $UnitInfo
+ * @property QuantityInfo $QuantityInfo
+ * @property UnitInfoType $UnitInfo
  * @property boolean $GlobalShipping
  * @property string $ConditionDescription
  * @property integer $ItemCompatibilityCount
- * @property \DTS\eBaySDK\Shopping\Types\ItemCompatibilityListType $ItemCompatibilityList
+ * @property ItemCompatibilityListType $ItemCompatibilityList
  * @property integer $QuantitySoldByPickupInStore
  * @property string $SKU
  * @property boolean $eBayNowEligible
@@ -88,7 +97,7 @@ namespace DTS\eBaySDK\Shopping\Types;
  * @property boolean $AvailableForPickupDropOff
  * @property boolean $EligibleForPickupDropOff
  */
-class SimpleItemType extends \DTS\eBaySDK\Types\BaseType
+class SimpleItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

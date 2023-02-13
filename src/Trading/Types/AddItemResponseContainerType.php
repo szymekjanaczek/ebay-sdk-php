@@ -10,21 +10,24 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
- * @property \DateTime $StartTime
- * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property DateTime $StartTime
+ * @property DateTime $EndTime
+ * @property FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
  * @property string $CorrelationID
- * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
+ * @property ErrorType[] $Errors
  * @property string $Message
- * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property DiscountReasonCodeType[] $DiscountReason
+ * @property ListingRecommendationsType $ListingRecommendations
  */
-class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
+class AddItemResponseContainerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

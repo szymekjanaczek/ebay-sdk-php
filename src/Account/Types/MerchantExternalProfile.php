@@ -10,19 +10,21 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\CurrencyCodeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\ExternalPaymentMethod $acceptedPaymentMethods
+ * @property ExternalPaymentMethod $acceptedPaymentMethods
  * @property string $accountCreationDate
- * @property \DTS\eBaySDK\Account\Types\ExternalPaymentMethod $billingPaymentMethods
- * @property \DTS\eBaySDK\Account\Types\InventorySizing $inventorySizing
+ * @property ExternalPaymentMethod $billingPaymentMethods
+ * @property InventorySizing $inventorySizing
  * @property string $merchantCategoryCode
- * @property \DTS\eBaySDK\Account\Enums\CurrencyCodeEnum $primaryCurrency
- * @property \DTS\eBaySDK\Account\Types\ReturnSnapshot $returnSnapshots
+ * @property CurrencyCodeEnum $primaryCurrency
+ * @property ReturnSnapshot $returnSnapshots
  * @property string $sicCode
- * @property \DTS\eBaySDK\Account\Types\TransactionVolume $transactionVolume
+ * @property TransactionVolume $transactionVolume
  */
-class MerchantExternalProfile extends \DTS\eBaySDK\Types\BaseType
+class MerchantExternalProfile extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

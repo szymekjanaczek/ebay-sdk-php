@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\BuyerProtectionDetailsType;
 
-class BuyerProtectionDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class BuyerProtectionDetailsTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType;
 
-class FeeSettlementReportResponseTypeTest extends \PHPUnit\Framework\TestCase
+class FeeSettlementReportResponseTypeTest extends TestCase
 {
     private $obj;
 

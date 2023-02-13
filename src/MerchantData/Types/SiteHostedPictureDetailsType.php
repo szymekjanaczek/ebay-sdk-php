@@ -10,18 +10,22 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\PictureSetCodeType;
+use DTS\eBaySDK\MerchantData\Enums\PictureFormatCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $PictureName
- * @property \DTS\eBaySDK\MerchantData\Enums\PictureSetCodeType $PictureSet
- * @property \DTS\eBaySDK\MerchantData\Enums\PictureFormatCodeType $PictureFormat
+ * @property PictureSetCodeType $PictureSet
+ * @property PictureFormatCodeType $PictureFormat
  * @property string $FullURL
  * @property string $BaseURL
- * @property \DTS\eBaySDK\MerchantData\Types\PictureSetMemberType[] $PictureSetMember
+ * @property PictureSetMemberType[] $PictureSetMember
  * @property string $ExternalPictureURL
- * @property \DateTime $UseByDate
+ * @property DateTime $UseByDate
  */
-class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
+class SiteHostedPictureDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

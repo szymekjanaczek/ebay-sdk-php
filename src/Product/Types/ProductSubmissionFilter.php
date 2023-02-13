@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $filterName
  * @property string[] $filterValue
  */
-class ProductSubmissionFilter extends \DTS\eBaySDK\Types\BaseType
+class ProductSubmissionFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

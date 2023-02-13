@@ -10,6 +10,10 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\AccessRuleCurrentStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\AccessRuleStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $CallName
@@ -24,12 +28,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $PeriodicHardLimit
  * @property integer $PeriodicSoftLimit
  * @property integer $PeriodicUsage
- * @property \DateTime $PeriodicStartDate
- * @property \DateTime $ModTime
- * @property \DTS\eBaySDK\Trading\Enums\AccessRuleCurrentStatusCodeType $RuleCurrentStatus
- * @property \DTS\eBaySDK\Trading\Enums\AccessRuleStatusCodeType $RuleStatus
+ * @property DateTime $PeriodicStartDate
+ * @property DateTime $ModTime
+ * @property AccessRuleCurrentStatusCodeType $RuleCurrentStatus
+ * @property AccessRuleStatusCodeType $RuleStatus
  */
-class ApiAccessRuleType extends \DTS\eBaySDK\Types\BaseType
+class ApiAccessRuleType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Exceptions\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Exceptions\UnknownPropertyException;
 
-class UnknownPropertyExceptionTest extends \PHPUnit\Framework\TestCase
+class UnknownPropertyExceptionTest extends TestCase
 {
     private $obj;
 

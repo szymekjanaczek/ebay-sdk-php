@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property ItemType $Item
  * @property string[] $DeletedField
  */
-class VerifyRelistItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class VerifyRelistItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

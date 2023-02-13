@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\AdPagedCollection;
 
-class AdPagedCollectionTest extends \PHPUnit\Framework\TestCase
+class AdPagedCollectionTest extends TestCase
 {
     private $obj;
 

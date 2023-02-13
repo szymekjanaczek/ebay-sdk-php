@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile[] $ShippingPolicyProfile
+ * @property ShippingPolicyProfile[] $ShippingPolicyProfile
  */
-class ShippingPolicyProfileList extends \DTS\eBaySDK\Types\BaseType
+class ShippingPolicyProfileList extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

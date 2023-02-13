@@ -10,15 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\DisputeSortTypeCodeType;
+use DateTime;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType $DisputeFilterType
- * @property \DTS\eBaySDK\Trading\Enums\DisputeSortTypeCodeType $DisputeSortType
- * @property \DateTime $ModTimeFrom
- * @property \DateTime $ModTimeTo
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property DisputeFilterTypeCodeType $DisputeFilterType
+ * @property DisputeSortTypeCodeType $DisputeSortType
+ * @property DateTime $ModTimeFrom
+ * @property DateTime $ModTimeTo
+ * @property PaginationType $Pagination
  */
-class GetUserDisputesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserDisputesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

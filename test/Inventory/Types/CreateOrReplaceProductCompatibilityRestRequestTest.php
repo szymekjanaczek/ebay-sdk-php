@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\CreateOrReplaceProductCompatibilityRestRequest;
 
-class CreateOrReplaceProductCompatibilityRestRequestTest extends \PHPUnit\Framework\TestCase
+class CreateOrReplaceProductCompatibilityRestRequestTest extends TestCase
 {
     private $obj;
 

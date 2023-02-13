@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\ReturnMetadataKeyEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $dataType
  * @property boolean $isArray
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnMetadataKeyEnum $siteMetadataKey
+ * @property ReturnMetadataKeyEnum $siteMetadataKey
  * @property string[] $values
  */
-class ReturnMetadataType extends \DTS\eBaySDK\Types\BaseType
+class ReturnMetadataType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

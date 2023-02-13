@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\CountryCodeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Enums\CountryCodeEnum $countryCode
+ * @property CountryCodeEnum $countryCode
  * @property string $salesTaxJurisdictionId
  * @property string $salesTaxPercentage
  * @property boolean $shippingAndHandlingTaxed
  */
-class SalesTax extends \DTS\eBaySDK\Types\BaseType
+class SalesTax extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType $VacationPreferences
+ * @property StoreVacationPreferencesType $VacationPreferences
  */
-class StorePreferencesType extends \DTS\eBaySDK\Types\BaseType
+class StorePreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

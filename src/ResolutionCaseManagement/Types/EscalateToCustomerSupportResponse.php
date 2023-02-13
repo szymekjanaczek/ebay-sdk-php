@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class EscalateToCustomerSupportResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class EscalateToCustomerSupportResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

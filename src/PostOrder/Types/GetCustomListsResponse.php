@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CustomListDetailType[] $listDetail
+ * @property CustomListDetailType[] $listDetail
  */
-class GetCustomListsResponse extends \DTS\eBaySDK\Types\BaseType
+class GetCustomListsResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

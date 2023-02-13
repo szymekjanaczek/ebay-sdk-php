@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\ValueTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
- * @property \DTS\eBaySDK\Browse\Enums\ValueTypeEnum $type
+ * @property ValueTypeEnum $type
  * @property string $value
  */
-class TypedNameValue extends \DTS\eBaySDK\Types\BaseType
+class TypedNameValue extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

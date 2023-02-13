@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MaxVariationsPerItem
  * @property integer $MaxNamesPerVariationSpecificsSet
  * @property integer $MaxValuesPerVariationSpecificsSetName
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class VariationDetailsType extends \DTS\eBaySDK\Types\BaseType
+class VariationDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

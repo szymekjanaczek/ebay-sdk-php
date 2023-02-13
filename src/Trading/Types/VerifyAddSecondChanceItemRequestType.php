@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType;
 /**
  *
  * @property string $RecipientBidderUserID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyItNowPrice
- * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $Duration
+ * @property AmountType $BuyItNowPrice
+ * @property SecondChanceOfferDurationCodeType $Duration
  * @property string $ItemID
  * @property string $SellerMessage
  */
-class VerifyAddSecondChanceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class VerifyAddSecondChanceItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

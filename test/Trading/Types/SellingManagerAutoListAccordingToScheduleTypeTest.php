@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType;
 
-class SellingManagerAutoListAccordingToScheduleTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerAutoListAccordingToScheduleTypeTest extends TestCase
 {
     private $obj;
 

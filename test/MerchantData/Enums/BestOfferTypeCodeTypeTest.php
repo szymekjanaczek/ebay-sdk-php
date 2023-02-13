@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\BestOfferTypeCodeType;
 
-class BestOfferTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class BestOfferTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

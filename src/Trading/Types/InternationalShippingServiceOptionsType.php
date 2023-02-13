@@ -10,18 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ShippingService
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
+ * @property AmountType $ShippingServiceCost
+ * @property AmountType $ShippingServiceAdditionalCost
  * @property integer $ShippingServicePriority
  * @property string[] $ShipToLocation
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
- * @property \DateTime $ShippingServiceCutOffTime
+ * @property AmountType $ShippingInsuranceCost
+ * @property AmountType $ImportCharge
+ * @property DateTime $ShippingServiceCutOffTime
  */
-class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
+class InternationalShippingServiceOptionsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

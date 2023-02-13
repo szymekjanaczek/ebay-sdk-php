@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetBidderListResponseType;
 
-class GetBidderListResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetBidderListResponseTypeTest extends TestCase
 {
     private $obj;
 

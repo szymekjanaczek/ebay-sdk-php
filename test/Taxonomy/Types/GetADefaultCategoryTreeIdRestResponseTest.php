@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestResponse;
 
-class GetADefaultCategoryTreeIdRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetADefaultCategoryTreeIdRestResponseTest extends TestCase
 {
     private $obj;
 

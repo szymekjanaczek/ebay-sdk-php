@@ -10,6 +10,8 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\CancelRequestStateEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $cancelCompletedDate
@@ -17,9 +19,9 @@ namespace DTS\eBaySDK\Fulfillment\Types;
  * @property string $cancelReason
  * @property string $cancelRequestedDate
  * @property string $cancelRequestId
- * @property \DTS\eBaySDK\Fulfillment\Enums\CancelRequestStateEnum $cancelRequestState
+ * @property CancelRequestStateEnum $cancelRequestState
  */
-class CancelRequest extends \DTS\eBaySDK\Types\BaseType
+class CancelRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

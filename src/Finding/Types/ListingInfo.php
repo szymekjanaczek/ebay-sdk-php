@@ -10,18 +10,20 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $bestOfferEnabled
  * @property boolean $buyItNowAvailable
- * @property \DTS\eBaySDK\Finding\Types\Amount $buyItNowPrice
- * @property \DTS\eBaySDK\Finding\Types\Amount $convertedBuyItNowPrice
- * @property \DateTime $startTime
- * @property \DateTime $endTime
+ * @property Amount $buyItNowPrice
+ * @property Amount $convertedBuyItNowPrice
+ * @property DateTime $startTime
+ * @property DateTime $endTime
  * @property string $listingType
  * @property boolean $gift
  */
-class ListingInfo extends \DTS\eBaySDK\Types\BaseType
+class ListingInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

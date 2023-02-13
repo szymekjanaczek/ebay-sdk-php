@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
- * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $Question
+ * @property ItemType $Item
+ * @property MemberMessageType $Question
  * @property string[] $Response
- * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $MessageStatus
- * @property \DateTime $CreationDate
- * @property \DateTime $LastModifiedDate
- * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
+ * @property MessageStatusTypeCodeType $MessageStatus
+ * @property DateTime $CreationDate
+ * @property DateTime $LastModifiedDate
+ * @property MessageMediaType[] $MessageMedia
  */
-class MemberMessageExchangeType extends \DTS\eBaySDK\Types\BaseType
+class MemberMessageExchangeType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

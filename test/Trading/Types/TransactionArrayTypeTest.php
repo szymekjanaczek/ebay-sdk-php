@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\TransactionArrayType;
 
-class TransactionArrayTypeTest extends \PHPUnit\Framework\TestCase
+class TransactionArrayTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ApiAccessRuleType;
 
-class ApiAccessRuleTypeTest extends \PHPUnit\Framework\TestCase
+class ApiAccessRuleTypeTest extends TestCase
 {
     private $obj;
 

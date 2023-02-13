@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Email
  */
-class DeliveryStatusType extends \DTS\eBaySDK\Types\BaseType
+class DeliveryStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
  *
  * @property string $medataDetails
  */
-class GetCompatibilitySearchValuesBulkResponse extends \DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesResponse
+class GetCompatibilitySearchValuesBulkResponse extends GetProductSearchValuesResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

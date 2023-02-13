@@ -10,21 +10,24 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ShippingPackageCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $OriginatingPostalCode
- * @property \DTS\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType $MeasurementUnit
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageLength
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PackagingHandlingCosts
+ * @property MeasurementSystemCodeType $MeasurementUnit
+ * @property MeasureType $PackageDepth
+ * @property MeasureType $PackageLength
+ * @property MeasureType $PackageWidth
+ * @property AmountType $PackagingHandlingCosts
  * @property boolean $ShippingIrregular
- * @property \DTS\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InternationalPackagingHandlingCosts
+ * @property ShippingPackageCodeType $ShippingPackage
+ * @property MeasureType $WeightMajor
+ * @property MeasureType $WeightMinor
+ * @property AmountType $InternationalPackagingHandlingCosts
  */
-class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
+class CalculatedShippingRateType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

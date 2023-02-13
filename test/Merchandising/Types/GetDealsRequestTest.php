@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Merchandising\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Merchandising\Types\GetDealsRequest;
 
-class GetDealsRequestTest extends \PHPUnit\Framework\TestCase
+class GetDealsRequestTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\BidAssistantListType;
 
-class BidAssistantListTypeTest extends \PHPUnit\Framework\TestCase
+class BidAssistantListTypeTest extends TestCase
 {
     private $obj;
 

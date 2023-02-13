@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $fulfillmentId
  * @property string $orderId
  */
-class GetAShippingFulfillmentRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetAShippingFulfillmentRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

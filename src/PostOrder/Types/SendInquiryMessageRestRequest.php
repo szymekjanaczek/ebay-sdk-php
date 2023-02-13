@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $inquiryId
  */
-class SendInquiryMessageRestRequest extends \DTS\eBaySDK\PostOrder\Types\SendMessageRequest
+class SendInquiryMessageRestRequest extends SendMessageRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

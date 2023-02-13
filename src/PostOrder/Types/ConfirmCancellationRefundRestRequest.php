@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $cancelId
  */
-class ConfirmCancellationRefundRestRequest extends \DTS\eBaySDK\PostOrder\Types\ConfirmRefundRequest
+class ConfirmCancellationRefundRestRequest extends ConfirmRefundRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

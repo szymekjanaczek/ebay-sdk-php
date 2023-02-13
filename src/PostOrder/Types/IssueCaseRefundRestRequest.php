@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $caseId
  */
-class IssueCaseRefundRestRequest extends \DTS\eBaySDK\PostOrder\Types\CaseVoluntaryRefundRequest
+class IssueCaseRefundRestRequest extends CaseVoluntaryRefundRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

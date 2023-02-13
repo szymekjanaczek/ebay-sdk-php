@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\Aspect[] $aspect
+ * @property Aspect[] $aspect
  */
-class AspectHistogramContainer extends \DTS\eBaySDK\Types\BaseType
+class AspectHistogramContainer extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\InsuranceSelectedCodeType;
 
-class InsuranceSelectedCodeTypeTest extends \PHPUnit\Framework\TestCase
+class InsuranceSelectedCodeTypeTest extends TestCase
 {
     private $obj;
 

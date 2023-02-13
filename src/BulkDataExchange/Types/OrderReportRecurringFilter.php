@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\BulkDataExchange\Enums\ListingType;
 /**
  *
  * @property integer $createTimeRange
  * @property integer $modTimeRange
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\ListingType $listingType
+ * @property ListingType $listingType
  * @property integer $version
  */
-class OrderReportRecurringFilter extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class OrderReportRecurringFilter extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

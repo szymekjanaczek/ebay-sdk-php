@@ -10,6 +10,8 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MaxItemSpecificsPerItem
@@ -17,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $MaxCharactersPerValue
  * @property integer $MaxCharactersPerName
  * @property string $DetailVersion
- * @property \DateTime $UpdateTime
+ * @property DateTime $UpdateTime
  */
-class ItemSpecificDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ItemSpecificDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

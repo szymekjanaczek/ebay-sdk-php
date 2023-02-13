@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\FeedbackSummaryPeriodCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackSummaryPeriodCodeType $FeedbackSummaryPeriod
- * @property \DTS\eBaySDK\Trading\Types\AverageRatingDetailsType[] $AverageRatingDetails
+ * @property FeedbackSummaryPeriodCodeType $FeedbackSummaryPeriod
+ * @property AverageRatingDetailsType[] $AverageRatingDetails
  */
-class AverageRatingSummaryType extends \DTS\eBaySDK\Types\BaseType
+class AverageRatingSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

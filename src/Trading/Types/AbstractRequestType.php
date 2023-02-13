@@ -10,21 +10,25 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DetailLevelCodeType;
+use DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType;
+use DTS\eBaySDK\Trading\Enums\WarningLevelCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType $RequesterCredentials
- * @property \DTS\eBaySDK\Trading\Enums\DetailLevelCodeType[] $DetailLevel
+ * @property CustomSecurityHeaderType $RequesterCredentials
+ * @property DetailLevelCodeType[] $DetailLevel
  * @property string $ErrorLanguage
  * @property string $MessageID
  * @property string $Version
  * @property string $EndUserIP
- * @property \DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType $ErrorHandling
+ * @property ErrorHandlingCodeType $ErrorHandling
  * @property string $InvocationID
  * @property string[] $OutputSelector
- * @property \DTS\eBaySDK\Trading\Enums\WarningLevelCodeType $WarningLevel
- * @property \DTS\eBaySDK\Trading\Types\BotBlockRequestType $BotBlock
+ * @property WarningLevelCodeType $WarningLevel
+ * @property BotBlockRequestType $BotBlock
  */
-class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
+class AbstractRequestType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

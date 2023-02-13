@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $version
- * @property \DateTime $updateTime
+ * @property DateTime $updateTime
  */
-class VersionDetails extends \DTS\eBaySDK\Types\BaseType
+class VersionDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

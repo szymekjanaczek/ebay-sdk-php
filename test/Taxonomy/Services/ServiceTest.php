@@ -1,12 +1,13 @@
 <?php
 namespace DTS\eBaySDK\Test\Taxonomy\Services;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService;
 use DTS\eBaySDK\Taxonomy\Services\TaxonomyService;
 use DTS\eBaySDK\Test\Taxonomy\Mocks\Service;
 use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
 
-class ServiceTest extends \PHPUnit\Framework\TestCase
+class ServiceTest extends TestCase
 {
     public function testConfigDefinitions()
     {

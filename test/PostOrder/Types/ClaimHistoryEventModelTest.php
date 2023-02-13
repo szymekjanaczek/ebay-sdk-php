@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ClaimHistoryEventModel;
 
-class ClaimHistoryEventModelTest extends \PHPUnit\Framework\TestCase
+class ClaimHistoryEventModelTest extends TestCase
 {
     private $obj;
 

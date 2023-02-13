@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum;
 
-class CategoryScopeEnumTest extends \PHPUnit\Framework\TestCase
+class CategoryScopeEnumTest extends TestCase
 {
     private $obj;
 

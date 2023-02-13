@@ -10,18 +10,22 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Browse\Enums\RefundMethodEnum;
+use DTS\eBaySDK\Browse\Enums\ReturnMethodEnum;
+use DTS\eBaySDK\Browse\Enums\ReturnShippingCostPayerEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $extendedHolidayReturnsOffered
- * @property \DTS\eBaySDK\Browse\Enums\RefundMethodEnum $refundMethod
+ * @property RefundMethodEnum $refundMethod
  * @property string $restockingFeePercentage
  * @property string $returnInstructions
- * @property \DTS\eBaySDK\Browse\Enums\ReturnMethodEnum $returnMethod
- * @property \DTS\eBaySDK\Browse\Types\TimeDuration $returnPeriod
+ * @property ReturnMethodEnum $returnMethod
+ * @property TimeDuration $returnPeriod
  * @property boolean $returnsAccepted
- * @property \DTS\eBaySDK\Browse\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
+ * @property ReturnShippingCostPayerEnum $returnShippingCostPayer
  */
-class ItemReturnTerms extends \DTS\eBaySDK\Types\BaseType
+class ItemReturnTerms extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Analytics\Enums\DataTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Analytics\Enums\DataTypeEnum $dataType
+ * @property DataTypeEnum $dataType
  * @property string $key
  * @property string $localizedName
  */
-class Definition extends \DTS\eBaySDK\Types\BaseType
+class Definition extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $BestOfferCount
  * @property boolean $BestOfferEnabled
- * @property \DTS\eBaySDK\Trading\Types\AmountType $BestOffer
- * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType $BestOfferStatus
+ * @property AmountType $BestOffer
+ * @property BestOfferStatusCodeType $BestOfferStatus
  */
-class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BestOfferDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

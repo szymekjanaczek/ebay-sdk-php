@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\RateTable[] $rateTables
+ * @property RateTable[] $rateTables
  */
-class RateTableResponse extends \DTS\eBaySDK\Types\BaseType
+class RateTableResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $adId
- * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $errors
  * @property string $listingId
  * @property integer $statusCode
  */
-class DeleteAdResponse extends \DTS\eBaySDK\Types\BaseType
+class DeleteAdResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

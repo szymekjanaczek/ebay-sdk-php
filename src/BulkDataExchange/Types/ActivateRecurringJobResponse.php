@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
 /**
  *
  */
-class ActivateRecurringJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class ActivateRecurringJobResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

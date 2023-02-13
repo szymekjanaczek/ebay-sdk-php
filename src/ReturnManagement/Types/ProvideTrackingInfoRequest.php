@@ -12,12 +12,12 @@ namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
+ * @property ReturnIdType $ReturnId
  * @property string $trackingNumber
  * @property string $carrierUsed
  * @property string $comments
  */
-class ProvideTrackingInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class ProvideTrackingInfoRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

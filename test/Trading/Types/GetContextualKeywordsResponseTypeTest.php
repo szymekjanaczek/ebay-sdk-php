@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetContextualKeywordsResponseType;
 
-class GetContextualKeywordsResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetContextualKeywordsResponseTypeTest extends TestCase
 {
     private $obj;
 

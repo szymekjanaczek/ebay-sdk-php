@@ -10,12 +10,15 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Product\Enums\SortType;
+use DTS\eBaySDK\Product\Enums\OrderType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Enums\SortType $sortType
- * @property \DTS\eBaySDK\Product\Enums\OrderType $sortOrder
+ * @property SortType $sortType
+ * @property OrderType $sortOrder
  */
-class SortOption extends \DTS\eBaySDK\Types\BaseType
+class SortOption extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

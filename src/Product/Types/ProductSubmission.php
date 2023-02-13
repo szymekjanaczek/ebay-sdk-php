@@ -14,10 +14,10 @@ namespace DTS\eBaySDK\Product\Types;
  *
  * @property string $invocationId
  * @property string $categoryId
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $productPropertyValue
- * @property \DTS\eBaySDK\Product\Types\Media[] $media
+ * @property PropertyValue[] $productPropertyValue
+ * @property Media[] $media
  */
-class ProductSubmission extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class ProductSubmission extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

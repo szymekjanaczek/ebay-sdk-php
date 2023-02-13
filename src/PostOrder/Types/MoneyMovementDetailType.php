@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $actualAmount
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property Amount $actualAmount
+ * @property DateTime $creationDate
  * @property string $externalPaymentId
  * @property string $moneyMovementType
  * @property string $paymentProvider
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $requestedAmount
+ * @property Amount $requestedAmount
  * @property string $status
  */
-class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
+class MoneyMovementDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

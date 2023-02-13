@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\EnableCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DeliveryURLName
  * @property string $DeliveryURL
- * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $Status
+ * @property EnableCodeType $Status
  */
-class DeliveryURLDetailType extends \DTS\eBaySDK\Types\BaseType
+class DeliveryURLDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

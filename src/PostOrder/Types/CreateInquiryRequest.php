@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $claimQuantity
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property Text $comments
  * @property string $desiredOutcome
  * @property string $itemId
  * @property string $transactionId
  */
-class CreateInquiryRequest extends \DTS\eBaySDK\Types\BaseType
+class CreateInquiryRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

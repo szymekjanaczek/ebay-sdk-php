@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $CanceledItemIDArray
+ * @property ItemIDArrayType $CanceledItemIDArray
  * @property boolean $EligibleForRelist
  * @property string $SellerID
  */
-class ItemsCanceledEventType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ItemsCanceledEventType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

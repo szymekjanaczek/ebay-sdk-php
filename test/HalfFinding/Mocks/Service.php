@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\HalfFinding\Mocks;
 
+use DTS\eBaySDK\HalfFinding\Services\HalfFindingBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\HalfFinding\Services\HalfFindingBaseService
+class Service extends HalfFindingBaseService
 {
     public function __construct(array $config)
     {

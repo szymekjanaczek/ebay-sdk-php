@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $Price
+ * @property AmountType $Price
  * @property integer $Quantity
  * @property string $ItemID
  * @property integer $BidCount
  * @property boolean $ReserveMet
- * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataVariationsType $Variations
+ * @property MerchantDataVariationsType $Variations
  */
-class SKUDetailsType extends \DTS\eBaySDK\Types\BaseType
+class SKUDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

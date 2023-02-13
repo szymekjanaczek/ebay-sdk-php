@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint $constraint
+ * @property ProductIdentifierConstraint $constraint
  * @property string[] $values
  */
-class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
+class ProductIdentifier extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

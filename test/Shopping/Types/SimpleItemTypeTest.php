@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\SimpleItemType;
 
-class SimpleItemTypeTest extends \PHPUnit\Framework\TestCase
+class SimpleItemTypeTest extends TestCase
 {
     private $obj;
 

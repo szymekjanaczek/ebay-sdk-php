@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\AddressAttributeCodeType;
+use DTS\eBaySDK\Types\StringType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AddressAttributeCodeType $type
+ * @property AddressAttributeCodeType $type
  */
-class AddressAttributeType extends \DTS\eBaySDK\Types\StringType
+class AddressAttributeType extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\DoubleType;
 /**
  *
  * @property string $unit
  */
-class Distance extends \DTS\eBaySDK\Types\DoubleType
+class Distance extends DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

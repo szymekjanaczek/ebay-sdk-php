@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum;
 
-class DispositionRuleTemplateTypeEnumTest extends \PHPUnit\Framework\TestCase
+class DispositionRuleTemplateTypeEnumTest extends TestCase
 {
     private $obj;
 

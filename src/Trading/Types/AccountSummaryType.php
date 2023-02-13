@@ -10,30 +10,34 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\AccountStateCodeType;
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AccountStateCodeType $AccountState
- * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoicePayment
- * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceCredit
- * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceNewFee
- * @property \DTS\eBaySDK\Trading\Types\AdditionalAccountType[] $AdditionalAccount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPastDue
+ * @property AccountStateCodeType $AccountState
+ * @property AmountType $InvoicePayment
+ * @property AmountType $InvoiceCredit
+ * @property AmountType $InvoiceNewFee
+ * @property AdditionalAccountType[] $AdditionalAccount
+ * @property AmountType $AmountPastDue
  * @property string $BankAccountInfo
- * @property \DateTime $BankModifyDate
+ * @property DateTime $BankModifyDate
  * @property integer $BillingCycleDate
- * @property \DateTime $CreditCardExpiration
+ * @property DateTime $CreditCardExpiration
  * @property string $CreditCardInfo
- * @property \DateTime $CreditCardModifyDate
- * @property \DTS\eBaySDK\Trading\Types\AmountType $CurrentBalance
+ * @property DateTime $CreditCardModifyDate
+ * @property AmountType $CurrentBalance
  * @property string $Email
- * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceBalance
- * @property \DateTime $InvoiceDate
- * @property \DTS\eBaySDK\Trading\Types\AmountType $LastAmountPaid
- * @property \DateTime $LastPaymentDate
+ * @property AmountType $InvoiceBalance
+ * @property DateTime $InvoiceDate
+ * @property AmountType $LastAmountPaid
+ * @property DateTime $LastPaymentDate
  * @property boolean $PastDue
- * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType $PaymentMethod
+ * @property SellerPaymentMethodCodeType $PaymentMethod
  */
-class AccountSummaryType extends \DTS\eBaySDK\Types\BaseType
+class AccountSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

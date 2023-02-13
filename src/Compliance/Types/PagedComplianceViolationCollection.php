@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Compliance\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $offset
@@ -18,9 +19,9 @@ namespace DTS\eBaySDK\Compliance\Types;
  * @property string $next
  * @property string $prev
  * @property integer $limit
- * @property \DTS\eBaySDK\Compliance\Types\ComplianceViolation[] $listingViolations
+ * @property ComplianceViolation[] $listingViolations
  */
-class PagedComplianceViolationCollection extends \DTS\eBaySDK\Types\BaseType
+class PagedComplianceViolationCollection extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

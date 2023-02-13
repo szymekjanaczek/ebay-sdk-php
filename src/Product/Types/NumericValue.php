@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $value
  * @property string $unitOfMeasurement
  */
-class NumericValue extends \DTS\eBaySDK\Types\BaseType
+class NumericValue extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

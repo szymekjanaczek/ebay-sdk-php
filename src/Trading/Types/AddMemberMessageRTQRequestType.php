@@ -13,9 +13,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $MemberMessage
+ * @property MemberMessageType $MemberMessage
  */
-class AddMemberMessageRTQRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddMemberMessageRTQRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

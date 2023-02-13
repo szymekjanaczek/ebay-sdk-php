@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\IsoCurrencyCode;
+use DTS\eBaySDK\Types\DecimalType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\IsoCurrencyCode $currencyCode
+ * @property IsoCurrencyCode $currencyCode
  */
-class Money extends \DTS\eBaySDK\Types\DecimalType
+class Money extends DecimalType
 {
     /**
      * @var array Properties belonging to objects of this class.

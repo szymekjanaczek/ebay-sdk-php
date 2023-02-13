@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
  *
  * @property string $categoryId
  */
-class GetProductSearchDataVersionRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest
+class GetProductSearchDataVersionRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

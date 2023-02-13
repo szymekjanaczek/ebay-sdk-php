@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $SecretID
  * @property string $SessionID
  */
-class FetchTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class FetchTokenRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Enums\CancelActivityTypeEnum;
 
-class CancelActivityTypeEnumTest extends \PHPUnit\Framework\TestCase
+class CancelActivityTypeEnumTest extends TestCase
 {
     private $obj;
 

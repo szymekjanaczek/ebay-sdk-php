@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Types\ItemConditionPolicy;
 
-class ItemConditionPolicyTest extends \PHPUnit\Framework\TestCase
+class ItemConditionPolicyTest extends TestCase
 {
     private $obj;
 

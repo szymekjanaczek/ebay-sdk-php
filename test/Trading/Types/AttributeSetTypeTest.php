@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AttributeSetType;
 
-class AttributeSetTypeTest extends \PHPUnit\Framework\TestCase
+class AttributeSetTypeTest extends TestCase
 {
     private $obj;
 

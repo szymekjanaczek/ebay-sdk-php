@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $maxEstimatedDeliveryDate
  * @property string $minEstimatedDeliveryDate
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $shippingCost
+ * @property ConvertedAmount $shippingCost
  * @property string $shippingCostType
  */
-class ShippingOptionSummary extends \DTS\eBaySDK\Types\BaseType
+class ShippingOptionSummary extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

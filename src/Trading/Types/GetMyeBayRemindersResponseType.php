@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\RemindersType $BuyingReminders
- * @property \DTS\eBaySDK\Trading\Types\RemindersType $SellingReminders
+ * @property RemindersType $BuyingReminders
+ * @property RemindersType $SellingReminders
  */
-class GetMyeBayRemindersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMyeBayRemindersResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

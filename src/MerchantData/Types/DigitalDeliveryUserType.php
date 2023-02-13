@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
  * @property string $Email
  */
-class DigitalDeliveryUserType extends \DTS\eBaySDK\Types\BaseType
+class DigitalDeliveryUserType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

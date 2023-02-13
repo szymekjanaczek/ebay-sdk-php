@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Finding\Types;
  * @property integer $count
  * @property \DTS\eBaySDK\Finding\Types\CategoryHistogram[] $childCategoryHistogram
  */
-class CategoryHistogram extends \DTS\eBaySDK\Finding\Types\Category
+class CategoryHistogram extends Category
 {
     /**
      * @var array Properties belonging to objects of this class.

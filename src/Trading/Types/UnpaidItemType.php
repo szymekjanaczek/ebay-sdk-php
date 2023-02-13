@@ -10,12 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\UnpaidItemCaseStatusTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemCaseStatusTypeCodeType $Status
- * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType $Type
+ * @property UnpaidItemCaseStatusTypeCodeType $Status
+ * @property UnpaidItemCaseOpenTypeCodeType $Type
  */
-class UnpaidItemType extends \DTS\eBaySDK\Types\BaseType
+class UnpaidItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

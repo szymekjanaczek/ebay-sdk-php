@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DeliveryMethod
- * @property \DTS\eBaySDK\Trading\Types\DeliveryStatusType $DeliveryStatus
- * @property \DTS\eBaySDK\Trading\Types\DeliveryDetailsType $DeliveryDetails
+ * @property DeliveryStatusType $DeliveryStatus
+ * @property DeliveryDetailsType $DeliveryDetails
  */
-class DigitalDeliverySelectedType extends \DTS\eBaySDK\Types\BaseType
+class DigitalDeliverySelectedType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

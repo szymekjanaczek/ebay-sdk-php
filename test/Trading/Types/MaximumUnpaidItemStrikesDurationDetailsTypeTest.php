@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesDurationDetailsType;
 
-class MaximumUnpaidItemStrikesDurationDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class MaximumUnpaidItemStrikesDurationDetailsTypeTest extends TestCase
 {
     private $obj;
 

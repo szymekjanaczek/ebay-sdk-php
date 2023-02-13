@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $shipToLocation
@@ -17,15 +18,15 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $shippingType
  * @property integer $sortOrderId
  * @property boolean $freeShipping
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
+ * @property Amount $codFee
  * @property boolean $fastShipping
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingOverrideFee
+ * @property Amount $shippingServiceAdditionalCost
+ * @property Amount $shippingServiceCost
+ * @property Amount $shippingSurcharge
+ * @property Amount $shippingOverrideFee
  * @property boolean $buyerResponsibleForShipping
  */
-class ShippingPolicyService extends \DTS\eBaySDK\Types\BaseType
+class ShippingPolicyService extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

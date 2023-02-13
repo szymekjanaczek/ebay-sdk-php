@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  *
  * @property string $campaign_id
  */
-class UpdateCampaignIDentificationRestRequest extends \DTS\eBaySDK\Marketing\Types\UpdateCampaignIdentificationRequest
+class UpdateCampaignIDentificationRestRequest extends UpdateCampaignIdentificationRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

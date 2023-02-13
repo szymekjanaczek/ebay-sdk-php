@@ -10,20 +10,23 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType;
+use DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType;
 /**
  *
- * @property \DateTime $ModTimeFrom
- * @property \DateTime $ModTimeTo
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property DateTime $ModTimeFrom
+ * @property DateTime $ModTimeTo
+ * @property PaginationType $Pagination
  * @property boolean $IncludeFinalValueFee
  * @property boolean $IncludeContainingOrder
- * @property \DTS\eBaySDK\Trading\Types\SKUArrayType $SKUArray
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
+ * @property SKUArrayType $SKUArray
+ * @property TransactionPlatformCodeType $Platform
  * @property integer $NumberOfDays
- * @property \DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType $InventoryTrackingMethod
+ * @property InventoryTrackingMethodCodeType $InventoryTrackingMethod
  * @property boolean $IncludeCodiceFiscale
  */
-class GetSellerTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellerTransactionsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

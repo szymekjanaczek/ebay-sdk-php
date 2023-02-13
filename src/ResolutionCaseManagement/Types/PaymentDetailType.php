@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementDetailType[] $moneyMovement
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $balanceDue
+ * @property MoneyMovementDetailType[] $moneyMovement
+ * @property Amount $balanceDue
  */
-class PaymentDetailType extends \DTS\eBaySDK\Types\BaseType
+class PaymentDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

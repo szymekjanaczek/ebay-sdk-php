@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $MaxDepth
  * @property boolean $FullRecursion
  */
-class GetSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerInventoryFolderRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

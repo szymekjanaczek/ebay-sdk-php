@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\FeedbackRatingDetailCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackRatingDetailCodeType $RatingDetail
+ * @property FeedbackRatingDetailCodeType $RatingDetail
  * @property double $Rating
  * @property integer $RatingCount
  */
-class AverageRatingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class AverageRatingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

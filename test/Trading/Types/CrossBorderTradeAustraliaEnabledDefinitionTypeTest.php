@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\CrossBorderTradeAustraliaEnabledDefinitionType;
 
-class CrossBorderTradeAustraliaEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class CrossBorderTradeAustraliaEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

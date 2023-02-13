@@ -10,17 +10,19 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Fulfillment\Enums\CountryCodeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $addressLine1
  * @property string $addressLine2
  * @property string $city
- * @property \DTS\eBaySDK\Fulfillment\Enums\CountryCodeEnum $countryCode
+ * @property CountryCodeEnum $countryCode
  * @property string $county
  * @property string $postalCode
  * @property string $stateOrProvince
  */
-class Address extends \DTS\eBaySDK\Types\BaseType
+class Address extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

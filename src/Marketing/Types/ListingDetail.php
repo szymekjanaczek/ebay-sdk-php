@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Amount $currentPrice
+ * @property Amount $currentPrice
  * @property boolean $freeShipping
  * @property string $inventoryReferenceId
  * @property string $inventoryReferenceType
@@ -24,7 +25,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $storeCategoryId
  * @property string $title
  */
-class ListingDetail extends \DTS\eBaySDK\Types\BaseType
+class ListingDetail extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList $paymentProfileList
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList $returnPolicyProfileList
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfileList $shippingPolicyProfile
+ * @property PaymentProfileList $paymentProfileList
+ * @property ReturnPolicyProfileList $returnPolicyProfileList
+ * @property ShippingPolicyProfileList $shippingPolicyProfile
  */
-class GetSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
+class GetSellerProfilesResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

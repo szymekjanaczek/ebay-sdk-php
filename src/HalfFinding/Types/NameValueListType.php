@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
  * @property string[] $value
  */
-class NameValueListType extends \DTS\eBaySDK\Types\BaseType
+class NameValueListType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

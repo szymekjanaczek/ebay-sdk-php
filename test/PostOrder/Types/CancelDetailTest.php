@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\CancelDetail;
 
-class CancelDetailTest extends \PHPUnit\Framework\TestCase
+class CancelDetailTest extends TestCase
 {
     private $obj;
 

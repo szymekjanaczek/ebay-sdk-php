@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\SellingLimit;
 
-class SellingLimitTest extends \PHPUnit\Framework\TestCase
+class SellingLimitTest extends TestCase
 {
     private $obj;
 

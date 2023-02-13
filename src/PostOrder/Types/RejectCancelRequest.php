@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shipmentDate
+ * @property DateTime $shipmentDate
  * @property string $trackingNumber
  */
-class RejectCancelRequest extends \DTS\eBaySDK\Types\BaseType
+class RejectCancelRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

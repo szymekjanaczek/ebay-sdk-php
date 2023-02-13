@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType $SocialAddressType
+ * @property SocialAddressTypeCodeType $SocialAddressType
  * @property string $SocialAddressId
  */
-class NonProfitSocialAddressType extends \DTS\eBaySDK\Types\BaseType
+class NonProfitSocialAddressType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

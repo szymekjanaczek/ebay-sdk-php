@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Compliance\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Compliance\Types\ComplianceDetail;
 
-class ComplianceDetailTest extends \PHPUnit\Framework\TestCase
+class ComplianceDetailTest extends TestCase
 {
     private $obj;
 

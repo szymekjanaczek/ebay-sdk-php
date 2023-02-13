@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $ReasonCodeID
  * @property boolean $ReturnAllSites
  */
-class GetVeROReasonCodeDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetVeROReasonCodeDetailsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

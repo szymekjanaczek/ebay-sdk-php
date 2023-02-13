@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GetApiAccessRulesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetApiAccessRulesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

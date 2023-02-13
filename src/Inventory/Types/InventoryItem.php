@@ -10,17 +10,19 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\ConditionEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Availability $availability
- * @property \DTS\eBaySDK\Inventory\Enums\ConditionEnum $condition
+ * @property Availability $availability
+ * @property ConditionEnum $condition
  * @property string $conditionDescription
- * @property \DTS\eBaySDK\Inventory\Types\PackageWeightAndSize $packageWeightAndSize
- * @property \DTS\eBaySDK\Inventory\Types\Product $product
+ * @property PackageWeightAndSize $packageWeightAndSize
+ * @property Product $product
  * @property string $sku
  * @property string[] $groupIds
  */
-class InventoryItem extends \DTS\eBaySDK\Types\BaseType
+class InventoryItem extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

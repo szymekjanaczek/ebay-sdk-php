@@ -10,17 +10,19 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
+use DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
- * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property CurrencyCodeType $CurrencyID
+ * @property FlatShippingDiscountType $FlatShippingDiscount
+ * @property CalculatedShippingDiscountType $CalculatedShippingDiscount
  * @property boolean $PromotionalShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
- * @property \DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
- * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
+ * @property CalculatedHandlingDiscountType $CalculatedHandlingDiscount
+ * @property PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property CombinedPaymentPeriodCodeType $CombinedDuration
  */
-class GetShippingDiscountProfilesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetShippingDiscountProfilesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

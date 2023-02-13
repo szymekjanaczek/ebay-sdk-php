@@ -10,18 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ShippingRegionCodeType;
+use DTS\eBaySDK\Trading\Enums\CountryCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
  * @property integer $VeROReasonCodeID
  * @property string $MessageToSeller
  * @property boolean $CopyEmailToRightsOwner
- * @property \DTS\eBaySDK\Trading\Enums\ShippingRegionCodeType[] $Region
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType[] $Country
+ * @property ShippingRegionCodeType[] $Region
+ * @property CountryCodeType[] $Country
  * @property string $Patent
  * @property string $DetailedMessage
  */
-class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
+class VeROReportItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

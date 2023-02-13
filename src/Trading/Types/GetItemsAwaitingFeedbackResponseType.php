@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PaginatedTransactionArrayType $ItemsAwaitingFeedback
+ * @property PaginatedTransactionArrayType $ItemsAwaitingFeedback
  */
-class GetItemsAwaitingFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetItemsAwaitingFeedbackResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

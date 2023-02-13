@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class CompleteSaleResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class CompleteSaleResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

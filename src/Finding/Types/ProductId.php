@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\StringType;
 /**
  *
  * @property string $type
  */
-class ProductId extends \DTS\eBaySDK\Types\StringType
+class ProductId extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

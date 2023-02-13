@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ItemID
  * @property string $Description
  */
-class AddToItemDescriptionRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddToItemDescriptionRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

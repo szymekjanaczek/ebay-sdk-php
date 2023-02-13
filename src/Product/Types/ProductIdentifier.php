@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ePID
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Product\Types;
  * @property string $EAN
  * @property string $productId
  */
-class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
+class ProductIdentifier extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

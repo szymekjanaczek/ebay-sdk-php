@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\HalfFinding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\HalfFinding\Types\PaginationOutputType;
 
-class PaginationOutputTypeTest extends \PHPUnit\Framework\TestCase
+class PaginationOutputTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
+use DTS\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\Amount $discountAmount
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum $discountType
+ * @property Amount $discountAmount
+ * @property DiscountTypeEnum $discountType
  * @property double $discountPercent
  */
-class Discount extends \DTS\eBaySDK\Types\BaseType
+class Discount extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

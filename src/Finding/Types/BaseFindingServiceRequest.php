@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Finding\Enums\SortOrderType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Enums\SortOrderType $sortOrder
+ * @property SortOrderType $sortOrder
  */
-class BaseFindingServiceRequest extends \DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest
+class BaseFindingServiceRequest extends BestMatchFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

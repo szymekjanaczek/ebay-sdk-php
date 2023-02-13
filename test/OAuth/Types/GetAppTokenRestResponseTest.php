@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\OAuth\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse;
 
-class GetAppTokenRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetAppTokenRestResponseTest extends TestCase
 {
     private $obj;
 

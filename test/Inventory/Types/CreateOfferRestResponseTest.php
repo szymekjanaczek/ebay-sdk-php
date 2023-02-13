@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\CreateOfferRestResponse;
 
-class CreateOfferRestResponseTest extends \PHPUnit\Framework\TestCase
+class CreateOfferRestResponseTest extends TestCase
 {
     private $obj;
 

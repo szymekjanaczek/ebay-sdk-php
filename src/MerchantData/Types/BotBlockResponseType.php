@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $BotBlockToken
  * @property string $BotBlockUrl
  * @property string $BotBlockAudioUrl
  */
-class BotBlockResponseType extends \DTS\eBaySDK\Types\BaseType
+class BotBlockResponseType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

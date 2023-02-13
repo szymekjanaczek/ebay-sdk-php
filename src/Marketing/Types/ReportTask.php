@@ -10,18 +10,22 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Marketing\Enums\ReportFormatEnum;
+use DTS\eBaySDK\Marketing\Enums\TaskStatusEnum;
+use DTS\eBaySDK\Marketing\Enums\ReportTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $campaignIds
  * @property string $dateFrom
  * @property string $dateTo
- * @property \DTS\eBaySDK\Marketing\Types\Dimension[] $dimensions
- * @property \DTS\eBaySDK\Marketing\Types\InventoryReference[] $inventoryReferences
+ * @property Dimension[] $dimensions
+ * @property InventoryReference[] $inventoryReferences
  * @property string[] $listingIds
  * @property \DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum $marketplaceId
  * @property string[] $metricKeys
  * @property string $reportExpirationDate
- * @property \DTS\eBaySDK\Marketing\Enums\ReportFormatEnum $reportFormat
+ * @property ReportFormatEnum $reportFormat
  * @property string $reportHref
  * @property string $reportId
  * @property string $reportName
@@ -29,11 +33,11 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $reportTaskCreationDate
  * @property string $reportTaskExpectedCompletionDate
  * @property string $reportTaskId
- * @property \DTS\eBaySDK\Marketing\Enums\TaskStatusEnum $reportTaskStatus
+ * @property TaskStatusEnum $reportTaskStatus
  * @property string $reportTaskStatusMessage
- * @property \DTS\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
+ * @property ReportTypeEnum $reportType
  */
-class ReportTask extends \DTS\eBaySDK\Types\BaseType
+class ReportTask extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

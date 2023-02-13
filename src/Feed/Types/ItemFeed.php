@@ -10,6 +10,9 @@
 
 namespace DTS\eBaySDK\Feed\Types;
 
+use DateTime;
+use DTS\eBaySDK\Feed\Enums\CurrencyCodeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ageGroup
@@ -22,11 +25,11 @@ namespace DTS\eBaySDK\Feed\Types;
  * @property string $gender
  * @property string $gtin
  * @property string $imageUrl
- * @property \DateTime $itemEndDate
+ * @property DateTime $itemEndDate
  * @property string $itemId
  * @property string $material
  * @property string $mpn
- * @property \DTS\eBaySDK\Feed\Enums\CurrencyCodeEnum $priceCurrency
+ * @property CurrencyCodeEnum $priceCurrency
  * @property string $priceValue
  * @property string $sellerFeedbackPercentage
  * @property double $sellerFeedbackScore
@@ -35,7 +38,7 @@ namespace DTS\eBaySDK\Feed\Types;
  * @property string $sizeType
  * @property string $title
  */
-class ItemFeed extends \DTS\eBaySDK\Types\BaseType
+class ItemFeed extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

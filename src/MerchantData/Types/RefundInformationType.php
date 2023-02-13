@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\RefundTransactionInfoType[] $Refund
+ * @property RefundTransactionInfoType[] $Refund
  */
-class RefundInformationType extends \DTS\eBaySDK\Types\BaseType
+class RefundInformationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

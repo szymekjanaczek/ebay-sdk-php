@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\AppealStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $appealCloseReasonEnum
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $appealDate
+ * @property DateTime $appealDate
  * @property string $appealReasonCode
  * @property string $appealStatus
- * @property \DTS\eBaySDK\PostOrder\Enums\AppealStatusEnum $appealStatusEnum
+ * @property AppealStatusEnum $appealStatusEnum
  * @property boolean $eligibleForAppeal
  */
-class AppealDetails extends \DTS\eBaySDK\Types\BaseType
+class AppealDetails extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

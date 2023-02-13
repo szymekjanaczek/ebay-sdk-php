@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetSellingManagerTemplateAutomationRuleResponseType;
 
-class GetSellingManagerTemplateAutomationRuleResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetSellingManagerTemplateAutomationRuleResponseTypeTest extends TestCase
 {
     private $obj;
 

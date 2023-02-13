@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $limit
  * @property string $offset
  * @property string $report_task_statuses
  */
-class GetReportTasksRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetReportTasksRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

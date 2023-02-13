@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType[] $AddMemberMessagesAAQToBidderRequestContainer
+ * @property AddMemberMessagesAAQToBidderRequestContainerType[] $AddMemberMessagesAAQToBidderRequestContainer
  */
-class AddMemberMessagesAAQToBidderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddMemberMessagesAAQToBidderRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

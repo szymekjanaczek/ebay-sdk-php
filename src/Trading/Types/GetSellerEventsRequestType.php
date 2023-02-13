@@ -10,21 +10,22 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property string $UserID
- * @property \DateTime $StartTimeFrom
- * @property \DateTime $StartTimeTo
- * @property \DateTime $EndTimeFrom
- * @property \DateTime $EndTimeTo
- * @property \DateTime $ModTimeFrom
- * @property \DateTime $ModTimeTo
+ * @property DateTime $StartTimeFrom
+ * @property DateTime $StartTimeTo
+ * @property DateTime $EndTimeFrom
+ * @property DateTime $EndTimeTo
+ * @property DateTime $ModTimeFrom
+ * @property DateTime $ModTimeTo
  * @property boolean $NewItemFilter
  * @property boolean $IncludeWatchCount
  * @property boolean $IncludeVariationSpecifics
  * @property boolean $HideVariations
  */
-class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellerEventsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

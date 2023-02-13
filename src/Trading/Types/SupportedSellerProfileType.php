@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $ProfileID
  * @property string $ProfileType
  * @property string $ProfileName
  * @property string $ShortSummary
- * @property \DTS\eBaySDK\Trading\Types\CategoryGroupType $CategoryGroup
+ * @property CategoryGroupType $CategoryGroup
  */
-class SupportedSellerProfileType extends \DTS\eBaySDK\Types\BaseType
+class SupportedSellerProfileType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

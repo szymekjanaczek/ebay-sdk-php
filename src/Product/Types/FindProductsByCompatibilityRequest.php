@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest[] $productByCompatibilitySearch
+ * @property ProductByCompatibilityRequest[] $productByCompatibilitySearch
  */
-class FindProductsByCompatibilityRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class FindProductsByCompatibilityRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

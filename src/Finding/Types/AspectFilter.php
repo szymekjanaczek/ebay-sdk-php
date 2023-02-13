@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $aspectName
  * @property string[] $aspectValueName
  */
-class AspectFilter extends \DTS\eBaySDK\Types\BaseType
+class AspectFilter extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

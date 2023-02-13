@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\PickupStatusCodeType;
 
-class PickupStatusCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PickupStatusCodeTypeTest extends TestCase
 {
     private $obj;
 

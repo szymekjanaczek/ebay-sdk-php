@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsRequest;
 
-class GetActivityOptionsRequestTest extends \PHPUnit\Framework\TestCase
+class GetActivityOptionsRequestTest extends TestCase
 {
     private $obj;
 

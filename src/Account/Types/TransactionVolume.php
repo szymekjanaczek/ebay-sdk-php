@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $firstOrderDate
- * @property \DTS\eBaySDK\Account\Types\TransactionSnapshot $transactionSnapshots
+ * @property TransactionSnapshot $transactionSnapshots
  */
-class TransactionVolume extends \DTS\eBaySDK\Types\BaseType
+class TransactionVolume extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

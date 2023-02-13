@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Region[] $regionExcluded
- * @property \DTS\eBaySDK\Account\Types\Region[] $regionIncluded
+ * @property Region[] $regionExcluded
+ * @property Region[] $regionIncluded
  */
-class RegionSet extends \DTS\eBaySDK\Types\BaseType
+class RegionSet extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

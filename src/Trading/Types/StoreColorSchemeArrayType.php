@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreColorSchemeType[] $ColorScheme
+ * @property StoreColorSchemeType[] $ColorScheme
  */
-class StoreColorSchemeArrayType extends \DTS\eBaySDK\Types\BaseType
+class StoreColorSchemeArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

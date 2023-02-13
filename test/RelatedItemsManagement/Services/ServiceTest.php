@@ -1,12 +1,13 @@
 <?php
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Services;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementBaseService;
 use DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementService;
 use DTS\eBaySDK\Test\RelatedItemsManagement\Mocks\Service;
 use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
-class ServiceTest extends \PHPUnit\Framework\TestCase
+class ServiceTest extends TestCase
 {
     public function testConfigDefinitions()
     {

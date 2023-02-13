@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\BulkUpdatePriceAndQuantityRestRequest;
 
-class BulkUpdatePriceAndQuantityRestRequestTest extends \PHPUnit\Framework\TestCase
+class BulkUpdatePriceAndQuantityRestRequestTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $VerifiedUser
  * @property integer $MinimumFeedbackScore
  */
-class VerifiedUserRequirementsType extends \DTS\eBaySDK\Types\BaseType
+class VerifiedUserRequirementsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 use DTS\eBaySDK\Test\Mocks\SimpleClass;
 
-class SearchTest extends \PHPUnit\Framework\TestCase
+class SearchTest extends TestCase
 {
     public function testCanSearch()
     {

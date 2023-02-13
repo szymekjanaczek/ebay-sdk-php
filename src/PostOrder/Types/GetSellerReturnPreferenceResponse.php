@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $advanceRulesEnabled
- * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailType[] $basicRules
+ * @property RuleDetailType[] $basicRules
  * @property boolean $RMARequired
  * @property integer $versionId
  */
-class GetSellerReturnPreferenceResponse extends \DTS\eBaySDK\Types\BaseType
+class GetSellerReturnPreferenceResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

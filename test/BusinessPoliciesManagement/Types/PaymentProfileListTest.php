@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfileList;
 
-class PaymentProfileListTest extends \PHPUnit\Framework\TestCase
+class PaymentProfileListTest extends TestCase
 {
     private $obj;
 

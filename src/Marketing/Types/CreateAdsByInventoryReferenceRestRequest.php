@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  *
  * @property string $campaign_id
  */
-class CreateAdsByInventoryReferenceRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRequest
+class CreateAdsByInventoryReferenceRestRequest extends CreateAdsByInventoryReferenceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

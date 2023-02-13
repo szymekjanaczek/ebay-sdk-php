@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\InventorySnapshot;
 
-class InventorySnapshotTest extends \PHPUnit\Framework\TestCase
+class InventorySnapshotTest extends TestCase
 {
     private $obj;
 

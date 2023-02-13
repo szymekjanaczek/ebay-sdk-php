@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\QuantityRestrictionPerBuyerInfoType;
 
-class QuantityRestrictionPerBuyerInfoTypeTest extends \PHPUnit\Framework\TestCase
+class QuantityRestrictionPerBuyerInfoTypeTest extends TestCase
 {
     private $obj;
 

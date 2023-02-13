@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $TotalAvailable
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerType[] $FavoriteSeller
+ * @property MyeBayFavoriteSellerType[] $FavoriteSeller
  */
-class MyeBayFavoriteSellerListType extends \DTS\eBaySDK\Types\BaseType
+class MyeBayFavoriteSellerListType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

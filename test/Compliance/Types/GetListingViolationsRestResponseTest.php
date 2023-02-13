@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Compliance\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse;
 
-class GetListingViolationsRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetListingViolationsRestResponseTest extends TestCase
 {
     private $obj;
 

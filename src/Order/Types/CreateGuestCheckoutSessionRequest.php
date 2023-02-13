@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $contactEmail
  * @property string $contactFirstName
  * @property string $contactLastName
- * @property \DTS\eBaySDK\Order\Types\CreditCard $creditCard
- * @property \DTS\eBaySDK\Order\Types\LineItemInput[] $lineItemInputs
- * @property \DTS\eBaySDK\Order\Types\ShippingAddress $shippingAddress
+ * @property CreditCard $creditCard
+ * @property LineItemInput[] $lineItemInputs
+ * @property ShippingAddress $shippingAddress
  */
-class CreateGuestCheckoutSessionRequest extends \DTS\eBaySDK\Types\BaseType
+class CreateGuestCheckoutSessionRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

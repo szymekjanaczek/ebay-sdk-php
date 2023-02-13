@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Merchandising\Types;
  *
  * @property string $keywords
  */
-class GetDealsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
+class GetDealsRequest extends BaseMerchandisingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

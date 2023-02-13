@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\UnpaidItemType;
 
-class UnpaidItemTypeTest extends \PHPUnit\Framework\TestCase
+class UnpaidItemTypeTest extends TestCase
 {
     private $obj;
 

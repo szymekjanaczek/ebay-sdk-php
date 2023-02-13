@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
  * @property string $content
  */
-class UploadDocumentInfoType extends \DTS\eBaySDK\Types\BaseType
+class UploadDocumentInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

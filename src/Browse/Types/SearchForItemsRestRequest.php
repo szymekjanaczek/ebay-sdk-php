@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $aspect_filter
@@ -23,7 +24,7 @@ namespace DTS\eBaySDK\Browse\Types;
  * @property string $q
  * @property string $sort
  */
-class SearchForItemsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class SearchForItemsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

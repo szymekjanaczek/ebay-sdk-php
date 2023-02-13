@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem;
 
-class OrderCancelLineItemTest extends \PHPUnit\Framework\TestCase
+class OrderCancelLineItemTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation;
 
-class URITypeSpecificInformationTest extends \PHPUnit\Framework\TestCase
+class URITypeSpecificInformationTest extends TestCase
 {
     private $obj;
 

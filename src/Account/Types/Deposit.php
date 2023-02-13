@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $amount
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $dueIn
- * @property \DTS\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods
+ * @property Amount $amount
+ * @property TimeDuration $dueIn
+ * @property PaymentMethod[] $paymentMethods
  */
-class Deposit extends \DTS\eBaySDK\Types\BaseType
+class Deposit extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

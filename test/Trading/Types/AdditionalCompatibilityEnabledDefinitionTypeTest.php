@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AdditionalCompatibilityEnabledDefinitionType;
 
-class AdditionalCompatibilityEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class AdditionalCompatibilityEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

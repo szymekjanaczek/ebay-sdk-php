@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SetUserNotesActionCodeType;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\SetUserNotesActionCodeType $Action
+ * @property SetUserNotesActionCodeType $Action
  * @property string $NoteText
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property NameValueListArrayType $VariationSpecifics
  * @property string $SKU
  * @property string $OrderLineItemID
  */
-class SetUserNotesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetUserNotesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

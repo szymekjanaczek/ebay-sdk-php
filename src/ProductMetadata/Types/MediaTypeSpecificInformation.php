@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class MediaTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
+class MediaTypeSpecificInformation extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

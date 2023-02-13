@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\GetSpecificReportRestResponse;
 
-class GetSpecificReportRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetSpecificReportRestResponseTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $close
  * @property string $open
  */
-class Interval extends \DTS\eBaySDK\Types\BaseType
+class Interval extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property double $VATPercent
  * @property string $OrderLineItemID
  */
-class VATRateType extends \DTS\eBaySDK\Types\BaseType
+class VATRateType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

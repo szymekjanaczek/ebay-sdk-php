@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ContactHoursDetailsType $ContactHoursDetails
+ * @property ContactHoursDetailsType $ContactHoursDetails
  * @property boolean $ClassifiedAdContactByEmailEnabled
  */
-class ExtendedContactDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ExtendedContactDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

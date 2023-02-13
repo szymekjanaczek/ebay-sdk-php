@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AverageRatingSummaryType[] $AverageRatingSummary
+ * @property AverageRatingSummaryType[] $AverageRatingSummary
  */
-class SellerRatingSummaryArrayType extends \DTS\eBaySDK\Types\BaseType
+class SellerRatingSummaryArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

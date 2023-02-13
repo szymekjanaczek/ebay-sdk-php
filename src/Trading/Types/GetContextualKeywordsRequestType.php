@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Encoding
  * @property string[] $CategoryID
  */
-class GetContextualKeywordsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetContextualKeywordsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

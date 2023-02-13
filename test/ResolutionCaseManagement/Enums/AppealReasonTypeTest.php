@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType;
 
-class AppealReasonTypeTest extends \PHPUnit\Framework\TestCase
+class AppealReasonTypeTest extends TestCase
 {
     private $obj;
 

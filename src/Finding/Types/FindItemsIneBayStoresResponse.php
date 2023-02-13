@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\CategoryHistogramContainer $categoryHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
+ * @property CategoryHistogramContainer $categoryHistogramContainer
+ * @property AspectHistogramContainer $aspectHistogramContainer
+ * @property ConditionHistogramContainer $conditionHistogramContainer
  */
-class FindItemsIneBayStoresResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
+class FindItemsIneBayStoresResponse extends BaseFindingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

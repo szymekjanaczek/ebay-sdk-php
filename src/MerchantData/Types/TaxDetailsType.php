@@ -10,17 +10,20 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\TaxTypeCodeType;
+use DTS\eBaySDK\MerchantData\Enums\TaxDescriptionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\TaxTypeCodeType $Imposition
- * @property \DTS\eBaySDK\MerchantData\Enums\TaxDescriptionCodeType $TaxDescription
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnSubtotalAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnShippingAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnHandlingAmount
+ * @property TaxTypeCodeType $Imposition
+ * @property TaxDescriptionCodeType $TaxDescription
+ * @property AmountType $TaxAmount
+ * @property AmountType $TaxOnSubtotalAmount
+ * @property AmountType $TaxOnShippingAmount
+ * @property AmountType $TaxOnHandlingAmount
  * @property string $TaxCode
  */
-class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
+class TaxDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

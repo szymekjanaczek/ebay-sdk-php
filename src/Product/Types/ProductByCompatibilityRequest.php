@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter $applicationPropertyFilter
- * @property \DTS\eBaySDK\Product\Types\ProductRequest $productSearch
+ * @property CompatibilityPropertyFilter $applicationPropertyFilter
+ * @property ProductRequest $productSearch
  */
-class ProductByCompatibilityRequest extends \DTS\eBaySDK\Types\BaseType
+class ProductByCompatibilityRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

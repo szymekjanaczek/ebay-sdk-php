@@ -10,35 +10,38 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\TrackingStatusEnum;
+use DTS\eBaySDK\PostOrder\Enums\ShippingMethodEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $active
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actualDeliveryDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actualShipDate
+ * @property DateTime $actualDeliveryDate
+ * @property DateTime $actualShipDate
  * @property string $carrierEnum
  * @property integer $carrierId
  * @property string $carrierName
  * @property string $carrierUsed
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $deliveryDate
- * @property \DTS\eBaySDK\PostOrder\Enums\TrackingStatusEnum $deliveryStatus
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $destinationAddress
+ * @property DateTime $deliveryDate
+ * @property TrackingStatusEnum $deliveryStatus
+ * @property ReturnAddressType $destinationAddress
  * @property string $errorCode
  * @property string $labelAvailableUntilDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $labelDate
+ * @property DateTime $labelDate
  * @property string $labelId
  * @property boolean $labelPrintExpired
  * @property boolean $labelVoidExpired
  * @property boolean $markAsReceived
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $maxDeliveryEstimate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $minDeliveryEstimate
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $originAddress
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shipDate
+ * @property DateTime $maxDeliveryEstimate
+ * @property DateTime $minDeliveryEstimate
+ * @property ReturnAddressType $originAddress
+ * @property DateTime $shipDate
  * @property string $shipmentId
  * @property string $shippedBy
- * @property \DTS\eBaySDK\PostOrder\Enums\ShippingMethodEnum $shippingMethod
+ * @property ShippingMethodEnum $shippingMethod
  * @property string $trackingNumber
  */
-class ShipmentTrackingType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentTrackingType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $errorId
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $severity
  * @property string $category
  * @property string $message
- * @property \DTS\eBaySDK\PostOrder\Types\ErrorParameter[] $parameter
+ * @property ErrorParameter[] $parameter
  * @property string $longMessage
  * @property integer $httpStatusCode
  * @property string $errorName
@@ -26,7 +27,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $organization
  * @property string $errorGroups
  */
-class Error extends \DTS\eBaySDK\Types\BaseType
+class Error extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

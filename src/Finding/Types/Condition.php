@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $conditionId
  * @property string $conditionDisplayName
  */
-class Condition extends \DTS\eBaySDK\Types\BaseType
+class Condition extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

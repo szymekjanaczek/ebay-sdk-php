@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\UnitInfoType;
 
-class UnitInfoTypeTest extends \PHPUnit\Framework\TestCase
+class UnitInfoTypeTest extends TestCase
 {
     private $obj;
 

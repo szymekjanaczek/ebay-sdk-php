@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Analytics\Services;
 
+use DTS\eBaySDK\Services\BaseRestService;
 /**
  * Base class for the Analytics service.
  */
-class AnalyticsBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class AnalyticsBaseService extends BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +45,7 @@ class AnalyticsBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Analytics\Services\AnalyticsService::API_VERSION,
+                'default' => AnalyticsService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

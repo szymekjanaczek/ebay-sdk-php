@@ -10,25 +10,28 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\MerchantData\Enums\AckCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $Timestamp
- * @property \DTS\eBaySDK\MerchantData\Enums\AckCodeType $Ack
+ * @property DateTime $Timestamp
+ * @property AckCodeType $Ack
  * @property string $CorrelationID
- * @property \DTS\eBaySDK\MerchantData\Types\ErrorType[] $Errors
+ * @property ErrorType[] $Errors
  * @property string $Message
  * @property string $Version
  * @property string $Build
  * @property string $NotificationEventName
- * @property \DTS\eBaySDK\MerchantData\Types\DuplicateInvocationDetailsType $DuplicateInvocationDetails
+ * @property DuplicateInvocationDetailsType $DuplicateInvocationDetails
  * @property string $RecipientUserID
  * @property string $EIASToken
  * @property string $NotificationSignature
  * @property string $HardExpirationWarning
- * @property \DTS\eBaySDK\MerchantData\Types\BotBlockResponseType $BotBlock
+ * @property BotBlockResponseType $BotBlock
  * @property string $ExternalUserData
  */
-class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
+class AbstractResponseType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

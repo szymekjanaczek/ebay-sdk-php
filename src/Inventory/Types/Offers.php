@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
  * @property integer $limit
  * @property string $next
- * @property \DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll[] $offers
+ * @property EbayOfferDetailsWithAll[] $offers
  * @property string $prev
  * @property integer $size
  * @property integer $total
  */
-class Offers extends \DTS\eBaySDK\Types\BaseType
+class Offers extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

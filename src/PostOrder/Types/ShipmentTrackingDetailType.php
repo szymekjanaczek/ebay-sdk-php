@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $carrier
  * @property string $currentStatus
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $estimateFromDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $estimateToDate
+ * @property DateTime $estimateFromDate
+ * @property DateTime $estimateToDate
  * @property string $trackingNumber
  * @property string $trackingURL
  */
-class ShipmentTrackingDetailType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentTrackingDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Marketing\Types;
 /**
  *
  */
-class CreateItemPromotionRestRequest extends \DTS\eBaySDK\Marketing\Types\ItemPromotion
+class CreateItemPromotionRestRequest extends ItemPromotion
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType;
 
-class SellingManagerEmailLogTypeTest extends \PHPUnit\Framework\TestCase
+class SellingManagerEmailLogTypeTest extends TestCase
 {
     private $obj;
 

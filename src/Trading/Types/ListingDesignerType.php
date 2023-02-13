@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $LayoutID
  * @property boolean $OptimalPictureSize
  * @property integer $ThemeID
  */
-class ListingDesignerType extends \DTS\eBaySDK\Types\BaseType
+class ListingDesignerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

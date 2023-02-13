@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetPoliciesForNegotiatedPriceRestResponse extends \DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicyResponse
+class GetPoliciesForNegotiatedPriceRestResponse extends NegotiatedPricePolicyResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

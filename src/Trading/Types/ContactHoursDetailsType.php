@@ -10,19 +10,21 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DaysCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $TimeZoneID
- * @property \DTS\eBaySDK\Trading\Enums\DaysCodeType $Hours1Days
+ * @property DaysCodeType $Hours1Days
  * @property boolean $Hours1AnyTime
  * @property string $Hours1From
  * @property string $Hours1To
- * @property \DTS\eBaySDK\Trading\Enums\DaysCodeType $Hours2Days
+ * @property DaysCodeType $Hours2Days
  * @property boolean $Hours2AnyTime
  * @property string $Hours2From
  * @property string $Hours2To
  */
-class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ContactHoursDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

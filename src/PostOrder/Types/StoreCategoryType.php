@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $categoryId
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property boolean $isPseudo
  * @property integer $storeId
  */
-class StoreCategoryType extends \DTS\eBaySDK\Types\BaseType
+class StoreCategoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

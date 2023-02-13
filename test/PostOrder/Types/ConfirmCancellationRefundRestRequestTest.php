@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest;
 
-class ConfirmCancellationRefundRestRequestTest extends \PHPUnit\Framework\TestCase
+class ConfirmCancellationRefundRestRequestTest extends TestCase
 {
     private $obj;
 

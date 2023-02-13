@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\TopRatedProgramCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\TopRatedProgramCodeType[] $TopRatedProgram
+ * @property TopRatedProgramCodeType[] $TopRatedProgram
  */
-class TopRatedSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
+class TopRatedSellerDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

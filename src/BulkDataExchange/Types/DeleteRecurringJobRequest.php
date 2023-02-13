@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
  *
  * @property string $recurringJobId
  */
-class DeleteRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class DeleteRecurringJobRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

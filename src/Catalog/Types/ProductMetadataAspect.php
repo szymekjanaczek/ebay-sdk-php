@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $aspectHelpText
- * @property \DTS\eBaySDK\Catalog\Types\ProductAspectConstraint $constraint
+ * @property ProductAspectConstraint $constraint
  * @property boolean $droppable
  * @property string $name
- * @property \DTS\eBaySDK\Catalog\Types\ProductAspectValue[] $values
+ * @property ProductAspectValue[] $values
  * @property string[] $valuesAssociatedWithProduct
  */
-class ProductMetadataAspect extends \DTS\eBaySDK\Types\BaseType
+class ProductMetadataAspect extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

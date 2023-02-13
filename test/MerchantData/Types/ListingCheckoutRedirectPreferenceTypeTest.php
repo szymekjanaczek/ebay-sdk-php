@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType;
 
-class ListingCheckoutRedirectPreferenceTypeTest extends \PHPUnit\Framework\TestCase
+class ListingCheckoutRedirectPreferenceTypeTest extends TestCase
 {
     private $obj;
 

@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Feedback\Mocks;
 
+use DTS\eBaySDK\Feedback\Services\FeedbackBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
+class Service extends FeedbackBaseService
 {
     public function __construct(array $config)
     {

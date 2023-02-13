@@ -10,28 +10,29 @@
 
 namespace DTS\eBaySDK\Merchandising\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
  * @property string $title
  * @property string $viewItemURL
- * @property \DTS\eBaySDK\Merchandising\Types\Amount $currentPrice
- * @property \DTS\eBaySDK\Merchandising\Types\Amount $originalPrice
+ * @property Amount $currentPrice
+ * @property Amount $originalPrice
  * @property string $globalId
  * @property string $timeLeft
  * @property string $primaryCategoryId
  * @property string $primaryCategoryName
  * @property string $subtitle
  * @property integer $bidCount
- * @property \DTS\eBaySDK\Merchandising\Types\Amount $buyItNowPrice
+ * @property Amount $buyItNowPrice
  * @property string $country
  * @property string $imageURL
- * @property \DTS\eBaySDK\Merchandising\Types\Amount $shippingCost
+ * @property Amount $shippingCost
  * @property string $shippingType
  * @property integer $watchCount
- * @property \DTS\eBaySDK\Merchandising\Types\DiscountPriceInfo $discountPriceInfo
+ * @property DiscountPriceInfo $discountPriceInfo
  */
-class Item extends \DTS\eBaySDK\Types\BaseType
+class Item extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

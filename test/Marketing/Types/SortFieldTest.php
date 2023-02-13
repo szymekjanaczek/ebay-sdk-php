@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\SortField;
 
-class SortFieldTest extends \PHPUnit\Framework\TestCase
+class SortFieldTest extends TestCase
 {
     private $obj;
 

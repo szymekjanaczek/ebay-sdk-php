@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $returnId
  */
-class UpdateShipmentTrackingRestRequest extends \DTS\eBaySDK\PostOrder\Types\UpdateTrackingRequest
+class UpdateShipmentTrackingRestRequest extends UpdateTrackingRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

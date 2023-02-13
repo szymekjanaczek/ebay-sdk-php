@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $ItemRevised
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property boolean $ReserveLowered
  * @property boolean $ReserveRemoved
  */
-class ReviseStatusType extends \DTS\eBaySDK\Types\BaseType
+class ReviseStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

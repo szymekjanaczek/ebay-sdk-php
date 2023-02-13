@@ -22,6 +22,8 @@
  */
 namespace DTS\eBaySDK\JmesPath;
 
+use RuntimeException;
+use JsonSerializable;
 /**
  * Dispatches to named JMESPath functions using a single function that has the
  * following signature:
@@ -107,7 +109,7 @@ class FnDispatcher
     private function fn_not_null(array $args)
     {
         if (!$args) {
-            throw new \RuntimeException(
+            throw new RuntimeException(
                 "not_null() expects 1 or more arguments, 0 were provided"
             );
         }
@@ -185,7 +187,7 @@ class FnDispatcher
         } elseif (is_string($arg)) {
             return strrev($arg);
         } else {
-            throw new \RuntimeException('Cannot reverse provided argument');
+            throw new RuntimeException('Cannot reverse provided argument');
         }
     }
 
@@ -242,7 +244,7 @@ class FnDispatcher
         if (is_string($v)) {
             return $v;
         } elseif (is_object($v)
-            && !($v instanceof \JsonSerializable)
+            && !($v instanceof JsonSerializable)
             && method_exists($v, '__toString')
         ) {
             return (string) $v;
@@ -276,7 +278,7 @@ class FnDispatcher
     private function fn_merge(array $args)
     {
         if (!$args) {
-            throw new \RuntimeException(
+            throw new RuntimeException(
                 "merge() expects 1 or more arguments, 0 were provided"
             );
         }
@@ -308,11 +310,11 @@ class FnDispatcher
     {
         if (strpos($from, ':')) {
             list($fn, $pos) = explode(':', $from);
-            throw new \RuntimeException(
+            throw new RuntimeException(
                 sprintf('Argument %d of %s %s', $pos, $fn, $msg)
             );
         } else {
-            throw new \RuntimeException(
+            throw new RuntimeException(
                 sprintf('Type error: %s %s', $from, $msg)
             );
         }
@@ -322,7 +324,7 @@ class FnDispatcher
     {
         if ($given != $expected) {
             $err = "%s() expects {$expected} arguments, {$given} were provided";
-            throw new \RuntimeException(sprintf($err, $from));
+            throw new RuntimeException(sprintf($err, $from));
         }
     }
 
@@ -429,6 +431,6 @@ class FnDispatcher
     public function __call($name, $args)
     {
         $name = str_replace('fn_', '', $name);
-        throw new \RuntimeException("Call to undefined function {$name}");
+        throw new RuntimeException("Call to undefined function {$name}");
     }
 }

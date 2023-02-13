@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class ReviseCheckoutStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseCheckoutStatusResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,18 +10,19 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $ShipToRegistrationCountry
  * @property boolean $ZeroFeedbackScore
  * @property integer $MinimumFeedbackScore
- * @property \DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType $MaximumItemRequirements
+ * @property MaximumItemRequirementsType $MaximumItemRequirements
  * @property boolean $LinkedPayPalAccount
- * @property \DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType $VerifiedUserRequirements
- * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
- * @property \DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
+ * @property VerifiedUserRequirementsType $VerifiedUserRequirements
+ * @property MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
+ * @property MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
  */
-class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BuyerRequirementDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

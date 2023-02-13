@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
- * @property \DTS\eBaySDK\Product\Types\StockPhotoURL $stockPhotoURL
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $productDetails
- * @property \DTS\eBaySDK\Product\Types\ProductStatus $productStatus
+ * @property ProductIdentifier $productIdentifier
+ * @property StockPhotoURL $stockPhotoURL
+ * @property PropertyValue[] $productDetails
+ * @property ProductStatus $productStatus
  * @property integer $compatibilityCount
  * @property string $type
- * @property \DTS\eBaySDK\Product\Types\Notes $notes
+ * @property Notes $notes
  */
-class Product extends \DTS\eBaySDK\Types\BaseType
+class Product extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

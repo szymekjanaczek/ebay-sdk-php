@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Merchandising\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Merchandising\Types\Product[] $product
+ * @property Product[] $product
  */
-class ProductRecommendations extends \DTS\eBaySDK\Types\BaseType
+class ProductRecommendations extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GlobalShippingEnabledDefinitionType;
 
-class GlobalShippingEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class GlobalShippingEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Feedback\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $dateFrom
- * @property \DateTime $dateTo
+ * @property DateTime $dateFrom
+ * @property DateTime $dateTo
  */
-class DateRange extends \DTS\eBaySDK\Types\BaseType
+class DateRange extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

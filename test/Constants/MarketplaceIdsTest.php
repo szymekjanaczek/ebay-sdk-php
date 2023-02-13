@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Constants\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Constants\MarketplaceIds as MarketplaceIds;
 
-class MarketplaceIdsTest extends \PHPUnit\Framework\TestCase
+class MarketplaceIdsTest extends TestCase
 {
     public function testConstantsAreCorrectType()
     {

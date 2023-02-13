@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\GetShippingDiscountProfilesRequestType;
 
-class GetShippingDiscountProfilesRequestTypeTest extends \PHPUnit\Framework\TestCase
+class GetShippingDiscountProfilesRequestTypeTest extends TestCase
 {
     private $obj;
 

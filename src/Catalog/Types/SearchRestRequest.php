@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $offset
@@ -21,7 +22,7 @@ namespace DTS\eBaySDK\Catalog\Types;
  * @property string $gtin
  * @property string $q
  */
-class SearchRestRequest extends \DTS\eBaySDK\Types\BaseType
+class SearchRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

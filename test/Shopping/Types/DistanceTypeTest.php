@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\DistanceType;
 
-class DistanceTypeTest extends \PHPUnit\Framework\TestCase
+class DistanceTypeTest extends TestCase
 {
     private $obj;
 

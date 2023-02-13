@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Catalog\Enums\AspectModeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Enums\AspectModeEnum[] $mode
+ * @property AspectModeEnum[] $mode
  * @property boolean $required
  */
-class ProductIdentifierConstraint extends \DTS\eBaySDK\Types\BaseType
+class ProductIdentifierConstraint extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

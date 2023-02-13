@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\StoreLogoArrayType;
 
-class StoreLogoArrayTypeTest extends \PHPUnit\Framework\TestCase
+class StoreLogoArrayTypeTest extends TestCase
 {
     private $obj;
 

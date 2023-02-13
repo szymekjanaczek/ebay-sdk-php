@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest;
 
-class RemoveOverridesRequestTest extends \PHPUnit\Framework\TestCase
+class RemoveOverridesRequestTest extends TestCase
 {
     private $obj;
 

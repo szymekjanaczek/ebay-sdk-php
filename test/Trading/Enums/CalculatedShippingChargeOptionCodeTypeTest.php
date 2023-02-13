@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\CalculatedShippingChargeOptionCodeType;
 
-class CalculatedShippingChargeOptionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class CalculatedShippingChargeOptionCodeTypeTest extends TestCase
 {
     private $obj;
 

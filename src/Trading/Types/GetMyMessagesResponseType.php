@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesSummaryType $Summary
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageArrayType $Messages
+ * @property MyMessagesSummaryType $Summary
+ * @property MyMessagesMessageArrayType $Messages
  */
-class GetMyMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMyMessagesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

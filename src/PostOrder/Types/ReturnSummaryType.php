@@ -10,26 +10,29 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum;
+use DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\AvailableOptionType[] $buyerAvailableOptions
+ * @property AvailableOptionType[] $buyerAvailableOptions
  * @property string $buyerLoginName
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType $buyerResponseDue
- * @property \DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType $buyerTotalRefund
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnCreationInfoType $creationInfo
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum $currentType
- * @property \DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum[] $dispositionRuleTriggered
- * @property \DTS\eBaySDK\PostOrder\Types\EscalationInfoType $escalationInfo
+ * @property ReturnResponseDueType $buyerResponseDue
+ * @property TotalRefundAmountType $buyerTotalRefund
+ * @property ReturnCreationInfoType $creationInfo
+ * @property ReturnTypeEnum $currentType
+ * @property DispositionRuleTemplateTypeEnum[] $dispositionRuleTriggered
+ * @property EscalationInfoType $escalationInfo
  * @property string $returnId
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnPolicyType $returnPolicy
- * @property \DTS\eBaySDK\PostOrder\Types\AvailableOptionType[] $sellerAvailableOptions
+ * @property ReturnPolicyType $returnPolicy
+ * @property AvailableOptionType[] $sellerAvailableOptions
  * @property string $sellerLoginName
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType $sellerResponseDue
- * @property \DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType $sellerTotalRefund
+ * @property ReturnResponseDueType $sellerResponseDue
+ * @property TotalRefundAmountType $sellerTotalRefund
  * @property string $state
  * @property string $status
  */
-class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
+class ReturnSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

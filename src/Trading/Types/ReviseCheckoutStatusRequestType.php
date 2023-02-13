@@ -10,28 +10,31 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType;
+use DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType;
 /**
  *
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
- * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $CheckoutStatus
+ * @property AmountType $AmountPaid
+ * @property BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property CompleteStatusCodeType $CheckoutStatus
  * @property string $ShippingService
  * @property boolean $ShippingIncludedInTax
- * @property \DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType $PaymentStatus
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property RCSPaymentStatusCodeType $PaymentStatus
+ * @property AmountType $AdjustmentAmount
  * @property string $BuyerID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $SalesTax
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingCost
+ * @property AmountType $SalesTax
+ * @property AmountType $ShippingCost
  * @property string $EncryptedID
- * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
+ * @property ExternalTransactionType $ExternalTransaction
  * @property string $MultipleSellerPaymentID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $CODCost
+ * @property AmountType $CODCost
  * @property string $OrderLineItemID
  */
-class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseCheckoutStatusRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Fulfillment\Types\Contact;
 
-class ContactTest extends \PHPUnit\Framework\TestCase
+class ContactTest extends TestCase
 {
     private $obj;
 

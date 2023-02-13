@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\CommonDescriptions;
 
-class CommonDescriptionsTest extends \PHPUnit\Framework\TestCase
+class CommonDescriptionsTest extends TestCase
 {
     private $obj;
 

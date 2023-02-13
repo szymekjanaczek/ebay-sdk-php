@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $QuantityScheduled
@@ -17,9 +18,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $QuantitySold
  * @property integer $QuantityUnsold
  * @property double $SuccessPercent
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AverageSellingPrice
+ * @property AmountType $AverageSellingPrice
  */
-class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerProductInventoryStatusType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

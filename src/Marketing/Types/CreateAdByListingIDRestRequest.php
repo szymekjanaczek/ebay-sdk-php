@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  *
  * @property string $campaign_id
  */
-class CreateAdByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateAdRequest
+class CreateAdByListingIDRestRequest extends CreateAdRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

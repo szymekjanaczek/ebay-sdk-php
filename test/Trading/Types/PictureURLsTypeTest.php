@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\PictureURLsType;
 
-class PictureURLsTypeTest extends \PHPUnit\Framework\TestCase
+class PictureURLsTypeTest extends TestCase
 {
     private $obj;
 

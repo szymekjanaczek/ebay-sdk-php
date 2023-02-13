@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
  * @property integer $VeROReportPacketID
  * @property string $ItemID
  * @property boolean $IncludeReportedItemDetails
- * @property \DateTime $TimeFrom
- * @property \DateTime $TimeTo
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property DateTime $TimeFrom
+ * @property DateTime $TimeTo
+ * @property PaginationType $Pagination
  */
-class GetVeROReportStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetVeROReportStatusRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

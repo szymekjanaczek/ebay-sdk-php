@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $dimension
  * @property string $filter
  * @property string $metric
  */
-class GetTrafficReportRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetTrafficReportRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

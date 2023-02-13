@@ -10,20 +10,24 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $BestOfferID
- * @property \DateTime $ExpirationTime
- * @property \DTS\eBaySDK\Trading\Types\UserType $Buyer
- * @property \DTS\eBaySDK\Trading\Types\AmountType $Price
- * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType $Status
+ * @property DateTime $ExpirationTime
+ * @property UserType $Buyer
+ * @property AmountType $Price
+ * @property BestOfferStatusCodeType $Status
  * @property integer $Quantity
  * @property string $BuyerMessage
  * @property string $SellerMessage
- * @property \DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType $BestOfferCodeType
+ * @property BestOfferTypeCodeType $BestOfferCodeType
  * @property string $CallStatus
  */
-class BestOfferType extends \DTS\eBaySDK\Types\BaseType
+class BestOfferType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus;
 
-class BundleStatusTest extends \PHPUnit\Framework\TestCase
+class BundleStatusTest extends TestCase
 {
     private $obj;
 

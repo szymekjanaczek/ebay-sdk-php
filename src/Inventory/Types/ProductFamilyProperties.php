@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $engine
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\Inventory\Types;
  * @property string $trim
  * @property string $year
  */
-class ProductFamilyProperties extends \DTS\eBaySDK\Types\BaseType
+class ProductFamilyProperties extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

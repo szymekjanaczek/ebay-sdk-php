@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Finding\Types;
 /**
  *
  */
-class FindItemsForFavoriteSearchResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
+class FindItemsForFavoriteSearchResponse extends BaseFindingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

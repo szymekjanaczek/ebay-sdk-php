@@ -10,20 +10,23 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Order\Enums\LineItemPaymentStatusEnum;
+use DTS\eBaySDK\Order\Enums\LineItemStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\Image $image
+ * @property Image $image
  * @property string $itemId
  * @property string $lineItemId
- * @property \DTS\eBaySDK\Order\Enums\LineItemPaymentStatusEnum $lineItemPaymentStatus
- * @property \DTS\eBaySDK\Order\Enums\LineItemStatusEnum $lineItemStatus
- * @property \DTS\eBaySDK\Order\Types\Amount $netPrice
+ * @property LineItemPaymentStatusEnum $lineItemPaymentStatus
+ * @property LineItemStatusEnum $lineItemStatus
+ * @property Amount $netPrice
  * @property integer $quantity
- * @property \DTS\eBaySDK\Order\Types\Seller $seller
- * @property \DTS\eBaySDK\Order\Types\ShippingDetail $shippingDetail
+ * @property Seller $seller
+ * @property ShippingDetail $shippingDetail
  * @property string $title
  */
-class LineItem extends \DTS\eBaySDK\Types\BaseType
+class LineItem extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

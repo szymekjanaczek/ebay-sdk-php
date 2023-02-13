@@ -1,6 +1,12 @@
 <?php
 namespace DTS\eBaySDK\Types;
 
+use stdClass;
+use DTS\eBaySDK\Exceptions\UnknownPropertyException;
+use DTS\eBaySDK\Exceptions\InvalidPropertyTypeException;
+use DateTime;
+use DateTimeZone;
+use function DTS\eBaySDK\checkPropertyType;
 use \DTS\eBaySDK\Types;
 use \DTS\eBaySDK\Exceptions;
 use \DTS\eBaySDK\JmesPath\Env;
@@ -158,7 +164,7 @@ class BaseType implements JmesPathableObjectInterface
             $nameKey = $info['attribute'] ? 'attributeName' : 'elementName';
             if (array_key_exists($nameKey, $info)) {
                 if ($info[$nameKey] === $elementName) {
-                    $meta = new \stdClass();
+                    $meta = new stdClass();
                     $meta->propertyName = $elementName;
                     $meta->phpType = $info['type'];
                     $meta->repeatable = $info['repeatable'];
@@ -264,8 +270,8 @@ class BaseType implements JmesPathableObjectInterface
      * @param string $class The name of the class the properties belong to.
      * @param array $values. Associative array of property names and their values.
      *
-     * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
-     * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the property.
+     * @throws UnknownPropertyException If the property does not exist.
+     * @throws InvalidPropertyTypeException If the value is the wrong type for the property.
      */
     protected function setValues($class, array $values = [])
     {
@@ -285,7 +291,7 @@ class BaseType implements JmesPathableObjectInterface
      * @param string $name The property name.
      *
      * @return mixed The property value.
-     * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
+     * @throws UnknownPropertyException If the property does not exist.
      */
     private function get($class, $name)
     {
@@ -301,8 +307,8 @@ class BaseType implements JmesPathableObjectInterface
      * @param string $name The property name.
      * @param mixed $value. The value to assign to the property.
      *
-     * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
-     * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the property.
+     * @throws UnknownPropertyException If the property does not exist.
+     * @throws InvalidPropertyTypeException If the value is the wrong type for the property.
      */
     private function set($class, $name, $value)
     {
@@ -319,7 +325,7 @@ class BaseType implements JmesPathableObjectInterface
      * @param string $name The property name.
      *
      * @return bool Returns if the property has been set.
-     * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
+     * @throws UnknownPropertyException If the property does not exist.
      */
     private function isPropertySet($class, $name)
     {
@@ -334,7 +340,7 @@ class BaseType implements JmesPathableObjectInterface
      * @param string $class The name of the class the properties belong to.
      * @param string $name The property name.
      *
-     * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
+     * @throws UnknownPropertyException If the property does not exist.
      */
     private function unSetProperty($class, $name)
     {
@@ -356,7 +362,7 @@ class BaseType implements JmesPathableObjectInterface
         $info = self::propertyInfo($class, $name);
 
         if ($info['repeatable'] && !array_key_exists($name, $this->values)) {
-            $this->values[$name] = new Types\RepeatableType($class, $name, $info['type']);
+            $this->values[$name] = new RepeatableType($class, $name, $info['type']);
         }
 
         return array_key_exists($name, $this->values) ? $this->values[$name] : null;
@@ -369,7 +375,7 @@ class BaseType implements JmesPathableObjectInterface
      * @param string $name The property name.
      * @param mixed $value. The value to assign to the property.
      *
-     * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If trying to assign a non array type to an repeatable property.
+     * @throws InvalidPropertyTypeException If trying to assign a non array type to an repeatable property.
      */
     private function setValue($class, $name, $value)
     {
@@ -380,9 +386,9 @@ class BaseType implements JmesPathableObjectInterface
         } else {
             $actualType = self::getActualType($value);
             if ('array' !== $actualType) {
-                throw new Exceptions\InvalidPropertyTypeException($name, 'DTS\eBaySDK\Types\RepeatableType', $actualType);
+                throw new InvalidPropertyTypeException($name, 'DTS\eBaySDK\Types\RepeatableType', $actualType);
             } else {
-                $this->values[$name] = new Types\RepeatableType(get_class($this), $name, $info['type']);
+                $this->values[$name] = new RepeatableType(get_class($this), $name, $info['type']);
                 foreach ($value as $item) {
                     $this->values[$name][] = $item;
                 }
@@ -456,12 +462,12 @@ class BaseType implements JmesPathableObjectInterface
      * @param string $class The name of the class that we are checking for.
      * @param string $name The property name.
      *
-     * @throws \DTS\eBaySDK\Exceptions\UnknownPropertyException If the property does not exist.
+     * @throws UnknownPropertyException If the property does not exist.
      */
     private static function ensurePropertyExists($class, $name)
     {
         if (!array_key_exists($name, self::$properties[$class])) {
-            throw new Exceptions\UnknownPropertyException($name);
+            throw new UnknownPropertyException($name);
         }
     }
 
@@ -472,7 +478,7 @@ class BaseType implements JmesPathableObjectInterface
      * @param mixed $name The property name.
      * @param mixed $value The value to check the type of.
      *
-     * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the property.
+     * @throws InvalidPropertyTypeException If the value is the wrong type for the property.
      */
     private static function ensurePropertyType($class, $name, $value)
     {
@@ -482,7 +488,7 @@ class BaseType implements JmesPathableObjectInterface
         $valid = explode('|', $info['type']);
 
         foreach ($valid as $check) {
-            if ($check !== 'any' && \DTS\eBaySDK\checkPropertyType($check)) {
+            if ($check !== 'any' && checkPropertyType($check)) {
                 if ($check === $actualType || 'array' === $actualType) {
                     return;
                 }
@@ -494,7 +500,7 @@ class BaseType implements JmesPathableObjectInterface
 
         if (!$isValid) {
             $expectedType = $info['type'];
-            throw new Exceptions\InvalidPropertyTypeException($name, $expectedType, $actualType);
+            throw new InvalidPropertyTypeException($name, $expectedType, $actualType);
         }
     }
 
@@ -585,7 +591,7 @@ class BaseType implements JmesPathableObjectInterface
      */
     private static function encodeValueXml($value)
     {
-        if ($value instanceof \DateTime) {
+        if ($value instanceof DateTime) {
             return $value->format('Y-m-d\TH:i:s.000\Z');
         } elseif (is_bool($value)) {
             return $value ? 'true' : 'false';
@@ -605,7 +611,7 @@ class BaseType implements JmesPathableObjectInterface
     {
         if (is_subclass_of($value, '\DTS\eBaySDK\Types\BaseType', false)) {
             return $value->toArray();
-        } elseif ($value instanceof \DateTime) {
+        } elseif ($value instanceof DateTime) {
             return $value->format('Y-m-d\TH:i:s.000\Z');
         } else {
             return $value;
@@ -669,7 +675,7 @@ class BaseType implements JmesPathableObjectInterface
                 case 'any':
                     return $value;
                 case 'DateTime':
-                    return new \DateTime($value, new \DateTimeZone('UTC'));
+                    return new DateTime($value, new DateTimeZone('UTC'));
             }
         }
 

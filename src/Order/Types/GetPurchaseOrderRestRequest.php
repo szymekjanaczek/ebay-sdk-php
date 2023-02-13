@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Order\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $purchaseOrderId
  */
-class GetPurchaseOrderRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetPurchaseOrderRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SiteCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $EIASToken
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $SiteID
+ * @property SiteCodeType $SiteID
  * @property boolean $Active
  */
-class SubscriptionType extends \DTS\eBaySDK\Types\BaseType
+class SubscriptionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

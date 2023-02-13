@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Metadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property \DTS\eBaySDK\Metadata\Types\Sel:ReturnsPolicy[] $returnPolicies
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class ReturnPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

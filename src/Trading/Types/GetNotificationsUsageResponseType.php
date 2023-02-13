@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
- * @property \DateTime $StartTime
- * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType $NotificationDetailsArray
- * @property \DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
- * @property \DTS\eBaySDK\Trading\Types\NotificationStatisticsType $NotificationStatistics
+ * @property DateTime $StartTime
+ * @property DateTime $EndTime
+ * @property NotificationDetailsArrayType $NotificationDetailsArray
+ * @property MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
+ * @property NotificationStatisticsType $NotificationStatistics
  */
-class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetNotificationsUsageResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

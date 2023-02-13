@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $url
  */
-class MediaIdentifier extends \DTS\eBaySDK\Types\BaseType
+class MediaIdentifier extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

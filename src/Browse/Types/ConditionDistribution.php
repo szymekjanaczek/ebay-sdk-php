@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $condition
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Browse\Types;
  * @property integer $matchCount
  * @property string $refinementHref
  */
-class ConditionDistribution extends \DTS\eBaySDK\Types\BaseType
+class ConditionDistribution extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

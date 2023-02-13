@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $campaign_id
  * @property string $inventory_reference_id
  * @property string $inventory_reference_type
  */
-class GetAdsByInventoryReferenceRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetAdsByInventoryReferenceRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

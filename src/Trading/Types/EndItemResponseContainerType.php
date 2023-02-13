@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DateTime $EndTime
+ * @property DateTime $EndTime
  * @property string $CorrelationID
- * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
+ * @property ErrorType[] $Errors
  */
-class EndItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
+class EndItemResponseContainerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

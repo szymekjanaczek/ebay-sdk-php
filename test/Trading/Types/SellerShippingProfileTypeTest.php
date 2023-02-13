@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SellerShippingProfileType;
 
-class SellerShippingProfileTypeTest extends \PHPUnit\Framework\TestCase
+class SellerShippingProfileTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\TradingRoleCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $Role
- * @property \DTS\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property TradingRoleCodeType $Role
+ * @property BestOfferArrayType $BestOfferArray
+ * @property ItemType $Item
  */
-class ItemBestOffersType extends \DTS\eBaySDK\Types\BaseType
+class ItemBestOffersType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

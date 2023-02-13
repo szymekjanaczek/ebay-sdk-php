@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $value
- * @property \DTS\eBaySDK\Catalog\Types\ValueConstraint[] $valueConstraints
+ * @property ValueConstraint[] $valueConstraints
  */
-class CategoryAspectValue extends \DTS\eBaySDK\Types\BaseType
+class CategoryAspectValue extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

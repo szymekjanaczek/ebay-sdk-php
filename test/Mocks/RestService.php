@@ -1,7 +1,7 @@
 <?php
 namespace DTS\eBaySDK\Test\Mocks;
 
-class RestService extends \DTS\eBaySDK\Test\Mocks\BaseRestService
+class RestService extends BaseRestService
 {
     protected static $operations =  [
         'foo' => [
@@ -18,7 +18,7 @@ class RestService extends \DTS\eBaySDK\Test\Mocks\BaseRestService
         parent::__construct($config);
     }
 
-    public function foo(\DTS\eBaySDK\Test\Mocks\ComplexClass $request)
+    public function foo(ComplexClass $request)
     {
         return $this->callOperationAsync('foo', $request)->wait();
     }

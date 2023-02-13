@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Types\ValueConstraint;
 
-class ValueConstraintTest extends \PHPUnit\Framework\TestCase
+class ValueConstraintTest extends TestCase
 {
     private $obj;
 

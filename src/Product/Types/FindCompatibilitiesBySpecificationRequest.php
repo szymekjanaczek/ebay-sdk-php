@@ -13,15 +13,15 @@ namespace DTS\eBaySDK\Product\Types;
 /**
  *
  * @property string $categoryId
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $compatibilityPropertyFilter
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $specification
+ * @property PropertyValue[] $compatibilityPropertyFilter
+ * @property PropertyValue[] $specification
  * @property string[] $dataSet
  * @property string[] $datasetPropertyName
  * @property boolean $exactMatch
- * @property \DTS\eBaySDK\Product\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\Product\Types\CompatibilitySort[] $sortOrder
+ * @property PaginationInput $paginationInput
+ * @property CompatibilitySort[] $sortOrder
  */
-class FindCompatibilitiesBySpecificationRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class FindCompatibilitiesBySpecificationRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

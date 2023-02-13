@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $annotationKeys
  * @property string $dimensionKey
  */
-class Dimension extends \DTS\eBaySDK\Types\BaseType
+class Dimension extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

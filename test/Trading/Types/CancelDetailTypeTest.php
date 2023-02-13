@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\CancelDetailType;
 
-class CancelDetailTypeTest extends \PHPUnit\Framework\TestCase
+class CancelDetailTypeTest extends TestCase
 {
     private $obj;
 

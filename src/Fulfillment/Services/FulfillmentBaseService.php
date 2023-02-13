@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Fulfillment\Services;
 
+use DTS\eBaySDK\Services\BaseRestService;
 /**
  * Base class for the Fulfillment service.
  */
-class FulfillmentBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class FulfillmentBaseService extends BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +45,7 @@ class FulfillmentBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Fulfillment\Services\FulfillmentService::API_VERSION,
+                'default' => FulfillmentService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property CaseIdType $caseId
  * @property string $messageToBuyer
  */
-class OfferOtherSolutionRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class OfferOtherSolutionRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

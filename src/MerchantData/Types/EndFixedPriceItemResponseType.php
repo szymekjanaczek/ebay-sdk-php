@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
 /**
  *
- * @property \DateTime $EndTime
+ * @property DateTime $EndTime
  * @property string $SKU
  */
-class EndFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class EndFixedPriceItemResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

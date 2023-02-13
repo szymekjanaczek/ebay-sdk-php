@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\DepositTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $HoursToDeposit
  * @property integer $DaysToFullPayment
- * @property \DTS\eBaySDK\Trading\Types\AmountType $DepositAmount
- * @property \DTS\eBaySDK\Trading\Enums\DepositTypeCodeType $DepositType
+ * @property AmountType $DepositAmount
+ * @property DepositTypeCodeType $DepositType
  */
-class PaymentDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PaymentDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

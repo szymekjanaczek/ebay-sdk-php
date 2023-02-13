@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Feed\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Feed\Types\ItemFeed[] $itemFeeds
+ * @property ItemFeed[] $itemFeeds
  */
-class ItemFeedResponse extends \DTS\eBaySDK\Types\BaseType
+class ItemFeedResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Metadata\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestRequest;
 
-class GetPoliciesForListingStructuresRestRequestTest extends \PHPUnit\Framework\TestCase
+class GetPoliciesForListingStructuresRestRequestTest extends TestCase
 {
     private $obj;
 

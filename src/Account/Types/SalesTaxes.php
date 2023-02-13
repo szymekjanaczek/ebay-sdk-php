@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\SalesTax[] $salesTaxes
+ * @property SalesTax[] $salesTaxes
  */
-class SalesTaxes extends \DTS\eBaySDK\Types\BaseType
+class SalesTaxes extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Account\Enums\CategoryTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $default
- * @property \DTS\eBaySDK\Account\Enums\CategoryTypeEnum $name
+ * @property CategoryTypeEnum $name
  */
-class CategoryType extends \DTS\eBaySDK\Types\BaseType
+class CategoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

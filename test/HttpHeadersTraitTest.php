@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Test\Mocks\HttpHeaders;
 
-class HttpHeadersTraitTest extends \PHPUnit\Framework\TestCase
+class HttpHeadersTraitTest extends TestCase
 {
     public function testNoHeaders()
     {

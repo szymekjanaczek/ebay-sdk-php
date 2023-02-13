@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef $appealRef
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef $moneyMovementRef
+ * @property AppealRef $appealRef
+ * @property MoneyMovementRef $moneyMovementRef
  * @property string $onholdReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType $onholdReasonDetail
+ * @property OnHoldReasonDetailType $onholdReasonDetail
  */
-class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
+class ResponseHistoryAttributesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

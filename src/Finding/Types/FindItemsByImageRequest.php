@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Finding\Enums\OutputSelectorType;
 /**
  *
  * @property string $itemId
  * @property string[] $categoryId
- * @property \DTS\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
- * @property \DTS\eBaySDK\Finding\Types\AspectFilter[] $aspectFilter
- * @property \DTS\eBaySDK\Finding\Enums\OutputSelectorType[] $outputSelector
+ * @property ItemFilter[] $itemFilter
+ * @property AspectFilter[] $aspectFilter
+ * @property OutputSelectorType[] $outputSelector
  */
-class FindItemsByImageRequest extends \DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest
+class FindItemsByImageRequest extends BestMatchFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

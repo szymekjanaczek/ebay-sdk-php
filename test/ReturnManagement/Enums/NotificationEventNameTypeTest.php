@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ReturnManagement\Enums\NotificationEventNameType;
 
-class NotificationEventNameTypeTest extends \PHPUnit\Framework\TestCase
+class NotificationEventNameTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Fulfillment\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 use DTS\eBaySDK\StatusCodeTrait;
 use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class CreateAShippingFulfillmentRestResponse extends \DTS\eBaySDK\Types\BaseType
+class CreateAShippingFulfillmentRestResponse extends BaseType
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

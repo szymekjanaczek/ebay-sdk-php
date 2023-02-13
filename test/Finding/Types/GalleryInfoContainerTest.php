@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\GalleryInfoContainer;
 
-class GalleryInfoContainerTest extends \PHPUnit\Framework\TestCase
+class GalleryInfoContainerTest extends TestCase
 {
     private $obj;
 

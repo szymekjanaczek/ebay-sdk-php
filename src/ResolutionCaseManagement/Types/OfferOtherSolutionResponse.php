@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 /**
  *
  */
-class OfferOtherSolutionResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class OfferOtherSolutionResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

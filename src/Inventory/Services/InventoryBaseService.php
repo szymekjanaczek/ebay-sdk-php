@@ -1,10 +1,11 @@
 <?php
 namespace DTS\eBaySDK\Inventory\Services;
 
+use DTS\eBaySDK\Services\BaseRestService;
 /**
  * Base class for the Inventory service.
  */
-class InventoryBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class InventoryBaseService extends BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +45,7 @@ class InventoryBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Inventory\Services\InventoryService::API_VERSION,
+                'default' => InventoryService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

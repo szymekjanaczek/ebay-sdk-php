@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Address $address
- * @property \DTS\eBaySDK\Inventory\Types\GeoCoordinates $geoCoordinates
+ * @property Address $address
+ * @property GeoCoordinates $geoCoordinates
  * @property string $locationId
  */
-class Location extends \DTS\eBaySDK\Types\BaseType
+class Location extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

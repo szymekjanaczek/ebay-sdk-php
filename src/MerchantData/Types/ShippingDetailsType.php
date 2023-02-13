@@ -10,44 +10,48 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\InsuranceOptionCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ShippingRateTypeCodeType;
+use DTS\eBaySDK\MerchantData\Enums\ShippingTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property boolean $GlobalShipping
- * @property \DTS\eBaySDK\MerchantData\Types\CalculatedShippingRateType $CalculatedShippingRate
+ * @property CalculatedShippingRateType $CalculatedShippingRate
  * @property boolean $ChangePaymentInstructions
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuranceFee
- * @property \DTS\eBaySDK\MerchantData\Enums\InsuranceOptionCodeType $InsuranceOption
+ * @property AmountType $InsuranceFee
+ * @property InsuranceOptionCodeType $InsuranceOption
  * @property boolean $InsuranceWanted
  * @property boolean $PaymentEdited
  * @property string $PaymentInstructions
- * @property \DTS\eBaySDK\MerchantData\Types\SalesTaxType $SalesTax
+ * @property SalesTaxType $SalesTax
  * @property string $ShippingRateErrorMessage
- * @property \DTS\eBaySDK\MerchantData\Enums\ShippingRateTypeCodeType $ShippingRateType
- * @property \DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType[] $ShippingServiceOptions
- * @property \DTS\eBaySDK\MerchantData\Types\InternationalShippingServiceOptionsType[] $InternationalShippingServiceOption
- * @property \DTS\eBaySDK\MerchantData\Enums\ShippingTypeCodeType $ShippingType
+ * @property ShippingRateTypeCodeType $ShippingRateType
+ * @property ShippingServiceOptionsType[] $ShippingServiceOptions
+ * @property InternationalShippingServiceOptionsType[] $InternationalShippingServiceOption
+ * @property ShippingTypeCodeType $ShippingType
  * @property integer $SellingManagerSalesRecordNumber
- * @property \DTS\eBaySDK\MerchantData\Types\TaxTableType $TaxTable
+ * @property TaxTableType $TaxTable
  * @property string $ShippingServiceUsed
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $DefaultShippingCost
- * @property \DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType $InsuranceDetails
- * @property \DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType $InternationalInsuranceDetails
+ * @property AmountType $DefaultShippingCost
+ * @property InsuranceDetailsType $InsuranceDetails
+ * @property InsuranceDetailsType $InternationalInsuranceDetails
  * @property string $ShippingDiscountProfileID
- * @property \DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property \DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property FlatShippingDiscountType $FlatShippingDiscount
+ * @property CalculatedShippingDiscountType $CalculatedShippingDiscount
  * @property boolean $PromotionalShippingDiscount
  * @property string $InternationalShippingDiscountProfileID
- * @property \DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType $InternationalFlatShippingDiscount
- * @property \DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType $InternationalCalculatedShippingDiscount
+ * @property FlatShippingDiscountType $InternationalFlatShippingDiscount
+ * @property CalculatedShippingDiscountType $InternationalCalculatedShippingDiscount
  * @property boolean $InternationalPromotionalShippingDiscount
- * @property \DTS\eBaySDK\MerchantData\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $CODCost
+ * @property PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property AmountType $CODCost
  * @property string[] $ExcludeShipToLocation
  * @property boolean $SellerExcludeShipToLocationsPreference
- * @property \DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
- * @property \DTS\eBaySDK\MerchantData\Types\RateTableDetailsType $RateTableDetails
+ * @property ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
+ * @property RateTableDetailsType $RateTableDetails
  */
-class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

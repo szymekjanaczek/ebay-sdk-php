@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Types\Metric;
 
-class MetricTest extends \PHPUnit\Framework\TestCase
+class MetricTest extends TestCase
 {
     private $obj;
 

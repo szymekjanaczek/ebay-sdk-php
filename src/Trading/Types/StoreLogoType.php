@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $LogoID
  * @property string $Name
  * @property string $URL
  */
-class StoreLogoType extends \DTS\eBaySDK\Types\BaseType
+class StoreLogoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

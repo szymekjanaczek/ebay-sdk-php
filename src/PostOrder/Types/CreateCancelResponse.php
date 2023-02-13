@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $cancelId
- * @property \DTS\eBaySDK\PostOrder\Types\OrderEligibilityResult $orderEligibilityResult
+ * @property OrderEligibilityResult $orderEligibilityResult
  */
-class CreateCancelResponse extends \DTS\eBaySDK\Types\BaseType
+class CreateCancelResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType;
+use DTS\eBaySDK\Types\StringType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType $type
+ * @property PaymentInstructionCodeType $type
  */
-class BuyerPackageEnclosureType extends \DTS\eBaySDK\Types\StringType
+class BuyerPackageEnclosureType extends StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

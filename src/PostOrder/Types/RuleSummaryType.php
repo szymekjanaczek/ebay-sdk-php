@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $count
  * @property integer $countInTestMode
- * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDetailType $invalidAction
- * @property \DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType[] $invalidConditions
- * @property \DateTime $lastModifiedDate
+ * @property RuleActionDetailType $invalidAction
+ * @property RuleConditionDetailType[] $invalidConditions
+ * @property DateTime $lastModifiedDate
  * @property integer $priority
  */
-class RuleSummaryType extends \DTS\eBaySDK\Types\BaseType
+class RuleSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

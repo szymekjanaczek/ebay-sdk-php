@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  */
-class RemoveProfileResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
+class RemoveProfileResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

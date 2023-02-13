@@ -10,39 +10,41 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\UserPartyEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ActionDeadlines $actionDeadlines
- * @property \DTS\eBaySDK\PostOrder\Types\AppealDetails $appealDetails
+ * @property ActionDeadlines $actionDeadlines
+ * @property AppealDetails $appealDetails
  * @property string $buyerClosureReason
  * @property string $buyerProtectedProgramLink
- * @property \DTS\eBaySDK\PostOrder\Types\CaseDetails $caseDetails
- * @property \DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse $caseHistoryDetails
+ * @property CaseDetails $caseDetails
+ * @property ClaimHistoryResponse $caseHistoryDetails
  * @property string $caseId
  * @property integer $caseQuantity
  * @property string $caseType
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
- * @property \DTS\eBaySDK\PostOrder\Enums\UserPartyEnum $escalatedBy
+ * @property Amount $claimAmount
+ * @property DateTime $creationDate
+ * @property UserPartyEnum $escalatedBy
  * @property string $escalateReason
  * @property string $eventTicketsLink
  * @property string $extTransactionId
  * @property integer $fsnadDaysToAddTrackingAfterShippingItem
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $fsnadShipToSellerByDate
- * @property \DTS\eBaySDK\PostOrder\Enums\UserPartyEnum $initiator
+ * @property DateTime $fsnadShipToSellerByDate
+ * @property UserPartyEnum $initiator
  * @property string $itemId
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
+ * @property DateTime $lastModifiedDate
  * @property string $payForItemLink
  * @property string $priceSignatureConfirmationAmount
  * @property string $recalledItemLink
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddress $returnDetails
+ * @property ReturnAddress $returnDetails
  * @property string $returnId
  * @property string $sellerClosureReason
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $shippingFee
+ * @property Amount $shippingFee
  * @property string $status
  * @property string $transactionId
  */
-class CaseDetailsResponse extends \DTS\eBaySDK\Types\BaseType
+class CaseDetailsResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

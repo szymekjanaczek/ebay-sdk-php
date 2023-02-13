@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $cumulativeInventoryValue
+ * @property Amount $cumulativeInventoryValue
  * @property integer $cumulativeQuantity
- * @property \DTS\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
+ * @property LookbackPeriod $lookbackPeriod
  * @property integer $maxAvailableQuantity
- * @property \DTS\eBaySDK\Account\Types\Amount $maxInventoryValue
+ * @property Amount $maxInventoryValue
  * @property integer $minAvailableQuantity
- * @property \DTS\eBaySDK\Account\Types\Amount $minInventoryValue
+ * @property Amount $minInventoryValue
  */
-class InventorySnapshot extends \DTS\eBaySDK\Types\BaseType
+class InventorySnapshot extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

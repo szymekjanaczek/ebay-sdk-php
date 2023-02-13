@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\LengthUnitOfMeasureEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property double $height
  * @property double $length
- * @property \DTS\eBaySDK\Inventory\Enums\LengthUnitOfMeasureEnum $unit
+ * @property LengthUnitOfMeasureEnum $unit
  * @property double $width
  */
-class Dimension extends \DTS\eBaySDK\Types\BaseType
+class Dimension extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

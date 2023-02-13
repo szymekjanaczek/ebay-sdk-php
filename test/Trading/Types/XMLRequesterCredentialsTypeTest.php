@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\XMLRequesterCredentialsType;
 
-class XMLRequesterCredentialsTypeTest extends \PHPUnit\Framework\TestCase
+class XMLRequesterCredentialsTypeTest extends TestCase
 {
     private $obj;
 

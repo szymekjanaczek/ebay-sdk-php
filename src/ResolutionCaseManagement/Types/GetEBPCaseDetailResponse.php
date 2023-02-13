@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType $caseSummary
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDetailType $caseDetail
+ * @property CaseSummaryType $caseSummary
+ * @property EBPCaseDetailType $caseDetail
  */
-class GetEBPCaseDetailResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class GetEBPCaseDetailResponse extends BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

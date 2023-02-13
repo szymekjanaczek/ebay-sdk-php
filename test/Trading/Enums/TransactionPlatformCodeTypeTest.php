@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType;
 
-class TransactionPlatformCodeTypeTest extends \PHPUnit\Framework\TestCase
+class TransactionPlatformCodeTypeTest extends TestCase
 {
     private $obj;
 

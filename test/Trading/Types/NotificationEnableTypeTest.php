@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\NotificationEnableType;
 
-class NotificationEnableTypeTest extends \PHPUnit\Framework\TestCase
+class NotificationEnableTypeTest extends TestCase
 {
     private $obj;
 

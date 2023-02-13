@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $JurisdictionID
  * @property double $SalesTaxPercent
  * @property boolean $ShippingIncludedInTax
  */
-class TaxJurisdictionType extends \DTS\eBaySDK\Types\BaseType
+class TaxJurisdictionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Address $address
+ * @property Address $address
  * @property boolean $editable
  * @property string $firstName
  * @property string $lastName
  * @property string $RMA
  */
-class ReturnAddress extends \DTS\eBaySDK\Types\BaseType
+class ReturnAddress extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

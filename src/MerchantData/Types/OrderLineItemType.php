@@ -10,11 +10,13 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $OrderLineItemID
- * @property \DateTime $TransactionTime
- * @property \DateTime $OriginalChargeTime
+ * @property DateTime $TransactionTime
+ * @property DateTime $OriginalChargeTime
  * @property string $ItemID
  * @property string $ItemTitle
  * @property string $SerialNumber
@@ -22,28 +24,28 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property string $GlobalCategoryDescription
  * @property string $SiteDescription
  * @property integer $QuantitySold
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $SalePrice
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingCost
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalCost
- * @property \DateTime $PaymentClearedTime
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuranceCost
+ * @property AmountType $SalePrice
+ * @property AmountType $TaxAmount
+ * @property AmountType $ShippingCost
+ * @property AmountType $TotalCost
+ * @property DateTime $PaymentClearedTime
+ * @property AmountType $InsuranceCost
  * @property integer $ListingSiteID
- * @property \DateTime $SaleTime
+ * @property DateTime $SaleTime
  * @property string $Memo
  * @property string $SecondDescription
  * @property string $FeeDescription
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeAmount
+ * @property AmountType $FeeAmount
  * @property integer $SellingManagerSaleRecordID
  * @property string $BuyerPaymentTransactionNumber
- * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataVariationType $Variation
+ * @property MerchantDataVariationType $Variation
  * @property string $TaxCategory
- * @property \DTS\eBaySDK\MerchantData\Types\TaxesType $Taxes
- * @property \DTS\eBaySDK\MerchantData\Types\TransactionStatusType $Status
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ActualShippingCost
- * @property \DTS\eBaySDK\MerchantData\Types\UnpaidItemType $UnpaidItem
+ * @property TaxesType $Taxes
+ * @property TransactionStatusType $Status
+ * @property AmountType $ActualShippingCost
+ * @property UnpaidItemType $UnpaidItem
  */
-class OrderLineItemType extends \DTS\eBaySDK\Types\BaseType
+class OrderLineItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

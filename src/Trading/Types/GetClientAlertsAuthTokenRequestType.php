@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class GetClientAlertsAuthTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetClientAlertsAuthTokenRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

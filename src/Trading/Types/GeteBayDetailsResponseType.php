@@ -10,35 +10,36 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CountryDetailsType[] $CountryDetails
- * @property \DTS\eBaySDK\Trading\Types\CurrencyDetailsType[] $CurrencyDetails
- * @property \DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType[] $DispatchTimeMaxDetails
- * @property \DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType[] $PaymentOptionDetails
- * @property \DTS\eBaySDK\Trading\Types\RegionDetailsType[] $RegionDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType[] $ShippingLocationDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType[] $ShippingServiceDetails
- * @property \DTS\eBaySDK\Trading\Types\SiteDetailsType[] $SiteDetails
- * @property \DTS\eBaySDK\Trading\Types\TaxJurisdictionType[] $TaxJurisdiction
- * @property \DTS\eBaySDK\Trading\Types\URLDetailsType[] $URLDetails
- * @property \DTS\eBaySDK\Trading\Types\TimeZoneDetailsType[] $TimeZoneDetails
- * @property \DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType[] $ItemSpecificDetails
- * @property \DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType[] $RegionOfOriginDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType[] $ShippingPackageDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType[] $ShippingCarrierDetails
- * @property \DTS\eBaySDK\Trading\Types\ReturnPolicyDetailsType $ReturnPolicyDetails
- * @property \DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType[] $ListingStartPriceDetails
- * @property \DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType[] $BuyerRequirementDetails
- * @property \DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType[] $ListingFeatureDetails
- * @property \DTS\eBaySDK\Trading\Types\VariationDetailsType $VariationDetails
- * @property \DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType[] $ExcludeShippingLocationDetails
- * @property \DateTime $UpdateTime
- * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType[] $RecoupmentPolicyDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType[] $ShippingCategoryDetails
- * @property \DTS\eBaySDK\Trading\Types\ProductDetailsType $ProductDetails
+ * @property CountryDetailsType[] $CountryDetails
+ * @property CurrencyDetailsType[] $CurrencyDetails
+ * @property DispatchTimeMaxDetailsType[] $DispatchTimeMaxDetails
+ * @property PaymentOptionDetailsType[] $PaymentOptionDetails
+ * @property RegionDetailsType[] $RegionDetails
+ * @property ShippingLocationDetailsType[] $ShippingLocationDetails
+ * @property ShippingServiceDetailsType[] $ShippingServiceDetails
+ * @property SiteDetailsType[] $SiteDetails
+ * @property TaxJurisdictionType[] $TaxJurisdiction
+ * @property URLDetailsType[] $URLDetails
+ * @property TimeZoneDetailsType[] $TimeZoneDetails
+ * @property ItemSpecificDetailsType[] $ItemSpecificDetails
+ * @property RegionOfOriginDetailsType[] $RegionOfOriginDetails
+ * @property ShippingPackageDetailsType[] $ShippingPackageDetails
+ * @property ShippingCarrierDetailsType[] $ShippingCarrierDetails
+ * @property ReturnPolicyDetailsType $ReturnPolicyDetails
+ * @property ListingStartPriceDetailsType[] $ListingStartPriceDetails
+ * @property SiteBuyerRequirementDetailsType[] $BuyerRequirementDetails
+ * @property ListingFeatureDetailsType[] $ListingFeatureDetails
+ * @property VariationDetailsType $VariationDetails
+ * @property ExcludeShippingLocationDetailsType[] $ExcludeShippingLocationDetails
+ * @property DateTime $UpdateTime
+ * @property RecoupmentPolicyDetailsType[] $RecoupmentPolicyDetails
+ * @property ShippingCategoryDetailsType[] $ShippingCategoryDetails
+ * @property ProductDetailsType $ProductDetails
  */
-class GeteBayDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GeteBayDetailsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,22 +10,26 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Catalog\Enums\ChangeRequestStatus;
+use DTS\eBaySDK\Catalog\Enums\ChangeRequestType;
+use DTS\eBaySDK\Catalog\Enums\ReferenceType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $changeRequestId
- * @property \DTS\eBaySDK\Catalog\Enums\ChangeRequestStatus $changeRequestStatus
- * @property \DTS\eBaySDK\Catalog\Enums\ChangeRequestType $changeRequestType
+ * @property ChangeRequestStatus $changeRequestStatus
+ * @property ChangeRequestType $changeRequestType
  * @property string $creationDate
  * @property string $expectedCompletionDate
- * @property \DTS\eBaySDK\Catalog\Types\ProcessResolution $processResolution
+ * @property ProcessResolution $processResolution
  * @property string $processStatusMessage
  * @property string $reasonForChangeRequest
  * @property string $referenceId
- * @property \DTS\eBaySDK\Catalog\Enums\ReferenceType $referenceType
+ * @property ReferenceType $referenceType
  * @property string $resolutionDate
- * @property \DTS\eBaySDK\Catalog\Types\SuggestedProduct $suggestedProduct
+ * @property SuggestedProduct $suggestedProduct
  */
-class ChangeRequest extends \DTS\eBaySDK\Types\BaseType
+class ChangeRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

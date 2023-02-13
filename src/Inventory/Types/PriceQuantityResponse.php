@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $errors
  * @property string $offerId
  * @property string $sku
  * @property integer $statusCode
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class PriceQuantityResponse extends \DTS\eBaySDK\Types\BaseType
+class PriceQuantityResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -12,21 +12,21 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WatchList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BidList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BestOfferList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WonList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $LostList
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSearches
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSellers
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $SecondChanceOffer
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromWonList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromLostList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BuyingSummary
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $UserDefinedLists
+ * @property ItemListCustomizationType $WatchList
+ * @property ItemListCustomizationType $BidList
+ * @property ItemListCustomizationType $BestOfferList
+ * @property ItemListCustomizationType $WonList
+ * @property ItemListCustomizationType $LostList
+ * @property MyeBaySelectionType $FavoriteSearches
+ * @property MyeBaySelectionType $FavoriteSellers
+ * @property MyeBaySelectionType $SecondChanceOffer
+ * @property ItemListCustomizationType $DeletedFromWonList
+ * @property ItemListCustomizationType $DeletedFromLostList
+ * @property ItemListCustomizationType $BuyingSummary
+ * @property MyeBaySelectionType $UserDefinedLists
  * @property boolean $HideVariations
  */
-class GetMyeBayBuyingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetMyeBayBuyingRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

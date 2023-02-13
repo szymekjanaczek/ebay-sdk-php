@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\HomePageFeaturedEnabledDefinitionType;
 
-class HomePageFeaturedEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class HomePageFeaturedEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

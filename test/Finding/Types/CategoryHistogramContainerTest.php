@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\CategoryHistogramContainer;
 
-class CategoryHistogramContainerTest extends \PHPUnit\Framework\TestCase
+class CategoryHistogramContainerTest extends TestCase
 {
     private $obj;
 

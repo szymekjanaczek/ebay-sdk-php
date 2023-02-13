@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType;
 
-class FlatShippingDiscountTypeTest extends \PHPUnit\Framework\TestCase
+class FlatShippingDiscountTypeTest extends TestCase
 {
     private $obj;
 

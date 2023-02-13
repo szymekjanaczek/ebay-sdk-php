@@ -10,16 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\EndOfAuctionLogoTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $TemplateText
  * @property string $LogoURL
- * @property \DTS\eBaySDK\Trading\Enums\EndOfAuctionLogoTypeCodeType $LogoType
+ * @property EndOfAuctionLogoTypeCodeType $LogoType
  * @property boolean $EmailCustomized
  * @property boolean $TextCustomized
  * @property boolean $LogoCustomized
  */
-class EndOfAuctionEmailPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class EndOfAuctionEmailPreferencesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

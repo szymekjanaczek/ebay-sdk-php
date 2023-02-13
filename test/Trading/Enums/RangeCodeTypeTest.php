@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\RangeCodeType;
 
-class RangeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class RangeCodeTypeTest extends TestCase
 {
     private $obj;
 

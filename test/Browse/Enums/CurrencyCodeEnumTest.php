@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Enums\CurrencyCodeEnum;
 
-class CurrencyCodeEnumTest extends \PHPUnit\Framework\TestCase
+class CurrencyCodeEnumTest extends TestCase
 {
     private $obj;
 

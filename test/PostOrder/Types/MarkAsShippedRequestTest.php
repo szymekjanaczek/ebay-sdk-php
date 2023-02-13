@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\MarkAsShippedRequest;
 
-class MarkAsShippedRequestTest extends \PHPUnit\Framework\TestCase
+class MarkAsShippedRequestTest extends TestCase
 {
     private $obj;
 

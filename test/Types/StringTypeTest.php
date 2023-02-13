@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Types\StringType;
 
-class StringTypeTest extends \PHPUnit\Framework\TestCase
+class StringTypeTest extends TestCase
 {
     private $obj;
 

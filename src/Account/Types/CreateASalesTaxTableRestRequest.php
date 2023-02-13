@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Account\Types;
  * @property string $countryCode
  * @property string $jurisdictionId
  */
-class CreateASalesTaxTableRestRequest extends \DTS\eBaySDK\Account\Types\SalesTaxBase
+class CreateASalesTaxTableRestRequest extends SalesTaxBase
 {
     /**
      * @var array Properties belonging to objects of this class.

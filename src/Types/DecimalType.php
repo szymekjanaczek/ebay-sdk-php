@@ -6,7 +6,7 @@ namespace DTS\eBaySDK\Types;
  *
  * @property integer $value
  */
-class DecimalType extends \DTS\eBaySDK\Types\BaseType
+class DecimalType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

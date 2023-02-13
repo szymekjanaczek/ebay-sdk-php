@@ -10,14 +10,16 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ApplicationDeviceTypeCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $TrackingID
  * @property string $TrackingPartnerCode
- * @property \DTS\eBaySDK\Trading\Enums\ApplicationDeviceTypeCodeType $ApplicationDeviceType
+ * @property ApplicationDeviceTypeCodeType $ApplicationDeviceType
  * @property string $AffiliateUserID
  */
-class AffiliateTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class AffiliateTrackingDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

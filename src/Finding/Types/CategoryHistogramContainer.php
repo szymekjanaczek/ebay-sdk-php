@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\CategoryHistogram[] $categoryHistogram
+ * @property CategoryHistogram[] $categoryHistogram
  */
-class CategoryHistogramContainer extends \DTS\eBaySDK\Types\BaseType
+class CategoryHistogramContainer extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

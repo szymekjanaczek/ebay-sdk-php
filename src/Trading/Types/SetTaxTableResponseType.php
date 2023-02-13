@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  */
-class SetTaxTableResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class SetTaxTableResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

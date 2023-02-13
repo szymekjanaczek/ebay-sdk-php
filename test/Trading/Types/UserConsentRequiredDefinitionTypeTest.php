@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\UserConsentRequiredDefinitionType;
 
-class UserConsentRequiredDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class UserConsentRequiredDefinitionTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\HitCounterCodeType;
 
-class HitCounterCodeTypeTest extends \PHPUnit\Framework\TestCase
+class HitCounterCodeTypeTest extends TestCase
 {
     private $obj;
 

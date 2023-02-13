@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Catalog\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetProductMetadataRestResponse extends \DTS\eBaySDK\Catalog\Types\ProductMetadata
+class GetProductMetadataRestResponse extends ProductMetadata
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

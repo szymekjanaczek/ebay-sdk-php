@@ -1,9 +1,12 @@
 <?php
 namespace DTS\eBaySDK\Parser\Test;
 
+use PHPUnit\Framework\TestCase;
+use DateTime;
+use DateTimeZone;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class JsonTest extends \PHPUnit\Framework\TestCase
+class JsonTest extends TestCase
 {
     public function testCanDecodeJson()
     {
@@ -18,7 +21,7 @@ class JsonTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(123.45, $obj->double);
         $this->assertEquals(true, $obj->booleanTrue);
         $this->assertEquals(false, $obj->booleanFalse);
-        $this->assertEquals(new \DateTime('2000-01-01T16:15:30.123Z', new \DateTimeZone('UTC')), $obj->DateTime);
+        $this->assertEquals(new DateTime('2000-01-01T16:15:30.123Z', new DateTimeZone('UTC')), $obj->DateTime);
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\SimpleClass', $obj->SimpleClass);
         $this->assertEquals(321, $obj->SimpleClass->integer);
         $this->assertEquals('another string', $obj->SimpleClass->string);

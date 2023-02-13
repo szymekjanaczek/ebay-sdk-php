@@ -14,10 +14,10 @@ namespace DTS\eBaySDK\Shopping\Types;
  *
  * @property string $ItemID
  * @property string $VariationSKU
- * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType $VariationSpecifics
+ * @property NameValueListArrayType $VariationSpecifics
  * @property string $IncludeSelector
  */
-class GetSingleItemRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class GetSingleItemRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest;
 
-class UpdateQuantityForLineItemRestRequestTest extends \PHPUnit\Framework\TestCase
+class UpdateQuantityForLineItemRestRequestTest extends TestCase
 {
     private $obj;
 

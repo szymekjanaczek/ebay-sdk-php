@@ -10,19 +10,20 @@
 
 namespace DTS\eBaySDK\Browse\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $href
- * @property \DTS\eBaySDK\Browse\Types\ItemSummary[] $itemSummaries
+ * @property ItemSummary[] $itemSummaries
  * @property integer $limit
  * @property string $next
  * @property integer $offset
  * @property string $prev
- * @property \DTS\eBaySDK\Browse\Types\Refinement $refinement
+ * @property Refinement $refinement
  * @property integer $total
- * @property \DTS\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $warnings
  */
-class SearchPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class SearchPagedCollection extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

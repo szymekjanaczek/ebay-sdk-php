@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\Feedback\Types;
  *
  * @property string $jobId
  */
-class CreateDSRSummaryResponse extends \DTS\eBaySDK\Feedback\Types\BaseServiceResponse
+class CreateDSRSummaryResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

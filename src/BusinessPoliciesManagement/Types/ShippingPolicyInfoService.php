@@ -10,21 +10,22 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $shipToLocation
  * @property string $shippingService
  * @property integer $sortOrderId
  * @property boolean $freeShipping
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
+ * @property Amount $codFee
  * @property boolean $fastShipping
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
+ * @property Amount $shippingServiceAdditionalCost
+ * @property Amount $shippingServiceCost
+ * @property Amount $shippingSurcharge
  * @property boolean $buyerResponsibleForShipping
  * @property boolean $buyerResponsibleForPickup
  */
-class ShippingPolicyInfoService extends \DTS\eBaySDK\Types\BaseType
+class ShippingPolicyInfoService extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType;
 
-class MaximumBuyerPolicyViolationsTypeTest extends \PHPUnit\Framework\TestCase
+class MaximumBuyerPolicyViolationsTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,15 +10,17 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $OriginatingPostalCode
- * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
- * @property \DTS\eBaySDK\Trading\Types\AmountType $PackagingHandlingCosts
+ * @property MeasurementSystemCodeType $MeasurementUnit
+ * @property AmountType $PackagingHandlingCosts
  * @property boolean $ShippingIrregular
- * @property \DTS\eBaySDK\Trading\Types\AmountType $InternationalPackagingHandlingCosts
+ * @property AmountType $InternationalPackagingHandlingCosts
  */
-class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
+class CalculatedShippingRateType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

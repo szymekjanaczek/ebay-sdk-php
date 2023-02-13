@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\UnpaidItemStatusTypeCodeType;
 
-class UnpaidItemStatusTypeCodeTypeTest extends \PHPUnit\Framework\TestCase
+class UnpaidItemStatusTypeCodeTypeTest extends TestCase
 {
     private $obj;
 

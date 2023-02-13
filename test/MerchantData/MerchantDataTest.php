@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\MerchantData;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\MerchantData;
 
-class MerchantDataTest extends \PHPUnit\Framework\TestCase
+class MerchantDataTest extends TestCase
 {
     private $merchantData;
 

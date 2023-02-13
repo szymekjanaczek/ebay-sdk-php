@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\NotificationRoleCodeType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\NotificationRoleCodeType $PreferenceLevel
+ * @property NotificationRoleCodeType $PreferenceLevel
  */
-class GetNotificationPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetNotificationPreferencesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

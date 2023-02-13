@@ -15,10 +15,10 @@ use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
+ * @property ErrorDetailV3[] $errors
+ * @property ErrorDetailV3[] $warnings
  */
-class GetOfferRestResponse extends \DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll
+class GetOfferRestResponse extends EbayOfferDetailsWithAll
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

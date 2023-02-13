@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Merchandising\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $trackingId
  * @property string $networkId
  * @property string $customId
  */
-class Affiliate extends \DTS\eBaySDK\Types\BaseType
+class Affiliate extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

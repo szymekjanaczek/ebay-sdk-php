@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\CombinedFixedPriceTreatmentEnabledDefinitionType;
 
-class CombinedFixedPriceTreatmentEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class CombinedFixedPriceTreatmentEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

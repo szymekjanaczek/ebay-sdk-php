@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $inquiryId
  */
-class ProvideInquiryShipmentInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\ShipmentInfoRequest
+class ProvideInquiryShipmentInfoRestRequest extends ShipmentInfoRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

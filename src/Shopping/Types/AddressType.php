@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Shopping\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Name
@@ -37,7 +38,7 @@ namespace DTS\eBaySDK\Shopping\Types;
  * @property string $FirstName
  * @property string $LastName
  */
-class AddressType extends \DTS\eBaySDK\Types\BaseType
+class AddressType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

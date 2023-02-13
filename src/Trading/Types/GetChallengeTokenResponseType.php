@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ImageChallengeURL
  * @property string $AudioChallengeURL
  */
-class GetChallengeTokenResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetChallengeTokenResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

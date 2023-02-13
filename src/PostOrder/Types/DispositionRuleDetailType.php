@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ruleId
  * @property string $ruleName
- * @property \DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum $ruleTemplate
+ * @property DispositionRuleTemplateTypeEnum $ruleTemplate
  */
-class DispositionRuleDetailType extends \DTS\eBaySDK\Types\BaseType
+class DispositionRuleDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

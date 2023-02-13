@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\PictureUploadPolicyCodeType;
 
-class PictureUploadPolicyCodeTypeTest extends \PHPUnit\Framework\TestCase
+class PictureUploadPolicyCodeTypeTest extends TestCase
 {
     private $obj;
 

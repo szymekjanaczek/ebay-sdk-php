@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Finding\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest;
 
-class FindItemsByKeywordsRequestTest extends \PHPUnit\Framework\TestCase
+class FindItemsByKeywordsRequestTest extends TestCase
 {
     private $obj;
 

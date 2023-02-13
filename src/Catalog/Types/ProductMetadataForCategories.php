@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Catalog\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\CategoryAspect[] $aspects
- * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifier $brand
- * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifier $mpn
+ * @property CategoryAspect[] $aspects
+ * @property ProductIdentifier $brand
+ * @property ProductIdentifier $mpn
  */
-class ProductMetadataForCategories extends \DTS\eBaySDK\Types\BaseType
+class ProductMetadataForCategories extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

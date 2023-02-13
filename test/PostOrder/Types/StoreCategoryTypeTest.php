@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\StoreCategoryType;
 
-class StoreCategoryTypeTest extends \PHPUnit\Framework\TestCase
+class StoreCategoryTypeTest extends TestCase
 {
     private $obj;
 

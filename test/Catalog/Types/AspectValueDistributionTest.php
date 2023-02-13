@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Catalog\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Catalog\Types\AspectValueDistribution;
 
-class AspectValueDistributionTest extends \PHPUnit\Framework\TestCase
+class AspectValueDistributionTest extends TestCase
 {
     private $obj;
 

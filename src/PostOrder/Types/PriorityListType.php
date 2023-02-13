@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer[] $ruleId
  */
-class PriorityListType extends \DTS\eBaySDK\Types\BaseType
+class PriorityListType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

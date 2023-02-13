@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\DiscountBenefit;
 
-class DiscountBenefitTest extends \PHPUnit\Framework\TestCase
+class DiscountBenefitTest extends TestCase
 {
     private $obj;
 

@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\EndItemResponseContainerType[] $EndItemResponseContainer
+ * @property EndItemResponseContainerType[] $EndItemResponseContainer
  */
-class EndItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class EndItemsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

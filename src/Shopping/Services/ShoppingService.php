@@ -10,7 +10,24 @@
 
 namespace DTS\eBaySDK\Shopping\Services;
 
-class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
+use DTS\eBaySDK\Shopping\Types\FindProductsRequestType;
+use DTS\eBaySDK\Shopping\Types\FindProductsResponseType;
+use GuzzleHttp\Promise\PromiseInterface;
+use DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType;
+use DTS\eBaySDK\Shopping\Types\GetCategoryInfoResponseType;
+use DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType;
+use DTS\eBaySDK\Shopping\Types\GetItemStatusResponseType;
+use DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType;
+use DTS\eBaySDK\Shopping\Types\GetMultipleItemsResponseType;
+use DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType;
+use DTS\eBaySDK\Shopping\Types\GetShippingCostsResponseType;
+use DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType;
+use DTS\eBaySDK\Shopping\Types\GetSingleItemResponseType;
+use DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType;
+use DTS\eBaySDK\Shopping\Types\GetUserProfileResponseType;
+use DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType;
+use DTS\eBaySDK\Shopping\Types\GeteBayTimeResponseType;
+class ShoppingService extends ShoppingBaseService
 {
     const API_VERSION = '1027';
 
@@ -23,19 +40,19 @@ class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\FindProductsRequestType $request
-     * @return \DTS\eBaySDK\Shopping\Types\FindProductsResponseType
+     * @param FindProductsRequestType $request
+     * @return FindProductsResponseType
      */
-    public function findProducts(\DTS\eBaySDK\Shopping\Types\FindProductsRequestType $request)
+    public function findProducts(FindProductsRequestType $request)
     {
         return $this->findProductsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\FindProductsRequestType $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param FindProductsRequestType $request
+     * @return PromiseInterface
      */
-    public function findProductsAsync(\DTS\eBaySDK\Shopping\Types\FindProductsRequestType $request)
+    public function findProductsAsync(FindProductsRequestType $request)
     {
         return $this->callOperationAsync(
             'FindProducts',
@@ -45,19 +62,19 @@ class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request
-     * @return \DTS\eBaySDK\Shopping\Types\GetCategoryInfoResponseType
+     * @param GetCategoryInfoRequestType $request
+     * @return GetCategoryInfoResponseType
      */
-    public function getCategoryInfo(\DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request)
+    public function getCategoryInfo(GetCategoryInfoRequestType $request)
     {
         return $this->getCategoryInfoAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetCategoryInfoRequestType $request
+     * @return PromiseInterface
      */
-    public function getCategoryInfoAsync(\DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request)
+    public function getCategoryInfoAsync(GetCategoryInfoRequestType $request)
     {
         return $this->callOperationAsync(
             'GetCategoryInfo',
@@ -67,19 +84,19 @@ class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType $request
-     * @return \DTS\eBaySDK\Shopping\Types\GetItemStatusResponseType
+     * @param GetItemStatusRequestType $request
+     * @return GetItemStatusResponseType
      */
-    public function getItemStatus(\DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType $request)
+    public function getItemStatus(GetItemStatusRequestType $request)
     {
         return $this->getItemStatusAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetItemStatusRequestType $request
+     * @return PromiseInterface
      */
-    public function getItemStatusAsync(\DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType $request)
+    public function getItemStatusAsync(GetItemStatusRequestType $request)
     {
         return $this->callOperationAsync(
             'GetItemStatus',
@@ -89,19 +106,19 @@ class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request
-     * @return \DTS\eBaySDK\Shopping\Types\GetMultipleItemsResponseType
+     * @param GetMultipleItemsRequestType $request
+     * @return GetMultipleItemsResponseType
      */
-    public function getMultipleItems(\DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request)
+    public function getMultipleItems(GetMultipleItemsRequestType $request)
     {
         return $this->getMultipleItemsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetMultipleItemsRequestType $request
+     * @return PromiseInterface
      */
-    public function getMultipleItemsAsync(\DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request)
+    public function getMultipleItemsAsync(GetMultipleItemsRequestType $request)
     {
         return $this->callOperationAsync(
             'GetMultipleItems',
@@ -111,19 +128,19 @@ class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request
-     * @return \DTS\eBaySDK\Shopping\Types\GetShippingCostsResponseType
+     * @param GetShippingCostsRequestType $request
+     * @return GetShippingCostsResponseType
      */
-    public function getShippingCosts(\DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request)
+    public function getShippingCosts(GetShippingCostsRequestType $request)
     {
         return $this->getShippingCostsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetShippingCostsRequestType $request
+     * @return PromiseInterface
      */
-    public function getShippingCostsAsync(\DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request)
+    public function getShippingCostsAsync(GetShippingCostsRequestType $request)
     {
         return $this->callOperationAsync(
             'GetShippingCosts',
@@ -133,19 +150,19 @@ class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType $request
-     * @return \DTS\eBaySDK\Shopping\Types\GetSingleItemResponseType
+     * @param GetSingleItemRequestType $request
+     * @return GetSingleItemResponseType
      */
-    public function getSingleItem(\DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType $request)
+    public function getSingleItem(GetSingleItemRequestType $request)
     {
         return $this->getSingleItemAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetSingleItemRequestType $request
+     * @return PromiseInterface
      */
-    public function getSingleItemAsync(\DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType $request)
+    public function getSingleItemAsync(GetSingleItemRequestType $request)
     {
         return $this->callOperationAsync(
             'GetSingleItem',
@@ -155,19 +172,19 @@ class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType $request
-     * @return \DTS\eBaySDK\Shopping\Types\GetUserProfileResponseType
+     * @param GetUserProfileRequestType $request
+     * @return GetUserProfileResponseType
      */
-    public function getUserProfile(\DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType $request)
+    public function getUserProfile(GetUserProfileRequestType $request)
     {
         return $this->getUserProfileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GetUserProfileRequestType $request
+     * @return PromiseInterface
      */
-    public function getUserProfileAsync(\DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType $request)
+    public function getUserProfileAsync(GetUserProfileRequestType $request)
     {
         return $this->callOperationAsync(
             'GetUserProfile',
@@ -177,19 +194,19 @@ class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request
-     * @return \DTS\eBaySDK\Shopping\Types\GeteBayTimeResponseType
+     * @param GeteBayTimeRequestType $request
+     * @return GeteBayTimeResponseType
      */
-    public function geteBayTime(\DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request)
+    public function geteBayTime(GeteBayTimeRequestType $request)
     {
         return $this->geteBayTimeAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request
-     * @return \GuzzleHttp\Promise\PromiseInterface
+     * @param GeteBayTimeRequestType $request
+     * @return PromiseInterface
      */
-    public function geteBayTimeAsync(\DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request)
+    public function geteBayTimeAsync(GeteBayTimeRequestType $request)
     {
         return $this->callOperationAsync(
             'GeteBayTime',

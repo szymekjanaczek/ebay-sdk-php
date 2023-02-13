@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\FeedbackDetailType[] $FeedbackDetail
+ * @property FeedbackDetailType[] $FeedbackDetail
  */
-class FeedbackDetailArrayType extends \DTS\eBaySDK\Types\BaseType
+class FeedbackDetailArrayType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

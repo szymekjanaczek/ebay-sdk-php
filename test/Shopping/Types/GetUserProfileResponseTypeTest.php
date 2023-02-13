@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Shopping\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Shopping\Types\GetUserProfileResponseType;
 
-class GetUserProfileResponseTypeTest extends \PHPUnit\Framework\TestCase
+class GetUserProfileResponseTypeTest extends TestCase
 {
     private $obj;
 

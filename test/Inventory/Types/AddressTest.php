@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Inventory\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Inventory\Types\Address;
 
-class AddressTest extends \PHPUnit\Framework\TestCase
+class AddressTest extends TestCase
 {
     private $obj;
 

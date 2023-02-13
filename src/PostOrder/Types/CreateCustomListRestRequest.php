@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
 /**
  *
  */
-class CreateCustomListRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateCustomListRequest
+class CreateCustomListRestRequest extends CreateCustomListRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

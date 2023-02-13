@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDataDetailType[] $actionData
- * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDataType $dataType
+ * @property RuleActionDataDetailType[] $actionData
+ * @property RuleActionDataType $dataType
  * @property boolean $isInvalid
  */
-class RuleActionDetailType extends \DTS\eBaySDK\Types\BaseType
+class RuleActionDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

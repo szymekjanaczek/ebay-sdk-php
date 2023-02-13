@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\SetTaxTableResponseType;
 
-class SetTaxTableResponseTypeTest extends \PHPUnit\Framework\TestCase
+class SetTaxTableResponseTypeTest extends TestCase
 {
     private $obj;
 

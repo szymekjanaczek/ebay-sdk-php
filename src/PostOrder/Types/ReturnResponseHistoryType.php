@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $activity
- * @property \DTS\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType $attributes
+ * @property ResponseHistoryAttributesType $attributes
  * @property string $author
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property DateTime $creationDate
  * @property string $fromState
  * @property string $notes
  * @property string $toState
  */
-class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
+class ReturnResponseHistoryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

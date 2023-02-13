@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $acceptedPaymentMethod
  * @property boolean $immediatePay
  * @property string $paymentInstructions
  * @property string $paypalEmailAddress
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\DepositDetails $depositDetails
+ * @property DepositDetails $depositDetails
  * @property integer $daysToFullPayment
  */
-class PaymentInfo extends \DTS\eBaySDK\Types\BaseType
+class PaymentInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

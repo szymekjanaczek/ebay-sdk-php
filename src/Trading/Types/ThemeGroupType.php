@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $GroupID
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer[] $ThemeID
  * @property integer $ThemeTotal
  */
-class ThemeGroupType extends \DTS\eBaySDK\Types\BaseType
+class ThemeGroupType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

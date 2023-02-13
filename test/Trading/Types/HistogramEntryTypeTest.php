@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\HistogramEntryType;
 
-class HistogramEntryTypeTest extends \PHPUnit\Framework\TestCase
+class HistogramEntryTypeTest extends TestCase
 {
     private $obj;
 

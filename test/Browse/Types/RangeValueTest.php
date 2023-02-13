@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Browse\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Browse\Types\RangeValue;
 
-class RangeValueTest extends \PHPUnit\Framework\TestCase
+class RangeValueTest extends TestCase
 {
     private $obj;
 

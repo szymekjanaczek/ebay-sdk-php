@@ -10,15 +10,16 @@
 
 namespace DTS\eBaySDK\Account\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $maxSoldInventoryValue
+ * @property Amount $maxSoldInventoryValue
  * @property integer $maxSoldQuantity
- * @property \DTS\eBaySDK\Account\Types\Amount $minSoldInventoryValue
+ * @property Amount $minSoldInventoryValue
  * @property integer $minSoldQuantity
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $period
+ * @property TimeDuration $period
  */
-class SoldAggregatedMetrics extends \DTS\eBaySDK\Types\BaseType
+class SoldAggregatedMetrics extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

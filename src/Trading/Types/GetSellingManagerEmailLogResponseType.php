@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType[] $EmailLog
+ * @property SellingManagerEmailLogType[] $EmailLog
  */
-class GetSellingManagerEmailLogResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerEmailLogResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

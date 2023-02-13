@@ -1,11 +1,14 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
+use PHPUnit\Framework\TestCase;
+use DateTime;
+use DateTimeZone;
 use DTS\eBaySDK\Test\Mocks\AmountClass;
 use DTS\eBaySDK\Test\Mocks\SimpleClass;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class ComplexClassTest extends \PHPUnit\Framework\TestCase
+class ComplexClassTest extends TestCase
 {
     private $obj;
 
@@ -53,7 +56,7 @@ class ComplexClassTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(false, $this->obj->booleanFalse);
         $this->assertisBool($this->obj->booleanFalse);
 
-        $date = new \DateTime('2000-01-01', new \DateTimeZone("UTC"));
+        $date = new DateTime('2000-01-01', new DateTimeZone("UTC"));
         $this->obj->DateTime = $date;
         $this->assertEquals($date, $this->obj->DateTime);
         $this->assertInstanceOf('\DateTime', $this->obj->DateTime);
@@ -90,7 +93,7 @@ class ComplexClassTest extends \PHPUnit\Framework\TestCase
         $this->obj->integer = 123;
         $this->obj->string = '<h1>Bits &amp; Bobs</h1><p>Just some &lt;stuff&gt; I found.&nbsp;&copy;</p>';
         $this->obj->double = 123.45;
-        $this->obj->DateTime = new \DateTime('2000-01-01', new \DateTimeZone("UTC"));
+        $this->obj->DateTime = new DateTime('2000-01-01', new DateTimeZone("UTC"));
         $this->obj->booleanTrue = true;
         $this->obj->booleanFalse = false;
 
@@ -121,7 +124,7 @@ class ComplexClassTest extends \PHPUnit\Framework\TestCase
         $this->obj->integer = 123;
         $this->obj->string = '<h1>Bits &amp; Bobs</h1><p>Just some &lt;stuff&gt; I found.&nbsp;&copy;</p>';
         $this->obj->double = 123.45;
-        $this->obj->DateTime = new \DateTime('2000-01-01', new \DateTimeZone("UTC"));
+        $this->obj->DateTime = new DateTime('2000-01-01', new DateTimeZone("UTC"));
         $this->obj->booleanTrue = true;
         $this->obj->booleanFalse = false;
 
@@ -149,7 +152,7 @@ class ComplexClassTest extends \PHPUnit\Framework\TestCase
         $this->obj->anyTypes[] = 1.23;
         $this->obj->anyTypes[] = true;
         $this->obj->anyTypes[] = false;
-        $date = new \DateTime('2000-01-01', new \DateTimeZone('UTC'));
+        $date = new DateTime('2000-01-01', new DateTimeZone('UTC'));
         $this->obj->anyTypes[] = $date;
         $this->obj->anyTypes[] = [1, 2, 3];
 

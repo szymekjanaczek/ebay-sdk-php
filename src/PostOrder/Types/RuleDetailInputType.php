@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleActionInputType $actionDetail
- * @property \DTS\eBaySDK\PostOrder\Types\RuleConditionInputType[] $condition
+ * @property RuleActionInputType $actionDetail
+ * @property RuleConditionInputType[] $condition
  * @property integer $priority
  */
-class RuleDetailInputType extends \DTS\eBaySDK\Types\BaseType
+class RuleDetailInputType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

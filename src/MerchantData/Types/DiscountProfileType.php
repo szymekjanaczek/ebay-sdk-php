@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $DiscountProfileID
  * @property string $DiscountProfileName
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $EachAdditionalAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $EachAdditionalAmountOff
+ * @property AmountType $EachAdditionalAmount
+ * @property AmountType $EachAdditionalAmountOff
  * @property double $EachAdditionalPercentOff
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightOff
+ * @property MeasureType $WeightOff
  * @property string $MappedDiscountProfileID
  */
-class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
+class DiscountProfileType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

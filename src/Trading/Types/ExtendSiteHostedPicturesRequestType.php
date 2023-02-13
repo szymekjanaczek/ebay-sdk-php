@@ -15,7 +15,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string[] $PictureURL
  * @property integer $ExtensionInDays
  */
-class ExtendSiteHostedPicturesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ExtendSiteHostedPicturesRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

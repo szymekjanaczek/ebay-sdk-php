@@ -1,13 +1,15 @@
 <?php
 namespace DTS\eBaySDK\Test;
 
+use PHPUnit\Framework\TestCase;
+use Exception;
 use DTS\eBaySDK\HttpHandler;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 
-class HttpHandlerTest extends \PHPUnit\Framework\TestCase
+class HttpHandlerTest extends TestCase
 {
     public function testWorksWithSuccessfulRequest()
     {
@@ -22,7 +24,7 @@ class HttpHandlerTest extends \PHPUnit\Framework\TestCase
 
     public function testWorksWithFailedRequest()
     {
-        $mock = new MockHandler([new \Exception('FAIL')]);
+        $mock = new MockHandler([new Exception('FAIL')]);
         $client = new Client(['handler' => $mock]);
         $httpHandler = new HttpHandler($client);
 
@@ -30,7 +32,7 @@ class HttpHandlerTest extends \PHPUnit\Framework\TestCase
         try {
             $httpHandler($request, [])->wait();
             $this->fail();
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             $this->assertStringContainsString('FAIL', $e->getMessage());
         }
     }

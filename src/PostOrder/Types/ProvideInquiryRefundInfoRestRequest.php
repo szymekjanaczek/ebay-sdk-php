@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $inquiryId
  */
-class ProvideInquiryRefundInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\SellerProvideRefundInfoRequest
+class ProvideInquiryRefundInfoRestRequest extends SellerProvideRefundInfoRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

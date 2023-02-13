@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\LocalMarketSellerContactDetailsEnabledDefinitionType;
 
-class LocalMarketSellerContactDetailsEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class LocalMarketSellerContactDetailsEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Enums\SNADCaseStatusType;
 
-class SNADCaseStatusTypeTest extends \PHPUnit\Framework\TestCase
+class SNADCaseStatusTypeTest extends TestCase
 {
     private $obj;
 

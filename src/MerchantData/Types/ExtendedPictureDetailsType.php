@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\PictureURLsType[] $PictureURLs
+ * @property PictureURLsType[] $PictureURLs
  */
-class ExtendedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ExtendedPictureDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

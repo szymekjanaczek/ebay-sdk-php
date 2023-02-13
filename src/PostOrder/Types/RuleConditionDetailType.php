@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ConditionListDetailType $dataList
+ * @property ConditionListDetailType $dataList
  * @property boolean $isChecked
  * @property boolean $isEbayPlus
  * @property boolean $isInvalid
  * @property boolean $storeCategory
  * @property integer $storeId
  */
-class RuleConditionDetailType extends \DTS\eBaySDK\Types\BaseType
+class RuleConditionDetailType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

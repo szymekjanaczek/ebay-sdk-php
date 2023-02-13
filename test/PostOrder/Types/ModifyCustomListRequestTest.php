@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\ModifyCustomListRequest;
 
-class ModifyCustomListRequestTest extends \PHPUnit\Framework\TestCase
+class ModifyCustomListRequestTest extends TestCase
 {
     private $obj;
 

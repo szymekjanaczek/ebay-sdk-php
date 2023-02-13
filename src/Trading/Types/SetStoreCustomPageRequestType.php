@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreCustomPageType $CustomPage
+ * @property StoreCustomPageType $CustomPage
  */
-class SetStoreCustomPageRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetStoreCustomPageRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

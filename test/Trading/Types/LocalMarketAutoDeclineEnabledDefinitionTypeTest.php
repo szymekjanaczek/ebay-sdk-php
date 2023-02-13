@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\LocalMarketAutoDeclineEnabledDefinitionType;
 
-class LocalMarketAutoDeclineEnabledDefinitionTypeTest extends \PHPUnit\Framework\TestCase
+class LocalMarketAutoDeclineEnabledDefinitionTypeTest extends TestCase
 {
     private $obj;
 

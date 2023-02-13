@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\ReturnManagement\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemId
  * @property string $transactionId
  */
-class ItemFilterType extends \DTS\eBaySDK\Types\BaseType
+class ItemFilterType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

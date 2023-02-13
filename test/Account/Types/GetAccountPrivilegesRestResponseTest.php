@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse;
 
-class GetAccountPrivilegesRestResponseTest extends \PHPUnit\Framework\TestCase
+class GetAccountPrivilegesRestResponseTest extends TestCase
 {
     private $obj;
 

@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $limit
@@ -18,7 +19,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $trigger_date_range_from
  * @property string $trigger_date_range_to
  */
-class GetReturnRuleHistoryRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetReturnRuleHistoryRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

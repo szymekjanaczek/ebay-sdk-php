@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $campaign_name
@@ -19,7 +20,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $offset
  * @property string $start_date_range
  */
-class GetAllCampaignsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetAllCampaignsRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

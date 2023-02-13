@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\Bundle[] $bundle
+ * @property Bundle[] $bundle
  */
-class UpdateBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest
+class UpdateBundlesRequest extends BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

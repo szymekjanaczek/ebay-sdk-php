@@ -10,23 +10,25 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\HalfFinding\Enums\HalfItemConditionCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $itemID
  * @property string $itemURL
  * @property integer $quantity
- * @property \DTS\eBaySDK\HalfFinding\Types\UserType $seller
- * @property \DTS\eBaySDK\HalfFinding\Types\Amount $price
- * @property \DTS\eBaySDK\HalfFinding\Types\RentalAmount[] $rentalPrice
- * @property \DTS\eBaySDK\HalfFinding\Types\ShippingServiceOptionsType[] $shippingService
+ * @property UserType $seller
+ * @property Amount $price
+ * @property RentalAmount[] $rentalPrice
+ * @property ShippingServiceOptionsType[] $shippingService
  * @property string $itemLocation
  * @property string $excludedShippingAreas
- * @property \DTS\eBaySDK\HalfFinding\Enums\HalfItemConditionCodeType $condition
+ * @property HalfItemConditionCodeType $condition
  * @property string $comments
  * @property string $description
- * @property \DTS\eBaySDK\HalfFinding\Types\StorefrontType $storefront
+ * @property StorefrontType $storefront
  */
-class ItemType extends \DTS\eBaySDK\Types\BaseType
+class ItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

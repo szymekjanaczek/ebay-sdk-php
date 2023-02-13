@@ -10,13 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\EndReasonCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
+ * @property EndReasonCodeType $EndingReason
  * @property string $MessageID
  */
-class EndItemRequestContainerType extends \DTS\eBaySDK\Types\BaseType
+class EndItemRequestContainerType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

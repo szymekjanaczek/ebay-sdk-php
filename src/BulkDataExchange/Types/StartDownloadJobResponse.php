@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
  *
  * @property string $jobId
  */
-class StartDownloadJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class StartDownloadJobResponse extends BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

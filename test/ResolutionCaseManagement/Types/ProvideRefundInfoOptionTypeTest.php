@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoOptionType;
 
-class ProvideRefundInfoOptionTypeTest extends \PHPUnit\Framework\TestCase
+class ProvideRefundInfoOptionTypeTest extends TestCase
 {
     private $obj;
 

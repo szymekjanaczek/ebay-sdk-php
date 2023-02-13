@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Product\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Product\Types\StringValue;
 
-class StringValueTest extends \PHPUnit\Framework\TestCase
+class StringValueTest extends TestCase
 {
     private $obj;
 

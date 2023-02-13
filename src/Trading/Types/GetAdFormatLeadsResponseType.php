@@ -12,10 +12,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AdFormatLeadType[] $AdFormatLead
+ * @property AdFormatLeadType[] $AdFormatLead
  * @property integer $AdFormatLeadCount
  */
-class GetAdFormatLeadsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetAdFormatLeadsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

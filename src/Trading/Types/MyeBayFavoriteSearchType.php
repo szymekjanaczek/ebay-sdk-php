@@ -10,37 +10,50 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\SimpleItemSortCodeType;
+use DTS\eBaySDK\Trading\Enums\SortOrderCodeType;
+use DateTime;
+use DTS\eBaySDK\Trading\Enums\ItemTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
+use DTS\eBaySDK\Trading\Enums\SearchFlagCodeType;
+use DTS\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType;
+use DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType;
+use DTS\eBaySDK\Trading\Enums\CountryCodeType;
+use DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType;
+use DTS\eBaySDK\Trading\Enums\ItemConditionCodeType;
+use DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $SearchName
  * @property string $SearchQuery
  * @property string $QueryKeywords
  * @property string $CategoryID
- * @property \DTS\eBaySDK\Trading\Enums\SimpleItemSortCodeType $ItemSort
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
- * @property \DateTime $EndTimeFrom
- * @property \DateTime $EndTimeTo
+ * @property SimpleItemSortCodeType $ItemSort
+ * @property SortOrderCodeType $SortOrder
+ * @property DateTime $EndTimeFrom
+ * @property DateTime $EndTimeTo
  * @property integer $MaxDistance
  * @property string $PostalCode
- * @property \DTS\eBaySDK\Trading\Enums\ItemTypeCodeType $ItemType
- * @property \DTS\eBaySDK\Trading\Types\AmountType $PriceMax
- * @property \DTS\eBaySDK\Trading\Types\AmountType $PriceMin
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property ItemTypeCodeType $ItemType
+ * @property AmountType $PriceMax
+ * @property AmountType $PriceMin
+ * @property CurrencyCodeType $Currency
  * @property integer $BidCountMax
  * @property integer $BidCountMin
- * @property \DTS\eBaySDK\Trading\Enums\SearchFlagCodeType[] $SearchFlag
- * @property \DTS\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType $PaymentMethod
- * @property \DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType $PreferredLocation
+ * @property SearchFlagCodeType[] $SearchFlag
+ * @property PaymentMethodSearchCodeType $PaymentMethod
+ * @property PreferredLocationCodeType $PreferredLocation
  * @property string[] $SellerID
  * @property string[] $SellerIDExclude
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $ItemsAvailableTo
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $ItemsLocatedIn
- * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType $SellerBusinessType
- * @property \DTS\eBaySDK\Trading\Enums\ItemConditionCodeType $Condition
+ * @property CountryCodeType $ItemsAvailableTo
+ * @property CountryCodeType $ItemsLocatedIn
+ * @property SellerBusinessCodeType $SellerBusinessType
+ * @property ItemConditionCodeType $Condition
  * @property integer $Quantity
- * @property \DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType $QuantityOperator
+ * @property QuantityOperatorCodeType $QuantityOperator
  */
-class MyeBayFavoriteSearchType extends \DTS\eBaySDK\Types\BaseType
+class MyeBayFavoriteSearchType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

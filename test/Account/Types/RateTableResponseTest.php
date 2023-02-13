@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Account\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Account\Types\RateTableResponse;
 
-class RateTableResponseTest extends \PHPUnit\Framework\TestCase
+class RateTableResponseTest extends TestCase
 {
     private $obj;
 

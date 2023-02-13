@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductDetailsRequestType[] $productDetailsRequest
+ * @property ProductDetailsRequestType[] $productDetailsRequest
  */
-class GetProductDetailsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class GetProductDetailsRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

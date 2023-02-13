@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $refundStatus
  */
-class DecideReturnResponse extends \DTS\eBaySDK\Types\BaseType
+class DecideReturnResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,13 +10,16 @@
 
 namespace DTS\eBaySDK\Compliance\Types;
 
+use DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum;
+use DTS\eBaySDK\Compliance\Enums\MarketplaceIdEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum $complianceType
- * @property \DTS\eBaySDK\Compliance\Enums\MarketplaceIdEnum $marketplaceId
+ * @property ComplianceTypeEnum $complianceType
+ * @property MarketplaceIdEnum $marketplaceId
  * @property integer $listingCount
  */
-class ComplianceSummaryInfo extends \DTS\eBaySDK\Types\BaseType
+class ComplianceSummaryInfo extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

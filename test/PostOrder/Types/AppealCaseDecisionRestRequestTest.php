@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest;
 
-class AppealCaseDecisionRestRequestTest extends \PHPUnit\Framework\TestCase
+class AppealCaseDecisionRestRequestTest extends TestCase
 {
     private $obj;
 

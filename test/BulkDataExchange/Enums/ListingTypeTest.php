@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\BulkDataExchange\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\BulkDataExchange\Enums\ListingType;
 
-class ListingTypeTest extends \PHPUnit\Framework\TestCase
+class ListingTypeTest extends TestCase
 {
     private $obj;
 

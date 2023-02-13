@@ -10,19 +10,20 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $invocationId
  * @property string $categoryId
  * @property string $keywords
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $propertyFilter
- * @property \DTS\eBaySDK\Product\Types\SortOrder $sortOrder
+ * @property PropertyValue[] $propertyFilter
+ * @property SortOrder $sortOrder
  * @property string[] $dataset
  * @property string[] $datasetPropertyName
- * @property \DTS\eBaySDK\Product\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\Product\Types\ProductStatus $productStatusFilter
+ * @property PaginationInput $paginationInput
+ * @property ProductStatus $productStatusFilter
  */
-class ProductRequest extends \DTS\eBaySDK\Types\BaseType
+class ProductRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

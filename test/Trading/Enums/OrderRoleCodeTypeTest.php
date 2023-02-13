@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Enums\OrderRoleCodeType;
 
-class OrderRoleCodeTypeTest extends \PHPUnit\Framework\TestCase
+class OrderRoleCodeTypeTest extends TestCase
 {
     private $obj;
 

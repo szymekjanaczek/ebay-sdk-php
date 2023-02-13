@@ -12,11 +12,11 @@ namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\PaginationInput $paginationInput
+ * @property PaginationInput $paginationInput
  * @property string $buyerPostalCode
- * @property \DTS\eBaySDK\Finding\Types\Affiliate $affiliate
+ * @property Affiliate $affiliate
  */
-class BestMatchFindingServiceRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
+class BestMatchFindingServiceRequest extends BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

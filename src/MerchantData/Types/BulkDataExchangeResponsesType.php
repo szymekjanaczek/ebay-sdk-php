@@ -10,27 +10,28 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType $ActiveInventoryReport
- * @property \DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType[] $AddFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\AddItemResponseType[] $AddItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\EndFixedPriceItemResponseType[] $EndFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\EndItemResponseType[] $EndItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType $FeeSettlementReport
- * @property \DTS\eBaySDK\MerchantData\Types\OrderAckResponseType[] $OrderAckResponse
- * @property \DTS\eBaySDK\MerchantData\Types\RelistFixedPriceItemResponseType[] $RelistFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\RelistItemResponseType[] $RelistItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType[] $ReviseFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType[] $ReviseInventoryStatusResponse
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseItemResponseType[] $ReviseItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType[] $SetShipmentTrackingInfoResponse
- * @property \DTS\eBaySDK\MerchantData\Types\SoldReportResponseType $SoldReport
- * @property \DTS\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType[] $UploadSiteHostedPicturesResponse
- * @property \DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType[] $VerifyAddFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\VerifyAddItemResponseType[] $VerifyAddItemResponse
+ * @property ActiveInventoryReportResponseType $ActiveInventoryReport
+ * @property AddFixedPriceItemResponseType[] $AddFixedPriceItemResponse
+ * @property AddItemResponseType[] $AddItemResponse
+ * @property EndFixedPriceItemResponseType[] $EndFixedPriceItemResponse
+ * @property EndItemResponseType[] $EndItemResponse
+ * @property FeeSettlementReportResponseType $FeeSettlementReport
+ * @property OrderAckResponseType[] $OrderAckResponse
+ * @property RelistFixedPriceItemResponseType[] $RelistFixedPriceItemResponse
+ * @property RelistItemResponseType[] $RelistItemResponse
+ * @property ReviseFixedPriceItemResponseType[] $ReviseFixedPriceItemResponse
+ * @property ReviseInventoryStatusResponseType[] $ReviseInventoryStatusResponse
+ * @property ReviseItemResponseType[] $ReviseItemResponse
+ * @property SetShipmentTrackingInfoResponseType[] $SetShipmentTrackingInfoResponse
+ * @property SoldReportResponseType $SoldReport
+ * @property UploadSiteHostedPicturesResponseType[] $UploadSiteHostedPicturesResponse
+ * @property VerifyAddFixedPriceItemResponseType[] $VerifyAddFixedPriceItemResponse
+ * @property VerifyAddItemResponseType[] $VerifyAddItemResponse
  */
-class BulkDataExchangeResponsesType extends \DTS\eBaySDK\Types\BaseType
+class BulkDataExchangeResponsesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

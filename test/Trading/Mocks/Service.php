@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Trading\Mocks;
 
+use DTS\eBaySDK\Trading\Services\TradingBaseService;
 use DTS\eBaySDK\Trading\Types\GeteBayOfficialTimeRequestType;
 
-class Service extends \DTS\eBaySDK\Trading\Services\TradingBaseService
+class Service extends TradingBaseService
 {
     public function __construct(array $config)
     {

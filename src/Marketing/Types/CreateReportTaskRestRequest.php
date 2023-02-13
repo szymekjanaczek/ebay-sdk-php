@@ -13,7 +13,7 @@ namespace DTS\eBaySDK\Marketing\Types;
 /**
  *
  */
-class CreateReportTaskRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateReportTask
+class CreateReportTaskRestRequest extends CreateReportTask
 {
     /**
      * @var array Properties belonging to objects of this class.

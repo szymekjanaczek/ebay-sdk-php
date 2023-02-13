@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\VariationType;
 
-class VariationTypeTest extends \PHPUnit\Framework\TestCase
+class VariationTypeTest extends TestCase
 {
     private $obj;
 

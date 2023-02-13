@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\StoreCategoryType[] $categories
+ * @property StoreCategoryType[] $categories
  */
-class GetStoreCategoryResponse extends \DTS\eBaySDK\Types\BaseType
+class GetStoreCategoryResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

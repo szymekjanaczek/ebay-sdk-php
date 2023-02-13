@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $ad_id
  * @property string $campaign_id
  */
-class DeleteAdByIDRestRequest extends \DTS\eBaySDK\Types\BaseType
+class DeleteAdByIDRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

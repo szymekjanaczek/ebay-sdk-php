@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AddItemRequestContainerType[] $AddItemRequestContainer
+ * @property AddItemRequestContainerType[] $AddItemRequestContainer
  */
-class AddItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddItemsRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

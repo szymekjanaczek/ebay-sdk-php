@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Order\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Order\Types\CreditCard;
 
-class CreditCardTest extends \PHPUnit\Framework\TestCase
+class CreditCardTest extends TestCase
 {
     private $obj;
 

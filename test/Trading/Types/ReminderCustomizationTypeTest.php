@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\ReminderCustomizationType;
 
-class ReminderCustomizationTypeTest extends \PHPUnit\Framework\TestCase
+class ReminderCustomizationTypeTest extends TestCase
 {
     private $obj;
 

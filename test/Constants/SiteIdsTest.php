@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Constants\Test;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Constants\SiteIds as SiteIds;
 
-class SiteIdsTest extends \PHPUnit\Framework\TestCase
+class SiteIdsTest extends TestCase
 {
     public function testConstantsAreCorrectType()
     {

@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType;
 /**
  *
  * @property string $FeedbackID
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $TargetUserID
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType $ResponseType
+ * @property FeedbackResponseCodeType $ResponseType
  * @property string $ResponseText
  * @property string $OrderLineItemID
  */
-class RespondToFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class RespondToFeedbackRequestType extends AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,11 +1,12 @@
 <?php
 namespace DTS\eBaySDK\FileTransfer\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\FileTransfer\Types\XopInclude $xopInclude
+ * @property XopInclude $xopInclude
  */
-class Data extends \DTS\eBaySDK\Types\BaseType
+class Data extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

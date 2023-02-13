@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\GroupValidationRulesType $ValidationRules
- * @property \DTS\eBaySDK\Trading\Types\NameRecommendationType[] $NameRecommendation
+ * @property GroupValidationRulesType $ValidationRules
+ * @property NameRecommendationType[] $NameRecommendation
  */
-class ProductIdentifiersType extends \DTS\eBaySDK\Types\BaseType
+class ProductIdentifiersType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

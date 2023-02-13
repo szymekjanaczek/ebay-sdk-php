@@ -12,9 +12,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ApiAccessRuleType[] $ApiAccessRule
+ * @property ApiAccessRuleType[] $ApiAccessRule
  */
-class GetApiAccessRulesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetApiAccessRulesResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

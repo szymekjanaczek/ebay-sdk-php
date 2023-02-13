@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\FeedbackCommentArrayType;
 
-class FeedbackCommentArrayTypeTest extends \PHPUnit\Framework\TestCase
+class FeedbackCommentArrayTypeTest extends TestCase
 {
     private $obj;
 

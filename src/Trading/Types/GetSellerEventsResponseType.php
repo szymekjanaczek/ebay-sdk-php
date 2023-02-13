@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
- * @property \DateTime $TimeTo
- * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
+ * @property DateTime $TimeTo
+ * @property ItemArrayType $ItemArray
  */
-class GetSellerEventsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellerEventsResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

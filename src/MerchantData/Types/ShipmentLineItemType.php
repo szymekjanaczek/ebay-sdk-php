@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\LineItemType[] $LineItem
+ * @property LineItemType[] $LineItem
  */
-class ShipmentLineItemType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentLineItemType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

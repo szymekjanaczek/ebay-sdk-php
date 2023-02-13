@@ -10,16 +10,17 @@
 
 namespace DTS\eBaySDK\Finding\Types;
 
+use DTS\eBaySDK\Finding\Enums\OutputSelectorType;
 /**
  *
  * @property string $keywords
  * @property string[] $categoryId
- * @property \DTS\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
- * @property \DTS\eBaySDK\Finding\Types\AspectFilter[] $aspectFilter
- * @property \DTS\eBaySDK\Finding\Enums\OutputSelectorType[] $outputSelector
- * @property \DTS\eBaySDK\Finding\Types\ProductId $productId
+ * @property ItemFilter[] $itemFilter
+ * @property AspectFilter[] $aspectFilter
+ * @property OutputSelectorType[] $outputSelector
+ * @property ProductId $productId
  */
-class FindCompletedItemsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceRequest
+class FindCompletedItemsRequest extends BaseFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

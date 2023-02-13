@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Analytics\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Analytics\Enums\DataTypeEnum;
 
-class DataTypeEnumTest extends \PHPUnit\Framework\TestCase
+class DataTypeEnumTest extends TestCase
 {
     private $obj;
 

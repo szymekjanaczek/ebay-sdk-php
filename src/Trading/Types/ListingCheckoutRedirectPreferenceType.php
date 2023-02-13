@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class ListingCheckoutRedirectPreferenceType extends \DTS\eBaySDK\Types\BaseType
+class ListingCheckoutRedirectPreferenceType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Analytics\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $name
  * @property string $value
  */
-class ErrorParameterV3 extends \DTS\eBaySDK\Types\BaseType
+class ErrorParameterV3 extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

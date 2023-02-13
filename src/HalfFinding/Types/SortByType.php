@@ -10,12 +10,15 @@
 
 namespace DTS\eBaySDK\HalfFinding\Types;
 
+use DTS\eBaySDK\HalfFinding\Enums\SortOrder;
+use DTS\eBaySDK\HalfFinding\Enums\SortOnType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\SortOrder $sortOrder
- * @property \DTS\eBaySDK\HalfFinding\Enums\SortOnType $sortOn
+ * @property SortOrder $sortOrder
+ * @property SortOnType $sortOn
  */
-class SortByType extends \DTS\eBaySDK\Types\BaseType
+class SortByType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Taxonomy\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $category_tree_id
  * @property string $q
  */
-class GetSuggestedCategoriesRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetSuggestedCategoriesRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

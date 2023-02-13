@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\ProductMetadata\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $id
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\ProductMetadata\Types;
  * @property string $contentType
  * @property string $value
  */
-class ExtensionType extends \DTS\eBaySDK\Types\BaseType
+class ExtensionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

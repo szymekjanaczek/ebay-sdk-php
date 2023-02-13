@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\VATDetailsType;
 
-class VATDetailsTypeTest extends \PHPUnit\Framework\TestCase
+class VATDetailsTypeTest extends TestCase
 {
     private $obj;
 

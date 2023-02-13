@@ -14,7 +14,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  *
  * @property string $cancelId
  */
-class RejectCancellationRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\RejectCancelRequest
+class RejectCancellationRequestRestRequest extends RejectCancelRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

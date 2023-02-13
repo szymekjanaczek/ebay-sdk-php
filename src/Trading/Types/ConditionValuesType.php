@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ConditionType[] $Condition
+ * @property ConditionType[] $Condition
  * @property string $ConditionHelpURL
  */
-class ConditionValuesType extends \DTS\eBaySDK\Types\BaseType
+class ConditionValuesType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

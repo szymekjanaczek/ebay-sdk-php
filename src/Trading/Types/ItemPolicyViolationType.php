@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $PolicyID
  * @property string $PolicyText
  */
-class ItemPolicyViolationType extends \DTS\eBaySDK\Types\BaseType
+class ItemPolicyViolationType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

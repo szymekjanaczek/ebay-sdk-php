@@ -10,19 +10,22 @@
 
 namespace DTS\eBaySDK\BulkDataExchange\Types;
 
+use DTS\eBaySDK\BulkDataExchange\Enums\JobStatus;
+use DateTime;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $jobId
  * @property string $jobType
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\JobStatus $jobStatus
- * @property \DateTime $creationTime
- * @property \DateTime $completionTime
+ * @property JobStatus $jobStatus
+ * @property DateTime $creationTime
+ * @property DateTime $completionTime
  * @property integer $errorCount
  * @property double $percentComplete
  * @property string $fileReferenceId
  * @property string $inputFileReferenceId
  */
-class JobProfile extends \DTS\eBaySDK\Types\BaseType
+class JobProfile extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\BidderNoticePreferencesType;
 
-class BidderNoticePreferencesTypeTest extends \PHPUnit\Framework\TestCase
+class BidderNoticePreferencesTypeTest extends TestCase
 {
     private $obj;
 

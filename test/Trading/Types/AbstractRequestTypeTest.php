@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\AbstractRequestType;
 
-class AbstractRequestTypeTest extends \PHPUnit\Framework\TestCase
+class AbstractRequestTypeTest extends TestCase
 {
     private $obj;
 

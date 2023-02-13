@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Title
@@ -17,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $StockPhoto
  * @property boolean $Recommended
  */
-class ProductSuggestionType extends \DTS\eBaySDK\Types\BaseType
+class ProductSuggestionType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

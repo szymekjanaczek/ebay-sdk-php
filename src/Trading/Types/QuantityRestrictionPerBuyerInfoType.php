@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $MaximumQuantity
  */
-class QuantityRestrictionPerBuyerInfoType extends \DTS\eBaySDK\Types\BaseType
+class QuantityRestrictionPerBuyerInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

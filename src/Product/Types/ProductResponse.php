@@ -10,13 +10,14 @@
 
 namespace DTS\eBaySDK\Product\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\Product[] $products
- * @property \DTS\eBaySDK\Product\Types\PaginationOutput $paginationOutput
+ * @property Product[] $products
+ * @property PaginationOutput $paginationOutput
  * @property string $invocationId
  */
-class ProductResponse extends \DTS\eBaySDK\Types\BaseType
+class ProductResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\MerchantData\Enums\RequiredSellerActionCodeType;
 
-class RequiredSellerActionCodeTypeTest extends \PHPUnit\Framework\TestCase
+class RequiredSellerActionCodeTypeTest extends TestCase
 {
     private $obj;
 

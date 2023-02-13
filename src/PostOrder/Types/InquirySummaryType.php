@@ -10,20 +10,22 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\PostOrder\Enums\InquiryStatusEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $buyer
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property Amount $claimAmount
+ * @property DateTime $creationDate
  * @property integer $inquiryId
- * @property \DTS\eBaySDK\PostOrder\Enums\InquiryStatusEnum $inquiryStatusEnum
+ * @property InquiryStatusEnum $inquiryStatusEnum
  * @property integer $itemId
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $respondByDate
+ * @property DateTime $lastModifiedDate
+ * @property DateTime $respondByDate
  * @property string $seller
  * @property integer $transactionId
  */
-class InquirySummaryType extends \DTS\eBaySDK\Types\BaseType
+class InquirySummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

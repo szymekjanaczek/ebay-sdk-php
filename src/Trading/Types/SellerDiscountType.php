@@ -10,14 +10,15 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $CampaignID
  * @property string $CampaignDisplayName
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemDiscountAmount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingDiscountAmount
+ * @property AmountType $ItemDiscountAmount
+ * @property AmountType $ShippingDiscountAmount
  */
-class SellerDiscountType extends \DTS\eBaySDK\Types\BaseType
+class SellerDiscountType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

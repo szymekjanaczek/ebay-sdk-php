@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\SearchCasesRestRequest;
 
-class SearchCasesRestRequestTest extends \PHPUnit\Framework\TestCase
+class SearchCasesRestRequestTest extends TestCase
 {
     private $obj;
 

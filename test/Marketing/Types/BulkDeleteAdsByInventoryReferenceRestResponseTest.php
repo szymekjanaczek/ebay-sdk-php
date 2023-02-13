@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Marketing\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRestResponse;
 
-class BulkDeleteAdsByInventoryReferenceRestResponseTest extends \PHPUnit\Framework\TestCase
+class BulkDeleteAdsByInventoryReferenceRestResponseTest extends TestCase
 {
     private $obj;
 

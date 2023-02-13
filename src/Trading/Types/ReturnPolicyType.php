@@ -10,6 +10,7 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $RefundOption
@@ -31,7 +32,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $RestockingFeeValueOption
  * @property boolean $ExtendedHolidayReturns
  */
-class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

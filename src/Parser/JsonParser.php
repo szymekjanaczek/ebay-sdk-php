@@ -1,6 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Parser;
 
+use DTS\eBaySDK\Types\BaseType;
+use stdClass;
+use DateTime;
+use DateTimeZone;
 class JsonParser
 {
     /**
@@ -13,7 +17,7 @@ class JsonParser
         self::assignProperties($object, $properties);
     }
 
-    private static function assignProperties(\DTS\eBaySDK\Types\BaseType $object, array $properties)
+    private static function assignProperties(BaseType $object, array $properties)
     {
         foreach ($properties as $property => $value) {
             $propertyMeta = $object->elementMeta($property);
@@ -47,7 +51,7 @@ class JsonParser
     }
 
     /**
-     * @param \stdClass $propertyMeta The metadata for the property.
+     * @param stdClass $propertyMeta The metadata for the property.
      * @param mixed $value The property value.
      *
      * @return mixed
@@ -66,12 +70,12 @@ class JsonParser
     }
 
     /**
-     * @param \stdClass $propertyMeta The metadata for the property.
+     * @param stdClass $propertyMeta The metadata for the property.
      * @param mixed $value The property value.
      *
      * @return mixed
      */
-    private static function actualValue(\stdClass $propertyMeta, $value)
+    private static function actualValue(stdClass $propertyMeta, $value)
     {
         /**
          * Shortcut. Objects can be assigned as is.
@@ -91,7 +95,7 @@ class JsonParser
                 case 'any':
                     return $value;
                 case 'DateTime':
-                    return new \DateTime($value, new \DateTimeZone('UTC'));
+                    return new DateTime($value, new DateTimeZone('UTC'));
             }
         }
 

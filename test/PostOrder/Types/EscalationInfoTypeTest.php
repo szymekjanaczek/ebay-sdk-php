@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\PostOrder\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\PostOrder\Types\EscalationInfoType;
 
-class EscalationInfoTypeTest extends \PHPUnit\Framework\TestCase
+class EscalationInfoTypeTest extends TestCase
 {
     private $obj;
 

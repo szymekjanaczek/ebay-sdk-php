@@ -1,9 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\ReturnManagement\Mocks;
 
+use DTS\eBaySDK\ReturnManagement\Services\ReturnManagementBaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\ReturnManagement\Services\ReturnManagementBaseService
+class Service extends ReturnManagementBaseService
 {
     public function __construct(array $config)
     {

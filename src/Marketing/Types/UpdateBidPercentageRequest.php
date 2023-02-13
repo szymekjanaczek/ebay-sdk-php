@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\Marketing\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $bidPercentage
  */
-class UpdateBidPercentageRequest extends \DTS\eBaySDK\Types\BaseType
+class UpdateBidPercentageRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

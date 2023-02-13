@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\MerchantData\Enums\DiscountReasonCodeType;
 /**
  *
  * @property string $ItemID
  * @property string $SKU
- * @property \DTS\eBaySDK\MerchantData\Types\FeesType $Fees
+ * @property FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
- * @property \DTS\eBaySDK\MerchantData\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType $ListingRecommendations
+ * @property DiscountReasonCodeType[] $DiscountReason
+ * @property ListingRecommendationsType $ListingRecommendations
  */
-class VerifyAddFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class VerifyAddFixedPriceItemResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $Message
  */
-class GiftSummaryType extends \DTS\eBaySDK\Types\BaseType
+class GiftSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

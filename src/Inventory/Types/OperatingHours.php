@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Inventory\Types;
 
+use DTS\eBaySDK\Inventory\Enums\DayOfWeekEnum;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Enums\DayOfWeekEnum $dayOfWeekEnum
- * @property \DTS\eBaySDK\Inventory\Types\Interval[] $intervals
+ * @property DayOfWeekEnum $dayOfWeekEnum
+ * @property Interval[] $intervals
  */
-class OperatingHours extends \DTS\eBaySDK\Types\BaseType
+class OperatingHours extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

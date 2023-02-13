@@ -10,17 +10,18 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property integer $BiddingCount
  * @property integer $WinningCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWinningCost
+ * @property AmountType $TotalWinningCost
  * @property integer $WonCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWonCost
+ * @property AmountType $TotalWonCost
  * @property integer $WonDurationInDays
  * @property integer $BestOfferCount
  */
-class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
+class BuyingSummaryType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

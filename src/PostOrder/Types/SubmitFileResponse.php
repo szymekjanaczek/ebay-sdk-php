@@ -10,11 +10,12 @@
 
 namespace DTS\eBaySDK\PostOrder\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string[] $removedFileIds
  */
-class SubmitFileResponse extends \DTS\eBaySDK\Types\BaseType
+class SubmitFileResponse extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

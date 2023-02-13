@@ -1,13 +1,14 @@
 <?php
 namespace DTS\eBaySDK\OAuth\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  * @property string $grant_type
  * @property string $refresh_token
  * @property string $scope
  */
-class RefreshUserTokenRestRequest extends \DTS\eBaySDK\Types\BaseType
+class RefreshUserTokenRestRequest extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

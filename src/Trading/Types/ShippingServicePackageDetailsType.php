@@ -10,12 +10,14 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $Name
+ * @property ShippingPackageCodeType $Name
  * @property boolean $DimensionsRequired
  */
-class ShippingServicePackageDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServicePackageDetailsType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

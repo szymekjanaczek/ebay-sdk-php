@@ -10,12 +10,13 @@
 
 namespace DTS\eBaySDK\Trading\Types;
 
+use DateTime;
 /**
  *
- * @property \DateTime $LastUpdateTime
- * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
+ * @property DateTime $LastUpdateTime
+ * @property TaxTableType $TaxTable
  */
-class GetTaxTableResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetTaxTableResponseType extends AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

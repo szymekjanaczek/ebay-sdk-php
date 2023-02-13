@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Trading\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Trading\Types\OfferArrayType;
 
-class OfferArrayTypeTest extends \PHPUnit\Framework\TestCase
+class OfferArrayTypeTest extends TestCase
 {
     private $obj;
 

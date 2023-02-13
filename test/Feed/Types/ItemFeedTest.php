@@ -10,9 +10,10 @@
 
 namespace DTS\eBaySDK\Test\Feed\Types;
 
+use PHPUnit\Framework\TestCase;
 use DTS\eBaySDK\Feed\Types\ItemFeed;
 
-class ItemFeedTest extends \PHPUnit\Framework\TestCase
+class ItemFeedTest extends TestCase
 {
     private $obj;
 

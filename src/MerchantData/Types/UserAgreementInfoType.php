@@ -10,10 +10,11 @@
 
 namespace DTS\eBaySDK\MerchantData\Types;
 
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
  */
-class UserAgreementInfoType extends \DTS\eBaySDK\Types\BaseType
+class UserAgreementInfoType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

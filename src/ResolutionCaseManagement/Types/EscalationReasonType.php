@@ -10,14 +10,19 @@
 
 namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerINREscalationReasonType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerSNADEscalationReasonType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\BuyerINREscalationReasonType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\BuyerSNADEscalationReasonType;
+use DTS\eBaySDK\Types\BaseType;
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerINREscalationReasonType $sellerINRReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\SellerSNADEscalationReasonType $sellerSNADReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\BuyerINREscalationReasonType $buyerINRReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\BuyerSNADEscalationReasonType $buyerSNADReason
+ * @property SellerINREscalationReasonType $sellerINRReason
+ * @property SellerSNADEscalationReasonType $sellerSNADReason
+ * @property BuyerINREscalationReasonType $buyerINRReason
+ * @property BuyerSNADEscalationReasonType $buyerSNADReason
  */
-class EscalationReasonType extends \DTS\eBaySDK\Types\BaseType
+class EscalationReasonType extends BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
