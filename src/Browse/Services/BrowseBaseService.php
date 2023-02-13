@@ -41,7 +41,7 @@ class BrowseBaseService extends BaseRestService
     /**
      * Returns definitions for each configuration option that is supported.
      *
-     * @return array An associative array of configuration definitions.
+     * @return array{affiliateCampaignId: array{valid: string[]}, affiliateReferenceId: array{valid: string[]}, apiVersion: array{valid: string[], default: string, required: true}, authorization: array{valid: string[], required: true}, contextualLocation: array{valid: string[]}, marketplaceId: array{valid: string[]}, compressResponse: array{valid: string[], default: false}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: array{http_errors: false}}, requestLanguage: array{valid: string[]}, responseLanguage: array{valid: string[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
     public static function getConfigDefinitions(): array    {
         $definitions = parent::getConfigDefinitions();

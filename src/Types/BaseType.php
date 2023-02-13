@@ -192,7 +192,7 @@ class BaseType implements JmesPathableObjectInterface
     {
         if ($data !== null) {
             if (is_array($data)) {
-                $this->attachment['data'] = array_key_exists('data', $data) ? $data['data'] : null;
+                $this->attachment['data'] = $data['data'] ?? null;
                 $this->attachment['mimeType'] = array_key_exists('mimeType', $data) ? $data['mimeType'] : 'application/octet-stream';
             } else {
                 $this->attachment['data'] = $data;
@@ -365,7 +365,7 @@ class BaseType implements JmesPathableObjectInterface
             $this->values[$name] = new RepeatableType($class, $name, $info['type']);
         }
 
-        return array_key_exists($name, $this->values) ? $this->values[$name] : null;
+        return $this->values[$name] ?? null;
     }
 
     /**

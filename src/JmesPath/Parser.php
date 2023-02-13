@@ -209,17 +209,26 @@ class Parser
         return['type' => 'multi_select_hash', 'children' => $pairs];
     }
 
-    private function nud_flatten()
+    /**
+     * @return array{type: string, from: string, children: mixed[]}
+     */
+    private function nud_flatten(): array
     {
         return $this->led_flatten(self::$currentNode);
     }
 
-    private function nud_filter()
+    /**
+     * @return array{type: string, from: string, children: mixed[]}
+     */
+    private function nud_filter(): array
     {
         return $this->led_filter(self::$currentNode);
     }
 
-    private function nud_star()
+    /**
+     * @return array{type: string, from: string, children: mixed[]}
+     */
+    private function nud_star(): array
     {
         return $this->parseWildcardObject(self::$currentNode);
     }

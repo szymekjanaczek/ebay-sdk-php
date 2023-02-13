@@ -39,7 +39,7 @@ class Credentials implements CredentialsInterface
      *
      * @return string
      */
-    public function getAppId()
+    public function getAppId(): string
     {
         return $this->appId;
     }
@@ -49,7 +49,7 @@ class Credentials implements CredentialsInterface
      *
      * @return string
      */
-    public function getCertId()
+    public function getCertId(): string
     {
         return $this->certId;
     }
@@ -59,7 +59,7 @@ class Credentials implements CredentialsInterface
      *
      * @return string
      */
-    public function getDevId()
+    public function getDevId(): string
     {
         return $this->devId;
     }
