@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 class SellerBusinessCodeType
 {
     const C_COMMERCIAL = 'Commercial';
+
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_PRIVATE = 'Private';
+
     const C_UNDEFINED = 'Undefined';
 }

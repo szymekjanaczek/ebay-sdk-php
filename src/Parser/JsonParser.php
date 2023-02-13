@@ -63,6 +63,7 @@ class JsonParser
             foreach ($value as $val) {
                 $values[] = self::actualValue($propertyMeta, $val);
             }
+
             return $values;
         }
 

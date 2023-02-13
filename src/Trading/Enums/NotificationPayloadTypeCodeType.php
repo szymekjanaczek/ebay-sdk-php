@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 class NotificationPayloadTypeCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_EBL_SCHEMASOAP = 'eBLSchemaSOAP';
 }

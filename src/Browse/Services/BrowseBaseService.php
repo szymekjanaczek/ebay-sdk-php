@@ -92,12 +92,15 @@ class BrowseBaseService extends BaseRestService
         if ($this->getConfig('affiliateCampaignId')) {
             $endUserCTX[ ] = 'affiliateCampaignId='.$this->getConfig('affiliateCampaignId');
         }
+
         if ($this->getConfig('affiliateReferenceId')) {
             $endUserCTX[ ] = 'affiliateReferenceId='.$this->getConfig('affiliateReferenceId');
         }
+
         if ($this->getConfig('contextualLocation')) {
             $endUserCTX[ ] = 'contextualLocation='.$this->getConfig('contextualLocation');
         }
+
         if (count($endUserCTX)) {
             $headers[self::HDR_END_USER_CTX ] = implode(',', $endUserCTX);
         }

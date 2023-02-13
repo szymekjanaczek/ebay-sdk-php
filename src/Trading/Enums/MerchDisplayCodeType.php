@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 class MerchDisplayCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_DEFAULT_THEME = 'DefaultTheme';
+
     const C_STORE_THEME = 'StoreTheme';
 }

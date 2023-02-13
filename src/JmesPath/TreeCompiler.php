@@ -29,7 +29,9 @@ use RuntimeException;
 class TreeCompiler
 {
     private ?string $indentation = null;
+
     private ?string $source = null;
+
     private ?array $vars = null;
 
     /**
@@ -99,6 +101,7 @@ class TreeCompiler
             $this->source .= $str . "\n";
             return $this;
         }
+
         $this->source .= vsprintf($str, array_slice(func_get_args(), 1)) . "\n";
         return $this;
     }
@@ -197,8 +200,7 @@ class TreeCompiler
         if ($node['value'] >= 0) {
             $check = '$value[' . $node['value'] . ']';
             return $this->write(
-                '$value = (is_array($value) || $value instanceof \\ArrayAccess)'
-                    . ' && isset(%s) ? %s : null;',
+                '$value = (is_array($value) || $value instanceof \ArrayAccess) && isset(%s) ? %s : null;',
                 $check, $check
             );
         }
@@ -248,6 +250,7 @@ class TreeCompiler
             if (!$first) {
                 $this->write('$value = %s;', $value);
             }
+
             $first = false;
             if ($node['type'] == 'multi_select_hash') {
                 $this->dispatch($child['children'][0]);

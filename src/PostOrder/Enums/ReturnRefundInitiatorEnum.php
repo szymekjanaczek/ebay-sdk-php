@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class ReturnRefundInitiatorEnum
 {
     const C_AUTO_REFUND = 'AUTO_REFUND';
+
     const C_OTHER = 'OTHER';
+
     const C_SELLER_INITIATED = 'SELLER_INITIATED';
 }

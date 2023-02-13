@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Enums;
 class BundleDetailEnum
 {
     const C_DETAILS = 'Details';
+
     const C_SUMMARY = 'Summary';
 }

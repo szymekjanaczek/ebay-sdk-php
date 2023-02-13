@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Inventory\Enums;
 class StoreTypeEnum
 {
     const C_STORE = 'STORE';
+
     const C_WAREHOUSE = 'WAREHOUSE';
 }

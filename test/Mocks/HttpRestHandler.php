@@ -10,7 +10,9 @@ use GuzzleHttp\Promise\FulfilledPromise;
 class HttpRestHandler
 {
     public $url;
+
     public $headers;
+
     public $body;
 
     public function __construct()
@@ -24,6 +26,7 @@ class HttpRestHandler
         foreach ($request->getHeaders() as $name => $values) {
             $this->headers[$name] = implode(', ', $values);
         }
+
         $this->body = $request->getBody();
 
         // Return a fake json response.

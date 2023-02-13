@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Catalog\Enums;
 class AspectDataTypeEnum
 {
     const C_DATE = 'DATE';
+
     const C_NUMBER = 'NUMBER';
+
     const C_STRING = 'STRING';
+
     const C_STRING_ARRAY = 'STRING_ARRAY';
 }

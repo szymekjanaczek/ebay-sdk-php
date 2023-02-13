@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Fulfillment\Enums;
 class FulfillmentInstructionsType
 {
     const C_DIGITAL = 'DIGITAL';
+
     const C_PREPARE_FOR_PICKUP = 'PREPARE_FOR_PICKUP';
+
     const C_SELLER_DEFINED = 'SELLER_DEFINED';
+
     const C_SHIP_TO = 'SHIP_TO';
 }

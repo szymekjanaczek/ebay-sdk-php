@@ -13,9 +13,14 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class FileFormatEnum
 {
     const C_BMP = 'BMP';
+
     const C_GIF = 'GIF';
+
     const C_JPEG = 'JPEG';
+
     const C_JPG = 'JPG';
+
     const C_PNG = 'PNG';
+
     const C_UNKNOWN = 'UNKNOWN';
 }

@@ -11,8 +11,11 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 class MultipartFormDataTest extends TestCase
 {
     private HttpHandler $httpHandler;
+
     private TradingService $service;
+
     private UploadSiteHostedPicturesRequestType $request;
+
     private string $requestXml;
 
     protected function setUp(): void

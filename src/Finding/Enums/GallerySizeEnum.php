@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Finding\Enums;
 class GallerySizeEnum
 {
     const C_LARGE = 'Large';
+
     const C_MEDIUM = 'Medium';
+
     const C_SMALL = 'Small';
 }

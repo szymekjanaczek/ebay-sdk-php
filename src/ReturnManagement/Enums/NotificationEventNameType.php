@@ -13,11 +13,18 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 class NotificationEventNameType
 {
     const C_RETURN_CLOSED = 'ReturnClosed';
+
     const C_RETURN_CREATED = 'ReturnCreated';
+
     const C_RETURN_DELIVERED = 'ReturnDelivered';
+
     const C_RETURN_ESCALATED = 'ReturnEscalated';
+
     const C_RETURN_REFUND_OVERDUE = 'ReturnRefundOverdue';
+
     const C_RETURN_SELLER_INFO_OVERDUE = 'ReturnSellerInfoOverdue';
+
     const C_RETURN_SHIPPED = 'ReturnShipped';
+
     const C_RETURN_WAITING_FOR_SELLER_INFO = 'ReturnWaitingForSellerInfo';
 }

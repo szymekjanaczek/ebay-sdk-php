@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class DispositionRuleTemplateTypeEnum
 {
     const C_AUTO_REFUND_NO_SHIPBACK = 'AUTO_REFUND_NO_SHIPBACK';
+
     const C_AUTO_ROUTE = 'AUTO_ROUTE';
+
     const C_OTHER = 'OTHER';
+
     const C_SEND_REPLACEMENT_NO_SHIPBACK = 'SEND_REPLACEMENT_NO_SHIPBACK';
 }

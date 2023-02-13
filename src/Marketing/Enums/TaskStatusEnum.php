@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Marketing\Enums;
 class TaskStatusEnum
 {
     const C_FAILED = 'FAILED';
+
     const C_PENDING = 'PENDING';
+
     const C_SUCCESS = 'SUCCESS';
 }

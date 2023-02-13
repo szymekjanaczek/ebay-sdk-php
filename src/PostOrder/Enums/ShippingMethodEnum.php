@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class ShippingMethodEnum
 {
     const C_SELF_MAIL = 'SELF_MAIL';
+
     const C_SHIPPING_LABEL = 'SHIPPING_LABEL';
+
     const C_UNKNOWN = 'UNKNOWN';
 }

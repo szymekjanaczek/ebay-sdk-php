@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 class SearchStandingStatusCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_LOWERED = 'Lowered';
+
     const C_RAISED = 'Raised';
+
     const C_STANDARD = 'Standard';
 }

@@ -13,9 +13,14 @@ namespace DTS\eBaySDK\Catalog\Enums;
 class ChangeRequestStatus
 {
     const C_APPROVED = 'APPROVED';
+
     const C_APPROVED_WITH_MODIFICATIONS = 'APPROVED_WITH_MODIFICATIONS';
+
     const C_REJECTED = 'REJECTED';
+
     const C_SUBMITTED = 'SUBMITTED';
+
     const C_UNDER_EXTENDED_REVIEW = 'UNDER_EXTENDED_REVIEW';
+
     const C_UNDER_REVIEW = 'UNDER_REVIEW';
 }

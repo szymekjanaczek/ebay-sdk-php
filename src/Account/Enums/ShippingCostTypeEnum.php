@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Account\Enums;
 class ShippingCostTypeEnum
 {
     const C_CALCULATED = 'CALCULATED';
+
     const C_FLAT_RATE = 'FLAT_RATE';
+
     const C_NOT_SPECIFIED = 'NOT_SPECIFIED';
 }

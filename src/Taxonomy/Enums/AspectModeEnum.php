@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Taxonomy\Enums;
 class AspectModeEnum
 {
     const C_FREE_TEXT = 'FREE_TEXT';
+
     const C_SELECTION_ONLY = 'SELECTION_ONLY';
 }

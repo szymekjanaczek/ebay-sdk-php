@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Enums;
 class ErrorCategory
 {
     const C_APPLICATION = 'Application';
+
     const C_REQUEST = 'Request';
+
     const C_SYSTEM = 'System';
 }

@@ -32,11 +32,17 @@ use DTS\eBaySDK\JmesPath\Lexer as T;
 class Parser
 {
     private T $lexer;
+
     private ?array $tokens = null;
+
     private $token;
+
     private ?int $tpos = null;
+
     private $expression;
+
     private static array $nullToken = ['type' => T::T_EOF];
+
     private static array $currentNode = ['type' => T::T_CURRENT];
 
     private static array $bp = [
@@ -184,6 +190,7 @@ class Parser
         if ($this->token['type'] !== T::T_RPAREN) {
             throw $this->syntax('Unclosed `(`');
         }
+
         $this->next();
         return $result;
     }
@@ -496,6 +503,7 @@ class Parser
                 $parts[$pos] = $this->token['value'];
                 $expected = [T::T_COLON => true, T::T_RBRACKET => true];
             }
+
             $this->next($expected);
         } while ($this->token['type'] != T::T_RBRACKET);
 
@@ -536,6 +544,7 @@ class Parser
                 $this->assertNotToken(T::T_RBRACKET);
             }
         } while ($this->token['type'] !== T::T_RBRACKET);
+
         $this->next();
 
         return ['type' => 'multi_select_list', 'children' => $nodes];

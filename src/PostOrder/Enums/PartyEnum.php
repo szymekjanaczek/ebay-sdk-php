@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class PartyEnum
 {
     const C_BUYER = 'BUYER';
+
     const C_SELLER = 'SELLER';
+
     const C_UNKNOWN = 'UNKNOWN';
 }

@@ -13,12 +13,20 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 class CaseType
 {
     const C_CANCEL_TRANSACTION = 'CANCEL_TRANSACTION';
+
     const C_EBP_INR = 'EBP_INR';
+
     const C_EBP_SNAD = 'EBP_SNAD';
+
     const C_INR = 'INR';
+
     const C_PAYPAL_INR = 'PAYPAL_INR';
+
     const C_PAYPAL_SNAD = 'PAYPAL_SNAD';
+
     const C_RETURN = 'RETURN';
+
     const C_SNAD = 'SNAD';
+
     const C_UPI = 'UPI';
 }

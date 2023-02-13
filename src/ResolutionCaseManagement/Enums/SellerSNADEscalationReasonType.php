@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 class SellerSNADEscalationReasonType
 {
     const C_BUYER_STILL_UNHAPPY_AFTER_REFUND = 'BUYER_STILL_UNHAPPY_AFTER_REFUND';
+
     const C_OTHER = 'OTHER';
+
     const C_TROUBLE_COMMUNICATION_WITH_BUYER = 'TROUBLE_COMMUNICATION_WITH_BUYER';
 }

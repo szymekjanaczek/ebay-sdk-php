@@ -13,8 +13,12 @@ namespace DTS\eBaySDK\Marketing\Enums;
 class PromotionPriorityEnum
 {
     const C_INVALID = 'INVALID';
+
     const C_PRIORITY_1 = 'PRIORITY_1';
+
     const C_PRIORITY_2 = 'PRIORITY_2';
+
     const C_PRIORITY_3 = 'PRIORITY_3';
+
     const C_PRIORITY_4 = 'PRIORITY_4';
 }

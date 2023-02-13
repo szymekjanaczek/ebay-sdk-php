@@ -114,6 +114,7 @@ class TradingBaseService extends BaseService
             if (!isset($request->RequesterCredentials)) {
                 $request->RequesterCredentials = new CustomSecurityHeaderType();
             }
+
             if (!isset($request->RequesterCredentials->eBayAuthToken)) {
                 $request->RequesterCredentials->eBayAuthToken = $this->getConfig('authToken');
             }

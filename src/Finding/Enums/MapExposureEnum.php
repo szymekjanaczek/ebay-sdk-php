@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Finding\Enums;
 class MapExposureEnum
 {
     const C_DURING_CHECKOUT = 'DuringCheckout';
+
     const C_PRE_CHECKOUT = 'PreCheckout';
 }

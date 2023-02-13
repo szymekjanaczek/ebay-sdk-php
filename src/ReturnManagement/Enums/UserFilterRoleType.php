@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 class UserFilterRoleType
 {
     const C_BUYER = 'BUYER';
+
     const C_BUYERORSELLER = 'BUYERORSELLER';
+
     const C_SELLER = 'SELLER';
 }

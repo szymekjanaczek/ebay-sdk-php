@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class RefundStatusEnum
 {
     const C_FAILED = 'FAILED';
+
     const C_OTHER = 'OTHER';
+
     const C_PENDING = 'PENDING';
+
     const C_SUCCESS = 'SUCCESS';
 }

@@ -13,10 +13,16 @@ namespace DTS\eBaySDK\Inventory\Enums;
 class DayOfWeekEnum
 {
     const C_FRIDAY = 'FRIDAY';
+
     const C_MONDAY = 'MONDAY';
+
     const C_SATURDAY = 'SATURDAY';
+
     const C_SUNDAY = 'SUNDAY';
+
     const C_THURSDAY = 'THURSDAY';
+
     const C_TUESDAY = 'TUESDAY';
+
     const C_WEDNESDAY = 'WEDNESDAY';
 }

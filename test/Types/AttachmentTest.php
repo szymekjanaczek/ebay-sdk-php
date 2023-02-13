@@ -9,8 +9,11 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 class AttachmentTest extends TestCase
 {
     private HttpHandler $httpHandler;
+
     private Service $service;
+
     private ComplexClass $request;
+
     private string $requestXml;
 
     protected function setUp(): void

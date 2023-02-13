@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Taxonomy\Enums;
 class ItemToAspectCardinalityEnum
 {
     const C_MULTI = 'MULTI';
+
     const C_SINGLE = 'SINGLE';
 }

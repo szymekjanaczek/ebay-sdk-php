@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Account\Enums;
 class CategoryTypeEnum
 {
     const C_ALL_EXCLUDING_MOTORS_VEHICLES = 'ALL_EXCLUDING_MOTORS_VEHICLES';
+
     const C_MOTORS_VEHICLES = 'MOTORS_VEHICLES';
 }

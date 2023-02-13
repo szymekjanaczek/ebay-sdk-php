@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Trading\Enums;
 class RCSPaymentStatusCodeType
 {
     const C_CANCELED = 'Canceled';
+
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_PAID = 'Paid';
+
     const C_PENDING = 'Pending';
 }

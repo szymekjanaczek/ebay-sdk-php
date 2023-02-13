@@ -13,8 +13,12 @@ namespace DTS\eBaySDK\Trading\Enums;
 class StoreCategoryUpdateActionCodeType
 {
     const C_ADD = 'Add';
+
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_DELETE = 'Delete';
+
     const C_MOVE = 'Move';
+
     const C_RENAME = 'Rename';
 }

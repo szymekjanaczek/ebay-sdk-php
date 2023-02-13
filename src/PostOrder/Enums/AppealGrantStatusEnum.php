@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class AppealGrantStatusEnum
 {
     const C_DENIED = 'DENIED';
+
     const C_GRANTED = 'GRANTED';
+
     const C_OTHER = 'OTHER';
 }

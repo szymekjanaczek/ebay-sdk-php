@@ -108,7 +108,7 @@ class FnDispatcher
 
     private function fn_not_null(array $args)
     {
-        if (!$args) {
+        if ($args === []) {
             throw new RuntimeException(
                 "not_null() expects 1 or more arguments, 0 were provided"
             );
@@ -173,7 +173,7 @@ class FnDispatcher
         $expr = $this->wrapExpression('min_by:1', $args[1], ['number', 'string']);
         $i = -1;
         $fn = function ($a, $b) use ($expr, &$i) {
-            return ++$i ? ($expr($a) <= $expr($b) ? $a : $b) : $b;
+            return ++$i !== 0 ? ($expr($a) <= $expr($b) ? $a : $b) : $b;
         };
         return $this->reduce('min_by:1', Utils::toArray($args[0]), ['any'], $fn);
     }
@@ -277,7 +277,7 @@ class FnDispatcher
 
     private function fn_merge(array $args): array
     {
-        if (!$args) {
+        if ($args === []) {
             throw new RuntimeException(
                 "merge() expects 1 or more arguments, 0 were provided"
             );
@@ -306,6 +306,7 @@ class FnDispatcher
         foreach ($args[1] as $a) {
             $result[] = $args[0]($a);
         }
+
         return $result;
     }
 
@@ -338,6 +339,7 @@ class FnDispatcher
             if (!isset($types[$index]) || !$types[$index]) {
                 continue;
             }
+
             $this->validateType("{$from}:{$index}", $value, $types[$index]);
         }
     }
@@ -350,6 +352,7 @@ class FnDispatcher
         ) {
             return;
         }
+
         $msg = 'must be one of the following types: ' . implode(', ', $types)
             . '. ' . Utils::type($value) . ' found';
         $this->typeError($from, $msg);
@@ -402,6 +405,7 @@ class FnDispatcher
                 if (++$i > 0) {
                     $this->validateSeq($from, $types, $carry, $item);
                 }
+
                 return $reduce($carry, $item, $i);
             }
         );

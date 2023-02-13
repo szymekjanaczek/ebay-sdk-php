@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Finding\Enums;
 class PriceTreatmentEnum
 {
     const C_MAP = 'MAP';
+
     const C_STP = 'STP';
 }

@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Inventory\Enums;
 class WeightUnitOfMeasureEnum
 {
     const C_GRAM = 'GRAM';
+
     const C_KILOGRAM = 'KILOGRAM';
+
     const C_OUNCE = 'OUNCE';
+
     const C_POUND = 'POUND';
 }

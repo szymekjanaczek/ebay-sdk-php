@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Inventory\Enums;
 class SoldOnEnum
 {
     const C_OFF_EBAY = 'OFF_EBAY';
+
     const C_ON_AND_OFF_EBAY = 'ON_AND_OFF_EBAY';
+
     const C_ON_EBAY = 'ON_EBAY';
 }

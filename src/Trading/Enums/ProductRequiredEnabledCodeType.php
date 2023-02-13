@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 class ProductRequiredEnabledCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_DISABLED = 'Disabled';
+
     const C_ENABLED = 'Enabled';
 }

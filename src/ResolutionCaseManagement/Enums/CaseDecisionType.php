@@ -13,8 +13,12 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 class CaseDecisionType
 {
     const C_BUYER_FAULT = 'BUYER_FAULT';
+
     const C_BUYER_FAULT_SELLER_FAULT = 'BUYER_FAULT_SELLER_FAULT';
+
     const C_NEITHER_SELLER_NOR_BUYER_FAULT = 'NEITHER_SELLER_NOR_BUYER_FAULT';
+
     const C_OTHER = 'OTHER';
+
     const C_SELLER_FAULT = 'SELLER_FAULT';
 }

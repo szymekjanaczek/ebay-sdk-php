@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 class PaymentMethodType
 {
     const C_CREDIT_CARD = 'CREDIT_CARD';
+
     const C_DIRECT_DEBIT = 'DIRECT_DEBIT';
+
     const C_OTHER = 'OTHER';
+
     const C_PAYPAL = 'PAYPAL';
 }

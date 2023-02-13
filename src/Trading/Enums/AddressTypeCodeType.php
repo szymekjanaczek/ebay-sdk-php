@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 class AddressTypeCodeType
 {
     const C_CONTACT = 'Contact';
+
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_REGISTERED = 'Registered';
 }

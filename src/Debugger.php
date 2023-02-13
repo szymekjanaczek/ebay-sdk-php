@@ -53,6 +53,7 @@ class Debugger
                 $info = preg_replace($pattern, $replacement, $info);
             }
         }
+
         $this->config['logfn']($info);
     }
 }

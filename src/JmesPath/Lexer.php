@@ -28,44 +28,81 @@ namespace DTS\eBaySDK\JmesPath;
 class Lexer
 {
     const T_DOT = 'dot';
+
     const T_STAR = 'star';
+
     const T_COMMA = 'comma';
+
     const T_COLON = 'colon';
+
     const T_CURRENT = 'current';
+
     const T_EXPREF = 'expref';
+
     const T_LPAREN = 'lparen';
+
     const T_RPAREN = 'rparen';
+
     const T_LBRACE = 'lbrace';
+
     const T_RBRACE = 'rbrace';
+
     const T_LBRACKET = 'lbracket';
+
     const T_RBRACKET = 'rbracket';
+
     const T_FLATTEN = 'flatten';
+
     const T_IDENTIFIER = 'identifier';
+
     const T_NUMBER = 'number';
+
     const T_QUOTED_IDENTIFIER = 'quoted_identifier';
+
     const T_UNKNOWN = 'unknown';
+
     const T_PIPE = 'pipe';
+
     const T_OR = 'or';
+
     const T_AND = 'and';
+
     const T_NOT = 'not';
+
     const T_FILTER = 'filter';
+
     const T_LITERAL = 'literal';
+
     const T_EOF = 'eof';
+
     const T_COMPARATOR = 'comparator';
 
     const STATE_IDENTIFIER = 0;
+
     const STATE_NUMBER = 1;
+
     const STATE_SINGLE_CHAR = 2;
+
     const STATE_WHITESPACE = 3;
+
     const STATE_STRING_LITERAL = 4;
+
     const STATE_QUOTED_STRING = 5;
+
     const STATE_JSON_LITERAL = 6;
+
     const STATE_LBRACKET = 7;
+
     const STATE_PIPE = 8;
+
     const STATE_LT = 9;
+
     const STATE_GT = 10;
+
     const STATE_EQ = 11;
+
     const STATE_NOT = 12;
+
     const STATE_AND = 13;
 
     /** @var array We know what token we are consuming based on each char */
@@ -250,6 +287,7 @@ class Lexer
                     $buffer .= $current;
                     $current = next($chars);
                 } while ($current !== false && isset($this->validIdentifier[$current]));
+
                 $tokens[] = [
                     'type'  => self::T_IDENTIFIER,
                     'value' => $buffer,
@@ -308,6 +346,7 @@ class Lexer
                     $token['value'] = str_replace('\\`', '`', $token['value']);
                     $token = $this->parseJson($token);
                 }
+
                 $tokens[] = $token;
 
             } elseif ($state == self::STATE_NUMBER) {
@@ -319,6 +358,7 @@ class Lexer
                     $buffer .= $current;
                     $current = next($chars);
                 } while ($current !== false && isset($this->numbers[$current]));
+
                 $tokens[] = [
                     'type'  => self::T_NUMBER,
                     'value' => (int)$buffer,
@@ -333,6 +373,7 @@ class Lexer
                     $token['value'] = '"' . $token['value'] . '"';
                     $token = $this->parseJson($token);
                 }
+
                 $tokens[] = $token;
 
             } elseif ($state === self::STATE_EQ) {
@@ -421,6 +462,7 @@ class Lexer
                 $buffer .= '\\';
                 $current = next($chars);
             }
+
             if ($current === false) {
                 // Unclosed delimiter
                 return [
@@ -429,6 +471,7 @@ class Lexer
                     'pos'   => $position
                 ];
             }
+
             $buffer .= $current;
             $current = next($chars);
         }
@@ -449,11 +492,11 @@ class Lexer
     {
         $value = json_decode($token['value'], true);
 
-        if ($error = json_last_error()) {
+        if (($error = json_last_error()) !== 0) {
             // Legacy support for elided quotes. Try to parse again by adding
             // quotes around the bad input value.
             $value = json_decode('"' . $token['value'] . '"', true);
-            if ($error = json_last_error()) {
+            if (($error = json_last_error()) !== 0) {
                 $token['type'] = self::T_UNKNOWN;
                 return $token;
             }

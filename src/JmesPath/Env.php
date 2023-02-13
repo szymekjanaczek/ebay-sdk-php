@@ -49,6 +49,7 @@ final class Env
         if (!$runtime) {
             $runtime = Env::createRuntime();
         }
+
         return $runtime($expression, $data);
     }
 

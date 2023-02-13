@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Trading\Enums;
 class AddressAttributeCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_REFERENCE_NUMBER = 'ReferenceNumber';
 }

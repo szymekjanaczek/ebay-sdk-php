@@ -76,6 +76,7 @@ class TreeInterpreter
                 } elseif ($value instanceof stdClass || $value instanceof JmesPathableObjectInterface) {
                     return isset($value->{$node['value']}) ? $value->{$node['value']} : null;
                 }
+
                 return null;
 
             case 'subexpression':
@@ -88,6 +89,7 @@ class TreeInterpreter
                 if (!Utils::isArray($value)) {
                     return null;
                 }
+
                 $idx = $node['value'] >= 0
                     ? $node['value']
                     : $node['value'] + count($value);
@@ -100,11 +102,13 @@ class TreeInterpreter
                         if (!Utils::isObject($left)) {
                             return null;
                         }
+
                         break;
                     case 'array':
                         if (!Utils::isArray($left)) {
                             return null;
                         }
+
                         break;
                     default:
                         if (!is_array($left) || !($left instanceof stdClass)) {
@@ -220,6 +224,7 @@ class TreeInterpreter
                 foreach ($node['children'] as $arg) {
                     $args[] = $this->dispatch($arg, $value);
                 }
+
                 return $dispatcher($node['value'], $args);
 
             case 'slice':

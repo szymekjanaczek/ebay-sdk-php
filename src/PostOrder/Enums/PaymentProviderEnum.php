@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class PaymentProviderEnum
 {
     const C_PAYPAL = 'PAYPAL';
+
     const C_UNKNOWN = 'UNKNOWN';
 }

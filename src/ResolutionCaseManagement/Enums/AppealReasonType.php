@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 class AppealReasonType
 {
     const C_DISAGREE_WITH_FINAL_DECISION = 'DISAGREE_WITH_FINAL_DECISION';
+
     const C_NEW_INFORMATION = 'NEW_INFORMATION';
+
     const C_OTHER = 'OTHER';
 }

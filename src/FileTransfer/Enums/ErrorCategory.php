@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\FileTransfer\Enums;
 class ErrorCategory
 {
     const C_APPLICATION = 'Application';
+
     const C_REQUEST = 'Request';
+
     const C_SYSTEM = 'System';
 }

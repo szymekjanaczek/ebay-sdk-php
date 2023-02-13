@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 class BuyerProtectionSourceCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_E_BAY = 'eBay';
+
     const C_PAY_PAL = 'PayPal';
 }

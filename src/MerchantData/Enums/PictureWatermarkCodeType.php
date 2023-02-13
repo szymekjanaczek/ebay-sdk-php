@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class PictureWatermarkCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_ICON = 'Icon';
+
     const C_USER = 'User';
 }

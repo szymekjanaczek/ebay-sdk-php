@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class AddressOwnerCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_E_BAY = 'eBay';
+
     const C_PAY_PAL = 'PayPal';
 }

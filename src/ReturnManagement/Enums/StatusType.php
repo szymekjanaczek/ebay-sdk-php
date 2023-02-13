@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 class StatusType
 {
     const C_FAILED = 'FAILED';
+
     const C_SUCCESS = 'SUCCESS';
 }

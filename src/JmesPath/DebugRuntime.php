@@ -28,8 +28,11 @@ namespace DTS\eBaySDK\JmesPath;
 class DebugRuntime
 {
     private $runtime;
+
     private $out;
+
     private Lexer $lexer;
+
     private Parser $parser;
 
     public function __construct(callable $runtime, $output = null)

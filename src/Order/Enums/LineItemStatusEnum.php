@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Order\Enums;
 class LineItemStatusEnum
 {
     const C_CANCELLED = 'CANCELLED';
+
     const C_DELIVERED = 'DELIVERED';
+
     const C_FULFILLMENT_IN_PROGRESS = 'FULFILLMENT_IN_PROGRESS';
+
     const C_PENDING = 'PENDING';
 }

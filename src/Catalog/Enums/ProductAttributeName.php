@@ -13,14 +13,24 @@ namespace DTS\eBaySDK\Catalog\Enums;
 class ProductAttributeName
 {
     const C_ASPECT_NAME = 'ASPECT_NAME';
+
     const C_BRAND = 'BRAND';
+
     const C_CATEGORY = 'CATEGORY';
+
     const C_DESCRIPTION = 'DESCRIPTION';
+
     const C_EAN = 'EAN';
+
     const C_GENERAL = 'GENERAL';
+
     const C_IMAGE = 'IMAGE';
+
     const C_ISBN = 'ISBN';
+
     const C_MPN = 'MPN';
+
     const C_TITLE = 'TITLE';
+
     const C_UPC = 'UPC';
 }

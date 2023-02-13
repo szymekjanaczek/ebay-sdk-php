@@ -13,9 +13,14 @@ namespace DTS\eBaySDK\HalfFinding\Enums;
 class SortOnType
 {
     const C_FIXED_PRICE = 'FixedPrice';
+
     const C_RENTAL_PRICE125_DAYS = 'RentalPrice125Days';
+
     const C_RENTAL_PRICE30_DAYS = 'RentalPrice30Days';
+
     const C_RENTAL_PRICE45_DAYS = 'RentalPrice45Days';
+
     const C_RENTAL_PRICE60_DAYS = 'RentalPrice60Days';
+
     const C_RENTAL_PRICE90_DAYS = 'RentalPrice90Days';
 }

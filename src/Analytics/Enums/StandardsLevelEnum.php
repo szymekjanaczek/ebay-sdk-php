@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Analytics\Enums;
 class StandardsLevelEnum
 {
     const C_ABOVE_STANDARD = 'ABOVE_STANDARD';
+
     const C_BELOW_STANDARD = 'BELOW_STANDARD';
+
     const C_TOP_RATED = 'TOP_RATED';
 }

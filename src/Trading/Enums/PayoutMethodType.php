@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 class PayoutMethodType
 {
     const C_EFT = 'EFT';
+
     const C_MONEYBOOKERS = 'MONEYBOOKERS';
+
     const C_PAYPAL = 'PAYPAL';
 }

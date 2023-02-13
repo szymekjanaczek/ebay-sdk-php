@@ -12,8 +12,11 @@ use InvalidArgumentException;
 class CredentialsProvider
 {
     const ENV_APP_ID = 'EBAY_SDK_APP_ID';
+
     const ENV_CERT_ID = 'EBAY_SDK_CERT_ID';
+
     const ENV_DEV_ID = 'EBAY_SDK_DEV_ID';
+
     const ENV_PROFILE = 'EBAY_SDK_PROFILE';
 
     /**
@@ -82,6 +85,7 @@ class CredentialsProvider
             ) {
                 $credentials = $provider();
             }
+
             return $credentials;
         };
     }
@@ -132,13 +136,16 @@ class CredentialsProvider
             if (!is_readable($filename)) {
                 return new InvalidArgumentException("Cannot read credentials from $filename");
             }
+
             $data = parse_ini_file($filename, true);
             if ($data === false) {
                 return new InvalidArgumentException("Invalid credentials file $filename");
             }
+
             if (!isset($data[$profile])) {
                 return new InvalidArgumentException("'$profile' not found in credentials file");
             }
+
             if (!isset($data[$profile]['ebay_app_id'])
                 || !isset($data[$profile]['ebay_cert_id'])
                 || !isset($data[$profile]['ebay_dev_id'])) {

@@ -181,6 +181,7 @@ class XmlParser
                 if ('xmlns' === $attribute) {
                     continue;
                 }
+
                 $attributeMeta = $meta->phpObject->elementMeta($attribute);
                 // Attribute in the XML may not exist as a property name in the class.
                 // This could happen if the SDK is out of date with what eBay return.
@@ -237,6 +238,7 @@ class XmlParser
             if ($this->setByValue($meta)) {
                 $meta->phpObject->value = $this->getValueToAssignToValue($meta);
             }
+
             return $meta->phpObject;
         }
     }

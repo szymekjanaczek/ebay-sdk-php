@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 class CaseUserRoleType
 {
     const C_BUYER = 'BUYER';
+
     const C_EBAY = 'EBAY';
+
     const C_OTHER = 'OTHER';
+
     const C_SELLER = 'SELLER';
 }

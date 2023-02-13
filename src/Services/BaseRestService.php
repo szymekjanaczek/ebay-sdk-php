@@ -140,7 +140,7 @@ abstract class BaseRestService
         $paramValues = [];
         $requestValues = [];
 
-        if ($request) {
+        if ($request !== null) {
             $requestArray = $request->toArray();
             $paramValues = array_intersect_key($requestArray, $operation['params']);
             $requestValues = array_diff_key($requestArray, $operation['params']);

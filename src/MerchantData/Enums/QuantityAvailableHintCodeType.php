@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class QuantityAvailableHintCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_LIMITED = 'Limited';
+
     const C_MORE_THAN = 'MoreThan';
 }

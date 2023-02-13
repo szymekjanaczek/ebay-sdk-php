@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\ReturnManagement\Enums;
 class TrackingStatusType
 {
     const C_DELIEVERED = 'DELIEVERED';
+
     const C_IN_TRANSIT = 'IN_TRANSIT';
+
     const C_UNKNOWN = 'UNKNOWN';
 }

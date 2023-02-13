@@ -13,9 +13,14 @@ namespace DTS\eBaySDK\ProductMetadata\Enums;
 class DatasetValue
 {
     const C_DISPLAYABLE_ALL = 'DisplayableAll';
+
     const C_DISPLAYABLE_LARGE = 'DisplayableLarge';
+
     const C_DISPLAYABLE_MEDIUM = 'DisplayableMedium';
+
     const C_DISPLAYABLE_SMALL = 'DisplayableSmall';
+
     const C_SEARCHABLE = 'Searchable';
+
     const C_SORTABLE = 'Sortable';
 }

@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 class OrderRoleCodeType
 {
     const C_BUYER = 'Buyer';
+
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_SELLER = 'Seller';
 }

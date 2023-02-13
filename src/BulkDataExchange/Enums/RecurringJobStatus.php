@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\BulkDataExchange\Enums;
 class RecurringJobStatus
 {
     const C_ACTIVE = 'Active';
+
     const C_SUSPENDED = 'Suspended';
 }

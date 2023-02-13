@@ -13,9 +13,14 @@ namespace DTS\eBaySDK\HalfFinding\Enums;
 class ProductIDCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_EAN = 'EAN';
+
     const C_ISBN = 'ISBN';
+
     const C_MPN = 'MPN';
+
     const C_REFERENCE = 'Reference';
+
     const C_UPC = 'UPC';
 }

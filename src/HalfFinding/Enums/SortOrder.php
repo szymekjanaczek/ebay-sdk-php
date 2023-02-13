@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\HalfFinding\Enums;
 class SortOrder
 {
     const C_DECREASING = 'DECREASING';
+
     const C_INCREASING = 'INCREASING';
 }

@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class InquiryEligibilityStatusEnum
 {
     const C_ELIGIBLE_TO_FILE_REQUEST = 'ELIGIBLE_TO_FILE_REQUEST';
+
     const C_ELIGIBLE_TO_FILE_WITH_WARNING = 'ELIGIBLE_TO_FILE_WITH_WARNING';
+
     const C_INELIGIBLIE = 'INELIGIBLIE';
 }

@@ -10,8 +10,11 @@ use GuzzleHttp\Promise\FulfilledPromise;
 class HttpHandler
 {
     public $url;
+
     public $headers;
+
     public $body;
+
     public $returnAttachment = false;
 
     public function __construct()
@@ -25,6 +28,7 @@ class HttpHandler
         foreach ($request->getHeaders() as $name => $values) {
             $this->headers[$name] = implode(', ', $values);
         }
+
         $this->body = $request->getBody();
 
         // Return a fake XML response.

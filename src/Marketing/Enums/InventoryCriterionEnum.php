@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Marketing\Enums;
 class InventoryCriterionEnum
 {
     const C_INVENTORY_ANY = 'INVENTORY_ANY';
+
     const C_INVENTORY_BY_RULE = 'INVENTORY_BY_RULE';
+
     const C_INVENTORY_BY_VALUE = 'INVENTORY_BY_VALUE';
 }

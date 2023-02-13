@@ -220,9 +220,11 @@ class OAuthService
         if (!$request) {
             $request = new GetUserTokenRestRequest();
         }
+
         if (!isset($request->grant_type)) {
             $request->grant_type = 'authorization_code';
         }
+
         if (!isset($request->redirect_uri)) {
             $request->redirect_uri = $this->getConfig('ruName');
         }
@@ -248,6 +250,7 @@ class OAuthService
         if (!$request) {
             $request = new RefreshUserTokenRestRequest();
         }
+
         if (!isset($request->grant_type)) {
             $request->grant_type = 'refresh_token';
         }
@@ -270,15 +273,17 @@ class OAuthService
      */
     public function getAppTokenAsync(GetAppTokenRestRequest $request = null)
     {
-        if (!$request) {
+        if ($request === null) {
             $request = new GetAppTokenRestRequest();
         }
         if (!isset($request->grant_type)) {
             $request->grant_type = 'client_credentials';
         }
+
         if (!isset($request->redirect_uri)) {
             $request->redirect_uri = $this->getConfig('ruName');
         }
+
         if (!isset($request->scope)) {
             $request->scope = 'https://api.ebay.com/oauth/api_scope';
         }
@@ -301,7 +306,7 @@ class OAuthService
         $paramValues = [];
         $requestValues = [];
 
-        if ($request) {
+        if ($request !== null) {
             $requestArray = $request->toArray();
             $paramValues = array_intersect_key($requestArray, $operation['params']);
             $requestValues = array_diff_key($requestArray, $operation['params']);

@@ -195,6 +195,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
                 if ($check === $actualType) {
                     return;
                 }
+
                 $isValid = false;
             } else {
                 $isValid = true;

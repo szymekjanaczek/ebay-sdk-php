@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class CaseTypeEnum
 {
     const C_ITEM_NOT_RECEIVED = 'ITEM_NOT_RECEIVED';
+
     const C_RETURN = 'RETURN';
 }

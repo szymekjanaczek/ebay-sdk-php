@@ -13,9 +13,14 @@ namespace DTS\eBaySDK\BulkDataExchange\Enums;
 class JobStatus
 {
     const C_ABORTED = 'Aborted';
+
     const C_COMPLETED = 'Completed';
+
     const C_CREATED = 'Created';
+
     const C_FAILED = 'Failed';
+
     const C_IN_PROCESS = 'InProcess';
+
     const C_SCHEDULED = 'Scheduled';
 }

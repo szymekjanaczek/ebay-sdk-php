@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class SeverityCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_ERROR = 'Error';
+
     const C_WARNING = 'Warning';
 }

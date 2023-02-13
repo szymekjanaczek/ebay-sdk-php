@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\Fulfillment\Enums;
 class RefundTypeEnum
 {
     const C_PAYMENT_REFUND = 'PAYMENT_REFUND';
+
     const C_STORE_CREDIT = 'STORE_CREDIT';
 }

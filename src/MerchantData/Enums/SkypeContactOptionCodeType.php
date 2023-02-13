@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class SkypeContactOptionCodeType
 {
     const C_CHAT = 'Chat';
+
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_VOICE = 'Voice';
 }

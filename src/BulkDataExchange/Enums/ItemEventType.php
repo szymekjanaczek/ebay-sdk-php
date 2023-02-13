@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\BulkDataExchange\Enums;
 class ItemEventType
 {
     const C_CHANGED = 'Changed';
+
     const C_NEW = 'New';
 }

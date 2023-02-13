@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Finding\Enums;
 class AckValue
 {
     const C_FAILURE = 'Failure';
+
     const C_PARTIAL_FAILURE = 'PartialFailure';
+
     const C_SUCCESS = 'Success';
+
     const C_WARNING = 'Warning';
 }

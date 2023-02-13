@@ -104,6 +104,7 @@ class UriResolver
             ) {
                 continue;
             }
+
             $missing[] = $key;
         }
 
@@ -130,6 +131,7 @@ class UriResolver
             } else {
                 $value = $path;
             }
+
             return $value;
         }, $uri);
     }
@@ -156,8 +158,10 @@ class UriResolver
             } elseif (is_callable($value)) {
                 $value = $value();
             }
+
             $query[] = $param.'='.urlencode($value);
         }
+
         return '?'.join('&', $query);
     }
 }

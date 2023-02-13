@@ -138,6 +138,7 @@ class ConfigurationResolver
             ) {
                 continue;
             }
+
             $missing[] = $key;
         }
 

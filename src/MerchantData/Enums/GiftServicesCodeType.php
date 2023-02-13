@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class GiftServicesCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_GIFT_EXPRESS_SHIPPING = 'GiftExpressShipping';
+
     const C_GIFT_SHIP_TO_RECIPIENT = 'GiftShipToRecipient';
+
     const C_GIFT_WRAP = 'GiftWrap';
 }

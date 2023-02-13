@@ -230,7 +230,7 @@ class BaseType implements JmesPathableObjectInterface
             $value = $this->values[$name];
 
             if ($info['repeatable']) {
-                if (count($value)) {
+                if (count($value) > 0) {
                     $array[$name] = [];
                     foreach ($value as $property) {
                         $array[$name][] = self::propertyToArrayValue($property);
@@ -492,6 +492,7 @@ class BaseType implements JmesPathableObjectInterface
                 if ($check === $actualType || 'array' === $actualType) {
                     return;
                 }
+
                 $isValid = false;
             } else {
                 $isValid = true;
@@ -641,6 +642,7 @@ class BaseType implements JmesPathableObjectInterface
             foreach ($value as $val) {
                 $values[] = self::actualValue($info, $val);
             }
+
             return $values;
         }
 

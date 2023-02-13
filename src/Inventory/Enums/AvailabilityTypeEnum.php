@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Inventory\Enums;
 class AvailabilityTypeEnum
 {
     const C_IN_STOCK = 'IN_STOCK';
+
     const C_OUT_OF_STOCK = 'OUT_OF_STOCK';
+
     const C_SHIP_TO_STORE = 'SHIP_TO_STORE';
 }

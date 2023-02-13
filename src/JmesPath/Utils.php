@@ -77,6 +77,7 @@ class Utils
             if (empty($arg)) {
                 return 'array';
             }
+
             reset($arg);
             return key($arg) === 0 ? 'array' : 'object';
         } elseif ($arg instanceof stdClass) {

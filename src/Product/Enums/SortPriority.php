@@ -13,8 +13,12 @@ namespace DTS\eBaySDK\Product\Enums;
 class SortPriority
 {
     const C_SORT1 = 'Sort1';
+
     const C_SORT2 = 'Sort2';
+
     const C_SORT3 = 'Sort3';
+
     const C_SORT4 = 'Sort4';
+
     const C_SORT5 = 'Sort5';
 }

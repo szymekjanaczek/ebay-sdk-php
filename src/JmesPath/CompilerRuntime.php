@@ -36,8 +36,11 @@ use RuntimeException;
 class CompilerRuntime
 {
     private Parser $parser;
+
     private TreeCompiler $compiler;
+
     private $cacheDir;
+
     private TreeInterpreter $interpreter;
 
     /**
@@ -80,6 +83,7 @@ class CompilerRuntime
             if (!file_exists($filename)) {
                 $this->compile($filename, $expression, $functionName);
             }
+
             require $filename;
         }
 

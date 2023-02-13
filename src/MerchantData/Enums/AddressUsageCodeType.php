@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class AddressUsageCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_DEFAULT_SHIPPING = 'DefaultShipping';
+
     const C_INVALID = 'Invalid';
+
     const C_SHIPPING = 'Shipping';
 }

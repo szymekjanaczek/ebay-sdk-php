@@ -28,8 +28,11 @@ namespace DTS\eBaySDK\JmesPath;
 class AstRuntime
 {
     private Parser $parser;
+
     private TreeInterpreter $interpreter;
+
     private array $cache = [];
+
     private int $cachedCount = 0;
 
     public function __construct(
@@ -60,6 +63,7 @@ class AstRuntime
                 $this->cache = [];
                 $this->cachedCount = 0;
             }
+
             $this->cache[$expression] = $this->parser->parse($expression);
         }
 

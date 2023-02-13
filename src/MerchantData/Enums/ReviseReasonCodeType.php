@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class ReviseReasonCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
+
     const C_PRO_STORES = 'ProStores';
+
     const C_SYSTEM_REVISE = 'SystemRevise';
 }

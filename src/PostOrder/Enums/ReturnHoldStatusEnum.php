@@ -13,8 +13,12 @@ namespace DTS\eBaySDK\PostOrder\Enums;
 class ReturnHoldStatusEnum
 {
     const C_HOLD_CREATION_SUCCESS = 'HOLD_CREATION_SUCCESS';
+
     const C_HOLD_RELEASE_FAILED = 'HOLD_RELEASE_FAILED';
+
     const C_HOLD_RELEASE_SUCCESS = 'HOLD_RELEASE_SUCCESS';
+
     const C_INELIGIBLE_TO_RELEASE_HOLD = 'INELIGIBLE_TO_RELEASE_HOLD';
+
     const C_OTHER = 'OTHER';
 }

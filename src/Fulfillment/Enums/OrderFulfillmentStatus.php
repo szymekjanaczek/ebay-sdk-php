@@ -13,6 +13,8 @@ namespace DTS\eBaySDK\Fulfillment\Enums;
 class OrderFulfillmentStatus
 {
     const C_FULFILLED = 'FULFILLED';
+
     const C_IN_PROGRESS = 'IN_PROGRESS';
+
     const C_NOT_STARTED = 'NOT_STARTED';
 }

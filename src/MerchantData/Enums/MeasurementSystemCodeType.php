@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\MerchantData\Enums;
 class MeasurementSystemCodeType
 {
     const C_ENGLISH = 'English';
+
     const C_METRIC = 'Metric';
 }

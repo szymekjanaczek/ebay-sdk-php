@@ -13,7 +13,10 @@ namespace DTS\eBaySDK\Account\Enums;
 class PaymentInstrumentBrandEnum
 {
     const C_AMERICAN_EXPRESS = 'AMERICAN_EXPRESS';
+
     const C_DISCOVER = 'DISCOVER';
+
     const C_MASTERCARD = 'MASTERCARD';
+
     const C_VISA = 'VISA';
 }

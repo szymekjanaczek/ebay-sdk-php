@@ -13,5 +13,6 @@ namespace DTS\eBaySDK\HalfFinding\Enums;
 class Type
 {
     const C_SHIPPING_METHOD_EXPRESS = 'ShippingMethodExpress';
+
     const C_SHIPPING_METHOD_STANDARD = 'ShippingMethodStandard';
 }

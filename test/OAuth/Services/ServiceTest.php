@@ -143,6 +143,7 @@ class ServiceTest extends TestCase
             'state' => ''
         ]);
     }
+
     public function testProductionUrlIsUsed(): void
     {
         // By default sandbox will be false.
