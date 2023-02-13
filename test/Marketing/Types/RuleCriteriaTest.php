@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\RuleCriteria;
 
 class RuleCriteriaTest extends TestCase
 {
-    private $obj;
+    private RuleCriteria $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RuleCriteria();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\RuleCriteria', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use function DTS\eBaySDK\arrayMergeDeep;
 class FunctionsTest extends TestCase
 {
-    public function testArrayMergeDeepArray()
+    public function testArrayMergeDeepArray(): void
     {
         $a = ['a'=>'b','c' => ['d' => 'e']];
         $b = ['c' => ['f' => 'g']];

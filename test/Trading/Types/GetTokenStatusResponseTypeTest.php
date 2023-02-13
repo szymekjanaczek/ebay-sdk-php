@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetTokenStatusResponseType;
 
 class GetTokenStatusResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetTokenStatusResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetTokenStatusResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetTokenStatusResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

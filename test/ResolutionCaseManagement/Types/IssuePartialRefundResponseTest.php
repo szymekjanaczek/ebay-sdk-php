@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundResponse;
 
 class IssuePartialRefundResponseTest extends TestCase
 {
-    private $obj;
+    private IssuePartialRefundResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new IssuePartialRefundResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse', $this->obj);
     }

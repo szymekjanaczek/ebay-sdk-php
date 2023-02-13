@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DisputeMessageSourceCodeType;
 
 class DisputeMessageSourceCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DisputeMessageSourceCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisputeMessageSourceCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DisputeMessageSourceCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\HalfFinding\Enums\AckValue;
 
 class AckValueTest extends TestCase
 {
-    private $obj;
+    private AckValue $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AckValue();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\AckValue', $this->obj);
     }

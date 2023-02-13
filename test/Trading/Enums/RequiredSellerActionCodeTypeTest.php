@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\RequiredSellerActionCodeType;
 
 class RequiredSellerActionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private RequiredSellerActionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RequiredSellerActionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\RequiredSellerActionCodeType', $this->obj);
     }

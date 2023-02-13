@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest;
 
 class UpdateGuestPaymentInfoRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateGuestPaymentInfoRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateGuestPaymentInfoRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest', $this->obj);
     }
 
-    public function testExtendsUpdatePaymentInformation()
+    public function testExtendsUpdatePaymentInformation(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdatePaymentInformation', $this->obj);
     }

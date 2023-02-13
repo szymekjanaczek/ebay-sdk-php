@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType;
 
 class InternationalShippingServiceOptionTypeTest extends TestCase
 {
-    private $obj;
+    private InternationalShippingServiceOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InternationalShippingServiceOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

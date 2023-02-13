@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest;
 
 class ProductByCompatibilityRequestTest extends TestCase
 {
-    private $obj;
+    private ProductByCompatibilityRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductByCompatibilityRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

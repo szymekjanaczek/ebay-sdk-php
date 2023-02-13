@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest;
 
 class CreateInquiryRestRequestTest extends TestCase
 {
-    private $obj;
+    private CreateInquiryRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateInquiryRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateInquiryRestRequest', $this->obj);
     }
 
-    public function testExtendsCreateInquiryRequest()
+    public function testExtendsCreateInquiryRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateInquiryRequest', $this->obj);
     }

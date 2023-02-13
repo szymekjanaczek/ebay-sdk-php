@@ -19,7 +19,7 @@ class ReviseSellingManagerInventoryFolderResponseType extends AbstractResponseTy
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Folder' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'repeatable' => false,

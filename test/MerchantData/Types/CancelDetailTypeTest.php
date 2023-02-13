@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\CancelDetailType;
 
 class CancelDetailTypeTest extends TestCase
 {
-    private $obj;
+    private CancelDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\CancelDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

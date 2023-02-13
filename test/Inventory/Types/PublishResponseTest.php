@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\PublishResponse;
 
 class PublishResponseTest extends TestCase
 {
-    private $obj;
+    private PublishResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PublishResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PublishResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

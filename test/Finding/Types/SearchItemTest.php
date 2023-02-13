@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\SearchItem;
 
 class SearchItemTest extends TestCase
 {
-    private $obj;
+    private SearchItem $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SearchItem();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\SearchItem', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\UpdateOfferRestRequest;
 
 class UpdateOfferRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateOfferRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateOfferRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\UpdateOfferRestRequest', $this->obj);
     }
 
-    public function testExtendsEbayOfferDetailsWithId()
+    public function testExtendsEbayOfferDetailsWithId(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithId', $this->obj);
     }

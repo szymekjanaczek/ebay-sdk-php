@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType;
 
 class AutomatedLeaveFeedbackEventCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AutomatedLeaveFeedbackEventCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AutomatedLeaveFeedbackEventCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType', $this->obj);
     }

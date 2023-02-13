@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetInquiryRestResponse;
 
 class GetInquiryRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetInquiryRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetInquiryRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetInquiryRestResponse', $this->obj);
     }
 
-    public function testExtendsInquiryDetailsResponse()
+    public function testExtendsInquiryDetailsResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\InquiryDetailsResponse', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType;
 
 class GetItemJobActionTypeTest extends TestCase
 {
-    private $obj;
+    private GetItemJobActionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemJobActionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

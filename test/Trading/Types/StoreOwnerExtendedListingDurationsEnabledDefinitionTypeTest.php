@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsEnabledDefinitio
 
 class StoreOwnerExtendedListingDurationsEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private StoreOwnerExtendedListingDurationsEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreOwnerExtendedListingDurationsEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

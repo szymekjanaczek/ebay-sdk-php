@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\FedExRateOptionCodeType;
 
 class FedExRateOptionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private FedExRateOptionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FedExRateOptionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\FedExRateOptionCodeType', $this->obj);
     }

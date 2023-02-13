@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ReturnStatusCodeType;
 
 class ReturnStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ReturnStatusCodeType', $this->obj);
     }

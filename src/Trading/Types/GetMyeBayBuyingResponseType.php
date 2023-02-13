@@ -30,7 +30,7 @@ class GetMyeBayBuyingResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'BuyingSummary' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BuyingSummaryType',
             'repeatable' => false,

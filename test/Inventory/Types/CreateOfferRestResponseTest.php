@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\CreateOfferRestResponse;
 
 class CreateOfferRestResponseTest extends TestCase
 {
-    private $obj;
+    private CreateOfferRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateOfferRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\CreateOfferRestResponse', $this->obj);
     }
 
-    public function testExtendsOfferResponse()
+    public function testExtendsOfferResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\OfferResponse', $this->obj);
     }

@@ -20,7 +20,7 @@ class PickupDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'PickupOptions' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PickupOptionsType',
             'repeatable' => true,

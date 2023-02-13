@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest;
 
 class GetAllSalesTaxTablesRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetAllSalesTaxTablesRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAllSalesTaxTablesRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\HalfFinding\Types\FindItemsResponse;
 
 class FindItemsResponseTest extends TestCase
 {
-    private $obj;
+    private FindItemsResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindItemsResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\FindItemsResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\BaseResponse', $this->obj);
     }

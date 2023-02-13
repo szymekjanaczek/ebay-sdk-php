@@ -10,7 +10,7 @@ class UriResolver
     /**
      * @var array Map of type to function that confirms type.
      */
-    private static $typeMap = [
+    private static array $typeMap = [
         'array' => 'is_array',
         'bool' => 'is_bool',
         'callable' => 'is_callable',
@@ -70,7 +70,7 @@ class UriResolver
         );
     }
 
-    private function checkType(array $valid, $name, $provided)
+    private function checkType(array $valid, int|string $name, $provided)
     {
         foreach ($valid as $check) {
             if (isset(self::$typeMap[$check])) {
@@ -118,9 +118,9 @@ class UriResolver
      * @param string $uri A uri with path parameters.
      * @param array $paramValues Associative array of path parameter names and their values.
      *
-     * @return string The path.
+     * @return string|null The path.
      */
-    private function fillPathParams($uri, array &$paramValues)
+    private function fillPathParams($uri, array &$paramValues): ?string
     {
         return preg_replace_callback('/{(\S+)}/U', function ($matches) use (&$paramValues) {
             $path = $matches[1];

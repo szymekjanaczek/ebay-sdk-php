@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetReturnPreferencesRestResponse;
 
 class GetReturnPreferencesRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetReturnPreferencesRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnPreferencesRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnPreferencesRestResponse', $this->obj);
     }
 
-    public function testExtendsGetSellerReturnPreferenceResponse()
+    public function testExtendsGetSellerReturnPreferenceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetSellerReturnPreferenceResponse', $this->obj);
     }

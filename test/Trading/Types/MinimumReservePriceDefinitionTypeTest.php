@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MinimumReservePriceDefinitionType;
 
 class MinimumReservePriceDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private MinimumReservePriceDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MinimumReservePriceDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MinimumReservePriceDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

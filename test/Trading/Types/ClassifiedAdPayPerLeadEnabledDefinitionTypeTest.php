@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ClassifiedAdPayPerLeadEnabledDefinitionType;
 
 class ClassifiedAdPayPerLeadEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ClassifiedAdPayPerLeadEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ClassifiedAdPayPerLeadEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ClassifiedAdPayPerLeadEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

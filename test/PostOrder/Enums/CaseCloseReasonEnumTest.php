@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\CaseCloseReasonEnum;
 
 class CaseCloseReasonEnumTest extends TestCase
 {
-    private $obj;
+    private CaseCloseReasonEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseCloseReasonEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\CaseCloseReasonEnum', $this->obj);
     }

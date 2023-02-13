@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\CancelStatus;
 
 class CancelStatusTest extends TestCase
 {
-    private $obj;
+    private CancelStatus $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelStatus();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\CancelStatus', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

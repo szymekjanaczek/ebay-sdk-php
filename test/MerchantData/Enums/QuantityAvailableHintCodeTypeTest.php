@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\QuantityAvailableHintCodeType;
 
 class QuantityAvailableHintCodeTypeTest extends TestCase
 {
-    private $obj;
+    private QuantityAvailableHintCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new QuantityAvailableHintCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\QuantityAvailableHintCodeType', $this->obj);
     }

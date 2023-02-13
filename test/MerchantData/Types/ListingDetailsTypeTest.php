@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ListingDetailsType;
 
 class ListingDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private ListingDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ListingDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

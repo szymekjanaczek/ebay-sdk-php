@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\UnpaidItemType;
 
 class UnpaidItemTypeTest extends TestCase
 {
-    private $obj;
+    private UnpaidItemType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UnpaidItemType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\UnpaidItemType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

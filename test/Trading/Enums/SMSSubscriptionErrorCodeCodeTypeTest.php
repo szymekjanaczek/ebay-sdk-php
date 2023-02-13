@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SMSSubscriptionErrorCodeCodeType;
 
 class SMSSubscriptionErrorCodeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SMSSubscriptionErrorCodeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SMSSubscriptionErrorCodeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SMSSubscriptionErrorCodeCodeType', $this->obj);
     }

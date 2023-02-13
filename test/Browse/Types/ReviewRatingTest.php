@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\ReviewRating;
 
 class ReviewRatingTest extends TestCase
 {
-    private $obj;
+    private ReviewRating $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviewRating();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\ReviewRating', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

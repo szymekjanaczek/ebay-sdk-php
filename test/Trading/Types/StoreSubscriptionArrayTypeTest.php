@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType;
 
 class StoreSubscriptionArrayTypeTest extends TestCase
 {
-    private $obj;
+    private StoreSubscriptionArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreSubscriptionArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

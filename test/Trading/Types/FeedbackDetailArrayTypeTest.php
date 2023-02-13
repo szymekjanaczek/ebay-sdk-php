@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType;
 
 class FeedbackDetailArrayTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackDetailArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackDetailArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

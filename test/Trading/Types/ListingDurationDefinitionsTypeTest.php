@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ListingDurationDefinitionsType;
 
 class ListingDurationDefinitionsTypeTest extends TestCase
 {
-    private $obj;
+    private ListingDurationDefinitionsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingDurationDefinitionsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ListingDurationDefinitionsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

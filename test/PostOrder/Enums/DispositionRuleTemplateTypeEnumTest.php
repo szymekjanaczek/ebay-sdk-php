@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum;
 
 class DispositionRuleTemplateTypeEnumTest extends TestCase
 {
-    private $obj;
+    private DispositionRuleTemplateTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DispositionRuleTemplateTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum', $this->obj);
     }

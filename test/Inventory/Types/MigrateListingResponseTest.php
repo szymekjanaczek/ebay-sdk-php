@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\MigrateListingResponse;
 
 class MigrateListingResponseTest extends TestCase
 {
-    private $obj;
+    private MigrateListingResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MigrateListingResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\MigrateListingResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

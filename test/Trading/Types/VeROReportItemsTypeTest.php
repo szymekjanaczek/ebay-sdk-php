@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VeROReportItemsType;
 
 class VeROReportItemsTypeTest extends TestCase
 {
-    private $obj;
+    private VeROReportItemsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VeROReportItemsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VeROReportItemsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

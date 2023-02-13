@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StringMatchCodeType;
 
 class StringMatchCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StringMatchCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StringMatchCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StringMatchCodeType', $this->obj);
     }

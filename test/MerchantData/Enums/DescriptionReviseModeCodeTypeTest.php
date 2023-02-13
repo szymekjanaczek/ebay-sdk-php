@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\DescriptionReviseModeCodeType;
 
 class DescriptionReviseModeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DescriptionReviseModeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DescriptionReviseModeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\DescriptionReviseModeCodeType', $this->obj);
     }

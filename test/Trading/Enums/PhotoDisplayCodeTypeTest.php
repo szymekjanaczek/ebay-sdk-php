@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType;
 
 class PhotoDisplayCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PhotoDisplayCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PhotoDisplayCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType', $this->obj);
     }

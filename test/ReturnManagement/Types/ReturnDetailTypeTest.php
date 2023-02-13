@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType;
 
 class ReturnDetailTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

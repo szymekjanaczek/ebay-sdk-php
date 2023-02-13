@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType;
 
 class CaseStatusFilterTypeTest extends TestCase
 {
-    private $obj;
+    private CaseStatusFilterType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseStatusFilterType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

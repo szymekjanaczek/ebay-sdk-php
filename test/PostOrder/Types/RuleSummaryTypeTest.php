@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\RuleSummaryType;
 
 class RuleSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private RuleSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RuleSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\RuleSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

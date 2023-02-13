@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RefundLineType;
 
 class RefundLineTypeTest extends TestCase
 {
-    private $obj;
+    private RefundLineType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RefundLineType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RefundLineType', $this->obj);
     }
 
-    public function testExtendsAmountType()
+    public function testExtendsAmountType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AmountType', $this->obj);
     }

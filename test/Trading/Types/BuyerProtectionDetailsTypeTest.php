@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BuyerProtectionDetailsType;
 
 class BuyerProtectionDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private BuyerProtectionDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerProtectionDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BuyerProtectionDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

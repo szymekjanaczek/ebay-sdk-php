@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestResponse;
 
 class InitiateCheckoutSessionRestResponseTest extends TestCase
 {
-    private $obj;
+    private InitiateCheckoutSessionRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InitiateCheckoutSessionRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestResponse', $this->obj);
     }
 
-    public function testExtendsCheckoutSessionResponse()
+    public function testExtendsCheckoutSessionResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\CheckoutSessionResponse', $this->obj);
     }

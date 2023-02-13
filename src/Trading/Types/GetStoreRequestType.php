@@ -22,7 +22,7 @@ class GetStoreRequestType extends AbstractRequestType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'CategoryStructureOnly' => [
             'type' => 'boolean',
             'repeatable' => false,

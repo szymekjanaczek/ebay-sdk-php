@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\FundingStrategy;
 
 class FundingStrategyTest extends TestCase
 {
-    private $obj;
+    private FundingStrategy $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FundingStrategy();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\FundingStrategy', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

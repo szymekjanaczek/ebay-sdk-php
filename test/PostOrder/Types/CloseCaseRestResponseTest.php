@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CloseCaseRestResponse;
 
 class CloseCaseRestResponseTest extends TestCase
 {
-    private $obj;
+    private CloseCaseRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CloseCaseRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CloseCaseRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

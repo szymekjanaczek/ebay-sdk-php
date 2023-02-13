@@ -15,19 +15,19 @@ use DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest;
 
 class CreateDSRSummaryByCategoryRequestTest extends TestCase
 {
-    private $obj;
+    private CreateDSRSummaryByCategoryRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateDSRSummaryByCategoryRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\BaseServiceRequest', $this->obj);
     }

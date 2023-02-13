@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestResponse;
 
 class AddShippingLabelInfoRestResponseTest extends TestCase
 {
-    private $obj;
+    private AddShippingLabelInfoRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddShippingLabelInfoRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestResponse', $this->obj);
     }
 
-    public function testExtendsProvideLabelResponse()
+    public function testExtendsProvideLabelResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvideLabelResponse', $this->obj);
     }

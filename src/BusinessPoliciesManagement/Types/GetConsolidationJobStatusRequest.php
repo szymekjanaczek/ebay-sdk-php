@@ -19,7 +19,7 @@ class GetConsolidationJobStatusRequest extends BaseRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'JobId' => [
             'type' => 'integer',
             'repeatable' => false,

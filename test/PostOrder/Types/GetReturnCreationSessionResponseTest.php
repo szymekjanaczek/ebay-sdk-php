@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetReturnCreationSessionResponse;
 
 class GetReturnCreationSessionResponseTest extends TestCase
 {
-    private $obj;
+    private GetReturnCreationSessionResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnCreationSessionResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnCreationSessionResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

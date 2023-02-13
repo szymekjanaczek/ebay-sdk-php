@@ -22,7 +22,7 @@ class CategorySuggestionResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'categorySuggestions' => [
             'type' => 'DTS\eBaySDK\Taxonomy\Types\CategorySuggestion',
             'repeatable' => true,

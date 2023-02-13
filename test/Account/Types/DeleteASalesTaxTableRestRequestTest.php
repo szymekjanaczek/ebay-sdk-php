@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest;
 
 class DeleteASalesTaxTableRestRequestTest extends TestCase
 {
-    private $obj;
+    private DeleteASalesTaxTableRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteASalesTaxTableRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\GetInventoryLocationsRestRequest;
 
 class GetInventoryLocationsRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetInventoryLocationsRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetInventoryLocationsRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\GetInventoryLocationsRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

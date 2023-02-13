@@ -15,14 +15,14 @@ use DTS\eBaySDK\Account\Enums\PaymentInstrumentBrandEnum;
 
 class PaymentInstrumentBrandEnumTest extends TestCase
 {
-    private $obj;
+    private PaymentInstrumentBrandEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentInstrumentBrandEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\PaymentInstrumentBrandEnum', $this->obj);
     }

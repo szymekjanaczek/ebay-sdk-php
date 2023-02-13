@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\PlaceGuestOrderRestResponse;
 
 class PlaceGuestOrderRestResponseTest extends TestCase
 {
-    private $obj;
+    private PlaceGuestOrderRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PlaceGuestOrderRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\PlaceGuestOrderRestResponse', $this->obj);
     }
 
-    public function testExtendsPurchaseOrderSummary()
+    public function testExtendsPurchaseOrderSummary(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\PurchaseOrderSummary', $this->obj);
     }

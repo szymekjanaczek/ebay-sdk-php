@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ExpressItemRequirementsType;
 
 class ExpressItemRequirementsTypeTest extends TestCase
 {
-    private $obj;
+    private ExpressItemRequirementsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExpressItemRequirementsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ExpressItemRequirementsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\CancelStateEnum;
 
 class CancelStateEnumTest extends TestCase
 {
-    private $obj;
+    private CancelStateEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelStateEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\CancelStateEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType;
 
 class PolicyComplianceDashboardTypeTest extends TestCase
 {
-    private $obj;
+    private PolicyComplianceDashboardType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PolicyComplianceDashboardType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

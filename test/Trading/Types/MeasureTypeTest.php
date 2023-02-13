@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MeasureType;
 
 class MeasureTypeTest extends TestCase
 {
-    private $obj;
+    private MeasureType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MeasureType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MeasureType', $this->obj);
     }
 
-    public function testExtendsDecimalType()
+    public function testExtendsDecimalType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\DecimalType', $this->obj);
     }

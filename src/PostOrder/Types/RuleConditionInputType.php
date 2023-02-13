@@ -24,7 +24,7 @@ class RuleConditionInputType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'dataList' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
             'repeatable' => true,

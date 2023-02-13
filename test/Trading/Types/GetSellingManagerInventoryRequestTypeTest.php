@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetSellingManagerInventoryRequestType;
 
 class GetSellingManagerInventoryRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetSellingManagerInventoryRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSellingManagerInventoryRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetSellingManagerInventoryRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

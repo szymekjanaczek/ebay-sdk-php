@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ShippingCostPaidByOptionsCodeType;
 
 class ShippingCostPaidByOptionsCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ShippingCostPaidByOptionsCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingCostPaidByOptionsCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ShippingCostPaidByOptionsCodeType', $this->obj);
     }

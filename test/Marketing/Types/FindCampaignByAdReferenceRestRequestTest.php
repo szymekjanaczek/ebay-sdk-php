@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest;
 
 class FindCampaignByAdReferenceRestRequestTest extends TestCase
 {
-    private $obj;
+    private FindCampaignByAdReferenceRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindCampaignByAdReferenceRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

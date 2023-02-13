@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\SoldAggregatedMetrics;
 
 class SoldAggregatedMetricsTest extends TestCase
 {
-    private $obj;
+    private SoldAggregatedMetrics $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SoldAggregatedMetrics();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SoldAggregatedMetrics', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

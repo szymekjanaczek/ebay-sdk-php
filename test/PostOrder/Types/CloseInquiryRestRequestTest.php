@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest;
 
 class CloseInquiryRestRequestTest extends TestCase
 {
-    private $obj;
+    private CloseInquiryRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CloseInquiryRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CloseInquiryRestRequest', $this->obj);
     }
 
-    public function testExtendsBuyerCloseInquiryRequest()
+    public function testExtendsBuyerCloseInquiryRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\BuyerCloseInquiryRequest', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest;
 
 class GetMostWatchedItemsRequestTest extends TestCase
 {
-    private $obj;
+    private GetMostWatchedItemsRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetMostWatchedItemsRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest', $this->obj);
     }
 
-    public function testExtendsBaseMerchandisingServiceRequest()
+    public function testExtendsBaseMerchandisingServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }

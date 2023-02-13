@@ -26,7 +26,7 @@ class CreateOrReplaceInventoryItemRestResponse extends BaseResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'errors' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,

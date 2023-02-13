@@ -15,19 +15,19 @@ use DTS\eBaySDK\Feedback\Types\TransactionKey;
 
 class TransactionKeyTest extends TestCase
 {
-    private $obj;
+    private TransactionKey $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TransactionKey();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\TransactionKey', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

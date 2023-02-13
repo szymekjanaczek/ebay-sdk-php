@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\ProductSubmission;
 
 class ProductSubmissionTest extends TestCase
 {
-    private $obj;
+    private ProductSubmission $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductSubmission();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\ProductSubmission', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\BaseServiceRequest', $this->obj);
     }

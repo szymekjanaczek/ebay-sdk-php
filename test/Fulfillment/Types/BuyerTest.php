@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\Buyer;
 
 class BuyerTest extends TestCase
 {
-    private $obj;
+    private Buyer $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Buyer();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\Buyer', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

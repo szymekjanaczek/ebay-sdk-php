@@ -20,7 +20,7 @@ class ProductRecommendation extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'epid' => [
             'type' => 'string',
             'repeatable' => false,

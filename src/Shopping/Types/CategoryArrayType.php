@@ -20,7 +20,7 @@ class CategoryArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Category' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\CategoryType',
             'repeatable' => true,

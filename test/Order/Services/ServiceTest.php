@@ -9,7 +9,7 @@ use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
 
 class ServiceTest extends TestCase
 {
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = OrderBaseService::getConfigDefinitions();
 
@@ -37,7 +37,7 @@ class ServiceTest extends TestCase
         ], $d['riskCorrelationId']);
     }
 
-    public function testRequiredEbayHeaders()
+    public function testRequiredEbayHeaders(): void
     {
         $h = new HttpRestHandler();
 
@@ -57,7 +57,7 @@ class ServiceTest extends TestCase
         $this->assertArrayNotHasKey(OrderBaseService::HDR_END_USER_CTX, $h->headers);
     }
 
-    public function testOptionalEbayHeaders()
+    public function testOptionalEbayHeaders(): void
     {
         $h = new HttpRestHandler();
 

@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\MetaDataCodeResultType;
 
 class MetaDataCodeResultTypeTest extends TestCase
 {
-    private $obj;
+    private MetaDataCodeResultType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MetaDataCodeResultType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\MetaDataCodeResultType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

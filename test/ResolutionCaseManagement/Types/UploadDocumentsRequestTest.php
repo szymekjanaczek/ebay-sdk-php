@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsRequest;
 
 class UploadDocumentsRequestTest extends TestCase
 {
-    private $obj;
+    private UploadDocumentsRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UploadDocumentsRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\UploadDocumentsRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest', $this->obj);
     }

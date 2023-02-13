@@ -22,7 +22,7 @@ class EscalationInfoType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'buyerEscalationEligibilityInfo' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo',
             'repeatable' => false,

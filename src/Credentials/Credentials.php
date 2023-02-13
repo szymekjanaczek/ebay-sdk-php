@@ -10,17 +10,17 @@ class Credentials implements CredentialsInterface
     /**
      * @var string $appId Application ID
      */
-    private $appId;
+    private string $appId;
 
     /**
      * @var string $certId Certificate ID
      */
-    private $certId;
+    private string $certId;
 
     /**
      * @var string $devId Developer ID
      */
-    private $devId;
+    private string $devId;
 
     /**
      * @param string $appId Application ID

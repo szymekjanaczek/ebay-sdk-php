@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\ProductStatus;
 
 class ProductStatusTest extends TestCase
 {
-    private $obj;
+    private ProductStatus $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductStatus();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\ProductStatus', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

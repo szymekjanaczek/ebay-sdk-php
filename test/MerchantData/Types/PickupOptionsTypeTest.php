@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\PickupOptionsType;
 
 class PickupOptionsTypeTest extends TestCase
 {
-    private $obj;
+    private PickupOptionsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PickupOptionsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\PickupOptionsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

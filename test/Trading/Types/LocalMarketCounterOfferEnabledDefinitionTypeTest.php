@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalMarketCounterOfferEnabledDefinitionType;
 
 class LocalMarketCounterOfferEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalMarketCounterOfferEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalMarketCounterOfferEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketCounterOfferEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

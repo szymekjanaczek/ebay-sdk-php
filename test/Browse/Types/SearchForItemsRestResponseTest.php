@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\SearchForItemsRestResponse;
 
 class SearchForItemsRestResponseTest extends TestCase
 {
-    private $obj;
+    private SearchForItemsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SearchForItemsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\SearchForItemsRestResponse', $this->obj);
     }
 
-    public function testExtendsSearchPagedCollection()
+    public function testExtendsSearchPagedCollection(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\SearchPagedCollection', $this->obj);
     }

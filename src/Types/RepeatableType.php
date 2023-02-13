@@ -20,27 +20,27 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
     /**
      * @var array The data to store as an array.
      */
-    private $data = [];
+    private array $data = [];
 
     /**
      * @var int The current position in the array.
      */
-    private $position = 0;
+    private int $position = 0;
 
     /**
      * @var string The name of the class that the property is a member of.
      */
-    private $class;
+    private string $class;
 
     /**
      * @var string The name of the property that acts like an array.
      */
-    private $property;
+    private string $property;
 
     /**
      * @var string The type that values assigned to the array should be.
      */
-    private $expectedType;
+    private string $expectedType;
 
     /**
      *
@@ -48,7 +48,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @param string $property The name of the property that acts like an array.
      * @param string $expectedType The type that values assigned to the array should be.
      */
-    public function __construct($class, $property, $expectedType)
+    public function __construct(string $class, string $property, string $expectedType)
     {
         $this->class = $class;
         $this->property = $property;
@@ -63,7 +63,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @return bool Returns if the offset exists in the array.
      */
     #[ReturnTypeWillChange]
-    public function offsetExists($offset)
+    public function offsetExists($offset): bool
     {
         return isset($this->data[$offset]);
     }
@@ -76,7 +76,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @return mixed Returns the value for the given offset or null if it doesn't exist.
      */
     #[ReturnTypeWillChange]
-    public function offsetGet($offset)
+    public function offsetGet($offset): mixed
     {
         return $this->offsetExists($offset) ? $this->data[$offset] : null;
     }
@@ -98,7 +98,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @throws InvalidPropertyTypeException If the value is the wrong type for the array.
      */
     #[ReturnTypeWillChange]
-    public function offsetSet($offset, $value)
+    public function offsetSet($offset, $value): void
     {
         self::ensurePropertyType($value);
 
@@ -115,7 +115,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @param int $offset The array index.
      */
     #[ReturnTypeWillChange]
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void
     {
         unset($this->data[$offset]);
     }
@@ -124,7 +124,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @return int The number of array items.
      */
     #[ReturnTypeWillChange]
-    public function count()
+    public function count(): int
     {
         return count($this->data);
     }
@@ -133,7 +133,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @return mixed The value of the current array index.
      */
     #[ReturnTypeWillChange]
-    public function current()
+    public function current(): mixed
     {
         return $this->offsetGet($this->position);
     }
@@ -142,7 +142,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @return int The current array index.
      */
     #[ReturnTypeWillChange]
-    public function key()
+    public function key(): mixed
     {
         return $this->position;
     }
@@ -151,7 +151,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * Move onto the next array index.
      */
     #[ReturnTypeWillChange]
-    public function next()
+    public function next(): void
     {
         $this->position++;
     }
@@ -160,7 +160,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * Reset the array index to the start of the array.
      */
     #[ReturnTypeWillChange]
-    public function rewind()
+    public function rewind(): void
     {
         $this->position = 0;
     }
@@ -169,7 +169,7 @@ class RepeatableType implements ArrayAccess, Countable, Iterator, JmesPathableAr
      * @return bool Return if the current array index is valid.
      */
     #[ReturnTypeWillChange]
-    public function valid()
+    public function valid(): bool
     {
         return $this->offsetExists($this->position);
     }

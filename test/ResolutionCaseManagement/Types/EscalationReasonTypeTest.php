@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType;
 
 class EscalationReasonTypeTest extends TestCase
 {
-    private $obj;
+    private EscalationReasonType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EscalationReasonType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

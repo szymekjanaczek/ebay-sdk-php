@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse;
 
 class GetReturnMetadataRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetReturnMetadataRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnMetadataRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse', $this->obj);
     }
 
-    public function testExtendsGetMetadataResponse()
+    public function testExtendsGetMetadataResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetMetadataResponse', $this->obj);
     }

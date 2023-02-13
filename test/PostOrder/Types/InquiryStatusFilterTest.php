@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\InquiryStatusFilter;
 
 class InquiryStatusFilterTest extends TestCase
 {
-    private $obj;
+    private InquiryStatusFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InquiryStatusFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\InquiryStatusFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

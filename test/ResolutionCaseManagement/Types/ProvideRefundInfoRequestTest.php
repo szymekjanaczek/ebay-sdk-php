@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoRequest;
 
 class ProvideRefundInfoRequestTest extends TestCase
 {
-    private $obj;
+    private ProvideRefundInfoRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideRefundInfoRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideRefundInfoRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest', $this->obj);
     }

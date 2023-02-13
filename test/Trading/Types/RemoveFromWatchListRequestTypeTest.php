@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RemoveFromWatchListRequestType;
 
 class RemoveFromWatchListRequestTypeTest extends TestCase
 {
-    private $obj;
+    private RemoveFromWatchListRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RemoveFromWatchListRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RemoveFromWatchListRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

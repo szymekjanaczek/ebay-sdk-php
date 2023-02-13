@@ -16,7 +16,7 @@ class ServiceTest extends TestCase
 {
     use ManageEnv;
 
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = BaseService::getConfigDefinitions();
 
@@ -65,7 +65,7 @@ class ServiceTest extends TestCase
         ], $d['sandbox']);
     }
 
-    public function testProductionUrlIsUsed()
+    public function testProductionUrlIsUsed(): void
     {
         // By default sandbox will be false.
         $h = new HttpHandler();
@@ -75,7 +75,7 @@ class ServiceTest extends TestCase
         $this->assertEquals('http://production.com', $h->url);
     }
 
-    public function testSandboxUrlIsUsed()
+    public function testSandboxUrlIsUsed(): void
     {
         $h = new HttpHandler();
         $s = new Service([
@@ -87,7 +87,7 @@ class ServiceTest extends TestCase
         $this->assertEquals('http://sandbox.com', $h->url);
     }
 
-    public function testHttpHeadersAreCreated()
+    public function testHttpHeadersAreCreated(): void
     {
         $h = new HttpHandler();
         $s = new Service(['httpHandler' => $h]);
@@ -102,7 +102,7 @@ class ServiceTest extends TestCase
         $this->assertEquals(strlen($r->toRequestXml()), $h->headers['Content-Length']);
     }
 
-    public function testXmlIsCreated()
+    public function testXmlIsCreated(): void
     {
         $h = new HttpHandler();
         $s = new Service(['httpHandler' => $h]);
@@ -112,7 +112,7 @@ class ServiceTest extends TestCase
         $this->assertEquals($r->toRequestXml(), $h->body);
     }
 
-    public function testResponseIsReturned()
+    public function testResponseIsReturned(): void
     {
         $s = new Service(['httpHandler' => new HttpHandler()]);
         $r = $s->foo(new ComplexClass());
@@ -120,10 +120,10 @@ class ServiceTest extends TestCase
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\ComplexClass', $r);
     }
 
-    public function testDebugging()
+    public function testDebugging(): void
     {
         $str = '';
-        $logfn = function ($value) use (&$str) {
+        $logfn = function ($value) use (&$str): void {
             $str .= $value;
         };
 
@@ -140,7 +140,7 @@ class ServiceTest extends TestCase
         $this->assertStringContainsString('<?xml version="1.0" encoding="UTF-8"?>', $str);
     }
 
-    public function testCredentialsInstanceCanBePassed()
+    public function testCredentialsInstanceCanBePassed(): void
     {
         $s = new Service([
             'credentials' => new Credentials('111', '222', '333'),
@@ -153,7 +153,7 @@ class ServiceTest extends TestCase
         $this->assertEquals('333', $c->getDevId());
     }
 
-    public function testCredentialsCanBeHardCoded()
+    public function testCredentialsCanBeHardCoded(): void
     {
         $s = new Service([
             'credentials' => [
@@ -170,10 +170,10 @@ class ServiceTest extends TestCase
         $this->assertEquals('333', $c->getDevId());
     }
 
-    public function testCredentialsCanBeProvided()
+    public function testCredentialsCanBeProvided(): void
     {
         $s = new Service([
-            'credentials' => function () {
+            'credentials' => function (): Credentials {
                 return new Credentials('111', '222', '333');
             },
             'httpHandler' => new HttpHandler()
@@ -185,7 +185,7 @@ class ServiceTest extends TestCase
         $this->assertEquals('333', $c->getDevId());
     }
 
-    public function testCredentialsCanBeLoadedFromIni()
+    public function testCredentialsCanBeLoadedFromIni(): void
     {
         $ini = <<<EOT
 [foo]
@@ -237,20 +237,20 @@ EOT;
         }
     }
 
-    public function testCredentialsProviderThrowsIfCantProvide()
+    public function testCredentialsProviderThrowsIfCantProvide(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('Cannot locate credentials');
 
         new Service([
-            'credentials' => function () {
+            'credentials' => function (): InvalidArgumentException {
                 return new InvalidArgumentException('Cannot locate credentials');
             },
             'httpHandler' => new HttpHandler()
         ]);
     }
 
-    public function testCanSetConfigurationOptionsAfterInstaniation()
+    public function testCanSetConfigurationOptionsAfterInstaniation(): void
     {
         $h = new HttpHandler();
         $s = new Service([
@@ -277,7 +277,7 @@ EOT;
         $s->setConfig([
             'sandbox' => false,
             'compressResponse' => false,
-            'credentials' => function () {
+            'credentials' => function (): Credentials {
                 return new Credentials('444', '555', '666');
             }
         ]);
@@ -292,7 +292,7 @@ EOT;
         ], $s->getConfig());
     }
 
-    public function testSetConfigWillThrow()
+    public function testSetConfigWillThrow(): void
     {
         $s = new Service([
             'x'=> 1,
@@ -311,7 +311,7 @@ EOT;
         $s->setConfig(['sandbox' => -1]);
     }
 
-    public function testAcceptEncodingHttpHeadersIsCreated()
+    public function testAcceptEncodingHttpHeadersIsCreated(): void
     {
         $h = new HttpHandler();
         $s = new Service(['httpHandler' => $h, 'compressResponse' => true]);

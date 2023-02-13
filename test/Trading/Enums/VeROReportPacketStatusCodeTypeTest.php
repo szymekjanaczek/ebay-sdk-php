@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType;
 
 class VeROReportPacketStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private VeROReportPacketStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VeROReportPacketStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType', $this->obj);
     }

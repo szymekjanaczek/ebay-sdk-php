@@ -13,7 +13,7 @@ class BaseRestService extends \DTS\eBaySDK\Services\BaseRestService
         parent::__construct($config);
     }
 
-    public static function getConfigDefinitions()
+    public static function getConfigDefinitions(): array
     {
         $definitions = parent::getConfigDefinitions();
 
@@ -26,7 +26,7 @@ class BaseRestService extends \DTS\eBaySDK\Services\BaseRestService
         ];
     }
 
-    protected function getEbayHeaders()
+    protected function getEbayHeaders(): array
     {
         return [];
     }

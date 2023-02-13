@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetUserContactDetailsResponseType;
 
 class GetUserContactDetailsResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetUserContactDetailsResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetUserContactDetailsResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetUserContactDetailsResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

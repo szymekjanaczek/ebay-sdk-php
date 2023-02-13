@@ -6,34 +6,34 @@ use DTS\eBaySDK\Types\RepeatableType;
 
 class RepeatableTypeTest extends TestCase
 {
-    private $obj;
+    private RepeatableType|array $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RepeatableType('', '', 'string');
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $this->obj);
     }
 
-    public function testExtendsArrayAccess()
+    public function testExtendsArrayAccess(): void
     {
         $this->assertInstanceOf('\ArrayAccess', $this->obj);
     }
 
-    public function testExtendsIterator()
+    public function testExtendsIterator(): void
     {
         $this->assertInstanceOf('\Iterator', $this->obj);
     }
 
-    public function testExtendsCountable()
+    public function testExtendsCountable(): void
     {
         $this->assertInstanceOf('\Countable', $this->obj);
     }
 
-    public function testArray()
+    public function testArray(): void
     {
         $this->assertEquals(0, count($this->obj));
 
@@ -62,7 +62,7 @@ class RepeatableTypeTest extends TestCase
         }
     }
 
-    public function testSettingInvalidType()
+    public function testSettingInvalidType(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for . Expected string but got integer');
 

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\CreateReportTaskRestResponse;
 
 class CreateReportTaskRestResponseTest extends TestCase
 {
-    private $obj;
+    private CreateReportTaskRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateReportTaskRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateReportTaskRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

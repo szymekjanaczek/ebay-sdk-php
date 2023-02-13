@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ProductRequiredEnabledDefinitionType;
 
 class ProductRequiredEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ProductRequiredEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductRequiredEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ProductRequiredEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

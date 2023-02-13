@@ -19,7 +19,7 @@ class MerchandisingServiceProductResponse extends BaseMerchandisingServiceRespon
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'productRecommendations' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\ProductRecommendations',
             'repeatable' => false,

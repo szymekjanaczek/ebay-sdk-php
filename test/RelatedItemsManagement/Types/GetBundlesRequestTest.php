@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest;
 
 class GetBundlesRequestTest extends TestCase
 {
-    private $obj;
+    private GetBundlesRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetBundlesRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
     }

@@ -20,7 +20,7 @@ class BulkDeleteAdRequest extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'requests' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\DeleteAdRequest',
             'repeatable' => true,

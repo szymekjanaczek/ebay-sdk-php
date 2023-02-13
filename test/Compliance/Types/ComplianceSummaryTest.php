@@ -15,19 +15,19 @@ use DTS\eBaySDK\Compliance\Types\ComplianceSummary;
 
 class ComplianceSummaryTest extends TestCase
 {
-    private $obj;
+    private ComplianceSummary $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ComplianceSummary();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\ComplianceSummary', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

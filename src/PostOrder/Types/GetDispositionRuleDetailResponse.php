@@ -21,7 +21,7 @@ class GetDispositionRuleDetailResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ruleDetail' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailType',
             'repeatable' => false,

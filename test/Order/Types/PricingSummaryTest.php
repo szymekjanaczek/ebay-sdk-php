@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\PricingSummary;
 
 class PricingSummaryTest extends TestCase
 {
-    private $obj;
+    private PricingSummary $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PricingSummary();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\PricingSummary', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

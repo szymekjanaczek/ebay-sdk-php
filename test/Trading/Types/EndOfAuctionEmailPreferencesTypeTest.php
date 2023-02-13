@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType;
 
 class EndOfAuctionEmailPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private EndOfAuctionEmailPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EndOfAuctionEmailPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

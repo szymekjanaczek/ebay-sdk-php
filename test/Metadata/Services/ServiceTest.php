@@ -9,7 +9,7 @@ use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
 
 class ServiceTest extends TestCase
 {
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = MetadataBaseService::getConfigDefinitions();
 
@@ -32,7 +32,7 @@ class ServiceTest extends TestCase
         ], $d['marketplaceId']);
     }
 
-    public function testRequiredEbayHeaders()
+    public function testRequiredEbayHeaders(): void
     {
         $h = new HttpRestHandler();
 
@@ -51,7 +51,7 @@ class ServiceTest extends TestCase
         $this->assertArrayNotHasKey(MetadataBaseService::HDR_MARKETPLACE_ID, $h->headers);
     }
 
-    public function testOptionalEbayHeaders()
+    public function testOptionalEbayHeaders(): void
     {
         $h = new HttpRestHandler();
 

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetDisputeResponseType;
 
 class GetDisputeResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetDisputeResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetDisputeResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetDisputeResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

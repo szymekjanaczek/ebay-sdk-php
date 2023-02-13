@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType;
 
 class SellingManagerAutoListAccordingToScheduleTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerAutoListAccordingToScheduleType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerAutoListAccordingToScheduleType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

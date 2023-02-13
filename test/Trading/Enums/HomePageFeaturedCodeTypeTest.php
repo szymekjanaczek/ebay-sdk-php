@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType;
 
 class HomePageFeaturedCodeTypeTest extends TestCase
 {
-    private $obj;
+    private HomePageFeaturedCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new HomePageFeaturedCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType;
 
 class UnpaidItemAssistancePreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private UnpaidItemAssistancePreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UnpaidItemAssistancePreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

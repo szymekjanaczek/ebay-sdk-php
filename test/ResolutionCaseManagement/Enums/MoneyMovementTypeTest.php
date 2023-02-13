@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementType;
 
 class MoneyMovementTypeTest extends TestCase
 {
-    private $obj;
+    private MoneyMovementType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MoneyMovementType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementType', $this->obj);
     }

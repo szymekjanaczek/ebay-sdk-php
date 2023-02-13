@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType;
 
 class VariationPictureRuleCodeTypeTest extends TestCase
 {
-    private $obj;
+    private VariationPictureRuleCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VariationPictureRuleCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType', $this->obj);
     }

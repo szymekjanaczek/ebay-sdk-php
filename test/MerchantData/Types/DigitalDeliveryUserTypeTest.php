@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\DigitalDeliveryUserType;
 
 class DigitalDeliveryUserTypeTest extends TestCase
 {
-    private $obj;
+    private DigitalDeliveryUserType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DigitalDeliveryUserType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\DigitalDeliveryUserType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

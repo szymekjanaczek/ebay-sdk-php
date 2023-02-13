@@ -15,14 +15,14 @@ use DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum;
 
 class StandardsLevelEnumTest extends TestCase
 {
-    private $obj;
+    private StandardsLevelEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StandardsLevelEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum', $this->obj);
     }

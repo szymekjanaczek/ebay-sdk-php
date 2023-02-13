@@ -19,7 +19,7 @@ class RemoveSellerProfilesResponse extends BaseResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'sellerProfileResponseStatus' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus',
             'repeatable' => true,

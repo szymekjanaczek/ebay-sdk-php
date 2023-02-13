@@ -19,7 +19,7 @@ class GetStoreCustomPageResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'CustomPageArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomPageArrayType',
             'repeatable' => false,

@@ -20,7 +20,7 @@ class MembershipDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Program' => [
             'type' => 'DTS\eBaySDK\Trading\Types\MembershipDetailType',
             'repeatable' => true,

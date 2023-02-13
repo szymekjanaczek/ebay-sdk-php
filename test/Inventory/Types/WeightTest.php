@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\Weight;
 
 class WeightTest extends TestCase
 {
-    private $obj;
+    private Weight $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Weight();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\Weight', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

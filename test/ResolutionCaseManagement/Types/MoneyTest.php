@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\Money;
 
 class MoneyTest extends TestCase
 {
-    private $obj;
+    private Money $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Money();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\Money', $this->obj);
     }
 
-    public function testExtendsDecimalType()
+    public function testExtendsDecimalType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\DecimalType', $this->obj);
     }

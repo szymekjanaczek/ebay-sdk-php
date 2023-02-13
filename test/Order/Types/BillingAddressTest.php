@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\BillingAddress;
 
 class BillingAddressTest extends TestCase
 {
-    private $obj;
+    private BillingAddress $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BillingAddress();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\BillingAddress', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

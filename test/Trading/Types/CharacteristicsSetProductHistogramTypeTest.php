@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CharacteristicsSetProductHistogramType;
 
 class CharacteristicsSetProductHistogramTypeTest extends TestCase
 {
-    private $obj;
+    private CharacteristicsSetProductHistogramType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CharacteristicsSetProductHistogramType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CharacteristicsSetProductHistogramType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

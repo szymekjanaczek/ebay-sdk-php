@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetClientAlertsAuthTokenRequestType;
 
 class GetClientAlertsAuthTokenRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetClientAlertsAuthTokenRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetClientAlertsAuthTokenRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetClientAlertsAuthTokenRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

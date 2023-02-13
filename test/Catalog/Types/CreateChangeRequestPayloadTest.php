@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\CreateChangeRequestPayload;
 
 class CreateChangeRequestPayloadTest extends TestCase
 {
-    private $obj;
+    private CreateChangeRequestPayload $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateChangeRequestPayload();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\CreateChangeRequestPayload', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

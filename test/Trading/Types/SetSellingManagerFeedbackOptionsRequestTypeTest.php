@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetSellingManagerFeedbackOptionsRequestType;
 
 class SetSellingManagerFeedbackOptionsRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetSellingManagerFeedbackOptionsRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetSellingManagerFeedbackOptionsRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetSellingManagerFeedbackOptionsRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

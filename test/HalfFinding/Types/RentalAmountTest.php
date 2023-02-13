@@ -15,19 +15,19 @@ use DTS\eBaySDK\HalfFinding\Types\RentalAmount;
 
 class RentalAmountTest extends TestCase
 {
-    private $obj;
+    private RentalAmount $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RentalAmount();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\RentalAmount', $this->obj);
     }
 
-    public function testExtendsDoubleType()
+    public function testExtendsDoubleType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\DoubleType', $this->obj);
     }

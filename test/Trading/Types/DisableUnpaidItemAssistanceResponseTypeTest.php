@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DisableUnpaidItemAssistanceResponseType;
 
 class DisableUnpaidItemAssistanceResponseTypeTest extends TestCase
 {
-    private $obj;
+    private DisableUnpaidItemAssistanceResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisableUnpaidItemAssistanceResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DisableUnpaidItemAssistanceResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

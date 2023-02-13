@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\RuleListFieldGroupEnum;
 
 class RuleListFieldGroupEnumTest extends TestCase
 {
-    private $obj;
+    private RuleListFieldGroupEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RuleListFieldGroupEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\RuleListFieldGroupEnum', $this->obj);
     }

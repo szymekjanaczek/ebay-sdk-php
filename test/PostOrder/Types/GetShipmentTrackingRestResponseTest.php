@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestResponse;
 
 class GetShipmentTrackingRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetShipmentTrackingRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetShipmentTrackingRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetShipmentTrackingRestResponse', $this->obj);
     }
 
-    public function testExtendsGetTrackingHistoryResponse()
+    public function testExtendsGetTrackingHistoryResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetTrackingHistoryResponse', $this->obj);
     }

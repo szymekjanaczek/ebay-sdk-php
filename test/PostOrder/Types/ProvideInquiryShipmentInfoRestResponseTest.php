@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestResponse;
 
 class ProvideInquiryShipmentInfoRestResponseTest extends TestCase
 {
-    private $obj;
+    private ProvideInquiryShipmentInfoRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideInquiryShipmentInfoRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvideInquiryShipmentInfoRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

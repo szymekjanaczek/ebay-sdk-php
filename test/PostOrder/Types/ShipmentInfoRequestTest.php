@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ShipmentInfoRequest;
 
 class ShipmentInfoRequestTest extends TestCase
 {
-    private $obj;
+    private ShipmentInfoRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShipmentInfoRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ShipmentInfoRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

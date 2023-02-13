@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetStoreCustomPageRequestType;
 
 class GetStoreCustomPageRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetStoreCustomPageRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetStoreCustomPageRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetStoreCustomPageRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

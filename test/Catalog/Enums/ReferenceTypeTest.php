@@ -15,14 +15,14 @@ use DTS\eBaySDK\Catalog\Enums\ReferenceType;
 
 class ReferenceTypeTest extends TestCase
 {
-    private $obj;
+    private ReferenceType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReferenceType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Enums\ReferenceType', $this->obj);
     }

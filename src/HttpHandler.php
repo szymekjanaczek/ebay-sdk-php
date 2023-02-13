@@ -11,15 +11,12 @@ use Psr\Http\Message\RequestInterface;
  */
 class HttpHandler
 {
-    /**
-     * @var ClientInterface $client The client for making the HTTP request.
-     */
-    private $client;
+    private ClientInterface|Client $client;
 
     /**
      * @var array Associative array of HTTP options that the SDK supports.
      */
-    private static $validOptions = [
+    private static array $validOptions = [
         'connect_timeout' => true,
         'curl'            => true,
         'debug'           => true,
@@ -31,7 +28,7 @@ class HttpHandler
     ];
 
     /**
-     * @param ClientInterface $client The client for making the HTTP request.
+     * @param ClientInterface|null $client The client for making the HTTP request.
      */
     public function __construct(ClientInterface $client = null)
     {

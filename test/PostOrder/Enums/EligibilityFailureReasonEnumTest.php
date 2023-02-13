@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\EligibilityFailureReasonEnum;
 
 class EligibilityFailureReasonEnumTest extends TestCase
 {
-    private $obj;
+    private EligibilityFailureReasonEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EligibilityFailureReasonEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\EligibilityFailureReasonEnum', $this->obj);
     }

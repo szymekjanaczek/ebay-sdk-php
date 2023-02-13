@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob;
 
 class ConsolidationJobTest extends TestCase
 {
-    private $obj;
+    private ConsolidationJob $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConsolidationJob();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Fulfillment\Enums\FinalDestinationTypeEnum;
 
 class FinalDestinationTypeEnumTest extends TestCase
 {
-    private $obj;
+    private FinalDestinationTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FinalDestinationTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\FinalDestinationTypeEnum', $this->obj);
     }

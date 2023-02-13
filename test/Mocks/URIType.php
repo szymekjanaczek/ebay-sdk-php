@@ -3,7 +3,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 
 class URIType extends \DTS\eBaySDK\Types\URIType
 {
-    private static $propertyTypes = [];
+    private static array $propertyTypes = [];
 
     public function __construct(array $values = [])
     {

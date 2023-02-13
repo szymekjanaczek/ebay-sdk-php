@@ -23,7 +23,7 @@ class GetAppTokenRestResponse  extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'access_token' => [
             'type' => 'string',
             'repeatable' => false,

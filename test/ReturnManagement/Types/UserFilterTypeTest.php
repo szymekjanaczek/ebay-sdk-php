@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\UserFilterType;
 
 class UserFilterTypeTest extends TestCase
 {
-    private $obj;
+    private UserFilterType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UserFilterType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\UserFilterType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

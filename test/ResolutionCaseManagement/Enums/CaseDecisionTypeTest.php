@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseDecisionType;
 
 class CaseDecisionTypeTest extends TestCase
 {
-    private $obj;
+    private CaseDecisionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseDecisionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseDecisionType', $this->obj);
     }

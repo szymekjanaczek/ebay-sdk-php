@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MyMessagesFolderType;
 
 class MyMessagesFolderTypeTest extends TestCase
 {
-    private $obj;
+    private MyMessagesFolderType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyMessagesFolderType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MyMessagesFolderType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

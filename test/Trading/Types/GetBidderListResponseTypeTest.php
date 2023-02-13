@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetBidderListResponseType;
 
 class GetBidderListResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetBidderListResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetBidderListResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetBidderListResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

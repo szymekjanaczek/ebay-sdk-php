@@ -20,7 +20,7 @@ class GetCancelDetailResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'cancelDetail' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\CancelDetail',
             'repeatable' => false,

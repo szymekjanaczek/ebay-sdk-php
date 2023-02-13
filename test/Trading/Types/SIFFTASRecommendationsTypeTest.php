@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SIFFTASRecommendationsType;
 
 class SIFFTASRecommendationsTypeTest extends TestCase
 {
-    private $obj;
+    private SIFFTASRecommendationsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SIFFTASRecommendationsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SIFFTASRecommendationsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

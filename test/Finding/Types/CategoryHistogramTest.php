@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\CategoryHistogram;
 
 class CategoryHistogramTest extends TestCase
 {
-    private $obj;
+    private CategoryHistogram $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryHistogram();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\CategoryHistogram', $this->obj);
     }
 
-    public function testExtendsCategory()
+    public function testExtendsCategory(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\Category', $this->obj);
     }

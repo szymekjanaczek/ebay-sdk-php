@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetUserNotesResponseType;
 
 class SetUserNotesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SetUserNotesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetUserNotesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetUserNotesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

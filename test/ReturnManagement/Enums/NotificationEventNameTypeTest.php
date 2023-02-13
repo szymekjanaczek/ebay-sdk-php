@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\NotificationEventNameType;
 
 class NotificationEventNameTypeTest extends TestCase
 {
-    private $obj;
+    private NotificationEventNameType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NotificationEventNameType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\NotificationEventNameType', $this->obj);
     }

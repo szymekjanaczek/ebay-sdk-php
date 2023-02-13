@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\CloseReturnReasonType;
 
 class CloseReturnReasonTypeTest extends TestCase
 {
-    private $obj;
+    private CloseReturnReasonType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CloseReturnReasonType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\CloseReturnReasonType', $this->obj);
     }

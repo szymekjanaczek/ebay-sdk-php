@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\AdReferences;
 
 class AdReferencesTest extends TestCase
 {
-    private $obj;
+    private AdReferences $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AdReferences();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\AdReferences', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

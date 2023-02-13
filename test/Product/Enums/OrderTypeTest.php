@@ -15,14 +15,14 @@ use DTS\eBaySDK\Product\Enums\OrderType;
 
 class OrderTypeTest extends TestCase
 {
-    private $obj;
+    private OrderType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\OrderType', $this->obj);
     }

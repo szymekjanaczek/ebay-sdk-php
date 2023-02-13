@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\FeeSettlementReportRequestType;
 
 class FeeSettlementReportRequestTypeTest extends TestCase
 {
-    private $obj;
+    private FeeSettlementReportRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeeSettlementReportRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\FeeSettlementReportRequestType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobResponse;
 
 class SuspendRecurringJobResponseTest extends TestCase
 {
-    private $obj;
+    private SuspendRecurringJobResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SuspendRecurringJobResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobResponse', $this->obj);
     }
 
-    public function testExtendsBaseServiceResponse()
+    public function testExtendsBaseServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
     }

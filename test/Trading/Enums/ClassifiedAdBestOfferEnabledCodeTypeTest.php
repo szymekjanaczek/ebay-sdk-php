@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ClassifiedAdBestOfferEnabledCodeType;
 
 class ClassifiedAdBestOfferEnabledCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ClassifiedAdBestOfferEnabledCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ClassifiedAdBestOfferEnabledCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ClassifiedAdBestOfferEnabledCodeType', $this->obj);
     }

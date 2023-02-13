@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType;
 
 class VeROReasonCodeDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private VeROReasonCodeDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VeROReasonCodeDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

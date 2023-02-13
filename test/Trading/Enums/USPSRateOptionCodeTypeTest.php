@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\USPSRateOptionCodeType;
 
 class USPSRateOptionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private USPSRateOptionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new USPSRateOptionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\USPSRateOptionCodeType', $this->obj);
     }

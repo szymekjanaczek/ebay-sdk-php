@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DisputeArrayType;
 
 class DisputeArrayTypeTest extends TestCase
 {
-    private $obj;
+    private DisputeArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisputeArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DisputeArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

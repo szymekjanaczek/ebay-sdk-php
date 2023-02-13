@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\AdResponse;
 
 class AdResponseTest extends TestCase
 {
-    private $obj;
+    private AdResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AdResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\AdResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

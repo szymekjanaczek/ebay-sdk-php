@@ -15,14 +15,14 @@ use DTS\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum;
 
 class ShippingServiceTypeEnumTest extends TestCase
 {
-    private $obj;
+    private ShippingServiceTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingServiceTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum', $this->obj);
     }

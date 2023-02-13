@@ -15,14 +15,14 @@ use DTS\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus;
 
 class OrderFulfillmentStatusTest extends TestCase
 {
-    private $obj;
+    private OrderFulfillmentStatus $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderFulfillmentStatus();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus', $this->obj);
     }

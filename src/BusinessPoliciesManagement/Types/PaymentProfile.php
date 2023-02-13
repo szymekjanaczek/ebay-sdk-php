@@ -19,7 +19,7 @@ class PaymentProfile extends SellerProfile
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'paymentInfo' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentInfo',
             'repeatable' => false,

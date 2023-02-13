@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType;
 
 class ProvideTrackingInfoOptionTypeTest extends TestCase
 {
-    private $obj;
+    private ProvideTrackingInfoOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideTrackingInfoOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }

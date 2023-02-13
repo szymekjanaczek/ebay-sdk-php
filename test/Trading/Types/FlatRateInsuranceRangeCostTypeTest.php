@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType;
 
 class FlatRateInsuranceRangeCostTypeTest extends TestCase
 {
-    private $obj;
+    private FlatRateInsuranceRangeCostType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FlatRateInsuranceRangeCostType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

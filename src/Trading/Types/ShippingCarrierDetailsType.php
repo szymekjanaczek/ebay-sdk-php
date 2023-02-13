@@ -26,7 +26,7 @@ class ShippingCarrierDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ShippingCarrierID' => [
             'type' => 'integer',
             'repeatable' => false,

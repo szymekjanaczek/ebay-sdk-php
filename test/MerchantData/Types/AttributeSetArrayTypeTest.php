@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\AttributeSetArrayType;
 
 class AttributeSetArrayTypeTest extends TestCase
 {
-    private $obj;
+    private AttributeSetArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AttributeSetArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AttributeSetArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\BulkDataExchange\Enums\ListingType;
 
 class ListingTypeTest extends TestCase
 {
-    private $obj;
+    private ListingType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\ListingType', $this->obj);
     }

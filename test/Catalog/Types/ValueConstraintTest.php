@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ValueConstraint;
 
 class ValueConstraintTest extends TestCase
 {
-    private $obj;
+    private ValueConstraint $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ValueConstraint();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ValueConstraint', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

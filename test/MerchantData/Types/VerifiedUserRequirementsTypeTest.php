@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\VerifiedUserRequirementsType;
 
 class VerifiedUserRequirementsTypeTest extends TestCase
 {
-    private $obj;
+    private VerifiedUserRequirementsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VerifiedUserRequirementsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\VerifiedUserRequirementsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

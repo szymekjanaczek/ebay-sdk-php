@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\ShipmentDeliveryStatusCodeType;
 
 class ShipmentDeliveryStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ShipmentDeliveryStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShipmentDeliveryStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ShipmentDeliveryStatusCodeType', $this->obj);
     }

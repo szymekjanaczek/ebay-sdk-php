@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\TargetLocation;
 
 class TargetLocationTest extends TestCase
 {
-    private $obj;
+    private TargetLocation $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TargetLocation();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\TargetLocation', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

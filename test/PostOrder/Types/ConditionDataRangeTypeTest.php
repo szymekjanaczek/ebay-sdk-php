@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType;
 
 class ConditionDataRangeTypeTest extends TestCase
 {
-    private $obj;
+    private ConditionDataRangeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConditionDataRangeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

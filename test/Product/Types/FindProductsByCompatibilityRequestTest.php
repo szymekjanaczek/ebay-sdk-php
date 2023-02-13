@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest;
 
 class FindProductsByCompatibilityRequestTest extends TestCase
 {
-    private $obj;
+    private FindProductsByCompatibilityRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindProductsByCompatibilityRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\BaseServiceRequest', $this->obj);
     }

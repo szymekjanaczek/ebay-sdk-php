@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EBayMotorsProCompanyNameEnabledDefinitionType;
 
 class EBayMotorsProCompanyNameEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private EBayMotorsProCompanyNameEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBayMotorsProCompanyNameEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EBayMotorsProCompanyNameEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

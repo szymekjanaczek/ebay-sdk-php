@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ShippingRegionCodeType;
 
 class ShippingRegionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ShippingRegionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingRegionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ShippingRegionCodeType', $this->obj);
     }

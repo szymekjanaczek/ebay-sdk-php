@@ -21,7 +21,7 @@ class TargetLocation extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'unitOfMeasure' => [
             'type' => 'string',
             'repeatable' => false,

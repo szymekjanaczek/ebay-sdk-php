@@ -25,7 +25,7 @@ class MarkAsShippedRequest extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'carrierEnum' => [
             'type' => 'string',
             'repeatable' => false,

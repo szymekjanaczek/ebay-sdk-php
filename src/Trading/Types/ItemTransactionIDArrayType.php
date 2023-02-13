@@ -20,7 +20,7 @@ class ItemTransactionIDArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ItemTransactionID' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemTransactionIDType',
             'repeatable' => true,

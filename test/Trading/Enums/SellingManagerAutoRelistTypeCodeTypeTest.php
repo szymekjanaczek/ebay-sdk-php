@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType;
 
 class SellingManagerAutoRelistTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerAutoRelistTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerAutoRelistTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType', $this->obj);
     }

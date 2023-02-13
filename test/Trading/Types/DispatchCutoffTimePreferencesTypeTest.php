@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType;
 
 class DispatchCutoffTimePreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private DispatchCutoffTimePreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DispatchCutoffTimePreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

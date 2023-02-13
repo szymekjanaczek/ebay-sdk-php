@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AccountSummaryType;
 
 class AccountSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private AccountSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AccountSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AccountSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

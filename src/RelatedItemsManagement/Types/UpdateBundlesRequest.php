@@ -19,7 +19,7 @@ class UpdateBundlesRequest extends BaseRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'bundle' => [
             'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\Bundle',
             'repeatable' => true,

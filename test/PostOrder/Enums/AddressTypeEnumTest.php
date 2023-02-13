@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\AddressTypeEnum;
 
 class AddressTypeEnumTest extends TestCase
 {
-    private $obj;
+    private AddressTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddressTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\AddressTypeEnum', $this->obj);
     }

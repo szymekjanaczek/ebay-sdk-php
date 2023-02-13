@@ -22,7 +22,7 @@ class ReturnSnapshot extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'lookbackPeriod' => [
             'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
             'repeatable' => false,

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse;
 
 class GetListingViolationsSummaryRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetListingViolationsSummaryRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetListingViolationsSummaryRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse', $this->obj);
     }
 
-    public function testExtendsComplianceSummary()
+    public function testExtendsComplianceSummary(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\ComplianceSummary', $this->obj);
     }

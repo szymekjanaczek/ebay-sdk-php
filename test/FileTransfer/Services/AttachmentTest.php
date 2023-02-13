@@ -12,7 +12,7 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class AttachmentTest extends TestCase
 {
-    public function testAttachmentFieldIsSetCorrectlyInRequest()
+    public function testAttachmentFieldIsSetCorrectlyInRequest(): void
     {
         $h = new HttpHandler();
 

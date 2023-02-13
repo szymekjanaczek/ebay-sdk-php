@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestResponse;
 
 class UploadReturnDraftFileRestResponseTest extends TestCase
 {
-    private $obj;
+    private UploadReturnDraftFileRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UploadReturnDraftFileRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\UploadReturnDraftFileRestResponse', $this->obj);
     }
 
-    public function testExtendsUploadFileResponse()
+    public function testExtendsUploadFileResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\UploadFileResponse', $this->obj);
     }

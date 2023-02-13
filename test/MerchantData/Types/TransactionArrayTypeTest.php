@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\TransactionArrayType;
 
 class TransactionArrayTypeTest extends TestCase
 {
-    private $obj;
+    private TransactionArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TransactionArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\TransactionArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

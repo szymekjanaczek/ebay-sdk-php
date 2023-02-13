@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PaisaPayFullEscrowEnabledDefinitionType;
 
 class PaisaPayFullEscrowEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private PaisaPayFullEscrowEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaisaPayFullEscrowEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PaisaPayFullEscrowEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

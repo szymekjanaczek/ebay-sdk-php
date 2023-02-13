@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestResponse;
 
 class GetSpecificReportTaskRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetSpecificReportTaskRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSpecificReportTaskRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetSpecificReportTaskRestResponse', $this->obj);
     }
 
-    public function testExtendsReportTask()
+    public function testExtendsReportTask(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\ReportTask', $this->obj);
     }

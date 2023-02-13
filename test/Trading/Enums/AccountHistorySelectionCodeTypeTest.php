@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType;
 
 class AccountHistorySelectionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AccountHistorySelectionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AccountHistorySelectionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType', $this->obj);
     }

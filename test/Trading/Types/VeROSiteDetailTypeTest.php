@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VeROSiteDetailType;
 
 class VeROSiteDetailTypeTest extends TestCase
 {
-    private $obj;
+    private VeROSiteDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VeROSiteDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VeROSiteDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

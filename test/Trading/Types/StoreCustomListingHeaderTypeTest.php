@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType;
 
 class StoreCustomListingHeaderTypeTest extends TestCase
 {
-    private $obj;
+    private StoreCustomListingHeaderType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreCustomListingHeaderType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PaidStatusCodeType;
 
 class PaidStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PaidStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaidStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PaidStatusCodeType', $this->obj);
     }

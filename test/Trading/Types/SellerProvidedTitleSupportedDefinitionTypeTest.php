@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerProvidedTitleSupportedDefinitionType;
 
 class SellerProvidedTitleSupportedDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private SellerProvidedTitleSupportedDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerProvidedTitleSupportedDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerProvidedTitleSupportedDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

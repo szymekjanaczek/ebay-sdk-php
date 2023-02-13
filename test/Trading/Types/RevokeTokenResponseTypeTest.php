@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RevokeTokenResponseType;
 
 class RevokeTokenResponseTypeTest extends TestCase
 {
-    private $obj;
+    private RevokeTokenResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RevokeTokenResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RevokeTokenResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

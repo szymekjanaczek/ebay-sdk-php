@@ -10,7 +10,7 @@ use DTS\eBaySDK\Test\Mocks\SimpleClass;
 
 class ConstructTest extends TestCase
 {
-    public function testSettingPropertiesViaCtor()
+    public function testSettingPropertiesViaCtor(): void
     {
         $values = [
             'foo' => 'foo',
@@ -124,7 +124,7 @@ class ConstructTest extends TestCase
         $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $obj->anyTypes);
     }
 
-    public function testSettingInvalidPropertyViaCtor()
+    public function testSettingInvalidPropertyViaCtor(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property bar');
 
@@ -133,7 +133,7 @@ class ConstructTest extends TestCase
         ]);
     }
 
-    public function testSettingInvalidPropertyTypeViaCtor()
+    public function testSettingInvalidPropertyTypeViaCtor(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for string. Expected string but got integer');
 
@@ -151,7 +151,7 @@ class ConstructTest extends TestCase
      * The null object results in the SDK trying to pass null
      * to the ctor of an object, which expects an array.
      */
-    public function testNullValuesWillNotSetProperties()
+    public function testNullValuesWillNotSetProperties(): void
     {
         $obj = new ComplexClass([
             'foo' => null,

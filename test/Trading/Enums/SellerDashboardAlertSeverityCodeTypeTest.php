@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellerDashboardAlertSeverityCodeType;
 
 class SellerDashboardAlertSeverityCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellerDashboardAlertSeverityCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerDashboardAlertSeverityCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellerDashboardAlertSeverityCodeType', $this->obj);
     }

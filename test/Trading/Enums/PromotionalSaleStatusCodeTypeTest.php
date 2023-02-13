@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType;
 
 class PromotionalSaleStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PromotionalSaleStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PromotionalSaleStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType', $this->obj);
     }

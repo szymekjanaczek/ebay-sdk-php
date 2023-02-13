@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\LogisticsPlanCodeType;
 
 class LogisticsPlanCodeTypeTest extends TestCase
 {
-    private $obj;
+    private LogisticsPlanCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LogisticsPlanCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\LogisticsPlanCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult;
 
 class ReturnEligibilityItemPerCheckTypeResultTest extends TestCase
 {
-    private $obj;
+    private ReturnEligibilityItemPerCheckTypeResult $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnEligibilityItemPerCheckTypeResult();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

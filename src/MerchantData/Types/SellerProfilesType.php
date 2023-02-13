@@ -22,7 +22,7 @@ class SellerProfilesType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'SellerShippingProfile' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\SellerShippingProfileType',
             'repeatable' => false,

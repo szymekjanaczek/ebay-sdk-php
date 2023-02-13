@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\BuyerProtectionSourceCodeType;
 
 class BuyerProtectionSourceCodeTypeTest extends TestCase
 {
-    private $obj;
+    private BuyerProtectionSourceCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerProtectionSourceCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\BuyerProtectionSourceCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PurchasePurposeTypeCodeType;
 
 class PurchasePurposeTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PurchasePurposeTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PurchasePurposeTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PurchasePurposeTypeCodeType', $this->obj);
     }

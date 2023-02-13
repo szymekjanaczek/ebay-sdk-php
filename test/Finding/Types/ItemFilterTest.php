@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\ItemFilter;
 
 class ItemFilterTest extends TestCase
 {
-    private $obj;
+    private ItemFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\ItemFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

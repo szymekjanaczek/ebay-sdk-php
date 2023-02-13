@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellerAccountStatusCodeType;
 
 class SellerAccountStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellerAccountStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerAccountStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellerAccountStatusCodeType', $this->obj);
     }

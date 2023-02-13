@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\LabelType;
 
 class LabelTypeTest extends TestCase
 {
-    private $obj;
+    private LabelType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LabelType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\LabelType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

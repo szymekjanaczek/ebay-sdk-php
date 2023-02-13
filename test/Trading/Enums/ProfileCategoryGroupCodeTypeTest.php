@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ProfileCategoryGroupCodeType;
 
 class ProfileCategoryGroupCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ProfileCategoryGroupCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProfileCategoryGroupCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ProfileCategoryGroupCodeType', $this->obj);
     }

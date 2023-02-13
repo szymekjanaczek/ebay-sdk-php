@@ -21,7 +21,7 @@ class ShipToLocations extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'regionExcluded' => [
             'type' => 'DTS\eBaySDK\Browse\Types\Region',
             'repeatable' => true,

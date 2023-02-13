@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\Dimension;
 
 class DimensionTest extends TestCase
 {
-    private $obj;
+    private Dimension $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Dimension();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\Dimension', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

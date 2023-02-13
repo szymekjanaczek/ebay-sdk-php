@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\Base64BinaryType;
 
 class Base64BinaryTypeTest extends TestCase
 {
-    private $obj;
+    private Base64BinaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Base64BinaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\Base64BinaryType', $this->obj);
     }
 
-    public function testExtendsBase64BinaryType()
+    public function testExtendsBase64BinaryType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\Base64BinaryType', $this->obj);
     }

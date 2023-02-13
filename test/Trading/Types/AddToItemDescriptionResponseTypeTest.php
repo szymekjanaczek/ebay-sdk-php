@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddToItemDescriptionResponseType;
 
 class AddToItemDescriptionResponseTypeTest extends TestCase
 {
-    private $obj;
+    private AddToItemDescriptionResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddToItemDescriptionResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddToItemDescriptionResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

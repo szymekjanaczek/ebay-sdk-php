@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CheckLabelPrintEligibilityResponse;
 
 class CheckLabelPrintEligibilityResponseTest extends TestCase
 {
-    private $obj;
+    private CheckLabelPrintEligibilityResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CheckLabelPrintEligibilityResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckLabelPrintEligibilityResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType;
 
 class DisputeFilterTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DisputeFilterTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisputeFilterTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType', $this->obj);
     }

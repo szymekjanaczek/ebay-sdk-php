@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType;
 
 class StoreFontSizeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StoreFontSizeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreFontSizeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType', $this->obj);
     }

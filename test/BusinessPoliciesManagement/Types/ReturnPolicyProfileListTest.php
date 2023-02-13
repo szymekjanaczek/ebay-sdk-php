@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList;
 
 class ReturnPolicyProfileListTest extends TestCase
 {
-    private $obj;
+    private ReturnPolicyProfileList $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnPolicyProfileList();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfileList', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

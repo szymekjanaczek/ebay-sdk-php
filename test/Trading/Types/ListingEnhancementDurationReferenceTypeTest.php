@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ListingEnhancementDurationReferenceType;
 
 class ListingEnhancementDurationReferenceTypeTest extends TestCase
 {
-    private $obj;
+    private ListingEnhancementDurationReferenceType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingEnhancementDurationReferenceType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ListingEnhancementDurationReferenceType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

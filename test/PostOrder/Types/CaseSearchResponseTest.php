@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CaseSearchResponse;
 
 class CaseSearchResponseTest extends TestCase
 {
-    private $obj;
+    private CaseSearchResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseSearchResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CaseSearchResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

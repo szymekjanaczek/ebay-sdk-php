@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetEstimateRequest;
 
 class GetEstimateRequestTest extends TestCase
 {
-    private $obj;
+    private GetEstimateRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetEstimateRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetEstimateRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

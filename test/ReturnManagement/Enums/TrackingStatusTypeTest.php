@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\TrackingStatusType;
 
 class TrackingStatusTypeTest extends TestCase
 {
-    private $obj;
+    private TrackingStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TrackingStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\TrackingStatusType', $this->obj);
     }

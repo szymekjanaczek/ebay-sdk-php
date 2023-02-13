@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReturnPolicyEnabledDefinitionType;
 
 class ReturnPolicyEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnPolicyEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnPolicyEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReturnPolicyEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

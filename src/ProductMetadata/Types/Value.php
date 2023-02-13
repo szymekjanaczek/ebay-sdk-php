@@ -22,7 +22,7 @@ class Value extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'text' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\StringValue',
             'repeatable' => false,

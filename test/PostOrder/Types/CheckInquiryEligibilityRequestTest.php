@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRequest;
 
 class CheckInquiryEligibilityRequestTest extends TestCase
 {
-    private $obj;
+    private CheckInquiryEligibilityRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CheckInquiryEligibilityRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

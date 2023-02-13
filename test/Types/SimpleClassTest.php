@@ -17,24 +17,24 @@ use DTS\eBaySDK\Test\Mocks\URIType;
 
 class SimpleClassTest extends TestCase
 {
-    private $obj;
+    private SimpleClass $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SimpleClass();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\SimpleClass', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 
-    public function testGettingSettingProperties()
+    public function testGettingSettingProperties(): void
     {
         $this->obj->integer = 123;
         $this->assertEquals(123, $this->obj->integer);
@@ -171,76 +171,76 @@ class SimpleClassTest extends TestCase
         $this->assertEquals([1, 2, 3], $this->obj->anyTypes[6]);
     }
 
-    public function testIsSet()
+    public function testIsSet(): void
     {
         $this->obj->string = 'foo';
         $this->assertEquals(true, isset($this->obj->string));
     }
 
-    public function testUnSet()
+    public function testUnSet(): void
     {
         $this->obj->string = 'foo';
         unset($this->obj->string);
         $this->assertEquals(false, isset($this->obj->string));
     }
 
-    public function testGettingNonExistentProperty()
+    public function testGettingNonExistentProperty(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property foo');
 
         $this->obj->foo;
     }
 
-    public function testSettingNonExistentProperty()
+    public function testSettingNonExistentProperty(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property foo');
 
         $this->obj->foo = 'foo';
     }
 
-    public function testSettingPropertyWithAnInvalidType()
+    public function testSettingPropertyWithAnInvalidType(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for integer. Expected integer but got string');
 
         $this->obj->integer = 'foo';
     }
 
-    public function testIsSetNonExistentProperty()
+    public function testIsSetNonExistentProperty(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property foo');
 
         isset($this->obj->foo);
     }
 
-    public function testUnSetNonExistentProperty()
+    public function testUnSetNonExistentProperty(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property foo');
 
         isset($this->obj->foo);
     }
 
-    public function testSettingRepeatablePropertyWithAnInvalidType()
+    public function testSettingRepeatablePropertyWithAnInvalidType(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for integers. Expected integer but got string');
 
         $this->obj->integers[] = 'foo';
     }
 
-    public function testSettingRepeatablePropertyWithOneInvalidType()
+    public function testSettingRepeatablePropertyWithOneInvalidType(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for integers. Expected integer but got string');
 
         $this->obj->integers = [123, 'foo'];
     }
 
-    public function testSettingRepeatablePropertyDirectly()
+    public function testSettingRepeatablePropertyDirectly(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for integers. Expected DTS\eBaySDK\Types\RepeatableType but got integer');
 
         $this->obj->integers = 123;
     }
 
-    public function testCanGetElementMeta()
+    public function testCanGetElementMeta(): void
     {
         $meta = new stdClass();
         $meta->propertyName = 'SimpleClass';

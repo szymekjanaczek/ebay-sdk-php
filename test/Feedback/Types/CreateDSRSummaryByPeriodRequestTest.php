@@ -15,19 +15,19 @@ use DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest;
 
 class CreateDSRSummaryByPeriodRequestTest extends TestCase
 {
-    private $obj;
+    private CreateDSRSummaryByPeriodRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateDSRSummaryByPeriodRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\BaseServiceRequest', $this->obj);
     }

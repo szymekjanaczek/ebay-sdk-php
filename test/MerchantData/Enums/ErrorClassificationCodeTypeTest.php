@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\ErrorClassificationCodeType;
 
 class ErrorClassificationCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ErrorClassificationCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ErrorClassificationCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ErrorClassificationCodeType', $this->obj);
     }

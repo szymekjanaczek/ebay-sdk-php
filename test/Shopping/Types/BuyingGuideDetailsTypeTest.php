@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\BuyingGuideDetailsType;
 
 class BuyingGuideDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private BuyingGuideDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyingGuideDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\BuyingGuideDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

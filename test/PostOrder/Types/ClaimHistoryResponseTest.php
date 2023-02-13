@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse;
 
 class ClaimHistoryResponseTest extends TestCase
 {
-    private $obj;
+    private ClaimHistoryResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ClaimHistoryResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

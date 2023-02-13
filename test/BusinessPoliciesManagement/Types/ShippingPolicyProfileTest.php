@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile;
 
 class ShippingPolicyProfileTest extends TestCase
 {
-    private $obj;
+    private ShippingPolicyProfile $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingPolicyProfile();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile', $this->obj);
     }
 
-    public function testExtendsSellerProfile()
+    public function testExtendsSellerProfile(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfile', $this->obj);
     }

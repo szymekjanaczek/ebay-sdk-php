@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType;
 
 class MinimumFeedbackScoreDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private MinimumFeedbackScoreDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MinimumFeedbackScoreDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

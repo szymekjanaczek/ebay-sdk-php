@@ -27,7 +27,7 @@ class StandardsProfile extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'cycle' => [
             'type' => 'DTS\eBaySDK\Analytics\Types\Cycle',
             'repeatable' => false,

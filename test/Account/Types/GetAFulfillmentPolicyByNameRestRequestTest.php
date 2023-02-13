@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest;
 
 class GetAFulfillmentPolicyByNameRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetAFulfillmentPolicyByNameRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAFulfillmentPolicyByNameRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

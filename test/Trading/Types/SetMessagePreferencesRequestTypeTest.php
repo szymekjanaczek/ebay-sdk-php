@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetMessagePreferencesRequestType;
 
 class SetMessagePreferencesRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetMessagePreferencesRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetMessagePreferencesRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetMessagePreferencesRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

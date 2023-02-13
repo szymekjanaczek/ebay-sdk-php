@@ -27,7 +27,7 @@ class InventoryItem extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'availability' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\Availability',
             'repeatable' => false,

@@ -15,14 +15,14 @@ use DTS\eBaySDK\RelatedItemsManagement\Enums\BundleDetailEnum;
 
 class BundleDetailEnumTest extends TestCase
 {
-    private $obj;
+    private BundleDetailEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BundleDetailEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Enums\BundleDetailEnum', $this->obj);
     }

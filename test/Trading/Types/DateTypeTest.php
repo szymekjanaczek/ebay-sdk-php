@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DateType;
 
 class DateTypeTest extends TestCase
 {
-    private $obj;
+    private DateType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DateType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DateType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -7,7 +7,7 @@ class StatusCode
 {
     use StatusCodeTrait;
 
-    public function __construct($statusCode)
+    public function __construct(int $statusCode)
     {
         $this->statusCode = $statusCode;
     }

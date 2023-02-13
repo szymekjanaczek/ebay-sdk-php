@@ -26,7 +26,7 @@ class SellingSummaryType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ActiveAuctionCount' => [
             'type' => 'integer',
             'repeatable' => false,

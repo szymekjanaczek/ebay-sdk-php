@@ -15,14 +15,14 @@ use DTS\eBaySDK\Shopping\Enums\CountryCodeType;
 
 class CountryCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CountryCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CountryCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\CountryCodeType', $this->obj);
     }

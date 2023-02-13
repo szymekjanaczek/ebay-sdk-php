@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\PriceQuantityResponse;
 
 class PriceQuantityResponseTest extends TestCase
 {
-    private $obj;
+    private PriceQuantityResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PriceQuantityResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PriceQuantityResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

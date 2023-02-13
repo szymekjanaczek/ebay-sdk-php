@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AccessRuleStatusCodeType;
 
 class AccessRuleStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AccessRuleStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AccessRuleStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AccessRuleStatusCodeType', $this->obj);
     }

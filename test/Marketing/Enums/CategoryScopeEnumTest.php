@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum;
 
 class CategoryScopeEnumTest extends TestCase
 {
-    private $obj;
+    private CategoryScopeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryScopeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\CategoryScopeEnum', $this->obj);
     }

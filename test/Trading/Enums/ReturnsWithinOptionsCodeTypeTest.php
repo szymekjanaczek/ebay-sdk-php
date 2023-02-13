@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ReturnsWithinOptionsCodeType;
 
 class ReturnsWithinOptionsCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnsWithinOptionsCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnsWithinOptionsCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ReturnsWithinOptionsCodeType', $this->obj);
     }

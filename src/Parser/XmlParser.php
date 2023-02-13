@@ -13,22 +13,19 @@ class XmlParser
     /**
      * @var string The name of the PHP class that will be created.
      */
-    private $rootObjectClass;
+    private string $rootObjectClass;
 
     /**
      * @var mixed The PHP object created from the XML.
      */
     private $rootObject;
 
-    /**
-     * @var SplStack
-     */
-    private $metaStack;
+    private SplStack $metaStack;
 
     /**
      * @param string $rootObjectClass The name of the PHP class that will be created.
      */
-    public function __construct($rootObjectClass)
+    public function __construct(string $rootObjectClass)
     {
         $this->rootObjectClass = $rootObjectClass;
 
@@ -66,7 +63,7 @@ class XmlParser
      * @param string $name The name of the element.
      * @param array $attributes Associative array of the element's attributes.
      */
-    private function startElement($parser, $name, array $attributes)
+    private function startElement($parser, $name, array $attributes): void
     {
         $this->metaStack->push($this->getPhpMeta($this->normalizeElementName($name), $attributes));
     }
@@ -77,7 +74,7 @@ class XmlParser
      * @param resource $parser Reference to the XML parser calling the handler.
      * @param string $cdata The character data.
      */
-    private function cdata($parser, $cdata)
+    private function cdata($parser, $cdata): void
     {
         $this->metaStack->top()->strData .= $cdata;
     }
@@ -91,7 +88,7 @@ class XmlParser
      * @param resource $parser Reference to the XML parser calling the handler.
      * @param string $name The name of the element.
      */
-    private function endElement($parser, $name)
+    private function endElement($parser, $name): void
     {
         $meta = $this->metaStack->pop();
 
@@ -154,7 +151,7 @@ class XmlParser
      *
      * @return stdClass
      */
-    private function getPhpMeta($elementName, array $attributes)
+    private function getPhpMeta(string $elementName, array $attributes)
     {
         $meta = new stdClass();
         $meta->propertyName = '';
@@ -251,7 +248,7 @@ class XmlParser
      *
      * @return bool True if the property type is simple.
      */
-    private function isSimplePhpType(stdClass $meta)
+    private function isSimplePhpType(stdClass $meta): bool
     {
         $phpTypes = explode('|', $meta->phpType);
 
@@ -278,7 +275,7 @@ class XmlParser
      *
      * @return bool True if the property needs to be set by _value_.
      */
-    private function setByValue(stdClass $meta)
+    private function setByValue(stdClass $meta): bool
     {
         return (
             is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\Base64BinaryType', false) ||

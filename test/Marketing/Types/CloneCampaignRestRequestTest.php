@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest;
 
 class CloneCampaignRestRequestTest extends TestCase
 {
-    private $obj;
+    private CloneCampaignRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CloneCampaignRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest', $this->obj);
     }
 
-    public function testExtendsCloneCampaignRequest()
+    public function testExtendsCloneCampaignRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CloneCampaignRequest', $this->obj);
     }

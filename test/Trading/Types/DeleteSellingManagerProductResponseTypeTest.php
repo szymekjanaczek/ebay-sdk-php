@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DeleteSellingManagerProductResponseType;
 
 class DeleteSellingManagerProductResponseTypeTest extends TestCase
 {
-    private $obj;
+    private DeleteSellingManagerProductResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteSellingManagerProductResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DeleteSellingManagerProductResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

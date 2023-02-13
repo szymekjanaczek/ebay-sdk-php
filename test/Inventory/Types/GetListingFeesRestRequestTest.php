@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\GetListingFeesRestRequest;
 
 class GetListingFeesRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetListingFeesRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetListingFeesRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\GetListingFeesRestRequest', $this->obj);
     }
 
-    public function testExtendsOfferKeysWithId()
+    public function testExtendsOfferKeysWithId(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\OfferKeysWithId', $this->obj);
     }

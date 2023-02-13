@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest;
 
 class CreateAPaymentPolicyRestRequestTest extends TestCase
 {
-    private $obj;
+    private CreateAPaymentPolicyRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateAPaymentPolicyRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest', $this->obj);
     }
 
-    public function testExtendsPaymentPolicyRequest()
+    public function testExtendsPaymentPolicyRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\PaymentPolicyRequest', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\UpdateTrackingRequest;
 
 class UpdateTrackingRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateTrackingRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateTrackingRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\UpdateTrackingRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

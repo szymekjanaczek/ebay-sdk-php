@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ItemConditionCodeType;
 
 class ItemConditionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ItemConditionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemConditionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ItemConditionCodeType', $this->obj);
     }

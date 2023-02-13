@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\ItemGroupTypeEnum;
 
 class ItemGroupTypeEnumTest extends TestCase
 {
-    private $obj;
+    private ItemGroupTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemGroupTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\ItemGroupTypeEnum', $this->obj);
     }

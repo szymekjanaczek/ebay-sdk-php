@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DisputeFilterCountType;
 
 class DisputeFilterCountTypeTest extends TestCase
 {
-    private $obj;
+    private DisputeFilterCountType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisputeFilterCountType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DisputeFilterCountType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

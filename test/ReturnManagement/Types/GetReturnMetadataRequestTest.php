@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataRequest;
 
 class GetReturnMetadataRequestTest extends TestCase
 {
-    private $obj;
+    private GetReturnMetadataRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnMetadataRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\GetReturnMetadataRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
     }

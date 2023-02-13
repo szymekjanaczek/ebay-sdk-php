@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest;
 
 class AppealToCustomerSupportRequestTest extends TestCase
 {
-    private $obj;
+    private AppealToCustomerSupportRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AppealToCustomerSupportRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest', $this->obj);
     }

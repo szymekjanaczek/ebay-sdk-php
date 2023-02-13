@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DataElementSetType;
 
 class DataElementSetTypeTest extends TestCase
 {
-    private $obj;
+    private DataElementSetType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DataElementSetType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DataElementSetType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

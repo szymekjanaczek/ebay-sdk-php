@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType;
 
 class EBayPaymentMismatchDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private EBayPaymentMismatchDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBayPaymentMismatchDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

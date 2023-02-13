@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EBayMotorsProStreetCountDefinitionType;
 
 class EBayMotorsProStreetCountDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private EBayMotorsProStreetCountDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBayMotorsProStreetCountDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EBayMotorsProStreetCountDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

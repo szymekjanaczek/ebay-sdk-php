@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReviseCheckoutStatusRequestType;
 
 class ReviseCheckoutStatusRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseCheckoutStatusRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseCheckoutStatusRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseCheckoutStatusRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

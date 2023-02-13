@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PictureManagerPictureType;
 
 class PictureManagerPictureTypeTest extends TestCase
 {
-    private $obj;
+    private PictureManagerPictureType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureManagerPictureType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PictureManagerPictureType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

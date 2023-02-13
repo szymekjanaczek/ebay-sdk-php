@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\GeoCoordinates;
 
 class GeoCoordinatesTest extends TestCase
 {
-    private $obj;
+    private GeoCoordinates $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GeoCoordinates();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\GeoCoordinates', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

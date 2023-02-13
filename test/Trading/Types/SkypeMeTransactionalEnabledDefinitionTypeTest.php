@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SkypeMeTransactionalEnabledDefinitionType;
 
 class SkypeMeTransactionalEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private SkypeMeTransactionalEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SkypeMeTransactionalEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SkypeMeTransactionalEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

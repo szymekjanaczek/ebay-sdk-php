@@ -29,7 +29,7 @@ class Campaign extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'campaignCriterion' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\CampaignCriterion',
             'repeatable' => false,

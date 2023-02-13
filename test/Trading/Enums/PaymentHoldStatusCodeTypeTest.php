@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType;
 
 class PaymentHoldStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PaymentHoldStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentHoldStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType', $this->obj);
     }

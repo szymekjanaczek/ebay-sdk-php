@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\ShipmentStatusType;
 
 class ShipmentStatusTypeTest extends TestCase
 {
-    private $obj;
+    private ShipmentStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShipmentStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\ShipmentStatusType', $this->obj);
     }

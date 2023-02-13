@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DeliveryStatusType;
 
 class DeliveryStatusTypeTest extends TestCase
 {
-    private $obj;
+    private DeliveryStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeliveryStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DeliveryStatusType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

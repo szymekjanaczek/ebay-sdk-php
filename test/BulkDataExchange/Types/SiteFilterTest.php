@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\SiteFilter;
 
 class SiteFilterTest extends TestCase
 {
-    private $obj;
+    private SiteFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SiteFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\SiteFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

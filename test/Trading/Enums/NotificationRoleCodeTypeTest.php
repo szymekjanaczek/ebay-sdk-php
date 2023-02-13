@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\NotificationRoleCodeType;
 
 class NotificationRoleCodeTypeTest extends TestCase
 {
-    private $obj;
+    private NotificationRoleCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NotificationRoleCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\NotificationRoleCodeType', $this->obj);
     }

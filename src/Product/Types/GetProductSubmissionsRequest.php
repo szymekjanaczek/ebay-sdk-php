@@ -24,7 +24,7 @@ class GetProductSubmissionsRequest extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'productSubmissionFilter' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionFilter',
             'repeatable' => true,

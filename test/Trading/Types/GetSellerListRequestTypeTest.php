@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetSellerListRequestType;
 
 class GetSellerListRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetSellerListRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSellerListRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetSellerListRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

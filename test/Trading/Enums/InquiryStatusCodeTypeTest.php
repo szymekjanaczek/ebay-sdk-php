@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\InquiryStatusCodeType;
 
 class InquiryStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private InquiryStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InquiryStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\InquiryStatusCodeType', $this->obj);
     }

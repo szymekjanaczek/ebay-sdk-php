@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\TypeSpecificInformation;
 
 class TypeSpecificInformationTest extends TestCase
 {
-    private $obj;
+    private TypeSpecificInformation $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TypeSpecificInformation();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\TypeSpecificInformation', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

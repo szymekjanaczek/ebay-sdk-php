@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\ReturnRefundInitiatorEnum;
 
 class ReturnRefundInitiatorEnumTest extends TestCase
 {
-    private $obj;
+    private ReturnRefundInitiatorEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnRefundInitiatorEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\ReturnRefundInitiatorEnum', $this->obj);
     }

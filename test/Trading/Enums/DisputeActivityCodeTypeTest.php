@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType;
 
 class DisputeActivityCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DisputeActivityCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisputeActivityCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType', $this->obj);
     }

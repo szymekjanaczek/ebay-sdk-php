@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\SortOrder;
 
 class SortOrderTest extends TestCase
 {
-    private $obj;
+    private SortOrder $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SortOrder();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\SortOrder', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

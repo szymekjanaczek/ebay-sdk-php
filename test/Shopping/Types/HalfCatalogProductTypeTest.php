@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\HalfCatalogProductType;
 
 class HalfCatalogProductTypeTest extends TestCase
 {
-    private $obj;
+    private HalfCatalogProductType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new HalfCatalogProductType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\HalfCatalogProductType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

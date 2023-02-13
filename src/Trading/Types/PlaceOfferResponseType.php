@@ -22,7 +22,7 @@ class PlaceOfferResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'SellingStatus' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
             'repeatable' => false,

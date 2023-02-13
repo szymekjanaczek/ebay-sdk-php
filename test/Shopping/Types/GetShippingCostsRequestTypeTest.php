@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType;
 
 class GetShippingCostsRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetShippingCostsRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetShippingCostsRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }

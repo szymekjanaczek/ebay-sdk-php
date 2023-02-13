@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\RegionSet;
 
 class RegionSetTest extends TestCase
 {
-    private $obj;
+    private RegionSet $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RegionSet();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\RegionSet', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

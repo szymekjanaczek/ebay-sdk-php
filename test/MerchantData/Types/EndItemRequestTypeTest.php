@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\EndItemRequestType;
 
 class EndItemRequestTypeTest extends TestCase
 {
-    private $obj;
+    private EndItemRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EndItemRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\EndItemRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractRequestType', $this->obj);
     }

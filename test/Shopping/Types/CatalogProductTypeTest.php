@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\CatalogProductType;
 
 class CatalogProductTypeTest extends TestCase
 {
-    private $obj;
+    private CatalogProductType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CatalogProductType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\CatalogProductType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest;
 
 class GetASpecificSellerProfileRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetASpecificSellerProfileRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetASpecificSellerProfileRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

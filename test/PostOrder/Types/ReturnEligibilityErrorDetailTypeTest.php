@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType;
 
 class ReturnEligibilityErrorDetailTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnEligibilityErrorDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnEligibilityErrorDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

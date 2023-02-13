@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType;
 
 class RCSPaymentStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private RCSPaymentStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RCSPaymentStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType', $this->obj);
     }

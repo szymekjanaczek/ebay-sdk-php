@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\EBaySubscriptionTypeCodeType;
 
 class EBaySubscriptionTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private EBaySubscriptionTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBaySubscriptionTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\EBaySubscriptionTypeCodeType', $this->obj);
     }

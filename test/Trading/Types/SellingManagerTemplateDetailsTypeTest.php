@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsType;
 
 class SellingManagerTemplateDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerTemplateDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerTemplateDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

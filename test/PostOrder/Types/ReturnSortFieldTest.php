@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ReturnSortField;
 
 class ReturnSortFieldTest extends TestCase
 {
-    private $obj;
+    private ReturnSortField $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnSortField();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnSortField', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

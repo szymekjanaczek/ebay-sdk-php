@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetMyeBayRemindersResponseType;
 
 class GetMyeBayRemindersResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetMyeBayRemindersResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetMyeBayRemindersResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetMyeBayRemindersResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

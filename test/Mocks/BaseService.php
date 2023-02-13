@@ -8,7 +8,7 @@ class BaseService extends \DTS\eBaySDK\Services\BaseService
         parent::__construct('http://production.com', 'http://sandbox.com', $config);
     }
 
-    protected function getEbayHeaders($operationName)
+    protected function getEbayHeaders($operationName): array
     {
         return ['fooHdr' => $operationName];
     }

@@ -20,7 +20,7 @@ class GetDSRSummaryResponse extends BaseServiceResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'DSRSummary' => [
             'type' => 'DTS\eBaySDK\Feedback\Types\DSRSummary',
             'repeatable' => true,

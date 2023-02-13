@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\PickupStatusCodeType;
 
 class PickupStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PickupStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PickupStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PickupStatusCodeType', $this->obj);
     }

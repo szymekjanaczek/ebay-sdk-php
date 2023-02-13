@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType;
 
 class ErrorHandlingCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ErrorHandlingCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ErrorHandlingCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType', $this->obj);
     }

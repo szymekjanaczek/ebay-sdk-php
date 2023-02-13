@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VariationsEnabledDefinitionType;
 
 class VariationsEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private VariationsEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VariationsEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VariationsEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

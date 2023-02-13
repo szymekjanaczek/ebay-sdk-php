@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\FindPopularSearchesResponseType;
 
 class FindPopularSearchesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private FindPopularSearchesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindPopularSearchesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\FindPopularSearchesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
     }

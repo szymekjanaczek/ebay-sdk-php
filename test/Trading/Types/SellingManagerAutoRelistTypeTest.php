@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType;
 
 class SellingManagerAutoRelistTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerAutoRelistType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerAutoRelistType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

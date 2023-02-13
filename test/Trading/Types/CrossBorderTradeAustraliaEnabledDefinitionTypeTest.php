@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CrossBorderTradeAustraliaEnabledDefinitionType;
 
 class CrossBorderTradeAustraliaEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private CrossBorderTradeAustraliaEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CrossBorderTradeAustraliaEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CrossBorderTradeAustraliaEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

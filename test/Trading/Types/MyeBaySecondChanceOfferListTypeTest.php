@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MyeBaySecondChanceOfferListType;
 
 class MyeBaySecondChanceOfferListTypeTest extends TestCase
 {
-    private $obj;
+    private MyeBaySecondChanceOfferListType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyeBaySecondChanceOfferListType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MyeBaySecondChanceOfferListType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DigitalGoodInfoType;
 
 class DigitalGoodInfoTypeTest extends TestCase
 {
-    private $obj;
+    private DigitalGoodInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DigitalGoodInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DigitalGoodInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

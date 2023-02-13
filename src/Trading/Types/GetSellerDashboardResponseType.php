@@ -25,7 +25,7 @@ class GetSellerDashboardResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'SearchStanding' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SearchStandingDashboardType',
             'repeatable' => false,

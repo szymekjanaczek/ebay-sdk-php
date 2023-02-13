@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\ShippingFeatureCodeType;
 
 class ShippingFeatureCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ShippingFeatureCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingFeatureCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ShippingFeatureCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum;
 
 class LanguageScriptEnumTest extends TestCase
 {
-    private $obj;
+    private LanguageScriptEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LanguageScriptEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\TransactionReferenceType;
 
 class TransactionReferenceTypeTest extends TestCase
 {
-    private $obj;
+    private TransactionReferenceType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TransactionReferenceType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\TransactionReferenceType', $this->obj);
     }
 
-    public function testExtendsStringType()
+    public function testExtendsStringType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }

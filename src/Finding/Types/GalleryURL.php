@@ -21,7 +21,7 @@ class GalleryURL extends URIType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'gallerySize' => [
             'type' => 'string',
             'repeatable' => false,

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType;
 
 class SellerPaymentMethodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellerPaymentMethodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerPaymentMethodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType', $this->obj);
     }

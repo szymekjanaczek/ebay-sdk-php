@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType;
 
 class SellingManagerAutoSecondChanceOfferTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerAutoSecondChanceOfferTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerAutoSecondChanceOfferTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType', $this->obj);
     }

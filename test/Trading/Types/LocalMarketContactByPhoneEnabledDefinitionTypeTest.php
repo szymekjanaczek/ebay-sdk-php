@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalMarketContactByPhoneEnabledDefinitionType;
 
 class LocalMarketContactByPhoneEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalMarketContactByPhoneEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalMarketContactByPhoneEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketContactByPhoneEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

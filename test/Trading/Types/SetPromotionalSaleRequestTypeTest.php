@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetPromotionalSaleRequestType;
 
 class SetPromotionalSaleRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetPromotionalSaleRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetPromotionalSaleRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetPromotionalSaleRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\ConditionHistogramContainer;
 
 class ConditionHistogramContainerTest extends TestCase
 {
-    private $obj;
+    private ConditionHistogramContainer $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConditionHistogramContainer();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\ConditionHistogramContainer', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

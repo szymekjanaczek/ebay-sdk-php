@@ -19,7 +19,7 @@ class GetCompatibilitySearchValuesBulkRequest extends GetProductSearchValuesBase
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'propertyName' => [
             'type' => 'string',
             'repeatable' => true,

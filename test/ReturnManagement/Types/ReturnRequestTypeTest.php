@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType;
 
 class ReturnRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

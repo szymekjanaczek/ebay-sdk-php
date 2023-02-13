@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType;
 
 class NumberOfPolicyViolationsDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private NumberOfPolicyViolationsDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NumberOfPolicyViolationsDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

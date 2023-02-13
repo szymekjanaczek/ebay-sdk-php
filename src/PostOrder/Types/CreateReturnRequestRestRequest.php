@@ -19,7 +19,7 @@ class CreateReturnRequestRestRequest extends CreateReturnRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'fieldgroups' => [
             'type' => 'string',
             'repeatable' => false,

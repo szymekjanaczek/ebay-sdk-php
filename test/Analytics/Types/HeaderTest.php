@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\Header;
 
 class HeaderTest extends TestCase
 {
-    private $obj;
+    private Header $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Header();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Header', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

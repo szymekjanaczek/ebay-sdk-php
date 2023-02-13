@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ItemTotalsType;
 
 class ItemTotalsTypeTest extends TestCase
 {
-    private $obj;
+    private ItemTotalsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemTotalsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ItemTotalsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

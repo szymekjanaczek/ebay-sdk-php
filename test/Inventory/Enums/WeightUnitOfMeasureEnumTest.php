@@ -15,14 +15,14 @@ use DTS\eBaySDK\Inventory\Enums\WeightUnitOfMeasureEnum;
 
 class WeightUnitOfMeasureEnumTest extends TestCase
 {
-    private $obj;
+    private WeightUnitOfMeasureEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new WeightUnitOfMeasureEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\WeightUnitOfMeasureEnum', $this->obj);
     }

@@ -3,7 +3,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 
 class ComplexClass extends SimpleClass
 {
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'foo' => [
             'type' => 'string',
             'repeatable' => false,

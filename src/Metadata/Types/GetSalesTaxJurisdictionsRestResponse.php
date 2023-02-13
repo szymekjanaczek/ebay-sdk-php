@@ -26,7 +26,7 @@ class GetSalesTaxJurisdictionsRestResponse extends SalesTaxJurisdictions
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'errors' => [
             'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,

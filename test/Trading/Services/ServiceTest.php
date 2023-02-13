@@ -9,7 +9,7 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends TestCase
 {
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = TradingBaseService::getConfigDefinitions();
 
@@ -37,7 +37,7 @@ class ServiceTest extends TestCase
         ], $d['siteId']);
     }
 
-    public function testRequiredEbayHeaders()
+    public function testRequiredEbayHeaders(): void
     {
         $h = new HttpHandler();
 
@@ -67,7 +67,7 @@ class ServiceTest extends TestCase
         $this->assertArrayNotHasKey(TradingBaseService::HDR_AUTHORIZATION, $h->headers);
     }
 
-    public function testOptionalEbayHeaders()
+    public function testOptionalEbayHeaders(): void
     {
         $h = new HttpHandler();
 

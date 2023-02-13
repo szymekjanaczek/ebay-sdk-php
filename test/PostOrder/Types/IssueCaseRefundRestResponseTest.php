@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestResponse;
 
 class IssueCaseRefundRestResponseTest extends TestCase
 {
-    private $obj;
+    private IssueCaseRefundRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new IssueCaseRefundRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\IssueCaseRefundRestResponse', $this->obj);
     }
 
-    public function testExtendsVoluntaryRefundResponse()
+    public function testExtendsVoluntaryRefundResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\VoluntaryRefundResponse', $this->obj);
     }

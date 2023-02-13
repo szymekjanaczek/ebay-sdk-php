@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\SellingLimit;
 
 class SellingLimitTest extends TestCase
 {
-    private $obj;
+    private SellingLimit $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingLimit();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SellingLimit', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

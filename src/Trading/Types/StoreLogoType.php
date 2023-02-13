@@ -22,7 +22,7 @@ class StoreLogoType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'LogoID' => [
             'type' => 'integer',
             'repeatable' => false,

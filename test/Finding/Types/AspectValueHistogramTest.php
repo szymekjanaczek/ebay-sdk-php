@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\AspectValueHistogram;
 
 class AspectValueHistogramTest extends TestCase
 {
-    private $obj;
+    private AspectValueHistogram $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AspectValueHistogram();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\AspectValueHistogram', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

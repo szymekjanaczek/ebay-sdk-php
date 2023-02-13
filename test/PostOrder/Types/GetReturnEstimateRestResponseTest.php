@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestResponse;
 
 class GetReturnEstimateRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetReturnEstimateRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnEstimateRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnEstimateRestResponse', $this->obj);
     }
 
-    public function testExtendsGetEstimateResponse()
+    public function testExtendsGetEstimateResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetEstimateResponse', $this->obj);
     }

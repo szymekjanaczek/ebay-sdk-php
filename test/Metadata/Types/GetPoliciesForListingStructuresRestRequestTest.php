@@ -15,19 +15,19 @@ use DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestRequest;
 
 class GetPoliciesForListingStructuresRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetPoliciesForListingStructuresRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetPoliciesForListingStructuresRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

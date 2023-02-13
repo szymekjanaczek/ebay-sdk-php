@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VerifyAddFixedPriceItemResponseType;
 
 class VerifyAddFixedPriceItemResponseTypeTest extends TestCase
 {
-    private $obj;
+    private VerifyAddFixedPriceItemResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VerifyAddFixedPriceItemResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VerifyAddFixedPriceItemResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

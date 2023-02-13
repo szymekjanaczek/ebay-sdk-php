@@ -29,7 +29,7 @@ class MerchantExternalProfile extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'acceptedPaymentMethods' => [
             'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
             'repeatable' => false,

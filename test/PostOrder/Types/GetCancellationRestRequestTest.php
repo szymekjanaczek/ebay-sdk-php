@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest;
 
 class GetCancellationRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetCancellationRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCancellationRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetCancellationRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

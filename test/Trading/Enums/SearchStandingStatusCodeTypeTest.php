@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SearchStandingStatusCodeType;
 
 class SearchStandingStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SearchStandingStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SearchStandingStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SearchStandingStatusCodeType', $this->obj);
     }

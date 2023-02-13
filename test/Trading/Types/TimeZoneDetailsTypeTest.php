@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\TimeZoneDetailsType;
 
 class TimeZoneDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private TimeZoneDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TimeZoneDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\TimeZoneDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

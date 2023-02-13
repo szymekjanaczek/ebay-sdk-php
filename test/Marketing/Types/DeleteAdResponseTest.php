@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\DeleteAdResponse;
 
 class DeleteAdResponseTest extends TestCase
 {
-    private $obj;
+    private DeleteAdResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteAdResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\DeleteAdResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -20,7 +20,7 @@ class GetFileResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'files' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnFileType',
             'repeatable' => true,

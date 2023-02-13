@@ -11,7 +11,7 @@ class CredentialsProviderTest extends TestCase
 {
     use ManageEnv;
 
-    public function testCreatesFromEnvironmentVariables()
+    public function testCreatesFromEnvironmentVariables(): void
     {
         $this->clearEnv();
         putenv(CredentialsProvider::ENV_APP_ID . '=111');
@@ -26,7 +26,7 @@ class CredentialsProviderTest extends TestCase
         $this->assertEquals('333', $c->getDevId());
     }
 
-    public function testReturnsExceptionIfNoEnvironmentVariables()
+    public function testReturnsExceptionIfNoEnvironmentVariables(): never
     {
         $this->clearEnv();
 
@@ -39,7 +39,7 @@ class CredentialsProviderTest extends TestCase
         throw $c;
     }
 
-    public function testCreatesFromIniFile()
+    public function testCreatesFromIniFile(): void
     {
         $ini = <<<EOT
 [default]
@@ -62,7 +62,7 @@ EOT;
         unlink($dir . '/credentials');
     }
 
-    public function testEnsuresIniFileIsValid()
+    public function testEnsuresIniFileIsValid(): never
     {
         $dir = $this->clearEnv();
         file_put_contents($dir . '/credentials', "wef \n=\nwef");
@@ -79,7 +79,7 @@ EOT;
         throw $c;
     }
 
-    public function testEnsuresIniFileExists()
+    public function testEnsuresIniFileExists(): never
     {
         $this->clearEnv();
         putenv('HOME=/does/not/exist');
@@ -93,7 +93,7 @@ EOT;
         throw $c;
     }
 
-    public function testEnsuresProfileIsNotEmpty()
+    public function testEnsuresProfileIsNotEmpty(): never
     {
         $ini = <<<EOT
 [default]
@@ -118,7 +118,7 @@ EOT;
         throw $c;
     }
 
-    public function testEnsuresFileIsNotEmpty()
+    public function testEnsuresFileIsNotEmpty(): never
     {
         $dir = $this->clearEnv();
         file_put_contents($dir . '/credentials', '');
@@ -135,11 +135,11 @@ EOT;
         throw $c;
     }
 
-    public function testMemoize()
+    public function testMemoize(): void
     {
         $called = 0;
         $c = new Credentials('111', '222', '333');
-        $f = function () use (&$called, &$c) {
+        $f = function () use (&$called, &$c): Credentials {
             $called++;
             return $c;
         };
@@ -166,7 +166,7 @@ EOT;
 
         $a = CredentialsProvider::ini('foo');
         $b = CredentialsProvider::ini();
-        $c = function () {
+        $c = function (): never {
             throw new InvalidArgumentException('Should not be called');
         };
 
@@ -180,7 +180,7 @@ EOT;
         unlink($dir . '/credentials');
     }
 
-    public function testTrysEnvVarByDefault()
+    public function testTrysEnvVarByDefault(): void
     {
         $this->clearEnv();
         putenv(CredentialsProvider::ENV_APP_ID . '=111');
@@ -195,7 +195,7 @@ EOT;
         $this->assertEquals('333', $c->getDevId());
     }
 
-    public function testTrysIniByDefault()
+    public function testTrysIniByDefault(): void
     {
         $ini = <<<EOT
 [default]

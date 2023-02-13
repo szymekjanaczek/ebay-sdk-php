@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\Record;
 
 class RecordTest extends TestCase
 {
-    private $obj;
+    private Record $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Record();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Record', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType;
 
 class CombinedPaymentOptionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CombinedPaymentOptionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CombinedPaymentOptionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType', $this->obj);
     }

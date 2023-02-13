@@ -15,19 +15,19 @@ use DTS\eBaySDK\Metadata\Types\SalesTaxJurisdictions;
 
 class SalesTaxJurisdictionsTest extends TestCase
 {
-    private $obj;
+    private SalesTaxJurisdictions $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SalesTaxJurisdictions();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\SalesTaxJurisdictions', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

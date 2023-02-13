@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\LineItemReference;
 
 class LineItemReferenceTest extends TestCase
 {
-    private $obj;
+    private LineItemReference $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LineItemReference();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\LineItemReference', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

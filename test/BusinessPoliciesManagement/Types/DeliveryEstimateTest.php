@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimate;
 
 class DeliveryEstimateTest extends TestCase
 {
-    private $obj;
+    private DeliveryEstimate $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeliveryEstimate();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimate', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

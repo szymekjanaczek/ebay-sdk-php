@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType;
 
 class SocialAddressTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SocialAddressTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SocialAddressTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType', $this->obj);
     }

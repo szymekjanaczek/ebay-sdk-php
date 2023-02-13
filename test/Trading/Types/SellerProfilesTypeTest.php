@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerProfilesType;
 
 class SellerProfilesTypeTest extends TestCase
 {
-    private $obj;
+    private SellerProfilesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerProfilesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerProfilesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

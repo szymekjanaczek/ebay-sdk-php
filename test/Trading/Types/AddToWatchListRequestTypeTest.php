@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddToWatchListRequestType;
 
 class AddToWatchListRequestTypeTest extends TestCase
 {
-    private $obj;
+    private AddToWatchListRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddToWatchListRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddToWatchListRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

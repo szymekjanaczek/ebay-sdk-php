@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\MoneyMovementEntries;
 
 class MoneyMovementEntriesTest extends TestCase
 {
-    private $obj;
+    private MoneyMovementEntries $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MoneyMovementEntries();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\MoneyMovementEntries', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

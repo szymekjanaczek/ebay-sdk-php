@@ -6,14 +6,14 @@ use DTS\eBaySDK\Test\Mocks\HttpHeaders;
 
 class HttpHeadersTraitTest extends TestCase
 {
-    public function testNoHeaders()
+    public function testNoHeaders(): void
     {
         $h = new HttpHeaders([]);
 
         $this->assertEquals([], $h->getHeaders());
     }
 
-    public function testReturnsHeaders()
+    public function testReturnsHeaders(): void
     {
         $h = new HttpHeaders([
             'foo' => 'foo',
@@ -27,7 +27,7 @@ class HttpHeadersTraitTest extends TestCase
         ], $h->getHeaders());
     }
 
-    public function testReturnAHeader()
+    public function testReturnAHeader(): void
     {
         $h = new HttpHeaders([
             'foo' => 'foo',
@@ -39,7 +39,7 @@ class HttpHeadersTraitTest extends TestCase
         $this->assertEquals(['bar', 'foo'], $h->getHeader('bAR'));
     }
 
-    public function testHasHeader()
+    public function testHasHeader(): void
     {
         $h = new HttpHeaders([
             'foo' => 'foo',
@@ -51,7 +51,7 @@ class HttpHeadersTraitTest extends TestCase
         $this->assertEquals(true, $h->hasHeader('bAR'));
     }
 
-    public function testGetHeaderLine()
+    public function testGetHeaderLine(): void
     {
         $h = new HttpHeaders([
             'foo' => 'foo',

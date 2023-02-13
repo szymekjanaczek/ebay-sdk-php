@@ -8,7 +8,7 @@ use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
 class StrictPropertyTypesTest extends TestCase
 {
-    private $obj;
+    private ComplexClass $obj;
 
     protected function setUp(): void
     {
@@ -21,7 +21,7 @@ class StrictPropertyTypesTest extends TestCase
         Sdk::$STRICT_PROPERTY_TYPES = true;
     }
 
-    public function testSettingPropertyWithAnInvalidTypeAllowed()
+    public function testSettingPropertyWithAnInvalidTypeAllowed(): void
     {
         $this->obj->integer = 'foo';
         $this->obj->string = 123;
@@ -40,14 +40,14 @@ class StrictPropertyTypesTest extends TestCase
         $this->assertEquals(123, $this->obj->strings[0]);
     }
 
-    public function testSettingComplexPropertiesThrows()
+    public function testSettingComplexPropertiesThrows(): void
     {
         $this->expectException(InvalidPropertyTypeException::class);
 
         $this->obj->SimpleClass = 'foo';
     }
 
-    public function testSettingComplexRepeatablePropertiesThrows()
+    public function testSettingComplexRepeatablePropertiesThrows(): void
     {
         $this->expectException(InvalidPropertyTypeException::class);
 

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ReturnCloseInfoType;
 
 class ReturnCloseInfoTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnCloseInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnCloseInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnCloseInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

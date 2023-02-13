@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType;
 
 class CheckoutStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CheckoutStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CheckoutStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType', $this->obj);
     }

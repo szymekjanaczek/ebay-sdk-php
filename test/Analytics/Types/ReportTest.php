@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\Report;
 
 class ReportTest extends TestCase
 {
-    private $obj;
+    private Report $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Report();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Report', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

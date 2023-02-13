@@ -29,7 +29,7 @@ class FeedbackHistoryType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'BidRetractionFeedbackPeriods' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,

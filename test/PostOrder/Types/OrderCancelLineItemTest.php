@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem;
 
 class OrderCancelLineItemTest extends TestCase
 {
-    private $obj;
+    private OrderCancelLineItem $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderCancelLineItem();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

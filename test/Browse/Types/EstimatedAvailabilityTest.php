@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\EstimatedAvailability;
 
 class EstimatedAvailabilityTest extends TestCase
 {
-    private $obj;
+    private EstimatedAvailability $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EstimatedAvailability();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\EstimatedAvailability', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

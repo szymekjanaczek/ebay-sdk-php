@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetFeedbackRequestType;
 
 class GetFeedbackRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetFeedbackRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetFeedbackRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetFeedbackRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

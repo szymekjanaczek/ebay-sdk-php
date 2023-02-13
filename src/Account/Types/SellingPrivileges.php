@@ -21,7 +21,7 @@ class SellingPrivileges extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'sellerRegistrationCompleted' => [
             'type' => 'boolean',
             'repeatable' => false,

@@ -23,7 +23,7 @@ class ListingPolicies extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'fulfillmentPolicyId' => [
             'type' => 'string',
             'repeatable' => false,

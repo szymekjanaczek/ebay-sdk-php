@@ -15,14 +15,14 @@ use DTS\eBaySDK\Inventory\Enums\LengthUnitOfMeasureEnum;
 
 class LengthUnitOfMeasureEnumTest extends TestCase
 {
-    private $obj;
+    private LengthUnitOfMeasureEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LengthUnitOfMeasureEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\LengthUnitOfMeasureEnum', $this->obj);
     }

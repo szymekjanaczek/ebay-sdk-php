@@ -15,19 +15,19 @@ use DTS\eBaySDK\HalfFinding\Types\SortByType;
 
 class SortByTypeTest extends TestCase
 {
-    private $obj;
+    private SortByType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SortByType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\SortByType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EANIdentifierEnabledDefinitionType;
 
 class EANIdentifierEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private EANIdentifierEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EANIdentifierEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EANIdentifierEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

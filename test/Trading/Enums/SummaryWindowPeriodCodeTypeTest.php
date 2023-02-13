@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SummaryWindowPeriodCodeType;
 
 class SummaryWindowPeriodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SummaryWindowPeriodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SummaryWindowPeriodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SummaryWindowPeriodCodeType', $this->obj);
     }

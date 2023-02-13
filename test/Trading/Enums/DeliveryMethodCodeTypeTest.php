@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DeliveryMethodCodeType;
 
 class DeliveryMethodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DeliveryMethodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeliveryMethodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DeliveryMethodCodeType', $this->obj);
     }

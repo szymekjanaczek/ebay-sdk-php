@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetItemShippingResponseType;
 
 class GetItemShippingResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetItemShippingResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemShippingResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetItemShippingResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

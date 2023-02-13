@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoResponse;
 
 class ProvideTrackingInfoResponseTest extends TestCase
 {
-    private $obj;
+    private ProvideTrackingInfoResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideTrackingInfoResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse', $this->obj);
     }

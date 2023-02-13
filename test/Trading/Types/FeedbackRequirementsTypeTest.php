@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FeedbackRequirementsType;
 
 class FeedbackRequirementsTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackRequirementsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackRequirementsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FeedbackRequirementsType', $this->obj);
     }
 
-    public function testExtendsBooleanType()
+    public function testExtendsBooleanType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BooleanType', $this->obj);
     }

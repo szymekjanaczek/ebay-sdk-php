@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AttributeSetType;
 
 class AttributeSetTypeTest extends TestCase
 {
-    private $obj;
+    private AttributeSetType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AttributeSetType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AttributeSetType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

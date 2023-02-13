@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PaginationResultType;
 
 class PaginationResultTypeTest extends TestCase
 {
-    private $obj;
+    private PaginationResultType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaginationResultType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PaginationResultType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

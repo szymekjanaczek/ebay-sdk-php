@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue;
 
 class PropertyNameValueTest extends TestCase
 {
-    private $obj;
+    private PropertyNameValue $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PropertyNameValue();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

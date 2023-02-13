@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\UserFilterRoleType;
 
 class UserFilterRoleTypeTest extends TestCase
 {
-    private $obj;
+    private UserFilterRoleType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UserFilterRoleType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\UserFilterRoleType', $this->obj);
     }

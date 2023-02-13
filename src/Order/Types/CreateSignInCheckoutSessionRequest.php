@@ -22,7 +22,7 @@ class CreateSignInCheckoutSessionRequest extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'creditCard' => [
             'type' => 'DTS\eBaySDK\Order\Types\CreditCard',
             'repeatable' => false,

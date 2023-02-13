@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CheckoutOrderDetailType;
 
 class CheckoutOrderDetailTypeTest extends TestCase
 {
-    private $obj;
+    private CheckoutOrderDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CheckoutOrderDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CheckoutOrderDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

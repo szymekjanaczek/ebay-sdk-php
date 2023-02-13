@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DaysCodeType;
 
 class DaysCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DaysCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DaysCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DaysCodeType', $this->obj);
     }

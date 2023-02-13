@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GeteBayOfficialTimeResponseType;
 
 class GeteBayOfficialTimeResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GeteBayOfficialTimeResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GeteBayOfficialTimeResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GeteBayOfficialTimeResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\OrderArrayType;
 
 class OrderArrayTypeTest extends TestCase
 {
-    private $obj;
+    private OrderArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\OrderArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

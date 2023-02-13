@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\MetadataType;
 
 class MetadataTypeTest extends TestCase
 {
-    private $obj;
+    private MetadataType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MetadataType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\MetadataType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

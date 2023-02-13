@@ -15,14 +15,14 @@ use DTS\eBaySDK\Shopping\Enums\ReviewSortCodeType;
 
 class ReviewSortCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ReviewSortCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviewSortCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\ReviewSortCodeType', $this->obj);
     }

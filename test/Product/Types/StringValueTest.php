@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\StringValue;
 
 class StringValueTest extends TestCase
 {
-    private $obj;
+    private StringValue $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StringValue();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\StringValue', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

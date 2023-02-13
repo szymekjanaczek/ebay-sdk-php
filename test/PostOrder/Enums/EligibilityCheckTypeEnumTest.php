@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum;
 
 class EligibilityCheckTypeEnumTest extends TestCase
 {
-    private $obj;
+    private EligibilityCheckTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EligibilityCheckTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum', $this->obj);
     }

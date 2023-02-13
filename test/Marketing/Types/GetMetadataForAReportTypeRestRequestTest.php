@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest;
 
 class GetMetadataForAReportTypeRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetMetadataForAReportTypeRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetMetadataForAReportTypeRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetMetadataForAReportTypeRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\LegalAddress;
 
 class LegalAddressTest extends TestCase
 {
-    private $obj;
+    private LegalAddress $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LegalAddress();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\LegalAddress', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

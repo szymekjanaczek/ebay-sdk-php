@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetNotificationPreferencesResponseType;
 
 class SetNotificationPreferencesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SetNotificationPreferencesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetNotificationPreferencesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetNotificationPreferencesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

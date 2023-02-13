@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\TypedNameValue;
 
 class TypedNameValueTest extends TestCase
 {
-    private $obj;
+    private TypedNameValue $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TypedNameValue();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\TypedNameValue', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

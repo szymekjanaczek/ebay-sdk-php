@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\DeleteProductCompatibilityRestResponse;
 
 class DeleteProductCompatibilityRestResponseTest extends TestCase
 {
-    private $obj;
+    private DeleteProductCompatibilityRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteProductCompatibilityRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\DeleteProductCompatibilityRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

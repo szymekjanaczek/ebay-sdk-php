@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ItemBestOffersType;
 
 class ItemBestOffersTypeTest extends TestCase
 {
-    private $obj;
+    private ItemBestOffersType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemBestOffersType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ItemBestOffersType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType;
 
 class DateRangeFilterTypeTest extends TestCase
 {
-    private $obj;
+    private DateRangeFilterType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DateRangeFilterType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

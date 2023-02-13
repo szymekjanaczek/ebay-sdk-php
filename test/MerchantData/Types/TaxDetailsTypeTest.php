@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\TaxDetailsType;
 
 class TaxDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private TaxDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TaxDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\TaxDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

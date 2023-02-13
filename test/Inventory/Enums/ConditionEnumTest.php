@@ -15,14 +15,14 @@ use DTS\eBaySDK\Inventory\Enums\ConditionEnum;
 
 class ConditionEnumTest extends TestCase
 {
-    private $obj;
+    private ConditionEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConditionEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\ConditionEnum', $this->obj);
     }

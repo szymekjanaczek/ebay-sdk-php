@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest;
 
 class GetAPromotionReportRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetAPromotionReportRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAPromotionReportRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetAPromotionReportRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

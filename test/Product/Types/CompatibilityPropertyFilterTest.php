@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter;
 
 class CompatibilityPropertyFilterTest extends TestCase
 {
-    private $obj;
+    private CompatibilityPropertyFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CompatibilityPropertyFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

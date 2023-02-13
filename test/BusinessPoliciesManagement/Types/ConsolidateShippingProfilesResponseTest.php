@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesResp
 
 class ConsolidateShippingProfilesResponseTest extends TestCase
 {
-    private $obj;
+    private ConsolidateShippingProfilesResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConsolidateShippingProfilesResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
     }

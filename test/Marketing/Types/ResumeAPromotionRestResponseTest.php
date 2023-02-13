@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestResponse;
 
 class ResumeAPromotionRestResponseTest extends TestCase
 {
-    private $obj;
+    private ResumeAPromotionRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ResumeAPromotionRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\ResumeAPromotionRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

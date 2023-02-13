@@ -21,7 +21,7 @@ class Money extends DecimalType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'currencyCode' => [
             'type' => 'string',
             'repeatable' => false,

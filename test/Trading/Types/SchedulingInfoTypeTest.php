@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SchedulingInfoType;
 
 class SchedulingInfoTypeTest extends TestCase
 {
-    private $obj;
+    private SchedulingInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SchedulingInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SchedulingInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

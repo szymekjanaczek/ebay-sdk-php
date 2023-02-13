@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetSellingManagerAlertsResponseType;
 
 class GetSellingManagerAlertsResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetSellingManagerAlertsResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSellingManagerAlertsResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetSellingManagerAlertsResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\PaymentMethod;
 
 class PaymentMethodTest extends TestCase
 {
-    private $obj;
+    private PaymentMethod $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentMethod();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\PaymentMethod', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

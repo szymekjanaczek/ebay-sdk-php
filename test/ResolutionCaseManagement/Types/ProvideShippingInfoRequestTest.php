@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoRequest;
 
 class ProvideShippingInfoRequestTest extends TestCase
 {
-    private $obj;
+    private ProvideShippingInfoRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideShippingInfoRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest', $this->obj);
     }

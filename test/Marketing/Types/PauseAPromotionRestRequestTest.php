@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest;
 
 class PauseAPromotionRestRequestTest extends TestCase
 {
-    private $obj;
+    private PauseAPromotionRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PauseAPromotionRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\PauseAPromotionRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

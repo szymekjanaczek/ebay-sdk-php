@@ -46,7 +46,7 @@ class SyntaxErrorException extends InvalidArgumentException
         parent::__construct($message);
     }
 
-    private function createTokenMessage(array $token, array $valid)
+    private function createTokenMessage(array $token, array $valid): string
     {
         return sprintf(
             'Expected one of the following: %s; found %s "%s"',

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalMarketAutoDeclineEnabledDefinitionType;
 
 class LocalMarketAutoDeclineEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalMarketAutoDeclineEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalMarketAutoDeclineEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketAutoDeclineEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ListingTipArrayType;
 
 class ListingTipArrayTypeTest extends TestCase
 {
-    private $obj;
+    private ListingTipArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingTipArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ListingTipArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

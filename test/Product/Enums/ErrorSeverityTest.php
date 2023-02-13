@@ -15,14 +15,14 @@ use DTS\eBaySDK\Product\Enums\ErrorSeverity;
 
 class ErrorSeverityTest extends TestCase
 {
-    private $obj;
+    private ErrorSeverity $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ErrorSeverity();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\ErrorSeverity', $this->obj);
     }

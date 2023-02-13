@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\GetHistogramsRequest;
 
 class GetHistogramsRequestTest extends TestCase
 {
-    private $obj;
+    private GetHistogramsRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetHistogramsRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\GetHistogramsRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseServiceRequest', $this->obj);
     }

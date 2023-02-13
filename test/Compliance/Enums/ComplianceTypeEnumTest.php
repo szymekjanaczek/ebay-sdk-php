@@ -15,14 +15,14 @@ use DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum;
 
 class ComplianceTypeEnumTest extends TestCase
 {
-    private $obj;
+    private ComplianceTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ComplianceTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum', $this->obj);
     }

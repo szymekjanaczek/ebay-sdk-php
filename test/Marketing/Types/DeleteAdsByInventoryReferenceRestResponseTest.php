@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestResponse;
 
 class DeleteAdsByInventoryReferenceRestResponseTest extends TestCase
 {
-    private $obj;
+    private DeleteAdsByInventoryReferenceRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteAdsByInventoryReferenceRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRestResponse', $this->obj);
     }
 
-    public function testExtendsAdIds()
+    public function testExtendsAdIds(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\AdIds', $this->obj);
     }

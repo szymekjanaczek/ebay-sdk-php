@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType;
 
 class CancelTransactionCaseStatusTypeTest extends TestCase
 {
-    private $obj;
+    private CancelTransactionCaseStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelTransactionCaseStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType', $this->obj);
     }

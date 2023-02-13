@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType;
 
 class StoreCustomListingHeaderLinkCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StoreCustomListingHeaderLinkCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreCustomListingHeaderLinkCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType', $this->obj);
     }

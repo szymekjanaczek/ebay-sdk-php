@@ -20,7 +20,7 @@ class VeROReasonCodeDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'VeROSiteDetail' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VeROSiteDetailType',
             'repeatable' => true,

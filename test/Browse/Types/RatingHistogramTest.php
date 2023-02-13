@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\RatingHistogram;
 
 class RatingHistogramTest extends TestCase
 {
-    private $obj;
+    private RatingHistogram $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RatingHistogram();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\RatingHistogram', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\ValueTypeEnum;
 
 class ValueTypeEnumTest extends TestCase
 {
-    private $obj;
+    private ValueTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ValueTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\ValueTypeEnum', $this->obj);
     }

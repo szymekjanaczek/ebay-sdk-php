@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType;
 
 class CharityAffiliationTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CharityAffiliationTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CharityAffiliationTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType', $this->obj);
     }

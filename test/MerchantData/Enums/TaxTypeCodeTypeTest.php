@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\TaxTypeCodeType;
 
 class TaxTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TaxTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TaxTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\TaxTypeCodeType', $this->obj);
     }

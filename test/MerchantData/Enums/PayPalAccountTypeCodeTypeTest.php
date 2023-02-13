@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\PayPalAccountTypeCodeType;
 
 class PayPalAccountTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PayPalAccountTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PayPalAccountTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PayPalAccountTypeCodeType', $this->obj);
     }

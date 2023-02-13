@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VATRateType;
 
 class VATRateTypeTest extends TestCase
 {
-    private $obj;
+    private VATRateType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VATRateType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VATRateType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

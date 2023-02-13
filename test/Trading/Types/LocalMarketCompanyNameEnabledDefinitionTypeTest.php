@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalMarketCompanyNameEnabledDefinitionType;
 
 class LocalMarketCompanyNameEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalMarketCompanyNameEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalMarketCompanyNameEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketCompanyNameEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\ReturnSnapshot;
 
 class ReturnSnapshotTest extends TestCase
 {
-    private $obj;
+    private ReturnSnapshot $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnSnapshot();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\ReturnSnapshot', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -27,10 +27,10 @@ namespace DTS\eBaySDK\JmesPath;
  */
 class AstRuntime
 {
-    private $parser;
-    private $interpreter;
-    private $cache = [];
-    private $cachedCount = 0;
+    private Parser $parser;
+    private TreeInterpreter $interpreter;
+    private array $cache = [];
+    private int $cachedCount = 0;
 
     public function __construct(
         Parser $parser = null,

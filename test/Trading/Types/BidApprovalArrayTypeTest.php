@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BidApprovalArrayType;
 
 class BidApprovalArrayTypeTest extends TestCase
 {
-    private $obj;
+    private BidApprovalArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BidApprovalArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BidApprovalArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

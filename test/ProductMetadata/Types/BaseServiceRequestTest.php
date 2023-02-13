@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest;
 
 class BaseServiceRequestTest extends TestCase
 {
-    private $obj;
+    private BaseServiceRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BaseServiceRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

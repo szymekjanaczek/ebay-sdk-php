@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType;
 
 class ReturnUserRoleTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnUserRoleType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnUserRoleType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType', $this->obj);
     }

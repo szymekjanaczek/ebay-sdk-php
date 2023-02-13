@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType;
 
 class OfferOtherSolutionOptionTypeTest extends TestCase
 {
-    private $obj;
+    private OfferOtherSolutionOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OfferOtherSolutionOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\OfferOtherSolutionOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }

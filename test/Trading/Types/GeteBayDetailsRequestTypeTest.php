@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GeteBayDetailsRequestType;
 
 class GeteBayDetailsRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GeteBayDetailsRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GeteBayDetailsRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GeteBayDetailsRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

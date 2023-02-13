@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\PictureUploadPolicyCodeType;
 
 class PictureUploadPolicyCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PictureUploadPolicyCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureUploadPolicyCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PictureUploadPolicyCodeType', $this->obj);
     }

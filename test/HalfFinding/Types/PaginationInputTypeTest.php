@@ -15,19 +15,19 @@ use DTS\eBaySDK\HalfFinding\Types\PaginationInputType;
 
 class PaginationInputTypeTest extends TestCase
 {
-    private $obj;
+    private PaginationInputType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaginationInputType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\PaginationInputType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

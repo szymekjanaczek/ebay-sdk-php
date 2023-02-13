@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\SellerShippingProfileType;
 
 class SellerShippingProfileTypeTest extends TestCase
 {
-    private $obj;
+    private SellerShippingProfileType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerShippingProfileType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\SellerShippingProfileType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

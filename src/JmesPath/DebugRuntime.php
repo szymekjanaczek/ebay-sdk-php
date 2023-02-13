@@ -29,8 +29,8 @@ class DebugRuntime
 {
     private $runtime;
     private $out;
-    private $lexer;
-    private $parser;
+    private Lexer $lexer;
+    private Parser $parser;
 
     public function __construct(callable $runtime, $output = null)
     {
@@ -76,7 +76,7 @@ class DebugRuntime
         return $result;
     }
 
-    private function dumpTokens($expression)
+    private function dumpTokens($expression): void
     {
         $lexer = new Lexer();
         fwrite($this->out, "Tokens\n======\n\n");
@@ -93,7 +93,7 @@ class DebugRuntime
         fwrite($this->out, "\n");
     }
 
-    private function dumpAst($expression)
+    private function dumpAst($expression): void
     {
         $parser = new Parser();
         $ast = $parser->parse($expression);
@@ -101,7 +101,7 @@ class DebugRuntime
         fwrite($this->out, json_encode($ast, JSON_PRETTY_PRINT) . "\n");
     }
 
-    private function dumpCompiledCode($expression)
+    private function dumpCompiledCode($expression): void
     {
         fwrite($this->out, "Code\n========\n\n");
         $dir = sys_get_temp_dir();

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalMarketPhoneCountDefinitionType;
 
 class LocalMarketPhoneCountDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalMarketPhoneCountDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalMarketPhoneCountDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketPhoneCountDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

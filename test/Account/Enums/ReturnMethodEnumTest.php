@@ -15,14 +15,14 @@ use DTS\eBaySDK\Account\Enums\ReturnMethodEnum;
 
 class ReturnMethodEnumTest extends TestCase
 {
-    private $obj;
+    private ReturnMethodEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnMethodEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\ReturnMethodEnum', $this->obj);
     }

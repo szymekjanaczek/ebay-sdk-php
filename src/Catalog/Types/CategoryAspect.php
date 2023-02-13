@@ -23,7 +23,7 @@ class CategoryAspect extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'aspectHelpText' => [
             'type' => 'string',
             'repeatable' => false,

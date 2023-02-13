@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\BaseResponse;
 
 class BaseResponseTest extends TestCase
 {
-    private $obj;
+    private BaseResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BaseResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BaseResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

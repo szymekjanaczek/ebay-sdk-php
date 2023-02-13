@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ASQPreferencesType;
 
 class ASQPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private ASQPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ASQPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ASQPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

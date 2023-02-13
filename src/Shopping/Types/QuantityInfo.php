@@ -20,7 +20,7 @@ class QuantityInfo extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'MinimumRemnantSet' => [
             'type' => 'integer',
             'repeatable' => false,

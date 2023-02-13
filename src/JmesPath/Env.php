@@ -58,7 +58,7 @@ final class Env
      *
      * @return callable
      */
-    public static function createRuntime()
+    public static function createRuntime(): AstRuntime|CompilerRuntime
     {
         switch ($compileDir = getenv(self::COMPILE_DIR)) {
             case false: return new AstRuntime();

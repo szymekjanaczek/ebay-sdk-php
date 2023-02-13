@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\BuyerINREscalationReasonType;
 
 class BuyerINREscalationReasonTypeTest extends TestCase
 {
-    private $obj;
+    private BuyerINREscalationReasonType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerINREscalationReasonType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\BuyerINREscalationReasonType', $this->obj);
     }

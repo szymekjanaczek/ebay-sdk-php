@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest;
 
 class UpdateGuestLineItemQuantityRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateGuestLineItemQuantityRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateGuestLineItemQuantityRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest', $this->obj);
     }
 
-    public function testExtendsUpdateQuantity()
+    public function testExtendsUpdateQuantity(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateQuantity', $this->obj);
     }

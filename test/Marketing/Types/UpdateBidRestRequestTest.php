@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest;
 
 class UpdateBidRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateBidRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateBidRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest', $this->obj);
     }
 
-    public function testExtendsUpdateBidPercentageRequest()
+    public function testExtendsUpdateBidPercentageRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\UpdateBidPercentageRequest', $this->obj);
     }

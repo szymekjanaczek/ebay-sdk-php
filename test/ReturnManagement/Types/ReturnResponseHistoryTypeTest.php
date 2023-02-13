@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType;
 
 class ReturnResponseHistoryTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnResponseHistoryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnResponseHistoryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

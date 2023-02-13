@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\TaxIdentifierAttributeCodeType;
 
 class TaxIdentifierAttributeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TaxIdentifierAttributeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TaxIdentifierAttributeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\TaxIdentifierAttributeCodeType', $this->obj);
     }

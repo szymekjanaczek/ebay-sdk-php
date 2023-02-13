@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\SellereBayPaymentProcessStatusCodeType;
 
 class SellereBayPaymentProcessStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellereBayPaymentProcessStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellereBayPaymentProcessStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\SellereBayPaymentProcessStatusCodeType', $this->obj);
     }

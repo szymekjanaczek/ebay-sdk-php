@@ -6,14 +6,14 @@ use DTS\eBaySDK\Types\BaseType;
 
 class BaseTypeTest extends TestCase
 {
-    private $obj;
+    private BaseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BaseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

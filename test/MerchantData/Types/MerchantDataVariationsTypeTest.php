@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\MerchantDataVariationsType;
 
 class MerchantDataVariationsTypeTest extends TestCase
 {
-    private $obj;
+    private MerchantDataVariationsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MerchantDataVariationsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\MerchantDataVariationsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

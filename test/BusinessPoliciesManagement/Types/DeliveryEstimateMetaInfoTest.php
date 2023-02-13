@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimateMetaInfo;
 
 class DeliveryEstimateMetaInfoTest extends TestCase
 {
-    private $obj;
+    private DeliveryEstimateMetaInfo $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeliveryEstimateMetaInfo();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimateMetaInfo', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

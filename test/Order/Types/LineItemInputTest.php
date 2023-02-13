@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\LineItemInput;
 
 class LineItemInputTest extends TestCase
 {
-    private $obj;
+    private LineItemInput $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LineItemInput();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\LineItemInput', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

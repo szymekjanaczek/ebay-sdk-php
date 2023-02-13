@@ -23,7 +23,7 @@ class OrderReportRecurringFilter extends BaseServiceRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'createTimeRange' => [
             'type' => 'integer',
             'repeatable' => false,

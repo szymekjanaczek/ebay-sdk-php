@@ -11,7 +11,7 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 class AuthTokenTest extends TestCase
 {
 
-    public function testAuthTokenIsUsedInRequst()
+    public function testAuthTokenIsUsedInRequst(): void
     {
         $s = new TradingService([
             'apiVersion' => '',
@@ -45,7 +45,7 @@ class AuthTokenTest extends TestCase
         $this->assertEquals('123', $r->RequesterCredentials->eBayAuthToken);
     }
 
-    public function testAuthTokenIsNotUsedInRequst()
+    public function testAuthTokenIsNotUsedInRequst(): void
     {
         $s = new TradingService([
             'apiVersion' => '',

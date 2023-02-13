@@ -29,10 +29,7 @@ use DTS\eBaySDK\MerchantData\Types\VerifyAddItemResponseType;
  */
 class MerchantData
 {
-    /**
-     * @var XmlParser
-     */
-    private $xmlParser;
+    private XmlParser $xmlParser;
 
     public function __construct()
     {

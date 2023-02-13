@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\MailOptionsTypeCodeType;
 
 class MailOptionsTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private MailOptionsTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MailOptionsTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\MailOptionsTypeCodeType', $this->obj);
     }

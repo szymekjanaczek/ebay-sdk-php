@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\TicketEventTypeCodeType;
 
 class TicketEventTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TicketEventTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TicketEventTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\TicketEventTypeCodeType', $this->obj);
     }

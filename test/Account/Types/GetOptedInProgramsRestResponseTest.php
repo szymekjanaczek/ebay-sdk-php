@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetOptedInProgramsRestResponse;
 
 class GetOptedInProgramsRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetOptedInProgramsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetOptedInProgramsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetOptedInProgramsRestResponse', $this->obj);
     }
 
-    public function testExtendsPrograms()
+    public function testExtendsPrograms(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\Programs', $this->obj);
     }

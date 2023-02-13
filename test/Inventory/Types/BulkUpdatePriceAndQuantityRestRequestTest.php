@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\BulkUpdatePriceAndQuantityRestRequest;
 
 class BulkUpdatePriceAndQuantityRestRequestTest extends TestCase
 {
-    private $obj;
+    private BulkUpdatePriceAndQuantityRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkUpdatePriceAndQuantityRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkUpdatePriceAndQuantityRestRequest', $this->obj);
     }
 
-    public function testExtendsBulkPriceQuantity()
+    public function testExtendsBulkPriceQuantity(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkPriceQuantity', $this->obj);
     }

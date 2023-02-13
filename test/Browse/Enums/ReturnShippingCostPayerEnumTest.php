@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\ReturnShippingCostPayerEnum;
 
 class ReturnShippingCostPayerEnumTest extends TestCase
 {
-    private $obj;
+    private ReturnShippingCostPayerEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnShippingCostPayerEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\ReturnShippingCostPayerEnum', $this->obj);
     }

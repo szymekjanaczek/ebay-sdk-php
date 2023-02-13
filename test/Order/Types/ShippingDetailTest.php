@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\ShippingDetail;
 
 class ShippingDetailTest extends TestCase
 {
-    private $obj;
+    private ShippingDetail $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingDetail();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\ShippingDetail', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

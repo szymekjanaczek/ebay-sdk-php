@@ -15,14 +15,14 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobStatus;
 
 class ConsolidationJobStatusTest extends TestCase
 {
-    private $obj;
+    private ConsolidationJobStatus $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConsolidationJobStatus();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobStatus', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\InvocationStatusType;
 
 class InvocationStatusTypeTest extends TestCase
 {
-    private $obj;
+    private InvocationStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InvocationStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\InvocationStatusType', $this->obj);
     }

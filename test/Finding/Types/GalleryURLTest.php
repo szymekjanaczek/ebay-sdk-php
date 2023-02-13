@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\GalleryURL;
 
 class GalleryURLTest extends TestCase
 {
-    private $obj;
+    private GalleryURL $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GalleryURL();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\GalleryURL', $this->obj);
     }
 
-    public function testExtendsURIType()
+    public function testExtendsURIType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\URIType', $this->obj);
     }

@@ -8,10 +8,10 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class AttachmentTest extends TestCase
 {
-    private $httpHandler;
-    private $service;
-    private $request;
-    private $requestXml;
+    private HttpHandler $httpHandler;
+    private Service $service;
+    private ComplexClass $request;
+    private string $requestXml;
 
     protected function setUp(): void
     {
@@ -34,7 +34,7 @@ class AttachmentTest extends TestCase
         $this->requestXml = rtrim(file_get_contents(__DIR__.'/../Mocks/AttachmentRequestResponse.xml'));
     }
 
-    public function testAttachment()
+    public function testAttachment(): void
     {
         $this->assertEquals(['data' => null, 'mimeType' => null], $this->request->attachment());
         $this->assertEquals(false, $this->request->hasAttachment());
@@ -56,7 +56,7 @@ class AttachmentTest extends TestCase
         $this->assertEquals(true, $this->request->hasAttachment());
     }
 
-    public function testHttpHeadersAreCreated()
+    public function testHttpHeadersAreCreated(): void
     {
         $this->request->attachment('ABC123', 'image/jpeg');
         $this->service->foo($this->request);
@@ -68,14 +68,14 @@ class AttachmentTest extends TestCase
         $this->assertEquals(strlen($this->requestXml), $this->httpHandler->headers['Content-Length']);
     }
 
-    public function testXmlIsCreated()
+    public function testXmlIsCreated(): void
     {
         $this->request->attachment('ABC123', 'image/jpeg');
         $this->service->foo($this->request);
         $this->assertEquals($this->requestXml, $this->httpHandler->body);
     }
 
-    public function testResponseIsReturned()
+    public function testResponseIsReturned(): void
     {
         $this->httpHandler->returnAttachment = true;
         $response = $this->service->bar($this->request);

@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundRequest;
 
 class IssueFullRefundRequestTest extends TestCase
 {
-    private $obj;
+    private IssueFullRefundRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new IssueFullRefundRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest', $this->obj);
     }

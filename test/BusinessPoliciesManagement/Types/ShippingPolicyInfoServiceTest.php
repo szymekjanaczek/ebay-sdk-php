@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService;
 
 class ShippingPolicyInfoServiceTest extends TestCase
 {
-    private $obj;
+    private ShippingPolicyInfoService $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingPolicyInfoService();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

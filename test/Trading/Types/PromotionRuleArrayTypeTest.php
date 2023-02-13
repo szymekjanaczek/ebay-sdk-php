@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PromotionRuleArrayType;
 
 class PromotionRuleArrayTypeTest extends TestCase
 {
-    private $obj;
+    private PromotionRuleArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PromotionRuleArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PromotionRuleArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

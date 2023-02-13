@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\FlatRateInsuranceRangeCodeType;
 
 class FlatRateInsuranceRangeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private FlatRateInsuranceRangeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FlatRateInsuranceRangeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\FlatRateInsuranceRangeCodeType', $this->obj);
     }

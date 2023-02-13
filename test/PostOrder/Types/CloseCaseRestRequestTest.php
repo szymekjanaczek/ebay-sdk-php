@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest;
 
 class CloseCaseRestRequestTest extends TestCase
 {
-    private $obj;
+    private CloseCaseRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CloseCaseRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest', $this->obj);
     }
 
-    public function testExtendsBuyerCloseCaseRequest()
+    public function testExtendsBuyerCloseCaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\BuyerCloseCaseRequest', $this->obj);
     }

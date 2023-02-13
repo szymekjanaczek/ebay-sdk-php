@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CancelReasonCodeType;
 
 class CancelReasonCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CancelReasonCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelReasonCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CancelReasonCodeType', $this->obj);
     }

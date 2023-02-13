@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\ServiceDefinition;
 
 class ServiceDefinitionTest extends TestCase
 {
-    private $obj;
+    private ServiceDefinition $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ServiceDefinition();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ServiceDefinition', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest;
 
 class DeleteBundlesRequestTest extends TestCase
 {
-    private $obj;
+    private DeleteBundlesRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteBundlesRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
     }

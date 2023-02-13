@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest;
 
 class MarkReturnReceivedRestRequestTest extends TestCase
 {
-    private $obj;
+    private MarkReturnReceivedRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MarkReturnReceivedRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest', $this->obj);
     }
 
-    public function testExtendsMarkAsReceivedRequest()
+    public function testExtendsMarkAsReceivedRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\MarkAsReceivedRequest', $this->obj);
     }

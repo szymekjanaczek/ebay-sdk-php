@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter;
 
 class BundleFilterTest extends TestCase
 {
-    private $obj;
+    private BundleFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BundleFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

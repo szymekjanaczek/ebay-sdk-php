@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType;
 
 class DecisionReasonDetailTypeTest extends TestCase
 {
-    private $obj;
+    private DecisionReasonDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DecisionReasonDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType', $this->obj);
     }
 
-    public function testExtendsEnumerationDetailType()
+    public function testExtendsEnumerationDetailType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType', $this->obj);
     }

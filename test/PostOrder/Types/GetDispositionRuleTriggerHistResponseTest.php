@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetDispositionRuleTriggerHistResponse;
 
 class GetDispositionRuleTriggerHistResponseTest extends TestCase
 {
-    private $obj;
+    private GetDispositionRuleTriggerHistResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetDispositionRuleTriggerHistResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetDispositionRuleTriggerHistResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

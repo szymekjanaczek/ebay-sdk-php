@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\Adjustment;
 
 class AdjustmentTest extends TestCase
 {
-    private $obj;
+    private Adjustment $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Adjustment();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\Adjustment', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

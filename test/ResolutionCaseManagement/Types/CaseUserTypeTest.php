@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType;
 
 class CaseUserTypeTest extends TestCase
 {
-    private $obj;
+    private CaseUserType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseUserType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

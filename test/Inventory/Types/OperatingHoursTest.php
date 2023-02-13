@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\OperatingHours;
 
 class OperatingHoursTest extends TestCase
 {
-    private $obj;
+    private OperatingHours $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OperatingHours();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\OperatingHours', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\CampaignCriterion;
 
 class CampaignCriterionTest extends TestCase
 {
-    private $obj;
+    private CampaignCriterion $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CampaignCriterion();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CampaignCriterion', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

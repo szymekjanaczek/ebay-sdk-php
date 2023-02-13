@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\ProofType;
 
 class ProofTypeTest extends TestCase
 {
-    private $obj;
+    private ProofType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProofType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\ProofType', $this->obj);
     }

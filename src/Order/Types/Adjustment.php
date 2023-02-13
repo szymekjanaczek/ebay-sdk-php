@@ -21,7 +21,7 @@ class Adjustment extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'amount' => [
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,

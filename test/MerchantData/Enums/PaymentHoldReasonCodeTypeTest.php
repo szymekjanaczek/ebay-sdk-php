@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\PaymentHoldReasonCodeType;
 
 class PaymentHoldReasonCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PaymentHoldReasonCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentHoldReasonCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PaymentHoldReasonCodeType', $this->obj);
     }

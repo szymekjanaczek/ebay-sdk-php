@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\InquiryEscalationReasonEnum;
 
 class InquiryEscalationReasonEnumTest extends TestCase
 {
-    private $obj;
+    private InquiryEscalationReasonEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InquiryEscalationReasonEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\InquiryEscalationReasonEnum', $this->obj);
     }

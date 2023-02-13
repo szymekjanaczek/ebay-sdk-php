@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType;
 
 class IssuePartialRefundOptionTypeTest extends TestCase
 {
-    private $obj;
+    private IssuePartialRefundOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new IssuePartialRefundOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\IssuePartialRefundOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }

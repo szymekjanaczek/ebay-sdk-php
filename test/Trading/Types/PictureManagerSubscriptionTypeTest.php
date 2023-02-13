@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PictureManagerSubscriptionType;
 
 class PictureManagerSubscriptionTypeTest extends TestCase
 {
-    private $obj;
+    private PictureManagerSubscriptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureManagerSubscriptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PictureManagerSubscriptionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -24,7 +24,7 @@ class GetJobsRequest extends BaseServiceRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'creationTimeFrom' => [
             'type' => 'DateTime',
             'repeatable' => false,

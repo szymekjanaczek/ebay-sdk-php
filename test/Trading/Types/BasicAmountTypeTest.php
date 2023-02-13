@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BasicAmountType;
 
 class BasicAmountTypeTest extends TestCase
 {
-    private $obj;
+    private BasicAmountType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BasicAmountType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BasicAmountType', $this->obj);
     }
 
-    public function testExtendsStringType()
+    public function testExtendsStringType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }

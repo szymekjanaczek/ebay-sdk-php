@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailRequest;
 
 class GetEBPCaseDetailRequestTest extends TestCase
 {
-    private $obj;
+    private GetEBPCaseDetailRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetEBPCaseDetailRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest', $this->obj);
     }

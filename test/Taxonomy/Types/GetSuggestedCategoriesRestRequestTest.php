@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestRequest;
 
 class GetSuggestedCategoriesRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetSuggestedCategoriesRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSuggestedCategoriesRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

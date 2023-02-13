@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PayPalBuyerProtectionEnabledDefinitionType;
 
 class PayPalBuyerProtectionEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private PayPalBuyerProtectionEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PayPalBuyerProtectionEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PayPalBuyerProtectionEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

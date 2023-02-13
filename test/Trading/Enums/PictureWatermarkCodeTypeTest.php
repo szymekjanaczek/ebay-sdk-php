@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PictureWatermarkCodeType;
 
 class PictureWatermarkCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PictureWatermarkCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureWatermarkCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PictureWatermarkCodeType', $this->obj);
     }

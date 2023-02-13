@@ -19,7 +19,7 @@ class GetDisputeResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Dispute' => [
             'type' => 'DTS\eBaySDK\Trading\Types\DisputeType',
             'repeatable' => false,

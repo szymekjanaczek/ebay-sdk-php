@@ -15,14 +15,14 @@ use DTS\eBaySDK\Account\Enums\ProgramTypeEnum;
 
 class ProgramTypeEnumTest extends TestCase
 {
-    private $obj;
+    private ProgramTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProgramTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\ProgramTypeEnum', $this->obj);
     }

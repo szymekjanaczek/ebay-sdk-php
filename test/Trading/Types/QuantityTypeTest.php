@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\QuantityType;
 
 class QuantityTypeTest extends TestCase
 {
-    private $obj;
+    private QuantityType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new QuantityType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\QuantityType', $this->obj);
     }
 
-    public function testExtendsDecimalType()
+    public function testExtendsDecimalType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\DecimalType', $this->obj);
     }

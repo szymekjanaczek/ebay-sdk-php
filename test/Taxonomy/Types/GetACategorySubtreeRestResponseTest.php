@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestResponse;
 
 class GetACategorySubtreeRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetACategorySubtreeRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetACategorySubtreeRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetACategorySubtreeRestResponse', $this->obj);
     }
 
-    public function testExtendsCategorySubtree()
+    public function testExtendsCategorySubtree(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\CategorySubtree', $this->obj);
     }

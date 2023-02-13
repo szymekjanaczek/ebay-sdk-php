@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedRequest;
 
 class SetItemAsReceivedRequestTest extends TestCase
 {
-    private $obj;
+    private SetItemAsReceivedRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetItemAsReceivedRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\SetItemAsReceivedRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\PriceDisplayConditionEnum;
 
 class PriceDisplayConditionEnumTest extends TestCase
 {
-    private $obj;
+    private PriceDisplayConditionEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PriceDisplayConditionEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\PriceDisplayConditionEnum', $this->obj);
     }

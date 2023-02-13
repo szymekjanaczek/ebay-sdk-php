@@ -20,7 +20,7 @@ class GetCompatibilitySearchDataVersionResponse extends BaseServiceResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'namesDetails' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
             'repeatable' => false,

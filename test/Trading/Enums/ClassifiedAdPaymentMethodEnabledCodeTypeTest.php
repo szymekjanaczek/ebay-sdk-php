@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ClassifiedAdPaymentMethodEnabledCodeType;
 
 class ClassifiedAdPaymentMethodEnabledCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ClassifiedAdPaymentMethodEnabledCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ClassifiedAdPaymentMethodEnabledCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ClassifiedAdPaymentMethodEnabledCodeType', $this->obj);
     }

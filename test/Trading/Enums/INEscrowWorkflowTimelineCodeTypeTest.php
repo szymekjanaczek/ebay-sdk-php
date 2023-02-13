@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\INEscrowWorkflowTimelineCodeType;
 
 class INEscrowWorkflowTimelineCodeTypeTest extends TestCase
 {
-    private $obj;
+    private INEscrowWorkflowTimelineCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new INEscrowWorkflowTimelineCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\INEscrowWorkflowTimelineCodeType', $this->obj);
     }

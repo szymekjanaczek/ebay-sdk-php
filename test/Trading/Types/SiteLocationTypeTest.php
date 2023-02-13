@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SiteLocationType;
 
 class SiteLocationTypeTest extends TestCase
 {
-    private $obj;
+    private SiteLocationType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SiteLocationType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SiteLocationType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

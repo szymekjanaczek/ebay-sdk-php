@@ -15,19 +15,19 @@ use DTS\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy;
 
 class AutomotivePartsCompatibilityPolicyTest extends TestCase
 {
-    private $obj;
+    private AutomotivePartsCompatibilityPolicy $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AutomotivePartsCompatibilityPolicy();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReviseSellingManagerInventoryFolderRequestType;
 
 class ReviseSellingManagerInventoryFolderRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseSellingManagerInventoryFolderRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseSellingManagerInventoryFolderRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseSellingManagerInventoryFolderRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

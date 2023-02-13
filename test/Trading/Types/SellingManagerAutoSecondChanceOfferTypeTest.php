@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType;
 
 class SellingManagerAutoSecondChanceOfferTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerAutoSecondChanceOfferType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerAutoSecondChanceOfferType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

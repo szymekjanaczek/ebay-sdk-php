@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AccountEntryType;
 
 class AccountEntryTypeTest extends TestCase
 {
-    private $obj;
+    private AccountEntryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AccountEntryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AccountEntryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

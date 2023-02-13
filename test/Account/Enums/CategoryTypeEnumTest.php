@@ -15,14 +15,14 @@ use DTS\eBaySDK\Account\Enums\CategoryTypeEnum;
 
 class CategoryTypeEnumTest extends TestCase
 {
-    private $obj;
+    private CategoryTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\CategoryTypeEnum', $this->obj);
     }

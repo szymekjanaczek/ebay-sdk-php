@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType;
 
 class IssueFullRefundOptionTypeTest extends TestCase
 {
-    private $obj;
+    private IssueFullRefundOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new IssueFullRefundOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\IssueFullRefundOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }

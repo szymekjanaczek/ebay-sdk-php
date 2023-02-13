@@ -15,14 +15,14 @@ use DTS\eBaySDK\Catalog\Enums\ItemToAspectCardinalityEnum;
 
 class ItemToAspectCardinalityEnumTest extends TestCase
 {
-    private $obj;
+    private ItemToAspectCardinalityEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemToAspectCardinalityEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Enums\ItemToAspectCardinalityEnum', $this->obj);
     }

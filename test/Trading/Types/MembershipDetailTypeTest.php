@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MembershipDetailType;
 
 class MembershipDetailTypeTest extends TestCase
 {
-    private $obj;
+    private MembershipDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MembershipDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MembershipDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

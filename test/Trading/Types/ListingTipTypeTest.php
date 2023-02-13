@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ListingTipType;
 
 class ListingTipTypeTest extends TestCase
 {
-    private $obj;
+    private ListingTipType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingTipType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ListingTipType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

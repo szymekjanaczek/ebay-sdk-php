@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EBayPLUSPreferenceType;
 
 class EBayPLUSPreferenceTypeTest extends TestCase
 {
-    private $obj;
+    private EBayPLUSPreferenceType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBayPLUSPreferenceType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EBayPLUSPreferenceType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

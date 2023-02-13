@@ -10,10 +10,10 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class MultipartFormDataTest extends TestCase
 {
-    private $httpHandler;
-    private $service;
-    private $request;
-    private $requestXml;
+    private HttpHandler $httpHandler;
+    private TradingService $service;
+    private UploadSiteHostedPicturesRequestType $request;
+    private string $requestXml;
 
     protected function setUp(): void
     {
@@ -38,7 +38,7 @@ class MultipartFormDataTest extends TestCase
         $this->requestXml = rtrim(file_get_contents(__DIR__.'/../../Mocks/MultipartFormDataRequest'));
     }
 
-    public function testHttpHeadersAreCreated()
+    public function testHttpHeadersAreCreated(): void
     {
         $this->request->attachment('ABC123', 'image/jpeg');
         $this->service->uploadSiteHostedPictures($this->request);
@@ -48,7 +48,7 @@ class MultipartFormDataTest extends TestCase
         $this->assertEquals(strlen($this->requestXml), $this->httpHandler->headers['Content-Length']);
     }
 
-    public function testMultipartFormDataIsCreated()
+    public function testMultipartFormDataIsCreated(): void
     {
         $this->request->attachment('ABC123', 'image/jpeg');
         $this->service->uploadSiteHostedPictures($this->request);

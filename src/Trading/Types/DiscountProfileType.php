@@ -26,7 +26,7 @@ class DiscountProfileType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'DiscountProfileID' => [
             'type' => 'string',
             'repeatable' => false,

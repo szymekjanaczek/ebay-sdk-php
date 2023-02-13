@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BestOfferAutoDeclineEnabledDefinitionType;
 
 class BestOfferAutoDeclineEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private BestOfferAutoDeclineEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BestOfferAutoDeclineEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BestOfferAutoDeclineEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

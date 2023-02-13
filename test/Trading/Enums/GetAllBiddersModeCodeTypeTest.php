@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\GetAllBiddersModeCodeType;
 
 class GetAllBiddersModeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private GetAllBiddersModeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAllBiddersModeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\GetAllBiddersModeCodeType', $this->obj);
     }

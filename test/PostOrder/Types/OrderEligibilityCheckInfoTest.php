@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\OrderEligibilityCheckInfo;
 
 class OrderEligibilityCheckInfoTest extends TestCase
 {
-    private $obj;
+    private OrderEligibilityCheckInfo $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderEligibilityCheckInfo();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\OrderEligibilityCheckInfo', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

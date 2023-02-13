@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\AddressType;
 
 class AddressTypeTest extends TestCase
 {
-    private $obj;
+    private AddressType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddressType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AddressType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

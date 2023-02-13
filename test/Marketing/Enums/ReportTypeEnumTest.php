@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\ReportTypeEnum;
 
 class ReportTypeEnumTest extends TestCase
 {
-    private $obj;
+    private ReportTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReportTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\ReportTypeEnum', $this->obj);
     }

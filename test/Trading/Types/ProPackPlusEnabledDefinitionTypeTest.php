@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ProPackPlusEnabledDefinitionType;
 
 class ProPackPlusEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ProPackPlusEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProPackPlusEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ProPackPlusEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

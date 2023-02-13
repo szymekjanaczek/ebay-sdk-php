@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType;
 
 class SellingManagerShippedStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerShippedStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerShippedStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType', $this->obj);
     }

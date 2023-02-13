@@ -19,7 +19,7 @@ class GetApiAccessRulesResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ApiAccessRule' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ApiAccessRuleType',
             'repeatable' => true,

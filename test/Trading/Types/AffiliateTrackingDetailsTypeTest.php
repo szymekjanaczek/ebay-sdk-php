@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType;
 
 class AffiliateTrackingDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private AffiliateTrackingDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AffiliateTrackingDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

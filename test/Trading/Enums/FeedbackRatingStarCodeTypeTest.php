@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType;
 
 class FeedbackRatingStarCodeTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackRatingStarCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackRatingStarCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\GuestPurchaseOrder;
 
 class GuestPurchaseOrderTest extends TestCase
 {
-    private $obj;
+    private GuestPurchaseOrder $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GuestPurchaseOrder();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\GuestPurchaseOrder', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

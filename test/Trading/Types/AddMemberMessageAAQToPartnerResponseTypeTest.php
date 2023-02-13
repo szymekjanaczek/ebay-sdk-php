@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddMemberMessageAAQToPartnerResponseType;
 
 class AddMemberMessageAAQToPartnerResponseTypeTest extends TestCase
 {
-    private $obj;
+    private AddMemberMessageAAQToPartnerResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddMemberMessageAAQToPartnerResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddMemberMessageAAQToPartnerResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

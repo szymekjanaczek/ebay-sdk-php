@@ -15,14 +15,14 @@ use DTS\eBaySDK\Shopping\Enums\ProductIDCodeType;
 
 class ProductIDCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ProductIDCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductIDCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\ProductIDCodeType', $this->obj);
     }

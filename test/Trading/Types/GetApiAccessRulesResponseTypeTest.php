@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetApiAccessRulesResponseType;
 
 class GetApiAccessRulesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetApiAccessRulesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetApiAccessRulesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetApiAccessRulesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

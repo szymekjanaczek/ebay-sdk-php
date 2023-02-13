@@ -23,7 +23,7 @@ class ShippingProfileDiscountInfo extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'domesticFlatCalcDiscountProfileId' => [
             'type' => 'integer',
             'repeatable' => false,

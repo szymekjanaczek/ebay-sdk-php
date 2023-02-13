@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobResponse;
 
 class StartDownloadJobResponseTest extends TestCase
 {
-    private $obj;
+    private StartDownloadJobResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StartDownloadJobResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobResponse', $this->obj);
     }
 
-    public function testExtendsBaseServiceResponse()
+    public function testExtendsBaseServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
     }

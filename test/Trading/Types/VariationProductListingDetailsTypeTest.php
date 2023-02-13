@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType;
 
 class VariationProductListingDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private VariationProductListingDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VariationProductListingDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

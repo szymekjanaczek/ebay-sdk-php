@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\InventoryCriterion;
 
 class InventoryCriterionTest extends TestCase
 {
-    private $obj;
+    private InventoryCriterion $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventoryCriterion();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\InventoryCriterion', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

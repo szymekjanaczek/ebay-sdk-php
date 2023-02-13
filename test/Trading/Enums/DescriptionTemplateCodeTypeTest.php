@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DescriptionTemplateCodeType;
 
 class DescriptionTemplateCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DescriptionTemplateCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DescriptionTemplateCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DescriptionTemplateCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\IsoCurrencyCode;
 
 class IsoCurrencyCodeTest extends TestCase
 {
-    private $obj;
+    private IsoCurrencyCode $obj;
 
     protected function setUp(): void
     {
         $this->obj = new IsoCurrencyCode();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\IsoCurrencyCode', $this->obj);
     }

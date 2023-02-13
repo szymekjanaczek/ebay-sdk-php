@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\RefundFailureCodeType;
 
 class RefundFailureCodeTypeTest extends TestCase
 {
-    private $obj;
+    private RefundFailureCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RefundFailureCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\RefundFailureCodeType', $this->obj);
     }

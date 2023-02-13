@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType;
 
 class MinimumAdvertisedPriceExposureCodeTypeTest extends TestCase
 {
-    private $obj;
+    private MinimumAdvertisedPriceExposureCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MinimumAdvertisedPriceExposureCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType', $this->obj);
     }

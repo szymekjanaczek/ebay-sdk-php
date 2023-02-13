@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RefundFundingSourceType;
 
 class RefundFundingSourceTypeTest extends TestCase
 {
-    private $obj;
+    private RefundFundingSourceType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RefundFundingSourceType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RefundFundingSourceType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

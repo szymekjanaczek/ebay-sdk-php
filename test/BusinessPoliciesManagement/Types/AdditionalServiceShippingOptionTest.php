@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\AdditionalServiceShippingOption
 
 class AdditionalServiceShippingOptionTest extends TestCase
 {
-    private $obj;
+    private AdditionalServiceShippingOption $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AdditionalServiceShippingOption();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\AdditionalServiceShippingOption', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

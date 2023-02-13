@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest;
 
 class UpdateShippingAddressRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateShippingAddressRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateShippingAddressRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest', $this->obj);
     }
 
-    public function testExtendsShippingAddressImpl()
+    public function testExtendsShippingAddressImpl(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\ShippingAddressImpl', $this->obj);
     }

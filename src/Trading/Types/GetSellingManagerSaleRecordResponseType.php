@@ -19,7 +19,7 @@ class GetSellingManagerSaleRecordResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'SellingManagerSoldOrder' => [
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
             'repeatable' => false,

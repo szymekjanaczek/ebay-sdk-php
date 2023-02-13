@@ -14,7 +14,7 @@ class ServiceTest extends TestCase
 {
     use ManageEnv;
 
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = OAuthService::getConfigDefinitions();
 
@@ -63,7 +63,7 @@ class ServiceTest extends TestCase
         ], $d['sandbox']);
     }
 
-    public function testSandboxRedirectUrlForUser()
+    public function testSandboxRedirectUrlForUser(): void
     {
         $s = new OAuthService([
             'credentials' => [
@@ -85,7 +85,7 @@ class ServiceTest extends TestCase
         ]));
     }
 
-    public function testProductionRedirectUrlForUser()
+    public function testProductionRedirectUrlForUser(): void
     {
         $s = new OAuthService([
             'credentials' => [
@@ -106,7 +106,7 @@ class ServiceTest extends TestCase
         ]));
     }
 
-    public function testExceptionThrowForMissingStateParam()
+    public function testExceptionThrowForMissingStateParam(): void
     {
         $s = new OAuthService([
             'credentials' => [
@@ -125,7 +125,7 @@ class ServiceTest extends TestCase
         ]);
     }
 
-    public function testExceptionThrowForMissingScopeParam()
+    public function testExceptionThrowForMissingScopeParam(): void
     {
         $s = new OAuthService([
             'credentials' => [
@@ -143,7 +143,7 @@ class ServiceTest extends TestCase
             'state' => ''
         ]);
     }
-    public function testProductionUrlIsUsed()
+    public function testProductionUrlIsUsed(): void
     {
         // By default sandbox will be false.
         $h = new HttpOAuthHandler();
@@ -161,7 +161,7 @@ class ServiceTest extends TestCase
         $this->assertEquals('https://api.ebay.com/identity/v1/oauth2/token', $h->url);
     }
 
-    public function testSandboxUrlIsUsed()
+    public function testSandboxUrlIsUsed(): void
     {
         $h = new HttpOAuthHandler();
         $s = new OAuthService([
@@ -179,7 +179,7 @@ class ServiceTest extends TestCase
         $this->assertEquals('https://api.sandbox.ebay.com/identity/v1/oauth2/token', $h->url);
     }
 
-    public function testHttpHeadersAreCreated()
+    public function testHttpHeadersAreCreated(): void
     {
         $h = new HttpOAuthHandler();
         $s = new OAuthService([
@@ -207,7 +207,7 @@ class ServiceTest extends TestCase
         ])), $h->headers['Content-Length']);
     }
 
-    public function testBodyIsCreated()
+    public function testBodyIsCreated(): void
     {
         $h = new HttpOAuthHandler();
         $s = new OAuthService([
@@ -227,7 +227,7 @@ class ServiceTest extends TestCase
         ]), $h->body);
     }
 
-    public function testResponseIsReturned()
+    public function testResponseIsReturned(): void
     {
         $h = new HttpOAuthHandler();
         $s = new OAuthService([
@@ -248,10 +248,10 @@ class ServiceTest extends TestCase
         $this->assertEquals('baz', $r->refresh_token);
     }
 
-    public function testDebugging()
+    public function testDebugging(): void
     {
         $str = '';
-        $logfn = function ($value) use (&$str) {
+        $logfn = function ($value) use (&$str): void {
             $str .= $value;
         };
         $body = http_build_query([
@@ -278,7 +278,7 @@ class ServiceTest extends TestCase
         $this->assertStringContainsString('bar', $str);
     }
 
-    public function testCredentialsInstanceCanBePassed()
+    public function testCredentialsInstanceCanBePassed(): void
     {
         $s = new OAuthService([
             'credentials' => new Credentials('111', '222', '333'),
@@ -291,7 +291,7 @@ class ServiceTest extends TestCase
         $this->assertEquals('333', $c->getDevId());
     }
 
-    public function testCredentialsCanBeHardCoded()
+    public function testCredentialsCanBeHardCoded(): void
     {
         $s = new OAuthService([
             'credentials' => [
@@ -308,10 +308,10 @@ class ServiceTest extends TestCase
         $this->assertEquals('333', $c->getDevId());
     }
 
-    public function testCredentialsCanBeProvided()
+    public function testCredentialsCanBeProvided(): void
     {
         $s = new OAuthService([
-            'credentials' => function () {
+            'credentials' => function (): Credentials {
                 return new Credentials('111', '222', '333');
             },
             'ruName'      => 'foo'
@@ -323,7 +323,7 @@ class ServiceTest extends TestCase
         $this->assertEquals('333', $c->getDevId());
     }
 
-    public function testCredentialsCanBeLoadedFromIni()
+    public function testCredentialsCanBeLoadedFromIni(): void
     {
         $ini = <<<EOT
 [foo]
@@ -375,20 +375,20 @@ EOT;
         }
     }
 
-    public function testCredentialsProviderThrowsIfCantProvide()
+    public function testCredentialsProviderThrowsIfCantProvide(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('Cannot locate credentials');
 
         new OAuthService([
-            'credentials' => function () {
+            'credentials' => function (): InvalidArgumentException {
                 return new InvalidArgumentException('Cannot locate credentials');
             },
             'ruName'      => 'foo'
         ]);
     }
 
-    public function testCanSetConfigurationOptionsAfterInstaniation()
+    public function testCanSetConfigurationOptionsAfterInstaniation(): void
     {
         $h = new HttpOAuthHandler();
         $s = new OAuthService([
@@ -428,7 +428,7 @@ EOT;
         ], $s->getConfig());
     }
 
-    public function testSetConfigWillThrow()
+    public function testSetConfigWillThrow(): void
     {
         $s = new OAuthService([
             'credentials' => [

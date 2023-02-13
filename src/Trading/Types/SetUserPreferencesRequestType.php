@@ -31,7 +31,7 @@ class SetUserPreferencesRequestType extends AbstractRequestType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'BidderNoticePreferences' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BidderNoticePreferencesType',
             'repeatable' => false,

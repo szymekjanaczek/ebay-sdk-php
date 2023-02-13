@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\NotificationUserDataType;
 
 class NotificationUserDataTypeTest extends TestCase
 {
-    private $obj;
+    private NotificationUserDataType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NotificationUserDataType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\NotificationUserDataType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

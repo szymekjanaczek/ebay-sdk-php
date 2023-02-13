@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest;
 
 class GetSpecificReportRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetSpecificReportRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSpecificReportRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetSpecificReportRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

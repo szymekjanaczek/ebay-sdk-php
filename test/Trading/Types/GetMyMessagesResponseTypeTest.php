@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetMyMessagesResponseType;
 
 class GetMyMessagesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetMyMessagesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetMyMessagesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetMyMessagesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\BoldTitleCodeType;
 
 class BoldTitleCodeTypeTest extends TestCase
 {
-    private $obj;
+    private BoldTitleCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BoldTitleCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\BoldTitleCodeType', $this->obj);
     }

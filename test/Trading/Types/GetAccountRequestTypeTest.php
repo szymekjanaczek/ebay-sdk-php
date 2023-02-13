@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetAccountRequestType;
 
 class GetAccountRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetAccountRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAccountRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetAccountRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

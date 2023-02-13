@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\DisableInventoryLocationRestRequest;
 
 class DisableInventoryLocationRestRequestTest extends TestCase
 {
-    private $obj;
+    private DisableInventoryLocationRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisableInventoryLocationRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\DisableInventoryLocationRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

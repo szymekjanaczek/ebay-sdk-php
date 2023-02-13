@@ -15,19 +15,19 @@ use DTS\eBaySDK\FileTransfer\Types\DownloadFileResponse;
 
 class DownloadFileResponseTest extends TestCase
 {
-    private $obj;
+    private DownloadFileResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DownloadFileResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\DownloadFileResponse', $this->obj);
     }
 
-    public function testExtendsBaseServiceResponse()
+    public function testExtendsBaseServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\BaseServiceResponse', $this->obj);
     }

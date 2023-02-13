@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\FeesSummaryResponse;
 
 class FeesSummaryResponseTest extends TestCase
 {
-    private $obj;
+    private FeesSummaryResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeesSummaryResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\FeesSummaryResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

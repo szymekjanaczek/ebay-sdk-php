@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ShipmentLineItemType;
 
 class ShipmentLineItemTypeTest extends TestCase
 {
-    private $obj;
+    private ShipmentLineItemType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShipmentLineItemType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ShipmentLineItemType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

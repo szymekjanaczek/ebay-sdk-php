@@ -15,14 +15,14 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ErrorCategory;
 
 class ErrorCategoryTest extends TestCase
 {
-    private $obj;
+    private ErrorCategory $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ErrorCategory();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Enums\ErrorCategory', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ProductIdentifiersType;
 
 class ProductIdentifiersTypeTest extends TestCase
 {
-    private $obj;
+    private ProductIdentifiersType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductIdentifiersType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ProductIdentifiersType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

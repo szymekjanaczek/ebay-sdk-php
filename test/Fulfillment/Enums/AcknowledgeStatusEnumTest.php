@@ -15,14 +15,14 @@ use DTS\eBaySDK\Fulfillment\Enums\AcknowledgeStatusEnum;
 
 class AcknowledgeStatusEnumTest extends TestCase
 {
-    private $obj;
+    private AcknowledgeStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AcknowledgeStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\AcknowledgeStatusEnum', $this->obj);
     }

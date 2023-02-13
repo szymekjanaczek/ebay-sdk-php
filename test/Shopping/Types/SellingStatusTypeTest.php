@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\SellingStatusType;
 
 class SellingStatusTypeTest extends TestCase
 {
-    private $obj;
+    private SellingStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\SellingStatusType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

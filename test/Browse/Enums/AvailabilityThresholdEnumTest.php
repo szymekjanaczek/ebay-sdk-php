@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\AvailabilityThresholdEnum;
 
 class AvailabilityThresholdEnumTest extends TestCase
 {
-    private $obj;
+    private AvailabilityThresholdEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AvailabilityThresholdEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\AvailabilityThresholdEnum', $this->obj);
     }

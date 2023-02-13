@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation;
 
 class URITypeSpecificInformationTest extends TestCase
 {
-    private $obj;
+    private URITypeSpecificInformation $obj;
 
     protected function setUp(): void
     {
         $this->obj = new URITypeSpecificInformation();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

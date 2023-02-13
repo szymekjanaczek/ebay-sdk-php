@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\EstimatedShippingInfoType;
 
 class EstimatedShippingInfoTypeTest extends TestCase
 {
-    private $obj;
+    private EstimatedShippingInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EstimatedShippingInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EstimatedShippingInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

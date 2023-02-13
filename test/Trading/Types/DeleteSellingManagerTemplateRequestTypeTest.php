@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DeleteSellingManagerTemplateRequestType;
 
 class DeleteSellingManagerTemplateRequestTypeTest extends TestCase
 {
-    private $obj;
+    private DeleteSellingManagerTemplateRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteSellingManagerTemplateRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DeleteSellingManagerTemplateRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

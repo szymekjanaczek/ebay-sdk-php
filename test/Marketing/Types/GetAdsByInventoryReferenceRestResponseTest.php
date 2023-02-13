@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse;
 
 class GetAdsByInventoryReferenceRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetAdsByInventoryReferenceRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAdsByInventoryReferenceRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetAdsByInventoryReferenceRestResponse', $this->obj);
     }
 
-    public function testExtendsAds()
+    public function testExtendsAds(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\Ads', $this->obj);
     }

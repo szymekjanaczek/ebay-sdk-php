@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseSortOrderType;
 
 class CaseSortOrderTypeTest extends TestCase
 {
-    private $obj;
+    private CaseSortOrderType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseSortOrderType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseSortOrderType', $this->obj);
     }

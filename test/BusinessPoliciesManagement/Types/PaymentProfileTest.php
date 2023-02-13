@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile;
 
 class PaymentProfileTest extends TestCase
 {
-    private $obj;
+    private PaymentProfile $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentProfile();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile', $this->obj);
     }
 
-    public function testExtendsSellerProfile()
+    public function testExtendsSellerProfile(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfile', $this->obj);
     }

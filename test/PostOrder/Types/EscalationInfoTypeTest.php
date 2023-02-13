@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\EscalationInfoType;
 
 class EscalationInfoTypeTest extends TestCase
 {
-    private $obj;
+    private EscalationInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EscalationInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalationInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -13,7 +13,7 @@ class GetAppTokenRestRequest extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'grant_type' => [
             'type' => 'string',
             'repeatable' => false,

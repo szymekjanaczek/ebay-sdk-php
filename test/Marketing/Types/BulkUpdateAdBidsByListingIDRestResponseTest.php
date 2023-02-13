@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestResponse;
 
 class BulkUpdateAdBidsByListingIDRestResponseTest extends TestCase
 {
-    private $obj;
+    private BulkUpdateAdBidsByListingIDRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkUpdateAdBidsByListingIDRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkUpdateAdBidsByListingIDRestResponse', $this->obj);
     }
 
-    public function testExtendsBulkAdResponse()
+    public function testExtendsBulkAdResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkAdResponse', $this->obj);
     }

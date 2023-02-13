@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ClassifiedAdCounterOfferEnabledDefinitionType;
 
 class ClassifiedAdCounterOfferEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ClassifiedAdCounterOfferEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ClassifiedAdCounterOfferEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ClassifiedAdCounterOfferEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

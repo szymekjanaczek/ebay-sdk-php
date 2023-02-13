@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetSellingManagerItemAutomationRuleResponseType;
 
 class SetSellingManagerItemAutomationRuleResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SetSellingManagerItemAutomationRuleResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetSellingManagerItemAutomationRuleResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetSellingManagerItemAutomationRuleResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

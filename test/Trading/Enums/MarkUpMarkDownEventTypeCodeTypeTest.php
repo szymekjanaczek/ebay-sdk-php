@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\MarkUpMarkDownEventTypeCodeType;
 
 class MarkUpMarkDownEventTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private MarkUpMarkDownEventTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MarkUpMarkDownEventTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\MarkUpMarkDownEventTypeCodeType', $this->obj);
     }

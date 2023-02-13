@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\QuantityInfo;
 
 class QuantityInfoTest extends TestCase
 {
-    private $obj;
+    private QuantityInfo $obj;
 
     protected function setUp(): void
     {
         $this->obj = new QuantityInfo();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\QuantityInfo', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

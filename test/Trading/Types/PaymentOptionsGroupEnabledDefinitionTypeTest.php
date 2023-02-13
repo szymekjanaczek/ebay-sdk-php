@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PaymentOptionsGroupEnabledDefinitionType;
 
 class PaymentOptionsGroupEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private PaymentOptionsGroupEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentOptionsGroupEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PaymentOptionsGroupEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

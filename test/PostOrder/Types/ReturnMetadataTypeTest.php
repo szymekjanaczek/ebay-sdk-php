@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ReturnMetadataType;
 
 class ReturnMetadataTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnMetadataType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnMetadataType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnMetadataType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

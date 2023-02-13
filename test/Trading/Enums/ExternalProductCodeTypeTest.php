@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ExternalProductCodeType;
 
 class ExternalProductCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ExternalProductCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExternalProductCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ExternalProductCodeType', $this->obj);
     }

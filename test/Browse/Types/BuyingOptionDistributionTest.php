@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\BuyingOptionDistribution;
 
 class BuyingOptionDistributionTest extends TestCase
 {
-    private $obj;
+    private BuyingOptionDistribution $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyingOptionDistribution();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\BuyingOptionDistribution', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

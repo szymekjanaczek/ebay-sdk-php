@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetShippingDiscountProfilesRequestType;
 
 class SetShippingDiscountProfilesRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetShippingDiscountProfilesRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetShippingDiscountProfilesRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetShippingDiscountProfilesRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

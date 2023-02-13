@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\CategoryDistribution;
 
 class CategoryDistributionTest extends TestCase
 {
-    private $obj;
+    private CategoryDistribution $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryDistribution();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\CategoryDistribution', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

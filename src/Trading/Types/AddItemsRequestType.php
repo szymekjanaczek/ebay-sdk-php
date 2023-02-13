@@ -19,7 +19,7 @@ class AddItemsRequestType extends AbstractRequestType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'AddItemRequestContainer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AddItemRequestContainerType',
             'repeatable' => true,

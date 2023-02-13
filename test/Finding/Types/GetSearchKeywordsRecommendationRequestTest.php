@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest;
 
 class GetSearchKeywordsRecommendationRequestTest extends TestCase
 {
-    private $obj;
+    private GetSearchKeywordsRecommendationRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSearchKeywordsRecommendationRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseServiceRequest', $this->obj);
     }

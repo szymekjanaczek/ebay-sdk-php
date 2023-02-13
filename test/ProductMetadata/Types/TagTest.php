@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\Tag;
 
 class TagTest extends TestCase
 {
-    private $obj;
+    private Tag $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Tag();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\Tag', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

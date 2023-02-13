@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ExpressConditionRequiredDefinitionType;
 
 class ExpressConditionRequiredDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ExpressConditionRequiredDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExpressConditionRequiredDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ExpressConditionRequiredDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\ProductMetadataResponse;
 
 class ProductMetadataResponseTest extends TestCase
 {
-    private $obj;
+    private ProductMetadataResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductMetadataResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\ProductMetadataResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseResponse', $this->obj);
     }

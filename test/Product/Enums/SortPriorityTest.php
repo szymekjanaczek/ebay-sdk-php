@@ -15,14 +15,14 @@ use DTS\eBaySDK\Product\Enums\SortPriority;
 
 class SortPriorityTest extends TestCase
 {
-    private $obj;
+    private SortPriority $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SortPriority();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\SortPriority', $this->obj);
     }

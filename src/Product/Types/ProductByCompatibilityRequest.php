@@ -21,7 +21,7 @@ class ProductByCompatibilityRequest extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'applicationPropertyFilter' => [
             'type' => 'DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter',
             'repeatable' => false,

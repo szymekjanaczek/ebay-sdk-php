@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\SellerReturnProfileType;
 
 class SellerReturnProfileTypeTest extends TestCase
 {
-    private $obj;
+    private SellerReturnProfileType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerReturnProfileType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\SellerReturnProfileType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

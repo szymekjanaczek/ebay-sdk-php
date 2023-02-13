@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SaveItemToSellingManagerTemplateResponseType;
 
 class SaveItemToSellingManagerTemplateResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SaveItemToSellingManagerTemplateResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SaveItemToSellingManagerTemplateResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SaveItemToSellingManagerTemplateResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

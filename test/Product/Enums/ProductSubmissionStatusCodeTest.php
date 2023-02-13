@@ -15,14 +15,14 @@ use DTS\eBaySDK\Product\Enums\ProductSubmissionStatusCode;
 
 class ProductSubmissionStatusCodeTest extends TestCase
 {
-    private $obj;
+    private ProductSubmissionStatusCode $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductSubmissionStatusCode();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\ProductSubmissionStatusCode', $this->obj);
     }

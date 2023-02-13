@@ -15,14 +15,14 @@ use DTS\eBaySDK\Order\Enums\LineItemStatusEnum;
 
 class LineItemStatusEnumTest extends TestCase
 {
-    private $obj;
+    private LineItemStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LineItemStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Enums\LineItemStatusEnum', $this->obj);
     }

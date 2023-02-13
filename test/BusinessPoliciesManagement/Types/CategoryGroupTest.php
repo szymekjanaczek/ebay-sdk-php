@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup;
 
 class CategoryGroupTest extends TestCase
 {
-    private $obj;
+    private CategoryGroup $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryGroup();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

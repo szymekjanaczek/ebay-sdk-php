@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest;
 
 class GetFulfillmentPoliciesByMarketplaceRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetFulfillmentPoliciesByMarketplaceRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetFulfillmentPoliciesByMarketplaceRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

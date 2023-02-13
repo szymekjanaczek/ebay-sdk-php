@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ApiAccessRuleType;
 
 class ApiAccessRuleTypeTest extends TestCase
 {
-    private $obj;
+    private ApiAccessRuleType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ApiAccessRuleType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ApiAccessRuleType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

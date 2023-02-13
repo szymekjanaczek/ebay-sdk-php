@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\ReturnCountFilterEnum;
 
 class ReturnCountFilterEnumTest extends TestCase
 {
-    private $obj;
+    private ReturnCountFilterEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnCountFilterEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\ReturnCountFilterEnum', $this->obj);
     }

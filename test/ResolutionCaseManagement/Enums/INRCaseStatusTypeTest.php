@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType;
 
 class INRCaseStatusTypeTest extends TestCase
 {
-    private $obj;
+    private INRCaseStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new INRCaseStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType', $this->obj);
     }

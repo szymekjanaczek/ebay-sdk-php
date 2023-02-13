@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequ
 
 class ConsolidateShippingProfilesRequestTest extends TestCase
 {
-    private $obj;
+    private ConsolidateShippingProfilesRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConsolidateShippingProfilesRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest', $this->obj);
     }

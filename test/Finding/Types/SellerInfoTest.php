@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\SellerInfo;
 
 class SellerInfoTest extends TestCase
 {
-    private $obj;
+    private SellerInfo $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerInfo();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\SellerInfo', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

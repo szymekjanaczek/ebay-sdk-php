@@ -24,7 +24,7 @@ class ItemFilter extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'paramName' => [
             'type' => 'string',
             'repeatable' => false,

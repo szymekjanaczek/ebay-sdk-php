@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\GeneralPaymentMethodCodeType;
 
 class GeneralPaymentMethodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private GeneralPaymentMethodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GeneralPaymentMethodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\GeneralPaymentMethodCodeType', $this->obj);
     }

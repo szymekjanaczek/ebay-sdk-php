@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ItemEligibilityResult;
 
 class ItemEligibilityResultTest extends TestCase
 {
-    private $obj;
+    private ItemEligibilityResult $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemEligibilityResult();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ItemEligibilityResult', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

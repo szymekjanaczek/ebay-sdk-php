@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType;
 
 class PremiumSubscriptionDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private PremiumSubscriptionDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PremiumSubscriptionDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

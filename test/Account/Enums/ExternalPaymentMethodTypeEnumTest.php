@@ -15,14 +15,14 @@ use DTS\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum;
 
 class ExternalPaymentMethodTypeEnumTest extends TestCase
 {
-    private $obj;
+    private ExternalPaymentMethodTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExternalPaymentMethodTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\ExternalPaymentMethodTypeEnum', $this->obj);
     }

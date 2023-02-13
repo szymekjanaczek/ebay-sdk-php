@@ -15,14 +15,14 @@ use DTS\eBaySDK\Analytics\Enums\CycleTypeEnum;
 
 class CycleTypeEnumTest extends TestCase
 {
-    private $obj;
+    private CycleTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CycleTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Enums\CycleTypeEnum', $this->obj);
     }

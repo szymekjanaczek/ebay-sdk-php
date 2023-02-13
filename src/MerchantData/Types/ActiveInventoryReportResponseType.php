@@ -19,7 +19,7 @@ class ActiveInventoryReportResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'SKUDetails' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\SKUDetailsType',
             'repeatable' => true,

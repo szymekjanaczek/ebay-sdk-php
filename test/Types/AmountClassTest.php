@@ -6,24 +6,24 @@ use DTS\eBaySDK\Test\Mocks\AmountClass;
 
 class AmountClassTest extends TestCase
 {
-    private $obj;
+    private AmountClass $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AmountClass();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\AmountClass', $this->obj);
     }
 
-    public function testExtendsDoubleType()
+    public function testExtendsDoubleType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\DoubleType', $this->obj);
     }
 
-    public function testToXml()
+    public function testToXml(): void
     {
         $this->obj->value = 123.45;
         $this->obj->AttributeOne = 'one';

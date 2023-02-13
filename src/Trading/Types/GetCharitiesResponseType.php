@@ -19,7 +19,7 @@ class GetCharitiesResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Charity' => [
             'type' => 'DTS\eBaySDK\Trading\Types\CharityInfoType',
             'repeatable' => true,

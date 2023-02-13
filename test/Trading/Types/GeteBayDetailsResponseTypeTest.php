@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GeteBayDetailsResponseType;
 
 class GeteBayDetailsResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GeteBayDetailsResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GeteBayDetailsResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GeteBayDetailsResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

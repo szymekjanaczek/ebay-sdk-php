@@ -19,7 +19,7 @@ class Base64BinaryType extends \DTS\eBaySDK\Types\Base64BinaryType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'contentType' => [
             'type' => 'string',
             'repeatable' => false,

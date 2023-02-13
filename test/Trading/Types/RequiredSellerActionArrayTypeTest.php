@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RequiredSellerActionArrayType;
 
 class RequiredSellerActionArrayTypeTest extends TestCase
 {
-    private $obj;
+    private RequiredSellerActionArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RequiredSellerActionArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RequiredSellerActionArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

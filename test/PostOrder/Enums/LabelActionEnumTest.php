@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\LabelActionEnum;
 
 class LabelActionEnumTest extends TestCase
 {
-    private $obj;
+    private LabelActionEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LabelActionEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\LabelActionEnum', $this->obj);
     }

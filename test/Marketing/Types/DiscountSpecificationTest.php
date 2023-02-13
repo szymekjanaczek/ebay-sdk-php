@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\DiscountSpecification;
 
 class DiscountSpecificationTest extends TestCase
 {
-    private $obj;
+    private DiscountSpecification $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DiscountSpecification();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\DiscountSpecification', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

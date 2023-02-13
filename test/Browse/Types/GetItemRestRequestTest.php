@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\GetItemRestRequest;
 
 class GetItemRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetItemRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\GetItemRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

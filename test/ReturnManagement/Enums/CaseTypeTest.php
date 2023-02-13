@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\CaseType;
 
 class CaseTypeTest extends TestCase
 {
-    private $obj;
+    private CaseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\CaseType', $this->obj);
     }

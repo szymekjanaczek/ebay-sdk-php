@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\AppealGrantStatusEnum;
 
 class AppealGrantStatusEnumTest extends TestCase
 {
-    private $obj;
+    private AppealGrantStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AppealGrantStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\AppealGrantStatusEnum', $this->obj);
     }

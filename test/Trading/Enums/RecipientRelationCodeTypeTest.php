@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType;
 
 class RecipientRelationCodeTypeTest extends TestCase
 {
-    private $obj;
+    private RecipientRelationCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RecipientRelationCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType', $this->obj);
     }

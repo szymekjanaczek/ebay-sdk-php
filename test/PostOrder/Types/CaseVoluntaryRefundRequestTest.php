@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CaseVoluntaryRefundRequest;
 
 class CaseVoluntaryRefundRequestTest extends TestCase
 {
-    private $obj;
+    private CaseVoluntaryRefundRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseVoluntaryRefundRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CaseVoluntaryRefundRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

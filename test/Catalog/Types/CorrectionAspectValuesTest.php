@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\CorrectionAspectValues;
 
 class CorrectionAspectValuesTest extends TestCase
 {
-    private $obj;
+    private CorrectionAspectValues $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CorrectionAspectValues();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\CorrectionAspectValues', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetDescriptionTemplatesRequestType;
 
 class GetDescriptionTemplatesRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetDescriptionTemplatesRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetDescriptionTemplatesRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetDescriptionTemplatesRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

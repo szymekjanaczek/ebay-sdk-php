@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseStatusInputType;
 
 class CaseStatusInputTypeTest extends TestCase
 {
-    private $obj;
+    private CaseStatusInputType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseStatusInputType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseStatusInputType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Catalog\Enums\ProductAttributeName;
 
 class ProductAttributeNameTest extends TestCase
 {
-    private $obj;
+    private ProductAttributeName $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductAttributeName();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Enums\ProductAttributeName', $this->obj);
     }

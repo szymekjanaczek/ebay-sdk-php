@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\ListingSubtypeCodeType;
 
 class ListingSubtypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ListingSubtypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingSubtypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ListingSubtypeCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\ActivityOptionEnum;
 
 class ActivityOptionEnumTest extends TestCase
 {
-    private $obj;
+    private ActivityOptionEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ActivityOptionEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\ActivityOptionEnum', $this->obj);
     }

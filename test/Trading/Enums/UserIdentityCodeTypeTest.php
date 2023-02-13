@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\UserIdentityCodeType;
 
 class UserIdentityCodeTypeTest extends TestCase
 {
-    private $obj;
+    private UserIdentityCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UserIdentityCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\UserIdentityCodeType', $this->obj);
     }

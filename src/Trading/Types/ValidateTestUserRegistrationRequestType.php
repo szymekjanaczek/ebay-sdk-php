@@ -25,7 +25,7 @@ class ValidateTestUserRegistrationRequestType extends AbstractRequestType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'FeedbackScore' => [
             'type' => 'integer',
             'repeatable' => false,

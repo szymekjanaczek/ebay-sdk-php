@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\NonUsageTransactionType;
 
 class NonUsageTransactionTypeTest extends TestCase
 {
-    private $obj;
+    private NonUsageTransactionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NonUsageTransactionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\NonUsageTransactionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

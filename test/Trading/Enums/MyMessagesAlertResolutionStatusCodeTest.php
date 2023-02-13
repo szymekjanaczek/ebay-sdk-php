@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\MyMessagesAlertResolutionStatusCode;
 
 class MyMessagesAlertResolutionStatusCodeTest extends TestCase
 {
-    private $obj;
+    private MyMessagesAlertResolutionStatusCode $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyMessagesAlertResolutionStatusCode();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\MyMessagesAlertResolutionStatusCode', $this->obj);
     }

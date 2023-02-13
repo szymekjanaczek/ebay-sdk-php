@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest;
 
 class DeleteRecurringJobRequestTest extends TestCase
 {
-    private $obj;
+    private DeleteRecurringJobRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteRecurringJobRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
     }

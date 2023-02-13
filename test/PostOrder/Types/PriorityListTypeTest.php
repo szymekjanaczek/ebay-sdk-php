@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\PriorityListType;
 
 class PriorityListTypeTest extends TestCase
 {
-    private $obj;
+    private PriorityListType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PriorityListType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\PriorityListType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

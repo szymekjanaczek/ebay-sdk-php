@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ConditionValuesDefinitionType;
 
 class ConditionValuesDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ConditionValuesDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConditionValuesDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ConditionValuesDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ResponseAttributeSetType;
 
 class ResponseAttributeSetTypeTest extends TestCase
 {
-    private $obj;
+    private ResponseAttributeSetType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ResponseAttributeSetType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ResponseAttributeSetType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

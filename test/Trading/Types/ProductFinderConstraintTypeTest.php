@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ProductFinderConstraintType;
 
 class ProductFinderConstraintTypeTest extends TestCase
 {
-    private $obj;
+    private ProductFinderConstraintType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductFinderConstraintType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ProductFinderConstraintType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

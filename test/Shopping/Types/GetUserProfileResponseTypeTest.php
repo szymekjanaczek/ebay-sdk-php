@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\GetUserProfileResponseType;
 
 class GetUserProfileResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetUserProfileResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetUserProfileResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetUserProfileResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
     }

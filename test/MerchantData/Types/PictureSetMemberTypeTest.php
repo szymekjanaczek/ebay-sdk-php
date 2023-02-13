@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\PictureSetMemberType;
 
 class PictureSetMemberTypeTest extends TestCase
 {
-    private $obj;
+    private PictureSetMemberType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureSetMemberType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\PictureSetMemberType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

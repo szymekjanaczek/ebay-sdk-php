@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\GetCompatibilitySearchNamesRequest;
 
 class GetCompatibilitySearchNamesRequestTest extends TestCase
 {
-    private $obj;
+    private GetCompatibilitySearchNamesRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCompatibilitySearchNamesRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GetCompatibilitySearchNamesRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest', $this->obj);
     }

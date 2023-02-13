@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\InventoryStatusType;
 
 class InventoryStatusTypeTest extends TestCase
 {
-    private $obj;
+    private InventoryStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventoryStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\InventoryStatusType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

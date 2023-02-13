@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\KTypeSupportedDefinitionType;
 
 class KTypeSupportedDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private KTypeSupportedDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new KTypeSupportedDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\KTypeSupportedDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

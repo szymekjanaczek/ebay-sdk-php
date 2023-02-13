@@ -18,7 +18,7 @@ class CreateReportTaskRestRequest extends CreateReportTask
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
     ];
 
     /**

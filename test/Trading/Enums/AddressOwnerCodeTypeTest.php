@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType;
 
 class AddressOwnerCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AddressOwnerCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddressOwnerCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType', $this->obj);
     }

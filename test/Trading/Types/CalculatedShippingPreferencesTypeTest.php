@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CalculatedShippingPreferencesType;
 
 class CalculatedShippingPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private CalculatedShippingPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CalculatedShippingPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CalculatedShippingPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

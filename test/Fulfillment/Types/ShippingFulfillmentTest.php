@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment;
 
 class ShippingFulfillmentTest extends TestCase
 {
-    private $obj;
+    private ShippingFulfillment $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingFulfillment();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetUserNotesRequestType;
 
 class SetUserNotesRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetUserNotesRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetUserNotesRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetUserNotesRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

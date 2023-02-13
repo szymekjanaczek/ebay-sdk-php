@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemRequestType;
 
 class AddFixedPriceItemRequestTypeTest extends TestCase
 {
-    private $obj;
+    private AddFixedPriceItemRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddFixedPriceItemRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractRequestType', $this->obj);
     }

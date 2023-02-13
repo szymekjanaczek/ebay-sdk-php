@@ -9,7 +9,7 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends TestCase
 {
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = BusinessPoliciesManagementBaseService::getConfigDefinitions();
 
@@ -32,7 +32,7 @@ class ServiceTest extends TestCase
         ], $d['globalId']);
     }
 
-    public function testRequiredEbayHeaders()
+    public function testRequiredEbayHeaders(): void
     {
         $h = new HttpHandler();
 
@@ -60,7 +60,7 @@ class ServiceTest extends TestCase
         $this->assertEquals(BusinessPoliciesManagementService::API_VERSION, $h->headers[BusinessPoliciesManagementBaseService::HDR_API_VERSION]);
     }
 
-    public function testOptionalEbayHeaders()
+    public function testOptionalEbayHeaders(): void
     {
         $h = new HttpHandler();
 

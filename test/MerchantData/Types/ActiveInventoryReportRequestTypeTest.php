@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportRequestType;
 
 class ActiveInventoryReportRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ActiveInventoryReportRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ActiveInventoryReportRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportRequestType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\AspectValueDistribution;
 
 class AspectValueDistributionTest extends TestCase
 {
-    private $obj;
+    private AspectValueDistribution $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AspectValueDistribution();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\AspectValueDistribution', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

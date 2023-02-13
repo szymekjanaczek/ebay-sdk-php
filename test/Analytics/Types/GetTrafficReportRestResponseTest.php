@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\GetTrafficReportRestResponse;
 
 class GetTrafficReportRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetTrafficReportRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetTrafficReportRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\GetTrafficReportRestResponse', $this->obj);
     }
 
-    public function testExtendsReport()
+    public function testExtendsReport(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Report', $this->obj);
     }

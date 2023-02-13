@@ -3,7 +3,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 
 class DecimalType extends \DTS\eBaySDK\Types\DecimalType
 {
-    private static $propertyTypes = [];
+    private static array $propertyTypes = [];
 
     public function __construct(array $values = [])
     {

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EndItemResponseType;
 
 class EndItemResponseTypeTest extends TestCase
 {
-    private $obj;
+    private EndItemResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EndItemResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EndItemResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

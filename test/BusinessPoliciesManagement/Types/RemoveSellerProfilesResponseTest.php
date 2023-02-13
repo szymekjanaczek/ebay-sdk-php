@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesResponse;
 
 class RemoveSellerProfilesResponseTest extends TestCase
 {
-    private $obj;
+    private RemoveSellerProfilesResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RemoveSellerProfilesResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
     }

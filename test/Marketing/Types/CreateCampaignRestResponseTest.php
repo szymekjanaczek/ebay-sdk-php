@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\CreateCampaignRestResponse;
 
 class CreateCampaignRestResponseTest extends TestCase
 {
-    private $obj;
+    private CreateCampaignRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateCampaignRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateCampaignRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

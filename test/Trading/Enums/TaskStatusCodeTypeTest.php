@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\TaskStatusCodeType;
 
 class TaskStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TaskStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TaskStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\TaskStatusCodeType', $this->obj);
     }

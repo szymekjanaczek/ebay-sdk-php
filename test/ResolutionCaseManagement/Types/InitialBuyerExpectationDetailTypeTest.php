@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType
 
 class InitialBuyerExpectationDetailTypeTest extends TestCase
 {
-    private $obj;
+    private InitialBuyerExpectationDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InitialBuyerExpectationDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType', $this->obj);
     }
 
-    public function testExtendsEnumerationDetailType()
+    public function testExtendsEnumerationDetailType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType', $this->obj);
     }

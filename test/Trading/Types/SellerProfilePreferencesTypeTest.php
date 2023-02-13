@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerProfilePreferencesType;
 
 class SellerProfilePreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private SellerProfilePreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerProfilePreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerProfilePreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

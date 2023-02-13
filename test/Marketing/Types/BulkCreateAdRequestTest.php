@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\BulkCreateAdRequest;
 
 class BulkCreateAdRequestTest extends TestCase
 {
-    private $obj;
+    private BulkCreateAdRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkCreateAdRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkCreateAdRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

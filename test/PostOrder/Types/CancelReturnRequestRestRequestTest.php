@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest;
 
 class CancelReturnRequestRestRequestTest extends TestCase
 {
-    private $obj;
+    private CancelReturnRequestRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelReturnRequestRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CancelReturnRequestRestRequest', $this->obj);
     }
 
-    public function testExtendsCloseReturnRequest()
+    public function testExtendsCloseReturnRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CloseReturnRequest', $this->obj);
     }

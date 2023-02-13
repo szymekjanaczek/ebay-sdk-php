@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType;
 
 class ReturnReasonTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnReasonType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnReasonType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType', $this->obj);
     }
 
-    public function testExtendsEnumerationDetailType()
+    public function testExtendsEnumerationDetailType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType', $this->obj);
     }

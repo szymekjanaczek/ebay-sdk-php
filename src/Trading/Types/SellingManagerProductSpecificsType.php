@@ -22,7 +22,7 @@ class SellingManagerProductSpecificsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'PrimaryCategoryID' => [
             'type' => 'string',
             'repeatable' => false,

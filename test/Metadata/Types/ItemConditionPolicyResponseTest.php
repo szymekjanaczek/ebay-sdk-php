@@ -15,19 +15,19 @@ use DTS\eBaySDK\Metadata\Types\ItemConditionPolicyResponse;
 
 class ItemConditionPolicyResponseTest extends TestCase
 {
-    private $obj;
+    private ItemConditionPolicyResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemConditionPolicyResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\ItemConditionPolicyResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

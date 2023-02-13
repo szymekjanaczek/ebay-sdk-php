@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RespondToBestOfferRequestType;
 
 class RespondToBestOfferRequestTypeTest extends TestCase
 {
-    private $obj;
+    private RespondToBestOfferRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RespondToBestOfferRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RespondToBestOfferRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

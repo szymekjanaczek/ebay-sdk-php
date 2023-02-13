@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\Definition;
 
 class DefinitionTest extends TestCase
 {
-    private $obj;
+    private Definition $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Definition();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Definition', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

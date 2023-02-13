@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PerformanceStatusCodeType;
 
 class PerformanceStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PerformanceStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PerformanceStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PerformanceStatusCodeType', $this->obj);
     }

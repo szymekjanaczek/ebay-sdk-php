@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalSNADCaseStatusType;
 
 class PaypalSNADCaseStatusTypeTest extends TestCase
 {
-    private $obj;
+    private PaypalSNADCaseStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaypalSNADCaseStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalSNADCaseStatusType', $this->obj);
     }

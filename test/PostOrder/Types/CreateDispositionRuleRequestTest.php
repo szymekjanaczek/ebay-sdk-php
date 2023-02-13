@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CreateDispositionRuleRequest;
 
 class CreateDispositionRuleRequestTest extends TestCase
 {
-    private $obj;
+    private CreateDispositionRuleRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateDispositionRuleRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateDispositionRuleRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

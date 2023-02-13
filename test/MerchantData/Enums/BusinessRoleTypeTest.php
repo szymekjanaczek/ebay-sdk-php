@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\BusinessRoleType;
 
 class BusinessRoleTypeTest extends TestCase
 {
-    private $obj;
+    private BusinessRoleType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BusinessRoleType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\BusinessRoleType', $this->obj);
     }

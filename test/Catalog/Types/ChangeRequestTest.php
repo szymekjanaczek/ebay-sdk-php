@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ChangeRequest;
 
 class ChangeRequestTest extends TestCase
 {
-    private $obj;
+    private ChangeRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ChangeRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ChangeRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

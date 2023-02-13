@@ -20,7 +20,7 @@ class BestOfferArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'BestOffer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\BestOfferType',
             'repeatable' => true,

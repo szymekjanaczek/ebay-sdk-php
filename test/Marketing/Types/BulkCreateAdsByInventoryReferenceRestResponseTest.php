@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestResponse;
 
 class BulkCreateAdsByInventoryReferenceRestResponseTest extends TestCase
 {
-    private $obj;
+    private BulkCreateAdsByInventoryReferenceRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkCreateAdsByInventoryReferenceRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRestResponse', $this->obj);
     }
 
-    public function testExtendsBulkCreateAdsByInventoryReferenceResponse()
+    public function testExtendsBulkCreateAdsByInventoryReferenceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceResponse', $this->obj);
     }

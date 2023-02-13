@@ -20,7 +20,7 @@ class PhoneNumber extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'phoneNumber' => [
             'type' => 'string',
             'repeatable' => false,

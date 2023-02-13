@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest;
 
 class CreateAShippingFulfillmentRestRequestTest extends TestCase
 {
-    private $obj;
+    private CreateAShippingFulfillmentRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateAShippingFulfillmentRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest', $this->obj);
     }
 
-    public function testExtendsShippingFulfillmentDetails()
+    public function testExtendsShippingFulfillmentDetails(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\ShippingFulfillmentDetails', $this->obj);
     }

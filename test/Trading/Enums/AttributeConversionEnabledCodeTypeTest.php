@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AttributeConversionEnabledCodeType;
 
 class AttributeConversionEnabledCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AttributeConversionEnabledCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AttributeConversionEnabledCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AttributeConversionEnabledCodeType', $this->obj);
     }

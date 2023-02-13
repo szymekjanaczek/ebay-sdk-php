@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\PartyEnum;
 
 class PartyEnumTest extends TestCase
 {
-    private $obj;
+    private PartyEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PartyEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\PartyEnum', $this->obj);
     }

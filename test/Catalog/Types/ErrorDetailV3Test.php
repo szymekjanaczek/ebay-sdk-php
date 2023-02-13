@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ErrorDetailV3;
 
 class ErrorDetailV3Test extends TestCase
 {
-    private $obj;
+    private ErrorDetailV3 $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ErrorDetailV3();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ErrorDetailV3', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

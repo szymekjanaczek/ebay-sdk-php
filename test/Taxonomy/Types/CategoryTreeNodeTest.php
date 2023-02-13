@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode;
 
 class CategoryTreeNodeTest extends TestCase
 {
-    private $obj;
+    private CategoryTreeNode $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryTreeNode();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

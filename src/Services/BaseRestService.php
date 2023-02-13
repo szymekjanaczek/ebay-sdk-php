@@ -33,17 +33,17 @@ abstract class BaseRestService
     /**
      * @var ConfigurationResolver Resolves configuration options.
      */
-    private $resolver;
+    private ConfigurationResolver $resolver;
 
     /**
      * @var UriResolver Resolves uri parameters.
      */
-    private $uriResolver;
+    private UriResolver $uriResolver;
 
     /**
      * @var array Associative array storing the current configuration option values.
      */
-    private $config;
+    private array $config;
 
     /**
      * @param array $config Configuration option values.
@@ -58,9 +58,9 @@ abstract class BaseRestService
     /**
      * Returns definitions for each configuration option that is supported.
      *
-     * @return array An associative array of configuration definitions.
+     * @return array{compressResponse: array{valid: string[], default: false}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: array{http_errors: false}}, requestLanguage: array{valid: string[]}, responseLanguage: array{valid: string[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions()
+    public static function getConfigDefinitions(): array
     {
         return [
             'compressResponse' => [
@@ -117,7 +117,7 @@ abstract class BaseRestService
      *
      * @param array $configuration Associative array of configuration options and their values.
      */
-    public function setConfig(array $configuration)
+    public function setConfig(array $configuration): void
     {
         $this->config = Functions\arrayMergeDeep(
             $this->config,
@@ -129,7 +129,7 @@ abstract class BaseRestService
      * Sends an asynchronous API request.
      *
      * @param string $name The name of the operation.
-     * @param BaseType $request Request object containing the request information.
+     * @param BaseType|null $request Request object containing the request information.
      *
      * @return PromiseInterface A promise that will be resolved with an object created from the JSON response.
      */
@@ -168,7 +168,7 @@ abstract class BaseRestService
         $request = new Request($method, $url, $headers, $body);
 
         return $httpHandler($request, $httpOptions)->then(
-            function (ResponseInterface $res) use ($debug, $responseClass) {
+            function (ResponseInterface $res) use ($debug, $responseClass): object {
                 $json = $res->getBody()->getContents();
 
                 if ($debug !== false) {
@@ -217,7 +217,7 @@ abstract class BaseRestService
      *
      * @return array An associative array of HTTP headers.
      */
-    private function buildRequestHeaders($body)
+    private function buildRequestHeaders(string $body)
     {
         $headers = $this->getEbayHeaders();
 
@@ -255,11 +255,11 @@ abstract class BaseRestService
      * @param array $headers Associative array of HTTP headers.
      * @param string $body The JSON body of the request.
       */
-    private function debugRequest($url, array $headers, $body)
+    private function debugRequest(string $url, array $headers, string $body): void
     {
         $str = $url.PHP_EOL;
 
-        $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers) {
+        $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers): string {
             $str .= $key.': '.$headers[$key].PHP_EOL;
             return $str;
         }, '');
@@ -274,7 +274,7 @@ abstract class BaseRestService
      *
      * @param string $body The JSON body of the response.
       */
-    private function debugResponse($body)
+    private function debugResponse(string $body): void
     {
         $this->debug($body);
     }
@@ -284,7 +284,7 @@ abstract class BaseRestService
      *
      * @param string $str The debug information.
      */
-    private function debug($str)
+    private function debug(string $str): void
     {
         $debugger = $this->getConfig('debug');
         $debugger($str);

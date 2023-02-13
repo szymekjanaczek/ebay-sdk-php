@@ -31,16 +31,15 @@ use DTS\eBaySDK\JmesPath\Lexer as T;
  */
 class Parser
 {
-    /** @var Lexer */
-    private $lexer;
-    private $tokens;
+    private T $lexer;
+    private ?array $tokens = null;
     private $token;
-    private $tpos;
+    private ?int $tpos = null;
     private $expression;
-    private static $nullToken = ['type' => T::T_EOF];
-    private static $currentNode = ['type' => T::T_CURRENT];
+    private static array $nullToken = ['type' => T::T_EOF];
+    private static array $currentNode = ['type' => T::T_CURRENT];
 
-    private static $bp = [
+    private static array $bp = [
         T::T_EOF               => 0,
         T::T_QUOTED_IDENTIFIER => 0,
         T::T_IDENTIFIER        => 0,
@@ -67,7 +66,7 @@ class Parser
     ];
 
     /** @var array Acceptable tokens after a dot token */
-    private static $afterDot = [
+    private static array $afterDot = [
         T::T_IDENTIFIER        => true, // foo.bar
         T::T_QUOTED_IDENTIFIER => true, // foo."bar"
         T::T_STAR              => true, // foo.*
@@ -77,7 +76,7 @@ class Parser
     ];
 
     /**
-     * @param Lexer $lexer Lexer used to tokenize expressions
+     * @param \DTS\eBaySDK\JmesPath\Lexer|null $lexer Lexer used to tokenize expressions
      */
     public function __construct(Lexer $lexer = null)
     {
@@ -124,14 +123,20 @@ class Parser
         return $left;
     }
 
-    private function nud_identifier()
+    /**
+     * @return array{type: string, value: mixed}
+     */
+    private function nud_identifier(): array
     {
         $token = $this->token;
         $this->next();
         return ['type' => 'field', 'value' => $token['value']];
     }
 
-    private function nud_quoted_identifier()
+    /**
+     * @return array{type: string, value: mixed}
+     */
+    private function nud_quoted_identifier(): array
     {
         $token = $this->token;
         $this->next();
@@ -145,20 +150,29 @@ class Parser
         return self::$currentNode;
     }
 
-    private function nud_literal()
+    /**
+     * @return array{type: string, value: mixed}
+     */
+    private function nud_literal(): array
     {
         $token = $this->token;
         $this->next();
         return ['type' => 'literal', 'value' => $token['value']];
     }
 
-    private function nud_expref()
+    /**
+     * @return array{type: string, children: mixed[][]}
+     */
+    private function nud_expref(): array
     {
         $this->next();
         return ['type' => T::T_EXPREF, 'children' => [$this->expr(self::$bp[T::T_EXPREF])]];
     }
 
-    private function nud_not()
+    /**
+     * @return array{type: string, children: mixed[][]}
+     */
+    private function nud_not(): array
     {
         $this->next();
         return ['type' => T::T_NOT, 'children' => [$this->expr(self::$bp[T::T_NOT])]];
@@ -174,7 +188,10 @@ class Parser
         return $result;
     }
 
-    private function nud_lbrace()
+    /**
+     * @return array{type: string, children: mixed[]}
+     */
+    private function nud_lbrace(): array
     {
         static $validKeys = [T::T_QUOTED_IDENTIFIER => true, T::T_IDENTIFIER => true];
         $this->next($validKeys);
@@ -236,7 +253,10 @@ class Parser
         }
     }
 
-    private function led_flatten(array $left)
+    /**
+     * @return array{type: string, from: string, children: mixed[]}
+     */
+    private function led_flatten(array $left): array
     {
         $this->next();
 
@@ -250,7 +270,7 @@ class Parser
         ];
     }
 
-    private function led_dot(array $left)
+    private function led_dot(array $left): array
     {
         $this->next(self::$afterDot);
 
@@ -264,7 +284,10 @@ class Parser
         ];
     }
 
-    private function led_or(array $left)
+    /**
+     * @return array{type: string, children: mixed[][]}
+     */
+    private function led_or(array $left): array
     {
         $this->next();
         return [
@@ -273,7 +296,10 @@ class Parser
         ];
     }
 
-    private function led_and(array $left)
+    /**
+     * @return array{type: string, children: mixed[][]}
+     */
+    private function led_and(array $left): array
     {
         $this->next();
         return [
@@ -282,7 +308,10 @@ class Parser
         ];
     }
 
-    private function led_pipe(array $left)
+    /**
+     * @return array{type: string, children: mixed[][]}
+     */
+    private function led_pipe(array $left): array
     {
         $this->next();
         return [
@@ -291,7 +320,10 @@ class Parser
         ];
     }
 
-    private function led_lparen(array $left)
+    /**
+     * @return array{type: string, value: mixed, children: array<int, mixed[]>}
+     */
+    private function led_lparen(array $left): array
     {
         $args = [];
         $this->next();
@@ -312,7 +344,10 @@ class Parser
         ];
     }
 
-    private function led_filter(array $left)
+    /**
+     * @return array{type: string, from: string, children: mixed[]}
+     */
+    private function led_filter(array $left): array
     {
         $this->next();
         $expression = $this->expr();
@@ -336,7 +371,10 @@ class Parser
         ];
     }
 
-    private function led_comparator(array $left)
+    /**
+     * @return array{type: string, value: mixed, children: mixed[][]}
+     */
+    private function led_comparator(array $left): array
     {
         $token = $this->token;
         $this->next();
@@ -373,7 +411,10 @@ class Parser
         return $this->expr($bp);
     }
 
-    private function parseKeyValuePair()
+    /**
+     * @return array{type: string, value: mixed, children: mixed[][]}
+     */
+    private function parseKeyValuePair(): array
     {
         static $validColon = [T::T_COLON => true];
         $key = $this->token['value'];
@@ -387,7 +428,10 @@ class Parser
         ];
     }
 
-    private function parseWildcardObject(array $left = null)
+    /**
+     * @return array{type: string, from: string, children: mixed[]}
+     */
+    private function parseWildcardObject(array $left = null): array
     {
         $this->next();
 
@@ -401,7 +445,10 @@ class Parser
         ];
     }
 
-    private function parseWildcardArray(array $left = null)
+    /**
+     * @return array{type: string, from: string, children: mixed[]}
+     */
+    private function parseWildcardArray(array $left = null): array
     {
         static $getRbracket = [T::T_RBRACKET => true];
         $this->next($getRbracket);
@@ -420,7 +467,7 @@ class Parser
     /**
      * Parses an array index expression (e.g., [0], [1:2:3]
      */
-    private function parseArrayIndexExpression()
+    private function parseArrayIndexExpression(): array
     {
         static $matchNext = [
             T::T_NUMBER   => true,
@@ -466,7 +513,10 @@ class Parser
         ];
     }
 
-    private function parseMultiSelectList()
+    /**
+     * @return array{type: string, children: array<int, mixed[]>&mixed[]}
+     */
+    private function parseMultiSelectList(): array
     {
         $nodes = [];
 
@@ -482,7 +532,7 @@ class Parser
         return ['type' => 'multi_select_list', 'children' => $nodes];
     }
 
-    private function syntax($msg)
+    private function syntax($msg): SyntaxErrorException
     {
         return new SyntaxErrorException($msg, $this->token, $this->expression);
     }
@@ -507,7 +557,7 @@ class Parser
         }
     }
 
-    private function assertNotToken($type)
+    private function assertNotToken(string $type)
     {
         if ($this->token['type'] == $type) {
             throw $this->syntax("Token {$this->tpos} not allowed to be $type");
@@ -526,11 +576,11 @@ class Parser
             $token = substr($method, 4);
             $message = "Unexpected \"$token\" token ($method). Expected one of"
                 . " the following tokens: "
-                . implode(', ', array_map(function ($i) {
+                . implode(', ', array_map(function ($i): string {
                     return '"' . substr($i, 4) . '"';
                 }, array_filter(
                     get_class_methods($this),
-                    function ($i) use ($prefix) {
+                    function ($i) use ($prefix): bool {
                         return strpos($i, $prefix) === 0;
                     }
                 )));

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\DeleteInventoryItemRestRequest;
 
 class DeleteInventoryItemRestRequestTest extends TestCase
 {
-    private $obj;
+    private DeleteInventoryItemRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteInventoryItemRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\DeleteInventoryItemRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

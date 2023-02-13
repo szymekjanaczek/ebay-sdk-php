@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SetUserNotesActionCodeType;
 
 class SetUserNotesActionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SetUserNotesActionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetUserNotesActionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SetUserNotesActionCodeType', $this->obj);
     }

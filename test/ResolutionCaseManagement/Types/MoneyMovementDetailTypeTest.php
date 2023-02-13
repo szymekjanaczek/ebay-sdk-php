@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementDetailType;
 
 class MoneyMovementDetailTypeTest extends TestCase
 {
-    private $obj;
+    private MoneyMovementDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MoneyMovementDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

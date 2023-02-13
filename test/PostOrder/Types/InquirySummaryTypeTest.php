@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\InquirySummaryType;
 
 class InquirySummaryTypeTest extends TestCase
 {
-    private $obj;
+    private InquirySummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InquirySummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\InquirySummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

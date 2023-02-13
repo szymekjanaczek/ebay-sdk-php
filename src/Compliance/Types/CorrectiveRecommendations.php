@@ -20,7 +20,7 @@ class CorrectiveRecommendations extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'productRecommendation' => [
             'type' => 'DTS\eBaySDK\Compliance\Types\ProductRecommendation',
             'repeatable' => false,

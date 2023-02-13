@@ -30,7 +30,7 @@ class Product extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'aspects' => [
             'type' => 'any',
             'repeatable' => false,

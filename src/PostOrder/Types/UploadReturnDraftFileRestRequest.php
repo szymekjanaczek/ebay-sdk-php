@@ -19,7 +19,7 @@ class UploadReturnDraftFileRestRequest extends UploadFileRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'draftId' => [
             'type' => 'string',
             'repeatable' => false,

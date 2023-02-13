@@ -15,19 +15,19 @@ use DTS\eBaySDK\HalfFinding\Types\BaseRequest;
 
 class BaseRequestTest extends TestCase
 {
-    private $obj;
+    private BaseRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BaseRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\BaseRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

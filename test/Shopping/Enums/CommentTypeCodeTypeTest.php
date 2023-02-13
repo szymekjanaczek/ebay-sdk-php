@@ -15,14 +15,14 @@ use DTS\eBaySDK\Shopping\Enums\CommentTypeCodeType;
 
 class CommentTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CommentTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CommentTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\CommentTypeCodeType', $this->obj);
     }

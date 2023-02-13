@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo;
 
 class ShippingProfileDiscountInfoTest extends TestCase
 {
-    private $obj;
+    private ShippingProfileDiscountInfo $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingProfileDiscountInfo();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

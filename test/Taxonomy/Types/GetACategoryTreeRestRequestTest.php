@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestRequest;
 
 class GetACategoryTreeRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetACategoryTreeRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetACategoryTreeRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetACategoryTreeRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

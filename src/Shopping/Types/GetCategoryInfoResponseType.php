@@ -23,7 +23,7 @@ class GetCategoryInfoResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'CategoryArray' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\CategoryArrayType',
             'repeatable' => false,

@@ -19,7 +19,7 @@ class GetRecurringJobsResponse extends BaseServiceResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'recurringJobDetail' => [
             'type' => 'DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail',
             'repeatable' => true,

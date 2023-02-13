@@ -23,7 +23,7 @@ class ShippingStep extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'shippingCarrierCode' => [
             'type' => 'string',
             'repeatable' => false,

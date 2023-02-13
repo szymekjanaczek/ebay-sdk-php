@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType;
 
 class FeedbackResponseCodeTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackResponseCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackResponseCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType', $this->obj);
     }

@@ -21,7 +21,7 @@ class StoreThemeArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Theme' => [
             'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeType',
             'repeatable' => true,

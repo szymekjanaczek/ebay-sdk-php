@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest;
 
 class SendReturnMessageRestRequestTest extends TestCase
 {
-    private $obj;
+    private SendReturnMessageRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SendReturnMessageRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SendReturnMessageRestRequest', $this->obj);
     }
 
-    public function testExtendsSendMessageRequest()
+    public function testExtendsSendMessageRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SendMessageRequest', $this->obj);
     }

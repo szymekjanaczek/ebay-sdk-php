@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType;
 
 class FlatShippingDiscountTypeTest extends TestCase
 {
-    private $obj;
+    private FlatShippingDiscountType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FlatShippingDiscountType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -21,7 +21,7 @@ class ReturnShippingCostDetailType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'itemizedReturnShippingCost' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\ItemizedReturnShippingCostType',
             'repeatable' => true,

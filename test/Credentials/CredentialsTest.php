@@ -6,7 +6,7 @@ use DTS\eBaySDK\Credentials\Credentials;
 
 class CredentialsTest extends TestCase
 {
-    public function testHasGetters()
+    public function testHasGetters(): void
     {
         $c = new Credentials('111', '222', '333', '444');
 

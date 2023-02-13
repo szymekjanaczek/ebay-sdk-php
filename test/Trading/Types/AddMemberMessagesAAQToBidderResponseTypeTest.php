@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderResponseType;
 
 class AddMemberMessagesAAQToBidderResponseTypeTest extends TestCase
 {
-    private $obj;
+    private AddMemberMessagesAAQToBidderResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddMemberMessagesAAQToBidderResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

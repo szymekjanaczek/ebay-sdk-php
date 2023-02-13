@@ -15,14 +15,14 @@ use DTS\eBaySDK\Taxonomy\Enums\AspectDataTypeEnum;
 
 class AspectDataTypeEnumTest extends TestCase
 {
-    private $obj;
+    private AspectDataTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AspectDataTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Enums\AspectDataTypeEnum', $this->obj);
     }

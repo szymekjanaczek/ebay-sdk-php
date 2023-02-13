@@ -23,7 +23,7 @@ class TypeSpecificInformation extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'uriTypeSpecificInformation' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\URITypeSpecificInformation',
             'repeatable' => false,

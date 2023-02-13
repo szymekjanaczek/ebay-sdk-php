@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest;
 
 class EscalateInquiryRestRequestTest extends TestCase
 {
-    private $obj;
+    private EscalateInquiryRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EscalateInquiryRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest', $this->obj);
     }
 
-    public function testExtendsEscalateInquiryRequest()
+    public function testExtendsEscalateInquiryRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRequest', $this->obj);
     }

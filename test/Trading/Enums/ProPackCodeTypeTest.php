@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ProPackCodeType;
 
 class ProPackCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ProPackCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProPackCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ProPackCodeType', $this->obj);
     }

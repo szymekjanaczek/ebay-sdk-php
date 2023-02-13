@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\CaseSearchFieldGroupEnum;
 
 class CaseSearchFieldGroupEnumTest extends TestCase
 {
-    private $obj;
+    private CaseSearchFieldGroupEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseSearchFieldGroupEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\CaseSearchFieldGroupEnum', $this->obj);
     }

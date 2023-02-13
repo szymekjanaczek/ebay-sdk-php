@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ItemBidDetailsType;
 
 class ItemBidDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private ItemBidDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemBidDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ItemBidDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -3,7 +3,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 
 class BooleanType extends \DTS\eBaySDK\Types\BooleanType
 {
-    private static $propertyTypes = [];
+    private static array $propertyTypes = [];
 
     public function __construct(array $values = [])
     {

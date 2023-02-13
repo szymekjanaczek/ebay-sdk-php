@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\UploadSiteHostedPicturesResponseType;
 
 class UploadSiteHostedPicturesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private UploadSiteHostedPicturesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UploadSiteHostedPicturesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\UploadSiteHostedPicturesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

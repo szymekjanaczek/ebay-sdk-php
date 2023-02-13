@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest;
 
 class VoidShippingLabelRestRequestTest extends TestCase
 {
-    private $obj;
+    private VoidShippingLabelRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VoidShippingLabelRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\VoidShippingLabelRestRequest', $this->obj);
     }
 
-    public function testExtendsVoidLabelRequest()
+    public function testExtendsVoidLabelRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\VoidLabelRequest', $this->obj);
     }

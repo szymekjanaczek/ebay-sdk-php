@@ -20,7 +20,7 @@ class AccountEntriesType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'AccountEntry' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AccountEntryType',
             'repeatable' => true,

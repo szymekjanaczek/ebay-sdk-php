@@ -94,7 +94,7 @@ class CredentialsProvider
      */
     public static function env()
     {
-        return function () {
+        return function (): Credentials|InvalidArgumentException {
             $appId = getenv(self::ENV_APP_ID);
             $certId = getenv(self::ENV_CERT_ID);
             $devId = getenv(self::ENV_DEV_ID);
@@ -128,7 +128,7 @@ class CredentialsProvider
         $filename = $filename ?: (self::getHomeDir() . '/.ebay_sdk/credentials');
         $profile = $profile ?: (getenv(self::ENV_PROFILE) ?: 'default');
 
-        return function () use ($filename, $profile) {
+        return function () use ($filename, $profile): InvalidArgumentException|Credentials {
             if (!is_readable($filename)) {
                 return new InvalidArgumentException("Cannot read credentials from $filename");
             }

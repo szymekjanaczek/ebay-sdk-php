@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PictureManagerPictureDisplayTypeCodeType;
 
 class PictureManagerPictureDisplayTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PictureManagerPictureDisplayTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureManagerPictureDisplayTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PictureManagerPictureDisplayTypeCodeType', $this->obj);
     }

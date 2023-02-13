@@ -15,14 +15,14 @@ use DTS\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum;
 
 class MinimumAdvertisedPriceHandlingEnumTest extends TestCase
 {
-    private $obj;
+    private MinimumAdvertisedPriceHandlingEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MinimumAdvertisedPriceHandlingEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum', $this->obj);
     }

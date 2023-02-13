@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType;
 
 class GetSingleItemRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetSingleItemRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSingleItemRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }

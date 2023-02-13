@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EndItemResponseContainerType;
 
 class EndItemResponseContainerTypeTest extends TestCase
 {
-    private $obj;
+    private EndItemResponseContainerType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EndItemResponseContainerType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EndItemResponseContainerType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\HomePageFeaturedEnabledDefinitionType;
 
 class HomePageFeaturedEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private HomePageFeaturedEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new HomePageFeaturedEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\HomePageFeaturedEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

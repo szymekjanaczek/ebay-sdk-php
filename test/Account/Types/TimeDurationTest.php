@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\TimeDuration;
 
 class TimeDurationTest extends TestCase
 {
-    private $obj;
+    private TimeDuration $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TimeDuration();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\TimeDuration', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

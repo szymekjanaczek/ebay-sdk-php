@@ -7,7 +7,7 @@ use DTS\eBaySDK\Test\Mocks\SimpleClass;
 
 class SearchTest extends TestCase
 {
-    public function testCanSearch()
+    public function testCanSearch(): void
     {
         $foo = new SimpleClass([
            'string' => 'foo'

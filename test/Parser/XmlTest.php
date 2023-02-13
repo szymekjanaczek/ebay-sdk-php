@@ -8,7 +8,7 @@ use DTS\eBaySDK\Parser\XmlParser;
 
 class XmlTest extends TestCase
 {
-    public function testCanParseXml()
+    public function testCanParseXml(): void
     {
         $xmlParser = new XmlParser('\DTS\eBaySDK\Test\Mocks\ComplexClass');
         $xml = file_get_contents(__DIR__.'/../Mocks/Response.xml');
@@ -63,7 +63,7 @@ class XmlTest extends TestCase
         $this->assertEquals(-123.45, $obj->decimalTypeNegFloat->value);
     }
 
-    public function testCanParseXmlWithNamespace()
+    public function testCanParseXmlWithNamespace(): void
     {
         $xmlParser = new XmlParser('\DTS\eBaySDK\Test\Mocks\ComplexClass');
         $xml = file_get_contents(__DIR__.'/../Mocks/ResponseNS.xml');

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Inventory\Enums\PackageTypeEnum;
 
 class PackageTypeEnumTest extends TestCase
 {
-    private $obj;
+    private PackageTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PackageTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\PackageTypeEnum', $this->obj);
     }

@@ -8,7 +8,7 @@ use InvalidArgumentException;
 
 class UriResolverTest extends TestCase
 {
-    public function testDefaults()
+    public function testDefaults(): void
     {
         $r = new UriResolver();
 
@@ -43,7 +43,7 @@ class UriResolverTest extends TestCase
         );
     }
 
-    public function testRequired()
+    public function testRequired(): void
     {
         $r = new UriResolver();
 
@@ -62,7 +62,7 @@ class UriResolverTest extends TestCase
         $r->resolve('https://example.com', 'v1', 'item', $paramDefs, $paramValues);
     }
 
-    public function testValidatesArray()
+    public function testValidatesArray(): void
     {
         $r = new UriResolver();
 
@@ -84,7 +84,7 @@ class UriResolverTest extends TestCase
         $r->resolve('https://example.com', 'v1', 'item', $paramDefs, $paramValues);
     }
 
-    public function testValidatesBool()
+    public function testValidatesBool(): void
     {
         $r = new UriResolver();
 
@@ -106,7 +106,7 @@ class UriResolverTest extends TestCase
         $r->resolve('https://example.com', 'v1', 'item', $paramDefs, $paramValues);
     }
 
-    public function testValidatesCallable()
+    public function testValidatesCallable(): void
     {
         $r = new UriResolver();
 
@@ -128,7 +128,7 @@ class UriResolverTest extends TestCase
         $r->resolve('https://example.com', 'v1', 'item', $paramDefs, $paramValues);
     }
 
-    public function testValidatesInt()
+    public function testValidatesInt(): void
     {
         $r = new UriResolver();
 
@@ -150,7 +150,7 @@ class UriResolverTest extends TestCase
         $r->resolve('https://example.com', 'v1', 'item', $paramDefs, $paramValues);
     }
 
-    public function testValidatesStrings()
+    public function testValidatesStrings(): void
     {
         $r = new UriResolver();
 
@@ -172,7 +172,7 @@ class UriResolverTest extends TestCase
         $r->resolve('https://example.com', 'v1', 'item', $paramDefs, $paramValues);
     }
 
-    public function testAllowsValid()
+    public function testAllowsValid(): void
     {
         $r = new UriResolver();
 
@@ -197,7 +197,7 @@ class UriResolverTest extends TestCase
         $paramValues = [
             'array' => [],
             'bool' => true,
-            'callable' => function () {
+            'callable' => function (): void {
             },
             'int' => 1,
             'string' => 'foo'
@@ -209,7 +209,7 @@ class UriResolverTest extends TestCase
         );
     }
 
-    public function testFn()
+    public function testFn(): void
     {
         $r = new UriResolver();
 
@@ -230,7 +230,7 @@ class UriResolverTest extends TestCase
         );
     }
 
-    public function testFillsInPathParameters()
+    public function testFillsInPathParameters(): void
     {
         $r = new UriResolver();
 
@@ -262,7 +262,7 @@ class UriResolverTest extends TestCase
         );
     }
 
-    public function testParamMustExist()
+    public function testParamMustExist(): void
     {
         $r = new UriResolver();
 
@@ -282,7 +282,7 @@ class UriResolverTest extends TestCase
         $r->resolve('https://example.com', 'v1', 'item', $paramDefs, $paramValues);
     }
 
-    public function testNoParams()
+    public function testNoParams(): void
     {
         $r = new UriResolver();
 

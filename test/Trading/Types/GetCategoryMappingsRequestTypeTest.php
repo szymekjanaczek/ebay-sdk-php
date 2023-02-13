@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetCategoryMappingsRequestType;
 
 class GetCategoryMappingsRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetCategoryMappingsRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCategoryMappingsRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetCategoryMappingsRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

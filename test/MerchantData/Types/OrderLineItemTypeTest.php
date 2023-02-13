@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\OrderLineItemType;
 
 class OrderLineItemTypeTest extends TestCase
 {
-    private $obj;
+    private OrderLineItemType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderLineItemType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\OrderLineItemType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

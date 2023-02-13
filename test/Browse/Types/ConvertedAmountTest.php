@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\ConvertedAmount;
 
 class ConvertedAmountTest extends TestCase
 {
-    private $obj;
+    private ConvertedAmount $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConvertedAmount();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\ConvertedAmount', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -20,7 +20,7 @@ class BulkMigrateListing extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'requests' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\MigrateListing',
             'repeatable' => true,

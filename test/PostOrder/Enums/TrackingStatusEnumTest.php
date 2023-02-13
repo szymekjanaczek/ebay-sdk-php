@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\TrackingStatusEnum;
 
 class TrackingStatusEnumTest extends TestCase
 {
-    private $obj;
+    private TrackingStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TrackingStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\TrackingStatusEnum', $this->obj);
     }

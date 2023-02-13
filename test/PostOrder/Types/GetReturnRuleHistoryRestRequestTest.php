@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest;
 
 class GetReturnRuleHistoryRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetReturnRuleHistoryRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnRuleHistoryRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

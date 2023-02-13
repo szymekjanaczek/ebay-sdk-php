@@ -15,14 +15,14 @@ use DTS\eBaySDK\Finding\Enums\MapExposureEnum;
 
 class MapExposureEnumTest extends TestCase
 {
-    private $obj;
+    private MapExposureEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MapExposureEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Enums\MapExposureEnum', $this->obj);
     }

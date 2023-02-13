@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\GeographicExposureCodeType;
 
 class GeographicExposureCodeTypeTest extends TestCase
 {
-    private $obj;
+    private GeographicExposureCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GeographicExposureCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\GeographicExposureCodeType', $this->obj);
     }

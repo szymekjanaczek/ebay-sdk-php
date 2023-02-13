@@ -24,7 +24,7 @@ class NotificationStatisticsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'DeliveredCount' => [
             'type' => 'integer',
             'repeatable' => false,

@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\EnableCodeType;
 
 class EnableCodeTypeTest extends TestCase
 {
-    private $obj;
+    private EnableCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EnableCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\EnableCodeType', $this->obj);
     }

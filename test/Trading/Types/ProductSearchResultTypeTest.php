@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ProductSearchResultType;
 
 class ProductSearchResultTypeTest extends TestCase
 {
-    private $obj;
+    private ProductSearchResultType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductSearchResultType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ProductSearchResultType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

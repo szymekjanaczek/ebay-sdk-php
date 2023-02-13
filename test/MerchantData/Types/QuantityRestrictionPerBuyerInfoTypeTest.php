@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\QuantityRestrictionPerBuyerInfoType;
 
 class QuantityRestrictionPerBuyerInfoTypeTest extends TestCase
 {
-    private $obj;
+    private QuantityRestrictionPerBuyerInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new QuantityRestrictionPerBuyerInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\QuantityRestrictionPerBuyerInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -22,7 +22,7 @@ class ProductSubmission extends BaseServiceRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'invocationId' => [
             'type' => 'string',
             'repeatable' => false,

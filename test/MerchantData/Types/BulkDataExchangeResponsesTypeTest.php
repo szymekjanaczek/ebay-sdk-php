@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType;
 
 class BulkDataExchangeResponsesTypeTest extends TestCase
 {
-    private $obj;
+    private BulkDataExchangeResponsesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkDataExchangeResponsesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

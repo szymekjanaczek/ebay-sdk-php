@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestRequest;
 
 class GetItemAspectsForCategoryRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetItemAspectsForCategoryRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemAspectsForCategoryRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

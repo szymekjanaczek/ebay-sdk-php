@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType;
 
 class FeaturedPlusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private FeaturedPlusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeaturedPlusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType', $this->obj);
     }

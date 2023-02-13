@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddItemFromSellingManagerTemplateRequestType;
 
 class AddItemFromSellingManagerTemplateRequestTypeTest extends TestCase
 {
-    private $obj;
+    private AddItemFromSellingManagerTemplateRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddItemFromSellingManagerTemplateRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddItemFromSellingManagerTemplateRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

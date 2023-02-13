@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\PhoneNumber;
 
 class PhoneNumberTest extends TestCase
 {
-    private $obj;
+    private PhoneNumber $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PhoneNumber();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\PhoneNumber', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

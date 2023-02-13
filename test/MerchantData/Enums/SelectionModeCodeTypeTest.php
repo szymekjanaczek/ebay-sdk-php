@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\SelectionModeCodeType;
 
 class SelectionModeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SelectionModeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SelectionModeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\SelectionModeCodeType', $this->obj);
     }

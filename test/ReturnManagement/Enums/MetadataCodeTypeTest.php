@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\MetadataCodeType;
 
 class MetadataCodeTypeTest extends TestCase
 {
-    private $obj;
+    private MetadataCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MetadataCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\MetadataCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\FindItemsIneBayStoresResponse;
 
 class FindItemsIneBayStoresResponseTest extends TestCase
 {
-    private $obj;
+    private FindItemsIneBayStoresResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindItemsIneBayStoresResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\FindItemsIneBayStoresResponse', $this->obj);
     }
 
-    public function testExtendsBaseFindingServiceResponse()
+    public function testExtendsBaseFindingServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse', $this->obj);
     }

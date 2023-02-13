@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\RecommendationEngineCodeType;
 
 class RecommendationEngineCodeTypeTest extends TestCase
 {
-    private $obj;
+    private RecommendationEngineCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RecommendationEngineCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\RecommendationEngineCodeType', $this->obj);
     }

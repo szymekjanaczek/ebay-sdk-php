@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionTy
 
 class EscalateToCustomerSupportOptionTypeTest extends TestCase
 {
-    private $obj;
+    private EscalateToCustomerSupportOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EscalateToCustomerSupportOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll;
 
 class EbayOfferDetailsWithAllTest extends TestCase
 {
-    private $obj;
+    private EbayOfferDetailsWithAll $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EbayOfferDetailsWithAll();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

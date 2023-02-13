@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\InquiryStateEnum;
 
 class InquiryStateEnumTest extends TestCase
 {
-    private $obj;
+    private InquiryStateEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InquiryStateEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\InquiryStateEnum', $this->obj);
     }

@@ -20,7 +20,7 @@ class SellerRatingSummaryArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'AverageRatingSummary' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AverageRatingSummaryType',
             'repeatable' => true,

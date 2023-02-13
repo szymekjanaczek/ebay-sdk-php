@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\JobProfile;
 
 class JobProfileTest extends TestCase
 {
-    private $obj;
+    private JobProfile $obj;
 
     protected function setUp(): void
     {
         $this->obj = new JobProfile();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\JobProfile', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

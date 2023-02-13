@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MultiLegShipmentType;
 
 class MultiLegShipmentTypeTest extends TestCase
 {
-    private $obj;
+    private MultiLegShipmentType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MultiLegShipmentType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MultiLegShipmentType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -3,7 +3,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 
 class StringType extends \DTS\eBaySDK\Types\StringType
 {
-    private static $propertyTypes = [];
+    private static array $propertyTypes = [];
 
     public function __construct(array $values = [])
     {

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\AncestorReference;
 
 class AncestorReferenceTest extends TestCase
 {
-    private $obj;
+    private AncestorReference $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AncestorReference();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\AncestorReference', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

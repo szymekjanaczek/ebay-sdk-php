@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SuggestedCategoryType;
 
 class SuggestedCategoryTypeTest extends TestCase
 {
-    private $obj;
+    private SuggestedCategoryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SuggestedCategoryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SuggestedCategoryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

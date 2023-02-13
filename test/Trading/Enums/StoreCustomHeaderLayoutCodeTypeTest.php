@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType;
 
 class StoreCustomHeaderLayoutCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StoreCustomHeaderLayoutCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreCustomHeaderLayoutCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType', $this->obj);
     }

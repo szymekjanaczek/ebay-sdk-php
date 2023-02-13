@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\CaseStatusEnum;
 
 class CaseStatusEnumTest extends TestCase
 {
-    private $obj;
+    private CaseStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\CaseStatusEnum', $this->obj);
     }

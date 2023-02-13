@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument;
 
 class ProvidedPaymentInstrumentTest extends TestCase
 {
-    private $obj;
+    private ProvidedPaymentInstrument $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvidedPaymentInstrument();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

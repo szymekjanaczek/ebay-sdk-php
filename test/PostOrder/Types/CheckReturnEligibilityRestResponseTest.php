@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse;
 
 class CheckReturnEligibilityRestResponseTest extends TestCase
 {
-    private $obj;
+    private CheckReturnEligibilityRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CheckReturnEligibilityRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse', $this->obj);
     }
 
-    public function testExtendsCheckEligibilityResponse()
+    public function testExtendsCheckEligibilityResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckEligibilityResponse', $this->obj);
     }

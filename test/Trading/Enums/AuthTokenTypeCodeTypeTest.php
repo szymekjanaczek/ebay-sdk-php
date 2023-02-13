@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AuthTokenTypeCodeType;
 
 class AuthTokenTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AuthTokenTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AuthTokenTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AuthTokenTypeCodeType', $this->obj);
     }

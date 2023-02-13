@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\BulkCatalogListerStatusCodeType;
 
 class BulkCatalogListerStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private BulkCatalogListerStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkCatalogListerStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\BulkCatalogListerStatusCodeType', $this->obj);
     }

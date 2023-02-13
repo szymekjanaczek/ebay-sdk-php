@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsResponse;
 
 class GetUserReturnsResponseTest extends TestCase
 {
-    private $obj;
+    private GetUserReturnsResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetUserReturnsResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\GetUserReturnsResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseResponse', $this->obj);
     }

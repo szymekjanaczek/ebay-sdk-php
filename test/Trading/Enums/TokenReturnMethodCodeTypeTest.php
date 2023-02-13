@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\TokenReturnMethodCodeType;
 
 class TokenReturnMethodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TokenReturnMethodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TokenReturnMethodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\TokenReturnMethodCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PictureManagerSubscriptionLevelCodeType;
 
 class PictureManagerSubscriptionLevelCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PictureManagerSubscriptionLevelCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureManagerSubscriptionLevelCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PictureManagerSubscriptionLevelCodeType', $this->obj);
     }

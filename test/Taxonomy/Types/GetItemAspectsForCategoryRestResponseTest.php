@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse;
 
 class GetItemAspectsForCategoryRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetItemAspectsForCategoryRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemAspectsForCategoryRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse', $this->obj);
     }
 
-    public function testExtendsAspectMetadata()
+    public function testExtendsAspectMetadata(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\AspectMetadata', $this->obj);
     }

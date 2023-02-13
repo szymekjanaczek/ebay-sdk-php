@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter;
 
 class OrderReportRecurringFilterTest extends TestCase
 {
-    private $obj;
+    private OrderReportRecurringFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderReportRecurringFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\OrderReportRecurringFilter', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
     }

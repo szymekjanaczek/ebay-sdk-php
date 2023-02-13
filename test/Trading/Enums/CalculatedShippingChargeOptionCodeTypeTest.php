@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CalculatedShippingChargeOptionCodeType;
 
 class CalculatedShippingChargeOptionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CalculatedShippingChargeOptionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CalculatedShippingChargeOptionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CalculatedShippingChargeOptionCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestResponse;
 
 class SearchCancellationsRestResponseTest extends TestCase
 {
-    private $obj;
+    private SearchCancellationsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SearchCancellationsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SearchCancellationsRestResponse', $this->obj);
     }
 
-    public function testExtendsFindCancelResponse()
+    public function testExtendsFindCancelResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\FindCancelResponse', $this->obj);
     }

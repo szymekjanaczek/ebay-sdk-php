@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DeleteMyMessagesResponseType;
 
 class DeleteMyMessagesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private DeleteMyMessagesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteMyMessagesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DeleteMyMessagesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

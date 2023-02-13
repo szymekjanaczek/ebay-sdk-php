@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum;
 
 class PromotionStatusEnumTest extends TestCase
 {
-    private $obj;
+    private PromotionStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PromotionStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum', $this->obj);
     }

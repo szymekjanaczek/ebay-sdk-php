@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest;
 
 class GetCampaignByIDRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetCampaignByIDRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCampaignByIDRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetCampaignByIDRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

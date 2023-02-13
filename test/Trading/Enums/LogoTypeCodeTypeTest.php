@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\LogoTypeCodeType;
 
 class LogoTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private LogoTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LogoTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\LogoTypeCodeType', $this->obj);
     }

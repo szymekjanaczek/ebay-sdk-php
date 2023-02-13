@@ -15,14 +15,14 @@ use DTS\eBaySDK\Inventory\Enums\StoreTypeEnum;
 
 class StoreTypeEnumTest extends TestCase
 {
-    private $obj;
+    private StoreTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\StoreTypeEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\FileTransfer\Types\UploadFileRequest;
 
 class UploadFileRequestTest extends TestCase
 {
-    private $obj;
+    private UploadFileRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UploadFileRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\UploadFileRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\BaseServiceRequest', $this->obj);
     }

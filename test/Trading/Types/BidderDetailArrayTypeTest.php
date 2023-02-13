@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BidderDetailArrayType;
 
 class BidderDetailArrayTypeTest extends TestCase
 {
-    private $obj;
+    private BidderDetailArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BidderDetailArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BidderDetailArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

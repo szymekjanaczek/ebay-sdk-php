@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType;
 
 class MaximumUnpaidItemStrikesInfoDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private MaximumUnpaidItemStrikesInfoDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MaximumUnpaidItemStrikesInfoDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

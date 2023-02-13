@@ -15,14 +15,14 @@ use DTS\eBaySDK\Catalog\Enums\AspectModeEnum;
 
 class AspectModeEnumTest extends TestCase
 {
-    private $obj;
+    private AspectModeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AspectModeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Enums\AspectModeEnum', $this->obj);
     }

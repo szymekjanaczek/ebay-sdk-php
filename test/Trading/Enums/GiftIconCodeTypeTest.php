@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\GiftIconCodeType;
 
 class GiftIconCodeTypeTest extends TestCase
 {
-    private $obj;
+    private GiftIconCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GiftIconCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\GiftIconCodeType', $this->obj);
     }

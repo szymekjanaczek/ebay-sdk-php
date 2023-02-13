@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\ItemReturnTerms;
 
 class ItemReturnTermsTest extends TestCase
 {
-    private $obj;
+    private ItemReturnTerms $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemReturnTerms();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\ItemReturnTerms', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

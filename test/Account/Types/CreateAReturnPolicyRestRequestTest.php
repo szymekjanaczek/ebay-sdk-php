@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest;
 
 class CreateAReturnPolicyRestRequestTest extends TestCase
 {
-    private $obj;
+    private CreateAReturnPolicyRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateAReturnPolicyRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest', $this->obj);
     }
 
-    public function testExtendsReturnPolicyRequest()
+    public function testExtendsReturnPolicyRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\ReturnPolicyRequest', $this->obj);
     }

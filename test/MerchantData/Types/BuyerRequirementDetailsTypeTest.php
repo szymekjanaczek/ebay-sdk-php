@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\BuyerRequirementDetailsType;
 
 class BuyerRequirementDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private BuyerRequirementDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerRequirementDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\BuyerRequirementDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

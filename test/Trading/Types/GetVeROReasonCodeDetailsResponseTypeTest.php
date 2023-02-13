@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetVeROReasonCodeDetailsResponseType;
 
 class GetVeROReasonCodeDetailsResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetVeROReasonCodeDetailsResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetVeROReasonCodeDetailsResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetVeROReasonCodeDetailsResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

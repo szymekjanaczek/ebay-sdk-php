@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\InventoryFeesType;
 
 class InventoryFeesTypeTest extends TestCase
 {
-    private $obj;
+    private InventoryFeesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventoryFeesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\InventoryFeesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

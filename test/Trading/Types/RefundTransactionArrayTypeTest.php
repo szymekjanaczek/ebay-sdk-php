@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RefundTransactionArrayType;
 
 class RefundTransactionArrayTypeTest extends TestCase
 {
-    private $obj;
+    private RefundTransactionArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RefundTransactionArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RefundTransactionArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

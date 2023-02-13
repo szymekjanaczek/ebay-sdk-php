@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\NotificationPayloadTypeCodeType;
 
 class NotificationPayloadTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private NotificationPayloadTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NotificationPayloadTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\NotificationPayloadTypeCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddSecondChanceItemRequestType;
 
 class AddSecondChanceItemRequestTypeTest extends TestCase
 {
-    private $obj;
+    private AddSecondChanceItemRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddSecondChanceItemRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddSecondChanceItemRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

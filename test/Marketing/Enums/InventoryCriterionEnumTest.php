@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\InventoryCriterionEnum;
 
 class InventoryCriterionEnumTest extends TestCase
 {
-    private $obj;
+    private InventoryCriterionEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventoryCriterionEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\InventoryCriterionEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\UpdatePaymentInformation;
 
 class UpdatePaymentInformationTest extends TestCase
 {
-    private $obj;
+    private UpdatePaymentInformation $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdatePaymentInformation();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdatePaymentInformation', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

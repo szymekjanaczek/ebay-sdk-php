@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\ProductMetadataBulkRequest;
 
 class ProductMetadataBulkRequestTest extends TestCase
 {
-    private $obj;
+    private ProductMetadataBulkRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductMetadataBulkRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\ProductMetadataBulkRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseRequest', $this->obj);
     }

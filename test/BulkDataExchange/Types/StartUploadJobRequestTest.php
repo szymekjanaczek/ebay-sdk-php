@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest;
 
 class StartUploadJobRequestTest extends TestCase
 {
-    private $obj;
+    private StartUploadJobRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StartUploadJobRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
     }

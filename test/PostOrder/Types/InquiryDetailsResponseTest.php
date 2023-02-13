@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\InquiryDetailsResponse;
 
 class InquiryDetailsResponseTest extends TestCase
 {
-    private $obj;
+    private InquiryDetailsResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InquiryDetailsResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\InquiryDetailsResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

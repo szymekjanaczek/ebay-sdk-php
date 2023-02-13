@@ -15,14 +15,14 @@ use DTS\eBaySDK\BulkDataExchange\Enums\IncludeShippingAddressType;
 
 class IncludeShippingAddressTypeTest extends TestCase
 {
-    private $obj;
+    private IncludeShippingAddressType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new IncludeShippingAddressType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\IncludeShippingAddressType', $this->obj);
     }

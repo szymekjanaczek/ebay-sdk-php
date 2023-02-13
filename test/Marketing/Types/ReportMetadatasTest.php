@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\ReportMetadatas;
 
 class ReportMetadatasTest extends TestCase
 {
-    private $obj;
+    private ReportMetadatas $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReportMetadatas();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\ReportMetadatas', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

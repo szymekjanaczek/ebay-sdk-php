@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\NonSubscriptionDefinitionType;
 
 class NonSubscriptionDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private NonSubscriptionDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NonSubscriptionDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\NonSubscriptionDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

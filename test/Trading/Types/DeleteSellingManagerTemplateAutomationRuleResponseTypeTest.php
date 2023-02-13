@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DeleteSellingManagerTemplateAutomationRuleResponse
 
 class DeleteSellingManagerTemplateAutomationRuleResponseTypeTest extends TestCase
 {
-    private $obj;
+    private DeleteSellingManagerTemplateAutomationRuleResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteSellingManagerTemplateAutomationRuleResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DeleteSellingManagerTemplateAutomationRuleResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -14,7 +14,7 @@ class Debugger
     /**
      * @var array $credentialsStrings. RegExp patterns to remove credentials from the debug info.
      */
-    private static $credentialsStrings = [
+    private static array $credentialsStrings = [
         '/^(X-EBAY-SOA-SECURITY-TOKEN:.*)?$/im' => 'X-EBAY-SOA-SECURITY-TOKEN: SECURITY-TOKEN',
         '/^(X-EBAY-SOA-SECURITY-APPNAME:.*)?$/im' => 'X-EBAY-SOA-SECURITY-APPNAME: SECURITY-APPNAME',
         '/^(X-EBAY-API-AFFILIATE-USER-ID:.*)?$/im' => 'X-EBAY-API-AFFILIATE-USER-ID: AFFILIATE-USER-ID',
@@ -33,7 +33,7 @@ class Debugger
     public function __construct(array $config)
     {
         $this->config = $config + [
-            'logfn' => function ($msg) {
+            'logfn' => function ($msg): void {
                 echo $msg.PHP_EOL;
             },
             'scrub_credentials' => true,

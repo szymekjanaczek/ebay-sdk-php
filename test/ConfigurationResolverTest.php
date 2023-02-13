@@ -9,7 +9,7 @@ use InvalidArgumentException;
 
 class ConfigurationResolverTest extends TestCase
 {
-    public function testDefaults()
+    public function testDefaults(): void
     {
         $r = new ConfigurationResolver([
             'array' => [
@@ -43,7 +43,7 @@ class ConfigurationResolverTest extends TestCase
         ]);
     }
 
-    public function testRequired()
+    public function testRequired(): void
     {
         $r = new ConfigurationResolver([
             'foo' => [
@@ -58,7 +58,7 @@ class ConfigurationResolverTest extends TestCase
         $r->resolve([]);
     }
 
-    public function testValidatesArray()
+    public function testValidatesArray(): void
     {
         $r = new ConfigurationResolver([
             'foo' => [
@@ -73,7 +73,7 @@ class ConfigurationResolverTest extends TestCase
         $r->resolve(['foo' => -1]);
     }
 
-    public function testValidatesBool()
+    public function testValidatesBool(): void
     {
         $r = new ConfigurationResolver([
             'foo' => [
@@ -88,7 +88,7 @@ class ConfigurationResolverTest extends TestCase
         $r->resolve(['foo' => -1]);
     }
 
-    public function testValidatesCallable()
+    public function testValidatesCallable(): void
     {
         $r = new ConfigurationResolver([
             'foo' => [
@@ -103,7 +103,7 @@ class ConfigurationResolverTest extends TestCase
         $r->resolve(['foo' => -1]);
     }
 
-    public function testValidatesInstanceOf()
+    public function testValidatesInstanceOf(): void
     {
         $r = new ConfigurationResolver([
             'foo' => [
@@ -118,7 +118,7 @@ class ConfigurationResolverTest extends TestCase
         $r->resolve(['foo' => -1]);
     }
 
-    public function testValidatesInt()
+    public function testValidatesInt(): void
     {
         $r = new ConfigurationResolver([
             'foo' => [
@@ -133,7 +133,7 @@ class ConfigurationResolverTest extends TestCase
         $r->resolve(['foo' => 'foo']);
     }
 
-    public function testValidatesStrings()
+    public function testValidatesStrings(): void
     {
         $r = new ConfigurationResolver([
             'foo' => [
@@ -148,7 +148,7 @@ class ConfigurationResolverTest extends TestCase
         $r->resolve(['foo' => -1]);
     }
 
-    public function testAllowsValid()
+    public function testAllowsValid(): void
     {
         $r = new ConfigurationResolver([
             'array' => [
@@ -174,7 +174,7 @@ class ConfigurationResolverTest extends TestCase
         $options = [
             'array' => [],
             'bool' => true,
-            'callable' => function () {
+            'callable' => function (): void {
             },
             'int' => 1,
             'stdClass' => new stdClass(),
@@ -184,7 +184,7 @@ class ConfigurationResolverTest extends TestCase
         $this->assertEquals($r->resolve($options), $options);
     }
 
-    public function testFn()
+    public function testFn(): void
     {
         $r = new ConfigurationResolver([
             'foo' => [

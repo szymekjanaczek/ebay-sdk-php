@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RecommendationsType;
 
 class RecommendationsTypeTest extends TestCase
 {
-    private $obj;
+    private RecommendationsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RecommendationsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RecommendationsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

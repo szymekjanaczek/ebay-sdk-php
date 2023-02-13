@@ -15,14 +15,14 @@ use DTS\eBaySDK\Shopping\Enums\AckCodeType;
 
 class AckCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AckCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AckCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\AckCodeType', $this->obj);
     }

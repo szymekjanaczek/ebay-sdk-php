@@ -15,14 +15,14 @@ use DTS\eBaySDK\Fulfillment\Enums\FulfillmentInstructionsType;
 
 class FulfillmentInstructionsTypeTest extends TestCase
 {
-    private $obj;
+    private FulfillmentInstructionsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FulfillmentInstructionsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\FulfillmentInstructionsType', $this->obj);
     }

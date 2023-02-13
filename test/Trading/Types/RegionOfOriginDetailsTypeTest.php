@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType;
 
 class RegionOfOriginDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private RegionOfOriginDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RegionOfOriginDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

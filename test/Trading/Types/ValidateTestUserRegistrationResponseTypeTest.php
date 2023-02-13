@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ValidateTestUserRegistrationResponseType;
 
 class ValidateTestUserRegistrationResponseTypeTest extends TestCase
 {
-    private $obj;
+    private ValidateTestUserRegistrationResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ValidateTestUserRegistrationResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ValidateTestUserRegistrationResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

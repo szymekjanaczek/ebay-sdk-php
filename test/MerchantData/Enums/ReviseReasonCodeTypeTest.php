@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\ReviseReasonCodeType;
 
 class ReviseReasonCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseReasonCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseReasonCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ReviseReasonCodeType', $this->obj);
     }

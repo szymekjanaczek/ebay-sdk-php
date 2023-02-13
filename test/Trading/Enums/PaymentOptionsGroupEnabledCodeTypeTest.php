@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PaymentOptionsGroupEnabledCodeType;
 
 class PaymentOptionsGroupEnabledCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PaymentOptionsGroupEnabledCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentOptionsGroupEnabledCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PaymentOptionsGroupEnabledCodeType', $this->obj);
     }

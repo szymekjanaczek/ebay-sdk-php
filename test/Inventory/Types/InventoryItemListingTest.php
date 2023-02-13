@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\InventoryItemListing;
 
 class InventoryItemListingTest extends TestCase
 {
-    private $obj;
+    private InventoryItemListing $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventoryItemListing();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\InventoryItemListing', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

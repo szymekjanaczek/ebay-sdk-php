@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\HandlingTimeEnabledDefinitionType;
 
 class HandlingTimeEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private HandlingTimeEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new HandlingTimeEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\HandlingTimeEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReviseMyMessagesFoldersRequestType;
 
 class ReviseMyMessagesFoldersRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseMyMessagesFoldersRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseMyMessagesFoldersRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseMyMessagesFoldersRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

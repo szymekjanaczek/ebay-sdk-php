@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse;
 
 class GetAccountPrivilegesRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetAccountPrivilegesRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAccountPrivilegesRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse', $this->obj);
     }
 
-    public function testExtendsSellingPrivileges()
+    public function testExtendsSellingPrivileges(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SellingPrivileges', $this->obj);
     }

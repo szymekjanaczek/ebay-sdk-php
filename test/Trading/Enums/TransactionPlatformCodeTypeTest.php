@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType;
 
 class TransactionPlatformCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TransactionPlatformCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TransactionPlatformCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType', $this->obj);
     }

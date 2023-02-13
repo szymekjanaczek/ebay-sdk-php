@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\TokenStatusType;
 
 class TokenStatusTypeTest extends TestCase
 {
-    private $obj;
+    private TokenStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TokenStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\TokenStatusType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -19,7 +19,7 @@ class GetActivityOptionsResponse extends BaseResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'activityOptions' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityOptionListType',
             'repeatable' => false,

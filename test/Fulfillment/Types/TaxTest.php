@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\Tax;
 
 class TaxTest extends TestCase
 {
-    private $obj;
+    private Tax $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Tax();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\Tax', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

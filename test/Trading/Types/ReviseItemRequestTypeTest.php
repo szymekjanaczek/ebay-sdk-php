@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReviseItemRequestType;
 
 class ReviseItemRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseItemRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseItemRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseItemRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

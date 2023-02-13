@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DepositTypeCodeType;
 
 class DepositTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DepositTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DepositTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DepositTypeCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\InsuranceSelectedCodeType;
 
 class InsuranceSelectedCodeTypeTest extends TestCase
 {
-    private $obj;
+    private InsuranceSelectedCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InsuranceSelectedCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\InsuranceSelectedCodeType', $this->obj);
     }

@@ -20,7 +20,7 @@ class AddProductsRequest extends BaseServiceRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'addProductRequest' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductSubmission',
             'repeatable' => true,

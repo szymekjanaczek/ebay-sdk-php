@@ -20,7 +20,7 @@ class VeROReportedItemDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ReportedItem' => [
             'type' => 'DTS\eBaySDK\Trading\Types\VeROReportedItemType',
             'repeatable' => true,

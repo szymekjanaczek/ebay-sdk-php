@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ClassifiedAdContactByPhoneEnabledDefinitionType;
 
 class ClassifiedAdContactByPhoneEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ClassifiedAdContactByPhoneEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ClassifiedAdContactByPhoneEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ClassifiedAdContactByPhoneEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

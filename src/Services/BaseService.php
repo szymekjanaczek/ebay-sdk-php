@@ -29,22 +29,22 @@ abstract class BaseService
     /**
      * @var ConfigurationResolver Resolves configuration options.
      */
-    private $resolver;
+    private ConfigurationResolver $resolver;
 
     /**
      * @var array Associative array storing the current configuration option values.
      */
-    private $config;
+    private array $config;
 
     /**
      * @var string The production URL for the service.
      */
-    private $productionUrl;
+    private string $productionUrl;
 
     /**
      * @var string The sandbox URL for the service.
      */
-    private $sandboxUrl;
+    private string $sandboxUrl;
 
     /**
      * @param string $productionUrl The production URL.
@@ -52,8 +52,8 @@ abstract class BaseService
      * @param array $config Configuration option values.
      */
     public function __construct(
-        $productionUrl,
-        $sandboxUrl,
+        string $productionUrl,
+        string $sandboxUrl,
         array $config
     ) {
         $this->resolver = new ConfigurationResolver(static::getConfigDefinitions());
@@ -65,9 +65,9 @@ abstract class BaseService
     /**
      * Returns definitions for each configuration option that is supported.
      *
-     * @return array An associative array of configuration definitions.
+     * @return array{profile: array{valid: string[], fn: string}, compressResponse: array{valid: string[], default: false}, credentials: array{valid: class-string<CredentialsInterface>[]|string[], fn: string, default: class-string<CredentialsProvider>[]|string[]}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: array{}}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions()
+    public static function getConfigDefinitions(): array
     {
         return [
             'profile' => [
@@ -125,7 +125,7 @@ abstract class BaseService
      *
      * @param array $configuration Associative array of configuration options and their values.
      */
-    public function setConfig(array $configuration)
+    public function setConfig(array $configuration): void
     {
         $this->config = Functions\arrayMergeDeep(
             $this->config,
@@ -218,7 +218,7 @@ abstract class BaseService
      *
      * @return string The XOP document part of request body.
      */
-    private function buildXopDocument(BaseType $request)
+    private function buildXopDocument(BaseType $request): string
     {
         return sprintf(
             '%s%s%s%s%s',
@@ -237,7 +237,7 @@ abstract class BaseService
      *
      * @return string The attachment part of request body.
      */
-    private function buildAttachmentBody(array $attachment)
+    private function buildAttachmentBody(array $attachment): string
     {
         return sprintf(
             '%s%s%s%s%s%s',
@@ -257,7 +257,7 @@ abstract class BaseService
      *
      * @return string The XML payload part of a multipart/form-data request body.
      */
-    protected function buildMultipartFormDataXMLPayload(BaseType $request)
+    protected function buildMultipartFormDataXMLPayload(BaseType $request): string
     {
         return sprintf(
             '%s%s%s',
@@ -276,7 +276,7 @@ abstract class BaseService
      *
      * @return string The file part of a multipart/form-data request body.
      */
-    protected function buildMultipartFormDataFilePayload($name, $attachment)
+    protected function buildMultipartFormDataFilePayload($name, $attachment): string
     {
         return sprintf(
             '%s%s%s%s%s',
@@ -297,7 +297,7 @@ abstract class BaseService
      *
      * @return array An associative array of HTTP headers.
      */
-    private function buildRequestHeaders($name, $request, $body)
+    private function buildRequestHeaders($name, BaseType $request, string $body): array
     {
         $headers = [];
 
@@ -324,7 +324,7 @@ abstract class BaseService
      * @return array first item is the XML part of response body and the second
      * is an attachement if one was present in the API response.
      */
-    private function extractXml($response)
+    private function extractXml(string $response)
     {
         /**
          * Ugly way of seeing if an attachment is present in the response.
@@ -343,7 +343,7 @@ abstract class BaseService
      *
      * @return string The XML part of response body.
      */
-    private function extractXmlAndAttachment($response)
+    private function extractXmlAndAttachment(string $response): array
     {
         $attachment = ['data' => null, 'mimeType' => null];
 
@@ -383,11 +383,11 @@ abstract class BaseService
      * @param array  $headers Associative array of HTTP headers.
      * @param string $body The XML body of the POST request.
       */
-    private function debugRequest($url, array $headers, $body)
+    private function debugRequest(string $url, array $headers, string $body): void
     {
         $str = $url.PHP_EOL;
 
-        $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers) {
+        $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers): string {
             $str .= $key.': '.$headers[$key].PHP_EOL;
             return $str;
         }, '');
@@ -402,7 +402,7 @@ abstract class BaseService
      *
      * @param string $body The XML body of the response.
       */
-    private function debugResponse($body)
+    private function debugResponse($body): void
     {
         $this->debug($body);
     }
@@ -412,7 +412,7 @@ abstract class BaseService
      *
      * @param string $str
      */
-    private function debug($str)
+    private function debug($str): void
     {
         $debugger = $this->getConfig('debug');
         $debugger($str);

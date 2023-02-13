@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetMyeBayBuyingRequestType;
 
 class GetMyeBayBuyingRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetMyeBayBuyingRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetMyeBayBuyingRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetMyeBayBuyingRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

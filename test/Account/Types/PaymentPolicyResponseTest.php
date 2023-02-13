@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\PaymentPolicyResponse;
 
 class PaymentPolicyResponseTest extends TestCase
 {
-    private $obj;
+    private PaymentPolicyResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentPolicyResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\PaymentPolicyResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

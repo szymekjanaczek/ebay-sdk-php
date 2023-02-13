@@ -10,31 +10,31 @@ use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
 class ComplexClassTest extends TestCase
 {
-    private $obj;
+    private ComplexClass $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ComplexClass();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\ComplexClass', $this->obj);
     }
 
-    public function testExtendsSimpleClass()
+    public function testExtendsSimpleClass(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\SimpleClass', $this->obj);
     }
 
-    public function testGettingSettingProperties()
+    public function testGettingSettingProperties(): void
     {
         $this->obj->foo = 'foo';
         $this->assertEquals('foo', $this->obj->foo);
         $this->assertisString($this->obj->foo);
     }
 
-    public function testGettingSettingInheritedProperties()
+    public function testGettingSettingInheritedProperties(): void
     {
         $this->obj->integer = 123;
         $this->assertEquals(123, $this->obj->integer);
@@ -87,7 +87,7 @@ class ComplexClassTest extends TestCase
         $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $this->obj->strings);
     }
 
-    public function testToXml()
+    public function testToXml(): void
     {
         $this->obj->foo = 'foo';
         $this->obj->integer = 123;
@@ -118,7 +118,7 @@ class ComplexClassTest extends TestCase
         $this->assertXmlStringEqualsXmlFile(__DIR__ . '/../Mocks/ComplexClassXml.xml', $this->obj->toRequestXml());
     }
 
-    public function testToJson()
+    public function testToJson(): void
     {
         $this->obj->foo = 'foo';
         $this->obj->integer = 123;

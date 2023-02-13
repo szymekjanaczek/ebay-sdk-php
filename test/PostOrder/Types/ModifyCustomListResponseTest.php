@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ModifyCustomListResponse;
 
 class ModifyCustomListResponseTest extends TestCase
 {
-    private $obj;
+    private ModifyCustomListResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ModifyCustomListResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ModifyCustomListResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

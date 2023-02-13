@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\Interval;
 
 class IntervalTest extends TestCase
 {
-    private $obj;
+    private Interval $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Interval();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\Interval', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

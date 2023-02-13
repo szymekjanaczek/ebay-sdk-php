@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\OrderSearchPagedCollection;
 
 class OrderSearchPagedCollectionTest extends TestCase
 {
-    private $obj;
+    private OrderSearchPagedCollection $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderSearchPagedCollection();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\OrderSearchPagedCollection', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

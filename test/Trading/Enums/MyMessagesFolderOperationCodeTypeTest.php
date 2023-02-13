@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\MyMessagesFolderOperationCodeType;
 
 class MyMessagesFolderOperationCodeTypeTest extends TestCase
 {
-    private $obj;
+    private MyMessagesFolderOperationCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyMessagesFolderOperationCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\MyMessagesFolderOperationCodeType', $this->obj);
     }

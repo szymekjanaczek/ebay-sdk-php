@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\SellerGuaranteeLevelCodeType;
 
 class SellerGuaranteeLevelCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellerGuaranteeLevelCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerGuaranteeLevelCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\SellerGuaranteeLevelCodeType', $this->obj);
     }

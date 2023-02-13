@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\DecideReturnRequest;
 
 class DecideReturnRequestTest extends TestCase
 {
-    private $obj;
+    private DecideReturnRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DecideReturnRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\DecideReturnRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

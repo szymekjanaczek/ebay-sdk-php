@@ -15,19 +15,19 @@ use DTS\eBaySDK\Metadata\Types\ItemCondition;
 
 class ItemConditionTest extends TestCase
 {
-    private $obj;
+    private ItemCondition $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemCondition();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\ItemCondition', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

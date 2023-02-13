@@ -15,14 +15,14 @@ use DTS\eBaySDK\BulkDataExchange\Enums\FileType;
 
 class FileTypeTest extends TestCase
 {
-    private $obj;
+    private FileType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FileType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\FileType', $this->obj);
     }

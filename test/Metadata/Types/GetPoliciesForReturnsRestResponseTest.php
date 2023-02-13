@@ -15,19 +15,19 @@ use DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestResponse;
 
 class GetPoliciesForReturnsRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetPoliciesForReturnsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetPoliciesForReturnsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\GetPoliciesForReturnsRestResponse', $this->obj);
     }
 
-    public function testExtendsReturnPolicyResponse()
+    public function testExtendsReturnPolicyResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\ReturnPolicyResponse', $this->obj);
     }

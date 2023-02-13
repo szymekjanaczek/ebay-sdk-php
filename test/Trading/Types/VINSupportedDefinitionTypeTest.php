@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VINSupportedDefinitionType;
 
 class VINSupportedDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private VINSupportedDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VINSupportedDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VINSupportedDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

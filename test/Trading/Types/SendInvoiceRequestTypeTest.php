@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SendInvoiceRequestType;
 
 class SendInvoiceRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SendInvoiceRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SendInvoiceRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SendInvoiceRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

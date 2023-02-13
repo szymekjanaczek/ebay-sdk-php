@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ShippingServiceCostOverrideListType;
 
 class ShippingServiceCostOverrideListTypeTest extends TestCase
 {
-    private $obj;
+    private ShippingServiceCostOverrideListType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingServiceCostOverrideListType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ShippingServiceCostOverrideListType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

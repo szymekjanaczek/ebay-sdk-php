@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PowerSellerDashboardType;
 
 class PowerSellerDashboardTypeTest extends TestCase
 {
-    private $obj;
+    private PowerSellerDashboardType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PowerSellerDashboardType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PowerSellerDashboardType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

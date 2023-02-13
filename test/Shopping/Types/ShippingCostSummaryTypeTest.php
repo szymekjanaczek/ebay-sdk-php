@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType;
 
 class ShippingCostSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private ShippingCostSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingCostSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType;
 
 class ItemizedRefundDetailTypeTest extends TestCase
 {
-    private $obj;
+    private ItemizedRefundDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemizedRefundDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

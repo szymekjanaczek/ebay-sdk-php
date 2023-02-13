@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestResponse;
 
 class GetReturnDraftRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetReturnDraftRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnDraftRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnDraftRestResponse', $this->obj);
     }
 
-    public function testExtendsGetReturnCreationSessionResponse()
+    public function testExtendsGetReturnCreationSessionResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnCreationSessionResponse', $this->obj);
     }

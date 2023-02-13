@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\TimeDurationUnitEnum;
 
 class TimeDurationUnitEnumTest extends TestCase
 {
-    private $obj;
+    private TimeDurationUnitEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TimeDurationUnitEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\TimeDurationUnitEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ProductAspectConstraint;
 
 class ProductAspectConstraintTest extends TestCase
 {
-    private $obj;
+    private ProductAspectConstraint $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductAspectConstraint();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ProductAspectConstraint', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

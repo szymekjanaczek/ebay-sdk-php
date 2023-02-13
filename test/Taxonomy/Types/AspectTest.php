@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\Aspect;
 
 class AspectTest extends TestCase
 {
-    private $obj;
+    private Aspect $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Aspect();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\Aspect', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\Programs;
 
 class ProgramsTest extends TestCase
 {
-    private $obj;
+    private Programs $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Programs();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\Programs', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

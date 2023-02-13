@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ProductRequiredCodeType;
 
 class ProductRequiredCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ProductRequiredCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductRequiredCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ProductRequiredCodeType', $this->obj);
     }

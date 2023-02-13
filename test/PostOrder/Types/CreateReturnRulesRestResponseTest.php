@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestResponse;
 
 class CreateReturnRulesRestResponseTest extends TestCase
 {
-    private $obj;
+    private CreateReturnRulesRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateReturnRulesRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestResponse', $this->obj);
     }
 
-    public function testExtendsCreateDispositionRuleResponse()
+    public function testExtendsCreateDispositionRuleResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateDispositionRuleResponse', $this->obj);
     }

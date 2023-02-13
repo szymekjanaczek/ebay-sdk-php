@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest;
 
 class GetADefaultCategoryTreeIdRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetADefaultCategoryTreeIdRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetADefaultCategoryTreeIdRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

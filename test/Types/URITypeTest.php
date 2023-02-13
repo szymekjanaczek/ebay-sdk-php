@@ -6,24 +6,24 @@ use DTS\eBaySDK\Types\URIType;
 
 class URITypeTest extends TestCase
 {
-    private $obj;
+    private URIType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new URIType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\URIType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 
-    public function testHasValueProperty()
+    public function testHasValueProperty(): void
     {
         $this->obj->value = 'foo';
         $this->assertEquals('foo', $this->obj->value);

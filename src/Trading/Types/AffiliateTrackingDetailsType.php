@@ -24,7 +24,7 @@ class AffiliateTrackingDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'TrackingID' => [
             'type' => 'string',
             'repeatable' => false,

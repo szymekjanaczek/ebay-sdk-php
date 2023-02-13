@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestResponse;
 
 class DeleteReturnDraftFileRestResponseTest extends TestCase
 {
-    private $obj;
+    private DeleteReturnDraftFileRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteReturnDraftFileRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\DeleteReturnDraftFileRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

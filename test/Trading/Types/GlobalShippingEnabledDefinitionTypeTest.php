@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GlobalShippingEnabledDefinitionType;
 
 class GlobalShippingEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private GlobalShippingEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GlobalShippingEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GlobalShippingEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

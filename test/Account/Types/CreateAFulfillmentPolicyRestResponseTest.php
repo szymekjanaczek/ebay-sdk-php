@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse;
 
 class CreateAFulfillmentPolicyRestResponseTest extends TestCase
 {
-    private $obj;
+    private CreateAFulfillmentPolicyRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateAFulfillmentPolicyRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse', $this->obj);
     }
 
-    public function testExtendsSetFulfillmentPolicyResponse()
+    public function testExtendsSetFulfillmentPolicyResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SetFulfillmentPolicyResponse', $this->obj);
     }

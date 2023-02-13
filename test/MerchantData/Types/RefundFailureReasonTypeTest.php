@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\RefundFailureReasonType;
 
 class RefundFailureReasonTypeTest extends TestCase
 {
-    private $obj;
+    private RefundFailureReasonType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RefundFailureReasonType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\RefundFailureReasonType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

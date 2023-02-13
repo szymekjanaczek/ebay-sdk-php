@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType;
 
 class StoreVacationPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private StoreVacationPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreVacationPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

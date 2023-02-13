@@ -15,19 +15,19 @@ use DTS\eBaySDK\HalfFinding\Types\FindItemsRequest;
 
 class FindItemsRequestTest extends TestCase
 {
-    private $obj;
+    private FindItemsRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindItemsRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\FindItemsRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\BaseRequest', $this->obj);
     }

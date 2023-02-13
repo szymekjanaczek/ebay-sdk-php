@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\UnitOfMeasurementType;
 
 class UnitOfMeasurementTypeTest extends TestCase
 {
-    private $obj;
+    private UnitOfMeasurementType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UnitOfMeasurementType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\UnitOfMeasurementType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

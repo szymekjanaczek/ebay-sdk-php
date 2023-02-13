@@ -15,14 +15,14 @@ use DTS\eBaySDK\Finding\Enums\GallerySizeEnum;
 
 class GallerySizeEnumTest extends TestCase
 {
-    private $obj;
+    private GallerySizeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GallerySizeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Enums\GallerySizeEnum', $this->obj);
     }

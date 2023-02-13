@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail;
 
 class RecurringJobDetailTest extends TestCase
 {
-    private $obj;
+    private RecurringJobDetail $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RecurringJobDetail();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

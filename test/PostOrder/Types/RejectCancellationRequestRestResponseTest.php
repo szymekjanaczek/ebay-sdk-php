@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestResponse;
 
 class RejectCancellationRequestRestResponseTest extends TestCase
 {
-    private $obj;
+    private RejectCancellationRequestRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RejectCancellationRequestRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\RejectCancellationRequestRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

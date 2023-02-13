@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ConflictingProduct;
 
 class ConflictingProductTest extends TestCase
 {
-    private $obj;
+    private ConflictingProduct $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConflictingProduct();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ConflictingProduct', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -22,7 +22,7 @@ class Media extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'mediaIdentifier' => [
             'type' => 'DTS\eBaySDK\Product\Types\MediaIdentifier',
             'repeatable' => false,

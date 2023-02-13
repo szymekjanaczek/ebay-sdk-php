@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType;
 
 class UPICaseStatusTypeTest extends TestCase
 {
-    private $obj;
+    private UPICaseStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UPICaseStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType', $this->obj);
     }

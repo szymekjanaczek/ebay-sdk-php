@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse;
 
 class RemoveOverridesResponseTest extends TestCase
 {
-    private $obj;
+    private RemoveOverridesResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RemoveOverridesResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
     }

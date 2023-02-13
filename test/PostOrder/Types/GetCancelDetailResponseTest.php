@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetCancelDetailResponse;
 
 class GetCancelDetailResponseTest extends TestCase
 {
-    private $obj;
+    private GetCancelDetailResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCancelDetailResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetCancelDetailResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledDefinitionType;
 
 class ClassifiedAdBestOfferEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ClassifiedAdBestOfferEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ClassifiedAdBestOfferEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

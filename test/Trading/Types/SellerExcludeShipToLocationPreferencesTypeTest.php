@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType;
 
 class SellerExcludeShipToLocationPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private SellerExcludeShipToLocationPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerExcludeShipToLocationPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

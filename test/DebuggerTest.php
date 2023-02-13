@@ -6,10 +6,10 @@ use DTS\eBaySDK\Debugger;
 
 class DebuggerTest extends TestCase
 {
-    public function testOutputsDebugInformation()
+    public function testOutputsDebugInformation(): void
     {
         $str = '';
-        $logfn = function ($value) use (&$str) {
+        $logfn = function ($value) use (&$str): void {
             $str .= $value;
         };
 
@@ -20,7 +20,7 @@ class DebuggerTest extends TestCase
         $this->assertStringContainsString('debug', $str);
     }
 
-    public function testScrubsCredentials()
+    public function testScrubsCredentials(): void
     {
         $msg = <<<EOT
 X-EBAY-SOA-SECURITY-TOKEN: token
@@ -36,7 +36,7 @@ X-EBAY-API-DEV-NAME: devname
 EOT;
 
         $str = '';
-        $logfn = function ($value) use (&$str) {
+        $logfn = function ($value) use (&$str): void {
             $str .= $value;
         };
 
@@ -56,7 +56,7 @@ EOT;
         $this->assertStringNotContainsString('authtoken', $str);
     }
 
-    public function testScrubsCustom()
+    public function testScrubsCustom(): void
     {
         $msg = <<<EOT
 X-EBAY-SOA-SECURITY-TOKEN: token
@@ -65,7 +65,7 @@ X-EBAY-SOA-SECURITY-TOKEN: token
 EOT;
 
         $str = '';
-        $logfn = function ($value) use (&$str) {
+        $logfn = function ($value) use (&$str): void {
             $str .= $value;
         };
 

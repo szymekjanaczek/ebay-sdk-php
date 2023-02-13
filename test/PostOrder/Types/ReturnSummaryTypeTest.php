@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ReturnSummaryType;
 
 class ReturnSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

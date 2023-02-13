@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest;
 
 class AppealCaseDecisionRestRequestTest extends TestCase
 {
-    private $obj;
+    private AppealCaseDecisionRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AppealCaseDecisionRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\AppealCaseDecisionRestRequest', $this->obj);
     }
 
-    public function testExtendsAppealRequest()
+    public function testExtendsAppealRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\AppealRequest', $this->obj);
     }

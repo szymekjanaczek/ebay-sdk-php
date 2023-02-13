@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest;
 
 class ProcessReturnRequestRestRequestTest extends TestCase
 {
-    private $obj;
+    private ProcessReturnRequestRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProcessReturnRequestRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProcessReturnRequestRestRequest', $this->obj);
     }
 
-    public function testExtendsDecideReturnRequest()
+    public function testExtendsDecideReturnRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\DecideReturnRequest', $this->obj);
     }

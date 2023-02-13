@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalMarketBestOfferEnabledDefinitionType;
 
 class LocalMarketBestOfferEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalMarketBestOfferEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalMarketBestOfferEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketBestOfferEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

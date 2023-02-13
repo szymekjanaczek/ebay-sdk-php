@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType;
 
 class SellingManagerSoldListingsSortTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerSoldListingsSortTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerSoldListingsSortTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType', $this->obj);
     }

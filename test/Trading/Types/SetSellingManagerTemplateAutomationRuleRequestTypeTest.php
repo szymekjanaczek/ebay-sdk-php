@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetSellingManagerTemplateAutomationRuleRequestType
 
 class SetSellingManagerTemplateAutomationRuleRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetSellingManagerTemplateAutomationRuleRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetSellingManagerTemplateAutomationRuleRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetSellingManagerTemplateAutomationRuleRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

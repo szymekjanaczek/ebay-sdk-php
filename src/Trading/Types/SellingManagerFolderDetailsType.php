@@ -27,7 +27,7 @@ class SellingManagerFolderDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'FolderID' => [
             'type' => 'integer',
             'repeatable' => false,

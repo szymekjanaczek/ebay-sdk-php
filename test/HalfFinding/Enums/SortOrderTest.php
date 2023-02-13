@@ -15,14 +15,14 @@ use DTS\eBaySDK\HalfFinding\Enums\SortOrder;
 
 class SortOrderTest extends TestCase
 {
-    private $obj;
+    private SortOrder $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SortOrder();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\SortOrder', $this->obj);
     }

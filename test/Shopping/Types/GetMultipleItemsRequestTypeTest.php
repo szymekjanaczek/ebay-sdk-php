@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType;
 
 class GetMultipleItemsRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetMultipleItemsRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetMultipleItemsRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }

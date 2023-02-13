@@ -8,7 +8,7 @@ use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
 class JsonTest extends TestCase
 {
-    public function testCanDecodeJson()
+    public function testCanDecodeJson(): void
     {
         $json = file_get_contents(__DIR__.'/../Mocks/Response.json');
         $obj = new ComplexClass(json_decode($json, true));

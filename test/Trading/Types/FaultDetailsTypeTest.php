@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FaultDetailsType;
 
 class FaultDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private FaultDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FaultDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FaultDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

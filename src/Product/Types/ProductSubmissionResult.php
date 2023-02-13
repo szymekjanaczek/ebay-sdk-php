@@ -20,7 +20,7 @@ class ProductSubmissionResult extends BaseServiceResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'productSubmission' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductSubmission',
             'repeatable' => false,

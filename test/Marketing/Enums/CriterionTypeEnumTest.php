@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum;
 
 class CriterionTypeEnumTest extends TestCase
 {
-    private $obj;
+    private CriterionTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CriterionTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum', $this->obj);
     }

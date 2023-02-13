@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\DeleteInventoryItemGroupRestResponse;
 
 class DeleteInventoryItemGroupRestResponseTest extends TestCase
 {
-    private $obj;
+    private DeleteInventoryItemGroupRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteInventoryItemGroupRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\DeleteInventoryItemGroupRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

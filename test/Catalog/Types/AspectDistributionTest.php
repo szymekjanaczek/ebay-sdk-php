@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\AspectDistribution;
 
 class AspectDistributionTest extends TestCase
 {
-    private $obj;
+    private AspectDistribution $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AspectDistribution();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\AspectDistribution', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

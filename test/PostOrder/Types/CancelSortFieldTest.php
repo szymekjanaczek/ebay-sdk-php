@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CancelSortField;
 
 class CancelSortFieldTest extends TestCase
 {
-    private $obj;
+    private CancelSortField $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelSortField();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CancelSortField', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

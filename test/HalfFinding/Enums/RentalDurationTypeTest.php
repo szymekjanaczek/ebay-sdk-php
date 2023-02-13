@@ -15,14 +15,14 @@ use DTS\eBaySDK\HalfFinding\Enums\RentalDurationType;
 
 class RentalDurationTypeTest extends TestCase
 {
-    private $obj;
+    private RentalDurationType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RentalDurationType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\RentalDurationType', $this->obj);
     }

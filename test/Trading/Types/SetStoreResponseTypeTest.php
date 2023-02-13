@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetStoreResponseType;
 
 class SetStoreResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SetStoreResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetStoreResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetStoreResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

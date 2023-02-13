@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType;
 
 class CarrierShippingCostInfoTypeTest extends TestCase
 {
-    private $obj;
+    private CarrierShippingCostInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CarrierShippingCostInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

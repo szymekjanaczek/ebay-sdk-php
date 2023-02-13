@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\OrderRoleCodeType;
 
 class OrderRoleCodeTypeTest extends TestCase
 {
-    private $obj;
+    private OrderRoleCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderRoleCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\OrderRoleCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BuyingSummaryType;
 
 class BuyingSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private BuyingSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyingSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BuyingSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\BulkDataExchange\Enums\ItemEventType;
 
 class ItemEventTypeTest extends TestCase
 {
-    private $obj;
+    private ItemEventType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemEventType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\ItemEventType', $this->obj);
     }

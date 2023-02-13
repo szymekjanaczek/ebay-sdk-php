@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability;
 
 class ShipToLocationAvailabilityTest extends TestCase
 {
-    private $obj;
+    private ShipToLocationAvailability $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShipToLocationAvailability();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

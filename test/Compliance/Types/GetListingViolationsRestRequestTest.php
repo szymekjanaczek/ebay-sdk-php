@@ -15,19 +15,19 @@ use DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest;
 
 class GetListingViolationsRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetListingViolationsRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetListingViolationsRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

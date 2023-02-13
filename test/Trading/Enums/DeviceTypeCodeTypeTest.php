@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DeviceTypeCodeType;
 
 class DeviceTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DeviceTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeviceTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DeviceTypeCodeType', $this->obj);
     }

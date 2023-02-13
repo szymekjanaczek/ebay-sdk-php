@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestResponse;
 
 class CreateReturnShippingLabelRestResponseTest extends TestCase
 {
-    private $obj;
+    private CreateReturnShippingLabelRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateReturnShippingLabelRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateReturnShippingLabelRestResponse', $this->obj);
     }
 
-    public function testExtendsInitiateShippingLabelResponse()
+    public function testExtendsInitiateShippingLabelResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\InitiateShippingLabelResponse', $this->obj);
     }

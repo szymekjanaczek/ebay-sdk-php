@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\ProductSubmissionFilter;
 
 class ProductSubmissionFilterTest extends TestCase
 {
-    private $obj;
+    private ProductSubmissionFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductSubmissionFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\ProductSubmissionFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

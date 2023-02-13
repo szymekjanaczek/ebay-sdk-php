@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\RestockingFeeCodeType;
 
 class RestockingFeeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private RestockingFeeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RestockingFeeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\RestockingFeeCodeType', $this->obj);
     }

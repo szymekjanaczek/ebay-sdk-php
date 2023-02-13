@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType;
 
 class DispatchTimeMaxDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private DispatchTimeMaxDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DispatchTimeMaxDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\HalfFinding\Enums\Type;
 
 class TypeTest extends TestCase
 {
-    private $obj;
+    private Type $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Type();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\Type', $this->obj);
     }

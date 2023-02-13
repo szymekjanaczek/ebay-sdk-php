@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BotBlockResponseType;
 
 class BotBlockResponseTypeTest extends TestCase
 {
-    private $obj;
+    private BotBlockResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BotBlockResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BotBlockResponseType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

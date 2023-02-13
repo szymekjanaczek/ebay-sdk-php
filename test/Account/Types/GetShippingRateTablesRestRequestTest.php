@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest;
 
 class GetShippingRateTablesRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetShippingRateTablesRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetShippingRateTablesRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

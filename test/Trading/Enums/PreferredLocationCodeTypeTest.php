@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType;
 
 class PreferredLocationCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PreferredLocationCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PreferredLocationCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType', $this->obj);
     }

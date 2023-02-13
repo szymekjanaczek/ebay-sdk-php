@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus;
 
 class SellerProfileResponseStatusTest extends TestCase
 {
-    private $obj;
+    private SellerProfileResponseStatus $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerProfileResponseStatus();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

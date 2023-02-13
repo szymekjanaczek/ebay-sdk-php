@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetCharitiesResponseType;
 
 class GetCharitiesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetCharitiesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCharitiesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetCharitiesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -20,7 +20,7 @@ class SellerExcludeShipToLocationPreferencesType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ExcludeShipToLocation' => [
             'type' => 'string',
             'repeatable' => true,

@@ -9,7 +9,7 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends TestCase
 {
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = ProductBaseService::getConfigDefinitions();
 
@@ -25,7 +25,7 @@ class ServiceTest extends TestCase
         ], $d['globalId']);
     }
 
-    public function testRequiredEbayHeaders()
+    public function testRequiredEbayHeaders(): void
     {
         $h = new HttpHandler();
 
@@ -50,7 +50,7 @@ class ServiceTest extends TestCase
         $this->assertArrayNotHasKey(ProductBaseService::HDR_GLOBAL_ID, $h->headers);
     }
 
-    public function testOptionalEbayHeaders()
+    public function testOptionalEbayHeaders(): void
     {
         $h = new HttpHandler();
 

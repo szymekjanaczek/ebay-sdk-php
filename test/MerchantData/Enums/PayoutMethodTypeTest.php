@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\PayoutMethodType;
 
 class PayoutMethodTypeTest extends TestCase
 {
-    private $obj;
+    private PayoutMethodType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PayoutMethodType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PayoutMethodType', $this->obj);
     }

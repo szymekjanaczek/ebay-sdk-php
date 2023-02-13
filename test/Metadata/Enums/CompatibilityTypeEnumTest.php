@@ -15,14 +15,14 @@ use DTS\eBaySDK\Metadata\Enums\CompatibilityTypeEnum;
 
 class CompatibilityTypeEnumTest extends TestCase
 {
-    private $obj;
+    private CompatibilityTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CompatibilityTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Enums\CompatibilityTypeEnum', $this->obj);
     }

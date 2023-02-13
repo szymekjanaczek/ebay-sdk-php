@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\ReviewDetailsType;
 
 class ReviewDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private ReviewDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviewDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\ReviewDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

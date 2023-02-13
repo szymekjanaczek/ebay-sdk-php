@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\DeliveryCost;
 
 class DeliveryCostTest extends TestCase
 {
-    private $obj;
+    private DeliveryCost $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeliveryCost();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\DeliveryCost', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

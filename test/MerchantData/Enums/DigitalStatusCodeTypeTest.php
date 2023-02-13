@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\DigitalStatusCodeType;
 
 class DigitalStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DigitalStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DigitalStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\DigitalStatusCodeType', $this->obj);
     }

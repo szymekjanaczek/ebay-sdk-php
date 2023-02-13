@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\ReturnMetadataKeyEnum;
 
 class ReturnMetadataKeyEnumTest extends TestCase
 {
-    private $obj;
+    private ReturnMetadataKeyEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnMetadataKeyEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\ReturnMetadataKeyEnum', $this->obj);
     }

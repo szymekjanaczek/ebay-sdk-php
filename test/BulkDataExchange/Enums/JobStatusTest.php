@@ -15,14 +15,14 @@ use DTS\eBaySDK\BulkDataExchange\Enums\JobStatus;
 
 class JobStatusTest extends TestCase
 {
-    private $obj;
+    private JobStatus $obj;
 
     protected function setUp(): void
     {
         $this->obj = new JobStatus();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\JobStatus', $this->obj);
     }

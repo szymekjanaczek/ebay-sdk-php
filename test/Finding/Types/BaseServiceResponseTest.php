@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\BaseServiceResponse;
 
 class BaseServiceResponseTest extends TestCase
 {
-    private $obj;
+    private BaseServiceResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BaseServiceResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseServiceResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

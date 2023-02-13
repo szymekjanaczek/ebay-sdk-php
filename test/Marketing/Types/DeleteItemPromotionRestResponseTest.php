@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestResponse;
 
 class DeleteItemPromotionRestResponseTest extends TestCase
 {
-    private $obj;
+    private DeleteItemPromotionRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteItemPromotionRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\DeleteItemPromotionRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

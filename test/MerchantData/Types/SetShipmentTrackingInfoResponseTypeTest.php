@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType;
 
 class SetShipmentTrackingInfoResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SetShipmentTrackingInfoResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetShipmentTrackingInfoResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractResponseType', $this->obj);
     }

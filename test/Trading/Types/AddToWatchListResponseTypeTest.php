@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddToWatchListResponseType;
 
 class AddToWatchListResponseTypeTest extends TestCase
 {
-    private $obj;
+    private AddToWatchListResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddToWatchListResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddToWatchListResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

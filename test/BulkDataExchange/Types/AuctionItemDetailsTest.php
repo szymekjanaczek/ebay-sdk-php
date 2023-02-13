@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\AuctionItemDetails;
 
 class AuctionItemDetailsTest extends TestCase
 {
-    private $obj;
+    private AuctionItemDetails $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AuctionItemDetails();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\AuctionItemDetails', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

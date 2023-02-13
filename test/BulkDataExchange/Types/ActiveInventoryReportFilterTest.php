@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter;
 
 class ActiveInventoryReportFilterTest extends TestCase
 {
-    private $obj;
+    private ActiveInventoryReportFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ActiveInventoryReportFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\ActiveInventoryReportFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

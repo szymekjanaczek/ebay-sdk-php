@@ -20,7 +20,7 @@ class ModifyNameArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ModifyName' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ModifyNameType',
             'repeatable' => true,

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetItemTransactionsResponseType;
 
 class GetItemTransactionsResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetItemTransactionsResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemTransactionsResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetItemTransactionsResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

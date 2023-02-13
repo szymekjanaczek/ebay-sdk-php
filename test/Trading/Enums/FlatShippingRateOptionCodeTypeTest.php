@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\FlatShippingRateOptionCodeType;
 
 class FlatShippingRateOptionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private FlatShippingRateOptionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FlatShippingRateOptionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\FlatShippingRateOptionCodeType', $this->obj);
     }

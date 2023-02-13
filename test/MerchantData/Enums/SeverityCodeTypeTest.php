@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\SeverityCodeType;
 
 class SeverityCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SeverityCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SeverityCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\SeverityCodeType', $this->obj);
     }

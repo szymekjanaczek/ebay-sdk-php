@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ClassifiedAdPhoneCountDefinitionType;
 
 class ClassifiedAdPhoneCountDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ClassifiedAdPhoneCountDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ClassifiedAdPhoneCountDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ClassifiedAdPhoneCountDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

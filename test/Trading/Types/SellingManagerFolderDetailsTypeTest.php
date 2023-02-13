@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType;
 
 class SellingManagerFolderDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerFolderDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerFolderDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

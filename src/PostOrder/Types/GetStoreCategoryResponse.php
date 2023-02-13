@@ -20,7 +20,7 @@ class GetStoreCategoryResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'categories' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\StoreCategoryType',
             'repeatable' => true,

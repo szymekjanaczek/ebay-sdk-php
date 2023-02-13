@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\BidGroupItemStatusCodeType;
 
 class BidGroupItemStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private BidGroupItemStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BidGroupItemStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\BidGroupItemStatusCodeType', $this->obj);
     }

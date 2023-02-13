@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetUserPreferencesRequestType;
 
 class SetUserPreferencesRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetUserPreferencesRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetUserPreferencesRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetUserPreferencesRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

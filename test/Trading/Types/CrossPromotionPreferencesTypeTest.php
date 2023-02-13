@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CrossPromotionPreferencesType;
 
 class CrossPromotionPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private CrossPromotionPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CrossPromotionPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CrossPromotionPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

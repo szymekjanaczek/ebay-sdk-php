@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ListingTransactionType;
 
 class ListingTransactionTypeTest extends TestCase
 {
-    private $obj;
+    private ListingTransactionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingTransactionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ListingTransactionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

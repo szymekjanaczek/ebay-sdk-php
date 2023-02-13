@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoResponse;
 
 class ProvideSellerInfoResponseTest extends TestCase
 {
-    private $obj;
+    private ProvideSellerInfoResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideSellerInfoResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseResponse', $this->obj);
     }

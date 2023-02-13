@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerAccountDashboardType;
 
 class SellerAccountDashboardTypeTest extends TestCase
 {
-    private $obj;
+    private SellerAccountDashboardType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerAccountDashboardType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerAccountDashboardType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Metadata\Types\GetSalesTaxJurisdictionsRestResponse;
 
 class GetSalesTaxJurisdictionsRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetSalesTaxJurisdictionsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSalesTaxJurisdictionsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\GetSalesTaxJurisdictionsRestResponse', $this->obj);
     }
 
-    public function testExtendsSalesTaxJurisdictions()
+    public function testExtendsSalesTaxJurisdictions(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\SalesTaxJurisdictions', $this->obj);
     }

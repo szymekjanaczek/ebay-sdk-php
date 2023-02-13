@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\TaxIdentifierType;
 
 class TaxIdentifierTypeTest extends TestCase
 {
-    private $obj;
+    private TaxIdentifierType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TaxIdentifierType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\TaxIdentifierType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

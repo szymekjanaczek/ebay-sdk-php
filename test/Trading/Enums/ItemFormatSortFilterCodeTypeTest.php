@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType;
 
 class ItemFormatSortFilterCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ItemFormatSortFilterCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemFormatSortFilterCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType', $this->obj);
     }

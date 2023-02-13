@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\BuyerCloseReturnReasonEnum;
 
 class BuyerCloseReturnReasonEnumTest extends TestCase
 {
-    private $obj;
+    private BuyerCloseReturnReasonEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerCloseReturnReasonEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\BuyerCloseReturnReasonEnum', $this->obj);
     }

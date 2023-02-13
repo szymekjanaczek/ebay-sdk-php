@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PictureManagerFolderType;
 
 class PictureManagerFolderTypeTest extends TestCase
 {
-    private $obj;
+    private PictureManagerFolderType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureManagerFolderType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PictureManagerFolderType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

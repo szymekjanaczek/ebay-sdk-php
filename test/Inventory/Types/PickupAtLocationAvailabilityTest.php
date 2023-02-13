@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability;
 
 class PickupAtLocationAvailabilityTest extends TestCase
 {
-    private $obj;
+    private PickupAtLocationAvailability $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PickupAtLocationAvailability();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

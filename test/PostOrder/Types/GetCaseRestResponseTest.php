@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetCaseRestResponse;
 
 class GetCaseRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetCaseRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCaseRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetCaseRestResponse', $this->obj);
     }
 
-    public function testExtendsCaseDetailsResponse()
+    public function testExtendsCaseDetailsResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CaseDetailsResponse', $this->obj);
     }

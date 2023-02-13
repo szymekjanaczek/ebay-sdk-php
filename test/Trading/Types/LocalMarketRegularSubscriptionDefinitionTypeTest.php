@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalMarketRegularSubscriptionDefinitionType;
 
 class LocalMarketRegularSubscriptionDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalMarketRegularSubscriptionDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalMarketRegularSubscriptionDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketRegularSubscriptionDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

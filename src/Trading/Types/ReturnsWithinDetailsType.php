@@ -21,7 +21,7 @@ class ReturnsWithinDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ReturnsWithinOption' => [
             'type' => 'string',
             'repeatable' => false,

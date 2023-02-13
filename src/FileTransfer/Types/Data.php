@@ -11,7 +11,7 @@ class Data extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'xopInclude' => [
             'type' => 'DTS\eBaySDK\FileTransfer\Types\XopInclude',
             'repeatable' => false,

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType;
 
 class TopRatedSellerDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private TopRatedSellerDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TopRatedSellerDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

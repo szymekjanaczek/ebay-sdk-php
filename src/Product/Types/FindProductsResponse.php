@@ -19,7 +19,7 @@ class FindProductsResponse extends BaseServiceResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'productSearchResult' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductResponse',
             'repeatable' => true,

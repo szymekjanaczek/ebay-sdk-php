@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetStorePreferencesResponseType;
 
 class SetStorePreferencesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SetStorePreferencesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetStorePreferencesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetStorePreferencesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse;
 
 class GetAllCampaignsRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetAllCampaignsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAllCampaignsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse', $this->obj);
     }
 
-    public function testExtendsCampaignPagedCollection()
+    public function testExtendsCampaignPagedCollection(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CampaignPagedCollection', $this->obj);
     }

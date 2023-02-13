@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType;
 
 class RequestBuyerToReturnOptionTypeTest extends TestCase
 {
-    private $obj;
+    private RequestBuyerToReturnOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RequestBuyerToReturnOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\RequestBuyerToReturnOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }

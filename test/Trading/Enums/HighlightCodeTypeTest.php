@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\HighlightCodeType;
 
 class HighlightCodeTypeTest extends TestCase
 {
-    private $obj;
+    private HighlightCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new HighlightCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\HighlightCodeType', $this->obj);
     }

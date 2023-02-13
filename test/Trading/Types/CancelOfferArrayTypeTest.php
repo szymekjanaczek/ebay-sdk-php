@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CancelOfferArrayType;
 
 class CancelOfferArrayTypeTest extends TestCase
 {
-    private $obj;
+    private CancelOfferArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelOfferArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CancelOfferArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

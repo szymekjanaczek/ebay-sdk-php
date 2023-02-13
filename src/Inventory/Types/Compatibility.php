@@ -21,7 +21,7 @@ class Compatibility extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'compatibleProducts' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\CompatibleProduct',
             'repeatable' => true,

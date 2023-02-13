@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\SendMessageRequest;
 
 class SendMessageRequestTest extends TestCase
 {
-    private $obj;
+    private SendMessageRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SendMessageRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SendMessageRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

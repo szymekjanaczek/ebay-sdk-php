@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType;
 
 class RestockingFeeValueDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private RestockingFeeValueDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RestockingFeeValueDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

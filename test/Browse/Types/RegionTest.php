@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\Region;
 
 class RegionTest extends TestCase
 {
-    private $obj;
+    private Region $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Region();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\Region', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

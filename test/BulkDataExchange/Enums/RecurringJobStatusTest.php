@@ -15,14 +15,14 @@ use DTS\eBaySDK\BulkDataExchange\Enums\RecurringJobStatus;
 
 class RecurringJobStatusTest extends TestCase
 {
-    private $obj;
+    private RecurringJobStatus $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RecurringJobStatus();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\RecurringJobStatus', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReviseItemResponseType;
 
 class ReviseItemResponseTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseItemResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseItemResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseItemResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

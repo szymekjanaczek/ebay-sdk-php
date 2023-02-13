@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\DeleteOfferRestRequest;
 
 class DeleteOfferRestRequestTest extends TestCase
 {
-    private $obj;
+    private DeleteOfferRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteOfferRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\DeleteOfferRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

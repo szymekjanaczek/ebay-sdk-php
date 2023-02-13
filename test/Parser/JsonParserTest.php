@@ -9,7 +9,7 @@ use DTS\eBaySDK\Parser\JsonParser;
 
 class JsonParserTest extends TestCase
 {
-    public function testCanParseJson()
+    public function testCanParseJson(): void
     {
         $obj = new ComplexClass();
         $json = file_get_contents(__DIR__.'/../Mocks/ResponseWithUnknownProperties.json');

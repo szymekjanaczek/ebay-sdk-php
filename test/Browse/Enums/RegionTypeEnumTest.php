@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\RegionTypeEnum;
 
 class RegionTypeEnumTest extends TestCase
 {
-    private $obj;
+    private RegionTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RegionTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\RegionTypeEnum', $this->obj);
     }

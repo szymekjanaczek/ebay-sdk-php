@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\StockPhotoURL;
 
 class StockPhotoURLTest extends TestCase
 {
-    private $obj;
+    private StockPhotoURL $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StockPhotoURL();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\StockPhotoURL', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

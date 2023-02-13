@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\UnitInfoType;
 
 class UnitInfoTypeTest extends TestCase
 {
-    private $obj;
+    private UnitInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UnitInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\UnitInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

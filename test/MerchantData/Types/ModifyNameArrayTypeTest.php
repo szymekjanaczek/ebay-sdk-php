@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ModifyNameArrayType;
 
 class ModifyNameArrayTypeTest extends TestCase
 {
-    private $obj;
+    private ModifyNameArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ModifyNameArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ModifyNameArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

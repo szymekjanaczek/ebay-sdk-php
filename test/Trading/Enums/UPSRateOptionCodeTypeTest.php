@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\UPSRateOptionCodeType;
 
 class UPSRateOptionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private UPSRateOptionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UPSRateOptionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\UPSRateOptionCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetDescriptionTemplatesResponseType;
 
 class GetDescriptionTemplatesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetDescriptionTemplatesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetDescriptionTemplatesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetDescriptionTemplatesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

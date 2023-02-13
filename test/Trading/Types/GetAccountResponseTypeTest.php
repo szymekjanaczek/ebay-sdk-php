@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetAccountResponseType;
 
 class GetAccountResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetAccountResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAccountResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetAccountResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

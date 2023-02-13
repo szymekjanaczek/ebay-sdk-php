@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType;
 
 class ShippingServicePackageDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private ShippingServicePackageDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingServicePackageDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

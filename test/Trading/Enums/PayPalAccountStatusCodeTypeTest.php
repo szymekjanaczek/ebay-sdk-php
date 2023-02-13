@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PayPalAccountStatusCodeType;
 
 class PayPalAccountStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PayPalAccountStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PayPalAccountStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PayPalAccountStatusCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SummaryFrequencyCodeType;
 
 class SummaryFrequencyCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SummaryFrequencyCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SummaryFrequencyCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SummaryFrequencyCodeType', $this->obj);
     }

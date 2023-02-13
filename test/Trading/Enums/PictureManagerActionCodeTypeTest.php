@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PictureManagerActionCodeType;
 
 class PictureManagerActionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PictureManagerActionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureManagerActionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PictureManagerActionCodeType', $this->obj);
     }

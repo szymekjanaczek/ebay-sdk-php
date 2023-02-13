@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest;
 
 class UpdateBundlesRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateBundlesRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateBundlesRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
     }

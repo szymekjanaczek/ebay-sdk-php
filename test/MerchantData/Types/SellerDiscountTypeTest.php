@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\SellerDiscountType;
 
 class SellerDiscountTypeTest extends TestCase
 {
-    private $obj;
+    private SellerDiscountType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerDiscountType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\SellerDiscountType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

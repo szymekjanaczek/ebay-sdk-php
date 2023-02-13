@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest;
 
 class AddShippingLabelInfoRestRequestTest extends TestCase
 {
-    private $obj;
+    private AddShippingLabelInfoRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddShippingLabelInfoRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest', $this->obj);
     }
 
-    public function testExtendsProvideLabelRequest()
+    public function testExtendsProvideLabelRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvideLabelRequest', $this->obj);
     }

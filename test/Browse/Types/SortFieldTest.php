@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\SortField;
 
 class SortFieldTest extends TestCase
 {
-    private $obj;
+    private SortField $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SortField();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\SortField', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

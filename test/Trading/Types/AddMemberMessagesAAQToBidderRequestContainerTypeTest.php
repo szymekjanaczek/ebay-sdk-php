@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType;
 
 class AddMemberMessagesAAQToBidderRequestContainerTypeTest extends TestCase
 {
-    private $obj;
+    private AddMemberMessagesAAQToBidderRequestContainerType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddMemberMessagesAAQToBidderRequestContainerType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

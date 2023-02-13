@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AspectUsageCodeType;
 
 class AspectUsageCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AspectUsageCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AspectUsageCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AspectUsageCodeType', $this->obj);
     }

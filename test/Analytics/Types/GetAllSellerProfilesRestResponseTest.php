@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse;
 
 class GetAllSellerProfilesRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetAllSellerProfilesRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAllSellerProfilesRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse', $this->obj);
     }
 
-    public function testExtendsFindSellerStandardsProfilesResponse()
+    public function testExtendsFindSellerStandardsProfilesResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\FindSellerStandardsProfilesResponse', $this->obj);
     }

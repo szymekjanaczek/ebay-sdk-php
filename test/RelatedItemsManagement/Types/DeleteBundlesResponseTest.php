@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesResponse;
 
 class DeleteBundlesResponseTest extends TestCase
 {
-    private $obj;
+    private DeleteBundlesResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteBundlesResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseResponse', $this->obj);
     }

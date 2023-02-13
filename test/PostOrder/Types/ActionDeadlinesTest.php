@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ActionDeadlines;
 
 class ActionDeadlinesTest extends TestCase
 {
-    private $obj;
+    private ActionDeadlines $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ActionDeadlines();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ActionDeadlines', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

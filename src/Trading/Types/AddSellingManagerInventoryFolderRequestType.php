@@ -21,7 +21,7 @@ class AddSellingManagerInventoryFolderRequestType extends AbstractRequestType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'FolderName' => [
             'type' => 'string',
             'repeatable' => false,

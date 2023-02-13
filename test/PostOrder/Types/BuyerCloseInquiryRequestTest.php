@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\BuyerCloseInquiryRequest;
 
 class BuyerCloseInquiryRequestTest extends TestCase
 {
-    private $obj;
+    private BuyerCloseInquiryRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerCloseInquiryRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\BuyerCloseInquiryRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

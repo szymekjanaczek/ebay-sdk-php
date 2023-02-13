@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\AbortJobResponse;
 
 class AbortJobResponseTest extends TestCase
 {
-    private $obj;
+    private AbortJobResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AbortJobResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\AbortJobResponse', $this->obj);
     }
 
-    public function testExtendsBaseServiceResponse()
+    public function testExtendsBaseServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
     }

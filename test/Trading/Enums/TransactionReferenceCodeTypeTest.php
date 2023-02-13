@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\TransactionReferenceCodeType;
 
 class TransactionReferenceCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TransactionReferenceCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TransactionReferenceCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\TransactionReferenceCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EBayMotorsProBestOfferEnabledDefinitionType;
 
 class EBayMotorsProBestOfferEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private EBayMotorsProBestOfferEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBayMotorsProBestOfferEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EBayMotorsProBestOfferEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

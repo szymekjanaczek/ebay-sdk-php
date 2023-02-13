@@ -20,7 +20,7 @@ class GetItemRestRequest extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'item_id' => [
             'type' => 'string',
             'repeatable' => false,

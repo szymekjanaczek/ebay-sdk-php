@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DiscountProfileType;
 
 class DiscountProfileTypeTest extends TestCase
 {
-    private $obj;
+    private DiscountProfileType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DiscountProfileType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DiscountProfileType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

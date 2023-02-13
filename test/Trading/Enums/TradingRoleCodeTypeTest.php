@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\TradingRoleCodeType;
 
 class TradingRoleCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TradingRoleCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TradingRoleCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\TradingRoleCodeType', $this->obj);
     }

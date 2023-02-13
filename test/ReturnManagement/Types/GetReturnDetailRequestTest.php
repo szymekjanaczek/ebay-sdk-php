@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailRequest;
 
 class GetReturnDetailRequestTest extends TestCase
 {
-    private $obj;
+    private GetReturnDetailRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnDetailRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\GetReturnDetailRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
     }

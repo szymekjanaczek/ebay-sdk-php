@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType;
 
 class AdFormatLeadStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AdFormatLeadStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AdFormatLeadStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType', $this->obj);
     }

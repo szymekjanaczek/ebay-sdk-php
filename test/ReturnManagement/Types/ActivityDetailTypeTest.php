@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType;
 
 class ActivityDetailTypeTest extends TestCase
 {
-    private $obj;
+    private ActivityDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ActivityDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType', $this->obj);
     }
 
-    public function testExtendsEnumerationDetailType()
+    public function testExtendsEnumerationDetailType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType', $this->obj);
     }

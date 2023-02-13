@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerType;
 
 class MyeBayFavoriteSellerTypeTest extends TestCase
 {
-    private $obj;
+    private MyeBayFavoriteSellerType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyeBayFavoriteSellerType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType;
 
 class SellerContactDetailsEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private SellerContactDetailsEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerContactDetailsEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

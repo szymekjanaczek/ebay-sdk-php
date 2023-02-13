@@ -21,7 +21,7 @@ class Header extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'dimensionKeys' => [
             'type' => 'DTS\eBaySDK\Analytics\Types\Definition',
             'repeatable' => true,

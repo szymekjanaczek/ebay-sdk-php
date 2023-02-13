@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreFontType;
 
 class StoreFontTypeTest extends TestCase
 {
-    private $obj;
+    private StoreFontType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreFontType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreFontType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

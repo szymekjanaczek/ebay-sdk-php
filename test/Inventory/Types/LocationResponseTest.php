@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\LocationResponse;
 
 class LocationResponseTest extends TestCase
 {
-    private $obj;
+    private LocationResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocationResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\LocationResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

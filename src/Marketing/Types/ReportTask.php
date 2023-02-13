@@ -42,7 +42,7 @@ class ReportTask extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'campaignIds' => [
             'type' => 'string',
             'repeatable' => true,

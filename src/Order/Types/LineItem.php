@@ -31,7 +31,7 @@ class LineItem extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'image' => [
             'type' => 'DTS\eBaySDK\Order\Types\Image',
             'repeatable' => false,

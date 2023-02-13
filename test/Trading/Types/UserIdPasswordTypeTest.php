@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\UserIdPasswordType;
 
 class UserIdPasswordTypeTest extends TestCase
 {
-    private $obj;
+    private UserIdPasswordType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UserIdPasswordType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\UserIdPasswordType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalMarketAutoAcceptEnabledDefinitionType;
 
 class LocalMarketAutoAcceptEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalMarketAutoAcceptEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalMarketAutoAcceptEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketAutoAcceptEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

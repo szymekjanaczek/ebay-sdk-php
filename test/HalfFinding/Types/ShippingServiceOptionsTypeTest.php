@@ -15,19 +15,19 @@ use DTS\eBaySDK\HalfFinding\Types\ShippingServiceOptionsType;
 
 class ShippingServiceOptionsTypeTest extends TestCase
 {
-    private $obj;
+    private ShippingServiceOptionsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingServiceOptionsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\ShippingServiceOptionsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

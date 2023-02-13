@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\FindSellerStandardsProfilesResponse;
 
 class FindSellerStandardsProfilesResponseTest extends TestCase
 {
-    private $obj;
+    private FindSellerStandardsProfilesResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindSellerStandardsProfilesResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\FindSellerStandardsProfilesResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

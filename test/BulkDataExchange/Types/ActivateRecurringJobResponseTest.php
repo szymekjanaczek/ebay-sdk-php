@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobResponse;
 
 class ActivateRecurringJobResponseTest extends TestCase
 {
-    private $obj;
+    private ActivateRecurringJobResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ActivateRecurringJobResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobResponse', $this->obj);
     }
 
-    public function testExtendsBaseServiceResponse()
+    public function testExtendsBaseServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
     }

@@ -10,7 +10,7 @@ use InvalidArgumentException;
 
 class RestServiceTest extends TestCase
 {
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = BaseRestService::getConfigDefinitions();
 
@@ -56,7 +56,7 @@ class RestServiceTest extends TestCase
         ], $d['sandbox']);
     }
 
-    public function testProductionUrlIsUsed()
+    public function testProductionUrlIsUsed(): void
     {
         // By default sandbox will be false.
         $h = new HttpRestHandler();
@@ -68,7 +68,7 @@ class RestServiceTest extends TestCase
         $this->assertEquals('http://production.com/v1/', $h->url);
     }
 
-    public function testSandboxUrlIsUsed()
+    public function testSandboxUrlIsUsed(): void
     {
         $h = new HttpRestHandler();
         $s = new RestService([
@@ -80,7 +80,7 @@ class RestServiceTest extends TestCase
         $this->assertEquals('http://sandbox.com/v1/', $h->url);
     }
 
-    public function testHttpHeadersAreCreated()
+    public function testHttpHeadersAreCreated(): void
     {
         $h = new HttpRestHandler();
         $s = new RestService([
@@ -103,7 +103,7 @@ class RestServiceTest extends TestCase
         $this->assertEquals(0, $h->headers['Content-Length']);
     }
 
-    public function testJsonIsCreated()
+    public function testJsonIsCreated(): void
     {
         $h = new HttpRestHandler();
         $s = new RestService([
@@ -116,7 +116,7 @@ class RestServiceTest extends TestCase
         $this->assertEquals(json_encode($r->toArray()), $h->body);
     }
 
-    public function testJsonIsNotCreated()
+    public function testJsonIsNotCreated(): void
     {
         $h = new HttpRestHandler();
         $s = new RestService([
@@ -127,7 +127,7 @@ class RestServiceTest extends TestCase
         $this->assertEquals('', $h->body);
     }
 
-    public function testResponseIsReturned()
+    public function testResponseIsReturned(): void
     {
         $s = new RestService([
             'httpHandler'   => new HttpRestHandler()
@@ -137,10 +137,10 @@ class RestServiceTest extends TestCase
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\ComplexClass', $r);
     }
 
-    public function testDebugging()
+    public function testDebugging(): void
     {
         $str = '';
-        $logfn = function ($value) use (&$str) {
+        $logfn = function ($value) use (&$str): void {
             $str .= $value;
         };
 
@@ -158,7 +158,7 @@ class RestServiceTest extends TestCase
         $this->assertStringContainsString('}', $str);
     }
 
-    public function testCanSetConfigurationOptionsAfterInstaniation()
+    public function testCanSetConfigurationOptionsAfterInstaniation(): void
     {
         $h = new HttpRestHandler();
         $s = new RestService([
@@ -192,7 +192,7 @@ class RestServiceTest extends TestCase
         ], $s->getConfig());
     }
 
-    public function testSetConfigWillThrow()
+    public function testSetConfigWillThrow(): void
     {
         $s = new RestService([
             'x'=> 1
@@ -206,7 +206,7 @@ class RestServiceTest extends TestCase
         $s->setConfig(['sandbox' => -1]);
     }
 
-    public function testAcceptEncodingHttpHeadersIsCreated()
+    public function testAcceptEncodingHttpHeadersIsCreated(): void
     {
         $h = new HttpRestHandler();
         $s = new RestService(['httpHandler' => $h, 'compressResponse' => true]);

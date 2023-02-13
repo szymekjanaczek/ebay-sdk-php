@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection;
 
 class ShippingFulfillmentPagedCollectionTest extends TestCase
 {
-    private $obj;
+    private ShippingFulfillmentPagedCollection $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingFulfillmentPagedCollection();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

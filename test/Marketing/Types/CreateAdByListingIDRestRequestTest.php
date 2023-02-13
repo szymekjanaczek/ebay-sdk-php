@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest;
 
 class CreateAdByListingIDRestRequestTest extends TestCase
 {
-    private $obj;
+    private CreateAdByListingIDRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateAdByListingIDRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateAdByListingIDRestRequest', $this->obj);
     }
 
-    public function testExtendsCreateAdRequest()
+    public function testExtendsCreateAdRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateAdRequest', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ProductUseCaseCodeType;
 
 class ProductUseCaseCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ProductUseCaseCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductUseCaseCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ProductUseCaseCodeType', $this->obj);
     }

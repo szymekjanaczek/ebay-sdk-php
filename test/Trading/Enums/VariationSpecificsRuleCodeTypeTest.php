@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType;
 
 class VariationSpecificsRuleCodeTypeTest extends TestCase
 {
-    private $obj;
+    private VariationSpecificsRuleCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VariationSpecificsRuleCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType', $this->obj);
     }

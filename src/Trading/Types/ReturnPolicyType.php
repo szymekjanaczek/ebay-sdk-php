@@ -37,7 +37,7 @@ class ReturnPolicyType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'RefundOption' => [
             'type' => 'string',
             'repeatable' => false,

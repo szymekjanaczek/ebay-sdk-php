@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DutchBINEnabledDefinitionType;
 
 class DutchBINEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private DutchBINEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DutchBINEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DutchBINEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

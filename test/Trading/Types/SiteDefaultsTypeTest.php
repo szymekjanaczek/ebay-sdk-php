@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SiteDefaultsType;
 
 class SiteDefaultsTypeTest extends TestCase
 {
-    private $obj;
+    private SiteDefaultsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SiteDefaultsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SiteDefaultsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

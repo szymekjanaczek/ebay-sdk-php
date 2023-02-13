@@ -30,7 +30,7 @@ class ShippingPolicyInfoService extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'shipToLocation' => [
             'type' => 'string',
             'repeatable' => true,

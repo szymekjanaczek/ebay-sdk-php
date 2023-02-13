@@ -15,14 +15,14 @@ use DTS\eBaySDK\Shopping\Enums\FeedbackRatingDetailCodeType;
 
 class FeedbackRatingDetailCodeTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackRatingDetailCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackRatingDetailCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\FeedbackRatingDetailCodeType', $this->obj);
     }

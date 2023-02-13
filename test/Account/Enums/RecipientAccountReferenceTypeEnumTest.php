@@ -15,14 +15,14 @@ use DTS\eBaySDK\Account\Enums\RecipientAccountReferenceTypeEnum;
 
 class RecipientAccountReferenceTypeEnumTest extends TestCase
 {
-    private $obj;
+    private RecipientAccountReferenceTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RecipientAccountReferenceTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\RecipientAccountReferenceTypeEnum', $this->obj);
     }

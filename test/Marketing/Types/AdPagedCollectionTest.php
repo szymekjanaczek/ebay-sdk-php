@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\AdPagedCollection;
 
 class AdPagedCollectionTest extends TestCase
 {
-    private $obj;
+    private AdPagedCollection $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AdPagedCollection();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\AdPagedCollection', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

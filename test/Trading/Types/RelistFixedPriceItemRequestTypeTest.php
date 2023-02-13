@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RelistFixedPriceItemRequestType;
 
 class RelistFixedPriceItemRequestTypeTest extends TestCase
 {
-    private $obj;
+    private RelistFixedPriceItemRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RelistFixedPriceItemRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RelistFixedPriceItemRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

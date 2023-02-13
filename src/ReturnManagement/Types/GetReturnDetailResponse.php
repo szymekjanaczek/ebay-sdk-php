@@ -20,7 +20,7 @@ class GetReturnDetailResponse extends BaseResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ReturnSummary' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
             'repeatable' => false,

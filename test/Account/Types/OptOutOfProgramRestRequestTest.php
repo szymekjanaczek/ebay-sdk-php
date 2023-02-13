@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest;
 
 class OptOutOfProgramRestRequestTest extends TestCase
 {
-    private $obj;
+    private OptOutOfProgramRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OptOutOfProgramRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest', $this->obj);
     }
 
-    public function testExtendsProgram()
+    public function testExtendsProgram(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\Program', $this->obj);
     }

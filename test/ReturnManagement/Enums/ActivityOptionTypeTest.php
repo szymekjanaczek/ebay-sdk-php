@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\ActivityOptionType;
 
 class ActivityOptionTypeTest extends TestCase
 {
-    private $obj;
+    private ActivityOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ActivityOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\ActivityOptionType', $this->obj);
     }

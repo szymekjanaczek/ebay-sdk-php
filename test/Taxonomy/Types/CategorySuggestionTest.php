@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\CategorySuggestion;
 
 class CategorySuggestionTest extends TestCase
 {
-    private $obj;
+    private CategorySuggestion $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategorySuggestion();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\CategorySuggestion', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

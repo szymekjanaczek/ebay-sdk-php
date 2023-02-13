@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\PromotionReportDetail;
 
 class PromotionReportDetailTest extends TestCase
 {
-    private $obj;
+    private PromotionReportDetail $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PromotionReportDetail();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\PromotionReportDetail', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

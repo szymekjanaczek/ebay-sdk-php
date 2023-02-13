@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\Error;
 
 class ErrorTest extends TestCase
 {
-    private $obj;
+    private Error $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Error();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\Error', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

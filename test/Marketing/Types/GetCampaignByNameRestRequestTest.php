@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest;
 
 class GetCampaignByNameRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetCampaignByNameRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCampaignByNameRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetCampaignByNameRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

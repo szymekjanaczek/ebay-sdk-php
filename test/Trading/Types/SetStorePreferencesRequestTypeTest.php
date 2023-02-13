@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetStorePreferencesRequestType;
 
 class SetStorePreferencesRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetStorePreferencesRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetStorePreferencesRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetStorePreferencesRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

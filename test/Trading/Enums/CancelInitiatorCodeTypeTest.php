@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CancelInitiatorCodeType;
 
 class CancelInitiatorCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CancelInitiatorCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelInitiatorCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CancelInitiatorCodeType', $this->obj);
     }

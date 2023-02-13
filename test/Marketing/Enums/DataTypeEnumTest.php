@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\DataTypeEnum;
 
 class DataTypeEnumTest extends TestCase
 {
-    private $obj;
+    private DataTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DataTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\DataTypeEnum', $this->obj);
     }

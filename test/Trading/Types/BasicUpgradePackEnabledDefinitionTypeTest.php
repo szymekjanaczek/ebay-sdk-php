@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BasicUpgradePackEnabledDefinitionType;
 
 class BasicUpgradePackEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private BasicUpgradePackEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BasicUpgradePackEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BasicUpgradePackEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

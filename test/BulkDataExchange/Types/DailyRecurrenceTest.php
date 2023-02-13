@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence;
 
 class DailyRecurrenceTest extends TestCase
 {
-    private $obj;
+    private DailyRecurrence $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DailyRecurrence();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

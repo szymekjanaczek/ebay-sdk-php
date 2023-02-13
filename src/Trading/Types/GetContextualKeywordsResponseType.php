@@ -19,7 +19,7 @@ class GetContextualKeywordsResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ContextSearchAsset' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ContextSearchAssetType',
             'repeatable' => true,

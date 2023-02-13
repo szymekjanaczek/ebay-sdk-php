@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ISBNIdentifierEnabledDefinitionType;
 
 class ISBNIdentifierEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ISBNIdentifierEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ISBNIdentifierEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ISBNIdentifierEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

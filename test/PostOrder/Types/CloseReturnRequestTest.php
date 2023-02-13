@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CloseReturnRequest;
 
 class CloseReturnRequestTest extends TestCase
 {
-    private $obj;
+    private CloseReturnRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CloseReturnRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CloseReturnRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

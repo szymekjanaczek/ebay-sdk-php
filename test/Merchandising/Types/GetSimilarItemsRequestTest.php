@@ -15,19 +15,19 @@ use DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest;
 
 class GetSimilarItemsRequestTest extends TestCase
 {
-    private $obj;
+    private GetSimilarItemsRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSimilarItemsRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest', $this->obj);
     }
 
-    public function testExtendsBaseMerchandisingServiceRequest()
+    public function testExtendsBaseMerchandisingServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }

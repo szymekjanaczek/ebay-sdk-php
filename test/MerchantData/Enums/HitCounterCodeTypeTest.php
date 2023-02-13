@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\HitCounterCodeType;
 
 class HitCounterCodeTypeTest extends TestCase
 {
-    private $obj;
+    private HitCounterCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new HitCounterCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\HitCounterCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestResponse;
 
 class ConfirmInquiryRefundRestResponseTest extends TestCase
 {
-    private $obj;
+    private ConfirmInquiryRefundRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConfirmInquiryRefundRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ConfirmInquiryRefundRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

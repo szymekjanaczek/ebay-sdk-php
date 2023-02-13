@@ -22,7 +22,7 @@ class GetItemFeedRestRequest extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'category_id' => [
             'type' => 'string',
             'repeatable' => false,

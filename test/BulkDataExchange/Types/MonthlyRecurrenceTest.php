@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence;
 
 class MonthlyRecurrenceTest extends TestCase
 {
-    private $obj;
+    private MonthlyRecurrence $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MonthlyRecurrence();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

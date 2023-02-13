@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest;
 
 class FindItemsForFavoriteSearchRequestTest extends TestCase
 {
-    private $obj;
+    private FindItemsForFavoriteSearchRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindItemsForFavoriteSearchRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseServiceRequest', $this->obj);
     }

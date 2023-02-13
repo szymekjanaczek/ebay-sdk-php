@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\CheckoutSessionResponse;
 
 class CheckoutSessionResponseTest extends TestCase
 {
-    private $obj;
+    private CheckoutSessionResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CheckoutSessionResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\CheckoutSessionResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

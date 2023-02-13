@@ -6,24 +6,24 @@ use DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest;
 
 class GetAppTokenRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetAppTokenRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAppTokenRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 
-    public function testProperties()
+    public function testProperties(): void
     {
         $this->obj->grant_type = 'foo';
         $this->obj->redirect_uri = 'bar';

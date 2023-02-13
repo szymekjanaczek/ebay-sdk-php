@@ -38,8 +38,7 @@ class PostOrderBaseService extends BaseRestService
      *
      * @return array An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions()
-    {
+    public static function getConfigDefinitions(): array    {
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [

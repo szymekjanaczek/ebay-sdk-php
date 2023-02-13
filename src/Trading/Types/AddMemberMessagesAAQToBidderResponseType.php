@@ -19,7 +19,7 @@ class AddMemberMessagesAAQToBidderResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'AddMemberMessagesAAQToBidderResponseContainer' => [
             'type' => 'DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderResponseContainerType',
             'repeatable' => true,

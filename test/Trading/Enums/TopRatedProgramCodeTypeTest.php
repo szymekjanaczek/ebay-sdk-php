@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\TopRatedProgramCodeType;
 
 class TopRatedProgramCodeTypeTest extends TestCase
 {
-    private $obj;
+    private TopRatedProgramCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TopRatedProgramCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\TopRatedProgramCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ItemsCanceledEventType;
 
 class ItemsCanceledEventTypeTest extends TestCase
 {
-    private $obj;
+    private ItemsCanceledEventType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemsCanceledEventType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ItemsCanceledEventType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

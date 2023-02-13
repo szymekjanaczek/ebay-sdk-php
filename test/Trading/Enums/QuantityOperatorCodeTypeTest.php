@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType;
 
 class QuantityOperatorCodeTypeTest extends TestCase
 {
-    private $obj;
+    private QuantityOperatorCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new QuantityOperatorCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType', $this->obj);
     }

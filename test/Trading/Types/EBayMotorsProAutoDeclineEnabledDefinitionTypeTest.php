@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EBayMotorsProAutoDeclineEnabledDefinitionType;
 
 class EBayMotorsProAutoDeclineEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private EBayMotorsProAutoDeclineEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBayMotorsProAutoDeclineEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EBayMotorsProAutoDeclineEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

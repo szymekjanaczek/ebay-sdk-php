@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType;
 
 class CaseUserRoleTypeTest extends TestCase
 {
-    private $obj;
+    private CaseUserRoleType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseUserRoleType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType', $this->obj);
     }

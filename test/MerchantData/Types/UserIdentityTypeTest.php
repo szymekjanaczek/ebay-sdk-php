@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\UserIdentityType;
 
 class UserIdentityTypeTest extends TestCase
 {
-    private $obj;
+    private UserIdentityType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UserIdentityType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\UserIdentityType', $this->obj);
     }
 
-    public function testExtendsStringType()
+    public function testExtendsStringType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }

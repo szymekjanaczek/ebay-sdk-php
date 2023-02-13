@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\UPCIdentifierEnabledDefinitionType;
 
 class UPCIdentifierEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private UPCIdentifierEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UPCIdentifierEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\UPCIdentifierEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

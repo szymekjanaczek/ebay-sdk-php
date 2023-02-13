@@ -19,7 +19,7 @@ class GetItemsAwaitingFeedbackResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ItemsAwaitingFeedback' => [
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedTransactionArrayType',
             'repeatable' => false,

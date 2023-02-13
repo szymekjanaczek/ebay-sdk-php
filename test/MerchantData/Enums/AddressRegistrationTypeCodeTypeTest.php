@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\AddressRegistrationTypeCodeType;
 
 class AddressRegistrationTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AddressRegistrationTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddressRegistrationTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\AddressRegistrationTypeCodeType', $this->obj);
     }

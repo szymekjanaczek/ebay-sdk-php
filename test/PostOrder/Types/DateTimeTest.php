@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\DateTime;
 
 class DateTimeTest extends TestCase
 {
-    private $obj;
+    private DateTime $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DateTime();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\DateTime', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

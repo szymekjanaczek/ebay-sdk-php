@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\HandlingNameCodeType;
 
 class HandlingNameCodeTypeTest extends TestCase
 {
-    private $obj;
+    private HandlingNameCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new HandlingNameCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\HandlingNameCodeType', $this->obj);
     }

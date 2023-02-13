@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest;
 
 class GetJobStatusRequestTest extends TestCase
 {
-    private $obj;
+    private GetJobStatusRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetJobStatusRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
     }

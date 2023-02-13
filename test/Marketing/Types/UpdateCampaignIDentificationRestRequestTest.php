@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest;
 
 class UpdateCampaignIDentificationRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateCampaignIDentificationRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateCampaignIDentificationRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\UpdateCampaignIDentificationRestRequest', $this->obj);
     }
 
-    public function testExtendsUpdateCampaignIdentificationRequest()
+    public function testExtendsUpdateCampaignIdentificationRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\UpdateCampaignIdentificationRequest', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType;
 
 class GetUserProfileRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetUserProfileRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetUserProfileRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }

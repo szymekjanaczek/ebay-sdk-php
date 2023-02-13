@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType;
 
 class SellingManagerEmailLogTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerEmailLogType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerEmailLogType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

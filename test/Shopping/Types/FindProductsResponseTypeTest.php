@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\FindProductsResponseType;
 
 class FindProductsResponseTypeTest extends TestCase
 {
-    private $obj;
+    private FindProductsResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindProductsResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\FindProductsResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
     }

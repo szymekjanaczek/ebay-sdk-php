@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType;
 
 class RecoupmentPolicyConsentTypeTest extends TestCase
 {
-    private $obj;
+    private RecoupmentPolicyConsentType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RecoupmentPolicyConsentType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

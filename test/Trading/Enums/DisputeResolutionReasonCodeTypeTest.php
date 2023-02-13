@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType;
 
 class DisputeResolutionReasonCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DisputeResolutionReasonCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisputeResolutionReasonCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType', $this->obj);
     }

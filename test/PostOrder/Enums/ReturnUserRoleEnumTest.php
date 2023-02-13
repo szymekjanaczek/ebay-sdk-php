@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\ReturnUserRoleEnum;
 
 class ReturnUserRoleEnumTest extends TestCase
 {
-    private $obj;
+    private ReturnUserRoleEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnUserRoleEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\ReturnUserRoleEnum', $this->obj);
     }

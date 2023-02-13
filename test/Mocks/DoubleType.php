@@ -3,7 +3,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 
 class DoubleType extends \DTS\eBaySDK\Types\DoubleType
 {
-    private static $propertyTypes = [];
+    private static array $propertyTypes = [];
 
     public function __construct(array $values = [])
     {

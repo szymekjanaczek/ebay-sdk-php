@@ -15,19 +15,19 @@ use DTS\eBaySDK\Taxonomy\Types\AspectMetadata;
 
 class AspectMetadataTest extends TestCase
 {
-    private $obj;
+    private AspectMetadata $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AspectMetadata();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\AspectMetadata', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

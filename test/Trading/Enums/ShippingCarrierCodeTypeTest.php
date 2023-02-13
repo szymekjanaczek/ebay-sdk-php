@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType;
 
 class ShippingCarrierCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ShippingCarrierCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShippingCarrierCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType', $this->obj);
     }

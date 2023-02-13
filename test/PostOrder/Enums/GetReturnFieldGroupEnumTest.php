@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\GetReturnFieldGroupEnum;
 
 class GetReturnFieldGroupEnumTest extends TestCase
 {
-    private $obj;
+    private GetReturnFieldGroupEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnFieldGroupEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\GetReturnFieldGroupEnum', $this->obj);
     }

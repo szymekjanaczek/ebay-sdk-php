@@ -31,7 +31,7 @@ class Metric extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'level' => [
             'type' => 'string',
             'repeatable' => false,

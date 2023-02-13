@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType;
 
 class StoreFontFaceCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StoreFontFaceCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreFontFaceCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType', $this->obj);
     }

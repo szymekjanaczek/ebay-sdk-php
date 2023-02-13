@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DeliveryStatusEmailCodeType;
 
 class DeliveryStatusEmailCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DeliveryStatusEmailCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeliveryStatusEmailCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DeliveryStatusEmailCodeType', $this->obj);
     }

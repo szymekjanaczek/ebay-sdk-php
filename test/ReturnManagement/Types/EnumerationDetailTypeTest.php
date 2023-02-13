@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType;
 
 class EnumerationDetailTypeTest extends TestCase
 {
-    private $obj;
+    private EnumerationDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EnumerationDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

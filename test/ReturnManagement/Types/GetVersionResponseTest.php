@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\GetVersionResponse;
 
 class GetVersionResponseTest extends TestCase
 {
-    private $obj;
+    private GetVersionResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetVersionResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\GetVersionResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseResponse', $this->obj);
     }

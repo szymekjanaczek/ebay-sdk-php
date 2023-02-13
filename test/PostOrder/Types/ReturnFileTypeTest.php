@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ReturnFileType;
 
 class ReturnFileTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnFileType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnFileType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnFileType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

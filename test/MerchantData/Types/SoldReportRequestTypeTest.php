@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\SoldReportRequestType;
 
 class SoldReportRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SoldReportRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SoldReportRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\SoldReportRequestType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

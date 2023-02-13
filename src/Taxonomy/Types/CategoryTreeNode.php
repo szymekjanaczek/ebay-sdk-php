@@ -24,7 +24,7 @@ class CategoryTreeNode extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'category' => [
             'type' => 'DTS\eBaySDK\Taxonomy\Types\Category',
             'repeatable' => false,

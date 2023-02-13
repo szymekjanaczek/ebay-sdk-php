@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ListDataType;
 
 class ListDataTypeTest extends TestCase
 {
-    private $obj;
+    private ListDataType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListDataType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ListDataType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ExtendedContactDetailsType;
 
 class ExtendedContactDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private ExtendedContactDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExtendedContactDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ExtendedContactDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

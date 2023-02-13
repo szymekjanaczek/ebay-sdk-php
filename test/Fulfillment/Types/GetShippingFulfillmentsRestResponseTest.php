@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse;
 
 class GetShippingFulfillmentsRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetShippingFulfillmentsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetShippingFulfillmentsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse', $this->obj);
     }
 
-    public function testExtendsShippingFulfillmentPagedCollection()
+    public function testExtendsShippingFulfillmentPagedCollection(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection', $this->obj);
     }

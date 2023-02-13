@@ -15,14 +15,14 @@ use DTS\eBaySDK\Merchandising\Enums\ItemFilterType;
 
 class ItemFilterTypeTest extends TestCase
 {
-    private $obj;
+    private ItemFilterType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemFilterType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Enums\ItemFilterType', $this->obj);
     }

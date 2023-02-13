@@ -37,7 +37,7 @@ class SetReturnPolicyResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'categoryTypes' => [
             'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,

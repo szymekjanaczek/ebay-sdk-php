@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\GetCompatibilitySearchDataVersionRequest;
 
 class GetCompatibilitySearchDataVersionRequestTest extends TestCase
 {
-    private $obj;
+    private GetCompatibilitySearchDataVersionRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCompatibilitySearchDataVersionRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GetCompatibilitySearchDataVersionRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest', $this->obj);
     }

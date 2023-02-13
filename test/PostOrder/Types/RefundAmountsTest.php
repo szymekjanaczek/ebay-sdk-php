@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\RefundAmounts;
 
 class RefundAmountsTest extends TestCase
 {
-    private $obj;
+    private RefundAmounts $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RefundAmounts();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\RefundAmounts', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\DetailLevelCodeType;
 
 class DetailLevelCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DetailLevelCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DetailLevelCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\DetailLevelCodeType', $this->obj);
     }

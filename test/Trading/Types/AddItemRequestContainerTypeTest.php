@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddItemRequestContainerType;
 
 class AddItemRequestContainerTypeTest extends TestCase
 {
-    private $obj;
+    private AddItemRequestContainerType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddItemRequestContainerType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddItemRequestContainerType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

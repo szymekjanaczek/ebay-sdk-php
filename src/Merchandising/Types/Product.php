@@ -27,7 +27,7 @@ class Product extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'productId' => [
             'type' => 'DTS\eBaySDK\Merchandising\Types\ProductId',
             'repeatable' => false,

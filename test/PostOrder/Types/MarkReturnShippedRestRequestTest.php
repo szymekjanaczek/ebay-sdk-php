@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest;
 
 class MarkReturnShippedRestRequestTest extends TestCase
 {
-    private $obj;
+    private MarkReturnShippedRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MarkReturnShippedRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\MarkReturnShippedRestRequest', $this->obj);
     }
 
-    public function testExtendsMarkAsShippedRequest()
+    public function testExtendsMarkAsShippedRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\MarkAsShippedRequest', $this->obj);
     }

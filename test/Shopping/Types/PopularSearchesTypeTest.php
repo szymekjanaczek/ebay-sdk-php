@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\PopularSearchesType;
 
 class PopularSearchesTypeTest extends TestCase
 {
-    private $obj;
+    private PopularSearchesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PopularSearchesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\PopularSearchesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

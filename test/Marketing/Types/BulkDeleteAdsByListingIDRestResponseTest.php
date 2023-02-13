@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestResponse;
 
 class BulkDeleteAdsByListingIDRestResponseTest extends TestCase
 {
-    private $obj;
+    private BulkDeleteAdsByListingIDRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkDeleteAdsByListingIDRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByListingIDRestResponse', $this->obj);
     }
 
-    public function testExtendsBulkDeleteAdResponse()
+    public function testExtendsBulkDeleteAdResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkDeleteAdResponse', $this->obj);
     }

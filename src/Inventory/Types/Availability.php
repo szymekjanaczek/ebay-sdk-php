@@ -21,7 +21,7 @@ class Availability extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'pickupAtLocationAvailability' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability',
             'repeatable' => true,

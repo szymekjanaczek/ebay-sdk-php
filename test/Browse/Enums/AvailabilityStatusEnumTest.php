@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\AvailabilityStatusEnum;
 
 class AvailabilityStatusEnumTest extends TestCase
 {
-    private $obj;
+    private AvailabilityStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AvailabilityStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\AvailabilityStatusEnum', $this->obj);
     }

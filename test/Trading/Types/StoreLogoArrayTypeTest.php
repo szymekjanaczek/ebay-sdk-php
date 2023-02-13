@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreLogoArrayType;
 
 class StoreLogoArrayTypeTest extends TestCase
 {
-    private $obj;
+    private StoreLogoArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreLogoArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreLogoArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

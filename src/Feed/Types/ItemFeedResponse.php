@@ -20,7 +20,7 @@ class ItemFeedResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'itemFeeds' => [
             'type' => 'DTS\eBaySDK\Feed\Types\ItemFeed',
             'repeatable' => true,

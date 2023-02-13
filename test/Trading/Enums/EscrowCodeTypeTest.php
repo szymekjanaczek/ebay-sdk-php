@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\EscrowCodeType;
 
 class EscrowCodeTypeTest extends TestCase
 {
-    private $obj;
+    private EscrowCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EscrowCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\EscrowCodeType', $this->obj);
     }

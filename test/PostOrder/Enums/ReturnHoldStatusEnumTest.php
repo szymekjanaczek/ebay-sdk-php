@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\ReturnHoldStatusEnum;
 
 class ReturnHoldStatusEnumTest extends TestCase
 {
-    private $obj;
+    private ReturnHoldStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnHoldStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\ReturnHoldStatusEnum', $this->obj);
     }

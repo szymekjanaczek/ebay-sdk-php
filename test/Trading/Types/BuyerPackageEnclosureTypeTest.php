@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BuyerPackageEnclosureType;
 
 class BuyerPackageEnclosureTypeTest extends TestCase
 {
-    private $obj;
+    private BuyerPackageEnclosureType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerPackageEnclosureType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BuyerPackageEnclosureType', $this->obj);
     }
 
-    public function testExtendsStringType()
+    public function testExtendsStringType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }

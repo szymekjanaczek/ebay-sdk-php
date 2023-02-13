@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\Offers;
 
 class OffersTest extends TestCase
 {
-    private $obj;
+    private Offers $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Offers();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\Offers', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

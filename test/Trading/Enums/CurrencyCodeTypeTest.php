@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CurrencyCodeType;
 
 class CurrencyCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CurrencyCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CurrencyCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CurrencyCodeType', $this->obj);
     }

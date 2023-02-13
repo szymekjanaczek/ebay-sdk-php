@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType;
 
 class ReturnStatusFilterTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnStatusFilterType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnStatusFilterType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

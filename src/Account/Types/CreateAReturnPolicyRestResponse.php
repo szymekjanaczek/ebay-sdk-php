@@ -26,7 +26,7 @@ class CreateAReturnPolicyRestResponse extends SetReturnPolicyResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'errors' => [
             'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable' => true,

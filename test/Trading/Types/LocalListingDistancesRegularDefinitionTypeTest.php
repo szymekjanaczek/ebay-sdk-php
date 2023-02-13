@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LocalListingDistancesRegularDefinitionType;
 
 class LocalListingDistancesRegularDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private LocalListingDistancesRegularDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LocalListingDistancesRegularDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalListingDistancesRegularDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

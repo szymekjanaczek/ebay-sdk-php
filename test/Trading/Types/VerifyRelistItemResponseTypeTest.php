@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VerifyRelistItemResponseType;
 
 class VerifyRelistItemResponseTypeTest extends TestCase
 {
-    private $obj;
+    private VerifyRelistItemResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VerifyRelistItemResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VerifyRelistItemResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

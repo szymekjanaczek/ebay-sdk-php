@@ -23,7 +23,7 @@ class CustomListDetailType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'listData' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDataType',
             'repeatable' => true,

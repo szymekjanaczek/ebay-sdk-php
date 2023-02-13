@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreCustomPageArrayType;
 
 class StoreCustomPageArrayTypeTest extends TestCase
 {
-    private $obj;
+    private StoreCustomPageArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreCustomPageArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreCustomPageArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\CreateAdRequest;
 
 class CreateAdRequestTest extends TestCase
 {
-    private $obj;
+    private CreateAdRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateAdRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateAdRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

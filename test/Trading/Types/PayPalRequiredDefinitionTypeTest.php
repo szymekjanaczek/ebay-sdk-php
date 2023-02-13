@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PayPalRequiredDefinitionType;
 
 class PayPalRequiredDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private PayPalRequiredDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PayPalRequiredDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PayPalRequiredDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

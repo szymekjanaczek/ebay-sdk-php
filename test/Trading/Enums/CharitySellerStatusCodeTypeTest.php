@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CharitySellerStatusCodeType;
 
 class CharitySellerStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CharitySellerStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CharitySellerStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CharitySellerStatusCodeType', $this->obj);
     }

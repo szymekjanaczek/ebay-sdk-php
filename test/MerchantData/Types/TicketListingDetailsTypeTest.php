@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\TicketListingDetailsType;
 
 class TicketListingDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private TicketListingDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TicketListingDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\TicketListingDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

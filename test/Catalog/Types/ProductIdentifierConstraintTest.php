@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint;
 
 class ProductIdentifierConstraintTest extends TestCase
 {
-    private $obj;
+    private ProductIdentifierConstraint $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductIdentifierConstraint();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType;
 
 class AppealReasonTypeTest extends TestCase
 {
-    private $obj;
+    private AppealReasonType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AppealReasonType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType', $this->obj);
     }

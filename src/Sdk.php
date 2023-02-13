@@ -66,7 +66,7 @@ class Sdk
     /**
      * @var array Configuration options for all services.
      */
-    private $config;
+    private array $config;
 
     /**
      * @param array $config Configuration option values for all services.

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType;
 
 class CalculatedHandlingDiscountTypeTest extends TestCase
 {
-    private $obj;
+    private CalculatedHandlingDiscountType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CalculatedHandlingDiscountType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

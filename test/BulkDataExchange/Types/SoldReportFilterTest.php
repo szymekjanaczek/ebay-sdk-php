@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter;
 
 class SoldReportFilterTest extends TestCase
 {
-    private $obj;
+    private SoldReportFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SoldReportFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\SoldReportFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

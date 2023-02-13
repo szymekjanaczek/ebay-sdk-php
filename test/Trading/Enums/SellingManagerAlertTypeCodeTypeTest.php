@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellingManagerAlertTypeCodeType;
 
 class SellingManagerAlertTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerAlertTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerAlertTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerAlertTypeCodeType', $this->obj);
     }

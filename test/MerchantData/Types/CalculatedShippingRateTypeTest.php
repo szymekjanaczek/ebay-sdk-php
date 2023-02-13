@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\CalculatedShippingRateType;
 
 class CalculatedShippingRateTypeTest extends TestCase
 {
-    private $obj;
+    private CalculatedShippingRateType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CalculatedShippingRateType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\CalculatedShippingRateType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

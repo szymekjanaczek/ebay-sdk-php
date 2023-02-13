@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellingManagerPaisaPayPropertyTypeCodeType;
 
 class SellingManagerPaisaPayPropertyTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerPaisaPayPropertyTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerPaisaPayPropertyTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerPaisaPayPropertyTypeCodeType', $this->obj);
     }

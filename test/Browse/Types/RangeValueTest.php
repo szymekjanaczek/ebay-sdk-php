@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\RangeValue;
 
 class RangeValueTest extends TestCase
 {
-    private $obj;
+    private RangeValue $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RangeValue();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\RangeValue', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

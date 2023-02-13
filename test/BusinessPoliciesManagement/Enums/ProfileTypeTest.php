@@ -15,14 +15,14 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType;
 
 class ProfileTypeTest extends TestCase
 {
-    private $obj;
+    private ProfileType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProfileType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType', $this->obj);
     }

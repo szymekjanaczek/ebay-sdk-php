@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailResponse;
 
 class GetEBPCaseDetailResponseTest extends TestCase
 {
-    private $obj;
+    private GetEBPCaseDetailResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetEBPCaseDetailResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\GetEBPCaseDetailResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\GetItemInfoReportFilter;
 
 class GetItemInfoReportFilterTest extends TestCase
 {
-    private $obj;
+    private GetItemInfoReportFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemInfoReportFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\GetItemInfoReportFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

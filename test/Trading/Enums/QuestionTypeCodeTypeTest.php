@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType;
 
 class QuestionTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private QuestionTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new QuestionTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\BalanceCodeType;
 
 class BalanceCodeTypeTest extends TestCase
 {
-    private $obj;
+    private BalanceCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BalanceCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\BalanceCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PickupMethodCodeType;
 
 class PickupMethodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PickupMethodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PickupMethodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PickupMethodCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Merchandising\Enums\PriceTreatmentEnum;
 
 class PriceTreatmentEnumTest extends TestCase
 {
-    private $obj;
+    private PriceTreatmentEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PriceTreatmentEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Enums\PriceTreatmentEnum', $this->obj);
     }

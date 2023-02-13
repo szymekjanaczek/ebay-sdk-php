@@ -27,7 +27,7 @@ class ShippingOption extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'baseDeliveryCost' => [
             'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,

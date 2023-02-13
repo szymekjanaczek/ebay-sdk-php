@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType;
 
 class GallerySortFilterCodeTypeTest extends TestCase
 {
-    private $obj;
+    private GallerySortFilterCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GallerySortFilterCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType', $this->obj);
     }

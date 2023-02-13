@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusResponse;
 
 class UpdateBundleStatusResponseTest extends TestCase
 {
-    private $obj;
+    private UpdateBundleStatusResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateBundleStatusResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseResponse', $this->obj);
     }

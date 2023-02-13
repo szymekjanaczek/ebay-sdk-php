@@ -15,19 +15,19 @@ use DTS\eBaySDK\Merchandising\Types\GetDealsRequest;
 
 class GetDealsRequestTest extends TestCase
 {
-    private $obj;
+    private GetDealsRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetDealsRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\GetDealsRequest', $this->obj);
     }
 
-    public function testExtendsBaseMerchandisingServiceRequest()
+    public function testExtendsBaseMerchandisingServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }

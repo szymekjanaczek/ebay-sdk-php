@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\VariationsType;
 
 class VariationsTypeTest extends TestCase
 {
-    private $obj;
+    private VariationsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VariationsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\VariationsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

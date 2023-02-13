@@ -28,7 +28,7 @@ class GetUserReturnsRequest extends BaseRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'itemFilter' => [
             'type' => 'DTS\eBaySDK\ReturnManagement\Types\ItemFilterType',
             'repeatable' => false,

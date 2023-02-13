@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\EligibilityErrorType;
 
 class EligibilityErrorTypeTest extends TestCase
 {
-    private $obj;
+    private EligibilityErrorType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EligibilityErrorType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EligibilityErrorType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

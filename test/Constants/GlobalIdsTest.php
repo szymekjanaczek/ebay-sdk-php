@@ -6,7 +6,7 @@ use DTS\eBaySDK\Constants\GlobalIds as GlobalIds;
 
 class GlobalIdsTest extends TestCase
 {
-    public function testConstantsAreCorrectType()
+    public function testConstantsAreCorrectType(): void
     {
         $this->assertisString(GlobalIds::US);
         $this->assertisString(GlobalIds::ENCA);
@@ -32,7 +32,7 @@ class GlobalIdsTest extends TestCase
         $this->assertisString(GlobalIds::SG);
     }
 
-    public function testConstantsHaveCorrectValue()
+    public function testConstantsHaveCorrectValue(): void
     {
         $this->assertEquals('EBAY-US', GlobalIds::US);
         $this->assertEquals('EBAY-ENCA', GlobalIds::ENCA);

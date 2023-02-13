@@ -21,7 +21,7 @@ class MonthlyRecurrence extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'dayOfMonth' => [
             'type' => 'string',
             'repeatable' => false,

@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType;
 
 class PaypalINRCaseStatusTypeTest extends TestCase
 {
-    private $obj;
+    private PaypalINRCaseStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaypalINRCaseStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType', $this->obj);
     }

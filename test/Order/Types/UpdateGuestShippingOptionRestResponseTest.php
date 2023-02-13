@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestResponse;
 
 class UpdateGuestShippingOptionRestResponseTest extends TestCase
 {
-    private $obj;
+    private UpdateGuestShippingOptionRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateGuestShippingOptionRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestResponse', $this->obj);
     }
 
-    public function testExtendsCheckoutSessionResponse()
+    public function testExtendsCheckoutSessionResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\CheckoutSessionResponse', $this->obj);
     }

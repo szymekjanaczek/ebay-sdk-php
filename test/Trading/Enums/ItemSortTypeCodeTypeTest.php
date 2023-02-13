@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType;
 
 class ItemSortTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ItemSortTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemSortTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType;
 
 class FeedbackPeriodArrayTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackPeriodArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackPeriodArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

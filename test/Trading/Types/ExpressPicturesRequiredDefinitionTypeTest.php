@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ExpressPicturesRequiredDefinitionType;
 
 class ExpressPicturesRequiredDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ExpressPicturesRequiredDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExpressPicturesRequiredDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ExpressPicturesRequiredDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

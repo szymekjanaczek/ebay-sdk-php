@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\PromotionsReportPagedCollection;
 
 class PromotionsReportPagedCollectionTest extends TestCase
 {
-    private $obj;
+    private PromotionsReportPagedCollection $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PromotionsReportPagedCollection();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\PromotionsReportPagedCollection', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

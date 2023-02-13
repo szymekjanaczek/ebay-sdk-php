@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType;
 
 class DisputeCreditEligibilityCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DisputeCreditEligibilityCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisputeCreditEligibilityCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType', $this->obj);
     }

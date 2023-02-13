@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestResponse;
 
 class ProvideReturnShipmentInfoRestResponseTest extends TestCase
 {
-    private $obj;
+    private ProvideReturnShipmentInfoRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideReturnShipmentInfoRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

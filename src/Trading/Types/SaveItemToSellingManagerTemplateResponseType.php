@@ -19,7 +19,7 @@ class SaveItemToSellingManagerTemplateResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'TemplateID' => [
             'type' => 'integer',
             'repeatable' => false,

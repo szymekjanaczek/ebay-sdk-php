@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ContactHoursDetailsType;
 
 class ContactHoursDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private ContactHoursDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ContactHoursDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ContactHoursDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

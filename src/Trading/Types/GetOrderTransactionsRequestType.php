@@ -23,7 +23,7 @@ class GetOrderTransactionsRequestType extends AbstractRequestType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ItemTransactionIDArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType',
             'repeatable' => false,

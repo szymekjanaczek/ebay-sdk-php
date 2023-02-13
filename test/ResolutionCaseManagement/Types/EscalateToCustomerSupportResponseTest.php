@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportResponse
 
 class EscalateToCustomerSupportResponseTest extends TestCase
 {
-    private $obj;
+    private EscalateToCustomerSupportResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EscalateToCustomerSupportResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EscalateToCustomerSupportResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse', $this->obj);
     }

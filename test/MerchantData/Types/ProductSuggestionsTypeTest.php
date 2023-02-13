@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ProductSuggestionsType;
 
 class ProductSuggestionsTypeTest extends TestCase
 {
-    private $obj;
+    private ProductSuggestionsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductSuggestionsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ProductSuggestionsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

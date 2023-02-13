@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\Cycle;
 
 class CycleTest extends TestCase
 {
-    private $obj;
+    private Cycle $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Cycle();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Cycle', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType;
 
 class UnpaidItemCaseOpenTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private UnpaidItemCaseOpenTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UnpaidItemCaseOpenTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType', $this->obj);
     }

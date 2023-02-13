@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ContextSearchAssetType;
 
 class ContextSearchAssetTypeTest extends TestCase
 {
-    private $obj;
+    private ContextSearchAssetType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ContextSearchAssetType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ContextSearchAssetType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

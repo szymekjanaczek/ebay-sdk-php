@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter;
 
 class DownloadJobRecurringFilterTest extends TestCase
 {
-    private $obj;
+    private DownloadJobRecurringFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DownloadJobRecurringFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\DownloadJobRecurringFilter', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
     }

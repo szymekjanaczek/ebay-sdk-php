@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SuggestedBidValueType;
 
 class SuggestedBidValueTypeTest extends TestCase
 {
-    private $obj;
+    private SuggestedBidValueType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SuggestedBidValueType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SuggestedBidValueType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

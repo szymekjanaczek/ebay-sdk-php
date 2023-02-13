@@ -15,14 +15,14 @@ use DTS\eBaySDK\Catalog\Enums\ChangeRequestStatus;
 
 class ChangeRequestStatusTest extends TestCase
 {
-    private $obj;
+    private ChangeRequestStatus $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ChangeRequestStatus();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Enums\ChangeRequestStatus', $this->obj);
     }

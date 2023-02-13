@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo;
 
 class EscalationEligibilityInfoTest extends TestCase
 {
-    private $obj;
+    private EscalationEligibilityInfo $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EscalationEligibilityInfo();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalationEligibilityInfo', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Merchandising\Types\MerchandisingServiceProductResponse;
 
 class MerchandisingServiceProductResponseTest extends TestCase
 {
-    private $obj;
+    private MerchandisingServiceProductResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MerchandisingServiceProductResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\MerchandisingServiceProductResponse', $this->obj);
     }
 
-    public function testExtendsBaseMerchandisingServiceResponse()
+    public function testExtendsBaseMerchandisingServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceResponse', $this->obj);
     }

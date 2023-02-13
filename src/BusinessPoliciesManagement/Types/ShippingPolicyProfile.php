@@ -19,7 +19,7 @@ class ShippingPolicyProfile extends SellerProfile
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'shippingPolicyInfo' => [
             'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfo',
             'repeatable' => false,

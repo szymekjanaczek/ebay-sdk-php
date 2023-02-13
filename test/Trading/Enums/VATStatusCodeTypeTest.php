@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\VATStatusCodeType;
 
 class VATStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private VATStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VATStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\VATStatusCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\DiscountReasonCodeType;
 
 class DiscountReasonCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DiscountReasonCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DiscountReasonCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\DiscountReasonCodeType', $this->obj);
     }

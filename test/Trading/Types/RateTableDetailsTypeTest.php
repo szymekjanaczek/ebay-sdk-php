@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RateTableDetailsType;
 
 class RateTableDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private RateTableDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RateTableDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RateTableDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetCancelFieldGroup;
 
 class GetCancelFieldGroupTest extends TestCase
 {
-    private $obj;
+    private GetCancelFieldGroup $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCancelFieldGroup();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetCancelFieldGroup', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

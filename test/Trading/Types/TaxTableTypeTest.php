@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\TaxTableType;
 
 class TaxTableTypeTest extends TestCase
 {
-    private $obj;
+    private TaxTableType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TaxTableType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\TaxTableType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

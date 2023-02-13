@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType;
 
 class WarrantyTypeDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private WarrantyTypeDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new WarrantyTypeDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

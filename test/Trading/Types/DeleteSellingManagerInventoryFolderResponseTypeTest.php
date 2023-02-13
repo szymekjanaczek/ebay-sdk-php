@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DeleteSellingManagerInventoryFolderResponseType;
 
 class DeleteSellingManagerInventoryFolderResponseTypeTest extends TestCase
 {
-    private $obj;
+    private DeleteSellingManagerInventoryFolderResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteSellingManagerInventoryFolderResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DeleteSellingManagerInventoryFolderResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

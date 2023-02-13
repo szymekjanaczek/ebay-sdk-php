@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType;
 
 class PaymentMethodSearchCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PaymentMethodSearchCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentMethodSearchCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType', $this->obj);
     }

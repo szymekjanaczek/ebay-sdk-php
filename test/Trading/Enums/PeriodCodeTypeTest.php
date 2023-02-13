@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PeriodCodeType;
 
 class PeriodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PeriodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PeriodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PeriodCodeType', $this->obj);
     }

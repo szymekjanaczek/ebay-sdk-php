@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SiteDetailsType;
 
 class SiteDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private SiteDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SiteDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SiteDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

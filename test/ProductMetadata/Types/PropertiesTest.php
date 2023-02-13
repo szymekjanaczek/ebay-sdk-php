@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\Properties;
 
 class PropertiesTest extends TestCase
 {
-    private $obj;
+    private Properties $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Properties();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\Properties', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\UserAgreementInfoType;
 
 class UserAgreementInfoTypeTest extends TestCase
 {
-    private $obj;
+    private UserAgreementInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UserAgreementInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\UserAgreementInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

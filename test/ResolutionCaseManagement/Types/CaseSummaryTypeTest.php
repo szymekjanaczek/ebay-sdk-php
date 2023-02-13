@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType;
 
 class CaseSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private CaseSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

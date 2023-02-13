@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsResponse;
 
 class GetActivityOptionsResponseTest extends TestCase
 {
-    private $obj;
+    private GetActivityOptionsResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetActivityOptionsResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\GetActivityOptionsResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse', $this->obj);
     }

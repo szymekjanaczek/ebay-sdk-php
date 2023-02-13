@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemRestRequest;
 
 class CreateOrReplaceInventoryItemRestRequestTest extends TestCase
 {
-    private $obj;
+    private CreateOrReplaceInventoryItemRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateOrReplaceInventoryItemRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemRestRequest', $this->obj);
     }
 
-    public function testExtendsInventoryItem()
+    public function testExtendsInventoryItem(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\InventoryItem', $this->obj);
     }

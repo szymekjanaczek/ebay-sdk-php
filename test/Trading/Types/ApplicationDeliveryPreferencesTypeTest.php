@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType;
 
 class ApplicationDeliveryPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private ApplicationDeliveryPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ApplicationDeliveryPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

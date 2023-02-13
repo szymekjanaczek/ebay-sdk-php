@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VRMSupportedDefinitionType;
 
 class VRMSupportedDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private VRMSupportedDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VRMSupportedDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VRMSupportedDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

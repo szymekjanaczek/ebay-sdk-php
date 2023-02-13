@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest;
 
 class GetListingsInSpecificPromotionRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetListingsInSpecificPromotionRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetListingsInSpecificPromotionRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

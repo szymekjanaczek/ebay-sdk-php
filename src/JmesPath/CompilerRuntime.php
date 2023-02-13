@@ -35,14 +35,14 @@ use RuntimeException;
  */
 class CompilerRuntime
 {
-    private $parser;
-    private $compiler;
+    private Parser $parser;
+    private TreeCompiler $compiler;
     private $cacheDir;
-    private $interpreter;
+    private TreeInterpreter $interpreter;
 
     /**
      * @param string $dir Directory used to store compiled PHP files.
-     * @param Parser $parser JMESPath parser to utilize
+     * @param Parser|null $parser JMESPath parser to utilize
      * @throws RuntimeException if the cache directory cannot be created
      */
     public function __construct($dir = null, Parser $parser = null)
@@ -86,7 +86,7 @@ class CompilerRuntime
         return $functionName($this->interpreter, $data);
     }
 
-    private function compile($filename, $expression, $functionName)
+    private function compile(string $filename, $expression, string $functionName)
     {
         $code = $this->compiler->visit(
             $this->parser->parse($expression),

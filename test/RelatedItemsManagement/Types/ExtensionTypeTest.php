@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType;
 
 class ExtensionTypeTest extends TestCase
 {
-    private $obj;
+    private ExtensionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExtensionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ErrorType;
 
 class ErrorTypeTest extends TestCase
 {
-    private $obj;
+    private ErrorType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ErrorType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ErrorType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

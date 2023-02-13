@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StoreCustomPageStatusCodeType;
 
 class StoreCustomPageStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StoreCustomPageStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreCustomPageStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreCustomPageStatusCodeType', $this->obj);
     }

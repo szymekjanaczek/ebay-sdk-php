@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\CreditCard;
 
 class CreditCardTest extends TestCase
 {
-    private $obj;
+    private CreditCard $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreditCard();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\CreditCard', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest;
 
 class EscalateReturnRestRequestTest extends TestCase
 {
-    private $obj;
+    private EscalateReturnRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EscalateReturnRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalateReturnRestRequest', $this->obj);
     }
 
-    public function testExtendsEscalateRequest()
+    public function testExtendsEscalateRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalateRequest', $this->obj);
     }

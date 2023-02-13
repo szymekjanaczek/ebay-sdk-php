@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\WithdrawOfferRestResponse;
 
 class WithdrawOfferRestResponseTest extends TestCase
 {
-    private $obj;
+    private WithdrawOfferRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new WithdrawOfferRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\WithdrawOfferRestResponse', $this->obj);
     }
 
-    public function testExtendsWithdrawResponse()
+    public function testExtendsWithdrawResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\WithdrawResponse', $this->obj);
     }

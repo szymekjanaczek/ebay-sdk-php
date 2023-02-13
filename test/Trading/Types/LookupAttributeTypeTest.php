@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LookupAttributeType;
 
 class LookupAttributeTypeTest extends TestCase
 {
-    private $obj;
+    private LookupAttributeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LookupAttributeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LookupAttributeType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

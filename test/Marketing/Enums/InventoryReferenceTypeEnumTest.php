@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum;
 
 class InventoryReferenceTypeEnumTest extends TestCase
 {
-    private $obj;
+    private InventoryReferenceTypeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventoryReferenceTypeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SendInvoiceResponseType;
 
 class SendInvoiceResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SendInvoiceResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SendInvoiceResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SendInvoiceResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ValueFormatCodeType;
 
 class ValueFormatCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ValueFormatCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ValueFormatCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ValueFormatCodeType', $this->obj);
     }

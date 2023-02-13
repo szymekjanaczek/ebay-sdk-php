@@ -6,24 +6,24 @@ use DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse;
 
 class RefreshUserTokenRestResponseTest extends TestCase
 {
-    private $obj;
+    private RefreshUserTokenRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RefreshUserTokenRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 
-    public function testProperties()
+    public function testProperties(): void
     {
         $this->obj->access_token = 'foo';
         $this->obj->token_type = 'bar';

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\RuleActionInputType;
 
 class RuleActionInputTypeTest extends TestCase
 {
-    private $obj;
+    private RuleActionInputType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RuleActionInputType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\RuleActionInputType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

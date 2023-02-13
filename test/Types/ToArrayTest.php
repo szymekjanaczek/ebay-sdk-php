@@ -18,19 +18,19 @@ use DTS\eBaySDK\Test\Mocks\URIType;
 
 class ToArrayTest extends TestCase
 {
-    private $obj;
+    private ComplexClass $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ComplexClass();
     }
 
-    public function testToArrayExists()
+    public function testToArrayExists(): void
     {
         $this->assertEquals(true, is_array($this->obj->toArray()));
     }
 
-    public function testToArray()
+    public function testToArray(): void
     {
         $array = [
             'integer' => 123,

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\TimeRangeType;
 
 class TimeRangeTypeTest extends TestCase
 {
-    private $obj;
+    private TimeRangeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TimeRangeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\TimeRangeType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

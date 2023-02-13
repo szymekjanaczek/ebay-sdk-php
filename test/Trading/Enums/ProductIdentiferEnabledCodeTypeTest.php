@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType;
 
 class ProductIdentiferEnabledCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ProductIdentiferEnabledCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductIdentiferEnabledCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType', $this->obj);
     }

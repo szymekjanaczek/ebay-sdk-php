@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\FeedbackSummaryPeriodCodeType;
 
 class FeedbackSummaryPeriodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackSummaryPeriodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackSummaryPeriodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\FeedbackSummaryPeriodCodeType', $this->obj);
     }

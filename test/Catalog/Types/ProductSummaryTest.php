@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ProductSummary;
 
 class ProductSummaryTest extends TestCase
 {
-    private $obj;
+    private ProductSummary $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductSummary();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ProductSummary', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

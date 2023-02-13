@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EANEnabledDefinitionType;
 
 class EANEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private EANEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EANEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EANEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

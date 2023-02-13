@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PayPalAccountLevelCodeType;
 
 class PayPalAccountLevelCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PayPalAccountLevelCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PayPalAccountLevelCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PayPalAccountLevelCodeType', $this->obj);
     }

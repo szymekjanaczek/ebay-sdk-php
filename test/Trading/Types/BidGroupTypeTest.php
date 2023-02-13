@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BidGroupType;
 
 class BidGroupTypeTest extends TestCase
 {
-    private $obj;
+    private BidGroupType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BidGroupType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BidGroupType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CrossBorderTradeNorthAmericaEnabledDefinitionType;
 
 class CrossBorderTradeNorthAmericaEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private CrossBorderTradeNorthAmericaEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CrossBorderTradeNorthAmericaEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CrossBorderTradeNorthAmericaEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

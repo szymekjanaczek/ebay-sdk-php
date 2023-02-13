@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType;
 
 class ReviseInventoryStatusResponseTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseInventoryStatusResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseInventoryStatusResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractResponseType', $this->obj);
     }

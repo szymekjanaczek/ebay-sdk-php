@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemGroupRestRequest;
 
 class CreateOrReplaceInventoryItemGroupRestRequestTest extends TestCase
 {
-    private $obj;
+    private CreateOrReplaceInventoryItemGroupRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateOrReplaceInventoryItemGroupRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\CreateOrReplaceInventoryItemGroupRestRequest', $this->obj);
     }
 
-    public function testExtendsInventoryItemGroup()
+    public function testExtendsInventoryItemGroup(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\InventoryItemGroup', $this->obj);
     }

@@ -21,7 +21,7 @@ class Storefront extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'storeName' => [
             'type' => 'string',
             'repeatable' => false,

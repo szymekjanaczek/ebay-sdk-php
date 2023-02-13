@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType;
 
 class FreePicturePackEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private FreePicturePackEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FreePicturePackEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

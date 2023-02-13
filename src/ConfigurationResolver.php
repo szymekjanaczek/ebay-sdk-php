@@ -10,12 +10,12 @@ class ConfigurationResolver
     /**
      * @var array $definitions Definitions for each configuration option.
      */
-    private $definitions;
+    private array $definitions;
 
     /**
      * @var array Map of type to function that confirms type.
      */
-    private static $typeMap = [
+    private static array $typeMap = [
         'array' => 'is_array',
         'bool' => 'is_bool',
         'callable' => 'is_callable',
@@ -99,7 +99,7 @@ class ConfigurationResolver
      *
      * @throws InvalidArgumentException .
      */
-    private function checkType(array $valid, $name, $provided)
+    private function checkType(array $valid, int|string $name, $provided)
     {
         foreach ($valid as $check) {
             if (isset(self::$typeMap[$check])) {

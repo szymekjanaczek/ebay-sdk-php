@@ -28,18 +28,18 @@ use RuntimeException;
  */
 class TreeCompiler
 {
-    private $indentation;
-    private $source;
-    private $vars;
+    private ?string $indentation = null;
+    private ?string $source = null;
+    private ?array $vars = null;
 
     /**
      * @param array  $ast    AST to compile.
      * @param string $fnName The name of the function to generate.
      * @param string $expr   Expression being compiled.
      *
-     * @return string
+     * @return string|null
      */
-    public function visit(array $ast, $fnName, $expr)
+    public function visit(array $ast, $fnName, $expr): ?string
     {
         $this->vars = [];
         $this->source = $this->indentation = '';
@@ -75,7 +75,7 @@ class TreeCompiler
      *
      * @return string
      */
-    private function makeVar($prefix)
+    private function makeVar(string $prefix)
     {
         if (!isset($this->vars[$prefix])) {
             $this->vars[$prefix] = 0;
@@ -92,7 +92,7 @@ class TreeCompiler
      * @param string $str String to write
      * @return $this
      */
-    private function write($str)
+    private function write(string $str)
     {
         $this->source .= $this->indentation;
         if (func_num_args() == 1) {

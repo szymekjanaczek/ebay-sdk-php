@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RelistFixedPriceItemResponseType;
 
 class RelistFixedPriceItemResponseTypeTest extends TestCase
 {
-    private $obj;
+    private RelistFixedPriceItemResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RelistFixedPriceItemResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RelistFixedPriceItemResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

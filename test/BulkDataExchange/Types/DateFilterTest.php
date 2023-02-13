@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\DateFilter;
 
 class DateFilterTest extends TestCase
 {
-    private $obj;
+    private DateFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DateFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\DateFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

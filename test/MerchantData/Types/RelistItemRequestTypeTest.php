@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\RelistItemRequestType;
 
 class RelistItemRequestTypeTest extends TestCase
 {
-    private $obj;
+    private RelistItemRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RelistItemRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\RelistItemRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractRequestType', $this->obj);
     }

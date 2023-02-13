@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestResponse;
 
 class GetReturnRuleHistoryRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetReturnRuleHistoryRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnRuleHistoryRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnRuleHistoryRestResponse', $this->obj);
     }
 
-    public function testExtendsGetDispositionRuleTriggerHistResponse()
+    public function testExtendsGetDispositionRuleTriggerHistResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetDispositionRuleTriggerHistResponse', $this->obj);
     }

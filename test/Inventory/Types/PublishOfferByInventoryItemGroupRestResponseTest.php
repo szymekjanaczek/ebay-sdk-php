@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestResponse;
 
 class PublishOfferByInventoryItemGroupRestResponseTest extends TestCase
 {
-    private $obj;
+    private PublishOfferByInventoryItemGroupRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PublishOfferByInventoryItemGroupRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestResponse', $this->obj);
     }
 
-    public function testExtendsPublishResponse()
+    public function testExtendsPublishResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PublishResponse', $this->obj);
     }

@@ -23,7 +23,7 @@ class ShippingFulfillmentDetails extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'lineItems' => [
             'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemReference',
             'repeatable' => true,

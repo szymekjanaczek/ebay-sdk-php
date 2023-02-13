@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\Image;
 
 class ImageTest extends TestCase
 {
-    private $obj;
+    private Image $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Image();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\Image', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

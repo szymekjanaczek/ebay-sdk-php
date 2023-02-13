@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\GalleryTypeCodeType;
 
 class GalleryTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private GalleryTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GalleryTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\GalleryTypeCodeType', $this->obj);
     }

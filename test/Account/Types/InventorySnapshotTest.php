@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\InventorySnapshot;
 
 class InventorySnapshotTest extends TestCase
 {
-    private $obj;
+    private InventorySnapshot $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventorySnapshot();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\InventorySnapshot', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

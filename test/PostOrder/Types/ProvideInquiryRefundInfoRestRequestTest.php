@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest;
 
 class ProvideInquiryRefundInfoRestRequestTest extends TestCase
 {
-    private $obj;
+    private ProvideInquiryRefundInfoRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideInquiryRefundInfoRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvideInquiryRefundInfoRestRequest', $this->obj);
     }
 
-    public function testExtendsSellerProvideRefundInfoRequest()
+    public function testExtendsSellerProvideRefundInfoRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SellerProvideRefundInfoRequest', $this->obj);
     }

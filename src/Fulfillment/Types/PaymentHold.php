@@ -25,7 +25,7 @@ class PaymentHold extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'expectedReleaseDate' => [
             'type' => 'string',
             'repeatable' => false,

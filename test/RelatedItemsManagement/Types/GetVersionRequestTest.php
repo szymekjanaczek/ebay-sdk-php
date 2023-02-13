@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest;
 
 class GetVersionRequestTest extends TestCase
 {
-    private $obj;
+    private GetVersionRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetVersionRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest', $this->obj);
     }
 
-    public function testExtendsBaseRequest()
+    public function testExtendsBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
     }

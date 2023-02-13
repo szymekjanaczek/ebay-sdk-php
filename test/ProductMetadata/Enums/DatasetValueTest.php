@@ -15,14 +15,14 @@ use DTS\eBaySDK\ProductMetadata\Enums\DatasetValue;
 
 class DatasetValueTest extends TestCase
 {
-    private $obj;
+    private DatasetValue $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DatasetValue();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Enums\DatasetValue', $this->obj);
     }

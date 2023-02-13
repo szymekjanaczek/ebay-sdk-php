@@ -25,7 +25,7 @@ class CreateAdsByInventoryReferenceResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ads' => [
             'type' => 'DTS\eBaySDK\Marketing\Types\AdReference',
             'repeatable' => true,

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\LineItemRefund;
 
 class LineItemRefundTest extends TestCase
 {
-    private $obj;
+    private LineItemRefund $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LineItemRefund();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\LineItemRefund', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

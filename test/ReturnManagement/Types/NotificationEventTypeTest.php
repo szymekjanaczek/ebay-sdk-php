@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\NotificationEventType;
 
 class NotificationEventTypeTest extends TestCase
 {
-    private $obj;
+    private NotificationEventType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NotificationEventType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\NotificationEventType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

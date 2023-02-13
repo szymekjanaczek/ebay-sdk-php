@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetRecommendationsRequestContainerType;
 
 class GetRecommendationsRequestContainerTypeTest extends TestCase
 {
-    private $obj;
+    private GetRecommendationsRequestContainerType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetRecommendationsRequestContainerType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetRecommendationsRequestContainerType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

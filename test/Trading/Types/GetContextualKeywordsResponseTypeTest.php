@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetContextualKeywordsResponseType;
 
 class GetContextualKeywordsResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetContextualKeywordsResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetContextualKeywordsResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetContextualKeywordsResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

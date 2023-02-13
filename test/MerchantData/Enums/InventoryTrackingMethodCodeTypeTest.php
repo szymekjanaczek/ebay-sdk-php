@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\InventoryTrackingMethodCodeType;
 
 class InventoryTrackingMethodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private InventoryTrackingMethodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventoryTrackingMethodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\InventoryTrackingMethodCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType;
 
 class SellingManagerSoldOrderTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerSoldOrderType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerSoldOrderType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

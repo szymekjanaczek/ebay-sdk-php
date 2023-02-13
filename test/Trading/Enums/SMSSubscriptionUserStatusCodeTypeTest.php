@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SMSSubscriptionUserStatusCodeType;
 
 class SMSSubscriptionUserStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SMSSubscriptionUserStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SMSSubscriptionUserStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SMSSubscriptionUserStatusCodeType', $this->obj);
     }

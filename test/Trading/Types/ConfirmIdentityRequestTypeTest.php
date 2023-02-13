@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ConfirmIdentityRequestType;
 
 class ConfirmIdentityRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ConfirmIdentityRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConfirmIdentityRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ConfirmIdentityRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

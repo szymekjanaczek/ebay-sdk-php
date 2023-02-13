@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType;
 
 class ReturnsWithinDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnsWithinDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnsWithinDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

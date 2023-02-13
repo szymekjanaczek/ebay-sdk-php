@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MyMessagesMessageType;
 
 class MyMessagesMessageTypeTest extends TestCase
 {
-    private $obj;
+    private MyMessagesMessageType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyMessagesMessageType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MyMessagesMessageType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

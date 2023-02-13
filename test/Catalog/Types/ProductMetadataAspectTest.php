@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ProductMetadataAspect;
 
 class ProductMetadataAspectTest extends TestCase
 {
-    private $obj;
+    private ProductMetadataAspect $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductMetadataAspect();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ProductMetadataAspect', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\FundingModelEnum;
 
 class FundingModelEnumTest extends TestCase
 {
-    private $obj;
+    private FundingModelEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FundingModelEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\FundingModelEnum', $this->obj);
     }

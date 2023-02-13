@@ -15,19 +15,19 @@ use DTS\eBaySDK\Analytics\Types\Value;
 
 class ValueTest extends TestCase
 {
-    private $obj;
+    private Value $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Value();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Value', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

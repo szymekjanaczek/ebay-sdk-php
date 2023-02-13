@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\RuleTemplateDetailType;
 
 class RuleTemplateDetailTypeTest extends TestCase
 {
-    private $obj;
+    private RuleTemplateDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RuleTemplateDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\RuleTemplateDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

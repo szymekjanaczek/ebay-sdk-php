@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest;
 
 class GetReturnDraftFilesRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetReturnDraftFilesRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetReturnDraftFilesRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnDraftFilesRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

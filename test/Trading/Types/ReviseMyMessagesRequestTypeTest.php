@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReviseMyMessagesRequestType;
 
 class ReviseMyMessagesRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseMyMessagesRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseMyMessagesRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseMyMessagesRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

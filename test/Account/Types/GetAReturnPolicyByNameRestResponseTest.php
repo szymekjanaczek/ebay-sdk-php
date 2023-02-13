@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse;
 
 class GetAReturnPolicyByNameRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetAReturnPolicyByNameRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAReturnPolicyByNameRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse', $this->obj);
     }
 
-    public function testExtendsReturnPolicy()
+    public function testExtendsReturnPolicy(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\ReturnPolicy', $this->obj);
     }

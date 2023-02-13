@@ -19,7 +19,7 @@ class GetMultipleItemsResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Item' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\SimpleItemType',
             'repeatable' => true,

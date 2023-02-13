@@ -19,7 +19,7 @@ class DownloadFileResponse extends BaseServiceResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'fileAttachment' => [
             'type' => 'DTS\eBaySDK\FileTransfer\Types\FileAttachment',
             'repeatable' => false,

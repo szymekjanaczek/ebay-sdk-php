@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\BotBlockRequestType;
 
 class BotBlockRequestTypeTest extends TestCase
 {
-    private $obj;
+    private BotBlockRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BotBlockRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\BotBlockRequestType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

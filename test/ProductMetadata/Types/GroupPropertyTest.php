@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\GroupProperty;
 
 class GroupPropertyTest extends TestCase
 {
-    private $obj;
+    private GroupProperty $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GroupProperty();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GroupProperty', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

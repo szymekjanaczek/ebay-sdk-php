@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\ProductId;
 
 class ProductIdTest extends TestCase
 {
-    private $obj;
+    private ProductId $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductId();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\ProductId', $this->obj);
     }
 
-    public function testExtendsStringType()
+    public function testExtendsStringType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }

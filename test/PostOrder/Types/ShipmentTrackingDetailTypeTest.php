@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ShipmentTrackingDetailType;
 
 class ShipmentTrackingDetailTypeTest extends TestCase
 {
-    private $obj;
+    private ShipmentTrackingDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShipmentTrackingDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ShipmentTrackingDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

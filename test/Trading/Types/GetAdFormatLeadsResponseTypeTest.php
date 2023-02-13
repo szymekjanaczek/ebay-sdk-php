@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetAdFormatLeadsResponseType;
 
 class GetAdFormatLeadsResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetAdFormatLeadsResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAdFormatLeadsResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetAdFormatLeadsResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

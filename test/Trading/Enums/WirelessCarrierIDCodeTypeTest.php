@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\WirelessCarrierIDCodeType;
 
 class WirelessCarrierIDCodeTypeTest extends TestCase
 {
-    private $obj;
+    private WirelessCarrierIDCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new WirelessCarrierIDCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\WirelessCarrierIDCodeType', $this->obj);
     }

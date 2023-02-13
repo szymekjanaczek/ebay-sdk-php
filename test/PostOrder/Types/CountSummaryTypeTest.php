@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CountSummaryType;
 
 class CountSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private CountSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CountSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CountSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

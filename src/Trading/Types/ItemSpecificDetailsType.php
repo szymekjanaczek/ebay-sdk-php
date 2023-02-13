@@ -26,7 +26,7 @@ class ItemSpecificDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'MaxItemSpecificsPerItem' => [
             'type' => 'integer',
             'repeatable' => false,

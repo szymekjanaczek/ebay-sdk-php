@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MaxItemCompatibilityDefinitionType;
 
 class MaxItemCompatibilityDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private MaxItemCompatibilityDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MaxItemCompatibilityDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MaxItemCompatibilityDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

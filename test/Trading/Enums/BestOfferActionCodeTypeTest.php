@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\BestOfferActionCodeType;
 
 class BestOfferActionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private BestOfferActionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BestOfferActionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\BestOfferActionCodeType', $this->obj);
     }

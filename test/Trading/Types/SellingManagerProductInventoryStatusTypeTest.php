@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType;
 
 class SellingManagerProductInventoryStatusTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerProductInventoryStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerProductInventoryStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

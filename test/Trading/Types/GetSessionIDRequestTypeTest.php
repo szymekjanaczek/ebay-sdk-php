@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetSessionIDRequestType;
 
 class GetSessionIDRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetSessionIDRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSessionIDRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetSessionIDRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Product\Types\ProductDetailsRequestType;
 
 class ProductDetailsRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ProductDetailsRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProductDetailsRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\ProductDetailsRequestType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

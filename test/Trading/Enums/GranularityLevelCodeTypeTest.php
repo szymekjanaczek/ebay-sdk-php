@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType;
 
 class GranularityLevelCodeTypeTest extends TestCase
 {
-    private $obj;
+    private GranularityLevelCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GranularityLevelCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CategoryMappingType;
 
 class CategoryMappingTypeTest extends TestCase
 {
-    private $obj;
+    private CategoryMappingType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryMappingType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CategoryMappingType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

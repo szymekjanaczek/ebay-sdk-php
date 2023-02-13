@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoOptionType;
 
 class ProvideSellerInfoOptionTypeTest extends TestCase
 {
-    private $obj;
+    private ProvideSellerInfoOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvideSellerInfoOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseActivityOptionType', $this->obj);
     }

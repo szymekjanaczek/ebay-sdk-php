@@ -4,7 +4,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 use DTS\eBaySDK\Types\DoubleType;
 class AmountClass extends DoubleType
 {
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'AttributeOne' => [
             'type' => 'string',
             'repeatable' => false,

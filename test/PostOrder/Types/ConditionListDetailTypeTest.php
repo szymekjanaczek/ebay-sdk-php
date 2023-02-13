@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ConditionListDetailType;
 
 class ConditionListDetailTypeTest extends TestCase
 {
-    private $obj;
+    private ConditionListDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ConditionListDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ConditionListDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

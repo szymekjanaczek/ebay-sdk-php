@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\LeaveFeedbackRequestType;
 
 class LeaveFeedbackRequestTypeTest extends TestCase
 {
-    private $obj;
+    private LeaveFeedbackRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new LeaveFeedbackRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LeaveFeedbackRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

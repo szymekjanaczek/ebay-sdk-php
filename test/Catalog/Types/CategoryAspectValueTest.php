@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\CategoryAspectValue;
 
 class CategoryAspectValueTest extends TestCase
 {
-    private $obj;
+    private CategoryAspectValue $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryAspectValue();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\CategoryAspectValue', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

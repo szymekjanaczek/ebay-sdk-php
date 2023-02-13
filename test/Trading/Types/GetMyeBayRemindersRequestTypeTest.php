@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetMyeBayRemindersRequestType;
 
 class GetMyeBayRemindersRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetMyeBayRemindersRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetMyeBayRemindersRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetMyeBayRemindersRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

@@ -19,7 +19,7 @@ class ProvideInquiryRefundInfoRestRequest extends SellerProvideRefundInfoRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'inquiryId' => [
             'type' => 'string',
             'repeatable' => false,

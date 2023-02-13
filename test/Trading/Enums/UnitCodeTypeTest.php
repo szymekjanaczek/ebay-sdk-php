@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\UnitCodeType;
 
 class UnitCodeTypeTest extends TestCase
 {
-    private $obj;
+    private UnitCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UnitCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\UnitCodeType', $this->obj);
     }

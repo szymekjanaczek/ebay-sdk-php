@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsResponse;
 
 class GetRecurringJobsResponseTest extends TestCase
 {
-    private $obj;
+    private GetRecurringJobsResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetRecurringJobsResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsResponse', $this->obj);
     }
 
-    public function testExtendsBaseServiceResponse()
+    public function testExtendsBaseServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
     }

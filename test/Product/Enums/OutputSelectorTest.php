@@ -15,14 +15,14 @@ use DTS\eBaySDK\Product\Enums\OutputSelector;
 
 class OutputSelectorTest extends TestCase
 {
-    private $obj;
+    private OutputSelector $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OutputSelector();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\OutputSelector', $this->obj);
     }

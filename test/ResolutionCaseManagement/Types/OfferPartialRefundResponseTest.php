@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundResponse;
 
 class OfferPartialRefundResponseTest extends TestCase
 {
-    private $obj;
+    private OfferPartialRefundResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OfferPartialRefundResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\OfferPartialRefundResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse', $this->obj);
     }

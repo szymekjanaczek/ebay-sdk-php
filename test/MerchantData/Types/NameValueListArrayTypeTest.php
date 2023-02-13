@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\NameValueListArrayType;
 
 class NameValueListArrayTypeTest extends TestCase
 {
-    private $obj;
+    private NameValueListArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NameValueListArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\NameValueListArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

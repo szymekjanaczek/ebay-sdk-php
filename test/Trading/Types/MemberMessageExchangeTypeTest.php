@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MemberMessageExchangeType;
 
 class MemberMessageExchangeTypeTest extends TestCase
 {
-    private $obj;
+    private MemberMessageExchangeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MemberMessageExchangeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MemberMessageExchangeType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

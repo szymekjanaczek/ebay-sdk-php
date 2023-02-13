@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerRatingSummaryArrayType;
 
 class SellerRatingSummaryArrayTypeTest extends TestCase
 {
-    private $obj;
+    private SellerRatingSummaryArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerRatingSummaryArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerRatingSummaryArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

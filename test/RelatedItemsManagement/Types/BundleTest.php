@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\Bundle;
 
 class BundleTest extends TestCase
 {
-    private $obj;
+    private Bundle $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Bundle();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\Bundle', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

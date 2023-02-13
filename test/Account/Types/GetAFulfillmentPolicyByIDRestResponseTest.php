@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse;
 
 class GetAFulfillmentPolicyByIDRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetAFulfillmentPolicyByIDRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAFulfillmentPolicyByIDRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse', $this->obj);
     }
 
-    public function testExtendsFulfillmentPolicy()
+    public function testExtendsFulfillmentPolicy(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\FulfillmentPolicy', $this->obj);
     }

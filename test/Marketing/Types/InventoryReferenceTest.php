@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\InventoryReference;
 
 class InventoryReferenceTest extends TestCase
 {
-    private $obj;
+    private InventoryReference $obj;
 
     protected function setUp(): void
     {
         $this->obj = new InventoryReference();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\InventoryReference', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

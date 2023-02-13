@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ListingFlowCodeType;
 
 class ListingFlowCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ListingFlowCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingFlowCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ListingFlowCodeType', $this->obj);
     }

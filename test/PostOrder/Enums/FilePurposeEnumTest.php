@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\FilePurposeEnum;
 
 class FilePurposeEnumTest extends TestCase
 {
-    private $obj;
+    private FilePurposeEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FilePurposeEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\FilePurposeEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DeliveryURLDetailType;
 
 class DeliveryURLDetailTypeTest extends TestCase
 {
-    private $obj;
+    private DeliveryURLDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeliveryURLDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DeliveryURLDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

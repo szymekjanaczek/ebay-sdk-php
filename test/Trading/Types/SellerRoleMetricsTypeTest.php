@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerRoleMetricsType;
 
 class SellerRoleMetricsTypeTest extends TestCase
 {
-    private $obj;
+    private SellerRoleMetricsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerRoleMetricsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerRoleMetricsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

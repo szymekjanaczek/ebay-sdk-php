@@ -15,14 +15,14 @@ use DTS\eBaySDK\Product\Enums\MediaType;
 
 class MediaTypeTest extends TestCase
 {
-    private $obj;
+    private MediaType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MediaType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\MediaType', $this->obj);
     }

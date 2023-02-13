@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType;
 
 class PromotionMethodCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PromotionMethodCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PromotionMethodCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType', $this->obj);
     }

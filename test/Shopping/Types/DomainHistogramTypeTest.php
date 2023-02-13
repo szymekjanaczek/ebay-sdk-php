@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\DomainHistogramType;
 
 class DomainHistogramTypeTest extends TestCase
 {
-    private $obj;
+    private DomainHistogramType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DomainHistogramType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\DomainHistogramType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

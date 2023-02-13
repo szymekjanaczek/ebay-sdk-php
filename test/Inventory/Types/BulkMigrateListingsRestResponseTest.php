@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestResponse;
 
 class BulkMigrateListingsRestResponseTest extends TestCase
 {
-    private $obj;
+    private BulkMigrateListingsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkMigrateListingsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestResponse', $this->obj);
     }
 
-    public function testExtendsBulkMigrateListingResponse()
+    public function testExtendsBulkMigrateListingResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkMigrateListingResponse', $this->obj);
     }

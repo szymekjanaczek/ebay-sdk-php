@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetAdByIDRestResponse;
 
 class GetAdByIDRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetAdByIDRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAdByIDRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetAdByIDRestResponse', $this->obj);
     }
 
-    public function testExtendsAd()
+    public function testExtendsAd(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\Ad', $this->obj);
     }

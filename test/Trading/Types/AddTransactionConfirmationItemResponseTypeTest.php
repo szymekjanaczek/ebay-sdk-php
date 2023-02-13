@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddTransactionConfirmationItemResponseType;
 
 class AddTransactionConfirmationItemResponseTypeTest extends TestCase
 {
-    private $obj;
+    private AddTransactionConfirmationItemResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddTransactionConfirmationItemResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddTransactionConfirmationItemResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\FeedbackHistoryType;
 
 class FeedbackHistoryTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackHistoryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackHistoryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\FeedbackHistoryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

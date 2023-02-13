@@ -15,19 +15,19 @@ use DTS\eBaySDK\ReturnManagement\Types\ReturnArrayType;
 
 class ReturnArrayTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ReturnArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

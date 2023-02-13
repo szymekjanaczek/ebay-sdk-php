@@ -15,19 +15,19 @@ use DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest;
 
 class GetTopSellingProductsRequestTest extends TestCase
 {
-    private $obj;
+    private GetTopSellingProductsRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetTopSellingProductsRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest', $this->obj);
     }
 
-    public function testExtendsBaseMerchandisingServiceRequest()
+    public function testExtendsBaseMerchandisingServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }

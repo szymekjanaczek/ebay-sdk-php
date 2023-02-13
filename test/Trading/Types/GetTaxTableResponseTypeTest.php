@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetTaxTableResponseType;
 
 class GetTaxTableResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetTaxTableResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetTaxTableResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetTaxTableResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

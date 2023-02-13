@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\FixedPriceItemDetails;
 
 class FixedPriceItemDetailsTest extends TestCase
 {
-    private $obj;
+    private FixedPriceItemDetails $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FixedPriceItemDetails();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\FixedPriceItemDetails', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

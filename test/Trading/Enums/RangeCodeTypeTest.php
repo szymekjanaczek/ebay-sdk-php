@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\RangeCodeType;
 
 class RangeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private RangeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RangeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\RangeCodeType', $this->obj);
     }

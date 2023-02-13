@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\CancelCloseReasonEnum;
 
 class CancelCloseReasonEnumTest extends TestCase
 {
-    private $obj;
+    private CancelCloseReasonEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CancelCloseReasonEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\CancelCloseReasonEnum', $this->obj);
     }

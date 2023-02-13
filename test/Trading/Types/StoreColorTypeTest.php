@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreColorType;
 
 class StoreColorTypeTest extends TestCase
 {
-    private $obj;
+    private StoreColorType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreColorType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreColorType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

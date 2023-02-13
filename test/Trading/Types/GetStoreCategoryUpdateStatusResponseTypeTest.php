@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetStoreCategoryUpdateStatusResponseType;
 
 class GetStoreCategoryUpdateStatusResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetStoreCategoryUpdateStatusResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetStoreCategoryUpdateStatusResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetStoreCategoryUpdateStatusResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

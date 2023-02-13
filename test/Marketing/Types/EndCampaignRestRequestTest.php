@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest;
 
 class EndCampaignRestRequestTest extends TestCase
 {
-    private $obj;
+    private EndCampaignRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EndCampaignRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\EndCampaignRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

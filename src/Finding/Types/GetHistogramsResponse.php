@@ -21,7 +21,7 @@ class GetHistogramsResponse extends BaseServiceResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'categoryHistogramContainer' => [
             'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogramContainer',
             'repeatable' => false,

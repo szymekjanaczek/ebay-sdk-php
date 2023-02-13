@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetCategoriesRequestType;
 
 class GetCategoriesRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetCategoriesRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetCategoriesRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetCategoriesRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

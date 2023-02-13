@@ -15,19 +15,19 @@ use DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest;
 
 class CreateDSRSummaryByShippingDetailRequestTest extends TestCase
 {
-    private $obj;
+    private CreateDSRSummaryByShippingDetailRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateDSRSummaryByShippingDetailRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\BaseServiceRequest', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\DiscountRule;
 
 class DiscountRuleTest extends TestCase
 {
-    private $obj;
+    private DiscountRule $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DiscountRule();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\DiscountRule', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

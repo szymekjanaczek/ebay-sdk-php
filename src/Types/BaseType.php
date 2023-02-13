@@ -49,12 +49,12 @@ class BaseType implements JmesPathableObjectInterface
     /**
      * @var array When a property is set the value will be stored in this array.
      */
-    private $values = [];
+    private array $values = [];
 
     /**
      * @var array Associative array storing an attachment.
      */
-    private $attachment;
+    private array $attachment;
 
     /**
      * @param array $values Can pass an associative array that will set the objects properties.
@@ -133,7 +133,7 @@ class BaseType implements JmesPathableObjectInterface
      *
      * @return string The XML.
      */
-    private function toXml($elementName, $rootElement = false)
+    private function toXml($elementName, bool $rootElement = false)
     {
         return sprintf(
             '%s<%s%s%s>%s</%s>',
@@ -259,7 +259,7 @@ class BaseType implements JmesPathableObjectInterface
     /**
      * @return string JSON string of the object's properties and values.
      */
-    public function __toString()
+    public function __toString(): string
     {
         return json_encode($this->toArray());
     }
@@ -293,7 +293,7 @@ class BaseType implements JmesPathableObjectInterface
      * @return mixed The property value.
      * @throws UnknownPropertyException If the property does not exist.
      */
-    private function get($class, $name)
+    private function get(string $class, $name)
     {
         self::ensurePropertyExists($class, $name);
 
@@ -310,7 +310,7 @@ class BaseType implements JmesPathableObjectInterface
      * @throws UnknownPropertyException If the property does not exist.
      * @throws InvalidPropertyTypeException If the value is the wrong type for the property.
      */
-    private function set($class, $name, $value)
+    private function set($class, $name, $value): void
     {
         self::ensurePropertyExists($class, $name);
         self::ensurePropertyType($class, $name, $value);
@@ -327,7 +327,7 @@ class BaseType implements JmesPathableObjectInterface
      * @return bool Returns if the property has been set.
      * @throws UnknownPropertyException If the property does not exist.
      */
-    private function isPropertySet($class, $name)
+    private function isPropertySet(string $class, $name)
     {
         self::ensurePropertyExists($class, $name);
 
@@ -342,7 +342,7 @@ class BaseType implements JmesPathableObjectInterface
      *
      * @throws UnknownPropertyException If the property does not exist.
      */
-    private function unSetProperty($class, $name)
+    private function unSetProperty(string $class, $name): void
     {
         self::ensurePropertyExists($class, $name);
 
@@ -357,7 +357,7 @@ class BaseType implements JmesPathableObjectInterface
      *
      * @return mixed The property value.
      */
-    private function getValue($class, $name)
+    private function getValue(string $class, $name)
     {
         $info = self::propertyInfo($class, $name);
 
@@ -693,7 +693,7 @@ class BaseType implements JmesPathableObjectInterface
             return $value;
         }
 
-        return array_filter($value, function ($val) {
+        return array_filter($value, function ($val): bool {
             return !is_null($val);
         });
     }

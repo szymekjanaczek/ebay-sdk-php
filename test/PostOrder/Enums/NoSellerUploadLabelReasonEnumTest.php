@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum;
 
 class NoSellerUploadLabelReasonEnumTest extends TestCase
 {
-    private $obj;
+    private NoSellerUploadLabelReasonEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NoSellerUploadLabelReasonEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum', $this->obj);
     }

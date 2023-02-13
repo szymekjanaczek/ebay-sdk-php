@@ -15,19 +15,19 @@ use DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount;
 
 class AmountTest extends TestCase
 {
-    private $obj;
+    private Amount $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Amount();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount', $this->obj);
     }
 
-    public function testExtendsDoubleType()
+    public function testExtendsDoubleType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\DoubleType', $this->obj);
     }

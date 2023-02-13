@@ -15,14 +15,14 @@ use DTS\eBaySDK\Fulfillment\Enums\SoldFormatEnum;
 
 class SoldFormatEnumTest extends TestCase
 {
-    private $obj;
+    private SoldFormatEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SoldFormatEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\SoldFormatEnum', $this->obj);
     }

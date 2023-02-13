@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType
 
 class AppealToCustomerSupportOptionTypeTest extends TestCase
 {
-    private $obj;
+    private AppealToCustomerSupportOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AppealToCustomerSupportOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }

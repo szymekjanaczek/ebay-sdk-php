@@ -21,7 +21,7 @@ class ProductSubmissionFilter extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'filterName' => [
             'type' => 'string',
             'repeatable' => false,

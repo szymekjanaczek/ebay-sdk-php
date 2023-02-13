@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\OrderStatusFilterCodeType;
 
 class OrderStatusFilterCodeTypeTest extends TestCase
 {
-    private $obj;
+    private OrderStatusFilterCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderStatusFilterCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\OrderStatusFilterCodeType', $this->obj);
     }

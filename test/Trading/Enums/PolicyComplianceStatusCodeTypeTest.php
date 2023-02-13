@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\PolicyComplianceStatusCodeType;
 
 class PolicyComplianceStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PolicyComplianceStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PolicyComplianceStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PolicyComplianceStatusCodeType', $this->obj);
     }

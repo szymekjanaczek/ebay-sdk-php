@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DisplayPayNowButtonCodeType;
 
 class DisplayPayNowButtonCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DisplayPayNowButtonCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DisplayPayNowButtonCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DisplayPayNowButtonCodeType', $this->obj);
     }

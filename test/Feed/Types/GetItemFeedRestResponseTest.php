@@ -15,19 +15,19 @@ use DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse;
 
 class GetItemFeedRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetItemFeedRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemFeedRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse', $this->obj);
     }
 
-    public function testExtendsItemFeedResponse()
+    public function testExtendsItemFeedResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feed\Types\ItemFeedResponse', $this->obj);
     }

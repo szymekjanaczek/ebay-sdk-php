@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MarkUpMarkDownEventType;
 
 class MarkUpMarkDownEventTypeTest extends TestCase
 {
-    private $obj;
+    private MarkUpMarkDownEventType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MarkUpMarkDownEventType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MarkUpMarkDownEventType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

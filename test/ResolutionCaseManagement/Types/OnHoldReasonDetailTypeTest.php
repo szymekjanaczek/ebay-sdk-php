@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType;
 
 class OnHoldReasonDetailTypeTest extends TestCase
 {
-    private $obj;
+    private OnHoldReasonDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OnHoldReasonDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType', $this->obj);
     }
 
-    public function testExtendsEnumerationDetailType()
+    public function testExtendsEnumerationDetailType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType', $this->obj);
     }

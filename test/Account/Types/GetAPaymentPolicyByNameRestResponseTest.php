@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse;
 
 class GetAPaymentPolicyByNameRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetAPaymentPolicyByNameRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetAPaymentPolicyByNameRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse', $this->obj);
     }
 
-    public function testExtendsPaymentPolicy()
+    public function testExtendsPaymentPolicy(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\PaymentPolicy', $this->obj);
     }

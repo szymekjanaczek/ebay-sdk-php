@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SearchStandingDashboardType;
 
 class SearchStandingDashboardTypeTest extends TestCase
 {
-    private $obj;
+    private SearchStandingDashboardType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SearchStandingDashboardType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SearchStandingDashboardType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation;
 
 class StringTypeSpecificInformationTest extends TestCase
 {
-    private $obj;
+    private StringTypeSpecificInformation $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StringTypeSpecificInformation();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\StringTypeSpecificInformation', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

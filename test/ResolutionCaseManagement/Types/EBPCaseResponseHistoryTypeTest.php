@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseResponseHistoryType;
 
 class EBPCaseResponseHistoryTypeTest extends TestCase
 {
-    private $obj;
+    private EBPCaseResponseHistoryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBPCaseResponseHistoryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseResponseHistoryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

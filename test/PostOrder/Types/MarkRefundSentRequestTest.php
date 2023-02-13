@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\MarkRefundSentRequest;
 
 class MarkRefundSentRequestTest extends TestCase
 {
-    private $obj;
+    private MarkRefundSentRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MarkRefundSentRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\MarkRefundSentRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

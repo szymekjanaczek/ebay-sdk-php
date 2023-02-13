@@ -15,14 +15,14 @@ use DTS\eBaySDK\Inventory\Enums\DayOfWeekEnum;
 
 class DayOfWeekEnumTest extends TestCase
 {
-    private $obj;
+    private DayOfWeekEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DayOfWeekEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\DayOfWeekEnum', $this->obj);
     }

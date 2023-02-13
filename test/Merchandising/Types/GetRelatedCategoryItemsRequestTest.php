@@ -15,19 +15,19 @@ use DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest;
 
 class GetRelatedCategoryItemsRequestTest extends TestCase
 {
-    private $obj;
+    private GetRelatedCategoryItemsRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetRelatedCategoryItemsRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest', $this->obj);
     }
 
-    public function testExtendsBaseMerchandisingServiceRequest()
+    public function testExtendsBaseMerchandisingServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\EndReasonCodeType;
 
 class EndReasonCodeTypeTest extends TestCase
 {
-    private $obj;
+    private EndReasonCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EndReasonCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\EndReasonCodeType', $this->obj);
     }

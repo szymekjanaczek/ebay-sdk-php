@@ -4,7 +4,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 use DTS\eBaySDK\Types\BaseType;
 class SimpleClass extends BaseType
 {
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'integer' => [
             'type' => 'integer',
             'repeatable' => false,

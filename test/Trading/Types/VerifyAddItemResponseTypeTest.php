@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\VerifyAddItemResponseType;
 
 class VerifyAddItemResponseTypeTest extends TestCase
 {
-    private $obj;
+    private VerifyAddItemResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VerifyAddItemResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VerifyAddItemResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BuyerGuaranteeEnabledDefinitionType;
 
 class BuyerGuaranteeEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private BuyerGuaranteeEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerGuaranteeEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BuyerGuaranteeEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

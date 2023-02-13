@@ -15,19 +15,19 @@ use DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest;
 
 class BaseMerchandisingServiceRequestTest extends TestCase
 {
-    private $obj;
+    private BaseMerchandisingServiceRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BaseMerchandisingServiceRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseServiceRequest', $this->obj);
     }

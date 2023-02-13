@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\BorderCodeType;
 
 class BorderCodeTypeTest extends TestCase
 {
-    private $obj;
+    private BorderCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BorderCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\BorderCodeType', $this->obj);
     }

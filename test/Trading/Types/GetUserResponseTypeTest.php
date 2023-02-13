@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetUserResponseType;
 
 class GetUserResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetUserResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetUserResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetUserResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

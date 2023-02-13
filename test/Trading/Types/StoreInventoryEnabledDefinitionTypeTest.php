@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreInventoryEnabledDefinitionType;
 
 class StoreInventoryEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private StoreInventoryEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreInventoryEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreInventoryEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

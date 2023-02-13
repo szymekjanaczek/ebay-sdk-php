@@ -21,7 +21,7 @@ class PaginatedOrderTransactionArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'OrderTransactionArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\OrderTransactionArrayType',
             'repeatable' => false,

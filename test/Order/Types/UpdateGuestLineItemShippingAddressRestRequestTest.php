@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest;
 
 class UpdateGuestLineItemShippingAddressRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateGuestLineItemShippingAddressRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateGuestLineItemShippingAddressRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest', $this->obj);
     }
 
-    public function testExtendsShippingAddressImpl()
+    public function testExtendsShippingAddressImpl(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\ShippingAddressImpl', $this->obj);
     }

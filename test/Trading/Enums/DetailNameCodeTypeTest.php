@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\DetailNameCodeType;
 
 class DetailNameCodeTypeTest extends TestCase
 {
-    private $obj;
+    private DetailNameCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DetailNameCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\DetailNameCodeType', $this->obj);
     }

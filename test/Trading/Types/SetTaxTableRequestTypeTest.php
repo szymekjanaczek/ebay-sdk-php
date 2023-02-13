@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetTaxTableRequestType;
 
 class SetTaxTableRequestTypeTest extends TestCase
 {
-    private $obj;
+    private SetTaxTableRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetTaxTableRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetTaxTableRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

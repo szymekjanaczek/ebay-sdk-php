@@ -21,7 +21,7 @@ class RequiredSellerActionArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'RequiredSellerAction' => [
             'type' => 'string',
             'repeatable' => true,

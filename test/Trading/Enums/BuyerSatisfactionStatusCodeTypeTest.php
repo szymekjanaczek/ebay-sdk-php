@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\BuyerSatisfactionStatusCodeType;
 
 class BuyerSatisfactionStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private BuyerSatisfactionStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BuyerSatisfactionStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\BuyerSatisfactionStatusCodeType', $this->obj);
     }

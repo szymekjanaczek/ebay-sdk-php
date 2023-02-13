@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\GetListingFeesRestResponse;
 
 class GetListingFeesRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetListingFeesRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetListingFeesRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\GetListingFeesRestResponse', $this->obj);
     }
 
-    public function testExtendsFeesSummaryResponse()
+    public function testExtendsFeesSummaryResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\FeesSummaryResponse', $this->obj);
     }

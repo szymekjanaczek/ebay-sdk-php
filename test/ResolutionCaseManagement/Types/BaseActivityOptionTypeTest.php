@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType;
 
 class BaseActivityOptionTypeTest extends TestCase
 {
-    private $obj;
+    private BaseActivityOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BaseActivityOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

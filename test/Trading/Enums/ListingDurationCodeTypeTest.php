@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ListingDurationCodeType;
 
 class ListingDurationCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ListingDurationCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingDurationCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ListingDurationCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType;
 
 class EBPSNADCaseStatusTypeTest extends TestCase
 {
-    private $obj;
+    private EBPSNADCaseStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBPSNADCaseStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType', $this->obj);
     }

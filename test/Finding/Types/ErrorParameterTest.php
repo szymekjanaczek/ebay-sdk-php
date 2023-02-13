@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\ErrorParameter;
 
 class ErrorParameterTest extends TestCase
 {
-    private $obj;
+    private ErrorParameter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ErrorParameter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\ErrorParameter', $this->obj);
     }
 
-    public function testExtendsStringType()
+    public function testExtendsStringType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }

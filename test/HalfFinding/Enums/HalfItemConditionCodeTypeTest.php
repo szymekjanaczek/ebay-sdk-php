@@ -15,14 +15,14 @@ use DTS\eBaySDK\HalfFinding\Enums\HalfItemConditionCodeType;
 
 class HalfItemConditionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private HalfItemConditionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new HalfItemConditionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\HalfItemConditionCodeType', $this->obj);
     }

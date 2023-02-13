@@ -15,14 +15,14 @@ use DTS\eBaySDK\Browse\Enums\DeliveryOptionsEnum;
 
 class DeliveryOptionsEnumTest extends TestCase
 {
-    private $obj;
+    private DeliveryOptionsEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeliveryOptionsEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\DeliveryOptionsEnum', $this->obj);
     }

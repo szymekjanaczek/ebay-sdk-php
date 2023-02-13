@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType;
 
 class StoreItemListLayoutCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StoreItemListLayoutCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreItemListLayoutCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType', $this->obj);
     }

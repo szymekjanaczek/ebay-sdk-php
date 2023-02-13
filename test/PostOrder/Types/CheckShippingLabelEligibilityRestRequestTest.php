@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest;
 
 class CheckShippingLabelEligibilityRestRequestTest extends TestCase
 {
-    private $obj;
+    private CheckShippingLabelEligibilityRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CheckShippingLabelEligibilityRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckShippingLabelEligibilityRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

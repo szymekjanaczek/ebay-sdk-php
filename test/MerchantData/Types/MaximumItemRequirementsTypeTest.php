@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\MaximumItemRequirementsType;
 
 class MaximumItemRequirementsTypeTest extends TestCase
 {
-    private $obj;
+    private MaximumItemRequirementsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MaximumItemRequirementsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\MaximumItemRequirementsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

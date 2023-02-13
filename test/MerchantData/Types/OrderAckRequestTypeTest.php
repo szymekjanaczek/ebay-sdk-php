@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\OrderAckRequestType;
 
 class OrderAckRequestTypeTest extends TestCase
 {
-    private $obj;
+    private OrderAckRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderAckRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\OrderAckRequestType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

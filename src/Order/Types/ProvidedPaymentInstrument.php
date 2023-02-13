@@ -23,7 +23,7 @@ class ProvidedPaymentInstrument extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'paymentInstrumentReference' => [
             'type' => 'DTS\eBaySDK\Order\Types\PaymentInstrumentReference',
             'repeatable' => false,

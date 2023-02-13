@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FeedbackCommentArrayType;
 
 class FeedbackCommentArrayTypeTest extends TestCase
 {
-    private $obj;
+    private FeedbackCommentArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FeedbackCommentArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FeedbackCommentArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

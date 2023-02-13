@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\CharityAffiliationDetailsType;
 
 class CharityAffiliationDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private CharityAffiliationDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CharityAffiliationDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\CharityAffiliationDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

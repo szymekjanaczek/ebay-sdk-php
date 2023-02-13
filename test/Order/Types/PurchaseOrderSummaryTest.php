@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\PurchaseOrderSummary;
 
 class PurchaseOrderSummaryTest extends TestCase
 {
-    private $obj;
+    private PurchaseOrderSummary $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PurchaseOrderSummary();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\PurchaseOrderSummary', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

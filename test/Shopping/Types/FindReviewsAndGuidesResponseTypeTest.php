@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\FindReviewsAndGuidesResponseType;
 
 class FindReviewsAndGuidesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private FindReviewsAndGuidesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindReviewsAndGuidesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\FindReviewsAndGuidesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
     }

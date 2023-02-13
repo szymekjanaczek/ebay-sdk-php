@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest;
 
 class BestMatchFindingServiceRequestTest extends TestCase
 {
-    private $obj;
+    private BestMatchFindingServiceRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BestMatchFindingServiceRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest', $this->obj);
     }
 
-    public function testExtendsBaseServiceRequest()
+    public function testExtendsBaseServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseServiceRequest', $this->obj);
     }

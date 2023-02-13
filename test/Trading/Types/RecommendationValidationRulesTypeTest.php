@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType;
 
 class RecommendationValidationRulesTypeTest extends TestCase
 {
-    private $obj;
+    private RecommendationValidationRulesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RecommendationValidationRulesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

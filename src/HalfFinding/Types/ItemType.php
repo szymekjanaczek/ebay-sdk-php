@@ -33,7 +33,7 @@ class ItemType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'itemID' => [
             'type' => 'string',
             'repeatable' => false,

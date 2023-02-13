@@ -25,7 +25,7 @@ class FindProductsResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ApproximatePages' => [
             'type' => 'integer',
             'repeatable' => false,

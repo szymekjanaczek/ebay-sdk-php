@@ -15,14 +15,14 @@ use DTS\eBaySDK\FileTransfer\Enums\ErrorCategory;
 
 class ErrorCategoryTest extends TestCase
 {
-    private $obj;
+    private ErrorCategory $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ErrorCategory();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Enums\ErrorCategory', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesResponse;
 
 class GetBundlesResponseTest extends TestCase
 {
-    private $obj;
+    private GetBundlesResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetBundlesResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseResponse', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\SkypeContactOptionCodeType;
 
 class SkypeContactOptionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SkypeContactOptionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SkypeContactOptionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\SkypeContactOptionCodeType', $this->obj);
     }

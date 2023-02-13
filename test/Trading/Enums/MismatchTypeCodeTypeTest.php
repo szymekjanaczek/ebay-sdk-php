@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\MismatchTypeCodeType;
 
 class MismatchTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private MismatchTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MismatchTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\MismatchTypeCodeType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType;
 
 class SellerFavoriteItemPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private SellerFavoriteItemPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerFavoriteItemPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

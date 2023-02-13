@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AverageRatingSummaryType;
 
 class AverageRatingSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private AverageRatingSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AverageRatingSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AverageRatingSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

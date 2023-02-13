@@ -20,7 +20,7 @@ class BulkMigrateListingResponse extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'responses' => [
             'type' => 'DTS\eBaySDK\Inventory\Types\MigrateListingResponse',
             'repeatable' => true,

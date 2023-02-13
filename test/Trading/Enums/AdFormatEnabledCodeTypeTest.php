@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\AdFormatEnabledCodeType;
 
 class AdFormatEnabledCodeTypeTest extends TestCase
 {
-    private $obj;
+    private AdFormatEnabledCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AdFormatEnabledCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AdFormatEnabledCodeType', $this->obj);
     }

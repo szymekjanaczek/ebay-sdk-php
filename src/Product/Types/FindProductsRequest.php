@@ -19,7 +19,7 @@ class FindProductsRequest extends BaseServiceRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'productSearch' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductRequest',
             'repeatable' => true,

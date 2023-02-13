@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\WarrantyOfferedCodeType;
 
 class WarrantyOfferedCodeTypeTest extends TestCase
 {
-    private $obj;
+    private WarrantyOfferedCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new WarrantyOfferedCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\WarrantyOfferedCodeType', $this->obj);
     }

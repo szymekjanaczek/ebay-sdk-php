@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\SummaryReportResponse;
 
 class SummaryReportResponseTest extends TestCase
 {
-    private $obj;
+    private SummaryReportResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SummaryReportResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\SummaryReportResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

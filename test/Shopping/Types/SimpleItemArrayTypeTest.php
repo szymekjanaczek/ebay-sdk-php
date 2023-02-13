@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\SimpleItemArrayType;
 
 class SimpleItemArrayTypeTest extends TestCase
 {
-    private $obj;
+    private SimpleItemArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SimpleItemArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\SimpleItemArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

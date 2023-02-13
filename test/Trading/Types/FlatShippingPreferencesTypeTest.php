@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FlatShippingPreferencesType;
 
 class FlatShippingPreferencesTypeTest extends TestCase
 {
-    private $obj;
+    private FlatShippingPreferencesType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FlatShippingPreferencesType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FlatShippingPreferencesType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

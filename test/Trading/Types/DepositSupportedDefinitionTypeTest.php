@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\DepositSupportedDefinitionType;
 
 class DepositSupportedDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private DepositSupportedDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DepositSupportedDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DepositSupportedDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

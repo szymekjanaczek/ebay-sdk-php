@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\GiftServicesCodeType;
 
 class GiftServicesCodeTypeTest extends TestCase
 {
-    private $obj;
+    private GiftServicesCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GiftServicesCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\GiftServicesCodeType', $this->obj);
     }

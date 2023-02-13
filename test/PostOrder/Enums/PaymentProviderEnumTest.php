@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\PaymentProviderEnum;
 
 class PaymentProviderEnumTest extends TestCase
 {
-    private $obj;
+    private PaymentProviderEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentProviderEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\PaymentProviderEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PlaceOfferRequestType;
 
 class PlaceOfferRequestTypeTest extends TestCase
 {
-    private $obj;
+    private PlaceOfferRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PlaceOfferRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PlaceOfferRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

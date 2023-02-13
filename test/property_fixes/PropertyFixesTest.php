@@ -16,7 +16,7 @@ class PropertyFixesTest extends TestCase
      * Example of correct property names returned in the API https://developer.ebay.com/Devzone/post-order/post-order_v2_cancellation_search__get.html#Output
      * Example of correct property names returned in the API https://github.com/davidtsadler/ebay-sdk-php/issues/108
      */
-    public function testCancelSummary()
+    public function testCancelSummary(): void
     {
         $obj = new Sdk\PostOrder\Types\CancelSummary();
 
@@ -29,7 +29,7 @@ class PropertyFixesTest extends TestCase
      * Incorrect documentation https://developer.ebay.com/Devzone/post-order/types/ItemEligibilityResult.html
      * Example of correct property names returned in the API https://developer.ebay.com/Devzone/post-order/post-order_v2_cancellation__post.html#Samples
      */
-    public function testItemEligibilityResult()
+    public function testItemEligibilityResult(): void
     {
         $obj = new Sdk\PostOrder\Types\ItemEligibilityResult();
 
@@ -44,7 +44,7 @@ class PropertyFixesTest extends TestCase
      * Incorrect documentation https://developer.ebay.com/Devzone/post-order/ErrorResponse.html#ErrorResponse
      * Example of correct property names returned in the API https://github.com/davidtsadler/ebay-sdk-php/issues/105
      */
-    public function testError()
+    public function testError(): void
     {
         $obj = new Sdk\PostOrder\Types\Error();
 
@@ -64,7 +64,7 @@ class PropertyFixesTest extends TestCase
         $this->assertisString($obj->errorGroups);
     }
 
-    public function testDeliveryCost()
+    public function testDeliveryCost(): void
     {
         $obj = new Sdk\Fulfillment\Types\DeliveryCost();
 
@@ -76,7 +76,7 @@ class PropertyFixesTest extends TestCase
      * Incorrect documentation https://developer.ebay.com/devzone/rest/api-ref/fulfillment/types/ShippingFulfillment.html
      * Example of correct property names returned in the API https://developer.ebay.com/devzone/rest/api-ref/fulfillment/order-orderid_shipping_fulfillment__get.html#Samples
      */
-    public function testShippingServiceCode()
+    public function testShippingServiceCode(): void
     {
         $obj = new Sdk\Fulfillment\Types\ShippingFulfillment();
 
@@ -89,7 +89,7 @@ class PropertyFixesTest extends TestCase
      * Issue discussed at https://groups.google.com/forum/?hl=en-GB#!topic/ebay-sdk-php/Pz1s0K5V9ZE
      * Replace priceDiscountSubtotal with priceDiscount.
      */
-    public function testPriceDiscount()
+    public function testPriceDiscount(): void
     {
         $obj = new Sdk\Fulfillment\Types\PricingSummary();
 
@@ -97,7 +97,7 @@ class PropertyFixesTest extends TestCase
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\Amount', $obj->priceDiscount);
     }
 
-    public function testPriceDiscountSubtotalDoesNotExist()
+    public function testPriceDiscountSubtotalDoesNotExist(): void
     {
         $this->expectException('\DTS\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property');
 
@@ -110,7 +110,7 @@ class PropertyFixesTest extends TestCase
      * Incorrect documentation https://developer.ebay.com/Devzone/post-order/types/CancelDetail.html
      * Example of correct property names returned in the API https://github.com/davidtsadler/ebay-sdk-php/issues/107
      */
-    public function testCancelDetail()
+    public function testCancelDetail(): void
     {
         $obj = new Sdk\PostOrder\Types\CancelDetail();
 
@@ -122,7 +122,7 @@ class PropertyFixesTest extends TestCase
      * Incorrect documentation https://developer.ebay.com/Devzone/post-order/types/CancelActivityHistory.html
      * Example of correct property names returned in the API https://github.com/davidtsadler/ebay-sdk-php/issues/107
      */
-    public function testCancelActivityHistory()
+    public function testCancelActivityHistory(): void
     {
         $obj = new Sdk\PostOrder\Types\CancelActivityHistory();
 
@@ -141,7 +141,7 @@ class PropertyFixesTest extends TestCase
      * Adding this property means that is needs a lineItem class. Since I didn't want to create a new one
      * I've re-used OrderCancelLineItem.
      */
-    public function testOrderCancelLineItem()
+    public function testOrderCancelLineItem(): void
     {
         $obj = new Sdk\PostOrder\Types\OrderCancelLineItem();
 
@@ -156,7 +156,7 @@ class PropertyFixesTest extends TestCase
      * Even though the documentation says that GalleryURL is not a member of PictureDetailsType
      * it is been returned in the API for various calls. E.g GetItem and GetMyeBaySelling.
      */
-    public function testGalleryURL()
+    public function testGalleryURL(): void
     {
         $obj = new Sdk\Trading\Types\PictureDetailsType();
 
@@ -169,7 +169,7 @@ class PropertyFixesTest extends TestCase
      * Issue: https://github.com/davidtsadler/ebay-sdk-php/issues/133
      * PR: https://github.com/davidtsadler/ebay-sdk-php/pull/134
      */
-    public function testUploadFileRequest()
+    public function testUploadFileRequest(): void
     {
         $obj = new Sdk\PostOrder\Types\UploadFileRequest();
 
@@ -184,7 +184,7 @@ class PropertyFixesTest extends TestCase
      *
      * https://github.com/davidtsadler/ebay-sdk-php/issues/154
      */
-    public function testVerifyOnly()
+    public function testVerifyOnly(): void
     {
         $obj = new Sdk\Trading\Types\ReviseFixedPriceItemRequestType();
 
@@ -204,7 +204,7 @@ class PropertyFixesTest extends TestCase
      * In future we won't be using the WSDLs so this will
      * be less of an issue.
      */
-    public function testProductIDTypeAttribute()
+    public function testProductIDTypeAttribute(): void
     {
         $obj = new Sdk\Shopping\Types\ProductIDType();
 

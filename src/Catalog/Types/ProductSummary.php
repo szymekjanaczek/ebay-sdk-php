@@ -33,7 +33,7 @@ class ProductSummary extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'additionalImages' => [
             'type' => 'DTS\eBaySDK\Catalog\Types\Image',
             'repeatable' => true,

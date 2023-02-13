@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\CategoryType;
 
 class CategoryTypeTest extends TestCase
 {
-    private $obj;
+    private CategoryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\CategoryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

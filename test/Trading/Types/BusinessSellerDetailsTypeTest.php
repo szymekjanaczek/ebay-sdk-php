@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BusinessSellerDetailsType;
 
 class BusinessSellerDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private BusinessSellerDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BusinessSellerDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BusinessSellerDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

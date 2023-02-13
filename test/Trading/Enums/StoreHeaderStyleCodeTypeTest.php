@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType;
 
 class StoreHeaderStyleCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StoreHeaderStyleCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreHeaderStyleCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType', $this->obj);
     }

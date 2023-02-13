@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\PaymentDenialReasonEnum;
 
 class PaymentDenialReasonEnumTest extends TestCase
 {
-    private $obj;
+    private PaymentDenialReasonEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentDenialReasonEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\PaymentDenialReasonEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ItemDetailType;
 
 class ItemDetailTypeTest extends TestCase
 {
-    private $obj;
+    private ItemDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ItemDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

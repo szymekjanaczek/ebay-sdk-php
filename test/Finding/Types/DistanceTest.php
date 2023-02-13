@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\Distance;
 
 class DistanceTest extends TestCase
 {
-    private $obj;
+    private Distance $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Distance();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\Distance', $this->obj);
     }
 
-    public function testExtendsDoubleType()
+    public function testExtendsDoubleType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\DoubleType', $this->obj);
     }

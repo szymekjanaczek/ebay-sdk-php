@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType;
 
 class ContactCustomerSupportOptionTypeTest extends TestCase
 {
-    private $obj;
+    private ContactCustomerSupportOptionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ContactCustomerSupportOptionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\ContactCustomerSupportOptionType', $this->obj);
     }
 
-    public function testExtendsBaseActivityOptionType()
+    public function testExtendsBaseActivityOptionType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType;
 
 class ItemSpecificSourceCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ItemSpecificSourceCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemSpecificSourceCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType', $this->obj);
     }

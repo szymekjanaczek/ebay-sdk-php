@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SupportedEventTypesArrayType;
 
 class SupportedEventTypesArrayTypeTest extends TestCase
 {
-    private $obj;
+    private SupportedEventTypesArrayType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SupportedEventTypesArrayType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SupportedEventTypesArrayType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

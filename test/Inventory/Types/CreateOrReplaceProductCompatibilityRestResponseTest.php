@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\CreateOrReplaceProductCompatibilityRestResponse;
 
 class CreateOrReplaceProductCompatibilityRestResponseTest extends TestCase
 {
-    private $obj;
+    private CreateOrReplaceProductCompatibilityRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateOrReplaceProductCompatibilityRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\CreateOrReplaceProductCompatibilityRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseResponse()
+    public function testExtendsBaseResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BaseResponse', $this->obj);
     }

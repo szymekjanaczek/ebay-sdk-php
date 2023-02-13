@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\ShipToLocations;
 
 class ShipToLocationsTest extends TestCase
 {
-    private $obj;
+    private ShipToLocations $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ShipToLocations();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\ShipToLocations', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

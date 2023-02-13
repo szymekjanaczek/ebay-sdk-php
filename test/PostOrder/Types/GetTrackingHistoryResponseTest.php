@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\GetTrackingHistoryResponse;
 
 class GetTrackingHistoryResponseTest extends TestCase
 {
-    private $obj;
+    private GetTrackingHistoryResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetTrackingHistoryResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetTrackingHistoryResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestResponse;
 
 class GetItemsByItemGroupRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetItemsByItemGroupRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemsByItemGroupRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestResponse', $this->obj);
     }
 
-    public function testExtendsItems()
+    public function testExtendsItems(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\Items', $this->obj);
     }

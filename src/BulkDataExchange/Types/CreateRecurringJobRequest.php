@@ -25,7 +25,7 @@ class CreateRecurringJobRequest extends BaseServiceRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'UUID' => [
             'type' => 'string',
             'repeatable' => false,

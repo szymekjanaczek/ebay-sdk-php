@@ -15,14 +15,14 @@ use DTS\eBaySDK\PostOrder\Enums\WorldRegionEnum;
 
 class WorldRegionEnumTest extends TestCase
 {
-    private $obj;
+    private WorldRegionEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new WorldRegionEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\WorldRegionEnum', $this->obj);
     }

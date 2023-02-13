@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType;
 
 class MaximumBuyerPolicyViolationsDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private MaximumBuyerPolicyViolationsDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MaximumBuyerPolicyViolationsDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

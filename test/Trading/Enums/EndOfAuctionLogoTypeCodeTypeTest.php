@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\EndOfAuctionLogoTypeCodeType;
 
 class EndOfAuctionLogoTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private EndOfAuctionLogoTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EndOfAuctionLogoTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\EndOfAuctionLogoTypeCodeType', $this->obj);
     }

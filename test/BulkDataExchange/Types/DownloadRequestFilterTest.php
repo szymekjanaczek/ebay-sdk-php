@@ -15,19 +15,19 @@ use DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter;
 
 class DownloadRequestFilterTest extends TestCase
 {
-    private $obj;
+    private DownloadRequestFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DownloadRequestFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

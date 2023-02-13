@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\RuleActionDetailType;
 
 class RuleActionDetailTypeTest extends TestCase
 {
-    private $obj;
+    private RuleActionDetailType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RuleActionDetailType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\RuleActionDetailType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

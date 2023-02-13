@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreType;
 
 class StoreTypeTest extends TestCase
 {
-    private $obj;
+    private StoreType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\FindItemsAdvancedRequest;
 
 class FindItemsAdvancedRequestTest extends TestCase
 {
-    private $obj;
+    private FindItemsAdvancedRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindItemsAdvancedRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\FindItemsAdvancedRequest', $this->obj);
     }
 
-    public function testExtendsBaseFindingServiceRequest()
+    public function testExtendsBaseFindingServiceRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseFindingServiceRequest', $this->obj);
     }

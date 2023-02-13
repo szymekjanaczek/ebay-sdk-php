@@ -15,19 +15,19 @@ use DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestRequest;
 
 class GetPoliciesForNegotiatedPriceRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetPoliciesForNegotiatedPriceRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetPoliciesForNegotiatedPriceRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\GetPoliciesForNegotiatedPriceRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

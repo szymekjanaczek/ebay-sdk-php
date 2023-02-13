@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\BulkPriceQuantity;
 
 class BulkPriceQuantityTest extends TestCase
 {
-    private $obj;
+    private BulkPriceQuantity $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkPriceQuantity();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkPriceQuantity', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

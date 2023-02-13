@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\VatDetail;
 
 class VatDetailTest extends TestCase
 {
-    private $obj;
+    private VatDetail $obj;
 
     protected function setUp(): void
     {
         $this->obj = new VatDetail();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\VatDetail', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

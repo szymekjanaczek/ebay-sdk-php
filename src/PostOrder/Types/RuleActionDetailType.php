@@ -22,7 +22,7 @@ class RuleActionDetailType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'actionData' => [
             'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDataDetailType',
             'repeatable' => true,

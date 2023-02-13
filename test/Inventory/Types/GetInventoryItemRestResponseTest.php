@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\GetInventoryItemRestResponse;
 
 class GetInventoryItemRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetInventoryItemRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetInventoryItemRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\GetInventoryItemRestResponse', $this->obj);
     }
 
-    public function testExtendsInventoryItem()
+    public function testExtendsInventoryItem(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\InventoryItem', $this->obj);
     }

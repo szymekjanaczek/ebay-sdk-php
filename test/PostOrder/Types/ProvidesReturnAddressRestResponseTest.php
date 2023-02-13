@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestResponse;
 
 class ProvidesReturnAddressRestResponseTest extends TestCase
 {
-    private $obj;
+    private ProvidesReturnAddressRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProvidesReturnAddressRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

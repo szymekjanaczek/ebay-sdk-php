@@ -6,7 +6,7 @@ use DTS\eBaySDK\Constants\SiteIds as SiteIds;
 
 class SiteIdsTest extends TestCase
 {
-    public function testConstantsAreCorrectType()
+    public function testConstantsAreCorrectType(): void
     {
         $this->assertisInt(SiteIds::US);
         $this->assertisInt(SiteIds::ENCA);
@@ -32,7 +32,7 @@ class SiteIdsTest extends TestCase
         $this->assertisInt(SiteIds::SG);
     }
 
-    public function testConstantsHaveCorrectValue()
+    public function testConstantsHaveCorrectValue(): void
     {
         $this->assertEquals(0, SiteIds::US);
         $this->assertEquals(2, SiteIds::ENCA);

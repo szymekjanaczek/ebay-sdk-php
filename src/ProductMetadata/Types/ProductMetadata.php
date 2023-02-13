@@ -22,7 +22,7 @@ class ProductMetadata extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'propertyMetadata' => [
             'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyMetadata',
             'repeatable' => true,

@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\MerchantDataRequestHeaderType;
 
 class MerchantDataRequestHeaderTypeTest extends TestCase
 {
-    private $obj;
+    private MerchantDataRequestHeaderType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MerchantDataRequestHeaderType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\MerchantDataRequestHeaderType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

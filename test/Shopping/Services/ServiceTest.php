@@ -9,7 +9,7 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends TestCase
 {
-    public function testConfigDefinitions()
+    public function testConfigDefinitions(): void
     {
         $d = ShoppingBaseService::getConfigDefinitions();
 
@@ -41,7 +41,7 @@ class ServiceTest extends TestCase
         ], $d['trackingPartnerCode']);
     }
 
-    public function testRequiredEbayHeaders()
+    public function testRequiredEbayHeaders(): void
     {
         $h = new HttpHandler();
 
@@ -73,7 +73,7 @@ class ServiceTest extends TestCase
         $this->assertArrayNotHasKey(ShoppingBaseService::HDR_AFFILIATE_USER_ID, $h->headers);
     }
 
-    public function testOptionalEbayHeaders()
+    public function testOptionalEbayHeaders(): void
     {
         $h = new HttpHandler();
 

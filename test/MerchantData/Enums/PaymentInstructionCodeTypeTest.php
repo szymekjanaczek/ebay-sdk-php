@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType;
 
 class PaymentInstructionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PaymentInstructionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PaymentInstructionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType', $this->obj);
     }

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType;
 
 class SellingManagerPaidStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerPaidStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerPaidStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType', $this->obj);
     }

@@ -11,7 +11,7 @@ use GuzzleHttp\Psr7\Response;
 
 class HttpHandlerTest extends TestCase
 {
-    public function testWorksWithSuccessfulRequest()
+    public function testWorksWithSuccessfulRequest(): void
     {
         $mock = new MockHandler([new Response(200, [], 'OK')]);
         $client = new Client(['handler' => $mock]);
@@ -22,7 +22,7 @@ class HttpHandlerTest extends TestCase
         $this->assertStringContainsString('OK', $response);
     }
 
-    public function testWorksWithFailedRequest()
+    public function testWorksWithFailedRequest(): void
     {
         $mock = new MockHandler([new Exception('FAIL')]);
         $client = new Client(['handler' => $mock]);

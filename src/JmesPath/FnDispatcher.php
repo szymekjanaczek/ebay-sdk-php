@@ -58,7 +58,7 @@ class FnDispatcher
         return $this->{'fn_' . $fn}($args);
     }
 
-    private function fn_abs(array $args)
+    private function fn_abs(array $args): int|float
     {
         $this->validate('abs', $args, [['number']]);
         return abs($args[0]);
@@ -68,13 +68,13 @@ class FnDispatcher
     {
         $this->validate('avg', $args, [['array']]);
         $arg = Utils::toArray($args[0]);
-        $sum = $this->reduce('avg:0', $arg, ['number'], function ($a, $b) {
+        $sum = $this->reduce('avg:0', $arg, ['number'], function ($a, $b): float|int|array {
             return $a + $b;
         });
         return $arg ? ($sum / count($arg)) : null;
     }
 
-    private function fn_ceil(array $args)
+    private function fn_ceil(array $args): float
     {
         $this->validate('ceil', $args, [['number']]);
         return ceil($args[0]);
@@ -93,14 +93,14 @@ class FnDispatcher
         }
     }
 
-    private function fn_ends_with(array $args)
+    private function fn_ends_with(array $args): bool
     {
         $this->validate('ends_with', $args, [['string'], ['string']]);
         list($search, $suffix) = $args;
         return $suffix === '' || substr($search, -strlen($suffix)) === $suffix;
     }
 
-    private function fn_floor(array $args)
+    private function fn_floor(array $args): float
     {
         $this->validate('floor', $args, [['number']]);
         return floor($args[0]);
@@ -128,7 +128,7 @@ class FnDispatcher
         return $this->reduce('join:0', Utils::toArray($args[1]), ['string'], $fn);
     }
 
-    private function fn_keys(array $args)
+    private function fn_keys(array $args): array
     {
         $this->validate('keys', $args, [['object']]);
         return array_keys((array) Utils::toArray($args[0]));
@@ -194,28 +194,28 @@ class FnDispatcher
     private function fn_sum(array $args)
     {
         $this->validate('sum', $args, [['array']]);
-        $fn = function ($a, $b) { return $a + $b; };
+        $fn = function ($a, $b): float|int|array { return $a + $b; };
         return $this->reduce('sum:0', Utils::toArray($args[0]), ['number'], $fn);
     }
 
-    private function fn_sort(array $args)
+    private function fn_sort(array $args): array|int
     {
         $this->validate('sort', $args, [['array']]);
         $valid = ['string', 'number'];
-        return Utils::stableSort(Utils::toArray($args[0]), function ($a, $b) use ($valid) {
+        return Utils::stableSort(Utils::toArray($args[0]), function ($a, $b) use ($valid): int {
             $this->validateSeq('sort:0', $valid, $a, $b);
             return strnatcmp($a, $b);
         });
     }
 
-    private function fn_sort_by(array $args)
+    private function fn_sort_by(array $args): array|int
     {
         $this->validate('sort_by', $args, [['array'], ['expression']]);
         $expr = $args[1];
         $valid = ['string', 'number'];
         return Utils::stableSort(
             Utils::toArray($args[0]),
-            function ($a, $b) use ($expr, $valid) {
+            function ($a, $b) use ($expr, $valid): int {
                 $va = $expr($a);
                 $vb = $expr($b);
                 $this->validateSeq('sort_by:0', $valid, $va, $vb);
@@ -224,7 +224,7 @@ class FnDispatcher
         );
     }
 
-    private function fn_starts_with(array $args)
+    private function fn_starts_with(array $args): bool
     {
         $this->validate('starts_with', $args, [['string'], ['string']]);
         list($search, $prefix) = $args;
@@ -269,13 +269,13 @@ class FnDispatcher
         }
     }
 
-    private function fn_values(array $args)
+    private function fn_values(array $args): array
     {
         $this->validate('values', $args, [['array', 'object']]);
         return array_values((array) Utils::toArray($args[0]));
     }
 
-    private function fn_merge(array $args)
+    private function fn_merge(array $args): array
     {
         if (!$args) {
             throw new RuntimeException(
@@ -283,7 +283,7 @@ class FnDispatcher
             );
         }
 
-        return array_reduce($args, function ($carry, $arg) {
+        return array_reduce($args, function ($carry, $arg): array {
             $carry = array_replace($carry, Utils::toArray($arg));
             return $carry;
         }, []);
@@ -296,7 +296,10 @@ class FnDispatcher
         return Utils::isArray($args[0]) ? Utils::toArray($args[0]) : [$args[0]];
     }
 
-    private function fn_map(array $args)
+    /**
+     * @return mixed[]
+     */
+    private function fn_map(array $args): array
     {
         $this->validate('map', $args, [['expression'], ['any']]);
         $result = [];
@@ -306,7 +309,7 @@ class FnDispatcher
         return $result;
     }
 
-    private function typeError($from, $msg)
+    private function typeError(string $from, string $msg)
     {
         if (strpos($from, ':')) {
             list($fn, $pos) = explode(':', $from);
@@ -320,7 +323,7 @@ class FnDispatcher
         }
     }
 
-    private function validateArity($from, $given, $expected)
+    private function validateArity(string $from, int $given, int $expected)
     {
         if ($given != $expected) {
             $err = "%s() expects {$expected} arguments, {$given} were provided";
@@ -328,7 +331,7 @@ class FnDispatcher
         }
     }
 
-    private function validate($from, $args, $types = [])
+    private function validate(string $from, array $args, array $types = []): void
     {
         $this->validateArity($from, count($args), count($types));
         foreach ($args as $index => $value) {
@@ -339,7 +342,7 @@ class FnDispatcher
         }
     }
 
-    private function validateType($from, $value, array $types)
+    private function validateType(string $from, $value, array $types): void
     {
         if ($types[0] == 'any'
             || in_array(Utils::type($value), $types)
@@ -361,7 +364,7 @@ class FnDispatcher
      * @param mixed    $a      Value A
      * @param mixed    $b      Value B
      */
-    private function validateSeq($from, array $types, $a, $b)
+    private function validateSeq(string $from, array $types, $a, $b): void
     {
         $ta = Utils::type($a);
         $tb = Utils::type($b);
@@ -390,7 +393,7 @@ class FnDispatcher
      *
      * @return mixed
      */
-    private function reduce($from, array $values, array $types, callable $reduce)
+    private function reduce(string $from, array $values, array $types, callable $reduce)
     {
         $i = -1;
         return array_reduce(
@@ -413,7 +416,7 @@ class FnDispatcher
      *
      * @return callable Returns a wrapped function
      */
-    private function wrapExpression($from, callable $expr, array $types)
+    private function wrapExpression(string $from, callable $expr, array $types)
     {
         list($fn, $pos) = explode(':', $from);
         $from = "The expression return value of argument {$pos} of {$fn}";

@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType;
 
 class CaseStatusTypeTest extends TestCase
 {
-    private $obj;
+    private CaseStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

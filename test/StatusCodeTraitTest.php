@@ -6,7 +6,7 @@ use DTS\eBaySDK\Test\Mocks\StatusCode;
 
 class StatusCodeTraitTest extends TestCase
 {
-    public function testCanSetStatusCode()
+    public function testCanSetStatusCode(): void
     {
         $s = new StatusCode(200);
 

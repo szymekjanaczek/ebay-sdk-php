@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\WantItNowPostType;
 
 class WantItNowPostTypeTest extends TestCase
 {
-    private $obj;
+    private WantItNowPostType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new WantItNowPostType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\WantItNowPostType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

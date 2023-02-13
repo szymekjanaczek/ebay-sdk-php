@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\PictureURLsType;
 
 class PictureURLsTypeTest extends TestCase
 {
-    private $obj;
+    private PictureURLsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureURLsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\PictureURLsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

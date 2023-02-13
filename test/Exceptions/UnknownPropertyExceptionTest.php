@@ -6,24 +6,24 @@ use DTS\eBaySDK\Exceptions\UnknownPropertyException;
 
 class UnknownPropertyExceptionTest extends TestCase
 {
-    private $obj;
+    private UnknownPropertyException $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UnknownPropertyException('foo');
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Exceptions\UnknownPropertyException', $this->obj);
     }
 
-    public function testExtendsLogicException()
+    public function testExtendsLogicException(): void
     {
         $this->assertInstanceOf('\LogicException', $this->obj);
     }
 
-    public function testCorrectMessageIsGenerated()
+    public function testCorrectMessageIsGenerated(): void
     {
         $this->assertEquals('Unknown property foo', $this->obj->getMessage());
     }

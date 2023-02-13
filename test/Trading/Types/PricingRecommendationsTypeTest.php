@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\PricingRecommendationsType;
 
 class PricingRecommendationsTypeTest extends TestCase
 {
-    private $obj;
+    private PricingRecommendationsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PricingRecommendationsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PricingRecommendationsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

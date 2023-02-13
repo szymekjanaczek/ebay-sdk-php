@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MoveSellingManagerInventoryFolderResponseType;
 
 class MoveSellingManagerInventoryFolderResponseTypeTest extends TestCase
 {
-    private $obj;
+    private MoveSellingManagerInventoryFolderResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MoveSellingManagerInventoryFolderResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MoveSellingManagerInventoryFolderResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

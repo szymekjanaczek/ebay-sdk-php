@@ -15,19 +15,19 @@ use DTS\eBaySDK\Feedback\Types\DSRSummary;
 
 class DSRSummaryTest extends TestCase
 {
-    private $obj;
+    private DSRSummary $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DSRSummary();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\DSRSummary', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

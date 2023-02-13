@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType;
 
 class SecondChanceOfferDurationCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SecondChanceOfferDurationCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SecondChanceOfferDurationCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType', $this->obj);
     }

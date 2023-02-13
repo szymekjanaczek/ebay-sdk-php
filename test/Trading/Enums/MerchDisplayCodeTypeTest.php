@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\MerchDisplayCodeType;
 
 class MerchDisplayCodeTypeTest extends TestCase
 {
-    private $obj;
+    private MerchDisplayCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MerchDisplayCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\MerchDisplayCodeType', $this->obj);
     }

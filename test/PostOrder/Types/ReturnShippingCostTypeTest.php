@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\ReturnShippingCostType;
 
 class ReturnShippingCostTypeTest extends TestCase
 {
-    private $obj;
+    private ReturnShippingCostType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReturnShippingCostType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnShippingCostType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

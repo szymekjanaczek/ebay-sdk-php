@@ -22,7 +22,7 @@ class AttributeType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Value' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ValType',
             'repeatable' => true,

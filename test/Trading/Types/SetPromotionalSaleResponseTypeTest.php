@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SetPromotionalSaleResponseType;
 
 class SetPromotionalSaleResponseTypeTest extends TestCase
 {
-    private $obj;
+    private SetPromotionalSaleResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SetPromotionalSaleResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetPromotionalSaleResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

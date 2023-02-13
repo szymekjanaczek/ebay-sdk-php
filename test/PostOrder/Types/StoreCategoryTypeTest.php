@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\StoreCategoryType;
 
 class StoreCategoryTypeTest extends TestCase
 {
-    private $obj;
+    private StoreCategoryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreCategoryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\StoreCategoryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

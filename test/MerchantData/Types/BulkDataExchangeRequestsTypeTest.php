@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\BulkDataExchangeRequestsType;
 
 class BulkDataExchangeRequestsTypeTest extends TestCase
 {
-    private $obj;
+    private BulkDataExchangeRequestsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkDataExchangeRequestsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\BulkDataExchangeRequestsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

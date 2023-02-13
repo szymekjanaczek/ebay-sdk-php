@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType;
 
 class GeteBayTimeRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GeteBayTimeRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GeteBayTimeRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }

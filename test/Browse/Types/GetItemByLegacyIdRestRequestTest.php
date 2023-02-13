@@ -15,19 +15,19 @@ use DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestRequest;
 
 class GetItemByLegacyIdRestRequestTest extends TestCase
 {
-    private $obj;
+    private GetItemByLegacyIdRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemByLegacyIdRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

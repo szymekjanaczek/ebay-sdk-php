@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType;
 
 class MyeBayFavoriteSearchListTypeTest extends TestCase
 {
-    private $obj;
+    private MyeBayFavoriteSearchListType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyeBayFavoriteSearchListType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

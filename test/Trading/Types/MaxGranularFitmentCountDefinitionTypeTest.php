@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MaxGranularFitmentCountDefinitionType;
 
 class MaxGranularFitmentCountDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private MaxGranularFitmentCountDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MaxGranularFitmentCountDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MaxGranularFitmentCountDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

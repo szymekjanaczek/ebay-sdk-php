@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\AppealType;
 
 class AppealTypeTest extends TestCase
 {
-    private $obj;
+    private AppealType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AppealType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\AppealType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

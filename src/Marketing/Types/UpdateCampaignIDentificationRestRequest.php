@@ -19,7 +19,7 @@ class UpdateCampaignIDentificationRestRequest extends UpdateCampaignIdentificati
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'campaign_id' => [
             'type' => 'string',
             'repeatable' => false,

@@ -21,7 +21,7 @@ class BaseFindingServiceResponse extends BaseServiceResponse
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'searchResult' => [
             'type' => 'DTS\eBaySDK\Finding\Types\SearchResult',
             'repeatable' => false,

@@ -36,7 +36,7 @@ class BulkDataExchangeResponsesType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ActiveInventoryReport' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType',
             'repeatable' => false,

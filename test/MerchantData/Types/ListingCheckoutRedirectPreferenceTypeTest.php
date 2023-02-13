@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType;
 
 class ListingCheckoutRedirectPreferenceTypeTest extends TestCase
 {
-    private $obj;
+    private ListingCheckoutRedirectPreferenceType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingCheckoutRedirectPreferenceType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

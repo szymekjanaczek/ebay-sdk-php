@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\ProcessResolution;
 
 class ProcessResolutionTest extends TestCase
 {
-    private $obj;
+    private ProcessResolution $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ProcessResolution();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ProcessResolution', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

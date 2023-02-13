@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\MessageTypeCodeType;
 
 class MessageTypeCodeTypeTest extends TestCase
 {
-    private $obj;
+    private MessageTypeCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MessageTypeCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\MessageTypeCodeType', $this->obj);
     }

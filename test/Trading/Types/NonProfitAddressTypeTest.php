@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\NonProfitAddressType;
 
 class NonProfitAddressTypeTest extends TestCase
 {
-    private $obj;
+    private NonProfitAddressType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new NonProfitAddressType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\NonProfitAddressType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

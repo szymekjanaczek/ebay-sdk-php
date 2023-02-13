@@ -24,7 +24,7 @@ class TransactionSnapshot extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'calendarWindowAggregatedMetrics' => [
             'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
             'repeatable' => false,

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\GetSellingManagerTemplatesResponseType;
 
 class GetSellingManagerTemplatesResponseTypeTest extends TestCase
 {
-    private $obj;
+    private GetSellingManagerTemplatesResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetSellingManagerTemplatesResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetSellingManagerTemplatesResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }

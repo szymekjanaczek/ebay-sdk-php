@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\FindItemsByImageResponse;
 
 class FindItemsByImageResponseTest extends TestCase
 {
-    private $obj;
+    private FindItemsByImageResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindItemsByImageResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\FindItemsByImageResponse', $this->obj);
     }
 
-    public function testExtendsBaseFindingServiceResponse()
+    public function testExtendsBaseFindingServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse', $this->obj);
     }

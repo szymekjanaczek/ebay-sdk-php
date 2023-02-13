@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\ReasonHideFromSearchCodeType;
 
 class ReasonHideFromSearchCodeTypeTest extends TestCase
 {
-    private $obj;
+    private ReasonHideFromSearchCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReasonHideFromSearchCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ReasonHideFromSearchCodeType', $this->obj);
     }

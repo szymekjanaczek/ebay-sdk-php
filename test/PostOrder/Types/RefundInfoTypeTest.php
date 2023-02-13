@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\RefundInfoType;
 
 class RefundInfoTypeTest extends TestCase
 {
-    private $obj;
+    private RefundInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RefundInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\RefundInfoType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

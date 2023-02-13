@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\FindCompletedItemsResponse;
 
 class FindCompletedItemsResponseTest extends TestCase
 {
-    private $obj;
+    private FindCompletedItemsResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindCompletedItemsResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\FindCompletedItemsResponse', $this->obj);
     }
 
-    public function testExtendsBaseFindingServiceResponse()
+    public function testExtendsBaseFindingServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType;
 
 class CategoryItemSpecificsTypeTest extends TestCase
 {
-    private $obj;
+    private CategoryItemSpecificsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CategoryItemSpecificsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

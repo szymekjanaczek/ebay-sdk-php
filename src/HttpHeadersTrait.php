@@ -108,7 +108,7 @@ trait HttpHeadersTrait
      * concatenated together using a comma. If the header does not appear in
      * the message, this method will return an empty string.
      */
-    public function getHeaderLine($header)
+    public function getHeaderLine($header): string
     {
         return implode(', ', $this->getHeader($header));
     }
@@ -119,7 +119,7 @@ trait HttpHeadersTrait
      *
      * @param array $headers Associative array of HTTP headers.
      */
-    private function setHeaders(array $headers)
+    private function setHeaders(array $headers): void
     {
         $this->headerNames = $this->headers = [];
         foreach ($headers as $header => $value) {
@@ -146,9 +146,9 @@ trait HttpHeadersTrait
      *
      * @return string[] Trimmed header values
      */
-    private function trimHeaderValues(array $values)
+    private function trimHeaderValues(array $values): array
     {
-        return array_map(function ($value) {
+        return array_map(function ($value): string {
             return trim($value, " \t");
         }, $values);
     }

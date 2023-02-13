@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\Group3MaxFlatShippingCostDefinitionType;
 
 class Group3MaxFlatShippingCostDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private Group3MaxFlatShippingCostDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Group3MaxFlatShippingCostDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\Group3MaxFlatShippingCostDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

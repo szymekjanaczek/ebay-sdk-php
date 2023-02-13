@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\AppealDetails;
 
 class AppealDetailsTest extends TestCase
 {
-    private $obj;
+    private AppealDetails $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AppealDetails();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\AppealDetails', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest;
 
 class DeleteReturnFileRestRequestTest extends TestCase
 {
-    private $obj;
+    private DeleteReturnFileRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteReturnFileRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\DeleteReturnFileRestRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

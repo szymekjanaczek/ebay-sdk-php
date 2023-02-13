@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\AbstractRequestType;
 
 class AbstractRequestTypeTest extends TestCase
 {
-    private $obj;
+    private AbstractRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AbstractRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

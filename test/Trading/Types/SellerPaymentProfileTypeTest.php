@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellerPaymentProfileType;
 
 class SellerPaymentProfileTypeTest extends TestCase
 {
-    private $obj;
+    private SellerPaymentProfileType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerPaymentProfileType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerPaymentProfileType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

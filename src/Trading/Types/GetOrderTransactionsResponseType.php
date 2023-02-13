@@ -19,7 +19,7 @@ class GetOrderTransactionsResponseType extends AbstractResponseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'OrderArray' => [
             'type' => 'DTS\eBaySDK\Trading\Types\OrderArrayType',
             'repeatable' => false,

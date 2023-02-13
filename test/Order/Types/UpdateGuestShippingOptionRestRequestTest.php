@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest;
 
 class UpdateGuestShippingOptionRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateGuestShippingOptionRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateGuestShippingOptionRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest', $this->obj);
     }
 
-    public function testExtendsUpdateShippingOption()
+    public function testExtendsUpdateShippingOption(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateShippingOption', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MyMessagesForwardDetailsType;
 
 class MyMessagesForwardDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private MyMessagesForwardDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyMessagesForwardDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MyMessagesForwardDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

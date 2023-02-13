@@ -24,7 +24,7 @@ class SupportedSellerProfileType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'ProfileID' => [
             'type' => 'integer',
             'repeatable' => false,

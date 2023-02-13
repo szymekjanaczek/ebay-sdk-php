@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\CreateGuestCheckoutSessionRequest;
 
 class CreateGuestCheckoutSessionRequestTest extends TestCase
 {
-    private $obj;
+    private CreateGuestCheckoutSessionRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateGuestCheckoutSessionRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\CreateGuestCheckoutSessionRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

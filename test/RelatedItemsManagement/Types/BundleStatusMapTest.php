@@ -15,19 +15,19 @@ use DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatusMap;
 
 class BundleStatusMapTest extends TestCase
 {
-    private $obj;
+    private BundleStatusMap $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BundleStatusMap();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatusMap', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

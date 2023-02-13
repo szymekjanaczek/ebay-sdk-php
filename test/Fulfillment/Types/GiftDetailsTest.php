@@ -15,19 +15,19 @@ use DTS\eBaySDK\Fulfillment\Types\GiftDetails;
 
 class GiftDetailsTest extends TestCase
 {
-    private $obj;
+    private GiftDetails $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GiftDetails();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\GiftDetails', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

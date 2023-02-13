@@ -15,19 +15,19 @@ use DTS\eBaySDK\ResolutionCaseManagement\Types\DetailStatusInfoType;
 
 class DetailStatusInfoTypeTest extends TestCase
 {
-    private $obj;
+    private DetailStatusInfoType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DetailStatusInfoType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\DetailStatusInfoType', $this->obj);
     }
 
-    public function testExtendsEnumerationDetailType()
+    public function testExtendsEnumerationDetailType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType', $this->obj);
     }

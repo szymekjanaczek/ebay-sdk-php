@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestResponse;
 
 class UpdateReturnRulesRestResponseTest extends TestCase
 {
-    private $obj;
+    private UpdateReturnRulesRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateReturnRulesRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\UpdateReturnRulesRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

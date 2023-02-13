@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType;
 
 class ExcludeShippingLocationDetailsTypeTest extends TestCase
 {
-    private $obj;
+    private ExcludeShippingLocationDetailsType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExcludeShippingLocationDetailsType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

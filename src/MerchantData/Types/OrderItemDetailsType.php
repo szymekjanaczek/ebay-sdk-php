@@ -20,7 +20,7 @@ class OrderItemDetailsType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'OrderLineItem' => [
             'type' => 'DTS\eBaySDK\MerchantData\Types\OrderLineItemType',
             'repeatable' => true,

@@ -189,10 +189,10 @@ class Utils
      * @return array Returns the sorted array
      * @link http://en.wikipedia.org/wiki/Schwartzian_transform
      */
-    public static function stableSort(array $data, callable $sortFn)
+    public static function stableSort(array $data, callable $sortFn): array
     {
         // Decorate each item by creating an array of [value, index]
-        array_walk($data, function (&$v, $k) { $v = [$v, $k]; });
+        array_walk($data, function (&$v, $k): void { $v = [$v, $k]; });
         // Sort by the sort function and use the index as a tie-breaker
         uasort($data, function ($a, $b) use ($sortFn) {
             return $sortFn($a[0], $b[0]) ?: ($a[1] < $b[1] ? -1 : 1);
@@ -236,7 +236,7 @@ class Utils
         return $endpoint;
     }
 
-    private static function adjustSlice($length, $start, $stop, $step)
+    private static function adjustSlice($length, $start, $stop, $step): array
     {
         if ($step === null) {
             $step = 1;

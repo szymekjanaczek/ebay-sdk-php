@@ -69,7 +69,7 @@ class Lexer
     const STATE_AND = 13;
 
     /** @var array We know what token we are consuming based on each char */
-    private static $transitionTable = [
+    private static array $transitionTable = [
         '<'  => self::STATE_LT,
         '>'  => self::STATE_GT,
         '='  => self::STATE_EQ,
@@ -161,7 +161,7 @@ class Lexer
     ];
 
     /** @var array Valid identifier characters after first character */
-    private $validIdentifier = [
+    private array $validIdentifier = [
         'A' => true, 'B' => true, 'C' => true, 'D' => true, 'E' => true,
         'F' => true, 'G' => true, 'H' => true, 'I' => true, 'J' => true,
         'K' => true, 'L' => true, 'M' => true, 'N' => true, 'O' => true,
@@ -178,13 +178,13 @@ class Lexer
     ];
 
     /** @var array Valid number characters after the first character */
-    private $numbers = [
+    private array $numbers = [
         '0' => true, '1' => true, '2' => true, '3' => true, '4' => true,
         '5' => true, '6' => true, '7' => true, '8' => true, '9' => true
     ];
 
     /** @var array Map of simple single character tokens */
-    private $simpleTokens = [
+    private array $simpleTokens = [
         '.' => self::T_DOT,
         '*' => self::T_STAR,
         ']' => self::T_RBRACKET,
@@ -203,10 +203,10 @@ class Lexer
      *
      * @param string $input JMESPath input
      *
-     * @return array
+     * @return array<int, mixed[]>
      * @throws SyntaxErrorException
      */
-    public function tokenize($input)
+    public function tokenize($input): array
     {
         $tokens = [];
 
@@ -381,7 +381,7 @@ class Lexer
      *
      * @return array Returns a conditional token.
      */
-    private function matchOr(array &$chars, $current, $expected, $type, $orElse)
+    private function matchOr(array &$chars, $current, string $expected, string $type, string $orElse): array
     {
         if (next($chars) === $expected) {
             next($chars);
@@ -410,7 +410,7 @@ class Lexer
      *
      * @return array Returns the consumed token.
      */
-    private function inside(array &$chars, $delim, $type)
+    private function inside(array &$chars, string $delim, string $type): array
     {
         $position = key($chars);
         $current = next($chars);

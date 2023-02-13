@@ -6,7 +6,7 @@ use DTS\eBaySDK\Constants\MarketplaceIds as MarketplaceIds;
 
 class MarketplaceIdsTest extends TestCase
 {
-    public function testConstantsAreCorrectType()
+    public function testConstantsAreCorrectType(): void
     {
         $this->assertisString(MarketplaceIds::US);
         $this->assertisString(MarketplaceIds::CA);
@@ -31,7 +31,7 @@ class MarketplaceIdsTest extends TestCase
         $this->assertisString(MarketplaceIds::CN);
     }
 
-    public function testConstantsHaveCorrectValue()
+    public function testConstantsHaveCorrectValue(): void
     {
         $this->assertEquals('EBAY-US', MarketplaceIds::US);
         $this->assertEquals('EBAY-CA', MarketplaceIds::CA);

@@ -15,14 +15,14 @@ use DTS\eBaySDK\Compliance\Enums\MarketplaceIdEnum;
 
 class MarketplaceIdEnumTest extends TestCase
 {
-    private $obj;
+    private MarketplaceIdEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MarketplaceIdEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Enums\MarketplaceIdEnum', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Order\Types\UpdateQuantity;
 
 class UpdateQuantityTest extends TestCase
 {
-    private $obj;
+    private UpdateQuantity $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateQuantity();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateQuantity', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

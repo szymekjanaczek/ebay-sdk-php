@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\PublishByInventoryItemGroupRequest;
 
 class PublishByInventoryItemGroupRequestTest extends TestCase
 {
-    private $obj;
+    private PublishByInventoryItemGroupRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PublishByInventoryItemGroupRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PublishByInventoryItemGroupRequest', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

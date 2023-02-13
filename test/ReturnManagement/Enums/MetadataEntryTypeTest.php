@@ -15,14 +15,14 @@ use DTS\eBaySDK\ReturnManagement\Enums\MetadataEntryType;
 
 class MetadataEntryTypeTest extends TestCase
 {
-    private $obj;
+    private MetadataEntryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MetadataEntryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\MetadataEntryType', $this->obj);
     }

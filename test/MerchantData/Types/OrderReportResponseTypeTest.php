@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\OrderReportResponseType;
 
 class OrderReportResponseTypeTest extends TestCase
 {
-    private $obj;
+    private OrderReportResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new OrderReportResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\OrderReportResponseType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

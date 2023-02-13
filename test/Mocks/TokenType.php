@@ -3,7 +3,7 @@ namespace DTS\eBaySDK\Test\Mocks;
 
 class TokenType extends \DTS\eBaySDK\Types\TokenType
 {
-    private static $propertyTypes = [];
+    private static array $propertyTypes = [];
 
     public function __construct(array $values = [])
     {

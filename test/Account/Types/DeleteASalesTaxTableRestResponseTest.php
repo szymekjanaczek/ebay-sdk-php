@@ -15,19 +15,19 @@ use DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse;
 
 class DeleteASalesTaxTableRestResponseTest extends TestCase
 {
-    private $obj;
+    private DeleteASalesTaxTableRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new DeleteASalesTaxTableRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

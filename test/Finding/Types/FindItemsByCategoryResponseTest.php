@@ -15,19 +15,19 @@ use DTS\eBaySDK\Finding\Types\FindItemsByCategoryResponse;
 
 class FindItemsByCategoryResponseTest extends TestCase
 {
-    private $obj;
+    private FindItemsByCategoryResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FindItemsByCategoryResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\FindItemsByCategoryResponse', $this->obj);
     }
 
-    public function testExtendsBaseFindingServiceResponse()
+    public function testExtendsBaseFindingServiceResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse', $this->obj);
     }

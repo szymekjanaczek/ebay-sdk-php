@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\StoreCustomCategoryType;
 
 class StoreCustomCategoryTypeTest extends TestCase
 {
-    private $obj;
+    private StoreCustomCategoryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreCustomCategoryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreCustomCategoryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

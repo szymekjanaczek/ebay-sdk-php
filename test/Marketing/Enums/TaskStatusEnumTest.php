@@ -15,14 +15,14 @@ use DTS\eBaySDK\Marketing\Enums\TaskStatusEnum;
 
 class TaskStatusEnumTest extends TestCase
 {
-    private $obj;
+    private TaskStatusEnum $obj;
 
     protected function setUp(): void
     {
         $this->obj = new TaskStatusEnum();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\TaskStatusEnum', $this->obj);
     }

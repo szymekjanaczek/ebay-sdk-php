@@ -15,19 +15,19 @@ use DTS\eBaySDK\Feed\Types\ItemFeed;
 
 class ItemFeedTest extends TestCase
 {
-    private $obj;
+    private ItemFeed $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ItemFeed();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Feed\Types\ItemFeed', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

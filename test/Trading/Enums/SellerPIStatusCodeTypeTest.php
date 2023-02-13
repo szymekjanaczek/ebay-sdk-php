@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellerPIStatusCodeType;
 
 class SellerPIStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellerPIStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellerPIStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellerPIStatusCodeType', $this->obj);
     }

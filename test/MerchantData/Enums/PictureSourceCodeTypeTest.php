@@ -15,14 +15,14 @@ use DTS\eBaySDK\MerchantData\Enums\PictureSourceCodeType;
 
 class PictureSourceCodeTypeTest extends TestCase
 {
-    private $obj;
+    private PictureSourceCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PictureSourceCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PictureSourceCodeType', $this->obj);
     }

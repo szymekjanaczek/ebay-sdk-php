@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\MyMessagesSummaryType;
 
 class MyMessagesSummaryTypeTest extends TestCase
 {
-    private $obj;
+    private MyMessagesSummaryType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new MyMessagesSummaryType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MyMessagesSummaryType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

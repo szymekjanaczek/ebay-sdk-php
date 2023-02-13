@@ -11,13 +11,13 @@ class JsonParser
      * @param mixed A PHP object derived from DTS\eBaySDK\Types\BaseType
      * @param string $json The JSON string to parse.
      */
-    public static function parseAndAssignProperties($object, $json)
+    public static function parseAndAssignProperties(BaseType $object, $json): void
     {
         $properties = $json !== '' ? json_decode($json, true) : [];
         self::assignProperties($object, $properties);
     }
 
-    private static function assignProperties(BaseType $object, array $properties)
+    private static function assignProperties(BaseType $object, array $properties): void
     {
         foreach ($properties as $property => $value) {
             $propertyMeta = $object->elementMeta($property);
@@ -45,7 +45,7 @@ class JsonParser
             return $value;
         }
 
-        return array_filter($value, function ($val) {
+        return array_filter($value, function ($val): bool {
             return !is_null($val);
         });
     }

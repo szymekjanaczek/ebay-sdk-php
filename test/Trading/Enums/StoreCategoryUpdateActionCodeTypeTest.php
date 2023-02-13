@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\StoreCategoryUpdateActionCodeType;
 
 class StoreCategoryUpdateActionCodeTypeTest extends TestCase
 {
-    private $obj;
+    private StoreCategoryUpdateActionCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new StoreCategoryUpdateActionCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreCategoryUpdateActionCodeType', $this->obj);
     }

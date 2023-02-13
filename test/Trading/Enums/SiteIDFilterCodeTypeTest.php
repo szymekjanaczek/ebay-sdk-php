@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SiteIDFilterCodeType;
 
 class SiteIDFilterCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SiteIDFilterCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SiteIDFilterCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SiteIDFilterCodeType', $this->obj);
     }

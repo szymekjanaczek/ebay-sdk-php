@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\Violation;
 
 class ViolationTest extends TestCase
 {
-    private $obj;
+    private Violation $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Violation();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\Violation', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

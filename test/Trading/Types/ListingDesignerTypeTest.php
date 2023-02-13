@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ListingDesignerType;
 
 class ListingDesignerTypeTest extends TestCase
 {
-    private $obj;
+    private ListingDesignerType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ListingDesignerType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ListingDesignerType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

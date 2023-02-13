@@ -49,7 +49,7 @@ class ShipmentType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'EstimatedDeliveryDate' => [
             'type' => 'DateTime',
             'repeatable' => false,

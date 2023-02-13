@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\SellingManagerEmailSentStatusCodeType;
 
 class SellingManagerEmailSentStatusCodeTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerEmailSentStatusCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerEmailSentStatusCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerEmailSentStatusCodeType', $this->obj);
     }

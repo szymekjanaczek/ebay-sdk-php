@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ReviseStatusType;
 
 class ReviseStatusTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseStatusType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseStatusType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ReviseStatusType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

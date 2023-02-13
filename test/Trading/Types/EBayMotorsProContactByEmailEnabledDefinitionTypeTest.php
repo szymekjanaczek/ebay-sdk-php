@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\EBayMotorsProContactByEmailEnabledDefinitionType;
 
 class EBayMotorsProContactByEmailEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private EBayMotorsProContactByEmailEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new EBayMotorsProContactByEmailEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EBayMotorsProContactByEmailEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

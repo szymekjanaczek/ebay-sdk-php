@@ -15,19 +15,19 @@ use DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestRequest;
 
 class BulkMigrateListingsRestRequestTest extends TestCase
 {
-    private $obj;
+    private BulkMigrateListingsRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BulkMigrateListingsRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestRequest', $this->obj);
     }
 
-    public function testExtendsBulkMigrateListing()
+    public function testExtendsBulkMigrateListing(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkMigrateListing', $this->obj);
     }

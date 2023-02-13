@@ -15,19 +15,19 @@ use DTS\eBaySDK\Catalog\Types\GetProductRestResponse;
 
 class GetProductRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetProductRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetProductRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\GetProductRestResponse', $this->obj);
     }
 
-    public function testExtendsProduct()
+    public function testExtendsProduct(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\Product', $this->obj);
     }

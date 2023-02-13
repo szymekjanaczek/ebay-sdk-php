@@ -15,19 +15,19 @@ use DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesRequest;
 
 class GetProductSearchValuesRequestTest extends TestCase
 {
-    private $obj;
+    private GetProductSearchValuesRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetProductSearchValuesRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesRequest', $this->obj);
     }
 
-    public function testExtendsGetProductSearchValuesBaseRequest()
+    public function testExtendsGetProductSearchValuesBaseRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBaseRequest', $this->obj);
     }

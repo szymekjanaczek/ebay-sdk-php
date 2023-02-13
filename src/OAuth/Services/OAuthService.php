@@ -25,7 +25,7 @@ class OAuthService
     /**
      * @var array $endPoints The API endpoints.
      */
-    private static $endPoints = [
+    private static array $endPoints = [
         'sandbox'    => 'https://api.sandbox.ebay.com/identity',
         'production' => 'https://api.ebay.com/identity'
     ];
@@ -33,7 +33,7 @@ class OAuthService
     /**
      * @property array $operations Associative array of operations provided by the service.
      */
-    private static $operations = [
+    private static array $operations = [
         'getUserToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
@@ -60,17 +60,17 @@ class OAuthService
     /**
      * @var ConfigurationResolver Resolves configuration options.
      */
-    private $resolver;
+    private ConfigurationResolver $resolver;
 
     /**
      * @var UriResolver Resolves uri parameters.
      */
-    private $uriResolver;
+    private UriResolver $uriResolver;
 
     /**
      * @var array Associative array storing the current configuration option values.
      */
-    private $config;
+    private array $config;
 
     /**
      * @param array $config Configuration option values.
@@ -85,9 +85,9 @@ class OAuthService
     /**
      * Returns definitions for each configuration option that is supported.
      *
-     * @return array An associative array of configuration definitions.
+     * @return array{apiVersion: array{valid: string[], default: string, required: true}, profile: array{valid: string[], fn: string}, credentials: array{valid: class-string<CredentialsInterface>[]|string[], fn: string, default: string[]}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: array{http_errors: false}}, ruName: array{valid: string[], required: true}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions()
+    public static function getConfigDefinitions(): array
     {
         return [
             'apiVersion' => [
@@ -152,7 +152,7 @@ class OAuthService
      *
      * @param array $configuration Associative array of configuration options and their values.
      */
-    public function setConfig(array $configuration)
+    public function setConfig(array $configuration): void
     {
         $this->config = Functions\arrayMergeDeep(
             $this->config,
@@ -256,7 +256,7 @@ class OAuthService
     }
 
     /**
-     * @param GetAppTokenRestRequest $request
+     * @param GetAppTokenRestRequest|null $request
      * @return GetAppTokenRestResponse
      */
     public function getAppToken(GetAppTokenRestRequest $request = null)
@@ -265,7 +265,7 @@ class OAuthService
     }
 
     /**
-     * @param GetAppTokenRestRequest $request
+     * @param GetAppTokenRestRequest|null $request
      * @return PromiseInterface
      */
     public function getAppTokenAsync(GetAppTokenRestRequest $request = null)
@@ -290,11 +290,11 @@ class OAuthService
      * Sends an asynchronous API request.
      *
      * @param string $name The name of the operation.
-     * @param BaseType $request Request object containing the request information.
+     * @param BaseType|null $request Request object containing the request information.
      *
      * @return PromiseInterface A promise that will be resolved with an object created from the JSON response.
      */
-    private function callOperationAsync($name, BaseType $request = null)
+    private function callOperationAsync(string $name, BaseType $request = null)
     {
         $operation = static::$operations[$name];
 
@@ -329,7 +329,7 @@ class OAuthService
         $request = new Request($method, $url, $headers, $body);
 
         return $httpHandler($request, $httpOptions)->then(
-            function (ResponseInterface $res) use ($debug, $responseClass) {
+            function (ResponseInterface $res) use ($debug, $responseClass): object {
                 $json = $res->getBody()->getContents();
 
                 if ($debug !== false) {
@@ -380,7 +380,7 @@ class OAuthService
      *
      * @return array An associative array of HTTP headers.
      */
-    private function buildRequestHeaders($body)
+    private function buildRequestHeaders(string $body): array
     {
         $credentials = $this->getConfig('credentials');
         $appId = $credentials->getAppId();
@@ -403,11 +403,11 @@ class OAuthService
      * @param array $headers Associative array of HTTP headers.
      * @param string $body The JSON body of the request.
       */
-    private function debugRequest($url, array $headers, $body)
+    private function debugRequest(string $url, array $headers, string $body): void
     {
         $str = $url.PHP_EOL;
 
-        $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers) {
+        $str .= array_reduce(array_keys($headers), function ($str, $key) use ($headers): string {
             $str .= $key.': '.$headers[$key].PHP_EOL;
             return $str;
         }, '');
@@ -422,7 +422,7 @@ class OAuthService
      *
      * @param string $body The JSON body of the response.
       */
-    private function debugResponse($body)
+    private function debugResponse(string $body): void
     {
         $this->debug($body);
     }
@@ -432,7 +432,7 @@ class OAuthService
      *
      * @param string $str The debug information.
      */
-    private function debug($str)
+    private function debug(string $str): void
     {
         $debugger = $this->getConfig('debug');
         $debugger($str);

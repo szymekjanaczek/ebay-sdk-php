@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\FetchTokenRequestType;
 
 class FetchTokenRequestTypeTest extends TestCase
 {
-    private $obj;
+    private FetchTokenRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new FetchTokenRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\FetchTokenRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

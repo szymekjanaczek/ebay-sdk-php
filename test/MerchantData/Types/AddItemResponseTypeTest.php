@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\AddItemResponseType;
 
 class AddItemResponseTypeTest extends TestCase
 {
-    private $obj;
+    private AddItemResponseType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddItemResponseType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AddItemResponseType', $this->obj);
     }
 
-    public function testExtendsAbstractResponseType()
+    public function testExtendsAbstractResponseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractResponseType', $this->obj);
     }

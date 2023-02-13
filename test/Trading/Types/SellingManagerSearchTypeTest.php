@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\SellingManagerSearchType;
 
 class SellingManagerSearchTypeTest extends TestCase
 {
-    private $obj;
+    private SellingManagerSearchType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new SellingManagerSearchType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerSearchType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

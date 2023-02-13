@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CreateCustomListRestResponse;
 
 class CreateCustomListRestResponseTest extends TestCase
 {
-    private $obj;
+    private CreateCustomListRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CreateCustomListRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateCustomListRestResponse', $this->obj);
     }
 
-    public function testExtendsCreateCustomListResponse()
+    public function testExtendsCreateCustomListResponse(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateCustomListResponse', $this->obj);
     }

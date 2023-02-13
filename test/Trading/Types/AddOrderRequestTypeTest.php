@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\AddOrderRequestType;
 
 class AddOrderRequestTypeTest extends TestCase
 {
-    private $obj;
+    private AddOrderRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new AddOrderRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddOrderRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

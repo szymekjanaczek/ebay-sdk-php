@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest;
 
 class CheckCancellationEligibilityRestRequestTest extends TestCase
 {
-    private $obj;
+    private CheckCancellationEligibilityRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CheckCancellationEligibilityRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest', $this->obj);
     }
 
-    public function testExtendsOrderEligibilityCheckInfo()
+    public function testExtendsOrderEligibilityCheckInfo(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\OrderEligibilityCheckInfo', $this->obj);
     }

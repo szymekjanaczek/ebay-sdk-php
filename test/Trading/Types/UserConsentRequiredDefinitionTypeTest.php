@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\UserConsentRequiredDefinitionType;
 
 class UserConsentRequiredDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private UserConsentRequiredDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UserConsentRequiredDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\UserConsentRequiredDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestResponse;
 
 class GetListingsInSpecificPromotionRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetListingsInSpecificPromotionRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetListingsInSpecificPromotionRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetListingsInSpecificPromotionRestResponse', $this->obj);
     }
 
-    public function testExtendsItemsPagedCollection()
+    public function testExtendsItemsPagedCollection(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\ItemsPagedCollection', $this->obj);
     }

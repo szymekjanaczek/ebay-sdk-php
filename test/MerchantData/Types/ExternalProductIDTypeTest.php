@@ -15,19 +15,19 @@ use DTS\eBaySDK\MerchantData\Types\ExternalProductIDType;
 
 class ExternalProductIDTypeTest extends TestCase
 {
-    private $obj;
+    private ExternalProductIDType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExternalProductIDType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ExternalProductIDType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest;
 
 class UpdateCustomListRestRequestTest extends TestCase
 {
-    private $obj;
+    private UpdateCustomListRestRequest $obj;
 
     protected function setUp(): void
     {
         $this->obj = new UpdateCustomListRestRequest();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\UpdateCustomListRestRequest', $this->obj);
     }
 
-    public function testExtendsModifyCustomListRequest()
+    public function testExtendsModifyCustomListRequest(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ModifyCustomListRequest', $this->obj);
     }

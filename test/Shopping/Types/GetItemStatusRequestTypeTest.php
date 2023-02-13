@@ -15,19 +15,19 @@ use DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType;
 
 class GetItemStatusRequestTypeTest extends TestCase
 {
-    private $obj;
+    private GetItemStatusRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetItemStatusRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }

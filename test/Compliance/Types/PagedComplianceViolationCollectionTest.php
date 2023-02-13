@@ -15,19 +15,19 @@ use DTS\eBaySDK\Compliance\Types\PagedComplianceViolationCollection;
 
 class PagedComplianceViolationCollectionTest extends TestCase
 {
-    private $obj;
+    private PagedComplianceViolationCollection $obj;
 
     protected function setUp(): void
     {
         $this->obj = new PagedComplianceViolationCollection();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\PagedComplianceViolationCollection', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

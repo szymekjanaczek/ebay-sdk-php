@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType;
 
 class BrandMPNIdentifierEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private BrandMPNIdentifierEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BrandMPNIdentifierEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

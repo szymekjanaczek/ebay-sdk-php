@@ -15,14 +15,14 @@ use DTS\eBaySDK\Trading\Enums\CostGroupFlatCodeType;
 
 class CostGroupFlatCodeTypeTest extends TestCase
 {
-    private $obj;
+    private CostGroupFlatCodeType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CostGroupFlatCodeType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CostGroupFlatCodeType', $this->obj);
     }

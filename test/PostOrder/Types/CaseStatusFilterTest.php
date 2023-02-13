@@ -15,19 +15,19 @@ use DTS\eBaySDK\PostOrder\Types\CaseStatusFilter;
 
 class CaseStatusFilterTest extends TestCase
 {
-    private $obj;
+    private CaseStatusFilter $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CaseStatusFilter();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CaseStatusFilter', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

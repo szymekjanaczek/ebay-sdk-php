@@ -20,7 +20,7 @@ class CaseArrayType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'caseSummary' => [
             'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType',
             'repeatable' => true,

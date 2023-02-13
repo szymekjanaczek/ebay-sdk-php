@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CharityIDType;
 
 class CharityIDTypeTest extends TestCase
 {
-    private $obj;
+    private CharityIDType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CharityIDType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CharityIDType', $this->obj);
     }
 
-    public function testExtendsStringType()
+    public function testExtendsStringType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }

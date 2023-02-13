@@ -22,7 +22,7 @@ class MeasureType extends DecimalType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'unit' => [
             'type' => 'string',
             'repeatable' => false,

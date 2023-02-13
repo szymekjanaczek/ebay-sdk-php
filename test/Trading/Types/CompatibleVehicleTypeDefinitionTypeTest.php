@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\CompatibleVehicleTypeDefinitionType;
 
 class CompatibleVehicleTypeDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private CompatibleVehicleTypeDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new CompatibleVehicleTypeDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CompatibleVehicleTypeDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

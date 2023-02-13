@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\RevisePriceAllowedDefinitionType;
 
 class RevisePriceAllowedDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private RevisePriceAllowedDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new RevisePriceAllowedDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\RevisePriceAllowedDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

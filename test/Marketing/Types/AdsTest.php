@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\Ads;
 
 class AdsTest extends TestCase
 {
-    private $obj;
+    private Ads $obj;
 
     protected function setUp(): void
     {
         $this->obj = new Ads();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\Ads', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

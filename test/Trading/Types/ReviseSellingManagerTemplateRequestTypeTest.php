@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ReviseSellingManagerTemplateRequestType;
 
 class ReviseSellingManagerTemplateRequestTypeTest extends TestCase
 {
-    private $obj;
+    private ReviseSellingManagerTemplateRequestType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ReviseSellingManagerTemplateRequestType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseSellingManagerTemplateRequestType', $this->obj);
     }
 
-    public function testExtendsAbstractRequestType()
+    public function testExtendsAbstractRequestType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }

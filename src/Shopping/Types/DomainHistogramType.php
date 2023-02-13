@@ -20,7 +20,7 @@ class DomainHistogramType extends BaseType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'Domain' => [
             'type' => 'DTS\eBaySDK\Shopping\Types\HistogramEntryType',
             'repeatable' => true,

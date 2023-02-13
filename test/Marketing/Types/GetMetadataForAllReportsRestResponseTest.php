@@ -15,19 +15,19 @@ use DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestResponse;
 
 class GetMetadataForAllReportsRestResponseTest extends TestCase
 {
-    private $obj;
+    private GetMetadataForAllReportsRestResponse $obj;
 
     protected function setUp(): void
     {
         $this->obj = new GetMetadataForAllReportsRestResponse();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetMetadataForAllReportsRestResponse', $this->obj);
     }
 
-    public function testExtendsReportMetadatas()
+    public function testExtendsReportMetadatas(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\ReportMetadatas', $this->obj);
     }

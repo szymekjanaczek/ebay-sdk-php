@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\ExpressEnabledDefinitionType;
 
 class ExpressEnabledDefinitionTypeTest extends TestCase
 {
-    private $obj;
+    private ExpressEnabledDefinitionType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new ExpressEnabledDefinitionType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ExpressEnabledDefinitionType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

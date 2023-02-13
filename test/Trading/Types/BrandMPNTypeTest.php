@@ -15,19 +15,19 @@ use DTS\eBaySDK\Trading\Types\BrandMPNType;
 
 class BrandMPNTypeTest extends TestCase
 {
-    private $obj;
+    private BrandMPNType $obj;
 
     protected function setUp(): void
     {
         $this->obj = new BrandMPNType();
     }
 
-    public function testCanBeCreated()
+    public function testCanBeCreated(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BrandMPNType', $this->obj);
     }
 
-    public function testExtendsBaseType()
+    public function testExtendsBaseType(): void
     {
         $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }

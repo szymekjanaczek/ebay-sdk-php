@@ -19,7 +19,7 @@ class FindProductsByCompatibilityRequest extends BaseServiceRequest
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'productByCompatibilitySearch' => [
             'type' => 'DTS\eBaySDK\Product\Types\ProductByCompatibilityRequest',
             'repeatable' => true,

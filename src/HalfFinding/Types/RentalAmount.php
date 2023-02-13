@@ -22,7 +22,7 @@ class RentalAmount extends DoubleType
     /**
      * @var array Properties belonging to objects of this class.
      */
-    private static $propertyTypes = [
+    private static array $propertyTypes = [
         'duration' => [
             'type' => 'string',
             'repeatable' => false,
