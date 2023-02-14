@@ -1,14 +1,16 @@
 # eBay SDK for PHP
 
 This is a fork of the original [dts/ebay-sdk-php](https://github.com/davidtsadler/ebay-sdk-php) by [@davidtsadler](https://github.com/davidtsadler), with support for PHP 7.3, PHP 7.4 and PHP 8, and compatibility with Guzzle 7.
+...and the fork of the BenMorel's fork [BenMorel/ebay-sdk-php](https://github.com/BenMorel/ebay-sdk-php), with support for PHP 7.3, PHP 7.4 and PHP 8, and compatibility with Guzzle 7.
 
 The original project has been officially abandoned in February 2020.
 
-**I'm planning to maintain this fork in the short term.** The aim is not to keep it up to date with the latest eBay API versions,
+> **I'm planning to maintain this fork in the short term.** The aim is not to keep it up to date with the latest eBay API versions,
 but to provide a solution for a smooth upgrade of existing apps to PHP 8. New users should seek a better SDK for PHP.
+> ~ [Benjamin Morel](https://github.com/BenMorel)
 
-[![Build Status](https://travis-ci.com/BenMorel/ebay-sdk-php.svg?branch=master)](https://travis-ci.com/BenMorel/ebay-sdk-php)
-[![Latest Stable Version](https://poser.pugx.org/benmorel/ebay-sdk-php/v/stable)](https://packagist.org/packages/benmorel/ebay-sdk-php)
+Last year, [Benjamin Morel](https://github.com/BenMorel) updated it to be compatible with PHP 8.0, then me cleaned codebase and prepared for use with PHP ≥8.0.
+
 ---
 
 This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/api-documentation) in their PHP code, and build software using services such as [Finding](http://developer.ebay.com/Devzone/finding/Concepts/FindingAPIGuide.html), [Trading](http://developer.ebay.com/DevZone/guides/ebayfeatures/index.html), [Shopping](http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html), etc. You can get started by [installing the SDK via Composer](http://devbay.net/sdk/guides/getting-started/installation.html) and by following the [Basic Usage Guide](http://devbay.net/sdk/guides/getting-started/basic-usage.html).
@@ -17,9 +19,9 @@ This is a personal project that was originally developed by David T. Sadler, who
 
 ## Features
 
-  - Compatible with PHP 7.4 or PHP 8.
+  - Compatible with PHP ≥8.0.
   - Easy to install with [Composer](http://getcomposer.org/).
-  - Compliant with [PSR-1](http://www.php-fig.org/psr/psr-1/), [PSR-2](http://www.php-fig.org/psr/psr-2/) and [PSR-4](http://www.php-fig.org/psr/psr-4/).
+  - Compliant with [PSR-1](http://www.php-fig.org/psr/psr-1/), [PSR-2](http://www.php-fig.org/psr/psr-2/), [PSR-4](http://www.php-fig.org/psr/psr-4/) and [PSR-12](http://www.php-fig.org/psr/psr-12/).
 
 ## Resources
 
@@ -28,9 +30,15 @@ This is a personal project that was originally developed by David T. Sadler, who
 
 ## Requirements
 
-  - PHP 7.4 or PHP 8 with the following extensions:
+  - PHP ≥8.0 with the following extensions:
+    - production:
       - curl
       - libxml
+      - xmlwriter
+    - package development purposes:
+      - dom
+      - tokenizer
+      - simplexml
   - 64 bit version as there are some [issues when using the SDK with 32 bit](http://devbay.net/sdk/guides/getting-started/requirements.html#using-the-sdk-with-32-bit-systems).
   - SSL enabled on the cURL extension so that https requests can be made.
 
@@ -39,7 +47,7 @@ This is a personal project that was originally developed by David T. Sadler, who
 The SDK can be installed with [Composer](http://getcomposer.org/):
 
 ```
-composer require benmorel/ebay-sdk-php
+composer require szymekjanaczek/ebay-sdk-php
 ```
 
 ## Example
