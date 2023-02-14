@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Types;
 
 /**
@@ -13,9 +14,9 @@ class Base64BinaryType extends BaseType
      */
     private static array $propertyTypes = [
         'value' => [
-            'type' => 'string',
+            'type'       => 'string',
             'repeatable' => false,
-            'attribute' => false
+            'attribute'  => false
         ]
     ];
 

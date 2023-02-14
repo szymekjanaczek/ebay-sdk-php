@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\BulkDataExchange\Mocks;
 
 use DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeBaseService;

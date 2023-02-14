@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 use InvalidArgumentException;
@@ -17,7 +18,7 @@ function describeType($value)
 {
     switch (gettype($value)) {
         case 'object':
-            return 'object('. get_class($value) . ')';
+            return 'object(' . get_class($value) . ')';
         case 'array':
             return 'array(' . count($value) . ')';
         default:
@@ -90,7 +91,8 @@ function applyCredentials($value, array &$configuration)
         }
     } elseif ($value instanceof CredentialsInterface) {
         return;
-    } elseif (is_array($value)
+    } elseif (
+        is_array($value)
         && isset($value['appId'])
         && isset($value['certId'])
         && isset($value['devId'])

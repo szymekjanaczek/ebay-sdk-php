@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2014 Michael Dowling, https://github.com/mtdowling
  *
@@ -20,11 +21,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 use ArrayAccess;
 use stdClass;
 use RuntimeException;
+
 /**
  * Tree visitor used to evaluates JMESPath AST expressions.
  */
@@ -67,7 +70,6 @@ class TreeInterpreter
     private function dispatch(array $node, $value)
     {
         switch ($node['type']) {
-
             case 'field':
                 if (is_array($value) || $value instanceof ArrayAccess) {
                     return isset($value[$node['value']]) ? $value[$node['value']] : null;
@@ -258,11 +260,16 @@ class TreeInterpreter
         }
 
         switch ($cmp) {
-            case '>': return $left > $right;
-            case '>=': return $left >= $right;
-            case '<': return $left < $right;
-            case '<=': return $left <= $right;
-            default: throw new RuntimeException("Invalid comparison: $cmp");
+            case '>':
+                return $left > $right;
+            case '>=':
+                return $left >= $right;
+            case '<':
+                return $left < $right;
+            case '<=':
+                return $left <= $right;
+            default:
+                throw new RuntimeException("Invalid comparison: $cmp");
         }
     }
 }

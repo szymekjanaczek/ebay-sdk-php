@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -41,12 +42,12 @@ class RestServiceTest extends TestCase
 
         $this->assertArrayHasKey('requestLanguage', $d);
         $this->assertEquals([
-            'valid'   => ['string']
+            'valid' => ['string']
         ], $d['requestLanguage']);
 
         $this->assertArrayHasKey('responseLanguage', $d);
         $this->assertEquals([
-            'valid'   => ['string']
+            'valid' => ['string']
         ], $d['responseLanguage']);
 
         $this->assertArrayHasKey('sandbox', $d);
@@ -61,7 +62,7 @@ class RestServiceTest extends TestCase
         // By default sandbox will be false.
         $h = new HttpRestHandler();
         $s = new RestService([
-            'httpHandler'   => $h
+            'httpHandler' => $h
         ]);
         $s->foo(new ComplexClass());
 
@@ -72,8 +73,8 @@ class RestServiceTest extends TestCase
     {
         $h = new HttpRestHandler();
         $s = new RestService([
-            'sandbox' => true,
-            'httpHandler'   => $h
+            'sandbox'     => true,
+            'httpHandler' => $h
         ]);
         $s->foo(new ComplexClass());
 
@@ -84,10 +85,10 @@ class RestServiceTest extends TestCase
     {
         $h = new HttpRestHandler();
         $s = new RestService([
-            'requestLanguage' => 'en-GB',
+            'requestLanguage'  => 'en-GB',
             'responseLanguage' => 'en-US',
-            'sandbox' => true,
-            'httpHandler'   => $h
+            'sandbox'          => true,
+            'httpHandler'      => $h
         ]);
         $s->foo(new ComplexClass());
 
@@ -107,7 +108,7 @@ class RestServiceTest extends TestCase
     {
         $h = new HttpRestHandler();
         $s = new RestService([
-            'httpHandler'   => $h
+            'httpHandler' => $h
         ]);
         $r = new ComplexClass();
         $r->foo = 'foo';
@@ -120,7 +121,7 @@ class RestServiceTest extends TestCase
     {
         $h = new HttpRestHandler();
         $s = new RestService([
-            'httpHandler'   => $h
+            'httpHandler' => $h
         ]);
         $s->foo(new ComplexClass());
 
@@ -130,7 +131,7 @@ class RestServiceTest extends TestCase
     public function testResponseIsReturned(): void
     {
         $s = new RestService([
-            'httpHandler'   => new HttpRestHandler()
+            'httpHandler' => new HttpRestHandler()
         ]);
         $r = $s->foo(new ComplexClass());
 
@@ -140,20 +141,20 @@ class RestServiceTest extends TestCase
     public function testDebugging(): void
     {
         $str = '';
-        $logfn = static function ($value) use (&$str) : void {
+        $logfn = static function ($value) use (&$str): void {
             $str .= $value;
         };
 
         $s = new RestService([
-            'debug' => ['logfn' => $logfn],
-            'httpHandler'   => new HttpRestHandler()
+            'debug'       => ['logfn' => $logfn],
+            'httpHandler' => new HttpRestHandler()
         ]);
         $r = new ComplexClass();
         $r->foo = 'foo';
         $s->foo($r);
 
         $this->assertStringContainsString('Content-Type: application/json', $str);
-        $this->assertStringContainsString('Content-Length: '.strlen(json_encode($r->toArray())), $str);
+        $this->assertStringContainsString('Content-Length: ' . strlen(json_encode($r->toArray())), $str);
         $this->assertStringContainsString('{', $str);
         $this->assertStringContainsString('}', $str);
     }
@@ -162,40 +163,40 @@ class RestServiceTest extends TestCase
     {
         $h = new HttpRestHandler();
         $s = new RestService([
-            'sandbox' => true,
+            'sandbox'          => true,
             'compressResponse' => true,
-            'httpHandler' => $h,
-            'httpOptions' => []
+            'httpHandler'      => $h,
+            'httpOptions'      => []
         ]);
 
         $this->assertEquals([
-            'apiVersion' => 'v1',
+            'apiVersion'       => 'v1',
             'compressResponse' => true,
-            'sandbox' => true,
-            'debug' => false,
-            'httpHandler' => $h,
-            'httpOptions' => []
+            'sandbox'          => true,
+            'debug'            => false,
+            'httpHandler'      => $h,
+            'httpOptions'      => []
         ], $s->getConfig());
 
         $s->setConfig([
-            'sandbox' => false,
-            'compressResponse' => false,
+            'sandbox'          => false,
+            'compressResponse' => false
         ]);
 
         $this->assertEquals([
-            'apiVersion' => 'v1',
+            'apiVersion'       => 'v1',
             'compressResponse' => false,
-            'sandbox' => false,
-            'debug' => false,
-            'httpHandler' => $h,
-            'httpOptions' => []
+            'sandbox'          => false,
+            'debug'            => false,
+            'httpHandler'      => $h,
+            'httpOptions'      => []
         ], $s->getConfig());
     }
 
     public function testSetConfigWillThrow(): void
     {
         $s = new RestService([
-            'x'=> 1
+            'x' => 1
         ]);
 
         $this->expectException(InvalidArgumentException::class);

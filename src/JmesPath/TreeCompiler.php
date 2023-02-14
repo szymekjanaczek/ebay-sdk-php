@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2014 Michael Dowling, https://github.com/mtdowling
  *
@@ -20,9 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 use RuntimeException;
+
 /**
  * Tree visitor used to compile JMESPath expressions into native PHP code.
  */
@@ -202,7 +205,8 @@ class TreeCompiler
             $check = '$value[' . $node['value'] . ']';
             return $this->write(
                 '$value = (is_array($value) || $value instanceof \ArrayAccess) && isset(%s) ? %s : null;',
-                $check, $check
+                $check,
+                $check
             );
         }
 
@@ -284,7 +288,8 @@ class TreeCompiler
 
         return $this->write(
             '$value = Fn::getInstance()->__invoke("%s", %s);',
-            $node['value'], $args
+            $node['value'],
+            $args
         );
     }
 
@@ -292,7 +297,8 @@ class TreeCompiler
     {
         return $this
             ->write('$value = !is_string($value) && !Utils::isArray($value)')
-            ->write('    ? null : Utils::slice(Utils::toArray($value), %s, %s, %s);',
+            ->write(
+                '    ? null : Utils::slice(Utils::toArray($value), %s, %s, %s);',
                 var_export($node['value'][0], true),
                 var_export($node['value'][1], true),
                 var_export($node['value'][2], true)
@@ -429,7 +435,13 @@ class TreeCompiler
         } else {
             $this->write(
                 '$value = (is_int(%s) || is_float(%s)) && (is_int(%s) || is_float(%s)) && %s %s %s;',
-                $a, $a, $b, $b, $a, $node['value'], $b
+                $a,
+                $a,
+                $b,
+                $b,
+                $a,
+                $node['value'],
+                $b
             );
         }
 

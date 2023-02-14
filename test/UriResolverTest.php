@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -13,24 +14,24 @@ class UriResolverTest extends TestCase
         $r = new UriResolver();
 
         $paramDefs = [
-            'array' => [
-                'valid' => ['array'],
+            'array'    => [
+                'valid'   => ['array'],
                 'default' => ['foo', 'bar']
             ],
-            'bool' => [
-                'valid' => ['bool'],
+            'bool'     => [
+                'valid'   => ['bool'],
                 'default' => true
             ],
             'callable' => [
-                'valid' => ['int'],
+                'valid'   => ['int'],
                 'default' => [StaticMethods::class, 'defaultConfigValue']
             ],
-            'int' => [
-                'valid' => ['int'],
+            'int'      => [
+                'valid'   => ['int'],
                 'default' => -1
             ],
-            'string' => [
-                'valid' => ['string'],
+            'string'   => [
+                'valid'   => ['string'],
                 'default' => 'foo'
             ]
         ];
@@ -49,7 +50,7 @@ class UriResolverTest extends TestCase
 
         $paramDefs = [
             'foo' => [
-                'valid' => ['int'],
+                'valid'    => ['int'],
                 'required' => true
             ]
         ];
@@ -177,30 +178,30 @@ class UriResolverTest extends TestCase
         $r = new UriResolver();
 
         $paramDefs = [
-            'array' => [
+            'array'    => [
                 'valid' => ['array']
             ],
-            'bool' => [
+            'bool'     => [
                 'valid' => ['bool']
             ],
             'callable' => [
                 'valid' => ['callable']
             ],
-            'int' => [
+            'int'      => [
                 'valid' => ['int']
             ],
-            'string' => [
+            'string'   => [
                 'valid' => ['string']
             ]
         ];
 
         $paramValues = [
-            'array' => [],
-            'bool' => true,
-            'callable' => static function () : void {
+            'array'    => [],
+            'bool'     => true,
+            'callable' => static function (): void {
             },
-            'int' => 1,
-            'string' => 'foo'
+            'int'      => 1,
+            'string'   => 'foo'
         ];
 
         $this->assertEquals(
@@ -216,7 +217,7 @@ class UriResolverTest extends TestCase
         $paramDefs = [
             'foo' => [
                 'valid' => ['int'],
-                'fn' => [StaticMethods::class, 'applyConfigValue']
+                'fn'    => [StaticMethods::class, 'applyConfigValue']
             ]
         ];
 
@@ -235,10 +236,10 @@ class UriResolverTest extends TestCase
         $r = new UriResolver();
 
         $paramDefs = [
-            'path1' => [
+            'path1'  => [
                 'valid' => ['string']
             ],
-            'path2' => [
+            'path2'  => [
                 'valid' => ['string']
             ],
             'param1' => [
@@ -250,8 +251,8 @@ class UriResolverTest extends TestCase
         ];
 
         $paramValues = [
-            'path1' => 'foo',
-            'path2' => 'bar',
+            'path1'  => 'foo',
+            'path2'  => 'bar',
             'param1' => 'baz',
             'param2' => 'shaz'
         ];
@@ -286,11 +287,9 @@ class UriResolverTest extends TestCase
     {
         $r = new UriResolver();
 
-        $paramDefs = [
-        ];
+        $paramDefs = [];
 
-        $paramValues = [
-        ];
+        $paramValues = [];
 
         $this->assertEquals(
             'https://example.com/v1/item',

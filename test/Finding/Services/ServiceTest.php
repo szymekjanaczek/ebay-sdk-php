@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Finding\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -15,7 +16,7 @@ class ServiceTest extends TestCase
 
         $this->assertArrayHasKey('apiVersion', $d);
         $this->assertEquals([
-            'valid' => ['string'],
+            'valid'   => ['string'],
             'default' => FindingService::API_VERSION
         ], $d['apiVersion']);
 
@@ -55,9 +56,9 @@ class ServiceTest extends TestCase
         $h = new HttpHandler();
 
         $s = new Service([
-            'apiVersion' => '123',
+            'apiVersion'  => '123',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'globalId' => '999',
+            'globalId'    => '999',
             'httpHandler' => $h
         ]);
 

@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\OAuth\Types;
 
 use DTS\eBaySDK\Types\BaseType;
+
 /**
  *
  * @property string $grant_type
@@ -14,22 +16,22 @@ class RefreshUserTokenRestRequest extends BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static array $propertyTypes = [
-        'grant_type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'grant_type'    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'grant_type'
         ],
         'refresh_token' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'redirect_uri'
         ],
-        'scope' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'scope'         => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'code'
         ]
     ];

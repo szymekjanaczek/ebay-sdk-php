@@ -1,15 +1,15 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class RestService extends BaseRestService
 {
     protected static $operations =  [
         'foo' => [
-            'method' => 'GET',
-            'resource' => '',
+            'method'        => 'GET',
+            'resource'      => '',
             'responseClass' => '\DTS\eBaySDK\Test\Mocks\ComplexClass',
-            'params' => [
-            ]
+            'params'        => []
         ]
     ];
 

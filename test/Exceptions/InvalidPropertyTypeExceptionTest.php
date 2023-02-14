@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Exceptions\Test;
 
 use PHPUnit\Framework\TestCase;

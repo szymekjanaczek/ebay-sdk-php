@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 use DTS\eBaySDK\Account\Services\AccountService;
@@ -26,6 +27,7 @@ use DTS\eBaySDK\Shopping\Services\ShoppingService;
 use DTS\eBaySDK\Trading\Services\TradingService;
 use DTS\eBaySDK\Services\BaseService;
 use BadMethodCallException;
+
 /**
  * Builds DTS\eBaySDK services based on passed configuration options.
  *

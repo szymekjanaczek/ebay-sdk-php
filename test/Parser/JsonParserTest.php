@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Parser;
 
 use PHPUnit\Framework\TestCase;
@@ -12,7 +13,7 @@ class JsonParserTest extends TestCase
     public function testCanParseJson(): void
     {
         $obj = new ComplexClass();
-        $json = file_get_contents(__DIR__.'/../Mocks/ResponseWithUnknownProperties.json');
+        $json = file_get_contents(__DIR__ . '/../Mocks/ResponseWithUnknownProperties.json');
         JsonParser::parseAndAssignProperties($obj, $json);
 
         $this->assertInstanceOf('\DTS\eBaySDK\Test\Mocks\ComplexClass', $obj);

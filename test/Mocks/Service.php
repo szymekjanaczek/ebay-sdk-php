@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class Service extends BaseService
@@ -8,9 +9,9 @@ class Service extends BaseService
         parent::__construct(
             $config + [
                 'credentials' => [
-                    'appId' => '',
+                    'appId'  => '',
                     'certId' => '',
-                    'devId' => ''
+                    'devId'  => ''
                 ]
             ]
         );

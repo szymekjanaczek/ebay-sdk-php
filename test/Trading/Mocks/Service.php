@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Trading\Mocks;
 
 use DTS\eBaySDK\Trading\Services\TradingBaseService;

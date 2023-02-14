@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 use InvalidArgumentException;
+
 /**
  * @internal Resolves a resource uri.
  */
@@ -11,11 +13,11 @@ class UriResolver
      * @var array Map of type to function that confirms type.
      */
     private static array $typeMap = [
-        'array' => 'is_array',
-        'bool' => 'is_bool',
+        'array'    => 'is_array',
+        'bool'     => 'is_bool',
         'callable' => 'is_callable',
-        'int' => 'is_int',
-        'string' => 'is_string'
+        'int'      => 'is_int',
+        'string'   => 'is_string'
     ];
 
     public function __construct()
@@ -63,9 +65,9 @@ class UriResolver
         }
 
         return (
-            "$uri/".
-            "$version/".
-            $this->fillPathParams($resource, $paramValues).
+            "$uri/" .
+            "$version/" .
+            $this->fillPathParams($resource, $paramValues) .
             $this->buildQueryParameters($paramValues)
         );
     }
@@ -98,7 +100,8 @@ class UriResolver
         $missing = [];
 
         foreach ($paramDefs as $key => $def) {
-            if (empty($def['required'])
+            if (
+                empty($def['required'])
                 || isset($def['default'])
                 || array_key_exists($key, $paramValues)
             ) {
@@ -158,9 +161,9 @@ class UriResolver
                 $value = $value();
             }
 
-            $query[] = $param.'='.urlencode($value);
+            $query[] = $param . '=' . urlencode($value);
         }
 
-        return '?'.join('&', $query);
+        return '?' . join('&', $query);
     }
 }

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Catalog\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -15,14 +16,14 @@ class ServiceTest extends TestCase
 
         $this->assertArrayHasKey('apiVersion', $d);
         $this->assertEquals([
-            'valid' => ['string'],
-            'default' => CatalogService::API_VERSION,
+            'valid'    => ['string'],
+            'default'  => CatalogService::API_VERSION,
             'required' => true
         ], $d['apiVersion']);
 
         $this->assertArrayHasKey('authorization', $d);
         $this->assertEquals([
-            'valid'   => ['string'],
+            'valid'    => ['string'],
             'required' => true
         ], $d['authorization']);
 
@@ -38,7 +39,7 @@ class ServiceTest extends TestCase
 
         $s = new Service([
             'authorization' => '321',
-            'httpHandler' => $h
+            'httpHandler'   => $h
         ]);
 
         $s->testOperation();
@@ -58,7 +59,7 @@ class ServiceTest extends TestCase
         $s = new Service([
             'authorization' => '321',
             'marketplaceId' => '123',
-            'httpHandler' => $h
+            'httpHandler'   => $h
         ]);
 
         $s->testOperation();

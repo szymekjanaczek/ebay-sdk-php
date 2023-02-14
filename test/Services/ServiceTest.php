@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -55,7 +56,7 @@ class ServiceTest extends TestCase
         $this->assertArrayHasKey('profile', $d);
         $this->assertEquals([
             'valid' => ['string'],
-            'fn'    => 'DTS\eBaySDK\applyProfile',
+            'fn'    => 'DTS\eBaySDK\applyProfile'
         ], $d['profile']);
 
         $this->assertArrayHasKey('sandbox', $d);
@@ -79,7 +80,7 @@ class ServiceTest extends TestCase
     {
         $h = new HttpHandler();
         $s = new Service([
-            'sandbox' => true,
+            'sandbox'     => true,
             'httpHandler' => $h
         ]);
         $s->foo(new ComplexClass());
@@ -123,12 +124,12 @@ class ServiceTest extends TestCase
     public function testDebugging(): void
     {
         $str = '';
-        $logfn = static function ($value) use (&$str) : void {
+        $logfn = static function ($value) use (&$str): void {
             $str .= $value;
         };
 
         $s = new Service([
-            'debug' => ['logfn' => $logfn],
+            'debug'       => ['logfn' => $logfn],
             'httpHandler' => new HttpHandler()
         ]);
         $r = new ComplexClass();
@@ -136,7 +137,7 @@ class ServiceTest extends TestCase
 
         $this->assertStringContainsString('fooHdr: foo', $str);
         $this->assertStringContainsString('Content-Type: text/xml', $str);
-        $this->assertStringContainsString('Content-Length: '.strlen($r->toRequestXml()), $str);
+        $this->assertStringContainsString('Content-Length: ' . strlen($r->toRequestXml()), $str);
         $this->assertStringContainsString('<?xml version="1.0" encoding="UTF-8"?>', $str);
     }
 
@@ -157,9 +158,9 @@ class ServiceTest extends TestCase
     {
         $s = new Service([
             'credentials' => [
-                'appId' => '111',
+                'appId'  => '111',
                 'certId' => '222',
-                'devId' => '333'
+                'devId'  => '333'
             ],
             'httpHandler' => new HttpHandler()
         ]);
@@ -173,7 +174,7 @@ class ServiceTest extends TestCase
     public function testCredentialsCanBeProvided(): void
     {
         $s = new Service([
-            'credentials' => static function () : Credentials {
+            'credentials' => static function (): Credentials {
                 return new Credentials('111', '222', '333');
             },
             'httpHandler' => new HttpHandler()
@@ -199,7 +200,7 @@ EOT;
         putenv('HOME=' . dirname($dir));
 
         $s = new Service([
-            'profile' => 'foo',
+            'profile'     => 'foo',
             'httpHandler' => new HttpHandler()
         ]);
         $c = $s->getCredentials();
@@ -225,7 +226,7 @@ EOT;
         $this->expectExceptionMessage('No credentials present in INI profile');
 
         $s = new Service([
-            'profile' => 'foo',
+            'profile'     => 'foo',
             'httpHandler' => new HttpHandler()
         ]);
 
@@ -243,7 +244,7 @@ EOT;
         $this->expectExceptionMessage('Cannot locate credentials');
 
         new Service([
-            'credentials' => static function () : InvalidArgumentException {
+            'credentials' => static function (): InvalidArgumentException {
                 return new InvalidArgumentException('Cannot locate credentials');
             },
             'httpHandler' => new HttpHandler()
@@ -254,52 +255,52 @@ EOT;
     {
         $h = new HttpHandler();
         $s = new Service([
-            'sandbox' => true,
+            'sandbox'          => true,
             'compressResponse' => true,
-            'credentials' => [
-                'appId' => '111',
+            'credentials'      => [
+                'appId'  => '111',
                 'certId' => '222',
-                'devId' => '333'
+                'devId'  => '333'
             ],
-            'httpHandler' => $h,
-            'httpOptions' => []
+            'httpHandler'      => $h,
+            'httpOptions'      => []
         ]);
 
         $this->assertEquals([
-            'sandbox' => true,
+            'sandbox'          => true,
             'compressResponse' => true,
-            'credentials' => new Credentials('111', '222', '333'),
-            'debug' => false,
-            'httpHandler' => $h,
-            'httpOptions' => []
+            'credentials'      => new Credentials('111', '222', '333'),
+            'debug'            => false,
+            'httpHandler'      => $h,
+            'httpOptions'      => []
         ], $s->getConfig());
 
         $s->setConfig([
-            'sandbox' => false,
+            'sandbox'          => false,
             'compressResponse' => false,
-            'credentials' => static function () : Credentials {
+            'credentials'      => static function (): Credentials {
                 return new Credentials('444', '555', '666');
             }
         ]);
 
         $this->assertEquals([
-            'sandbox' => false,
+            'sandbox'          => false,
             'compressResponse' => false,
-            'credentials' => new Credentials('444', '555', '666'),
-            'debug' => false,
-            'httpHandler' => $h,
-            'httpOptions' => []
+            'credentials'      => new Credentials('444', '555', '666'),
+            'debug'            => false,
+            'httpHandler'      => $h,
+            'httpOptions'      => []
         ], $s->getConfig());
     }
 
     public function testSetConfigWillThrow(): void
     {
         $s = new Service([
-            'x'=> 1,
+            'x'           => 1,
             'credentials' => [
-                'appId' => '111',
+                'appId'  => '111',
                 'certId' => '222',
-                'devId' => '333'
+                'devId'  => '333'
             ]
         ]);
 

@@ -1,10 +1,12 @@
 <?php
+
 namespace DTS\eBaySDK\Parser;
 
 use DTS\eBaySDK\Types\BaseType;
 use stdClass;
 use DateTime;
 use DateTimeZone;
+
 class JsonParser
 {
     /**
@@ -45,7 +47,7 @@ class JsonParser
             return $value;
         }
 
-        return array_filter($value, static function ($val) : bool {
+        return array_filter($value, static function ($val): bool {
             return !is_null($val);
         });
     }

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\FileTransfer\Services;
 
 use DTS\eBaySDK\Services\BaseService;
@@ -7,6 +8,7 @@ use GuzzleHttp\Promise\PromiseInterface;
 use DTS\eBaySDK\FileTransfer\Types\FileAttachment;
 use DTS\eBaySDK\FileTransfer\Types\Data;
 use DTS\eBaySDK\FileTransfer\Types\XopInclude;
+
 /**
  * Base class for the FileTransfer service.
  */
@@ -40,16 +42,17 @@ class FileTransferBaseService extends BaseService
      *
      * @return array{apiVersion: array{valid: string[], default: string}, authToken: array{valid: string[], required: true}, profile: array{valid: string[], fn: string}, compressResponse: array{valid: string[], default: false}, credentials: array{valid: string[], fn: string, default: string[]}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: never[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions(): array    {
+    public static function getConfigDefinitions(): array
+    {
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
             'apiVersion' => [
-                'valid' => ['string'],
+                'valid'   => ['string'],
                 'default' => FileTransferService::API_VERSION
             ],
-            'authToken' => [
-                'valid' => ['string'],
+            'authToken'  => [
+                'valid'    => ['string'],
                 'required' => true
             ]
         ];

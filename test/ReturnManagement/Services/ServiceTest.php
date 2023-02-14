@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\ReturnManagement\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -15,13 +16,13 @@ class ServiceTest extends TestCase
 
         $this->assertArrayHasKey('apiVersion', $d);
         $this->assertEquals([
-            'valid' => ['string'],
+            'valid'   => ['string'],
             'default' => ReturnManagementService::API_VERSION
         ], $d['apiVersion']);
 
         $this->assertArrayHasKey('authToken', $d);
         $this->assertEquals([
-            'valid' => ['string'],
+            'valid'    => ['string'],
             'required' => true
         ], $d['authToken']);
 
@@ -36,7 +37,7 @@ class ServiceTest extends TestCase
         $h = new HttpHandler();
 
         $s = new Service([
-            'authToken' => '321',
+            'authToken'   => '321',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
             'httpHandler' => $h
         ]);
@@ -62,10 +63,10 @@ class ServiceTest extends TestCase
         $h = new HttpHandler();
 
         $s = new Service([
-            'apiVersion' => '123',
-            'authToken' => '321',
+            'apiVersion'  => '123',
+            'authToken'   => '321',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'globalId' => '999',
+            'globalId'    => '999',
             'httpHandler' => $h
         ]);
 

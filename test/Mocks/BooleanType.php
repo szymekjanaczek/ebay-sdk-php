@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class BooleanType extends \DTS\eBaySDK\Types\BooleanType

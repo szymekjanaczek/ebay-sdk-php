@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Types\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -13,45 +14,45 @@ class ConstructTest extends TestCase
     public function testSettingPropertiesViaCtor(): void
     {
         $values = [
-            'foo' => 'foo',
-            'integer' => 123,
-            'double' => 123.45,
-            'booleanTrue' => true,
-            'booleanFalse' => false,
-            'DateTime' => new DateTime('2000-01-01T00:00:00.000Z', new DateTimeZone('UTC')),
-            'strings' => ['foo', 'bar'],
-            'integers' => [111, 222],
-            'AmountClass' => new AmountClass(['value' => 543.21, 'AttributeOne' => 'one']),
-            'SimpleClass' => [
-                'integer' => 123,
-                'string' => 'foo',
-                'double' => 123.45,
-                'booleanTrue' => true,
+            'foo'           => 'foo',
+            'integer'       => 123,
+            'double'        => 123.45,
+            'booleanTrue'   => true,
+            'booleanFalse'  => false,
+            'DateTime'      => new DateTime('2000-01-01T00:00:00.000Z', new DateTimeZone('UTC')),
+            'strings'       => ['foo', 'bar'],
+            'integers'      => [111, 222],
+            'AmountClass'   => new AmountClass(['value' => 543.21, 'AttributeOne' => 'one']),
+            'SimpleClass'   => [
+                'integer'      => 123,
+                'string'       => 'foo',
+                'double'       => 123.45,
+                'booleanTrue'  => true,
                 'booleanFalse' => false,
-                'DateTime' => new DateTime('2000-01-01T00:00:00.000Z', new DateTimeZone('UTC')),
-                'integers' => [100, 200, 300]
+                'DateTime'     => new DateTime('2000-01-01T00:00:00.000Z', new DateTimeZone('UTC')),
+                'integers'     => [100, 200, 300]
             ],
             'simpleClasses' => [
                 [
-                    'integer' => 321,
-                    'string' => 'bar',
-                    'double' => 5432.10,
-                    'booleanTrue' => true,
+                    'integer'      => 321,
+                    'string'       => 'bar',
+                    'double'       => 5432.10,
+                    'booleanTrue'  => true,
                     'booleanFalse' => false,
-                    'DateTime' => '2015-01-01T00:00:00.000Z'
+                    'DateTime'     => '2015-01-01T00:00:00.000Z'
                 ],
                 new SimpleClass([
                     'integers' => [300, 200, 100],
-                    'strings' => ['foo', 'bar']
+                    'strings'  => ['foo', 'bar']
                 ]),
                 new SimpleClass()
             ],
-            'decimalTypes' => [
+            'decimalTypes'  => [
                 ['value' => 1],
                 ['value' => 2.34]
             ],
-            'anyType' => 1,
-            'anyTypes' => [
+            'anyType'       => 1,
+            'anyTypes'      => [
                 1,
                 'foo'
             ]
@@ -154,9 +155,9 @@ class ConstructTest extends TestCase
     public function testNullValuesWillNotSetProperties(): void
     {
         $obj = new ComplexClass([
-            'foo' => null,
-            'strings' => [null, null],
-            'decimalTypes' => [null, null],
+            'foo'           => null,
+            'strings'       => [null, null],
+            'decimalTypes'  => [null, null],
             'simpleClasses' => [null, null, new SimpleClass()]
         ]);
 

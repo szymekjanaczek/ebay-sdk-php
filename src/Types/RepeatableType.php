@@ -1,13 +1,16 @@
 <?php
+
 namespace DTS\eBaySDK\Types;
 
 use ArrayAccess;
 use Countable;
 use Iterator;
 use DTS\eBaySDK\Exceptions\InvalidPropertyTypeException;
+
 use function DTS\eBaySDK\checkPropertyType;
-use \DTS\eBaySDK\Exceptions;
-use \DTS\eBaySDK\JmesPath\JmesPathableArrayInterface;
+
+use DTS\eBaySDK\Exceptions;
+use DTS\eBaySDK\JmesPath\JmesPathableArrayInterface;
 use ReturnTypeWillChange;
 
 /**

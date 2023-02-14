@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\PostOrder\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -15,14 +16,14 @@ class ServiceTest extends TestCase
 
         $this->assertArrayHasKey('apiVersion', $d);
         $this->assertEquals([
-            'valid' => ['string'],
-            'default' => PostOrderService::API_VERSION,
+            'valid'    => ['string'],
+            'default'  => PostOrderService::API_VERSION,
             'required' => true
         ], $d['apiVersion']);
 
         $this->assertArrayHasKey('authToken', $d);
         $this->assertEquals([
-            'valid' => ['string'],
+            'valid'    => ['string'],
             'required' => true
         ], $d['authToken']);
 
@@ -37,7 +38,7 @@ class ServiceTest extends TestCase
         $h = new HttpRestHandler();
 
         $s = new Service([
-            'authToken' => '321',
+            'authToken'   => '321',
             'httpHandler' => $h
         ]);
 
@@ -56,9 +57,9 @@ class ServiceTest extends TestCase
         $h = new HttpRestHandler();
 
         $s = new Service([
-            'authToken' => '321',
+            'authToken'     => '321',
             'marketplaceId' => '123',
-            'httpHandler' => $h
+            'httpHandler'   => $h
         ]);
 
         $s->testOperation();

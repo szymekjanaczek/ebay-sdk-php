@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Shopping\Mocks;
 
 use DTS\eBaySDK\Shopping\Services\ShoppingBaseService;

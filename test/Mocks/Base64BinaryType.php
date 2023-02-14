@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class Base64BinaryType extends \DTS\eBaySDK\Types\Base64BinaryType

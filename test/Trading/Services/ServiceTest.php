@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Trading\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -15,14 +16,14 @@ class ServiceTest extends TestCase
 
         $this->assertArrayHasKey('apiVersion', $d);
         $this->assertEquals([
-            'valid' => ['string'],
-            'default' => TradingService::API_VERSION,
+            'valid'    => ['string'],
+            'default'  => TradingService::API_VERSION,
             'required' => true
         ], $d['apiVersion']);
 
         $this->assertArrayHasKey('authorization', $d);
         $this->assertEquals([
-            'valid'   => ['string']
+            'valid' => ['string']
         ], $d['authorization']);
 
         $this->assertArrayHasKey('authToken', $d);
@@ -32,7 +33,7 @@ class ServiceTest extends TestCase
 
         $this->assertArrayHasKey('siteId', $d);
         $this->assertEquals([
-            'valid' => ['int', 'string'],
+            'valid'    => ['int', 'string'],
             'required' => true
         ], $d['siteId']);
     }
@@ -42,9 +43,9 @@ class ServiceTest extends TestCase
         $h = new HttpHandler();
 
         $s = new Service([
-            'apiVersion' => '123',
+            'apiVersion'  => '123',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'siteId' => 0,
+            'siteId'      => 0,
             'httpHandler' => $h
         ]);
 
@@ -73,9 +74,9 @@ class ServiceTest extends TestCase
 
         $s = new Service([
             'authorization' => 'foo',
-            'credentials' => ['appId' => 'appId', 'certId' => 'certId', 'devId' => 'devId'],
-            'siteId' => 999,
-            'httpHandler' => $h
+            'credentials'   => ['appId' => 'appId', 'certId' => 'certId', 'devId' => 'devId'],
+            'siteId'        => 999,
+            'httpHandler'   => $h
         ]);
 
         $s->testOperation();
@@ -94,6 +95,5 @@ class ServiceTest extends TestCase
 
         $this->assertArrayHasKey(TradingBaseService::HDR_AUTHORIZATION, $h->headers);
         $this->assertEquals('foo', $h->headers[TradingBaseService::HDR_AUTHORIZATION]);
-
     }
 }

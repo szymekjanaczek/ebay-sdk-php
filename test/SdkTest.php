@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -11,27 +12,27 @@ class SdkTest extends TestCase
     protected function setUp(): void
     {
         $this->sdk = new Sdk([
-            'apiVersion' => '',
-            'appId' => '',
-            'authToken' => '',
+            'apiVersion'    => '',
+            'appId'         => '',
+            'authToken'     => '',
             'authorization' => '',
-            'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'globalId' => '',
-            'ruName' => '',
-            'siteId' => 0
+            'credentials'   => ['appId' => '', 'certId' => '', 'devId' => ''],
+            'globalId'      => '',
+            'ruName'        => '',
+            'siteId'        => 0
         ]);
     }
 
     public function testCanCreateServices(): void
     {
         $s = new Sdk([
-            'appId' => '123',
-            'apiVersion' => '999',
+            'appId'       => '123',
+            'apiVersion'  => '999',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'Finding' => [
+            'Finding'     => [
                 'appId' => '321'
             ],
-            'Trading' => [
+            'Trading'     => [
                 'siteId' => 0
             ]
         ]);
@@ -49,9 +50,9 @@ class SdkTest extends TestCase
          * Options passed in via the create methods overwrite existing.
          */
         $t = $s->createTrading([
-            'appId' => '111',
+            'appId'      => '111',
             'apiVersion' => '222',
-            'siteId' => 333
+            'siteId'     => 333
         ]);
 
         $this->assertEquals('111', $t->getConfig('appId'));

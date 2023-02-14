@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2014 Michael Dowling, https://github.com/mtdowling
  *
@@ -20,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -86,7 +88,9 @@ class DebugRuntime
         foreach ($tokens as $t) {
             fprintf(
                 $this->out,
-                "%3d  %-13s  %s\n", $t['pos'], $t['type'],
+                "%3d  %-13s  %s\n",
+                $t['pos'],
+                $t['type'],
                 json_encode($t['value'])
             );
         }

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Types\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -31,14 +32,14 @@ class MultipartFormDataTest extends TestCase
          */
         $this->httpHandler = new HttpHandler();
         $this->service = new TradingService([
-            'apiVersion' => '123',
+            'apiVersion'  => '123',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'siteId' => 0,
+            'siteId'      => 0,
             'httpHandler' => $this->httpHandler
         ]);
         $this->request = new UploadSiteHostedPicturesRequestType();
         $this->request->PictureName = 'Example Picture';
-        $this->requestXml = rtrim(file_get_contents(__DIR__.'/../../Mocks/MultipartFormDataRequest'));
+        $this->requestXml = rtrim(file_get_contents(__DIR__ . '/../../Mocks/MultipartFormDataRequest'));
     }
 
     public function testHttpHeadersAreCreated(): void

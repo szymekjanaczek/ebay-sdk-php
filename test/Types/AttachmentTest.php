@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Types\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -34,7 +35,7 @@ class AttachmentTest extends TestCase
         $this->request->integer = 123;
         $this->request->string = 'a string';
         $this->request->double = 123.45;
-        $this->requestXml = rtrim(file_get_contents(__DIR__.'/../Mocks/AttachmentRequestResponse.xml'));
+        $this->requestXml = rtrim(file_get_contents(__DIR__ . '/../Mocks/AttachmentRequestResponse.xml'));
     }
 
     public function testAttachment(): void

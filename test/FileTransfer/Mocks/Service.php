@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\FileTransfer\Mocks;
 
 use DTS\eBaySDK\FileTransfer\Services\FileTransferBaseService;

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2014 Michael Dowling, https://github.com/mtdowling
  *
@@ -20,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -62,9 +64,12 @@ final class Env
     public static function createRuntime(): AstRuntime|CompilerRuntime
     {
         switch ($compileDir = getenv(self::COMPILE_DIR)) {
-            case false: return new AstRuntime();
-            case 'on': return new CompilerRuntime();
-            default: return new CompilerRuntime($compileDir);
+            case false:
+                return new AstRuntime();
+            case 'on':
+                return new CompilerRuntime();
+            default:
+                return new CompilerRuntime($compileDir);
         }
     }
 

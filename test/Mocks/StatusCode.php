@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 use DTS\eBaySDK\StatusCodeTrait;

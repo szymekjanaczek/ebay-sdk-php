@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\OAuth\Services;
 
 use DTS\eBaySDK\Credentials\CredentialsInterface;
@@ -14,7 +15,7 @@ use DTS\eBaySDK\Types\BaseType;
 use DTS\eBaySDK\ConfigurationResolver;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
 use DTS\eBaySDK\UriResolver;
-use \DTS\eBaySDK as Functions;
+use DTS\eBaySDK as Functions;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -34,26 +35,23 @@ class OAuthService
      * @property array $operations Associative array of operations provided by the service.
      */
     private static array $operations = [
-        'getUserToken' => [
-            'method' => 'POST',
-            'resource' => 'oauth2/token',
+        'getUserToken'     => [
+            'method'        => 'POST',
+            'resource'      => 'oauth2/token',
             'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetUserTokenRestResponse',
-            'params' => [
-            ]
+            'params'        => []
         ],
         'refreshUserToken' => [
-            'method' => 'POST',
-            'resource' => 'oauth2/token',
+            'method'        => 'POST',
+            'resource'      => 'oauth2/token',
             'responseClass' => '\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse',
-            'params' => [
-            ]
+            'params'        => []
         ],
-        'getAppToken' => [
-            'method' => 'POST',
-            'resource' => 'oauth2/token',
+        'getAppToken'      => [
+            'method'        => 'POST',
+            'resource'      => 'oauth2/token',
             'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse',
-            'params' => [
-            ]
+            'params'        => []
         ]
     ];
 
@@ -90,21 +88,21 @@ class OAuthService
     public static function getConfigDefinitions(): array
     {
         return [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => \DTS\eBaySDK\OAuth\Services\OAuthService::API_VERSION,
+            'apiVersion'  => [
+                'valid'    => ['string'],
+                'default'  => \DTS\eBaySDK\OAuth\Services\OAuthService::API_VERSION,
                 'required' => true
             ],
-            'profile' => [
+            'profile'     => [
                 'valid' => ['string'],
-                'fn'    => 'DTS\eBaySDK\applyProfile',
+                'fn'    => 'DTS\eBaySDK\applyProfile'
             ],
             'credentials' => [
                 'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
                 'fn'      => 'DTS\eBaySDK\applyCredentials',
                 'default' => [CredentialsProvider::class, 'defaultProvider']
             ],
-            'debug' => [
+            'debug'       => [
                 'valid'   => ['bool', 'array'],
                 'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false
@@ -119,11 +117,11 @@ class OAuthService
                     'http_errors' => false
                 ]
             ],
-            'ruName' => [
+            'ruName'      => [
                 'valid'    => ['string'],
                 'required' => true
             ],
-            'sandbox' => [
+            'sandbox'     => [
                 'valid'   => ['bool'],
                 'default' => false
             ]
@@ -199,7 +197,7 @@ class OAuthService
 
         ];
 
-        return $url.http_build_query($urlParams, null, '&', PHP_QUERY_RFC3986);
+        return $url . http_build_query($urlParams, null, '&', PHP_QUERY_RFC3986);
     }
 
     /**
@@ -395,7 +393,7 @@ class OAuthService
         $headers = [];
 
         $headers['Accept'] = 'application/json';
-        $headers['Authorization'] = 'Basic '.base64_encode($appId.':'.$certId);
+        $headers['Authorization'] = 'Basic ' . base64_encode($appId . ':' . $certId);
         $headers['Content-Type'] = 'application/x-www-form-urlencoded';
         $headers['Content-Length'] = strlen($body);
 
@@ -411,10 +409,10 @@ class OAuthService
       */
     private function debugRequest(string $url, array $headers, string $body): void
     {
-        $str = $url.PHP_EOL;
+        $str = $url . PHP_EOL;
 
-        $str .= array_reduce(array_keys($headers), static function ($str, $key) use ($headers) : string {
-            $str .= $key.': '.$headers[$key].PHP_EOL;
+        $str .= array_reduce(array_keys($headers), static function ($str, $key) use ($headers): string {
+            $str .= $key . ': ' . $headers[$key] . PHP_EOL;
             return $str;
         }, '');
 

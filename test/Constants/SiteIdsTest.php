@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Constants\Test;
 
 use PHPUnit\Framework\TestCase;

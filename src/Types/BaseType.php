@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Types;
 
 use stdClass;
@@ -6,11 +7,13 @@ use DTS\eBaySDK\Exceptions\UnknownPropertyException;
 use DTS\eBaySDK\Exceptions\InvalidPropertyTypeException;
 use DateTime;
 use DateTimeZone;
+
 use function DTS\eBaySDK\checkPropertyType;
-use \DTS\eBaySDK\Types;
-use \DTS\eBaySDK\Exceptions;
-use \DTS\eBaySDK\JmesPath\Env;
-use \DTS\eBaySDK\JmesPath\JmesPathableObjectInterface;
+
+use DTS\eBaySDK\Types;
+use DTS\eBaySDK\Exceptions;
+use DTS\eBaySDK\JmesPath\Env;
+use DTS\eBaySDK\JmesPath\JmesPathableObjectInterface;
 
 /**
  * Base class for all API objects.
@@ -695,7 +698,7 @@ class BaseType implements JmesPathableObjectInterface
             return $value;
         }
 
-        return array_filter($value, static function ($val) : bool {
+        return array_filter($value, static function ($val): bool {
             return !is_null($val);
         });
     }

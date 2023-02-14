@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Services;
 
 use DTS\eBaySDK\Credentials\CredentialsInterface;
@@ -7,7 +8,7 @@ use GuzzleHttp\Promise\PromiseInterface;
 use DTS\eBaySDK\Parser\XmlParser;
 use DTS\eBaySDK\ConfigurationResolver;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
-use \DTS\eBaySDK as Functions;
+use DTS\eBaySDK as Functions;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -70,33 +71,33 @@ abstract class BaseService
     public static function getConfigDefinitions(): array
     {
         return [
-            'profile' => [
+            'profile'          => [
                 'valid' => ['string'],
-                'fn'    => 'DTS\eBaySDK\applyProfile',
+                'fn'    => 'DTS\eBaySDK\applyProfile'
             ],
             'compressResponse' => [
                 'valid'   => ['bool'],
                 'default' => false
             ],
-            'credentials' => [
+            'credentials'      => [
                 'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
                 'fn'      => 'DTS\eBaySDK\applyCredentials',
                 'default' => [CredentialsProvider::class, 'defaultProvider']
             ],
-            'debug' => [
+            'debug'            => [
                 'valid'   => ['bool', 'array'],
                 'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false
             ],
-            'httpHandler' => [
+            'httpHandler'      => [
                 'valid'   => ['callable'],
                 'default' => 'DTS\eBaySDK\defaultHttpHandler'
             ],
-            'httpOptions' => [
+            'httpOptions'      => [
                 'valid'   => ['array'],
                 'default' => []
             ],
-            'sandbox' => [
+            'sandbox'          => [
                 'valid'   => ['bool'],
                 'default' => false
             ]
@@ -207,7 +208,7 @@ abstract class BaseService
         if (!$request->hasAttachment()) {
             return $request->toRequestXml();
         } else {
-            return $this->buildXopDocument($request).$this->buildAttachmentBody($request->attachment());
+            return $this->buildXopDocument($request) . $this->buildAttachmentBody($request->attachment());
         }
     }
 
@@ -222,11 +223,11 @@ abstract class BaseService
     {
         return sprintf(
             '%s%s%s%s%s',
-            '--MIME_boundary'.self::CRLF,
-            'Content-Type: application/xop+xml;charset=UTF-8;type="text/xml"'.self::CRLF,
-            'Content-Transfer-Encoding: 8bit'.self::CRLF,
-            'Content-ID: <request.xml@devbay.net>'.self::CRLF.self::CRLF,
-            $request->toRequestXml().self::CRLF
+            '--MIME_boundary' . self::CRLF,
+            'Content-Type: application/xop+xml;charset=UTF-8;type="text/xml"' . self::CRLF,
+            'Content-Transfer-Encoding: 8bit' . self::CRLF,
+            'Content-ID: <request.xml@devbay.net>' . self::CRLF . self::CRLF,
+            $request->toRequestXml() . self::CRLF
         );
     }
 
@@ -241,11 +242,11 @@ abstract class BaseService
     {
         return sprintf(
             '%s%s%s%s%s%s',
-            '--MIME_boundary'.self::CRLF,
-            'Content-Type: '.$attachment['mimeType'].self::CRLF,
-            'Content-Transfer-Encoding: binary'.self::CRLF,
-            'Content-ID: <attachment.bin@devbay.net>'.self::CRLF.self::CRLF,
-            $attachment['data'].self::CRLF,
+            '--MIME_boundary' . self::CRLF,
+            'Content-Type: ' . $attachment['mimeType'] . self::CRLF,
+            'Content-Transfer-Encoding: binary' . self::CRLF,
+            'Content-ID: <attachment.bin@devbay.net>' . self::CRLF . self::CRLF,
+            $attachment['data'] . self::CRLF,
             '--MIME_boundary--'
         );
     }
@@ -261,9 +262,9 @@ abstract class BaseService
     {
         return sprintf(
             '%s%s%s',
-            '--boundary'.self::CRLF,
-            'Content-Disposition: form-data; name="XML Payload"'.self::CRLF.self::CRLF,
-            $request->toRequestXml().self::CRLF
+            '--boundary' . self::CRLF,
+            'Content-Disposition: form-data; name="XML Payload"' . self::CRLF . self::CRLF,
+            $request->toRequestXml() . self::CRLF
         );
     }
 
@@ -280,10 +281,10 @@ abstract class BaseService
     {
         return sprintf(
             '%s%s%s%s%s',
-            '--boundary'.self::CRLF,
-            'Content-Disposition: form-data; name="'.$name.'"; filename="picture"'.self::CRLF,
-            'Content-Type: '.$attachment['mimeType'].self::CRLF.self::CRLF,
-            $attachment['data'].self::CRLF,
+            '--boundary' . self::CRLF,
+            'Content-Disposition: form-data; name="' . $name . '"; filename="picture"' . self::CRLF,
+            'Content-Type: ' . $attachment['mimeType'] . self::CRLF . self::CRLF,
+            $attachment['data'] . self::CRLF,
             '--boundary--'
         );
     }
@@ -385,10 +386,10 @@ abstract class BaseService
       */
     private function debugRequest(string $url, array $headers, string $body): void
     {
-        $str = $url.PHP_EOL;
+        $str = $url . PHP_EOL;
 
-        $str .= array_reduce(array_keys($headers), static function ($str, $key) use ($headers) : string {
-            $str .= $key.': '.$headers[$key].PHP_EOL;
+        $str .= array_reduce(array_keys($headers), static function ($str, $key) use ($headers): string {
+            $str .= $key . ': ' . $headers[$key] . PHP_EOL;
             return $str;
         }, '');
 

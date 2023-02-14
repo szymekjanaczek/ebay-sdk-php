@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class DecimalType extends \DTS\eBaySDK\Types\DecimalType

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Services;
 
 use DTS\eBaySDK\Types\BaseType;
@@ -6,7 +7,7 @@ use GuzzleHttp\Promise\PromiseInterface;
 use DTS\eBaySDK\Parser\JsonParser;
 use DTS\eBaySDK\ConfigurationResolver;
 use DTS\eBaySDK\UriResolver;
-use \DTS\eBaySDK as Functions;
+use DTS\eBaySDK as Functions;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -67,28 +68,28 @@ abstract class BaseRestService
                 'valid'   => ['bool'],
                 'default' => false
             ],
-            'debug' => [
+            'debug'            => [
                 'valid'   => ['bool', 'array'],
                 'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false
             ],
-            'httpHandler' => [
+            'httpHandler'      => [
                 'valid'   => ['callable'],
                 'default' => 'DTS\eBaySDK\defaultHttpHandler'
             ],
-            'httpOptions' => [
+            'httpOptions'      => [
                 'valid'   => ['array'],
                 'default' => [
                     'http_errors' => false
                 ]
             ],
-            'requestLanguage' => [
+            'requestLanguage'  => [
                 'valid' => ['string']
             ],
             'responseLanguage' => [
                 'valid' => ['string']
             ],
-            'sandbox' => [
+            'sandbox'          => [
                 'valid'   => ['bool'],
                 'default' => false
             ]
@@ -257,10 +258,10 @@ abstract class BaseRestService
       */
     private function debugRequest(string $url, array $headers, string $body): void
     {
-        $str = $url.PHP_EOL;
+        $str = $url . PHP_EOL;
 
-        $str .= array_reduce(array_keys($headers), static function ($str, $key) use ($headers) : string {
-            $str .= $key.': '.$headers[$key].PHP_EOL;
+        $str .= array_reduce(array_keys($headers), static function ($str, $key) use ($headers): string {
+            $str .= $key . ': ' . $headers[$key] . PHP_EOL;
             return $str;
         }, '');
 

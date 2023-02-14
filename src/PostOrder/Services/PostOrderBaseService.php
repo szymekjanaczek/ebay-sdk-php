@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\PostOrder\Services;
 
 use DTS\eBaySDK\Services\BaseRestService;
+
 /**
  * Base class for the PostOrder service.
  */
@@ -38,17 +40,18 @@ class PostOrderBaseService extends BaseRestService
      *
      * @return array{apiVersion: array{valid: string[], default: string, required: true}, authToken: array{valid: string[], required: true}, marketplaceId: array{valid: string[]}, compressResponse: array{valid: string[], default: false}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: array{http_errors: false}}, requestLanguage: array{valid: string[]}, responseLanguage: array{valid: string[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions(): array    {
+    public static function getConfigDefinitions(): array
+    {
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => PostOrderService::API_VERSION,
+            'apiVersion'    => [
+                'valid'    => ['string'],
+                'default'  => PostOrderService::API_VERSION,
                 'required' => true
             ],
-            'authToken' => [
-                'valid' => ['string'],
+            'authToken'     => [
+                'valid'    => ['string'],
                 'required' => true
             ],
             'marketplaceId' => [
@@ -67,7 +70,7 @@ class PostOrderBaseService extends BaseRestService
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_AUTH_TOKEN] = 'TOKEN '.$this->getConfig('authToken');
+        $headers[self::HDR_AUTH_TOKEN] = 'TOKEN ' . $this->getConfig('authToken');
 
         // Add optional headers.
         if ($this->getConfig('marketplaceId')) {

@@ -1,8 +1,10 @@
 <?php
+
 namespace DTS\eBaySDK\Exceptions;
 
 use LogicException;
 use Exception;
+
 /**
  * A property was get/set that doesn't exist.
  */

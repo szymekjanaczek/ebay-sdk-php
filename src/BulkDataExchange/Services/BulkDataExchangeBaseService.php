@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\BulkDataExchange\Services;
 
 use DTS\eBaySDK\Services\BaseService;
+
 /**
  * Base class for the BulkDataExchange service.
  */
@@ -35,16 +37,17 @@ class BulkDataExchangeBaseService extends BaseService
      *
      * @return array{apiVersion: array{valid: string[], default: string}, authToken: array{valid: string[], required: true}, profile: array{valid: string[], fn: string}, compressResponse: array{valid: string[], default: false}, credentials: array{valid: string[], fn: string, default: string[]}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: never[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions(): array    {
+    public static function getConfigDefinitions(): array
+    {
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
             'apiVersion' => [
-                'valid' => ['string'],
+                'valid'   => ['string'],
                 'default' => BulkDataExchangeService::API_VERSION
             ],
-            'authToken' => [
-                'valid' => ['string'],
+            'authToken'  => [
+                'valid'    => ['string'],
                 'required' => true
             ]
         ];

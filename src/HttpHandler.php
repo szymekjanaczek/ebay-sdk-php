@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 use GuzzleHttp\Promise\PromiseInterface;

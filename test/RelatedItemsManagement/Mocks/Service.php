@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\RelatedItemsManagement\Mocks;
 
 use DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementBaseService;

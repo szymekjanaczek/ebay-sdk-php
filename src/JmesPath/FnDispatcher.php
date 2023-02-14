@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2014 Michael Dowling, https://github.com/mtdowling
  *
@@ -20,10 +21,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 use RuntimeException;
 use JsonSerializable;
+
 /**
  * Dispatches to named JMESPath functions using a single function that has the
  * following signature:
@@ -68,7 +71,7 @@ class FnDispatcher
     {
         $this->validate('avg', $args, [['array']]);
         $arg = Utils::toArray($args[0]);
-        $sum = $this->reduce('avg:0', $arg, ['number'], static function ($a, $b) : float|int|array {
+        $sum = $this->reduce('avg:0', $arg, ['number'], static function ($a, $b): float|int|array {
             return $a + $b;
         });
         return $arg ? ($sum / count($arg)) : null;
@@ -198,7 +201,7 @@ class FnDispatcher
     private function fn_sum(array $args)
     {
         $this->validate('sum', $args, [['array']]);
-        $fn = static function ($a, $b) : float|int|array {
+        $fn = static function ($a, $b): float|int|array {
             return $a + $b;
         };
         return $this->reduce('sum:0', Utils::toArray($args[0]), ['number'], $fn);
@@ -249,7 +252,8 @@ class FnDispatcher
         $v = $args[0];
         if (is_string($v)) {
             return $v;
-        } elseif (is_object($v)
+        } elseif (
+            is_object($v)
             && !($v instanceof JsonSerializable)
             && method_exists($v, '__toString')
         ) {
@@ -289,7 +293,7 @@ class FnDispatcher
             );
         }
 
-        return array_reduce($args, static function ($carry, $arg) : array {
+        return array_reduce($args, static function ($carry, $arg): array {
             $carry = array_replace($carry, Utils::toArray($arg));
             return $carry;
         }, []);
@@ -352,7 +356,8 @@ class FnDispatcher
 
     private function validateType(string $from, $value, array $types): void
     {
-        if ($types[0] == 'any'
+        if (
+            $types[0] == 'any'
             || in_array(Utils::type($value), $types)
             || ($value === [] && in_array('object', $types))
         ) {

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Parser\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -10,7 +11,7 @@ class JsonTest extends TestCase
 {
     public function testCanDecodeJson(): void
     {
-        $json = file_get_contents(__DIR__.'/../Mocks/Response.json');
+        $json = file_get_contents(__DIR__ . '/../Mocks/Response.json');
         $obj = new ComplexClass(json_decode($json, true));
 
         // This is not in the json and so should not be set.

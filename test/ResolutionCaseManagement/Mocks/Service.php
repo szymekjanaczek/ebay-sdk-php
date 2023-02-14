@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Mocks;
 
 use DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementBaseService;

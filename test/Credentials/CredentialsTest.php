@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Credentials\Test;
 
 use PHPUnit\Framework\TestCase;

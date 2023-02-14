@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Trading\Services;
 
 use DTS\eBaySDK\Services\BaseService;
@@ -61,23 +62,24 @@ class TradingBaseService extends BaseService
      *
      * @return array{apiVersion: array{valid: string[], default: string, required: true}, authorization: array{valid: string[]}, authToken: array{valid: string[]}, siteId: array{valid: string[], required: true}, profile: array{valid: string[], fn: string}, compressResponse: array{valid: string[], default: false}, credentials: array{valid: string[], fn: string, default: string[]}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: never[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions(): array    {
+    public static function getConfigDefinitions(): array
+    {
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => TradingService::API_VERSION,
+            'apiVersion'    => [
+                'valid'    => ['string'],
+                'default'  => TradingService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [
                 'valid' => ['string']
             ],
-            'authToken' => [
+            'authToken'     => [
                 'valid' => ['string']
             ],
-            'siteId' => [
-                'valid' => ['int', 'string'],
+            'siteId'        => [
+                'valid'    => ['int', 'string'],
                 'required' => true
             ]
         ];
@@ -181,7 +183,7 @@ class TradingBaseService extends BaseService
     protected function buildRequestBody(BaseType $request)
     {
         if ($request->hasAttachment() && $request instanceof UploadSiteHostedPicturesRequestType) {
-            return $this->buildMultipartFormDataXMLPayload($request).$this->buildMultipartFormDataFilePayload($request->PictureName, $request->attachment());
+            return $this->buildMultipartFormDataXMLPayload($request) . $this->buildMultipartFormDataFilePayload($request->PictureName, $request->attachment());
         } else {
             return parent::buildRequestBody($request);
         }

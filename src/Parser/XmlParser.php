@@ -1,10 +1,12 @@
 <?php
+
 namespace DTS\eBaySDK\Parser;
 
 use SplStack;
 use stdClass;
 use DateTime;
 use DateTimeZone;
+
 /**
  * Responsible for parsing XML and returning a PHP object.
  */
@@ -302,7 +304,7 @@ class XmlParser
     {
         switch ($meta->phpType) {
             case 'integer':
-                return (integer)$meta->strData;
+                return (int)$meta->strData;
             case 'double':
                 return (double)$meta->strData;
             case 'boolean':
@@ -329,11 +331,11 @@ class XmlParser
         } elseif (is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\BooleanType', false)) {
             return strtolower($meta->strData) === 'true';
         } elseif (is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\DecimalType', false)) {
-            return is_int(0 + $meta->strData) ? (integer)$meta->strData : (double)$meta->strData;
+            return is_int(0 + $meta->strData) ? (int)$meta->strData : (double)$meta->strData;
         } elseif (is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\DoubleType', false)) {
             return (double)$meta->strData;
         } elseif (is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\IntegerType', false)) {
-            return (integer)$meta->strData;
+            return (int)$meta->strData;
         } elseif (is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\StringType', false)) {
             return $meta->strData;
         } elseif (is_subclass_of($meta->phpObject, '\DTS\eBaySDK\Types\TokenType', false)) {

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Credentials;
 
 use PHPUnit\Framework\TestCase;
@@ -139,7 +140,7 @@ EOT;
     {
         $called = 0;
         $c = new Credentials('111', '222', '333');
-        $f = static function () use (&$called, &$c) : Credentials {
+        $f = static function () use (&$called, &$c): Credentials {
             $called++;
             return $c;
         };
@@ -166,7 +167,7 @@ EOT;
 
         $a = CredentialsProvider::ini('foo');
         $b = CredentialsProvider::ini();
-        $c = static function () : never {
+        $c = static function (): never {
             throw new InvalidArgumentException('Should not be called');
         };
 

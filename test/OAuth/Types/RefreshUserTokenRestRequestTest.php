@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\OAuth\Types;
 
 use PHPUnit\Framework\TestCase;

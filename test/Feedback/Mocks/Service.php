@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Feedback\Mocks;
 
 use DTS\eBaySDK\Feedback\Services\FeedbackBaseService;

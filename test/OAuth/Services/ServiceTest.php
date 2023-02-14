@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\OAuth\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -47,12 +48,12 @@ class ServiceTest extends TestCase
         $this->assertArrayHasKey('profile', $d);
         $this->assertEquals([
             'valid' => ['string'],
-            'fn'    => 'DTS\eBaySDK\applyProfile',
+            'fn'    => 'DTS\eBaySDK\applyProfile'
         ], $d['profile']);
 
         $this->assertArrayHasKey('ruName', $d);
         $this->assertEquals([
-            'valid'   => ['string'],
+            'valid'    => ['string'],
             'required' => true
         ], $d['ruName']);
 
@@ -77,7 +78,7 @@ class ServiceTest extends TestCase
         $url = 'https://auth.sandbox.ebay.com/oauth2/authorize?client_id=foo&redirect_uri=baz&response_type=code&state=111&scope=https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.account%20https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.inventory';
 
         $this->assertEquals($url, $s->redirectUrlForUser([
-            'state'  => '111',
+            'state' => '111',
             'scope' => [
                 'https://api.ebay.com/oauth/api_scope/sell.account',
                 'https://api.ebay.com/oauth/api_scope/sell.inventory'
@@ -98,7 +99,7 @@ class ServiceTest extends TestCase
         $url = 'https://auth.ebay.com/oauth2/authorize?client_id=foo&redirect_uri=baz&response_type=code&state=111&scope=https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.account%20https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.inventory';
 
         $this->assertEquals($url, $s->redirectUrlForUser([
-            'state'  => '111',
+            'state' => '111',
             'scope' => [
                 'https://api.ebay.com/oauth/api_scope/sell.account',
                 'https://api.ebay.com/oauth/api_scope/sell.inventory'
@@ -197,7 +198,7 @@ class ServiceTest extends TestCase
         $this->assertArrayHasKey('Accept', $h->headers);
         $this->assertEquals('application/json', $h->headers['Accept']);
         $this->assertArrayHasKey('Authorization', $h->headers);
-        $this->assertEquals('Basic '.base64_encode('foo:bar'), $h->headers['Authorization']);
+        $this->assertEquals('Basic ' . base64_encode('foo:bar'), $h->headers['Authorization']);
         $this->assertArrayHasKey('Content-Type', $h->headers);
         $this->assertEquals('application/x-www-form-urlencoded', $h->headers['Content-Type']);
         $this->assertArrayHasKey('Content-Length', $h->headers);
@@ -252,7 +253,7 @@ class ServiceTest extends TestCase
     public function testDebugging(): void
     {
         $str = '';
-        $logfn = static function ($value) use (&$str) : void {
+        $logfn = static function ($value) use (&$str): void {
             $str .= $value;
         };
         $body = http_build_query([
@@ -274,7 +275,7 @@ class ServiceTest extends TestCase
         $r = $s->getAppToken();
 
         $this->assertStringContainsString('Content-Type: application/x-www-form-urlencoded', $str);
-        $this->assertStringContainsString('Content-Length: '.strlen($body), $str);
+        $this->assertStringContainsString('Content-Length: ' . strlen($body), $str);
         $this->assertStringContainsString('foo', $str);
         $this->assertStringContainsString('bar', $str);
     }
@@ -296,9 +297,9 @@ class ServiceTest extends TestCase
     {
         $s = new OAuthService([
             'credentials' => [
-                'appId' => '111',
+                'appId'  => '111',
                 'certId' => '222',
-                'devId' => '333'
+                'devId'  => '333'
             ],
             'ruName'      => 'foo'
         ]);
@@ -312,7 +313,7 @@ class ServiceTest extends TestCase
     public function testCredentialsCanBeProvided(): void
     {
         $s = new OAuthService([
-            'credentials' => static function () : Credentials {
+            'credentials' => static function (): Credentials {
                 return new Credentials('111', '222', '333');
             },
             'ruName'      => 'foo'
@@ -365,7 +366,7 @@ EOT;
 
         $s = new OAuthService([
             'profile' => 'foo',
-            'ruName'      => 'foo'
+            'ruName'  => 'foo'
         ]);
 
         try {
@@ -382,7 +383,7 @@ EOT;
         $this->expectExceptionMessage('Cannot locate credentials');
 
         new OAuthService([
-            'credentials' => static function () : InvalidArgumentException {
+            'credentials' => static function (): InvalidArgumentException {
                 return new InvalidArgumentException('Cannot locate credentials');
             },
             'ruName'      => 'foo'
@@ -393,14 +394,14 @@ EOT;
     {
         $h = new HttpOAuthHandler();
         $s = new OAuthService([
-            'credentials'  => [
+            'credentials' => [
                 'appId'  => 'foo',
                 'certId' => 'bar',
                 'devId'  => ''
             ],
-            'ruName'       => 'foo',
-            'sandbox' => true,
-            'httpHandler'  => $h,
+            'ruName'      => 'foo',
+            'sandbox'     => true,
+            'httpHandler' => $h,
             'httpOptions' => []
         ]);
 
@@ -415,7 +416,7 @@ EOT;
         ], $s->getConfig());
 
         $s->setConfig([
-            'sandbox' => false,
+            'sandbox' => false
         ]);
 
         $this->assertEquals([

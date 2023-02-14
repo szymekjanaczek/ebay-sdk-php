@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Types\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -33,50 +34,50 @@ class ToArrayTest extends TestCase
     public function testToArray(): void
     {
         $array = [
-            'integer' => 123,
-            'string' => 'foo',
-            'double' => 123.45,
-            'booleanTrue' => true,
-            'booleanFalse' => false,
-            'DateTime' => '2000-01-01T00:00:00.000Z',
-            'strings' => ['foo', 'bar'],
-            'integers' => [111, 222],
-            'AmountClass' => [
-                'value' => 543.21,
+            'integer'          => 123,
+            'string'           => 'foo',
+            'double'           => 123.45,
+            'booleanTrue'      => true,
+            'booleanFalse'     => false,
+            'DateTime'         => '2000-01-01T00:00:00.000Z',
+            'strings'          => ['foo', 'bar'],
+            'integers'         => [111, 222],
+            'AmountClass'      => [
+                'value'        => 543.21,
                 'AttributeOne' => 'one'
             ],
-            'SimpleClass' => [
-                'integer' => 123,
-                'string' => 'foo',
-                'double' => 123.45,
-                'booleanTrue' => true,
+            'SimpleClass'      => [
+                'integer'      => 123,
+                'string'       => 'foo',
+                'double'       => 123.45,
+                'booleanTrue'  => true,
                 'booleanFalse' => false,
-                'DateTime' => '2000-01-01T00:00:00.000Z',
-                'integers' => [100, 200, 300]
+                'DateTime'     => '2000-01-01T00:00:00.000Z',
+                'integers'     => [100, 200, 300]
             ],
-            'simpleClasses' => [
+            'simpleClasses'    => [
                 [
-                    'integer' => 321,
-                    'string' => 'bar',
-                    'double' => 5432.10,
-                    'booleanTrue' => true,
+                    'integer'      => 321,
+                    'string'       => 'bar',
+                    'double'       => 5432.10,
+                    'booleanTrue'  => true,
                     'booleanFalse' => false,
-                    'DateTime' => '2015-01-01T00:00:00.000Z'
+                    'DateTime'     => '2015-01-01T00:00:00.000Z'
                 ],
                 [
                     'integers' => [300, 200, 100],
-                    'strings' => ['foo', 'bar']
+                    'strings'  => ['foo', 'bar']
                 ],
                 []
             ],
             'base64BinaryType' => [],
-            'booleanType' => [],
-            'decimalType' => [],
-            'doubleType' => [],
-            'integerType' => [],
-            'stringType' => [],
-            'tokenType' => [],
-            'uriType' => []
+            'booleanType'      => [],
+            'decimalType'      => [],
+            'doubleType'       => [],
+            'integerType'      => [],
+            'stringType'       => [],
+            'tokenType'        => [],
+            'uriType'          => []
         ];
 
         $this->obj->integer = 123;
@@ -88,30 +89,30 @@ class ToArrayTest extends TestCase
         $this->obj->strings = ['foo', 'bar'];
         $this->obj->integers = [111, 222];
         $this->obj->AmountClass = new Amountclass([
-            'value' => 543.21,
+            'value'        => 543.21,
             'AttributeOne' => 'one'
         ]);
         $this->obj->SimpleClass = new SimpleClass([
-            'integer' => 123,
-            'string' => 'foo',
-            'double' => 123.45,
-            'booleanTrue' => true,
+            'integer'      => 123,
+            'string'       => 'foo',
+            'double'       => 123.45,
+            'booleanTrue'  => true,
             'booleanFalse' => false,
-            'DateTime' => new DateTime('2000-01-01', new DateTimeZone('UTC')),
-            'integers' => [100, 200, 300]
+            'DateTime'     => new DateTime('2000-01-01', new DateTimeZone('UTC')),
+            'integers'     => [100, 200, 300]
         ]);
         $this->obj->simpleClasses = [
             new SimpleClass([
-                'integer' => 321,
-                'string' => 'bar',
-                'double' => 5432.10,
-                'booleanTrue' => true,
+                'integer'      => 321,
+                'string'       => 'bar',
+                'double'       => 5432.10,
+                'booleanTrue'  => true,
                 'booleanFalse' => false,
-                'DateTime' => new DateTime('2015-01-01', new DateTimeZone('UTC'))
+                'DateTime'     => new DateTime('2015-01-01', new DateTimeZone('UTC'))
             ]),
             new SimpleClass([
                 'integers' => [300, 200, 100],
-                'strings' => ['foo', 'bar']
+                'strings'  => ['foo', 'bar']
             ]),
             new SimpleClass()
         ];

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 /**
@@ -149,7 +150,7 @@ trait HttpHeadersTrait
      */
     private function trimHeaderValues(array $values): array
     {
-        return array_map(static function ($value) : string {
+        return array_map(static function ($value): string {
             return trim($value, " \t");
         }, $values);
     }

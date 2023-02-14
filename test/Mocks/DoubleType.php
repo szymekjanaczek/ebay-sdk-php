@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class DoubleType extends \DTS\eBaySDK\Types\DoubleType

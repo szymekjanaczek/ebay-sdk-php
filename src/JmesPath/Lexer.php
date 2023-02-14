@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2014 Michael Dowling, https://github.com/mtdowling
  *
@@ -20,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 /**
@@ -194,7 +196,7 @@ class Lexer
         'w'  => self::STATE_IDENTIFIER,
         'x'  => self::STATE_IDENTIFIER,
         'y'  => self::STATE_IDENTIFIER,
-        'z'  => self::STATE_IDENTIFIER,
+        'z'  => self::STATE_IDENTIFIER
     ];
 
     /** @var array Valid identifier characters after first character */
@@ -211,7 +213,7 @@ class Lexer
         't' => true, 'u' => true, 'v' => true, 'w' => true, 'x' => true,
         'y' => true, 'z' => true, '_' => true, '0' => true, '1' => true,
         '2' => true, '3' => true, '4' => true, '5' => true, '6' => true,
-        '7' => true, '8' => true, '9' => true,
+        '7' => true, '8' => true, '9' => true
     ];
 
     /** @var array Valid number characters after the first character */
@@ -231,7 +233,7 @@ class Lexer
         '(' => self::T_LPAREN,
         ')' => self::T_RPAREN,
         '{' => self::T_LBRACE,
-        '}' => self::T_RBRACE,
+        '}' => self::T_RBRACE
     ];
 
     /**
@@ -254,7 +256,6 @@ class Lexer
         $chars = str_split($input);
 
         while (false !== ($current = current($chars))) {
-
             // Every character must be in the transition character table.
             if (!isset(self::$transitionTable[$current])) {
                 $tokens[] = [
@@ -269,7 +270,6 @@ class Lexer
             $state = self::$transitionTable[$current];
 
             if ($state === self::STATE_SINGLE_CHAR) {
-
                 // Consume simple tokens like ".", ",", "@", etc.
                 $tokens[] = [
                     'type'  => $this->simpleTokens[$current],
@@ -277,9 +277,7 @@ class Lexer
                     'value' => $current
                 ];
                 next($chars);
-
             } elseif ($state === self::STATE_IDENTIFIER) {
-
                 // Consume identifiers
                 $start = key($chars);
                 $buffer = '';
@@ -293,14 +291,10 @@ class Lexer
                     'value' => $buffer,
                     'pos'   => $start
                 ];
-
             } elseif ($state === self::STATE_WHITESPACE) {
-
                 // Skip whitespace
                 next($chars);
-
             } elseif ($state === self::STATE_LBRACKET) {
-
                 // Consume "[", "[?", and "[]"
                 $position = key($chars);
                 $actual = next($chars);
@@ -325,21 +319,15 @@ class Lexer
                         'value' => '['
                     ];
                 }
-
             } elseif ($state === self::STATE_STRING_LITERAL) {
-
                 // Consume raw string literals
                 $t = $this->inside($chars, "'", self::T_LITERAL);
                 $t['value'] = str_replace("\\'", "'", $t['value']);
                 $tokens[] = $t;
-
             } elseif ($state === self::STATE_PIPE) {
-
                 // Consume pipe and OR
                 $tokens[] = $this->matchOr($chars, '|', '|', self::T_OR, self::T_PIPE);
-
             } elseif ($state == self::STATE_JSON_LITERAL) {
-
                 // Consume JSON literals
                 $token = $this->inside($chars, '`', self::T_LITERAL);
                 if ($token['type'] === self::T_LITERAL) {
@@ -348,9 +336,7 @@ class Lexer
                 }
 
                 $tokens[] = $token;
-
             } elseif ($state == self::STATE_NUMBER) {
-
                 // Consume numbers
                 $start = key($chars);
                 $buffer = '';
@@ -364,9 +350,7 @@ class Lexer
                     'value' => (int)$buffer,
                     'pos'   => $start
                 ];
-
             } elseif ($state === self::STATE_QUOTED_STRING) {
-
                 // Consume quoted identifiers
                 $token = $this->inside($chars, '"', self::T_QUOTED_IDENTIFIER);
                 if ($token['type'] === self::T_QUOTED_IDENTIFIER) {
@@ -375,27 +359,18 @@ class Lexer
                 }
 
                 $tokens[] = $token;
-
             } elseif ($state === self::STATE_EQ) {
-
                 // Consume equals
                 $tokens[] = $this->matchOr($chars, '=', '=', self::T_COMPARATOR, self::T_UNKNOWN);
-
             } elseif ($state == self::STATE_AND) {
-
                 $tokens[] = $this->matchOr($chars, '&', '&', self::T_AND, self::T_EXPREF);
-
             } elseif ($state === self::STATE_NOT) {
-
                 // Consume not equal
                 $tokens[] = $this->matchOr($chars, '!', '=', self::T_COMPARATOR, self::T_NOT);
-
             } else {
-
                 // either '<' or '>'
                 // Consume less than and greater than
                 $tokens[] = $this->matchOr($chars, $current, '=', self::T_COMPARATOR, self::T_COMPARATOR);
-
             }
         }
 

@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\Account\Services;
 
 use DTS\eBaySDK\Services\BaseRestService;
+
 /**
  * Base class for the Account service.
  */
@@ -43,13 +45,13 @@ class AccountBaseService extends BaseRestService
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => AccountService::API_VERSION,
+            'apiVersion'    => [
+                'valid'    => ['string'],
+                'default'  => AccountService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [
-                'valid' => ['string'],
+                'valid'    => ['string'],
                 'required' => true
             ],
             'marketplaceId' => [
@@ -68,7 +70,7 @@ class AccountBaseService extends BaseRestService
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_AUTHORIZATION] = 'Bearer '.$this->getConfig('authorization');
+        $headers[self::HDR_AUTHORIZATION] = 'Bearer ' . $this->getConfig('authorization');
 
         // Add optional headers.
         if ($this->getConfig('marketplaceId')) {

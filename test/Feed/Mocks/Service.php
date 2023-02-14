@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Feed\Mocks;
 
 use DTS\eBaySDK\Feed\Services\FeedBaseService;
@@ -8,11 +9,10 @@ class Service extends FeedBaseService
 {
     protected static $operations = [
         'testOperation' => [
-            'method' => 'GET',
-            'resource' => 'item/{item_id}',
+            'method'        => 'GET',
+            'resource'      => 'item/{item_id}',
             'responseClass' => '\DTS\eBaySDK\Test\Mocks\ComplexClass',
-            'params' => [
-            ]
+            'params'        => []
         ]
     ];
 

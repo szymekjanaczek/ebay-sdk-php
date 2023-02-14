@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -9,7 +10,7 @@ class DebuggerTest extends TestCase
     public function testOutputsDebugInformation(): void
     {
         $str = '';
-        $logfn = static function ($value) use (&$str) : void {
+        $logfn = static function ($value) use (&$str): void {
             $str .= $value;
         };
 
@@ -36,7 +37,7 @@ X-EBAY-API-DEV-NAME: devname
 EOT;
 
         $str = '';
-        $logfn = static function ($value) use (&$str) : void {
+        $logfn = static function ($value) use (&$str): void {
             $str .= $value;
         };
 
@@ -65,14 +66,14 @@ X-EBAY-SOA-SECURITY-TOKEN: token
 EOT;
 
         $str = '';
-        $logfn = static function ($value) use (&$str) : void {
+        $logfn = static function ($value) use (&$str): void {
             $str .= $value;
         };
 
         $d = new Debugger([
-            'logfn' => $logfn,
+            'logfn'         => $logfn,
             'scrub_strings' => [
-                '/email@example.com/' => 'REDACTED_EMAIL',
+                '/email@example.com/'     => 'REDACTED_EMAIL',
                 '/<itemId>\d+<\/itemId>/' => 'REDACTED_ITEM_ID'
             ]
         ]);

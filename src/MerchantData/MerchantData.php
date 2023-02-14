@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\MerchantData;
 
 use DTS\eBaySDK\Parser\XmlParser;
@@ -20,6 +21,7 @@ use DTS\eBaySDK\MerchantData\Types\SoldReportResponseType;
 use DTS\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType;
 use DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType;
 use DTS\eBaySDK\MerchantData\Types\VerifyAddItemResponseType;
+
 /**
  * Unlike other services there is no MerchantData service class as all operations
  * are performed via other services.

@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\OAuth\Types;
 
 use DTS\eBaySDK\Types\BaseType;
@@ -16,7 +17,7 @@ use DTS\eBaySDK\HttpHeadersTrait;
  * @property string $error_description
  * @property string $error_uri
  */
-class GetUserTokenRestResponse  extends BaseType
+class GetUserTokenRestResponse extends BaseType
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -25,52 +26,52 @@ class GetUserTokenRestResponse  extends BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static array $propertyTypes = [
-        'access_token' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'access_token'             => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'access_token'
         ],
-        'token_type' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'token_type'               => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'token_type'
         ],
-        'expires_in' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'expires_in'               => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'expires_in'
         ],
-        'refresh_token' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'refresh_token'            => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refresh_token'
         ],
         'refresh_token_expires_in' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'refresh_token_expires_in'
         ],
-        'error' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'error'                    => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'error'
         ],
-        'error_description' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'error_description'        => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'error_description'
         ],
-        'error_uri' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'error_uri'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'error_uri'
         ]
     ];

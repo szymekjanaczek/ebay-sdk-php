@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK;
 
 use InvalidArgumentException;
+
 /**
  * @internal Resolves and validates an associative array of configuration options.
  */
@@ -16,11 +18,11 @@ class ConfigurationResolver
      * @var array Map of type to function that confirms type.
      */
     private static array $typeMap = [
-        'array' => 'is_array',
-        'bool' => 'is_bool',
+        'array'    => 'is_array',
+        'bool'     => 'is_bool',
         'callable' => 'is_callable',
-        'int' => 'is_int',
-        'string' => 'is_string'
+        'int'      => 'is_int',
+        'string'   => 'is_string'
     ];
 
     /**
@@ -132,7 +134,8 @@ class ConfigurationResolver
         $missing = [];
 
         foreach ($this->definitions as $key => $def) {
-            if (empty($def['required'])
+            if (
+                empty($def['required'])
                 || isset($def['default'])
                 || array_key_exists($key, $configuration)
             ) {

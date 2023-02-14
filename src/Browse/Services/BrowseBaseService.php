@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\Browse\Services;
 
 use DTS\eBaySDK\Services\BaseRestService;
+
 /**
  * Base class for the Browse service.
  */
@@ -43,29 +45,30 @@ class BrowseBaseService extends BaseRestService
      *
      * @return array{affiliateCampaignId: array{valid: string[]}, affiliateReferenceId: array{valid: string[]}, apiVersion: array{valid: string[], default: string, required: true}, authorization: array{valid: string[], required: true}, contextualLocation: array{valid: string[]}, marketplaceId: array{valid: string[]}, compressResponse: array{valid: string[], default: false}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: array{http_errors: false}}, requestLanguage: array{valid: string[]}, responseLanguage: array{valid: string[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions(): array    {
+    public static function getConfigDefinitions(): array
+    {
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'affiliateCampaignId' => [
+            'affiliateCampaignId'  => [
                 'valid' => ['string']
             ],
             'affiliateReferenceId' => [
                 'valid' => ['string']
             ],
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => BrowseService::API_VERSION,
+            'apiVersion'           => [
+                'valid'    => ['string'],
+                'default'  => BrowseService::API_VERSION,
                 'required' => true
             ],
-            'authorization' => [
-                'valid' => ['string'],
+            'authorization'        => [
+                'valid'    => ['string'],
                 'required' => true
             ],
-            'contextualLocation' => [
+            'contextualLocation'   => [
                 'valid' => ['string']
             ],
-            'marketplaceId' => [
+            'marketplaceId'        => [
                 'valid' => ['string']
             ]
         ];
@@ -81,7 +84,7 @@ class BrowseBaseService extends BaseRestService
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_AUTHORIZATION] = 'Bearer '.$this->getConfig('authorization');
+        $headers[self::HDR_AUTHORIZATION] = 'Bearer ' . $this->getConfig('authorization');
 
         // Add optional headers.
         if ($this->getConfig('marketplaceId')) {
@@ -90,15 +93,15 @@ class BrowseBaseService extends BaseRestService
 
         $endUserCTX = [];
         if ($this->getConfig('affiliateCampaignId')) {
-            $endUserCTX[ ] = 'affiliateCampaignId='.$this->getConfig('affiliateCampaignId');
+            $endUserCTX[ ] = 'affiliateCampaignId=' . $this->getConfig('affiliateCampaignId');
         }
 
         if ($this->getConfig('affiliateReferenceId')) {
-            $endUserCTX[ ] = 'affiliateReferenceId='.$this->getConfig('affiliateReferenceId');
+            $endUserCTX[ ] = 'affiliateReferenceId=' . $this->getConfig('affiliateReferenceId');
         }
 
         if ($this->getConfig('contextualLocation')) {
-            $endUserCTX[ ] = 'contextualLocation='.$this->getConfig('contextualLocation');
+            $endUserCTX[ ] = 'contextualLocation=' . $this->getConfig('contextualLocation');
         }
 
         if (count($endUserCTX)) {

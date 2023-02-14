@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class BaseRestService extends \DTS\eBaySDK\Services\BaseRestService
@@ -19,8 +20,8 @@ class BaseRestService extends \DTS\eBaySDK\Services\BaseRestService
 
         return $definitions + [
             'apiVersion' => [
-                'valid' => ['string'],
-                'default' => 'v1',
+                'valid'    => ['string'],
+                'default'  => 'v1',
                 'required' => true
             ]
         ];

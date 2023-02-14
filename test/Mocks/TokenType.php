@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class TokenType extends \DTS\eBaySDK\Types\TokenType

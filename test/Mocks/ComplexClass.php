@@ -1,25 +1,26 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class ComplexClass extends SimpleClass
 {
     private static array $propertyTypes = [
-        'foo' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'foo'           => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'foo'
         ],
-        'AmountClass' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\AmountClass',
-            'repeatable' => false,
-            'attribute' => false,
+        'AmountClass'   => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\AmountClass',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'AmountClass'
         ],
         'simpleClasses' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\SimpleClass',
-            'repeatable' => true,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Test\Mocks\SimpleClass',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'simpleClasses'
         ]
     ];

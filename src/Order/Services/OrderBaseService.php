@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\Order\Services;
 
 use DTS\eBaySDK\Services\BaseRestService;
+
 /**
  * Base class for the Order service.
  */
@@ -43,20 +45,21 @@ class OrderBaseService extends BaseRestService
      *
      * @return array{apiVersion: array{valid: string[], default: string, required: true}, authorization: array{valid: string[], required: true}, marketplaceId: array{valid: string[]}, riskCorrelationId: array{valid: string[]}, compressResponse: array{valid: string[], default: false}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: array{http_errors: false}}, requestLanguage: array{valid: string[]}, responseLanguage: array{valid: string[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions(): array    {
+    public static function getConfigDefinitions(): array
+    {
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => OrderService::API_VERSION,
+            'apiVersion'        => [
+                'valid'    => ['string'],
+                'default'  => OrderService::API_VERSION,
                 'required' => true
             ],
-            'authorization' => [
-                'valid' => ['string'],
+            'authorization'     => [
+                'valid'    => ['string'],
                 'required' => true
             ],
-            'marketplaceId' => [
+            'marketplaceId'     => [
                 'valid' => ['string']
             ],
             'riskCorrelationId' => [
@@ -75,7 +78,7 @@ class OrderBaseService extends BaseRestService
         $headers = [];
 
         // Add required headers first.
-        $headers[self::HDR_AUTHORIZATION] = 'Bearer '.$this->getConfig('authorization');
+        $headers[self::HDR_AUTHORIZATION] = 'Bearer ' . $this->getConfig('authorization');
 
         // Add optional headers.
         if ($this->getConfig('marketplaceId')) {
@@ -83,7 +86,7 @@ class OrderBaseService extends BaseRestService
         }
 
         if ($this->getConfig('riskCorrelationId')) {
-            $headers[self::HDR_END_USER_CTX ] = 'deviceId='.$this->getConfig('riskCorrelationId');
+            $headers[self::HDR_END_USER_CTX ] = 'deviceId=' . $this->getConfig('riskCorrelationId');
         }
 
         return $headers;

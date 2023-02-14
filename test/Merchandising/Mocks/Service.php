@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Merchandising\Mocks;
 
 use DTS\eBaySDK\Merchandising\Services\MerchandisingBaseService;

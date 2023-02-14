@@ -1,182 +1,184 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 use DTS\eBaySDK\Types\BaseType;
+
 class SimpleClass extends BaseType
 {
     private static array $propertyTypes = [
-        'integer' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => false,
+        'integer'               => [
+            'type'        => 'integer',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'integer'
         ],
-        'string' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => false,
+        'string'                => [
+            'type'        => 'string',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'string'
         ],
-        'double' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => false,
+        'double'                => [
+            'type'        => 'double',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'double'
         ],
-        'booleanTrue' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'booleanTrue'           => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'booleanTrue'
         ],
-        'booleanFalse' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => false,
+        'booleanFalse'          => [
+            'type'        => 'boolean',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'booleanFalse'
         ],
-        'DateTime' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => false,
+        'DateTime'              => [
+            'type'        => 'DateTime',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'DateTime'
         ],
-        'SimpleClass' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\SimpleClass',
-            'repeatable' => false,
-            'attribute' => false,
+        'SimpleClass'           => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\SimpleClass',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'SimpleClass'
         ],
-        'strings' => [
-            'type' => 'string',
-            'repeatable' => true,
-            'attribute' => false,
+        'strings'               => [
+            'type'        => 'string',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'strings'
         ],
-        'integers' => [
-            'type' => 'integer',
-            'repeatable' => true,
-            'attribute' => false,
+        'integers'              => [
+            'type'        => 'integer',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'integers'
         ],
-        'base64BinaryType' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\Base64BinaryType',
-            'repeatable' => false,
-            'attribute' => false,
+        'base64BinaryType'      => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\Base64BinaryType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'base64BinaryType'
         ],
-        'booleanType' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\BooleanType',
-            'repeatable' => false,
-            'attribute' => false,
+        'booleanType'           => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\BooleanType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'booleanType'
         ],
-        'decimalType' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\DecimalType',
-            'repeatable' => false,
-            'attribute' => false,
+        'decimalType'           => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\DecimalType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decimalType'
         ],
-        'doubleType' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\DoubleType',
-            'repeatable' => false,
-            'attribute' => false,
+        'doubleType'            => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\DoubleType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'doubleType'
         ],
-        'integerType' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\IntegerType',
-            'repeatable' => false,
-            'attribute' => false,
+        'integerType'           => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\IntegerType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'integerType'
         ],
-        'stringType' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\StringType',
-            'repeatable' => false,
-            'attribute' => false,
+        'stringType'            => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\StringType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'stringType'
         ],
-        'tokenType' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\TokenType',
-            'repeatable' => false,
-            'attribute' => false,
+        'tokenType'             => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\TokenType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'tokenType'
         ],
-        'uriType' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\URIType',
-            'repeatable' => false,
-            'attribute' => false,
+        'uriType'               => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\URIType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'uriType'
         ],
-        'IntegerAttribute' => [
-            'type' => 'integer',
-            'repeatable' => false,
-            'attribute' => true,
+        'IntegerAttribute'      => [
+            'type'          => 'integer',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'IntegerAttribute'
         ],
-        'doubleAttribute' => [
-            'type' => 'double',
-            'repeatable' => false,
-            'attribute' => true,
+        'doubleAttribute'       => [
+            'type'          => 'double',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'doubleAttribute'
         ],
-        'BooleanTrueAttribute' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => true,
+        'BooleanTrueAttribute'  => [
+            'type'          => 'boolean',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'BooleanTrueAttribute'
         ],
         'booleanFalseAttribute' => [
-            'type' => 'boolean',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'boolean',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'booleanFalseAttribute'
         ],
-        'DateTimeAttribute' => [
-            'type' => 'DateTime',
-            'repeatable' => false,
-            'attribute' => true,
+        'DateTimeAttribute'     => [
+            'type'          => 'DateTime',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'DateTimeAttribute'
         ],
-        'decimalTypes' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\DecimalType',
-            'repeatable' => true,
-            'attribute' => false,
+        'decimalTypes'          => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\DecimalType',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'decimalTypes'
         ],
         'decimalTypePosInteger' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\DecimalType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Test\Mocks\DecimalType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decimalTypePosInteger'
         ],
-        'decimalTypePosFloat' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\DecimalType',
-            'repeatable' => false,
-            'attribute' => false,
+        'decimalTypePosFloat'   => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\DecimalType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decimalTypePosFloat'
         ],
         'decimalTypeNegInteger' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\DecimalType',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\Test\Mocks\DecimalType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decimalTypeNegInteger'
         ],
-        'decimalTypeNegFloat' => [
-            'type' => 'DTS\eBaySDK\Test\Mocks\DecimalType',
-            'repeatable' => false,
-            'attribute' => false,
+        'decimalTypeNegFloat'   => [
+            'type'        => 'DTS\eBaySDK\Test\Mocks\DecimalType',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'decimalTypeNegFloat'
         ],
-        'anyType' => [
-            'type' => 'any',
-            'repeatable' => false,
-            'attribute' => false,
+        'anyType'               => [
+            'type'        => 'any',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'anyType'
         ],
-        'anyTypes' => [
-            'type' => 'any',
-            'repeatable' => true,
-            'attribute' => false,
+        'anyTypes'              => [
+            'type'        => 'any',
+            'repeatable'  => true,
+            'attribute'   => false,
             'elementName' => 'anyTypes'
         ]
     ];

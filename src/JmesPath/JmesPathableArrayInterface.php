@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2016 David T. Sadler, https://github.com/davidtsadler
  *
@@ -20,11 +21,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 use ArrayAccess;
 use Countable;
 use Iterator;
+
 interface JmesPathableArrayInterface extends ArrayAccess, Countable, Iterator
 {
 }

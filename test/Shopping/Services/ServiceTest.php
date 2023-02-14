@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Shopping\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -20,8 +21,8 @@ class ServiceTest extends TestCase
 
         $this->assertArrayHasKey('apiVersion', $d);
         $this->assertEquals([
-            'valid' => ['string'],
-            'default' => ShoppingService::API_VERSION,
+            'valid'    => ['string'],
+            'default'  => ShoppingService::API_VERSION,
             'required' => true
         ], $d['apiVersion']);
 
@@ -46,7 +47,7 @@ class ServiceTest extends TestCase
         $h = new HttpHandler();
 
         $s = new Service([
-            'apiVersion' => '123',
+            'apiVersion'  => '123',
             'credentials' => ['appId' => '321', 'certId' => '', 'devId' => ''],
             'httpHandler' => $h
         ]);
@@ -78,12 +79,12 @@ class ServiceTest extends TestCase
         $h = new HttpHandler();
 
         $s = new Service([
-            'affiliateUserId' => '666',
-            'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'siteId' => 0,
-            'trackingId' => '888',
+            'affiliateUserId'     => '666',
+            'credentials'         => ['appId' => '', 'certId' => '', 'devId' => ''],
+            'siteId'              => 0,
+            'trackingId'          => '888',
             'trackingPartnerCode' => '777',
-            'httpHandler' => $h
+            'httpHandler'         => $h
         ]);
 
         $s->testOperation();

@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 use DTS\eBaySDK\Types\BaseType;
+
 /**
  *
  * @property string href
@@ -13,9 +15,9 @@ class XopInclude extends BaseType
      */
     private static array $propertyTypes = [
         'href' => [
-            'type' => 'string',
-            'repeatable' => false,
-            'attribute' => true,
+            'type'          => 'string',
+            'repeatable'    => false,
+            'attribute'     => true,
             'attributeName' => 'href'
         ]
     ];

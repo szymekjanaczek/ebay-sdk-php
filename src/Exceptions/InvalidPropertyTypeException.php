@@ -1,8 +1,10 @@
 <?php
+
 namespace DTS\eBaySDK\Exceptions;
 
 use LogicException;
 use Exception;
+
 /**
  * The property was assigned a value of the wrong type.
  */

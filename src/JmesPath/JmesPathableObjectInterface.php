@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2016 David T. Sadler, https://github.com/davidtsadler
  *
@@ -20,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 interface JmesPathableObjectInterface

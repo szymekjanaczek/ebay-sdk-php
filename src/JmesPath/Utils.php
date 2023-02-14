@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2014 Michael Dowling, https://github.com/mtdowling
  *
@@ -20,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 use stdClass;
@@ -28,6 +30,7 @@ use Closure;
 use ArrayAccess;
 use Countable;
 use RuntimeException;
+
 class Utils
 {
     static $typeMap = [
@@ -86,7 +89,8 @@ class Utils
             return 'object';
         } elseif ($arg instanceof Closure) {
             return 'expression';
-        } elseif ($arg instanceof ArrayAccess
+        } elseif (
+            $arg instanceof ArrayAccess
             && $arg instanceof Countable
         ) {
             return count($arg) == 0 || $arg->offsetExists(0)
@@ -193,7 +197,7 @@ class Utils
     public static function stableSort(array $data, callable $sortFn): array
     {
         // Decorate each item by creating an array of [value, index]
-        array_walk($data, static function (&$v, $k) : void {
+        array_walk($data, static function (&$v, $k): void {
             $v = [$v, $k];
         });
         // Sort by the sort function and use the index as a tie-breaker

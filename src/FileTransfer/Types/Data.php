@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\FileTransfer\Types;
 
 use DTS\eBaySDK\Types\BaseType;
+
 /**
  *
  * @property XopInclude $xopInclude
@@ -13,9 +15,9 @@ class Data extends BaseType
      */
     private static array $propertyTypes = [
         'xopInclude' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\XopInclude',
-            'repeatable' => false,
-            'attribute' => false,
+            'type'        => 'DTS\eBaySDK\FileTransfer\Types\XopInclude',
+            'repeatable'  => false,
+            'attribute'   => false,
             'elementName' => 'xop:Include'
         ]
     ];

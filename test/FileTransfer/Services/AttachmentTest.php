@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\FileTransfer\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -17,7 +18,7 @@ class AttachmentTest extends TestCase
         $h = new HttpHandler();
 
         $s = new FileTransferService([
-            'authToken' => '321',
+            'authToken'   => '321',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
             'httpHandler' => $h
         ]);

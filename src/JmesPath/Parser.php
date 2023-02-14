@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (c) 2014 Michael Dowling, https://github.com/mtdowling
  *
@@ -20,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 namespace DTS\eBaySDK\JmesPath;
 
 use BadMethodCallException;
@@ -68,7 +70,7 @@ class Parser
         T::T_NOT               => 45,
         T::T_LBRACE            => 50,
         T::T_LBRACKET          => 55,
-        T::T_LPAREN            => 60,
+        T::T_LPAREN            => 60
     ];
 
     /** @var array Acceptable tokens after a dot token */
@@ -78,7 +80,7 @@ class Parser
         T::T_STAR              => true, // foo.*
         T::T_LBRACE            => true, // foo[1]
         T::T_LBRACKET          => true, // foo{a: 0}
-        T::T_FILTER            => true, // foo.[?bar==10]
+        T::T_FILTER            => true // foo.[?bar==10]
     ];
 
     /**
@@ -190,7 +192,8 @@ class Parser
         return ['type' => T::T_NOT, 'children' => [$this->expr(self::$bp[T::T_NOT])]];
     }
 
-    private function nud_lparen() {
+    private function nud_lparen()
+    {
         $this->next();
         $result = $this->expr(0);
         if ($this->token['type'] !== T::T_RPAREN) {
@@ -267,7 +270,7 @@ class Parser
             case T::T_NUMBER:
             case T::T_COLON:
                 return [
-                    'type' => 'subexpression',
+                    'type'     => 'subexpression',
                     'children' => [$left, $this->parseArrayIndexExpression()]
                 ];
             default:
@@ -381,12 +384,12 @@ class Parser
         $rhs = $this->parseProjection(self::$bp[T::T_FILTER]);
 
         return [
-            'type'       => 'projection',
-            'from'       => 'array',
-            'children'   => [
+            'type'     => 'projection',
+            'from'     => 'array',
+            'children' => [
                 $left ?: self::$currentNode,
                 [
-                    'type' => 'condition',
+                    'type'     => 'condition',
                     'children' => [$expression, $rhs]
                 ]
             ]
@@ -399,8 +402,8 @@ class Parser
     private function led_comparator(array $left): array
     {
         $data = [
-            'type'     => T::T_COMPARATOR,
-            'value'    => $this->token['value'],
+            'type'  => T::T_COMPARATOR,
+            'value' => $this->token['value']
         ];
 
         $this->next();
@@ -602,11 +605,11 @@ class Parser
             $token = substr($method, 4);
             $message = "Unexpected \"$token\" token ($method). Expected one of"
                 . " the following tokens: "
-                . implode(', ', array_map(static function ($i) : string {
+                . implode(', ', array_map(static function ($i): string {
                     return '"' . substr($i, 4) . '"';
                 }, array_filter(
                     get_class_methods($this),
-                    static function ($i) use ($prefix) : bool {
+                    static function ($i) use ($prefix): bool {
                         return strpos($i, $prefix) === 0;
                     }
                 )));

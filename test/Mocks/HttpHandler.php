@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 use function GuzzleHttp\Psr7\stream_for;
+
 use Psr\Http\Message\RequestInterface;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Response;
@@ -34,9 +36,9 @@ class HttpHandler
         // Return a fake XML response.
         $xml = file_get_contents(
             $this->returnAttachment ?
-            __DIR__.'/../Mocks/AttachmentRequestResponse.xml'
+            __DIR__ . '/../Mocks/AttachmentRequestResponse.xml'
             :
-            __DIR__.'/../Mocks/Response.xml'
+            __DIR__ . '/../Mocks/Response.xml'
         );
 
         return new FulfilledPromise(new Response(200, [], stream_for($xml)));

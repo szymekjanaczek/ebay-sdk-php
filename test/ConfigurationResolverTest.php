@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -12,34 +13,34 @@ class ConfigurationResolverTest extends TestCase
     public function testDefaults(): void
     {
         $r = new ConfigurationResolver([
-            'array' => [
-                'valid' => ['array'],
+            'array'    => [
+                'valid'   => ['array'],
                 'default' => ['foo']
             ],
-            'bool' => [
-                'valid' => ['bool'],
+            'bool'     => [
+                'valid'   => ['bool'],
                 'default' => true
             ],
             'callable' => [
-                'valid' => ['int'],
+                'valid'   => ['int'],
                 'default' => [StaticMethods::class, 'defaultConfigValue']
             ],
-            'int' => [
-                'valid' => ['int'],
+            'int'      => [
+                'valid'   => ['int'],
                 'default' => -1
             ],
-            'string' => [
-                'valid' => ['string'],
+            'string'   => [
+                'valid'   => ['string'],
                 'default' => 'foo'
             ]
         ]);
 
         $this->assertEquals($r->resolve([]), [
-            'array' => ['foo'],
-            'bool' => true,
+            'array'    => ['foo'],
+            'bool'     => true,
             'callable' => -1,
-            'int' => -1,
-            'string' => 'foo',
+            'int'      => -1,
+            'string'   => 'foo'
         ]);
     }
 
@@ -47,7 +48,7 @@ class ConfigurationResolverTest extends TestCase
     {
         $r = new ConfigurationResolver([
             'foo' => [
-                'valid' => ['int'],
+                'valid'    => ['int'],
                 'required' => true
             ]
         ]);
@@ -151,34 +152,34 @@ class ConfigurationResolverTest extends TestCase
     public function testAllowsValid(): void
     {
         $r = new ConfigurationResolver([
-            'array' => [
+            'array'    => [
                 'valid' => ['array']
             ],
-            'bool' => [
+            'bool'     => [
                 'valid' => ['bool']
             ],
             'callable' => [
                 'valid' => ['callable']
             ],
-            'int' => [
+            'int'      => [
                 'valid' => ['int']
             ],
             'stdClass' => [
                 'valid' => ['StdClass']
             ],
-            'string' => [
+            'string'   => [
                 'valid' => ['string']
             ]
         ]);
 
         $options = [
-            'array' => [],
-            'bool' => true,
-            'callable' => static function () : void {
+            'array'    => [],
+            'bool'     => true,
+            'callable' => static function (): void {
             },
-            'int' => 1,
+            'int'      => 1,
             'stdClass' => new stdClass(),
-            'string' => 'foo'
+            'string'   => 'foo'
         ];
 
         $this->assertEquals($r->resolve($options), $options);
@@ -189,7 +190,7 @@ class ConfigurationResolverTest extends TestCase
         $r = new ConfigurationResolver([
             'foo' => [
                 'valid' => ['int'],
-                'fn' => [StaticMethods::class, 'applyConfigValue']
+                'fn'    => [StaticMethods::class, 'applyConfigValue']
             ]
         ]);
         $this->assertEquals($r->resolve(['foo' => 1]), ['foo' => 3]);

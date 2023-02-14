@@ -1,7 +1,9 @@
 <?php
+
 namespace DTS\eBaySDK\Shopping\Services;
 
 use DTS\eBaySDK\Services\BaseService;
+
 /**
  * Base class for the Shopping service.
  */
@@ -60,22 +62,23 @@ class ShoppingBaseService extends BaseService
      *
      * @return array{affiliateUserId: array{valid: string[]}, apiVersion: array{valid: string[], default: string, required: true}, siteId: array{valid: string[]}, trackingId: array{valid: string[]}, trackingPartnerCode: array{valid: string[]}, profile: array{valid: string[], fn: string}, compressResponse: array{valid: string[], default: false}, credentials: array{valid: string[], fn: string, default: string[]}, debug: array{valid: string[], fn: string, default: false}, httpHandler: array{valid: string[], default: string}, httpOptions: array{valid: string[], default: never[]}, sandbox: array{valid: string[], default: false}} An associative array of configuration definitions.
      */
-    public static function getConfigDefinitions(): array    {
+    public static function getConfigDefinitions(): array
+    {
         $definitions = parent::getConfigDefinitions();
 
         return $definitions + [
-            'affiliateUserId' => [
+            'affiliateUserId'     => [
                 'valid' => ['string']
             ],
-            'apiVersion' => [
-                'valid' => ['string'],
-                'default' => ShoppingService::API_VERSION,
+            'apiVersion'          => [
+                'valid'    => ['string'],
+                'default'  => ShoppingService::API_VERSION,
                 'required' => true
             ],
-            'siteId' => [
+            'siteId'              => [
                 'valid' => ['int', 'string']
             ],
-            'trackingId' => [
+            'trackingId'          => [
                 'valid' => ['string']
             ],
             'trackingPartnerCode' => [

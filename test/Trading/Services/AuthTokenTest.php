@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Trading\Services;
 
 use PHPUnit\Framework\TestCase;
@@ -10,14 +11,13 @@ use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class AuthTokenTest extends TestCase
 {
-
     public function testAuthTokenIsUsedInRequst(): void
     {
         $s = new TradingService([
-            'apiVersion' => '',
-            'authToken' => '321',
+            'apiVersion'  => '',
+            'authToken'   => '321',
             'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'siteId' => 0,
+            'siteId'      => 0,
             'httpHandler' => new HttpHandler()
         ]);
 
@@ -48,12 +48,12 @@ class AuthTokenTest extends TestCase
     public function testAuthTokenIsNotUsedInRequst(): void
     {
         $s = new TradingService([
-            'apiVersion' => '',
+            'apiVersion'    => '',
             'authorization' => '123',
-            'authToken' => '321',
-            'credentials' => ['appId' => '', 'certId' => '', 'devId' => ''],
-            'siteId' => 0,
-            'httpHandler' => new HttpHandler()
+            'authToken'     => '321',
+            'credentials'   => ['appId' => '', 'certId' => '', 'devId' => ''],
+            'siteId'        => 0,
+            'httpHandler'   => new HttpHandler()
         ]);
 
         /**

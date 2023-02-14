@@ -1,4 +1,5 @@
 <?php
+
 namespace DTS\eBaySDK\Test\Mocks;
 
 class URIType extends \DTS\eBaySDK\Types\URIType
