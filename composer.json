@@ -26,7 +26,7 @@
         "ext-libxml": "*",
         "ext-xmlwriter": "*",
         "guzzlehttp/guzzle": "^7.5.0",
-        "guzzlehttp/psr7": "^1.9",
+        "guzzlehttp/psr7": "^2.4.3",
         "guzzlehttp/promises": "^1.5.2"
     },
     "require-dev": {
