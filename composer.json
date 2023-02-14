@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "php-64bit": "^8.2",
+        "php-64bit": "^8.0",
         "ext-curl": "*",
         "ext-libxml": "*",
         "ext-xmlwriter": "*",
