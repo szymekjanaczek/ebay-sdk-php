@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<ruleset>
+  <description>The coding standard for our project.</description>
+
+  <rule ref="PSR12" />
+
+  <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace" />
+  <rule ref="PSR1.Files.SideEffects.FoundWithSymbols" />
+  <rule ref="Generic.Files.LineLength.TooLong" />
+  <rule ref="Generic.WhiteSpace.ScopeIndent.Incorrect" />
+  <rule ref="Generic.WhiteSpace.ScopeIndent.IncorrectExact" />
+
+  <rule ref="Squiz.Arrays.ArrayDeclaration.DoubleArrowNotAligned" />
+
+  <rule ref="NormalizedArrays.Arrays.ArrayBraceSpacing" />
+  <rule ref="NormalizedArrays.Arrays.CommaAfterLast">
+    <properties>
+      <property name="multiLine" value="forbid" />
+    </properties>
+  </rule>
+  <rule ref="Universal.Arrays.DuplicateArrayKey" />
+  <rule ref="Universal.Arrays.MixedArrayKeyTypes">
+    <!-- assertJsonStructure often has mix of keyed and unkeyed value. -->
+    <exclude-pattern>test</exclude-pattern>
+  </rule>
+  <rule ref="Universal.Arrays.MixedKeyedUnkeyedArray">
+    <!-- assertJsonStructure often has mix of keyed and unkeyed value. -->
+    <exclude-pattern>test</exclude-pattern>
+  </rule>
+  <rule ref="Universal.Constants.UppercaseMagicConstants" />
+  <rule ref="Universal.Namespaces.DisallowCurlyBraceSyntax" />
+  <rule ref="Universal.Namespaces.OneDeclarationPerFile" />
+  <rule ref="Universal.Operators.DisallowLogicalAndOr" />
+  <rule ref="Universal.Operators.DisallowShortTernary" />
+  <rule ref="Universal.UseStatements.NoLeadingBackslash" />
+
+  <!-- Directories -->
+  <file>src</file>
+  <file>test</file>
+
+  <!-- Arguments -->
+  <arg name="extensions" value="php" />
+  <arg name="colors" />
+
+  <!-- Show progress -->
+  <arg value="p" />
+
+  <!-- Show sniff codes in reports -->
+  <arg value="s" />
+</ruleset>
